@@ -112,11 +112,23 @@
   a:hover { text-decoration: underline; }
   .small { font-size: 0.88em; color: #555; }
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 320px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
   @media print {
     html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
     body { max-width: none; padding: 0; }
     .report-container { max-width: none; }
     .table-of-contents { display: none; }
+    /* The Contents row is screen-only navigation; its decorative motif
+       goes with it rather than floating at the top of the printed report. */
+    .toc-figure { display: none; }
 
     /* Keep headings attached to the content that follows them */
     h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
@@ -128,7 +140,7 @@
     /* Small atomic blocks that comfortably fit on one page: never split */
     .snapshot-card, .si-item, .cluster-implication, .counter-argument,
     .weak-signals, .scenario-cell, .opportunity-card, .exclusion-item,
-    .stress-test-box, .pullquote {
+    .stress-test-box, .pullquote, .report-figure {
       break-inside: avoid; page-break-inside: avoid;
     }
 
@@ -164,6 +176,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 <span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 24 min full read</span>
 </div>
 
+<div class="toc-row">
 <div class="table-of-contents">
 <h3>Contents</h3>
 <ul>
@@ -178,6 +191,27 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
   <li><a href="#section-source-register">9. Source Confidence Register</a></li>
 </ul>
 </div>
+<div class="toc-figure">
+<svg viewBox="0 0 320 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An abstract motif of two paths diverging from a common origin, echoing the report's theme of two markets pulling apart.">
+  <g fill="none" stroke-linecap="round">
+    <path d="M 102.9 86.8 A 85 85 0 0 1 102.9 213.2" stroke="#e3e6ec" stroke-width="1.5"/>
+    <path d="M 136.3 49.7 A 135 135 0 0 1 136.3 250.3" stroke="#e8eaf0" stroke-width="1.5"/>
+    <path d="M 169.8 12.5 A 185 185 0 0 1 169.8 287.5" stroke="#eef0f4" stroke-width="1.5"/>
+    <path d="M 46 150 C 130 150 175 205 286 245" stroke="#1a237e" stroke-width="3"/>
+    <path d="M 46 150 C 130 150 175 95 286 55" stroke="#0382FC" stroke-width="3"/>
+    <path d="M 286 245 L 312 257" stroke="#1a237e" stroke-width="3" stroke-dasharray="1,6"/>
+    <path d="M 286 55 L 312 43" stroke="#0382FC" stroke-width="3" stroke-dasharray="1,6"/>
+  </g>
+  <circle cx="166" cy="188" r="4" fill="#1a237e"/>
+  <circle cx="166" cy="112" r="4" fill="#0382FC"/>
+  <circle cx="286" cy="245" r="5.5" fill="#1a237e"/>
+  <circle cx="286" cy="55" r="5.5" fill="#0382FC"/>
+  <circle cx="46" cy="150" r="13" fill="none" stroke="#1a237e" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="46" cy="150" r="7" fill="#1a237e"/>
+</svg>
+<p class="figure-caption">Two markets, pulling apart.</p>
+</div>
+</div>
 
 <a name="section-executive-synthesis"></a>
 <div class="executive-synthesis">
@@ -186,6 +220,42 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 <p><strong>Why these four themes.</strong> Brightsmith sits on a structural tailwind that is not in doubt: the energy transition needs people, and the people are scarce. The question this cycle is not whether demand exists but whether the firm is positioned for the shape demand is taking. Four themes capture that shape. The transition's capital is diverging by geography, pulling Brightsmith's two core markets apart. Artificial intelligence is commoditising the parts of the search workflow the firm has historically charged for. The green-skills shortage is both the firm's product and, increasingly, its ceiling. And the executive search industry itself is unbundling, shifting value from the retained search mandate toward modular, embedded and interim models. None of these is a one-year event; each is a two-to-five-year reshaping of the ground Brightsmith stands on.</p>
 
 <p>The headline numbers look reassuring and are, in one respect, misleading. Global energy transition investment hit a record $2.3 trillion in 2025, and the most-cited figures show both of Brightsmith's regions growing: the EU up 18% to $455 billion, the US up 3.5% to $378 billion (<a href="https://about.bnef.com/insights/clean-energy/bloombergnef-finds-global-energy-transition-investment-reached-record-2-3-trillion-in-2025-up-8-from-2024/">BloombergNEF</a>, January 2026). But the US figure is a trailing measure of capital already committed. The forward pipeline tells a different story: more than $24 billion of announced US clean energy investment and roughly 21,000 jobs were cancelled through September 2025, and the One Big Beautiful Bill Act has set construction-start deadlines that pull a cliff edge into mid-2026 (<a href="https://pv-magazine-usa.com/2025/10/22/over-24-billion-in-u-s-clean-energy-investment-and-21000-jobs-lost-in-2025/">pv magazine USA</a>, October 2025; <a href="https://www.lw.com/en/insights/one-big-beautiful-bill-new-law-disrupts-clean-energy-investment">Latham &amp; Watkins</a>, July 2025). Europe, by contrast, is adding structural support, not removing it: the Clean Industrial Deal mobilises over EUR 100 billion, and the Clean Energy Investment Strategy was adopted as recently as March 2026 (<a href="https://energy.ec.europa.eu/news/clean-industrial-deal-competitiveness-and-decarbonisation-eu-2025-02-26_en">European Commission</a>, February 2025). For a firm with hubs in London and Austin, that is one book with a tailwind and one book facing a headwind.</p>
+
+<div class="report-figure">
+<h4>Brightsmith's two markets are diverging</h4>
+<svg viewBox="0 0 720 282" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EU and US energy-transition investment, 2024 to 2025 actuals with a directional trajectory to 2027. The EU line rises while the US line turns down after 2025.">
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif">
+    <line x1="70" y1="82" x2="680" y2="82" stroke="#eef0f3" stroke-width="1"/>
+    <line x1="70" y1="158" x2="680" y2="158" stroke="#eef0f3" stroke-width="1"/>
+    <line x1="70" y1="235" x2="680" y2="235" stroke="#eef0f3" stroke-width="1"/>
+    <text x="62" y="86" font-size="10" fill="#5a6478" text-anchor="end">$500bn</text>
+    <text x="62" y="162" font-size="10" fill="#5a6478" text-anchor="end">$400bn</text>
+    <text x="62" y="239" font-size="10" fill="#5a6478" text-anchor="end">$300bn</text>
+    <line x1="70" y1="250" x2="680" y2="250" stroke="#c5cae9" stroke-width="1.5"/>
+    <line x1="469" y1="40" x2="469" y2="250" stroke="#c62828" stroke-width="1" stroke-dasharray="2,3" opacity="0.55"/>
+    <text x="474" y="48" font-size="9.5" fill="#c62828">OBBBA construction-start cliff, mid-2026</text>
+    <text x="95" y="266" font-size="10.5" fill="#5a6478" text-anchor="middle">2024</text>
+    <text x="282" y="266" font-size="10.5" fill="#5a6478" text-anchor="middle">2025</text>
+    <text x="469" y="266" font-size="10.5" fill="#5a6478" text-anchor="middle">2026</text>
+    <text x="656" y="266" font-size="10.5" fill="#5a6478" text-anchor="middle">2027</text>
+    <polyline points="95,169 282,116" fill="none" stroke="#1565c0" stroke-width="2.5"/>
+    <polyline points="282,116 469,82 656,51" fill="none" stroke="#1565c0" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <circle cx="95" cy="169" r="3.5" fill="#1565c0"/>
+    <circle cx="282" cy="116" r="3.5" fill="#1565c0"/>
+    <polyline points="95,185 282,175" fill="none" stroke="#c62828" stroke-width="2.5"/>
+    <polyline points="282,175 469,204 656,231" fill="none" stroke="#c62828" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <circle cx="95" cy="185" r="3.5" fill="#c62828"/>
+    <circle cx="282" cy="175" r="3.5" fill="#c62828"/>
+    <text x="282" y="107" font-size="10" fill="#1565c0" font-weight="700" text-anchor="middle">$455bn</text>
+    <text x="282" y="194" font-size="10" fill="#c62828" font-weight="700" text-anchor="middle">$378bn</text>
+    <rect x="70" y="18" width="13" height="13" rx="2" fill="#1565c0"/>
+    <text x="89" y="29" font-size="11" fill="#2c3e50">EU (+18% in 2025)</text>
+    <rect x="210" y="18" width="13" height="13" rx="2" fill="#c62828"/>
+    <text x="229" y="29" font-size="11" fill="#2c3e50">US (+3.5% in 2025, forward pipeline contracting)</text>
+  </g>
+</svg>
+<p class="figure-caption">EU and US energy-transition investment. 2024 and 2025 are BloombergNEF actuals; the dashed segments are directional, illustrating the divergence the report describes, not a forecast.</p>
+</div>
 
 <div class="pullquote">The demand for Brightsmith's product has never been more structural. The shape of that demand, and the industry serving it, has never been less settled.</div>
 
@@ -245,10 +315,10 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 
 <a name="section-signal-clusters"></a>
 <h2>Signal Clusters</h2>
-<p class="signal-clusters-intro">The cycle's underlying signals are organised into eight clusters, ranked by impact on Brightsmith's near-term decisions. <strong style="color:#c62828;">Mandate-flow</strong>: changes the FY27 plan, the book mix or the proposition. <strong style="color:#f57c00;">Positioning</strong>: changes Brightsmith's competitive position over twelve months. <strong style="color:#2e7d32;">Horizon</strong>: multi-year structural shift to track and revisit each cycle.</p>
+<p class="signal-clusters-intro">The cycle's underlying signals are organised into eight clusters, ranked by impact on Brightsmith's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 plan, the book mix or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Brightsmith's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural shift to track and revisit each cycle.</p>
 
 <div class="signal-cluster tier-mandate">
-<div class="cluster-header"><h3>1. The US pipeline cliff and the Austin book</h3><span class="impact-tier mandate">Mandate-flow</span></div>
+<div class="cluster-header"><h3>1. The US pipeline cliff and the Austin book</h3><span class="impact-tier mandate">Immediate</span></div>
 <p class="cluster-framing">The US clean-energy market is not collapsing, but its forward pipeline is contracting in a way that the headline investment figure conceals. The One Big Beautiful Bill Act has repealed or narrowed clean-energy tax credits and set construction-start deadlines that concentrate a wave of decisions into mid-2026, after which a slower environment is expected. For Brightsmith's Austin hub, that means the originating engine of US mandates is weakening on exactly the 2-to-5-year horizon this report covers, even as 2025 revenue from already-committed projects looked healthy.</p>
 <div class="cluster-signals">
 <ul>
@@ -266,7 +336,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-positioning">
-<div class="cluster-header"><h3>2. Europe becomes the structurally supported book</h3><span class="impact-tier positioning">Positioning</span></div>
+<div class="cluster-header"><h3>2. Europe becomes the structurally supported book</h3><span class="impact-tier positioning">Near-Term</span></div>
 <p class="cluster-framing">While the US removes support, the EU is adding it, and doing so through legislated, multi-year instruments rather than rhetoric. The Clean Industrial Deal, the proposed Industrial Decarbonisation Bank and the March 2026 Clean Energy Investment Strategy together signal a European market that is not only growing but being deliberately de-risked for investors and developers. For a London-headquartered firm, this is the book to lean into, provided Brightsmith reads the demand at sub-sector and country granularity rather than as a single "European" bloc.</p>
 <div class="cluster-signals">
 <ul>
@@ -284,7 +354,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-mandate">
-<div class="cluster-header"><h3>3. AI commoditises the sourcing and market-intelligence layer</h3><span class="impact-tier mandate">Mandate-flow</span></div>
+<div class="cluster-header"><h3>3. AI commoditises the sourcing and market-intelligence layer</h3><span class="impact-tier mandate">Immediate</span></div>
 <p class="cluster-framing">The parts of executive search that involve identifying, mapping and screening candidates are being absorbed into AI tooling that any firm can buy. This is no longer a future trend: it is operational across the industry in 2026. For Brightsmith, the exposure is concrete because market intelligence is a named service line, and because clients now anchor their expectations to AI speed. The mandate-flow consequence is that the firm cannot price the research layer the way it once did, and must decide what it sells instead.</p>
 <div class="cluster-signals">
 <ul>
@@ -302,7 +372,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-positioning">
-<div class="cluster-header"><h3>4. Judgment and sector depth as the defensible margin</h3><span class="impact-tier positioning">Positioning</span></div>
+<div class="cluster-header"><h3>4. Judgment and sector depth as the defensible margin</h3><span class="impact-tier positioning">Near-Term</span></div>
 <p class="cluster-framing">As the processing layers commoditise, the value clients still pay a premium for is human: judgment on fit, the relationship that gives access to passive candidates, and genuine understanding of a sector's nuances. This is the part of the model Brightsmith's exclusive energy-transition focus and senior-led design are built around, which makes it the firm's strongest card. The positioning question is whether that depth is made legible to clients as the thing they are buying, or left implicit and therefore vulnerable to fee compression.</p>
 <div class="cluster-signals">
 <ul>
@@ -320,8 +390,34 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-mandate">
-<div class="cluster-header"><h3>5. The structural skills shortage is the tailwind</h3><span class="impact-tier mandate">Mandate-flow</span></div>
+<div class="cluster-header"><h3>5. The structural skills shortage is the tailwind</h3><span class="impact-tier mandate">Immediate</span></div>
 <p class="cluster-framing">The single largest fact in Brightsmith's favour is that the energy transition cannot be staffed at the pace it is being funded. This is not a cyclical tightness; it is a structural mismatch between how fast capital and projects are growing and how fast the skilled workforce is. Scarcity of this depth is precisely what makes a specialist talent partner valuable, and it sets the mandate-flow backdrop for the whole book. The constraint is most acute in exactly the technical and leadership roles Brightsmith focuses on.</p>
+<div class="report-figure">
+<h4>Demand is outpacing the green-skilled workforce</h4>
+<svg viewBox="0 0 720 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Green hiring is growing about 8 percent a year against a green-skilled workforce growing about 4.3 percent. The IEA estimates 40 percent more qualified entrants are needed by 2030.">
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif">
+    <text x="0" y="33" font-size="11.5" fill="#2c3e50">Green hiring growth</text>
+    <text x="0" y="48" font-size="9.5" fill="#5a6478">per year</text>
+    <rect x="150" y="20" width="224" height="30" rx="3" fill="#1565c0"/>
+    <text x="384" y="40" font-size="13" font-weight="700" fill="#1565c0">8.0%</text>
+    <text x="0" y="93" font-size="11.5" fill="#2c3e50">Green-skilled workforce</text>
+    <text x="0" y="108" font-size="9.5" fill="#5a6478">growth, per year</text>
+    <rect x="150" y="80" width="120" height="30" rx="3" fill="#90a4ae"/>
+    <text x="280" y="100" font-size="13" font-weight="700" fill="#607d8b">4.3%</text>
+    <line x1="150" y1="124" x2="430" y2="124" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="150" y="138" font-size="9" fill="#9aa3b2">0%</text>
+    <text x="430" y="138" font-size="9" fill="#9aa3b2" text-anchor="end">10% per year</text>
+    <rect x="470" y="14" width="250" height="116" rx="6" fill="#f7f5fb"/>
+    <rect x="470" y="14" width="4" height="116" fill="#1a237e"/>
+    <text x="490" y="52" font-size="34" font-weight="700" fill="#1a237e">40%</text>
+    <text x="490" y="74" font-size="11" fill="#2c3e50">more qualified entrants needed</text>
+    <text x="490" y="90" font-size="11" fill="#2c3e50">by 2030 just to stop the gap</text>
+    <text x="490" y="106" font-size="11" fill="#2c3e50">widening.</text>
+    <text x="490" y="123" font-size="9.5" font-style="italic" fill="#5a6478">IEA World Energy Employment 2025</text>
+  </g>
+</svg>
+<p class="figure-caption">Growth rates: LinkedIn 2025 Global Green Skills Report. Entrant gap: IEA World Energy Employment 2025.</p>
+</div>
 <div class="cluster-signals">
 <ul>
 <li>Global energy employment reached 76 million in 2024; more than half of 700 surveyed energy companies report critical hiring bottlenecks, and qualified entrants would need to rise 40% by 2030 to stop the gap widening. <a href="https://www.iea.org/reports/world-energy-employment-2025">IEA World Energy Employment 2025</a> (December 2025).</li>
@@ -338,7 +434,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-horizon">
-<div class="cluster-header"><h3>6. Scarcity pushes clients from buy to build</h3><span class="impact-tier horizon">Horizon</span></div>
+<div class="cluster-header"><h3>6. Scarcity pushes clients from buy to build</h3><span class="impact-tier horizon">Longer-Range</span></div>
 <p class="cluster-framing">When a leadership role genuinely cannot be filled from the external market, clients do not simply wait. They develop internal candidates, they bring in interim leaders to hold the role, and they restructure so the gap is less binding. Over a 2-to-5-year horizon, the depth of the green-skills shortage makes this behavioural shift near-certain. For Brightsmith, it is a horizon-tier signal rather than an immediate one, but it reshapes what clients will want to buy: less pure search, more advisory, embedded and interim support around the hard-to-fill mandate.</p>
 <div class="cluster-signals">
 <ul>
@@ -356,7 +452,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-positioning">
-<div class="cluster-header"><h3>7. The unbundling of search and the modular buyer</h3><span class="impact-tier positioning">Positioning</span></div>
+<div class="cluster-header"><h3>7. The unbundling of search and the modular buyer</h3><span class="impact-tier positioning">Near-Term</span></div>
 <p class="cluster-framing">The retained executive search mandate, sold as a single end-to-end engagement, is being unbundled. Clients increasingly want to buy a sourcing module, or an assessment module, or market intelligence, from a specialist, rather than the whole process from one firm. This is described as the defining industry trend of 2026, and it favours boutiques with genuine sector depth, which is Brightsmith's profile. But it also means the firm must decide whether to sell modules deliberately and price them, or watch clients disaggregate the work and award pieces of it elsewhere.</p>
 <div class="cluster-signals">
 <ul>
@@ -374,7 +470,7 @@ Cycle: 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman
 </div>
 
 <div class="signal-cluster tier-horizon">
-<div class="cluster-header"><h3>8. The revenue-mix shift to embedded and interim</h3><span class="impact-tier horizon">Horizon</span></div>
+<div class="cluster-header"><h3>8. The revenue-mix shift to embedded and interim</h3><span class="impact-tier horizon">Longer-Range</span></div>
 <p class="cluster-framing">Across the talent industry, the growth is visibly migrating from one-off placement toward recurring, embedded and interim models. The diversified majors are demonstrating it in their results, and the adjacent markets, RPO, interim management and fractional leadership, are all growing at double-digit rates. Brightsmith already names embedded talent, interim leadership and market intelligence as service lines, so the firm is not starting from zero. The horizon-tier question is whether those lines are run as a deliberate, resourced part of the model or as occasional overflow, because the economics and the delivery capability are different from retained search.</p>
 <div class="cluster-signals">
 <ul>

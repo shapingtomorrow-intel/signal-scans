@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 1,
+    "publisher": "Federal Reserve Bank of Dallas",
+    "title": "Young workers' employment drops in occupations with high AI exposure (Atkinson and Yamco)",
+    "url": "https://www.dallasfed.org/research/economics/2026/0106",
+    "publication_date": "2026-01-06",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "Workers age 22-25 in the most AI-exposed occupations have experienced a 13% decline in employment since 2022 (Stanford). In Current Population Survey data, the young, most AI-exposed employment share slipped from 16.4% in November 2022 to 15.5% in September 2025; the decline is driven by lower inflow into employment rather than layoffs, and 'looking at past business cycles, the data confirm this isn't a typical cyclical phenomenon.' The authors caution the pattern may not be causal.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor. Canonical regional-Fed primary-data framing of the young-worker, AI-exposure employment decline; also carries the key causal caveat used in the counter-argument. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 1,
+    "publisher": "Harvard Kennedy School Institute of Politics",
+    "title": "Harvard Youth Poll, 52nd Edition - Spring 2026",
+    "url": "https://iop.harvard.edu/youth-poll/52nd-edition-spring-2026",
+    "publication_date": "2026-04-23",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Young Americans' belief they will be better off financially than their parents has narrowed from a +21-point margin in 2021 to just +3 points in 2026; 45% say they are struggling to make ends meet or just getting by (57% among those without a college pathway); 50% now say 'people like me don't have any say' in government; trust in the federal government has fallen to 15%, an all-time low; hope about America's future has fallen from 55% in 2021 to 26%.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary national survey (n=2,018, 18-29, fielded 26 March-3 April 2026). WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Stanford Institute for Human-Centered AI",
+    "title": "Inside the AI Index: 12 Takeaways from the 2026 Report",
+    "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+    "publication_date": "2026-04-13",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Employment among software developers aged 22-25 has plummeted nearly 20% since 2024, even as their older colleagues' headcount grows; the pattern repeats in other high-AI-exposure jobs such as customer service. Firm surveys indicate executives expect the trend to accelerate. 'The disruption is targeted and just beginning.'",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Stanford HAI summary of the flagship 2026 AI Index Report. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Yale Insights (Yale School of Management)",
+    "title": "The Real Job Destruction from AI Is Hitting Before Careers Can Start (Sonnenfeld et al.)",
+    "url": "https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start",
+    "publication_date": "2026-05-04",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Recent-graduate unemployment has climbed to nearly 6%, rising twice as fast as the rest of the workforce since 2022, with computer science and computer engineering grad unemployment at 7.0% and 7.8%. A November 2025 Stanford Digital Economy Lab study found a 16% decline in early-career employment in the most AI-exposed occupations. 'The greatest risk will not be a sudden wave of layoffs. It will be a labor market in which fewer entry-level jobs are created, making it harder for workers to gain experience and advance over time.'",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Yale CELI faculty analysis; also surfaces counter-evidence (NBER w34836: AI little/no impact on ~90% of firms; BCG 2% growth). WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "The Stanford Review",
+    "title": "The Class of 2026 is struggling to find jobs - and it's not because of AI",
+    "url": "https://stanfordreview.org/the-class-of-2026-is-struggling-to-find-jobs-and-its-not-because-of-ai/",
+    "publication_date": "2026-04-09",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "A March 2026 Federal Reserve FEDS Note analysing more than a million firms found 'precisely-estimated null effects' and concluded the hiring slowdown 'does not appear to be driven (even modestly) by AI'; a 2025 NBER paper studying 25,000 workers found zero effect and showed the early-career decline was not driven by firm AI adoption. The real drivers look macro: zero-interest-rate over-hiring, the fastest tightening cycle in 40 years, and a 2022 Section 174 tax change; 59% of hiring managers admit emphasising AI's role in layoffs because 'it plays better with stakeholders.'",
+    "paywalled": false,
+    "treat_directionally": true,
+    "notes": "Independent student newspaper analysis; the principal sourced counter-evidence for the Counter-Argument. Treated directionally. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Fortune / Associated Press",
+    "title": "Young Americans are more pessimistic about jobs than their parents (Gallup World Poll)",
+    "url": "https://fortune.com/2026/05/11/young-americans-job-market-pessimism-gallup-poll-divide/",
+    "publication_date": "2026-05-11",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "In the Gallup World Poll, 43% of Americans aged 15-34 say it is a good time to find a job locally, against 64% of those 55 and over; the 21-point generational gap is the widest among the 141 countries surveyed. Young Americans' job-market confidence fell 27 percentage points from 2023 to 2025, comparable to the decline during the 2008 financial crisis. Gallup notes 'the schism is likely to continue fueling generational divides in politics.'",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Associated Press reporting Gallup World Poll primary survey data. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Fortune",
+    "title": "MIT AI expert warns automating Gen Z entry-level jobs could backfire (Andrew McAfee)",
+    "url": "https://fortune.com/2026/05/01/automating-gen-z-entry-level-jobs-could-backfire-mit-ai-researcher-andrew-mcafee-talent-pipelines-at-risk/",
+    "publication_date": "2026-05-01",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "MIT's Andrew McAfee warns that automating entry-level roles disrupts the apprenticeship ladder: 'How else are people going to learn to do the job except via on-the-job learning and training apprenticeship... when we put too much automation in that too quickly, we lose that apprenticeship ladder.' Counterpoint: a Goldman Sachs analysis found college-educated young workers experience earnings losses roughly half as large as other displaced workers and adjust through occupational mobility; IBM, Salesforce and Amazon are maintaining or expanding early-career hiring.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Quality journalism; carries both the apprenticeship-ladder framing and corroborating counter-evidence on young-worker resilience. WebFetch verified, full content retrieved."
+  }
+]

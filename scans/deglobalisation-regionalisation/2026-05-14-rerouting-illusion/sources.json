@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 1,
+    "publisher": "World Trade Organization",
+    "title": "Global Trade Outlook and Statistics, March 2026 (Middle East conflict weighs further on slowing trade outlook)",
+    "url": "https://www.wto.org/english/news_e/news26_e/stat_19mar26_329_e.htm",
+    "publication_date": "2026-03-19",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "World merchandise trade volume grew 4.6% in 2025 and is forecast to slow to a still-positive 1.9% in 2026 in the baseline scenario, normalising after a surge in AI-related products and the frontloading of imports ahead of tariffs; 2.6% growth projected for 2027. Trade is resilient rather than retreating.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 1 multilateral primary data and forecast. Release date 19 March 2026 confirmed via WebSearch (WTO news item stat_19mar26 and corroborating coverage); paired publication gtos0326."
+  },
+  {
+    "tier": 1,
+    "publisher": "International Monetary Fund",
+    "title": "World Economic Outlook, April 2026: Global Economy in the Shadow of War",
+    "url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+    "publication_date": "2026-04-14",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Trade is being rerouted through new partners and regional agreements that do not necessarily align with old geopolitical boundaries; as cross-border flows are rerouted via 'connector' countries, the less effective the policies driving fragmentation may be in achieving their stated objectives. Global growth projected at 3.1% in 2026.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 1 multilateral flagship. Published 14 April 2026 (Spring Meetings). Existence and rerouting/connector-country content confirmed via WebSearch (IMF WEO page, Chapter 1 PDF, IMF blog 14/04/2026)."
+  },
+  {
+    "tier": 1,
+    "publisher": "UN Trade and Development (UNCTAD)",
+    "title": "Global Trade Update (April 2026): Global trade growth continues, but fragility rises",
+    "url": "https://unctad.org/publication/global-trade-update-april-2026-global-trade-growth-continues-fragility-rises",
+    "publication_date": "2026-04-07",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Goods trade grew about 7% in 2025 (adding roughly $1.8 trillion) and services about 8%; South-South trade expanded about 9%. US-China trade contracted sharply, falling roughly a quarter (about $170 billion) in 2025, while 'connector economies' such as Cambodia, Egypt, Vietnam and Indonesia emerged as intermediaries stabilising trade flows.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 1 multilateral primary data (UNCTAD/DITC/INF/2026/4). Published early April 2026; announcement date ~7 April 2026 confirmed via WebSearch. Direct WebFetch of the publication and news pages returned JS shells; figures corroborated across multiple search results."
+  },
+  {
+    "tier": 1,
+    "publisher": "United Nations (UN DESA)",
+    "title": "Fragmenting world worsens finance squeeze, reversing decades of progress on development (Financing for Sustainable Development Report 2026)",
+    "url": "https://www.un.org/en/desa/fsdr-2026",
+    "publication_date": "2026-04-09",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Average tariffs on least-developed-country exports surged from 9% to 28% in 2025; for developing countries excluding China, average tariffs increased more than eightfold, from 2% to 19%. FDI fell 11% in 2024 to $1.5 trillion. The report concludes that economic hyper-globalization is no longer viable and recommends a multilayered approach to international cooperation; the value of South-South trade rose more than fourfold over 20 years.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 1 UN inter-agency report. UN news announcement of FSDR 2026, dated 9 April 2026. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Information Technology and Innovation Foundation (ITIF)",
+    "title": "Internal Value Chains Remain Dependent on China Even as Multinationals Shift Production to America",
+    "url": "https://itif.org/publications/2026/02/23/internal-value-chains-dependent-china-multinationals-shift-production-to-america/",
+    "publication_date": "2026-02-23",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "China-plus-one strategies have increased geographic diversification of production without meaningfully decreasing supply chain dependency on China; many recent inbound investments relocate some production without reducing dependence on China for the most valuable parts of supply chains; China has explicitly allowed geographic dispersion of production so long as control over key links in value chains remains anchored inside China. South Korea's 2026 Framework Act sets a target to cut single-country import dependence for key items below 50% by 2030.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 2 think-tank primary research. WebFetch verified, full content retrieved (published 23 February 2026)."
+  },
+  {
+    "tier": 2,
+    "publisher": "Information Technology and Innovation Foundation (ITIF)",
+    "title": "The Global Trade Battleground: US-China Competition in the Global South",
+    "url": "https://itif.org/publications/2026/04/06/global-trade-battleground-us-china-competition-in-the-global-south/",
+    "publication_date": "2026-04-06",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Since 2000, Global South import shares have shifted sharply: China's share grew over 21 percentage points while the United States' fell 10 percentage points; Chinese goods exports to the Global South rose more than 39 times between 2000 and 2024 while US exports roughly doubled; by 2024 US exports to developing economies were 56% of China's.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 2 think-tank primary research. WebFetch verified, full content retrieved (published 6 April 2026)."
+  },
+  {
+    "tier": 3,
+    "publisher": "OFW Law",
+    "title": "2026 Trade Enforcement: Why Import Compliance Is Now a Board-Level Risk",
+    "url": "https://ofwlaw.com/2026-trade-enforcement-why-import-compliance-is-now-a-board-level-risk/",
+    "publication_date": "2026-02-04",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "US customs and trade enforcement is intensifying in 2026: goods determined by CBP to have been transshipped to evade duties face an additional 40% tariff with no mitigation; CBP is using AI-powered supply-chain mapping to identify transshipment and undervaluation; a DHS-DOJ Trade Task Force is pursuing False Claims Act actions for concealed transshipment; the USMCA six-year review (beginning 1 July 2026) is expected to bring tighter rules of origin and heightened scrutiny of Chinese transshipment through Mexico and Canada.",
+    "paywalled": false,
+    "treat_directionally": true,
+    "notes": "Structural anchor. Tier 3 law-firm alert (per sourcing guide, a fast high-quality summary of new enforcement rules); the principal sourced basis for the counter-argument that enforcement may resolve the rerouting. WebFetch verified, full content retrieved (published 4 February 2026)."
+  }
+]

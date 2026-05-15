@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 1,
+    "publisher": "V-Dem Institute, University of Gothenburg",
+    "title": "Press Release: Democratic Backsliding Reaches Western Democracies, with U.S. Decline \"Unprecedented\" (Democracy Report 2026)",
+    "url": "https://www.v-dem.net/news/press-release-democratic-backsliding-reaches-western-democracies-with-us-decline-unprecedented/",
+    "publication_date": "2026-03-17",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Six of the ten new autocratizing countries in the 2026 Democracy Report are in Europe and North America; the liberal aspects of democracy - rule of law, checks and balances - are the second most common target, deteriorating in 22 countries, via politicising oversight bodies and the civil service and intimidating the judiciary.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary democracy-monitoring research. Tier 1 anchor for the institutional-target framing of the signal."
+  },
+  {
+    "tier": 1,
+    "publisher": "Freedom House",
+    "title": "Freedom in the World 2026: The Growing Shadow of Autocracy",
+    "url": "https://freedomhouse.org/report/freedom-world/2026/growing-shadow-autocracy",
+    "publication_date": "2026-03-19",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Global freedom declined for the 20th consecutive year in 2025, with 54 countries deteriorating and 35 improving; media freedom, freedom of personal expression and due process have suffered the heaviest impacts over two decades.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary democracy-monitoring research; corroborates the institutional-erosion pattern."
+  },
+  {
+    "tier": 2,
+    "publisher": "German Marshall Fund of the United States",
+    "title": "Poland's Rule-of-Law Repair: Trapped in Institutional Paralysis?",
+    "url": "https://www.gmfus.org/news/polands-rule-law-repair-trapped-institutional-paralysis",
+    "publication_date": "2025-12-05",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "Two years after a change of government, Poland's rule-of-law repair remains at an early stage and is 'effectively paralyzed' on judicial-independence institutions, constrained by the depth of institutional damage, presidential cohabitation and a Constitutional Tribunal that remains an illiberal veto player.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor (3-6m band): canonical evidence that institutional capture does not reverse cleanly with a change of government."
+  },
+  {
+    "tier": 2,
+    "publisher": "Center for European Policy Analysis (CEPA)",
+    "title": "Europe's Democratic Backsliding Is Spreading Like Malware",
+    "url": "https://cepa.org/article/europes-democratic-backsliding-is-spreading-like-malware/",
+    "publication_date": "2026-03-26",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Slovakia's Fico government dismantled the Whistleblower Protection Office, restructured public broadcasting and pushed constitutional changes challenging EU legal primacy; Poland 'ran the program for eight years' and its institutional repair is 'a project measured in decades, not election cycles'; EU rule-of-law mechanisms 'can only punish after capture has already happened'.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Articulates the consensus-vs-signal pivot: the problem is the technique and the institutional residue, not only who wins elections."
+  },
+  {
+    "tier": 2,
+    "publisher": "Centre for European Reform",
+    "title": "What Orban's departure means for Hungary and for Europe",
+    "url": "https://www.cer.eu/insights/what-orbans-departure-means-hungary-and-europe",
+    "publication_date": "2026-04-14",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Even with a two-thirds supermajority, Hungary's new government inherits a state in which the president, prosecutor general, central bank head, State Audit Office, Media Authority, the Curia and the full Constitutional Court are stacked with the outgoing party's appointees; the Commission 'should learn from its experience with Poland', whose repair difficulties show the danger of rewarding reform before results.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Live post-election case: institutional residue persists across a decisive electoral turnover."
+  },
+  {
+    "tier": 2,
+    "publisher": "Carnegie Europe (Carnegie Endowment for International Peace)",
+    "title": "Is the Radical-Right Threat to Europe Existential or Overstated?",
+    "url": "https://carnegieendowment.org/events/2026/03/is-the-radical-right-threat-to-europe-existential-or-overstated",
+    "publication_date": "2026-03-25",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The mainstream debate frames the radical-right question as a binary - 'existential or overstated' - centred on electoral momentum across forthcoming national elections from Hungary to France.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Establishes the consensus framing the signal sits beneath - the electoral horse-race lens."
+  },
+  {
+    "tier": 3,
+    "publisher": "Al Jazeera",
+    "title": "Peter Magyar wins Hungary election, unseating Viktor Orban after 16 years",
+    "url": "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz",
+    "publication_date": "2026-04-12",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Tisza won 138 of 199 parliamentary seats on 53.6% of the vote, a two-thirds majority; the extent of reform 'will depend on whether Tisza secures the two-thirds constitutional majority it would need to reverse much of Orban's legacy'.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary reporting of the April 2026 Hungarian election result - the headline event the signal reframes."
+  }
+]

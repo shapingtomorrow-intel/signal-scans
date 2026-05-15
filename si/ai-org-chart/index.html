@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>When AI Joins the Org Chart — Shaping Tomorrow Strategic Intelligence Sample — May 2026</title>
+<title>When AI Joins the Org Chart: Shaping Tomorrow Strategic Intelligence Report, May 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
   h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
@@ -12,69 +12,77 @@
   h3 { color: #1a237e; margin-top: 1em; }
   h4 { color: #4a5568; margin-top: 1em; }
   .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
-  .sample-banner { background: #f3e5f5; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #5e35b1; margin-bottom: 20px; font-size: 0.92em; color: #4527a0; }
-  .sample-banner strong { color: #311b92; }
   .report-container { max-width: 1200px; margin: 0 auto; }
   .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
   .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
   .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
   .table-of-contents li { margin-bottom: 8px; }
   .table-of-contents a { color: #1565c0; text-decoration: none; }
-
-  /* Decision pills */
-  .decision-tag { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.8em; font-weight: 600; margin-left: 6px; }
-  .decide { background: #ff6b6b; color: white; }
-  .prepare { background: #ffd93d; color: #1a1a1a; }
-  .monitor { background: #4ecdc4; color: #1a1a1a; }
-
-  /* Executive synthesis */
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
   .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
   .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
-  .theme-rationale { background: #ede7f6; padding: 20px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid #5e35b1; }
-  .theme-rationale h3 { color: #4527a0; margin-top: 0; margin-bottom: 10px; font-size: 1.05em; }
-  .change-direction { background: #fff3cd; padding: 20px; border-radius: 8px; margin-top: 24px; border-left: 4px solid #ffc107; }
   .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
   .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
-
-  /* Audience snapshots (beneath Executive Synthesis) */
-  .regional-snapshots-section { margin: 28px 0 36px; }
-  .regional-snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
-  .regional-snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
-  .regional-snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
-  .regional-snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
-  .regional-snapshot-card.operate { border-top-color: #1e88e5; }
-  .regional-snapshot-card.build { border-top-color: #43a047; }
-  .regional-snapshot-card.govern { border-top-color: #f57c00; }
-  .regional-snapshot-card.allocate { border-top-color: #d81b60; }
-  .regional-snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
-  .regional-snapshot-card .region-role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
-  .regional-snapshot-card.operate .region-role { background: #e3f2fd; color: #0d47a1; }
-  .regional-snapshot-card.build .region-role { background: #e8f5e9; color: #1b5e20; }
-  .regional-snapshot-card.govern .region-role { background: #fff3e0; color: #e65100; }
-  .regional-snapshot-card.allocate .region-role { background: #fce4ec; color: #880e4f; }
-  .regional-snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
-
-  /* Theme sections */
-  .theme-section { margin-bottom: 40px; padding: 28px; background: white; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border: 1px solid #eef0f3; }
-  .theme-section h3 { color: #1a237e; font-size: 1.4em; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #e9ecef; }
-  .one-thing { font-size: 1.15em; font-weight: 600; color: #2c3e50; background: #f1f3f5; padding: 16px; border-radius: 8px; margin: 16px 0; }
-  .why-changing { background: #fff8e1; padding: 16px; border-radius: 8px; margin: 16px 0; }
-  .supporting-signals { background: #f8f9fa; padding: 16px; border-radius: 8px; margin: 16px 0; }
-  .supporting-signals summary { cursor: pointer; font-weight: 600; color: #495057; }
-  .counter-argument { background: #fce4ec; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #e91e63; }
-  .counter-argument h4 { color: #c2185b; margin-top: 0; }
-  .weak-signals { background: #f3e5f5; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px dashed #8e24aa; }
-  .weak-signals h4 { color: #6a1b9a; margin-top: 0; }
-  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
-  .strategic-implication { background: #e3f2fd; padding: 16px; border-radius: 8px; margin: 16px 0; }
-  .signal-flag { background: #ffecb3; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; font-weight: 500; color: #92400e; }
-  .horizon-scan-tag { display: inline-block; background: #6a1b9a; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
-  .spotlight { background: #f7f5fb; padding: 18px 20px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #1a237e; position: relative; }
-  .spotlight h4 { color: #1a237e; margin-top: 0; margin-bottom: 8px; padding-right: 90px; font-size: 1.05em; }
-  .spotlight p { margin: 0; font-size: 0.97em; }
-  .spotlight .spotlight-pill { position: absolute; top: 16px; right: 16px; background: #1a237e; color: white; padding: 2px 10px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
-
-  /* Scenario matrix */
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
   .scenario-matrix { margin: 32px 0; }
   .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
   .scenario-cell { padding: 24px; border-radius: 12px; }
@@ -85,69 +93,62 @@
   .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
   .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
   .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
-  .assumptions-register { margin-top: 24px; background: #fff8e1; padding: 20px; border-radius: 8px; }
-  .assumptions-register table { width: 100%; border-collapse: collapse; }
-  .assumptions-register th, .assumptions-register td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
-  .assumptions-register th { border-bottom: 2px solid #ffc107; }
-
-  /* Opportunity */
-  .opportunity-section { background: #e8f5e9; padding: 28px; border-radius: 12px; margin: 32px 0; }
-  .opportunity-section h2 { color: #1a237e; margin-top: 0; }
-  .opportunity-card { background: white; padding: 20px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #4caf50; }
-  .opportunity-card h4 { margin-top: 0; color: #2e7d32; }
-
-  /* Exclusions */
   .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
   .exclusions-section h2 { color: #1a237e; margin-top: 0; }
   .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
   .exclusion-item h4 { margin-top: 0; color: #374151; }
   .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
-
-  /* Discussion points */
   .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
   .discussion-points h2 { color: white; margin-top: 0; }
   .discussion-points ol { padding-left: 24px; }
   .discussion-points li { margin-bottom: 12px; }
-
-  /* Source register */
   .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
   .source-register h2 { color: #1a237e; margin-top: 0; }
-  .source-register table { width: 100%; border-collapse: collapse; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
   .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
   .source-register th { background: #e9ecef; font-weight: 600; }
   .tier-1 { color: #2e7d32; font-weight: 700; }
   .tier-2 { color: #1565c0; font-weight: 700; }
   .tier-3 { color: #f57c00; font-weight: 700; }
   .tier-4 { color: #c62828; font-weight: 700; }
-
   a { color: #1565c0; text-decoration: none; }
   a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
   .small { font-size: 0.88em; color: #555; }
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
-
-  .read-time { color: #5a6478; font-size: 0.85em; font-style: italic; margin-top: -10px; margin-bottom: 16px; }
-  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 780px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
-
   @media print {
-    html, body, * {
-      -webkit-print-color-adjust: exact !important;
-      print-color-adjust: exact !important;
-      color-adjust: exact !important;
-    }
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
     body { max-width: none; padding: 0; }
     .report-container { max-width: none; }
-    .executive-synthesis, .theme-section, .scenario-matrix,
-    .opportunity-section, .exclusions-section, .discussion-points,
-    .source-register, .scenario-cell, .opportunity-card,
-    .exclusion-item, .spotlight, .one-thing, .why-changing,
-    .counter-argument, .weak-signals, .strategic-implication,
-    .change-direction, .stress-test-box, .theme-rationale,
-    .assumptions-register, .regional-snapshot-card { break-inside: avoid; page-break-inside: avoid; }
     .table-of-contents { display: none; }
-    details.supporting-signals { break-inside: auto; }
-    details.supporting-signals summary { display: none; }
-    details.supporting-signals[open] > * { display: revert; }
-    a { color: #1565c0; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
   }
 </style>
 </head>
@@ -158,505 +159,461 @@
 <div class="masthead">Strategic Intelligence Report &middot; Shaping Tomorrow Sample</div>
 <h1 class="report-title">When AI Joins the Org Chart</h1>
 <div class="meta">
-Cycle: 12 May 2026 (May 2026) &middot; Theme: Artificial intelligence and automation &middot; Audience: Senior strategy, innovation, public-sector foresight, and capital-allocation professionals<br>
-<span style="font-size: 0.92em;">Read estimate: &approx; 3 min Executive Synthesis &middot; &approx; 28 min full read</span>
+Cycle: 12 May 2026 &middot; Audience: Senior strategy, innovation, public-sector foresight and capital-allocation professionals &middot; Horizon: 12 to 18 months<br>
+<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 22 min full read</span>
 </div>
 
-<div class="sample-banner">
-<strong>Free sample edition.</strong> This is a one-cycle demonstration of the Shaping Tomorrow Strategic Intelligence Report format. Subscribers receive monthly cycles with company-specific or sector-specific framing, cycle-over-cycle continuity, and access to the full library of past cycles. To subscribe or request a tailored brief, see <a href="https://shapingtomorrow.com">shapingtomorrow.com</a>.
-</div>
-
-<div class="sample-banner" style="background: #e8f5e9; border-left-color: #2e7d32; color: #1b5e20;">
-<strong>Source verification.</strong> Every hyperlink in this report resolves to a real, published source verified by WebSearch and WebFetch during compilation (May 2026). Specific quantitative claims trace to figures published by the cited primary sources &mdash; principally Stanford HAI <em>AI Index 2026</em>, McKinsey QuantumBlack <em>State of AI 2025</em>, PwC <em>29th Global CEO Survey</em>, Goldman Sachs Global Institute <em>Tracking Trillions</em>, the UK AI Security Institute, the European Commission, the OECD, the BIS, the IMF, the WEF, NIST, NACE, and named academic working papers.
-</div>
-
+<div class="toc-row">
 <div class="table-of-contents">
 <h3>Contents</h3>
 <ul>
   <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
-  <li><a href="#section-audience-snapshots">2. Audience Snapshots</a></li>
-  <li><a href="#section-key-findings">3. Key Findings &mdash; four themes</a></li>
-  <li><a href="#section-scenario-matrix">4. Scenario Matrix</a></li>
-  <li><a href="#section-opportunity-capture">5. Opportunity Capture</a></li>
+  <li><a href="#section-snapshots">2. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Signal Clusters</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
   <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
   <li><a href="#section-discussion-points">7. Discussion Points</a></li>
   <li><a href="#section-source-register">8. Source Confidence Register</a></li>
 </ul>
 </div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A motif: an organisation chart of boxes connected by lines. Most boxes are filled as human roles; one box on the bottom row is highlighted as an AI agent; one box is drawn as a dashed outline, an owner seat not yet named.">
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif">
+    <g stroke="#9aa3b2" stroke-width="1.5" fill="none">
+      <path d="M164 58 V82 M90 82 H238 M90 82 V106 M238 82 V106"/>
+      <path d="M90 136 V162 M53 162 H127 M53 162 V192 M127 162 V192"/>
+      <path d="M238 136 V162 M201 162 H275 M201 162 V192 M275 162 V192"/>
+    </g>
+    <rect x="124" y="28" width="80" height="30" rx="4" fill="#c5cae9" stroke="#1a237e" stroke-width="1.5"/>
+    <rect x="50" y="106" width="80" height="30" rx="4" fill="#c5cae9" stroke="#1a237e" stroke-width="1.5"/>
+    <rect x="198" y="106" width="80" height="30" rx="4" fill="#c5cae9" stroke="#1a237e" stroke-width="1.5"/>
+    <rect x="22" y="192" width="62" height="28" rx="4" fill="#c5cae9" stroke="#1a237e" stroke-width="1.5"/>
+    <rect x="96" y="192" width="62" height="28" rx="4" fill="#f57c00" stroke="#e65100" stroke-width="1.5"/>
+    <rect x="170" y="192" width="62" height="28" rx="4" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <rect x="244" y="192" width="62" height="28" rx="4" fill="#c5cae9" stroke="#1a237e" stroke-width="1.5"/>
+    <text x="127" y="236" font-size="10" font-weight="700" fill="#e65100" text-anchor="middle">AI agent</text>
+    <text x="201" y="236" font-size="10" font-style="italic" fill="#5a6478" text-anchor="middle">owner?</text>
+  </g>
+</svg>
+<p class="figure-caption">AI is taking seats on the org chart. Some owners are not yet named.</p>
+</div>
+</div>
 
-<!-- ============================ EXECUTIVE SYNTHESIS ============================ -->
 <a name="section-executive-synthesis"></a>
 <div class="executive-synthesis">
 <h2>Executive Synthesis</h2>
-<p class="read-time">&approx; 3 min read</p>
 
-<div class="theme-rationale">
-<h3>Why These Four Themes</h3>
-<p>Three years after generative AI moved from demo to workflow, the strategic question is no longer <em>whether</em> to deploy AI but <em>where it joins the organisation chart</em> &mdash; as a tool beside humans, as an autonomous worker reporting to a manager, or as a workflow whose human owner has gone unclaimed. The four themes trace that question end-to-end: the deployment shift from copilots to agents, the governance stack required to trust their outputs, the talent reset emerging at the bottom of the pyramid, and the productivity reckoning playing out in capex schedules and earnings calls. Two themes considered but dropped this cycle: AI-driven scientific discovery (transformational but not yet decision-material at one-year horizon for most organisations) and AI-enabled cyber-offence (covered separately under cybersecurity).</p>
-</div>
+<p>Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI. It is which seat AI occupies on the organisation chart: a tool beside a human, an autonomous worker reporting to a manager, or a workflow whose human owner has gone unclaimed. This cycle establishes the baseline, and the baseline is a chart being redrawn live while the infrastructure that should support it, trust, talent and capital, struggles to keep pace.</p>
 
-<h3>What Has Materially Changed</h3>
-<p>This cycle establishes the baseline. The signal crystallises in four numbers landing within five months of each other. Per the <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank">McKinsey State of AI 2025</a> (5 November 2025), 23% of organisations are now scaling at least one agentic AI system and 39% are experimenting &mdash; yet only 39% report any enterprise-level EBIT impact from AI and only 6% qualify as AI high performers. Per the <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html" target="_blank">PwC 29th Global CEO Survey</a> (19 January 2026, 4,454 CEOs), just 12% of CEOs say AI has delivered both cost and revenue benefits while 56% report no significant financial benefit to date &mdash; and the gap between the AI haves and have-nots has become the single biggest CEO concern, ahead of innovation or viability. Per the <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy" target="_blank">Stanford AI Index 2026</a>, employment for software developers aged 22&ndash;25 has fallen nearly 20% from 2024, while productivity gains of 14&ndash;15% in customer support, 26% in software, and 73% in marketing are appearing in the same domains where entry-level hiring is contracting. Per <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs Global Institute</a> (1 May 2026), the AI build-out now sits on a $7.6 trillion six-year capex envelope &mdash; with the four supply-side assumptions (chip useful life, data-centre cost, architecture mix, bottleneck elongation) more sensitive than demand to whether the bill is met by returns.</p>
+<p>Four numbers landing within five months of each other describe the shift. Per the <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">McKinsey State of AI 2025</a> (November 2025), 23% of organisations are now scaling at least one agentic AI system, yet only 39% report any enterprise-level EBIT impact and only 6% qualify as AI high performers. Per the <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html">PwC 29th Global CEO Survey</a> (January 2026), just 12% of CEOs say AI has delivered both cost and revenue benefits, 56% report no significant financial benefit, and the gap between the AI haves and have-nots is now the single biggest CEO concern. Per the <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">Stanford AI Index 2026</a>, employment for software developers aged 22 to 25 has fallen nearly 20% from 2024, in the same domains where productivity gains are appearing. And per <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out">Goldman Sachs Global Institute</a> (May 2026), the build-out now sits on a $7.6 trillion six-year capex envelope whose supply-side assumptions are more sensitive than demand.</p>
 
-<p>None of these is a single newsworthy event. Together they describe an organisation chart being redrawn live &mdash; with AI moving from tool to colleague to manager-of-tasks, and with the supporting infrastructure (trust, talent, capital) struggling to keep pace.</p>
+<div class="pullquote">The strategic question of 2026 is no longer whether to deploy AI. It is which seat in the org chart AI occupies, and which seats it vacates.</div>
 
-<div class="pullquote">
-The strategic question of 2026 is no longer whether to deploy AI. It is which seat in the org chart AI occupies &mdash; and which seats it vacates.
-</div>
-
-<div class="change-direction">
-<h4 style="color: #92400e; margin-top: 0;">Direction of change</h4>
-<p style="margin-bottom: 0;">From AI as a productivity tool layered onto existing workflows, to AI as an autonomous worker requiring a manager, a permission set, and an audit trail. The change is not the technology; it is the org-chart and accountability infrastructure that surrounds it.</p>
-</div>
+<p>Read together, these are not separate headlines. They describe one structural change with two halves: AI is moving from tool to colleague to manager-of-tasks, and the supporting infrastructure is lagging it. The spine of this cycle is the deployment shift from copilots to agents, because it is the change that forces every other question. Once an agent holds a permission set and runs a multi-step workflow, an organisation needs an owner for it, a verification stack to trust it, a talent pipeline that still produces judgement when AI does the routine work, and a capital plan that knows what the spend is supposed to return. The surprise for many leadership teams is how far the deployment has run ahead of the accountability: organisations are hiring agents the way they once hired outsourcing providers, but without the equivalent of the BPO contract.</p>
 
 <div class="stress-test-box">
-<h4>Stress test for this cycle's thesis</h4>
-<p style="margin: 0;">If 12 months from now Klarna-style reversals dominate enterprise headlines (organisations re-hiring humans into roles they had automated), and EBIT impact from AI remains stuck at McKinsey's 6%-high-performer share, the thesis is wrong: AI is a productivity tool with limits, not a workforce category. If instead agent deployment crosses 40% of enterprise apps (Gartner's projection), regulatory enforcement under the EU AI Act lands in the autumn of 2026, and entry-level hiring in software remains depressed for a second year, the thesis hardens into a structural feature of the operating model.</p>
+<h4>Where this analysis could be wrong</h4>
+<p>The central assumption is that agentic AI is becoming a workforce category, not just a better productivity tool. If, twelve months from now, Klarna-style reversals dominate enterprise headlines and EBIT impact stays stuck near McKinsey's 6% high-performer share, the thesis is wrong: AI is a tool with limits and the org-chart framing is premature. The disconfirming evidence would be concrete and visible, a run of high-profile agent rollbacks plus a second flat year of enterprise EBIT data. If instead agent deployment crosses 40% of enterprise applications, EU AI Act enforcement lands in the autumn, and entry-level hiring stays depressed for a second year, the thesis hardens into a structural feature of the operating model.</p>
 </div>
 
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Decide whether you have an agent operating model, not just an AI strategy.</strong> Licences are not deployment; named owners, permission sets and escalation contracts are.</li>
+<li><strong>Move verification from policy artefact to procurement capability.</strong> The EU AI Act becomes fully applicable on 2 August 2026, and trust is now something you buy and audit, not something you write down.</li>
+<li><strong>Take a deliberate position on the entry-level rung.</strong> AI is hollowing out the training ground; quietly cutting graduate hiring and deliberately redesigning it look identical for a year and very different at three.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
 </div>
 
-<!-- ============================ AUDIENCE SNAPSHOTS ============================ -->
-<a name="section-audience-snapshots"></a>
-<div class="regional-snapshots-section">
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
 <h2>Audience Snapshots</h2>
-<p class="regional-snapshots-intro">Four lenses on the same intelligence base &mdash; the four buyer-teams who most often ask Shaping Tomorrow for AI foresight. Each card surfaces the one decision-relevant question and the one structural shift to brief into governing-body conversations this cycle.</p>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per buyer-team that most often asks Shaping Tomorrow for AI foresight. Each card surfaces the one question this cycle puts to that function.</p>
+<div class="snapshots">
 
-<div class="regional-snapshots">
-
-<div class="regional-snapshot-card operate">
-<span class="region-role">Operate &middot; Boards / CEOs / risk / strategy</span>
-<h4>Is our AI investment translating into EBIT &mdash; or is it absorbing budget while it learns?</h4>
-<p><strong>One structural shift.</strong> Only <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html" target="_blank">12% of CEOs say AI has delivered both cost and revenue benefits</a> (PwC, Jan 2026); 56% report no significant financial benefit. CEOs with strong AI foundations &mdash; Responsible AI frameworks and enterprise-wide integration &mdash; are 3x more likely to report meaningful financial returns.</p>
-<p><strong>For your governing body.</strong> The "AI investment" line on next year's plan is no longer credible without a workflow-redesign sub-line, a model-risk owner, and a defined EBIT measurement method. Boards that approve AI capex without these three items are funding the experiment, not the return.</p>
+<div class="snapshot-card commercial">
+<span class="role">Operate &middot; Boards, CEOs, risk, strategy</span>
+<h4>Is our AI investment translating into EBIT, or absorbing budget while it learns?</h4>
+<p><strong>The shift:</strong> only 12% of CEOs say AI has delivered both cost and revenue benefits and 56% report no significant financial benefit, while CEOs with Responsible AI frameworks and enterprise-wide integration are roughly three times more likely to report meaningful returns.</p>
+<p><strong>The question to brief:</strong> is the AI line on next year's plan backed by a workflow-redesign sub-line, a named model-risk owner and a defined EBIT measurement method, or are we funding the experiment and calling it the return?</p>
 </div>
 
-<div class="regional-snapshot-card build">
-<span class="region-role">Build &middot; Innovation / Tech / R&amp;D strategy</span>
-<h4>Are we building agent infrastructure for 2027, or copilot integrations that will be commoditised by year-end?</h4>
-<p><strong>One structural shift.</strong> <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank">23% of organisations are now scaling at least one agentic AI system</a> (McKinsey, Nov 2025) and <a href="https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025" target="_blank">Gartner projects up to 40% of enterprise applications will feature task-specific AI agents by 2026</a>, from less than 5% the year before. Multi-agent orchestration is becoming the next platform-architecture decision.</p>
-<p><strong>For your innovation pipeline.</strong> Build for agent-first, not chat-first. Identity, permissioning, action-logging, containment boundaries, and rollback are now product requirements &mdash; not security afterthoughts. NIST's Agent Standards Initiative (Feb 2026) signals where the procurement contracts are heading.</p>
+<div class="snapshot-card marketing">
+<span class="role">Build &middot; Innovation, technology, R&amp;D strategy</span>
+<h4>Are we building agent infrastructure for 2027, or copilot integrations commoditised by year-end?</h4>
+<p><strong>The shift:</strong> 23% of organisations are scaling at least one agentic system and Gartner projects up to 40% of enterprise applications will feature task-specific agents by the end of 2026, making multi-agent orchestration the next platform-architecture decision.</p>
+<p><strong>The question to brief:</strong> are identity, permissioning, action-logging, containment and rollback being treated as product requirements now, or still as security afterthoughts we will retrofit later?</p>
 </div>
 
-<div class="regional-snapshot-card govern">
-<span class="region-role">Govern &middot; Public-sector foresight / resilience</span>
-<h4>Is our AI deployment moving from pilot to integration &mdash; or stuck where the data foundations failed?</h4>
-<p><strong>One structural shift.</strong> Per UK Government's <a href="https://www.gov.uk/government/publications/ai-opportunities-action-plan-one-year-on/ai-opportunities-action-plan-one-year-on" target="_blank">AI Opportunities Action Plan: One Year On</a> (Jan 2026), the UK has scaled Minute (AI scribe) to 1,000 officials across 22 local authorities and launched Isambard-AI; meanwhile, the public-sector pilot-to-integration gap remains the dominant constraint. The EU AI Act becomes <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank">fully applicable on 2 August 2026</a>, with high-risk and transparency rules entering force the same month.</p>
-<p><strong>For your resilience planning.</strong> Public-sector AI risk now has two dimensions: the model behaviour problem (covered by the AI Act and AISI) and the workforce problem (officials trained on AI use; pipelines for AI-literate civil servants). Resilience plans that treat AI as IT procurement will be revisited.</p>
+<div class="snapshot-card operations">
+<span class="role">Govern &middot; Public-sector foresight, resilience</span>
+<h4>Is our AI deployment moving from pilot to integration, or stuck where the data foundations failed?</h4>
+<p><strong>The shift:</strong> the UK has scaled its Minute AI scribe to 1,000 officials across 22 local authorities, but the pilot-to-integration gap remains the dominant public-sector constraint, and the EU AI Act becomes fully applicable on 2 August 2026.</p>
+<p><strong>The question to brief:</strong> does our AI risk register treat both the model-behaviour problem and the workforce problem, or are we still scoping AI as an IT procurement?</p>
 </div>
 
-<div class="regional-snapshot-card allocate">
-<span class="region-role">Allocate &middot; Investors / asset managers / capital-allocation</span>
-<h4>At $7.6 trillion of cumulative AI capex 2026&ndash;2031, what assumption is our portfolio actually betting on?</h4>
-<p><strong>One structural shift.</strong> <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs Global Institute</a> (May 2026) projects $765bn of AI capex in 2026 rising to $1.6tr by 2031. The four supply-side assumptions &mdash; silicon useful life, data-centre cost per MW, chip architecture mix, and bottleneck elongation &mdash; are more sensitive than demand to whether the bill is met by returns. Hyperscaler FCF is being compressed: <a href="https://www.cnbc.com/2026/google-microsoft-meta-amazon-ai-cash.html" target="_blank">Amazon FCF deficit projected $17&ndash;28bn; Meta FCF down ~90%</a>.</p>
-<p><strong>For your IC memos.</strong> "AI exposure" is no longer a stock-picking lens; it is a working-capital-cycle question for hyperscalers, a depreciation-schedule question for everyone holding silicon, and a sovereign-credit question for jurisdictions sitting on workforce-availability gaps that AI cannot patch.</p>
+<div class="snapshot-card finance">
+<span class="role">Allocate &middot; Investors, asset managers, capital allocation</span>
+<h4>At $7.6 trillion of cumulative AI capex to 2031, what assumption is the portfolio actually betting on?</h4>
+<p><strong>The shift:</strong> Goldman Sachs projects $765bn of AI capex in 2026 rising to $1.6tn by 2031, with hyperscaler free cash flow already compressing, and the four supply-side assumptions more sensitive than demand to whether the bill is met by returns.</p>
+<p><strong>The question to brief:</strong> have we built a portfolio-level depreciation-schedule sensitivity and a hyperscaler free-cash-flow stress test, or is "AI exposure" still a stock-picking label?</p>
 </div>
 
 </div>
 </div>
 
-<!-- ============================ KEY FINDINGS ============================ -->
-<a name="section-key-findings"></a>
-<h2>Key Findings &mdash; four themes</h2>
+<a name="section-signal-clusters"></a>
+<h2>Signal Clusters</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five clusters, ranked by impact on the decisions leadership teams face now. <strong style="color:#c62828;">Immediate</strong>: changes the operating model, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
 
-<!-- THEME 1: Copilots → Agents -->
-<div class="theme-section">
-<h3>Theme 1 &middot; Copilots &rarr; Agents: the deployment shift <span class="decision-tag prepare">Prepare</span></h3>
-
-<div class="one-thing">
-The thing that has changed: AI has stopped being a feature inside someone else's software and started being the software. In 2025, "scaling AI" meant rolling out Copilot licences; in 2026 it means deploying autonomous agents that run multi-step workflows, hold permissions, and report to human owners.
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. The agent deployment shift</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">AI has stopped being a feature inside someone else's software and started being the software. In 2025, "scaling AI" meant rolling out Copilot licences; in 2026 it means deploying autonomous agents that run multi-step workflows, hold permissions and report to human owners. The deployment looks less like SaaS adoption and more like outsourcing, and that is the point: organisations are hiring agents the way they used to hire BPO providers, which means the 2026 capability question is not "do we have an AI strategy" but "do we have an agent operating model".</p>
+<div class="report-figure">
+<h4>Adoption is broad; agent deployment is narrow</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A bar chart: 88 percent of organisations use AI in at least one function, 23 percent are scaling at least one agentic system, and agent deployment is in single digits within any individual business function.">
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif">
+    <line x1="60" y1="20" x2="60" y2="150" stroke="#c5cae9" stroke-width="1.5"/>
+    <line x1="60" y1="150" x2="520" y2="150" stroke="#c5cae9" stroke-width="1.5"/>
+    <rect x="100" y="35" width="90" height="115" rx="3" fill="#1a237e"/>
+    <text x="145" y="27" font-size="12" font-weight="700" fill="#1a237e" text-anchor="middle">88%</text>
+    <text x="145" y="166" font-size="10" fill="#5a6478" text-anchor="middle">use AI in</text>
+    <text x="145" y="179" font-size="10" fill="#5a6478" text-anchor="middle">a function</text>
+    <rect x="240" y="120" width="90" height="30" rx="3" fill="#1565c0"/>
+    <text x="285" y="112" font-size="12" font-weight="700" fill="#1565c0" text-anchor="middle">23%</text>
+    <text x="285" y="166" font-size="10" fill="#5a6478" text-anchor="middle">scaling an</text>
+    <text x="285" y="179" font-size="10" fill="#5a6478" text-anchor="middle">agentic system</text>
+    <rect x="380" y="138" width="90" height="12" rx="3" fill="#f57c00"/>
+    <text x="425" y="130" font-size="12" font-weight="700" fill="#e65100" text-anchor="middle">single digits</text>
+    <text x="425" y="166" font-size="10" fill="#5a6478" text-anchor="middle">agents within</text>
+    <text x="425" y="179" font-size="10" fill="#5a6478" text-anchor="middle">any one function</text>
+    <rect x="540" y="40" width="160" height="100" rx="6" fill="#f7f5fb"/>
+    <rect x="540" y="40" width="4" height="100" fill="#1a237e"/>
+    <text x="556" y="66" font-size="11" fill="#2c3e50">The deployments that</text>
+    <text x="556" y="82" font-size="11" fill="#2c3e50">are in place work hard;</text>
+    <text x="556" y="98" font-size="11" fill="#2c3e50">most of the enterprise</text>
+    <text x="556" y="114" font-size="11" fill="#2c3e50">still runs on the</text>
+    <text x="556" y="130" font-size="11" fill="#2c3e50">copilot model.</text>
+  </g>
+</svg>
+<p class="figure-caption">Sources: McKinsey State of AI 2025; Stanford AI Index 2026.</p>
 </div>
-
-<div class="why-changing">
-<strong>Why now.</strong> Three forces converged in late 2025 and early 2026. First, model capability finally crossed the threshold for sustained multi-step task execution; second, the hyperscalers shipped enterprise agent platforms with native governance hooks; and third, early customer-experience deployments (Klarna's most prominent) generated enough field data &mdash; both the savings and the reversals &mdash; for procurement teams to underwrite agent contracts rather than buy individual seats. The result is a deployment pattern that looks less like SaaS adoption and more like outsourcing: organisations are hiring agents the way they used to hire BPO providers, with SLAs, audit trails, and human handover points written into the contract.
-</div>
-
-<p>The McKinsey 2025 State of AI shows the shape of the shift cleanly. AI use in at least one business function has climbed to 88% of organisations &mdash; up from 78% twelve months earlier &mdash; but agent deployment is concentrated: 23% of respondents say they are scaling at least one agentic system and 39% are experimenting, while no individual business function shows more than ~10% of organisations actually scaling agents. The deployment is real but narrow. The Stanford AI Index 2026 puts the same point differently: organisational AI adoption has reached 88%, but agent deployment "remains in the single digits across nearly all business functions." Read together, the two surveys describe an early-deployment market where the deployments that <em>are</em> in place are working hard &mdash; in IT, knowledge management, contact centres, and software engineering &mdash; while most of the enterprise is still operating on the previous-generation copilot model.</p>
-
-<p>The Klarna arc is the case study every operator should have read. The <a href="https://openai.com/index/klarna/" target="_blank">OpenAI case study from 2024</a> claimed the AI assistant did the equivalent work of 700 human agents, drove customer satisfaction parity, cut repeat enquiries 25%, and shortened resolution from 11 minutes to under 2. By mid-2025, Klarna was <a href="https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/" target="_blank">re-hiring humans</a> &mdash; not because the AI failed but because the customer-experience tail was more expensive than the operational savings suggested. Human service is now positioned as a premium VIP offering above the AI layer. The lesson is not "AI doesn't work in customer service" &mdash; it is that the deployment model has to specify which interactions belong to which class of worker, and what the escalation contract looks like. The organisations now building agent platforms (ServiceNow + Accenture's forward-deployed engineering programme, <a href="https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/" target="_blank">NVIDIA &times; ServiceNow's autonomous-agent partnership</a>, <a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform" target="_blank">Google's Gemini Enterprise Agent Platform</a> with Tata Steel's 300-agent fleet) are encoding that escalation contract into the platform itself.</p>
-
-<details class="supporting-signals">
-<summary>Supporting signals (click to expand)</summary>
+<div class="cluster-signals">
 <ul>
-<li><strong>Gartner</strong> projects up to <a href="https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025" target="_blank">40% of enterprise applications will feature task-specific AI agents by the end of 2026</a>, up from less than 5% in 2025 &mdash; an embedding rate that, if realised, makes "agentic" a default architectural assumption rather than a feature.</li>
-<li><strong>Forrester</strong>'s <a href="https://www.forrester.com/blogs/predictions-2026-ai-agents-changing-business-models-and-workplace-culture-impact-enterprise-software/" target="_blank">Predictions 2026</a> calls multi-agent systems the breakthrough story of the year &mdash; specialised agents collaborating under central coordination, with enterprise software shifting to agent-first design.</li>
-<li><strong>WEF</strong> reports six enterprise leaders saying <a href="https://www.weforum.org/stories/2026/03/where-is-ai-moving-beyond-experimentation-leaders-scaling/" target="_blank">deployment is moving beyond experimentation</a> &mdash; in customer support, internal knowledge, code, marketing operations, and back-office automation.</li>
-<li><strong>NVIDIA &amp; ServiceNow</strong>'s autonomous-agent partnership and <strong>Google Cloud</strong>'s Gemini Enterprise Agent Platform mark the supply-side institutionalisation of agent deployment as a category &mdash; complete with governance, identity, and audit primitives.</li>
+<li>AI use in at least one business function has reached 88% of organisations, up from 78% a year earlier, but only 23% are scaling an agentic system and 39% are experimenting. <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">McKinsey State of AI 2025</a> (November 2025).</li>
+<li>Agent deployment remains in the single digits across nearly all business functions even as organisational adoption reaches 88%: the deployments in place are concentrated and working hard, in IT, knowledge management, contact centres and software. <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">Stanford AI Index 2026</a> (April 2026).</li>
+<li>The Klarna arc is the case study every operator should have read: a 2024 deployment claimed the work of 700 agents, but by mid-2025 Klarna was re-hiring humans and positioning human service as a premium tier above the AI layer. The lesson is not that AI fails in service; it is that the deployment model has to specify which interactions belong to which class of worker. <a href="https://openai.com/index/klarna/">OpenAI / Klarna</a> (2024); <a href="https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/">Customer Experience Dive</a> (2025).</li>
+<li>The hyperscalers are institutionalising agent deployment as a category, with governance, identity and audit primitives built into the platform: NVIDIA and ServiceNow's autonomous-agent partnership and Google's Gemini Enterprise Agent Platform, with Tata Steel building a 300-agent fleet. <a href="https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/">NVIDIA and ServiceNow</a> (2025); <a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform">Google Cloud</a> (2026).</li>
 </ul>
-</details>
-
-<div class="spotlight">
-<span class="spotlight-pill">Spotlight</span>
-<h4>"Agent owner" emerges as a new role</h4>
-<p>In organisations that have scaled their first agent into production, the role of "agent owner" is being formalised. The owner holds the permission set, defines the action boundary, sets the escalation rule, and is accountable when the agent does something the audit log says it should not have. NIST's <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank">AI Agent Standards Initiative</a> (February 2026) explicitly names agent identity, action logging, and containment boundaries as the three pillars of agent governance. Expect "Head of Agent Operations" job postings to outnumber "Head of AI Strategy" postings within 18 months.</p>
 </div>
-
 <div class="counter-argument">
 <h4>Counter-argument</h4>
-<p>The agent story may be a vendor-led narrative that overstates the deployment maturity. The Klarna reversal is one of several. Anthropic-style classifier defences are still being tested. The <a href="https://www.aisi.gov.uk/frontier-ai-trends-report" target="_blank">UK AI Security Institute</a> notes universal jailbreaks have been found in every frontier model tested. Until model reliability is genuinely production-grade for high-stakes workflows, agents may turn out to be the next "self-driving in two years" &mdash; perpetually nearly ready. The conservative reading: agentic AI will deliver real value in narrow, well-instrumented workflows for several years before becoming the dominant deployment pattern.</p>
+<p>The agent story may be a vendor-led narrative that overstates deployment maturity. The Klarna reversal is one of several, model reliability is not yet production-grade for high-stakes workflows, and the UK AI Security Institute notes universal jailbreaks have been found in every frontier model tested. Agentic AI may turn out to be the next "self-driving in two years", perpetually nearly ready, delivering real value in narrow, well-instrumented workflows for years before it becomes the dominant pattern.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-1" class="xref">1</a>.</div>
 </div>
 
-<div class="weak-signals">
-<h4><span class="weak-signal-marker">Weak signal</span>The agent-of-agents pattern</h4>
-<p>Beneath the headline agent deployments, a second pattern is forming: organisations layering a manager-agent over a fleet of worker-agents. The manager-agent doesn't do the underlying task; it triages, delegates, monitors, and rolls back. This is the pattern hidden inside Tata Steel's 300-agent Gemini deployment and the ServiceNow + Accenture forward-deployed engineering programme. If it generalises, the unit of AI deployment becomes the agent <em>fleet</em>, not the agent &mdash; and the governance question shifts from "what can this agent do?" to "what can this org chart of agents do?"</p>
-</div>
-
-<div class="strategic-implication">
-<h4 style="margin-top: 0;">Strategic implication</h4>
-<p>The 2026 capability question is not "do we have an AI strategy?" but "do we have an agent operating model?" Three subordinate questions follow: (1) which workflows are owned by an agent, by a human, and by a human-managing-an-agent; (2) where does the escalation contract sit, and is it written down; (3) who is the agent owner for each deployed agent, and what is their authority. Organisations that cannot answer all three for their top five deployed agents are still pre-deployment regardless of how many licences they hold.</p>
-</div>
-
-</div>
-
-<!-- THEME 2: Trust & verification stack -->
-<div class="theme-section">
-<h3>Theme 2 &middot; The trust and verification stack <span class="decision-tag decide">Decide</span></h3>
-
-<div class="one-thing">
-The thing that has changed: trust in AI outputs is no longer a behavioural posture (be careful what you copy-paste). It is becoming an infrastructure stack &mdash; identity for agents, logging for actions, classifiers for output, evaluations for capability, and external review for accountability &mdash; with regulatory enforcement landing in August 2026.
-</div>
-
-<div class="why-changing">
-<strong>Why now.</strong> Two enforcement events and one capability event have converged. On the regulatory side, the <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank">EU AI Act becomes fully applicable on 2 August 2026</a>, with high-risk system rules, transparency rules, and Commission enforcement for general-purpose AI models all entering force the same month. On the standards side, the <a href="https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-ai_41671712-en.html" target="_blank">OECD Due Diligence Guidance for Responsible AI</a> (19 February 2026) gave multinationals a structured playbook, NIST announced the AI Agent Standards Initiative (February 2026), and the UK <a href="https://www.aisi.gov.uk/frontier-ai-trends-report" target="_blank">AISI Frontier AI Trends Report</a> documented that agentic autonomy is roughly doubling every two months &mdash; meaning verification infrastructure has to evolve faster than the threat surface.
-</div>
-
-<p>The capability event is the one most operators underestimate. The AISI &mdash; the UK government body charged with frontier-model evaluation &mdash; reports that "universal jailbreaks" (techniques that override safeguards across whole harm categories) have been found in every system tested, but the expert time required to discover those jailbreaks is increasing for certain models and categories. That is good news for defenders, but it is not "solved." More consequentially, AISI finds AI models can now complete apprentice-level cyber tasks roughly 50% of the time on average, compared with around 10% in early 2024 &mdash; and in 2025 they tested the first model that could successfully complete expert-level cyber tasks normally requiring 10+ years of experience. The frontier of capability and the frontier of safeguard are moving together, not apart.</p>
-
-<p>Anthropic's response is illustrative of where the industry is heading. The company released <a href="https://www.anthropic.com/news/responsible-scaling-policy-v3" target="_blank">Responsible Scaling Policy v3.0</a> on 24 February 2026 &mdash; explicitly separating Anthropic's own unilateral commitments from its recommendations for industry. The v3.0 introduces a Frontier Safety Roadmap, requires public Risk Reports every 3&ndash;6 months, and commits to external review of Risk Reports at higher capability levels. Read the move charitably and it is a transparency upgrade; read it sceptically and Anthropic has admitted that some of the safety commitments in earlier RSPs are "outright impossible to implement without collective action." Either reading lands at the same place: the verification stack is now a regulatory and standards conversation, not a research-lab conversation.</p>
-
-<details class="supporting-signals">
-<summary>Supporting signals (click to expand)</summary>
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. The verification stack becomes a procurement requirement</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Trust in AI outputs is no longer a behavioural posture. It is becoming an infrastructure stack: identity for agents, logging for actions, classifiers for output, evaluations for capability and external review for accountability, with regulatory enforcement landing in August 2026. For operators in the EU and EU-adjacent markets, that is a hard deadline; for everyone, the trust stack has moved from a policy item to a procurement item, something an organisation buys, audits and is expected to read.</p>
+<div class="cluster-signals">
 <ul>
-<li><strong>EU AI Act</strong>: prohibited practices effective February 2025; GPAI rules effective August 2025; transparency rules and high-risk rules entering force <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank">August 2026</a>, with embedded-product high-risk rules extended to August 2027.</li>
-<li><strong>EU GPAI Code of Practice</strong>: <a href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai" target="_blank">voluntary compliance tool</a> published July 2025; signatories will be monitored for adherence and may receive mitigation credit on fines.</li>
-<li><strong>NIST</strong>: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank">AI RMF 1.0</a> remains the US baseline; AI Agent Standards Initiative announced February 2026; Agent Interoperability Profile planned Q4 2026.</li>
-<li><strong>OECD</strong>: <a href="https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-ai_41671712-en.html" target="_blank">Due Diligence Guidance for Responsible AI</a> (Feb 2026) gives boards a structured AI risk-management playbook.</li>
-<li><strong>BIS</strong>: <a href="https://www.bis.org/speeches/sp260126.htm" target="_blank">three financial-stability channels</a> for AI &mdash; market functioning, operational concentration, propagation of stress; intensity, speed and complexity as risk multipliers.</li>
-<li><strong>OpenAI &times; Anthropic</strong>: <a href="https://openai.com/index/openai-anthropic-safety-evaluation/" target="_blank">joint internal safety evaluations</a> on each other's published models &mdash; an industry precedent for cross-lab evaluation that is likely to inform future regulatory practice.</li>
-<li><strong>AI incident data</strong>: documented AI incidents reached 362 in 2025 (per the AI Incident Database, cited in <a href="https://suprmind.ai/hub/ai-hallucination-rates-and-benchmarks/" target="_blank">third-party benchmark compilations</a>), up 55% YoY.</li>
+<li>The EU AI Act becomes fully applicable on 2 August 2026, with high-risk system rules, transparency rules and Commission enforcement for general-purpose AI models all entering force the same month. <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission</a> (January 2026).</li>
+<li>The standards layer is consolidating around the same shape: the OECD's Due Diligence Guidance for Responsible AI gives multinationals a structured playbook, and NIST has announced an AI Agent Standards Initiative naming agent identity, action logging and containment boundaries as the three pillars of agent governance. <a href="https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-ai_41671712-en.html">OECD</a> (February 2026); <a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST</a> (2026).</li>
+<li>Capability and safeguard are moving together, not apart: the UK AI Security Institute reports agentic autonomy roughly doubling every two months, universal jailbreaks found in every system tested, and AI models now completing apprentice-level cyber tasks around 50% of the time, up from roughly 10% in early 2024. <a href="https://www.aisi.gov.uk/frontier-ai-trends-report">UK AI Security Institute</a> (2026).</li>
+<li>The disclosure default is converging on capability evaluation plus safety evaluation plus residual risk plus mitigation: Anthropic's Responsible Scaling Policy v3.0 commits to public Risk Reports every three to six months and external review at higher capability levels, a pattern operators should expect to receive and to read the way they read a SOC 2 audit. <a href="https://www.anthropic.com/news/responsible-scaling-policy-v3">Anthropic</a> (February 2026).</li>
 </ul>
-</details>
-
-<div class="spotlight">
-<span class="spotlight-pill">Spotlight</span>
-<h4>The "model report" becomes the disclosure default</h4>
-<p>Three of the four frontier labs now publish some form of public "model card" or "model report" alongside major releases &mdash; covering capability evaluations, safety evaluations, residual risk, and known limitations. Anthropic's RSP v3.0 commits to scheduled Risk Reports. The EU GPAI Code of Practice asks signatories to publish summaries of training content and risk assessment. NIST is drafting agent-evaluation profiles. The disclosure pattern is converging on the same shape: capability + safety eval + residual risk + mitigation. Operators procuring frontier models in 2026 should expect to receive (and be expected to read) these reports the way they read SOC 2 audits today.</p>
 </div>
-
 <div class="counter-argument">
 <h4>Counter-argument</h4>
-<p>Verification infrastructure may be moving fast enough to look impressive but slow enough to be irrelevant to the operational risk. The hallucination problem is unsolved at the model layer, agent containment is unsolved at the system layer, and shadow AI use (employees pasting confidential data into personal chatbots) is unaddressed at the data-governance layer. A trust stack that does not cover the day-to-day failure modes is a compliance artefact, not a risk control. Boards that treat AI Act compliance as the ceiling of their risk posture rather than the floor will discover the gap when something embarrassing reaches the front page.</p>
+<p>Verification infrastructure may be moving fast enough to look impressive but slow enough to be irrelevant to the operational risk. The hallucination problem is unsolved at the model layer, agent containment is unsolved at the system layer, and shadow AI use, employees pasting confidential data into personal chatbots, is unaddressed at the data-governance layer. A trust stack that does not cover the day-to-day failure modes is a compliance artefact, not a risk control, and boards that treat AI Act compliance as the ceiling rather than the floor will find the gap when something embarrassing reaches the front page.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-2" class="xref">2</a>.</div>
 </div>
 
-<div class="weak-signals">
-<h4><span class="weak-signal-marker">Weak signal</span>External-review markets for AI</h4>
-<p>Anthropic's RSP v3.0 commits to appointing "expert third-party reviewers" with deep AI safety familiarity and minimal conflicts of interest, with unredacted access to Risk Reports. This is the seed of a third-party AI review market &mdash; analogous to financial audit. If it generalises (and the EU AI Act's market-surveillance architecture pushes in the same direction), expect a small group of credible external reviewers to emerge over the next 18&ndash;24 months, with audit-firm-style capacity constraints driving up engagement prices.</p>
-</div>
-
-<div class="strategic-implication">
-<h4 style="margin-top: 0;">Strategic implication</h4>
-<p>The trust stack is now a procurement item, not a policy item. For operators in the EU and EU-adjacent markets, August 2026 is a hard deadline. For US operators, NIST profiles plus state laws (Colorado AI Act, California transparency) define the floor. For everyone, the relevant question this cycle is: which three AI-touching workflows in our organisation would not pass an external review today, and what is the closing plan?</p>
-</div>
-
-</div>
-
-<!-- THEME 3: Talent pipeline reset -->
-<div class="theme-section">
-<h3>Theme 3 &middot; Talent pipeline reset <span class="decision-tag prepare">Prepare</span></h3>
-
-<div class="one-thing">
-The thing that has changed: AI is not displacing the workforce evenly. It is hollowing out the entry-level rung of the talent pyramid &mdash; the rung that organisations have always used to renew themselves. The displacement is concentrated, measurable, and now showing up in graduate-hiring data.
-</div>
-
-<div class="why-changing">
-<strong>Why now.</strong> Three years of generative-AI deployment have produced enough field data to see the pattern. The <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy" target="_blank">Stanford AI Index 2026</a> reports that employment for software developers aged 22&ndash;25 has fallen nearly 20% from 2024 &mdash; concentrated precisely in the cohort whose first jobs are the tasks AI does best (boilerplate code, syntax debugging, ticket triage). The World Economic Forum reports US entry-level postings down 35% over the prior 18 months (per Revelio Labs). NACE's Job Outlook 2026 found employers projecting only 1.6% growth in hiring for the Class of 2026 over the Class of 2025 &mdash; one of the weakest readings since 2020. The CNBC / Indeed Hiring Lab analysis (April 2026) shows 4.2% of full-time early-career jobs now mention AI skills, nearly double the share a year earlier &mdash; meaning the entry-level jobs that remain require demonstrated AI fluency on day one.
-</div>
-
-<p>The structural story is not "AI replaces workers." It is more specific: AI replaces the <em>training ground</em>. The tasks that used to be how junior associates learned (cleaning data, drafting summaries, drafting first-pass code, triaging emails) are precisely the tasks AI does well. The <a href="https://www.weforum.org/stories/2026/03/how-ai-is-changing-the-nature-of-entry-level-work/" target="_blank">WEF article authored by Cognizant's CPO</a> (March 2026) makes this point operationally: "Reports now indicate the work assumed to be done by AI in early-career roles is simply being pushed upward &mdash; leaving middle management and senior talent overextended, burned out and increasingly disengaged as they absorb junior tasks." The pyramid is not flattening; it is hollowing in the middle and stretching at the top.</p>
-
-<p>Yale's analysis frames it bluntly: <a href="https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start" target="_blank">"The Real Job Destruction from AI Is Hitting Before Careers Can Start."</a> The classical apprenticeship model &mdash; where you learn judgement by doing routine work first &mdash; doesn't have an obvious replacement. The PwC Global Workforce Hopes &amp; Fears Survey notes only 14% of workers use generative AI daily, underscoring how thin the in-flight reskilling pipeline is. The risk for the back half of the decade is not mass unemployment; it is a generational skills gap &mdash; a 10-year cohort that did not get the on-the-job apprenticeship that produced the previous generation's mid-career professionals.</p>
-
-<details class="supporting-signals">
-<summary>Supporting signals (click to expand)</summary>
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. The payoff gap: AI's haves and have-nots</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The deployment is real, but the return is not yet evenly arriving. Only a small share of organisations can show enterprise-level financial impact from AI, and the gap between the firms that can and the firms that cannot has become the dominant strategic anxiety of the cycle. This is a competitive-positioning question over the next twelve months: the divergence is widening while most management teams cannot yet name the use cases AI is supposed to be paying for.</p>
+<div class="cluster-signals">
 <ul>
-<li><strong>WEF Future of Jobs 2025</strong>: nearly <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank">40% of skills required in jobs will change by 2030</a>; 63% of companies plan to reskill existing employees rather than hire AI specialists; 85% of employers prioritise upskilling.</li>
-<li><strong>WEF AI &amp; Entry-Level Jobs briefing</strong> (Jan 2026): structured field evidence on AI's effect on the on-ramp into knowledge work, sector by sector.</li>
-<li><strong>NACE Job Outlook 2026 Spring Update</strong>: the <a href="https://www.naceweb.org/research/reports/2026/job-outlook/spring-update/" target="_blank">spring update</a> revises the Class of 2026 forecast upward to +5.6% as employers re-balance toward using AI to lift entry-level productivity rather than replace it &mdash; but the headline 2026 figure remains weak.</li>
-<li><strong>CNBC / Indeed Hiring Lab</strong> (April 2026): <a href="https://www.cnbc.com/2026/04/29/entry-level-jobs-calling-for-ai-skills-nearly-doubled-from-a-year-ago-report.html" target="_blank">4.2% of full-time early-career jobs now mention AI skills</a>, nearly double the share a year earlier.</li>
-<li><strong>Brynjolfsson, Li, Raymond</strong>: the <a href="https://www.nber.org/papers/w31161" target="_blank">field experiment with ~5,200 customer-support agents</a> shows AI assistance raises issues-resolved-per-hour by 15% on average, up to 35% for the least-experienced workers &mdash; evidence that AI can <em>upskill</em> entry-level workers rather than replace them, when the deployment is configured for assistance.</li>
-<li><strong>OECD Employment Outlook 2023</strong>: <a href="https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en.html" target="_blank">occupations at highest risk of automation account for 27% of OECD employment</a>; in high-AI-exposure occupations, 72% of vacancies require management skills and 67% require business-process skills.</li>
+<li>Just 12% of CEOs say AI has delivered both cost and revenue benefits and 56% report no significant financial benefit, while the gap between the AI haves and have-nots is now the single biggest CEO concern, ahead of innovation or viability. <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html">PwC 29th Global CEO Survey</a> (January 2026).</li>
+<li>Only 39% of organisations report any enterprise-level EBIT impact from AI and only 6% qualify as AI high performers, a thin leading edge against broad adoption. <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">McKinsey State of AI 2025</a> (November 2025).</li>
+<li>Goldman Sachs finds no meaningful relationship between AI adoption and productivity at the economy-wide level, but a median 30% gain in two narrow use cases, with only 10% of S&amp;P 500 management teams quantifying AI's impact on specific use cases and only 1% quantifying earnings impact: the measurement gap is the real gap. <a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/">Fortune, reporting Goldman Sachs</a> (March 2026).</li>
+<li>UK firm-level data shows large firms at 36 to 44% AI adoption and 56% of AI-using firms reporting self-assessed productivity gains, but 95% of AI-using SMEs report no change in workforce size: adoption is running well ahead of measured structural effect. <a href="https://www.bennettschool.cam.ac.uk/blog/ai-adoption-in-the-uk/">Bennett School, Cambridge</a> (2026).</li>
 </ul>
-</details>
-
-<div class="spotlight">
-<span class="spotlight-pill">Spotlight</span>
-<h4>Cognizant's counter-pattern: hire <em>more</em> graduates, not fewer</h4>
-<p>Cognizant's Chief People Officer reports the company hired 25,000 fresh graduates in 2025 and expects to exceed that number in 2026 &mdash; <em>despite</em> heavy enterprise AI deployment. The thesis: junior employees are the digital natives most fluent in AI tools; they ramp faster than their senior coworkers; they understand both the business context and the model output; and they renew the talent pyramid for the back half of the decade. The counter-pattern is rational but not yet widely copied. It is a leading indicator for organisations that treat the entry level as strategic infrastructure rather than the easiest cost line to cut.</p>
 </div>
-
 <div class="counter-argument">
 <h4>Counter-argument</h4>
-<p>The entry-level squeeze may be cyclical &mdash; a 2023&ndash;2025 post-pandemic correction in over-hired technology functions, not a permanent AI-driven structural shift. Healthcare entry-level postings rose by 13 percentage points over the same period software entry-level postings fell. The sectoral mix matters. If the tech-sector hiring cycle turns in 2027 (as the NACE Spring Update hints), the "AI is destroying entry-level jobs" narrative may turn out to be a measurement artefact of where AI was most aggressively deployed first.</p>
+<p>The payoff gap may be a measurement problem, not a returns problem. The productivity J-curve, the pattern where measured productivity dips before gains from a general-purpose technology show up in national accounts, is well established for electricity and computing. The "no enterprise-wide EBIT impact yet" data looks much like the early data on enterprise software in the early 1990s. Acemoglu's conservative macro ceiling sits near +0.07 percentage points of annual total factor productivity, but if the J-curve plays out as before, the 2025 to 2027 capex funds the productivity surge of 2028 to 2032, and the "reckoning" reads as impatience rather than a structural problem.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
 </div>
 
-<div class="weak-signals">
-<h4><span class="weak-signal-marker">Weak signal</span>"AI-fluent first" as a graduate requirement</h4>
-<p>The CNBC / Indeed analysis shows the entry-level jobs that <em>are</em> being filled increasingly require AI fluency on day one. Senior leaders quoted in employer surveys describe expecting recent graduates to "slot in at a higher level almost from day one." This is the early form of an employer-side response to the broken apprenticeship pipeline: shift the AI learning back into formal education rather than absorb it as on-the-job training. Watch for the curricular and credential responses (university AI-fluency programmes, industry-recognised AI literacy certificates) over the next 18 months.</p>
-</div>
-
-<div class="strategic-implication">
-<h4 style="margin-top: 0;">Strategic implication</h4>
-<p>The entry-level question this cycle is not whether to hire graduates &mdash; it is whether the organisation has a designed answer to "how do new joiners build judgement when AI does the routine work?" Three operational moves follow: (1) redesign first-year roles around AI-output review, exception handling, and judgement tasks rather than routine production; (2) make AI fluency a hiring screen, not an optional skill; (3) explicitly cost the senior-team burnout that comes from absorbing junior tasks into the AI-deployment business case. Organisations that skip (3) will discover the cost in turnover.</p>
-</div>
-
-</div>
-
-<!-- THEME 4: Productivity reckoning -->
-<div class="theme-section">
-<h3>Theme 4 &middot; The productivity reckoning <span class="decision-tag decide">Decide</span></h3>
-
-<div class="one-thing">
-The thing that has changed: the AI capex bill is now visible &mdash; $7.6 trillion over 2026&ndash;2031 on Goldman Sachs's baseline, with hyperscaler free cash flow being compressed in real time &mdash; and the productivity it is supposed to fund is still confined to narrow, measurable use cases. The mismatch is becoming a board-level question.
-</div>
-
-<div class="why-changing">
-<strong>Why now.</strong> Three data points landed in the first four months of 2026 that turned "AI capex" from a sell-side debate into a board-level one. First, <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html" target="_blank">PwC's 29th Global CEO Survey</a> (4,454 CEOs, 95 countries, January 2026) found only 12% saying AI had delivered both cost and revenue benefits, and 56% saying no significant financial benefit had materialised. Second, <a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/" target="_blank">Goldman Sachs's research</a> found "no meaningful relationship between AI adoption and productivity at the economy-wide level" but a median 30% productivity gain in two narrow use cases &mdash; with only 10% of S&amp;P 500 management teams quantifying AI's impact on specific use cases and only 1% quantifying earnings impact. Third, <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs Global Institute's "Tracking Trillions"</a> (May 2026) modelled the cumulative six-year AI capex envelope at $7.6 trillion and identified the four supply-side assumptions that swing the number by hundreds of billions either way.
-</div>
-
-<p>The hyperscaler cash flow data is the most legible board-level signal. Per <a href="https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/" target="_blank">Fortune (April 30, 2026)</a>, the four hyperscalers (Amazon, Alphabet, Meta, Microsoft) will spend a combined ~$700 billion on AI infrastructure in 2026 alone, with Microsoft and Alphabet at $190bn each and Meta at up to $135bn. Per <a href="https://www.cnbc.com/2026/google-microsoft-meta-amazon-ai-cash.html" target="_blank">CNBC (February 2026)</a>, Amazon's free cash flow is projected at &minus;$17bn to &minus;$28bn for the year; Meta's FCF is expected to drop ~90%. Against that, the demand-side evidence is real but uneven: Google Cloud Q1 2026 revenue +63% YoY to $20bn; Microsoft's AI business running at an annualised $37bn (+123% YoY). The capex is being underwritten by cloud revenue growth and by a $2 trillion order backlog (Jefferies), but the productivity proof at the wider economy level is still in front of the build-out.</p>
-
-<p>The macroeconomic literature offers two opposing anchors. <a href="https://economics.mit.edu/sites/default/files/2024-04/The%20Simple%20Macroeconomics%20of%20AI.pdf" target="_blank">Acemoglu's "Simple Macroeconomics of AI"</a> sets a conservative ceiling at roughly +0.07pp/year of total factor productivity over a decade &mdash; based on AI affecting ~5% of tasks with ~30% cost savings. The <a href="https://www.imf.org/-/media/files/publications/wp/2025/english/wpiea2025067-print-pdf.pdf" target="_blank">IMF's working paper on AI and productivity in Europe</a> models higher ranges. <a href="https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026002.pdf" target="_blank">The IMF's April 2026 scenario-planning note on global financial implications of AI</a> warns that the gap between AI-prepared and AI-unprepared economies is widening &mdash; with fiscal, monetary, and financial-stability consequences. The Brynjolfsson "productivity J-curve" hypothesis (measured productivity dips before AI gains materialise in national accounts) remains the dominant academic framework for why the macro data is not yet showing what the micro deployments suggest.</p>
-
-<details class="supporting-signals">
-<summary>Supporting signals (click to expand)</summary>
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. The entry-level reset</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">AI is not displacing the workforce evenly. It is hollowing out the entry-level rung of the talent pyramid, the rung organisations have always used to renew themselves, because the tasks that used to be how junior staff learned (cleaning data, drafting summaries, first-pass code, triage) are precisely the tasks AI does well. The structural story is not "AI replaces workers"; it is "AI replaces the training ground", and the hiring decisions that respond to it are being made over the next twelve months.</p>
+<div class="cluster-signals">
 <ul>
-<li><strong>PwC</strong> 2026 CEO Survey: <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html" target="_blank">CEO revenue confidence at five-year low (30%)</a>; "transforming fast enough" is the top CEO concern (42%); CEOs with strong AI foundations are 3x more likely to report meaningful financial returns.</li>
-<li><strong>Goldman Sachs Global Institute "Tracking Trillions"</strong>: <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">$7.6 trillion of AI capex 2026&ndash;2031</a>; the four most-sensitive variables are silicon useful life, data-centre cost per MW, chip architecture mix, and elongation.</li>
-<li><strong>BlackRock Q2 2026 Outlook</strong>: <a href="https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/outlook" target="_blank">AI capex contributing ~3x the historical investment average to US growth</a>; companies translating AI into durable cost advantages will separate from those that cannot.</li>
-<li><strong>Yahoo / S&amp;P Capital IQ</strong>: <a href="https://finance.yahoo.com/sectors/technology/articles/hyperscalers-hit-700-billion-2026-111243744.html" target="_blank">confirms the $700bn hyperscaler 2026 capex envelope</a> and the FCF compression that follows.</li>
-<li><strong>Stanford AI Index 2026</strong>: AI company revenue rising at historically fast rates, but <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy" target="_blank">compute costs and infrastructure spending are reaching record levels in parallel</a>; private AI investment grew 127.5% in 2025.</li>
-<li><strong>Bennett School of Public Policy (Cambridge)</strong>: UK firm-level data shows <a href="https://www.bennettschool.cam.ac.uk/blog/ai-adoption-in-the-uk/" target="_blank">large firms (250+ employees) at 36&ndash;44% AI adoption</a>; micro-businesses at 14%; 56% of AI-using firms report self-assessed productivity gains but 95% of SMEs report no workforce-size change.</li>
+<li>Employment for software developers aged 22 to 25 has fallen nearly 20% from 2024, concentrated in the cohort whose first jobs are the tasks AI does best, while US entry-level postings are down around 35% over 18 months. <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">Stanford AI Index 2026</a> (April 2026); <a href="https://www.weforum.org/stories/2026/03/how-ai-is-changing-the-nature-of-entry-level-work/">WEF</a> (March 2026).</li>
+<li>The work assumed to be done by AI in early-career roles is being pushed upward, leaving middle management and senior talent overextended: the pyramid is not flattening, it is hollowing in the middle and stretching at the top. <a href="https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start">Yale Insights</a> (2026).</li>
+<li>The entry-level jobs that are being filled increasingly require AI fluency on day one: 4.2% of full-time early-career postings now mention AI skills, nearly double the share a year earlier. <a href="https://www.cnbc.com/2026/04/29/entry-level-jobs-calling-for-ai-skills-nearly-doubled-from-a-year-ago-report.html">CNBC and Indeed Hiring Lab</a> (April 2026).</li>
+<li>The counter-pattern exists: a field experiment with around 5,200 customer-support agents shows AI assistance raising issues resolved per hour by 15% on average and up to 35% for the least-experienced workers, evidence that AI can upskill entry-level staff when the deployment is configured for assistance rather than replacement. <a href="https://www.nber.org/papers/w31161">Brynjolfsson, Li and Raymond</a> (2023).</li>
 </ul>
-</details>
-
-<div class="spotlight">
-<span class="spotlight-pill">Spotlight</span>
-<h4>Silicon useful life: the single most consequential capex assumption</h4>
-<p>Goldman Sachs Global Institute's analysis identifies silicon useful life as "the single most influential variable in determining the scale of cumulative AI infrastructure investment." Today's NVIDIA accelerators are depreciated over four to six years on accounting books &mdash; but the annual release cadence means each new generation delivers step-function performance gains, making earlier generations economically obsolete on a faster schedule than the depreciation schedule. Shorten effective useful life from six to four years and cumulative spend rises by hundreds of billions; extend it via tiered deployment (using older chips for inference, edge computing, emerging markets) and the bill falls by a similar amount. The investor question is not "will AI demand materialise?" &mdash; it is "what is the right depreciation schedule for an asset that may be obsolete before the books say it is?"</p>
 </div>
-
 <div class="counter-argument">
 <h4>Counter-argument</h4>
-<p>The productivity reckoning may be a measurement problem, not a returns problem. The J-curve hypothesis &mdash; that GDP-level productivity statistics lag AI deployment by 5&ndash;10 years &mdash; is well established for previous general-purpose technologies (electricity, computers). The PwC, Goldman and McKinsey data on "no enterprise-wide EBIT impact yet" looks identical to the early data on enterprise software in the early 1990s. If the J-curve plays out as it did before, the 2025&ndash;2027 capex bill funds the productivity surge of 2028&ndash;2032. The reckoning narrative may be a sell-side artefact of impatience rather than a structural problem with the technology.</p>
+<p>The entry-level squeeze may be cyclical, a post-pandemic correction in over-hired technology functions rather than a permanent AI-driven structural shift. Healthcare entry-level postings rose over the same period that software entry-level postings fell, so the sectoral mix matters, and NACE's spring update revised the Class of 2026 forecast upward as employers re-balanced toward using AI to lift entry-level productivity rather than replace it. If the tech hiring cycle turns in 2027, the "AI is destroying entry-level jobs" narrative may prove a measurement artefact of where AI was deployed first and hardest.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-3" class="xref">3</a>.</div>
 </div>
 
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. The capex reckoning</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The AI capex bill is now visible and large, and hyperscaler free cash flow is being compressed in real time while the productivity the spend is meant to fund is still confined to narrow use cases. This is a multi-year structural factor rather than a this-quarter event, but it sets the backdrop for every organisation with material AI capex and every investor pricing AI exposure: the question is no longer whether AI demand materialises, it is whether the supply-side assumptions hold and the bill is met by returns.</p>
+<div class="report-figure">
+<h4>The six-year AI capex envelope</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A bar chart: annual AI capex rising from 765 billion dollars in 2026 to 1.6 trillion dollars in 2031, a cumulative 7.6 trillion dollar envelope, with hyperscaler free cash flow compressing in 2026.">
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif">
+    <line x1="60" y1="20" x2="60" y2="150" stroke="#c5cae9" stroke-width="1.5"/>
+    <line x1="60" y1="150" x2="430" y2="150" stroke="#c5cae9" stroke-width="1.5"/>
+    <rect x="100" y="92" width="80" height="58" rx="3" fill="#1565c0"/>
+    <text x="140" y="84" font-size="12" font-weight="700" fill="#1565c0" text-anchor="middle">$765bn</text>
+    <text x="140" y="166" font-size="10.5" fill="#5a6478" text-anchor="middle">2026</text>
+    <rect x="210" y="68" width="80" height="82" rx="3" fill="#1a237e" opacity="0.55"/>
+    <text x="250" y="60" font-size="11" fill="#5a6478" text-anchor="middle">rising</text>
+    <text x="250" y="166" font-size="10.5" fill="#5a6478" text-anchor="middle">2028</text>
+    <rect x="320" y="30" width="80" height="120" rx="3" fill="#1a237e"/>
+    <text x="360" y="22" font-size="12" font-weight="700" fill="#1a237e" text-anchor="middle">$1.6tn</text>
+    <text x="360" y="166" font-size="10.5" fill="#5a6478" text-anchor="middle">2031</text>
+    <rect x="470" y="26" width="232" height="128" rx="6" fill="#f7f5fb"/>
+    <rect x="470" y="26" width="4" height="128" fill="#1a237e"/>
+    <text x="488" y="54" font-size="22" font-weight="700" fill="#1a237e">$7.6tn</text>
+    <text x="488" y="76" font-size="11" fill="#2c3e50">cumulative AI capex,</text>
+    <text x="488" y="92" font-size="11" fill="#2c3e50">2026 to 2031. Hyperscaler</text>
+    <text x="488" y="108" font-size="11" fill="#2c3e50">free cash flow already</text>
+    <text x="488" y="124" font-size="11" fill="#2c3e50">compressing in 2026.</text>
+    <text x="488" y="142" font-size="9.5" font-style="italic" fill="#5a6478">Goldman Sachs Global Institute; CNBC</text>
+  </g>
+</svg>
+<p class="figure-caption">Goldman Sachs Global Institute baseline. The 2028 bar is indicative of the rising path between the 2026 and 2031 anchors.</p>
+</div>
+<div class="cluster-signals">
+<ul>
+<li>The cumulative six-year AI capex envelope sits at $7.6 trillion on the baseline, $765bn in 2026 rising to $1.6tn by 2031, with silicon useful life identified as the single most influential variable: shorten effective useful life from six years to four and cumulative spend rises by hundreds of billions. <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out">Goldman Sachs Global Institute</a> (May 2026).</li>
+<li>The four hyperscalers will spend a combined roughly $700bn on AI infrastructure in 2026 alone. <a href="https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/">Fortune</a> (April 2026); <a href="https://finance.yahoo.com/sectors/technology/articles/hyperscalers-hit-700-billion-2026-111243744.html">Yahoo Finance and S&amp;P Capital IQ</a> (February 2026).</li>
+<li>Free cash flow is turning negative under the weight of the build-out: Amazon's 2026 FCF deficit is projected at $17bn to $28bn and Meta's FCF is expected to fall around 90%, even as Google Cloud Q1 revenue rose 63% year on year and Microsoft's AI business runs at an annualised $37bn. <a href="https://www.cnbc.com/2026/google-microsoft-meta-amazon-ai-cash.html">CNBC</a> (February 2026).</li>
+<li>The macro literature offers opposing anchors: Acemoglu sets a conservative ceiling near +0.07 percentage points of annual total factor productivity, while the IMF's scenario work warns the gap between AI-prepared and AI-unprepared economies is widening, with fiscal, monetary and financial-stability consequences. <a href="https://economics.mit.edu/sites/default/files/2024-04/The%20Simple%20Macroeconomics%20of%20AI.pdf">Acemoglu</a> (2024); <a href="https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026002.pdf">IMF</a> (April 2026).</li>
+</ul>
+</div>
 <div class="weak-signals">
-<h4><span class="weak-signal-marker">Weak signal</span>Sovereign credit and AI exposure</h4>
-<p>The IMF's scenario-planning note on AI's global financial implications and the BIS speech on AI's financial-stability channels are both signalling something the rating agencies have not yet fully formalised: jurisdictions and corporates with high exposure to AI capex commitments and weak revenue-conversion stories may begin to receive different treatment in credit spreads. Workforce-availability risk &mdash; whose stress-test is the demographic decline thesis covered in last cycle's sample &mdash; compounds the picture. Watch for the first sovereign rating action or major corporate downgrade citing AI capex unmonetised by 2027 as a contributing factor. The trigger will not be a single event; it will be a pattern of FCF disappointments at hyperscalers.</p>
+<h4>Weak signals to watch</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> Sovereign credit and AI exposure: the IMF's scenario note and the BIS's work on AI's financial-stability channels both point toward something rating agencies have not yet formalised, that jurisdictions and corporates with heavy AI capex commitments and weak revenue-conversion stories may begin to receive different treatment in credit spreads. Would gain weight on the first sovereign rating action or major corporate downgrade citing unmonetised AI capex.</li>
+<li><span class="weak-signal-marker">Weak signal</span> An external-review market for AI: Anthropic's commitment to appoint expert third-party reviewers with unredacted access to Risk Reports is the seed of an audit-style review market. Would gain weight if the EU AI Act's market-surveillance architecture pulls a small group of credible external reviewers into being over the next 18 to 24 months.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The capex may be more disciplined than the free-cash-flow headlines suggest. It is being underwritten by real, fast-growing cloud revenue and a large order backlog, and the FCF compression is a deliberate investment choice by some of the most cash-generative companies in the world, not a sign of distress. Google Cloud's 63% revenue growth and Microsoft's $37bn annualised AI run-rate are demand signals, not hopes. On this reading the "reckoning" is a sell-side framing, and the build-out is a rational land-grab in a market whose demand curve is still bending upward.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
 </div>
 
-<div class="strategic-implication">
-<h4 style="margin-top: 0;">Strategic implication</h4>
-<p>The productivity reckoning is a four-question diagnostic for every organisation with material AI capex: (1) which specific use cases have we quantified for cost or revenue impact, by name; (2) what is our silicon depreciation schedule, and how does it compare to industry refresh cadence; (3) what is our exposure to a 12-month delay in AI revenue materialising; (4) what is our hedge if Goldman is right and there is no meaningful economy-wide productivity boost over the next two to three years. Boards that have not asked all four are likely funding the build-out without knowing what break would look like.</p>
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into next year's plan. Each names the move, a horizon and a decision posture. Opportunities are expressed here, as Prepare-posture moves, rather than in a separate section.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Build the agent operating model before the agent fleet</h4>
+<p>The leadership team should, this planning cycle, decide and document the agent operating model rather than expand the licence count, because licences are not deployment and the organisations scaling agents are encoding ownership, permissions and escalation into the platform itself. Three artefacts make the model real: an agent inventory with named owners, permission sets and escalation rules; a "human-managed agent" job description, because the agent owner is now a real role; and a model-risk register that integrates AI Act high-risk classifications and NIST profiles. An organisation that cannot answer who owns, what is permitted and where the escalation contract sits for its top five deployed agents is still pre-deployment, regardless of how many licences it holds.</p>
+<p class="si-action">Action: by the next planning round, an agent inventory with named owners and escalation contracts for the top five deployed agents, signed off by an accountable executive.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-1" class="xref">1</a>.</span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Treat verification as a procurement capability, not a policy artefact</h4>
+<p>The leadership team should, ahead of the EU AI Act's 2 August 2026 applicability date, move verification from a written policy into the procurement function, because the trust stack is now buyable and auditable and August 2026 is a hard deadline for EU and EU-adjacent operators. Concretely: require Risk Reports, model cards and incident-disclosure terms as standard procurement clauses; map AI-touching workflows against the high-risk classifications; and identify which three would not pass an external review today. The OECD Due Diligence Guidance and the EU GPAI Code of Practice give the template even for non-EU operators. The upgrade is low-cost and high-leverage, and treating compliance as the floor rather than the ceiling is the difference between a risk control and a compliance artefact.</p>
+<p class="si-action">Action: by end-Q3 2026, AI verification clauses embedded in standard procurement, and a named closing plan for the three highest-exposure workflows.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Redesign the entry-level for AI-assisted apprenticeship, not AI-replaced production</h4>
+<p>The leadership team should, in the workforce-planning cycle, take a deliberate position on the entry-level rung rather than let graduate hiring drift down by default, because AI is replacing the training ground and the classical apprenticeship model has no obvious replacement. Three moves follow: redesign first-year roles around AI-output review, exception handling and judgement tasks rather than routine production; make AI fluency a hiring screen rather than an optional skill; and explicitly cost the senior-team burnout that comes from absorbing junior tasks into the AI business case. The counter-pattern, exemplified by firms that are hiring more graduates because juniors ramp fastest on AI tools, is rational but not yet widely copied, and the cost of skipping the third move shows up later as turnover.</p>
+<p class="si-action">Action: by the next workforce-planning cycle, a redesigned first-year role profile and an explicit, costed position on graduate intake.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-4" class="xref">4</a>.</span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Build the AI-return stress test into the plan and the investment thesis</h4>
+<p>The leadership team, and investors holding AI-exposed portfolios, should build a standing stress test of whether the AI spend is earning its return, because the payoff gap is now the dominant strategic concern and the capex envelope is large enough that the supply-side assumptions matter more than demand. For operators: name the specific use cases quantified for cost or revenue impact, and state the exposure to a twelve-month delay in AI revenue materialising. For investors: build a portfolio-level depreciation-schedule sensitivity around silicon useful life and a hyperscaler free-cash-flow recovery stress test. The work is mechanical and the inputs are knowable line items; the discipline is doing it before the market reprices the divergence rather than after.</p>
+<p class="si-action">Action: by year-end 2026, a quantified AI-return stress test, use-case by use-case for operators and depreciation-and-FCF sensitivity for investors.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Clusters <a href="#cluster-3" class="xref">3</a> and <a href="#cluster-5" class="xref">5</a>.</span>
 </div>
 
 </div>
 
-<!-- ============================ SCENARIO MATRIX ============================ -->
 <a name="section-scenario-matrix"></a>
 <div class="scenario-matrix">
 <h2>Scenario Matrix</h2>
-<p class="framing-note">Two axes, eighteen-month horizon. <strong>X axis:</strong> agent deployment pace &mdash; does the move from copilots to production agents accelerate, or stall on reliability/governance friction? <strong>Y axis:</strong> productivity payoff &mdash; does enterprise-level EBIT impact materialise, or does the capex outrun the returns? The four cells are deliberately distinct &mdash; you should be able to tell which one you are in by mid-2027.</p>
-
+<p class="framing-note">Two uncertainties will shape the next eighteen months more than any other. First, the pace of agent deployment: does the move from copilots to production agents accelerate, or stall on reliability and governance friction? Second, the productivity payoff: does enterprise-level EBIT impact materialise, or does the capex outrun the returns? The four scenarios below are planning aids, not forecasts.</p>
 <div class="scenario-grid">
 
 <div class="scenario-cell scenario-1">
-<h4>1. The Working Org Chart (high agents, high payoff)</h4>
-<p>Agent deployment crosses 40% of enterprise apps (Gartner's projection holds); EU AI Act enforcement creates a verification floor that becomes a procurement standard; productivity gains visible in customer support, software, marketing operations spread to finance and HR. Enterprise EBIT impact from AI moves from 6%-high-performers to 25%+ of organisations. Hyperscaler capex is underwritten by cloud revenue growth. The talent pipeline is reset around AI-fluent juniors who arrive ready to manage agents.</p>
-<div class="scenario-indicators"><strong>Early indicators:</strong> agent deployment scaling beyond IT and KM into customer-facing and finance functions; mainstream coverage of "second-year AI ROI" case studies; first credible cross-firm productivity studies showing sectoral gains; hyperscaler FCF normalising in 2H 2026.</div>
+<h4>The Working Org Chart</h4>
+<p>High agents, high payoff. Agent deployment crosses 40% of enterprise applications, EU AI Act enforcement creates a verification floor that becomes a procurement standard, and the productivity gains visible in support, software and marketing spread to finance and HR. Enterprise EBIT impact moves from a 6% high-performer share toward a quarter of organisations, hyperscaler capex is underwritten by cloud revenue growth, and the talent pipeline resets around AI-fluent juniors who arrive ready to manage agents.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> agent deployment scaling beyond IT into customer-facing and finance functions; credible cross-firm productivity studies showing sectoral gains; hyperscaler free cash flow normalising in the second half of 2026.</div>
 </div>
 
 <div class="scenario-cell scenario-2">
-<h4>2. Pilot Purgatory (low agents, low payoff)</h4>
-<p>Agent deployments stall on reliability, hallucinations and governance friction; Klarna-style reversals become the dominant pattern in customer-facing functions; PwC's 56%-no-significant-benefit number persists into 2027. Hyperscaler capex continues but free cash flow disappointment triggers the first downgrades. EU AI Act enforcement is interpreted as compliance ceiling rather than risk floor. The entry-level squeeze hardens but no replacement training architecture emerges. CEO confidence falls further.</p>
-<div class="scenario-indicators"><strong>Early indicators:</strong> multiple high-profile agent rollbacks; hyperscaler capex cuts in 2026 earnings calls; rating-agency commentary on AI-capex sustainability; rising CEO churn citing transformation pressure.</div>
+<h4>Pilot Purgatory</h4>
+<p>Low agents, low payoff. Agent deployments stall on reliability, hallucination and governance friction, Klarna-style reversals become the dominant pattern in customer-facing functions, and the "no significant benefit" majority persists into 2027. Hyperscaler capex continues but free-cash-flow disappointment triggers the first downgrades, the EU AI Act is read as a compliance ceiling rather than a risk floor, and the entry-level squeeze hardens without a replacement training architecture emerging.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> multiple high-profile agent rollbacks; hyperscaler capex cuts in 2026 earnings calls; rating-agency commentary on AI-capex sustainability.</div>
 </div>
 
 <div class="scenario-cell scenario-3">
-<h4>3. Bifurcated Enterprise (high agents, uneven payoff)</h4>
-<p>A small group of AI high-performers (McKinsey's 6%) widens to 15&ndash;20% and pulls away on margin, market share, and innovation cadence &mdash; while the laggards' returns disappoint. The bifurcation is sectoral (tech, financial services, professional services pull ahead; manufacturing, public sector, mid-market lag). Talent flows accelerate the gap. EU AI Act enforcement bites unevenly. Capital markets price the divergence.</p>
-<div class="scenario-indicators"><strong>Early indicators:</strong> widening price-earnings gaps between AI-deployed and AI-undeployed peers; M&amp;A consolidation driven by AI-capability arbitrage; CEO survey responses showing sharper bimodal distribution on AI ROI.</div>
+<h4>Bifurcated Enterprise</h4>
+<p>High agents, uneven payoff. A small group of AI high performers widens from 6% toward 15 to 20% and pulls away on margin, market share and innovation cadence, while the laggards' returns disappoint. The bifurcation is sectoral, with technology, financial services and professional services pulling ahead while manufacturing, the public sector and the mid-market lag. Talent flows accelerate the gap, EU AI Act enforcement bites unevenly, and capital markets begin to price the divergence directly.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> widening valuation gaps between AI-deployed and AI-undeployed peers; M&amp;A consolidation driven by AI-capability arbitrage; CEO surveys showing a sharper bimodal split on AI returns.</div>
 </div>
 
 <div class="scenario-cell scenario-4">
-<h4>4. Regulated Slowdown (low agents, high payoff in narrow segments)</h4>
-<p>EU AI Act enforcement and analogous US state-law enforcement (Colorado, California) creates real procurement friction; agent deployment slows by 12&ndash;18 months in regulated industries; the productivity gains that <em>do</em> materialise are concentrated in unregulated knowledge work (software dev, marketing, internal ops). Public sector AI deployment slows further. The narrative shifts from "AI everywhere" to "AI in places it doesn't need a regulator's permission."</p>
-<div class="scenario-indicators"><strong>Early indicators:</strong> first major EU AI Act enforcement action in 2H 2026; regulated-industry AI deployment data flatlining; widening sectoral productivity dispersion; "AI exception" carve-outs in major procurement contracts.</div>
+<h4>Regulated Slowdown</h4>
+<p>Low agents, high payoff in narrow segments. EU AI Act enforcement and analogous US state-law enforcement create real procurement friction, agent deployment slows by twelve to eighteen months in regulated industries, and the productivity gains that do materialise concentrate in unregulated knowledge work such as software and marketing. Public-sector AI deployment slows further, and the narrative shifts from "AI everywhere" to "AI where it does not need a regulator's permission".</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> a first major EU AI Act enforcement action in the second half of 2026; regulated-industry AI deployment data flatlining; "AI exception" carve-outs appearing in major procurement contracts.</div>
 </div>
 
 </div>
-
-<div class="assumptions-register">
-<h4>Key assumptions in the matrix</h4>
-<table>
-<tr><th>Assumption</th><th>Where it breaks</th><th>Watch for</th></tr>
-<tr><td>Frontier model capability continues improving at recent pace</td><td>If a capability ceiling becomes visible mid-2026, scenarios shift toward Pilot Purgatory</td><td>AISI evaluations, Anthropic/OpenAI Risk Reports</td></tr>
-<tr><td>EU AI Act enforcement begins August 2026 as scheduled</td><td>If the Digital Omnibus delays application materially, the Regulated Slowdown branch weakens</td><td>European Parliament/Council Digital Omnibus progress</td></tr>
-<tr><td>Hyperscaler capex remains funded by cloud growth + backlog</td><td>If two consecutive quarters of FCF disappointment land in 2H 2026, scenario shifts toward Pilot Purgatory</td><td>Hyperscaler quarterly earnings, FCF guidance</td></tr>
-<tr><td>Entry-level squeeze is structural, not cyclical</td><td>If software-sector hiring picks up sharply in 2H 2026, the talent-reset thesis weakens</td><td>NACE Job Outlook, Indeed Hiring Lab, BLS data</td></tr>
-</table>
-</div>
 </div>
 
-<!-- ============================ OPPORTUNITY CAPTURE ============================ -->
-<a name="section-opportunity-capture"></a>
-<div class="opportunity-section">
-<h2>Opportunity Capture</h2>
-
-<div class="opportunity-card">
-<h4>Build the agent operating model before the agent fleet</h4>
-<p>For operate-side audiences, the next 12 months are when the agent operating-model design becomes a competitive moat. Three artefacts to produce this cycle: (1) an agent inventory with named owners, permission sets, and escalation rules; (2) a "human-managed agent" job description &mdash; the role of an agent owner is now a real one; (3) a model-risk register that integrates AI Act high-risk classifications and NIST AI RMF profiles. Organisations that have these three before competitors will be in scenario 3 rather than scenario 2.</p>
-</div>
-
-<div class="opportunity-card">
-<h4>Treat verification as a procurement capability, not a policy artefact</h4>
-<p>The trust stack is now buyable. Organisations procuring frontier models should require Risk Reports, model cards, and incident-disclosure SLAs as standard procurement clauses &mdash; not nice-to-haves. The OECD Due Diligence Guidance is a structured playbook; the EU GPAI Code of Practice gives a compliance template even for non-EU operators. The procurement upgrade is low-cost and high-leverage.</p>
-</div>
-
-<div class="opportunity-card">
-<h4>Redesign the entry-level for AI-assisted apprenticeship, not AI-replaced production</h4>
-<p>Cognizant's hire-more-graduates pattern is the leading-edge counter-move. For organisations facing the entry-level squeeze, redesigning first-year roles around AI-output review, exception handling, customer-facing judgement, and AI-tool-discernment tasks is both a workforce strategy and a productivity strategy. The Brynjolfsson field experiment finding that AI raises low-skill productivity by up to 35% is the empirical anchor: configure for assistance, not replacement, and the talent pipeline renews itself.</p>
-</div>
-
-<div class="opportunity-card">
-<h4>For investors: build the FCF stress test into the AI thesis</h4>
-<p>The 2026 capex cycle is the cleanest large-scale stress test of corporate-finance discipline since the cloud build-out. The four supply-side assumptions Goldman identifies (silicon useful life, $/MW, chip architecture mix, elongation) are knowable line items in 10-Ks and earnings calls. Build a portfolio-level depreciation-schedule sensitivity by year-end 2026; build a hyperscaler FCF-recovery stress test for 1H 2027. The work is mechanical, the alpha is non-trivial.</p>
-</div>
-
-</div>
-
-<!-- ============================ EXCLUSIONS ============================ -->
 <a name="section-explicit-exclusions"></a>
 <div class="exclusions-section">
-<h2>What We Are Not Planning For This Cycle</h2>
+<h2>What We Are Not Planning For</h2>
 
 <div class="exclusion-item">
-<h4>A frontier-model capability discontinuity (e.g., GPT-class jump beyond current scaling laws)</h4>
-<p>The base case is that capability improvements are continuous and measurable. A discontinuous step &mdash; a model markedly more capable than current frontier on multi-step reasoning, autonomous research, or persuasion &mdash; would re-anchor every theme in this report. Probability is hard to bound; consequence would be high.</p>
-<p class="reinstatement"><em>Reinstate if:</em> AISI or a credible third-party reports a step-function on benchmark evaluations, or if a non-public model achieves expert-level autonomy on a task with strategic implications (e.g., AI-led research, end-to-end software production).</p>
-</div>
-
-<div class="exclusion-item">
-<h4>An AI-driven cybersecurity incident at systemic scale</h4>
-<p>AISI documents AI capability on apprentice-level cyber tasks rising from ~10% to ~50% success rate in roughly two years, and expert-level capability has appeared in test conditions. A real-world systemic incident (cross-sector ransomware at AI-augmented pace, AI-orchestrated financial market manipulation, etc.) would shift the policy and procurement landscape sharply. This cycle treats cybersecurity as a parallel theme covered separately.</p>
-<p class="reinstatement"><em>Reinstate if:</em> a cross-sector incident is attributed (formally or informally) to AI-augmented attackers.</p>
+<h4>A frontier-model capability discontinuity</h4>
+<p>The base case is that capability improvements are continuous and measurable. A discontinuous step, a model markedly more capable than the current frontier on multi-step reasoning, autonomous research or persuasion, would re-anchor every cluster in this report. The probability is hard to bound, but the consequence would be high enough that it is tracked rather than planned around.</p>
+<p class="reinstatement">Reinstate if: the UK AI Security Institute or a credible third party reports a step-function on benchmark evaluations, or a non-public model achieves expert-level autonomy on a strategically significant task.</p>
 </div>
 
 <div class="exclusion-item">
-<h4>Regulatory rollback in the US triggering bifurcated global compliance</h4>
-<p>Anthropic's RSP v3.0 commentary explicitly notes the US policy environment "has shifted toward prioritising AI competitiveness and economic growth, while safety-oriented discussions have yet to gain meaningful traction at the federal level." If this becomes a genuine rollback (e.g., pre-emption of state laws, withdrawal from international AI safety institutions), expect a hard split between EU and US regimes, with operators carrying two compliance stacks.</p>
-<p class="reinstatement"><em>Reinstate if:</em> federal pre-emption legislation passes, or US withdraws from a major AI safety international agreement.</p>
+<h4>A regulatory rollback in the US triggering bifurcated global compliance</h4>
+<p>The base case is that the EU and US regimes diverge gradually rather than splitting hard. A genuine US rollback, federal pre-emption of state AI laws or withdrawal from international AI-safety institutions, would force operators to carry two compliance stacks and would change the procurement calculus in cluster 2. It is a watched risk, not a planning assumption.</p>
+<p class="reinstatement">Reinstate if: federal pre-emption legislation passes, or the US withdraws from a major international AI-safety agreement.</p>
 </div>
 
 <div class="exclusion-item">
-<h4>Hyperscaler capex retrenchment ahead of cloud-revenue maturity</h4>
-<p>The base case for this report is that hyperscaler capex remains funded by cloud growth and backlog through 2026. A capex retrenchment &mdash; a hyperscaler cutting projected spend by 20%+ in a single guidance cycle &mdash; would invalidate the productivity-reckoning Theme 4 narrative as currently framed and accelerate the Pilot Purgatory scenario.</p>
-<p class="reinstatement"><em>Reinstate if:</em> any one of the four hyperscalers cuts AI capex guidance by 20%+ in 2026 reporting cycles.</p>
+<h4>A hyperscaler capex retrenchment ahead of cloud-revenue maturity</h4>
+<p>The base case is that hyperscaler capex stays funded by cloud growth and backlog through 2026. A sharp retrenchment, a hyperscaler cutting projected spend by 20% or more in a single guidance cycle, would invalidate the cluster 5 framing as written and accelerate the Pilot Purgatory scenario. The cluster tracks the compression; this exclusion tracks the tail.</p>
+<p class="reinstatement">Reinstate if: any one of the four hyperscalers cuts AI capex guidance by 20% or more in a 2026 reporting cycle.</p>
 </div>
 
 </div>
 
-<!-- ============================ DISCUSSION POINTS ============================ -->
 <a name="section-discussion-points"></a>
 <div class="discussion-points">
-<h2>Discussion Points for Your Next Strategy Meeting</h2>
+<h2>Discussion Points for the Leadership Team</h2>
 <ol>
-<li><strong>Which seat does AI occupy in our org chart today, and which seats do we expect it to occupy in 18 months?</strong> If the answer is "we have a Copilot rollout and an AI policy," it is too early to claim an AI strategy. The shift to agents requires named owners, permission sets, and escalation contracts &mdash; not licences.</li>
-
-<li><strong>Of our top five deployed AI use cases, which ones are quantified for cost or revenue impact?</strong> Goldman's finding that only 1% of S&amp;P 500 management teams quantify AI's earnings impact is the real measurement gap. The work is to close it on five use cases by year-end &mdash; not to expand the pilot list.</li>
-
-<li><strong>Where in our talent pipeline are we absorbing AI's effect on entry-level work?</strong> Either we are quietly cutting graduate hiring (entering scenario 2 at the cohort level), or we are redesigning first-year roles (entering scenario 1). The two paths look identical for 18 months and look very different at 36.</li>
-
-<li><strong>For board members on the financial-services or hyperscaler-exposed side of the portfolio:</strong> what is our depreciation-schedule and FCF sensitivity to the four Goldman supply-side variables, and where are we hedged?</li>
-
-<li><strong>For public-sector audiences:</strong> is our AI deployment risk register integrated with the EU AI Act high-risk classifications and the NIST AI RMF, or are they parallel documents nobody cross-references?</li>
-
-<li><strong>For all audiences:</strong> what is our one-line answer to "if AI capex does not deliver economy-wide productivity by 2028, what changes in our plan?" If we don't have a one-line answer, we have a plan that has not been stress-tested.</li>
+<li>Which seat does AI occupy on our org chart today, and which seats do we expect it to occupy in eighteen months? If the honest answer is "a Copilot rollout and an AI policy", it is too early to call that an AI strategy.</li>
+<li>Of our top five deployed AI use cases, which are quantified for cost or revenue impact by name, and what is the plan to close that measurement gap by year-end rather than expand the pilot list?</li>
+<li>Where in our talent pipeline are we absorbing AI's effect on entry-level work: are we quietly cutting graduate hiring, or deliberately redesigning first-year roles? The two paths look identical for eighteen months and very different at thirty-six.</li>
+<li>Is our AI risk register integrated with the EU AI Act high-risk classifications and the NIST framework, or are they parallel documents nobody cross-references?</li>
+<li>What is our one-line answer to "if AI capex does not deliver economy-wide productivity by 2028, what changes in our plan", and what is our depreciation-schedule and free-cash-flow sensitivity if it does not?</li>
 </ol>
 </div>
 
-<!-- ============================ SOURCE REGISTER ============================ -->
 <a name="section-source-register"></a>
 <div class="source-register">
 <h2>Source Confidence Register</h2>
-<p class="small">Format: Tier &middot; Hyperlinked source &middot; Publication date &middot; Claim supported &middot; Notes. <strong>Source verification (12 May 2026):</strong> every URL in this register was verified by WebSearch and WebFetch during compilation; specific quantitative claims trace to figures published by the cited primary sources. 39 sources across four themes &mdash; soft 3-month recency window with structural anchors permitted (Acemoglu 2024, Brynjolfsson et al. 2023, OECD Employment Outlook 2023, IMF WP/25/067). Tier mix: 13&middot;T1 / 16&middot;T2 / 8&middot;T3 / 2&middot;T4 = 29 T1+T2 (74%).</p>
+<p>This cycle drew on 39 verified sources across the five clusters, each checked by WebSearch and WebFetch during compilation, on a soft three-month recency window with named structural anchors permitted (Acemoglu 2024, Brynjolfsson and colleagues 2023, OECD Employment Outlook 2023, IMF Working Paper 2025/067). The tier mix is disclosed honestly: clusters 1 and 2 are anchored on Tier 1 regulators and standards bodies and Tier 2 institutional research, with Tier 4 AI-lab and vendor sources used only for supply-side and disclosure signals, never as the sole anchor of a board-level claim. Cluster 5 leans more heavily on Tier 3 quality journalism, because the hyperscaler capex and free-cash-flow picture is reported through earnings journalism aggregating primary corporate disclosures. The Klarna case is held with both its original vendor source and its corrective trade-press source so the operational lesson can be drawn cleanly, and the macro debate is presented as live, with the conservative Acemoglu bound held against the consensus build-out frame. Tier 1 and Tier 2 sources together are 26 of 39, around 67%.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
 
-<h4>Theme 1 &mdash; Copilots &rarr; agents: the deployment shift</h4>
+<h4>Cluster 1: The agent deployment shift</h4>
 <table>
-<tr><th>Tier</th><th>Source</th><th>Date</th><th>Claim Supported</th><th>Notes</th></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank">McKinsey QuantumBlack &mdash; The State of AI 2025</a></td><td>5 Nov 2025</td><td>23% of organisations scaling agentic AI; 39% experimenting; 88% report regular AI use in &ge;1 function (up from 78% YoY); only 6% qualify as AI high performers; 32% expect workforce decrease &ge;3%</td><td>Tier 2 institutional research; consultancy primary survey.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy" target="_blank">Stanford HAI &mdash; AI Index 2026, Economy chapter</a></td><td>Apr 2026</td><td>88% of organisations using AI in &ge;1 function; agent deployment in single digits across nearly all business functions; software developers aged 22&ndash;25 employment down ~20% from 2024; productivity gains 14&ndash;15% customer support / 26% software / 73% marketing</td><td>Tier 2 academic flagship; cross-cited across all four themes.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.weforum.org/stories/2026/03/where-is-ai-moving-beyond-experimentation-leaders-scaling/" target="_blank">WEF &mdash; Where is AI moving beyond experimentation? 6 leaders</a></td><td>Mar 2026</td><td>Field reports from six enterprise leaders on which AI deployments are moving from pilot to production in 2026</td><td>Tier 2 multilateral; field-level qualitative evidence.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.forrester.com/blogs/predictions-2026-ai-agents-changing-business-models-and-workplace-culture-impact-enterprise-software/" target="_blank">Forrester &mdash; Predictions 2026: AI Agents</a></td><td>Oct 2025</td><td>2026 as breakthrough year for multi-agent systems; enterprise software shifts to agent-first design</td><td>Tier 2 industry analyst; vendor-adjacent but methodologically primary research.</td></tr>
-<tr><td><span class="tier-4">Tier 4</span></td><td><a href="https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025" target="_blank">Gartner &mdash; 40% of enterprise apps will feature task-specific AI agents</a></td><td>26 Aug 2025</td><td>Up to 40% of enterprise applications will feature task-specific AI agents by end of 2026, from &lt;5% in 2025</td><td>Tier 4 vendor analyst forecast; directional.</td></tr>
-<tr><td><span class="tier-4">Tier 4</span></td><td><a href="https://openai.com/index/klarna/" target="_blank">OpenAI / Klarna case study</a></td><td>Apr 2024 (anchor)</td><td>Klarna AI assistant equivalent work of 700 FTE agents; CSAT parity; 25% drop in repeat inquiries; resolution time 11min&rarr;&lt;2min</td><td>Tier 4 vendor case study; specific claims sourced from Klarna disclosure.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/" target="_blank">Customer Experience Dive &mdash; Klarna changes its AI tune</a></td><td>2025</td><td>Klarna reversed course on customer-service AI; human service now positioned as premium VIP offering above AI layer</td><td>Tier 3 trade journalism; the counter-evidence to Klarna case study.</td></tr>
-<tr><td><span class="tier-4">Tier 4</span></td><td><a href="https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/" target="_blank">NVIDIA &times; ServiceNow &mdash; Autonomous AI Agents partnership</a></td><td>Mar 2025</td><td>Vendor strategic alliance on production agent platform for enterprises</td><td>Tier 4 vendor blog; market-structure signal.</td></tr>
-<tr><td><span class="tier-4">Tier 4</span></td><td><a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform" target="_blank">Google Cloud &mdash; Gemini Enterprise Agent Platform</a></td><td>2026</td><td>Platform to build, scale, govern, optimise agents at enterprise scale; Tata Steel building 300+ autonomous agents</td><td>Tier 4 vendor blog; supply-side institutionalisation signal.</td></tr>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">McKinsey, The State of AI 2025</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>88% of organisations use AI in at least one function (up from 78%); 23% scaling an agentic system, 39% experimenting; 6% are AI high performers.</td></tr>
+<tr><td><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">Stanford HAI, AI Index 2026 (Economy)</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Agent deployment in single digits across nearly all functions despite 88% adoption; productivity gains concentrated in support, software and marketing.</td></tr>
+<tr><td><a href="https://www.weforum.org/stories/2026/03/where-is-ai-moving-beyond-experimentation-leaders-scaling/">WEF, Where is AI moving beyond experimentation</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Field reports from six enterprise leaders on which deployments are moving from pilot to production.</td></tr>
+<tr><td><a href="https://www.forrester.com/blogs/predictions-2026-ai-agents-changing-business-models-and-workplace-culture-impact-enterprise-software/">Forrester, Predictions 2026: AI Agents</a></td><td class="tier-2">Tier 2</td><td>Oct 2025</td><td>2026 as the breakthrough year for multi-agent systems; enterprise software shifting to agent-first design.</td></tr>
+<tr><td><a href="https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025">Gartner, 40% of enterprise apps to feature AI agents</a></td><td class="tier-4">Tier 4</td><td>Aug 2025</td><td>Up to 40% of enterprise applications to feature task-specific AI agents by end-2026, from under 5% in 2025.</td></tr>
+<tr><td><a href="https://openai.com/index/klarna/">OpenAI and Klarna case study</a></td><td class="tier-4">Tier 4</td><td>2024</td><td>Klarna AI assistant doing the equivalent work of 700 agents; the original deployment claim in the Klarna arc.</td></tr>
+<tr><td><a href="https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/">Customer Experience Dive, Klarna changes its AI tune</a></td><td class="tier-3">Tier 3</td><td>2025</td><td>Klarna re-hiring humans; human service repositioned as a premium tier above the AI layer.</td></tr>
+<tr><td><a href="https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/">NVIDIA and ServiceNow, autonomous AI agents</a></td><td class="tier-4">Tier 4</td><td>2025</td><td>Vendor alliance institutionalising a production agent platform with governance primitives.</td></tr>
+<tr><td><a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform">Google Cloud, Gemini Enterprise Agent Platform</a></td><td class="tier-4">Tier 4</td><td>2026</td><td>Enterprise agent platform with governance and audit primitives; Tata Steel building a 300-agent fleet.</td></tr>
+</tbody>
 </table>
 
-<h4>Theme 2 &mdash; The trust and verification stack</h4>
+<h4>Cluster 2: The verification stack becomes a procurement requirement</h4>
 <table>
-<tr><th>Tier</th><th>Source</th><th>Date</th><th>Claim Supported</th><th>Notes</th></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank">European Commission &mdash; AI Act overview &amp; timeline</a></td><td>27 Jan 2026 (last update)</td><td>AI Act fully applicable 2 Aug 2026; high-risk rules Aug 2026 / Aug 2027; GPAI rules Aug 2025; prohibited practices Feb 2025; transparency rules Aug 2026</td><td>Tier 1 EU primary; directly verified via WebFetch.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai" target="_blank">European Commission &mdash; GPAI Code of Practice</a></td><td>Jul 2025</td><td>Voluntary compliance tool covering transparency, copyright, safety/security for GPAI providers; enforcement begins Aug 2026</td><td>Tier 1 EU policy instrument.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-ai_41671712-en.html" target="_blank">OECD &mdash; Due Diligence Guidance for Responsible AI</a></td><td>19 Feb 2026</td><td>Guidance implementing OECD MNE Guidelines and AI Principles; structured AI risk-management approach for multinationals</td><td>Tier 1 OECD primary.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank">NIST &mdash; AI Risk Management Framework</a></td><td>Ongoing 2026</td><td>NIST AI RMF (AI 100-1) is the US baseline for AI risk governance; AI Agent Standards Initiative announced Feb 2026; Agent Interoperability Profile planned Q4 2026</td><td>Tier 1 US standards primary.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.aisi.gov.uk/frontier-ai-trends-report" target="_blank">UK AI Security Institute &mdash; Frontier AI Trends Report</a></td><td>2026 (ongoing)</td><td>AISI has evaluated 30+ frontier models since Nov 2023; agentic autonomy doubling roughly every two months; universal jailbreaks found in every system tested but expert time to discover is increasing</td><td>Tier 1 UK government primary.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.bis.org/speeches/sp260126.htm" target="_blank">BIS &mdash; Tao Zhang on financial stability implications of AI</a></td><td>26 Jan 2026</td><td>Three financial-stability channels for AI: market functioning/liquidity, operational concentration, amplification of stress through similar models/data; intensity, speed, complexity as risk multipliers</td><td>Tier 1 BIS primary; central-bank perspective.</td></tr>
-<tr><td><span class="tier-4">Tier 4</span></td><td><a href="https://www.anthropic.com/news/responsible-scaling-policy-v3" target="_blank">Anthropic &mdash; Responsible Scaling Policy v3.0</a></td><td>24 Feb 2026</td><td>RSP v3.0 separates Anthropic's unilateral commitments from industry recommendations; introduces Frontier Safety Roadmap; Risk Reports every 3&ndash;6 months; external review at higher capability levels</td><td>Tier 4 AI lab primary; transparency-policy signal.</td></tr>
-<tr><td><span class="tier-4">Tier 4</span></td><td><a href="https://openai.com/index/openai-anthropic-safety-evaluation/" target="_blank">OpenAI &mdash; Joint Anthropic &times; OpenAI safety evaluation</a></td><td>2025</td><td>First-of-its-kind joint evaluation: each lab ran its internal safety and misalignment evals on the other's models and published results</td><td>Tier 4 AI lab primary; industry-precedent signal.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.aon.com/en/insights/articles/ai-risk-2026-practical-agenda" target="_blank">Aon &mdash; AI Risk 2026: Practical Agenda for Business Leaders</a></td><td>2026</td><td>Insurance/risk perspective on AI failure modes: hallucinations, data leakage, agent misbehaviour, governance gaps</td><td>Tier 2 institutional risk research.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://suprmind.ai/hub/ai-hallucination-rates-and-benchmarks/" target="_blank">Suprmind &mdash; AI Hallucination Statistics &amp; Benchmarks 2026</a></td><td>2026</td><td>362 documented AI incidents in 2025 (per AI Incident Database), +55% YoY; 82% of AI bugs from hallucination and accuracy failures</td><td>Tier 3 compilation of public benchmarks.</td></tr>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission, AI Act overview and timeline</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>AI Act fully applicable 2 August 2026; high-risk, transparency and GPAI enforcement entering force that month.</td></tr>
+<tr><td><a href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai">European Commission, GPAI Code of Practice</a></td><td class="tier-1">Tier 1</td><td>Jul 2025</td><td>Voluntary compliance tool for general-purpose AI providers; a template usable by non-EU operators.</td></tr>
+<tr><td><a href="https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-ai_41671712-en.html">OECD, Due Diligence Guidance for Responsible AI</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>Structured AI risk-management playbook for multinationals.</td></tr>
+<tr><td><a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST, AI Risk Management Framework</a></td><td class="tier-1">Tier 1</td><td>2026</td><td>US baseline for AI risk governance; AI Agent Standards Initiative naming identity, action logging and containment as the three governance pillars.</td></tr>
+<tr><td><a href="https://www.aisi.gov.uk/frontier-ai-trends-report">UK AI Security Institute, Frontier AI Trends Report</a></td><td class="tier-1">Tier 1</td><td>2026</td><td>Agentic autonomy doubling roughly every two months; universal jailbreaks in every system tested; apprentice-level cyber task success around 50%, up from roughly 10% in early 2024.</td></tr>
+<tr><td><a href="https://www.bis.org/speeches/sp260126.htm">BIS, financial-stability implications of AI</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Three financial-stability channels for AI: market functioning, operational concentration, propagation of stress.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/publications/ai-opportunities-action-plan-one-year-on/ai-opportunities-action-plan-one-year-on">UK Government, AI Opportunities Action Plan: One Year On</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Minute AI scribe scaled to 1,000 officials across 22 local authorities; public-sector pilot-to-integration gap as the dominant constraint.</td></tr>
+<tr><td><a href="https://www.anthropic.com/news/responsible-scaling-policy-v3">Anthropic, Responsible Scaling Policy v3.0</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>Public Risk Reports every three to six months; external review at higher capability levels; the disclosure-default signal.</td></tr>
+<tr><td><a href="https://openai.com/index/openai-anthropic-safety-evaluation/">OpenAI and Anthropic joint safety evaluation</a></td><td class="tier-4">Tier 4</td><td>2025</td><td>Cross-lab evaluation precedent likely to inform regulatory practice.</td></tr>
+<tr><td><a href="https://www.aon.com/en/insights/articles/ai-risk-2026-practical-agenda">Aon, AI Risk 2026: Practical Agenda</a></td><td class="tier-2">Tier 2</td><td>2026</td><td>Insurance and risk perspective on AI failure modes: hallucination, data leakage, agent misbehaviour, governance gaps.</td></tr>
+<tr><td><a href="https://suprmind.ai/hub/ai-hallucination-rates-and-benchmarks/">Suprmind, AI hallucination statistics and benchmarks</a></td><td class="tier-3">Tier 3</td><td>2026</td><td>362 documented AI incidents in 2025 per the AI Incident Database, up 55% year on year.</td></tr>
+</tbody>
 </table>
 
-<h4>Theme 3 &mdash; Talent pipeline reset</h4>
+<h4>Cluster 3: The payoff gap: AI's haves and have-nots</h4>
 <table>
-<tr><th>Tier</th><th>Source</th><th>Date</th><th>Claim Supported</th><th>Notes</th></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank">WEF &mdash; Future of Jobs Report 2025</a></td><td>Jan 2025</td><td>~40% of skills required in jobs will change by 2030; 170M new roles vs 92M displaced; 63% of companies plan to reskill rather than hire externally; 85% prioritise upskilling</td><td>Tier 2 WEF flagship; structural framing.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://reports.weforum.org/docs/WEF_Briefing_AI_and_Entry-Level_Jobs_January_2026.pdf" target="_blank">WEF &mdash; AI and Entry-Level Jobs briefing</a></td><td>Jan 2026</td><td>Field evidence on AI's effect on the on-ramp into knowledge-work careers, sector by sector</td><td>Tier 2 WEF briefing paper.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.weforum.org/stories/2026/03/how-ai-is-changing-the-nature-of-entry-level-work/" target="_blank">WEF / Cognizant CPO &mdash; How AI is changing entry-level work</a></td><td>26 Mar 2026</td><td>US entry-level postings down 35% in 18 months (Revelio Labs); Cognizant hired 25,000 fresh graduates in 2025; junior tasks being pushed upward into senior workload, contributing to mid-tier burnout</td><td>Tier 2 WEF article; named senior-exec attribution.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start" target="_blank">Yale Insights &mdash; Job destruction hitting before careers can start</a></td><td>2026</td><td>AI-driven job destruction concentrated in entry-level and apprenticeship roles, not mid-career; reshapes how talent pyramid renews itself</td><td>Tier 2 business-school analysis.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.naceweb.org/research/reports/2026/job-outlook/spring-update/" target="_blank">NACE &mdash; Job Outlook 2026 Spring Update</a></td><td>Apr 2026</td><td>Employers expect to increase Class of 2026 hiring by 5.6% (Spring Update); headline 2026 outlook +1.6% over 2025; employers shifting toward using AI to lift entry-level productivity rather than replace it</td><td>Tier 2 US-employer association primary.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.nber.org/papers/w31161" target="_blank">Brynjolfsson, Li, Raymond &mdash; Generative AI at Work (NBER w31161)</a></td><td>2023 (structural anchor)</td><td>Field experiment ~5,200 customer-support agents: AI raises issues-resolved-per-hour 15% on average, up to 35% for least experienced; minimal effect on highest-skilled</td><td>Tier 2 academic working paper; foundational micro-evidence on AI-as-assistance.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en.html" target="_blank">OECD &mdash; Employment Outlook 2023, AI and the labour market</a></td><td>Jul 2023 (structural anchor)</td><td>Occupations at highest risk of automation account for 27% of OECD employment; 72% of vacancies in high-AI-exposure occupations require management skills, 67% business-process skills</td><td>Tier 1 OECD primary; baseline.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://www.cnbc.com/2026/04/29/entry-level-jobs-calling-for-ai-skills-nearly-doubled-from-a-year-ago-report.html" target="_blank">CNBC / Indeed Hiring Lab &mdash; Entry-level AI-skill mentions nearly doubled YoY</a></td><td>29 Apr 2026</td><td>4.2% of full-time early-career jobs mention AI skills in Mar 2026 &mdash; nearly double a year earlier</td><td>Tier 3 quality journalism; citing Indeed primary data.</td></tr>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html">PwC, 29th Global CEO Survey</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>4,454 CEOs: 12% report both cost and revenue benefits, 56% no significant benefit; the AI haves and have-nots gap is the top CEO concern; strong-foundation CEOs around 3x more likely to report returns.</td></tr>
+<tr><td><a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/">Fortune, reporting Goldman Sachs on the productivity link</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>No meaningful economy-wide AI-productivity link; median 30% gain in two narrow use cases; 10% of S&amp;P 500 teams quantify use-case impact, 1% quantify earnings impact.</td></tr>
+<tr><td><a href="https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/outlook">BlackRock Investment Institute, Q2 2026 Outlook</a></td><td class="tier-2">Tier 2</td><td>2026</td><td>AI capex contributing around three times the historical investment average to US growth; firms turning AI into durable cost advantage will separate from those that cannot.</td></tr>
+<tr><td><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">Stanford HAI, AI Index 2026 (Economy)</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Measured productivity gains of 14 to 15% in customer support, 26% in software and 73% in marketing; private AI investment up 127.5% in 2025.</td></tr>
+<tr><td><a href="https://www.bennettschool.cam.ac.uk/blog/ai-adoption-in-the-uk/">Bennett School, Cambridge, UK firm-level AI adoption</a></td><td class="tier-2">Tier 2</td><td>2026</td><td>Large UK firms at 36 to 44% AI adoption, micro-businesses at 14%; 56% of AI-using firms report productivity gains, 95% of SMEs report no workforce change.</td></tr>
+<tr><td><a href="https://economics.mit.edu/sites/default/files/2024-04/The%20Simple%20Macroeconomics%20of%20AI.pdf">Acemoglu, The Simple Macroeconomics of AI</a></td><td class="tier-2">Tier 2</td><td>2024 (anchor)</td><td>Conservative macro ceiling near +0.07 percentage points of annual total factor productivity over a decade.</td></tr>
+</tbody>
 </table>
 
-<h4>Theme 4 &mdash; The productivity reckoning</h4>
+<h4>Cluster 4: The entry-level reset</h4>
 <table>
-<tr><th>Tier</th><th>Source</th><th>Date</th><th>Claim Supported</th><th>Notes</th></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html" target="_blank">PwC &mdash; 29th Global CEO Survey</a></td><td>19 Jan 2026</td><td>4,454 CEOs / 95 countries. 12% report AI delivered both cost and revenue benefits; 33% report either; 56% no significant benefit. 42% cite "transforming fast enough" as top concern. CEOs with strong AI foundations 3x more likely to report meaningful returns. CEO revenue confidence 30% &mdash; five-year low</td><td>Tier 2 consultancy flagship; directly verified via WebFetch.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs Global Institute &mdash; Tracking Trillions</a></td><td>1 May 2026</td><td>~$7.6tr cumulative AI capex 2026&ndash;2031; $765bn in 2026 rising to $1.6tr in 2031; four supply-side assumptions (chip useful life, $/MW, architecture mix, elongation) are the swing factors</td><td>Tier 2 sell-side institute research.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/" target="_blank">Fortune &mdash; Goldman finds no meaningful productivity-AI link</a></td><td>3 Mar 2026</td><td>Goldman: no meaningful relationship between AI adoption and economy-wide productivity; median 30% productivity gain for two localised use cases; only 10% of S&amp;P 500 mgmt teams quantify AI use-case impact; 1% quantify earnings impact</td><td>Tier 3 quality journalism reporting Goldman research.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/" target="_blank">Fortune &mdash; Big Tech to spend $700bn on AI in 2026</a></td><td>30 Apr 2026</td><td>Four hyperscalers combined capex ~$700bn in 2026; Alphabet $190bn; Microsoft $190bn; Meta up to $135bn</td><td>Tier 3 quality journalism; primary corporate disclosures aggregated.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://www.cnbc.com/2026/google-microsoft-meta-amazon-ai-cash.html" target="_blank">CNBC &mdash; Tech AI spending approaches $700bn in 2026</a></td><td>6 Feb 2026</td><td>Hyperscaler FCF turning negative: Amazon FCF deficit $17&ndash;28bn; Meta FCF drop ~90%; Google Cloud Q1 2026 revenue +63% YoY to $20bn; Microsoft AI annualised revenue $37bn (+123% YoY)</td><td>Tier 3 quality journalism; reports primary earnings disclosures.</td></tr>
-<tr><td><span class="tier-3">Tier 3</span></td><td><a href="https://finance.yahoo.com/sectors/technology/articles/hyperscalers-hit-700-billion-2026-111243744.html" target="_blank">Yahoo Finance / S&amp;P Capital IQ &mdash; Hyperscalers Hit $700 Billion in 2026 AI Spending</a></td><td>Feb 2026</td><td>Confirms hyperscaler aggregate $700bn+ 2026 capex envelope and the FCF squeeze investors are pricing</td><td>Tier 3 quality journalism / data-vendor analysis.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/outlook" target="_blank">BlackRock Investment Institute &mdash; Q2 2026 Investment Outlook</a></td><td>2026</td><td>AI as "mega force"; AI capex contribution to US growth ~3x historical investment average; companies translating AI into durable cost advantages will separate from those that cannot</td><td>Tier 2 institutional asset manager.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026002.pdf" target="_blank">IMF Note 2026/002 &mdash; Global Economic and Financial Implications of AI</a></td><td>Apr 2026</td><td>AI affects productivity, jobs, inequality, fiscal positions, monetary operations and financial stability; scenario lens for finance ministries and central banks</td><td>Tier 1 IMF primary.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.imf.org/-/media/files/publications/wp/2025/english/wpiea2025067-print-pdf.pdf" target="_blank">IMF Working Paper WP/25/067 &mdash; AI and Productivity in Europe</a></td><td>2025 (structural anchor)</td><td>Medium-term TFP-effect estimates for AI across European economies; foundational input for European productivity scenarios</td><td>Tier 1 IMF working paper.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://economics.mit.edu/sites/default/files/2024-04/The%20Simple%20Macroeconomics%20of%20AI.pdf" target="_blank">Acemoglu &mdash; The Simple Macroeconomics of AI</a></td><td>2024 (structural anchor)</td><td>Conservative macroeconomic ceiling: AI's plausible contribution to TFP ~+0.07pp per year over a decade based on ~30% cost savings on a narrow share of tasks</td><td>Tier 2 academic working paper; lower-bound counter to consensus optimism.</td></tr>
-<tr><td><span class="tier-1">Tier 1</span></td><td><a href="https://www.gov.uk/government/publications/ai-opportunities-action-plan-one-year-on/ai-opportunities-action-plan-one-year-on" target="_blank">UK Government &mdash; AI Opportunities Action Plan: One Year On</a></td><td>Jan 2026</td><td>UK scaled Minute (AI scribe) to 1,000 officials in 22 local authorities; Extract tool processing planning documents; Isambard-AI supercomputer launched Jul 2025; National Data Library backed with &pound;100m+; 20x compute expansion commitment</td><td>Tier 1 UK government primary.</td></tr>
-<tr><td><span class="tier-2">Tier 2</span></td><td><a href="https://www.bennettschool.cam.ac.uk/blog/ai-adoption-in-the-uk/" target="_blank">Bennett School (Cambridge) &mdash; UK firm-level AI adoption</a></td><td>2026</td><td>Large UK firms 250+ employees at 36% AI adoption in 2025 (44% latest); micro-businesses 14%; 56% of AI-using firms report self-assessed productivity gains; 95% of AI-using SMEs report no workforce-size change</td><td>Tier 2 university research; UK firm-level evidence.</td></tr>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">Stanford HAI, AI Index 2026 (Economy)</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Employment for software developers aged 22 to 25 down nearly 20% from 2024.</td></tr>
+<tr><td><a href="https://www.weforum.org/stories/2026/03/how-ai-is-changing-the-nature-of-entry-level-work/">WEF and Cognizant CPO, how AI is changing entry-level work</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>US entry-level postings down around 35% in 18 months; Cognizant hired 25,000 graduates in 2025; junior tasks pushed upward into senior workloads.</td></tr>
+<tr><td><a href="https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start">Yale Insights, job destruction before careers start</a></td><td class="tier-2">Tier 2</td><td>2026</td><td>AI-driven job destruction concentrated in entry-level and apprenticeship roles, reshaping how the talent pyramid renews.</td></tr>
+<tr><td><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">WEF, Future of Jobs Report 2025</a></td><td class="tier-2">Tier 2</td><td>Jan 2025 (anchor)</td><td>Around 40% of job skills changing by 2030; 63% of companies planning to reskill rather than hire externally.</td></tr>
+<tr><td><a href="https://reports.weforum.org/docs/WEF_Briefing_AI_and_Entry-Level_Jobs_January_2026.pdf">WEF, AI and Entry-Level Jobs briefing</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>Sector-by-sector field evidence on AI's effect on the on-ramp into knowledge work.</td></tr>
+<tr><td><a href="https://www.naceweb.org/research/reports/2026/job-outlook/spring-update/">NACE, Job Outlook 2026 Spring Update</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Class of 2026 hiring forecast revised upward as employers rebalance toward using AI to lift entry-level productivity; headline 2026 outlook still weak.</td></tr>
+<tr><td><a href="https://www.nber.org/papers/w31161">Brynjolfsson, Li and Raymond, Generative AI at Work</a></td><td class="tier-2">Tier 2</td><td>2023 (anchor)</td><td>Field experiment, ~5,200 support agents: AI assistance raises resolution rate 15% on average, up to 35% for the least experienced.</td></tr>
+<tr><td><a href="https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en.html">OECD, Employment Outlook 2023</a></td><td class="tier-1">Tier 1</td><td>Jul 2023 (anchor)</td><td>Highest-automation-risk occupations are 27% of OECD employment; high-AI-exposure vacancies skew toward management and business-process skills.</td></tr>
+<tr><td><a href="https://www.cnbc.com/2026/04/29/entry-level-jobs-calling-for-ai-skills-nearly-doubled-from-a-year-ago-report.html">CNBC and Indeed Hiring Lab, AI-skill mentions nearly doubled</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>4.2% of full-time early-career postings mention AI skills, nearly double a year earlier.</td></tr>
+</tbody>
 </table>
 
-<p class="small" style="margin-top: 16px;"><strong>Conflict notes (verification pass).</strong> The verified evidence base supports the four-theme analytical thesis &mdash; copilots&rarr;agents deployment shift, trust/verification stack consolidation, talent-pipeline reset at the entry level, productivity reckoning at the capex&ndash;returns interface &mdash; through institutional research and primary regulator/multilateral sources. The Klarna case is held with both its initial (OpenAI/Klarna) and corrective (Customer Experience Dive) sources so the operational lesson can be drawn cleanly. The conservative-bound (Acemoglu) and J-curve-aligned (IMF, Brynjolfsson) macro views are both held against the consensus Goldman / BlackRock build-out frame &mdash; the report deliberately presents the productivity reckoning as a live debate rather than a settled question. <strong>Author-type coverage:</strong> multilaterals (OECD, IMF, BIS, WEF); regulators and standards bodies (European Commission, NIST, UK AISI, UK Government); central bank (BIS); institutional research (Stanford HAI, McKinsey, PwC, Goldman Sachs, BlackRock, Forrester, Aon, Bennett School Cambridge); AI labs (Anthropic, OpenAI, NVIDIA, Google Cloud); quality journalism (Fortune, CNBC, Yahoo/S&amp;P, Customer Experience Dive, Yale Insights); compilation/benchmark (Suprmind). Tier 1+2 share 74% (29 of 39). <strong>Tier definitions.</strong> T1 = regulators, central banks, multilateral institutions, government primary. T2 = think-tanks, peer-reviewed research, major consultancies' research, industry-body research. T3 = quality journalism with named sources. T4 = vendor publications and AI lab announcements. The binding source-verification protocol used in this cycle is documented at <code>_core/references/sourcing-guide.md</code>.</p>
+<h4>Cluster 5: The capex reckoning</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out">Goldman Sachs Global Institute, Tracking Trillions</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>$7.6tn cumulative AI capex 2026 to 2031, $765bn in 2026 rising to $1.6tn in 2031; silicon useful life as the single most influential variable.</td></tr>
+<tr><td><a href="https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/">Fortune, Big Tech to spend $700bn on AI in 2026</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Four hyperscalers' combined AI infrastructure capex around $700bn in 2026.</td></tr>
+<tr><td><a href="https://www.cnbc.com/2026/google-microsoft-meta-amazon-ai-cash.html">CNBC, tech AI spending and cash flow</a></td><td class="tier-3">Tier 3</td><td>Feb 2026</td><td>Amazon 2026 FCF deficit projected $17bn to $28bn; Meta FCF down around 90%; Google Cloud Q1 revenue +63%; Microsoft AI annualised $37bn.</td></tr>
+<tr><td><a href="https://finance.yahoo.com/sectors/technology/articles/hyperscalers-hit-700-billion-2026-111243744.html">Yahoo Finance and S&amp;P Capital IQ, hyperscalers hit $700bn</a></td><td class="tier-3">Tier 3</td><td>Feb 2026</td><td>Confirms the aggregate $700bn-plus 2026 hyperscaler capex envelope and the free-cash-flow squeeze.</td></tr>
+<tr><td><a href="https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026002.pdf">IMF, Global Economic and Financial Implications of AI</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>Scenario lens warning that the gap between AI-prepared and AI-unprepared economies is widening, with fiscal and financial-stability consequences.</td></tr>
+<tr><td><a href="https://www.imf.org/-/media/files/publications/wp/2025/english/wpiea2025067-print-pdf.pdf">IMF Working Paper 2025/067, AI and Productivity in Europe</a></td><td class="tier-1">Tier 1</td><td>2025 (anchor)</td><td>Medium-term total-factor-productivity estimates for AI across European economies.</td></tr>
+</tbody>
+</table>
 
 </div>
 
 <hr>
-
-<p class="small">&copy; 2026 Shaping Tomorrow. Sample edition. The Strategic Intelligence Report format is a Shaping Tomorrow service for senior strategy, foresight, innovation, and policy professionals. Monthly subscriber cycles include company-specific or sector-specific framing, cycle-over-cycle continuity, and access to the full library of past cycles. See <a href="https://shapingtomorrow.com">shapingtomorrow.com</a>.</p>
+<p class="small">&copy; 2026 Shaping Tomorrow. Strategic Intelligence Report, sample edition. Signal-cluster structural version. The Strategic Intelligence Report format is a Shaping Tomorrow service for senior strategy, foresight, innovation and policy professionals; subscriber cycles include company-specific or sector-specific framing and cycle-over-cycle continuity. See <a href="https://shapingtomorrow.com">shapingtomorrow.com</a>.</p>
 
 </div>
 

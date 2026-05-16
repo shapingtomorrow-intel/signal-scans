@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data, Decisions, Dispensing: Datapharm Strategic Intelligence Report, May 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="masthead">Strategic Intelligence Report &middot; Datapharm</div>
+<h1 class="report-title">Data, Decisions, Dispensing: Datapharm's 2026-2029 Repositioning Window</h1>
+<div class="meta">
+Cycle: 16 May 2026 &middot; Audience: Datapharm leadership team &middot; Horizon: 2 to 5 years<br>
+<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 19 min full read</span>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Signal Clusters</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three converging vectors representing the data layer, decision layer and dispensing layer collapsing into a single repositioning window for Datapharm.">
+  <rect x="0" y="0" width="340" height="300" fill="#f8f9fa"/>
+  <text x="170" y="28" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Three layers, one window</text>
+
+  <line x1="40" y1="80" x2="170" y2="200" stroke="#0382FC" stroke-width="3" opacity="0.85"/>
+  <line x1="170" y1="80" x2="170" y2="200" stroke="#1a237e" stroke-width="3" opacity="0.85"/>
+  <line x1="300" y1="80" x2="170" y2="200" stroke="#f57c00" stroke-width="3" opacity="0.85"/>
+
+  <circle cx="40" cy="80" r="22" fill="#0382FC" opacity="0.9"/>
+  <text x="40" y="84" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="white">DATA</text>
+  <text x="40" y="120" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">ePI mandate</text>
+
+  <circle cx="170" cy="80" r="22" fill="#1a237e" opacity="0.9"/>
+  <text x="170" y="84" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="white">DECISIONS</text>
+  <text x="170" y="120" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">AI / CDS</text>
+
+  <circle cx="300" cy="80" r="22" fill="#f57c00" opacity="0.9"/>
+  <text x="300" y="84" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="white">DISPENSING</text>
+  <text x="300" y="120" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">IP cohort</text>
+
+  <circle cx="170" cy="220" r="32" fill="white" stroke="#1a237e" stroke-width="2.5"/>
+  <text x="170" y="218" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a237e">2026</text>
+  <text x="170" y="232" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">to 2029</text>
+
+  <text x="170" y="280" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-style="italic" fill="#5a6478">Three vectors converge in one cycle</text>
+</svg>
+<p class="figure-caption">Cycle motif: data, decisions and dispensing converging on Datapharm's 2026-2029 repositioning window.</p>
+</div>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<p>Datapharm enters this cycle with a structural advantage and a structural deadline. The advantage: emc has already migrated to HL7 FHIR, the same standard the EU has adopted as its <a href="https://epi.ema.europa.eu/fhirig/" target="_blank">ePI Common Standard</a>, and Datapharm has positioned itself publicly as the UK's transition vehicle into structured medicines information. The deadline: the EMA's draft <a href="https://www.ema.europa.eu/en/documents/other/electronic-product-information-epi-roadmap_en.pdf" target="_blank">ePI implementation roadmap</a> puts vaccines into voluntary ePI submission in Q3 2026 and oncology in Q4 2026, with mandatory ePI for all newly authorised medicines once the revised pharmaceutical legislation enters into application. The legislation itself was endorsed by Coreper on <a href="https://health.ec.europa.eu/medicinal-products/legal-framework-governing-medicinal-products-human-use-eu/reform-eu-pharmaceutical-legislation_en" target="_blank">6 March 2026</a>. The repositioning window is now measured in quarters, not years.</p>
+
+<p>The cycle's spine is whether Datapharm captures the value of being the FHIR data-service layer underneath the new ePI economy, or gets disintermediated. Three forces are arriving simultaneously: the September 2026 day-one independent-prescriber cohort plus the NHS England <a href="https://www.england.nhs.uk/long-read/medium-term-planning-framework-delivering-change-together-2026-27-to-2028-29/" target="_blank">Medium Term Planning Framework</a> instruction to ICBs to commission prescribing services in 2026/27; the FDB Multilex repositioning to <a href="https://www.fdbhealth.co.uk/about-us/press-releases/2025-10-14-fdb-announces-multilex-in-the-cloud" target="_blank">cloud delivery</a> alongside AI-native entrants; and the CGE Partners <a href="https://cge-partners.com/news/cge-partners-announces-investment-in-datapharm/" target="_blank">growth-investment mandate</a> that brings new capital, an explicit international thesis and a CTO and CCO hired in the months since.</p>
+
+<p>What has materially changed since this report's last reference points: the EMA's roadmap is no longer a position paper but a dated rollout; ICBs are no longer being asked to consider Pharmacy First but instructed to maximise it; OpenEvidence has <a href="https://www.iatrox.com/blog/openevidence-europe-alternatives-clinical-ai-search" target="_blank">withdrawn from European markets</a> citing EU AI Act uncertainty, leaving an unclaimed UK-and-EU clinical-AI-search position; and the <a href="https://www.ema.europa.eu/en/news/ema-welcomes-political-agreement-new-eu-pharmaceutical-legislation" target="_blank">EU pharmaceutical legislation</a> reached political agreement, removing one of the largest sources of timing uncertainty for ePI adoption. The MHRA's <a href="https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences" target="_blank">International Reliance Framework</a>, due Autumn 2026, signals divergence-by-design rather than alignment.</p>
+
+<p>The non-obvious read: Datapharm's traditional competitive moat (the UK's authoritative aggregated medicines-information source) is collapsing into infrastructure precisely as the addressable market expands. Pharmacist independent prescribers, AI clinical-search vendors, ePMA suppliers and pharma manufacturers all need the same FHIR-structured medicines data, but increasingly through APIs rather than through emc's web interface. The strategic question is whether Datapharm productises the data layer (and prices it like infrastructure) or builds first-party decision support (and competes for the AI-search seat) or both.</p>
+
+<div class="pullquote">Datapharm's traditional competitive moat is collapsing into infrastructure precisely as the addressable market expands.</div>
+
+<p>This is also the cycle in which CGE Partners' platform mandate becomes visible in the cap table. The <a href="https://www.datapharm.com/resource-hub/datapharm-partners-with-vidal-to-advance-the-accessibility-of-medicines-information-in-france/" target="_blank">VIDAL partnership</a> in France and the new CTO and CCO appointments are early markers; Pecém-style infrastructure investment, an EU-jurisdiction acquisition, or a clinical-decision-support bolt-on would each be consistent with the thesis CGE has stated publicly.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis rests on the assumption that the EU ePI roadmap's Q3 to Q4 2026 voluntary windows actually convert into meaningful manufacturer adoption rather than slipping a year. If the IRIS-eSubmission integration timeline drifts, or if the revised pharmaceutical legislation enters force later than expected, the data-layer demand curve flattens and Datapharm's first-mover advantage erodes without a forced inflection. A material revision would be triggered by EMA delaying the Q3 vaccines window, by fewer than ten manufacturers volunteering ePI submissions in 2026, or by the Common Standard being substantively reopened for industry consultation. None of these are the central case, but each is plausible enough to warrant tracking.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Decide whether emc's FHIR layer is productised as a separate, priced data service.</strong> The architecture is in place; the commercial decision is whether to expose it.</li>
+<li><strong>Prepare a build-versus-partner answer to the AI clinical-search question.</strong> FDB has moved; OpenEvidence is gone from Europe; the seat is open for the next eighteen months.</li>
+<li><strong>Decide the first material acquisition under the CGE thesis.</strong> A clinical-decision-support, ePI-services or EU-jurisdiction target would each carry a different signal.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per leadership function. Each card surfaces the one question this cycle puts to that function.</p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">CEO</span>
+<h4>Is the CGE thesis being executed at the speed the window demands?</h4>
+<p><strong>The shift:</strong> The EU ePI roadmap, the September 2026 IP cohort and the AI-search vendor reshuffle are landing in the same eighteen-month window as the post-CGE growth mandate.</p>
+<p><strong>The question to brief:</strong> Which two of the five clusters are board-level priorities for FY27, and which are delegated to product or commercial owners?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Chief Product Officer</span>
+<h4>Is emc a destination, an API, or both?</h4>
+<p><strong>The shift:</strong> FHIR-structured ePI is becoming the canonical format for cross-border medicines data; AI-search vendors and ePMA systems are downstream consumers, not competitors.</p>
+<p><strong>The question to brief:</strong> What does the FY27 product roadmap commit to first, the priced FHIR data service or the first-party decision-support layer?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Chief Commercial Officer</span>
+<h4>Will the 300+ pharma client base buy a multi-jurisdiction service?</h4>
+<p><strong>The shift:</strong> Pharma manufacturers face parallel UK MHRA and EU ePI obligations; the VIDAL partnership has shown the SRD model travels.</p>
+<p><strong>The question to brief:</strong> What is the willingness-to-pay test for a UK-plus-EU bundled ePI compliance service, and which five anchor clients run it?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Chief Technology Officer</span>
+<h4>Is the FHIR platform sized for the volume and access patterns of API-led demand?</h4>
+<p><strong>The shift:</strong> Datapharm Hub SSO consolidation has landed; the next architectural call is rate-limited API access, observability and partner integration plumbing.</p>
+<p><strong>The question to brief:</strong> What capacity, latency and SLA assumptions does the platform need to support in the year after vaccine ePI go-live?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Signal Clusters</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five clusters, ranked by impact on Datapharm's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Datapharm's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. The ePI mandate transition and the eMC reposition</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The EU ePI rollout has moved from position paper to dated implementation. Vaccines and oncology go voluntary in Q3 and Q4 2026 respectively, and the revised pharmaceutical legislation that triggers mandatory submission was endorsed by Coreper in March 2026. For Datapharm this is the cycle's most consequential cluster: emc is already FHIR-based, but the value capture question is whether the FHIR layer is productised as a priced data service, or whether it remains the engine room of a free-to-access destination. The window for that decision closes as ePMA vendors, AI-search tools and direct-to-EMA pipes establish their preferred data sources.</p>
+
+<div class="report-figure">
+<h4>EU ePI rollout: from voluntary to mandatory</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline showing the EU ePI implementation roadmap from Q3 2026 voluntary vaccines submission, Q4 2026 voluntary oncology, 2027 to 2028 stabilisation and hypercare, transitioning to mandatory ePI for all newly authorised medicines when revised pharmaceutical legislation enters into application.">
+  <rect x="0" y="0" width="720" height="200" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">EU ePI implementation roadmap, voluntary to mandatory</text>
+
+  <line x1="50" y1="110" x2="670" y2="110" stroke="#9aa3b2" stroke-width="2"/>
+
+  <circle cx="120" cy="110" r="10" fill="#f57c00"/>
+  <text x="120" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#1a237e">Q3 2026</text>
+  <text x="120" y="140" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">Vaccines</text>
+  <text x="120" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">voluntary</text>
+
+  <circle cx="240" cy="110" r="10" fill="#f57c00"/>
+  <text x="240" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#1a237e">Q4 2026</text>
+  <text x="240" y="140" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">Oncology</text>
+  <text x="240" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">voluntary</text>
+
+  <circle cx="380" cy="110" r="10" fill="#1a237e"/>
+  <text x="380" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#1a237e">2027 to 2028</text>
+  <text x="380" y="140" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">Stabilisation,</text>
+  <text x="380" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">multilingual</text>
+
+  <circle cx="540" cy="110" r="12" fill="#c62828"/>
+  <text x="540" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#c62828">When legislation enters force</text>
+  <text x="540" y="140" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="#c62828">Mandatory ePI</text>
+  <text x="540" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">all new authorisations</text>
+
+  <text x="640" y="110" font-family="-apple-system, sans-serif" font-size="14" fill="#9aa3b2">&rarr;</text>
+  <text x="660" y="125" text-anchor="end" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">all medicines</text>
+</svg>
+<p class="figure-caption">Source basis: EMA draft ePI implementation roadmap, March 2026; EU pharmaceutical legislation political agreement March 2026.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>The EMA's draft roadmap puts vaccine (ATC J07) ePI on voluntary submission in Q3 2026, oncology (L01, L04) in Q4 2026, with all remaining Centrally Authorised Products following voluntarily before transition to mandatory submission once the revised legislation enters into application per the <a href="https://www.ema.europa.eu/en/documents/other/electronic-product-information-epi-roadmap_en.pdf" target="_blank">EMA ePI roadmap</a> (March 2026).</li>
+<li>The EU pharmaceutical legislation reform was endorsed by Coreper on 6 March 2026 with the new acts expected to enter force in 2026 and a two-year transition period to 2028 per the <a href="https://health.ec.europa.eu/medicinal-products/legal-framework-governing-medicinal-products-human-use-eu/reform-eu-pharmaceutical-legislation_en" target="_blank">European Commission</a> (March 2026).</li>
+<li>The EU ePI Common Standard is FHIR-based; the v1.0.0 implementation guide is published and live at <a href="https://epi.ema.europa.eu/fhirig/" target="_blank">epi.ema.europa.eu/fhirig</a> (May 2025), giving manufacturers a definitive technical target.</li>
+<li>Datapharm has already publicly framed emc as transitioning to FHIR and positions itself as the UK conversion vehicle for SmPCs into ePI in FHIR per <a href="https://www.datapharm.com/resource-hub/electronic-product-information-patient-information-leaflets-epi-regulatory-affairs/" target="_blank">Datapharm</a> (February 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The roadmap is a draft, not a regulation. Voluntary submission windows historically attract minority uptake among manufacturers, and the mandatory trigger depends on legislation that has only reached political agreement, not adoption. The transition period through 2028 may also see industry push back on ePI scope, particularly multilingual delivery. A scenario in which Q3 to Q4 2026 voluntary go-live attracts only single-digit manufacturer participation is plausible, in which case Datapharm's first-mover advantage in FHIR delivery converts to value more slowly than this cycle assumes.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. CGE Partners ownership and the growth-by-acquisition mandate</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">CGE Partners' growth investment, announced September 2025, comes with an explicit mandate: accelerate new product development, international expansion and strategic acquisitions. CGE's stated thesis is information, data and software businesses across Northern and Western Europe at €30m to €200m EV. The first eight months of post-investment activity (a CTO and CCO hire, the VIDAL partnership in France, the Datapharm Hub SSO consolidation) read as platform-building moves. The cluster is Immediate because the next twelve months should produce the first material capital allocation that signals which corner of the market CGE intends Datapharm to occupy.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>CGE Partners announced its growth investment in Datapharm to accelerate new product development, international expansion and strategic acquisitions, naming emc as the trusted source of UK medicines information used by 300+ global life sciences companies per <a href="https://cge-partners.com/news/cge-partners-announces-investment-in-datapharm/" target="_blank">CGE Partners</a> (September 2025).</li>
+<li>CGE's investment thesis is information, data and software businesses across Northern and Western Europe at EV €30m to €200m, with healthcare data named as a focus sector per <a href="https://cge-partners.com/" target="_blank">CGE Partners</a> (January 2026).</li>
+<li>Travers Smith's confirmation of the transaction provides independent corroboration of the deal structure per <a href="https://www.traverssmith.com/knowledge/knowledge-container/travers-smith-advises-cge-partners-on-its-investment-in-datapharm/" target="_blank">Travers Smith</a> (September 2025).</li>
+<li>Post-investment leadership build-out is visible: a new CTO and CCO appointed in late 2025 per <a href="https://www.datapharm.com/resource-hub/datapharm-announces-new-cco-and-cto/" target="_blank">Datapharm</a> (December 2025); the VIDAL France partnership executed in February 2026 with 11 global pharma companies showing interest per <a href="https://www.datapharm.com/resource-hub/datapharm-partners-with-vidal-to-advance-the-accessibility-of-medicines-information-in-france/" target="_blank">Datapharm</a> and corroborated by <a href="https://pharmatimes.com/news/datapharm-collaborates-with-vidal-to-improve-medicines-information-access-in-france/" target="_blank">PharmaTimes</a>.</li>
+<li>The Datapharm Hub launched 12 March 2026 as a single sign-on layer over emc publisher, emc PI portal and emc icomply per <a href="https://www.datapharm.com/resource-hub/product-update-the-datapharm-hub-launch/" target="_blank">Datapharm</a>, indicating execution of platform-consolidation prerequisites for bolt-on acquisitions.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Growth-investment mandates often produce capital deployment more slowly than the cycle implies. CGE may take 18 to 24 months to identify, diligence and close the first material acquisition; the VIDAL partnership is a distribution deal rather than M&amp;A; and platform-consolidation work could absorb senior bandwidth through 2026. A counter-reading is that the first three years of the CGE hold are about preparing Datapharm to scale rather than scaling it, in which case Immediate-tier framing overstates the near-term capital activity.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Pharmacist independent prescribing as a structural demand shock</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">From September 2026 every newly qualified pharmacist registers as an independent prescriber on day one. NHS England's <a href="https://www.england.nhs.uk/long-read/medium-term-planning-framework-delivering-change-together-2026-27-to-2028-29/" target="_blank">Medium Term Planning Framework</a> instructs ICBs to maximise Pharmacy First and introduce prescribing-based services in 2026/27. A third of GB pharmacists are already independent prescribers, with the cohort set to expand by several thousand each year. Each new IP needs a structured medicines reference of record, decision-support tooling and documentation aligned with NHS standards. The strategic question for Datapharm is whether emc remains the canonical source-of-truth for that cohort or whether AI-search tools and ePMA-embedded decision support intermediate.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>From September 2026 all newly qualified pharmacists are independent prescribers on day of registration, with several thousand more pharmacists joining the register each year per <a href="https://www.england.nhs.uk/long-read/independent-prescribing-community-pharmacy-pathfinder-programme-transition-future-direction/" target="_blank">NHS England</a> (March 2026).</li>
+<li>Pathfinder sites delivered 33,000+ patient consultations across 164 pharmacy sites with 59% resulting in prescribing interventions that started, stopped or changed medicines per <a href="https://www.england.nhs.uk/long-read/update-on-independent-prescribing-in-community-pharmacy-pathfinder-programme/" target="_blank">NHS England</a> (February 2026).</li>
+<li>One third of GB pharmacists are now independent prescribers per <a href="https://www.thepharmacist.co.uk/in-practice/third-of-pharmacists-in-great-britain-are-now-independent-prescribers/" target="_blank">The Pharmacist</a> (April 2026).</li>
+<li>NHS England's planning guidance instructs ICBs to maximise Pharmacy First and introduce prescribing-based services in 2026/27 per <a href="https://pharmaceutical-journal.com/article/news/nhs-england-tells-care-boards-to-maximise-pharmacy-first-in-planning-guidance" target="_blank">The Pharmaceutical Journal</a> (October 2025), with the Medium Term Planning Framework formalising the requirement per <a href="https://www.england.nhs.uk/long-read/medium-term-planning-framework-delivering-change-together-2026-27-to-2028-29/" target="_blank">NHS England</a> (October 2025).</li>
+<li>The new prescriber cohort needs structured supervision, e-portfolio infrastructure and decision-support tools to deliver safely at scale per <a href="https://www.nuffieldtrust.org.uk/news-item/gaps-in-support-could-undermine-wave-of-new-pharmacist-prescribers-entering-nhs" target="_blank">Nuffield Trust</a> (March 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The IP cohort expansion is real but does not automatically translate into new Datapharm revenue. Independent prescribers in community pharmacy will rely heavily on ePMA-embedded decision support (FDB Multilex remains dominant) and on free-to-access NICE BNF for prescribing reference; emc is more useful at the SmPC-detail level, which is consulted episodically rather than continuously. The structural-demand framing risks overstating Datapharm's natural share of the new wallet unless first-party decision-support tooling is built or partnered.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. AI evidence search and clinical decision support disruption</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The clinical AI vendor field has reshuffled in the past six months. FDB Multilex (used in 10,000+ NHS sites) has repositioned to cloud delivery and is winning new GP-system embeds. OpenEvidence, the global category leader at $12bn valuation, has withdrawn from European markets citing EU AI Act uncertainty, leaving an open seat. UK-native iatroX is positioning as MHRA-registered Class I and powered partly by eMC content. The MHRA's new AI-medical-device framework is due in 2026. Datapharm's choice is whether to remain the source-of-truth data layer that AI vendors consume, build a first-party AI search layer over emc, or partner with one of the contenders.</p>
+
+<div class="weak-signals">
+<h4>Weak signals worth tracking</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> The Medicus EPR for general practice integrating FDB Multilex per <a href="https://www.fdbhealth.co.uk/about-us/press-releases/2025-07-03-new-gp-solution-medicus-integrates-fdb-multilex" target="_blank">FDB</a> (July 2025) suggests new-build clinical systems are now embedding incumbent decision support by default. Gains weight if a second new-build system makes the same call in 2026.</li>
+<li><span class="weak-signal-marker">Weak signal</span> OX.DH partnering with FDB on cloud-native medicines management per <a href="https://htn.co.uk/2025/10/22/ox-dh-partners-with-first-databank-to-shape-intelligent-medicines-management-in-primary-care/" target="_blank">HTN</a> (October 2025) signals primary-care platform consolidation around the incumbent data layer. Gains weight if NHS England names cloud-native medicines management as a procurement preference.</li>
+<li><span class="weak-signal-marker">Weak signal</span> iatroX referencing emc-powered medicines content per <a href="https://www.iatrox.com/blog/ai-tools-for-uk-pharmacists-2025-iatrox-openevidence-lexidrug-micromedex-fdb" target="_blank">iatroX</a> (December 2025) suggests Datapharm is already an upstream supplier to AI tools, raising the question of pricing rather than relationship.</li>
+</ul>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>FDB launched Multilex in the Cloud in October 2025 with NHS Microsoft Azure delivery and continuous updates, repositioning the embedded category leader for the next decade per <a href="https://www.fdbhealth.co.uk/about-us/press-releases/2025-10-14-fdb-announces-multilex-in-the-cloud" target="_blank">FDB</a>.</li>
+<li>OpenEvidence reached $12bn valuation in January 2026 with 15 million monthly clinician consultations but withdrew from European markets citing EU AI Act regulatory uncertainty per <a href="https://www.iatrox.com/blog/clinical-ai-landscape-2026-chatgpt-openevidence-iatrox-medwise" target="_blank">iatroX</a> and <a href="https://www.iatrox.com/blog/openevidence-europe-alternatives-clinical-ai-search" target="_blank">iatroX market analysis</a> (March 2026).</li>
+<li>The MHRA is preparing a new AI-in-medical-devices regulatory framework for publication in 2026, with transparency, explainability, AI assurance, cybersecurity and lifecycle governance named as priorities per <a href="https://www.mills-reeve.com/blogs/life-sciences/january-2026/regulating-ai-in-healthcare-the-uk-government-wants-your-input/" target="_blank">Mills &amp; Reeve</a> and <a href="https://www.periculo.co.uk/cyber-security-blog/mhras-ai-medical-device-framework-what-nhs-suppliers-need-to-know-about-cybersecurity-and-compliance" target="_blank">Periculo</a> (April 2026).</li>
+<li>AI-enabled consultation systems show 15 to 20 minute time savings per Pharmacy First consultation in pilot data per <a href="https://www.iatrox.com/blog/ai-medication-management-prescribing-pharmacy-uk-primary-care" target="_blank">iatroX</a> (April 2026), evidence the AI-enabled value proposition is operationally credible at the pharmacy point of care.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The AI-search disruption story is loud but the unit economics are unproven. OpenEvidence's withdrawal from Europe demonstrates that valuation does not translate into a defensible foothold; FDB's incumbent position is reinforced by ePMA integration, not threatened by it; iatroX's free-to-pharmacist business model is yet to be tested at scale. A counter-reading is that the AI-search category settles into a complementary layer alongside the FHIR data layer, and Datapharm's optimal play is upstream supplier rather than downstream competitor.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-5">
+<div class="cluster-header"><h3>5. UK-EU regulatory divergence and dual-track compliance</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The UK and EU regulatory tracks are now diverging by design rather than by accident. The EU's revised pharmaceutical legislation reached political agreement in March 2026; the MHRA's International Reliance Framework is due Autumn 2026 and explicitly leans on Australia, Canada, US and other comparator regulators rather than the EMA. The UK Life Sciences Sector Plan targets top-three European MedTech access by 2030. For Datapharm's 300+ pharma manufacturer clients, the result is two parallel ePI obligations to maintain. The strategic question is whether Datapharm sells one bundled multi-jurisdiction service or remains a UK-specialist letting EU-native vendors capture the cross-border data layer.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The MHRA confirmed delivery of its targets to increase access to medicines and reinforce the UK's life sciences position, with the International Reliance Framework due Autumn 2026 per <a href="https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences" target="_blank">GOV.UK MHRA</a> (April 2026).</li>
+<li>Independent legal analysis confirms MHRA international reliance enables faster GB market access by relying on overseas regulator approvals, structurally separating UK from the EU pipeline per <a href="https://www.brownejacobson.com/insights/accelerating-access-how-mhra-s-international-reliance-is-reshaping-uk-medicines-regulation" target="_blank">Browne Jacobson</a> (March 2026).</li>
+<li>The UK Life Sciences Sector Plan published July 2025 sets ambition for top-three European MedTech access by 2030, anchoring divergent UK regulatory architecture per <a href="https://www.osborneclarke.com/insights/what-does-uk-governments-ambitious-sector-plan-life-sciences-mean-industry" target="_blank">Osborne Clarke</a> and <a href="https://www.nhsconfed.org/publications/life-sciences-sector-plan" target="_blank">NHS Confederation</a>.</li>
+<li>The EMA welcomed political agreement on the revised pharmaceutical legislation in March 2026, anchoring the EU divergence track that pharma manufacturers must navigate alongside UK MHRA reform per <a href="https://www.ema.europa.eu/en/news/ema-welcomes-political-agreement-new-eu-pharmaceutical-legislation" target="_blank">EMA</a>.</li>
+<li>The EU regulatory network's adoption of the FHIR-based ePI Common Standard in late 2024 set the cross-border data architecture that UK manufacturers must mirror to retain EU market access per <a href="https://www.ema.europa.eu/en/news/european-medicines-regulatory-network-adopts-eu-common-standard-electronic-product-information" target="_blank">EMA</a>.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>UK-EU divergence may be more rhetorical than operational. International reliance, by accepting third-country approvals, can in practice run alongside continued EMA alignment for medicines (as opposed to medical devices), and the largest pharma manufacturers maintain dual UK and EU regulatory teams as a matter of course. Datapharm's 300+ clients may experience the divergence as a manageable extension of existing dual-track work, in which case a bundled multi-jurisdiction service answers a willingness-to-pay question that was already partly satisfied by internal teams.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 plan. Each names the move, a horizon and a decision posture.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Productise the emc FHIR layer as a priced data service</h4>
+<p>The CPO and CTO should propose, by Q3 2026, a pricing structure and SLA for API-led access to emc's FHIR-structured medicines data. The technical architecture is in place; the open question is whether the FHIR layer is treated as the engine room of a free destination or as a separately monetised infrastructure tier. Voluntary EU ePI submission opens for vaccines in Q3 2026; a Datapharm-priced FHIR data service that launches alongside it captures both UK pharma compliance demand and downstream AI-vendor and ePMA-vendor consumption.</p>
+<p class="si-action">Action: CPO and CTO joint paper to the board by 30 September 2026 with three pricing models, two anchor-client commitments and a 12-month commercial runway.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-1" class="xref">1</a> (ePI mandate) and Cluster <a href="#cluster-5" class="xref">5</a> (UK-EU divergence).</span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Resolve the build-versus-partner question on AI clinical search</h4>
+<p>OpenEvidence has withdrawn from Europe; FDB has repositioned to cloud; iatroX is already using eMC content. The CCO and CPO should run a structured 90-day option assessment covering three paths: (a) build a first-party Ask emc AI search over Datapharm's content; (b) partner with one or two AI-search vendors as upstream data supplier; (c) acquire a UK-native AI tool. The decision is Prepare rather than Decide because the MHRA AI-medical-device framework lands in 2026 and may shift the make-versus-buy calculus mid-flight.</p>
+<p class="si-action">Action: CCO/CPO option assessment delivered to the board by 30 November 2026, covering build, partner and acquire paths with capex, regulatory and customer-validation tests for each.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-3" class="xref">3</a> (IP demand shock) and Cluster <a href="#cluster-4" class="xref">4</a> (AI search disruption).</span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Frame the first material acquisition under the CGE thesis</h4>
+<p>CGE Partners' growth mandate is explicit on strategic acquisitions, and the eight months since investment have built the platform-consolidation prerequisites (Datapharm Hub SSO, new CTO and CCO). The CEO and CGE board representatives should agree, by mid-2026, the criteria that will frame the first material acquisition: clinical-decision-support, ePI-services or EU-jurisdiction targets each carry a different signal to the market and a different scenario fit. Prepare rather than Decide reflects that the first deal needs CGE diligence-cycle alignment more than a unilateral Datapharm choice.</p>
+<p class="si-action">Action: CEO and CGE board representatives co-author an M&amp;A criteria paper by 31 July 2026 naming the three preferred target archetypes, the no-go zones and a 12-month deal-flow plan.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-2" class="xref">2</a> (CGE growth mandate) and Cluster <a href="#cluster-1" class="xref">1</a> (ePI mandate).</span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Track the IP cohort and ePMA procurement cadence as a leading indicator</h4>
+<p>The CCO should establish a quarterly read on two leading indicators: (i) the rate of pharmacist independent prescriber registration through 2026 and 2027, and (ii) ePMA procurement decisions across UK NHS trusts. The first indicator sizes the structural demand shock; the second indicates whether Datapharm content is being treated as a default data layer or being substituted by competitor sources. Monitor rather than Decide because both indicators are external and feed into SI 1 and SI 2 rather than independent action.</p>
+<p class="si-action">Action: CCO quarterly indicator dashboard from Q3 2026, summarising IP registration data and named ePMA procurement decisions, with first reading at the November 2026 board.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-3" class="xref">3</a> (IP demand shock) and Cluster <a href="#cluster-4" class="xref">4</a> (AI search disruption).</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">The two critical uncertainties for Datapharm's 2026 to 2029 window are (i) whether the EU ePI mandate converts into rapid manufacturer adoption or slips into a long voluntary tail, and (ii) whether AI clinical search consolidates into one or two dominant platforms or fragments across multiple specialist tools. The four scenarios below are planning aids, not forecasts.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Infrastructure provider</h4>
+<p>Rapid ePI adoption meets fragmented AI-search field. Pharma manufacturers move quickly to FHIR submission; multiple AI tools compete for the prescriber-facing seat; all of them need authoritative FHIR-structured medicines data. Datapharm sits as the priced upstream data layer, charging API-rate-limited access to manufacturers and AI vendors alike. Margins are infrastructure-grade and recurring; competitive moat is data quality and regulatory alignment. CGE thesis vindicated through scaling rather than M&amp;A.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> 20+ manufacturers volunteer ePI submission in Q3 to Q4 2026; three or more distinct AI tools embed emc FHIR feeds.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Slow voluntary tail</h4>
+<p>EU ePI rollout slips into 2028 to 2029 voluntary uptake; manufacturers prioritise other compliance work; the FHIR demand curve flattens. Datapharm's first-mover advantage in FHIR converts to customer-friction reduction rather than priced data revenue. Growth comes from incremental product layers (publisher, PI portal, icomply) rather than infrastructure pricing. CGE thesis pivots to platform consolidation and bolt-ons.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Fewer than ten manufacturers volunteer ePI submission in 2026; revised legislation enters force later than 2027.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Default decision-support layer</h4>
+<p>Rapid ePI adoption combines with AI-search consolidation around one or two dominant platforms. The winning AI tool becomes the default UK pharmacist and prescriber interface, and either embeds emc upstream or builds an alternative. If Datapharm has built or acquired a first-party AI layer in time, it occupies the default seat; if not, it remains the data layer underneath someone else's interface. The cycle is decisive: who lands the AI-search seat sets the next decade's revenue mix.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> One AI clinical-search tool reaches majority adoption among UK pharmacist independent prescribers by end-2027; ePMA vendors standardise on one CDS layer.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>UK specialist, EU bystander</h4>
+<p>UK MHRA divergence and EU ePI both proceed but Datapharm chooses to remain UK-only. EU-native vendors (VIDAL, EMA-direct services) capture the cross-border data layer; pharma manufacturers maintain Datapharm for UK obligations and a separate EU stack for EU obligations. Revenue is stable but the addressable market shrinks relative to multi-jurisdiction peers. CGE thesis recalibrates to a UK platform play with adjacent product expansion rather than geographic.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> VIDAL or another EU-native vendor wins material UK pharma manufacturer contract; CGE M&amp;A activity stays UK-domestic through 2027.</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>Direct competition from NICE BNF</h4>
+<p>NICE's British National Formulary serves a different segment (free-to-NHS prescribing reference) and operates on a different content cadence. The BNF is a complementary reference rather than a substitute for Datapharm's pharma-manufacturer-funded SmPC and PI service. The two have coexisted for decades and there is no signal in this cycle of NICE moving into pharma-manufacturer-paid services.</p>
+<p class="reinstatement">Reinstate if: NICE announces a paid pharma-services tier or absorbs a pharma-data vendor.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Patient-direct ePI displacing pharma-funded compendia</h4>
+<p>Patient-facing ePI delivery (QR-code triggered leaflets, multilingual smartphone access) is part of the EMA roadmap but is positioned as additive to, not replacement for, manufacturer-funded HCP-targeted aggregators. Patient adoption of AI tools for medicines information remains low (4% of emc users in Datapharm's 2025 survey).</p>
+<p class="reinstatement">Reinstate if: a major regulator mandates patient-direct ePI as the sole channel for any medicine class.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Datapharm building its own ePMA system</h4>
+<p>The ePMA market is mature, deeply integrated and dominated by specialist vendors. A Datapharm move into ePMA would require a step-change in capital and capability outside the CGE thesis. The natural play is upstream data supply and decision-support partnerships, not vertical integration into prescribing-system delivery.</p>
+<p class="reinstatement">Reinstate if: CGE Partners signals an ePMA-vertical acquisition or a major ePMA vendor enters administration.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>If voluntary EU ePI uptake in Q3 to Q4 2026 attracts only single-digit manufacturer participation, do we still launch a priced FHIR data service in 2026, or hold to a 2027 launch tied to the mandatory trigger?</li>
+<li>The OpenEvidence European withdrawal opens a UK-and-EU AI-search seat. Are we structurally a contender for that seat, or are we content to be the data layer underneath whoever wins it?</li>
+<li>CGE Partners' first major acquisition under our ownership will signal market positioning. Which of clinical-decision-support, ePI-services or EU-jurisdiction targets best advances the FY29 destination, and which carries the lowest integration risk?</li>
+<li>The September 2026 IP cohort is structurally favourable but requires distribution through ePMA systems and AI tools we do not own. What share of the prescriber-facing wallet is realistic without first-party tooling?</li>
+<li>The Nuffield Trust flag on prescriber-supervision gaps suggests an adjacent product opportunity in IP supervision and e-portfolio infrastructure. Is this a Datapharm play, or one we explicitly leave to others?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This report draws on 38 verified sources gathered within a soft six-month recency window from 16 November 2025 to 16 May 2026. Two sources (the EMA FHIR Implementation Guide v1.0.0 and the EMA Common Standard adoption news) sit in the 6 to 12 month band as structural anchors for the FHIR architecture; both are EMA primary publications. The load-bearing claims (the EU ePI roadmap dates, the September 2026 IP cohort trigger, the CGE Partners investment terms, the EU pharmaceutical legislation political agreement, the FDB Multilex cloud launch, the OpenEvidence European withdrawal) were verified directly against EMA, NHS England, GOV.UK MHRA, FDB, Datapharm and CGE primary publications. The tier mix is Tier 1: 8 sources; Tier 2: 6 sources; Tier 3: 5 sources; Tier 4: 19 sources. Tier 4 is over-represented in Cluster 4 (CGE/Datapharm/iatroX/FDB are mostly own-publications) and Cluster 3, where AI-clinical-search market analysis is heavily concentrated in vendor blogs given the absence of independent UK trade press in the category. Where Tier 4 sources anchor a directional reading, the report has flagged the directional treatment in cluster framing or counter-argument.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Cluster 1: The ePI mandate transition and the eMC reposition</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/product-information-requirements/electronic-product-information-epi" target="_blank">EMA, Electronic product information (ePI)</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>EMA's official ePI overview, EU Common Standard FHIR-based, public access via European Medicines Web Portal and API.</td></tr>
+<tr><td><a href="https://www.ema.europa.eu/en/documents/other/electronic-product-information-epi-roadmap_en.pdf" target="_blank">EMA, ePI implementation roadmap (DRAFT)</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Vaccines Q3 2026, oncology Q4 2026 voluntary submission; mandatory ePI tied to legislation entry into force.</td></tr>
+<tr><td><a href="https://www.ema.europa.eu/en/news/european-medicines-regulatory-network-adopts-eu-common-standard-electronic-product-information" target="_blank">EMA, network adopts EU common standard for ePI</a></td><td class="tier-1">Tier 1</td><td>Dec 2024</td><td>EU regulatory network formally adopted the FHIR-based EU Common Standard for ePI (structural anchor).</td></tr>
+<tr><td><a href="https://epi.ema.europa.eu/fhirig/" target="_blank">EMRN, ePI Implementation Guide v1.0.0</a></td><td class="tier-1">Tier 1</td><td>May 2025</td><td>FHIR 5.0.0 based implementation guide describing how to generate ePI per the EU Common Standard (structural anchor).</td></tr>
+<tr><td><a href="https://www.forgestop.com/blog/epi-roadmap-2026-pharma-compliance-checklist" target="_blank">ForgeStop, ePI Roadmap manufacturer checklist</a></td><td class="tier-4">Tier 4</td><td>Apr 2026</td><td>Vendor view confirming the Q3/Q4 2026 voluntary windows and the four-year industry timeline.</td></tr>
+<tr><td><a href="https://health.ec.europa.eu/medicinal-products/legal-framework-governing-medicinal-products-human-use-eu/reform-eu-pharmaceutical-legislation_en" target="_blank">European Commission, Reform of the EU pharmaceutical legislation</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Coreper endorsement 6 March 2026; new acts expected to enter force in 2026 with a two-year transition period.</td></tr>
+<tr><td><a href="https://www.datapharm.com/resource-hub/electronic-product-information-patient-information-leaflets-epi-regulatory-affairs/" target="_blank">Datapharm, How will ePI transform pharma's medicines info</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>Datapharm own framing: emc transitioning to FHIR, supporting SmPC display as ePI in FHIR.</td></tr>
+<tr><td><a href="https://www.datapharm.com/resource-hub/ceo-newsletter-june-dissemination-medicines-information-hl7-fhir-structured-data/" target="_blank">Datapharm, CEO newsletter on HL7 FHIR transition</a></td><td class="tier-4">Tier 4</td><td>Jun 2025</td><td>CEO statement on emc's HL7 FHIR transition and structured medicines data strategy.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 2: CGE Partners ownership and the growth-by-acquisition mandate</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://cge-partners.com/news/cge-partners-announces-investment-in-datapharm/" target="_blank">CGE Partners, investment in Datapharm announcement</a></td><td class="tier-4">Tier 4</td><td>Sep 2025</td><td>Growth investment to accelerate new product development, international expansion and strategic acquisitions.</td></tr>
+<tr><td><a href="https://cge-partners.com/portfolio/datapharm/" target="_blank">CGE Partners, Datapharm portfolio page</a></td><td class="tier-4">Tier 4</td><td>Sep 2025</td><td>CGE healthcare-data thesis applied to Datapharm.</td></tr>
+<tr><td><a href="https://www.traverssmith.com/knowledge/knowledge-container/travers-smith-advises-cge-partners-on-its-investment-in-datapharm/" target="_blank">Travers Smith, CGE-Datapharm transaction note</a></td><td class="tier-2">Tier 2</td><td>Sep 2025</td><td>Independent legal-advisor confirmation of the CGE Partners growth investment.</td></tr>
+<tr><td><a href="https://cge-partners.com/" target="_blank">CGE Partners, firm thesis page</a></td><td class="tier-4">Tier 4</td><td>Jan 2026</td><td>Information, data and software businesses across Northern and Western Europe, EV €30m to €200m mid-market focus.</td></tr>
+<tr><td><a href="https://www.datapharm.com/resource-hub/datapharm-announces-new-cco-and-cto/" target="_blank">Datapharm, new CTO and CCO announcement</a></td><td class="tier-4">Tier 4</td><td>Dec 2025</td><td>Post-CGE leadership build-out: new CTO and CCO appointed.</td></tr>
+<tr><td><a href="https://www.datapharm.com/resource-hub/datapharm-partners-with-vidal-to-advance-the-accessibility-of-medicines-information-in-france/" target="_blank">Datapharm, VIDAL France partnership announcement</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>SRD Search distributed via VIDAL into France, with interest from 11 global pharma companies.</td></tr>
+<tr><td><a href="https://pharmatimes.com/news/datapharm-collaborates-with-vidal-to-improve-medicines-information-access-in-france/" target="_blank">PharmaTimes, Datapharm-VIDAL coverage</a></td><td class="tier-3">Tier 3</td><td>Feb 2026</td><td>Independent trade-press confirmation of the VIDAL partnership.</td></tr>
+<tr><td><a href="https://www.datapharm.com/resource-hub/product-update-the-datapharm-hub-launch/" target="_blank">Datapharm, Datapharm Hub launch</a></td><td class="tier-4">Tier 4</td><td>Mar 2026</td><td>SSO consolidation across emc publisher, PI portal and icomply, evidence of platform-readiness for bolt-ons.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 3: Pharmacist independent prescribing as a structural demand shock</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.england.nhs.uk/long-read/independent-prescribing-community-pharmacy-pathfinder-programme-transition-future-direction/" target="_blank">NHS England, IP Pathfinder transition</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>From September 2026 all newly qualified pharmacists are independent prescribers on day of registration.</td></tr>
+<tr><td><a href="https://www.england.nhs.uk/long-read/update-on-independent-prescribing-in-community-pharmacy-pathfinder-programme/" target="_blank">NHS England, Pathfinder programme update</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>33,000+ Pathfinder consultations across 164 sites; 59% prescribing interventions.</td></tr>
+<tr><td><a href="https://www.thepharmacist.co.uk/in-practice/third-of-pharmacists-in-great-britain-are-now-independent-prescribers/" target="_blank">The Pharmacist, third of GB pharmacists are IPs</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>One third of GB pharmacists now independent prescribers.</td></tr>
+<tr><td><a href="https://www.nuffieldtrust.org.uk/news-item/gaps-in-support-could-undermine-wave-of-new-pharmacist-prescribers-entering-nhs" target="_blank">Nuffield Trust, gaps in prescriber support</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>New IP cohort needs structured supervision, e-portfolio and decision-support tools.</td></tr>
+<tr><td><a href="https://pharmaceutical-journal.com/article/news/nhs-england-tells-care-boards-to-maximise-pharmacy-first-in-planning-guidance" target="_blank">Pharmaceutical Journal, NHSE planning guidance on Pharmacy First</a></td><td class="tier-3">Tier 3</td><td>Oct 2025</td><td>ICBs instructed to maximise Pharmacy First and embed prescribing services in 2026/27.</td></tr>
+<tr><td><a href="https://www.england.nhs.uk/long-read/medium-term-planning-framework-delivering-change-together-2026-27-to-2028-29/" target="_blank">NHS England, Medium Term Planning Framework</a></td><td class="tier-1">Tier 1</td><td>Oct 2025</td><td>Three-year planning framework requiring ICBs to embed Pharmacy First and prescribing services.</td></tr>
+<tr><td><a href="https://www.thepharmacist.co.uk/community/icbs-told-to-introduce-pharmacy-prescribing-services-in-2026-27/" target="_blank">The Pharmacist, ICBs and pharmacy prescribing 2026/27</a></td><td class="tier-3">Tier 3</td><td>Nov 2025</td><td>Sector reading of NHSE planning guidance: ICBs are now formally on the hook.</td></tr>
+<tr><td><a href="https://www.iatrox.com/blog/ai-medication-management-prescribing-pharmacy-uk-primary-care" target="_blank">iatroX, AI-enabled prescribing and pharmacy support in UK primary care</a></td><td class="tier-4">Tier 4</td><td>Apr 2026</td><td>15-20 minute time savings per Pharmacy First consultation with structured AI decision support.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 4: AI evidence search and clinical decision support disruption</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.iatrox.com/blog/clinical-ai-landscape-2026-chatgpt-openevidence-iatrox-medwise" target="_blank">iatroX, clinical AI landscape 2026</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>OpenEvidence at $12bn valuation; 15M monthly clinician consultations.</td></tr>
+<tr><td><a href="https://www.iatrox.com/blog/ai-tools-for-uk-pharmacists-2025-iatrox-openevidence-lexidrug-micromedex-fdb" target="_blank">iatroX, AI tools for UK pharmacists in 2025</a></td><td class="tier-4">Tier 4</td><td>Dec 2025</td><td>Comparative landscape of UK pharmacist AI tools, including iatroX powered partly by eMC.</td></tr>
+<tr><td><a href="https://www.fdbhealth.co.uk/about-us/press-releases/2025-10-14-fdb-announces-multilex-in-the-cloud" target="_blank">FDB, Multilex in the Cloud announcement</a></td><td class="tier-4">Tier 4</td><td>Oct 2025</td><td>Incumbent Multilex (10,000+ NHS sites) repositions to cloud-native delivery on Microsoft Azure.</td></tr>
+<tr><td><a href="https://htn.co.uk/2025/10/22/ox-dh-partners-with-first-databank-to-shape-intelligent-medicines-management-in-primary-care/" target="_blank">HTN, OX.DH and FDB partnership</a></td><td class="tier-3">Tier 3</td><td>Oct 2025</td><td>FDB embedding Multilex Cloud into Oxford Digital Health's cloud-native primary care system.</td></tr>
+<tr><td><a href="https://www.fdbhealth.co.uk/about-us/press-releases/2025-07-03-new-gp-solution-medicus-integrates-fdb-multilex" target="_blank">FDB, Medicus EPR integrates Multilex</a></td><td class="tier-4">Tier 4</td><td>Jul 2025</td><td>New-generation EPR for general practice integrates FDB Multilex by default.</td></tr>
+<tr><td><a href="https://www.mills-reeve.com/blogs/life-sciences/january-2026/regulating-ai-in-healthcare-the-uk-government-wants-your-input/" target="_blank">Mills &amp; Reeve, MHRA AI consultation</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>MHRA preparing new AI-in-medical-devices framework for 2026.</td></tr>
+<tr><td><a href="https://www.periculo.co.uk/cyber-security-blog/mhras-ai-medical-device-framework-what-nhs-suppliers-need-to-know-about-cybersecurity-and-compliance" target="_blank">Periculo, MHRA AI Medical Device Framework</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>MHRA naming transparency, explainability, AI assurance, cybersecurity and lifecycle governance as priorities.</td></tr>
+<tr><td><a href="https://www.iatrox.com/blog/openevidence-europe-alternatives-clinical-ai-search" target="_blank">iatroX, OpenEvidence European withdrawal</a></td><td class="tier-4">Tier 4</td><td>Mar 2026</td><td>OpenEvidence withdrew from European markets citing EU AI Act regulatory uncertainty.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 5: UK-EU regulatory divergence and dual-track compliance</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences" target="_blank">GOV.UK MHRA, targets for medicines access</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>International Reliance Framework due Autumn 2026; Early Access Service for innovative devices.</td></tr>
+<tr><td><a href="https://www.brownejacobson.com/insights/accelerating-access-how-mhra-s-international-reliance-is-reshaping-uk-medicines-regulation" target="_blank">Browne Jacobson, MHRA international reliance analysis</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Independent legal analysis of MHRA international reliance reshaping UK medicines regulation.</td></tr>
+<tr><td><a href="https://www.osborneclarke.com/insights/what-does-uk-governments-ambitious-sector-plan-life-sciences-mean-industry" target="_blank">Osborne Clarke, UK Life Sciences Sector Plan analysis</a></td><td class="tier-2">Tier 2</td><td>Aug 2025</td><td>UK Life Sciences Sector Plan ambition for top-three European MedTech access by 2030.</td></tr>
+<tr><td><a href="https://www.nhsconfed.org/publications/life-sciences-sector-plan" target="_blank">NHS Confederation, Life Sciences Sector Plan</a></td><td class="tier-2">Tier 2</td><td>Jul 2025</td><td>Sector-body summary of the Life Sciences Sector Plan implications.</td></tr>
+<tr><td><a href="https://www.ema.europa.eu/en/news/ema-welcomes-political-agreement-new-eu-pharmaceutical-legislation" target="_blank">EMA, political agreement on revised pharmaceutical legislation</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Revised EU pharmaceutical legislation reaches political agreement, anchoring divergence track for pharma manufacturers.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<hr>
+<p class="small">&copy; 2026 Shaping Tomorrow. Strategic Intelligence Report prepared for Datapharm.</p>
+
+</div>
+
+</body>
+</html>

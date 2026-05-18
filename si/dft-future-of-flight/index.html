@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>From Three Pathways to One, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker</div>
+
+<article>
+
+<h2>From Three Pathways to One: SAF Hardens, Hydrogen Retreats, eVTOL Crystallises</h2>
+<p class="seo-line">Aviation decarbonisation momentum is collapsing toward SAF dominance: Airbus ZEROe slipped 10 years to the late 2040s, the UK SAF Mandate is in force on a 22% by 2040 trajectory, and the CAA's CAP 3169 Delivery Model has dated eVTOL commercial passenger flights to end-2028.</p>
+<p class="meta">Change Tracker &middot; The Future of Flight &middot; Department for Transport &middot; Cycle: 18 May 2026</p>
+
+<p>The Department for Transport's three-pathway aviation decarbonisation strategy is being structurally repriced. Airbus pushed ZEROe from 2035 to the late 2040s with a 25% budget cut; the European Destination 2050 roadmap cut hydrogen's contribution to 2050 net zero from 20% to 6%; Universal Hydrogen folded in July 2024. Simultaneously, the UK SAF Mandate is in force with a 10% by 2030 and 22% by 2040 trajectory, and the CAA's CAP 3169 Delivery Model dates first commercial passenger eVTOL flights to end-2028. The strategic question: should the Jet Zero Strategy continue to assume three parallel pathways, or plan for SAF-dominant with hydrogen as long-tail?</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>CAA CAP 3169 eVTOL Delivery Model</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named regulatory inflection within past 90 days; 6 of 8 supporting sources from past 60 days</td>
+<td>The CAA's delivery model targets first commercial passenger eVTOL flights by end-2028 with legislative recommendations to DfT in 2026 (<a href="https://www.caa.co.uk/data-and-publications/publications/documents/content/cap3169/" target="_blank">CAA</a>, 26/03/2026).</td>
+</tr>
+<tr>
+<td>UK SAF Mandate ramp</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Mandate in force from 01/01/2025; 2% trigger active, 10% trigger 2030, 22% trigger 2040</td>
+<td>The Mandate creates demand-side certainty with £4.70/litre non-compliance penalty (<a href="https://www.edie.net/uks-sustainable-aviation-fuel-mandate-enters-into-force/" target="_blank">Edie</a>, 02/01/2025).</td>
+</tr>
+<tr>
+<td>Vertical Aerospace VX4 certification</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Flight testing Q2 2026 on schedule; 3 of 4 supporting sources from past 90 days</td>
+<td>UK OEM VX4 testing aligned with CAA's 2028 commercial timeline (<a href="https://verticalmag.com/press-releases/vertical-aerospace-welcomes-uk-caas-evtol-delivery-model/" target="_blank">Vertical Mag</a>, 27/03/2026).</td>
+</tr>
+<tr>
+<td>Airbus ZEROe hydrogen aircraft</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Named delay announcement within past 60 days; 5 of 6 supporting sources from past 90 days</td>
+<td>ZEROe pushed from 2035 to late 2040s with 25% budget cut and A380 testbed shut (<a href="https://sustainabilitymag.com/articles/airbus-delays-plans-for-commercial-hydrogen-aircraft" target="_blank">Sustainability Magazine</a>, 08/04/2026).</td>
+</tr>
+<tr>
+<td>Hydrogen-electric short-haul as commercial pathway</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Universal Hydrogen folded July 2024; ZeroAvia scope narrowed November 2025</td>
+<td>Pathway narrowed to small-aircraft retrofit (15 Cessna Caravans in Norway from 2028) (<a href="https://www.flightglobal.com/aerospace/zeroavia-eyes-certification-goals-in-2027-as-it-gains-eu-innovation-fund-boost/165220.article" target="_blank">Flight Global</a>, 22/11/2025).</td>
+</tr>
+<tr>
+<td>Destination 2050 hydrogen contribution</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Industry roadmap revision named within past 60 days</td>
+<td>European aviation industry roadmap cut hydrogen contribution to 2050 net zero from 20% to 6% (<a href="https://sustainabilitymag.com/articles/airbus-delays-plans-for-commercial-hydrogen-aircraft" target="_blank">Sustainability Magazine</a>, 08/04/2026).</td>
+</tr>
+<tr>
+<td>Airport SAF infrastructure investment</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named capital-allocation shifts within past 60 days; airport response to Airbus retreat</td>
+<td>Airports re-evaluating hydrogen capex toward SAF and electrification (<a href="https://airportindustry-news.com/hydrogen-on-hold-airports-respond-to-airbus-zeroe-delay/" target="_blank">Airport Industry News</a>, 10/04/2026).</td>
+</tr>
+<tr>
+<td>UK SAF plant pipeline</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Distribution roughly even across past 12 months; no consolidation event</td>
+<td>Five SAF plants intended under construction by 2025 per Jet Zero Strategy; supply tightness continues (<a href="https://assets.publishing.service.gov.uk/media/66cf1f99a7256f1cd83a89c1/creating-the-UK-saf-mandate-consultation-response.pdf" target="_blank">DfT</a>, 28/08/2024).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster opportunity">
+<h4>eVTOL regulatory crystallisation<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>The eVTOL signals (CAA CAP 3169, Vertical Aerospace VX4 testing, the broader AAM framework) compound: the UK has a dated commercial-passenger eVTOL launch on the regulatory calendar for end-2028, with Vertical Aerospace as the credible UK-headquartered OEM. The cluster is the closest to a hard regulatory inflection in this cycle and the most consequential for airport-side capital, airspace integration and vertiport planning.</p>
+</div>
+
+<div class="cluster transformation">
+<h4>SAF dominance hardens<span class="cluster-type">Transformation Driver</span></h4>
+<p>The Mandate ramp, airport capital reallocation toward SAF supply, and the UK SAF plant pipeline together describe a pathway structurally crowding out alternatives. As hydrogen retreats, SAF becomes the only credible near-term route for the existing narrow-body fleet. The transformation moves from "three parallel pathways" to SAF-dominant with eVTOL adjacent and hydrogen long-tail. Supply-side tightness against the 2030 trigger is the operational risk.</p>
+</div>
+
+<div class="cluster risk">
+<h4>Hydrogen-aviation pathway narrowing<span class="cluster-type">Evolving Risk</span></h4>
+<p>Airbus ZEROe, Universal Hydrogen, Destination 2050 revision and ZeroAvia scope narrowing all signal structural deprioritisation of hydrogen-aviation as a near-term pathway. The Jet Zero Strategy's hydrogen optionality is being pushed out by a decade. The evolving risk is single-pathway dependency on SAF: if SAF supply tightens beyond the mandate trajectory, the multi-pathway hedge that justified the original strategy is no longer available.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Momentum distribution across the topic</h4>
+<svg viewBox="0 0 720 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Momentum distribution chart. Accelerating column holds four signals: three eVTOL regulatory crystallisation in green and one SAF dominance in indigo. Stable column holds one SAF plant pipeline signal in indigo. Fading column holds three hydrogen-aviation pathway narrowing signals in red.">
+  <rect x="0" y="0" width="720" height="260" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Signals by direction (cluster colour)</text>
+
+  <rect x="40" y="40" width="200" height="200" fill="#fde8e8" opacity="0.4" rx="6"/>
+  <rect x="260" y="40" width="200" height="200" fill="#eef0f3" opacity="0.5" rx="6"/>
+  <rect x="480" y="40" width="200" height="200" fill="#e8f5e9" opacity="0.5" rx="6"/>
+
+  <text x="140" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#c62828">ACCELERATING</text>
+  <text x="360" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#5a6478">STABLE</text>
+  <text x="580" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#43a047">FADING</text>
+
+  <circle cx="60" cy="85" r="8" fill="#43a047"/>
+  <text x="75" y="89" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">CAA CAP 3169</text>
+
+  <circle cx="60" cy="115" r="8" fill="#43a047"/>
+  <text x="75" y="119" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Vertical Aerospace VX4</text>
+
+  <circle cx="60" cy="145" r="8" fill="#1a237e"/>
+  <text x="75" y="149" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">UK SAF Mandate ramp</text>
+
+  <circle cx="60" cy="175" r="8" fill="#1a237e"/>
+  <text x="75" y="179" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Airport SAF investment</text>
+
+  <circle cx="280" cy="115" r="8" fill="#1a237e"/>
+  <text x="295" y="119" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">UK SAF plant pipeline</text>
+
+  <circle cx="500" cy="85" r="8" fill="#c62828"/>
+  <text x="515" y="89" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Airbus ZEROe</text>
+
+  <circle cx="500" cy="115" r="8" fill="#c62828"/>
+  <text x="515" y="119" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Hydrogen short-haul</text>
+
+  <circle cx="500" cy="145" r="8" fill="#c62828"/>
+  <text x="515" y="149" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Destination 2050 hydrogen</text>
+
+  <g transform="translate(40,250)">
+    <circle cx="0" cy="0" r="6" fill="#43a047"/>
+    <text x="10" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">eVTOL crystallisation</text>
+    <circle cx="180" cy="0" r="6" fill="#1a237e"/>
+    <text x="190" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">SAF dominance</text>
+    <circle cx="350" cy="0" r="6" fill="#c62828"/>
+    <text x="360" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Hydrogen-aviation narrowing</text>
+  </g>
+</svg>
+<p class="figure-caption">Cluster assignment drawn from the eight signals tracked in this cycle's evidence base; direction columns reflect the semi-quantitative reads in the table above.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>UK SAF Mandate ramp.</strong> A 2027 trajectory review would convert demand-side certainty into binding industrial-strategy decisions on UK plant capacity.</li>
+<li><strong>CAA CAP 3169 eVTOL Delivery Model.</strong> Final regulations ahead of 2028 would let Vertical Aerospace, Joby and Archer commit to UK commercial operations.</li>
+<li><strong>Airbus ZEROe deprioritisation.</strong> A second narrow-body OEM retreating from hydrogen would lock in SAF-dominance as industry consensus.</li>
+<li><strong>Vertical Aerospace VX4 certification.</strong> The first milestone would crystallise UK eVTOL credibility and trigger second-wave airport capital.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>UK SAF supply shortfall in 2027-28</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> UK SAF pipeline misses the 10% 2030 trigger, forcing import dependency or penalty payments at scale.</p>
+<p><strong>Early warning indicators:</strong> A flagship UK SAF plant (Velocys, Lanza, OXCCU, Equilon) is cancelled or delayed beyond 2028; compliance shortfall in Q2 2027.</p>
+<p>Five SAF plants were intended under construction by 2025 per Jet Zero. If the pipeline thins, SAF becomes a supply-side bottleneck and the mandate calendar collides with available production. The risk binds because hydrogen is no longer a credible near-term hedge.</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>Renewable hydrogen cost cliff by 2028</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> Chinese electrolyser scale-up plus EU Hydrogen Bank drives renewable hydrogen below $2/kg LCOH by 2028, restoring unit economics ahead of schedule.</p>
+<p><strong>Early warning indicators:</strong> EU Hydrogen Bank Round 3 or 4 in 2026-2027 shows cost convergence; major Chinese electrolyser deployment at commercial scale in UK or EU.</p>
+<p>Hydrogen-aviation has been deprioritised partly because the supporting hydrogen ecosystem is 5-10 years behind projection. A cost cliff would re-open the pathway from a different OEM base (Boeing, Embraer, Chinese OEMs) in the late 2020s, restoring multi-pathway optionality.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Wild Card impact and surprise field</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wild Card matrix plotting two candidates against impact (vertical axis) and surprise (horizontal axis). UK SAF supply shortfall in 2027-28 sits very high impact, moderate surprise, in the disruptive risk quadrant. Renewable hydrogen cost cliff by 2028 sits high impact, high surprise, in the disruptive opportunity quadrant.">
+  <rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Wild Cards: impact and surprise field</text>
+
+  <line x1="120" y1="50" x2="120" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="120" y1="240" x2="660" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="390" y1="50" x2="390" y2="240" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="120" y1="145" x2="660" y2="145" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="115" y="58" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Very High</text>
+  <text x="115" y="150" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High</text>
+  <text x="115" y="243" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate</text>
+
+  <text x="120" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Low surprise</text>
+  <text x="390" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate surprise</text>
+  <text x="650" y="258" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High surprise</text>
+
+  <text x="80" y="145" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#5a6478" transform="rotate(-90 80,145)">Impact</text>
+
+  <circle cx="320" cy="80" r="14" fill="#8e24aa" opacity="0.85"/>
+  <text x="345" y="76" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">UK SAF supply shortfall 2027-28</text>
+  <text x="345" y="91" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Disruptive Risk; very high impact, moderate surprise</text>
+
+  <circle cx="540" cy="125" r="14" fill="#00897b" opacity="0.85"/>
+  <text x="565" y="121" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Renewable hydrogen cost cliff</text>
+  <text x="565" y="136" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Disruptive Opportunity; high impact, high surprise</text>
+</svg>
+<p class="figure-caption">Position derived from the early-warning indicators named in each card; both wild cards sit at high or very high impact, with the SAF supply shortfall the more proximate trigger.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>For Department for Transport, the aviation decarbonisation calendar is collapsing toward SAF dominance with eVTOL adjacent and hydrogen long-tail. The next twelve months reward monitoring rather than commitment. The SAF Mandate trajectory is settled but supply tightness is worth tracking against the 2030 trigger; the CAA's eVTOL delivery model has dated commercial flights but airport-readiness is a separate calendar; the Jet Zero Strategy's hydrogen optionality may need revision in light of Airbus's retreat. The 2026 spending review is the right place to consider whether multi-pathway optionality remains appropriate or pick-winners discipline now applies.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> CAP 3169: Advanced Air Mobility eVTOL Delivery Model. <a href="https://www.caa.co.uk/data-and-publications/publications/documents/content/cap3169/" target="_blank">UK Civil Aviation Authority</a>. Published 26/03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Enabling Advanced Air Mobility. <a href="https://www.caa.co.uk/about-us/research-and-innovation/enabling-advanced-air-mobility/" target="_blank">UK Civil Aviation Authority</a>. Published 08/04/2026.</li>
+<li><span class="tier-1">Tier 1</span> Supporting the transition to Jet Zero: creating the UK SAF Mandate consultation response. <a href="https://assets.publishing.service.gov.uk/media/66cf1f99a7256f1cd83a89c1/creating-the-UK-saf-mandate-consultation-response.pdf" target="_blank">Department for Transport</a>. Published 28/08/2024.</li>
+<li><span class="tier-2">Tier 2</span> Net zero aviation fuels report: research questions and resource constraints. <a href="https://royalsociety.org/news/2023/02/net-zero-aviation-fuels-report/" target="_blank">Royal Society</a>. Published 28/02/2023.</li>
+<li><span class="tier-2">Tier 2</span> A net zero flight plan for UK domestic aviation. <a href="https://www.ricardo.com/en/news-and-insights/industry-insights/a-net-zero-flight-plan-for-uk-domestic-aviation" target="_blank">Ricardo</a>. Published 20/11/2025.</li>
+<li><span class="tier-3">Tier 3</span> UK's Sustainable Aviation Fuel mandate enters into force. <a href="https://www.edie.net/uks-sustainable-aviation-fuel-mandate-enters-into-force/" target="_blank">Edie</a>. Published 02/01/2025.</li>
+<li><span class="tier-3">Tier 3</span> UK sets SAF mandate and unveils advanced jet zero plan. <a href="https://www.airport-technology.com/news/uk-saf-mandate-jet-zero-plan/" target="_blank">Airport Technology</a>. Published 15/09/2025.</li>
+<li><span class="tier-3">Tier 3</span> UK CAA publishes eVTOL Delivery Model to enable first commercial flights by 2028. <a href="https://evtolinsights.com/uk-caa-publishes-evtol-delivery-model-to-enable-first-commercial-flights-in-country-by-2028/" target="_blank">eVTOL Insights</a>. Published 26/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> Airbus: Hydrogen Aircraft Could be Delayed by a Decade. <a href="https://sustainabilitymag.com/articles/airbus-delays-plans-for-commercial-hydrogen-aircraft" target="_blank">Sustainability Magazine</a>. Published 08/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Airbus pushes ZEROe aircraft project timeline to 2040s. <a href="https://www.compositesworld.com/news/airbus-pushes-zeroe-aircraft-project-timeline-to-2040s" target="_blank">CompositesWorld</a>. Published 18/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> Report: Airbus Has Spent $1.7B on Stalled Hydrogen Ambitions. <a href="https://www.flyingmag.com/report-airbus-has-spent-1-7b-on-stalled-hydrogen-ambitions/" target="_blank">Flying Magazine</a>. Published 02/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Airbus delays ZEROe hydrogen aircraft research program. <a href="https://www.aerospacetestinginternational.com/news/airbus-delays-zeroe-hydrogen-aircraft-research-program.html" target="_blank">Aerospace Testing International</a>. Published 20/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> Hydrogen on Hold? Airports Respond to Airbus ZEROe Delay. <a href="https://airportindustry-news.com/hydrogen-on-hold-airports-respond-to-airbus-zeroe-delay/" target="_blank">Airport Industry News</a>. Published 10/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> ZeroAvia targets 2027 certification for hydrogen fuel cell powertrain on Cessna Caravan. <a href="https://www.flightglobal.com/aerospace/zeroavia-eyes-certification-goals-in-2027-as-it-gains-eu-innovation-fund-boost/165220.article" target="_blank">Flight Global</a>. Published 22/11/2025.</li>
+<li><span class="tier-3">Tier 3</span> ZeroAvia: the hydrogen-power innovator aviation firms back. <a href="https://www.aerotime.aero/articles/zeroavia-hydrogen-electric-engines-customers" target="_blank">Aerotime</a>. Published 18/02/2026.</li>
+<li><span class="tier-4">Tier 4</span> Vertical Aerospace welcomes UK CAA's eVTOL delivery model. <a href="https://verticalmag.com/press-releases/vertical-aerospace-welcomes-uk-caas-evtol-delivery-model/" target="_blank">Vertical Aerospace</a>. Published 27/03/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 18 May 2026</p>
+
+</body>
+</html>

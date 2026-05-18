@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 1,
+    "publisher": "NIST (Center for AI Standards and Innovation)",
+    "title": "Announcing the AI Agent Standards Initiative for Interoperable and Secure Innovation",
+    "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+    "publication_date": "2026-02-17",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "CAISI launches AI Agent Standards Initiative around three pillars including industry-led agent standards, community-led open-source protocols, and research on agent security and identity infrastructure.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Boundary date — exactly 90 days from scan date; treated as in-window."
+  },
+  {
+    "tier": 1,
+    "publisher": "NIST National Cybersecurity Center of Excellence (NCCoE)",
+    "title": "Accelerating the Adoption of Software and Artificial Intelligence Agent Identity and Authorization (concept paper)",
+    "url": "https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd",
+    "publication_date": "2026-02-05",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "NCCoE concept paper proposes a demonstration project applying identity and authorization standards to AI agents in enterprise settings; comments closed 2 April 2026.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor — canonical primary source for the identity-and-authorization framing of the signal; just outside soft 3-month window but inside 3-6m band."
+  },
+  {
+    "tier": 2,
+    "publisher": "OpenID Foundation",
+    "title": "OIDF responds to NIST on AI agent security (AIIM Threat Modeling Subgroup submission to NIST RFI)",
+    "url": "https://openid.net/oidf-responds-to-nist-on-ai-agent-security/",
+    "publication_date": "2026-03-11",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "OpenID Foundation submitted a formal response to NIST RFI on AI agent security, calling for a 'trust fabric' underneath the technical controls — verifiable credentials, constrained agent authority, and traceable accountability — and pointing to transaction tokens, workload identity federation and authentication extensions for AI tool protocols.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Confirms standards-body convergence around the NIST framing."
+  },
+  {
+    "tier": 2,
+    "publisher": "Cloud Security Alliance Labs",
+    "title": "Research Note: NIST AI Agent Standards — Listening Sessions and Emerging Controls",
+    "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-nist-ai-agent-standards-20260416-csa-style/",
+    "publication_date": "2026-04-16",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Reports on CAISI's April 2026 sector-specific listening sessions in healthcare, financial services, and education, flagging that sector concerns will likely feed COSAiS overlays and NCCoE practice guides.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Useful for confirming policy-process velocity and bringing in CSA's enterprise practitioner perspective."
+  },
+  {
+    "tier": 2,
+    "publisher": "Deloitte Insights",
+    "title": "Business and IT leaders report AI agents are scaling faster than their guardrails (State of AI in the Enterprise 2026)",
+    "url": "https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html",
+    "publication_date": "2026-04-24",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Survey of 3,235 IT/business leaders across 24 countries: only 21% report mature governance for agentic AI; 74% expect at least 'moderate' agent use by 2027; ~80% lack mature agentic governance capabilities including boundary-setting, real-time monitoring, and audit trails.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Quantification anchor — gap between deployment velocity and governance maturity."
+  },
+  {
+    "tier": 3,
+    "publisher": "CIO (Foundry)",
+    "title": "Why Model Context Protocol is suddenly on every executive agenda",
+    "url": "https://www.cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html",
+    "publication_date": "2026-02-24",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "MCP has moved from obscure protocol to enterprise governance topic; fewer than 4% of RSA 2026 conference submissions on MCP frame it as opportunity, the rest concentrate on exposure — over-permissioning, prompt injection, tool impersonation, authentication bypass.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Trade-press anchor for the governance-at-protocol-layer framing."
+  },
+  {
+    "tier": 4,
+    "publisher": "Okta",
+    "title": "Okta announces new blueprint for the secure agentic enterprise (Okta for AI Agents GA 30 April 2026)",
+    "url": "https://www.okta.com/newsroom/press-releases/showcase-2026/",
+    "publication_date": "2026-03-16",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Okta launches blueprint for secure agentic enterprise built around three questions ('where are my agents, what can they connect to, what can they do?'); cites third-party data that 88% of organizations report suspected or confirmed AI agent security incidents while only 22% treat AI agents as identity-bearing entities.",
+    "paywalled": false,
+    "treat_directionally": true,
+    "notes": "Vendor source — used as directional corroboration for IAM-vendor pivot, not as anchor for any structural claim."
+  }
+]

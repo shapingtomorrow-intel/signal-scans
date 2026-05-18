@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 2,
+    "publisher": "Council on Foreign Relations",
+    "title": "Flash Droughts: Why Speed, Not Scarcity, Is the New Systemic Risk",
+    "url": "https://www.cfr.org/articles/flash-droughts-why-speed-not-scarcity-is-the-new-systemic-risk",
+    "publication_date": "2026-02-23",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Flash droughts are a distinct policy category whose speed compresses warning windows from months to weeks and outpaces existing triggers for insurance payouts, relief delivery and political mobilisation; they have increased in frequency and intensity since the 1950s and are projected to rise further.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary framing anchor — argues this is a new systemic-risk category, not a slower-onset drought variant."
+  },
+  {
+    "tier": 1,
+    "publisher": "World Meteorological Organization (WMO)",
+    "title": "Global Seasonal Climate Update for April-May-June 2026",
+    "url": "https://wmo.int/media/update/global-seasonal-climate-update-april-may-june-2026",
+    "publication_date": "2026-03-23",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Multi-model consensus shows a rapid transition into El Nino territory by May 2026 with several models suggesting strong El Nino as early as June/July; widespread above-normal global land surface temperatures forecast for AMJ 2026; strong tropical Pacific signal with broad below-normal rainfall over the Maritime Continent and the eastern Indian Ocean.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Quantification anchor for global ENSO transition driving 2026 drought-onset risk."
+  },
+  {
+    "tier": 1,
+    "publisher": "NOAA / Drought.gov (US Drought Monitor)",
+    "title": "National Current Conditions",
+    "url": "https://www.drought.gov/current-conditions",
+    "publication_date": "2026-05-13",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "As of 13 May 2026, 51.35% of the United States and Puerto Rico and 61.47% of the Lower 48 are in drought; hot, dry April produced considerable drought expansion in the lower Mississippi Valley, Southeast and Mid-Atlantic, with significant impacts on soil moisture, streamflows and reservoirs.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "US-jurisdiction quantification anchor."
+  },
+  {
+    "tier": 2,
+    "publisher": "World Economic Forum (African Risk Capacity contributed article)",
+    "title": "How disaster risk financing can anchor Africa's development and strengthen its resilience",
+    "url": "https://www.weforum.org/stories/2026/03/africa-disaster-risk-financing-development/",
+    "publication_date": "2026-03-30",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "African Risk Capacity sovereign parametric model has provided over $1 billion in coverage to member states and disbursed more than $350 million in insurance claims; February 2026 high-level dialogue with IFAD and WFP called for continental expansion of parametric insurance.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Anchors the scaling of sovereign parametric drought insurance and pre-arranged finance."
+  },
+  {
+    "tier": 1,
+    "publisher": "Food and Agriculture Organization / Food Security Information Network (FSIN)",
+    "title": "Global Report on Food Crises 2026 (GRFC)",
+    "url": "https://www.fao.org/newsroom/detail/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen--un--eu-and-partners-warn-in-new-report/en",
+    "publication_date": "2026-04-24",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Acute hunger has doubled over the past decade with two famines declared last year for the first time in the report's history; climate variability and risks to food markets likely to sustain or worsen conditions in many countries in 2026; Sahel faces a difficult pastoral lean season due to drought.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Authoritative multilateral anchor for the human-impact dimension."
+  },
+  {
+    "tier": 2,
+    "publisher": "Aon (via Reinsurance News)",
+    "title": "Aon 2026 Climate and Catastrophe Insight: increasing climate risk from flood and drought",
+    "url": "https://www.reinsurancene.ws/aon-reports-increasing-climate-risk-from-flood-and-drought-in-2026-cci-findings/",
+    "publication_date": "2026-04-22",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Drought attributed around $13 billion in economic losses in 2025; flooding exceeded $42 billion in 2025; in 2025 the US recorded 14 separate 24-hour rainfall events consistent with a 1-in-1,000-year flood level; pluvial flood risk in the US could rise by ~12% under a medium-emissions and ~19% under a high-emissions scenario by mid-century.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Reinsurance-industry anchor for re-pricing of secondary-peril losses."
+  },
+  {
+    "tier": 3,
+    "publisher": "The Insurer / Parametric Insurer",
+    "title": "East Africa drought triggers parametric payouts to farmers worth $9 million",
+    "url": "https://www.theinsurer.com/parametric-insurer/news/east-africa-drought-triggers-parametric-payouts-to-farmers-worth-9-million-2026-03-11/",
+    "publication_date": "2026-03-11",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "More than 70,000 farmers across the Horn of Africa received payouts under the World Bank-financed DRIVE parametric insurance scheme; 17,734 pastoralists in Somalia received payments after satellite-based monitoring confirmed Deyr-season (Oct-Dec 2025) rainfall far below normal.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Specific event anchor for operational parametric insurance triggers in 2026."
+  }
+]

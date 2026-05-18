@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Identity Before Capability — Signal Scan</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 850px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  p { margin: 1em 0; }
+  ul { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .signal-meta { background: #f1f3f5; padding: 14px 18px; border-radius: 6px; margin: 16px 0; font-size: 0.95em; }
+  .signal-meta strong { color: #1a237e; }
+  .signal-meta-line { display: block; margin: 4px 0; }
+  .decision-tag { display: inline-block; padding: 3px 12px; border-radius: 14px; font-size: 0.88em; font-weight: 600; vertical-align: middle; }
+  .decision-tag.monitor { background: #4ecdc4; color: #1a1a1a; }
+  .decision-tag.prepare { background: #ffd93d; color: #1a1a1a; }
+  .decision-tag.decide { background: #ff6b6b; color: white; }
+  .action-line { margin-top: 14px; padding-top: 12px; border-top: 1px solid #e0e0e0; font-size: 0.95em; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .counter-arg-box { background: #fce4ec; border-left: 4px solid #e91e63; padding: 14px 18px; border-radius: 6px; margin: 16px 0; }
+  .counter-arg-box h3 { color: #c2185b; margin-top: 0; }
+</style>
+</head>
+<body>
+
+<article>
+<h2>Identity Before Capability: The Agent-Authorization Stack Quietly Restructuring Agentic AI by 2028</h2>
+<p class="seo-line">Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and Microsoft Entra agent-ID releases are converging into the rails that decide which agents act on whose behalf — a 2026-2028 inflection for IAM, vendor selection and liability.</p>
+
+<p>The consensus on AI and automation is that 2026 is the year agentic AI moves from demo to deployment, with frontier capability, longer context windows and tool integrations the things that matter. Beneath this sits a less obvious shift: the rapid formation of an "agent identity and authorization" stack &mdash; NIST's Center for AI Standards and Innovation, an NCCoE concept paper, OpenID Foundation submissions to federal RFIs, IETF OAuth drafts, and the pivot of dominant IAM vendors to treat agents as first-class non-human identities. These rails will determine which agents are permitted to act on whose behalf, with what audit trail. The board question is no longer "can our agents do X?" but "will our agents be allowed to do X?"</p>
+
+<h3>Signal Identification</h3>
+<p>A regulatory and standards pivot in early formation: the emergence of a sovereign-and-industry-led identity and authorization layer for autonomous AI agents. The signal is the convergence of US federal standards, open identity bodies and IAM vendors around a common framing &mdash; agents as identities, with delegation chains, scope-limited tokens and revocable authority &mdash; in a six-month window.</p>
+<div class="signal-meta">
+<span class="signal-meta-line"><strong>Time horizon:</strong> 2-5 years (NCCoE practice guide drafting 2026-2027; IETF and OpenID specifications ratifying 2026-2027; enterprise IAM deployment 2027; compliance and procurement convergence 2027-2028)</span>
+<span class="signal-meta-line"><strong>Plausibility band:</strong> Medium-High</span>
+<span class="signal-meta-line"><strong>Geographic / Jurisdictional Scope:</strong> Primary: US (NIST CAISI, NCCoE, IETF OAuth). Spillover: EU (AI Act high-risk implementing acts, ENISA); UK, Japan, Korea. Secondary: Australia, Canada, Singapore.</span>
+<span class="signal-meta-line"><strong>Sectors exposed:</strong> IAM and SaaS; agent platforms; financial services (delegated transactions, FAPI); healthcare; public-sector procurement; cybersecurity; legal and compliance; cyber and professional-liability insurance.</span>
+</div>
+
+<h3>What's Changing</h3>
+
+<p>The architecture is being formalised faster than enterprises notice. The (<a href="https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure" target="_blank">NIST Center for AI Standards and Innovation</a>, 17/02/2026) launched the AI Agent Standards Initiative around three pillars: industry-led standards, open-source protocols, and federal research on agent security and identity. Two weeks earlier, the (<a href="https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd" target="_blank">NIST NCCoE concept paper</a>, 05/02/2026) invited input on applying identity standards to AI agents in enterprise settings; comments closed 02/04/2026, with a practice guide to follow. The (<a href="https://openid.net/oidf-responds-to-nist-on-ai-agent-security/" target="_blank">OpenID Foundation formally responded</a>, 11/03/2026), framing the core problem as "not the technology, it's the trust" and calling for a trust fabric of verifiable credentials, constrained authority and traceable accountability.</p>
+
+<p>Adoption signals confirm the gap. (<a href="https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html" target="_blank">Deloitte's State of AI in the Enterprise 2026</a>, 24/04/2026), surveying 3,235 leaders across 24 countries, finds 74% expect at least "moderate" agent use by 2027 yet only 21% report a mature governance model; roughly 80% lack mature agentic-governance capabilities including bounded decision rights, real-time monitoring and audit trails. The (<a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-nist-ai-agent-standards-20260416-csa-style/" target="_blank">Cloud Security Alliance research note</a>, 16/04/2026) documents that sector concerns from CAISI's April listening sessions in healthcare, finance and education are feeding proposed Cybersecurity Overlays for AI Systems (COSAiS).</p>
+
+<p>The market is moving before the standards finish. (<a href="https://www.okta.com/newsroom/press-releases/showcase-2026/" target="_blank">Okta's blueprint for the secure agentic enterprise</a>, 16/03/2026), with Okta for AI Agents generally available 30/04/2026, treats AI agents as first-class identities; it cites data that 88% of organisations report suspected or confirmed AI agent security incidents while only 22% treat agents as identity-bearing entities. (<a href="https://www.cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html" target="_blank">CIO's analysis of Model Context Protocol</a>, 24/02/2026) reports fewer than 4% of MCP-related RSA 2026 submissions frame the protocol as opportunity rather than exposure &mdash; over-permissioning, tool impersonation, authentication bypass &mdash; moving governance to the protocol layer.</p>
+
+<h3>Disruption Pathway</h3>
+
+<p>Stage one (2026-2027): NCCoE practice guides, IETF specifications (OAuth 2.1, WIMSE, Identity Assertion Authorization Grant) and OpenID for Agents mature into reference implementations; major IAM vendors operationalise agent registry, scope-token vaulting and universal logout. Stage two (2027-2028): enterprise procurement requires agent-identity attestation, agent-registry inventories and identity-bearing audit logs as compliance baseline; the EU AI Act high-risk implementing acts incorporate equivalent requirements via ENISA and the EU AI Office; finance and healthcare regulators cite the standards in supervisory guidance. Stage three (2028-2030): the agent-identity layer becomes the binding determinant of which AI agents can transact with which counterparties, restructuring vendor lock-in, agent-platform economics and liability allocation.</p>
+
+<p>Stresses concentrate at three points: agent-platform vendors face a forced choice between adopting open identity standards (losing lock-in) or building closed walled gardens (losing enterprise procurement); enterprise IAM teams absorb an unbudgeted workload, registering shadow agents as identities and running a credential lifecycle for non-human actors that may outnumber human staff within 18 months; compliance teams need attestable audit trails tied to delegated-authority chains, where most agents today run on shared service accounts. Two adaptations follow: operational &mdash; IAM stacks add agent registry, scope-token gateways and kill-switch as standard features; regulatory &mdash; financial and healthcare supervisors import the NIST framing into rule-making.</p>
+
+<h3>Why This Matters</h3>
+<p>For CIOs and CISOs, agent identity is the binding constraint on agent deployment velocity, with procurement the leading edge. For boards, IAM modernisation tied to agentic AI is the unobvious capex line likely to outpace 2026-2027 forecasts. For legal and risk committees, liability allocation now depends on whether the organisation can attest to the identity, scope and authority of every agent acting on its behalf. For agent-platform vendors, the choice is to embrace the open stack or lose the enterprise market to IAM-anchored incumbents.</p>
+<p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag prepare">Prepare</span></strong> &mdash; standards are in active formation and IAM-vendor product is shipping, but the 2027-2028 procurement and compliance inflection is too close to monitor passively and too early to commit hard product or contract architecture.</p>
+
+<div class="counter-arg-box">
+<h3>Counter-Argument</h3>
+<p>The strongest objection is that this is a familiar standards race that will fragment rather than converge. The (<a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-nist-ai-agent-standards-20260416-csa-style/" target="_blank">CSA listening-session note</a>, 16/04/2026) flags sector-specific divergence; AWS, Google and Microsoft are anchoring proprietary agent-identity surfaces inside their platforms; IETF OAuth, OpenID, FIDO and W3C have overlapping drafts. The layer could end up like the WS-* generation &mdash; a graveyard of competing standards enterprises route around with proprietary glue.</p>
+<p>This understates two forcing functions. EU AI Act implementing acts and sector supervisor guidance need a citable identity-and-authorization baseline by 2027-2028, forcing convergence even where specifications differ at the margin. IAM-vendor economics point the same way: customers want to buy the layer once, not three times. Fragmentation slows the timeline by 12-18 months without changing the outcome.</p>
+</div>
+
+<h3>Implications</h3>
+<p>The signal catalyses durable change in the enterprise AI stack. The (<a href="https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd" target="_blank">NCCoE concept paper</a>, 05/02/2026) reframes agent governance from a model-quality problem into an identity-and-authorization problem &mdash; a reframing that carries across regulators, IAM vendors and procurement and does not reverse on a slowdown in model capability. The agent-identity layer becomes the addressable market for IAM incumbents (Okta, Microsoft Entra, CyberArk, Ping) and a disqualifying constraint for agent-platform vendors that resist it. The competitive geography of agentic AI is being set not by who has the best model, but by who controls the rails that decide whose model is allowed to act.</p>
+
+<h3>Early Indicators to Monitor</h3>
+<ul>
+<li>NCCoE publishes a draft practice guide on agent identity and authorization with named reference implementations by Q4 2026.</li>
+<li>A major US financial regulator (Fed, OCC, FCA) cites NIST agent-identity work in supervisory guidance by mid-2027.</li>
+<li>ENISA or the EU AI Office publishes implementation guidance referencing OpenID or IETF agent-identity standards before end-2026.</li>
+<li>A Fortune-500 procurement RFP names agent-identity attestation and identity-bearing audit logs as compliance baseline.</li>
+<li>An agent-platform vendor (OpenAI, Anthropic, Google) commits to native OAuth or WIMSE agent-credential support in production by H2 2026.</li>
+</ul>
+
+<h3>Disconfirming Signals</h3>
+<ul>
+<li>AWS, Google and Microsoft launch incompatible proprietary agent-identity stacks and procurement accepts the fragmentation.</li>
+<li>NIST CAISI concludes its listening-session cycle with no published agent-identity practice guide by Q1 2027.</li>
+<li>Sector regulators (Fed, FCA, BaFin, FDA) explicitly defer agent-identity guidance, waiting for industry convergence.</li>
+<li>Enterprise IAM budgets for agent identity remain a sub-1% line through 2027, signalling shared-service-account governance.</li>
+<li>IETF OAuth and OpenID Foundation agent-identity drafts stall beyond 2027 without standards-track progress.</li>
+</ul>
+
+<h3>Strategic Questions</h3>
+<ul>
+<li>Standardise on one IAM vendor's agent-identity stack now, or wait for cross-vendor interoperability in 2027?</li>
+<li>When does delegated-authority attestation move from procurement nice-to-have to binding compliance &mdash; H2 2027 or H1 2028?</li>
+<li>At what agent inventory does running on shared service accounts become an attestable governance failure?</li>
+<li>Which board owns liability when an autonomous agent's identity, scope and delegation chain cannot be reconstructed?</li>
+</ul>
+
+<h3>Keywords</h3>
+<p>AI agent identity; agent authorization; NIST AI Agent Standards Initiative; NCCoE; OpenID Foundation; Model Context Protocol; OAuth 2.1; WIMSE; agentic AI governance; non-human identity; IAM modernisation; agent registry</p>
+
+<h3>Bibliography</h3>
+<ul>
+<li><span class="tier-1">Tier 1</span> Announcing the AI Agent Standards Initiative. <a href="https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure" target="_blank">NIST CAISI</a>. Published 17/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> Accelerating the Adoption of Software and AI Agent Identity and Authorization (concept paper). <a href="https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd" target="_blank">NIST NCCoE</a>. Published 05/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> OIDF responds to NIST on AI agent security. <a href="https://openid.net/oidf-responds-to-nist-on-ai-agent-security/" target="_blank">OpenID Foundation</a>. Published 11/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> NIST AI Agent Standards: Listening Sessions and Emerging Controls. <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-nist-ai-agent-standards-20260416-csa-style/" target="_blank">Cloud Security Alliance Labs</a>. Published 16/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> AI agents scaling faster than guardrails (State of AI 2026). <a href="https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html" target="_blank">Deloitte Insights</a>. Published 24/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Why Model Context Protocol is suddenly on every executive agenda. <a href="https://www.cio.com/article/4136548/why-model-context-protocol-is-suddenly-on-every-executive-agenda.html" target="_blank">CIO</a>. Published 24/02/2026.</li>
+<li><span class="tier-4">Tier 4</span> Blueprint for the secure agentic enterprise (Okta for AI Agents GA 30/04/2026). <a href="https://www.okta.com/newsroom/press-releases/showcase-2026/" target="_blank">Okta</a>. Published 16/03/2026.</li>
+</ul>
+
+</article>
+</body>
+</html>

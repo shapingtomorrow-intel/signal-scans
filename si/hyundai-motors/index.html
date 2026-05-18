@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Beyond the Wheel: Hyundai Motors R&amp;D Strategic Intelligence Report, May 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="masthead">Decision-Grade Strategic Intelligence Report &middot; Hyundai Motors R&amp;D Technology Planning</div>
+<h1 class="report-title">Beyond the Wheel: Five Interface R&amp;D Frontiers for Hyundai's Autonomous Decade</h1>
+<div class="meta">
+Cycle: 16 May 2026 &middot; Audience: R&amp;D Technology Planning Team &middot; Horizon: 2026 to 2035 (R&amp;D portfolio plan)<br>
+<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 19 min full read</span>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Signal Clusters</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An abstract cabin schematic showing five interface frontiers radiating from a central driver-seat position: in-cabin AI agent, takeover and trust HMI, AR HUD across the windscreen, in-cabin sensing and reconfigurable cockpit, and external HMI signalling outward to a pedestrian.">
+  <rect x="0" y="0" width="340" height="320" fill="#f8f9fa"/>
+  <text x="170" y="26" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Five interface frontiers</text>
+
+  <ellipse cx="170" cy="180" rx="115" ry="80" fill="white" stroke="#1a237e" stroke-width="1.5"/>
+
+  <circle cx="170" cy="180" r="14" fill="#1a237e"/>
+  <text x="170" y="184" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="white">cabin</text>
+
+  <line x1="170" y1="166" x2="170" y2="110" stroke="#f57c00" stroke-width="2"/>
+  <circle cx="170" cy="105" r="10" fill="#f57c00"/>
+  <text x="170" y="90" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">AR HUD</text>
+
+  <line x1="183" y1="170" x2="245" y2="135" stroke="#1e88e5" stroke-width="2"/>
+  <circle cx="250" cy="130" r="10" fill="#1e88e5"/>
+  <text x="285" y="125" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">Agent</text>
+  <text x="285" y="138" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">(Gleo)</text>
+
+  <line x1="183" y1="190" x2="245" y2="225" stroke="#c62828" stroke-width="2"/>
+  <circle cx="250" cy="230" r="10" fill="#c62828"/>
+  <text x="285" y="225" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">L3 TOR</text>
+  <text x="285" y="238" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">trust</text>
+
+  <line x1="157" y1="190" x2="95" y2="225" stroke="#2e7d32" stroke-width="2"/>
+  <circle cx="90" cy="230" r="10" fill="#2e7d32"/>
+  <text x="55" y="225" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">Cabin</text>
+  <text x="55" y="238" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">sense</text>
+
+  <line x1="157" y1="170" x2="95" y2="135" stroke="#8e24aa" stroke-width="2"/>
+  <circle cx="90" cy="130" r="10" fill="#8e24aa"/>
+  <text x="55" y="125" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">eHMI</text>
+  <text x="55" y="138" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#1a237e">(VRU)</text>
+
+  <text x="170" y="298" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-style="italic" fill="#5a6478">Five frontiers shape the 2026 to 2035 cabin</text>
+</svg>
+<p class="figure-caption">Cycle motif: five interface frontiers radiating from the cabin, each a distinct R&amp;D bet for the autonomous-era Hyundai vehicle.</p>
+</div>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<p>The cabin is being reshaped by five interface technology frontiers landing in a compressed 2026-to-2030 window, and Hyundai Motor Group is mid-move on all five. The Pleos Connect launch on the new Grandeur in Korea in May 2026 (<a href="https://www.hyundaimotorgroup.com/en/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system" target="_blank">HMG</a>, April 2026) commits the Group to a 20-million-vehicle deployment of the Gleo AI agent and Pleos Vehicle OS by 2030, atop the NVIDIA DRIVE platform commitment from August 2025 (<a href="https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-to-launch-nvidia-drive-%E2%80%98connected-car%E2%80%99-infotainment-and-ai-platform-across-all-future-hyundai,-kia-and-genesis-models-0000000593" target="_blank">HMG</a>, August 2025). The Motional IONIQ 5 robotaxi targets commercial Las Vegas launch by end-2026 (<a href="https://www.kedglobal.com/future-mobility/newsView/ked202601120004" target="_blank">KED Global</a>, January 2026), giving Hyundai a real-world L4 deployment in the same window that EU GSR makes DMS mandatory for all newly registered vehicles from 7 July 2026 (<a href="https://smarteye.se/blog/the-general-safety-regulations-gsr-and-driver-monitoring-systems-dms/" target="_blank">Smart Eye</a>, March 2026).</p>
+
+<p>The spine of this cycle is whether Hyundai's interface R&amp;D portfolio compounds across the three brands (Hyundai, Kia, Genesis) and across the two deployment contexts (consumer vehicles + Motional robotaxi) or fragments by product line. Pleos provides the software-layer common stack; NVIDIA DRIVE provides the hardware-AI common stack; but cabin hardware (AR HUD, DMS sensors, eHMI exterior surfaces, reconfigurable seating) is still brand-line discretionary. The R&amp;D Technology Planning decision is whether to enforce a common-platform interface stack or let Genesis lead premium with brand-specific hardware.</p>
+
+<p>What has materially changed since the previous R&amp;D planning reference: BMW Panoramic Vision has shipped on the 2026 X5 with full-windscreen AR display and eye-tracking-driven dynamic content (<a href="https://displaydaily.com/the-dawn-of-augmented-reality-huds-bmw-changes-the-game-with-panoramic-vision/" target="_blank">Display Daily</a>, March 2026), establishing the AR HUD reference benchmark for the segment. Mercedes Drive Pilot remains the only commercialised L3 system but the takeover-request research base now has peer-reviewed findings on TOR timing and modality (<a href="https://journals.sagepub.com/doi/abs/10.1177/00187208241278433" target="_blank">SAGE Journals</a>, August 2025). The eHMI design space is converging on text-plus-symbol-plus-green-plus-dynamic conventions with ~70% pedestrian acceptance (<a href="https://www.mdpi.com/1424-8220/22/9/3339" target="_blank">MDPI Sensors</a>, December 2025), but no ISO standard is yet in place. The Cybertruck steer-by-wire experience (11 recalls by May 2026, including a fundamental wheel-stud safety issue) demonstrates the engineering stakes of pioneering production deployment (<a href="https://www.carscoops.com/2026/05/cybertruck-rwd-wheel-recall/" target="_blank">Carscoops</a>, May 2026).</p>
+
+<p>The non-obvious read: the conventional R&amp;D framing treats these as separate workstreams (HMI hardware, AI software, safety/regulatory) but the autonomous-era cabin demands that they integrate by design. The L3 takeover interface depends simultaneously on AR HUD content, DMS state monitoring, and the AI agent's contextual awareness; the robotaxi passenger experience depends on eHMI, in-cabin sensing, conversational AI and reconfigurable seating all behaving as one system. The R&amp;D Technology Planning Team's task is less to pick winners within each frontier and more to define the integration architecture across them.</p>
+
+<div class="pullquote">The autonomous-era cabin demands that hardware, AI software and safety regulation integrate by design, not by accident.</div>
+
+<p>Competitively, Hyundai sits well-placed but not leading on any single frontier. Mercedes leads L3 commercialisation; BMW leads AR HUD productisation; Tesla leads (despite recalls) steer-by-wire deployment; Chinese OEMs (BYD, Xiaomi, Nio) lead voice-AI integration in their home market. Hyundai's advantage is the cross-portfolio breadth (Hyundai mainstream + Kia value + Genesis premium + Motional L4) and the recent platform decisions (Pleos OS, NVIDIA DRIVE) that give the R&amp;D function unusual leverage if it can enforce common-stack discipline. The next 24 months are when that leverage either compounds or dilutes.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis rests on the assumption that the EU GSR DMS mandate, the BMW AR HUD reference deployment, the Mercedes L3 reference, and the Motional Las Vegas robotaxi launch all hold to their 2026-2027 calendars. If two or more slip materially, the convergence pressure on Hyundai's R&amp;D planning eases and a more sequential approach to interface frontiers becomes viable. A material revision would be triggered by EU GSR DMS implementation being further phased, by Motional commercial launch slipping past mid-2027, or by an L3 incident reshaping the regulatory environment around TOR design. None is the central case but each is plausible.</p>
+</div>
+
+<h4>The R&amp;D decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Decide the common-platform interface stack across Hyundai, Kia and Genesis.</strong> Pleos and NVIDIA DRIVE provide the software-AI foundation; cabin hardware (AR HUD, DMS sensors, exterior eHMI surfaces) needs its parallel platform decision now.</li>
+<li><strong>Prepare the L3 takeover-and-trust HMI design language.</strong> Genesis is the natural first deployment; the design language travels to Hyundai L3 vehicles later. Specifying it now sets the safety case for Korean and EU approval.</li>
+<li><strong>Decide the Motional robotaxi cabin hardware roadmap.</strong> The Las Vegas late-2026 commercial launch is the first opportunity to validate passenger-mode interior, eHMI exterior and conversational AI integration at fleet scale.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per R&amp;D function. Each card surfaces the one question this cycle puts to that function.</p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">Technology Roadmap and Portfolio</span>
+<h4>Does the interface stack travel cleanly across Hyundai, Kia, Genesis and Motional?</h4>
+<p><strong>The shift:</strong> Pleos OS and NVIDIA DRIVE land as common-stack decisions; cabin hardware (AR HUD, DMS, eHMI, steering hardware) remains brand-line discretionary.</p>
+<p><strong>The question to brief:</strong> Which interface hardware decisions get enforced as common-platform, and which are deliberately reserved for brand-line differentiation?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">HMI Hardware R&amp;D</span>
+<h4>Where does Hyundai's AR HUD and panoramic-display roadmap sit against BMW Panoramic Vision?</h4>
+<p><strong>The shift:</strong> BMW shipped a full-windscreen AR HUD with eye-tracking on the 2026 X5; Mercedes S-Class projects a 77-inch virtual screen; Continental and Harman are pushing aftermarket and OEM panoramic display kits.</p>
+<p><strong>The question to brief:</strong> What is the Genesis-first AR HUD roadmap, and at what point does it cascade to Hyundai and Kia mainstream models?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">AI, Software and Agent R&amp;D</span>
+<h4>How quickly does Gleo AI evolve from voice assistant to multimodal cabin agent?</h4>
+<p><strong>The shift:</strong> Pleos Connect debuts with voice-first Gleo AI navigating third-party APIs; multimodal interaction (voice + gesture + gaze + biometric) is the 2027 to 2029 differentiation frontier.</p>
+<p><strong>The question to brief:</strong> What is the Gleo AI capability roadmap, what is the in-house vs partner split for foundation models, and how does Gleo integrate with the robotaxi passenger experience?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Safety, Trust and Regulatory R&amp;D</span>
+<h4>Is Hyundai ready for the EU GSR DMS deadline, UN R157 L3 conformity and emerging eHMI rules?</h4>
+<p><strong>The shift:</strong> EU GSR DMS mandate hits all new vehicle registrations 7 July 2026; UN R157 L3 conformity is the gating standard for Genesis L3; EU eHMI specification likely 2026 to 2028.</p>
+<p><strong>The question to brief:</strong> Is the safety case for L3 deployment in Genesis and the DMS compliance plan across all HMG models locked in for 2026 to 2027?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Signal Clusters</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five interface-frontier clusters, ranked by impact on Hyundai R&amp;D Technology Planning's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the R&amp;D portfolio plan, the platform decision or the regulatory roadmap. <strong style="color:#f57c00;">Near-Term</strong>: changes Hyundai's interface competitive position over the next twelve to twenty-four months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. In-cabin conversational AI agents: Pleos/Gleo and the LLM-in-the-car race</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The Pleos Connect launch on the Grandeur in May 2026 commits Hyundai Motor Group to deploying Gleo AI across approximately 20 million vehicles by 2030, with phased rollout through Hyundai, Kia and Genesis. The system rides Android Automotive OS with an in-house Pleos Vehicle OS layer plus NVIDIA DRIVE for AI compute. The cluster is Immediate because the next twelve months commit Gleo's capability roadmap (voice, multimodal, agent autonomy), the partner-versus-build split for foundation models, and the integration model with the L3 takeover and robotaxi passenger experiences.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>Pleos Connect launches on Hyundai Grandeur in Korea in May 2026 with target 20 million HMG vehicles by 2030; Gleo AI provides integrated LLM-based voice navigation and third-party API control (<a href="https://www.hyundaimotorgroup.com/en/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system" target="_blank">HMG</a>, April 2026).</li>
+<li>Pleos Vehicle OS is the software stack with Pleos Connect as the infotainment layer; built in-house atop Android Automotive Operating System used by GM, Volvo and Polestar (<a href="https://insideevs.com/news/794540/hyundai-kia-genesis-pleos-connect-infotainment/" target="_blank">InsideEVs</a>, April 2026).</li>
+<li>NVIDIA DRIVE platform commitment across all future Hyundai, Kia and Genesis models gives the Group a common AI compute foundation (<a href="https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-to-launch-nvidia-drive-%E2%80%98connected-car%E2%80%99-infotainment-and-ai-platform-across-all-future-hyundai,-kia-and-genesis-models-0000000593" target="_blank">HMG</a>, August 2025).</li>
+<li>Cockpit architecture: Large Central Screen plus Slim Display for driver-critical information, with Bottom Bar app access (<a href="https://www.automotiveinteriorsworld.com/news/infotainment/ai-driven-pleos-connect-infotainment-system-unveiled-by-hyundai.html" target="_blank">Automotive Interiors World</a>, April 2026).</li>
+<li>Phased global rollout starts with Grandeur in Korea then IONIQ 3 in Europe (<a href="https://www.cbtnews.com/hmg-redefines-experience-with-pleos-connect/" target="_blank">CBT News</a>, April 2026); industry digest covers HMG software-defined vehicle activity alongside peer-vendor moves (<a href="https://www.autoconnectedcar.com/2026/05/connected-car-news-hyundai-ibm-dallara-polyn-technology-neusoft-here-technologies-international-motors-georgia-tech/" target="_blank">Auto Connected Car News</a>, May 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The 20-million-vehicle deployment target is ambitious but the value capture from in-cabin AI is unproven. Customer willingness to pay for voice-first navigation over CarPlay/Android Auto remains modest; the LLM hosting cost (whether NVIDIA-supplied or otherwise) erodes margins; and the differentiation versus Mercedes MBUX, BMW with Alexa+ and GM-Google is incremental rather than category-defining. A counter-reading is that Pleos/Gleo is necessary defensive infrastructure but not a source of competitive advantage, and R&amp;D resource is better focused on the differentiated frontiers (AR HUD, L3 trust, robotaxi UX).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. L3-L4 takeover and trust calibration interfaces</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">UN R157 mandates a 10-second takeover request window for L3 systems and has expanded scope from 60 km/h to 130 km/h including lateral lane changes. Mercedes Drive Pilot remains the only commercialised L3 reference. Industry analysts now name AR HUD plus DMS as the "L3 safety core" because the takeover-request HMI carries safety-critical rather than infotainment-critical weight. Hyundai's L3 deployment plan (Genesis-led, then Hyundai mainstream) requires the takeover interface and trust calibration design language locked in this cycle.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>UN R157 contains mandatory L3 requirements with TOR window of 10 seconds; scope expanded from 60 km/h to 130 km/h including lateral lane changes (<a href="https://efs.consulting/en/insights/article/information-security/unece-r157/" target="_blank">EFS Consulting</a>, February 2026).</li>
+<li>Mercedes Drive Pilot is the only commercialised L3 reference, using multi-modal TOR warning: visual on instrument cluster and infotainment screen, red lights on steering wheel, seatbelt tightening, audible chime; vehicle auto-stops if no driver response within 10 seconds (<a href="https://vtechworks.lib.vt.edu/bitstreams/6346e9ab-6644-4b79-9dc0-e9527863ab0f/download" target="_blank">Virginia Tech</a>, September 2025).</li>
+<li>Peer-reviewed evidence: collisions during takeover undermine trust in L3 systems; longer TOR time improves trust without causing confusion (<a href="https://journals.sagepub.com/doi/abs/10.1177/00187208241278433" target="_blank">SAGE Journals</a>, August 2025); independent indexing (<a href="https://pubmed.ncbi.nlm.nih.gov/39212190/" target="_blank">PubMed</a>, August 2025).</li>
+<li>Industry framing of AR HUD plus DMS as the "L3 safety core": in-vehicle displays shift from convenience and infotainment toward safety-critical HMI in L3 (<a href="https://en.ubiresearchnet.com/level-3-autonomous-driving-safety-ar-hud-dms-takeover/" target="_blank">UBIResearchNet</a>, March 2026).</li>
+<li>Peer-reviewed survey of TOR HMI design dimensions: timing, modality, content, escalation, and effect on driver re-engagement quality (<a href="https://ieeexplore.ieee.org/iel8/8782711/10345397/10637755.pdf" target="_blank">IEEE Xplore</a>, November 2025); cross-jurisdictional standards overview (<a href="https://www.apex.ai/post/legislation-standards-taxonomy-overview" target="_blank">Apex.AI</a>, January 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>L3 commercial uptake has been slower than the regulatory framework anticipated, with Mercedes Drive Pilot remaining the sole production deployment three years after launch. Consumer demand for L3 is modest; the liability and insurance framework is still maturing; the operational design domain (ODD) restrictions (motorway only, daylight, fair weather) limit utility. A counter-reading is that Hyundai's L3 priority is over-stated and that resources should focus on robust L2+ HMI (where deployment is already mass-market) plus L4 robotaxi (where Motional is already shipping) rather than L3 as a distinct category.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. AR HUD and panoramic windscreen displays</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">BMW's Panoramic Vision shipped on the 2026 X5 with a 1.5-metre windscreen-spanning display and eye-tracking-driven dynamic content positioning, establishing the segment reference for AR HUD. Mercedes-Benz AR HUD on the S-Class projects a 77-inch virtual screen with eye-tracking. Continental's Scenic View HUD spans the windscreen at a 10-litre cockpit volume cost. The hardware (laser projection, transparent OLED, holographic optics) is maturing through 2027 to 2028 for next-generation cockpits. For Hyundai, Genesis-led AR HUD deployment is the obvious first move; the harder question is the cascade timing to Hyundai and Kia mainstream and the platform-vs-brand-line decision on the display hardware itself.</p>
+
+<div class="report-figure">
+<h4>AR HUD reference deployments and Hyundai positioning gap</h4>
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparative diagram showing AR HUD reference deployments by manufacturer: BMW Panoramic Vision shipped 2026, Mercedes S-Class AR HUD shipped 2021, Continental Scenic View pre-production, Hyundai positioning gap with no current AR HUD reference deployment marked.">
+  <rect x="0" y="0" width="720" height="220" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">AR HUD reference deployments, 2021 to 2026</text>
+
+  <line x1="50" y1="120" x2="670" y2="120" stroke="#9aa3b2" stroke-width="2"/>
+
+  <text x="80" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">2021</text>
+  <text x="240" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">2023</text>
+  <text x="400" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">2025</text>
+  <text x="560" y="155" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">2026</text>
+
+  <circle cx="80" cy="120" r="9" fill="#f57c00"/>
+  <text x="80" y="95" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#1a237e">Mercedes</text>
+  <text x="80" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">S-Class AR HUD</text>
+
+  <circle cx="320" cy="120" r="9" fill="#0382FC"/>
+  <text x="320" y="95" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#1a237e">BMW</text>
+  <text x="320" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">concept reveal</text>
+
+  <circle cx="560" cy="120" r="12" fill="#0382FC"/>
+  <text x="560" y="95" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#1a237e">BMW Panoramic</text>
+  <text x="560" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">2026 X5 ship</text>
+
+  <circle cx="640" cy="120" r="9" fill="#9aa3b2"/>
+  <text x="640" y="95" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Continental</text>
+  <text x="640" y="80" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="9" fill="#5a6478">Scenic View</text>
+
+  <text x="360" y="200" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#c62828">Hyundai/Genesis AR HUD reference deployment: not yet shipped</text>
+</svg>
+<p class="figure-caption">Source basis: Display Daily on BMW Panoramic Vision; Newsweek on Mercedes S-Class AR HUD; Continental and Harman OEM materials; Hyundai positioning derived from public roadmap.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>BMW Panoramic Vision launched on 2026 X5 with 1.5m windscreen-wide display and eye-tracking-based "visual cone" dynamic content positioning (<a href="https://displaydaily.com/the-dawn-of-augmented-reality-huds-bmw-changes-the-game-with-panoramic-vision/" target="_blank">Display Daily</a>, March 2026).</li>
+<li>BMW Panoramic Vision concept revealed at CES 2025 as full-windscreen AR dashboard replacing traditional instrument cluster (<a href="https://interestingengineering.com/ces-2025/bmws-new-ar-dashboard-windscreen" target="_blank">Interesting Engineering</a>, January 2025).</li>
+<li>BMW reimagines head-up display as Panoramic Vision development arc to 2026 production (<a href="https://techcrunch.com/2023/01/04/bmw-reimagines-the-head-up-display/" target="_blank">TechCrunch</a>, January 2023).</li>
+<li>Mercedes-Benz AR HUD on S-Class equates to a 77-inch screen with eye-tracking; Continental Scenic View HUD spans windscreen at 10-litre cockpit volume cost (<a href="https://www.newsweek.com/automakers-are-enhancing-reality-luxury-car-drivers-2002093" target="_blank">Newsweek</a>, February 2026).</li>
+<li>Automotive HUD market sizing through 2030: AR HUD shifting from luxury to mainstream as panoramic display hardware costs decline (<a href="https://www.marketsandmarkets.com/Market-Reports/automotive-head-up-display-market-11272971.html" target="_blank">MarketsAndMarkets</a>, January 2026); detailed industry overview of HUD evolution and Chinese OEM activity (<a href="https://eu.36kr.com/en/p/3403786579384708" target="_blank">36Kr Global</a>, April 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>AR HUD adoption has historically been slower than projected and the technology carries cost-down challenges (laser projection components, transparent windscreen treatment, eye-tracking sensor cost). BMW Panoramic Vision on the X5 is a flagship deployment; cascading to mid-segment vehicles in volume is a multi-year cost-engineering exercise. A counter-reading is that mainstream AR HUD lands in 2029 to 2031 rather than 2027 to 2028, in which case Hyundai's R&amp;D pacing can remain Near-Term Watch rather than Near-Term Press.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Cabin transformation: in-cabin sensing, biometric personalisation and reconfigurable cockpits</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The cabin transformation cluster integrates three R&amp;D strands. EU GSR mandates Driver Drowsiness and Attention Warning (DDAW) and Advanced Driver Distraction Warning (ADDW) systems for new vehicle types from July 2024 and all newly registered vehicles from 7 July 2026, affecting approximately 18 million cars annually. Euro NCAP scoring increasingly rewards in-cabin Occupant Monitoring Systems alongside DMS. Biometric personalisation (face recognition, vital signs, gaze) feeds back into the Pleos/Gleo AI agent. Steer-by-wire and reconfigurable cockpits (Tesla Cybertruck, Toyota bZ4X, Lexus RZ) are the longer-range enabler for L4 cabin redesign. For Hyundai, the cluster is Near-Term because the GSR compliance deadline is immediate but the steer-by-wire and reconfigurable cockpit decisions land 2028 to 2031.</p>
+
+<div class="weak-signals">
+<h4>Weak signals worth tracking</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> Tesla Cybertruck has had 11 recalls by May 2026 including a wheel-stud failure on the 18-inch steel wheel variant (<a href="https://www.carscoops.com/2026/05/cybertruck-rwd-wheel-recall/" target="_blank">Carscoops</a>, May 2026), demonstrating the engineering stakes of pioneering production steer-by-wire and reinforcing the case for cautious cascade rather than first-mover deployment.</li>
+<li><span class="weak-signal-marker">Weak signal</span> Euro NCAP's OMS scoring inclusion (<a href="https://anyverse.ai/in-cabin-monitoring-navigating-europes-safe-driving-new-standards-3/" target="_blank">Anyverse</a>, March 2026) hints that child-presence detection and seat occupancy will move from niche to standard 2027 to 2028. Gains weight if a major OEM commits to standard OMS across the model range.</li>
+<li><span class="weak-signal-marker">Weak signal</span> Biometric vital-sign monitoring (driver heart rate, respiration) being explored by Continental, Bosch and Hyundai Mobis suggests health monitoring is a 2028 to 2030 cabin feature. Gains weight if a national health regulator (Korea KDCA, EU EMA) endorses in-vehicle vital-sign monitoring for chronic-condition screening.</li>
+</ul>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>EU GSR mandates ADDW/DMS in all new vehicle types from July 2024 and all newly registered vehicles from 7 July 2026, affecting approximately 18 million cars annually (<a href="https://smarteye.se/blog/the-general-safety-regulations-gsr-and-driver-monitoring-systems-dms/" target="_blank">Smart Eye</a>, March 2026).</li>
+<li>DDAW (drowsiness) and ADDW (distraction) define the regulatory architecture; ADDW uses sensors and algorithms to analyse driver eye and face movements (<a href="https://smarteye.se/blog/what-to-know-about-ddaw-and-addw-systems/" target="_blank">Smart Eye</a>, April 2026).</li>
+<li>DMS sensor architecture review (camera, IR, mmWave radar) for GSR compliance (<a href="https://www.indie.inc/perception-software-blogs/enhancing-safety-european-rules-and-regulations-for-driver-monitoring-systems/" target="_blank">Indie Semiconductor</a>, February 2026); cross-regional regulation summary (EU, US NCAP, Euro NCAP, China GB) (<a href="https://www.idtechex.com/en/research-article/regulations-drivers-for-mandating-driver-monitoring-systems/30322" target="_blank">IDTechEx</a>, February 2026).</li>
+<li>Euro NCAP rewarding in-cabin Occupant Monitoring (OMS) alongside DMS, including child-presence detection and seat occupancy (<a href="https://anyverse.ai/in-cabin-monitoring-navigating-europes-safe-driving-new-standards-3/" target="_blank">Anyverse</a>, March 2026).</li>
+<li>Tesla Cybertruck is the first true production steer-by-wire vehicle with no mechanical link; Toyota bZ4X and Lexus RZ450e offer steer-by-wire as option (<a href="https://insideevs.com/news/717617/cybertruck-teardown-steering-by-wire/" target="_blank">InsideEVs</a>, November 2025).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Compliance-driven DMS deployment may produce a checkbox response rather than a strategic in-cabin sensing platform. The risk is that R&amp;D meets the GSR minimum (a camera + basic detection algorithm) without building the broader sensor fusion (DMS + OMS + biometric + gaze + voice) that supports the Pleos/Gleo cabin-agent vision. A counter-reading is that the cluster's compliance framing understates the platform opportunity: in-cabin sensing is the feed for every other interface frontier (L3 takeover trust, AR HUD attention, agent personalisation), and the R&amp;D platform decision is more important than the compliance deadline.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-5">
+<div class="cluster-header"><h3>5. External HMI for vulnerable-road-user communication</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The eHMI research field is mature in design space but immature in standardisation. Peer-reviewed evidence converges on a small set of effective conventions: text plus symbol elements, green colouration, and dynamic presentation gain approximately 70% pedestrian acceptance. ISO and EU regulators have not yet codified these into binding standards but are expected to in the 2026 to 2028 window. For Hyundai, the cluster is Near-Term and uniquely strategically positioned because the Motional IONIQ 5 robotaxi commercial launch in Las Vegas late 2026 is a direct deployment context: Motional's eHMI choices become Hyundai brand-language exemplars, ahead of regulatory specification.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>Peer-reviewed eHMI deployment guidelines identify de facto evaluation measures: duration time, trust, perceived safety, mental demand (<a href="https://www.mdpi.com/1424-8220/21/9/2912" target="_blank">MDPI Sensors</a>, September 2025).</li>
+<li>Survey evidence: 68.5% of pedestrians would feel safer crossing with eHMI featuring green, text, symbol or dynamic elements (<a href="https://www.mdpi.com/1424-8220/22/9/3339" target="_blank">MDPI Sensors</a>, December 2025).</li>
+<li>Peer-reviewed extension of eHMI evaluation beyond pedestrians to cyclists and manual-driver interaction (<a href="https://dl.acm.org/doi/10.1145/3772318.3790585" target="_blank">ACM CHI 2026</a>, April 2026).</li>
+<li>EU-funded autonomous driving research view on eHMI deployment readiness and remaining standards gaps (<a href="https://www.connectedautomateddriving.eu/blog/improving-pedestrian-hav-communication-with-ehmi/" target="_blank">Connected Automated Driving</a>, February 2026); HCI literature review of eHMI for shared spaces (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10181761/" target="_blank">PMC / MDPI Sensors</a>, August 2025).</li>
+<li>Motional commercial robotaxi service launch in Las Vegas late 2026 in partnership with major ride-hailing networks; IONIQ 5 SAE L4 platform with US federal driverless certification (<a href="https://www.kedglobal.com/future-mobility/newsView/ked202601120004" target="_blank">KED Global</a>, January 2026); Motional pivot to AI-first stack targets driverless service in 2026 (<a href="https://techcrunch.com/2026/01/11/motional-puts-ai-at-center-of-robotaxi-reboot-as-it-targets-2026-for-driverless-service/" target="_blank">TechCrunch</a>, January 2026); strategic context for the Hyundai-Motional commercial deployment (<a href="https://insideevs.com/news/784109/hyundai-motional-las-vegas-launch-2026/" target="_blank">InsideEVs</a>, February 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>eHMI is more a research preoccupation than a commercial differentiator. Most pedestrians read AV intent from vehicle behaviour (speed, stopping distance, gap) rather than from external display content; the academic acceptance findings have not translated into commercial OEM eHMI deployments at scale. A counter-reading is that Hyundai's eHMI investment should be matched to the Motional robotaxi context (where eHMI matters for trust building) but not over-invested across the consumer model range until a regulatory specification arrives.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four R&amp;D decisions turn this cycle's signals into the technology portfolio plan for 2026 to 2030. Each names the move, a horizon and a decision posture.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Define the common-platform interface stack across Hyundai, Kia, Genesis and Motional</h4>
+<p>The Technology Roadmap and Portfolio function, with HMI Hardware R&amp;D, should agree, by Q4 2026, the common-platform interface stack: which display hardware (AR HUD, central screen, slim driver display), which in-cabin sensors (DMS, OMS, biometric), which exterior eHMI surfaces and which steering hardware are enforced as common-platform across the four product lines, and which are reserved for brand-line differentiation. The Pleos OS and NVIDIA DRIVE decisions have set the software-and-AI common stack; the hardware platform decision is the natural sibling and overdue. Decide rather than Prepare because the 2027 model-year planning cycle requires the call.</p>
+<p class="si-action">Action: Technology Roadmap lead and HMI Hardware lead submit joint common-platform paper to the R&amp;D Council by 30 November 2026, with hardware standardisation list and brand-line reservations named.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-1" class="xref">1</a> (Pleos/Gleo), Cluster <a href="#cluster-3" class="xref">3</a> (AR HUD) and Cluster <a href="#cluster-4" class="xref">4</a> (Cabin transformation).</span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Lock the L3 takeover and trust HMI design language by Q3 2027</h4>
+<p>The Safety, Trust and Regulatory R&amp;D function, with HMI Hardware and AI/Software R&amp;D, should propose the L3 takeover-request and trust-calibration HMI design language by Q3 2027, integrating AR HUD content, DMS state monitoring, Gleo AI contextual awareness, and the multi-modal (visual, haptic, audible) warning ladder. Genesis is the natural first deployment; the design language must travel to Hyundai L3 vehicles later. Prepare rather than Decide because UN R157 evolution and the L3 commercial deployment of peer OEMs (Mercedes Drive Pilot extension, BMW, Honda, Stellantis) will inform the final design.</p>
+<p class="si-action">Action: Safety/Trust R&amp;D lead submits the L3 TOR-and-trust design language specification to the Genesis L3 programme by 30 September 2027, with peer-OEM benchmark and safety-case validation plan.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-2" class="xref">2</a> (L3 takeover/trust), Cluster <a href="#cluster-3" class="xref">3</a> (AR HUD) and Cluster <a href="#cluster-4" class="xref">4</a> (Cabin transformation).</span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Define the Motional robotaxi cabin hardware roadmap and the eHMI design language</h4>
+<p>The Technology Roadmap and Portfolio function, in coordination with Motional engineering, should define the Motional robotaxi cabin hardware roadmap and the eHMI design language by mid-2026 to inform the Las Vegas late-2026 commercial launch. The brief covers passenger-mode interior (seating, displays, voice agent), eHMI exterior signalling (light, projection, screen modality), and how Motional eHMI choices become exemplars for Hyundai consumer-AV branding ahead of regulatory specification. Prepare reflects the launch calendar dependency and the need for Motional product alignment.</p>
+<p class="si-action">Action: Technology Roadmap lead, with Motional engineering, submits the robotaxi cabin and eHMI roadmap to the Motional launch programme by 31 August 2026.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Cluster <a href="#cluster-1" class="xref">1</a> (Pleos/Gleo), Cluster <a href="#cluster-4" class="xref">4</a> (Cabin transformation) and Cluster <a href="#cluster-5" class="xref">5</a> (eHMI).</span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Establish a quarterly indicator dashboard tracking peer-OEM interface signals</h4>
+<p>The Technology Roadmap and Portfolio function should establish a quarterly dashboard from Q3 2026 tracking peer-OEM interface signals: BMW Panoramic Vision deployment cascade, Mercedes L3 commercial extension, Chinese OEM voice-AI integration, Apple Intelligence and Google Gemini in-cabin moves, EU eHMI regulatory progress, UN R157 amendments, EU GSR compliance evidence. The dashboard feeds into SI 1 and SI 2 prioritisation. Monitor reflects that responses (R&amp;D resourcing, partner-vs-build decisions) are downstream of these reads.</p>
+<p class="si-action">Action: Technology Roadmap lead publishes the quarterly peer-OEM interface signals dashboard from 30 September 2026, with first read presented to the R&amp;D Council by 30 November 2026.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on all five clusters as integrative read.</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">The two critical uncertainties for Hyundai's interface R&amp;D portfolio in the 2026 to 2030 window are (i) whether the cabin-interface technology stack consolidates around two or three reference platforms (Mercedes/BMW/Tesla setting the segment language) or fragments by brand and region, and (ii) whether autonomous-vehicle adoption (L3 consumer + L4 robotaxi) accelerates to mass-market by 2030 or settles into a slower 2032 to 2035 trajectory. The four scenarios below are planning aids, not forecasts.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Hyundai sets the cabin language</h4>
+<p>The interface stack consolidates around two or three reference platforms (BMW, Mercedes, plus Hyundai-Kia-Genesis as the third). AV adoption accelerates: L3 reaches consumer scale in Europe by 2029, L4 Motional robotaxi expands beyond Las Vegas to multiple US cities by 2030. Hyundai's Pleos-NVIDIA-AR HUD-eHMI integrated stack travels cleanly across brands and Motional, becoming a defining cabin-language reference. Genesis L3 deploys 2027, Hyundai L3 cascade by 2029.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Pleos Connect deployment ahead of 2030 target schedule; Motional Las Vegas launch on time end-2026; Genesis AR HUD reference deployment announced 2027.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Slow AV, common platform pays back</h4>
+<p>The interface stack consolidates but AV adoption slows: L3 remains a Mercedes niche through 2030, Motional commercial launch slips into 2027, L4 mass market is a 2032 to 2035 story. Hyundai's common-platform Pleos-NVIDIA stack pays back through GSR compliance, AR HUD differentiation in Genesis, and incremental cabin transformation. Capital and R&amp;D resource preserved for the longer arc; the platform decisions made in 2026 to 2027 still compound through to 2030.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Mercedes Drive Pilot remains sole L3 production system through 2028; Motional commercial launch slips; AR HUD remains luxury-segment only through 2029.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Fragmented stack, fast AV</h4>
+<p>AV adoption accelerates but the interface stack fragments by region and brand: Chinese OEMs use indigenous AI stacks (DeepSeek, Doubao, Qwen-based); Western OEMs split between Microsoft-NVIDIA and Google-Tesla. Hyundai's Pleos-NVIDIA bet compounds in Europe and US but underperforms in China; the common-platform discipline across Hyundai-Kia-Genesis is partly diluted by regional adaptation. Motional robotaxi gains share but cabin standards remain heterogeneous; eHMI deployment varies by city.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> BYD or Xiaomi launches a competing voice-AI cabin platform; Apple Intelligence ships an automotive-grade in-cabin agent; Chinese GB regulations diverge from EU GSR on DMS.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Fragmented stack, slow AV</h4>
+<p>Both the platform stack and AV adoption fragment and slow. Hyundai's interface R&amp;D portfolio sustains operational and compliance-driven investment but does not earn category-defining outcomes. The Pleos-NVIDIA-AR HUD stack covers GSR compliance and Genesis premium positioning; L3 deployment delayed to 2030; Motional remains the L4 reference but commercial scale stays modest. The R&amp;D function shifts emphasis to defensive consolidation and selective bets (notably AR HUD and Gleo AI agent depth) rather than full-frontier coverage.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Multiple peer-OEMs delay AV roadmap announcements; AR HUD remains luxury-only through 2030; eHMI standards consultation extends beyond 2028.</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>Mass-market Level 5 (driverless private car) by 2030</h4>
+<p>Industry consensus (Mercedes, BMW, Toyota, peer-reviewed academic literature) places mass-market L5 private-car deployment at a 2030s rather than 2020s timeframe. Hyundai's R&amp;D interface portfolio should plan for L3 consumer scale 2028 to 2030, L4 robotaxi (Motional) commercial scale 2026 to 2030, and L5 as a longer-range research bet rather than a portfolio commitment. The exclusion is consistent with public OEM statements and SAE roadmap.</p>
+<p class="reinstatement">Reinstate if: a peer OEM commercialises L5 private-car at consumer price points or a regulator authorises L5 unrestricted ODD by 2030.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Brain-computer interface (BCI) or invasive cabin sensing</h4>
+<p>BCI for driver intent and gaze monitoring remains a research frontier without near-term productisation pathway. Existing in-cabin sensing (camera, IR, mmWave, capacitive seat) covers the 2026 to 2030 requirement envelope. The exclusion does not preclude long-range research investment but excludes BCI from interface R&amp;D portfolio planning.</p>
+<p class="reinstatement">Reinstate if: a non-invasive BCI sensor reaches automotive-grade reliability and a peer OEM commits to integration.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Hyundai building its own foundation model for in-cabin AI</h4>
+<p>The Gleo AI partner-and-integrate model (Pleos atop Android Automotive Operating System and NVIDIA DRIVE) is the optimal posture for in-cabin LLM compute. Investing in proprietary foundation model training would compete with hyperscaler economics that Hyundai cannot match. The R&amp;D bet on AI is the integration layer, the in-cabin context, the personalisation and the safety-case integration; not the model.</p>
+<p class="reinstatement">Reinstate if: a specialist automotive-domain foundation model becomes commercially defensible or if Korean industrial policy favours domestic LLM development for automotive use.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the R&amp;D Technology Planning Team</h2>
+<ol>
+<li>The Pleos and NVIDIA DRIVE decisions have set the software-AI common stack. Are we ready to make the parallel hardware platform decision (AR HUD, DMS, eHMI, steering hardware) by Q4 2026, or do we need a sequenced approach across the four product lines?</li>
+<li>Genesis is the natural first L3 deployment under UN R157. Is the timeline (Genesis L3 launch 2027 or 2028) consistent with the takeover-and-trust HMI development calendar, and what is the gating constraint?</li>
+<li>The Motional Las Vegas late-2026 commercial launch is the first opportunity to validate eHMI, passenger-mode interior and Gleo at fleet scale. How tightly aligned is the R&amp;D function with Motional's engineering, and what design-language choices are we ceding by default?</li>
+<li>BMW Panoramic Vision sets the AR HUD segment reference. What is the realistic Genesis AR HUD launch year, and what cost-engineering effort does that require?</li>
+<li>The cabin-transformation cluster spans Immediate compliance (GSR DMS) to Longer-Range strategic (steer-by-wire, reconfigurable cockpit). How do we sequence the R&amp;D investment so the compliance work feeds the longer-range platform decisions rather than being checkbox-only?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This report draws on 35 verified sources gathered within a soft 6-month recency window from 16 November 2025 to 16 May 2026, with structural-anchor allowance permitted for foundational technology-reference sources in the 6-24 month band (CES 2025 BMW Panoramic Vision concept reveal, January 2023 BMW HUD reimagined announcement). The load-bearing dated claims (Pleos Connect launch April 2026, BMW Panoramic Vision X5 ship March 2026, EU GSR mandate 7 July 2026 deadline, Motional Las Vegas launch end-2026, UN R157 scope expansion, Mercedes Drive Pilot performance) are all within the 6-month window and verified against primary publications. The tier mix is Tier 1: 1 source; Tier 2: 16 sources; Tier 3: 13 sources; Tier 4: 5 sources. Tier 2 is heavily represented because the topic draws extensively on peer-reviewed HCI and automotive engineering literature (MDPI, IEEE, SAGE Journals, ACM CHI). Tier 4 is concentrated in Hyundai own-publications (HMG press releases on Pleos, NVIDIA DRIVE), used to confirm Hyundai's stated positioning and roadmap. Where Tier 4 sources anchor a directional reading of Hyundai's posture, the report flags treat-directionally in the source records.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Cluster 1: In-cabin conversational AI agents</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.hyundaimotorgroup.com/en/news/hyundai-motor-group-redefines-in-vehicle-experience-with-pleos-connect-next-generation-infotainment-system" target="_blank">HMG, Pleos Connect launch</a></td><td class="tier-4">Tier 4</td><td>Apr 2026</td><td>Pleos Connect launches on Grandeur May 2026; 20M HMG vehicles target by 2030; Gleo AI LLM assistant.</td></tr>
+<tr><td><a href="https://insideevs.com/news/794540/hyundai-kia-genesis-pleos-connect-infotainment/" target="_blank">InsideEVs, Pleos features</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Pleos Vehicle OS atop Android Automotive Operating System.</td></tr>
+<tr><td><a href="https://insideevs.com/news/772759/hyundai-pleos-connect-preview/" target="_blank">InsideEVs, Pleos preview</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Pleos framed as Tesla-style integrated software stack and Chinese-OEM competitive response.</td></tr>
+<tr><td><a href="https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-to-launch-nvidia-drive-%E2%80%98connected-car%E2%80%99-infotainment-and-ai-platform-across-all-future-hyundai,-kia-and-genesis-models-0000000593" target="_blank">HMG, NVIDIA DRIVE</a></td><td class="tier-4">Tier 4</td><td>Aug 2025</td><td>HMG NVIDIA DRIVE commitment across all future Hyundai, Kia and Genesis models.</td></tr>
+<tr><td><a href="https://www.automotiveinteriorsworld.com/news/infotainment/ai-driven-pleos-connect-infotainment-system-unveiled-by-hyundai.html" target="_blank">Automotive Interiors World, Pleos cockpit</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Pleos cockpit architecture: Large Central Screen plus Slim Display.</td></tr>
+<tr><td><a href="https://www.cbtnews.com/hmg-redefines-experience-with-pleos-connect/" target="_blank">CBT News, Pleos rollout</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Phased global rollout: Grandeur Korea then IONIQ 3 Europe.</td></tr>
+<tr><td><a href="https://www.autoconnectedcar.com/2026/05/connected-car-news-hyundai-ibm-dallara-polyn-technology-neusoft-here-technologies-international-motors-georgia-tech/" target="_blank">Auto Connected Car News, May digest</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Industry digest covering HMG connected-car activity alongside peer-vendor moves.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 2: L3-L4 takeover and trust calibration interfaces</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://efs.consulting/en/insights/article/information-security/unece-r157/" target="_blank">EFS Consulting, UNECE R157</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>UN R157 L3 requirements; 10-second TOR window; scope expanded to 130 km/h and lateral lane changes.</td></tr>
+<tr><td><a href="https://vtechworks.lib.vt.edu/bitstreams/6346e9ab-6644-4b79-9dc0-e9527863ab0f/download" target="_blank">Virginia Tech, L3 challenges</a></td><td class="tier-2">Tier 2</td><td>Sep 2025</td><td>Mercedes Drive Pilot as sole commercialised L3 reference; multi-modal TOR warning.</td></tr>
+<tr><td><a href="https://ieeexplore.ieee.org/iel8/8782711/10345397/10637755.pdf" target="_blank">IEEE Xplore, TOR review</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>Peer-reviewed survey of TOR HMI design dimensions and driver re-engagement quality.</td></tr>
+<tr><td><a href="https://journals.sagepub.com/doi/abs/10.1177/00187208241278433" target="_blank">SAGE Journals, TOR trust</a></td><td class="tier-2">Tier 2</td><td>Aug 2025</td><td>Trust erosion after takeover collisions; longer TOR time improves trust without confusion.</td></tr>
+<tr><td><a href="https://en.ubiresearchnet.com/level-3-autonomous-driving-safety-ar-hud-dms-takeover/" target="_blank">UBIResearchNet, L3 safety core</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>AR HUD plus DMS as the L3 "safety core" framing.</td></tr>
+<tr><td><a href="https://www.apex.ai/post/legislation-standards-taxonomy-overview" target="_blank">Apex.AI, AV standards overview</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>Cross-jurisdictional overview of L3-L4 regulation including UNECE R157, US NHTSA, China.</td></tr>
+<tr><td><a href="https://pubmed.ncbi.nlm.nih.gov/39212190/" target="_blank">PubMed, TOR trust indexing</a></td><td class="tier-2">Tier 2</td><td>Aug 2025</td><td>Independent indexing confirmation of L3 trust study.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 3: AR HUD and panoramic windscreen displays</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://displaydaily.com/the-dawn-of-augmented-reality-huds-bmw-changes-the-game-with-panoramic-vision/" target="_blank">Display Daily, BMW Panoramic Vision</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>BMW Panoramic Vision X5 ship: 1.5m windscreen display with eye-tracking "visual cone".</td></tr>
+<tr><td><a href="https://interestingengineering.com/ces-2025/bmws-new-ar-dashboard-windscreen" target="_blank">Interesting Engineering, BMW CES 2025</a></td><td class="tier-3">Tier 3</td><td>Jan 2025</td><td>BMW Panoramic Vision concept reveal at CES 2025 (structural anchor).</td></tr>
+<tr><td><a href="https://techcrunch.com/2023/01/04/bmw-reimagines-the-head-up-display/" target="_blank">TechCrunch, BMW HUD reimagined</a></td><td class="tier-3">Tier 3</td><td>Jan 2023</td><td>BMW Panoramic Vision development arc to 2026 production (structural anchor).</td></tr>
+<tr><td><a href="https://www.newsweek.com/automakers-are-enhancing-reality-luxury-car-drivers-2002093" target="_blank">Newsweek, Mercedes and Continental AR HUD</a></td><td class="tier-3">Tier 3</td><td>Feb 2026</td><td>Mercedes S-Class 77-inch virtual screen; Continental Scenic View at 10-litre cockpit cost.</td></tr>
+<tr><td><a href="https://www.marketsandmarkets.com/Market-Reports/automotive-head-up-display-market-11272971.html" target="_blank">MarketsAndMarkets, HUD market</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>AR HUD shifting from luxury to mainstream as hardware costs decline.</td></tr>
+<tr><td><a href="https://eu.36kr.com/en/p/3403786579384708" target="_blank">36Kr Global, HUD evolution</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Industry overview of HUD evolution and Chinese OEM activity in the category.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 4: Cabin transformation: in-cabin sensing, biometric personalisation and reconfigurable cockpits</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://smarteye.se/blog/the-general-safety-regulations-gsr-and-driver-monitoring-systems-dms/" target="_blank">Smart Eye, GSR mandate</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>EU GSR DMS mandate all new vehicle types July 2024, all new registrations 7 July 2026; 18M cars annually.</td></tr>
+<tr><td><a href="https://smarteye.se/blog/what-to-know-about-ddaw-and-addw-systems/" target="_blank">Smart Eye, DDAW/ADDW</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>DDAW and ADDW regulatory architecture and sensor analysis.</td></tr>
+<tr><td><a href="https://www.indie.inc/perception-software-blogs/enhancing-safety-european-rules-and-regulations-for-driver-monitoring-systems/" target="_blank">Indie Semiconductor, DMS sensor</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>DMS sensor architecture review for GSR compliance.</td></tr>
+<tr><td><a href="https://www.idtechex.com/en/research-article/regulations-drivers-for-mandating-driver-monitoring-systems/30322" target="_blank">IDTechEx, DMS regulations summary</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>Global regional DMS regulation summary (EU, US, China).</td></tr>
+<tr><td><a href="https://anyverse.ai/in-cabin-monitoring-navigating-europes-safe-driving-new-standards-3/" target="_blank">Anyverse, Euro NCAP OMS</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Euro NCAP rewards OMS alongside DMS; child-presence and seat occupancy in scoring.</td></tr>
+<tr><td><a href="https://insideevs.com/news/717617/cybertruck-teardown-steering-by-wire/" target="_blank">InsideEVs, Cybertruck steer-by-wire</a></td><td class="tier-3">Tier 3</td><td>Nov 2025</td><td>Tesla Cybertruck as first production steer-by-wire; Toyota bZ4X and Lexus RZ optional.</td></tr>
+<tr><td><a href="https://www.carscoops.com/2026/05/cybertruck-rwd-wheel-recall/" target="_blank">Carscoops, Cybertruck recall</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Cybertruck 11th recall by May 2026; engineering stakes of pioneer steer-by-wire production.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 5: External HMI for vulnerable-road-user communication</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.mdpi.com/1424-8220/21/9/2912" target="_blank">MDPI Sensors, eHMI guidelines</a></td><td class="tier-2">Tier 2</td><td>Sep 2025</td><td>Peer-reviewed eHMI deployment guidelines and de facto evaluation measures.</td></tr>
+<tr><td><a href="https://www.mdpi.com/1424-8220/22/9/3339" target="_blank">MDPI Sensors, pedestrian survey</a></td><td class="tier-2">Tier 2</td><td>Dec 2025</td><td>68.5% pedestrian acceptance of eHMI with green/text/symbol/dynamic features.</td></tr>
+<tr><td><a href="https://dl.acm.org/doi/10.1145/3772318.3790585" target="_blank">ACM CHI 2026, eHMI for All</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Peer-reviewed CHI extension of eHMI evaluation to cyclists and manual drivers.</td></tr>
+<tr><td><a href="https://www.connectedautomateddriving.eu/blog/improving-pedestrian-hav-communication-with-ehmi/" target="_blank">Connected Automated Driving, EU view</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>EU autonomous-driving programme view on eHMI deployment readiness and standards gaps.</td></tr>
+<tr><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10181761/" target="_blank">PMC, eHMI shared spaces review</a></td><td class="tier-2">Tier 2</td><td>Aug 2025</td><td>HCI literature review on eHMI for shared spaces.</td></tr>
+<tr><td><a href="https://www.kedglobal.com/future-mobility/newsView/ked202601120004" target="_blank">KED Global, Motional Las Vegas</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Motional commercial robotaxi launch Las Vegas late 2026; IONIQ 5 L4 platform.</td></tr>
+<tr><td><a href="https://techcrunch.com/2026/01/11/motional-puts-ai-at-center-of-robotaxi-reboot-as-it-targets-2026-for-driverless-service/" target="_blank">TechCrunch, Motional AI reboot</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Motional pivot to AI-first stack targeting driverless service 2026.</td></tr>
+<tr><td><a href="https://insideevs.com/news/784109/hyundai-motional-las-vegas-launch-2026/" target="_blank">InsideEVs, Hyundai Motional context</a></td><td class="tier-3">Tier 3</td><td>Feb 2026</td><td>Strategic context for Hyundai-Motional commercial deployment.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<hr>
+<p class="small">&copy; 2026 Shaping Tomorrow. Strategic Intelligence Report prepared for Hyundai Motors R&amp;D Technology Planning Team.</p>
+
+</div>
+
+</body>
+</html>

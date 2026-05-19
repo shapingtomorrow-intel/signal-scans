@@ -5,8 +5,32 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 18 May 2026 08:30:04 +0000</lastBuildDate>
+<lastBuildDate>Tue, 19 May 2026 08:30:06 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Vulnerability Triage Era: How NVD's Retreat and the EU's CVE Repatriation Are Unbundling the Global Disclosure Pipeline</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/cybersecurity/2026-05-19-cve-enrichment-unbundling/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/cybersecurity/2026-05-19-cve-enrichment-unbundling/scan.html</guid>
+<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
+<category>Cybersecurity</category>
+<description>Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting the single global vulnerability disclosure pipeline on which enterprise scanners, FedRAMP, SOC 2 and cyber insurance depend.</description>
+</item>
+<item>
+<title>Load Follows Generation: How AI Data Centers Are Quietly Repealing a Century of Utility Planning Logic</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-transition/2026-05-19-load-follows-generation/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-transition/2026-05-19-load-follows-generation/scan.html</guid>
+<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
+<category>Energy Transition</category>
+<description>Beneath the consensus that AI is straining the grid, FERC's December 2025 PJM colocation order, EIA's 2026 retirement-delay data, and a 66% surge in gas-plant build costs together signal a structural inversion: where new electric load now chooses to sit next to existing or new generation, slowing coal retirements and locking in fossil capacity inside the energy transition.</description>
+</item>
+<item>
+<title>The Anglo Mobility Reversal: How Restrictive Policy in Every English-Speaking Destination Is Redirecting Global Talent to Asia and Origin Countries</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/migration-mobility-shifts/2026-05-19-anglo-mobility-reversal/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/migration-mobility-shifts/2026-05-19-anglo-mobility-reversal/scan.html</guid>
+<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
+<category>Migration &amp; Mobility Shifts</category>
+<description>Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university enrolment collapse with Asian and European institutions gaining share signal a structural reorganisation of global mobility corridors away from the Anglosphere.</description>
+</item>
 <item>
 <title>Identity Before Capability: The Agent-Authorization Stack Quietly Restructuring Agentic AI by 2028</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-agent-identity-rails/scan.html</link>

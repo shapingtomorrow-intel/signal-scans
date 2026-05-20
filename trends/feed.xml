@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Shaping Tomorrow Change Trackers</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/</link>
+<description>Momentum scans from the Shaping Tomorrow horizon. Each Change Tracker reads across the recent evidence on one topic, labelling the signals beneath it as Accelerating, Stable or Fading, and surfacing the wild cards worth watching.</description>
+<language>en-gb</language>
+<lastBuildDate>Wed, 20 May 2026 10:46:06 +0000</lastBuildDate>
+<atom:link href="https://decision-intel.shapingtomorrow.com/trends/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Compute binds, governance recalibrates, open weights close the gap</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/artificial-intelligence-and-automation/2026-05-19/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/artificial-intelligence-and-automation/2026-05-19/tracker.html</guid>
+<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence and Automation</category>
+<description>Inaugural cycle. Eight signals tracked across three clusters: governance lattice operationalising (EU AI Act postponement, NIST agent standards, transparency erosion); infrastructure load and capital binding (compute/energy demand, capex commitment scale, enterprise ROI gap); open-weight model layer reshape (frontier parity, incident disclosure rising). Top accelerators: EU AI Act high-risk postponement and AI compute/energy demand binding.</description>
+</item>
+</channel>
+</rss>

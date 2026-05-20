@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Compute binds, governance recalibrates, open weights close the gap, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; Artificial Intelligence and Automation &middot; 19 May 2026</div>
+
+<article>
+
+<h2>Compute binds, governance recalibrates, open weights close the gap</h2>
+<p class="seo-line">Three movements dominate the AI cycle: data-centre electricity demand binds faster than projected, the EU AI Act high-risk regime is postponed to December 2027, and DeepSeek V4 closes the open-weights gap even as enterprise ROI evidence stays thin.</p>
+
+<p>The consensus narrative is still capability acceleration, but the supply-side and governance constraints around it are moving faster than the capability story. The IEA records a 17% jump in global data-centre demand in 2025 and a 50% AI-focused surge (<a href="https://www.iea.org/reports/electricity-2026" target="_blank">IEA</a>, February 2026); the EU's 7 May trilogue postponed the high-risk regime by 16 months (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank">Council of the EU</a>, May 2026); open-weight models now sit within 3-6 months of the closed frontier (<a href="https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/" target="_blank">TechCrunch</a>, April 2026). The strategic question this cycle: which constraint binds first, electricity, governance, or unit economics?</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>EU AI Act high-risk regime postponement</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named regulatory inflection 07/05/2026; 2 of 12 sources name dated AI Act developments within past 30 days</td>
+<td>Annex III obligations postponed to 02/12/2027, embedded-product obligations to 02/08/2028 (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank">Council of the EU</a>, May 2026).</td>
+</tr>
+<tr>
+<td>AI compute and energy demand binding</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named data point 06/02/2026; 17% global data-centre demand growth in 2025, AI-focused 50%</td>
+<td>Data-centre power capacity rose to 29.6 GW, comparable to peak New York state demand (<a href="https://www.iea.org/reports/electricity-2026" target="_blank">IEA</a>, February 2026; <a href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report" target="_blank">Stanford HAI</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Agent infrastructure standardisation</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named programme launch 17/02/2026; first US federal agent-standards initiative on record</td>
+<td>CAISI initiative covers interoperability, open-source protocols and agent security and identity (<a href="https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure" target="_blank">NIST CAISI</a>, February 2026).</td>
+</tr>
+<tr>
+<td>Open-weight frontier model parity</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named release 24/04/2026; US-China lead gap fell to 2.7% per Stanford HAI March 2026 reading</td>
+<td>DeepSeek V4-Pro launched at 1.6T total / 49B active parameters with 1M-token context, targeting closed-model reasoning parity (<a href="https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/" target="_blank">TechCrunch</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Enterprise AI ROI evidence gap</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Distribution roughly even across past 9 months; same disappointment pattern from MIT NANDA July 2025 through Goldman Sachs May 2026</td>
+<td>70% of S&P 500 teams discussed AI on Q4 calls but only 10% quantified use-case impact (<a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/" target="_blank">Fortune</a>, March 2026).</td>
+</tr>
+<tr>
+<td>AI capex commitment scale</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named forecast 01/05/2026; 2026 hyperscaler capex revised to $667bn, up 62% on 2025</td>
+<td>Goldman projects $7.6tn cumulative capex 2026-2031, requiring ~$1tn profit run-rate vs $450bn 2026 consensus (<a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs</a>, May 2026).</td>
+</tr>
+<tr>
+<td>AI safety incident disclosure rising</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>108 new incident IDs in Nov 2025 to end Jan 2026 window; documented annual incidents 362 in 2025 vs 233 in 2024</td>
+<td>The dominant thread is impersonation-for-profit, especially investment-scam content (<a href="https://incidentdatabase.ai/blog/incident-report-2025-november-december-2026-january/" target="_blank">AI Incident Database</a>, February 2026; <a href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report" target="_blank">Stanford HAI</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Frontier model transparency erosion</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named index reading April 2026; average Foundation Model Transparency Index dropped to 40 from prior 58</td>
+<td>The most capable closed models disclose least; Anthropic's RSP v3.0 separates unilateral from industry-wide commitments (<a href="https://www.anthropic.com/news/responsible-scaling-policy-v3" target="_blank">Anthropic</a>, February 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster transformation">
+<h4>Governance lattice settles into operational form<span class="cluster-type">Transformation Driver</span></h4>
+<p>Governance is no longer about whether rules exist but how they bed in. The EU's <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank">Digital Omnibus</a> postpones the high-risk regime by 16 months but leaves the GPAI regime live and watermarking on a December 2026 clock, with GPAI enforcement powers (<a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" target="_blank">European Commission</a>) opening 2 August 2026. NIST CAISI's agent-standards initiative builds a US federal counterpart. Taken together, the sources suggest the governance lattice is moving from drafting to operating posture, re-tuned to standards availability rather than political target dates.</p>
+</div>
+
+<div class="cluster risk">
+<h4>Infrastructure load and capital binding<span class="cluster-type">Evolving Risk</span></h4>
+<p>Compute and capital are the binding constraints this cycle. The <a href="https://www.iea.org/reports/electricity-2026" target="_blank">IEA</a> records 485 TWh of data-centre demand in 2025 and projects 950 TWh by 2030, with AI capacity tripling. <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs</a> projects $7.6tn cumulative AI capex through 2031, requiring annual profit more than double 2026 consensus. Against <a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/" target="_blank">Fortune</a>'s finding that only 10% of S&P 500 teams quantify AI use-case impact, the capex curve is the steepest signal in this cycle without a matching revenue curve.</p>
+</div>
+
+<div class="cluster opportunity">
+<h4>Open-weight parity reshapes the model layer<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>Capability is bifurcating along a different axis from price. <a href="https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/" target="_blank">TechCrunch</a> reports DeepSeek V4-Pro at 1.6T total / 49B active parameters with 1M-token context, claiming reasoning parity within 3-6 months of the closed frontier; <a href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report" target="_blank">Stanford HAI</a> records the top US-China lead at 2.7%. The Foundation Model Transparency Index average fell from 58 to 40, so the closed frontier discloses less as the open frontier catches up. Model-tier choice is becoming a procurement question, not a capability question.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Momentum distribution across the topic</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Momentum distribution chart. Accelerating column holds seven signals coloured by cluster: two governance signals in indigo, two infrastructure signals in red, and three model-layer signals in green. Stable column holds one enterprise ROI signal in red. Fading column is empty.">
+  <rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Signals by direction (cluster colour)</text>
+
+  <rect x="40" y="40" width="200" height="220" fill="#fde8e8" opacity="0.4" rx="6"/>
+  <rect x="260" y="40" width="200" height="220" fill="#eef0f3" opacity="0.5" rx="6"/>
+  <rect x="480" y="40" width="200" height="220" fill="#e8f5e9" opacity="0.5" rx="6"/>
+
+  <text x="140" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#c62828">ACCELERATING</text>
+  <text x="360" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#5a6478">STABLE</text>
+  <text x="580" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#43a047">FADING</text>
+
+  <circle cx="60" cy="85" r="8" fill="#1a237e"/>
+  <text x="75" y="89" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">EU AI Act postponement</text>
+
+  <circle cx="60" cy="110" r="8" fill="#1a237e"/>
+  <text x="75" y="114" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">NIST agent standards</text>
+
+  <circle cx="60" cy="135" r="8" fill="#43a047"/>
+  <text x="75" y="139" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Transparency erosion</text>
+
+  <circle cx="60" cy="165" r="8" fill="#c62828"/>
+  <text x="75" y="169" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Compute and energy load</text>
+
+  <circle cx="60" cy="190" r="8" fill="#c62828"/>
+  <text x="75" y="194" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">AI capex commitment</text>
+
+  <circle cx="60" cy="220" r="8" fill="#43a047"/>
+  <text x="75" y="224" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Open-weight parity</text>
+
+  <circle cx="60" cy="245" r="8" fill="#43a047"/>
+  <text x="75" y="249" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Incident disclosure rising</text>
+
+  <circle cx="280" cy="135" r="8" fill="#c62828"/>
+  <text x="295" y="139" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Enterprise AI ROI gap</text>
+
+  <g transform="translate(40,272)">
+    <circle cx="0" cy="0" r="6" fill="#1a237e"/>
+    <text x="10" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Governance lattice</text>
+    <circle cx="170" cy="0" r="6" fill="#c62828"/>
+    <text x="180" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Infrastructure and capital</text>
+    <circle cx="380" cy="0" r="6" fill="#43a047"/>
+    <text x="390" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Model layer reshape</text>
+  </g>
+</svg>
+<p class="figure-caption">Cluster assignment drawn from the eight signals tracked in this cycle's evidence base; direction labels match the semi-quantitative reads in the table above.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>EU AI Act high-risk postponement.</strong> The 7 May trilogue was the hardest regulatory inflection; formal adoption is expected before 2 August 2026, with December 2026 watermarking next.</li>
+<li><strong>AI compute and energy binding.</strong> A hyperscaler-region grid operator declining a 2027 interconnect moves the constraint from forecast to capex decision.</li>
+<li><strong>Open-weight frontier parity.</strong> A Qwen, Mistral or follow-up DeepSeek release matching closed-model reasoning within weeks of launch would crystallise model-tier consolidation as procurement-led.</li>
+<li><strong>Agent infrastructure standardisation.</strong> A first CAISI working-track publication moves the signal from announcement to operating posture.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>Hyperscaler capex correction event</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A hyperscaler revises 2027 AI capex guidance downward by 20% or more, breaking the upward revision pattern.</p>
+<p><strong>Early warning indicators:</strong> An interconnect queue cancellation, a chip-foundry order downgrade, or a Q2-Q3 2026 earnings call where AI revenue growth lags capex growth by a wide margin.</p>
+<p>The Goldman gap between $7.6tn cumulative AI capex and the ~$1tn annual profit run-rate required to justify it (<a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs</a>, May 2026) frames the binding question. On the available evidence, capex commitments are still being raised, not lowered. A single credible correction would re-rate the entire model-supplier complex.</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>Open-weight model becomes regulator-preferred baseline</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> An EU member state or sectoral regulator names an open-weight model as a preferred baseline for public-sector deployments on transparency grounds.</p>
+<p><strong>Early warning indicators:</strong> Procurement guidance citing the Foundation Model Transparency Index (<a href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report" target="_blank">Stanford HAI</a>, April 2026); a public-sector RFP specifying open-weight requirements.</p>
+<p>The Foundation Model Transparency Index drop from 58 to 40 closes the closed-leader transparency advantage. If a buyer-side actor codifies that into a procurement preference, the model-tier debate shifts from capability to disclosure.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Wild Card impact and surprise field</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wild Card matrix plotting two candidates against impact (vertical axis) and surprise (horizontal axis). Hyperscaler capex correction sits very high impact, moderate surprise, in the disruptive risk quadrant. Open-weight regulator-preferred baseline sits high impact, high surprise, in the disruptive opportunity quadrant.">
+  <rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Wild Cards: impact and surprise field</text>
+
+  <line x1="120" y1="50" x2="120" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="120" y1="240" x2="660" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="390" y1="50" x2="390" y2="240" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="120" y1="145" x2="660" y2="145" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="115" y="58" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Very High</text>
+  <text x="115" y="150" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High</text>
+  <text x="115" y="243" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate</text>
+
+  <text x="120" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Low surprise</text>
+  <text x="390" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate surprise</text>
+  <text x="650" y="258" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High surprise</text>
+
+  <text x="80" y="145" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#5a6478" transform="rotate(-90 80,145)">Impact</text>
+
+  <circle cx="320" cy="80" r="14" fill="#8e24aa" opacity="0.85"/>
+  <text x="345" y="76" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Hyperscaler capex correction</text>
+  <text x="345" y="91" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Disruptive Risk; very high impact, moderate surprise</text>
+
+  <circle cx="540" cy="125" r="14" fill="#00897b" opacity="0.85"/>
+  <text x="565" y="121" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Open-weight regulator baseline</text>
+  <text x="565" y="136" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Disruptive Opportunity; high impact, high surprise</text>
+</svg>
+<p class="figure-caption">Position derived from the early-warning indicators named in each card; capex correction is the more proximate trigger.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>For a reader holding a 12-24 month AI strategy, three things warrant monitoring this cycle. The EU compliance timeline: the high-risk postponement to December 2027 buys a window, but the GPAI regime and August 2026 enforcement clock still bind for EU-market providers. Compute and grid access: hyperscaler regions where 2027-2028 interconnect queues are visible are now the operational constraint on deployment plans. Model-tier procurement: with open-weight parity inside 3-6 months of the closed frontier, "which model" is becoming "which deployment posture", and procurement frameworks built on closed-only assumptions warrant a refresh. The capex-revenue gap is the structural question underneath all three.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Council and Parliament agree Digital Omnibus on AI. <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank">Council of the European Union</a>. Published 07/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> Electricity 2026. <a href="https://www.iea.org/reports/electricity-2026" target="_blank">International Energy Agency</a>. Published 06/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> Guidelines for providers of general-purpose AI models. <a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" target="_blank">European Commission</a>. Published 19/11/2025.</li>
+<li><span class="tier-1">Tier 1</span> AI Agent Standards Initiative announcement. <a href="https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure" target="_blank">NIST CAISI</a>. Published 17/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> Inside the AI Index: 12 Takeaways from the 2026 Report. <a href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report" target="_blank">Stanford HAI</a>. Published 13/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> International AI Safety Report 2026: Extended Summary. <a href="https://internationalaisafetyreport.org/sites/default/files/2026-02/ai-safety-report-2026-extended-summary-for-policymakers.pdf" target="_blank">International AI Safety Report</a>. Published 01/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> The GenAI Divide: State of AI in Business 2025. <a href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank">MIT NANDA</a>. Published 15/07/2025.</li>
+<li><span class="tier-2">Tier 2</span> Tracking Trillions: assumptions shaping AI build-out scale. <a href="https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out" target="_blank">Goldman Sachs Global Institute</a>. Published 01/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> Goldman finds no meaningful AI-productivity link, 30% gain in two use cases. <a href="https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/" target="_blank">Fortune</a>. Published 03/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> DeepSeek previews V4 that closes frontier-model gap. <a href="https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/" target="_blank">TechCrunch</a>. Published 24/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> AI Incident Roundup, November 2025 to January 2026. <a href="https://incidentdatabase.ai/blog/incident-report-2025-november-december-2026-january/" target="_blank">AI Incident Database</a>. Published 15/02/2026.</li>
+<li><span class="tier-4">Tier 4</span> Responsible Scaling Policy Version 3.0. <a href="https://www.anthropic.com/news/responsible-scaling-policy-v3" target="_blank">Anthropic</a>. Published 24/02/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 19 May 2026</p>
+
+</body>
+</html>

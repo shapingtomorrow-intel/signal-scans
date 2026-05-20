@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Change Tracker (legacy name Trend Tracker). Verisk client briefing edition.
+  Em-dash ban is binding: no long-dash character and no long-dash entity anywhere.
+-->
+<head>
+<meta charset="utf-8">
+<title>Accumulation risk hardens while AI liability cover thins, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .client-line { font-size: 0.9em; color: #5a6478; margin: -6px 0 18px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; AI Infrastructure and the Emerging Insurance Exposure Gap &middot; 20 May 2026</div>
+
+<article>
+
+<h2>Accumulation risk hardens while AI liability cover thins</h2>
+<p class="seo-line">Two movements dominate this cycle: data-centre value accumulation is becoming a named reinsurance recalibration problem, while carriers pull affirmative AI cover from casualty and management-liability lines faster than standalone products can replace it.</p>
+<p class="client-line">A Verisk briefing prepared for insurer and reinsurer clients: underwriters, exposure managers, actuaries and reinsurance buyers.</p>
+
+
+<p>The consensus treats AI infrastructure as a growth story for insurers, and the premium pool is real: Swiss Re Institute projects data-centre-linked premiums rising to USD 24.2 billion by 2030 from USD 10.6 billion (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-insights-07-2026-insuring-ai-data-centre-risks.html" target="_blank">Swiss Re Institute</a>, March 2026). The momentum read is less comfortable. Single-site insured values of USD 10 billion to USD 30 billion are outrunning capacity, turning accumulation into a reinsurance recalibration question (<a href="https://www.theinsurer.com/ti/interview/reinsurance-capacity-must-recalibrate-for-future-data-centre-demands-says-swiss-2026-05-11/" target="_blank">The Insurer</a>, May 2026), while carriers withdraw affirmative AI cover from casualty and management-liability lines (<a href="https://www.csoonline.com/article/4159292/insurance-carriers-quietly-back-away-from-covering-ai-outputs.html" target="_blank">CSO Online</a>, April 2026). The question: is the gap widening because the risk is new, or because the industry is repeating the silent-cyber sequence?</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Data-centre value accumulation</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>4 of 13 sources within past 75 days; reinsurance inflection 11/05/2026</td>
+<td>Swiss Re says reinsurance capacity must recalibrate as mega-campuses come online to absorb accumulation (<a href="https://www.theinsurer.com/ti/interview/reinsurance-capacity-must-recalibrate-for-future-data-centre-demands-says-swiss-2026-05-11/" target="_blank">The Insurer</a>, May 2026).</td>
+</tr>
+<tr>
+<td>AI exclusions hardening in standard lines</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Carrier-withdrawal reporting dated April 2026; ISO AI exclusions effective January 2026</td>
+<td>Carriers are declining cover for AI outputs in cyber and E&amp;O because the model's reasoning path cannot be traced (<a href="https://www.csoonline.com/article/4159292/insurance-carriers-quietly-back-away-from-covering-ai-outputs.html" target="_blank">CSO Online</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Silent AI in legacy policy wordings</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>2 of 13 sources name legacy-wording inadequacy directly, both within past 75 days; framed as silent cyber</td>
+<td>Cyber, E&amp;O, product and general liability policies were not built for AI failure modes, leaving exposure unpriced (<a href="https://www.ajg.com/gallagherre/news-and-insights/smart-systems-blind-spots-rethinking-insurance-for-the-ai-era/" target="_blank">Gallagher Re</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Dedicated capacity and lifecycle programmes</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named capacity expansion 15/04/2026; second 2026 expansion of one programme in four months</td>
+<td>Aon lifted its Data Center Lifecycle Insurance Program to USD 3.5 billion, bundling construction, operational and cyber cover (<a href="https://aon.mediaroom.com/2026-04-15-Aon-expands-Data-Center-Lifecycle-Insurance-Program-capacity-to-3-5-billion-in-support-of-Digital-Infrastructure-clients" target="_blank">Aon</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Standalone AI liability and parametric cover</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named product launch 27/02/2026; 3 of 13 sources document new AI-specific structures within 90 days</td>
+<td>Mosaic and Munich Re's aiSure launched USD 15 million of AI-performance cover on a parametric-like trigger (<a href="https://www.theinsurer.com/ti/news/mosaic-partners-with-munich-res-aisure-to-launch-ai-performance-cover-2026-02-27/" target="_blank">The Insurer</a>, February 2026).</td>
+</tr>
+<tr>
+<td>Agentic-AI and model-failure liability</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Distribution roughly even across the 6-month window; sources consistent on framing</td>
+<td>Liability for inaccurate outputs, model drift and flawed training data is increasingly assigned to operators not providers (<a href="https://www.ajg.com/gallagherre/news-and-insights/smart-systems-blind-spots-rethinking-insurance-for-the-ai-era/" target="_blank">Gallagher Re</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Supervisory attention on insurer AI use</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>4 Tier 1 regulator sources span Dec 2025 to Mar 2026; consistent tempo, no single inflection</td>
+<td>The PRA names AI a new 2026 supervisory priority while applying a technology-agnostic framework, not AI-specific rules (<a href="https://www.bankofengland.co.uk/prudential-regulation/publication/2026/january/letter-from-gareth-truran-and-shoib-khan-insurance-supervision-2026-priorities" target="_blank">Bank of England, PRA</a>, January 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster risk">
+<h4>Physical-asset accumulation outrunning capacity<span class="cluster-type">Evolving Risk</span></h4>
+<p>Two signals converge: data-centre value accumulation and the catastrophe and geopolitical exposure of hyperscale sites. Single-site insurable values of USD 10 billion to USD 30 billion now exceed what individual carriers will hold, and Swiss Re frames the next inflection as reinsurance recalibration once mega-campuses are operational (<a href="https://www.theinsurer.com/ti/interview/reinsurance-capacity-must-recalibrate-for-future-data-centre-demands-says-swiss-2026-05-11/" target="_blank">The Insurer</a>, May 2026). March 2026 drone strikes on AWS sites in the UAE and Bahrain also made hyperscale compute a kinetic target (<a href="https://www.weforum.org/stories/2026/04/ai-infrastructure-critical-infrastructure/" target="_blank">World Economic Forum</a>, April 2026). The binding constraint is measuring correlated value before a first major loss tests it.</p>
+</div>
+
+<div class="cluster risk">
+<h4>AI liability cover thinning at both ends<span class="cluster-type">Evolving Risk</span></h4>
+<p>Two signals dominate: AI exclusions hardening in standard casualty and management-liability lines, and silent AI sitting unpriced inside legacy wordings. Carriers are declining affirmative cover for AI-generated outputs because the model's reasoning path is not traceable (<a href="https://www.csoonline.com/article/4159292/insurance-carriers-quietly-back-away-from-covering-ai-outputs.html" target="_blank">CSO Online</a>, April 2026), while Gallagher Re finds cyber, E&amp;O, product and general liability wordings were not designed for AI failure modes (<a href="https://www.ajg.com/gallagherre/news-and-insights/smart-systems-blind-spots-rethinking-insurance-for-the-ai-era/" target="_blank">Gallagher Re</a>, March 2026). On the available evidence, the gap is being created as much by carrier retreat as by novel risk.</p>
+</div>
+
+<div class="cluster transformation">
+<h4>The capacity and product response<span class="cluster-type">Transformation Driver</span></h4>
+<p>Two signals describe the market's structural answer: dedicated lifecycle capacity for physical assets, and standalone AI-specific liability products. Aon's Data Center Lifecycle Insurance Program reached USD 3.5 billion in its second 2026 expansion in four months (<a href="https://aon.mediaroom.com/2026-04-15-Aon-expands-Data-Center-Lifecycle-Insurance-Program-capacity-to-3-5-billion-in-support-of-Digital-Infrastructure-clients" target="_blank">Aon</a>, April 2026), and Mosaic with Munich Re's aiSure introduced parametric-like AI-performance cover (<a href="https://www.theinsurer.com/ti/news/mosaic-partners-with-munich-res-aisure-to-launch-ai-performance-cover-2026-02-27/" target="_blank">The Insurer</a>, February 2026). The Geneva Association finds more than 90% of businesses want AI-risk cover (<a href="https://www.genevaassociation.org/sites/default/files/2025-10/gen_ai_report_0110.pdf" target="_blank">Geneva Association</a>, October 2025); the open inflection is whether capacity scales fast enough, on disciplined terms, to close the gap.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Momentum distribution across the topic</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Momentum distribution chart. The Accelerating column holds five signals: data-centre value accumulation in red for physical-asset exposure, AI exclusions hardening and silent AI in indigo for liability exposure, and dedicated capacity and standalone AI liability cover in green for the capacity response. The Stable column holds two signals: agentic-AI liability in indigo and supervisory attention in green. The Fading column is empty.">
+  <rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Signals by direction (cluster colour)</text>
+
+  <rect x="40" y="40" width="200" height="220" fill="#fde8e8" opacity="0.4" rx="6"/>
+  <rect x="260" y="40" width="200" height="220" fill="#eef0f3" opacity="0.5" rx="6"/>
+  <rect x="480" y="40" width="200" height="220" fill="#e8f5e9" opacity="0.5" rx="6"/>
+
+  <text x="140" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#c62828">ACCELERATING</text>
+  <text x="360" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#5a6478">STABLE</text>
+  <text x="580" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#43a047">FADING</text>
+
+  <circle cx="60" cy="88" r="8" fill="#c62828"/>
+  <text x="75" y="92" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Value accumulation</text>
+
+  <circle cx="60" cy="118" r="8" fill="#1a237e"/>
+  <text x="75" y="122" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Exclusions hardening</text>
+
+  <circle cx="60" cy="148" r="8" fill="#1a237e"/>
+  <text x="75" y="152" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Silent AI in legacy cover</text>
+
+  <circle cx="60" cy="178" r="8" fill="#43a047"/>
+  <text x="75" y="182" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Lifecycle capacity</text>
+
+  <circle cx="60" cy="208" r="8" fill="#43a047"/>
+  <text x="75" y="212" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Standalone AI liability</text>
+
+  <circle cx="280" cy="118" r="8" fill="#1a237e"/>
+  <text x="295" y="122" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Agentic-AI liability</text>
+
+  <circle cx="280" cy="148" r="8" fill="#43a047"/>
+  <text x="295" y="152" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Supervisory attention</text>
+
+  <g transform="translate(60,244)">
+    <circle cx="0" cy="0" r="6" fill="#c62828"/>
+    <text x="10" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Physical-asset exposure</text>
+    <circle cx="180" cy="0" r="6" fill="#1a237e"/>
+    <text x="190" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">AI liability exposure</text>
+    <circle cx="360" cy="0" r="6" fill="#43a047"/>
+    <text x="370" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Capacity response</text>
+  </g>
+</svg>
+<p class="figure-caption">Cluster assignment and direction labels drawn from the seven signals tracked in this cycle's 13-source evidence base.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>Data-centre value accumulation.</strong> A reinsurer declining or repricing a named mega-campus renewal would turn recalibration into a hard capacity decision.</li>
+<li><strong>AI exclusions hardening in standard lines.</strong> Wider default AI exclusions across casualty and management-liability forms turn the gap into a board-level shortfall.</li>
+<li><strong>Silent AI in legacy policy wordings.</strong> A first claim litigated under a policy silent on AI would force pricing of unmeasured back-book risk.</li>
+<li><strong>Standalone AI liability and parametric cover.</strong> A capacity commitment beyond pilot-scale lines would signal the market believes the risk is underwritable.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>Correlated foundation-model failure across portfolios</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A fault in one widely used foundation model triggers near-simultaneous claims across thousands of insureds and several lines.</p>
+<p><strong>Early warning indicators:</strong> Insured AI deployments concentrating on one model provider; cross-line claims clustering on one vendor.</p>
+<p>Gallagher Re warns that faults in commonly adopted systems could generate correlated losses across sectors and geographies (<a href="https://www.ajg.com/gallagherre/news-and-insights/smart-systems-blind-spots-rethinking-insurance-for-the-ai-era/" target="_blank">Gallagher Re</a>, March 2026), and EIOPA flags AI as an amplifier of systemic vulnerability (<a href="https://www.eiopa.europa.eu/publications/financial-stability-report-december-2025_en" target="_blank">EIOPA</a>, December 2025). On the available evidence the pathway is plausible but unrealised.</p>
+</div>
+
+<div class="wild-card risk">
+<h4>First contested mega-campus catastrophe claim</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A fire, catastrophe or kinetic event at a USD 10 billion-plus campus triggers a layered tower with inconsistent wordings and disputed claims.</p>
+<p><strong>Early warning indicators:</strong> Catastrophe events near clustered data-centre corridors; coverage-tower disputes on a smaller loss.</p>
+<p>No major data-centre claim has yet been tested at scale (<a href="https://www.datacenterdynamics.com/en/analysis/who-pays-when-a-multi-billion-dollar-data-center-goes-down/" target="_blank">Data Center Dynamics</a>, March 2026), and because large sites are often placed across separate programmes one event can hit several at once (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-insights-07-2026-insuring-ai-data-centre-risks.html" target="_blank">Swiss Re Institute</a>, March 2026). The first contested claim sets the precedent.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Wild Card impact and surprise field</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wild Card matrix plotting two candidates against impact on the vertical axis and surprise on the horizontal axis. Correlated foundation-model failure sits at very high impact and high surprise. First contested mega-campus catastrophe claim sits at very high impact and moderate surprise. Both fall in the disruptive risk zone.">
+  <rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Wild Cards: impact and surprise field</text>
+
+  <line x1="140" y1="50" x2="140" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="140" y1="240" x2="660" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="400" y1="50" x2="400" y2="240" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="140" y1="145" x2="660" y2="145" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="135" y="58" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Very High</text>
+  <text x="135" y="150" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High</text>
+  <text x="135" y="243" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate</text>
+
+  <text x="140" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Low surprise</text>
+  <text x="400" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate surprise</text>
+  <text x="650" y="258" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High surprise</text>
+
+  <text x="95" y="145" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#5a6478" transform="rotate(-90 95,145)">Impact</text>
+
+  <circle cx="320" cy="82" r="14" fill="#8e24aa" opacity="0.85"/>
+  <text x="345" y="78" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Mega-campus catastrophe claim</text>
+  <text x="345" y="93" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Very high impact, moderate surprise</text>
+
+  <circle cx="520" cy="100" r="14" fill="#8e24aa" opacity="0.85"/>
+  <text x="545" y="96" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Correlated model failure</text>
+  <text x="545" y="111" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Very high impact, high surprise</text>
+</svg>
+<p class="figure-caption">Position derived from the early-warning indicators named in each card; the catastrophe claim is the more proximate trigger of the two.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>Three things warrant attention for those carrying AI-infrastructure risk. Accumulation visibility: where data-centre risk is placed across separate construction, equipment and power programmes, a single-event view across the full tower is worth building before the first major loss. Back-book silent AI: casualty and management-liability portfolios written before AI exclusions became standard carry unpriced exposure, and a wording sweep is a defensible step. Capacity discipline: with new products scaling fast, the question for reinsurers is whether to back growth on terms that hold if the wild cards materialise. The protection gap remains a pricing problem the market can shape.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Financial Stability Report December 2025. <a href="https://www.eiopa.europa.eu/publications/financial-stability-report-december-2025_en" target="_blank">EIOPA</a>. Published 15/12/2025.</li>
+<li><span class="tier-1">Tier 1</span> Artificial Intelligence and State Insurance Regulation (Issue Brief). <a href="https://content.naic.org/sites/default/files/ai-issue-brief.pdf" target="_blank">National Association of Insurance Commissioners</a>. Published 01/03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Summary of AI roundtables, February 2026. <a href="https://www.bankofengland.co.uk/minutes/2026/february/summary-of-ai-roundtables-feb-2026" target="_blank">Bank of England</a>. Published 16/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> Insurance Supervision: 2026 priorities. <a href="https://www.bankofengland.co.uk/prudential-regulation/publication/2026/january/letter-from-gareth-truran-and-shoib-khan-insurance-supervision-2026-priorities" target="_blank">Bank of England, Prudential Regulation Authority</a>. Published 15/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> sigma insights 07/2026: Insuring AI: data centre value accumulation risks. <a href="https://www.swissre.com/institute/research/sigma-research/sigma-insights-07-2026-insuring-ai-data-centre-risks.html" target="_blank">Swiss Re Institute</a>. Published 27/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Gen AI Risks for Businesses: Exploring the role for insurance. <a href="https://www.genevaassociation.org/sites/default/files/2025-10/gen_ai_report_0110.pdf" target="_blank">The Geneva Association</a>. Published 01/10/2025.</li>
+<li><span class="tier-2">Tier 2</span> Smart Systems, Blind Spots: Rethinking Insurance for the AI Era. <a href="https://www.ajg.com/gallagherre/news-and-insights/smart-systems-blind-spots-rethinking-insurance-for-the-ai-era/" target="_blank">Gallagher Re</a>. Published 25/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> It's time to start treating AI infrastructure as critical infrastructure. <a href="https://www.weforum.org/stories/2026/04/ai-infrastructure-critical-infrastructure/" target="_blank">World Economic Forum</a>. Published 02/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Reinsurance capacity must recalibrate for future data centre demands, says Swiss Re's Keime. <a href="https://www.theinsurer.com/ti/interview/reinsurance-capacity-must-recalibrate-for-future-data-centre-demands-says-swiss-2026-05-11/" target="_blank">The Insurer</a>. Published 11/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> Insurance carriers quietly back away from covering AI outputs. <a href="https://www.csoonline.com/article/4159292/insurance-carriers-quietly-back-away-from-covering-ai-outputs.html" target="_blank">CSO Online</a>. Published 16/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Mosaic partners with Munich Re's aiSure to launch AI performance cover. <a href="https://www.theinsurer.com/ti/news/mosaic-partners-with-munich-res-aisure-to-launch-ai-performance-cover-2026-02-27/" target="_blank">The Insurer</a>. Published 27/02/2026.</li>
+<li><span class="tier-3">Tier 3</span> Who pays when a multi-billion-dollar data center goes down? <a href="https://www.datacenterdynamics.com/en/analysis/who-pays-when-a-multi-billion-dollar-data-center-goes-down/" target="_blank">Data Center Dynamics</a>. Published 31/03/2026.</li>
+<li><span class="tier-4">Tier 4</span> Aon expands Data Center Lifecycle Insurance Program capacity to $3.5 billion. <a href="https://aon.mediaroom.com/2026-04-15-Aon-expands-Data-Center-Lifecycle-Insurance-Program-capacity-to-3-5-billion-in-support-of-Digital-Infrastructure-clients" target="_blank">Aon</a>. Published 15/04/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 20 May 2026</p>
+
+</body>
+</html>

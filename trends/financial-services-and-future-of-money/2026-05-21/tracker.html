@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<!-- Change Tracker (legacy skill name: Trend Tracker): momentum across signals on one topic. -->
+<head>
+<meta charset="utf-8">
+<title>Stablecoin rules harden as tokenised bank money scales and cash plateaus, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; Financial Services and the Future of Money &middot; 21 May 2026</div>
+
+<article>
+
+<h2>Stablecoin rules harden as tokenised bank money scales and cash plateaus</h2>
+<p class="seo-line">This inaugural cycle reads momentum in the future of money as firmly tilted toward tokenisation: United States stablecoin rulemaking and the tokenised settlement stack lead the accelerators, while the retail digital euro holds steady and cash decline has flattened.</p>
+
+<p>The future-of-money debate has split in two: private stablecoins as the disruptive force, and incumbents absorbing their technology. This inaugural cycle finds the second track moving faster. United States GENIUS Act rulemaking is the sharpest accelerator, with Treasury, the OCC and the Council of Economic Advisers all publishing within an April fortnight; the IMF estimates markets have priced the competitive shock at roughly 300 billion dollars off payment incumbents (<a href="https://www.imf.org/en/publications/wp/issues/2026/03/20/stablecoins-and-the-future-of-payments-evidence-from-financial-markets-574831">International Monetary Fund</a>, March 2026). Banks answer with tokenised deposits and on-chain funds; central banks build settlement rails beneath both. The strategic question: does tokenised commercial bank money, not stablecoins, become the dominant on-chain dollar and pound?</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>US stablecoin rulemaking machinery</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Treasury and OCC GENIUS Act rules issued within past 45 days</td>
+<td>FinCEN and OFAC proposed stablecoin anti-money-laundering rules, with June comment deadlines (<a href="https://home.treasury.gov/news/press-releases/sb0435">U.S. Department of the Treasury</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Bank deposit disintermediation evidence</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>5 sources; 3 within past 60 days vs 2 in prior 60-160 days</td>
+<td>New York Fed research finds the first evidence stablecoins compress partner-bank lending (<a href="https://www.newyorkfed.org/research/staff_reports/sr1185">Federal Reserve Bank of New York</a>, February 2026).</td>
+</tr>
+<tr>
+<td>Tokenised bank deposits</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>5 sources, Sept 2025 to May 2026; live UK and JPMorgan launches</td>
+<td>Six UK banks now run live tokenised sterling deposit transactions (<a href="https://www.ukfinance.org.uk/news-and-insight/press-release/uk-finance-announces-live-pilot-phase-deliver-tokenised-sterling">UK Finance</a>, September 2025).</td>
+</tr>
+<tr>
+<td>Tokenised funds and on-chain MMFs</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>ECB: tokenised MMFs roughly doubled in 2025; fund launches in December</td>
+<td>Tokenised money market funds reached around 7 billion euro as JPMorgan launched its on-chain fund (<a href="https://www.ledgerinsights.com/jp-morgan-launches-tokenized-mmf-on-ethereum/">Ledger Insights</a>, December 2025).</td>
+</tr>
+<tr>
+<td>Wholesale central bank settlement rails</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>ECB Appia roadmap March 2026; Pontes settlement live from September</td>
+<td>The ECB will settle tokenised assets in central bank money via Pontes from September (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html">European Central Bank</a>, May 2026).</td>
+</tr>
+<tr>
+<td>Retail digital euro and pound</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Even spread across the window; multi-year build, no inflection this cycle</td>
+<td>The Eurosystem prepares toward possible issuance near 2029 as the UK pivots toward stablecoins (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260324~66f71f7577.en.html">European Central Bank</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Agent-initiated payments</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Visa program March 2026; IMF note April; sources within 65 days</td>
+<td>Visa enrolled 21 banks to test AI-agent payments; the IMF mapped the settlement risks (<a href="https://www.pymnts.com/artificial-intelligence-2/2026/visa-launches-agentic-ready-program-to-help-banks-test-ai-payments/">PYMNTS</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Cashless transition</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Fed Diary: payment mix consistent three years; cash third for sixth year</td>
+<td>The Fed's 2026 diary finds cash steady at about one in seven payments (<a href="https://www.frbservices.org/news/press-releases/051126-findings-2026-diary-consumer-payment-choice">Federal Reserve Financial Services</a>, May 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster risk">
+<h4>The deposit-franchise contest<span class="cluster-type">Evolving Risk</span></h4>
+<p>Three signals converge on one question: where the public will hold money. United States agencies are building the regime that lets stablecoins compete, even as the Council of Economic Advisers finds a yield ban would barely help bank lending (<a href="https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/">White House Council of Economic Advisers</a>, April 2026) and the Federal Reserve documents the funding strain it creates (<a href="https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html">Federal Reserve Board</a>, December 2025).</p>
+</div>
+
+<div class="cluster transformation">
+<h4>The tokenised settlement stack<span class="cluster-type">Transformation Driver</span></h4>
+<p>The cycle's structural story is the tokenised settlement stack. Tokenised deposits, tokenised money market funds and wholesale central bank rails are maturing together, with central banks placing settlement in central bank money beneath the private layers (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html">European Central Bank</a>, May 2026). September's Pontes go-live is the next inflection.</p>
+</div>
+
+<div class="cluster opportunity">
+<h4>New payment surfaces<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>A third cluster reshapes the payment surface itself. Agent-initiated payments are moving from concept to bank testing while cash use has settled into a plateau rather than a steep decline. The open question: who captures value when an agent, not a consumer, chooses the rail?</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figure 1. Tracked signals by momentum direction and cluster</h4>
+<svg viewBox="0 0 720 376" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Eight tracked signals grouped by momentum direction: six accelerating, one stable, one fading, coloured by cluster.">
+  <rect x="20" y="14" width="216" height="30" rx="6" fill="#c62828"/>
+  <text x="128" y="34" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">ACCELERATING (6)</text>
+  <rect x="252" y="14" width="216" height="30" rx="6" fill="#5a6478"/>
+  <text x="360" y="34" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">STABLE (1)</text>
+  <rect x="484" y="14" width="216" height="30" rx="6" fill="#43a047"/>
+  <text x="592" y="34" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">FADING (1)</text>
+
+  <rect x="20" y="56" width="216" height="32" rx="5" fill="#c62828"/>
+  <text x="128" y="76" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">US stablecoin rulemaking</text>
+  <rect x="20" y="97" width="216" height="32" rx="5" fill="#c62828"/>
+  <text x="128" y="117" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Deposit disintermediation</text>
+  <rect x="20" y="138" width="216" height="32" rx="5" fill="#1a237e"/>
+  <text x="128" y="158" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Tokenised bank deposits</text>
+  <rect x="20" y="179" width="216" height="32" rx="5" fill="#1a237e"/>
+  <text x="128" y="199" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Tokenised funds and MMFs</text>
+  <rect x="20" y="220" width="216" height="32" rx="5" fill="#1a237e"/>
+  <text x="128" y="240" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Wholesale CB settlement rails</text>
+  <rect x="20" y="261" width="216" height="32" rx="5" fill="#f57c00"/>
+  <text x="128" y="281" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Agent-initiated payments</text>
+
+  <rect x="252" y="56" width="216" height="32" rx="5" fill="#c62828"/>
+  <text x="360" y="76" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Retail digital euro and pound</text>
+
+  <rect x="484" y="56" width="216" height="32" rx="5" fill="#f57c00"/>
+  <text x="592" y="76" fill="#ffffff" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Cashless transition</text>
+
+  <rect x="20" y="305" width="14" height="14" rx="2" fill="#c62828"/>
+  <text x="42" y="316" fill="#1a1a1a" font-size="11" font-family="Arial, sans-serif">Evolving Risk: the deposit-franchise contest</text>
+  <rect x="20" y="327" width="14" height="14" rx="2" fill="#1a237e"/>
+  <text x="42" y="338" fill="#1a1a1a" font-size="11" font-family="Arial, sans-serif">Transformation Driver: the tokenised settlement stack</text>
+  <rect x="20" y="349" width="14" height="14" rx="2" fill="#f57c00"/>
+  <text x="42" y="360" fill="#1a1a1a" font-size="11" font-family="Arial, sans-serif">Emerging Opportunity: new payment surfaces</text>
+</svg>
+<p class="figure-caption">Eight tracked signals by momentum direction, chip colour denoting cluster. Source basis: 16 tier-classified sources, September 2025 to May 2026.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>US stablecoin rulemaking machinery.</strong> When the OCC finalises its rule and June comment windows close, the GENIUS Act starts a 120-day compliance clock.</li>
+<li><strong>Bank deposit disintermediation.</strong> Federal Reserve data showing measurable deposit migration would turn a modelled risk into a funding question.</li>
+<li><strong>Tokenised bank deposits.</strong> Cross-bank fungibility, a clearing layer for deposit tokens, is the threshold that turns pilots into a network.</li>
+<li><strong>Agent-initiated payments.</strong> A large-scale consumer rollout of agent checkout would force issuers to set authorisation policy quickly.</li>
+<li><strong>Wholesale central bank settlement rails.</strong> The September go-live of ECB Pontes is when tokenised central bank settlement stops being a pilot.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>A systemic stablecoin run</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A large dollar stablecoin breaks par and redemptions become self-reinforcing.</p>
+<p><strong>Early warning indicators:</strong> Widening secondary-market discounts; issuer reserves concentrated at a few banks.</p>
+<p>The BIS, ECB and New York Fed describe one channel: a mass redemption forces fire sales of Treasury bills and drains the bank deposits backing issuer reserves, so stress transmits to banks within days (<a href="https://www.bis.org/speeches/sp260420.pdf">Bank for International Settlements</a>, April 2026).</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>An interoperable tokenised-deposit clearing layer</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> Banks agree a clearing standard making one bank's deposit token fungible with another's.</p>
+<p><strong>Early warning indicators:</strong> A live multi-bank clearer; a central bank endorsing deposit-token interoperability.</p>
+<p>Tokenised deposits today are mostly single-bank and aimed at large corporates. A neutral clearing layer would let interest-bearing, insured bank money outpace stablecoins as the default on-chain currency (<a href="https://www.omfif.org/2026/01/outlook-2026-stablecoin-fretting-will-calm-down/">OMFIF</a>, January 2026).</p>
+</div>
+
+<div class="wild-card risk">
+<h4>Quantum harvest-now-decrypt-later</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> Encrypted payment data captured today is decrypted once quantum computers mature.</p>
+<p><strong>Early warning indicators:</strong> Accelerated quantum hardware milestones; migration deadlines pulled forward.</p>
+<p>BIS Project Leap tested post-quantum cryptography inside a live payment system and found significant performance gaps still to close (<a href="https://www.bis.org/publ/othp107.htm">Bank for International Settlements</a>, December 2025). A faster-than-expected milestone would compress an already tight migration timeline.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figure 2. Wild-card field: surprise factor against potential impact</h4>
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three wild cards plotted by surprise factor against potential impact: a systemic stablecoin run and quantum harvest-now-decrypt-later at very high impact, an interoperable tokenised-deposit clearing layer at high impact.">
+  <line x1="90" y1="50" x2="90" y2="240" stroke="#9aa3b2" stroke-width="1.5"/>
+  <line x1="90" y1="240" x2="670" y2="240" stroke="#9aa3b2" stroke-width="1.5"/>
+  <line x1="90" y1="145" x2="670" y2="145" stroke="#dce0e6" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="82" y="100" fill="#5a6478" font-size="11" text-anchor="end" font-family="Arial, sans-serif">Very High</text>
+  <text x="82" y="205" fill="#5a6478" font-size="11" text-anchor="end" font-family="Arial, sans-serif">High</text>
+  <text x="44" y="150" fill="#1a237e" font-size="12" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif" transform="rotate(-90 44 150)">Potential impact</text>
+  <text x="380" y="270" fill="#1a237e" font-size="12" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">Surprise factor (low to high)</text>
+
+  <circle cx="360" cy="100" r="11" fill="#8e24aa"/>
+  <text x="360" y="80" fill="#1a1a1a" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Systemic stablecoin run</text>
+  <circle cx="560" cy="115" r="11" fill="#8e24aa"/>
+  <text x="560" y="95" fill="#1a1a1a" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Quantum harvest-now-decrypt-later</text>
+  <circle cx="250" cy="195" r="11" fill="#00897b"/>
+  <text x="250" y="223" fill="#1a1a1a" font-size="11" text-anchor="middle" font-family="Arial, sans-serif">Interoperable tokenised-deposit clearing</text>
+
+  <rect x="120" y="292" width="14" height="14" rx="2" fill="#8e24aa"/>
+  <text x="142" y="303" fill="#1a1a1a" font-size="11" font-family="Arial, sans-serif">Disruptive Risk</text>
+  <rect x="320" y="292" width="14" height="14" rx="2" fill="#00897b"/>
+  <text x="342" y="303" fill="#1a1a1a" font-size="11" font-family="Arial, sans-serif">Disruptive Opportunity</text>
+</svg>
+<p class="figure-caption">Wild cards by surprise factor and potential impact. Source basis: BIS, ECB and New York Fed analysis.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>For an institution in payments or deposits, this cycle rewards attention over reaction. The GENIUS Act comment windows closing in June are worth close monitoring, since they convert a fluid debate into fixed compliance dates. Tokenised deposits warrant active preparation, because cross-bank interoperability is the one development that would reset the competitive map. The September Pontes go-live is a natural checkpoint for wholesale settlement in central bank money. Agent-initiated payments are early enough to shape rather than follow. The retail digital euro and the cash question can be tracked at a lower cadence.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Banks in the Age of Stablecoins. <a href="https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html" target="_blank">Federal Reserve Board</a>. Published 17/12/2025.</li>
+<li><span class="tier-1">Tier 1</span> Stablecoin Disintermediation, Staff Report 1185. <a href="https://www.newyorkfed.org/research/staff_reports/sr1185" target="_blank">Federal Reserve Bank of New York</a>. Published February 2026.</li>
+<li><span class="tier-1">Tier 1</span> Effects of Stablecoin Yield Prohibition on Bank Lending. <a href="https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/" target="_blank">White House Council of Economic Advisers</a>. Published 08/04/2026.</li>
+<li><span class="tier-1">Tier 1</span> Treasury proposes GENIUS Act illicit-finance rule. <a href="https://home.treasury.gov/news/press-releases/sb0435" target="_blank">U.S. Department of the Treasury</a>. Published 08/04/2026.</li>
+<li><span class="tier-1">Tier 1</span> 2026 Diary of Consumer Payment Choice. <a href="https://www.frbservices.org/news/press-releases/051126-findings-2026-diary-consumer-payment-choice" target="_blank">Federal Reserve Financial Services</a>. Published 11/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> Reforming cross-border payments, FSB Payments Summit speech. <a href="https://www.bankofengland.co.uk/speech/2026/march/andrew-bailey-opening-remarks-at-financial-stability-board-payments-summit" target="_blank">Bank of England</a>. Published 12/03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Project Leap phase 2: quantum-proofing payment systems. <a href="https://www.bis.org/publ/othp107.htm" target="_blank">Bank for International Settlements</a>. Published 11/12/2025.</li>
+<li><span class="tier-2">Tier 2</span> Stablecoins and the future of money. <a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html" target="_blank">European Central Bank</a>. Published 08/05/2026.</li>
+<li><span class="tier-2">Tier 2</span> Stablecoins and the Future of Payments, Working Paper 2026/052. <a href="https://www.imf.org/en/publications/wp/issues/2026/03/20/stablecoins-and-the-future-of-payments-evidence-from-financial-markets-574831" target="_blank">International Monetary Fund</a>. Published 20/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> How Agentic AI Will Reshape Payments. <a href="https://www.imf.org/en/publications/imf-notes/issues/2026/04/22/how-agentic-ai-will-reshape-payments-575560" target="_blank">International Monetary Fund</a>. Published 24/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> Stablecoins: framing the debate, Bank of Japan seminar speech. <a href="https://www.bis.org/speeches/sp260420.pdf" target="_blank">Bank for International Settlements</a>. Published 20/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> The digital euro: preparing for a potential launch. <a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260324~66f71f7577.en.html" target="_blank">European Central Bank</a>. Published 24/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Outlook 2026: Stablecoin fretting will calm down. <a href="https://www.omfif.org/2026/01/outlook-2026-stablecoin-fretting-will-calm-down/" target="_blank">OMFIF</a>. Published 02/01/2026.</li>
+<li><span class="tier-3">Tier 3</span> Live pilot phase for tokenised sterling deposits. <a href="https://www.ukfinance.org.uk/news-and-insight/press-release/uk-finance-announces-live-pilot-phase-deliver-tokenised-sterling" target="_blank">UK Finance</a>. Published 26/09/2025.</li>
+<li><span class="tier-3">Tier 3</span> Visa debuts agentic program to test AI payments. <a href="https://www.pymnts.com/artificial-intelligence-2/2026/visa-launches-agentic-ready-program-to-help-banks-test-ai-payments/" target="_blank">PYMNTS</a>. Published 17/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> JP Morgan launches tokenized money market fund. <a href="https://www.ledgerinsights.com/jp-morgan-launches-tokenized-mmf-on-ethereum/" target="_blank">Ledger Insights</a>. Published 15/12/2025.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 21 May 2026</p>
+
+</body>
+</html>

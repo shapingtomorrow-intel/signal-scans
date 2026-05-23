@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Change Tracker - Supply Chains and Critical Minerals - 22 May 2026
+  Inaugural cycle. CSS validated; do not edit. Em-dash ban is binding.
+-->
+<head>
+<meta charset="utf-8">
+<title>State intervention in critical minerals accelerates as the export-control truce holds, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; Supply Chains and Critical Minerals &middot; 22 May 2026</div>
+
+<article>
+
+<h2>State intervention in critical minerals accelerates as the export-control truce holds</h2>
+<p class="seo-line">This cycle's momentum sits with the state: Washington's stockpiling, equity and tariff machinery and Beijing's new supply-chain security law are accelerating, while the one fading signal is the easing of export curbs on gallium, germanium and antimony.</p>
+
+<p>Critical mineral supply chains are now treated as contested ground between Washington and Beijing, not a logistics question. This inaugural cycle finds the dominant momentum with the state: governments no longer regulate these markets from outside but operate inside them as stockpilers, equity holders, tariff-setters and licensing authorities. Washington's intervention machinery and Beijing's new supply-chain security law are accelerating together, while the export-control weapons of 2025 sit paused under a fragile truce. The question for boards is whether any sourcing strategy still works without first reading two governments' policy calendars.</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>China rare earth and magnet export controls</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Architecture set October 2025; held under the truce</td>
+<td>Foreign direct product rule reaches magnets with 0.1 percent Chinese rare earths; escalation paused (<a href="https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains">CSIS</a>, October 2025).</td>
+</tr>
+<tr>
+<td>China supply-chain security legal regime</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Order No. 834 signed 31 March 2026</td>
+<td>Order No. 834 gives Beijing standing investigation and countermeasure powers over foreign firms (<a href="https://www.squirepattonboggs.com/insights/publications/china-s-new-supply-chain-security-regime/">Squire Patton Boggs</a>, April 2026).</td>
+</tr>
+<tr>
+<td>US strategic mineral stockpiling</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>USD 12bn Project Vault launched February 2026</td>
+<td>Project Vault commits a USD 10 billion Export-Import Bank loan to a national reserve (<a href="https://www.supplychaindive.com/news/trump-launches-critical-mineral-reserve-project-vault/811279/">Supply Chain Dive</a>, February 2026).</td>
+</tr>
+<tr>
+<td>Government equity stakes and price floors</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Across six of 13 sources; reinforced January 2026</td>
+<td>Pentagon MP Materials equity and a USD 110 per kilogram price floor harden into a template (<a href="https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains">CSIS</a>, October 2025).</td>
+</tr>
+<tr>
+<td>US Section 232 processed-minerals trade remedy</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Two inflections: processed minerals January, copper April 2026</td>
+<td>A Section 232 proclamation threatens tariffs and price floors absent negotiated supply agreements (<a href="https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/">the White House</a>, January 2026).</td>
+</tr>
+<tr>
+<td>EU CRMA strategic-projects pipeline</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>160-plus second-round applications, January 2026</td>
+<td>The second strategic-projects round drew over 160 applications, holding a steady tempo (<a href="https://single-market-economy.ec.europa.eu/news/strategic-projects-critical-raw-materials-gain-momentum-second-selection-round-potential-funding-and-2026-01-19_en">European Commission</a>, January 2026).</td>
+</tr>
+<tr>
+<td>Allied buyers' club and G7 production alliance</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Activity spread December 2025 to March 2026</td>
+<td>Canada presses a buyers' club while Washington favours bilateral price floors; the model is unsettled (<a href="https://www.kitco.com/news/off-the-wire/2026-03-04/canada-advocates-buyers-alliance-tackle-critical-minerals-supply">Reuters</a>, March 2026).</td>
+</tr>
+<tr>
+<td>China gallium, germanium and antimony curbs</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Evidence clusters November 2025 to January 2026; none since</td>
+<td>China's suspension of gallium, germanium and antimony bans holds toward November 2026 (<a href="https://www.fastmarkets.com/insights/antimony-2026-ample-supply-strategic-demand-to-guide-geopolitical-oversight/">Fastmarkets</a>, January 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster risk">
+<h4>Beijing institutionalises supply-chain leverage<span class="cluster-type">Evolving Risk</span></h4>
+<p>The three China signals, rare earth and magnet controls (Stable), the supply-chain security regime (Accelerating) and the gallium, germanium and antimony curbs (Fading), show the risk changing form, not retreating. The October 2025 weapon is holstered under the truce, but the capability is now permanent law: Order No. 834 gives Beijing standing authority to investigate and penalise foreign firms (<a href="https://www.squirepattonboggs.com/insights/publications/china-s-new-supply-chain-security-regime/">Squire Patton Boggs</a>, April 2026). The next inflection is the November 2026 expiry.</p>
+</div>
+
+<div class="cluster transformation">
+<h4>Washington becomes a market participant<span class="cluster-type">Transformation Driver</span></h4>
+<p>The three United States signals, stockpiling, equity stakes with price floors, and Section 232 remedies, are accelerating together toward one model: Washington operating inside mineral markets as buyer, shareholder and price-setter. Project Vault adds a USD 12 billion reserve (<a href="https://www.supplychaindive.com/news/trump-launches-critical-mineral-reserve-project-vault/811279/">Supply Chain Dive</a>, February 2026); the January proclamation casts processing dependence as a security threat (<a href="https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/">the White House</a>, January 2026), which CSIS reads as a turn toward allied cooperation (<a href="https://www.csis.org/analysis/new-executive-order-ties-us-critical-minerals-security-global-partnerships">CSIS</a>, January 2026); in April the remedy track widened to a copper tariff (<a href="https://www.whitehouse.gov/presidential-actions/2026/04/strengthening-actions-taken-to-adjust-imports-of-aluminum-steel-and-copper-into-the-united-states/">the White House</a>, April 2026). Wilson Center analysis warns the model leans on a few national champions (<a href="https://www.wilsoncenter.org/article/critical-minerals-strategy-under-trump-administration-progress-contradictions-and-road">Wilson Center</a>, April 2026).</p>
+</div>
+
+<div class="cluster opportunity">
+<h4>Allied diversification builds, but slowly<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>The EU strategic-projects pipeline and the allied buyers' club are both Stable: real, but slower than the threat. The Critical Raw Materials Act drew over 160 second-round applications, yet EU auditors judge the 2030 targets out of reach (<a href="https://www.eca.europa.eu/en/publications/SR-2026-04">European Court of Auditors</a>, February 2026); the IEA's February ministerial urged faster diversification (<a href="https://www.iea.org/news/2026-iea-ministerial-declaration-supporting-the-iea-s-work-on-critical-minerals-security">the IEA</a>, February 2026). Conversion hangs on whether the 2026 G7 settles on one buyers' club or scattered bilateral deals.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figure 1. Momentum distribution across tracked signals</h4>
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Eight tracked supply-chain and critical-minerals signals sorted into three momentum columns. Accelerating holds four signals: China supply-chain security law, US strategic mineral stockpiling, government equity and price floors, and the Section 232 processed-minerals remedy. Stable holds three: rare earth and magnet export controls, the EU CRMA pipeline, and the allied buyers club. Fading holds one: China gallium, germanium and antimony curbs.">
+  <rect x="50" y="18" width="200" height="26" rx="13" fill="#c62828"></rect>
+  <text x="150" y="35" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">ACCELERATING (4)</text>
+  <rect x="260" y="18" width="200" height="26" rx="13" fill="#5a6478"></rect>
+  <text x="360" y="35" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">STABLE (3)</text>
+  <rect x="470" y="18" width="200" height="26" rx="13" fill="#43a047"></rect>
+  <text x="570" y="35" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">FADING (1)</text>
+
+  <rect x="50" y="56" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="50" y="56" width="5" height="44" fill="#c62828"></rect>
+  <text x="66" y="75" font-size="11" fill="#1a1a1a">China supply-chain</text>
+  <text x="66" y="90" font-size="11" fill="#1a1a1a">security law</text>
+  <rect x="50" y="108" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="50" y="108" width="5" height="44" fill="#1a237e"></rect>
+  <text x="66" y="127" font-size="11" fill="#1a1a1a">US strategic mineral</text>
+  <text x="66" y="142" font-size="11" fill="#1a1a1a">stockpiling</text>
+  <rect x="50" y="160" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="50" y="160" width="5" height="44" fill="#1a237e"></rect>
+  <text x="66" y="179" font-size="11" fill="#1a1a1a">Government equity</text>
+  <text x="66" y="194" font-size="11" fill="#1a1a1a">and price floors</text>
+  <rect x="50" y="212" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="50" y="212" width="5" height="44" fill="#1a237e"></rect>
+  <text x="66" y="231" font-size="11" fill="#1a1a1a">Section 232 processed-</text>
+  <text x="66" y="246" font-size="11" fill="#1a1a1a">minerals remedy</text>
+
+  <rect x="260" y="56" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="260" y="56" width="5" height="44" fill="#c62828"></rect>
+  <text x="276" y="75" font-size="11" fill="#1a1a1a">Rare earth and magnet</text>
+  <text x="276" y="90" font-size="11" fill="#1a1a1a">export controls</text>
+  <rect x="260" y="108" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="260" y="108" width="5" height="44" fill="#43a047"></rect>
+  <text x="276" y="127" font-size="11" fill="#1a1a1a">EU CRMA strategic-</text>
+  <text x="276" y="142" font-size="11" fill="#1a1a1a">projects pipeline</text>
+  <rect x="260" y="160" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="260" y="160" width="5" height="44" fill="#43a047"></rect>
+  <text x="276" y="179" font-size="11" fill="#1a1a1a">Allied buyers' club</text>
+  <text x="276" y="194" font-size="11" fill="#1a1a1a">and G7 alliance</text>
+
+  <rect x="470" y="56" width="200" height="44" rx="4" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <rect x="470" y="56" width="5" height="44" fill="#c62828"></rect>
+  <text x="486" y="75" font-size="11" fill="#1a1a1a">China gallium, germanium,</text>
+  <text x="486" y="90" font-size="11" fill="#1a1a1a">antimony curbs</text>
+
+  <rect x="50" y="270" width="13" height="13" fill="#c62828"></rect>
+  <text x="69" y="281" font-size="10.5" fill="#5a6478">Beijing's leverage</text>
+  <rect x="220" y="270" width="13" height="13" fill="#1a237e"></rect>
+  <text x="239" y="281" font-size="10.5" fill="#5a6478">US market intervention</text>
+  <rect x="430" y="270" width="13" height="13" fill="#43a047"></rect>
+  <text x="449" y="281" font-size="10.5" fill="#5a6478">Allied diversification</text>
+</svg>
+<p class="figure-caption">Eight tracked signals by momentum direction and cluster. Basis: 13 tier-classified sources, October 2025 to May 2026.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>Government equity stakes and price floors.</strong> A forced decision arrives when a sustained Chinese price war tests a floor the Treasury must underwrite.</li>
+<li><strong>US strategic mineral stockpiling.</strong> A first drawdown timed to a supply shock would turn Project Vault into an active market instrument.</li>
+<li><strong>US Section 232 processed-minerals trade remedy.</strong> Missing the proclamation's 180-day negotiating deadline would trigger tariffs and minimum import prices.</li>
+<li><strong>China supply-chain security legal regime.</strong> A first extraterritorial enforcement action under Order No. 834 would move this from statute to live risk.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>The November 2026 control cliff</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A calendar-dated shock that markets are pricing as if it will not arrive.</p>
+<p><strong>Early warning indicators:</strong> Licence approval rates, US-China trade-talk tone, G7 summit signalling.</p>
+<p>The mutual suspension of rare earth and minor-metals controls expires in November 2026 (<a href="https://www.fastmarkets.com/insights/antimony-2026-ample-supply-strategic-demand-to-guide-geopolitical-oversight/">Fastmarkets</a>, January 2026). Non-renewal would snap restrictions back at once, with the foreign direct product rule still on the books (<a href="https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains">CSIS</a>, October 2025).</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>Commercial deep-sea mining goes live</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A new supply frontier opening outside the China-dominated terrestrial system.</p>
+<p><strong>Early warning indicators:</strong> NOAA final permit decision, International Seabed Authority response, first offtake deals.</p>
+<p>A NOAA full-compliance determination in May 2026 puts a commercial seabed-mining permit within reach before Q1 2027, with at least nine companies in talks (<a href="https://alaskapublic.org/news/environment/2026-05-21/companies-join-a-deep-sea-mining-rush-after-trump-executive-order-as-regulators-fast-track-permits">the Associated Press</a>, May 2026). A permit would reset the polymetallic-nodule supply outlook.</p>
+</div>
+
+<div class="wild-card risk">
+<h4>First extraterritorial enforcement under Order 834</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> Routine compliance with Western export controls reclassified as a Chinese-law offence.</p>
+<p><strong>Early warning indicators:</strong> First Article 15 investigation, blocking-order use, manager exit restrictions.</p>
+<p>Order No. 834's countermeasure articles reach foreign firms that restrict supply to Chinese counterparts (<a href="https://www.squirepattonboggs.com/insights/publications/china-s-new-supply-chain-security-regime/">Squire Patton Boggs</a>, April 2026). A first action against a Western trader would create an open conflict-of-laws exposure.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figure 2. Wild cards by surprise and potential impact</h4>
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A surprise-versus-impact matrix plotting three wild cards. The November 2026 control cliff sits at very high impact and lower surprise. Commercial deep-sea mining sits at high impact and moderate surprise. First extraterritorial enforcement under Order 834 sits at high impact and high surprise.">
+  <rect x="95" y="50" width="565" height="200" fill="#ffffff" stroke="#e0e0e0"></rect>
+  <line x1="377" y1="50" x2="377" y2="250" stroke="#eef0f3" stroke-width="1" stroke-dasharray="4 4"></line>
+  <line x1="95" y1="150" x2="660" y2="150" stroke="#eef0f3" stroke-width="1" stroke-dasharray="4 4"></line>
+
+  <text x="42" y="90" font-size="11" fill="#5a6478" transform="rotate(-90 42 90)" text-anchor="middle">Very High</text>
+  <text x="42" y="220" font-size="11" fill="#5a6478" transform="rotate(-90 42 220)" text-anchor="middle">High</text>
+  <text x="20" y="155" font-size="11" font-weight="700" fill="#1a237e" transform="rotate(-90 20 155)" text-anchor="middle">Potential impact</text>
+  <text x="170" y="272" font-size="11" fill="#5a6478" text-anchor="middle">Lower surprise</text>
+  <text x="585" y="272" font-size="11" fill="#5a6478" text-anchor="middle">Higher surprise</text>
+  <text x="377" y="292" font-size="11" font-weight="700" fill="#1a237e" text-anchor="middle">Surprise factor</text>
+
+  <circle cx="235" cy="95" r="11" fill="#8e24aa"></circle>
+  <text x="253" y="92" font-size="11" font-weight="700" fill="#1a1a1a">November 2026 control cliff</text>
+  <text x="253" y="106" font-size="10" fill="#5a6478">Disruptive Risk, Very High</text>
+
+  <circle cx="455" cy="205" r="11" fill="#00897b"></circle>
+  <text x="473" y="202" font-size="11" font-weight="700" fill="#1a1a1a">Commercial deep-sea mining</text>
+  <text x="473" y="216" font-size="10" fill="#5a6478">Disruptive Opportunity, High</text>
+
+  <circle cx="575" cy="185" r="11" fill="#8e24aa"></circle>
+  <text x="567" y="160" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="end">Order 834 enforcement</text>
+  <text x="567" y="174" font-size="10" fill="#5a6478" text-anchor="end">Disruptive Risk, High</text>
+
+  <rect x="240" y="303" width="12" height="12" fill="#8e24aa"></rect>
+  <text x="258" y="313" font-size="10.5" fill="#5a6478">Disruptive Risk</text>
+  <rect x="400" y="303" width="12" height="12" fill="#00897b"></rect>
+  <text x="418" y="313" font-size="10.5" fill="#5a6478">Disruptive Opportunity</text>
+</svg>
+<p class="figure-caption">Three wild cards by surprise and potential impact. Basis: this cycle's evidence base.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>The cycle's signal for boards is that critical-mineral exposure is now governed by policy calendars, not commodity cycles. Three items warrant monitoring: the November 2026 expiry of the US-China export-control suspension, a hard date on re-escalation risk; the scope of US price-floor and equity instruments, which decide whether Western processing economics survive without permanent state support; and the auditor-flagged gap between EU diversification ambition and delivery. Procurement built on lowest landed cost now carries an unpriced policy exposure, best met by mapping suppliers against the 0.1 percent Chinese-content threshold and stress-testing a non-renewed truce.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Section 232 action on processed critical minerals. <a href="https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/" target="_blank">The White House</a>. Published 14/01/2026.</li>
+<li><span class="tier-1">Tier 1</span> Critical Raw Materials Act, second strategic-projects round. <a href="https://single-market-economy.ec.europa.eu/news/strategic-projects-critical-raw-materials-gain-momentum-second-selection-round-potential-funding-and-2026-01-19_en" target="_blank">European Commission</a>. Published 19/01/2026.</li>
+<li><span class="tier-1">Tier 1</span> Audit of EU critical raw materials policy. <a href="https://www.eca.europa.eu/en/publications/SR-2026-04" target="_blank">European Court of Auditors</a>. Published 02/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> 2026 Ministerial Declaration on critical minerals security. <a href="https://www.iea.org/news/2026-iea-ministerial-declaration-supporting-the-iea-s-work-on-critical-minerals-security" target="_blank">International Energy Agency</a>. Published 19/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> Strengthened Section 232 tariffs on copper and metals. <a href="https://www.whitehouse.gov/presidential-actions/2026/04/strengthening-actions-taken-to-adjust-imports-of-aluminum-steel-and-copper-into-the-united-states/" target="_blank">The White House</a>. Published 02/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> China's rare earth and magnet export restrictions. <a href="https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains" target="_blank">CSIS</a>. Published 09/10/2025.</li>
+<li><span class="tier-2">Tier 2</span> Antimony 2026 market and policy outlook. <a href="https://www.fastmarkets.com/insights/antimony-2026-ample-supply-strategic-demand-to-guide-geopolitical-oversight/" target="_blank">Fastmarkets</a>. Published 07/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Executive order on critical minerals and allied partnerships. <a href="https://www.csis.org/analysis/new-executive-order-ties-us-critical-minerals-security-global-partnerships" target="_blank">CSIS</a>. Published 15/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Critical minerals strategy under the Trump administration. <a href="https://www.wilsoncenter.org/article/critical-minerals-strategy-under-trump-administration-progress-contradictions-and-road" target="_blank">Wilson Center</a>. Published 08/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Project Vault, the $12 billion US mineral reserve. <a href="https://www.supplychaindive.com/news/trump-launches-critical-mineral-reserve-project-vault/811279/" target="_blank">Supply Chain Dive</a>. Published 03/02/2026.</li>
+<li><span class="tier-3">Tier 3</span> Canada advocates a critical minerals buyers' alliance. <a href="https://www.kitco.com/news/off-the-wire/2026-03-04/canada-advocates-buyers-alliance-tackle-critical-minerals-supply" target="_blank">Kitco News</a>. Published 04/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> State Council Order No. 834 on supply-chain security. <a href="https://www.squirepattonboggs.com/insights/publications/china-s-new-supply-chain-security-regime/" target="_blank">Squire Patton Boggs</a>. Published April 2026.</li>
+<li><span class="tier-3">Tier 3</span> Deep-sea mining rush after the Trump executive order. <a href="https://alaskapublic.org/news/environment/2026-05-21/companies-join-a-deep-sea-mining-rush-after-trump-executive-order-as-regulators-fast-track-permits" target="_blank">Associated Press via Alaska Public Media</a>. Published 21/05/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 22 May 2026</p>
+
+</body>
+</html>

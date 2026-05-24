@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Stagecoach Group Ltd, cycle 24 May 2026.
+-->
+<head>
+<meta charset="utf-8">
+<title>Revenue on a Five-Year Clock: Stagecoach Group Ltd Decision-Grade Strategic Intelligence Report, May 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence</div>
+<h1 class="report-title">Revenue on a Five-Year Clock</h1>
+<div class="meta">
+Cycle: 24 May 2026 &middot; Audience: lenders and credit analysts following the UK bus sector &middot; Horizon: 6 to 18 months<br>
+<span style="font-size: 0.92em;">Read estimate: 3 min Executive Synthesis &middot; 20 min full read</span>
+</div>
+</div>
+<img class="report-logo" alt="Shaping Tomorrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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">
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Signal Clusters</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An abstract motif: an open-ended revenue line on the left resolving into a sequence of five-year contractual blocks on the right, the central tension of the cycle.">
+  <rect x="0" y="0" width="340" height="300" fill="#f8f9fa"/>
+  <text x="170" y="34" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#5c6bc0">From an open fare-box</text>
+  <text x="170" y="52" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#a07549">to a five-year clock</text>
+  <!-- open-ended commercial revenue: a continuous flowing line -->
+  <path d="M 28 150 C 60 110, 78 190, 108 150 C 130 120, 142 175, 160 150" fill="none" stroke="#5c6bc0" stroke-width="4" stroke-linecap="round"/>
+  <text x="30" y="200" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5c6bc0">Commercial</text>
+  <text x="30" y="215" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5c6bc0">fare-box</text>
+  <!-- transition arrow -->
+  <line x1="162" y1="150" x2="186" y2="150" stroke="#bf6464" stroke-width="3"/>
+  <polygon points="186,144 198,150 186,156" fill="#bf6464"/>
+  <!-- five contractual blocks of fixed length -->
+  <rect x="206" y="118" width="20" height="64" rx="3" fill="#d4a574"/>
+  <rect x="230" y="118" width="20" height="64" rx="3" fill="#d4a574"/>
+  <rect x="254" y="118" width="20" height="64" rx="3" fill="#a07549"/>
+  <rect x="278" y="118" width="20" height="64" rx="3" fill="#d4a574"/>
+  <rect x="302" y="118" width="20" height="64" rx="3" fill="#bf6464"/>
+  <text x="264" y="205" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a07549">Fixed-term franchises</text>
+  <!-- cliff-edge marker under the last block -->
+  <line x1="312" y1="188" x2="312" y2="232" stroke="#bf6464" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="312" y="248" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#bf6464">Re-tender</text>
+  <text x="170" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a6478">Each block is a contract that can be won or lost</text>
+</svg>
+<p class="figure-caption">The cycle's tension: predictable revenue gained, contractual cliff-edges introduced.</p>
+</div>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<p>The revenue model that has underpinned Stagecoach for nearly four decades is being re-based, and the agent of change is regulation rather than competition. The Bus Services Act 2025 received Royal Assent in October 2025 and lets every local transport authority in England franchise its bus network without prior Secretary of State consent, while also permitting the creation of municipal bus companies (<a href="https://www.legislation.gov.uk/ukpga/2025/24" target="_blank" rel="noopener">Bus Services Act 2025</a>, October 2025). The pipeline that follows from it is no longer theoretical. Greater Manchester's franchised Bee Network is running; the Liverpool City Region has awarded its first franchises in forty years, with Stagecoach winning the St Helens network of 26 routes and 113 buses from autumn 2026 (<a href="https://www.merseytravel.gov.uk/news/operators-announced-for-first-franchised-bus-services-in-the-liverpool-city-region-in-40-years/" target="_blank" rel="noopener">Merseytravel</a>, January 2026); and West Yorkshire, the North East and others are moving through the assessment and procurement stages in parallel. This is the inaugural cycle of decision intelligence on Stagecoach, so it establishes the baseline rather than tracking deltas: the baseline is a company whose cash-flow character is changing from open-ended commercial income to a portfolio of fixed-term contracts.</p>
+
+<p>Franchising is the spine of this cycle because it changes what the other four clusters mean. Under franchising, fare-box revenue and demand risk transfer to the awarding authority, and the operator is paid a contracted sum to run a specified network, typically for five years with an option to extend by two (<a href="https://www.passengertransport.co.uk/2026/05/bus-franchising-and-the-capacity-gap" target="_blank" rel="noopener">Passenger Transport</a>, May 2026). That conversion has two faces. A franchise that Stagecoach wins is contracted, demand-risk-free income with a defined term; a franchise that Stagecoach loses at re-tender removes a depot's entire revenue stream at a hard date. The durability of the company's revenue is being re-set from an indefinite commercial network to a recurring five-year contractual rhythm, which is the tension the cycle's title names.</p>
+
+<p class="pullquote">The durability of the company's revenue is being re-set from an indefinite commercial network to a recurring five-year contractual rhythm.</p>
+
+<p>Four further forces now dominate attention, and franchising frames each. The first is a labour-cost shock: the April 2025 employer National Insurance rise and successive minimum-wage increases, which hit operators directly, with one large municipal operator reporting around £1.3m of extra annual cost from the National Insurance change alone, landing on a cost base where running efficiency is so material that a 10% gain in bus speeds would cut operating costs by 7.5% (<a href="https://www.passengertransport.co.uk/2026/05/album-chair-warns-of-mounting-pressures" target="_blank" rel="noopener">Passenger Transport</a>, May 2026; <a href="https://www.cpt-uk.org/news/england-needs-faster-buses-cpt-launches-report-calling-for-bold-bus-priority-to-seize-5bn-prize/" target="_blank" rel="noopener">Confederation of Passenger Transport</a>, May 2026). The second is a funding architecture with hard 2027 cliff-edges: the £3 single-fare cap is funded only to March 2027, and from 2026-27 the former Bus Service Improvement Plan and Local Authority Bus Service Operators Grant funding merges into a single Local Authority Bus Grant paid to authorities rather than to operators (<a href="https://www.gov.uk/government/publications/local-authority-bus-grant-allocations/labg-revenue-allocations-2026-to-2029" target="_blank" rel="noopener">Department for Transport</a>, December 2025). The third is demand: national bus patronage has plateaued, with 3.7bn journeys in the year to March 2025, up just 1%, and bus mileage at 89% of pre-pandemic levels (<a href="https://www.gov.uk/government/statistics/annual-bus-statistics-year-ending-march-2025/annual-bus-statistics-year-ending-march-2025" target="_blank" rel="noopener">Department for Transport</a>, November 2025). The fourth is the capital structure: a leveraged ownership by DWS Infrastructure and the roughly £1bn financing platform put in place in October 2024 (<a href="https://www.lw.com/en/news/2024/10/latham-advises-stagecoach-group-on-its-1-billion-long-term-financing" target="_blank" rel="noopener">Latham &amp; Watkins</a>, October 2024).</p>
+
+<p>The insight that may surprise leadership is the direction of the credit signal. The intuitive reading is that franchising erodes a commercial operator's value. The more careful reading is that for a holder of operator debt, contracted franchise income is in several respects more bankable than open-ended fare-box revenue: it removes demand risk, it is paid by a public authority, and it carries a defined term. The genuine hazard is not franchising itself but concentration and timing, a depot whose revenue rests on a single contract that re-tenders on a known date, against a cost base inflating faster than fares and a public-funding settlement that itself expires in 2027. Taken together, the sources suggest the question for the next eighteen months is less whether Stagecoach's revenue survives franchising and more how predictably it can be modelled through it.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis assumes the franchising pipeline proceeds broadly on its announced timetable and that Stagecoach wins enough re-tenders to keep its depot footprint substantially intact. That assumption is falsifiable. If a major authority's franchising assessment is paused or fails its statutory audit, or if Stagecoach loses two or more depot-scale re-tenders in a single twelve-month window to municipal companies or lower-cost rivals, the revenue picture shifts from re-based-but-stable to materially eroded, and the cost and funding clusters become acute rather than manageable. The decisive evidence over the next year is the West Yorkshire award outcome expected by end-June 2026 and the North East franchising decision due in early 2027.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Map depot revenue against the franchising calendar.</strong> Stagecoach's leadership should produce a depot-by-depot exposure schedule showing which revenue is commercial, which is already contracted, and which faces a re-tender date, because revenue durability can no longer be assessed at group level alone.</li>
+<li><strong>Re-base the FY27 plan to a contracted-margin assumption.</strong> The cost shock and the funding changes mean the FY27 plan must be built on franchise-tender economics, not on the commercial margins of the deregulated era, or it will be planning against a model that is closing.</li>
+<li><strong>Confirm headroom against the 2027 funding and refinancing horizon.</strong> The fare-cap funding expiry and the maturity profile of the October 2024 platform should be tested together, because both fall in the same window and a lender will read them as one combined exposure.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per leadership function. Each card surfaces the one question this cycle puts to that function.</p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">Revenue model and contracts</span>
+<h4>How much of our revenue still carries demand risk, and how fast is that share falling?</h4>
+<p><strong>The shift:</strong> Franchising converts open-ended commercial fare-box income into fixed-term contracts of five years plus a two-year option, awarded city region by city region as the Bus Services Act 2025 pipeline moves from assessment into procurement.</p>
+<p><strong>The question to brief:</strong> Can we present the revenue base as a calendar of contract terms and re-tender dates rather than a single commercial number, and where on that calendar are the points of greatest concentration?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Cost base and margins</span>
+<h4>Is the cost base inflating faster than the prices, contracted or commercial, that fund it?</h4>
+<p><strong>The shift:</strong> The April 2025 National Insurance rise and successive minimum-wage increases have landed on a cost base that is roughly two-thirds labour and engineering, with sector unit costs up 4% in the year to February 2025 and large pay settlements being agreed at depot level.</p>
+<p><strong>The question to brief:</strong> Are our franchise bids and commercial fares being priced with enough indexation headroom to absorb wage settlements running well ahead of general inflation?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Network, fleet and operations</span>
+<h4>Can the depot and fleet footprint flex with a portfolio of contracts that can each be won or lost?</h4>
+<p><strong>The shift:</strong> Demand has plateaued at about 89% of pre-pandemic bus mileage nationally, while franchising authorities are specifying zero-emission fleets and, in some cases, acquiring depots directly, changing how operational assets are owned and deployed.</p>
+<p><strong>The question to brief:</strong> If a depot loses its franchise at re-tender, how quickly and at what cost can its fleet and workforce be redeployed, and does that exit risk sit inside our operating assumptions?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Capital structure and capex</span>
+<h4>Do the funding and refinancing horizons line up with the new contractual revenue rhythm?</h4>
+<p><strong>The shift:</strong> The October 2024 financing platform of roughly £1bn was structured around an investment-grade objective, and it now sits against a funding architecture whose fare-cap support expires in March 2027 and against franchise contracts that re-tender on five-year cycles.</p>
+<p><strong>The question to brief:</strong> Does the maturity profile of the financing platform give enough headroom to absorb a lost re-tender or a funding-policy change without forcing a refinancing into a weak window?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Signal Clusters</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five clusters, ranked by impact on Stagecoach Group Ltd's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Stagecoach Group Ltd's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Franchising Re-bases the Revenue Model</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Franchising forces Stagecoach to stop treating revenue as a single open-ended figure and start treating it as a portfolio of contracts with terms and expiry dates. The Bus Services Act 2025 has removed the central-government consent that previously slowed franchising, and the pipeline of authorities moving from assessment to award is now running fast enough to re-base the company's revenue character within the planning horizon. For a lender, the consequence is concrete: each franchise Stagecoach holds converts demand risk into a contracted, publicly funded income stream, but each depot that depends on a franchise also acquires a hard re-tender date on which that revenue can disappear. The cluster forces the question of how much of the network will be modelled as commercial, how much as contracted, and how the two profiles should be valued differently.</p>
+
+<div class="report-figure">
+<h4>The franchising pipeline: from legislation to live contracts</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A timeline showing the franchising pipeline: the Bus Services Act 2025 in October 2025, the Liverpool City Region awards in January 2026, West Yorkshire awards expected June 2026, Liverpool phase-one services from autumn 2026, and a North East decision due early 2027.">
+  <rect x="0" y="0" width="720" height="200" fill="#fbfbfc"/>
+  <line x1="40" y1="110" x2="680" y2="110" stroke="#5c6bc0" stroke-width="3"/>
+  <!-- node 1 -->
+  <circle cx="80" cy="110" r="8" fill="#5c6bc0"/>
+  <text x="80" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#5c6bc0">Oct 2025</text>
+  <text x="80" y="135" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">Act receives</text>
+  <text x="80" y="148" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">Royal Assent</text>
+  <!-- node 2 -->
+  <circle cx="220" cy="110" r="8" fill="#a07549"/>
+  <text x="220" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#a07549">Jan 2026</text>
+  <text x="220" y="135" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">Liverpool awards</text>
+  <text x="220" y="148" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">St Helens to Stagecoach</text>
+  <!-- node 3 -->
+  <circle cx="360" cy="110" r="8" fill="#d4a574"/>
+  <text x="360" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#a07549">Jun 2026</text>
+  <text x="360" y="135" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">West Yorkshire</text>
+  <text x="360" y="148" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">first awards expected</text>
+  <!-- node 4 -->
+  <circle cx="500" cy="110" r="8" fill="#d4a574"/>
+  <text x="500" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#a07549">Autumn 2026</text>
+  <text x="500" y="135" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">Liverpool phase one</text>
+  <text x="500" y="148" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">services begin</text>
+  <!-- node 5 -->
+  <circle cx="640" cy="110" r="8" fill="#bf6464"/>
+  <text x="640" y="90" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#bf6464">Early 2027</text>
+  <text x="640" y="135" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">North East</text>
+  <text x="640" y="148" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478">decision due</text>
+  <text x="360" y="32" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1a237e">Franchising moves from statute to live award within the planning horizon</text>
+</svg>
+<p class="figure-caption">Sources: Bus Services Act 2025; Merseytravel; Passenger Transport; North East Combined Authority.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>The Bus Services Act 2025 lets all local transport authorities franchise bus networks without prior Secretary of State consent and permits municipal bus companies, with directly-awarded first contracts capped at five years (<a href="https://www.legislation.gov.uk/ukpga/2025/24" target="_blank" rel="noopener">Bus Services Act 2025</a>, October 2025).</li>
+<li>The Liverpool City Region Combined Authority awarded its first franchised networks in forty years, with St Helens going to Stagecoach and Wirral to Go-Ahead, phase-one services from autumn 2026 and full regional rollout planned by end-2027 (<a href="https://www.merseytravel.gov.uk/news/operators-announced-for-first-franchised-bus-services-in-the-liverpool-city-region-in-40-years/" target="_blank" rel="noopener">Merseytravel</a>, January 2026).</li>
+<li>Franchises are awarded for five years with an option to extend by another two, creating recurring re-tender uncertainty, and combined authorities face a visible capability gap in delivering franchising (<a href="https://www.passengertransport.co.uk/2026/05/bus-franchising-and-the-capacity-gap" target="_blank" rel="noopener">Passenger Transport</a>, May 2026).</li>
+<li>The pipeline is broad: West Yorkshire expects to award its first Weaver Network contracts by the end of June 2026, while the North East Combined Authority has agreed to submit its franchising scheme assessment for audit and consultation with a final decision due in early 2027 (<a href="https://www.passengertransport.co.uk/2026/03/west-yorkshire-plans-june-date-for-contracts" target="_blank" rel="noopener">Passenger Transport</a>, March 2026; <a href="https://www.northeast-ca.gov.uk/news/transport/mayor-kim-moves-north-east-closer-to-bringing-buses-back-under-public-control" target="_blank" rel="noopener">North East Combined Authority</a>, March 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The operators' trade body argues that franchising shifts revenue and demand risk onto the taxpayer without itself raising patronage, and questions both the affordability and the deliverability of the franchising commitments now being made by combined authorities and political parties (<a href="https://www.cpt-uk.org/blogs/fares-franchising-and-funding-what-the-2026-manifestos-mean-for-scotland-s-bus-and-coach-sector//" target="_blank" rel="noopener">Confederation of Passenger Transport</a>, April 2026). On this reading, the pipeline could slow: a combined-authority capability gap, a failed statutory audit, or a funding squeeze could each push award dates out, leaving more of Stagecoach's network commercial for longer than the cluster implies. The structural direction still favours franchising, but its pace, and therefore the timing of the revenue re-basing, is less certain than the announced calendar suggests.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. The Cost Base and Margin Compression</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Stagecoach is absorbing a labour-cost shock into a cost base that is structurally labour-heavy, and the pricing mechanisms that should offset it are slower-moving than the costs themselves. The April 2025 employer National Insurance rise and successive minimum-wage increases have landed on top of pay settlements being agreed at depot level, and they compress the cash margin that ultimately services the company's debt. The consequence for the FY27 plan is direct: franchise bids and commercial fares must now be priced with explicit indexation headroom, because settlements are running well ahead of headline inflation. Whether the cluster is a passing squeeze or a structural reset depends on how durably wage costs continue to outpace the fare and contract revenue that funds them.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The April 2025 employer National Insurance rise hit operators directly: the chair of the Association of Local Bus Company Managers, also managing director of Nottingham City Transport, said it added about £1.3m of extra cost straight off the bottom line for his business, while operators were still absorbing the 50% increase in the England fare cap (<a href="https://www.passengertransport.co.uk/2026/05/album-chair-warns-of-mounting-pressures" target="_blank" rel="noopener">Passenger Transport</a>, May 2026).</li>
+<li>The bus operating-cost base is large and efficiency-sensitive: CPT analysis finds a 10% improvement in bus speeds would cut operating costs by 7.5%, saving local authorities and operators about £511m a year, a measure of how exposed margins are to cost inflation (<a href="https://www.cpt-uk.org/news/england-needs-faster-buses-cpt-launches-report-calling-for-bold-bus-priority-to-seize-5bn-prize/" target="_blank" rel="noopener">Confederation of Passenger Transport</a>, May 2026).</li>
+<li>The cost base is inflating broadly: CPT Cost Monitor data shows Great Britain bus-sector unit operating costs rose 4% in the year to February 2025, with labour costs up 6.6% and engineering costs up 8.6%, and labour and engineering together about two-thirds of total costs (<a href="https://www.cpt-uk.org/news/cpt-cost-monitor-operating-costs-across-great-britain-s-bus-sector-rise-4-over-the-past-year/" target="_blank" rel="noopener">Confederation of Passenger Transport</a>, August 2025).</li>
+<li>Depot-level pay settlements are sizeable: First Bus's Doncaster offer to Unite included an immediate 7% rise backdated to January 2026 and an overall 18% pay rise by July 2027, indicating the scale of settlement operators are funding amid driver pay disputes (<a href="https://news.firstbus.co.uk/news-updates/industrial-action-in-doncaster" target="_blank" rel="noopener">First Bus</a>, May 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The Doncaster dispute, often cited as evidence of escalating labour conflict, was in fact resolved without sustained disruption: planned strike action by 230 First South Yorkshire drivers was suspended in early May 2026 after Acas-brokered talks reached what both sides described as a positive position, letting members vote on a revised offer (<a href="https://www.aol.com/articles/bus-driver-strike-suspended-fresh-100302072.html" target="_blank" rel="noopener">BBC News</a>, May 2026). That points to a cost picture that is high but negotiable rather than spiralling. There is also a partial demand offset: with diesel prices running about 35% above normal levels, operators argue that elevated motoring costs could drive modal shift toward buses, where fares are comparatively stable (<a href="https://www.passengertransport.co.uk/2026/05/fuel-situation-could-be-growth-opportunity" target="_blank" rel="noopener">Passenger Transport</a>, May 2026). The squeeze is real, but the most alarming framing, of unbounded wage escalation, is not the only reading the evidence supports.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. The Funding Architecture and the 2027 Cliff-Edges</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The public money that supports Stagecoach's revenue is being restructured in a way that both changes who holds it and concentrates its renewal risk in 2027. From 2026-27 the former Bus Service Improvement Plan and Local Authority Bus Service Operators Grant funding merges into a single Local Authority Bus Grant paid to local transport authorities rather than to operators, and the £3 single-fare cap that supports fare-box revenue is funded only to March 2027. For a lender, this matters because it moves a material slice of the operator's revenue support behind an intermediary, the local authority, and ties its continuation to discretionary spending decisions that all fall due in the same window. The cluster forces Stagecoach to model a 2027 funding step rather than a smooth glide path.</p>
+<div class="cluster-signals">
+<ul>
+<li>From 2026-27 the Local Authority Bus Grant merges the former BSIP and Local Authority BSOG funding into a single grant paid to local transport authorities, not operators, totalling £480.8m of revenue a year to 2028-29 (<a href="https://www.gov.uk/government/publications/local-authority-bus-grant-allocations/labg-revenue-allocations-2026-to-2029" target="_blank" rel="noopener">Department for Transport</a>, December 2025).</li>
+<li>The multi-year bus settlement provides almost £700m a year to local authorities to 2028-29 plus a £3m Bus Franchising Fund, with over £150m a year maintaining the £3 fare cap only to March 2027 (<a href="https://www.gov.uk/government/news/better-buses-more-services-3-billion-boost-for-millions-of-passengers" target="_blank" rel="noopener">Department for Transport</a>, December 2025).</li>
+<li>The £3 single-fare cap remains a centrally funded, time-limited support, and its reimbursement to operators has failed to keep up with inflation, underlining the renewal and adequacy risk attached to it (<a href="https://www.cpt-uk.org/news/cpt-responds-to-government-s-free-summer-bus-fares-for-children/" target="_blank" rel="noopener">Confederation of Passenger Transport</a>, May 2026).</li>
+<li>Scotland's indicative Spending Review sets Concessionary Fares and Bus Services funding at £528.3m for 2026-27, £523.5m for 2027-28 and £529.8m for 2028-29, funding the operator-paid Network Support Grant and concessionary travel relevant to Stagecoach's Scotland-heavy network (<a href="https://www.gov.scot/publications/scottish-spending-review-2026/pages/9/" target="_blank" rel="noopener">Scottish Government</a>, January 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The cliff-edge framing can be overstated. The most recent in-window government announcement committed over £100m to fund free August bus travel for children and explicitly included additional support for bus services that have experienced increased costs, with allocation still to be decided (<a href="https://www.gov.uk/government/news/cost-of-living-boost-with-free-bus-travel-for-children-and-targeted-food-tariff-cuts" target="_blank" rel="noopener">Department for Transport</a>, May 2026). That pattern of repeated, discretionary top-ups suggests the political cost of letting bus funding lapse is high, and the fare cap has already been extended once after being marked for scrapping. The operators' trade body itself presses for a broader package of structural bus-service support, including a five-year funding settlement and reform of funding models, rather than fare measures alone, indicating that the cap is only one part of the funding mix rather than the decisive lever (<a href="https://www.cpt-uk.org/news/cpt-urges-greater-long-term-government-investment-in-bus-services/" target="_blank" rel="noopener">Confederation of Passenger Transport</a>, January 2025). The renewal risk is real, but the base case of a hard cut in 2027 is not the most probable one.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Demand Has Plateaued</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The post-pandemic recovery in bus travel has flattened, which sets a ceiling on the revenue that can be earned from commercial fare-box operations and changes the comparison between commercial and franchised income. National patronage rose just 1% in the latest year and bus mileage remains below pre-pandemic levels, while concessionary travel, a large slice of journeys, is recovering only slowly and is now reimbursed strictly in line with actual journeys. For a lender, the consequence is that the commercial parts of Stagecoach's network face a structurally limited demand base, which strengthens the relative appeal of contracted franchise revenue even at lower margins. The cluster forces a judgement on whether weak national demand is a permanent backdrop or a national average concealing pockets of genuine growth.</p>
+<div class="cluster-signals">
+<ul>
+<li>Bus patronage in England has plateaued, with 3.7bn passenger journeys in the year to March 2025, up just 1% year-on-year and still only 90% of pre-pandemic levels, and bus mileage at 89% of pre-pandemic (<a href="https://www.gov.uk/government/statistics/annual-bus-statistics-year-ending-march-2025/annual-bus-statistics-year-ending-march-2025" target="_blank" rel="noopener">Department for Transport</a>, November 2025).</li>
+<li>Concessionary travel remains below pre-pandemic levels at 624m journeys, and from April 2024 reverted to a "no better, no worse off" reimbursement basis, tying operator income directly to actual and lower concessionary patronage (<a href="https://www.gov.uk/government/statistics/concessionary-travel-statistics-year-ending-march-2025/concessionary-travel-statistics-year-ending-march-2025" target="_blank" rel="noopener">Department for Transport</a>, November 2025).</li>
+<li>The independent transport user watchdog found overall bus passenger satisfaction in England rose to 85% in 2025, but satisfaction with value for money fell ten percentage points to 63%, a softening signal beneath the headline (<a href="https://www.transportfocus.org.uk/news/transport-user-voice-march-2026-bus-passenger-satisfaction-rises/" target="_blank" rel="noopener">Transport Focus</a>, March 2026).</li>
+<li>The UK public-spending auditor found bus services have not recovered to pre-Covid levels and that operators now rely on public funding for about half of their revenue, a structural weakening of commercial viability (<a href="https://www.nao.org.uk/press-releases/passenger-journeys-decline-amid-uncertainty-over-commercial-viability-of-local-bus-services/" target="_blank" rel="noopener">National Audit Office</a>, June 2025).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> The national plateau is a national average. The Urban Transport Group's analysis found the majority of its city-region members saw patronage grow, including 11% in Greater Manchester after franchising, 6% in the North East and the West of England, and 5% in the West Midlands, suggesting franchising and devolved funding can lift demand where they are in place (<a href="https://www.passengertransport.co.uk/2026/03/the-inside-track-behind-the-statistics" target="_blank" rel="noopener">Passenger Transport</a>, March 2026). This signal would gain weight if a second full year of city-region data confirmed sustained outperformance against the national figure rather than a one-off post-franchising lift.</li>
+<li><span class="weak-signal-marker">Weak signal</span> The sharp ten-point fall in value-for-money satisfaction, even as overall satisfaction rose, points to fare-tolerance strain that could constrain commercial fare increases just as the cost base demands them (<a href="https://www.transportfocus.org.uk/news/transport-user-voice-march-2026-bus-passenger-satisfaction-rises/" target="_blank" rel="noopener">Transport Focus</a>, March 2026). It would gain weight if the next survey wave showed value-for-money perception continuing to fall after the £3 cap is withdrawn.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The "plateau" reading rests on the national average, and the strongest challenge to it is that the average masks divergence. Where franchising and devolved funding are already in place, patronage is growing well above the national figure, with Greater Manchester up 11% after franchising (<a href="https://www.passengertransport.co.uk/2026/03/the-inside-track-behind-the-statistics" target="_blank" rel="noopener">Passenger Transport</a>, March 2026). If that pattern holds, the markets Stagecoach is moving into through franchising are precisely the growing ones, and the demand ceiling applies most to the shrinking deregulated commercial base it is moving out of. On that reading, plateaued national demand is less a threat to franchise revenue than a further argument for it.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-5">
+<div class="cluster-header"><h3>5. Ownership, Leverage and Refinancing</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Beneath the revenue and cost changes sits a leveraged ownership structure whose financing was designed for the model that is now being re-based. Stagecoach has been a private company owned through DWS Infrastructure since 2022, and in October 2024 it put in place a roughly £1bn financing platform structured around an investment-grade objective. The consequence for a lender is that the durability of the contracted and commercial revenue analysed in the other four clusters is what services that platform, and the next set of audited financials will not be filed until early 2027. The cluster forces attention onto how the maturity and covenant profile of the financing lines up with the franchising re-tender rhythm and the 2027 funding horizon.</p>
+<div class="cluster-signals">
+<ul>
+<li>In October 2024 Stagecoach put in place a new £1bn platform financing, comprising initial bank facilities of over £750m plus approximately £250m of private placement tranches from European and US investors (<a href="https://www.lw.com/en/news/2024/10/latham-advises-stagecoach-group-on-its-1-billion-long-term-financing" target="_blank" rel="noopener">Latham &amp; Watkins</a>, October 2024).</li>
+<li>The refinancing consolidated separate operating-company and intermediate-company debt and redeemed the legacy publicly traded bond, with maintaining an investment-grade rating named as a key objective of the process (<a href="https://www.natwest.com/corporates/about-us/case-studies/helping_stagecoach_establish_a_single_financing_platform.html" target="_blank" rel="noopener">NatWest</a>, December 2024).</li>
+<li>Stagecoach Group Limited's most recent audited consolidated accounts, for the year ended 3 May 2025, were filed at Companies House on 19 January 2026, and the next full-year accounts are not due until 31 January 2027 (<a href="https://find-and-update.company-information.service.gov.uk/company/SC100764/filing-history" target="_blank" rel="noopener">Companies House</a>, January 2026).</li>
+<li>Three fixed charges created on 20 September 2024 and held by Kroll Trustee Services Limited as security agent remain outstanding, the registered security underpinning the October 2024 financing platform (<a href="https://find-and-update.company-information.service.gov.uk/company/SC100764/charges" target="_blank" rel="noopener">Companies House</a>, accessed May 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The contracting of revenue through franchising is not unambiguously negative for a leveraged owner, and may be the opposite. Franchise income re-allocates revenue risk through local service contracts: under gross-cost contracts the awarding authority takes the fare and demand risk, replacing volatile commercial fare-box receipts with lower-margin but contracted and publicly funded payments, which is a more predictable basis for servicing debt even if the headline margin is thinner (<a href="https://www.gov.uk/government/publications/setting-up-a-bus-franchising-scheme/setting-up-a-bus-franchising-scheme--2" target="_blank" rel="noopener">Department for Transport</a>, January 2026). The structural credit risk that does warrant attention is less the leverage itself than the broader funding uncertainty around it: the £3 fare cap is a time-limited intervention with no settled successor, and the sector faces uncertainty over what follows it and over the level and shape of continued funding, so that policy instability, rather than the financing structure, is the harder variable to underwrite (<a href="https://www.route-one.net/news/what-should-come-next-after-the-bus-fare-cap-scheme-in-england/" target="_blank" rel="noopener">routeone</a>, August 2025).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 plan and the lender's view of the company. Each names the move, a horizon and a decision posture.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Re-cast the revenue base as a contract calendar</h4>
+<p>Stagecoach's leadership and finance function should produce, before the FY27 planning round concludes, a depot-level schedule that classifies every revenue stream as commercial, contracted, or facing a known re-tender date, and maps those dates against the franchising pipeline. The reason is that revenue durability can no longer be assessed at group level: a group revenue figure that looks stable can conceal a depot whose entire income re-tenders in a single year. A contract calendar lets both management and any lender see where revenue is demand-risk-free, where it is exposed to re-tender, and where concentration is greatest, which is the information the next eighteen months of decisions will turn on.</p>
+<p class="si-action">Action: the leadership team delivers a depot-by-depot revenue-and-re-tender schedule into the FY27 planning round, refreshed after each major franchise award.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Clusters <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-4" class="xref">4</a></span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Price franchise bids and fares with explicit cost-indexation headroom</h4>
+<p>The leadership team and the bidding function should build every franchise tender and commercial fare review on cost assumptions that reflect wage settlements running ahead of headline inflation, with explicit indexation headroom, rather than on the margins of the deregulated era. The reason is consequence-driven: a five-year franchise won on under-indexed cost assumptions locks in a thin or negative margin for its full term, and the depot-level settlements now being agreed show the scale of wage growth that bids must absorb. This is a Prepare-posture implication because the discipline is set up now and committed contract by contract as tenders are submitted.</p>
+<p class="si-action">Action: the bidding function adopts, by the next franchise submission, a standard cost-indexation assumption set signed off by finance and reviewed each half-year against the sector cost data.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Clusters <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a></span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Stress-test the financing platform against a combined 2027 horizon</h4>
+<p>The board and finance function should, ahead of the FY27 plan being signed off, test the October 2024 financing platform against a single combined 2027 scenario in which the £3 fare-cap funding is not renewed, a depot-scale re-tender is lost, and the cost base continues to inflate. The reason is that the fare-cap expiry, the franchise re-tender cycle and the platform's own maturity profile all fall in a narrow window, and a lender will read them as one combined exposure rather than three separate ones. Testing them together identifies whether covenant headroom is sufficient or whether pre-emptive action on the financing is warranted before the window narrows.</p>
+<p class="si-action">Action: the board reviews a combined-2027 stress test of the financing platform, covering covenant headroom and refinancing timing, before the FY27 plan is approved.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Clusters <a href="#cluster-2" class="xref">2</a>, <a href="#cluster-3" class="xref">3</a> and <a href="#cluster-5" class="xref">5</a></span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Monitor the funding settlement and re-tender outcomes as leading indicators</h4>
+<p>The finance function should track a small set of external indicators as the leading signals of revenue durability for the next reporting cycle: the West Yorkshire and North East franchising outcomes, any government decision on funding the £3 fare cap beyond March 2027, and the city-region patronage data that tests whether franchised markets are genuinely growing. The reason is that these external events, not internal forecasts, will move the company's revenue picture most over the planning horizon, and an early read on them lets the FY27 plan be adjusted before, rather than after, the facts are settled. No capital commitment attaches to this implication yet; it is the watch-list that feeds the other three.</p>
+<p class="si-action">Action: the finance function maintains a standing watch-list of franchising-award and bus-funding milestones, reported at each board cycle through 2026 and into 2027.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Clusters <a href="#cluster-3" class="xref">3</a>, <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a></span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two uncertainties will shape Stagecoach's next two to five years more than any other. The first is the pace and breadth of franchising: whether the pipeline proceeds broadly on its announced timetable or stalls under capability and affordability constraints. The second is the public-funding settlement after 2027: whether bus funding, including support equivalent to the fare cap, is sustained at roughly current levels or stepped down. The four scenarios below are planning aids, not forecasts.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Contracted and Carried</h4>
+<p>Franchising proceeds on schedule and post-2027 bus funding is broadly sustained. Stagecoach's revenue base steadily converts to a portfolio of five-year contracts paid by well-funded authorities, demand risk transfers off the operator, and the city-region patronage growth seen in early franchised networks broadly holds. Margins are thinner than in the deregulated era but far more predictable, and the financing platform services comfortably against contracted cash flows. The operator's task becomes disciplined bidding and depot redeployment between contract cycles. For a lender, this is the most legible environment: revenue is demand-risk-free, publicly funded and modellable as a calendar of contract terms, and the central risk narrows to re-tender win rates.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> West Yorkshire and North East awards proceed on time; a government commitment to fund bus support beyond March 2027; city-region patronage data confirming sustained growth.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Squeezed in Transition</h4>
+<p>Franchising proceeds, but the post-2027 funding settlement steps down. Stagecoach converts to contracted revenue just as the public money behind it tightens, so authorities tender harder on price and specify more for less. Contracted margins compress against a cost base still inflating faster than indexation, and the demand-risk-free quality of franchise income is partly offset by authorities' weaker ability to pay. The financing platform faces a combined squeeze: lower contract margins, a lost fare-cap subsidy and a re-tender cycle all in the same window. This is the environment the combined-2027 stress test is built for, and disciplined bidding becomes existential rather than merely prudent.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> the fare cap lapses or is not replaced in March 2027; combined-authority budgets cut in the next Spending Review; franchise tenders awarded at visibly compressed prices.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>The Long Deregulated Tail</h4>
+<p>Franchising stalls while post-2027 funding holds. Capability gaps, failed statutory audits or affordability concerns push award dates out across several authorities, so Stagecoach's network stays substantially commercial for longer than the announced calendar implies. The company keeps the upside and the volatility of fare-box revenue against a backdrop of plateaued national demand and a still-inflating cost base, cushioned by sustained operator-relevant funding. Revenue stays open-ended and harder to model, and the strategic question becomes whether to keep optimising a deregulated network or to position actively for a delayed franchising wave. For a lender, predictability is lower than in a franchised world but the funding floor is intact.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> a major franchising assessment paused or failing audit; combined authorities citing capability gaps; the franchising pipeline slipping by twelve months or more.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Stalled and Underfunded</h4>
+<p>Franchising stalls and post-2027 funding steps down together. Stagecoach is left running a substantially commercial network into weakening public support, with plateaued demand, an inflating cost base and no offsetting transfer of demand risk to authorities. Commercial fares face value-for-money resistance just as costs demand increases, and the funding architecture offers a thinner cushion. This is the most adverse environment for the financing platform because revenue stays volatile and the public floor under it erodes at the same time. Network rationalisation, fare discipline and active management of the refinancing horizon move to the centre of the agenda.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> franchising awards slipping and the fare cap lapsing in the same period; deeper cuts to bus funding in successive settlements; commercial patronage falling against an already plateaued base.</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>A wholesale, simultaneous national shift to municipal bus companies</h4>
+<p>The Bus Services Act 2025 permits local transport authorities to create municipal bus companies as well as to franchise, and that power is real. But standing up a municipal operator at scale requires depots, fleet, drivers and operational capability that authorities do not currently hold, and the same capability gap that slows franchising delivery applies with greater force to running services directly. The near-term pipeline is dominated by franchising to existing operators, not by municipalisation, so a rapid sector-wide displacement of commercial operators by council-owned companies is not the planning case for this horizon.</p>
+<p class="reinstatement">Reinstate if: two or more large authorities announce concrete municipal operating plans with depot and fleet acquisition under way within a single year.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A near-term forced refinancing of the October 2024 platform</h4>
+<p>The financing platform was put in place in October 2024 as a long-term structure, with a stated investment-grade objective and a consolidation of previously separate debt. Nothing in the verified evidence base points to a maturity, covenant breach or rating event inside the 6-to-18-month horizon, and the next audited accounts are not due until early 2027. The cluster analysis treats the financing as a horizon to test and manage, not a near-term distress event, so a disorderly forced refinancing is not the planning case.</p>
+<p class="reinstatement">Reinstate if: a rating action, a covenant amendment, or a disclosed near-dated maturity emerges from the next set of filings or from market reporting.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A demand collapse in the commercial network</h4>
+<p>National bus demand has plateaued rather than fallen: the latest data shows patronage up 1% and broadly stable after the post-pandemic recovery, with city-region markets in several cases growing. The evidence points to a ceiling on commercial fare-box growth, not to a contraction, and the value-for-money satisfaction signal, while a genuine softening, is not a demand-collapse indicator on its own. A sharp, sustained fall in commercial patronage is therefore not the planning case for this cycle, though plateaued demand is fully reflected in the cluster analysis.</p>
+<p class="reinstatement">Reinstate if: a national statistics release shows commercial bus patronage falling materially year-on-year, or value-for-money satisfaction declines for two consecutive survey waves.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>If franchising removes demand risk but caps margins, what win rate on re-tenders does the FY27 plan assume, and what would a one-in-three loss rate across the next round of awards do to group cash generation?</li>
+<li>Where a depot's revenue rests on a single franchise that re-tenders on a known date, is the company prepared to treat that as a concentration risk to be actively managed, or to accept it as the normal texture of a franchised business?</li>
+<li>The city-region patronage data suggests franchised markets are growing faster than the national average. Should that change how aggressively Stagecoach bids to enter franchised networks, even at lower headline margins, rather than defending the deregulated base?</li>
+<li>The fare-cap funding, the franchise re-tender cycle and the financing platform's maturity all cluster around 2027. Should the company act on the refinancing horizon pre-emptively, accepting a cost, or hold and risk refinancing into a weaker window?</li>
+<li>If the post-2027 funding settlement steps down while franchising proceeds, is the bidding discipline strong enough to walk away from tenders priced below a sustainable contracted margin, and who holds that line?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This report draws on 39 verified sources, gathered under a soft six-month window with primary evidence dated late November 2025 to May 2026, alongside a smaller set of older structural anchors retained because the topic is regulation and funding heavy, among them the Bus Services Act 2025 and the October 2024 financing record.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Cluster 1: Franchising Re-bases the Revenue Model</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.legislation.gov.uk/ukpga/2025/24" target="_blank" rel="noopener">Bus Services Act 2025</a></td><td class="tier-1">Tier 1</td><td>Oct 2025</td><td>All local transport authorities may franchise without Secretary of State consent; municipal companies permitted; directly-awarded first contracts capped at five years.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/news/better-connected-tap-and-go-travel-across-trains-trams-and-buses-announced-in-governments-new-transport-strategy" target="_blank" rel="noopener">Department for Transport, Better Connected transport strategy</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>National transport strategy making the expansion of franchising powers central to bus reform, with local control of routes, fares and timetables.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/publications/bus-franchising-manual" target="_blank" rel="noopener">Department for Transport, Bus franchising manual</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Statutory guidance to authorities on franchising models and on realising the benefits and mitigating the risks of franchising.</td></tr>
+<tr><td><a href="https://www.merseytravel.gov.uk/news/operators-announced-for-first-franchised-bus-services-in-the-liverpool-city-region-in-40-years/" target="_blank" rel="noopener">Merseytravel, first franchised operators announced</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Liverpool City Region awarded its first franchises in forty years, St Helens to Stagecoach and Wirral to Go-Ahead.</td></tr>
+<tr><td><a href="https://media.stagecoachgroup.com/news/stagecoach-wins-contract-to-operate-new-liverpool-city-region-bus-network" target="_blank" rel="noopener">Stagecoach Group, Liverpool City Region win</a></td><td class="tier-4">Tier 4</td><td>Jan 2026</td><td>Company framing of the St Helens win: 26 routes, 113 buses from Jackson Street depot, services from September 2026.</td></tr>
+<tr><td><a href="https://www.passengertransport.co.uk/2026/05/bus-franchising-and-the-capacity-gap" target="_blank" rel="noopener">Passenger Transport, Bus franchising and the capacity gap</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Franchises run for five years plus a two-year option, creating recurring re-tender uncertainty; authorities face a capability gap.</td></tr>
+<tr><td><a href="https://www.passengertransport.co.uk/2026/03/west-yorkshire-plans-june-date-for-contracts" target="_blank" rel="noopener">Passenger Transport, West Yorkshire plans June date</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>West Yorkshire expects to award its first Weaver Network franchising contracts by the end of June 2026.</td></tr>
+<tr><td><a href="https://www.northeast-ca.gov.uk/news/transport/mayor-kim-moves-north-east-closer-to-bringing-buses-back-under-public-control" target="_blank" rel="noopener">North East Combined Authority, franchising assessment</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>North East agreed to submit its franchising scheme assessment for audit and consultation, with a final decision due early 2027.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/blogs/fares-franchising-and-funding-what-the-2026-manifestos-mean-for-scotland-s-bus-and-coach-sector//" target="_blank" rel="noopener">Confederation of Passenger Transport, Scotland manifestos blog</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Operator position questioning the affordability and deliverability of franchising commitments.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 2: The Cost Base and Margin Compression</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.passengertransport.co.uk/2026/05/album-chair-warns-of-mounting-pressures" target="_blank" rel="noopener">Passenger Transport, ALBUM chair warns of mounting pressures</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>April 2025 employer NI rise hit operators directly, adding about £1.3m of extra cost for Nottingham City Transport alone.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/england-needs-faster-buses-cpt-launches-report-calling-for-bold-bus-priority-to-seize-5bn-prize/" target="_blank" rel="noopener">Confederation of Passenger Transport, England needs faster buses</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>The bus operating-cost base is efficiency-sensitive: a 10% gain in bus speeds would cut operating costs by 7.5%, about £511m a year.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/national-insurance-rise-will-mean-a-100m-bill-for-bus-operators/" target="_blank" rel="noopener">Confederation of Passenger Transport, National Insurance £100m bill for bus operators</a></td><td class="tier-3">Tier 3</td><td>Nov 2024</td><td>CPT estimates the April 2025 employer National Insurance rise costs the bus industry about £100m in total.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/cpt-cost-monitor-operating-costs-across-great-britain-s-bus-sector-rise-4-over-the-past-year/" target="_blank" rel="noopener">Confederation of Passenger Transport, CPT Cost Monitor</a></td><td class="tier-3">Tier 3</td><td>Aug 2025</td><td>GB bus-sector unit operating costs rose 4% in the year to February 2025, labour up 6.6% and engineering up 8.6%.</td></tr>
+<tr><td><a href="https://www.passengertransport.co.uk/2026/05/fuel-situation-could-be-growth-opportunity" target="_blank" rel="noopener">Passenger Transport, fuel situation</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Diesel prices about 35% above normal levels, squeezing fuel costs; operators see possible modal-shift offset.</td></tr>
+<tr><td><a href="https://news.firstbus.co.uk/news-updates/industrial-action-in-doncaster" target="_blank" rel="noopener">First Bus, industrial action in Doncaster</a></td><td class="tier-4">Tier 4</td><td>May 2026</td><td>Doncaster pay offer: immediate 7% rise backdated to January 2026, 18% overall by July 2027, illustrating settlement scale.</td></tr>
+<tr><td><a href="https://www.aol.com/articles/bus-driver-strike-suspended-fresh-100302072.html" target="_blank" rel="noopener">BBC News, bus driver strike suspended</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Counter-evidence: planned Doncaster strike suspended after Acas-brokered talks reached a positive position.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 3: The Funding Architecture and the 2027 Cliff-Edges</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.gov.uk/government/publications/local-authority-bus-grant-allocations/labg-revenue-allocations-2026-to-2029" target="_blank" rel="noopener">Department for Transport, LABG revenue allocations</a></td><td class="tier-1">Tier 1</td><td>Dec 2025</td><td>From 2026-27 BSIP and Local Authority BSOG merge into a single LABG paid to authorities, £480.8m revenue a year to 2028-29.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/news/better-buses-more-services-3-billion-boost-for-millions-of-passengers" target="_blank" rel="noopener">Department for Transport, £3 billion boost</a></td><td class="tier-1">Tier 1</td><td>Dec 2025</td><td>Multi-year settlement of almost £700m a year to 2028-29, plus over £150m a year maintaining the £3 fare cap to March 2027.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/cpt-responds-to-government-s-free-summer-bus-fares-for-children/" target="_blank" rel="noopener">Confederation of Passenger Transport, response to free summer fares</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>The £3 English national fare cap is a live, centrally funded support whose reimbursement has failed to keep up with inflation.</td></tr>
+<tr><td><a href="https://bus-news.com/uk-3-bus-fare-cap-extended-to-march-2027/" target="_blank" rel="noopener">Bus-News, £3 bus fare cap extended to March 2027</a></td><td class="tier-3">Tier 3</td><td>Jun 2025</td><td>The £3 England single-fare cap was extended at the June 2025 Spending Review through to March 2027, a centrally funded, time-limited support.</td></tr>
+<tr><td><a href="https://www.gov.scot/publications/scottish-spending-review-2026/pages/9/" target="_blank" rel="noopener">Scottish Government, Spending Review 2026, Transport</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Concessionary Fares and Bus Services funding set at £528.3m, £523.5m and £529.8m for the three years from 2026-27.</td></tr>
+<tr><td><a href="https://www.transport.gov.scot/public-transport/buses/network-support-grant/" target="_blank" rel="noopener">Transport Scotland, Network Support Grant</a></td><td class="tier-1">Tier 1</td><td>Evergreen, accessed May 2026</td><td>The Network Support Grant pays operators 14.4p per kilometre, a discretionary subsidy in place since April 2022.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/news/cost-of-living-boost-with-free-bus-travel-for-children-and-targeted-food-tariff-cuts" target="_blank" rel="noopener">Department for Transport, free child bus travel</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>Over £100m to fund free August bus travel for children, plus undefined support for bus services facing increased costs.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/cpt-urges-greater-long-term-government-investment-in-bus-services/" target="_blank" rel="noopener">Confederation of Passenger Transport, urges long-term Government investment</a></td><td class="tier-3">Tier 3</td><td>Jan 2025</td><td>Counter-evidence: operator body presses for a five-year funding settlement and structural funding reform rather than fare measures alone.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 4: Demand Has Plateaued</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.gov.uk/government/statistics/annual-bus-statistics-year-ending-march-2025/annual-bus-statistics-year-ending-march-2025" target="_blank" rel="noopener">Department for Transport, Annual bus statistics</a></td><td class="tier-1">Tier 1</td><td>Nov 2025</td><td>3.7bn passenger journeys in the year to March 2025, up 1%, still 90% of pre-pandemic; bus mileage at 89% of pre-pandemic.</td></tr>
+<tr><td><a href="https://www.route-one.net/bus/dft-stats-bus-patronage-rise-stalls-concessions-and-bus-mileage-up/" target="_blank" rel="noopener">routeone, DfT stats: bus patronage rise stalls</a></td><td class="tier-3">Tier 3</td><td>Nov 2025</td><td>The post-pandemic rise in bus journeys per head in Great Britain has stalled, flat at 60 trips per adult in the year to March 2025.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/statistics/concessionary-travel-statistics-year-ending-march-2025/concessionary-travel-statistics-year-ending-march-2025" target="_blank" rel="noopener">Department for Transport, Concessionary Travel Statistics</a></td><td class="tier-1">Tier 1</td><td>Nov 2025</td><td>624m concessionary journeys, below pre-pandemic; from April 2024 reimbursement reverted to a "no better, no worse off" basis.</td></tr>
+<tr><td><a href="https://www.passengertransport.co.uk/2026/03/the-inside-track-behind-the-statistics" target="_blank" rel="noopener">Passenger Transport, the inside track behind the statistics</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Counter-evidence: city-region patronage grew above the national 1%, including 11% in Greater Manchester after franchising.</td></tr>
+<tr><td><a href="https://www.nao.org.uk/press-releases/passenger-journeys-decline-amid-uncertainty-over-commercial-viability-of-local-bus-services/" target="_blank" rel="noopener">National Audit Office, commercial viability of bus services</a></td><td class="tier-1">Tier 1</td><td>Jun 2025</td><td>Bus services not recovered to pre-Covid levels; operators now rely on public funding for about half of revenue.</td></tr>
+<tr><td><a href="https://www.transportfocus.org.uk/news/transport-user-voice-march-2026-bus-passenger-satisfaction-rises/" target="_blank" rel="noopener">Transport Focus, bus passenger satisfaction</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Overall satisfaction rose to 85% in 2025, but satisfaction with value for money fell ten points to 63%.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/cpt-responds-to-3-bus-fare-cap-extension/" target="_blank" rel="noopener">Confederation of Passenger Transport, response to £3 fare cap extension</a></td><td class="tier-3">Tier 3</td><td>Jun 2025</td><td>The operator body welcomes the £3 cap extension but stresses low headline fares are only an important part of the demand mix.</td></tr>
+</tbody>
+</table>
+
+<h4>Cluster 5: Ownership, Leverage and Refinancing</h4>
+<table>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://find-and-update.company-information.service.gov.uk/company/SC100764" target="_blank" rel="noopener">Companies House, Stagecoach Group Limited overview</a></td><td class="tier-1">Tier 1</td><td>Evergreen, accessed May 2026</td><td>Stagecoach Group Limited is an active private company in Perth; latest filed accounts cover the year to 3 May 2025.</td></tr>
+<tr><td><a href="https://find-and-update.company-information.service.gov.uk/company/SC100764/filing-history" target="_blank" rel="noopener">Companies House, Stagecoach Group Limited filing history</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Audited consolidated accounts for the year ended 3 May 2025 filed on 19 January 2026; next accounts due 31 January 2027.</td></tr>
+<tr><td><a href="https://find-and-update.company-information.service.gov.uk/company/SC100764/charges" target="_blank" rel="noopener">Companies House, Stagecoach Group Limited charges</a></td><td class="tier-1">Tier 1</td><td>Evergreen, accessed May 2026</td><td>Three fixed charges created 20 September 2024, held by Kroll Trustee Services, remain outstanding as security for the financing.</td></tr>
+<tr><td><a href="https://www.lw.com/en/news/2024/10/latham-advises-stagecoach-group-on-its-1-billion-long-term-financing" target="_blank" rel="noopener">Latham &amp; Watkins, £1bn long-term financing</a></td><td class="tier-4">Tier 4</td><td>Oct 2024</td><td>October 2024 £1bn platform financing: over £750m bank facilities plus about £250m of private placement tranches.</td></tr>
+<tr><td><a href="https://www.natwest.com/corporates/about-us/case-studies/helping_stagecoach_establish_a_single_financing_platform.html" target="_blank" rel="noopener">NatWest, single financing platform case study</a></td><td class="tier-4">Tier 4</td><td>Dec 2024</td><td>The refinancing consolidated OpCo and MidCo debt, redeemed the public bond, with an investment-grade objective.</td></tr>
+<tr><td><a href="https://www.cpt-uk.org/news/cpt-statement-on-the-autumn-budget-2025/" target="_blank" rel="noopener">Confederation of Passenger Transport, statement on the Autumn Budget 2025</a></td><td class="tier-3">Tier 3</td><td>Nov 2025</td><td>Wage, tax and fuel cost pressure threatens already fragile operating margins, indicating how exposed debt-servicing cash flows are to cost inflation.</td></tr>
+<tr><td><a href="https://www.route-one.net/news/what-should-come-next-after-the-bus-fare-cap-scheme-in-england/" target="_blank" rel="noopener">routeone, what should come next after the bus fare cap scheme</a></td><td class="tier-3">Tier 3</td><td>Aug 2025</td><td>The £3 fare cap is a time-limited intervention with no settled successor, leaving funding-strategy uncertainty over what follows it.</td></tr>
+<tr><td><a href="https://www.gov.uk/government/publications/setting-up-a-bus-franchising-scheme/setting-up-a-bus-franchising-scheme--2" target="_blank" rel="noopener">Department for Transport, setting up a bus franchising scheme</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Counter-evidence: franchising re-allocates revenue risk through gross-cost and net-cost local service contracts, contracted income being a more predictable basis for servicing debt.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim in the report that goes beyond what a cited source literally states, so a reviewer can see where analyst inference, rather than a source, is doing the work.</p>
+
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>None. This is the inaugural decision-intelligence cycle on Stagecoach, so there is no prior memory.json to trace to. The Executive Synthesis states plainly that the cycle establishes the baseline rather than tracking deltas (Executive Synthesis, paragraph 1); no phrase in the report claims that a prior cycle identified anything.</p>
+
+<h4>Superlatives used</h4>
+<p>The phrase "the United Kingdom's largest bus and coach operator" appears only in the commissioning brief and was not carried into the report body, so no superlative of that kind is asserted in the prose.</p>
+<p>"First franchises in forty years" and "first franchised bus services in the Liverpool City Region in 40 years" (Executive Synthesis paragraph 1; Cluster 1 framing and first and second signal bullets) trace directly to the Merseytravel source, which uses the same formulation for the same referent. The Stagecoach press release describes the St Helens win as the company's first English franchise win under the new regime; the report says "first franchises in forty years" of the Liverpool City Region rather than characterising the win as a national first, so the report is the more conservative of the two.</p>
+<p>No other superlatives (largest, only, unprecedented, record-breaking, of the decade) appear in the body.</p>
+
+<h4>Analytical synthesis claims</h4>
+<p>Several judgements in the report read across multiple sources rather than resting on one, and each is marked in the body as analyst voice.</p>
+<p>The reading that contracted franchise income is, for a holder of operator debt, in several respects more bankable than open-ended fare-box revenue (Executive Synthesis paragraph 5; Cluster 5 counter-argument) is a synthesis drawing on the Passenger Transport "capacity gap" piece, the Department for Transport funding documents and the National Audit Office viability assessment. It is framed in the body with "the more careful reading is" and "Taken together, the sources suggest".</p>
+<p>The judgement that the genuine hazard is concentration and timing rather than franchising itself (Executive Synthesis paragraph 5) is analyst inference across the franchising and funding clusters, and is presented as the report's reading rather than a sourced fact.</p>
+<p>The claim that demand divergence makes plateaued national demand a further argument for franchise revenue (Cluster 4 counter-argument) is an inference from the Urban Transport Group city-region data set against the Department for Transport national figure, and is framed as a conditional reading, "If that pattern holds".</p>
+<p>The combined-2027 framing, that the fare-cap expiry, the re-tender cycle and the financing maturity profile fall in one window and should be tested together (Executive Synthesis; Cluster 3; Cluster 5; Strategic Implication 3), is an analytical synthesis across the funding and financing clusters. The precise maturity profile of the October 2024 platform is not disclosed in the evidence base, so the timing overlap is presented as a horizon to test rather than a stated fact.</p>
+<p>Two smaller points. The Greater Manchester Bee Network being described as "running" (Executive Synthesis paragraph 1) is general context and is not separately cited; a dedicated source could be added in a future cycle. The description of the October 2024 platform as "roughly &pound;1bn" is supported directly by the Latham &amp; Watkins and NatWest records.</p>
+</div>
+
+<hr>
+<p class="small">&copy; 2026 Shaping Tomorrow. Decision-Grade Strategic Intelligence Report prepared for Stagecoach Group Ltd.</p>
+
+</div>
+
+</body>
+</html>

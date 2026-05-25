@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="da">
+<!--
+  Change Tracker (legacy name: Trend Tracker): momentum across multiple
+  signals on one topic. Copy this file to <today>/tracker.html and fill every
+  token and FILL block. CSS below is validated; do not edit it.
+  The long-dash ban is binding: no long-dash character or entity anywhere.
+-->
+<head>
+<meta charset="utf-8">
+<title>Industriel AI rykker ind i udførelse; humanoider forbliver indhegnede, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .lang-switch { font-size: 0.85em; color: #5a6478; margin: -6px 0 16px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; BSB Industry</div>
+<p class="lang-switch"><a href="tracker.html">English</a> &middot; <strong>Dansk</strong></p>
+
+<article>
+
+<h2>Industriel AI rykker ind i udførelse; humanoider forbliver indhegnede</h2>
+<p class="seo-line">Denne cyklus læser automatiseringsbølgen som softwaredrevet, ikke robotdrevet: industriel og agentbaseret AI rykker fra pilotprojekter ind i produktion, mens en produktionsopgang og en hastigt voksende asiatisk robotbase bygger sig op nedenunder, og humanoider på fabriksgulvet, det mest omtalte element, bevæger sig langsomst.</p>
+<p class="meta">Change Tracker &middot; Avanceret produktionsautomatisering og industriel AI &middot; Cyklus: 24. maj 2026</p>
+
+<p>Konsensus siger, at en AI-drevet robotbølge, anført af humanoider, ankommer hurtigt på fabriksgulvet. Evidensen understøtter en skarpere læsning. Den reelle accelerator er industriel og agentbaseret AI, der rykker fra pilot til produktion, sammen med en produktionsopgang og en hastigt voksende asiatisk robotbase. Humanoiden ved en arbejdsstation, det mest omtalte element, bevæger sig langsomst: indhegnet, overvåget, over begynderløn. Momentum ligger i softwaren og den makroøkonomiske cyklus, ikke i hardware-spektaklet. Spørgsmålet for en producent er, hvilke automatiseringsinvesteringer der følger en reel accelerator, og hvilke der betaler for en demonstration.</p>
+
+<h3>Momentum på tværs af emnet</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Retning</th><th>Evidens</th><th>Kommentar</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Global produktions- og investeringsopgang</td>
+<td><span class="momentum-pill accelerating">Accelererer</span></td>
+<td>Global PMI på et 44-måneders højdepunkt; produktionen af investeringsgoder på et seksmåneders højdepunkt</td>
+<td>Efterspørgslen efter kapitalgoder, den ledende indikator for automatisering, er stigende (<a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/a0d2b851a1c7426a9252c088cd7888e9" target="_blank" rel="noopener">S&amp;P Global</a>, marts 2026).</td>
+</tr>
+<tr>
+<td>Asiens automatiseringsbølge</td>
+<td><span class="momentum-pill accelerating">Accelererer</span></td>
+<td>Kinas robottæthed op 17%; Asien stod for 74% af installationerne i 2024</td>
+<td>Kinas 15. femårsplan gør AI-integreret robotteknologi til en kerne (<a href="https://ifr.org/ifr-press-releases/news/china-makes-ai-powered-robots-core-of-national-strategy" target="_blank" rel="noopener">IFR</a>, maj 2026).</td>
+</tr>
+<tr>
+<td>Industriel AI rykker fra pilotprojekter til udførelse</td>
+<td><span class="momentum-pill accelerating">Accelererer</span></td>
+<td>Hannover Messe 2026 som vendepunkt, bekræftet af WEF og Deloitte</td>
+<td>Agentbaseret og Vision-Language-Action-AI skifter fra pilot til produktion (<a href="https://infotechlead.com/networking/hannover-messe-2026-signals-shift-from-ai-hype-to-industrial-ai-execution-robotics-scale-and-energy-resilience-95784" target="_blank" rel="noopener">InfotechLead</a>, maj 2026).</td>
+</tr>
+<tr>
+<td>Kinesisk kommercialisering af humanoider</td>
+<td><span class="momentum-pill accelerating">Accelererer</span></td>
+<td>Enhedsprisen for humanoider faldet cirka 70% siden 2023</td>
+<td>Unitrees børsnoteringsdokument og UBTech-ordrer viser hurtig opskalering (<a href="https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" target="_blank" rel="noopener">Rest of World</a>, marts 2026).</td>
+</tr>
+<tr>
+<td>Skaleret værdiindfrielse fra industriel AI</td>
+<td><span class="momentum-pill stable">Stabil</span></td>
+<td>93% af producenterne øger deres AI-udgifter, kun 2% har AI fuldt indlejret</td>
+<td>Ambitionen stiger hurtigt; den realiserede værdi gør det ikke (<a href="https://www.mckinsey.com/capabilities/operations/our-insights/from-pilots-to-performance-how-coos-can-scale-ai-in-manufacturing" target="_blank" rel="noopener">McKinsey</a>, december 2025).</td>
+</tr>
+<tr>
+<td>Humanoide robotter på fabriksgulvet</td>
+<td><span class="momentum-pill stable">Stabil</span></td>
+<td>Implementeringer fortsat indhegnede og overvågede; kommerciel bølge i 2027</td>
+<td>Fabrikshumanoider forbliver indhegnede og overvågede, over begynderløn (<a href="https://futurism.com/robots-and-machines/robot-worker-factory-digit" target="_blank" rel="noopener">Futurism</a>, marts 2026).</td>
+</tr>
+<tr>
+<td>Europæisk leverandørbase for automatisering</td>
+<td><span class="momentum-pill fading">Aftager</span></td>
+<td>VDMA forventer et salgsfald på 5% i 2026 efter 7% i 2025</td>
+<td>Tysk robotomsætning skrumper ifølge VDMA's læsning af strukturel svaghed (<a href="https://wileyindustrynews.com/en/news/vdma-robotics-and-automation-industry-faces-challenges" target="_blank" rel="noopener">Wiley Industry News</a>, februar 2026).</td>
+</tr>
+<tr>
+<td>EU's AI-forordning som pres på industriel AI</td>
+<td><span class="momentum-pill fading">Aftager</span></td>
+<td>Regulatorisk udsættelse: højrisikoforpligtelser udskudt op til 16 måneder</td>
+<td>Digital Omnibus-aftalen letter byrden af AI-overholdelse (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank" rel="noopener">Rådet for Den Europæiske Union</a>, maj 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Mønsterfortælling</h3>
+
+<div class="cluster opportunity">
+<h4>Både efterspørgslen og den regulatoriske bremse vender til det gunstige<span class="cluster-type">Spirende mulighed</span></h4>
+<p>Signal 1 og 8 begunstiger producenten på én gang. PMI på et 44-måneders højdepunkt med produktionen af investeringsgoder på et seksmåneders højdepunkt signalerer fornyet appetit på automatiseringsudstyr (<a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/a0d2b851a1c7426a9252c088cd7888e9" target="_blank" rel="noopener">S&amp;P Global / J.P. Morgan</a>, marts 2026), mens Digital Omnibus-udsættelsen løfter en overholdelsesomkostning af indlejret AI (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank" rel="noopener">Rådet for Den Europæiske Union</a>, maj 2026). Et forbehold: 1,595 billioner dollars i automatiseringsdrevne amerikanske investeringer efterlader fabriksjobbene 82.000 lavere (<a href="https://www.industrialsage.com/us-manufacturing-reshoring-jobs-2026/" target="_blank" rel="noopener">IndustrialSage</a>, april 2026).</p>
+</div>
+
+<div class="cluster transformation">
+<h4>Industriel AI rykker ind i produktion, ujævnt<span class="cluster-type">Transformationsdriver</span></h4>
+<p>Signal 3, 5 og 6 er kernetransformationen. Hannover Messe 2026, WEF's Lighthouse-kohorte og Deloittes prognose placerer agentbaseret og Vision-Language-Action-AI i produktion (<a href="https://infotechlead.com/networking/hannover-messe-2026-signals-shift-from-ai-hype-to-industrial-ai-execution-robotics-scale-and-energy-resilience-95784" target="_blank" rel="noopener">InfotechLead</a>, maj 2026). Friktionen er kløften mellem implementering og værdi: kun 2% af producenterne indlejrer AI fuldt ud (<a href="https://www.mckinsey.com/capabilities/operations/our-insights/from-pilots-to-performance-how-coos-can-scale-ai-in-manufacturing" target="_blank" rel="noopener">McKinsey</a>, december 2025), og den indhegnede humanoid kan endnu ikke registrere en person (<a href="https://futurism.com/robots-and-machines/robot-worker-factory-digit" target="_blank" rel="noopener">Futurism</a>, marts 2026).</p>
+</div>
+
+<div class="cluster risk">
+<h4>Automatiseringens tyngdepunkt flytter mod øst<span class="cluster-type">Risiko under udvikling</span></h4>
+<p>Signal 2, 4 og 7 peger i én retning. Asien stod for 74% af robotinstallationerne i 2024, og Kinas tæthed steg 17% år til år (<a href="https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas" target="_blank" rel="noopener">IFR</a>, april 2026), mens VDMA forudser endnu et omsætningsfald på 5% for tysk robotteknologi (<a href="https://wileyindustrynews.com/en/news/vdma-robotics-and-automation-industry-faces-challenges" target="_blank" rel="noopener">Wiley Industry News</a>, februar 2026). Risikoen er afhængighed af en forsyningsbase, hvis skala og omkostninger fastsættes andetsteds.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figur 1: Otte signaler efter momentumretning</h4>
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Momentumoversigt, der placerer otte sporede signaler i tre kolonner. Accelererer-kolonnen rummer global produktions- og investeringsopgang, Asiens automatiseringsbølge, industriel AI der rykker mod udførelse, og kinesisk kommercialisering af humanoider. Stabil-kolonnen rummer skaleret værdiindfrielse fra industriel AI og humanoide robotter på fabriksgulvet. Aftager-kolonnen rummer den europæiske leverandørbase for automatisering og presset fra EU's AI-forordning. Chipomridsets farve angiver klynge: grøn for mulighed, indigo for transformation, rød for risiko.">
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"></rect>
+  <text x="120" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#c62828">Accelererer</text>
+  <text x="360" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f57c00">Stabil</text>
+  <text x="600" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#43a047">Aftager</text>
+  <line x1="240" y1="40" x2="240" y2="340" stroke="#9aa3b2" stroke-width="1"></line>
+  <line x1="480" y1="40" x2="480" y2="340" stroke="#9aa3b2" stroke-width="1"></line>
+
+  <!-- Accelerating column -->
+  <rect x="14" y="52" width="212" height="56" rx="8" fill="#ffffff" stroke="#43a047" stroke-width="2"></rect>
+  <text x="120" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Produktions- og</text>
+  <text x="120" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">investeringsopgang</text>
+
+  <rect x="14" y="120" width="212" height="56" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="120" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Asiens automatiseringsbølge</text>
+
+  <rect x="14" y="188" width="212" height="56" rx="8" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="120" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Industriel AI rykker mod</text>
+  <text x="120" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">udførelse</text>
+
+  <rect x="14" y="256" width="212" height="56" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="120" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Kinesisk kommercialisering</text>
+  <text x="120" y="297" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">af humanoider</text>
+
+  <!-- Stable column -->
+  <rect x="254" y="120" width="212" height="56" rx="8" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="360" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Skaleret værdiindfrielse</text>
+  <text x="360" y="161" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">fra industriel AI</text>
+
+  <rect x="254" y="188" width="212" height="56" rx="8" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="360" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Humanoide robotter på</text>
+  <text x="360" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">fabriksgulvet</text>
+
+  <!-- Fading column -->
+  <rect x="494" y="120" width="212" height="56" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="600" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Europæisk leverandørbase</text>
+  <text x="600" y="161" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">for automatisering</text>
+
+  <rect x="494" y="188" width="212" height="56" rx="8" fill="#ffffff" stroke="#43a047" stroke-width="2"></rect>
+  <text x="600" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Pres fra EU's AI-</text>
+  <text x="600" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">forordning</text>
+
+  <!-- Legend -->
+  <rect x="14" y="328" width="14" height="14" rx="3" fill="#ffffff" stroke="#43a047" stroke-width="2"></rect>
+  <text x="34" y="339" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Mulighed</text>
+  <rect x="130" y="328" width="14" height="14" rx="3" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="150" y="339" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Transformation</text>
+  <rect x="270" y="328" width="14" height="14" rx="3" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="290" y="339" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Risiko</text>
+</svg>
+<p class="figure-caption">Kildegrundlag: de otte signaler i denne cyklus' momentumtabel, med retninger og klynger som klassificeret på tværs af evidensgrundlaget med 17 kilder.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signaler, der vinder momentum</h3>
+<ol>
+<li><strong>Industriel AI rykker fra pilotprojekter til udførelse.</strong> En tvungen beslutning ankommer, så snart agentbaserede systemer viser reviderede afkast på linjeniveau hos sammenlignelige fabrikker.</li>
+<li><strong>Asiens automatiseringsbølge.</strong> Hvis kinesisk robotteknologi underbyder vestlige leverandører på pris og kapacitet, bliver indkøb et valg på bestyrelsesniveau.</li>
+<li><strong>Global produktions- og investeringsopgang.</strong> Vedvarende styrke i investeringsgoder flytter spørgsmålet fra, om der skal investeres, til hvor hurtigt.</li>
+<li><strong>Kinesisk kommercialisering af humanoider.</strong> Når priser og kapacitet når fabriksøkonomi, må en overvågningsholdning blive til en kapitalplan.</li>
+</ol>
+</div>
+
+<h3>Wild Cards at holde øje med</h3>
+
+<div class="wild-card opportunity">
+<h4>En robotteknologisk grundmodel, der faktisk generaliserer</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptiv mulighed</span>
+<span class="wc-impact">Potentiel effekt: Meget høj</span>
+</p>
+<p><strong>Overraskelseskarakteristika:</strong> fagfolk forventer ikke et enkelt "ChatGPT-øjeblik" for robotteknologi; et gennembrud inden for generel manipulation ville trodse forventningerne.</p>
+<p><strong>Tidlige varslingsindikatorer:</strong> en Vision-Language-Action-model med robust manipulation på tværs af opgaver uden for laboratoriet.</p>
+<p>Hvis generel manipulation knækkes, vender økonomien i fleksibel automatisering, og tidslinjen for humanoider komprimeres (<a href="https://spectrum.ieee.org/robotics-ai-breakthrough" target="_blank" rel="noopener">IEEE Spectrum</a>, maj 2026).</p>
+
+</div>
+
+<div class="wild-card risk">
+<h4>En udrensning i humanoidsektoren</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptiv risiko</span>
+<span class="wc-impact">Potentiel effekt: Høj</span>
+</p>
+<p><strong>Overraskelseskarakteristika:</strong> ordrebøgerne ser stærke ud, men en stor del af efterspørgslen er politikdrevet og koncentreret hos forskningskøbere.</p>
+<p><strong>Tidlige varslingsindikatorer:</strong> en flagskibsproducent af humanoider, der ikke når sine børsnoterings- eller omsætningsmål.</p>
+<p>Cirka halvdelen af UBTechs ordreværdi er statslig dataindsamling (<a href="https://eu.36kr.com/en/p/3573683700078727" target="_blank" rel="noopener">36Kr</a>, november 2025), og Kinas over 100 humanoidvirksomheder står over for konsolidering (<a href="https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" target="_blank" rel="noopener">Rest of World</a>, marts 2026).</p>
+</div>
+
+<div class="wild-card risk">
+<h4>Pludselige skift i eksportkontrol for AI-chips</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptiv risiko</span>
+<span class="wc-impact">Potentiel effekt: Høj</span>
+</p>
+<p><strong>Overraskelseskarakteristika:</strong> amerikansk politik er netop blevet lempet til vurdering fra sag til sag for avancerede AI-chips til Kina; en kovending ville skære den anden vej.</p>
+<p><strong>Tidlige varslingsindikatorer:</strong> en ny BIS-regel eller meddelelse i Federal Register, eller en skarp optrapning mellem USA og Kina.</p>
+
+<p>Køreplanerne for industriel AI-beregningskapacitet hviler på en politik, der har bevæget sig to gange på et år (<a href="https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china" target="_blank" rel="noopener">U.S. Bureau of Industry and Security</a>, januar 2026). En kovending ville prissætte beregningskapacitet på ny.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figur 2: Wild cards efter overraskelse og potentiel effekt</h4>
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="En matrix med to akser, der plotter tre wild cards. Den vandrette akse er overraskelse, fra lavere til venstre til højere til højre. Den lodrette akse er potentiel effekt, fra Høj længere nede til Meget høj længere oppe. En robotteknologisk grundmodel, der generaliserer, ligger ved højere overraskelse og Meget høj effekt, markeret som en mulighed i petroleumsgrøn. En udrensning i humanoidsektoren ligger ved moderat overraskelse og Høj effekt, markeret som en risiko i lilla. Pludselige skift i eksportkontrol for AI-chips ligger ved højere overraskelse og Høj effekt, ligeledes markeret som en risiko i lilla.">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"></rect>
+  <!-- axes -->
+  <line x1="110" y1="320" x2="680" y2="320" stroke="#9aa3b2" stroke-width="1.5"></line>
+  <line x1="110" y1="50" x2="110" y2="320" stroke="#9aa3b2" stroke-width="1.5"></line>
+  <!-- axis labels -->
+  <text x="395" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="700" fill="#5a6478">Overraskelse</text>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">lavere</text>
+  <text x="650" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">højere</text>
+  <text x="40" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="700" fill="#5a6478" transform="rotate(-90 40 190)">Potentiel effekt</text>
+  <text x="92" y="298" text-anchor="end" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Høj</text>
+  <text x="92" y="78" text-anchor="end" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Meget høj</text>
+  <!-- gridline at Very High -->
+  <line x1="110" y1="90" x2="680" y2="90" stroke="#e9ecef" stroke-width="1"></line>
+  <line x1="110" y1="270" x2="680" y2="270" stroke="#e9ecef" stroke-width="1"></line>
+
+  <!-- Wild card 1: foundation model, higher surprise, Very High -->
+  <circle cx="560" cy="90" r="10" fill="#00897b"></circle>
+  <text x="560" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#00897b">Robotteknologisk grundmodel</text>
+
+  <!-- Wild card 2: humanoid shakeout, moderate surprise, High -->
+  <circle cx="300" cy="270" r="10" fill="#8e24aa"></circle>
+  <text x="300" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#8e24aa">Udrensning i humanoidsektoren</text>
+
+  <!-- Wild card 3: chip whiplash, higher surprise, High -->
+  <circle cx="560" cy="270" r="10" fill="#8e24aa"></circle>
+  <text x="560" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#8e24aa">Skift i eksportkontrol for AI-chips</text>
+
+  <!-- legend -->
+  <circle cx="120" cy="372" r="7" fill="#00897b"></circle>
+  <text x="134" y="376" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Disruptiv mulighed</text>
+  <circle cx="300" cy="372" r="7" fill="#8e24aa"></circle>
+  <text x="314" y="376" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Disruptiv risiko</text>
+</svg>
+<p class="figure-caption">Kildegrundlag: de tre wild cards i denne cyklus, placeret efter analytikervurdering af overraskelse og potentiel effekt op mod det citerede evidensgrundlag.</p>
+</div>
+
+<div class="implications">
+<h3>Implikationer</h3>
+<p>For en producent gør automatiseringsopgangen og den lettede overholdelsesbyrde dette til et vindue, der er værd at udnytte: det berettiger investering i industriel AI og robotteknologi, der retter sig mod udførelse, ikke demonstration. Prøven er skaleret værdiindfrielse, ikke pilotaktivitet, eftersom ambitionen løber forud for indlejret implementering. Humanoider på fabriksgulvet berettiger overvågning, ikke kapital på kort sigt, da implementeringer forbliver indhegnede, overvågede og over begynderløn; et beslutningspunkt ankommer kun, hvis enhedsøkonomien rykker ind i linjebrug. Koncentrationen i den asiatiske forsyningsbase berettiger en gennemgang af indkøb.</p>
+</div>
+
+<h3>Bibliografi</h3>
+<p class="small">Kildeniveauer: <strong>Tier 1</strong>, regeringer, regulatorer og mellemstatslige organer. <strong>Tier 2</strong>, tænketanke, akademiske institutter, store konsulenthuse og kvalitetsdataudbydere. <strong>Tier 3</strong>, kvalitetsjournalistik og specialiseret fagpresse. <strong>Tier 4</strong>, leverandør-, virksomheds- og praktikerkilder, anvendt kun som retningsgivende bekræftelse.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> J.P. Morgan Global Manufacturing PMI, februar 2026. <a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/a0d2b851a1c7426a9252c088cd7888e9" target="_blank" rel="noopener">S&amp;P Global Market Intelligence / J.P. Morgan</a>. Udgivet 04/03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Industriproduktionen op med 0,2% i euroområdet og med 0,8% i EU. <a href="https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-13052026-bp" target="_blank" rel="noopener">Eurostat</a>. Udgivet 13/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> Kunstig intelligens: Rådet og Parlamentet enige om at forenkle og strømline reglerne. <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank" rel="noopener">Rådet for Den Europæiske Union</a>. Udgivet 07/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> Handelsministeriet reviderer politikken for licensgennemgang for halvledere eksporteret til Kina. <a href="https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china" target="_blank" rel="noopener">U.S. Bureau of Industry and Security</a>. Udgivet 13/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Robottætheden stiger kraftigt i Europa, Asien og Amerika. <a href="https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas" target="_blank" rel="noopener">International Federation of Robotics</a>. Udgivet 08/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> Kina gør AI-drevne robotter til en kerne i den nationale strategi. <a href="https://ifr.org/ifr-press-releases/news/china-makes-ai-powered-robots-core-of-national-strategy" target="_blank" rel="noopener">International Federation of Robotics</a>. Udgivet 05/05/2026.</li>
+<li><span class="tier-2">Tier 2</span> Global Lighthouse Network anerkender 23 nye anlæg og lancerer AI-platform til industriel transformation. <a href="https://www.weforum.org/press/2026/01/global-lighthouse-network-recognizes-23-new-sites-launches-ai-platform-for-industrial-transformation/" target="_blank" rel="noopener">World Economic Forum</a>. Udgivet 15/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Brancheudsigt for produktion 2026. <a href="https://www.deloitte.com/us/en/insights/industry/manufacturing-industrial-products/manufacturing-industry-outlook.html" target="_blank" rel="noopener">Deloitte Insights</a>. Udgivet 17/11/2025.</li>
+<li><span class="tier-2">Tier 2</span> World Robotics 2025-rapporten, industrirobotter. <a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" target="_blank" rel="noopener">International Federation of Robotics</a>. Udgivet 25/09/2025.</li>
+<li><span class="tier-2">Tier 2</span> Fra pilotprojekter til præstation: Hvordan COO'er kan skalere AI i produktionen. <a href="https://www.mckinsey.com/capabilities/operations/our-insights/from-pilots-to-performance-how-coos-can-scale-ai-in-manufacturing" target="_blank" rel="noopener">McKinsey &amp; Company</a>. Udgivet 15/12/2025.</li>
+<li><span class="tier-3">Tier 3</span> VDMA: Robot- og automatiseringsbranchen står over for udfordringer. <a href="https://wileyindustrynews.com/en/news/vdma-robotics-and-automation-industry-faces-challenges" target="_blank" rel="noopener">Wiley Industry News</a>. Udgivet 27/02/2026.</li>
+<li><span class="tier-3">Tier 3</span> Får robotteknologien et ChatGPT-øjeblik? <a href="https://spectrum.ieee.org/robotics-ai-breakthrough" target="_blank" rel="noopener">IEEE Spectrum</a>. Udgivet 20/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> Hannover Messe 2026 signalerer skift fra AI-hype til udførelse af industriel AI, robotskalering og energiresiliens. <a href="https://infotechlead.com/networking/hannover-messe-2026-signals-shift-from-ai-hype-to-industrial-ai-execution-robotics-scale-and-energy-resilience-95784" target="_blank" rel="noopener">InfotechLead</a>. Udgivet 12/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> Verdens største producent af humanoide robotter går på børsen. <a href="https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" target="_blank" rel="noopener">Rest of World</a>. Udgivet 31/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> Er denne bølge af humanoide robotter blot en falsk fremgang? <a href="https://eu.36kr.com/en/p/3573683700078727" target="_blank" rel="noopener">36Kr</a>. Udgivet 29/11/2025.</li>
+<li><span class="tier-3">Tier 3</span> Fabrik betaler menneskelig medarbejder for at holde øje med robotmedarbejder hele dagen. <a href="https://futurism.com/robots-and-machines/robot-worker-factory-digit" target="_blank" rel="noopener">Futurism</a>. Udgivet 17/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> USA bygger fabrikker. Så hvor er jobbene? <a href="https://www.industrialsage.com/us-manufacturing-reshoring-jobs-2026/" target="_blank" rel="noopener">IndustrialSage</a>. Udgivet 13/04/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Udarbejdet af Shaping Tomorrow: 24. maj 2026</p>
+
+</body>
+</html>

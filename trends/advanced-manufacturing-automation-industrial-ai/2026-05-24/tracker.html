@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Change Tracker (legacy name: Trend Tracker): momentum across multiple
+  signals on one topic. Copy this file to <today>/tracker.html and fill every
+  token and FILL block. CSS below is validated; do not edit it.
+  The long-dash ban is binding: no long-dash character or entity anywhere.
+-->
+<head>
+<meta charset="utf-8">
+<title>Industrial AI crosses into execution; humanoids stay caged, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .lang-switch { font-size: 0.85em; color: #5a6478; margin: -6px 0 16px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; BSB Industry</div>
+<p class="lang-switch"><strong>English</strong> &middot; <a href="tracker-da.html">Dansk</a></p>
+
+<article>
+
+<h2>Industrial AI crosses into execution; humanoids stay caged</h2>
+<p class="seo-line">This cycle reads the automation wave as software-led, not robot-led: industrial and agentic AI are crossing from pilots into production while a manufacturing up-cycle and a fast-rising Asian robot base build underneath, and factory-floor humanoids, the most-hyped element, move slowest.</p>
+<p class="meta">Change Tracker &middot; Advanced Manufacturing Automation and Industrial AI &middot; Cycle: 24 May 2026</p>
+
+<p>The consensus says an AI-driven robotics wave, led by humanoids, is arriving fast on the factory floor. The evidence supports a sharper reading. The real accelerator is industrial and agentic AI crossing from pilot to production, alongside a manufacturing up-cycle and a fast-rising Asian robot base. The humanoid at a workstation, the most-hyped element, moves slowest: caged, supervised, above entry wage. Momentum sits in software and the macro cycle, not the hardware spectacle. The question for a manufacturer is which automation investments ride a real accelerator, and which pay for a demonstration.</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Global manufacturing and capex up-cycle</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Global PMI at a 44-month high; investment-goods output six-month high</td>
+<td>Capital-goods demand, the lead indicator for automation, is rising (<a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/a0d2b851a1c7426a9252c088cd7888e9" target="_blank" rel="noopener">S&amp;P Global</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Asia's automation surge</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>China robot density up 17%; Asia took 74% of 2024 installations</td>
+<td>China's 15th Five-Year Plan makes AI-integrated robotics core (<a href="https://ifr.org/ifr-press-releases/news/china-makes-ai-powered-robots-core-of-national-strategy" target="_blank" rel="noopener">IFR</a>, May 2026).</td>
+</tr>
+<tr>
+<td>Industrial AI moving from pilots to execution</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Hannover Messe 2026 inflection, corroborated by WEF, Deloitte</td>
+<td>Agentic and Vision-Language-Action AI shifts from pilot to production (<a href="https://infotechlead.com/networking/hannover-messe-2026-signals-shift-from-ai-hype-to-industrial-ai-execution-robotics-scale-and-energy-resilience-95784" target="_blank" rel="noopener">InfotechLead</a>, May 2026).</td>
+</tr>
+<tr>
+<td>Chinese humanoid commercialisation</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Humanoid unit price down roughly 70% since 2023</td>
+<td>Unitree's IPO filing and UBTech orders show fast scale-up (<a href="https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" target="_blank" rel="noopener">Rest of World</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Scaled industrial-AI value capture</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>93% of manufacturers raising AI spend, only 2% with AI embedded</td>
+<td>Ambition rises fast; realised value does not (<a href="https://www.mckinsey.com/capabilities/operations/our-insights/from-pilots-to-performance-how-coos-can-scale-ai-in-manufacturing" target="_blank" rel="noopener">McKinsey</a>, December 2025).</td>
+</tr>
+<tr>
+<td>Humanoid robots on the factory floor</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Deployments still caged and supervised; commercial wave in 2027</td>
+<td>Factory humanoids stay penned and supervised, above entry wage (<a href="https://futurism.com/robots-and-machines/robot-worker-factory-digit" target="_blank" rel="noopener">Futurism</a>, March 2026).</td>
+</tr>
+<tr>
+<td>European automation-supplier base</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>VDMA sees sales down 5% in 2026 after 7% in 2025</td>
+<td>German robotics revenue contracts on VDMA's structural-weakness reading (<a href="https://wileyindustrynews.com/en/news/vdma-robotics-and-automation-industry-faces-challenges" target="_blank" rel="noopener">Wiley Industry News</a>, February 2026).</td>
+</tr>
+<tr>
+<td>EU AI Act pressure on industrial AI</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Regulatory deferral: high-risk obligations delayed up to 16 months</td>
+<td>The Digital Omnibus agreement eases the AI compliance load (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank" rel="noopener">Council of the European Union</a>, May 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster opportunity">
+<h4>Demand and the regulatory brake both turn favourable<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>Signals 1 and 8 favour the manufacturer at once. The PMI at a 44-month high with investment-goods output at a six-month high signals returning appetite for automation equipment (<a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/a0d2b851a1c7426a9252c088cd7888e9" target="_blank" rel="noopener">S&amp;P Global / J.P. Morgan</a>, March 2026), while the Digital Omnibus deferral lifts a compliance cost off embedded AI (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank" rel="noopener">Council of the European Union</a>, May 2026). One caveat: 1.595 trillion dollars of automation-led US investment leaves factory jobs down 82,000 (<a href="https://www.industrialsage.com/us-manufacturing-reshoring-jobs-2026/" target="_blank" rel="noopener">IndustrialSage</a>, April 2026).</p>
+</div>
+
+<div class="cluster transformation">
+<h4>Industrial AI crosses into production, unevenly<span class="cluster-type">Transformation Driver</span></h4>
+<p>Signals 3, 5 and 6 are the core transformation. Hannover Messe 2026, the WEF Lighthouse cohort and Deloitte's outlook place agentic and Vision-Language-Action AI in production (<a href="https://infotechlead.com/networking/hannover-messe-2026-signals-shift-from-ai-hype-to-industrial-ai-execution-robotics-scale-and-energy-resilience-95784" target="_blank" rel="noopener">InfotechLead</a>, May 2026). The friction is the gap between deployment and value: only 2% of manufacturers fully embed AI (<a href="https://www.mckinsey.com/capabilities/operations/our-insights/from-pilots-to-performance-how-coos-can-scale-ai-in-manufacturing" target="_blank" rel="noopener">McKinsey</a>, December 2025), and the caged humanoid cannot yet detect a person (<a href="https://futurism.com/robots-and-machines/robot-worker-factory-digit" target="_blank" rel="noopener">Futurism</a>, March 2026).</p>
+</div>
+
+<div class="cluster risk">
+<h4>The automation centre of gravity moves east<span class="cluster-type">Evolving Risk</span></h4>
+<p>Signals 2, 4 and 7 point one way. Asia took 74% of 2024 robot installations and China's density rose 17% year-on-year (<a href="https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas" target="_blank" rel="noopener">IFR</a>, April 2026), while VDMA forecasts a further 5% revenue fall for German robotics (<a href="https://wileyindustrynews.com/en/news/vdma-robotics-and-automation-industry-faces-challenges" target="_blank" rel="noopener">Wiley Industry News</a>, February 2026). The risk is dependence on a supply base whose scale and cost are set elsewhere.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figure 1: Eight signals by momentum direction</h4>
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Momentum overview placing eight tracked signals into three columns. Accelerating column holds global manufacturing and capex up-cycle, Asia's automation surge, industrial AI moving to execution, and Chinese humanoid commercialisation. Stable column holds scaled industrial-AI value capture and humanoid robots on the factory floor. Fading column holds the European automation-supplier base and EU AI Act pressure. Chip outline colour indicates cluster: green for opportunity, indigo for transformation, red for risk.">
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"></rect>
+  <text x="120" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#c62828">Accelerating</text>
+  <text x="360" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f57c00">Stable</text>
+  <text x="600" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#43a047">Fading</text>
+  <line x1="240" y1="40" x2="240" y2="340" stroke="#9aa3b2" stroke-width="1"></line>
+  <line x1="480" y1="40" x2="480" y2="340" stroke="#9aa3b2" stroke-width="1"></line>
+
+  <!-- Accelerating column -->
+  <rect x="14" y="52" width="212" height="56" rx="8" fill="#ffffff" stroke="#43a047" stroke-width="2"></rect>
+  <text x="120" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Manufacturing and capex</text>
+  <text x="120" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">up-cycle</text>
+
+  <rect x="14" y="120" width="212" height="56" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="120" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Asia's automation surge</text>
+
+  <rect x="14" y="188" width="212" height="56" rx="8" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="120" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Industrial AI moving to</text>
+  <text x="120" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">execution</text>
+
+  <rect x="14" y="256" width="212" height="56" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="120" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Chinese humanoid</text>
+  <text x="120" y="297" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">commercialisation</text>
+
+  <!-- Stable column -->
+  <rect x="254" y="120" width="212" height="56" rx="8" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="360" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Scaled industrial-AI</text>
+  <text x="360" y="161" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">value capture</text>
+
+  <rect x="254" y="188" width="212" height="56" rx="8" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="360" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">Humanoid robots on</text>
+  <text x="360" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">the factory floor</text>
+
+  <!-- Fading column -->
+  <rect x="494" y="120" width="212" height="56" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="600" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">European automation-</text>
+  <text x="600" y="161" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">supplier base</text>
+
+  <rect x="494" y="188" width="212" height="56" rx="8" fill="#ffffff" stroke="#43a047" stroke-width="2"></rect>
+  <text x="600" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">EU AI Act pressure on</text>
+  <text x="600" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1a1a1a">industrial AI</text>
+
+  <!-- Legend -->
+  <rect x="14" y="328" width="14" height="14" rx="3" fill="#ffffff" stroke="#43a047" stroke-width="2"></rect>
+  <text x="34" y="339" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Opportunity</text>
+  <rect x="130" y="328" width="14" height="14" rx="3" fill="#ffffff" stroke="#1a237e" stroke-width="2"></rect>
+  <text x="150" y="339" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Transformation</text>
+  <rect x="270" y="328" width="14" height="14" rx="3" fill="#ffffff" stroke="#c62828" stroke-width="2"></rect>
+  <text x="290" y="339" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Risk</text>
+</svg>
+<p class="figure-caption">Source basis: the eight signals in this cycle's momentum table, directions and clusters as classified across the 17-source evidence base.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>Industrial AI moving from pilots to execution.</strong> A forced decision arrives once agentic systems show audited line-level returns at peer plants.</li>
+<li><strong>Asia's automation surge.</strong> If Chinese robotics undercut Western suppliers on price and capability, sourcing becomes a board-level choice.</li>
+<li><strong>Global manufacturing and capex up-cycle.</strong> Sustained investment-goods strength shifts the question from whether to invest to how fast.</li>
+<li><strong>Chinese humanoid commercialisation.</strong> Once prices and capability reach factory economics, a monitoring posture must become a capital plan.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card opportunity">
+<h4>A robotics foundation model that actually generalises</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> practitioners expect no single "ChatGPT moment" for robotics; a general-manipulation breakthrough would defy expectations.</p>
+<p><strong>Early warning indicators:</strong> a Vision-Language-Action model with robust cross-task manipulation outside the lab.</p>
+<p>If general-purpose manipulation is cracked, flexible-automation economics flip and the humanoid timeline compresses (<a href="https://spectrum.ieee.org/robotics-ai-breakthrough" target="_blank" rel="noopener">IEEE Spectrum</a>, May 2026).</p>
+
+</div>
+
+<div class="wild-card risk">
+<h4>A humanoid-sector shakeout</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> order books look strong, but much demand is policy-driven, concentrated in research buyers.</p>
+<p><strong>Early warning indicators:</strong> a flagship humanoid maker missing IPO or revenue targets.</p>
+<p>Roughly half of UBTech's order value is government data-collection (<a href="https://eu.36kr.com/en/p/3573683700078727" target="_blank" rel="noopener">36Kr</a>, November 2025), and China's 100-plus humanoid firms face consolidation (<a href="https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" target="_blank" rel="noopener">Rest of World</a>, March 2026).</p>
+</div>
+
+<div class="wild-card risk">
+<h4>AI-chip export-control whiplash</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> US policy just loosened to case-by-case review for advanced AI chips to China; a reversal would cut the other way.</p>
+<p><strong>Early warning indicators:</strong> a new BIS rule or Federal Register notice, or sharp US-China escalation.</p>
+
+<p>Industrial-AI compute roadmaps rest on a policy that moved twice in a year (<a href="https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china" target="_blank" rel="noopener">U.S. Bureau of Industry and Security</a>, January 2026). A reversal would re-price compute.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Figure 2: Wild cards by surprise and potential impact</h4>
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A two-axis matrix plotting three wild cards. The horizontal axis is surprise, from lower on the left to higher on the right. The vertical axis is potential impact, from High lower down to Very High higher up. A robotics foundation model that generalises sits at higher surprise and Very High impact, marked as an opportunity in teal. A humanoid-sector shakeout sits at moderate surprise and High impact, marked as a risk in purple. AI-chip export-control whiplash sits at higher surprise and High impact, also marked as a risk in purple.">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"></rect>
+  <!-- axes -->
+  <line x1="110" y1="320" x2="680" y2="320" stroke="#9aa3b2" stroke-width="1.5"></line>
+  <line x1="110" y1="50" x2="110" y2="320" stroke="#9aa3b2" stroke-width="1.5"></line>
+  <!-- axis labels -->
+  <text x="395" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="700" fill="#5a6478">Surprise</text>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">lower</text>
+  <text x="650" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">higher</text>
+  <text x="40" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="700" fill="#5a6478" transform="rotate(-90 40 190)">Potential impact</text>
+  <text x="92" y="298" text-anchor="end" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">High</text>
+  <text x="92" y="78" text-anchor="end" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Very High</text>
+  <!-- gridline at Very High -->
+  <line x1="110" y1="90" x2="680" y2="90" stroke="#e9ecef" stroke-width="1"></line>
+  <line x1="110" y1="270" x2="680" y2="270" stroke="#e9ecef" stroke-width="1"></line>
+
+  <!-- Wild card 1: foundation model, higher surprise, Very High -->
+  <circle cx="560" cy="90" r="10" fill="#00897b"></circle>
+  <text x="560" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#00897b">Robotics foundation model</text>
+
+  <!-- Wild card 2: humanoid shakeout, moderate surprise, High -->
+  <circle cx="300" cy="270" r="10" fill="#8e24aa"></circle>
+  <text x="300" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#8e24aa">Humanoid-sector shakeout</text>
+
+  <!-- Wild card 3: chip whiplash, higher surprise, High -->
+  <circle cx="560" cy="270" r="10" fill="#8e24aa"></circle>
+  <text x="560" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#8e24aa">AI-chip export-control whiplash</text>
+
+  <!-- legend -->
+  <circle cx="120" cy="372" r="7" fill="#00897b"></circle>
+  <text x="134" y="376" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Disruptive opportunity</text>
+  <circle cx="300" cy="372" r="7" fill="#8e24aa"></circle>
+  <text x="314" y="376" font-family="Arial, sans-serif" font-size="10.5" fill="#5a6478">Disruptive risk</text>
+</svg>
+<p class="figure-caption">Source basis: the three wild cards in this cycle, positioned on analyst assessment of surprise and potential impact against the cited evidence base.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>For a manufacturer, the automation up-cycle and easing compliance load make this a window worth using: it warrants industrial-AI and robotics investment that targets execution, not demonstration. The test is scaled value capture, not pilot activity, since ambition runs ahead of embedded deployment. Factory-floor humanoids warrant monitoring, not near-term capital, as deployments stay caged, supervised and above entry wage; a decision point arrives only if unit economics cross into line use. Asian supply-base concentration warrants a sourcing review.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> J.P. Morgan Global Manufacturing PMI, February 2026. <a href="https://www.pmi.spglobal.com/Public/Home/PressRelease/a0d2b851a1c7426a9252c088cd7888e9" target="_blank" rel="noopener">S&amp;P Global Market Intelligence / J.P. Morgan</a>. Published 04/03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Industrial production up by 0.2% in the euro area and by 0.8% in the EU. <a href="https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-13052026-bp" target="_blank" rel="noopener">Eurostat</a>. Published 13/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> Artificial intelligence: Council and Parliament agree to simplify and streamline rules. <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/" target="_blank" rel="noopener">Council of the European Union</a>. Published 07/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> Department of Commerce Revises License Review Policy for Semiconductors Exported to China. <a href="https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china" target="_blank" rel="noopener">U.S. Bureau of Industry and Security</a>. Published 13/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Robot Density Surges in Europe, Asia, and Americas. <a href="https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas" target="_blank" rel="noopener">International Federation of Robotics</a>. Published 08/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> China Makes AI-powered Robots Core of National Strategy. <a href="https://ifr.org/ifr-press-releases/news/china-makes-ai-powered-robots-core-of-national-strategy" target="_blank" rel="noopener">International Federation of Robotics</a>. Published 05/05/2026.</li>
+<li><span class="tier-2">Tier 2</span> Global Lighthouse Network Recognizes 23 New Sites, Launches AI Platform for Industrial Transformation. <a href="https://www.weforum.org/press/2026/01/global-lighthouse-network-recognizes-23-new-sites-launches-ai-platform-for-industrial-transformation/" target="_blank" rel="noopener">World Economic Forum</a>. Published 15/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> 2026 Manufacturing Industry Outlook. <a href="https://www.deloitte.com/us/en/insights/industry/manufacturing-industrial-products/manufacturing-industry-outlook.html" target="_blank" rel="noopener">Deloitte Insights</a>. Published 17/11/2025.</li>
+<li><span class="tier-2">Tier 2</span> World Robotics 2025 report, industrial robots. <a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" target="_blank" rel="noopener">International Federation of Robotics</a>. Published 25/09/2025.</li>
+<li><span class="tier-2">Tier 2</span> From pilots to performance: How COOs can scale AI in manufacturing. <a href="https://www.mckinsey.com/capabilities/operations/our-insights/from-pilots-to-performance-how-coos-can-scale-ai-in-manufacturing" target="_blank" rel="noopener">McKinsey &amp; Company</a>. Published 15/12/2025.</li>
+<li><span class="tier-3">Tier 3</span> VDMA: Robotics and automation industry faces challenges. <a href="https://wileyindustrynews.com/en/news/vdma-robotics-and-automation-industry-faces-challenges" target="_blank" rel="noopener">Wiley Industry News</a>. Published 27/02/2026.</li>
+<li><span class="tier-3">Tier 3</span> Will Robotics Have a ChatGPT Moment? <a href="https://spectrum.ieee.org/robotics-ai-breakthrough" target="_blank" rel="noopener">IEEE Spectrum</a>. Published 20/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> Hannover Messe 2026 Signals Shift from AI Hype to Industrial AI Execution, Robotics Scale, and Energy Resilience. <a href="https://infotechlead.com/networking/hannover-messe-2026-signals-shift-from-ai-hype-to-industrial-ai-execution-robotics-scale-and-energy-resilience-95784" target="_blank" rel="noopener">InfotechLead</a>. Published 12/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> The world's largest humanoid robot maker is going public. <a href="https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/" target="_blank" rel="noopener">Rest of World</a>. Published 31/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> Is this wave of humanoid robots just a false prosperity? <a href="https://eu.36kr.com/en/p/3573683700078727" target="_blank" rel="noopener">36Kr</a>. Published 29/11/2025.</li>
+<li><span class="tier-3">Tier 3</span> Factory Paying Human Worker to Watch Robot Worker All Day. <a href="https://futurism.com/robots-and-machines/robot-worker-factory-digit" target="_blank" rel="noopener">Futurism</a>. Published 17/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> America Is Building Factories. So Where Are the Jobs? <a href="https://www.industrialsage.com/us-manufacturing-reshoring-jobs-2026/" target="_blank" rel="noopener">IndustrialSage</a>. Published 13/04/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 24 May 2026</p>
+
+</body>
+</html>

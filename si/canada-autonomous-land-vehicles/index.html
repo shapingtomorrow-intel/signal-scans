@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Driverless Trucks Arrive in Canada; Federal Rules Don't, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; Advancing Canada&#x27;s Autonomous Land Vehicles &middot; Transport Canada &middot; Cycle: 26 May 2026</div>
+
+<article>
+
+<h2>Driverless Trucks Arrive in Canada; Federal Rules Don&#x27;t</h2>
+<p class="seo-line">Commercial L4 heavy-truck operations are scaling in Ontario and Alberta while the federal CAV Framework is unchanged from February 2025 and AIDA stays dormant; Bill C-8 cyber is the only fresh sector-specific instrument moving.</p>
+
+<p>The Canadian autonomous-land-vehicle conversation has been framed as innovation policy, a slow regulatory build with provincial sandboxes feeding eventual federal harmonisation. Spring 2026 evidence has outpaced the framing. Loblaw and Gatik are running 50 Level 4 trucks across the GTA, Kodiak AI begins Alberta resource-road log-hauls later in 2026, Waabi closed a $750M USD round in January with Export Development Canada and BDC participating, and Ontario&#x27;s 10-year Automated Commercial Motor Vehicle Pilot Program opens a driverless commercial horizon to August 2035. Federally, the CAV Framework 2.0 has not been updated since February 2025, AIDA died at dissolution, and the federal CAV initiative funding sunsets across the FY26 to FY28 envelope. The strategic question this cycle: where does the federal anchor instrument land, and on what timeline?</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Commercial L4 heavy-truck deployment</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Two named Canadian commercial deployments live or imminent within past 8 months; one $750M USD raise in past 4 months</td>
+<td>Kodiak AI begins Alberta forestry pilot with West Fraser Timber and FPInnovations in 2026, the company&#x27;s first international AV deployment (<a href="https://www.trucknews.com/technology/kodiak-ai-bringing-autonomous-trucks-to-canadas-forestry-sector/1003214689/" target="_blank">Truck News</a>, 08/05/2026).</td>
+</tr>
+<tr>
+<td>Provincial AV pilot leadership</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Ontario ACMV Pilot active since 01/08/2025; Osler Jan 2026 confirms it as the most commercially significant provincial step</td>
+<td>Ontario&#x27;s 10-year ACMV Pilot Program permits Level 3 to 5 heavy trucks above 4,500 kg on public roads under a two-stream graduated framework (<a href="https://www.ontario.ca/page/automated-commercial-motor-vehicle-pilot-program" target="_blank">Ontario Ministry of Transportation</a>, 05/08/2025).</td>
+</tr>
+<tr>
+<td>Interprovincial and cross-border AV friction</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Two friction events in past 3 months (BC Waymo lobbying, Waabi Texas testing decision)</td>
+<td>Waabi&#x27;s CEO told The Logic the company tests commercially in Texas because Canada&#x27;s patchwork provincial AV regulations block province-to-province movement (<a href="https://thelogic.co/news/internal-trade-barriers-driverless-trucking/" target="_blank">The Logic</a>, 22/04/2026).</td>
+</tr>
+<tr>
+<td>AV cybersecurity legislative pressure (Bill C-8)</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Bill C-8 introduced 18/06/2025; the only sector-specific anticipatory cyber instrument live in Parliament</td>
+<td>Bill C-8 revives Bill C-26 cyber obligations for designated vital sectors including transportation, with fines up to $15M per day (<a href="https://www.blg.com/en/insights/2025/07/bill-c8-revives-canadian-cyber-security-reform-what-critical-infrastructure-sectors-need-to-know" target="_blank">Borden Ladner Gervais</a>, 28/07/2025).</td>
+</tr>
+<tr>
+<td>Industrial-policy capital for EV-battery and auto</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>PowerCo $7B St Thomas foundations Oct 2025; ESDC $3B+ auto strategy and $570M reskilling Feb 2026</td>
+<td>PowerCo poured first foundations at the St Thomas gigafactory in October 2025 with up to 3,000 direct jobs targeted for 2027 production (<a href="https://www.electrive.com/2025/10/29/vw-powerco-begins-construction-of-first-buildings-at-canadian-battery-factory/" target="_blank">Electrive</a>, 29/10/2025).</td>
+</tr>
+<tr>
+<td>Foreign (Chinese) AV and ADAS market entry</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Three Chinese OEMs (BYD, Chery, Geely) actively scouting Canadian dealerships and registering trademarks within past 4 months of tariff cut</td>
+<td>BYD, Chery and Geely are hiring staff and scouting locations following Canada&#x27;s cut of Chinese-EV tariffs from 100% to 6.1% on 49,000 units annually (<a href="https://electrek.co/2026/05/06/chinese-ev-automakers-canada-byd-chery-geely-tesla-benefits/" target="_blank">Electrek</a>, 06/05/2026).</td>
+</tr>
+<tr>
+<td>Federal CAV Framework anchor instrument</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>CAV Framework 2.0 published Feb 2025; no updates or follow-on policy in 15 months since</td>
+<td>The federal CAV Framework 2.0 remains in place as advisory doctrine with no statutory follow-through, while provinces have moved on commercial pilots (<a href="https://tc.canada.ca/en/road-transportation/innovative-technologies/connected-automated-vehicles/canada-s-safety-framework-connected-automated-vehicles-20" target="_blank">Transport Canada</a>, 01/02/2025).</td>
+</tr>
+<tr>
+<td>AV consumer purchase intent</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Leger poll of 1,521 Canadians (17 to 20/04/2026) found only 13% would buy an AV, with 61% citing safety concerns</td>
+<td>Public acceptance for AV ownership remains weak; ride-hailing rather than ownership is the likely adoption pathway over the next 24 months (<a href="https://rates.ca/resources/try-you-buy-canadians-choose-autonomous-vehicles-service-ownership" target="_blank">Rates.ca and Leger</a>, 20/04/2026).</td>
+</tr>
+<tr>
+<td>Horizontal federal AI regulation</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>AIDA Bill C-27 died at dissolution; no replacement tabled in 16 months since</td>
+<td>Federal regulators must patch together PIPEDA, the voluntary Code of Conduct, ISO 42001 and NIST AI RMF in lieu of binding federal AI law (<a href="https://www.globalrelay.com/resources/the-compliance-hub/rules-and-regulations/aida-patchworking-ai-risk-management-for-canadian-federal-regulators-while-the-act-is-on-pause/" target="_blank">Global Relay</a>, 23/03/2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster transformation">
+<h4>Pilot-to-deployment is the cycle&#x27;s dominant move<span class="cluster-type">Transformation Driver</span></h4>
+<p>The commercial L4 heavy-truck, provincial pilot leadership, and industrial-policy capital signals compound. Loblaw and Gatik are operating 50 Level 4 trucks across the GTA under Ontario&#x27;s ACMV framework, Kodiak AI brings autonomous log-hauls to Alberta in 2026, and Waabi&#x27;s $750M USD raise with Export Development Canada and BDC Capital participation reads as de facto federal innovation backing. PowerCo&#x27;s St Thomas foundations and the February 2026 federal auto strategy add a $10B+ industrial-policy floor under the manufacturing layer. The transformation is no longer "pilot programmes feeding eventual deployment"; deployment is live, with federal posture trailing provincial action.</p>
+</div>
+
+<div class="cluster risk">
+<h4>The federal anchor gap is widening<span class="cluster-type">Evolving Risk</span></h4>
+<p>The federal CAV Framework anchor and horizontal federal AI regulation signals together describe a vacuum that is not closing. CAV Framework 2.0 (February 2025) remains the federal high-water mark and has not been updated; AIDA died at dissolution and no replacement is tabled; the federal CAV initiative funding sunsets across FY26 to FY28. The Treasury Board AI Strategy 2025 to 2027 and the Directive on Automated Decision-Making are the closest substitutes, neither sector-specific to transport nor statute-backed. The risk is that provincial fragmentation hardens before any federal anchor lands, locking in cross-border friction.</p>
+</div>
+
+<div class="cluster opportunity">
+<h4>The standards window is open now<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>Bill C-8 cyber obligations, foreign OEM market entry, and weak consumer purchase intent together open a 12 to 18 month window for federal-provincial AV regulatory coordination. Bill C-8 is the model: anticipatory, sector-specific, outcomes-based, with bite. Chinese OEM entry creates urgency for cyber and data-flow rules that pre-date scale deployment. Weak consumer ownership intent means the policy debate is still about commercial fleets, not retail, where federal harmonisation is technically easier. The opportunity is to use the Bill C-8 template to set commercial AV cyber, data and audit standards before scale entrenches provincial divergence.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Momentum distribution across the topic</h4>
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Momentum distribution chart. Accelerating column holds six signals: three in indigo for Transformation Driver, one in red for Evolving Risk, two in green for Emerging Opportunity. Stable column holds two signals: one in indigo and one in green. Fading column holds one signal in red for Evolving Risk.">
+  <rect x="0" y="0" width="720" height="320" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Signals by direction (cluster colour)</text>
+
+  <rect x="40" y="40" width="220" height="240" fill="#fde8e8" opacity="0.4" rx="6"/>
+  <rect x="280" y="40" width="180" height="240" fill="#eef0f3" opacity="0.5" rx="6"/>
+  <rect x="480" y="40" width="200" height="240" fill="#e8f5e9" opacity="0.5" rx="6"/>
+
+  <text x="150" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#c62828">ACCELERATING</text>
+  <text x="370" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#5a6478">STABLE</text>
+  <text x="580" y="58" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#43a047">FADING</text>
+
+  <circle cx="60" cy="85" r="8" fill="#1a237e"/>
+  <text x="75" y="89" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Commercial L4 heavy-truck</text>
+
+  <circle cx="60" cy="115" r="8" fill="#1a237e"/>
+  <text x="75" y="119" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Provincial AV pilot leadership</text>
+
+  <circle cx="60" cy="145" r="8" fill="#1a237e"/>
+  <text x="75" y="149" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Industrial-policy capital</text>
+
+  <circle cx="60" cy="175" r="8" fill="#c62828"/>
+  <text x="75" y="179" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Interprovincial AV friction</text>
+
+  <circle cx="60" cy="205" r="8" fill="#43a047"/>
+  <text x="75" y="209" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Bill C-8 cyber pressure</text>
+
+  <circle cx="60" cy="235" r="8" fill="#43a047"/>
+  <text x="75" y="239" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Foreign AV and ADAS entry</text>
+
+  <circle cx="300" cy="115" r="8" fill="#c62828"/>
+  <text x="315" y="119" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Federal CAV anchor</text>
+
+  <circle cx="300" cy="145" r="8" fill="#43a047"/>
+  <text x="315" y="149" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Consumer purchase intent</text>
+
+  <circle cx="500" cy="115" r="8" fill="#c62828"/>
+  <text x="515" y="119" font-family="-apple-system, sans-serif" font-size="10" fill="#1a1a1a">Horizontal federal AI regulation</text>
+
+  <g transform="translate(40,295)">
+    <circle cx="0" cy="0" r="6" fill="#1a237e"/>
+    <text x="10" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Pilot-to-deployment</text>
+    <circle cx="170" cy="0" r="6" fill="#c62828"/>
+    <text x="180" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Federal anchor gap</text>
+    <circle cx="340" cy="0" r="6" fill="#43a047"/>
+    <text x="350" y="4" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Standards window</text>
+  </g>
+</svg>
+<p class="figure-caption">Nine tracked signals plotted by direction, with cluster colour. Accelerating cell holds the Pilot-to-deployment trio and the Standards-window pair plus interprovincial friction; Fading cell holds the horizontal federal AI signal.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>Commercial L4 heavy-truck deployment.</strong> A second Canadian commercial scale-up after Gatik (Kodiak Alberta forestry, a Waabi Ontario freight launch with a named shipper, or Aurora Innovation cross-border entry) would force the Branch to brief leadership on whether CAV Framework 2.0 needs a statutory follow-on.</li>
+<li><strong>Bill C-8 progress through Parliament.</strong> Royal Assent within 12 months would crystallise the operating template for sector-specific anticipatory cyber regulation, directly applicable to a future federal AV anchor instrument.</li>
+<li><strong>Interprovincial regulatory equivalence.</strong> Quebec or Alberta moving to recognise Ontario&#x27;s ACMV operating standards would open the first Canadian cross-province AV freight corridor and reframe federal-provincial AV harmonisation work.</li>
+<li><strong>Foreign OEM Canadian dealership openings.</strong> First BYD, Chery or Geely Canadian retail launch (likely Q4 2026 or Q1 2027) would force a federal ADAS data-flow and cyber standards posture.</li>
+<li><strong>Waabi commercial Canadian deployment.</strong> A Waabi shift from Texas-only commercial testing to a named Canadian shipper contract would close the Canadian-talent / US-deployment gap and reframe the policy narrative.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>Fatal incident in an Ontario ACMV-pilot autonomous truck</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A fatal collision in the 12 to 24 month deployment window, before federal standards or insurance regimes are settled, with a clear sensor or decision-stack causal trail.</p>
+<p><strong>Early warning indicators:</strong> A serious-injury near-miss reported in Gatik or Kodiak operations; insurance carrier withdrawal of L4 commercial coverage; a US analog incident (Aurora, Waymo Via, Kodiak US) triggering NHTSA action.</p>
+<p>The Branch should plan for a coordinated federal-provincial incident response now. Ontario&#x27;s minimum $10M public liability cap, the absence of a federal data-recorder mandate, and the fragmentation between Transport Canada, MTO, and operators create a media and regulatory pressure scenario where the federal posture would be set under crisis conditions. The optimistic VTPI counter-position notes consistent overhype of deployment timelines and underweighting of safety friction (<a href="https://vtpi.org/avip.pdf" target="_blank">Victoria Transport Policy Institute</a>, 01/04/2026).</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>Federal-provincial AV reciprocity framework tabled within 12 months</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> Transport Canada brokers a Council of Ministers Responsible for Transportation and Highway Safety agreement on mutual recognition of provincial AV operating standards, opening an Ontario to Quebec or Ontario to Alberta commercial AV freight corridor before federal statute.</p>
+<p><strong>Early warning indicators:</strong> A bilateral ON-QC or ON-AB AV regulatory memorandum; a Council of Ministers communiqué naming AV mutual recognition as a workstream; a Waabi or Gatik public statement endorsing a federal-led reciprocity mechanism.</p>
+<p>A reciprocity framework would solve the binding constraint that pushes Canadian AV companies to test commercially in Texas. Osler&#x27;s comparative work suggests the UK Automated Vehicles Act unified national approach is one model; a Canadian variant using federal-provincial reciprocity rather than constitutional change would be the politically realistic adaptation (<a href="https://www.osler.com/en/insights/updates/exploring-regulatory-pathways-toward-the-safe-adoption-of-autonomous-vehicles/" target="_blank">Osler, Hoskin and Harcourt</a>, 03/02/2026).</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Wild Card impact and surprise field</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wild Card matrix plotting two candidates against impact (vertical axis) and surprise (horizontal axis). Fatal ACMV-pilot AV truck incident sits very high impact, moderate surprise, in the disruptive risk quadrant. Federal-provincial AV reciprocity framework sits high impact, high surprise, in the disruptive opportunity quadrant.">
+  <rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+  <text x="360" y="22" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#1a237e">Wild Cards: impact and surprise field</text>
+
+  <line x1="160" y1="50" x2="160" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="160" y1="240" x2="660" y2="240" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="410" y1="50" x2="410" y2="240" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="160" y1="145" x2="660" y2="145" stroke="#dde1e6" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="155" y="58" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Very High</text>
+  <text x="155" y="150" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High</text>
+  <text x="155" y="243" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate</text>
+
+  <text x="160" y="258" text-anchor="start" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Low surprise</text>
+  <text x="410" y="258" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Moderate surprise</text>
+  <text x="650" y="258" text-anchor="end" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">High surprise</text>
+
+  <text x="100" y="145" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#5a6478" transform="rotate(-90 100,145)">Impact</text>
+
+  <circle cx="340" cy="80" r="14" fill="#8e24aa" opacity="0.85"/>
+  <text x="365" y="76" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Fatal ACMV-pilot AV truck incident</text>
+  <text x="365" y="91" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Disruptive Risk; very high impact, moderate surprise</text>
+
+  <circle cx="540" cy="125" r="14" fill="#00897b" opacity="0.85"/>
+  <text x="565" y="121" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">Federal-provincial AV reciprocity</text>
+  <text x="565" y="136" font-family="-apple-system, sans-serif" font-size="10" fill="#5a6478">Disruptive Opportunity; high impact, high surprise</text>
+</svg>
+<p class="figure-caption">Both wild cards sit at high or very high impact. The fatal-incident risk is the more proximate trigger given live ACMV-pilot operations; reciprocity is the higher-leverage upside.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>For Strategic Policy and Innovation Branch advisors, May 2026 sharpens the agenda rather than overturning it. Pilot-to-deployment is no longer hypothetical: 50 Gatik trucks operate in the GTA, Kodiak AI begins Alberta log-hauls in 2026, and Waabi&#x27;s $750M raise pulls Canadian AV talent into US commercial markets first. Three threads warrant near-term focus: (1) the federal AV anchor instrument question, whether Transport Canada moves CAV Framework 2.0 toward statute or stays in advisory posture; (2) Bill C-8 as the operating template for sector-specific anticipatory regulation that could be lifted into a federal AV cyber and data-audit regime; and (3) interprovincial regulatory equivalence as the binding constraint on Canadian commercial AV scale. Federal-provincial AV-regulator coordination is the highest-leverage open lane this cycle.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Canada&#x27;s Safety Framework for Connected and Automated Vehicles 2.0. <a href="https://tc.canada.ca/en/road-transportation/innovative-technologies/connected-automated-vehicles/canada-s-safety-framework-connected-automated-vehicles-20" target="_blank">Transport Canada</a>. Published 01/02/2025.</li>
+<li><span class="tier-1">Tier 1</span> Automated Commercial Motor Vehicle Pilot Program. <a href="https://www.ontario.ca/page/automated-commercial-motor-vehicle-pilot-program" target="_blank">Ontario Ministry of Transportation</a>. Published 05/08/2025.</li>
+<li><span class="tier-1">Tier 1</span> Bill C-8 revives Canadian cyber security reform: what critical infrastructure sectors need to know. <a href="https://www.blg.com/en/insights/2025/07/bill-c8-revives-canadian-cyber-security-reform-what-critical-infrastructure-sectors-need-to-know" target="_blank">Borden Ladner Gervais</a>. Published 28/07/2025.</li>
+<li><span class="tier-1">Tier 1</span> AI Strategy for the Federal Public Service 2025 to 2027: Overview. <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/gc-ai-strategy-overview.html" target="_blank">Treasury Board of Canada Secretariat</a>. Published 25/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> Government of Canada&#x27;s new auto strategy. <a href="https://www.canada.ca/en/employment-social-development/news/2026/02/government-of-canadas-new-auto-strategy.html" target="_blank">Employment and Social Development Canada</a>. Published 18/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> Autonomous vehicles: Canada&#x27;s existing regulatory framework. <a href="https://www.osler.com/en/insights/reports/autonomous-vehicles-canadas-existing-regulatory-framework/" target="_blank">Osler, Hoskin and Harcourt</a>. Published 30/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Exploring regulatory pathways toward the safe adoption of autonomous vehicles. <a href="https://www.osler.com/en/insights/updates/exploring-regulatory-pathways-toward-the-safe-adoption-of-autonomous-vehicles/" target="_blank">Osler, Hoskin and Harcourt</a>. Published 03/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> AIDA: patchworking AI risk management for Canadian federal regulators while the act is on pause. <a href="https://www.globalrelay.com/resources/the-compliance-hub/rules-and-regulations/aida-patchworking-ai-risk-management-for-canadian-federal-regulators-while-the-act-is-on-pause/" target="_blank">Global Relay</a>. Published 23/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> AI governance: what organizations need to know. <a href="https://www.mltaikins.com/insights/ai-governance-what-organizations-need-to-know/" target="_blank">MLT Aikins</a>. Published 02/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Canada&#x27;s auto sector faces existential challenges. <a href="https://www.wardsauto.com/news/usmca-canada-auto-sector-faces-challenges-2026-tariffs-evs/810028/" target="_blank">WardsAuto</a>. Published 22/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> PowerCo begins construction of first buildings at Canadian battery factory. <a href="https://www.electrive.com/2025/10/29/vw-powerco-begins-construction-of-first-buildings-at-canadian-battery-factory/" target="_blank">Electrive</a>. Published 29/10/2025.</li>
+<li><span class="tier-2">Tier 2</span> Waabi claims largest-ever Canadian tech fundraise. <a href="https://betakit.com/waabi-lands-750-million-usd-series-c-partners-with-uber-on-robotaxis/" target="_blank">BetaKit</a>. Published 28/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> Loblaw to deploy 50 fully autonomous Gatik trucks in Toronto. <a href="https://electricautonomy.ca/automakers/autonomous-vehicles/2025-09-29/loblaw-gatik-autonomous-trucks-toronto/" target="_blank">Electric Autonomy Canada</a>. Published 29/09/2025.</li>
+<li><span class="tier-2">Tier 2</span> Kodiak AI bringing autonomous trucks to Canada&#x27;s forestry sector. <a href="https://www.trucknews.com/technology/kodiak-ai-bringing-autonomous-trucks-to-canadas-forestry-sector/1003214689/" target="_blank">Truck News</a>. Published 08/05/2026.</li>
+<li><span class="tier-2">Tier 2</span> Waymo lobbies B.C. government to lift ban on self-driving taxis. <a href="https://www.iphoneincanada.ca/2026/03/26/waymo-lobbies-b-c-government-to-lift-ban-on-self-driving-taxis/" target="_blank">iPhone in Canada</a>. Published 26/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Canada&#x27;s internal trade barriers are blocking the road to driverless trucking. <a href="https://thelogic.co/news/internal-trade-barriers-driverless-trucking/" target="_blank">The Logic</a>. Published 22/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> Chinese automakers race to enter Canada. <a href="https://electrek.co/2026/05/06/chinese-ev-automakers-canada-byd-chery-geely-tesla-benefits/" target="_blank">Electrek</a>. Published 06/05/2026.</li>
+<li><span class="tier-2">Tier 2</span> Try before you buy: Canadians choose autonomous vehicles as a service before ownership. <a href="https://rates.ca/resources/try-you-buy-canadians-choose-autonomous-vehicles-service-ownership" target="_blank">Rates.ca and Leger</a>. Published 20/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Autonomous Vehicle Implementation Predictions: Implications for Transport Planning. <a href="https://vtpi.org/avip.pdf" target="_blank">Victoria Transport Policy Institute</a>. Published 01/04/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 26 May 2026</p>
+
+</body>
+</html>

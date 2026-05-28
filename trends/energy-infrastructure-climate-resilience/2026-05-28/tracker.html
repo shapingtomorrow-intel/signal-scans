@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Power demand outpaces grid; US policy retreats; insured losses harden, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .tracker-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 14px; }
+  .tracker-header .masthead { margin-bottom: 0; flex: 1 1 auto; }
+  .tracker-logo { width: 220px; height: auto; flex: 0 0 auto; }
+  @media (max-width: 600px) { .tracker-header { flex-direction: column; align-items: flex-start; } .tracker-logo { width: 160px; } }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">Change Tracker &middot; Energy, Infrastructure and Climate Resilience &middot; 28 May 2026</div>
+
+<article>
+
+<h2>Power demand outpaces grid; US policy retreats; insured losses harden</h2>
+<p class="seo-line">A May 2026 read: clean build-out is accelerating in batteries, renewables and first-of-a-kind nuclear, while data-centre load, the OBBBA-driven US policy reversal and a sixth consecutive USD 100 bn-plus insured-loss year reshape the operating environment.</p>
+
+<p>The 2026 consensus on energy is still the long transition. The cycle's evidence reframes it. Build-out is accelerating, with a record 692 GW of renewables added in 2025 and storage crossing 100 GW of annual additions for the first time (<a href="https://www.irena.org/News/pressreleases/2026/Apr/Near-700-GW-Surge-in-2025-Proves-Renewable-Energy-Resilience" target="_blank">IRENA</a>, March 2026). At the same time AI-driven load, PJM auction signals and the OBBBA's IRA rollback pull capital and policy in different directions, while a third 1.5&deg;C-overshoot year hardens the insured-loss base. The question is whether grids, permitting and insurance can absorb the speed.</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>AI and data-centre electricity demand</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named demand inflection in past 60 days</td>
+<td>Data-centre power demand rose 17% in 2025, AI load up ~50% (<a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank">IEA Electricity 2026</a>, April 2026).</td>
+</tr>
+<tr>
+<td>RTO capacity-price escalation</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>PJM at the price cap for a third consecutive auction</td>
+<td>PJM's 2027-28 auction cleared at $333.44/MW-day with a 6.6 GW reserve shortfall, mostly data-centre load (<a href="https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/" target="_blank">Utility Dive</a>, December 2025).</td>
+</tr>
+<tr>
+<td>Battery storage scaling</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>112 GW added in 2025, up 48% YoY</td>
+<td>BNEF projects 158 GW in 2026; storage crossed 100 GW in four years versus eight for solar (<a href="https://about.bnef.com/insights/clean-energy/energy-storage-enters-the-100-gigawatt-era-three-things-to-know/" target="_blank">BloombergNEF</a>, May 2026).</td>
+</tr>
+<tr>
+<td>Renewable capacity additions</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Record 692 GW in 2025; renewables 86% of additions</td>
+<td>Solar 511 GW and wind 159 GW; Asia took 74% of new capacity (<a href="https://www.irena.org/News/pressreleases/2026/Apr/Near-700-GW-Surge-in-2025-Proves-Renewable-Energy-Resilience" target="_blank">IRENA</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Advanced nuclear permitting</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Named regulatory inflection in past 90 days</td>
+<td>NRC approved TerraPower's Natrium plant: first commercial construction approval in nearly a decade (<a href="https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf" target="_blank">NRC</a>, March 2026).</td>
+</tr>
+<tr>
+<td>US clean-energy policy reversal</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>OBBBA effective; offshore-wind stop-work episodes in past 90 days</td>
+<td>45Y and 48E credits wind down on a 4 July 2026 construction-start trigger; Atlantic Shores was cancelled in March (<a href="https://e360.yale.edu/features/east-coast-offshore-wind" target="_blank">Yale E360</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Insured catastrophe losses</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Sixth consecutive year above USD 100 bn; 92% from secondary perils</td>
+<td>2025 insured losses ~USD 108 bn, LA wildfires alone at USD 40 bn (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-2026-01-natcat-2025-wildfire-storm-risk.html" target="_blank">Swiss Re sigma</a>, March 2026).</td>
+</tr>
+<tr>
+<td>EU critical-infrastructure resilience deadline</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>17 July 2026 designation deadline inside next 60 days</td>
+<td>Strategies were due January; designations follow in July with a 10-month compliance clock across 11 sectors (<a href="https://www.internationalsos.com/insights/critical-entities-resilience-directive-compliance" target="_blank">CER commentary</a>, February 2026).</td>
+</tr>
+<tr>
+<td>US grid interconnection bottleneck</td>
+<td><span class="momentum-pill stable">Stable</span></td>
+<td>Queue at 2.6 TW; median wait doubled to over 4 years</td>
+<td>Berkeley Lab data shows no easing; 95% of queue capacity is solar, storage and wind (<a href="https://eta-publications.lbl.gov/sites/default/files/2025-12/queued_up_2025_edition_12.15.2025.pdf" target="_blank">Berkeley Lab</a>, December 2025).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<p>The cycle's nine signals group into three themes at different tempos. Build-out is the clearest accelerator, load-and-grid the dominant transformer, and the risk side hardening rather than fading.</p>
+
+<div class="cluster opportunity">
+<h4>Clean build-out scales faster than the headlines suggest<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>Battery storage, the renewables record and the first US advanced-nuclear permit in roughly a decade sit together. Storage took four years to cross 100 GW versus eight for solar, compressing the firming timeline. The next inflection is whether 2026's projected 158 GW of storage lands behind data-centre loads.</p>
+</div>
+
+<div class="cluster transformation">
+<h4>Data-centre load and resilience deadlines rewire the operating environment<span class="cluster-type">Transformation Driver</span></h4>
+<p>AI-driven demand, the PJM price escalation, the persistent interconnection bottleneck and the EU CER cycle interact. PJM's third capped auction shows load moving faster than firm capacity even as 2.6 TW sits in queue. The EU layer adds a parallel deadline-driven push across 11 sectors.</p>
+</div>
+
+<div class="cluster risk">
+<h4>Physical and policy risk converge<span class="cluster-type">Evolving Risk</span></h4>
+<p>The US clean-energy policy reversal and the insured-catastrophe loss line move in the same direction from different systems. OBBBA's phase-out and the offshore-wind stop-work episodes compress US capex into a 2026-2027 window, while a sixth consecutive year above USD 100 bn in insured losses, secondary perils dominant, hardens the underwriting base.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Momentum distribution across the nine tracked signals</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing eight signals as Accelerating and one as Stable, grouped by theme.">
+  <style>
+    .bar-label { font: 11px -apple-system, sans-serif; fill: #1a1a1a; }
+    .axis-label { font: 11px -apple-system, sans-serif; fill: #5a6478; }
+    .legend { font: 10px -apple-system, sans-serif; fill: #1a1a1a; }
+    .title { font: 12px -apple-system, sans-serif; fill: #1a237e; font-weight: 600; }
+  </style>
+  <text x="20" y="20" class="title">Signals by direction and theme</text>
+  <line x1="60" y1="40" x2="60" y2="250" stroke="#9aa3b2" stroke-width="1"/>
+  <line x1="60" y1="250" x2="700" y2="250" stroke="#9aa3b2" stroke-width="1"/>
+  <text x="160" y="265" class="axis-label" text-anchor="middle">Accelerating (8)</text>
+  <text x="400" y="265" class="axis-label" text-anchor="middle">Stable (1)</text>
+  <text x="600" y="265" class="axis-label" text-anchor="middle">Fading (0)</text>
+  <rect x="80" y="50" width="22" height="190" fill="#43a047"/>
+  <rect x="105" y="80" width="22" height="160" fill="#43a047"/>
+  <rect x="130" y="110" width="22" height="130" fill="#43a047"/>
+  <rect x="160" y="50" width="22" height="190" fill="#1a237e"/>
+  <rect x="185" y="80" width="22" height="160" fill="#1a237e"/>
+  <rect x="210" y="110" width="22" height="130" fill="#1a237e"/>
+  <rect x="240" y="50" width="22" height="190" fill="#c62828"/>
+  <rect x="265" y="80" width="22" height="160" fill="#c62828"/>
+  <rect x="390" y="110" width="22" height="130" fill="#1a237e"/>
+  <text x="190" y="45" class="bar-label" text-anchor="middle">Build-out, demand and risk all gain</text>
+  <text x="400" y="100" class="bar-label" text-anchor="middle">Queue stays jammed</text>
+  <text x="450" y="40" class="legend">Theme key:</text>
+  <rect x="450" y="48" width="12" height="12" fill="#43a047"/><text x="466" y="58" class="legend">Emerging Opportunity</text>
+  <rect x="450" y="65" width="12" height="12" fill="#1a237e"/><text x="466" y="75" class="legend">Transformation Driver</text>
+  <rect x="450" y="82" width="12" height="12" fill="#c62828"/><text x="466" y="92" class="legend">Evolving Risk</text>
+</svg>
+<p class="figure-caption">Source basis: nine tracked signals in the cycle evidence base, colour-coded by theme assignment.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>AI and data-centre electricity demand.</strong> A missed hyperscaler go-live or an ISO-ordered large-load curtailment would force tariff and siting reform.</li>
+<li><strong>RTO capacity-price escalation.</strong> A backstop procurement RFP at PJM would tip the conversation to direct state intervention on data-centre allocations.</li>
+<li><strong>Battery storage scaling.</strong> A sustained RTO co-location requirement would convert storage into default interconnection economics.</li>
+<li><strong>Insured catastrophe losses.</strong> A second January-2025-scale wildfire or convective-storm cluster would push FAIR Plan models past carrying capacity.</li>
+<li><strong>US clean-energy policy reversal.</strong> A Treasury clarification narrowing the 4 July 2026 safe harbour would compress the window further.</li>
+</ol>
+</div>
+
+<h3>Wild Cards to Watch</h3>
+
+<div class="wild-card risk">
+<h4>Compound peak-loss year materialises</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A 2026 secondary-peril cluster pushing insured losses toward the modelled peak.</p>
+<p><strong>Early warning indicators:</strong> Above-normal Atlantic SSTs by July; multi-state convective storms in May-June; Pacific wildfire above 2025 baseline.</p>
+<p>Swiss Re's peak-year scenario points to about USD 320 bn in insured losses in 2026 against a base-case USD 148 bn (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-2026-01-natcat-2025-wildfire-storm-risk.html" target="_blank">Swiss Re sigma</a>, March 2026). That would crystallise the property-insurance retreat now visible in California into a broader sun-belt mortgage event.</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>Hyperscaler-backed firm clean capacity goes commercial</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A multi-gigawatt hyperscaler offtake pulling SMRs, geothermal or long-duration storage past first-of-a-kind cost.</p>
+<p><strong>Early warning indicators:</strong> Second NRC construction permit; long-dated PPAs sub-USD 100/MWh; corporate balance-sheet financing.</p>
+<p>The Natrium permit (<a href="https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf" target="_blank">NRC</a>, March 2026) shows the regulatory machine can move when an application is well prepared. A second and third permit at similar cadence would shift firm clean capacity from speculative to bookable.</p>
+</div>
+
+<div class="wild-card risk">
+<h4>EU resilience deadline reveals a sector-wide gap</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A Member-State audit shows critical-entity coverage below 50% by Q4 2026 in energy or digital infrastructure.</p>
+<p><strong>Early warning indicators:</strong> Late July designations; Commission infringement letters; sector push-back on cross-border resilience requirements.</p>
+<p>Strategies were due 17 January 2026 and designation lands in July (<a href="https://www.internationalsos.com/insights/critical-entities-resilience-directive-compliance" target="_blank">CER commentary</a>, February 2026). A patchy roll-out would re-open the H2 2026 climate-resilience framework consultation just as it is meant to land.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Wild Card matrix: surprise versus impact</h4>
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two-by-two matrix plotting three wild cards by surprise factor and impact severity.">
+  <style>
+    .axis { stroke: #9aa3b2; stroke-width: 1; }
+    .gridline { stroke: #eef0f3; stroke-width: 1; }
+    .label { font: 11px -apple-system, sans-serif; fill: #1a1a1a; }
+    .axis-label { font: 11px -apple-system, sans-serif; fill: #5a6478; }
+    .title { font: 12px -apple-system, sans-serif; fill: #1a237e; font-weight: 600; }
+  </style>
+  <text x="20" y="20" class="title">Wild Card matrix</text>
+  <line x1="80" y1="40" x2="80" y2="260" class="axis"/>
+  <line x1="80" y1="260" x2="680" y2="260" class="axis"/>
+  <line x1="380" y1="40" x2="380" y2="260" class="gridline"/>
+  <line x1="80" y1="150" x2="680" y2="150" class="gridline"/>
+  <text x="380" y="280" class="axis-label" text-anchor="middle">Surprise factor (low to high)</text>
+  <text x="40" y="150" class="axis-label" text-anchor="middle" transform="rotate(-90 40 150)">Impact severity</text>
+  <circle cx="520" cy="80" r="14" fill="#8e24aa"/>
+  <text x="540" y="84" class="label">Compound peak-loss year</text>
+  <circle cx="560" cy="130" r="14" fill="#00897b"/>
+  <text x="580" y="134" class="label">Hyperscaler firm clean capacity</text>
+  <circle cx="300" cy="180" r="14" fill="#8e24aa"/>
+  <text x="160" y="184" class="label">EU resilience gap</text>
+</svg>
+<p class="figure-caption">Source basis: analyst plotting of the three wild cards by surprise factor and potential impact, drawn from cycle evidence.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>Three reads are worth monitoring this quarter. Capacity is no longer the binding constraint; interconnection, siting and firm-capacity contracting are, which warrants attention to storage co-location terms and the next PJM and MISO auction signals. The OBBBA 4 July 2026 construction-start window is a decision point for US clean-energy capex still on the shelf. The insured-loss base reset matters for capital allocation, directly through property cover and indirectly through mortgage and municipal-bond pricing in exposed regions.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Electricity 2026 (executive summary). <a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank">International Energy Agency</a>. Published 22/04/2026.</li>
+<li><span class="tier-1">Tier 1</span> U.S. generating capacity to reach a record high in 2026. <a href="https://www.eia.gov/todayinenergy/detail.php?id=67205" target="_blank">U.S. Energy Information Administration</a>. Published 20/02/2026.</li>
+<li><span class="tier-3">Tier 3</span> PJM capacity prices hit record high as grid falls short of reliability target. <a href="https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/" target="_blank">Utility Dive</a>. Published 18/12/2025.</li>
+<li><span class="tier-1">Tier 1</span> Natural disaster figures 2025 (wildfires and thunderstorms drive insurer losses). <a href="https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-2025.html" target="_blank">Munich Re</a>. Published 13/01/2026.</li>
+<li><span class="tier-2">Tier 2</span> sigma 1/2026: Wildfires, storms and floods drive record 92% of insured losses. <a href="https://www.swissre.com/institute/research/sigma-research/sigma-2026-01-natcat-2025-wildfire-storm-risk.html" target="_blank">Swiss Re Institute</a>. Published 23/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Queued Up: 2025 Edition (transmission interconnection queue). <a href="https://eta-publications.lbl.gov/sites/default/files/2025-12/queued_up_2025_edition_12.15.2025.pdf" target="_blank">Lawrence Berkeley National Laboratory</a>. Published 15/12/2025.</li>
+<li><span class="tier-1">Tier 1</span> Renewable Capacity Statistics 2026 (near-700 GW added in 2025). <a href="https://www.irena.org/News/pressreleases/2026/Apr/Near-700-GW-Surge-in-2025-Proves-Renewable-Energy-Resilience" target="_blank">IRENA</a>. Published 31/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Energy storage enters the 100-gigawatt era. <a href="https://about.bnef.com/insights/clean-energy/energy-storage-enters-the-100-gigawatt-era-three-things-to-know/" target="_blank">BloombergNEF</a>. Published 11/05/2026.</li>
+<li><span class="tier-1">Tier 1</span> First commercial reactor construction approval in 10 years (TerraPower Wyoming). <a href="https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf" target="_blank">U.S. Nuclear Regulatory Commission</a>. Published 04/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> CER Directive compliance readiness before and after July 2026. <a href="https://www.internationalsos.com/insights/critical-entities-resilience-directive-compliance" target="_blank">International SOS / Deloitte</a>. Published 15/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> Emissions Gap Report 2025: Off Target. <a href="https://www.unep.org/resources/emissions-gap-report-2025" target="_blank">UN Environment Programme</a>. Published 04/11/2025.</li>
+<li><span class="tier-1">Tier 1</span> 2025 was the third hottest year on record. <a href="https://climate.copernicus.eu/copernicus-2025-was-third-hottest-year-record" target="_blank">Copernicus Climate Change Service</a>. Published 09/01/2026.</li>
+<li><span class="tier-3">Tier 3</span> Low-risk homes caught up in California's insurance crisis. <a href="https://www.insurancejournal.com/news/west/2026/03/16/862079.htm" target="_blank">Insurance Journal</a>. Published 16/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> U.S. offshore wind in retreat. <a href="https://e360.yale.edu/features/east-coast-offshore-wind" target="_blank">Yale Environment 360</a>. Published 30/04/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 28 May 2026</p>
+
+</body>
+</html>

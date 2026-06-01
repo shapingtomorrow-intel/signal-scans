@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token {{CLUSTER_COUNT_WORD}}, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>The Cliff Arrived; The Demand Did Not: Bollerup Jensen Group Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; Bollerup Jensen Group</div>
+<h1 class="report-title">The Cliff Arrived; The Demand Did Not</h1>
+<div class="meta">
+<span class="series-continuity">Cycle 2 briefing &middot; Previous: 'When the Boring Becomes Strategic' (Cycle 1, April 2026)</span>Date: 1 June 2026 &middot; Audience: Bollerup Jensen Group leadership team &middot; Horizon: 6 to 18 months primary; 2 to 5 years secondary<br>
+<span style="font-size: 0.92em;">Read estimate: 3 min Executive Synthesis &middot; 22 min full read</span>
+</div>
+</div>
+<svg class="report-logo" viewBox="0 0 206 21" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MakeMyStrategy">
+<path d="M38.723 0.669922L38.6806 0.76325H36.865L32.2834 13.108L27.6849 0.76325H25.8183L25.7844 0.678406V0.76325H23.9688V15.9757H26.4207V4.2079L30.8156 15.9757H33.7088L38.0867 4.21638V15.9757H40.5387V0.76325H38.723V0.669922Z" fill="#1D1D1D"/>
+<path d="M52.4843 12.9382V7.67794C52.4843 5.34474 50.7874 4.0127 47.8094 4.0127C44.8314 4.0127 42.8291 5.54836 42.7188 8.13609V8.48395H45.0774V8.19548C45.1877 6.73617 46.0701 6.04894 47.8348 6.04894C49.922 6.04894 50.2104 6.89738 50.2104 7.74581C50.2104 8.29729 50.0068 8.59425 48.8275 8.77242L46.0446 9.23057C43.6266 9.63782 42.4473 10.8171 42.4473 12.8364C42.4473 14.9915 43.9575 16.332 46.384 16.332C47.1434 16.382 47.9026 16.2321 48.5859 15.8971C49.2692 15.5621 49.8527 15.0539 50.2783 14.423C50.2783 14.8557 50.3462 15.2714 50.3801 15.7296V16.0181H52.62V15.6702C52.5238 14.7628 52.4784 13.8507 52.4843 12.9382V12.9382ZM46.7743 14.2448C46.0786 14.2448 44.9077 14.0412 44.9077 12.7007C44.9077 11.8522 45.2301 11.2838 46.8422 10.9529L48.6663 10.5796C49.2131 10.4803 49.7459 10.3151 50.2529 10.0875V10.4693C50.2529 12.3443 49.2093 14.2448 46.7743 14.2448V14.2448Z" fill="#1D1D1D"/>
+<path d="M65.1942 4.97183L65.33 4.83608V4.38641H62.6744L57.6941 9.20552C57.5159 9.36673 57.3462 9.5449 57.1765 9.72307V0H54.75V15.976H57.1341V12.6587L59.0431 10.8515L63.0647 15.9421H66.1106L60.6042 9.33279L65.1942 4.97183Z" fill="#1D1D1D"/>
+<path d="M74.7219 12.2083C74.3825 13.6506 73.3474 14.3548 71.5742 14.3548C69.4276 14.3548 68.3331 13.2519 68.1804 10.8932H76.8854V10.6302C76.9296 10.3497 76.9466 10.0655 76.9363 9.78175C76.9363 6.27771 74.7813 4.00391 71.4639 4.00391C67.9598 4.02936 65.7539 6.37953 65.7539 10.1805C65.7539 13.9815 67.9004 16.3571 71.5063 16.3571C76.0709 16.3571 76.826 13.2943 76.9532 12.3525V11.9877H74.7813L74.7219 12.2083ZM68.2059 8.9418C68.4859 6.93949 69.5549 6.00621 71.5317 6.00621C73.5086 6.00621 74.4419 6.96495 74.6116 8.9418H68.2059Z" fill="#1D1D1D"/>
+<path d="M93.5661 0.669922L93.5322 0.76325H91.7165L87.135 13.108L82.5365 0.76325H80.6699L80.636 0.678406V0.76325H78.8203V15.9757H81.2723V4.2079L85.6672 15.9757H88.5604L92.9298 4.21638V15.9757H95.3903V0.76325H93.5661V0.669922Z" fill="#1D1D1D"/>
+<path d="M102.711 13.0238L102.66 13.185L99.1644 4.38672H96.6191L101.209 15.9763H101.566L100.624 18.3011H97.4676V20.3628H99.8686C102.075 20.3628 102.575 19.3616 103.262 17.5969L108.599 4.38672H106.181L102.711 13.0238Z" fill="#1D1D1D"/>
+<path d="M118.034 7.38961L114.394 6.83813C113.079 6.6345 112.468 5.98969 112.468 4.85279C112.468 2.85048 114.301 2.43475 115.862 2.43475C118.22 2.43475 119.51 3.45287 119.714 5.45518V5.74364H122.098V5.40427C121.877 2.20567 119.612 0.373047 115.887 0.373047C111.569 0.373047 110.025 2.70624 110.025 4.89521C110.025 7.2878 111.323 8.63681 113.995 9.02709L117.431 9.55312C119.128 9.84159 119.824 10.4779 119.824 11.8439C119.824 13.2099 119.383 14.245 116.218 14.245C113.393 14.245 111.976 13.0741 111.976 10.6561V10.3422H109.566V10.6646C109.566 12.7687 110.415 16.3067 116.244 16.3067C120.274 16.3067 122.327 14.7286 122.327 11.6063C122.267 9.19678 120.918 7.85625 118.034 7.38961Z" fill="#1D1D1D"/>
+<path d="M127.529 1.95117H126.027L125.357 4.28437L123.023 4.84434V6.39697H125.102V13.0996C125.102 15.1698 125.951 15.9758 128.072 15.9758H130.982V13.9141H127.495V6.39697H131.109V4.38618H127.495L127.529 1.95117Z" fill="#1D1D1D"/>
+<path d="M135.139 6.21961V4.38699H132.746V15.9766H135.139V11.6241C135.139 9.4776 135.504 8.1201 136.284 7.38196C136.621 7.08927 137.016 6.87017 137.442 6.73868C137.869 6.6072 138.318 6.56622 138.762 6.61837H139.542V4.24275H138.829C138.094 4.21719 137.366 4.38663 136.718 4.73384C136.069 5.08106 135.525 5.59367 135.139 6.21961V6.21961Z" fill="#1D1D1D"/>
+<path d="M150.174 12.9382V7.67794C150.174 5.34474 148.477 4.0127 145.49 4.0127C142.504 4.0127 140.51 5.54836 140.4 8.13609V8.48395H142.758V8.19548C142.877 6.73617 143.751 6.04894 145.516 6.04894C147.611 6.04894 147.891 6.89738 147.891 7.74581C147.891 8.29729 147.688 8.59425 146.517 8.77242L143.726 9.23057C141.308 9.63782 140.137 10.8171 140.137 12.8364C140.137 14.9914 141.638 16.332 144.065 16.332C144.828 16.3866 145.593 16.2388 146.281 15.9037C146.969 15.5685 147.557 15.0578 147.985 14.423C147.985 14.8557 148.053 15.2714 148.095 15.7296V16.0181H150.335V15.6702C150.229 14.7633 150.176 13.8512 150.174 12.9382V12.9382ZM144.464 14.2448C143.76 14.2448 142.589 14.0412 142.589 12.7007C142.589 11.8522 142.92 11.2838 144.523 10.9529L146.347 10.5796C146.894 10.4816 147.427 10.3164 147.934 10.0875V10.4693C147.959 12.3443 146.882 14.2448 144.489 14.2448H144.464Z" fill="#1D1D1D"/>
+<path d="M155.586 1.95117H154.093L153.414 4.28437L151.115 4.84434V6.39697H153.202V13.0996C153.202 15.1698 154.051 15.9758 156.172 15.9758H159.074V13.9141H155.586V6.39697H159.209V4.38618H155.586V1.95117Z" fill="#1D1D1D"/>
+<path d="M168.745 12.2083C168.406 13.6506 167.371 14.3548 165.598 14.3548C163.451 14.3548 162.357 13.2519 162.161 10.8932H170.909L170.951 10.6302C170.995 10.3497 171.012 10.0655 171.002 9.78175C171.002 6.27771 168.856 4.00391 165.53 4.00391C161.983 4.00391 159.777 6.35407 159.777 10.1296C159.777 13.9051 161.924 16.3062 165.53 16.3062C170.094 16.3062 170.849 13.2434 170.977 12.3016V11.9368H168.839L168.745 12.2083ZM162.229 8.9418C162.509 6.93949 163.578 6.00621 165.555 6.00621C167.532 6.00621 168.474 6.96495 168.635 8.9418H162.229Z" fill="#1D1D1D"/>
+<path d="M181.48 5.56616C181.003 5.05513 180.418 4.65618 179.768 4.39799C179.118 4.1398 178.419 4.02878 177.722 4.07291C174.328 4.07291 172.334 6.194 172.334 9.89318C172.334 13.5924 174.251 15.7389 177.722 15.7389C178.414 15.7859 179.108 15.6828 179.757 15.4368C180.405 15.1908 180.993 14.8077 181.48 14.3135V15.6625C181.48 17.7921 180.572 18.5896 178.137 18.5896C176.143 18.5896 175.108 17.8515 174.964 16.3328V16.0443H172.572V16.3837C172.784 19.1072 174.744 20.6259 178.103 20.6259C182.015 20.6259 183.83 19.0648 183.83 15.705V4.38684H181.48V5.56616ZM181.48 9.89318C181.48 12.5403 180.445 13.7196 178.137 13.7196C175.83 13.7196 174.744 12.6167 174.744 9.89318C174.744 7.1697 175.719 6.09219 178.137 6.09219C180.555 6.09219 181.48 7.26303 181.48 9.89318Z" fill="#1D1D1D"/>
+<path d="M194.453 4.38672L190.966 13.0492L190.915 13.185L187.428 4.38672H184.883L189.481 15.9763H189.838L188.887 18.3011H185.74V20.3628H188.141C190.347 20.3628 190.839 19.3616 191.535 17.5969L196.837 4.38672H194.453Z" fill="#1D1D1D"/>
+<path d="M201.546 4.75155H200.231V8.05196H199.773V4.75155H198.449V4.38672H201.538L201.546 4.75155Z" fill="#1D1D1D"/>
+<path d="M206.001 8.05196H205.543V4.72609L204.304 8.05196H203.693L202.454 4.72609V8.05196H201.996V4.38672H202.777L204.007 7.63623L205.212 4.38672H206.001V8.05196Z" fill="#1D1D1D"/>
+<path d="M3.99613 7.99219H0V15.976H7.99226V11.9883H3.99613V7.99219Z" fill="#287AFF"/>
+<path d="M15.976 0H7.99219V3.99613H11.9883V7.99226H15.976V0Z" fill="#287AFF"/>
+</svg>
+</div>
+
+<p class="lang-switch" style="font-size: 0.85em; color: #5a6478; margin: -6px 0 16px;"><strong>English</strong> &middot; <a href="report-clusters-da.html">Dansk</a></p>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract motif: a cliff edge in dark navy and a divergent demand pull arrow in orange and green moving sideways into structural geopolymer cement and foundry, not falling toward panel adhesives.">
+  <defs>
+    <linearGradient id="cliff" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="100%" stop-color="#1a237e" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="340" height="300" fill="none"/>
+  <path d="M 10 200 L 130 200 L 130 260 L 10 260 Z" fill="url(#cliff)"/>
+  <text x="20" y="225" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600">CLIFF</text>
+  <text x="20" y="245" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#ffffff">6 Aug 2026</text>
+  <path d="M 130 200 L 160 200 L 160 80 L 320 80" stroke="#f57c00" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="320,72 332,80 320,88" fill="#f57c00"/>
+  <text x="170" y="70" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="600">structural geopolymer</text>
+  <path d="M 130 230 L 170 230 L 170 150 L 320 150" stroke="#2e7d32" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="320,142 332,150 320,158" fill="#2e7d32"/>
+  <text x="178" y="140" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#2e7d32" font-weight="600">foundry, fire protection</text>
+  <path d="M 130 260 C 180 280, 240 285, 320 280" stroke="#1a237e" stroke-width="1.5" stroke-dasharray="4 3" fill="none" opacity="0.45"/>
+  <text x="200" y="295" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#1a237e" opacity="0.7" font-style="italic">panel adhesives (faded path)</text>
+</svg>
+<p class="figure-caption">The cycle's central tension: the cliff arrived on schedule, but the demand redirected.</p>
+</div>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<!-- FILL: one sit-up statement, placed BEFORE the Executive Synthesis prose.
+     Two lines:
+       (1) a personally-implicating question — typical opener
+           "Which decisions on your desk this week..." — that exposes the
+           assumption the report is about to challenge.
+       (2) a one-line evidence-warrant reply that says, in effect, "the
+           evidence in this briefing says otherwise". May end with an
+           exclamation if the cycle's headline genuinely warrants it.
+     Substance must come from the cycle's central tension; it is not a
+     generic hook. Cap at ~35 words combined. The drafting agent emits 2-3
+     candidates above the REPORT_TITLE line for the analyst to pick from. -->
+<p class="sit-up-question">Which decisions on your desk this week assume the formaldehyde cliff will pull demand to silicate?</p>
+<p class="sit-up-warrant">The cycle 2 evidence says it has not, and the bigger opportunity is structural geopolymer cement, not panel adhesives.</p>
+</div>
+
+<p>The formaldehyde cliff arrived on schedule, and the wood-panel industry chose pMDI and lignin. Six weeks after cycle 1 framed sodium silicate as positioned for the EU low-carbon construction demand pull, the evidence base has partially refuted that thesis on its primary substitution surface. MEDITE SMARTPLY moved its full MDF range to No-Added-Formaldehyde MDI resin on 13 April 2026 (<a href="https://mdfosb.com/en/eu-reach-revision-e05" target="_blank" rel="noopener">MEDITE SMARTPLY</a>, April 2026), Koskisen and Stora Enso extended the lignin-based NeoLigno Zero family into flooring and construction board (<a href="https://panelsfurnitureasia.com/koskisen-and-stora-enso-expand-formaldehyde-free-wood-panel-range-with-new-zero-product/" target="_blank" rel="noopener">Panels and Furniture Asia</a>, May 2026), and the European Panel Federation's own cost estimate, 15 to 25 percent on resin cost, names UF, MUF and NAF reformulation, not silicate, as the compliance route (<a href="https://notifix.info/en/noticias/fabricates-tableros/eu-to-halve-formaldehyde-limit-for-wood-panels-starting-august-2026/" target="_blank" rel="noopener">Notifix</a>, April 2026). The substitution window the April cycle expected to open for silicate panel adhesives has closed before it opened.</p>
+
+<p>Taken together, the sources suggest the spine of this cycle is no longer the panel-adhesive opening but the structural geopolymer threshold. Hoffmann Green's H-UKR alkali-activated cement received a French ATec Technical Assessment for all superstructure applications in January 2026, the first 0 percent clinker cement certified for load-bearing construction (<a href="https://www.worldcement.com/europe-cis/12012026/hoffmann-green-validates-h-ukr-0-clinker-cement-for-superstructures/" target="_blank" rel="noopener">World Cement</a>, January 2026). The European Commission convened a high-level cement-industry policy dialogue on 25 March 2026 advancing a low-carbon concrete label, revised CPR standards with lifecycle climate impact disclosure, and a EUR 100bn Industrial Decarbonisation Bank (<a href="https://climate.ec.europa.eu/news-other-reads/news/commission-holds-high-level-policy-dialogue-future-cement-industry-europe-2026-03-25_en" target="_blank" rel="noopener">European Commission DG CLIMA</a>, March 2026). And from 8 January 2026, Declarations of Performance under CPR 2024/3110 must carry mandatory GWP disclosure for concrete and cement (<a href="https://single-market-economy.ec.europa.eu/news/commission-presents-new-initiatives-support-europes-construction-ecosystem-2025-12-15_en" target="_blank" rel="noopener">European Commission DG GROW</a>, December 2025). Sodium silicate is the activator chemistry beneath the dominant geopolymer formulations; the demand pull that did not arrive in panel adhesives is forming in cement.</p>
+
+<div class="pullquote">The formaldehyde cliff arrived on schedule, and the wood-panel industry chose pMDI and lignin.</div>
+
+<p>Three further forces are now dominating leadership attention. First, the compliance tailwind that cycle 1 framed as a structural margin support has been pruned: the Council adopted the Omnibus I package on 24 February 2026, narrowing CSRD scope to firms above 1,000 employees and EUR 450m turnover (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" target="_blank" rel="noopener">Council of the European Union</a>, February 2026), and CBAM Phase 2 has deferred chemicals scope to a 2027 evaluation report (<a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3088" target="_blank" rel="noopener">European Commission DG TAXUD</a>, December 2025). Second, the foundry inorganic transition continues: the EU's LIFE GREEN CASTING project documents 80 to 95 percent VOC reduction targets across six ferrous foundries (<a href="https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE21-ENV-FI-GREEN-CASTING-LIFE-101074439/towards-zero-emissions-in-european-ferrous-foundries-using-inorganic-binder-systems" target="_blank" rel="noopener">European Commission LIFE Programme</a>, structural anchor), and ASK Chemicals' INOTEC Generation 6 is mature enough to be cost-competitive with phenolic and furan in aluminium core production. Third, a new and unexpected adjacency has opened in passive fire protection: the UK Building Safety Regulator's 25 March 2026 consultation on Approved Document B and the April 2026 ASFP guidance both push specification toward non-combustible silicate-bonded assemblies.</p>
+
+<p>The board-level insight that may surprise leadership: the cycle 1 ownership-window theme has dropped out of this cycle's spine, not because the M&A pressure has eased but because the strategic-redirection question now precedes the ownership question. Whether BJ continues independent, recapitalises, or sells, the answer is conditional on which of three doors it walks through, cement activator supply, foundry binder input, or fire-protection and structural silicate bonding. The panel-adhesive door has been quietly closed by other people's product launches.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis assumes the structural geopolymer adjacency is the spine of BJ's next 24 months. If a second 0 percent clinker cement system fails its national technical assessment in 2026, or if the EU Industrial Decarbonisation Bank's first cement-sector allocation goes entirely to electrified clinker capture rather than alkali-activated alternatives, the geopolymer demand pull would reset to a 5-to-10-year horizon and the cycle 1 four-theme architecture would re-assert itself. The falsifying signal would be a Cemex, Heidelberg or Holcim public withdrawal from an announced alkali-activated pilot, paired with one further OPC capacity reinvestment in Northern Europe.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Stop scoping the wood-panel adhesive opening as an active commercial target.</strong> The substitution share has been claimed by pMDI and lignin; further sales engineering into panel adhesives extends a closed window.</li>
+<li><strong>Authorise a formulator-engagement programme into alkali-activated cement and structural retrofit binders.</strong> The Hoffmann Green ATec, the Commission's 25 March cement dialogue and the CPR GWP declaration together open a 12-to-18-month specification window.</li>
+<li><strong>Commission a soda ash and energy-cost stress test on FY27 margin.</strong> The Solvay Torrelavega cut, EU power prices 2.5x US levels, and the AccelerateEU State aid framework all signal cost-side pressure that compresses any redirection programme's runway.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per leadership function. Each card surfaces the one question this cycle puts to that function.</p>
+<div class="snapshots">
+
+<!-- FILL: exactly 4 snapshot cards. Use either leadership-function lenses
+     (e.g. Strategy, Programmes/Engineering, Operations, Finance/Capital) or
+     audience-type lenses (e.g. boards, investors, regulators, operators) for
+     org-agnostic samples. Keep the four colour classes in this order:
+     commercial, marketing, operations, finance (they are colour slots only,
+     not literal department names). Each card has: a .role pill, an <h4> that is
+     the one question this cycle puts to that function, a "The shift:" paragraph
+     and a "The question to brief:" paragraph. -->
+
+<div class="snapshot-card commercial">
+<span class="role">Owner-CEO and Board</span>
+<h4>Which of three doors does the next 24 months walk through?</h4>
+<p><strong>The shift:</strong> The April 2026 thesis that EU low-carbon construction would pull silicate through the panel-adhesive door has been refuted on the panel surface and reinforced on the cement and structural surface; the strategic question is no longer whether the demand pull materialises but which adjacency captures it first, structural geopolymer activator supply, foundry inorganic core binders, or fire-protection silicate-bonded assemblies.</p>
+<p><strong>The question to brief:</strong> Will the board endorse a 12-month redirection of commercial effort from panel adhesives to cement and structural geopolymer activator engagement before the H2 2026 budget cycle closes?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Commercial Director</span>
+<h4>Which named accounts should the formulator team be in front of by Q3?</h4>
+<p><strong>The shift:</strong> The substitution share inside the wood-panel formaldehyde transition has been claimed by pMDI and lignin chemistries (MEDITE on No-Added-Formaldehyde MDI, Koskisen and Stora Enso on NeoLigno lignin), and the only credible silicate-adhesive demand pull is forming around alkali-activated cement systems (Hoffmann Green H-UKR ATec), structural retrofit (EOTA EAD 340275-00-0104) and passive fire protection (UK Approved Document B consultation, ASFP April 2026 guidance).</p>
+<p><strong>The question to brief:</strong> Which three formulator accounts in alkali-activated cement and structural retrofit can be moved from awareness to specification engagement in 90 days, and what does the panel-adhesive pipeline retire to fund that move?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Technical and R&amp;D Director</span>
+<h4>Which silicate-grade specifications carry the redirection?</h4>
+<p><strong>The shift:</strong> The technical conversation has moved from generic water-glass-as-adhesive to specification-grade activator chemistry (modulus, Na2O content, dissolution kinetics) for alkali-activated cement, and from foundry sodium silicate as a commodity to ASK Generation 6 INOTEC-class specification benchmarks; the R&amp;D priority is not new product invention but tightening specification documentation around the existing silicate grades to make them formulator-ready.</p>
+<p><strong>The question to brief:</strong> Which three existing silicate grades carry a documented activator-modulus and inorganic-binder specification sheet by Q3, and what new analytical method development needs to be in place for the Q4 2026 formulator engagements?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">CFO</span>
+<h4>What is the FY27 margin downside if energy and soda ash pressure compounds?</h4>
+<p><strong>The shift:</strong> The compliance tailwind that cycle 1 framed as a structural margin support has been pruned by Omnibus I and CBAM Phase 2's deferral of chemicals; the cost-side pressure has hardened, with Solvay cutting Torrelavega soda ash capacity 30 percent (600kt to 420kt) in Q3 2026 and Cefic Q4 2025 Chemical Trends Report documenting EU gas prices at 2.5x US levels through 2025; the AccelerateEU package and ETS Investment Booster offer a state aid framework but no near-term price relief.</p>
+<p><strong>The question to brief:</strong> What is the worst-credible FY27 EBITDA scenario combining a 10 to 15 percent soda ash input cost rise and a flat panel-adhesive growth assumption, and at what threshold does it trigger an explicit owner-intent decision?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into six themes, ranked by impact on Bollerup Jensen Group's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Bollerup Jensen Group's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<!-- FILL: 5-6 themes, in descending impact order (Immediate first,
+     then Near-Term, then Longer-Range). Each theme is one .signal-cluster
+     block with the matching tier class and pill:
+        Immediate    -> class "tier-mandate"     pill "impact-tier mandate"
+        Near-Term    -> class "tier-positioning" pill "impact-tier positioning"
+        Longer-Range -> class "tier-horizon"     pill "impact-tier horizon"
+     Give each theme id="cluster-1" .. "cluster-N" (structural id kept as cluster; reader label is Theme) so SIs can link to it.
+     The repeating structure is shown once below; repeat it 5-6 times.
+
+     Optional per theme:
+       - one .report-figure (an embedded data SVG: bar chart, structure
+         diagram, etc.) where a number or relationship is genuinely clearer
+         shown than told. Not every theme needs one; 1-2 per report is typical.
+       - one .weak-signals block, on the theme where horizon-scan early
+         indicators genuinely belong (usually a Longer-Range theme). Each
+         weak signal carries the weak-signal-marker span and names what would
+         make it gain weight.
+-->
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. The Cliff Without the Pull: Wood-Panel Substitution Chooses pMDI and Lignin, Not Silicate</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The formaldehyde cliff that the April cycle framed as a silicate-adhesive opening has arrived on schedule, and the wood-panel sector has chosen two non-silicate compliance routes. From 6 August 2026, REACH Annex XVII Entry 77 halves the EU formaldehyde-emission limit for wood panels from E1 (0.124 mg/m3) to 0.062 mg/m3, with no grace period and no indoor-panel loophole. The substitution share has not gone to alkaline silicate adhesives; it has gone to reformulated UF, MUF and No-Added-Formaldehyde MDI on the synthetic side, and to lignin on the bio-based side. For Bollerup Jensen, the strategic implication is direct: the panel-adhesive opening must be retired as an active commercial target, and the silicate-adhesive narrative redirected to the structural, foundry and fire-protection adjacencies treated in the next five themes.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The cliff is binding and the exemption scope is narrow. REACH Annex XVII Entry 77 imposes 0.062 and 0.080 mg/m3 limits from 6 August 2026; exemptions are confined to outdoor-only articles, industrial non-public exposure, medical devices, PPE, biocides and food contact, with no loophole for indoor wood panels (<a href="https://analytical-group.com/en/news-en/formaldehyde-limits-restriction-77-reach" target="_blank" rel="noopener">Analytical Group</a>, March 2026).</li>
+<li>The dominant panel-major compliance route is fossil pMDI, not silicate. MEDITE SMARTPLY moved its full MDF range to "No Added Formaldehyde MDI resin, which already meets the new REACH limit" on 13 April 2026 (<a href="https://mdfosb.com/en/eu-reach-revision-e05" target="_blank" rel="noopener">MEDITE SMARTPLY</a>, April 2026).</li>
+<li>The bio-based substitution route is going to lignin, not silicate. Koskisen and Stora Enso extended the lignin-based NeoLigno Zero family with a new flooring and construction board in May 2026, claiming "formaldehyde-free panels can work in large-scale industrial production while meeting high performance expectations" (<a href="https://panelsfurnitureasia.com/koskisen-and-stora-enso-expand-formaldehyde-free-wood-panel-range-with-new-zero-product/" target="_blank" rel="noopener">Panels and Furniture Asia</a>, May 2026).</li>
+<li>The European Panel Federation's own cost estimate names UF/MUF/NAF, not silicate, as the compliance route, and quantifies the cost shock: "the added cost for resins will range between 15% and 25%, depending on the type of panel and the pressing technology" (<a href="https://notifix.info/en/noticias/fabricates-tableros/eu-to-halve-formaldehyde-limit-for-wood-panels-starting-august-2026/" target="_blank" rel="noopener">Notifix</a>, April 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The window may not be fully closed: ECHA's measurement methodology, published in June 2025, only stabilised compliance testing for E05 in mid-2025 (<a href="https://www.euwid-wood-products.com/news/wood-based-panels/echa-publishes-guidelines-for-measurement-of-formaldehyde-emissions-130625/" target="_blank" rel="noopener">EUWID Wood Products and Panels</a>, June 2025), meaning some smaller panel producers may yet face capital-allocation choices in late 2026 where a silicate-adhesive option could enter as a fallback. On the available evidence, however, the formaldehyde-resin chain is consolidating around incumbents, with Bondalti acquiring 77.23 percent of Ercros by 13 March 2026 (<a href="https://www.euwid-wood-products.com/news/wood-based-panels/bondalti-to-buy-a-stake-in-ercros-at-second-attempt-250326-1/" target="_blank" rel="noopener">EUWID Wood Products and Panels</a>, March 2026), suggesting the substitution share is being claimed faster than a silicate-adhesive entrant can win specification.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The substitution share is being claimed by other people's chemistries; the panel-adhesive door is closed before BJ entered it. <strong>Decision link:</strong> Strategic Implication <a href="#si-1" class="xref">SI 1</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-2">
+<div class="cluster-header"><h3>2. The Structural Geopolymer Threshold: Silicate-Activated Binders Cross into Load-Bearing Construction</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">A larger and more durable demand pull for sodium silicate has opened in cement, not in wood panels. The first French ATec Technical Assessment for a 0 percent clinker alkali-activated cement covering all superstructure applications was issued to Hoffmann Green in January 2026, the regulatory milestone the geopolymer sector has needed for two decades. The European Commission convened a high-level cement-industry dialogue on 25 March 2026 advancing a low-carbon concrete label, revised CPR product standards and a EUR 100bn Industrial Decarbonisation Bank. From 8 January 2026, Declarations of Performance under CPR 2024/3110 carry mandatory GWP disclosure for cement and concrete. Sodium silicate is the activator chemistry beneath the dominant geopolymer formulations, and the Northern European cement majors are visibly rebalancing their portfolios. For BJ, the redirection question is whether to position as a specification-grade activator supplier into the European alkali-activated cement chain before larger silicate majors lock in the formulator contracts.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The first 0 percent clinker cement crossed the load-bearing certification threshold in January 2026. Hoffmann Green received a French ATec for its H-UKR alkali-activated geopolymer cement covering all superstructure applications, a world first for a clinker-free cement (<a href="https://www.worldcement.com/europe-cis/12012026/hoffmann-green-validates-h-ukr-0-clinker-cement-for-superstructures/" target="_blank" rel="noopener">World Cement</a>, January 2026).</li>
+<li>The EU's cement-sector policy machinery is consolidating around low-carbon binders. The Commission's 25 March 2026 high-level cement dialogue advanced a low-carbon concrete label, revised CPR product standards with mandatory lifecycle climate impact disclosure, and a EUR 100bn Industrial Decarbonisation Bank (<a href="https://climate.ec.europa.eu/news-other-reads/news/commission-holds-high-level-policy-dialogue-future-cement-industry-europe-2026-03-25_en" target="_blank" rel="noopener">European Commission DG CLIMA</a>, March 2026).</li>
+<li>The specifier-level GWP comparison is now mandatory and favours alkali-activated chemistry. From 8 January 2026, CPR Declarations of Performance must include GWP for concrete and cement, forcing specifier-level low-clinker comparisons (<a href="https://ecochain.com/blog/cpr-regulation-why-manufacturers-cant-afford-to-ignore-it/" target="_blank" rel="noopener">Ecochain</a>, structural anchor); the CPR Working Plan 2026-2029 was published 15 December 2025 (<a href="https://single-market-economy.ec.europa.eu/news/commission-presents-new-initiatives-support-europes-construction-ecosystem-2025-12-15_en" target="_blank" rel="noopener">European Commission DG GROW</a>, December 2025).</li>
+<li>Northern European cement majors are rebalancing portfolios. Heidelberg Materials announced 19 March 2026 it will concentrate Swedish clinker at Slite from 2027, scaling down Skoevde (<a href="https://www.heidelbergmaterials.com/en/pr-2026-03-19" target="_blank" rel="noopener">Heidelberg Materials AG</a>, March 2026), a Nordic structural shift directly adjacent to BJ's Danish position.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The geopolymer threshold is real but the demand-pull velocity into Nordic markets is unproven. A single national technical assessment is not yet a binding EN standard, and the Commission's cement-policy programme could allocate the Industrial Decarbonisation Bank's first round to electrified clinker capture rather than alkali-activated alternatives, which would compress the alkali-activator demand pull to a 5-to-10-year horizon. The EOTA route documents an ETA pathway for inorganic-matrix systems (<a href="https://www.eota.eu/news/new-eads-published-0" target="_blank" rel="noopener">EOTA</a>, structural anchor), but pathway is not yet purchase order, and BJ's commercial readiness to translate technical capability into formulator specification is the binding constraint.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The first 0 percent clinker superstructure ATec converts geopolymer from a research story into a load-bearing specification opportunity, and silicate is the activator. <strong>Decision link:</strong> Strategic Implication <a href="#si-2" class="xref">SI 2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. The Foundry Inorganic Transition: From Pilot to Specification</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The foundry-binder rotation that cycle 1 identified continues to harden into specification. The EU LIFE GREEN CASTING project frames the institutional driver as 80 to 95 percent reduction targets for VOC, SO2, NOx and PM emissions across six European ferrous foundries. ASK Chemicals' INOTEC Generation 6 sodium-silicate binder system is the technical step that makes inorganic systems cost-competitive with phenolic and furan organics in aluminium core production. Foseco, the third major foundry-chemicals supplier, documents a recent resurgence of sodium silicate binder demand driven by health, safety and environmental legislation. For BJ, the role remains as cycle 1 framed it: be the specified silicate input that the foundry-binder majors formulate around, not a competitor to those majors on finished binder systems. What has changed is timing pressure: the LIFE project closes in 2026 and the formulator-binder competitive set is consolidating.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The EU's institutional driver for the foundry inorganic transition is documented and quantified. The LIFE GREEN CASTING project targets 80 to 95 percent reduction in VOC, SO2, NOx and PM emissions and 90 percent reduction in landfilled waste sand through inorganic silicate binder substitution across six European ferrous foundries (<a href="https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE21-ENV-FI-GREEN-CASTING-LIFE-101074439/towards-zero-emissions-in-european-ferrous-foundries-using-inorganic-binder-systems" target="_blank" rel="noopener">European Commission LIFE Programme</a>, structural anchor).</li>
+<li>The technical readiness step has been taken on the supplier side. ASK Chemicals' Generation 6 INOTEC inorganic sodium silicate binder delivers 82 percent strength retention over 24 hours and reduces promoter addition rates 24 to 31 percent versus Generation 4, the structural performance step that makes inorganic systems cost-competitive with phenolic and furan in aluminium core production (<a href="https://www.foundry-planet.com/d/ask-inotec-promotor-generation-6-inorganic-binder-systems-with-high-moisture-stability/" target="_blank" rel="noopener">foundry-planet.com</a>, structural anchor).</li>
+<li>The market-wide pull is visible across the three foundry-chemicals majors. Foseco confirms a recent resurgence of sodium silicate binder demand in steel, iron and non-ferrous foundries, driven by health, safety and environmental legislation (<a href="https://www.foseco.com/en/products/binders-and-moulding-material" target="_blank" rel="noopener">Foseco</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The foundry-binder transition is structurally real but slow. The aluminium core sub-segment where inorganic systems are cost-competitive is a fraction of the European foundry market, and the iron and steel segments retain phenolic and furan systems where worker-exposure compliance can be managed by extraction. The competing thesis is that BJ's foundry exposure is a steady but non-accelerating margin floor, not a redirection vehicle, and that capital allocated to formulator specification in foundry binders earns less than the same capital allocated to alkali-activated cement engagement.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The foundry inorganic transition is now specification-grade, not pilot-grade, and the formulator-binder consolidation is the timing pressure. <strong>Decision link:</strong> Strategic Implication <a href="#si-3" class="xref">SI 3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-4">
+<div class="cluster-header"><h3>4. The Compliance Tailwind Pruned: Omnibus I, ESG Scope Reduction, CBAM Phase 2 Sequencing</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Cycle 1 named the converging REACH revision, CBAM Phase 2 and the Energy-Intensive Industries Package as a compliance squeeze on mid-cap European chemicals. Six weeks later, two of those clocks have slowed. The Council formally adopted the Omnibus I package on 24 February 2026, narrowing CSRD scope to firms above 1,000 employees and EUR 450m turnover; CBAM Phase 2 has deferred chemicals scope to a 2027 evaluation report; and the AccelerateEU communication of 22 April 2026 is now framed around resilience and state aid rather than additional emissions disclosure. The mechanical implication for BJ is a reduced compliance overhead on the reporting side, but the strategic implication runs the other way: the compliance overhead was also the regulatory tailwind that pulled specifiers toward low-toxicity binders. With that pull softened, the demand-side case for silicate substitution leans harder on the cement and foundry adjacencies and less on the panel-adhesive cliff.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The CSRD scope reduction is now formal and material. The Council adopted Omnibus I on 24 February 2026, narrowing CSRD scope to companies above 1,000 employees and EUR 450m turnover, easing reporting pressure on mid-tier construction and panel producers (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" target="_blank" rel="noopener">Council of the European Union</a>, February 2026).</li>
+<li>CBAM Phase 2 has explicitly deferred chemicals scope. The definitive period entered force 1 January 2026, with proposed 2028 scope extension covering approximately 180 downstream steel and aluminium articles, and chemicals deferred to a 2027 evaluation report (<a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3088" target="_blank" rel="noopener">European Commission DG TAXUD</a>, December 2025).</li>
+<li>The EU's pivot has reframed industrial policy from disclosure to resilience and state aid. AccelerateEU (22 April 2026) is the Commission's five-pillar response to the renewed energy crisis, including a State aid framework, an ETS Investment Booster of 400 million allowances, and energy market reform (<a href="https://energy.ec.europa.eu/strategy/accelerateeu-strengthen-eu-energy-resilience_en" target="_blank" rel="noopener">European Commission DG Energy</a>, April 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The pruning of the disclosure tailwind does not mean the substitution case has gone away. The CPR's mandatory GWP declaration from 8 January 2026 remains binding; the formaldehyde Annex XVII Entry 77 cliff is unchanged; and a future Commission could reinstate scope tightening on a faster timeline if the Industrial Decarbonisation Bank conditions it on lifecycle disclosure. The competing reading is that the compliance tailwind has been re-shaped rather than reduced: less disclosure overhead, more product-level GWP and embodied-carbon comparison, which still favours low-clinker binders and silicate-bonded fire-protection assemblies.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The CSRD-driven pull toward low-toxicity binders has softened; the demand-side case now leans harder on the cement and structural adjacencies than on the panel-adhesive cliff. <strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">SI 1</a> and <a href="#si-4" class="xref">SI 4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-5">
+<div class="cluster-header"><h3>5. Energy and Feedstock: Nordic Power, Soda Ash and Silica Sourcing Under European Producer Rebalancing</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The cost side of the equation has hardened. Solvay will cut Torrelavega soda ash capacity 30 percent in Q3 2026, removing approximately 180kt of European supply at a moment when sodium silicate spot prices are already rising. Cefic's Q4 2025 Chemical Trends Report quantifies the structural gap: European gas prices at 2.5x US levels through 2025, electricity prices considerably above US, sector competitiveness far below the 2014 to 2019 pre-crisis average. The AccelerateEU package and the AEII coalition's EUR 50 per MWh KPI for the Electrification Action Plan name the cost-side pressure honestly but offer no near-term price relief. For BJ, the implication is direct: any redirection programme into cement, foundry or fire-protection adjacencies operates against a tightening soda ash supply and a structurally higher European energy bill. This is the cost-side risk to monitor.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>European soda ash supply is tightening at a structurally adverse moment. Solvay will cut Torrelavega (Spain) soda ash production capacity 30 percent (from 600kt to 420kt) in Q3 2026 in response to oversupply and high EU energy and carbon costs (<a href="https://www.solvay.com/en/press-release/solvay-optimizes-soda-ash-capacity-strengthen-competitiveness" target="_blank" rel="noopener">Solvay</a>, February 2026).</li>
+<li>Sodium silicate spot prices are already rising. European sodium silicate spot prices reached USD 0.63 per kg in February 2026, with a 5.0 percent month-on-month increase driven by higher energy and production costs (<a href="https://www.imarcgroup.com/sodium-silicate-pricing-report" target="_blank" rel="noopener">IMARC Group</a>, February 2026).</li>
+<li>The structural European energy disadvantage is quantified by the industry's own body. European gas prices were 2.5x US levels throughout 2025; electricity prices remain considerably above US; chemical sector competitiveness sits far below the pre-crisis 2014 to 2019 average (<a href="https://cefic.org/news/cefics-chemical-trends-report-q4-2025-is-out/" target="_blank" rel="noopener">Cefic</a>, March 2026).</li>
+<li>The energy-intensive industries coalition has named a binding cost KPI. The AEII coalition (Cefic, Eurofer, CEMBUREAU and others) demands EUR 50 per MWh maximum total industrial electricity cost as KPI for the May 2026 EU Electrification Action Plan, calling current EU energy prices structurally uncompetitive (<a href="https://cefic.org/resources/alliance-of-energy-intensive-industries-joint-position-paper-on-the-eu-electrification-action-plan/" target="_blank" rel="noopener">Cefic Alliance of Energy Intensive Industries</a>, February 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Tightening soda ash supply can be a margin opportunity, not only a margin risk: with European supply contracting, silicate producers with stable feedstock contracts and energy-pass-through pricing power can hold or grow margin while the spot price rises. The competing reading is that BJ's Northern European location, Danish power grid mix and Nordic gas-substitute electricity make its energy exposure materially better than the Cefic European average, and that a programme of multi-year soda ash contracting now could lock in the cost advantage before further European capacity exits.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> Soda ash tightens and European power prices stay structurally elevated; the FY27 margin envelope for any redirection programme depends on locking feedstock and power early. <strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">SI 4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-6">
+<div class="cluster-header"><h3>6. Silicate Adhesives Beyond the Cliff: Industrial Bonding, Fire Protection and Specification Routes for Inorganic Adhesive Chemistry</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">A new and previously under-weighted adjacency has opened. With the panel-adhesive door closed and the cement door opening, the third route through which silicate-adhesive chemistry reaches specification is the industrial-bonding and passive fire protection chain. The UK Building Safety Regulator's consultation on Approved Document B, launched 25 March 2026 and running to 1 July 2026, tightens external wall fire performance and the BS9414 cladding test framework, addressing Grenfell Phase 2 recommendations directly. The Association for Specialist Fire Protection's revised April 2026 guidance formalises the specifier framework increasingly favouring silicate-bonded, non-combustible Class A2-s1, d0 assemblies. The EOTA EAD 340275-00-0104 establishes the European Technical Assessment route for inorganic-matrix composite strengthening of concrete and masonry. Hoffmann Green's H-P2A, a sodium and potassium silicate plus flash-clay activated geopolymer, is already marketed for industrial adhesives, passive fire protection, insulation and adhesive mortars with peel strength over 25 MPa. The pattern is consistent: silicate chemistry crossing from research into specification in adjacent, more regulated bonding applications than wood panels.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The UK regulatory tailwind for non-combustible silicate-bonded assemblies is open and live. The UK Building Safety Regulator launched a 14-week consultation on Approved Document B on 25 March 2026, addressing Grenfell Phase 2 recommendations, tightening external wall fire performance, BS9414 cladding test framework and combustible structural materials above 11m (<a href="https://www.gov.uk/government/consultations/review-of-approved-document-b-fire-safety-guidance" target="_blank" rel="noopener">UK Government Building Safety Regulator</a>, March 2026).</li>
+<li>The specifier framework is being formalised toward Class A2-s1, d0 silicate-bonded assemblies. The ASFP issued revised passive fire protection guidance in April 2026, formalising the post-Grenfell specifier framework that increasingly favours silicate-bonded, non-combustible assemblies (<a href="https://internationalfireandsafetyjournal.com/asfp-guide-pfp-fire-risk-ass/" target="_blank" rel="noopener">International Fire and Safety Journal</a>, April 2026).</li>
+<li>The European Technical Assessment route is open for silicate-bonded structural strengthening. EOTA's EAD 340275-00-0104 establishes the assessment pathway for inorganic-matrix (silicate-bonded) composite strengthening systems for concrete and masonry, the structural-regulatory pathway through which silicate adhesives gain CE-marked specification in retrofit (<a href="https://www.eota.eu/news/new-eads-published-0" target="_blank" rel="noopener">EOTA</a>, structural anchor).</li>
+<li>Hoffmann Green has already commercialised silicate adhesive chemistry into BJ's exact niche. H-P2A is marketed as a sodium and potassium silicate plus flash-clay activated geopolymer explicitly for industrial adhesives, passive fire protection, insulation and adhesive mortars, with peel strength over 25 MPa (<a href="https://www.ciments-hoffmann.com/us/solutions/h-p2a/" target="_blank" rel="noopener">Hoffmann Green Cement Technologies</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Bollerup Jensen's own public positioning does not yet reflect this opening: the BJ silicate page remains a generic adhesives and water glass description (<a href="https://bollerup-jensen.dk/en/silicates/" target="_blank" rel="noopener">Bollerup Jensen Group</a>, structural anchor), with no 2026 product launch in fire protection or structural strengthening. Hoffmann Green's H-P2A and the major adhesive-chemistry incumbents may capture the specification window before BJ can position; the competing reading is that this adjacency is real but BJ's commercial-readiness gap is wide enough that the first 12 months should be invested in technical specification preparation and formulator relationships rather than product launch.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> Fire protection and structural retrofit are the second and third doors silicate chemistry can walk through; both are open and both are being walked through by other people first. <strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">SI 2</a> and <a href="#si-3" class="xref">SI 3</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 plan. Each names the move, a horizon and a decision posture.</p>
+
+<!-- FILL: exactly 4 .si-item blocks, id="si-1" .. "si-4". Each SI has:
+       - <h4> "SI N: imperative action title"
+       - one paragraph applying the four-question discipline (who should do
+         what, by when, and why) in prose
+       - <p class="si-action">Action: ...</p>, a single concrete, dated, owned
+         action line
+       - one decision pill: <span class="si-pill decide|prepare|monitor">Decide|Prepare|Monitor</span>
+         (match the pill class to the word)
+       - <span class="si-cluster-ref">Draws on Cluster(s) <a href="#cluster-N" class="xref">N</a> ...</span>
+-->
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Retire the panel-adhesive market entry as an active commercial target and reallocate the budget</h4>
+<p>The Commercial Director should formally retire panel-adhesive market entry as an active commercial target for the FY27 plan, on the evidence that the substitution share has been claimed by pMDI (MEDITE) and lignin (Koskisen and Stora Enso) chemistries, and the EPF's own 15 to 25 percent resin-cost estimate names UF, MUF and NAF reformulation as the compliance route. Continuing to scope this opening forward extends a closed window and starves the redirection programme of capital. The budget should be redirected into structural geopolymer formulator engagement and into the technical specification preparation that SI 2 and SI 3 require.</p>
+<p class="si-action">Action: by 30 September 2026, the Commercial Director presents the panel-adhesive retirement decision to the board with a budget reallocation to the cement and structural retrofit formulator engagement programme.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-4" class="xref">4</a></span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Stand up a structural geopolymer activator go-to-market programme</h4>
+<p>The Owner-CEO should authorise a 12-month structural geopolymer activator go-to-market programme targeting the European alkali-activated cement formulators (Hoffmann Green, Ecocem, Holcim ECOPlanet, and the EU Industrial Decarbonisation Bank's first cohort) and the EOTA EAD 340275-00-0104 structural-strengthening route. The Hoffmann Green H-UKR ATec is the proof point that the activator demand pull is now load-bearing-grade; the Commission's 25 March cement dialogue and the CPR GWP declaration of 8 January 2026 establish the regulatory pull. The window to be specified in for 2027 to 2030 contracts closes inside this cycle's horizon. The Technical and R&amp;D Director carries the specification-documentation workstream; the Commercial Director carries the formulator-engagement workstream.</p>
+<p class="si-action">Action: by 31 December 2026, the Technical and R&amp;D Director delivers documented activator-modulus specification sheets for the three lead silicate grades and the Commercial Director places three named formulators in specification-engagement conversations.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-2" class="xref">2</a> and <a href="#cluster-6" class="xref">6</a></span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Lock in the foundry formulator-specification relationships before the LIFE project closes</h4>
+<p>The Technical and R&amp;D Director should formalise BJ's input-supplier relationship with the three foundry-binder majors (ASK Chemicals, HA Group / Huettenes-Albertus, Foseco) before the EU LIFE GREEN CASTING project closes in 2026 and the post-project specification consolidates. ASK Generation 6 INOTEC documents the technical step that makes inorganic systems cost-competitive in aluminium core production; Foseco's documented resurgence of silicate-binder demand across steel, iron and non-ferrous foundries names the addressable market. BJ's role is to be the specified silicate input, not a competitor on finished binder systems; the prepare posture reflects the formulator-relationship and specification-readiness work that precedes a Decide call in cycle 3.</p>
+<p class="si-action">Action: by 31 March 2027, the Technical and R&amp;D Director presents three named formulator-supply relationships documented with specification-grade sodium silicate input qualifications to the board.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-3" class="xref">3</a></span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Stress-test the soda ash and energy cost envelope and hedge accordingly</h4>
+<p>The CFO should commission a soda ash supply and energy-cost stress test on the FY27 to FY28 margin envelope, on the evidence that Solvay is removing approximately 180kt of Spanish soda ash capacity in Q3 2026 and Cefic documents European gas at 2.5x US levels through 2025. The AccelerateEU State aid framework and the AEII EUR 50 per MWh KPI offer a policy direction but no near-term price floor. The monitor posture reflects the need to track Solvay's Q3 2026 cut execution, second European soda ash producer rebalancing announcements, the May 2026 Electrification Action Plan content, and Nordic power price differentials before triggering a multi-year hedging or contracting decision; the stress-test output itself can be delivered to the September 2026 board.</p>
+<p class="si-action">Action: by 30 September 2026, the CFO delivers a soda ash and energy-cost stress test to the board with hedging and multi-year contracting recommendations and an explicit FY27 EBITDA downside scenario.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a></span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">The two critical uncertainties shaping Bollerup Jensen's next two to five years are the pace of EU low-carbon construction demand pull, particularly into alkali-activated cement, and the scope and sequencing of CBAM Phase 2 as it touches chemicals. The four scenarios below are planning aids, not forecasts.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Specifier-Led Pull, Chemicals In CBAM</h4>
+<p>EU low-carbon construction demand pull accelerates: Industrial Decarbonisation Bank funds a 2027 cohort of alkali-activated cement plants, two more national technical assessments follow Hoffmann Green's H-UKR ATec, and the CPR GWP declaration moves from disclosure to procurement preference. CBAM Phase 2's 2027 chemicals evaluation report lands inside scope, removing the soda ash import-cost advantage for non-EU competitors. BJ becomes a margin-accretive specification-grade activator supplier into a growing European demand pool. Energy-cost pressure persists but is offset by AccelerateEU State aid and ETS Investment Booster allocations to energy-intensive chemicals. The redirection programme from panel adhesives to cement activator supply succeeds on schedule.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Industrial Decarbonisation Bank first cement cohort announced 2027; second 0 percent clinker ATec issued by national authority; CBAM Phase 2 2027 evaluation includes chemicals.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Specifier-Led Pull, Chemicals Stays Out</h4>
+<p>The cement and structural demand pull materialises on schedule but CBAM Phase 2 continues to defer chemicals beyond 2028. Non-EU silicate, soda ash and activator suppliers gain a structural cost advantage against the European producer base. BJ wins specification on technical merit and Northern European logistics but faces price pressure from imports throughout the value chain. The programme succeeds in commercial terms but operating margin is compressed by 200 to 400 basis points relative to scenario 1. The hedging and multi-year contracting decision in SI 4 becomes the binding margin lever.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> CBAM 2027 evaluation explicitly defers chemicals to 2030; non-EU silicate import volumes into Northern Europe rise 10 percent year on year; Solvay or second producer announces further soda ash capacity cut.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Slow Pull, Chemicals In CBAM</h4>
+<p>Low-carbon construction demand pull stalls: the Industrial Decarbonisation Bank's first cohort goes to electrified clinker capture rather than alkali-activated alternatives, the EN standards for alkali-activated cement remain in committee, and procurement specifiers continue to anchor on CEM I and CEM II. CBAM Phase 2 brings chemicals in scope by 2028, removing the import-cost gap. The redirection programme from panel adhesives to cement activator supply does not generate near-term revenue, but BJ holds a structurally improved competitive position once the demand pull eventually arrives. The foundry inorganic adjacency and the UK fire-protection pull carry the next 24 to 36 months.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> EU Industrial Decarbonisation Bank first cohort funds CCS, not alkali-activated; no further national ATec issued by mid-2027; CBAM 2027 evaluation brings chemicals in scope.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Slow Pull, Chemicals Stays Out</h4>
+<p>The worst-credible operating environment: both demand-side and cost-side levers move against BJ. Low-carbon construction demand pull remains a research story through 2028, CBAM defers chemicals, and Solvay's Torrelavega cut is followed by a second European soda ash producer rebalancing. European energy costs stay structurally elevated. The redirection programme runs at a loss for 24 months; the foundry and fire-protection adjacencies provide partial margin support but not enough to offset the cost-side compression. The explicit owner-intent decision flagged in cycle 1 is forced inside this horizon.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> No alkali-activated cement plant FID announced in Europe through 2027; second European soda ash producer announces capacity cut; AccelerateEU State aid framework allocations bypass silicate chemistry.</div>
+</div>
+
+</div>
+</div>
+
+<div class="framing-note" style="background: #fff8e1; border-left: 4px solid #F59E0B; font-style: normal; padding: 18px 22px;">
+<h3 style="margin: 0 0 10px; color: #8a5a00; font-size: 1.05em;">Weak signals beneath the cycle</h3>
+<p style="margin: 0 0 10px; font-size: 0.96em;">The themes above tracked the visible, well-evidenced moves of the past three months. These five weaker signals are under the consensus radar but worth seeding into next cycle's scan:</p>
+<ol style="margin: 0; padding-left: 22px; font-size: 0.94em;">
+<li style="margin-bottom: 8px;"><strong>Lithium silicate into EV battery component coatings.</strong> Bollerup Jensen is one of few European producers of lithium silicates. The European silicon-anode and solid-state cell value chains are scaling 2026 to 2028 and lithium silicate is plausibly a passivation-coating input. No public European cell-maker has yet specified a lithium-silicate spec; the first sourcing call would be a step-change signal for Bollerup Jensen's lithium silicate line.</li>
+<li style="margin-bottom: 8px;"><strong>Soil stabilisation for offshore wind foundations.</strong> Sodium silicate grouting has decades of soil-stabilisation precedent. North Sea offshore wind foundation programmes (Dogger Bank, Hollandse Kust, Energy Island Bornholm) are entering ground-conditioning phases through 2026 to 2028 and silicate-based grouting is one of the candidate chemistries. Worth tracking which tier-1 marine contractors specify what.</li>
+<li style="margin-bottom: 8px;"><strong>Silicate-bonded ceramic 3D printing.</strong> Industrial-scale binder-jet printing of refractories and structural ceramics is moving from research into commercial production; sodium silicate is one of the binder chemistries. European players (voxeljet, ExOne under Desktop Metal, EOS) and Japanese (Mimaki, KEYENCE) hold the IP front. Patent-filing density would be the leading indicator.</li>
+<li style="margin-bottom: 8px;"><strong>Defence and NATO hardened-asset fire protection.</strong> Post-Ukraine European defence procurement is rebuilding hardened-shelter, ammunition-store and command-bunker capacity. Silicate-bonded passive fire protection has a documented military procurement history; NATO Standardisation Office publications and national defence-procurement notices are where this would first surface.</li>
+<li style="margin-bottom: 8px;"><strong>Carbon-capture mineralisation pathways using sodium silicate.</strong> Several European start-ups (Carbon Re, Neustark, Carbonaide) are working CO2 mineralisation routes that involve silicate-bearing reactants. Bollerup Jensen's silicate chemistry sits within the precursor stack. Funding rounds and pilot announcements in this space would surface the demand-side opportunity early.</li>
+</ol>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<!-- FILL: exactly 3 .exclusion-item blocks. Each has an <h4> naming the
+     deliberately deprioritised risk, one paragraph justifying the exclusion
+     (likelihood, timing, or mitigation already in place), and a
+     <p class="reinstatement">"Reinstate if: ..."</p> line. Calm, settled tone.
+     No defensive language, no caveats. -->
+
+<div class="exclusion-item">
+<h4>The wood-panel adhesive substitution market</h4>
+<p>This cycle treats the panel-adhesive opening as closed. The substitution share has been claimed by pMDI and lignin chemistries, the EPF's own resin-cost estimate names UF, MUF and NAF reformulation rather than silicate, and the formaldehyde-resin chain is consolidating (Bondalti and Ercros) rather than exiting. Further commercial scoping into this market for the FY27 plan would extend a closed window. The redirection of effort into cement, foundry and fire-protection adjacencies releases the capital that the panel-adhesive line item was reserving.</p>
+<p class="reinstatement">Reinstate if: a major European panel producer announces a silicate-based binder commercial launch, or the European Panel Federation issues a revised cost analysis naming silicate as a credible E05 compliance route.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Standalone finished-binder competition against ASK, HA Group or Foseco</h4>
+<p>This cycle continues to treat finished foundry-binder system competition as out of scope. BJ's role is to be the specified silicate input that the binder majors formulate around, not a competitor to those majors on finished systems. The capital intensity, R&amp;D depth and customer-side qualification cost of finished binder competition exceeds the redirection programme's return horizon, and the partner-of-the-majors path documented in SI 3 captures more of the foundry inorganic transition value at lower risk.</p>
+<p class="reinstatement">Reinstate if: one of the three foundry-chemicals majors exits a binder line that BJ already supplies into, opening a vertical-integration opportunity, or a Northern European OEM specifies a binder system formulated jointly by BJ and an EU foundry house.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>An owner-intent decision in this cycle</h4>
+<p>Cycle 1 listed the owner-intent decision as one of three decide-now items. This cycle deliberately defers it. The strategic-redirection question now precedes the ownership question, and an owner-intent declaration made before SI 2 and SI 3 produce their first results would be made on incomplete information about which adjacency carries the next 24 months. The M&amp;A cycle in adjacent silicate and binder assets continues, but the foregone optionality from one more cycle of deferral is judged smaller than the information value of the structural geopolymer engagement programme's first results.</p>
+<p class="reinstatement">Reinstate if: a named European silicate producer or geopolymer formulator changes hands in 2026 or H1 2027, or the cement and structural redirection programme produces a Q4 2026 milestone that materially repositions BJ's strategic optionality.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>If the structural geopolymer adjacency is the spine of the next 24 months, which of cycle 1's four April themes are we explicitly retiring, and what budget is being released by that retirement?</li>
+<li>What would have to be true about Hoffmann Green's H-UKR commercial uptake in 2026 and 2027 for us to walk away from the structural geopolymer activator engagement programme, and are we ready to walk away on that signal?</li>
+<li>If the Solvay Torrelavega cut is followed by a second European soda ash producer rebalancing announcement in H2 2026, do we move to a multi-year soda ash contracting decision before the September board, or do we wait for the AccelerateEU State aid framework's first allocations?</li>
+<li>The UK Approved Document B consultation and ASFP April 2026 guidance open a fire-protection specification window we are not yet positioned for; are we willing to fund a UK-specific specification preparation workstream in FY27, or do we treat the UK silicate-bonded assembly opportunity as a partner-led market only?</li>
+<li>The cycle 1 owner-intent decision has been deferred by one cycle on judgment that the strategic-redirection question now precedes it; under what observable cycle 3 conditions would we reverse that judgment and force the owner-intent decision before the redirection programme produces its first results?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 29 verified sources, gathered under a soft 3-month recency window (publications from 1 March 2026 onward), with 11 structural anchors in the six-to-twelve-month band.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: The Cliff Without the Pull</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://notifix.info/en/noticias/fabricates-tableros/eu-to-halve-formaldehyde-limit-for-wood-panels-starting-august-2026/" target="_blank" rel="noopener">Notifix, EU to Halve Formaldehyde Limit</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>EPF estimates 15 to 25 percent resin-cost increase; compliance route named as UF, MUF, NAF, not silicate. Also the 6 August 2026 cliff and the no-grace-period anchor.</td></tr>
+<tr><td><a href="https://mdfosb.com/en/eu-reach-revision-e05" target="_blank" rel="noopener">MEDITE SMARTPLY, EU REACH Revision E05</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>MEDITE full MDF range moved to No-Added-Formaldehyde MDI on 13 April 2026.</td></tr>
+<tr><td><a href="https://panelsfurnitureasia.com/koskisen-and-stora-enso-expand-formaldehyde-free-wood-panel-range-with-new-zero-product/" target="_blank" rel="noopener">Panels and Furniture Asia, Koskisen and Stora Enso NeoLigno Zero</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Koskisen and Stora Enso extend lignin-based NeoLigno binder Zero family beyond pilot into industrial production.</td></tr>
+<tr><td><a href="https://analytical-group.com/en/news-en/formaldehyde-limits-restriction-77-reach" target="_blank" rel="noopener">Analytical Group, Formaldehyde Limits Restriction 77</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>REACH Annex XVII Entry 77 imposes 0.062 / 0.080 mg/m3 limits from 6 August 2026; exemption scope is narrow, no indoor-panel loophole.</td></tr>
+<tr><td><a href="https://www.euwid-wood-products.com/news/wood-based-panels/bondalti-to-buy-a-stake-in-ercros-at-second-attempt-250326-1/" target="_blank" rel="noopener">EUWID, Bondalti acquires Ercros</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>Bondalti Chemicals secured 77.23 percent of Ercros by 13 March 2026, consolidating EU formaldehyde-resin supply.</td></tr>
+<tr><td><a href="https://www.euwid-wood-products.com/news/wood-based-panels/echa-publishes-guidelines-for-measurement-of-formaldehyde-emissions-130625/" target="_blank" rel="noopener">EUWID, ECHA Formaldehyde Measurement Guidelines</a></td><td class="tier-3">Tier 3</td><td>Jun 2025 (structural anchor)</td><td>ECHA measurement methodology, the canonical compliance-testing reference; permitted single structural anchor in the 6 to 12-month band.</td></tr>
+<tr><td><a href="https://www.schadstoffrecht.de/formaldehyd-in-gebaeuden-neue-grenzwerte-ab-2026-und-was-sie-bedeuten" target="_blank" rel="noopener">Kanzlei Dr Elmar Liese, German alignment</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>From 6 August 2026 the EU 2023/1464 limits replace Germany's ChemVerbotsV rule.</td></tr>
+<tr><td><a href="https://www.eib.org/en/press/all/2026-103-eib-backs-kronospan-s-green-energy-push-with-eur146-million-loan" target="_blank" rel="noopener">EIB, Kronospan EUR 146 million loan</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Counter-evidence: EIB capital deployed into incumbent panel makers (Kronospan) under REPowerEU, sustaining the pMDI/UF model.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 2: The Structural Geopolymer Threshold</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.worldcement.com/europe-cis/12012026/hoffmann-green-validates-h-ukr-0-clinker-cement-for-superstructures/" target="_blank" rel="noopener">World Cement, Hoffmann Green H-UKR ATec</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>First French ATec for 0 percent clinker alkali-activated geopolymer cement covering all superstructure applications.</td></tr>
+<tr><td><a href="https://climate.ec.europa.eu/news-other-reads/news/commission-holds-high-level-policy-dialogue-future-cement-industry-europe-2026-03-25_en" target="_blank" rel="noopener">European Commission DG CLIMA, Cement Policy Dialogue</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Commissioner Hoekstra cement-industry dialogue advancing low-carbon concrete label, revised CPR product standards, EUR 100bn Industrial Decarbonisation Bank.</td></tr>
+<tr><td><a href="https://single-market-economy.ec.europa.eu/news/commission-presents-new-initiatives-support-europes-construction-ecosystem-2025-12-15_en" target="_blank" rel="noopener">European Commission DG GROW, CPR Working Plan</a></td><td class="tier-1">Tier 1</td><td>Dec 2025</td><td>CPR (Regulation 2024/3110) Working Plan 2026-2029 with mandatory GWP declarations from 8 January 2026.</td></tr>
+<tr><td><a href="https://ecochain.com/blog/cpr-regulation-why-manufacturers-cant-afford-to-ignore-it/" target="_blank" rel="noopener">Ecochain, CPR GWP declarations explainer</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>CPR mandatory GWP declarations from 8 January 2026 force specifier-level GWP comparisons favouring low-clinker and alkali-activated binders.</td></tr>
+<tr><td><a href="https://www.heidelbergmaterials.com/en/pr-2026-03-19" target="_blank" rel="noopener">Heidelberg Materials, Skoevde clinker scale-down</a></td><td class="tier-4">Tier 4</td><td>Mar 2026</td><td>Heidelberg Materials concentrates Swedish clinker at Slite from 2027, signalling Nordic reduced-clinker portfolio shift.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 3: The Foundry Inorganic Transition</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE21-ENV-FI-GREEN-CASTING-LIFE-101074439/towards-zero-emissions-in-european-ferrous-foundries-using-inorganic-binder-systems" target="_blank" rel="noopener">European Commission LIFE Programme, GREEN CASTING LIFE</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>80 to 95 percent reduction targets for VOC, SO2, NOx and PM emissions across six European ferrous foundries through inorganic silicate binder substitution.</td></tr>
+<tr><td><a href="https://www.foundry-planet.com/d/ask-inotec-promotor-generation-6-inorganic-binder-systems-with-high-moisture-stability/" target="_blank" rel="noopener">foundry-planet.com, ASK INOTEC Generation 6</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>ASK Generation 6 inorganic sodium silicate binder delivers 82 percent strength retention over 24 hours, reduces promoter addition rates 24 to 31 percent versus Gen 4.</td></tr>
+<tr><td><a href="https://www.foseco.com/en/products/binders-and-moulding-material" target="_blank" rel="noopener">Foseco, Silicate Binders portfolio</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>Foseco confirms recent resurgence of sodium silicate binder demand in steel, iron and non-ferrous foundries.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 4: The Compliance Tailwind Pruned</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" target="_blank" rel="noopener">Council of the European Union, Omnibus I adoption</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>Council adopted Omnibus I on 24 February 2026, narrowing CSRD scope to firms above 1,000 employees and EUR 450m turnover.</td></tr>
+<tr><td><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3088" target="_blank" rel="noopener">European Commission DG TAXUD, CBAM strengthening</a></td><td class="tier-1">Tier 1</td><td>Dec 2025 (structural anchor)</td><td>CBAM definitive period entered force 1 January 2026; 2028 scope extension proposed covering 180 downstream goods, chemicals deferred to 2027 evaluation.</td></tr>
+<tr><td><a href="https://energy.ec.europa.eu/strategy/accelerateeu-strengthen-eu-energy-resilience_en" target="_blank" rel="noopener">European Commission DG Energy, AccelerateEU</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>AccelerateEU five-pillar response including State aid framework and ETS Investment Booster of 400 million allowances.</td></tr>
+<tr><td><a href="https://cefic.org/resources/alliance-of-energy-intensive-industries-joint-position-paper-on-the-eu-electrification-action-plan/" target="_blank" rel="noopener">Cefic AEII, Electrification Action Plan position</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>AEII coalition demands EUR 50 per MWh maximum total industrial electricity cost as KPI for May 2026 EU Electrification Action Plan.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 5: Energy and Feedstock</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.solvay.com/en/press-release/solvay-optimizes-soda-ash-capacity-strengthen-competitiveness" target="_blank" rel="noopener">Solvay, Torrelavega soda ash capacity cut</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>Solvay cuts Torrelavega soda ash production capacity 30 percent (600kt to 420kt) in Q3 2026.</td></tr>
+<tr><td><a href="https://cefic.org/news/cefics-chemical-trends-report-q4-2025-is-out/" target="_blank" rel="noopener">Cefic Chemical Trends Report</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>European gas prices 2.5x US levels through 2025; sector competitiveness far below 2014 to 2019 average.</td></tr>
+<tr><td><a href="https://www.imarcgroup.com/sodium-silicate-pricing-report" target="_blank" rel="noopener">IMARC Group, Sodium Silicate Prices Europe Feb 2026</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>European sodium silicate spot prices reached USD 0.63 per kg in February 2026, 5.0 percent month-on-month increase.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 6: Silicate Adhesives Beyond the Cliff</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.gov.uk/government/consultations/review-of-approved-document-b-fire-safety-guidance" target="_blank" rel="noopener">UK Government, Approved Document B consultation</a></td><td class="tier-1">Tier 1</td><td>Mar 2026 (structural anchor)</td><td>UK Building Safety Regulator 14-week consultation on Approved Document B addressing Grenfell Phase 2 recommendations, tightening external wall fire performance.</td></tr>
+<tr><td><a href="https://internationalfireandsafetyjournal.com/asfp-guide-pfp-fire-risk-ass/" target="_blank" rel="noopener">International Fire and Safety Journal, ASFP revised guidance</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>ASFP revised passive fire protection guidance formalises specifier framework favouring silicate-bonded, non-combustible Class A2-s1, d0 assemblies.</td></tr>
+<tr><td><a href="https://www.eota.eu/news/new-eads-published-0" target="_blank" rel="noopener">EOTA, EAD 340275-00-0104 inorganic-matrix systems</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>European Technical Assessment route for inorganic-matrix (silicate-bonded) composite strengthening of concrete and masonry.</td></tr>
+<tr><td><a href="https://www.ciments-hoffmann.com/us/solutions/h-p2a/" target="_blank" rel="noopener">Hoffmann Green Cement, H-P2A product</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>Sodium and potassium silicate plus flash-clay activated geopolymer marketed for industrial adhesives, passive fire protection, insulation, peel strength over 25 MPa.</td></tr>
+<tr><td><a href="https://bollerup-jensen.dk/en/silicates/" target="_blank" rel="noopener">Bollerup Jensen Group, Silicates page</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>BJ baseline: Denmark's only producer of liquid sodium, potassium and lithium silicates; no 2026 product launch in fire protection or structural strengthening visible on the public page.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim in this briefing that goes beyond what a cited source literally states.</p>
+
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>The Executive Synthesis and Themes refer to cycle 1 (24 April 2026, "When the Boring Becomes Strategic") at several points. Each traces to a literal field in <code>memory.json</code>:</p>
+<ul>
+<li>"Six weeks after cycle 1 framed sodium silicate as positioned for the EU low-carbon construction demand pull..." (Executive Synthesis, paragraph 1) traces to <code>cycles[0].themes[0]</code> ("The Geopolymer Window: Sodium Silicate as the Activator of Choice in EU Low-Carbon Construction") and <code>cycles[0].key_findings[0].one_thing</code>.</li>
+<li>"The cycle 1 ownership-window theme has dropped out of this cycle's spine..." (Executive Synthesis, paragraph 4; Exclusions block 3) traces to <code>cycles[0].themes[3]</code> ("The Ownership Window: Family-Held European Specialty Chemicals in a Buyer's Market") and <code>cycles[0].decide_now[2]</code>.</li>
+<li>"Cycle 1 named the converging REACH revision, CBAM Phase 2 and the Energy-Intensive Industries Package as a compliance squeeze..." (Theme 4 framing) traces to <code>cycles[0].themes[2]</code> and <code>cycles[0].board_critical_risks[1]</code>.</li>
+<li>"The foundry-binder rotation that cycle 1 identified..." (Theme 3 framing) traces to <code>cycles[0].themes[1]</code> and <code>cycles[0].key_findings[1].one_thing</code>.</li>
+<li>"Cycle 1 listed the owner-intent decision as one of three decide-now items" (Exclusions block 3) traces to <code>cycles[0].decide_now[2]</code>.</li>
+</ul>
+
+<h4>Superlatives used</h4>
+<ul>
+<li>"world first for a 0 percent clinker cement" (Executive Synthesis, paragraph 2; Theme 2 anchor signal 1; line approximately 287, 410). The source claim (World Cement, January 2026) reads "Hoffmann Green Validates H-UKR 0% Clinker Cement for Superstructures" and the underlying source describes the ATec as a milestone for 0 percent clinker; the "world first" framing is preserved from the verified <code>key_claim</code> field on that source.</li>
+<li>"the first French ATec Technical Assessment for a 0 percent clinker alkali-activated cement covering all superstructure applications" (Theme 2 framing; line approximately 405) is the source's own framing of the ATec scope (analyst paraphrase, faithful summary, not strengthened).</li>
+<li>"the only credible silicate-adhesive demand pull" (Commercial Director snapshot; line approximately 323) is analyst characterisation, not in any single source. Softening to "the credible silicate-adhesive demand pull is forming around" was considered; the stronger formulation is retained because the cycle 1-to-cycle 2 evidence delta supports it but the analyst voice carries the inference.</li>
+<li>"BJ remains Denmark's only producer of liquid sodium, potassium and lithium silicates" (Source Register entry for Bollerup Jensen Group baseline) is the company's own public framing, preserved verbatim from the <code>key_claim</code> field.</li>
+</ul>
+
+<h4>Analytical synthesis claims</h4>
+<ul>
+<li>"Taken together, the sources suggest the spine of this cycle is no longer the panel-adhesive opening but the structural geopolymer threshold" (Executive Synthesis, paragraph 2; line approximately 287). Source set: Hoffmann Green ATec (World Cement, January 2026), Commission cement dialogue (DG CLIMA, March 2026), CPR Working Plan (DG GROW, December 2025), MEDITE pMDI move (April 2026), Koskisen / Stora Enso lignin (May 2026), EPF cost estimate via Notifix (April 2026). The analyst-voice frame ("Taken together, the sources suggest") is explicit.</li>
+<li>"On the available evidence, however, the formaldehyde-resin chain is consolidating around incumbents..." (Theme 1 counter-argument; line approximately 380). Source set: Bondalti / Ercros (EUWID, March 2026), MEDITE pMDI move (April 2026), EIB / Kronospan loan (EIB, March 2026). The analyst-voice frame ("On the available evidence") is explicit.</li>
+<li>"The board-level insight that may surprise leadership: the cycle 1 ownership-window theme has dropped out of this cycle's spine, not because the M&amp;A pressure has eased but because the strategic-redirection question now precedes the ownership question" (Executive Synthesis, paragraph 4; line approximately 295). This is an inferential judgement reading across themes 1, 2, 4 and 6; it is presented in the analyst's voice as a "board-level insight" rather than attributed to any source.</li>
+<li>"The panel-adhesive door has been quietly closed by other people's product launches" (Executive Synthesis closing; line approximately 297). Synthesis across Theme 1 sources (MEDITE, Koskisen / Stora Enso, EPF via Notifix); the metaphorical "door closed" framing is the analyst's, not any source's.</li>
+<li>"the third route through which silicate-adhesive chemistry reaches specification is the industrial-bonding and passive fire protection chain" (Theme 6 framing; line approximately 462). Synthesis across UK Approved Document B consultation (March 2026), ASFP guidance (April 2026), EOTA EAD 340275-00-0104 (structural anchor), Hoffmann Green H-P2A (structural anchor). The "third route" framing is analyst voice.</li>
+<li>"the M&amp;A cycle in adjacent silicate and binder assets continues, but the foregone optionality from one more cycle of deferral is judged smaller than the information value of the structural geopolymer engagement programme's first results" (Exclusions block 3; line approximately 595). This is the analyst's judgement on cycle 1's owner-intent decide-now item; no source carries this comparison, the analyst voice is explicit.</li>
+</ul>
+</div>
+
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is part of your MakeMyStrategy Single-Topic Programme on <strong>Silicate Adhesives, Geopolymer Cement, Foundry Binders and Compliance Margins</strong>. To extend the programme to additional topics, add a named competitor, or move to a Sector-Exclusive Partnership, contact your analyst.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="mailto:hello@shapingtomorrow.com?subject=Next%20cycle%20discussion">Book your next-cycle discussion</a>
+<a class="programme-cta secondary" href="mailto:hello@shapingtomorrow.com?subject=Add%20topic%20to%20programme">Add a topic to your programme</a>
+</div>
+</div>
+
+<hr>
+<p class="small">Prepared by MakeMyStrategy: 1 June 2026</p>
+
+</div>
+
+</body>
+</html>

@@ -15,33 +15,54 @@
   .topic-logo { width: 220px; height: auto; flex: 0 0 auto; margin-top: 4px; }
   @media (max-width: 600px) { .topic-header { flex-direction: column; align-items: flex-start; } .topic-logo { width: 160px; } }
   h1 { font-size: 2em; margin: 0 0 0.2em; color: #031B41; line-height: 1.15; }
-  .tagline { font-size: 1.15em; color: #0382FC; font-weight: 600; margin: 0 0 0.8em; }
-  .description { font-size: 1.02em; color: #031B41; max-width: 720px; margin: 0 0 2em; }
-  .card { background: #F8F9FA; border-left: 4px solid #0382FC; padding: 22px 26px; margin: 22px 0; border-radius: 6px; }
-  .card-empty { border-left-color: #F59E0B; background: #FFF7E6; }
-  .card-kind { font-size: 0.78em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #0382FC; margin-bottom: 6px; }
-  .card-empty .card-kind { color: #F59E0B; }
-  .card h2 { margin: 4px 0 10px; font-size: 1.22em; line-height: 1.3; color: #031B41; }
-  .card h2 a { color: #031B41; text-decoration: none; }
-  .card h2 a:hover { color: #0382FC; }
-  .card-line { font-size: 0.98em; margin: 8px 0; color: #031B41; }
-  .card-meta { font-size: 0.86em; color: #5a6478; margin: 12px 0 0; }
-  .readlink { color: #0382FC; text-decoration: none; font-weight: 600; }
+  .tagline { font-size: 1.15em; color: #0382FC; font-weight: 600; margin: 0 0 0.6em; }
+  .description { font-size: 1.02em; color: #031B41; max-width: 720px; margin: 0 0 1.6em; }
+  .legend { font-size: 0.85em; color: #5a6478; margin: 0 0 1.4em; }
+  .legend span { display: inline-block; margin-right: 16px; }
+  .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+  .timeline { border-left: 2px solid #e1e6ee; margin: 0 0 1em; padding: 4px 0; }
+  .tl-entry { position: relative; padding: 6px 0 22px 26px; }
+  .tl-dot { position: absolute; left: -8px; top: 9px; width: 13px; height: 13px; border-radius: 50%; border: 2px solid #fff; }
+  .tl-dot.scan { background: #0382FC; }
+  .tl-dot.tracker { background: #F59E0B; }
+  .tl-dot.brief { background: #2e7d32; }
+  .tl-entry.empty .tl-dot { background: #cfd6e0; }
+  .tl-meta { font-size: 0.8em; margin-bottom: 3px; }
+  .tl-type { display: inline-block; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.85em; padding: 1px 8px; border-radius: 10px; margin-right: 8px; }
+  .tl-type.scan { background: #eaf3ff; color: #0a4ea3; }
+  .tl-type.tracker { background: #fff2dc; color: #8a5a00; }
+  .tl-type.brief { background: #e6f3e8; color: #1d5d27; }
+  .tl-date { color: #5a6478; }
+  .tl-entry h3 { margin: 2px 0 5px; font-size: 1.1em; line-height: 1.3; }
+  .tl-entry h3 a { color: #031B41; text-decoration: none; }
+  .tl-entry.scan h3 a:hover { color: #0382FC; }
+  .tl-entry.tracker h3 a:hover { color: #8a5a00; }
+  .tl-entry.brief h3 a:hover { color: #1d5d27; }
+  .tl-entry p { margin: 0 0 6px; font-size: 0.95em; color: #2c3e50; }
+  .tl-empty-msg { color: #5a6478 !important; font-style: italic; }
+  .readlink { text-decoration: none; font-weight: 600; font-size: 0.9em; color: #0382FC; }
+  .tl-entry.scan .readlink { color: #0382FC; }
+  .tl-entry.tracker .readlink { color: #8a5a00; }
+  .tl-entry.brief .readlink { color: #1d5d27; }
+  .tl-entry.scan { border-left: 3px solid #eaf3ff; padding-left: 23px; margin-left: -3px; }
+  .tl-entry.tracker { border-left: 3px solid #fff2dc; padding-left: 23px; margin-left: -3px; }
+  .tl-entry.brief { border-left: 3px solid #e6f3e8; padding-left: 23px; margin-left: -3px; }
+  .tl-entry.empty { border-left-color: #eef0f3; }
   .readlink:hover { text-decoration: underline; }
-  .card-empty-msg { font-size: 0.95em; margin: 4px 0; color: #6b5900; }
-  .scan-chips { margin: 12px 0 2px; }
-  .scan-chips .toc-label { font-size: 0.74em; text-transform: uppercase; letter-spacing: 0.06em; color: #5a6478; font-weight: 700; margin: 0 0 8px; }
-  .scan-chip { display: inline-block; background: #eaf3ff; color: #0a4ea3; font-size: 0.8em; font-weight: 600; padding: 3px 10px; border-radius: 12px; margin: 0 6px 6px 0; }
+  .tl-chips { margin: 8px 0 10px; }
+  .tl-chips .toc-label { display: block; font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.06em; color: #5a6478; font-weight: 700; margin: 0 0 5px; }
+  .tl-chip { display: inline-block; font-size: 0.78em; font-weight: 600; padding: 2px 9px; border-radius: 12px; margin: 0 5px 5px 0; }
+  .tl-entry.scan .tl-chip { background: #eaf3ff; color: #0a4ea3; }
+  .tl-entry.tracker .tl-chip { background: #fff2dc; color: #8a5a00; }
+  .tl-entry.brief .tl-chip { background: #e6f3e8; color: #1d5d27; }
   .archive-cta { margin: 18px 0 4px; font-size: 0.95em; }
   .archive-cta a { color: #0382FC; text-decoration: none; font-weight: 600; }
   .archive-cta a:hover { text-decoration: underline; }
-  .posture { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 0.7em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; vertical-align: middle; color: white; background: #0382FC; }
-  .cta { background: #031B41; color: white; padding: 26px 28px; margin: 32px 0 16px; border-radius: 8px; }
-  .cta h3 { margin: 0 0 8px; color: white; font-size: 1.18em; }
+  .cta { background: #031B41; color: white; padding: 26px 28px; margin: 28px 0 16px; border-radius: 8px; }
   .cta p { color: #DCE3EE; margin: 8px 0; font-size: 0.96em; }
   .cta-button { display: inline-block; background: #0382FC; color: white; text-decoration: none; padding: 10px 22px; border-radius: 4px; font-weight: 600; margin-top: 6px; }
   .cta-button:hover { background: #0269d4; }
-  .footer { color: #5a6478; font-size: 0.82em; margin: 2.5em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
+  .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
   .footer a { color: #5a6478; }
 </style>
 </head>
@@ -52,14 +73,18 @@
 </header>
 <p class="tagline">The grid, the build-out, and the climate-resilient firm.</p>
 <p class="description">Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.</p>
-
-<section class="card"><div class="card-kind">Latest Signal Scan</div><h2><a href="https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-26-correlated-grid-stress/scan.html">Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability</a></h2><p class="card-line">Beneath the consensus that the energy challenge is building clean generation and grid fast enough, the binding reliability risk has quietly shifted: climate change is correlating the...</p><div class="scan-chips"><p class="toc-label">Inside this scan</p><span class="scan-chip">Signal Identification</span><span class="scan-chip">What's Changing</span><span class="scan-chip">Disruption Pathway</span><span class="scan-chip">Why This Matters</span><span class="scan-chip">Counter-Argument</span><span class="scan-chip">Implications</span><span class="scan-chip">Early Indicators</span><span class="scan-chip">Disconfirming Signals</span><span class="scan-chip">Strategic Questions</span><span class="scan-chip">Bibliography</span></div><p class="card-meta">Published 26 May 2026 &middot; <a class="readlink" href="https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-26-correlated-grid-stress/scan.html">View the full scan &rarr;</a></p></section>
-<section class="card card-empty"><div class="card-kind">Latest Change Tracker</div><p class="card-empty-msg">The first Change Tracker on this topic publishes in the current cycle. Check back later this month.</p></section>
-<section class="card"><div class="card-kind">Latest Decision Intelligence</div><h2><a href="https://decision-intel.shapingtomorrow.com/si/energy-climate-sample/">Powering AI in a Climate-Stressed World</a></h2><p class="card-line">The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock. The first is the AI load curve: the International Energy Agency's base case now projects global data centre electricity demand at around 945 TWh by 2030, more than doubling the 2024 baseline of 415 TWh, with AI as the dominant driver (IEA, Apr 2025).</p><div class="scan-chips"><p class="toc-label">Inside this briefing</p><span class="scan-chip">Executive Synthesis</span><span class="scan-chip">Leadership Snapshots</span><span class="scan-chip">Themes</span><span class="scan-chip">Strategic Implications</span><span class="scan-chip">Scenario Matrix</span><span class="scan-chip">What We Are Not Planning For</span><span class="scan-chip">Discussion Points</span><span class="scan-chip">Source Confidence Register</span><span class="scan-chip">Claim-fidelity Self-Disclosure</span></div><p class="card-meta">Published 19 May 2026 &middot; <a class="readlink" href="https://decision-intel.shapingtomorrow.com/si/energy-climate-sample/">View the full briefing &rarr;</a></p></section>
-
-<p class="archive-cta"><a href="archive/">View the full archive of editions on this theme &rarr;</a></p>
+<p class="legend">
+<span><i style="background:#0382FC"></i>Signal Scan (weekly)</span>
+<span><i style="background:#F59E0B"></i>Change Tracker (monthly)</span>
+<span><i style="background:#2e7d32"></i>Decision Intelligence (quarterly)</span>
+</p>
+<div class="timeline">
+<div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">26 May 2026</span></div><h3><a href="https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-26-correlated-grid-stress/scan.html">Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability</a></h3><p>Beneath the consensus that the energy challenge is building clean generation and grid fast enough, the binding reliability risk has quietly shifted: climate change is correlating the stresses on...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div><a class="readlink" href="https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-26-correlated-grid-stress/scan.html">View scan &rarr;</a></div><div class="tl-entry brief"><div class="tl-dot brief"></div><div class="tl-meta"><span class="tl-type brief">Decision Intelligence</span><span class="tl-date">19 May 2026</span></div><h3><a href="https://decision-intel.shapingtomorrow.com/si/energy-climate-sample/">Powering AI in a Climate-Stressed World</a></h3><p>The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.</p><div class="tl-chips"><span class="toc-label">Inside this briefing</span><span class="tl-chip">Executive Synthesis</span><span class="tl-chip">Leadership Snapshots</span><span class="tl-chip">Themes</span><span class="tl-chip">Strategic Implications</span><span class="tl-chip">Scenario Matrix</span><span class="tl-chip">What We Are Not Planning For</span><span class="tl-chip">Discussion Points</span><span class="tl-chip">Source Confidence Register</span><span class="tl-chip">Claim-fidelity Self-Disclosure</span></div><a class="readlink" href="https://decision-intel.shapingtomorrow.com/si/energy-climate-sample/">View briefing &rarr;</a></div><div class="tl-entry empty tracker"><div class="tl-dot tracker"></div><div class="tl-meta"><span class="tl-type tracker">Change Tracker</span><span class="tl-date">Publishing shortly</span></div><p class="tl-empty-msg">The first Change Tracker on this topic publishes in the current cycle. Check back later this month.</p></div>
+</div>
+<p class="archive-cta"><a href="archive/">View the archive of editions on this theme &rarr;</a></p>
 
 <section class="cta"><p>We can make Signal Scans, Change Trackers and Decision Intelligence related to any topic of interest to you and your organisation.</p><p><a class="cta-button" href="https://shapingtomorrow.com/contact/?topic=energy-infrastructure-climate-resilience">Contact Shaping Tomorrow</a></p></section>
 
+<p class="footer">Built 2026-06-01 09:41 local time.</p>
 </body>
 </html>

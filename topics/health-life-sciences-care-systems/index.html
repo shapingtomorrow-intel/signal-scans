@@ -55,13 +55,23 @@
   .tl-entry.scan .tl-chip { background: #eaf3ff; color: #0a4ea3; }
   .tl-entry.tracker .tl-chip { background: #fff2dc; color: #8a5a00; }
   .tl-entry.brief .tl-chip { background: #e6f3e8; color: #1d5d27; }
-  .archive-cta { margin: 18px 0 4px; font-size: 0.95em; }
-  .archive-cta a { color: #0382FC; text-decoration: none; font-weight: 600; }
-  .archive-cta a:hover { text-decoration: underline; }
-  .cta { background: #031B41; color: white; padding: 26px 28px; margin: 28px 0 16px; border-radius: 8px; }
-  .cta p { color: #DCE3EE; margin: 8px 0; font-size: 0.96em; }
-  .cta-button { display: inline-block; background: #0382FC; color: white; text-decoration: none; padding: 10px 22px; border-radius: 4px; font-weight: 600; margin-top: 6px; }
-  .cta-button:hover { background: #0269d4; }
+  /* Programme-tier CTA — replaces the old generic .cta block */
+  .programme-cta-block { background: #031B41; color: white; padding: 28px 30px; margin: 32px 0 20px; border-radius: 8px; }
+  .programme-cta-block h2 { margin: 0 0 6px; color: white; font-size: 1.35em; }
+  .programme-cta-block .lede { color: #DCE3EE; margin: 0 0 18px; font-size: 0.98em; max-width: 660px; }
+  .programme-tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 0 0 16px; }
+  .programme-tier { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; }
+  .programme-tier h3 { margin: 0 0 4px; color: white; font-size: 1em; font-weight: 700; }
+  .programme-tier p.tier-body { margin: 0 0 12px; color: #C9D2E1; font-size: 0.88em; line-height: 1.45; flex: 1 1 auto; }
+  .programme-tier .tier-best-for { font-size: 0.78em; color: #8FA3C7; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; margin: 0 0 3px; }
+  .programme-tier .tier-best-list { font-size: 0.85em; color: #DCE3EE; margin: 0; line-height: 1.45; }
+  .discovery-line { color: #DCE3EE; font-size: 0.92em; margin: 0 0 18px; padding: 10px 14px; background: rgba(3, 130, 252, 0.12); border-left: 3px solid #0382FC; border-radius: 0 4px 4px 0; }
+  .discovery-line strong { color: #7ec3ff; }
+  .programme-cta-actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 0; }
+  .programme-cta-primary { display: inline-block; background: #0382FC; color: white; text-decoration: none; padding: 11px 24px; border-radius: 4px; font-weight: 600; font-size: 0.96em; }
+  .programme-cta-primary:hover { background: #0269d4; }
+  .programme-cta-secondary { display: inline-block; color: #DCE3EE; text-decoration: none; padding: 11px 6px; font-weight: 600; font-size: 0.92em; border-bottom: 1px solid transparent; }
+  .programme-cta-secondary:hover { border-bottom-color: #DCE3EE; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
   .footer a { color: #5a6478; }
 </style>
@@ -81,10 +91,9 @@
 <div class="timeline">
 <div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">31 May 2026</span></div><h3><a href="https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-31-alzheimers-diagnosis-capacity-gap/scan.html">Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity</a></h3><p>Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div><a class="readlink" href="https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-31-alzheimers-diagnosis-capacity-gap/scan.html">View scan &rarr;</a></div><div class="tl-entry empty tracker"><div class="tl-dot tracker"></div><div class="tl-meta"><span class="tl-type tracker">Change Tracker</span><span class="tl-date">Publishing shortly</span></div><p class="tl-empty-msg">The first Change Tracker on this topic publishes in the current cycle. Check back later this month.</p></div><div class="tl-entry empty brief"><div class="tl-dot brief"></div><div class="tl-meta"><span class="tl-type brief">Decision Intelligence</span><span class="tl-date">Publishing shortly</span></div><p class="tl-empty-msg">Decision Intelligence reports on this topic publish on a 10-week cycle. The next is in production; contact us for early access.</p></div>
 </div>
-<p class="archive-cta"><a href="archive/">View the archive of editions on this theme &rarr;</a></p>
 
-<section class="cta"><p>We can make Signal Scans, Change Trackers and Decision Intelligence related to any topic of interest to you and your organisation.</p><p><a class="cta-button" href="https://shapingtomorrow.com/contact/?topic=health-life-sciences-care-systems">Contact Shaping Tomorrow</a></p></section>
+<section class="programme-cta-block"><h2>Continuous intelligence on this topic</h2><p class="lede">Every topic is delivered as a continuous cycle: weekly Signal Scans, monthly Change Trackers and a quarterly Decision Intelligence briefing. Choose the engagement that fits how you want to use it.</p><div class="programme-tiers"><div class="programme-tier"><h3>Single-Topic Programme</h3><p class="tier-body">Continuous intelligence focused on one strategic priority &mdash; competitor, technology, regulation, market or emerging risk.</p><p class="tier-best-for">Best for</p><p class="tier-best-list">Strategy teams &middot; Innovation teams &middot; Risk functions &middot; Executive leadership</p></div><div class="programme-tier"><h3>Multi-Topic Programme</h3><p class="tier-body">Several interconnected topics monitored through a common framework so the team gets one structured view rather than isolated reports.</p><p class="tier-best-for">Best for</p><p class="tier-best-list">Executive committees &middot; Corporate strategy teams &middot; Large business units</p></div><div class="programme-tier"><h3>Sector-Exclusive Partnership</h3><p class="tier-body">Four intelligence topics plus monitoring of up to ten named competitors, with sector exclusivity within Health systems and life-sciences operators and priority analyst access.</p><p class="tier-best-for">Best for</p><p class="tier-best-list">Sector leaders seeking a protected intelligence advantage</p></div></div><p class="discovery-line"><strong>Want to test it before committing?</strong> The three-month Discovery Programme runs the complete cycle on one topic and is fully credited against a subsequent annual engagement.</p><div class="programme-cta-actions"><a class="programme-cta-primary" href="https://shapingtomorrow.com/book-a-discussion">Book a Discussion</a><a class="programme-cta-secondary" href="https://shapingtomorrow.com/request-example-output">Request Example Output &rarr;</a></div></section>
 
-<p class="footer">Built 2026-06-01 20:18 local time.</p>
+<p class="footer">Built 2026-06-01 20:23 local time.</p>
 </body>
 </html>

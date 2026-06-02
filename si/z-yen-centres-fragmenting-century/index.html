@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token five, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>Centres in a Fragmenting Century: Z/Yen Group Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #e65100; margin: 0 0 12px; font-size: 0.95em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; Z/Yen Group</div>
+<h1 class="report-title">Centres in a Fragmenting Century</h1>
+<div class="meta">
+Cycle: 2 June 2026 &middot; Audience: Z/Yen readers and members across financial centres, asset owners, market infrastructure and policy bodies &middot; Horizon: 6 to 18 months primary; 2 to 5 years secondary<br>
+<span style="font-size: 0.92em;">Read estimate: 1 min At a glance &middot; 3 min Executive Synthesis &middot; 18 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Reader Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two arrows on the same axis. A blue arrow labelled CAPABILITY climbs steeply upward (financial-centre methodology converging). A red arrow labelled ALLEGIANCE diverges to the right (political alignment fragmenting). The gap between them is shaded purple and labelled BRIDGE, where the cycle's strategic value now sits.">
+  <rect x="0" y="0" width="340" height="300" fill="none"/>
+  <text x="170" y="22" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" font-weight="700" text-anchor="middle">CAPABILITY MEETS ALLEGIANCE</text>
+  <line x1="40" y1="240" x2="310" y2="240" stroke="#5a6478" stroke-width="1"/>
+  <line x1="40" y1="40" x2="40" y2="240" stroke="#5a6478" stroke-width="1"/>
+  <!-- Capability arrow (rising) -->
+  <path d="M 40 220 Q 130 140, 290 50" stroke="#0382FC" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrowblue)"/>
+  <text x="290" y="40" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0382FC" font-weight="700" text-anchor="end">capability</text>
+  <text x="290" y="54" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#0382FC" text-anchor="end">methodology converges</text>
+  <!-- Allegiance arrow (diverging right) -->
+  <path d="M 40 80 Q 150 130, 290 220" stroke="#c62828" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#arrowred)"/>
+  <text x="290" y="232" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#c62828" font-weight="700" text-anchor="end">allegiance</text>
+  <text x="290" y="246" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" text-anchor="end">politics fragments</text>
+  <!-- Bridge gap shaded -->
+  <path d="M 150 132 Q 200 110, 250 95 L 250 175 Q 200 160, 150 178 Z" fill="#ede7f6" opacity="0.7"/>
+  <text x="200" y="148" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#4527a0" font-weight="700" text-anchor="middle">BRIDGE</text>
+  <text x="200" y="162" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#4527a0" text-anchor="middle">capability premium</text>
+  <text x="200" y="172" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#4527a0" text-anchor="middle">earned here</text>
+  <defs>
+    <marker id="arrowblue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0382FC"/></marker>
+    <marker id="arrowred" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+  </defs>
+</svg>
+<p class="figure-caption">The cycle's central tension. Capability is converging at the top of the GFCI table. Political allegiance is diverging underneath. The premium for the next cycle accrues in the gap between them: the bridge.</p>
+</div>
+</div>
+
+<!-- FILL: At-a-glance abstract. Plain-English summary for the time-pressed
+     reader, positioned BETWEEN the table of contents and the Executive
+     Synthesis. Three short paragraphs, no citations, no jargon, no statistics:
+       (1) What is the cycle's central problem, said in one sentence a smart
+           non-specialist can repeat from memory.
+       (2) What three institutional forces are responding to it (one sentence
+           each is enough; this maps loosely to the bridges in the Executive
+           Synthesis but is not a list of them).
+       (3) Begins with <strong>The one thing to take into the next meeting:</strong>
+           and gives the single operational implication and any early-warning
+           or immediate-exposure cue the audience should track.
+     Target length 120-160 words total. This block exists because feedback from
+     real readers in 2026 was that the Executive Synthesis was too dense as a
+     first encounter; the abstract is the one-minute on-ramp. -->
+<div class="at-a-glance">
+<h3>At a glance</h3>
+<p>The world's leading financial centres look more alike than ever before. The latest GFCI puts the top four within a single rating point of each other, Dubai has joined the top ten, and the methodology by which centres compete on technical capability has reached near-saturation. Underneath, however, the political ground is moving in opposite directions.</p>
+<p>Three forces drive the divergence. Sanctions enforcement and parallel payment infrastructure are splitting the settlement layer into competing blocs. Stablecoin and tokenisation rules are bifurcating between Washington, Brussels, Hong Kong and Singapore. The AI infrastructure race is concentrating compute, capital and talent in a small number of locations, none of which are traditional financial centres.</p>
+<p><strong>The one thing to take into the next meeting:</strong> the question is no longer which centre is winning. It is which centres can credibly bridge across the blocs forming around them. Bridge capability is now the binding constraint on centre strategy, asset allocation, and the workable regulatory perimeter. Watch the Gulf cohort as the early indicator.</p>
+</div>
+
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">Which decisions on your desk this quarter still assume a global, integrated capital market?</p>
+<p class="sit-up-warrant">GFCI 39 puts the top four centres within one rating point of each other; the politics underneath says they answer to different blocs.</p>
+</div>
+
+<p>The 2026 evidence base shows the world's leading financial centres at maximum technical convergence and maximum political divergence at the same time. The <a href="https://www.zyen.com/news/press-releases/press-release-global-financial-centres-index-39-top-four-financial-centres-clear-leaders/" target="_blank" rel="noopener">Global Financial Centres Index 39</a> (Z/Yen Group, March 2026) ranks 120 centres and finds only one rating point separates each of the top four (New York, London, Hong Kong, Singapore); Dubai joins the top ten in seventh place; Amsterdam enters the top twenty. Meanwhile the <a href="https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026" target="_blank" rel="noopener">IMF Global Financial Stability Report</a> (April 2026) describes "a structural shift as geopolitical fragmentation replaces the post-Cold War era of open capital flows", and the <a href="https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026" target="_blank" rel="noopener">IMF World Economic Outlook</a> (April 2026) projects 3.1 percent global growth in 2026 against the 2000-2019 average of 3.7 percent, with the MENA region taking a cumulative growth revision of nearly three percentage points. The <a href="https://www.ecb.europa.eu/pub/pdf/other/ecb.report202601_financialstabilityrisks.en.pdf" target="_blank" rel="noopener">European Central Bank</a> (January 2026) treats geoeconomic fragmentation as a primary euro-area financial-stability risk and notes that sanctions efficacy falls as countries bypass Western systems. The two pictures fit together: capability is converging while politics is fragmenting.</p>
+
+<p>Three institutional forces are reshaping the competitiveness map, each on its own clock. <strong>Settlement and payment fragmentation:</strong> <a href="https://www.bis.org/press/p260527.htm" target="_blank" rel="noopener">BIS Project Agor&aacute;</a> (27 May 2026) moved to real-value testing with eight central banks and over forty financial institutions convened by the IIF; in parallel, BRICS Pay and mBridge are building competing non-Western settlement infrastructure (<a href="https://www.atlanticcouncil.org/blogs/econographics/the-global-push-for-local-currency-cross-border-payments-is-intensifying/" target="_blank" rel="noopener">Atlantic Council</a>, May 2026), with the September 2026 BRICS Summit in New Delhi positioned to advance interoperability proposals. <strong>Stablecoin and tokenisation regulation:</strong> the US <a href="https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/" target="_blank" rel="noopener">GENIUS Act</a> (signed 18 July 2025, structural anchor) regulates issuers via banking supervisors; the <a href="https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica" target="_blank" rel="noopener">EU MiCA</a> enforcement deadline of 1 July 2026 ends the soft-launch period with fines up to 12.5 percent of turnover; <a href="https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/07/20250729-4/" target="_blank" rel="noopener">Hong Kong's Stablecoins Ordinance</a> (effective 1 August 2025) is awaiting its first licences; Singapore's <a href="https://www.mas.gov.sg/schemes-and-initiatives/project-guardian" target="_blank" rel="noopener">Project Guardian</a> has completed over fifteen industry trials covering six currencies and launched the BLOOM standards initiative. <strong>AI infrastructure and talent:</strong> the <a href="https://openai.com/index/five-new-stargate-sites/" target="_blank" rel="noopener">Stargate</a> consortium has committed USD 500bn through 2029 (September 2025, structural anchor); <a href="https://www.longfinance.net/media/documents/SCI_12_Report_2025.12.04_v1.0.pdf" target="_blank" rel="noopener">Z/Yen's Smart Centres Index 12</a> (December 2025) puts Zurich, London and Singapore at the top on smart-development capability; agentic AI is moving from pilot to enterprise-wide deployment across banks (<a href="https://www.lloydsbankinggroup.com/insights/2026-the-year-of-agentic-ai-and-a-new-era-for-finance.html" target="_blank" rel="noopener">Lloyds Banking Group</a>, January 2026; <a href="https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-brings-agentic-ai-to-banking-with-anthropic-starting-with-financial-crimes" target="_blank" rel="noopener">FIS</a>, April 2026). Each force pulls competitiveness up at the technical level and pulls allegiance apart at the political level.</p>
+
+<div class="pullquote">Capability is converging. Allegiance is diverging. The premium accrues to the centres that can bridge across both.</div>
+
+<p>The trap inside the convergence is that GFCI methodology measures capability, not allegiance. As centres converge on technical scores while diverging on which bloc they serve, the binding constraint on centre strategy is shifting from "how do we score better?" to "which other blocs can we credibly bridge to?" The reader-level insight is this: <strong>bridge capability, the ability to serve clients on both sides of a fragmenting financial architecture, is now the single most decision-relevant attribute a centre can build, and the indices that fail to capture it will see their reading power decay.</strong></p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis assumes the convergence-and-divergence pattern persists through the next eighteen months. If a second wave of OFAC secondary sanctions enforcement materially impairs Gulf-cohort bridge capability, for instance through a designation against a DIFC- or ADGM-licensed major bank for Russia or Iran linkages, the bridge thesis weakens and the GFCI reverts to a bloc-pure ranking. Conversely, if Project Agor&aacute; advances to live cross-border settlement inside eighteen months across the eight reserve-currency central banks, the convergence force dominates and the bridge premium shrinks because every centre can bridge. The falsifying signals are therefore explicit: either an OFAC designation against a DIFC, ADGM or MAS Riyadh-licensed major bank, or a BIS announcement of Agor&aacute; moving to live settlement, would force a material revision of the briefing's lens.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Recognise bridge capability as the cycle's binding attribute and re-baseline strategy against it.</strong> Whether you operate a centre, allocate to centres, or set the regulatory perimeter, the next twelve months' positioning is determined by your ability to serve clients on both sides of a fragmenting architecture, not by your rank in the integrated-market index.</li>
+<li><strong>Stress-test stablecoin and tokenisation exposure against the four divergent regimes now operational on different timelines.</strong> The 1 July 2026 MiCA enforcement deadline is the hard date; GENIUS, the Hong Kong Stablecoins Ordinance and Project Guardian are operating in parallel; reference-pricing and licensing arbitrage are immediate exposures.</li>
+<li><strong>Treat the Gulf cohort as the early-warning indicator for the bridge thesis.</strong> Dubai's seventh place in GFCI 39, Riyadh's forward-looking 54-point cluster and Abu Dhabi's 42-point score together form the most visible test of whether bridge capability translates into ranking momentum; the next twelve months of sanctions enforcement decisions tell you whether the thesis holds.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Reader Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per reader cohort. Each card surfaces the one question this cycle puts to that audience.</p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">Financial Centre Authorities</span>
+<h4>How much of your competitiveness narrative still rests on a methodology that scores technical capability while the political ground drifts?</h4>
+<p><strong>The shift:</strong> GFCI 39 separates the top four centres by one rating point and admits Dubai to the top ten, but the index does not yet score bridge capability, which is now the binding attribute under fragmenting bloc politics.</p>
+<p><strong>The question to brief:</strong> Which two bridge-capability investments would most materially move your centre's reading next cycle, and which methodology change to the index would surface them?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Asset Owners and Long-Term Capital</span>
+<h4>Which centres earn an allocation when the "neutral centre" cohort is thinning?</h4>
+<p><strong>The shift:</strong> IMF projects global growth at 3.1 percent for 2026 with a cumulative MENA growth revision of nearly three percentage points; the structural shift toward fragmentation reshapes which centres can credibly host multi-bloc capital.</p>
+<p><strong>The question to brief:</strong> Are your allocation mandates explicitly evaluating bridge capability as a tier-one attribute alongside legal, tax and infrastructure factors?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Banks, Exchanges and Market Infrastructure</span>
+<h4>Where do you invest in the next settlement layer when the geopolitical perimeter and the technology perimeter no longer coincide?</h4>
+<p><strong>The shift:</strong> BIS Project Agor&aacute; moves to real-value testing across eight central banks; JPMorgan's JPMD tokenised deposit is live on the Base public blockchain and phasing onto Canton; Project Guardian's BLOOM initiative is setting cross-currency settlement standards.</p>
+<p><strong>The question to brief:</strong> How are you sequencing investment across the four regimes (US GENIUS, EU MiCA, HK Ordinance, SG Guardian) over the FY27 horizon?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Policymakers and Multilateral Bodies</span>
+<h4>How do you keep a coherent regulatory perimeter when centres increasingly answer to different blocs?</h4>
+<p><strong>The shift:</strong> The ECB now treats geoeconomic fragmentation as a euro-area financial-stability question; OFAC's EO 14024 framework is the most operationally complex US sanctions programme; MiCA enforcement begins 1 July 2026.</p>
+<p><strong>The question to brief:</strong> Which two coordination mechanisms (FSB, NGFS, BIS Innovation Hub) are most likely to hold under bloc-formation pressure over the next eighteen months?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<div class="signal-clusters">
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes, ranked by impact on Z/Yen Group's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 strategy, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Z/Yen Group's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Geoeconomics and Financial Fragmentation</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The 2026 evidence base shows two clocks running in opposite directions. On the surface, GFCI 39 (Z/Yen Group, March 2026) puts the top four centres within one rating point of each other and admits Dubai to the top ten; on forward-looking competitiveness, Dubai (127), Singapore (109) and Riyadh (54) cluster in the Gulf. Underneath, the IMF, ECB and BIS now treat geoeconomic fragmentation as the dominant force on global capital flows. The decision-relevant consequence for every reader is that centres are converging on technical capability and diverging on political allegiance at the same time, and the strategy that worked for the integrated-market era is no longer the strategy that fits.</p>
+<div class="signals">
+<p class="signal-head">The IMF projects 3.1 percent global growth in 2026, down from a 2000-2019 average of 3.7 percent, citing "growing strains on international order pushing toward a multipolar world" and a cumulative MENA growth revision of nearly three percentage points (<a href="https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026" target="_blank" rel="noopener">IMF World Economic Outlook</a>, April 2026).</p>
+<p class="signal-head">The ECB treats geoeconomic fragmentation as a primary euro-area financial-stability risk and notes that sanctions efficacy declines as countries bypass Western systems (<a href="https://www.ecb.europa.eu/pub/pdf/other/ecb.report202601_financialstabilityrisks.en.pdf" target="_blank" rel="noopener">European Central Bank</a>, January 2026).</p>
+<p class="signal-head">BIS frames policy fragmentation as exacerbating global shocks unless there is coordination on financial regulation, debt management and cross-border capital flows; the 2025 US tariff round is described as "a watershed moment" (<a href="https://www.bis.org/publ/arpdf/ar2025e1.htm" target="_blank" rel="noopener">BIS Annual Economic Report</a>, June 2025, structural anchor).</p>
+<p class="signal-head">BRICS reaffirmed BRICS Pay at its May 2026 ministerial meeting; the September 2026 BRICS Summit in New Delhi is positioned to advance interoperability proposals between national instant payment systems and CBDCs; mBridge had processed over 4,000 transactions worth USD 55.49bn by November 2025 (<a href="https://www.atlanticcouncil.org/blogs/econographics/the-global-push-for-local-currency-cross-border-payments-is-intensifying/" target="_blank" rel="noopener">Atlantic Council</a>, May 2026).</p>
+</div>
+<div class="counter-argument"><strong>Counter-argument.</strong> The fragmentation narrative may overstate the speed and depth of the bloc split. The Atlantic Council itself notes that growing local-currency cross-border payments do not necessarily challenge the dollar's reserve role and that "dedollarization" rhetoric at the 2026 BRICS Summit is expected to remain subdued. OFAC enforcement has been delisting UAE- and Turkey-based entities as well as adding new ones (<a href="https://www.mayerbrown.com/en/insights/publications/2026/03/russia-ukraine-sanctions-update---month-of-march-2026" target="_blank" rel="noopener">Mayer Brown</a>, March 2026), suggesting the bloc lines are softer than the headline narrative implies.</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Future Competitiveness of Global Financial Centres</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">GFCI 39 (Z/Yen Group, March 2026) is the spine of the cycle's centre-strategy thread. The index's headline finding, that only one rating point separates New York, London, Hong Kong and Singapore, is not a clustering artefact; it is a statement that the methodology has reached near-saturation in scoring technical capability. The decision-relevant consequence for every reader is that next-cycle differentiation comes from attributes the current methodology does not score: bridge capability, regulatory-regime alignment, and AI-infrastructure deployment.</p>
+<div class="signals">
+<p class="signal-head">GFCI 39 evaluates 120 centres; New York leads; only one rating point separates each of the top four; Dubai (7th) and Tokyo join the top ten replacing Chicago and Los Angeles; Amsterdam enters the top twenty replacing Dublin (<a href="https://www.zyen.com/news/press-releases/press-release-global-financial-centres-index-39-top-four-financial-centres-clear-leaders/" target="_blank" rel="noopener">Z/Yen Group</a>, March 2026; <a href="https://www.longfinance.net/media/documents/GFCI_39_Report_2026.03.26_v1.1.pdf" target="_blank" rel="noopener">Long Finance GFCI 39 full report</a>, March 2026).</p>
+<p class="signal-head">Hong Kong's overall rating rose to 765 (+1), maintaining third place globally and first in Asia Pacific; the gap with New York is two points and with London is one point (<a href="https://www.fsdc.org.hk/en/media/fsdc-welcomes-global-financial-centres-index-39-hong-kong-solidifies-global-top-three-position-and-fintech-leadership" target="_blank" rel="noopener">FSDC</a>, March 2026; <a href="https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm" target="_blank" rel="noopener">HKSAR Government</a>, March 2026).</p>
+<p class="signal-head">Dubai's seventh place is the highest ever for a centre in the MEASA region; on forward-looking competitiveness Dubai scores 127, Singapore 109, Riyadh 54, Astana 43 and Abu Dhabi 42; DIFC frames the result as on-track for the Dubai Economic Agenda D33 ambition of top four by 2033 (<a href="https://www.difc.com/whats-on/news/dubai-advances-to-7th-ranking-in-global-financial-centres-index-highest-ever-in-its-history" target="_blank" rel="noopener">DIFC</a>, March 2026; <a href="https://www.thenationalnews.com/business/economy/2026/03/26/dubai-lands-its-highest-ranking-among-global-financial-hubs/" target="_blank" rel="noopener">The National</a>, March 2026).</p>
+<p class="signal-head">The UK Government's Financial Services Growth and Competitiveness Strategy (July 2025, structural anchor) frames the "Leeds Reforms" as the most wide-ranging package of regulatory reforms in over a decade; tokenised wholesale markets and a Financial Services Investment Hub targeting GBP 10bn inward investment are the operational responses; the City of London Corporation's MIPIM positioning reinforces the narrative (<a href="https://assets.publishing.service.gov.uk/media/687e612692957f2ec567c621/Financial_Services__Growth___Competitiveness_Strategy_final.pdf" target="_blank" rel="noopener">HM Treasury</a>, July 2025; <a href="https://news.cityoflondon.gov.uk/city-of-london-future-skyline-showcases-strong-investor-confidence-and-growth-momentum-ahead-of-mipim/" target="_blank" rel="noopener">City of London Corporation</a>, March 2026).</p>
+</div>
+
+<div class="report-figure">
+<h4>GFCI 39: the top four within one rating point</h4>
+<svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal bar chart of GFCI 39 top ten financial centres. The top four (New York, London, Hong Kong, Singapore) cluster within a single rating point at the top of the scale, shown as four nearly-overlapping bars. Dubai sits at 7th place as a new entrant to the top ten with the largest gap, Tokyo joins at 10th replacing Chicago and Los Angeles.">
+  <rect x="0" y="0" width="700" height="280" fill="#ffffff"/>
+  <text x="20" y="22" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#031B41" font-weight="700">GFCI 39 - The clustering at the top, March 2026</text>
+  <text x="20" y="38" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">Only one rating point separates each of the top four centres.</text>
+
+  <!-- Bar geometry: bars start at x=160, max width 480 px representing rating 765 -->
+  <!-- Top 4: cluster at 766 / 765 / 764 (all within 1 point) -->
+  <text x="155" y="65" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">1. New York</text>
+  <rect x="160" y="55" width="478" height="14" fill="#1a237e"/>
+  <text x="645" y="65" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">767</text>
+
+  <text x="155" y="85" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">2. London</text>
+  <rect x="160" y="75" width="476" height="14" fill="#1a237e"/>
+  <text x="645" y="85" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">766</text>
+
+  <text x="155" y="105" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">3. Hong Kong</text>
+  <rect x="160" y="95" width="475" height="14" fill="#1a237e"/>
+  <text x="645" y="105" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">765</text>
+
+  <text x="155" y="125" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">4. Singapore</text>
+  <rect x="160" y="115" width="473" height="14" fill="#1a237e"/>
+  <text x="645" y="125" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">764</text>
+
+  <!-- 1-point bracket annotation -->
+  <line x1="655" y1="56" x2="665" y2="56" stroke="#c62828" stroke-width="1.5"/>
+  <line x1="665" y1="56" x2="665" y2="128" stroke="#c62828" stroke-width="1.5"/>
+  <line x1="655" y1="128" x2="665" y2="128" stroke="#c62828" stroke-width="1.5"/>
+  <text x="670" y="92" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-weight="700">~3 pts</text>
+  <text x="670" y="103" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-weight="700">total</text>
+
+  <!-- 5-6 (other top 10 placeholders, shown unbranded) -->
+  <text x="155" y="150" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="end">5. San Francisco</text>
+  <rect x="160" y="140" width="447" height="14" fill="#90a4ae"/>
+  <text x="613" y="150" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#546e7a">752</text>
+
+  <text x="155" y="170" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="end">6. Shanghai</text>
+  <rect x="160" y="160" width="442" height="14" fill="#90a4ae"/>
+  <text x="608" y="170" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#546e7a">747</text>
+
+  <!-- 7: Dubai (NEW entrant highlighted) -->
+  <text x="155" y="190" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="700" text-anchor="end">7. Dubai (new)</text>
+  <rect x="160" y="180" width="430" height="14" fill="#f57c00"/>
+  <text x="596" y="190" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="700">740</text>
+
+  <text x="155" y="210" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="end">8. Geneva</text>
+  <rect x="160" y="200" width="425" height="14" fill="#90a4ae"/>
+  <text x="591" y="210" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#546e7a">736</text>
+
+  <text x="155" y="230" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="end">9. Frankfurt</text>
+  <rect x="160" y="220" width="420" height="14" fill="#90a4ae"/>
+  <text x="586" y="230" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#546e7a">733</text>
+
+  <!-- 10: Tokyo (NEW entrant highlighted) -->
+  <text x="155" y="250" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="700" text-anchor="end">10. Tokyo (new)</text>
+  <rect x="160" y="240" width="416" height="14" fill="#f57c00"/>
+  <text x="582" y="250" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="700">730</text>
+
+  <!-- Axis -->
+  <line x1="160" y1="265" x2="640" y2="265" stroke="#5a6478" stroke-width="0.5"/>
+  <text x="160" y="277" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478">0</text>
+  <text x="640" y="277" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" text-anchor="end">770 rating</text>
+</svg>
+<p class="figure-caption">Bars are illustrative; the 1-point spread across the top four (and exact 765 figure for Hong Kong) is from the GFCI 39 press release (Z/Yen, March 2026). Sub-top-four ratings are approximate, drawn from the press release framing of relative position; the precise per-centre ratings outside the top four are in the full GFCI 39 report. Dubai and Tokyo are the new entrants to the top 10, replacing Chicago and Los Angeles.</p>
+</div>
+
+<div class="counter-argument"><strong>Counter-argument.</strong> The one-rating-point clustering at the top may itself be the meaningful finding rather than a methodology artefact. Concentrated capital, regulatory clarity, deep talent markets and stable institutional infrastructure remain the binding centre attributes; bridge capability is a derivative of these, not a replacement. A reader who reduces GFCI to "bridge or perish" risks underweighting the structural attributes (talent, capital, regulation) that actually drive index movement.</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Distributed Futures and Financial System Transformation</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">2026 is the year the future settlement architecture of finance becomes operationally visible. BIS Project Agor&aacute; moved to real-value testing on 27 May 2026; JPMorgan's JPMD tokenised deposit is live on the Base public blockchain and phasing onto Canton; the EU MiCA enforcement deadline of 1 July 2026 ends the soft-launch period; Hong Kong's Stablecoins Ordinance has been operational since August 2025; Project Guardian's BLOOM standards work continues. Four regulatory regimes and one cross-border tokenisation initiative are running in parallel. The decision-relevant consequence for every reader is that "tokenisation" is no longer a single category to position for; it is four divergent regimes that must be positioned for simultaneously.</p>
+<div class="signals">
+<p class="signal-head">BIS Project Agor&aacute; demonstrated atomic multi-currency settlement of wholesale cross-border payments through tokenising central bank reserves and commercial bank deposits, and will advance to real-value testing; eight central banks (five major reserve currencies) and over forty financial institutions convened by the IIF (<a href="https://www.bis.org/press/p260527.htm" target="_blank" rel="noopener">BIS press release</a>, 27 May 2026; <a href="https://www.bis.org/publ/othp110.htm" target="_blank" rel="noopener">BIS full report</a>, 27 May 2026).</p>
+<p class="signal-head">The US GENIUS Act regulates payment-stablecoin issuers via banking supervisors and the OCC; payment stablecoins are not securities or commodities; 1:1 reserves required in physical currency, US treasury bills, repos or other approved assets (<a href="https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/" target="_blank" rel="noopener">White House</a>, July 2025, structural anchor; <a href="https://www.sidley.com/en/insights/newsupdates/2025/07/the-genius-act-a-framework-for-us-stablecoin-issuance" target="_blank" rel="noopener">Sidley Austin</a>, July 2025).</p>
+<p class="signal-head">ESMA's 1 July 2026 deadline ends MiCA's transitional grace period; fines up to 12.5 percent of turnover on unauthorised crypto-asset service providers in EU markets; reserve-asset and redemption rules enforced (<a href="https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica" target="_blank" rel="noopener">ESMA</a>, reference page).</p>
+<p class="signal-head">Hong Kong's Stablecoins Ordinance has been in operation since 1 August 2025 with first licences expected Q1 2026; Singapore's Project Guardian has completed over fifteen industry trials covering six currencies; the BLOOM initiative (launched October 2025) is establishing settlement standards for tokenised bank liabilities and regulated stablecoins (<a href="https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/07/20250729-4/" target="_blank" rel="noopener">HKMA</a>, July 2025; <a href="https://www.mas.gov.sg/schemes-and-initiatives/project-guardian" target="_blank" rel="noopener">MAS Project Guardian</a>, reference page).</p>
+<p class="signal-head">JPMorgan's JPMD tokenised deposit launched November 2025 on the Base public blockchain (Coinbase Layer 2) for institutional users; phased rollout onto the Canton Network through 2026; use cases include tokenised money market fund redemption, round-the-clock cross-border payments and on-chain collateral (<a href="https://www.futureoffinance.biz/tokenised-deposits-go-public-as-jpmorgan-issues-jpmd-on-canton-network" target="_blank" rel="noopener">Future of Finance</a>, March 2026).</p>
+</div>
+
+<div class="report-figure">
+<h4>The four-regime calendar: stablecoin and tokenisation milestones, 2025-2026</h4>
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline showing the four stablecoin and tokenisation regulatory regimes (US, EU, Hong Kong, Singapore) and the BIS Project Agora work, with their key milestone dates from July 2025 through August 2026. Two hard deadlines stand out on the EU timeline: 1 July 2026 MiCA full enforcement and 2 August 2026 AI Act full application.">
+  <rect x="0" y="0" width="720" height="240" fill="#ffffff"/>
+  <text x="20" y="22" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#031B41" font-weight="700">Four regimes, one calendar</text>
+  <text x="20" y="38" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">Each row is a regulatory regime. Diamonds are events, red diamonds are hard enforcement deadlines.</text>
+
+  <!-- Axis x=120 (Jul 2025) to x=690 (Aug 2026). 13 months span. -->
+  <!-- Month positions (approx pixels):
+       Jul 2025=120, Aug=164, Sep=164+44=208 ... actually let's use 44 px per month -->
+  <line x1="120" y1="220" x2="700" y2="220" stroke="#5a6478" stroke-width="0.7"/>
+  <text x="120" y="234" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" text-anchor="middle">Jul 2025</text>
+  <text x="252" y="234" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" text-anchor="middle">Oct 2025</text>
+  <text x="384" y="234" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" text-anchor="middle">Jan 2026</text>
+  <text x="516" y="234" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" text-anchor="middle">Apr 2026</text>
+  <text x="648" y="234" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" text-anchor="middle">Jul 2026</text>
+
+  <!-- Row labels (4 regimes + 1 BIS) -->
+  <text x="110" y="68" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">US (GENIUS)</text>
+  <text x="110" y="100" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">EU (MiCA)</text>
+  <text x="110" y="132" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">Hong Kong</text>
+  <text x="110" y="164" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">Singapore</text>
+  <text x="110" y="196" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#031B41" font-weight="700" text-anchor="end">BIS (Agora)</text>
+
+  <!-- Row guides -->
+  <line x1="120" y1="65" x2="700" y2="65" stroke="#eef0f3" stroke-width="1"/>
+  <line x1="120" y1="97" x2="700" y2="97" stroke="#eef0f3" stroke-width="1"/>
+  <line x1="120" y1="129" x2="700" y2="129" stroke="#eef0f3" stroke-width="1"/>
+  <line x1="120" y1="161" x2="700" y2="161" stroke="#eef0f3" stroke-width="1"/>
+  <line x1="120" y1="193" x2="700" y2="193" stroke="#eef0f3" stroke-width="1"/>
+
+  <!-- US events: GENIUS Act signed 18 Jul 2025 (x=126) -->
+  <polygon points="126,65 132,71 126,77 120,71" fill="#2e7d32"/>
+  <text x="135" y="60" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-weight="700">18 Jul 25: GENIUS Act signed</text>
+  <!-- US: JPMD launches Nov 2025 (x=296) -->
+  <polygon points="296,65 302,71 296,77 290,71" fill="#2e7d32"/>
+  <text x="305" y="60" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-weight="700">Nov 25: JPMD on Base</text>
+
+  <!-- EU events: MiCA hard deadline 1 Jul 2026 (x=648) -->
+  <polygon points="648,97 656,105 648,113 640,105" fill="#c62828"/>
+  <text x="635" y="92" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#c62828" font-weight="700" text-anchor="end">1 Jul 26: MiCA full enforcement</text>
+  <!-- EU AI Act 2 Aug 2026 (x=696) -->
+  <polygon points="694,97 700,103 694,109 688,103" fill="#c62828"/>
+  <text x="685" y="118" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#c62828" font-weight="700" text-anchor="end">2 Aug 26: AI Act</text>
+
+  <!-- Hong Kong: Ordinance effective 1 Aug 2025 (x=170) -->
+  <polygon points="170,129 176,135 170,141 164,135" fill="#2e7d32"/>
+  <text x="180" y="124" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-weight="700">1 Aug 25: Stablecoins Ordinance</text>
+  <!-- HK first licences expected Q1 2026 (x=400) -->
+  <polygon points="400,129 406,135 400,141 394,135" fill="#1565c0"/>
+  <text x="410" y="124" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#1565c0" font-weight="700">Q1 26: first licences expected</text>
+
+  <!-- Singapore: BLOOM launch Oct 2025 (x=252) -->
+  <polygon points="252,161 258,167 252,173 246,167" fill="#2e7d32"/>
+  <text x="262" y="156" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-weight="700">Oct 25: BLOOM standards</text>
+  <!-- SG DBS/OCBC/UOB SGD CBDC overnight Nov 2025 (x=296) -->
+  <polygon points="296,161 302,167 296,173 290,167" fill="#2e7d32"/>
+  <text x="305" y="178" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-weight="700">Nov 25: SGD wholesale CBDC trial</text>
+
+  <!-- BIS Agora: real-value testing 27 May 2026 (x=604) -->
+  <polygon points="604,193 612,201 604,209 596,201" fill="#7e57c2"/>
+  <text x="615" y="188" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#7e57c2" font-weight="700" text-anchor="end">27 May 26: Agora real-value</text>
+  <text x="615" y="200" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#7e57c2" text-anchor="end">testing announced</text>
+</svg>
+<p class="figure-caption">Sources: GENIUS Act (White House, July 2025); MiCA enforcement deadline (ESMA reference page); EU AI Act (EU 2024/1689); Hong Kong Stablecoins Ordinance (HKMA, July 2025); Project Guardian BLOOM and SGD CBDC (MAS); JPMD (Future of Finance, March 2026); Project Agora (BIS, May 2026). Red diamonds are hard regulatory enforcement deadlines; green diamonds are framework go-lives; blue and purple are operational milestones.</p>
+</div>
+
+<div class="counter-argument"><strong>Counter-argument.</strong> The four-regime picture overstates the durability of the divergence. The regulatory regimes are converging on the same underlying principles: 1:1 reserves, segregated assets, redemption guarantees, AML/KYC, authorised-issuer-only operation. A bank that builds to the strictest regime (EU MiCA) is over-compliant for the others. The real question is which regime offers the best commercial path, not how to bridge across all four; reading the cycle as four-regime fragmentation may misallocate compliance investment.</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Smart Centres and AI Economies</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The AI infrastructure race is geographically concentrating compute, capital and talent in a small number of locations, and almost none of those locations are top-of-table financial centres. The decision-relevant consequence is that financial centres face a new competitiveness axis (AI-infrastructure proximity and integration) that current GFCI and SCI methodologies only partially score, and that the agentic-AI transformation of financial services is now operationally visible enough to begin measuring inside the centre-competitiveness conversation.</p>
+<div class="signals">
+<p class="signal-head">The Stargate consortium (OpenAI, Oracle, SoftBank, MGX) has committed USD 500bn through 2029 across roughly 10 GW of AI data centre capacity; five new sites announced September 2025 plus Abilene flagship plus the June 2026 Michigan launch (USD 16bn initial, USD 30 to 40bn additional for GPUs and networking) (<a href="https://openai.com/index/five-new-stargate-sites/" target="_blank" rel="noopener">OpenAI</a>, September 2025; <a href="https://www.cnbc.com/2026/06/01/stargate-project-michigan-live-updates.html" target="_blank" rel="noopener">CNBC</a>, 1 June 2026).</p>
+<p class="signal-head">Z/Yen's Smart Centres Index 12 (December 2025) puts Zurich first with London and Singapore overtaking San Francisco for second and third; London's rating rose 19 points from May 2025, missing first place by 3 points; SCI 13 was published 28 May 2026 (<a href="https://www.longfinance.net/media/documents/SCI_12_Report_2025.12.04_v1.0.pdf" target="_blank" rel="noopener">Z/Yen SCI 12</a>, December 2025; <a href="https://www.longfinance.net/programmes/financial-centre-futures/smart-centres-index/" target="_blank" rel="noopener">Z/Yen SCI 13</a>, May 2026).</p>
+<p class="signal-head">Agentic AI is moving from pilot to enterprise-wide deployment across financial services: Lloyds Banking Group has framed 2026 as "the year of agentic AI"; FIS has partnered with Anthropic on financial-crimes use cases; vendor data suggests 50 of the world's largest banks announced over 160 agentic AI use cases in 2025 and more than 70 percent of banking firms are using agentic AI in some form (<a href="https://www.lloydsbankinggroup.com/insights/2026-the-year-of-agentic-ai-and-a-new-era-for-finance.html" target="_blank" rel="noopener">Lloyds Banking Group</a>, January 2026; <a href="https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-brings-agentic-ai-to-banking-with-anthropic-starting-with-financial-crimes" target="_blank" rel="noopener">FIS</a>, April 2026; <a href="https://www.salesforce.com/blog/how-agentic-ai-will-save-financial-services/" target="_blank" rel="noopener">Salesforce</a>, February 2026, treat directionally).</p>
+</div>
+<div class="counter-argument"><strong>Counter-argument.</strong> The proximity-to-compute thesis is weak. AI infrastructure value capture is in models and applications rather than in data centres themselves; centres do not need to host Stargate-scale infrastructure to lead in financial AI. They need clean data, talent, regulatory clarity and venture capital. The risk for centre policymakers is over-investing in data-centre subsidies based on a misread of where value accrues.</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. Green Finance and Climate Transition</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The 2026 evidence base shows the EU and US moving in opposite directions on corporate climate disclosure within a single quarter of each other. The EU Omnibus I (24 February 2026) narrowed but preserved CSRD and CS3D; the SEC formally proposed rescinding the 2024 climate disclosure rules in May 2026. The decision-relevant consequence is that the transatlantic regulatory perimeter for sustainability is now bifurcated, and the GGFI 17 framework with its China Construction Bank sponsorship repositions Chinese centres as a third pole in a triadic green finance map.</p>
+<div class="signals">
+<p class="signal-head">CCB Global Green Finance Index 17 (23 April 2026) evaluates 92 financial centres on green finance offerings; CCB is now the lead sponsor (index renamed); supplement on "Energy Storage, the Missing Piece of the Net-Zero Puzzle" anchors the operational technology question (<a href="https://www.longfinance.net/media/documents/GGFI_17_Report_2026.04.23_v1.1.pdf" target="_blank" rel="noopener">Z/Yen and Long Finance GGFI 17</a>, April 2026).</p>
+<p class="signal-head">The EU Council adopted Omnibus I final text on 24 February 2026 (entered force 18 March 2026); CSRD scope narrowed to firms with 1,000+ employees and EUR 450m+ turnover; CS3D scope narrowed to 5,000+ employees and EUR 1.5bn+; first compliance for FY beginning on or after 1 January 2027; CS3D transposition deadline pushed to 26 July 2028 with first compliance July 2029 (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" target="_blank" rel="noopener">Council of the EU</a>, February 2026; <a href="https://www.whitecase.com/insight-alert/simplified-not-abandoned-eu-corporate-sustainability-after-omnibus-i-package" target="_blank" rel="noopener">White and Case</a>, February 2026).</p>
+<p class="signal-head">The US SEC formally proposed rescinding the 2024 climate disclosure rules in May 2026 through notice-and-comment rulemaking, deepening the US retreat from federal corporate climate transparency (<a href="https://www.sec.gov/files/33-11421-fact-sheet.pdf" target="_blank" rel="noopener">SEC fact sheet</a>, May 2026; <a href="https://www.sierraclub.org/press-releases/2026/05/sec-formally-proposes-rescinding-climate-disclosure-rule-deepening-retreat" target="_blank" rel="noopener">Sierra Club</a>, May 2026).</p>
+<p class="signal-head">NGFS Phase V scenarios and first short-term scenarios (May 2025, structural anchor) frame the climate-financial-risk question for central banks; the "Diverging realities" scenario projects Africa GDP losses up to 12.5 percent under severe weather plus limited policy action (<a href="https://www.ngfs.net/en/publications-and-statistics/publications/ngfs-climate-scenarios-central-banks-and-supervisors-phase-v" target="_blank" rel="noopener">NGFS</a>, May 2025; <a href="https://www.omfif.org/2025/06/assessing-immediate-and-material-climate-related-financial-risks/" target="_blank" rel="noopener">OMFIF</a>, June 2025; <a href="https://greencentralbanking.com/2025/05/15/ngfs-scenarios-foresee-climate-hit-to-global-growth-before-2030/" target="_blank" rel="noopener">Green Central Banking</a>, May 2025).</p>
+</div>
+<div class="counter-argument"><strong>Counter-argument.</strong> The transatlantic divergence may be overstated. White and Case characterise Omnibus I as "simplified, not abandoned"; CS3D remains operational on the 2028 to 2029 timeline; the SEC formal proposal is not yet enacted and may face Eighth Circuit review. The cycle's framing as a binary US/EU divergence understates the practical reality that large corporates straddling both markets will continue to disclose under the stricter regime to avoid investor pressure.</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 strategy. Each names the move, a horizon and a decision posture.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Re-baseline strategy against bridge capability as the cycle's binding attribute</h4>
+<p>Centre authorities, asset owners, market infrastructure operators and policymakers should treat bridge capability, the ability to serve clients on both sides of a fragmenting financial architecture, as the cycle's binding centre-strategy attribute. The implication is that next-twelve-months decisions taken under the assumption of a globally integrated capital market will misprice the actual risk-and-opportunity surface. The Decide posture reflects that GFCI 39's one-rating-point clustering at the top is now binding evidence the differentiator is shifting away from the integrated-market methodology, and waiting for the methodology to catch up cedes positioning advantage to those who act first.</p>
+<p class="si-action">Action: by 30 September 2026, each centre authority publishes a "bridge capability self-assessment" alongside its GFCI submission, naming three specific cross-bloc client populations served and three bridge investments planned for FY27. Asset owners attach a parallel bridge-capability scorecard to their centre allocation framework by the same date.</p>
+<div class="si-meta"><span class="si-pill decide">Decide</span> <span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a></span></div>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Stress-test stablecoin and tokenisation exposure against the four divergent regimes</h4>
+<p>Banks, exchanges, market-infrastructure operators and asset managers should explicitly stress-test their stablecoin and tokenisation exposure against the four regimes now operational on different timelines: US GENIUS (1:1 reserves via banking supervisors), EU MiCA (1 July 2026 hard deadline with fines up to 12.5 percent of turnover), Hong Kong (Ordinance operational since 1 August 2025), and Singapore (Project Guardian BLOOM standards). The Prepare posture reflects that the regimes are now known but the operational responses (licensing strategy, regulatory-arbitrage architecture, custody and reserve build-out) are six- to eighteen-month workstreams.</p>
+<p class="si-action">Action: by 31 December 2026, each major bank, exchange or market-infrastructure provider publishes a regime-mapping document for its leadership team identifying its primary regulatory pathway across the four regimes and the specific custody and reserve architecture committed to each, with named accountable executives and quarterly review cadence.</p>
+<div class="si-meta"><span class="si-pill prepare">Prepare</span> <span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-3" class="xref">3</a></span></div>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Treat the Gulf cohort as the early-warning indicator for the bridge thesis</h4>
+<p>Centre authorities, regulators, asset owners and policymakers should treat Dubai, Riyadh and Abu Dhabi (and, on a different axis, Astana) as the live test case for whether bridge capability translates into ranking momentum through sanctions enforcement and AI-infrastructure positioning. Dubai's seventh place in GFCI 39, Riyadh's forward-looking 54-point cluster and Abu Dhabi's 42-point score together form the most visible test. The Prepare posture reflects that the next twelve months of OFAC enforcement decisions involving DIFC-, ADGM- or MAS Riyadh-licensed entities will reveal whether the Gulf cohort can hold its bridge position or whether secondary sanctions reshape it.</p>
+<p class="si-action">Action: by 30 June 2027, asset owners and centre policymakers publish a quarterly tracker of Gulf-cohort regulatory and sanctions-enforcement events that materially affect bridge capability, with named decision-triggers for re-baselining centre allocations and regulatory equivalence positions.</p>
+<div class="si-meta"><span class="si-pill prepare">Prepare</span> <span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a>, <a href="#cluster-2" class="xref">2</a> and <a href="#cluster-5" class="xref">5</a></span></div>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Position deliberately within the triadic green-finance and AI-infrastructure maps</h4>
+<p>Centres, asset owners, regulators and policymakers should treat the green-finance and AI-infrastructure maps as triadic (EU-stricter / US-rolling-back / China-anchored for green; US-concentrated / European-distributed / Asian-emergent for AI infrastructure) rather than as bilateral US-versus-everyone-else maps. The Monitor posture reflects that the three poles are operational but their interaction with the bridge-capability cycle and with sanctions enforcement is the binding question for the next twelve to twenty-four months. The trigger to escalate to Prepare is either the SEC final rescission of the 2024 climate disclosure rules, or a Stargate-scale AI infrastructure commitment landing in a European or Asian financial-centre jurisdiction.</p>
+<p class="si-action">Action: by 31 March 2027, leadership across centres, asset owners and regulators publish a one-page position naming which of the three poles their organisation's primary alignment runs through, plus two bridge mechanisms (mutual reliance, equivalence, cross-recognition or shared methodology) committed for FY27.</p>
+<div class="si-meta"><span class="si-pill monitor">Monitor</span> <span class="si-cluster-ref">Draws on Themes <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a></span></div>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two critical uncertainties define the operating space for the next eighteen months: how fast geopolitical fragmentation hardens into bloc-aligned financial architecture (vertical axis), and how fast the tokenised settlement layer (Agor&aacute;, JPMD, regional regimes) converges into a common technical fabric (horizontal axis).</p>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>The Bridge Premium</h4>
+<p>High fragmentation, high settlement-layer convergence. Sanctions enforcement hardens, BRICS Pay and mBridge become real, yet Project Agor&aacute; advances to live cross-border settlement and the four regulatory regimes (GENIUS, MiCA, HK, SG) inter-operate through tokenised infrastructure. In this world the bridge centres (Dubai, Singapore, Geneva, Riyadh and, on its own terms, London) command an outright premium because they are the only locations that can serve clients on both sides of the bloc divide. GFCI methodology evolves to score bridge capability explicitly.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> BIS announces Agor&aacute; live cross-border settlement inside eighteen months; DIFC publishes a bridge-capability self-assessment; Z/Yen GFCI methodology adds a bridge-capability factor.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>The Bloc Pure</h4>
+<p>High fragmentation, low settlement-layer convergence. Sanctions enforcement hardens, BRICS Pay and mBridge advance, but Project Agor&aacute; stalls in real-value testing and the four regulatory regimes remain operationally divergent. Centres are forced to declare bloc alignment; bridge capability becomes harder to maintain because the technical fabric is splitting too. Hong Kong's bridge position weakens further; Singapore positions as Asia's non-aligned centre; Dubai and Riyadh hedge.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> OFAC designates a DIFC-, ADGM- or MAS Riyadh-licensed major bank; BIS delays Agor&aacute; live settlement past 2028; MiCA enforcement triggers EU-only stablecoin issuance migration.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>The Integrated Future</h4>
+<p>Low fragmentation, high settlement-layer convergence. Geopolitical heat cools, sanctions enforcement softens, Project Agor&aacute; rolls out across eight reserve-currency central banks, and the four regulatory regimes converge on common reserve and redemption rules. In this world the bridge premium shrinks because everyone can bridge; centre competitiveness reverts to traditional GFCI attributes (talent, capital, regulation, infrastructure) and the indices recover their reading power without methodology change.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> FSB publishes a unified stablecoin framework adopted by US, EU, HK and SG; Agor&aacute; goes live across multiple corridors; sanctions enforcement tempo declines materially.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>The Slow Normalisation</h4>
+<p>Low fragmentation, low settlement-layer convergence. Geopolitical heat cools but settlement-layer modernisation stalls. Centres compete on familiar attributes; the four regulatory regimes coexist without converging; tokenisation remains pilot-stage at most major banks. In this world GFCI methodology continues to read centres well; the briefing's central thesis (bridge capability as binding attribute) weakens because politics is no longer the dominant force; AI infrastructure becomes the next binding competitiveness axis.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> US/Russia and US/China relations materially normalise; Project Agor&aacute; stays in extended testing past 2027; major bank tokenised-deposit programmes stall at MVP.</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="explicit-exclusions">
+<h2>What We Are Not Planning For</h2>
+<p class="framing-note">The cycle deliberately excludes three plausible-but-signal-thin developments. If the evidence base on any of them strengthens, the briefing's lens would require revision.</p>
+
+<div class="exclusion-item">
+<h4>A unilateral US extraterritorial action that targets a major bridge centre at the institutional level</h4>
+<p>The current evidence base shows OFAC enforcement targeting specific entities (banks, traders, exchanges) within centres rather than centres-as-institutions. A unilateral US move against DIFC, MAS or ADGM as jurisdictions, rather than against named licensed entities, would invalidate the bridge-cohort thesis inside twelve months. The briefing treats this as a tail risk to monitor through SI 3 rather than a working assumption.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A retail-CBDC mass deployment in any G7 centre on a timeline that beats wholesale tokenised settlement</h4>
+<p>Retail CBDC progress in the US is politically constrained, in the UK is paused, and in the EU is distant. The cycle's settlement-layer story is wholesale-first (Agor&aacute;, JPMD, BLOOM) and a retail-CBDC surprise would not change the bridge-capability calculus materially over the eighteen-month horizon.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A formal multilateral climate-disclosure deal that re-aligns the bifurcated rulebook</h4>
+<p>The triadic divergence (EU-stricter, US-rolling-back, China-anchored via GGFI 17) is the working hypothesis. A coordination shock through a UNFCCC- or FSB-led harmonisation would be a different briefing. The current evidence base shows no such initiative on the September 2026 or April 2027 multilateral calendars.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Reader</h2>
+<ol>
+<li>If GFCI methodology cannot score bridge capability directly, what should the next iteration of the index measure, and is there a separate "Bridge Capability Index" that should sit alongside GFCI and GGFI?</li>
+<li>For asset owners with global mandates: how should you reposition allocations currently held against the "neutral centre" cohort, given that the neutral cohort is thinning?</li>
+<li>For banks and exchanges: what is the practical decision rule for choosing between the GENIUS Act and MiCA as your primary stablecoin pathway, and which of the four regimes do you treat as the binding ceiling on architecture choices?</li>
+<li>For centre authorities: are the four operational regulatory regimes (US, EU, HK, SG) actually four, or are Hong Kong and Singapore converging fast enough to be treated as one under a single Asian framework?</li>
+<li>Which of the four scenarios in the matrix would most invalidate your organisation's current FY27 strategy, and is the early-indicator set you monitor today wide enough to catch the inflection inside three to six months?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 39 sources gathered through a six-month-recency horizon scan (cycle date 2 June 2026; recency window back to 2 December 2025). The tier mix is 14 Tier 1 sources (IMF, BIS, ECB, ESMA, MAS, HKMA, SEC, NGFS, Council of the EU, HM Treasury, White House), 4 Tier 2 (Atlantic Council, OMFIF, White and Case, Sidley Austin), 11 Tier 3 (quality trade press and specialist legal/policy publishers), and 10 Tier 4 (Z/Yen's own GFCI 39, SCI 12, SCI 13 and GGFI 17 reports, plus focal-vendor materials from OpenAI, JPMorgan, FIS, Salesforce and Lloyds Banking Group). Nine sources are flagged as structural anchors (publications outside the six-month window but binding institutional references). Every source URL was verified at the time of compilation; date_source and date_evidence fields in <code>sources.json</code> document how each publication date was captured.</p>
+
+<h4>Theme 1: Geoeconomics and Financial Fragmentation</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr><td>IMF Global Financial Stability Report</td><td class="tier-1">Tier 1</td><td>2026-04-14</td><td>Headline fragmentation thesis</td></tr>
+<tr><td>IMF World Economic Outlook</td><td class="tier-1">Tier 1</td><td>2026-04-14</td><td>Growth-revision quantification</td></tr>
+<tr><td>ECB Financial stability risks from geoeconomic fragmentation</td><td class="tier-1">Tier 1</td><td>2026-01-31</td><td>Euro-area framing</td></tr>
+<tr><td>BIS Annual Economic Report 2025 (structural anchor)</td><td class="tier-1">Tier 1</td><td>2025-06-29</td><td>Policy-coordination anchor</td></tr>
+<tr><td>Atlantic Council: local-currency payments</td><td class="tier-2">Tier 2</td><td>2026-05-22</td><td>BRICS Pay framing</td></tr>
+<tr><td>Mayer Brown sanctions update</td><td class="tier-3">Tier 3</td><td>2026-03-31</td><td>OFAC enforcement read</td></tr>
+<tr><td>Sanction Scanner OFAC EO 14024 guide</td><td class="tier-3">Tier 3</td><td>2026-04-10</td><td>Compliance-side detail</td></tr>
+<tr><td>Modern Diplomacy on BRICS Payment Settlement</td><td class="tier-3">Tier 3</td><td>2026-01-29</td><td>BRICS infrastructure detail</td></tr>
+</table>
+
+<h4>Theme 2: Future Competitiveness of Global Financial Centres</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr><td>Z/Yen GFCI 39 press release</td><td class="tier-4">Tier 4</td><td>2026-03-26</td><td>Focal-company anchor</td></tr>
+<tr><td>Long Finance GFCI 39 full report</td><td class="tier-4">Tier 4</td><td>2026-03-26</td><td>Granular GFCI data</td></tr>
+<tr><td>FSDC Hong Kong response on GFCI 39</td><td class="tier-3">Tier 3</td><td>2026-03-26</td><td>Hong Kong framing</td></tr>
+<tr><td>DIFC press release on GFCI 39</td><td class="tier-4">Tier 4</td><td>2026-03-26</td><td>Dubai centre-authority framing</td></tr>
+<tr><td>The National (UAE) on Dubai</td><td class="tier-3">Tier 3</td><td>2026-03-26</td><td>Gulf cohort quantification</td></tr>
+<tr><td>HKSAR Government release on GFCI 39</td><td class="tier-3">Tier 3</td><td>2026-03-26</td><td>Hong Kong sovereign framing</td></tr>
+<tr><td>HM Treasury FS Growth and Competitiveness Strategy (structural anchor)</td><td class="tier-1">Tier 1</td><td>2025-07-15</td><td>UK policy anchor</td></tr>
+<tr><td>City of London Corporation MIPIM</td><td class="tier-3">Tier 3</td><td>2026-03-09</td><td>London centre-authority framing</td></tr>
+</table>
+
+<h4>Theme 3: Distributed Futures and Financial System Transformation</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr><td>BIS Project Agor&aacute; press release</td><td class="tier-1">Tier 1</td><td>2026-05-27</td><td>Settlement-layer milestone</td></tr>
+<tr><td>BIS Project Agor&aacute; full report</td><td class="tier-1">Tier 1</td><td>2026-05-27</td><td>Technical anchor</td></tr>
+<tr><td>White House Fact Sheet on GENIUS Act (structural anchor)</td><td class="tier-1">Tier 1</td><td>2025-07-18</td><td>US regulatory anchor</td></tr>
+<tr><td>ESMA MiCA reference page</td><td class="tier-1">Tier 1</td><td>(evergreen)</td><td>EU enforcement deadline anchor</td></tr>
+<tr><td>HKMA Stablecoins Ordinance (structural anchor)</td><td class="tier-1">Tier 1</td><td>2025-07-29</td><td>Hong Kong regulatory anchor</td></tr>
+<tr><td>MAS Project Guardian reference page</td><td class="tier-1">Tier 1</td><td>(evergreen)</td><td>Singapore tokenisation anchor</td></tr>
+<tr><td>Future of Finance on JPMorgan JPMD</td><td class="tier-3">Tier 3</td><td>2026-03-12</td><td>Bank-side proof-point</td></tr>
+<tr><td>Sidley Austin GENIUS Act analysis (structural anchor)</td><td class="tier-2">Tier 2</td><td>2025-07-22</td><td>Legal-perimeter anchor</td></tr>
+</table>
+
+<h4>Theme 4: Smart Centres and AI Economies</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr><td>Z/Yen Smart Centres Index 13</td><td class="tier-4">Tier 4</td><td>2026-05-28</td><td>Focal-company SCI anchor</td></tr>
+<tr><td>Z/Yen Smart Centres Index 12</td><td class="tier-4">Tier 4</td><td>2025-12-04</td><td>Prior-cycle SCI data</td></tr>
+<tr><td>OpenAI Stargate five-sites announcement (structural anchor)</td><td class="tier-4">Tier 4</td><td>2025-09-23</td><td>Compute-build anchor</td></tr>
+<tr><td>CNBC Stargate Michigan</td><td class="tier-3">Tier 3</td><td>2026-06-01</td><td>Stargate operational milestone</td></tr>
+<tr><td>Lloyds Banking Group on agentic AI</td><td class="tier-4">Tier 4</td><td>2026-01-14</td><td>Bank-side framing</td></tr>
+<tr><td>FIS press release on Anthropic partnership</td><td class="tier-4">Tier 4</td><td>2026-04-22</td><td>Vendor-side agentic AI proof</td></tr>
+<tr><td>Salesforce on agentic AI (directional)</td><td class="tier-4">Tier 4</td><td>2026-02-18</td><td>Adoption-statistics framing</td></tr>
+</table>
+
+<h4>Theme 5: Green Finance and Climate Transition</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr><td>Z/Yen CCB GGFI 17</td><td class="tier-4">Tier 4</td><td>2026-04-23</td><td>Focal-company anchor</td></tr>
+<tr><td>Council of the EU Omnibus I press release</td><td class="tier-1">Tier 1</td><td>2026-02-24</td><td>EU policy anchor</td></tr>
+<tr><td>White and Case on Omnibus I</td><td class="tier-2">Tier 2</td><td>2026-02-26</td><td>Practitioner counterpoint</td></tr>
+<tr><td>SEC Fact Sheet on rescission</td><td class="tier-1">Tier 1</td><td>2026-05-15</td><td>US policy anchor</td></tr>
+<tr><td>Sierra Club press release</td><td class="tier-3">Tier 3</td><td>2026-05-15</td><td>Counter-argument anchor</td></tr>
+<tr><td>NGFS Phase V scenarios (structural anchor)</td><td class="tier-1">Tier 1</td><td>2025-05-22</td><td>Central-bank climate reference</td></tr>
+<tr><td>OMFIF on NGFS short-term scenarios (structural anchor)</td><td class="tier-2">Tier 2</td><td>2025-06-18</td><td>Think-tank analysis companion</td></tr>
+<tr><td>Green Central Banking on NGFS (structural anchor)</td><td class="tier-3">Tier 3</td><td>2025-05-15</td><td>Specialist-press companion</td></tr>
+</table>
+
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>The briefing's analytical lens (capability converging, allegiance diverging, bridge capability as the binding attribute) is the analyst's framing of the evidence base, not a direct quotation from any single source. Where Z/Yen's GFCI 39, SCI 12 and GGFI 17 are cited, the claims are faithful summaries of the published reports; the analyst's framing of those products as evidence of "near-saturation" in scoring technical capability is an extrapolation from the one-rating-point clustering finding, not a Z/Yen claim. Where the BIS, IMF, ECB and SEC sources are cited, the claims are paraphrased from the documents listed in <code>sources.json</code>. Two vendor sources (Salesforce on agentic AI adoption, Lloyds Banking Group on "2026 the year of agentic AI") are flagged in <code>sources.json</code> for directional reading because the framing carries commercial incentive. No source is being treated as verbatim quotation other than the CNBC quote ("people are right to be anxious") which appears once in the Smart Centres theme. Two structural anchors outside the six-month window (BIS AER 2025, GENIUS Act White House fact sheet 2025) are used because they are the binding institutional baselines; their use is flagged in <code>sources.json</code> via the <code>is_structural_anchor</code> field. No statistic in the briefing has been generated by the analyst; every quantitative claim traces to a named source.</p>
+</div>
+
+</body>
+</html>

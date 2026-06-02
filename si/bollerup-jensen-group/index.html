@@ -52,26 +52,29 @@
   .tl-entry.tracker .tl-chip { background: #fff2dc; color: #8a5a00; }
   .tl-entry.brief .tl-chip { background: #e6f3e8; color: #1d5d27; }
   .lang-note { font-size: 0.85em; color: #5a6478; margin: 8px 0 4px; }
-  .lang-note a { color: #0382FC; text-decoration: none; font-weight: 600; }
+  .lang-note a { text-decoration: none; font-weight: 600; }
+  .tl-entry.scan .lang-note a    { color: #0382FC; }
+  .tl-entry.tracker .lang-note a { color: #8a5a00; }
+  .tl-entry.brief .lang-note a   { color: #1d5d27; }
   .lang-note a:hover { text-decoration: underline; }
   .cta { background: #031B41; color: white; padding: 26px 28px; margin: 28px 0 16px; border-radius: 8px; }
   .cta p { color: #DCE3EE; margin: 8px 0; font-size: 0.96em; }
   .cta-button { display: inline-block; background: #0382FC; color: white; text-decoration: none; padding: 10px 22px; border-radius: 4px; font-weight: 600; margin-top: 6px; }
   .cta-button:hover { background: #0269d4; }
   /* Cross-cycle synthesis featured callout */
-  .cross-cycle-callout { background: linear-gradient(135deg, #f6f8fc 0%, #eef3fb 100%); border: 1px solid #d6dfee; border-left: 4px solid #031B41; border-radius: 8px; padding: 18px 24px; margin: 0 0 28px; }
+  .cross-cycle-callout { background: linear-gradient(135deg, #faf7fd 0%, #ede7f6 100%); border: 1px solid #d8c8ed; border-left: 4px solid #7e57c2; border-radius: 8px; padding: 18px 24px; margin: 0 0 28px; }
   .cross-cycle-callout .ccc-meta { margin: 0 0 4px; }
-  .cross-cycle-callout .ccc-tag { display: inline-block; font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; padding: 2px 9px; border-radius: 10px; background: #031B41; color: white; margin-right: 8px; vertical-align: middle; }
+  .cross-cycle-callout .ccc-tag { display: inline-block; font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; padding: 2px 9px; border-radius: 10px; background: #7e57c2; color: white; margin-right: 8px; vertical-align: middle; }
   .cross-cycle-callout .ccc-date { font-size: 0.82em; color: #5a6478; vertical-align: middle; }
-  .cross-cycle-callout h2 { font-size: 1.18em; margin: 8px 0 6px; line-height: 1.35; color: #031B41; font-weight: 700; }
-  .cross-cycle-callout h2 a { color: #031B41; text-decoration: none; }
-  .cross-cycle-callout h2 a:hover { color: #0382FC; }
+  .cross-cycle-callout h2 { font-size: 1.18em; margin: 8px 0 6px; line-height: 1.35; color: #4527a0; font-weight: 700; }
+  .cross-cycle-callout h2 a { color: #4527a0; text-decoration: none; }
+  .cross-cycle-callout h2 a:hover { color: #7e57c2; }
   .cross-cycle-callout p { font-size: 0.96em; color: #2c3e50; margin: 0 0 10px; line-height: 1.5; }
   .cross-cycle-callout .tl-chips { margin: 6px 0 12px; }
   .cross-cycle-callout .tl-chips .toc-label { display: block; font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.06em; color: #5a6478; font-weight: 700; margin: 0 0 5px; }
-  .cross-cycle-callout .tl-chip { display: inline-block; font-size: 0.78em; font-weight: 600; padding: 2px 9px; border-radius: 12px; margin: 0 5px 5px 0; background: #dde4f0; color: #031B41; }
-  .cross-cycle-callout .ccc-readlink { font-weight: 700; color: #031B41; text-decoration: none; font-size: 0.92em; }
-  .cross-cycle-callout .ccc-readlink:hover { color: #0382FC; }
+  .cross-cycle-callout .tl-chip { display: inline-block; font-size: 0.78em; font-weight: 600; padding: 2px 9px; border-radius: 12px; margin: 0 5px 5px 0; background: #ede7f6; color: #4527a0; }
+  .cross-cycle-callout .ccc-readlink { font-weight: 700; color: #4527a0; text-decoration: none; font-size: 0.92em; }
+  .cross-cycle-callout .ccc-readlink:hover { color: #7e57c2; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
   .footer a { color: #5a6478; }
 </style>
@@ -110,10 +113,10 @@
 </p>
 
 <section class="cross-cycle-callout">
-<p class="ccc-meta"><span class="ccc-tag">Cross Cutter</span><span class="ccc-date">1 June 2026</span></p>
+<p class="ccc-meta"><span class="ccc-tag">Action Triggers</span><span class="ccc-date">1 June 2026</span></p>
 <h2><a href="https://decision-intel.shapingtomorrow.com/si/bollerup-jensen-cross-cycle-synthesis/">The cliff arrived. A different door opened.</a></h2>
-<p>A Cross Cutter reads across all four deliverables published in the cycle, in this case the Signal Scan, the Change Tracker and both Decision Intelligence briefings, and surfaces the patterns no individual piece carries on its own. Five early warnings, six shifting assumptions, four decisions now actionable plus two monitors with named triggers.</p>
-<div class="tl-chips"><span class="toc-label">Inside this Cross Cutter</span><span class="tl-chip">Early Warnings</span><span class="tl-chip">Shifting Assumptions</span><span class="tl-chip">Actions Triggered</span></div>
+<p>Action Triggers reads across all four deliverables published in the cycle, in this case the Signal Scan, the Change Tracker and both Decision Intelligence briefings, and surfaces the patterns no individual piece carries on its own. Five early warnings, six shifting assumptions, four decisions now actionable plus two monitors with named triggers.</p>
+<div class="tl-chips"><span class="toc-label">Inside this Action Triggers brief</span><span class="tl-chip">Early Warnings</span><span class="tl-chip">Shifting Assumptions</span><span class="tl-chip">Actions Triggered</span></div>
 <a class="ccc-readlink" href="https://decision-intel.shapingtomorrow.com/si/bollerup-jensen-cross-cycle-synthesis/">Start here &rarr;</a>
 </section>
 

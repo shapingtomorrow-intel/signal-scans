@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Formaldehyde Cliff Hardens, Wood-Panel Substitution Chooses pMDI and Lignin, Change Tracker</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828; margin: 18px 0; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol li strong { color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tracker-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .tracker-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .tracker-figure svg { display: block; width: 100%; height: auto; }
+  .tracker-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .tracker-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 14px; }
+  .tracker-header .masthead { margin-bottom: 0; flex: 1 1 auto; }
+  .tracker-logo { width: 220px; height: auto; flex: 0 0 auto; }
+  .tracker-logo-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; flex: 0 0 auto; }
+  .tracker-logo-stack .tracker-logo.partner { width: 180px; }
+  @media (max-width: 600px) { .tracker-header { flex-direction: column; align-items: flex-start; } .tracker-logo { width: 160px; } .tracker-logo-stack { align-items: flex-start; } .tracker-logo-stack .tracker-logo.partner { width: 140px; } }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  @media print {
+    body { max-width: none; padding: 16px; }
+    h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster, .wild-card, .tracker-figure, .gaining-momentum, .implications { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table { break-inside: auto; }
+    .momentum-table tr { break-inside: avoid; page-break-inside: avoid; }
+    .momentum-table thead { display: table-header-group; }
+  }
+  .tracker-logo.partner-only { width: 280px; }
+  @media (max-width: 600px) { .tracker-logo.partner-only { width: 200px; } }
+  .lang-switch { font-size: 0.85em; color: #5a6478; margin: -6px 0 16px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<header class="tracker-header">
+<div class="masthead">Change Tracker &middot; Bollerup Jensen Group &middot; 30 May 2026</div>
+<svg class="tracker-logo partner-only" viewBox="0 0 206 21" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MakeMyStrategy">
+<path d="M38.723 0.669922L38.6806 0.76325H36.865L32.2834 13.108L27.6849 0.76325H25.8183L25.7844 0.678406V0.76325H23.9688V15.9757H26.4207V4.2079L30.8156 15.9757H33.7088L38.0867 4.21638V15.9757H40.5387V0.76325H38.723V0.669922Z" fill="#1D1D1D"/>
+<path d="M52.4843 12.9382V7.67794C52.4843 5.34474 50.7874 4.0127 47.8094 4.0127C44.8314 4.0127 42.8291 5.54836 42.7188 8.13609V8.48395H45.0774V8.19548C45.1877 6.73617 46.0701 6.04894 47.8348 6.04894C49.922 6.04894 50.2104 6.89738 50.2104 7.74581C50.2104 8.29729 50.0068 8.59425 48.8275 8.77242L46.0446 9.23057C43.6266 9.63782 42.4473 10.8171 42.4473 12.8364C42.4473 14.9915 43.9575 16.332 46.384 16.332C47.1434 16.382 47.9026 16.2321 48.5859 15.8971C49.2692 15.5621 49.8527 15.0539 50.2783 14.423C50.2783 14.8557 50.3462 15.2714 50.3801 15.7296V16.0181H52.62V15.6702C52.5238 14.7628 52.4784 13.8507 52.4843 12.9382V12.9382ZM46.7743 14.2448C46.0786 14.2448 44.9077 14.0412 44.9077 12.7007C44.9077 11.8522 45.2301 11.2838 46.8422 10.9529L48.6663 10.5796C49.2131 10.4803 49.7459 10.3151 50.2529 10.0875V10.4693C50.2529 12.3443 49.2093 14.2448 46.7743 14.2448V14.2448Z" fill="#1D1D1D"/>
+<path d="M65.1942 4.97183L65.33 4.83608V4.38641H62.6744L57.6941 9.20552C57.5159 9.36673 57.3462 9.5449 57.1765 9.72307V0H54.75V15.976H57.1341V12.6587L59.0431 10.8515L63.0647 15.9421H66.1106L60.6042 9.33279L65.1942 4.97183Z" fill="#1D1D1D"/>
+<path d="M74.7219 12.2083C74.3825 13.6506 73.3474 14.3548 71.5742 14.3548C69.4276 14.3548 68.3331 13.2519 68.1804 10.8932H76.8854V10.6302C76.9296 10.3497 76.9466 10.0655 76.9363 9.78175C76.9363 6.27771 74.7813 4.00391 71.4639 4.00391C67.9598 4.02936 65.7539 6.37953 65.7539 10.1805C65.7539 13.9815 67.9004 16.3571 71.5063 16.3571C76.0709 16.3571 76.826 13.2943 76.9532 12.3525V11.9877H74.7813L74.7219 12.2083ZM68.2059 8.9418C68.4859 6.93949 69.5549 6.00621 71.5317 6.00621C73.5086 6.00621 74.4419 6.96495 74.6116 8.9418H68.2059Z" fill="#1D1D1D"/>
+<path d="M93.5661 0.669922L93.5322 0.76325H91.7165L87.135 13.108L82.5365 0.76325H80.6699L80.636 0.678406V0.76325H78.8203V15.9757H81.2723V4.2079L85.6672 15.9757H88.5604L92.9298 4.21638V15.9757H95.3903V0.76325H93.5661V0.669922Z" fill="#1D1D1D"/>
+<path d="M102.711 13.0238L102.66 13.185L99.1644 4.38672H96.6191L101.209 15.9763H101.566L100.624 18.3011H97.4676V20.3628H99.8686C102.075 20.3628 102.575 19.3616 103.262 17.5969L108.599 4.38672H106.181L102.711 13.0238Z" fill="#1D1D1D"/>
+<path d="M118.034 7.38961L114.394 6.83813C113.079 6.6345 112.468 5.98969 112.468 4.85279C112.468 2.85048 114.301 2.43475 115.862 2.43475C118.22 2.43475 119.51 3.45287 119.714 5.45518V5.74364H122.098V5.40427C121.877 2.20567 119.612 0.373047 115.887 0.373047C111.569 0.373047 110.025 2.70624 110.025 4.89521C110.025 7.2878 111.323 8.63681 113.995 9.02709L117.431 9.55312C119.128 9.84159 119.824 10.4779 119.824 11.8439C119.824 13.2099 119.383 14.245 116.218 14.245C113.393 14.245 111.976 13.0741 111.976 10.6561V10.3422H109.566V10.6646C109.566 12.7687 110.415 16.3067 116.244 16.3067C120.274 16.3067 122.327 14.7286 122.327 11.6063C122.267 9.19678 120.918 7.85625 118.034 7.38961Z" fill="#1D1D1D"/>
+<path d="M127.529 1.95117H126.027L125.357 4.28437L123.023 4.84434V6.39697H125.102V13.0996C125.102 15.1698 125.951 15.9758 128.072 15.9758H130.982V13.9141H127.495V6.39697H131.109V4.38618H127.495L127.529 1.95117Z" fill="#1D1D1D"/>
+<path d="M135.139 6.21961V4.38699H132.746V15.9766H135.139V11.6241C135.139 9.4776 135.504 8.1201 136.284 7.38196C136.621 7.08927 137.016 6.87017 137.442 6.73868C137.869 6.6072 138.318 6.56622 138.762 6.61837H139.542V4.24275H138.829C138.094 4.21719 137.366 4.38663 136.718 4.73384C136.069 5.08106 135.525 5.59367 135.139 6.21961V6.21961Z" fill="#1D1D1D"/>
+<path d="M150.174 12.9382V7.67794C150.174 5.34474 148.477 4.0127 145.49 4.0127C142.504 4.0127 140.51 5.54836 140.4 8.13609V8.48395H142.758V8.19548C142.877 6.73617 143.751 6.04894 145.516 6.04894C147.611 6.04894 147.891 6.89738 147.891 7.74581C147.891 8.29729 147.688 8.59425 146.517 8.77242L143.726 9.23057C141.308 9.63782 140.137 10.8171 140.137 12.8364C140.137 14.9914 141.638 16.332 144.065 16.332C144.828 16.3866 145.593 16.2388 146.281 15.9037C146.969 15.5685 147.557 15.0578 147.985 14.423C147.985 14.8557 148.053 15.2714 148.095 15.7296V16.0181H150.335V15.6702C150.229 14.7633 150.176 13.8512 150.174 12.9382V12.9382ZM144.464 14.2448C143.76 14.2448 142.589 14.0412 142.589 12.7007C142.589 11.8522 142.92 11.2838 144.523 10.9529L146.347 10.5796C146.894 10.4816 147.427 10.3164 147.934 10.0875V10.4693C147.959 12.3443 146.882 14.2448 144.489 14.2448H144.464Z" fill="#1D1D1D"/>
+<path d="M155.586 1.95117H154.093L153.414 4.28437L151.115 4.84434V6.39697H153.202V13.0996C153.202 15.1698 154.051 15.9758 156.172 15.9758H159.074V13.9141H155.586V6.39697H159.209V4.38618H155.586V1.95117Z" fill="#1D1D1D"/>
+<path d="M168.745 12.2083C168.406 13.6506 167.371 14.3548 165.598 14.3548C163.451 14.3548 162.357 13.2519 162.161 10.8932H170.909L170.951 10.6302C170.995 10.3497 171.012 10.0655 171.002 9.78175C171.002 6.27771 168.856 4.00391 165.53 4.00391C161.983 4.00391 159.777 6.35407 159.777 10.1296C159.777 13.9051 161.924 16.3062 165.53 16.3062C170.094 16.3062 170.849 13.2434 170.977 12.3016V11.9368H168.839L168.745 12.2083ZM162.229 8.9418C162.509 6.93949 163.578 6.00621 165.555 6.00621C167.532 6.00621 168.474 6.96495 168.635 8.9418H162.229Z" fill="#1D1D1D"/>
+<path d="M181.48 5.56616C181.003 5.05513 180.418 4.65618 179.768 4.39799C179.118 4.1398 178.419 4.02878 177.722 4.07291C174.328 4.07291 172.334 6.194 172.334 9.89318C172.334 13.5924 174.251 15.7389 177.722 15.7389C178.414 15.7859 179.108 15.6828 179.757 15.4368C180.405 15.1908 180.993 14.8077 181.48 14.3135V15.6625C181.48 17.7921 180.572 18.5896 178.137 18.5896C176.143 18.5896 175.108 17.8515 174.964 16.3328V16.0443H172.572V16.3837C172.784 19.1072 174.744 20.6259 178.103 20.6259C182.015 20.6259 183.83 19.0648 183.83 15.705V4.38684H181.48V5.56616ZM181.48 9.89318C181.48 12.5403 180.445 13.7196 178.137 13.7196C175.83 13.7196 174.744 12.6167 174.744 9.89318C174.744 7.1697 175.719 6.09219 178.137 6.09219C180.555 6.09219 181.48 7.26303 181.48 9.89318Z" fill="#1D1D1D"/>
+<path d="M194.453 4.38672L190.966 13.0492L190.915 13.185L187.428 4.38672H184.883L189.481 15.9763H189.838L188.887 18.3011H185.74V20.3628H188.141C190.347 20.3628 190.839 19.3616 191.535 17.5969L196.837 4.38672H194.453Z" fill="#1D1D1D"/>
+<path d="M201.546 4.75155H200.231V8.05196H199.773V4.75155H198.449V4.38672H201.538L201.546 4.75155Z" fill="#1D1D1D"/>
+<path d="M206.001 8.05196H205.543V4.72609L204.304 8.05196H203.693L202.454 4.72609V8.05196H201.996V4.38672H202.777L204.007 7.63623L205.212 4.38672H206.001V8.05196Z" fill="#1D1D1D"/>
+<path d="M3.99613 7.99219H0V15.976H7.99226V11.9883H3.99613V7.99219Z" fill="#287AFF"/>
+<path d="M15.976 0H7.99219V3.99613H11.9883V7.99226H15.976V0Z" fill="#287AFF"/>
+</svg>
+</header>
+<p class="lang-switch"><strong>English</strong> &middot; <a href="tracker-da.html">Dansk</a></p>
+
+<article>
+
+<h2>Formaldehyde cliff hardens; wood-panel substitution chooses pMDI and lignin, not silicate</h2>
+<p class="seo-line">The EU formaldehyde cliff on 6 August 2026 is firmly locked in by regulator and member state action, yet the substitution path the panel industry is visibly walking is reformulated MDI and lignin rather than inorganic silicate binders, narrowing the commercial window for silicate adhesives in wood-based products.</p>
+
+
+<p>The consensus read on the EU formaldehyde cliff is that it opens a substitution window for low-toxicity binders, with silicate adhesives routinely cited as one of the chemistries that benefit. The cycle's actual momentum reads sharper and less favourable. Three regulatory clocks (REACH Entry 77, the German alignment repeal, and ECHA's measurement methodology) are accelerating in lock-step, but the supply-side response runs along two paths that bypass silicate: panel makers are transitioning to No Added Formaldehyde pMDI, and lignin-based binders are scaling beyond pilot. Bollerup Jensen's question for this cycle: does the silicate-adhesive window stay open long enough to capture share, or close as the panel chain locks in pMDI and lignin contracts before August?</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>EU formaldehyde 0.062 mg/m3 cliff</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Structural anchor; 6 August 2026 application date inside 70 days of cycle</td>
+<td>Commission Regulation (EU) 2023/1464 will halve the EU formaldehyde limit to 0.062 mg/m3 from 6 August 2026, with no grace period (<a href="https://notifix.info/en/noticias/fabricates-tableros/eu-to-halve-formaldehyde-limit-for-wood-panels-starting-august-2026/" target="_blank">Notifix</a>, April 2026).</td>
+</tr>
+<tr>
+<td>ECHA measurement methodology published</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Methodology released May 2025; 2 follow-on industry items in past 90 days</td>
+<td>Compliance pipeline hardens as the canonical test method removes the last methodological uncertainty (<a href="https://www.euwid-wood-products.com/news/wood-based-panels/echa-publishes-guidelines-for-measurement-of-formaldehyde-emissions-130625/" target="_blank">EUWID Wood Products and Panels</a>, June 2025).</td>
+</tr>
+<tr>
+<td>German regulatory alignment locks in</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>ChemVerbotsV repeal scheduled for 7 August 2026; no softening signal in cycle</td>
+<td>The EU 2023/1464 limits replace Germany's national ChemVerbotsV rule on 6 August 2026, halving the German benchmark rather than softening alignment (<a href="https://www.schadstoffrecht.de/formaldehyd-in-gebaeuden-neue-grenzwerte-ab-2026-und-was-sie-bedeuten" target="_blank">schadstoffrecht.de</a>, January 2026).</td>
+</tr>
+<tr>
+<td>Formaldehyde-resin chain consolidation</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>77.23% stake closed 13 March 2026, weeks before the cliff</td>
+<td>Bondalti taking control of Ercros consolidates rather than exits Iberian formaldehyde-resin supply (<a href="https://www.euwid-wood-products.com/news/wood-based-panels/bondalti-to-buy-a-stake-in-ercros-at-second-attempt-250326-1/" target="_blank">EUWID Wood Products and Panels</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Panel makers transitioning to NAF-MDI</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>Full MEDITE MDF range moved on 13 April 2026</td>
+<td>MEDITE SMARTPLY chose No Added Formaldehyde MDI resin over silicate or bio-based alternatives for its compliance transition (<a href="https://mdfosb.com/en/eu-reach-revision-e05" target="_blank">MEDITE SMARTPLY</a>, April 2026).</td>
+</tr>
+<tr>
+<td>Lignin binders scale beyond pilot</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>New Zero product family flooring board announced May 2026</td>
+<td>Koskisen and Stora Enso extended the NeoLigno Zero range to flooring, claiming industrial-scale production (<a href="https://panelsfurnitureasia.com/koskisen-and-stora-enso-expand-formaldehyde-free-wood-panel-range-with-new-zero-product/" target="_blank">Panels and Furniture Asia</a>, May 2026).</td>
+</tr>
+<tr>
+<td>Capital backing incumbent panel chemistry</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>EUR 146m EIB loan announced 18 March 2026 under REPowerEU framework</td>
+<td>EIB backing Kronospan's energy upgrade entrenches the existing UF and pMDI panel model rather than substitute chemistry (<a href="https://www.eib.org/en/press/all/2026-103-eib-backs-kronospan-s-green-energy-push-with-eur146-million-loan" target="_blank">European Investment Bank</a>, March 2026).</td>
+</tr>
+<tr>
+<td>Silicate geopolymer crosses structural threshold</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>French ATec for all superstructure use granted January 2026</td>
+<td>Hoffmann Green's 0% clinker H-UKR cement (sodium-silicate-activated geopolymer) cleared for load-bearing applications (<a href="https://www.worldcement.com/europe-cis/12012026/hoffmann-green-validates-h-ukr-0-clinker-cement-for-superstructures/" target="_blank">World Cement</a>, January 2026).</td>
+</tr>
+<tr>
+<td>CPR Working Plan and GWP declaration</td>
+<td><span class="momentum-pill accelerating">Accelerating</span></td>
+<td>First Working Plan published 15 December 2025; GWP mandatory from 8 January 2026</td>
+<td>Embodied-carbon disclosure under the new Construction Products Regulation extends the pull on low-clinker, low-formaldehyde binders (<a href="https://single-market-economy.ec.europa.eu/news/commission-presents-new-initiatives-support-europes-construction-ecosystem-2025-12-15_en" target="_blank">European Commission DG GROW</a>, December 2025).</td>
+</tr>
+<tr>
+<td>EU sustainability reporting scope</td>
+<td><span class="momentum-pill fading">Fading</span></td>
+<td>Council Omnibus I adoption 24 February 2026; thresholds raised</td>
+<td>CSRD coverage narrowing to over 1,000 employees softens the reporting-driven pull for substitute binders inside mid-tier panel producers (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" target="_blank">Council of the European Union</a>, February 2026).</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster risk">
+<h4>Substitution path closes around incumbents<span class="cluster-type">Evolving Risk</span></h4>
+<p>Four signals point the same way. MEDITE has moved its entire MDF range to fossil-route NAF-MDI rather than silicate or bio-based binders; the European Panel Federation puts the resin-cost step at 15 to 25% and names reformulated UF, MUF and NAF resins as the industry routes, not silicate (<a href="https://notifix.info/en/noticias/fabricates-tableros/eu-to-halve-formaldehyde-limit-for-wood-panels-starting-august-2026/" target="_blank">Notifix</a>, April 2026); Bondalti has consolidated the Iberian formaldehyde-resin chain six weeks before the cliff; and EIB capital is backing Kronospan's incumbent footprint. Read together, these are the closing-window evidence.</p>
+</div>
+
+<div class="cluster transformation">
+<h4>Three regulatory clocks chime at once<span class="cluster-type">Transformation Driver</span></h4>
+<p>REACH Entry 77, the German ChemVerbotsV repeal and ECHA's measurement methodology move in lock-step, with the 0.062 mg/m3 limit applying on 6 August 2026 and the German rule sunsetting the day after. Specialist 2026 commentary confirms the exemption list is too narrow to matter for indoor wood panels (<a href="https://analytical-group.com/en/news-en/formaldehyde-limits-restriction-77-reach" target="_blank">Analytical Group</a>, March 2026). The new GWP declaration line under the Construction Products Regulation came into force in January, while the Council's Omnibus I raised CSRD thresholds in February: the cliff is real, but the sustainability-reporting tailwind has been pruned in the same cycle.</p>
+</div>
+
+<div class="cluster opportunity">
+<h4>Silicate-activated geopolymer crosses a structural threshold<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>The clearest positive signal is adjacent rather than panel-based. Hoffmann Green's H-UKR sodium-silicate-activated geopolymer received a French Technical Assessment for full superstructure use in January, and the company's H-P2A line positions silicate chemistry into industrial adhesives and fire protection (<a href="https://www.ciments-hoffmann.com/us/solutions/h-p2a/" target="_blank">Hoffmann Green Cement Technologies</a>, evergreen). For a silicate producer, the read-across is that the ATec sets a regulatory template other silicate-activated systems can lean on. Bollerup Jensen is the only Danish liquid silicate producer (<a href="https://bollerup-jensen.dk/en/silicates/" target="_blank">Bollerup Jensen Group</a>, evergreen), and no 2026 panel-adhesive launch is currently visible, which is itself a signal.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Momentum distribution across signals</h4>
+<svg viewBox="0 0 720 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stacked bar chart showing nine accelerating signals and one fading signal across three themes">
+<rect x="0" y="0" width="720" height="290" fill="#fbfbfc"/>
+<!-- Top legend row -->
+<rect x="170" y="18" width="14" height="14" fill="#c62828"/>
+<text x="192" y="30" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478">Risk</text>
+<rect x="250" y="18" width="14" height="14" fill="#1a237e"/>
+<text x="272" y="30" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478">Transformation</text>
+<rect x="390" y="18" width="14" height="14" fill="#43a047"/>
+<text x="412" y="30" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478">Opportunity</text>
+<!-- Y baseline at y=250 -->
+<line x1="80" y1="250" x2="700" y2="250" stroke="#9aa3b2" stroke-width="1"/>
+<!-- ACCELERATING stacked bar: Risk 4 + Transform 3 + Opportunity 2 = 9; 18 px per unit -->
+<rect x="140" y="178" width="100" height="72" fill="#c62828"/>
+<text x="190" y="220" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">4</text>
+<rect x="140" y="124" width="100" height="54" fill="#1a237e"/>
+<text x="190" y="158" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">3</text>
+<rect x="140" y="88" width="100" height="36" fill="#43a047"/>
+<text x="190" y="112" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">2</text>
+<text x="190" y="80" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a237e" text-anchor="middle" font-weight="700">9 total</text>
+<!-- STABLE: empty placeholder -->
+<text x="380" y="246" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#9aa3b2" text-anchor="middle">no signals</text>
+<!-- FADING: 1 Opportunity = 18 px -->
+<rect x="540" y="232" width="100" height="18" fill="#43a047"/>
+<text x="590" y="222" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a237e" text-anchor="middle" font-weight="700">1 total</text>
+<!-- Category axis labels -->
+<text x="190" y="272" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a237e" text-anchor="middle" font-weight="700">Accelerating</text>
+<text x="380" y="272" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5a6478" text-anchor="middle">Stable</text>
+<text x="590" y="272" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5a6478" text-anchor="middle">Fading</text>
+</svg>
+<p class="figure-caption">Source basis: ten tracked signals from this cycle's sources.json, grouped by theme type and momentum direction.</p>
+</div>
+
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>Wood-panel substitution to NAF-MDI.</strong> A second visible incumbent transition in the next 60 days would force a commercial decision on whether to compete with pMDI suppliers or step back from panel adhesives.</li>
+<li><strong>Formaldehyde-resin chain consolidation.</strong> Further consolidation in Central European UF and MUF resins would compress the buyer set for silicate adhesives in the panel chain.</li>
+<li><strong>Lignin Zero range expansion.</strong> A second non-pilot lignin-binder flooring or panel deal in the next quarter would move lignin from credible to default substitute.</li>
+<li><strong>Silicate-activated geopolymer in structural use.</strong> A second Technical Assessment for an alkali-activated silicate binder in another EU jurisdiction would extend the Hoffmann Green template.</li>
+<li><strong>ECHA methodology adoption.</strong> First notified-body certifications under the new measurement protocol would lock in binder choices that are hard to reverse later.</li>
+</ol>
+</div>
+
+<h3>Wild cards to watch</h3>
+
+<div class="wild-card risk">
+<h4>Lignin binder breakthrough captures the panel substitution share</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Risk</span>
+<span class="wc-impact">Potential impact: Very High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A bio-based binder previously confined to niches takes the post-cliff substitution share that silicate proponents had assumed.</p>
+<p><strong>Early warning indicators:</strong> Second large-volume NeoLigno or competing lignin product into a major panel maker; tier-1 retailer specifying lignin-bound panels.</p>
+<p>Koskisen and Stora Enso's Zero extension is a credible breakthrough, with partners stating formaldehyde-free panels can work at industrial scale. If a second European panel major signs a lignin supply deal in the next two quarters, the substitution share for silicate adhesives narrows materially.</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4>Silicate-activated geopolymer adhesive lands a flagship EU specification</h4>
+<p class="wc-meta">
+<span class="wc-label">Disruptive Opportunity</span>
+<span class="wc-impact">Potential impact: High</span>
+</p>
+<p><strong>Surprise characteristics:</strong> A national or major-city procurement spec writes sodium-silicate-activated geopolymer adhesive into a public-works or fire-protection standard.</p>
+<p><strong>Early warning indicators:</strong> Hoffmann Green or a peer extends H-UKR style approval into adhesive applications; a notified body issues a silicate-binder panel certificate under the new EU formaldehyde measurement methodology.</p>
+<p>The Hoffmann Green H-UKR Technical Assessment for full superstructure use creates the regulatory template a silicate-activated adhesive line would need to enter major procurement spec language (<a href="https://www.worldcement.com/europe-cis/12012026/hoffmann-green-validates-h-ukr-0-clinker-cement-for-superstructures/" target="_blank">World Cement</a>, January 2026). The trigger event would be a second silicate-binder ATec or equivalent national approval landing in another EU jurisdiction in the next two quarters.</p>
+</div>
+
+<div class="tracker-figure">
+<h4>Wild-card impact and surprise matrix</h4>
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Impact-surprise matrix placing two wild cards on a two-by-two grid">
+<rect x="0" y="0" width="720" height="340" fill="#fbfbfc"/>
+<!-- Axes -->
+<line x1="80" y1="260" x2="700" y2="260" stroke="#9aa3b2" stroke-width="1"/>
+<line x1="80" y1="40" x2="80" y2="260" stroke="#9aa3b2" stroke-width="1"/>
+<line x1="390" y1="40" x2="390" y2="260" stroke="#dfe4eb" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="80" y1="150" x2="700" y2="150" stroke="#dfe4eb" stroke-width="1" stroke-dasharray="4 4"/>
+<!-- Axis arrow labels -->
+<text x="390" y="282" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478" text-anchor="middle">Surprise &raquo;</text>
+<text x="50" y="150" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478" text-anchor="middle" transform="rotate(-90 50,150)">Impact &raquo;</text>
+<!-- Wild card 1: top-right, Risk -->
+<circle cx="560" cy="90" r="14" fill="#8e24aa"/>
+<text x="560" y="60" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" text-anchor="middle" font-weight="700">Lignin captures</text>
+<text x="560" y="74" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" text-anchor="middle" font-weight="700">panel share</text>
+<!-- Wild card 2: lower-left, Opportunity -->
+<circle cx="260" cy="190" r="14" fill="#00897b"/>
+<text x="260" y="222" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" text-anchor="middle" font-weight="700">Silicate geopolymer</text>
+<text x="260" y="236" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" text-anchor="middle" font-weight="700">adhesive spec</text>
+<!-- Bottom legend -->
+<rect x="170" y="308" width="14" height="14" fill="#8e24aa"/>
+<text x="192" y="320" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478">Disruptive Risk</text>
+<rect x="370" y="308" width="14" height="14" fill="#00897b"/>
+<text x="392" y="320" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5a6478">Disruptive Opportunity</text>
+</svg>
+<p class="figure-caption">Source basis: two wild-card candidates from this cycle's evidence base; impact and surprise positions are analyst judgements traceable to the underlying sources.</p>
+</div>
+
+<div class="implications">
+<h3>Implications</h3>
+<p>The cycle reads the formaldehyde cliff as solid and the silicate-adhesive substitution window as narrower than consensus assumes. Worth monitoring: the next two NAF-MDI or lignin announcements from EU panel majors, which would allocate the substitution share before the cliff. Warrants preparation: a Bollerup Jensen position on whether to lead with a silicate-activated geopolymer adhesive line leaning on the Hoffmann Green H-UKR template, rather than competing head-on with pMDI. A decision point opens if a second silicate-binder Technical Assessment lands in another EU jurisdiction in the next quarter.</p>
+</div>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Commission presents new initiatives to support Europe's construction ecosystem. <a href="https://single-market-economy.ec.europa.eu/news/commission-presents-new-initiatives-support-europes-construction-ecosystem-2025-12-15_en" target="_blank">European Commission DG GROW</a>. Published 15/12/2025.</li>
+<li><span class="tier-1">Tier 1</span> EIB backs Kronospan's green energy push with EUR 146 million loan. <a href="https://www.eib.org/en/press/all/2026-103-eib-backs-kronospan-s-green-energy-push-with-eur146-million-loan" target="_blank">European Investment Bank</a>. Published 18/03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Council signs off Omnibus I simplification of sustainability reporting. <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/" target="_blank">Council of the European Union</a>. Published 24/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> ECHA publishes guidelines for measurement of formaldehyde emissions. <a href="https://www.euwid-wood-products.com/news/wood-based-panels/echa-publishes-guidelines-for-measurement-of-formaldehyde-emissions-130625/" target="_blank">EUWID Wood Products and Panels</a>. Published 13/06/2025.</li>
+<li><span class="tier-3">Tier 3</span> Formaldehyd in Gebauden: new EU limits from 2026 and the ChemVerbotsV transition. <a href="https://www.schadstoffrecht.de/formaldehyd-in-gebaeuden-neue-grenzwerte-ab-2026-und-was-sie-bedeuten" target="_blank">Kanzlei Dr Elmar Liese (schadstoffrecht.de)</a>. Published 20/01/2026.</li>
+<li><span class="tier-3">Tier 3</span> Formaldehyde limits: what changes from 6 August 2026 under REACH Restriction 77. <a href="https://analytical-group.com/en/news-en/formaldehyde-limits-restriction-77-reach" target="_blank">Analytical Group</a>. Published 25/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> Bondalti to buy a stake in Ercros at second attempt. <a href="https://www.euwid-wood-products.com/news/wood-based-panels/bondalti-to-buy-a-stake-in-ercros-at-second-attempt-250326-1/" target="_blank">EUWID Wood Products and Panels</a>. Published 25/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> EU REACH Revision (E05); MEDITE MDF range transitions to NAF-MDI. <a href="https://mdfosb.com/en/eu-reach-revision-e05" target="_blank">MEDITE SMARTPLY</a>. Published 13/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> EU to halve formaldehyde limit for wood panels starting August 2026. <a href="https://notifix.info/en/noticias/fabricates-tableros/eu-to-halve-formaldehyde-limit-for-wood-panels-starting-august-2026/" target="_blank">Notifix</a>. Published 23/04/2026.</li>
+<li><span class="tier-3">Tier 3</span> Koskisen and Stora Enso expand formaldehyde-free wood panel range with new Zero product. <a href="https://panelsfurnitureasia.com/koskisen-and-stora-enso-expand-formaldehyde-free-wood-panel-range-with-new-zero-product/" target="_blank">Panels and Furniture Asia</a>. Published 25/05/2026.</li>
+<li><span class="tier-3">Tier 3</span> Hoffmann Green validates H-UKR 0% clinker cement for superstructures. <a href="https://www.worldcement.com/europe-cis/12012026/hoffmann-green-validates-h-ukr-0-clinker-cement-for-superstructures/" target="_blank">World Cement</a>. Published 12/01/2026.</li>
+<li><span class="tier-4">Tier 4</span> H-P2A silicate-activated geopolymer cement for industrial adhesives. <a href="https://www.ciments-hoffmann.com/us/solutions/h-p2a/" target="_blank">Hoffmann Green Cement Technologies</a>. Evergreen vendor page.</li>
+<li><span class="tier-4">Tier 4</span> Silicates product page; Denmark's only liquid silicate producer. <a href="https://bollerup-jensen.dk/en/silicates/" target="_blank">Bollerup Jensen Group</a>. Evergreen vendor page.</li>
+</ul>
+
+</article>
+
+<div class="programme-footer">
+<p>This Change Tracker is part of your Shaping Tomorrow Single-Topic Programme on <strong>Silicate Adhesives</strong>. To extend the programme to additional topics, add a named competitor, or move to a Sector-Exclusive Partnership, contact your analyst.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="mailto:hello@shapingtomorrow.com?subject=Next%20cycle%20discussion">Book your next-cycle discussion</a>
+<a class="programme-cta secondary" href="mailto:hello@shapingtomorrow.com?subject=Add%20topic%20to%20programme">Add a topic to your programme</a>
+</div>
+</div>
+<hr>
+<p class="small">Prepared by MakeMyStrategy: 30 May 2026</p>
+
+</body>
+</html>

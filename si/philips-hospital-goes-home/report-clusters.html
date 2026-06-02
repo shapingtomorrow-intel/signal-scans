@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token six, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>Hospital Goes Home, Home Goes Medical: Philips Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; Philips</div>
+<h1 class="report-title">Hospital Goes Home, Home Goes Medical</h1>
+<div class="meta">
+Date: 2 June 2026 &middot; Cycle 1 briefing &middot; Audience: Philips leadership team (design, personal health, connected care, strategy and finance) &middot; Horizon: 1 to 5 years primary (commercial product development); 5 to 10 years secondary (hospital industrial product development)<br>
+<span style="font-size: 0.92em;">Read estimate: 3 min Executive Synthesis &middot; 22 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract motif: two converging arrows, a navy hospital block on the left and an orange home block on the right, exchanging direction so each crosses into the other's territory.">
+  <rect x="0" y="0" width="340" height="300" fill="none"/>
+  <rect x="20" y="110" width="100" height="80" fill="#1a237e" rx="6"/>
+  <text x="70" y="155" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">HOSPITAL</text>
+  <text x="70" y="172" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">clinical-grade</text>
+  <rect x="220" y="110" width="100" height="80" fill="#f57c00" rx="6"/>
+  <text x="270" y="155" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="600" text-anchor="middle">HOME</text>
+  <text x="270" y="172" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">domestic</text>
+  <path d="M 120 130 Q 170 90, 220 130" stroke="#1a237e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="220,128 232,135 218,140" fill="#1a237e"/>
+  <text x="170" y="80" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="600" text-anchor="middle">hospital goes home</text>
+  <path d="M 220 170 Q 170 210, 120 170" stroke="#f57c00" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="120,172 108,165 122,160" fill="#f57c00"/>
+  <text x="170" y="225" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="600" text-anchor="middle">home goes medical</text>
+  <text x="170" y="260" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="700" text-anchor="middle">one design language</text>
+  <text x="170" y="275" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#2e7d32" text-anchor="middle">bridges both</text>
+</svg>
+<p class="figure-caption">The cycle's central tension: hospital tech and home tech are converging into one product category that the Philips design language has to bridge.</p>
+</div>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">Which of the products on the Philips FY27 plan still assume that hospital tech and home tech are different product categories?</p>
+<p class="sit-up-warrant">The evidence in this cycle says the boundary is dissolving in both directions, and the design language has to bridge it inside the development horizons your two divisions actually run on.</p>
+</div>
+
+<p>The cycle's central tension is bidirectional. Hospital-grade equipment is moving into people's spare rooms, and consumer wellness devices are becoming clinical-grade. Both movements are now backed by reimbursement, by regulators, and by Philips's own public commitments. The US Congress extended the Acute Hospital Care at Home waiver to 2030 through the Consolidated Appropriations Act 2026 (<a href="https://www.ama-assn.org/public-health/population-health/lawmakers-extend-cms-hospital-home-waiver-five-years" target="_blank" rel="noopener">American Medical Association</a>, March 2026), with 366 programmes across 139 health systems in 37 states now approved. France's hospitalisation à domicile is on a formal 2021 to 2026 national roadmap with three specialised care lines (<a href="https://www.anfh.fr/actualites/hospitalisation-domicile-feuille-de-route-strategique-nationale-2021-2026" target="_blank" rel="noopener">ANFH</a>, structural anchor). Italy's 2026 Budget Law and PNRR remodulation moved EUR 750m into home care and telemedicine with a target of 300,000 assisted by mid-2026 (<a href="https://www.quotidianosanita.it/lavoro-e-professioni/sanit-digitale-come-la-legge-di-bilancio-rivoluziona-telemedicina-e-servizi-a-distanza/" target="_blank" rel="noopener">Quotidiano Sanità</a>, January 2026). Philips itself won the Region Stockholm hospital-at-home tender on 18 May 2026: a Philips, Cuviva and Vingmed consortium with an up to eight-year agreement serving more than two million people (<a href="https://www.globenewswire.com/news-release/2026/05/18/3296331/0/en/Philips-to-deliver-vital-technology-for-hospital-at-home-care-for-up-to-15-000-patients-annually-in-Region-Stockholm.html" target="_blank" rel="noopener">Royal Philips press release</a>, May 2026). The hospital is going home. That is no longer a thesis; it is a contracted reality on Philips's order book.</p>
+
+<p>The other direction is moving in parallel. On 5 March 2026 the new Sonicare line landed with SenseIQ pressure and coverage sensors and an AI-powered companion app generating dentist-level reports from home (<a href="https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2026/philips-sonicare-unveils-two-new-electric-toothbrush-ranges-alongside-refreshed-brand-direction.html" target="_blank" rel="noopener">Philips</a>, March 2026). The CMS ACCESS Model begins on 5 July 2026 and runs for ten years, with outcome-aligned payment for technology-supported chronic care in hypertension, diabetes, chronic musculoskeletal pain and depression, and wearable monitoring as the enabling device class (<a href="https://www.cms.gov/priorities/innovation/innovation-models/access" target="_blank" rel="noopener">CMS</a>, structural anchor). The German DiGA scheme moved into mandatory accompanying success measurement and 20 percent performance-based pricing from 1 January 2026, and extended scope to Class IIb digital medical devices (<a href="https://www.insideeulifesciences.com/2026/02/03/germany-changes-rules-for-digital-health-applications/" target="_blank" rel="noopener">Inside EU Life Sciences</a>, February 2026). The home is becoming medical. The form factor of a Sonicare today is the early ancestor of a passive home diagnostic platform under the reimbursement architecture of 2027 onward.</p>
+
+<div class="pullquote">The hospital is going home. The home is going medical. The design language has to bridge both.</div>
+
+<p>Three further forces dominate the cycle. First, the regulatory envelope is tightening on what materials, what AI behaviours and what data flows are permitted, with three separate clocks running into 2026 and 2027: the EU MDR refresh (MDCG 2021-24 rev.1 in April 2026 is the latest classification anchor; <a href="https://health.ec.europa.eu/latest-updates/update-mdcg-2021-24-rev1-guidance-classification-medical-devices-april-2026-2026-04-20_en" target="_blank" rel="noopener">EC DG SANTE</a>, April 2026), the ECHA narrower PFAS proposal published October 2025 with derogations of 6.5 to 13.5 years for medical-device categories (<a href="https://www.echa.europa.eu/-/echa-publishes-updated-pfas-restriction-proposal" target="_blank" rel="noopener">ECHA</a>, structural anchor), and the EU AI Act binding from August 2026 for Annex III standalone systems and August 2027 for AI embedded in MDR Class IIb/III and IVDR Class C/D (<a href="https://meddeviceguide.com/blog/eu-ai-act-medical-devices-compliance-guide" target="_blank" rel="noopener">MedDeviceGuide</a>, February 2026). The CMF roadmap for a device entering FY27 development now has a binding materials envelope; the AI roadmap has a binding behavioural envelope. Both are recent enough that the in-flight portfolio has not yet reckoned with them.</p>
+
+<p>Second, the patient experience evidence base has moved from soft case study to operational driver. Philips's own Ambient Experience clinical evidence carries up to 80 percent reduction in sedation need, 70 percent reduction in re-scans, and 40 percent stress reduction in paediatric patients aged 6 to 10 (<a href="https://www.usa.philips.com/healthcare/webinar/sedation-reduction-in-pediatric-mri" target="_blank" rel="noopener">Philips clinical evidence</a>, structural anchor), with peer-reviewed paediatric MRI sedation-reduction studies showing 5 to 20 percent sedation rates achievable through non-pharmacological distraction (<a href="https://publications.aap.org/hospitalpediatrics/article/13/10/e301/193965/Nonpharmacological-Interventions-to-Reduce" target="_blank" rel="noopener">Hospital Pediatrics</a>, structural anchor). The 28 May 2026 Disney partnership scales this across 87 countries with a multi-centre European clinical study showing a 43 percent reduction in post-scan paediatric stress and a 63 percent drop in scan pauses (<a href="https://hitconsultant.net/2026/05/28/philips-disney-ambient-experience-pediatric-mri/" target="_blank" rel="noopener">HIT Consultant</a>, May 2026). Patient experience is now a throughput KPI and the design teams own a measurable share of it. The MRI comfort and semiotics question your design office is asking maps directly onto a clinical outcome variable.</p>
+
+<p>Third, the demographic pull beneath the hospital industrial five-to-ten-year horizon is now hard data, not forecast. Germany will require at least 280,000 additional care workers by 2049 and possibly 690,000 (<a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html" target="_blank" rel="noopener">Statistisches Bundesamt</a>, structural anchor), with 17,600 elderly-care and 15,000 hospital-nursing positions unfilled in 2024 and only 19 applicants per 100 geriatric-nurse vacancies (<a href="https://www.pflegenot-deutschland.de/ct/personalmangel-pflege/" target="_blank" rel="noopener">Pflegenot Deutschland</a>, January 2026). Japan's home healthcare market is projected to grow 7.8 percent CAGR through 2034 to USD 57.69bn (<a href="https://www.imarcgroup.com/japan-home-healthcare-market" target="_blank" rel="noopener">IMARC Group</a>, February 2026). The board-level insight that may surprise leadership: the labour shortage in clinical settings is the structural force pulling clinical work into the home faster than the reimbursement timetables suggest, because hospitals cannot staff the alternative. Design language that suits an unsupervised home environment is therefore a 5-to-10-year hospital-industrial product question, not just a 1-to-5-year commercial one.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis assumes the regulatory and reimbursement architecture for hospital-at-home and reimbursed home diagnostics holds through the FY27 commercial development cycle. If the EU AI Act omnibus deferral that Council and Parliament have signalled (pushing standalone high-risk dates to December 2027 and embedded-AI dates to August 2028) is formally adopted with broader scope, the binding behavioural envelope for connected home devices slips by 12 to 18 months and the form-factor experiments Theme 4 surfaces lose their permission-slip pressure. The falsifying signal would be a Council vote in H2 2026 confirming the omnibus, paired with a Commission communication scaling back GMP or post-market expectations for low-risk consumer diagnostic categories. The other falsifying signal worth watching is a CMS or Congressional decision to cap or roll back the Acute Hospital Care at Home programme on quality or safety grounds; that would not happen on the current 2030 horizon but a 2027 mid-programme review is the moment to track.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Commit to a cross-portfolio design language that bridges hospital and home, and put it on the FY27 product plan.</strong> The Region Stockholm contract, the Disney/Ambient Experience scale-up and the Sonicare SenseIQ launch all push in the same direction; an FY27 plan that treats consumer and clinical as separate design tracks will produce two product families that cannot meet on the home-care surface where they are now competing.</li>
+<li><strong>Lock the FY27 CMF and materials roadmap inside the regulatory envelope.</strong> EU MDR classification (MDCG 2021-24 rev.1, April 2026), the ECHA narrower PFAS proposal (October 2025) with 6.5 to 13.5 year medical-device derogations, the EU AI Act binding from August 2026, and antimicrobial-copper procurement preference signals from UK NHS all bear on materials and finishes selected for a device starting FY27 development.</li>
+<li><strong>Authorise a discrete patient-experience programme that converts the Ambient Experience evidence into a portfolio standard.</strong> The 43 percent paediatric stress reduction and 63 percent scan-pause reduction in the Disney multi-centre study are throughput metrics; they belong on the imaging portfolio's commercial scorecard, not as a soft case-study attached to a few flagship sites.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per leadership function. Each card surfaces the one question this cycle puts to that function.</p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">Chief Design Officer / Head of Design Language</span>
+<h4>What does a cross-portfolio design language that bridges hospital and home actually look like?</h4>
+<p><strong>The shift:</strong> The design system is no longer optimised against two stable environments (clinical room and consumer bathroom) but against one converging one: a domestic space that hosts clinical-grade kit, and a clinical space increasingly judged on its hospitality cues, with the Disney/Ambient Experience scale-up across 87 countries setting a new floor for what semiotic intent looks like inside an MRI suite (<a href="https://hitconsultant.net/2026/05/28/philips-disney-ambient-experience-pediatric-mri/" target="_blank" rel="noopener">HIT Consultant</a>, May 2026).</p>
+<p><strong>The question to brief:</strong> Will the FY27 plan endorse a single design language with two finishes, or two design languages with shared family resemblance, and which products move first?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Head of Personal Health portfolio</span>
+<h4>Which Personal Health products are now actually consumer wellness, and which are early-stage ambient diagnostics?</h4>
+<p><strong>The shift:</strong> The Sonicare 9900 Prestige with SenseIQ launched 5 March 2026 is functionally a behaviour-and-coverage sensor with an AI-powered companion app generating dentist-level reports (<a href="https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2026/philips-sonicare-unveils-two-new-electric-toothbrush-ranges-alongside-refreshed-brand-direction.html" target="_blank" rel="noopener">Philips</a>, March 2026); CMS's ACCESS Model from 5 July 2026 reimburses outcome-aligned chronic care with wearables in the device class (<a href="https://www.cms.gov/priorities/innovation/innovation-models/access" target="_blank" rel="noopener">CMS</a>, structural anchor) and the German DiGA route now formally admits Class IIb digital medical devices from 2026 (<a href="https://www.insideeulifesciences.com/2026/02/03/germany-changes-rules-for-digital-health-applications/" target="_blank" rel="noopener">Inside EU Life Sciences</a>, February 2026); the regulatory permission to recategorise certain Personal Health items as reimbursable medical devices has arrived.</p>
+<p><strong>The question to brief:</strong> Which three Personal Health products do we plan to file for reimbursed-medical-device status under DiGA, PECAN or the ACCESS Model in the next 18 months, and what does the form factor have to do that it does not do today?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Head of Connected Care / Hospital Patient Care</span>
+<h4>How do we manufacture clinical-grade monitoring kit that looks domestic enough to belong in a Stockholm flat?</h4>
+<p><strong>The shift:</strong> The Region Stockholm hospital-at-home contract (<a href="https://www.globenewswire.com/news-release/2026/05/18/3296331/0/en/Philips-to-deliver-vital-technology-for-hospital-at-home-care-for-up-to-15-000-patients-annually-in-Region-Stockholm.html" target="_blank" rel="noopener">Philips press release</a>, May 2026) crystallises a portfolio-wide problem; the clinical specification (ECG, oxygen saturation, near-real-time waveform integration with hospital IT) is non-negotiable, but the physical and acoustic specification of the device in the patient's home is now part of the offer and not a separate consumer-facing layer; French HAD is on the same trajectory (<a href="https://www.anfh.fr/actualites/hospitalisation-domicile-feuille-de-route-strategique-nationale-2021-2026" target="_blank" rel="noopener">ANFH</a>, structural anchor) and Italian PNRR home-care reimbursement is now binding (<a href="https://www.quotidianosanita.it/lavoro-e-professioni/sanit-digitale-come-la-legge-di-bilancio-rivoluziona-telemedicina-e-servizi-a-distanza/" target="_blank" rel="noopener">Quotidiano Sanità</a>, January 2026).</p>
+<p><strong>The question to brief:</strong> Which Connected Care SKUs in the FY27 commercial cycle and FY30 industrial cycle need a domestic variant, and what is the unit-cost envelope that variant has to land inside to scale to Region Stockholm volumes?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">CFO / Head of Strategy</span>
+<h4>What share of the FY27 to FY30 revenue plan now depends on reimbursement architectures Philips does not yet have device-category permission inside?</h4>
+<p><strong>The shift:</strong> The reimbursement permission slips for consumer-graded medical devices have arrived as named, working programmes: 61 apps listed on DiGA with 861,000 utilisations and EUR 234m cumulative reimbursement (<a href="https://www.bfarm.de/EN/Medical-devices/Tasks/DiGA-and-DiPA/Digital-Health-Applications/Interesting-facts/_artikel.html" target="_blank" rel="noopener">BfArM</a>, structural anchor), PECAN at EUR 780/patient/year ceiling with the first durable common-law reimbursement decision now landed (<a href="https://www.has-sante.fr/jcms/p_3901145/fr/premier-avis-favorable-au-remboursement-d-une-therapie-numerique" target="_blank" rel="noopener">Haute Autorité de Santé</a>, April 2026), Italian PNRR redistribution of EUR 750m into home care, and CMS ACCESS launching 5 July 2026; but Philips's device categories inside each of these programmes are still narrow.</p>
+<p><strong>The question to brief:</strong> What is the FY27 EBITDA upside scenario if Philips files three named products into reimbursement architectures it does not currently sit inside, and what is the regulatory and clinical-evidence cost to get there?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into six themes, ranked by impact on Philips's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 product plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Philips's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Hospital-at-Home Crosses the Reimbursement Threshold</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Hospital-at-home is no longer a pilot category; it is a contracted reimbursement architecture across the four Philips heartland markets. The US Congress extended the CMS Acute Hospital Care at Home waiver to 2030 via the Consolidated Appropriations Act 2026. France's HAD is on a formal 2021 to 2026 national roadmap with three specialised lines and 6 percent annual growth. Germany's KHZG funded EUR 3bn of cross-sector hospital digitalisation with the 2026 deduction regulation now in force. Italy redirected EUR 750m of PNRR funds into home care and telemedicine with a 300,000-patient target by mid-2026. And Philips itself won the Region Stockholm tender on 18 May 2026. For Philips, this turns the question of whether to build a hospital-at-home portfolio into the question of how fast.</p>
+<div class="cluster-signals">
+<ul>
+<li>Congress extended the CMS Acute Hospital Care at Home waiver for five years, to 30 September 2030, via the Consolidated Appropriations Act 2026; 366 programmes across 139 health systems in 37 states are now approved (<a href="https://www.ama-assn.org/public-health/population-health/lawmakers-extend-cms-hospital-home-waiver-five-years" target="_blank" rel="noopener">American Medical Association</a>, March 2026).</li>
+<li>Philips, Cuviva and Vingmed won the Region Stockholm hospital-at-home tender on 18 May 2026 under an up to eight-year agreement serving more than two million people, with the clinical specification including continuous ECG and oxygen-saturation waveform integration into hospital IT in near real time (<a href="https://www.globenewswire.com/news-release/2026/05/18/3296331/0/en/Philips-to-deliver-vital-technology-for-hospital-at-home-care-for-up-to-15-000-patients-annually-in-Region-Stockholm.html" target="_blank" rel="noopener">Royal Philips</a>, May 2026).</li>
+<li>The Italian 2026 Budget Law and Decree 19/2026 (converted to Law 50/2026) redirected EUR 750m of PNRR funds into home care and telemedicine; AGENAS received EUR 20m to coordinate national telemedicine standards (<a href="https://www.quotidianosanita.it/lavoro-e-professioni/sanit-digitale-come-la-legge-di-bilancio-rivoluziona-telemedicina-e-servizi-a-distanza/" target="_blank" rel="noopener">Quotidiano Sanità</a>, January 2026).</li>
+<li>French HAD activity grew nearly 6 percent in days in 2023 to 7.22 million, with 167,700 patients (+5.5 percent); the 2021 to 2026 national strategic roadmap formalises HAD as a fully-fledged healthcare activity (<a href="https://www.apmnews.com/depeche/206131/413884/had-la%C2%A0croissance-d-activite-frole-les%C2%A06--en%C2%A02023,-mais-avec-de%C2%A0fortes-disparites-regionales-(infographies)" target="_blank" rel="noopener">APMnews</a>, structural anchor; <a href="https://www.anfh.fr/actualites/hospitalisation-domicile-feuille-de-route-strategique-nationale-2021-2026" target="_blank" rel="noopener">ANFH</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The waiver extension is a five-year horizon, not a permanent statutory shift; CMS still has authority to tighten programme participation and 2027 is a likely mid-programme review window. The European programmes carry national variation that is operationally expensive to bridge with one product family. The competing reading is that Philips should engineer for the most demanding regulator (CMS quality requirements applied to the US programme) rather than the highest-volume reimbursement (Italian PNRR) and accept slower European rollout.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> Region Stockholm is the proof point; the design and engineering work for that contract should be portable to French HAD, Italian PNRR home care, and the US Acute Hospital Care at Home programme. <strong>Decision link:</strong> Strategic Implication <a href="#si-1" class="xref">SI 1</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Patient Experience as Clinical Outcome</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The MRI comfort and semiotics question your design office is asking is no longer a soft side-question; it is now a measurable clinical outcome variable backed by peer-reviewed evidence, vendor case-study data converging on similar magnitudes, and a marquee Philips/Disney commercial commitment landing 28 May 2026. The throughput case is now operational: a clinical multi-centre study across six European hospitals showed Disney-themed audiovisual intervention reduced post-scan paediatric stress by 43 percent and scan pauses by 63 percent. The form question is open: which palette, which acoustic profile, which projection geometry, generalises across MR, CT, IGT and ultrasound? The architectural question is also open: should the design language scale to the patient's bedroom (hospital-at-home) and not just to the imaging suite?</p>
+<div class="cluster-signals">
+<ul>
+<li>Philips and Disney announced an exclusive global collaboration on 28 May 2026 integrating Disney IP into Ambient Experience for MRI across 87 countries; a clinical multi-centre study across six European hospitals (Sant Joan de Déu Barcelona, Herlev Denmark and others) showed a 43 percent reduction in post-scan paediatric stress and a 63 percent drop in scan pauses (<a href="https://hitconsultant.net/2026/05/28/philips-disney-ambient-experience-pediatric-mri/" target="_blank" rel="noopener">HIT Consultant</a>, May 2026).</li>
+<li>Philips's existing Ambient Experience evidence base shows up to 80 percent reduction in sedation need, 70 percent reduction in re-scans, and 93 percent of claustrophobic MRI patients previously requiring sedation completed the scan without sedation (Singapore General Hospital data) (<a href="https://www.usa.philips.com/healthcare/report/awake-scanning-for-claustrophobic-mri-patients-with-ambient-experience" target="_blank" rel="noopener">Philips clinical evidence</a>, structural anchor; <a href="https://www.usa.philips.com/healthcare/webinar/sedation-reduction-in-pediatric-mri" target="_blank" rel="noopener">Philips clinical webinar</a>, structural anchor).</li>
+<li>A peer-reviewed meta-analysis in Hospital Pediatrics documented that paediatric MRI sedation rates of 5 to 20 percent are achievable through non-pharmacological audiovisual distraction (<a href="https://publications.aap.org/hospitalpediatrics/article/13/10/e301/193965/Nonpharmacological-Interventions-to-Reduce" target="_blank" rel="noopener">Hospital Pediatrics</a>, structural anchor); a 2025 quality improvement project documented at least 20 percent sedation reduction in children 4 to 18 using audiovisual distraction (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12513907/" target="_blank" rel="noopener">PMC QI study</a>, structural anchor).</li>
+<li>The clinical-throughput framing is now mainstream specialist trade-press: patient comfort during imaging is positioned as a clinical and operational outcome variable, not a hospitality concern, with ambient and audiovisual intervention raising completed-scan rates and reducing re-scan costs (<a href="https://www.diagnosticimaging.com/view/putting-patient-comfort-first-new-perspective-improving-imaging-outcomes" target="_blank" rel="noopener">Diagnostic Imaging</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The vendor-source clinical numbers (Philips's own 80 and 70 percent figures) are not from blinded randomised trials, and the Disney study, while multi-centre, was specific to paediatric MRI. Generalising the throughput logic to adult MRI, to CT (where the procedure is much shorter), or to ultrasound (where there is no enclosed-bore stressor) overstates the case. The competing reading is that the patient-experience programme should be funded specifically for paediatric MRI and high-stress interventional procedures and not as a portfolio-wide design standard.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> Patient experience is now a throughput metric; the design teams own a measurable share of it; the Disney partnership scales the proof point across 87 countries. <strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">SI 2</a> and <a href="#si-3" class="xref">SI 3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. CMF and Materials Under Regulatory Pressure</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The materials and CMF roadmap for a Philips device entering FY27 development is now governed by three overlapping regulatory envelopes that did not all exist at the start of the previous product cycle. MDCG 2021-24 rev.1 (April 2026) is the current EU MDR classification anchor. ECHA's narrower PFAS proposal published October 2025 gives medical-device manufacturers 6.5 years on blisters and 13.5 years on implantables, syringes, inhalers and packaging fluoropolymers, with the final SEAC opinion expected end-2026 and likely restriction effective from 2029. UK NHS procurement now awards points for carbon-footprint reductions and there is documented rising demand for antimicrobial copper-alloy touch surfaces. None of these are deal-breakers; all of them compress the materials selection space and lift the cost of late-stage substitution.</p>
+<div class="cluster-signals">
+<ul>
+<li>The European Commission DG SANTE issued MDCG 2021-24 rev.1 on 20 April 2026, the current canonical EU MDR classification guidance for medical-device manufacturers (<a href="https://health.ec.europa.eu/latest-updates/update-mdcg-2021-24-rev1-guidance-classification-medical-devices-april-2026-2026-04-20_en" target="_blank" rel="noopener">European Commission DG SANTE</a>, April 2026).</li>
+<li>ECHA published the narrower, revised PFAS restriction proposal in October 2025; the medical-device derogations are 6.5 years for blisters and 13.5 years for stoppers, syringes, inhalers, injection devices, implantables, invasive devices and packaging fluoropolymers; SEAC final opinion expected end-2026 and likely restriction from 2029 (<a href="https://www.echa.europa.eu/-/echa-publishes-updated-pfas-restriction-proposal" target="_blank" rel="noopener">ECHA</a>, structural anchor; <a href="https://www.kirkland.com/publications/kirkland-alert/2025/10/pfas-update-scrapping-prior-broader-proposal-eu-publishes-updated-narrower-proposal-to-restrict-the" target="_blank" rel="noopener">Kirkland and Ellis</a>, structural anchor; <a href="https://www.cov.com/en/news-and-insights/insights/2026/03/echa-launches-a-new-public-consultation-on-a-proposed-universal-ban-on-pfas-in-the-eu" target="_blank" rel="noopener">Covington and Burling</a>, March 2026).</li>
+<li>Linklaters reads the revision as substantively narrowed but structurally preserved; medical-device manufacturers should prepare for staged PFAS displacement on the 6.5-to-13.5-year horizon, not for a continuation of the previous broader proposal (<a href="https://sustainablefutures.linklaters.com/post/102l4do/revision-of-eu-pfas-restriction-proposal-new-approach-or-continuity" target="_blank" rel="noopener">Linklaters</a>, structural anchor).</li>
+<li>UK and European suppliers are launching antimicrobial copper-alloy medical-furniture ranges (IV drip poles, dressings trolleys, door furniture, taps); NHS Scotland published the institutional clinical-evidence reference; NHS procurement frameworks now award points for carbon-footprint reductions, favouring reusable products and transparent environmental data (<a href="https://www.cleanroomtechnology.com/news/article_page/UK_suppliers_offer_copper_medical_products_and_taps/65484" target="_blank" rel="noopener">Cleanroom Technology</a>, structural anchor; <a href="https://www.nss.nhs.scot/media/2199/1_antimicrobial-copper-surfaces-v-1-0.pdf" target="_blank" rel="noopener">NHS Scotland</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The PFAS derogation windows (6.5 and 13.5 years) substantially exceed the FY27 commercial cycle and most of the FY30 industrial cycle, suggesting Philips has time to engineer substitution at product redesign moments rather than as crash retrofits. Antimicrobial-copper demand from UK NHS is real but the European institutional-procurement signal is weaker than US infection-control specifier signal. The competing reading is to defer the materials roadmap repointing until the next product cycle and prioritise design language and AI-form-factor work in this one.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The materials envelope is narrowing on a 5 to 13 year horizon that lines up exactly with the FY30 industrial cycle; FY27 CMF decisions now have to be PFAS-displacement-ready. <strong>Decision link:</strong> Strategic Implication <a href="#si-2" class="xref">SI 2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. AI Reshapes the Device Form Factor</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">When the diagnostic intelligence sits in software, the device gets smaller, simpler, more passive, and the form-factor question shifts from "house the sensor" to "fit invisibly into daily life". The Sonicare 9900 Prestige launched 5 March 2026 is a Philips proof point on the consumer side; the FDA had authorised more than 1,350 AI-enabled medical devices by early 2026; CMS's ACCESS Model from 5 July 2026 builds a reimbursement architecture for the consumer-grade-device-as-clinical-input model. The EU AI Act binds Annex III standalone systems from August 2026 and AI embedded in MDR Class IIb/III from August 2027, with active discussion of a 12 to 18 month omnibus deferral; the binding behavioural envelope for connected home devices is therefore an active design constraint. Ambient sensing (WiFi sensing IEEE 802.11bf, mmWave radar, acoustic AI) is the next form factor under discussion in the consumer trade press.</p>
+<div class="cluster-signals">
+<ul>
+<li>Philips launched the Sonicare 9900 Prestige with SenseIQ technology on 5 March 2026, featuring sensor-based pressure detection, brush-style and coverage sensors, and an AI-powered Sonicare app generating personalised brushing recommendations and dentist-level reports from home (<a href="https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2026/philips-sonicare-unveils-two-new-electric-toothbrush-ranges-alongside-refreshed-brand-direction.html" target="_blank" rel="noopener">Philips</a>, March 2026).</li>
+<li>The US FDA had authorised over 1,350 AI-enabled medical devices by early 2026 (approximately double the 2022 count); the Predetermined Change Control Plan guidance (December 2024) is the operational framework for adaptive AI/ML devices (<a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener">US FDA</a>, structural anchor).</li>
+<li>The EU AI Act provisions for AI medical devices become binding in two waves: 2 August 2026 (Annex III standalone systems not subject to Notified Body conformity assessment) and 2 August 2027 (Article 6(1) AI embedded in MDR Class IIb/III and IVDR Class C/D); Council and Parliament have signalled support for an omnibus deferral pushing standalone dates to December 2027 and embedded-AI dates to August 2028 (<a href="https://meddeviceguide.com/blog/eu-ai-act-medical-devices-compliance-guide" target="_blank" rel="noopener">MedDeviceGuide</a>, February 2026).</li>
+<li>CMS's ACCESS Model launches 5 July 2026 for ten years, with outcome-aligned payment for technology-supported chronic care in hypertension, diabetes, chronic musculoskeletal pain and depression; wearables continuously monitoring sleep, heart rate, movement, blood sugar and other functions are the enabling device class (<a href="https://www.cms.gov/priorities/innovation/innovation-models/access" target="_blank" rel="noopener">CMS</a>, structural anchor; <a href="https://www.nixonpeabody.com/insights/alerts/2025/12/03/cms-announces-new-value-based-payment-model-for-technology-enabled-care" target="_blank" rel="noopener">Nixon Peabody</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4>Weak signals worth tracking</h4>
+<ul>
+<li><span class="weak-signal-marker">Ambient sensing</span> WiFi sensing IEEE 802.11bf, mmWave radar and acoustic-AI on-device processing are positioned in the consumer health-tech trade press as the passive-form-factor successor to wearables; edge processing on consumer hardware (Apple M6 Ultra, Intel 17th Gen NPUs) keeps biometric data on-premise (<a href="https://itbusinesstoday.com/health-tech/ambient-diagnostics-in-2026-how-passive-sensors-are-reinventing-remote-patient-monitoring/" target="_blank" rel="noopener">ItBusinessToday</a>, January 2026). Would gain weight if Philips's HIMSS26 announcement on AI-connected monitoring (<a href="https://www.stocktitan.net/news/PHG/philips-connects-patient-monitoring-and-diagnostics-to-advance-fnmopb77ybyr.html" target="_blank" rel="noopener">StockTitan summary</a>, March 2026) is followed by a Personal Health ambient-sensing pilot.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The omnibus deferral signal from Council and Parliament could push the binding AI Act dates 12 to 18 months out, weakening the urgency of the form-factor experiments this theme implies. The FDA's 1,350-device authorisation count is concentrated in radiology and cardiology imaging algorithms, not in the consumer-form-factor categories Sonicare exemplifies. The competing reading is to treat AI form-factor work as a Prepare programme not a Decide one, with the trigger for full investment being the FY27 Annex III binding date and a named CMS ACCESS submission.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The reimbursement and regulatory permissions for consumer-form-factor diagnostic devices have arrived in 2026; the form-factor question is now a commercial product decision, not a research one. <strong>Decision link:</strong> Strategic Implication <a href="#si-3" class="xref">SI 3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. Aging Demographics Make Domestic Health a Mass Market</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The 5-to-10-year hospital industrial horizon now sits inside a labour-supply constraint that is structural and quantified. Germany will require at least 280,000 additional care workers by 2049; Japan's market for home healthcare is projected at 7.8 percent CAGR through 2034. The labour shortage in clinical settings is the structural force pulling clinical work into the home faster than the reimbursement timetables suggest, because hospitals cannot staff the alternative. For Philips's industrial product roadmap, the design question is dignified, non-stigmatising medical devices for older users in their own homes, not in care institutions. This is the longer-range theme but the cycle's evidence base is hard, not speculative.</p>
+<div class="cluster-signals">
+<ul>
+<li>Germany will require at least 280,000 and possibly up to 690,000 additional care workers by 2049 due to demographic ageing (<a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html" target="_blank" rel="noopener">Statistisches Bundesamt</a>, structural anchor); 17,600 elderly-care and 15,000 hospital-nursing positions remained unfilled in 2024, with only 19 applicants per 100 geriatric-nurse vacancies; net growth in care workers comes exclusively from abroad with 27,000 added in 2024 (<a href="https://www.pflegenot-deutschland.de/ct/personalmangel-pflege/" target="_blank" rel="noopener">Pflegenot Deutschland</a>, January 2026).</li>
+<li>Japan's home healthcare market is projected to grow 7.8 percent CAGR 2026-2034 to USD 57.69bn; Japan's aging rate reached 29.3 percent in 2024 and is projected to reach 33 percent by 2037; Japan faces a projected 690,000 care worker shortage by 2040 (<a href="https://www.imarcgroup.com/japan-home-healthcare-market" target="_blank" rel="noopener">IMARC Group</a>, February 2026).</li>
+<li>The Japanese MHLW revised the caregiving technology initiative in June 2024 to focus state procurement on transfer support, mobility, toileting, bathing, monitoring and communication, functional training and dementia care; the institutional design specification favours dignified, non-stigmatising form factors (<a href="https://www.trade.gov/market-intelligence/japan-healthcare-age-tech" target="_blank" rel="noopener">US Commerce Department</a>, structural anchor); acceptance research in Japan is documenting the trust gap between technology capability and patient/family willingness to use (<a href="https://www.news-medical.net/news/20251107/Who-is-willing-to-trust-home-care-robots-in-Japan.aspx" target="_blank" rel="noopener">News-Medical</a>, structural anchor).</li>
+<li>US industry analysts now position aging in place as a primary innovation driver in home-based care with smart-home devices, remote monitoring and AI-powered health management standard rather than premium (<a href="https://www.definitivehc.com/blog/aging-in-place-driving-innovation" target="_blank" rel="noopener">Definitive Healthcare</a>, January 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Demographic forces deliver demand over decades, not quarters; the FY27 plan should not optimise against a 2049 projection even if the number is reliable. The Japanese institutional-procurement specification favours Japanese suppliers (Panasonic Age-Free, Cyberdyne) and Philips's Japan footprint in this segment is modest. The competing reading is to treat this theme as input to the FY30 industrial cycle and not the FY27 commercial cycle, with the trigger to escalate being a Philips Japan partnership or acquisition announcement.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> The labour shortage in clinical settings is the structural force pulling clinical work into the home; the demographic forecast is hard data, not speculation. <strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">SI 4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-6">
+<div class="cluster-header"><h3>6. Reimbursement Categories Are Rewiring What Gets Built</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Three years ago, the device categories now reimbursed by DiGA, PECAN, the Italian PNRR telemedicine architecture and CMS ACCESS did not exist as reimbursement categories. The product categories competitors are filing into in 2026 are categories the regulatory architecture only recently invented. For Philips this is the regulatory permission slip for several of the form-factor experiments Theme 4 will surface, but the operational question is which existing Philips products are now eligible to file for these reimbursement architectures, and which new product categories should be designed against the architecture rather than against the legacy device categories the architecture replaced.</p>
+<div class="cluster-signals">
+<ul>
+<li>The German DiGA scheme moved into mandatory accompanying success measurement (anwendungsbegleitende Erfolgsmessung) from Q3 2026 and 20 percent performance-based pricing from 1 January 2026 under SGB V; scope extended to Class IIb digital medical devices; 61 apps listed in the BfArM Directory at 23 February 2026 with cumulative EUR 234m reimbursement and 861,000 utilisations (<a href="https://www.bfarm.de/EN/Medical-devices/Tasks/DiGA-and-DiPA/Digital-Health-Applications/Interesting-facts/_artikel.html" target="_blank" rel="noopener">BfArM</a>, structural anchor; <a href="https://www.insideeulifesciences.com/2026/02/03/germany-changes-rules-for-digital-health-applications/" target="_blank" rel="noopener">Inside EU Life Sciences</a>, February 2026).</li>
+<li>The Haute Autorité de Santé issued the first favourable opinion (CNEDiMTS) for routine common-law reimbursement of a digital therapeutic (Joe for paediatric asthma 7-11) in April 2026; the PECAN early-access route provides one-year reimbursement at EUR 435 TTC initial flat fee plus EUR 38.3/month, capped at EUR 780/patient/year (<a href="https://www.has-sante.fr/jcms/p_3901145/fr/premier-avis-favorable-au-remboursement-d-une-therapie-numerique" target="_blank" rel="noopener">HAS</a>, April 2026; <a href="https://www.has-sante.fr/jcms/p_3376633/fr/dispositifs-medicaux-numeriques-la-prise-en-charge-anticipee" target="_blank" rel="noopener">HAS PECAN page</a>, structural anchor).</li>
+<li>The Italian 2026 Budget Law and PNRR redirected EUR 750m into home care and telemedicine with a 300,000-patient target by mid-2026; AGENAS received EUR 20m to coordinate national standards; Article 4-bis of the converted Law 50/2026 requires Italian regions to activate telemonitoring/teleconsultation for cancer patients (<a href="https://www.quotidianosanita.it/lavoro-e-professioni/sanit-digitale-come-la-legge-di-bilancio-rivoluziona-telemedicina-e-servizi-a-distanza/" target="_blank" rel="noopener">Quotidiano Sanità</a>, January 2026; <a href="https://www.pnrr.salute.gov.it/it/pnrr-pagina/casa-come-primo-luogo-di-cura-e-telemedicina/" target="_blank" rel="noopener">PNRR Salute</a>, structural anchor).</li>
+<li>CMS announced the ACCESS Model in December 2025; programme begins 5 July 2026 for ten years; 14.3 million Medicare beneficiaries receive ACO-coordinated care as of January 2026 (up from 13.7 million in 2025); Medicare Advantage plans covering 165 million Americans are participating in outcome-aligned arrangements (<a href="https://www.nixonpeabody.com/insights/alerts/2025/12/03/cms-announces-new-value-based-payment-model-for-technology-enabled-care" target="_blank" rel="noopener">Nixon Peabody</a>, structural anchor; <a href="https://www.cms.gov/priorities/innovation/key-concepts/value-based-care" target="_blank" rel="noopener">CMS</a>, structural anchor).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Each reimbursement architecture has its own clinical-evidence requirements (DiGA's mandatory outcome measurement is genuinely onerous; PECAN's 12-month early-access window forces a fast clinical-data programme; CMS ACCESS requires CMMI participation discipline). Filing one Philips product into all four would absorb significant regulatory capacity without commensurate revenue in the first 24 months. The competing reading is to pick two reimbursement architectures, file two products into each, and accept the loss of optionality in the others.</p>
+</div>
+<div class="cluster-implication"><strong>One thing that matters:</strong> Reimbursement categories rewire what gets built; the four programmes now active reimburse device categories Philips can file into within FY27. <strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">SI 3</a> and <a href="#si-4" class="xref">SI 4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 product plan. Each names the move, a horizon and a decision posture.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Build the cross-portfolio design system for the hospital-to-home corridor, starting from the Region Stockholm contract</h4>
+<p>The Chief Design Officer should commission a cross-portfolio design-system programme that produces a unified palette, CMF specification and acoustic profile that scales from clinical imaging suites to monitoring kit in patients' homes, anchored on the Region Stockholm contract as the proof-point delivery. The eight-year tender (announced 18 May 2026) is the operational forcing function. The same design system should be portable to French HAD, Italian PNRR home care and the US Acute Hospital Care at Home programme. The Decide posture reflects that the contract is signed and the FY27 development cycle is the binding constraint; the question is not whether to do this but at what specification level.</p>
+<p class="si-action">Action: by 30 November 2026, the Chief Design Officer presents to the Executive Committee a documented cross-portfolio design system specification with three FY27 lead products (one Connected Care monitoring SKU, one imaging suite Ambient Experience expansion, one Personal Health home-diagnostic) and a Region Stockholm delivery design certification.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a></span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Lock the FY27 CMF and materials roadmap inside the regulatory envelope</h4>
+<p>The Head of Product and Materials Engineering should commission an FY27 to FY30 materials and CMF roadmap that lands inside the three overlapping regulatory envelopes (EU MDR per MDCG 2021-24 rev.1, ECHA narrower PFAS proposal with 6.5 and 13.5 year medical-device derogations, EU AI Act binding from August 2026 / 2027) and integrates the antimicrobial-touch-surface direction of travel evident in UK NHS procurement. The Prepare posture reflects that no material substitution is yet binding, but redesigning at the next product cycle is materially cheaper than crash-retrofitting at PFAS effective date. The roadmap should name three lead silicate-free, PFAS-displacement-ready Personal Health items and one Connected Care item.</p>
+<p class="si-action">Action: by 31 March 2027, the Head of Product and Materials Engineering delivers to the Executive Committee a documented FY27-FY30 CMF and materials roadmap with PFAS-displacement plans for ten named device families and an antimicrobial-surface specification for the hospital-furniture-adjacent kit.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-2" class="xref">2</a> and <a href="#cluster-3" class="xref">3</a></span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: File three Personal Health products into named reimbursement architectures by Q4 2027</h4>
+<p>The Head of Personal Health portfolio should authorise a reimbursement-architecture filing programme that takes three Philips Personal Health products through one of DiGA (Germany, Class IIb scope from 2026), PECAN (France, with HAS routine-reimbursement common-law pathway now operational), CMS ACCESS (US, from 5 July 2026) or the Italian PNRR telemedicine framework. The Sonicare SenseIQ platform is the strongest candidate; a sleep-monitoring and a remote-cardiac-rhythm filing are the natural other two. The Prepare posture reflects that the clinical-evidence work needed to file is a 12-to-18-month programme, but the regulatory architecture itself is now operational and the competitive filings are happening; further delay loses optionality.</p>
+<p class="si-action">Action: by 30 June 2027, the Head of Personal Health presents to the Executive Committee three named Philips products with documented reimbursement-filing dossiers (one DiGA, one PECAN, one CMS ACCESS or Italian PNRR), and a costed clinical-evidence programme to support each.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-6" class="xref">6</a></span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Stand up a discrete Patient Experience programme that converts Ambient Experience evidence into a portfolio standard</h4>
+<p>The Head of Imaging and the Head of Marketing should jointly commission a Patient Experience programme that takes the Disney/Ambient Experience evidence base (43 percent paediatric stress reduction, 63 percent scan-pause reduction across 87 countries, plus the prior 80 percent sedation-reduction and 70 percent re-scan-reduction Philips clinical data) and codifies a portfolio-wide Patient Experience standard for MRI, CT, IGT and ultrasound. The Monitor posture reflects that the throughput economics generalise unevenly across modality (strongest in MRI, weaker in CT and ultrasound) and the trigger to escalate to Prepare or Decide is the first independent peer-reviewed adult-MRI study replicating the paediatric numbers.</p>
+<p class="si-action">Action: by 30 September 2026, the Head of Imaging delivers to the Executive Committee a Patient Experience programme proposal with documented throughput-economics modelling per modality and a named trigger condition (e.g. an independent randomised adult-MRI study replicating greater-than-30-percent sedation reduction) to escalate to Prepare in cycle 3.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-2" class="xref">2</a></span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">The two critical uncertainties shaping Philips's next 5 to 10 years are the pace of hospital-to-home reimbursement expansion across the four heartland markets, and the regulatory speed of the EU AI Act binding dates (the omnibus deferral question). The four scenarios below are planning aids, not forecasts.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Fast Reimbursement, Binding AI Act on schedule</h4>
+<p>The CMS Acute Hospital Care at Home programme runs through 2030 with mid-programme review confirming the model in 2027; French HAD continues 6 percent year-on-year growth; Italian PNRR home-care funding lands its 300,000 patient target mid-2026 and a second wave 2027; CMS ACCESS scales as planned; the EU AI Act binds Annex III in August 2026 and embedded-AI in August 2027 without omnibus deferral. Philips's Region Stockholm proof point becomes the template for 4 to 6 European regional contracts FY27-FY29; Sonicare and the next Personal Health filings land DiGA and PECAN early access; the design system unification commitment in SI 1 becomes a strategic moat against ResMed, Masimo and Asian entrants. FY30 industrial product cycle benefits from a stable regulatory permission slip.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> 2027 CMS mid-programme review confirms Acute Hospital Care at Home; second European Region (Bavaria or Lombardy) issues hospital-at-home tender; EU Council fails to adopt AI Act omnibus deferral by Q3 2026.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Fast Reimbursement, AI Act omnibus deferral adopted</h4>
+<p>Hospital-at-home reimbursement scales as scenario 1, but the EU AI Act omnibus pushes Annex III to December 2027 and embedded-AI to August 2028. Philips wins commercial speed on Personal Health ambient-sensing form factor experiments because the binding behavioural envelope is deferred; competitors with weaker clinical-evidence programmes also have more room. The commercial 1-to-5-year horizon is more favourable; the 5-to-10-year industrial horizon needs the FY30 product cycle to land inside the post-deferral binding dates without a regulatory cliff. The hedging question is whether to bring the FY30 industrial AI-form-factor envelope inside the original August 2027 dates voluntarily, as a quality and trust differentiator.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> EU Council formally adopts AI Act omnibus by Q4 2026; FDA AI/ML PCCP-based authorisations exceed 2,000 by end-2027; competitive Personal Health ambient-sensing entries from Apple, Samsung or Withings before FY27 close.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Slow Reimbursement, Binding AI Act on schedule</h4>
+<p>CMS Acute Hospital Care at Home reauthorisation is challenged at the 2027 mid-programme review on quality and cost grounds; the second European region-wide hospital-at-home tender does not materialise; Italian PNRR home-care funding falls short of the 300,000 patient target; the AI Act binds on the original timetable, increasing regulatory cost without commensurate market expansion. The Region Stockholm contract remains an isolated proof point; Philips's investment in the unified design system delivers margin-eroding overhead until a second contract materialises. The FY27 commercial cycle becomes a hedging programme around the existing Personal Health portfolio; the FY30 industrial cycle is the next chance to take the strategic bet.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> 2027 CMS review reauthorises Acute Hospital Care at Home with new quality conditions or volume caps; no European tier-1 region announces a hospital-at-home tender by end-2027; DiGA scheme tightening cuts the listed-app population below 50 by mid-2027.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Slow Reimbursement, AI Act omnibus deferral adopted</h4>
+<p>The worst-credible commercial environment combined with the most favourable regulatory environment. The hospital-to-home thesis stalls and the AI behavioural-envelope is loose; competitive entrants without Philips's clinical-evidence overhead crowd into the Personal Health ambient-sensing space. The Region Stockholm contract becomes a curated showcase rather than a scalable model. The Sonicare SenseIQ thesis still works on its own merits but the broader Personal-Health-as-reimbursed-medical-device path is blocked by reimbursement architectures filing slower than competitive filings. The strategic question becomes whether to consolidate the Personal Health portfolio or to divest selected categories.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> both negative indicators of scenarios 2 and 3 materialise within 18 months; Apple, Samsung or Withings files three or more devices into FDA AI/ML PCCP pathway with consumer-grade form factors by end-2027.</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>A return to the pre-divestment portfolio including Domestic Appliances</h4>
+<p>This cycle treats the Versuni / Hillhouse divestment as final and does not contemplate a return to coffee, kitchen, garment care or vacuum categories. The strategic redirection of capital from non-healthcare consumer into focused medtech is the post-2021 corporate story; this cycle reinforces it. Any cross-pollination of design language between Personal Health and the former Domestic Appliances portfolio sits on the partner-licensing side of the wall, not the strategic-investment side.</p>
+<p class="reinstatement">Reinstate if: the focused-medtech strategy hits a structural revenue or growth-rate ceiling that an analyst panel attributes to the divestment, or a board-level review explicitly reopens portfolio scope.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>An aggressive M&amp;A entry into the Japanese age-tech market</h4>
+<p>This cycle treats Theme 5 (aging demographics) as a 5-to-10-year industrial-cycle input, not as a near-term commercial scope expansion through acquisition. The Japanese institutional procurement architecture and existing supplier ecosystem (Panasonic Age-Free, Cyberdyne, Toyota Motor home robotics) make a Philips standalone entry an expensive bet with uncertain return inside the FY27 commercial window. The partner-led or joint-venture path is the institutional default.</p>
+<p class="reinstatement">Reinstate if: a tier-1 Japanese health-technology company signals openness to a strategic partnership or sale, or a Philips Japan team-led acquisition target inside the JPY 50 to 200 billion range becomes available with credible clinical-fit due diligence.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A move into surgical robotics</h4>
+<p>This cycle does not contemplate a surgical robotics entry, despite the visible competitive activity around Intuitive Surgical, Medtronic Hugo and Johnson and Johnson Ottava. The market is concentrated, the engineering and regulatory cycle is long, and the strategic rationale for Philips to enter a category that does not connect to home-care or imaging-throughput pulls is unclear. The Image Guided Therapy portfolio is the adjacent space and the focus there is on integrated clinical workflows, not on standalone surgical platforms.</p>
+<p class="reinstatement">Reinstate if: an existing surgical-robotics player (Asensus, CMR Surgical, Distalmotion) becomes acquirable at a price that lines up with Philips's Image Guided Therapy strategic logic.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>If the Region Stockholm contract is the proof-point template for hospital-at-home, which two further regional contracts in 2026-2027 do we need to win to lock the unified design system commitment in SI 1 as a strategic moat, and what regulatory or clinical-evidence work do we start now to be in position to bid?</li>
+<li>The Disney/Ambient Experience evidence is paediatric MRI; how much of the FY27 commercial investment in the Patient Experience programme do we underwrite before we see an independent peer-reviewed adult-MRI replication, and what is the named trigger to escalate from Monitor to Prepare or Decide?</li>
+<li>Of the three reimbursement architectures named in SI 3 (DiGA, PECAN, CMS ACCESS), which two do we file Personal Health products into first, and which Personal Health items in the current portfolio are credible candidates for medical-device recategorisation within an 18-month clinical-evidence programme?</li>
+<li>The PFAS displacement window (6.5 to 13.5 years) lines up with the FY30 industrial cycle; do we redesign at the next product cycle (cheaper, slower) or commit a separate FY27-FY28 substitution programme that brings forward the materials work and books the regulatory credibility now?</li>
+<li>Theme 5 sits in the 5-to-10-year industrial horizon, but the labour-supply data are now hard, not forecast; under what observable conditions do we accelerate the aging-in-place industrial product cycle inside the FY30 plan, and what is the corporate-level capital reallocation required?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 39 verified sources, gathered under a soft 6-month recency window (publications from 2 December 2025 onward), with 21 structural anchors (institutional reference pages, ECHA proposal documentation, federal demographic projections, peer-reviewed evidence anchors).</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Hospital-at-Home Crosses the Reimbursement Threshold</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.ama-assn.org/public-health/population-health/lawmakers-extend-cms-hospital-home-waiver-five-years" target="_blank" rel="noopener">American Medical Association, Lawmakers extend CMS hospital-at-home waiver</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Consolidated Appropriations Act 2026 extended the Acute Hospital Care at Home waiver to 30 September 2030; 366 programmes across 139 health systems in 37 states approved.</td></tr>
+<tr><td><a href="https://qualitynet.cms.gov/acute-hospital-care-at-home" target="_blank" rel="noopener">CMS, Acute Hospital Care at Home (QualityNet)</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>Canonical federal programme rules, eligibility and quality reporting.</td></tr>
+<tr><td><a href="https://www.globenewswire.com/news-release/2026/05/18/3296331/0/en/Philips-to-deliver-vital-technology-for-hospital-at-home-care-for-up-to-15-000-patients-annually-in-Region-Stockholm.html" target="_blank" rel="noopener">Royal Philips, Region Stockholm hospital-at-home win</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Philips, Cuviva and Vingmed consortium won Region Stockholm tender 18 May 2026; up to 8-year agreement; 2 million+ people served; clinical specification includes continuous ECG, oxygen saturation and waveform integration in near real time.</td></tr>
+<tr><td><a href="https://www.anfh.fr/actualites/hospitalisation-domicile-feuille-de-route-strategique-nationale-2021-2026" target="_blank" rel="noopener">ANFH, HAD national strategic roadmap 2021-2026</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>French HAD on formal 2021-2026 national strategic roadmap; reform 2022 implemented early 2025 establishes HAD as fully-fledged healthcare activity with three specialised lines.</td></tr>
+<tr><td><a href="https://www.apmnews.com/depeche/206131/413884/had-la%C2%A0croissance-d-activite-frole-les%C2%A06--en%C2%A02023,-mais-avec-de%C2%A0fortes-disparites-regionales-(infographies)" target="_blank" rel="noopener">APMnews, HAD activity growth 2023</a></td><td class="tier-3">Tier 3</td><td>Structural anchor</td><td>French HAD activity grew nearly 6% in days in 2023 (7.22 million days); 167,700 patients (+5.5%); strong regional disparities.</td></tr>
+<tr><td><a href="https://www.bundesgesundheitsministerium.de/krankenhauszukunftsgesetz" target="_blank" rel="noopener">BMG, Krankenhauszukunftsgesetz (KHZG)</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>EUR 3bn German federal hospital digitalisation funding including cross-sector telemedicine; 2026 deduction regulation now in force.</td></tr>
+<tr><td><a href="https://www.quotidianosanita.it/lavoro-e-professioni/sanit-digitale-come-la-legge-di-bilancio-rivoluziona-telemedicina-e-servizi-a-distanza/" target="_blank" rel="noopener">Quotidiano Sanità, Italy 2026 Budget Law on telemedicine</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Italian 2026 Budget Law allocates EUR 20m to AGENAS for telemedicine coordination; Decree 19/2026 (Law 50/2026) requires regional telemonitoring for cancer patients; PNRR EUR 750m redirected to home care; EUR 500m increase for telemedicine targeting 300,000 patients by mid-2026.</td></tr>
+<tr><td><a href="https://www.pnrr.salute.gov.it/it/pnrr-pagina/casa-come-primo-luogo-di-cura-e-telemedicina/" target="_blank" rel="noopener">PNRR Salute, Casa come primo luogo di cura</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>Italian Ministry of Health institutional commitment to home as the first place of care under PNRR.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 2: Patient Experience as Clinical Outcome</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://hitconsultant.net/2026/05/28/philips-disney-ambient-experience-pediatric-mri/" target="_blank" rel="noopener">HIT Consultant, Philips and Disney Ambient Experience for paediatric MRI</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Exclusive Philips/Disney global collaboration across 87 countries; multi-centre European clinical study (six hospitals including Sant Joan de Déu Barcelona and Herlev Denmark) showed 43% reduction in post-scan paediatric stress and 63% drop in scan pauses.</td></tr>
+<tr><td><a href="https://www.usa.philips.com/healthcare/report/awake-scanning-for-claustrophobic-mri-patients-with-ambient-experience" target="_blank" rel="noopener">Philips, Awake scanning for claustrophobic MRI patients</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>Singapore General Hospital implementation: 93% of claustrophobic patients previously requiring sedation completed MRI without sedation with Philips Ambient Experience MR In-bore Solution.</td></tr>
+<tr><td><a href="https://publications.aap.org/hospitalpediatrics/article/13/10/e301/193965/Nonpharmacological-Interventions-to-Reduce" target="_blank" rel="noopener">Hospital Pediatrics (AAP), Nonpharmacological interventions to reduce sedation in pediatric MRI</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>Peer-reviewed meta-analysis documenting that distraction and preparatory techniques in paediatric MRI for children 4-10 enable sedation rates of only 5-20%.</td></tr>
+<tr><td><a href="https://www.diagnosticimaging.com/view/putting-patient-comfort-first-new-perspective-improving-imaging-outcomes" target="_blank" rel="noopener">Diagnostic Imaging, Putting Patient Comfort First</a></td><td class="tier-3">Tier 3</td><td>Structural anchor</td><td>Patient comfort during imaging is now framed as a clinical and operational throughput outcome variable, not a hospitality concern.</td></tr>
+<tr><td><a href="https://www.usa.philips.com/healthcare/webinar/sedation-reduction-in-pediatric-mri" target="_blank" rel="noopener">Philips, Sedation reduction in paediatric MRI (clinical webinar)</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>Up to 80% reduction in sedation need, 70% reduction in re-scans, 40% reduction in stress for paediatric patients 6-10.</td></tr>
+<tr><td><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12513907/" target="_blank" rel="noopener">PMC, QI project reducing MRI sedation in children</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>Quality improvement implementation of audiovisual distraction reduced minimal/moderate sedation utilisation by at least 20% in children 4-18.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 3: CMF and Materials Under Regulatory Pressure</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://health.ec.europa.eu/latest-updates/update-mdcg-2021-24-rev1-guidance-classification-medical-devices-april-2026-2026-04-20_en" target="_blank" rel="noopener">EC DG SANTE, MDCG 2021-24 rev.1 classification guidance</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>Reissued April 2026 with updated guidance on classification of medical devices under EU MDR; current canonical reference.</td></tr>
+<tr><td><a href="https://www.echa.europa.eu/-/echa-publishes-updated-pfas-restriction-proposal" target="_blank" rel="noopener">ECHA, updated PFAS restriction proposal</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>Narrower, revised universal PFAS restriction proposal published October 2025; SEAC opinion expected end-2026 with likely restriction effective 2029.</td></tr>
+<tr><td><a href="https://www.cov.com/en/news-and-insights/insights/2026/03/echa-launches-a-new-public-consultation-on-a-proposed-universal-ban-on-pfas-in-the-eu" target="_blank" rel="noopener">Covington and Burling, ECHA PFAS public consultation</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>RAC and SEAC final consultation cycle in 2026; medical-device exemptions 13.5 years for invasive/implantable and 6.5 years for blisters.</td></tr>
+<tr><td><a href="https://www.kirkland.com/publications/kirkland-alert/2025/10/pfas-update-scrapping-prior-broader-proposal-eu-publishes-updated-narrower-proposal-to-restrict-the" target="_blank" rel="noopener">Kirkland and Ellis, PFAS narrower proposal</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>October 2025 formal switch to narrower PFAS proposal with specific medical-device derogation windows.</td></tr>
+<tr><td><a href="https://sustainablefutures.linklaters.com/post/102l4do/revision-of-eu-pfas-restriction-proposal-new-approach-or-continuity" target="_blank" rel="noopener">Linklaters, PFAS revision new approach or continuity</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>Substantively narrowed but structurally preserved; medical-device manufacturers should prepare for staged PFAS displacement 6.5-13.5 year horizon.</td></tr>
+<tr><td><a href="https://www.cleanroomtechnology.com/news/article_page/UK_suppliers_offer_copper_medical_products_and_taps/65484" target="_blank" rel="noopener">Cleanroom Technology, UK antimicrobial copper medical products</a></td><td class="tier-4">Tier 4</td><td>Structural anchor</td><td>UK and European suppliers launching antimicrobial copper-alloy medical-furniture ranges; copper alloys with greater than 60wt% copper destroy bacteria/viruses/fungi within two hours.</td></tr>
+<tr><td><a href="https://www.nss.nhs.scot/media/2199/1_antimicrobial-copper-surfaces-v-1-0.pdf" target="_blank" rel="noopener">NHS Scotland, Antimicrobial Copper Surfaces</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>Institutional clinical-evidence reference for UK NHS procurement on antimicrobial copper.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 4: AI Reshapes the Device Form Factor</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2026/philips-sonicare-unveils-two-new-electric-toothbrush-ranges-alongside-refreshed-brand-direction.html" target="_blank" rel="noopener">Philips, Sonicare 9900 Prestige with SenseIQ launch</a></td><td class="tier-4">Tier 4</td><td>Mar 2026</td><td>5 March 2026 launch of Sonicare ranges with SenseIQ AI-driven pressure, brush-style and coverage sensors plus AI-powered Sonicare app generating dentist-level reports.</td></tr>
+<tr><td><a href="https://meddeviceguide.com/blog/eu-ai-act-medical-devices-compliance-guide" target="_blank" rel="noopener">MedDeviceGuide, EU AI Act for medical devices</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>EU AI Act medical-device dates: August 2026 (Annex III standalone) and August 2027 (Article 6(1) embedded AI in MDR Class IIb/III); Council/Parliament have signalled omnibus deferral to December 2027 / August 2028.</td></tr>
+<tr><td><a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener">US FDA, AI in SaMD programme page</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>FDA had authorised more than 1,350 AI-enabled medical devices by early 2026 (approximately double the 2022 count); PCCP final guidance December 2024 is the operational framework.</td></tr>
+<tr><td><a href="https://www.cms.gov/priorities/innovation/innovation-models/access" target="_blank" rel="noopener">CMS, ACCESS Model</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>ACCESS Model begins 5 July 2026 for 10 years; outcome-aligned payment for technology-supported chronic care in hypertension, diabetes, chronic musculoskeletal pain and depression; wearable devices the enabling device class.</td></tr>
+<tr><td><a href="https://itbusinesstoday.com/health-tech/ambient-diagnostics-in-2026-how-passive-sensors-are-reinventing-remote-patient-monitoring/" target="_blank" rel="noopener">ItBusinessToday, Ambient diagnostics in 2026</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Ambient sensing (WiFi IEEE 802.11bf, mmWave radar, acoustic AI) as the passive form factor for vital-sign monitoring; edge processing on consumer NPUs preserves data sovereignty.</td></tr>
+<tr><td><a href="https://www.stocktitan.net/news/PHG/philips-connects-patient-monitoring-and-diagnostics-to-advance-fnmopb77ybyr.html" target="_blank" rel="noopener">StockTitan, Philips HIMSS26 AI monitoring announcement</a></td><td class="tier-4">Tier 4</td><td>Mar 2026</td><td>Philips at HIMSS26 announced strategic push to connect monitoring and diagnostics across unified clinical-and-consumer data platform.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 5: Aging Demographics Make Domestic Health a Mass Market</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html" target="_blank" rel="noopener">Statistisches Bundesamt, Pflegekräftevorausberechnung 2049</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>Germany requires at least 280,000 and possibly up to 690,000 additional care workers by 2049 due to demographic ageing.</td></tr>
+<tr><td><a href="https://www.pflegenot-deutschland.de/ct/personalmangel-pflege/" target="_blank" rel="noopener">Pflegenot Deutschland, Personalmangel Pflege 2026</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>17,600 unfilled elderly-care and 15,000 hospital-nursing positions in 2024; 19 applicants per 100 geriatric-nurse vacancies; 27,000 foreign care workers added in 2024.</td></tr>
+<tr><td><a href="https://www.imarcgroup.com/japan-home-healthcare-market" target="_blank" rel="noopener">IMARC Group, Japan home healthcare market</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>Japan home healthcare market CAGR 7.8% 2026-2034 to USD 57.69bn; Japan aging rate 29.3% in 2024 projected 33% by 2037; 690,000 care worker shortage by 2040.</td></tr>
+<tr><td><a href="https://www.trade.gov/market-intelligence/japan-healthcare-age-tech" target="_blank" rel="noopener">US Commerce Department, Japan Healthcare Age Tech</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>Japanese MHLW caregiving technology initiative (revised June 2024) prioritises transfer, mobility, toileting, bathing, monitoring/communication, functional training and dementia care.</td></tr>
+<tr><td><a href="https://www.news-medical.net/news/20251107/Who-is-willing-to-trust-home-care-robots-in-Japan.aspx" target="_blank" rel="noopener">News-Medical, Trust in Japanese home-care robots</a></td><td class="tier-3">Tier 3</td><td>Structural anchor</td><td>Acceptance research documenting the trust gap between technology capability and patient/family willingness to use in Japan.</td></tr>
+<tr><td><a href="https://www.definitivehc.com/blog/aging-in-place-driving-innovation" target="_blank" rel="noopener">Definitive Healthcare, Aging in place driving innovation</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Aging in place is a primary innovation driver in home-based care; smart-home devices, remote monitoring and AI-powered home health management now standard rather than premium.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 6: Reimbursement Categories Are Rewiring What Gets Built</h4>
+<table><colgroup><col style="width:38%"><col style="width:8%"><col style="width:14%"><col style="width:40%"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td><a href="https://www.bfarm.de/EN/Medical-devices/Tasks/DiGA-and-DiPA/Digital-Health-Applications/Interesting-facts/_artikel.html" target="_blank" rel="noopener">BfArM, DiGA programme statistics</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>61 DiGA apps listed at 23 February 2026; cumulative EUR 234m reimbursement; 861,000 utilisations.</td></tr>
+<tr><td><a href="https://www.insideeulifesciences.com/2026/02/03/germany-changes-rules-for-digital-health-applications/" target="_blank" rel="noopener">Inside EU Life Sciences, DiGA rule changes 2026</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>2026 DiGA changes: mandatory accompanying success measurement Q3 2026; 20% performance-based pricing from 1 January 2026; Class IIb scope.</td></tr>
+<tr><td><a href="https://www.has-sante.fr/jcms/p_3376633/fr/dispositifs-medicaux-numeriques-la-prise-en-charge-anticipee" target="_blank" rel="noopener">HAS, PECAN reimbursement framework</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>PECAN one-year early reimbursement: EUR 435 TTC initial 3-month flat fee, then EUR 38.3/month; EUR 780 ceiling per patient per year.</td></tr>
+<tr><td><a href="https://www.has-sante.fr/jcms/p_3901145/fr/premier-avis-favorable-au-remboursement-d-une-therapie-numerique" target="_blank" rel="noopener">HAS, First favourable opinion for digital therapy reimbursement</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>CNEDiMTS issued the first favourable opinion for routine common-law reimbursement of a digital therapeutic (Joe paediatric asthma 7-11).</td></tr>
+<tr><td><a href="https://www.cms.gov/priorities/innovation/key-concepts/value-based-care" target="_blank" rel="noopener">CMS, Value-Based Care</a></td><td class="tier-1">Tier 1</td><td>Structural anchor</td><td>14.3 million Medicare beneficiaries in ACO-coordinated care as of January 2026 (up from 13.7 million in 2025); Medicare Advantage plans covering 165 million Americans participating in outcome-aligned arrangements.</td></tr>
+<tr><td><a href="https://www.nixonpeabody.com/insights/alerts/2025/12/03/cms-announces-new-value-based-payment-model-for-technology-enabled-care" target="_blank" rel="noopener">Nixon Peabody, CMS ACCESS Model announcement</a></td><td class="tier-2">Tier 2</td><td>Structural anchor</td><td>CMS ACCESS Model announced December 2025; launches 5 July 2026 for ten years; first US reimbursement architecture purpose-built for wearable/remote-monitoring device categories.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim in this briefing that goes beyond what a cited source literally states.</p>
+
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>This is the first Decision Intelligence briefing in the Philips programme cycle; there is no prior cycle to reference. Future cycles will populate this section with traces back to cycle 1 (this briefing) entries in <code>memory.json</code>.</p>
+
+<h4>Superlatives used</h4>
+<ul>
+<li>"first Decision Intelligence briefing in the Philips programme cycle" (Cycle status; cycle 1). Factual programme statement, not source-attributed.</li>
+<li>"the strongest single proof-point of where the strategy is going" (Source register notes, Region Stockholm Philips announcement). Analyst characterisation of relative source weight, not a literal quote.</li>
+<li>"the marquee Philips/Disney commercial commitment" (Theme 2 framing). The "marquee" framing is analyst voice; the underlying HIT Consultant article describes the partnership as exclusive and global across 87 countries.</li>
+</ul>
+
+<h4>Analytical synthesis claims</h4>
+<ul>
+<li>"The cycle's central tension is bidirectional. Hospital-grade equipment is moving into people's spare rooms, and consumer wellness devices are becoming clinical-grade." (Executive Synthesis, paragraph 1). This is the analyst's framing of the cycle, synthesised across Theme 1 (hospital-at-home reimbursement) and Theme 4 (AI form factor) plus Theme 6 (reimbursement categories). No single source carries this exact framing.</li>
+<li>"The board-level insight that may surprise leadership: the labour shortage in clinical settings is the structural force pulling clinical work into the home faster than the reimbursement timetables suggest, because hospitals cannot staff the alternative." (Executive Synthesis, paragraph 5). This is an inferential judgement reading across Theme 1, Theme 5 (German Destatis projection, Pflegenot 2024 unfilled-position data, Japanese IMARC market projection) and the implicit reimbursement-pull logic of Theme 6. The labour-supply data are sourced; the causal claim that labour shortage drives reimbursement adoption faster than otherwise is analyst voice.</li>
+<li>"The form factor of a Sonicare today is the early ancestor of a passive home diagnostic platform under the reimbursement architecture of 2027 onward." (Executive Synthesis, paragraph 2). Analyst characterisation reading the Sonicare SenseIQ launch (5 March 2026, Philips press release) against the ACCESS Model launch dates and the ambient-sensing form-factor commentary (ItBusinessToday); no single source carries this framing.</li>
+<li>"Patient experience is now a throughput KPI and the design teams own a measurable share of it." (Executive Synthesis, paragraph 4). Reads the Philips/Disney clinical study (43% paediatric stress reduction, 63% scan-pause reduction), the Philips own clinical evidence (80% sedation reduction, 70% re-scan reduction), and the peer-reviewed paediatric MRI sedation-reduction meta-analysis. The "throughput KPI" framing is analyst voice; the underlying numbers are source-attributed.</li>
+<li>"The design language has to bridge both." (Pull-quote and Theme 1 implication). This is the cycle's central editorial framing; it does not appear in any source; it is the cycle's interpretive frame.</li>
+<li>The scenario matrix axes (pace of hospital-to-home reimbursement expansion across the four heartland markets; regulatory speed of the EU AI Act binding dates) are analyst-constructed; the underlying data on both axes are source-attributed but the choice to make these the two critical uncertainties is the analyst's.</li>
+</ul>
+</div>
+
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is part of your Shaping Tomorrow Single-Topic Programme on <strong>Design-Led Healthcare Foresight (Commercial 1-5y, Industrial 5-10y)</strong>. To extend the programme to additional topics, add a named competitor, or move to a Sector-Exclusive Partnership, contact your analyst.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="mailto:hello@shapingtomorrow.com?subject=Next%20cycle%20discussion">Book your next-cycle discussion</a>
+<a class="programme-cta secondary" href="mailto:hello@shapingtomorrow.com?subject=Add%20topic%20to%20programme">Add a topic to your programme</a>
+</div>
+</div>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 2 June 2026</p>
+
+</div>
+
+</body>
+</html>

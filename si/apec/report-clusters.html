@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token five, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>Signals for the Policy Desk: APEC's Demography, Technology and Decarbonisation Decade: APEC Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 30%; }
+  .source-register col.col-tier { width: 10%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 48%; }
+  .source-register td { word-wrap: break-word; overflow-wrap: break-word; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; APEC</div>
+<h1 class="report-title">Signals for the Policy Desk: APEC's Demography, Technology and Decarbonisation Decade</h1>
+<div class="meta">
+Cycle: 3 June 2026 &middot; Audience: APEC policy-strategy team (energy planning and policy, technology foresight, government affairs, policy research) &middot; Horizon: 2 to 5 years<br>
+<span style="font-size: 0.92em;">Read estimate: 1 min At a Glance &middot; 4 min Executive Synthesis &middot; 25 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five converging policy currents - demography, talent, innovation, decarbonisation and regional political economy - meeting at an APEC policy-desk anchor.">
+  <defs>
+    <linearGradient id="apecg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a237e"/><stop offset="1" stop-color="#0382FC"/></linearGradient>
+  </defs>
+  <rect width="340" height="300" fill="#ffffff"/>
+  <!-- Five converging currents -->
+  <path d="M30,40 Q120,80 170,150" stroke="#c62828" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M30,110 Q110,130 170,150" stroke="#f57c00" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M310,40 Q220,80 170,150" stroke="#1e88e5" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M310,110 Q230,130 170,150" stroke="#2e7d32" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M170,30 Q170,90 170,150" stroke="#7e57c2" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- Origin dots -->
+  <circle cx="30" cy="40" r="5" fill="#c62828"/>
+  <circle cx="30" cy="110" r="5" fill="#f57c00"/>
+  <circle cx="310" cy="40" r="5" fill="#1e88e5"/>
+  <circle cx="310" cy="110" r="5" fill="#2e7d32"/>
+  <circle cx="170" cy="30" r="5" fill="#7e57c2"/>
+  <!-- Policy desk anchor -->
+  <rect x="135" y="145" width="70" height="40" rx="6" fill="url(#apecg1)"/>
+  <text x="170" y="170" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700">POLICY DESK</text>
+  <!-- Origin labels -->
+  <text x="22" y="32" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#c62828" font-weight="600">Ageing</text>
+  <text x="22" y="102" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="600">Talent</text>
+  <text x="318" y="32" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1e88e5" font-weight="600">Innovation</text>
+  <text x="318" y="102" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#2e7d32" font-weight="600">Decarbonisation</text>
+  <text x="170" y="20" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#7e57c2" font-weight="600">Political risk</text>
+  <!-- Downstream arrows -->
+  <path d="M170,190 L170,250" stroke="#1a237e" stroke-width="1.6" fill="none" stroke-dasharray="3 3"/>
+  <text x="170" y="270" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-style="italic">Five currents, one set of policy levers, four lenses for the desk.</text>
+</svg>
+<p class="figure-caption">Five themes converge on the same policy desk. The cycle's question is whether the desk has the coordination architecture to act on the convergence.</p>
+</div>
+
+
+
+
+<div class="at-a-glance">
+<h3>At a Glance</h3>
+<p>APEC enters China's 2026 host-year with a more substantive policy stack than any cycle since 2019: a five-year AI Initiative (2026-2030), a Collaborative Framework on Demographic Changes running on the same timeline, the launch of APAEC 2026-2030 inside ASEAN, and the terminal evaluation of UNFCCC TNA Phase III all landing inside the same two-year window. The central question is whether the forum's coordination capacity has caught up with its ambition.</p>
+<p>Three institutional forces are responding. The Gyeongju architecture (AI Initiative and Demographic Framework) gives APEC its first credible multi-year, multi-fora coordination test. China's 2026 priorities of openness, innovation and cooperation reframe innovation policy around 'new quality productive forces'. And the energy-and-decarbonisation stack (APAEC 2026-2030, TNA Phase III evaluation, ADB just-transition financing) lands operational decisions on grid investment and coal-fleet retirement.</p>
+<p><strong>The one thing to take into the next meeting:</strong> the binding bottleneck is HRDWG-PPSTI coordination on AI capacity-building tied to the demographic transition. If the desk wants the AI Initiative's Objective 2 (broadening participation) to land, the operational case for that coordination needs to be made into the China 2026 workplan now, not after the November Leaders' Week. Watch the Korea-hosted 2026 population policy forum as the early signal.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">Does APEC's coordination capacity match the ambition of the architecture it adopted in 2025?</p>
+<p class="sit-up-warrant">The Gyeongju Declaration delivered the most substantive multi-year architecture since 2019; the binding test is whether the operating fora can deliver against it during the China 2026 cycle.</p>
+</div>
+
+<p>The 2026 cycle opens with a paradox. The Gyeongju Declaration, adopted by APEC Leaders 1 November 2025, gave the forum its most substantive multi-year architecture in at least seven years: a five-year AI Initiative, a parallel Collaborative Framework on Demographic Changes, and a series of operational endorsements that connect through the China-hosted 2026 workplan and the Vietnam-hosted 2027 cycle. The architecture is real. Whether APEC's coordination capacity is real at the same scale is the open question this cycle puts to the policy desk.</p>
+<p>The demographic stack is the largest of the three response architectures. The Collaborative Framework runs 2026-2030 with the SCE assigned overall responsibility and the HWG, HRDWG and PPWE asked to embed Framework activities in their workplans <a href="https://www.apec.org/meeting-papers/leaders-declarations/2025/2025-apec-leaders--gyeongju-declaration/apec-collaborative-framework-for-demographic-changes" target="_blank" rel="noopener">APEC Collaborative Framework on Demographic Changes</a>. Korea offered to host the APEC population policy forum in 2026 as the cohering platform, and KEIA's reading is that Korea's hosting strategy was deliberately built to deliver that follow-through <a href="https://keia.org/the-peninsula/how-apec-2025-laid-the-path-for-addressing-south-koreas-demographic-challenge/" target="_blank" rel="noopener">KEIA</a>. The macro evidence base is more dire than the language: the IMF's October 2025 Asia-Pacific Regional Economic Outlook documents that ageing is already dampening potential growth in the post-dividend economies (Japan, Korea, China), with consumption composition shifting toward old-age services <a href="https://www.imf.org/en/publications/reo/apac/issues/2025/10/24/regional-economic-outlook-for-asia-and-pacific-october-2025" target="_blank" rel="noopener">IMF Asia-Pacific REO October 2025</a>. By 2050, one in four Asia-Pacific residents will be over 60 <a href="https://www.unescap.org/sites/default/d8files/knowledge-products/AP-Ageing-2022-report.pdf" target="_blank" rel="noopener">UNESCAP</a>. The desk's question is whether the Framework gets to the macro problem in time, or whether it becomes another voluntary coordination instrument with a 2030 review and no operational teeth.</p>
+<p>The STI stack is more advanced. The APEC AI Initiative (2026-2030) was adopted at Gyeongju with three objectives: foster resilient growth through AI innovation, broaden member-economy participation through capacity-building, and develop AI using energy-efficient technologies <a href="https://www.apec.org/meeting-papers/leaders-declarations/2025/2025-apec-leaders--gyeongju-declaration/apec-artificial-intelligence-(ai)-initiative-(2026-2030)" target="_blank" rel="noopener">APEC AI Initiative</a>. Korea's establishment of an Asia-Pacific AI Center is the first operational artefact. PPSTI's February 2026 plenary in Guangzhou set the 2026 theme around open and collaborative innovation, with explicit workstreams on AI policy, green and digital transition, and researcher mobility <a href="https://apec.org/press/news-releases/2026/economies-press-for-open-innovation-as-science--technology-and-ai-reshape-growth" target="_blank" rel="noopener">APEC PPSTI 27th Plenary</a>. The Atlantic Council reads this as APEC finding its political-economy niche: a credible 'soft' agenda precisely because hard-security and trade-tension files push elsewhere <a href="https://www.atlanticcouncil.org/blogs/new-atlanticist/how-south-korea-advanced-its-trade-and-technology-agenda-at-the-apec-summit/" target="_blank" rel="noopener">Atlantic Council</a>. For the policy desk, the question is whether HRDWG and PPSTI coordinate on AI capacity-building tied to the demographic transition, or whether the two stacks run in parallel and the operational synergy is missed.</p>
+<p>The decarbonisation stack is the one with the most concrete near-term decisions. APAEC 2026-2030 launches inside ASEAN as the new five-year energy-cooperation plan, with eight of ten member states carrying mid-century net-zero targets and grid investment needing to roughly double to approximately USD 30 billion per year by 2035 <a href="https://aseanenergy.org/publications/asean-energy-in-2026" target="_blank" rel="noopener">ACE ASEAN Energy in 2026</a> <a href="https://www.adb.org/sites/default/files/2026-02/inclusive-energy-transitions-southeast-asia-beyond-agenda.pdf" target="_blank" rel="noopener">ACE AEO8</a>. UNFCCC TNA Phase III ends with a terminal evaluation in 2026 that will be the first whole-process review since 2009 <a href="https://unepccc.org/project/technology-needs-assessment-phase-iii/" target="_blank" rel="noopener">UNEP-CCC TNA Phase III</a>, and ADB's February 2026 just-transition agenda outlines the financing architecture (CCAM, JETP, grid modernisation, labour transitions) on which the TNA priorities now sit <a href="https://aseanenergy.org/publications/the-8th-asean-energy-outlook" target="_blank" rel="noopener">ADB Inclusive Energy Transitions</a>. The desk's binding decision is how APEC EWG and the TNA evaluation align: the financing architecture needs the prioritisation, and the prioritisation needs the financing channel.</p>
+<p>The closing constraint is regional political risk. The Thailand-Cambodia border conflict that escalated in 2025 (July outbreak, December re-escalation, December ceasefire) is reshaping the cross-border value chain that underpins both economies, with rerouting through Vietnam and Laos hiking transportation costs 25 to 40 per cent <a href="https://logisticsviewpoints.com/2026/01/07/how-the-thailand-cambodia-border-conflict-is-creating-ripple-effects-across-global-manufacturing-supply-chains/" target="_blank" rel="noopener">Logistics Viewpoints</a>. AMRO's November 2025 analytical note documents the labour-flow shock (approximately 780,000 Cambodian workers returning) <a href="https://amro-asia.org/wp-content/uploads/2025/11/Analytical-Note-Assessment-of-the-Impact-of-Cambodia-Thailand-Border-Conflicts-on-Cambodias-Economy_final_nov-17.pdf" target="_blank" rel="noopener">AMRO Cambodia-Thailand note</a>; the ISEAS State of Southeast Asia 2026 Survey of 2,008 opinion-makers across all ASEAN states finds the region newly concerned with intensifying major-power rivalry and ASEAN's own implementation gaps <a href="https://www.iseas.edu.sg/wp-content/uploads/2026/03/State-of-Southeast-Asia-2026-Survey-Final.pdf" target="_blank" rel="noopener">ISEAS State of Southeast Asia 2026</a>. APEC's economic-only perimeter means the file is not formally on the forum's agenda. The desk's question is the same one Atlantic Council surfaces: is the perimeter a constraint that protects APEC's relevance, or is it a constraint that increasingly removes APEC from the region's actual policy questions?</p>
+
+<div class="pullquote">The architecture is real; whether APEC's coordination capacity is real at the same scale is the open question this cycle puts to the policy desk.</div>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The single most consequential assumption underneath every signal in this cycle is that the Korea-China-Vietnam host-year continuity holds and the Gyeongju architecture gets operationalised rather than parked. AI Initiative reviews land at the joint DESG-TELWG meeting; the Demographic Framework reviews land at SCE; APAEC 2026-2030 sits inside ASEAN, parallel to but not inside APEC. If any one of these review architectures slips into form-over-substance during the 2026 cycle, the four-year compounding logic that gives the architecture its weight breaks down: a 2030 final review of a five-year initiative requires meaningful annual reviews to land. If the desk sees thin annual reviews emerge in 2026 (working-group reports without measurable workplan deliverables), the architecture is at risk of becoming declaratory.</p>
+<p>The counter-stress test is that APEC has historically been most effective when its agenda is calibrated to what the forum can actually deliver. The 'soft' agenda of demographic coordination, AI capacity-building and energy-cooperation prioritisation is genuinely within the forum's perimeter, and the cycle's signals are consistent with serious follow-through. The risk to the policy desk is in over-reading either pole: assuming the architecture will deliver itself, or assuming it will fail. The cycle's signals support neither extreme.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Operationalise HRDWG-PPSTI joint workstream on AI capacity-building.</strong> The Demographic Framework names HRDWG; the AI Initiative names DESG-TELWG and PPSTI. The intersection (AI literacy for ageing-cohort workforces) is currently un-owned. Make the operational case during SOM2 in mid-2026 before the November Leaders' Week settles the workplan.</li>
+<li><strong>Align APEC EWG with the UNFCCC TNA Phase III terminal evaluation.</strong> APEC's 16th Energy Ministerial Meeting is hosted by China in 2026. The TNA terminal evaluation conclusions should feed into EWG's workplan rather than sit in a parallel UNFCCC track. The EGNRET 64 meeting hosted by Thailand (Khon Kaen, late April / early May 2026) is the operational venue.</li>
+<li><strong>Stand up a desk surveillance line on Thailand-Cambodia macro-spillover.</strong> APEC formally avoids the file; the desk's policy-strategy mandate does not. AMRO interim updates and ISEAS commentary give the cadence needed for quarterly desk briefings without putting the file inside APEC's perimeter.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Audience Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per role on the desk. Each card surfaces the one question this cycle puts to that role.</p>
+<div class="snapshots">
+
+<div class="snapshot-card operations">
+<span class="role">Energy Planning &amp; Policy</span>
+<h4>How does APAEC 2026-2030 land inside the APEC EWG workplan, and is the TNA Phase III evaluation the alignment lever?</h4>
+<p><strong>The shift:</strong> APAEC 2026-2030 launches as ASEAN's new five-year energy-cooperation plan in parallel to the UNFCCC TNA Phase III terminal evaluation expected in 2026. Both will land before APEC's 16th Energy Ministerial.</p>
+<p><strong>The question to brief:</strong> Should APEC EWG explicitly incorporate the TNA Phase III findings into the 2026 ministerial, or accept that TNA stays inside UNFCCC and APEC carries its own technology-cooperation track?</p>
+</div>
+
+<div class="snapshot-card commercial">
+<span class="role">Technology Foresight</span>
+<h4>Is the APEC AI Initiative (2026-2030) the right vehicle for energy-efficient AI infrastructure policy in the region, or does that workstream belong elsewhere?</h4>
+<p><strong>The shift:</strong> The AI Initiative's third objective ties AI development to energy-efficient technologies and resilient infrastructure investment. PPSTI's 2026 plenary linked AI policy explicitly to the green-and-digital transition.</p>
+<p><strong>The question to brief:</strong> Should the desk push for a joint DESG-TELWG + EWG workstream on energy-efficient AI infrastructure, or treat infrastructure as a national matter and keep the AI Initiative on policy, ethics and capacity-building?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Government Affairs</span>
+<h4>How should the desk frame the Thailand-Cambodia border file for member economies given APEC's economic-only perimeter?</h4>
+<p><strong>The shift:</strong> The ISEAS State of Southeast Asia 2026 Survey finds ASEAN newly concerned with major-power rivalry and the bloc's own implementation gaps; AMRO documents acute labour-flow and capital-goods spillover from Thai-Cambodian border closures.</p>
+<p><strong>The question to brief:</strong> Is the Korea-China host-year continuity stable enough that the desk can rely on it for the four-year compounding logic of the Gyeongju architecture, and how should the policy-strategy team brief member economies on the regional political-risk file that APEC formally avoids?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Policy Research</span>
+<h4>What is the desk's evidence base for ageing-as-binding-constraint versus ageing-as-silver-dividend, and how do those two frames cash out in policy advice?</h4>
+<p><strong>The shift:</strong> ADB's 'Aging Well in Asia' and 'Tapping Technology to Maximize the Longevity Dividend' frame ageing as a productivity opportunity (up to 1.5 per cent GDP uplift). The IMF October 2025 outlook frames ageing as already dampening potential growth in post-dividend economies. Both can be true; the policy choice is whether the desk leans on the optimistic frame for the Collaborative Framework workstreams.</p>
+<p><strong>The question to brief:</strong> What evidence threshold should the desk require before recommending the silver-dividend frame as the operational narrative for HRDWG, and what is the audit cadence for revisiting that judgment?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<div class="signal-clusters">
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes, ranked by impact on APEC's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the China-hosted 2026 host-year workplan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes APEC's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<!-- Theme 1: Aging Society in Asia (Immediate) -->
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Aging Society in Asia</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The demographic transition is no longer a 2030 question. The IMF documents ageing's drag on potential growth already binding in the post-dividend economies; UNESCAP measures 721 million Asia-Pacific over-60s in 2024, rising to a projected 1.3 billion by 2050. Gyeongju gave APEC its first multi-fora policy architecture for the file (the Collaborative Framework on Demographic Changes), running 2026-2030 with SCE oversight and embedding obligations on HWG, HRDWG and PPWE.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>Collaborative Framework on Demographic Changes:</strong> Adopted at Gyeongju 1 November 2025; implementation 2026-2030; embeds obligations on HWG, HRDWG and PPWE. Final review 2030. <a href="https://www.apec.org/meeting-papers/leaders-declarations/2025/2025-apec-leaders--gyeongju-declaration/apec-collaborative-framework-for-demographic-changes" target="_blank" rel="noopener">APEC Collaborative Framework on Demographic Changes</a></li>
+<li><strong>Korea's 2026 Population Policy Forum:</strong> Offered by Korea at Gyeongju as a knowledge-sharing platform; KEIA reads the offer as deliberate continuity from the Korean 2025 host year. <a href="https://keia.org/the-peninsula/how-apec-2025-laid-the-path-for-addressing-south-koreas-demographic-challenge/" target="_blank" rel="noopener">KEIA</a></li>
+<li><strong>Macro evidence base:</strong> IMF October 2025 REO documents ageing already dampening potential growth across China, Japan and Korea; consumption composition shifts toward health and away from education. <a href="https://www.imf.org/en/publications/reo/apac/issues/2025/10/24/regional-economic-outlook-for-asia-and-pacific-october-2025" target="_blank" rel="noopener">IMF Asia-Pacific REO October 2025</a></li>
+<li><strong>AMRO ASEAN+3 outlook:</strong> April 2026 AREO maintains 4.0 per cent ASEAN+3 growth but flags ageing as the binding medium-term constraint behind the intra-regional demand pivot. <a href="https://amro-asia.org/wp-content/uploads/2026/04/AMRO-AREO-2026-Full-Report-.pdf" target="_blank" rel="noopener">AMRO ASEAN+3 AREO 2026</a></li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>ADB's 'silver dividend' framing argues that ageing converts into a 1.5 per cent GDP uplift through technology, extended working life and continued investment in older-worker productivity <a href="https://www.adb.org/publications/tapping-technology-maximize-longevity-dividend-asia" target="_blank" rel="noopener">ADB Longevity Dividend</a>. If that frame is right, the operational policy question is investment in assistive technology and labour-market reform, not coping with decline. The risk is reading the IMF and the ADB frames as competing rather than describing different policy responses to the same demographic trajectory; the policy desk needs both in view.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>Korea's offer to host the 2026 population policy forum may signal an intent to standardise demographic data and policy approaches across APEC member economies, anchored on Korean methodology.</li>
+<li><span class="weak-signal-marker">weak</span>The UNESCAP 2026 MIPAA implementation survey (launched early 2026) creates a separate ESCAP track that risks fragmenting the regional policy architecture if APEC and ESCAP do not coordinate publicly.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 1 informs Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<!-- Theme 2: Higher Education in ASEAN (Near-Term) -->
+<div class="signal-cluster tier-positioning" id="cluster-2">
+<div class="cluster-header"><h3>2. Higher Education in ASEAN</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">ASEAN's regional HE architecture (AQRF, AQAFHE, AUN-ACTS, AUN-QA, SHARE) is the talent-pipeline answer to the demographic-transition stack. The instruments are in place; the binding constraint is voluntary engagement and slow national-system uptake. UNESCO's May 2026 Global Higher Education Trends Report documents that international students increasingly prefer to study within their region - a wave APEC member economies can either capture or lose.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>AQRF as voluntary architecture:</strong> AQRF supports labour-market mobility and HE cooperation across AMS; engagement is voluntary and does not require changes to national qualifications systems, which slows implementation. <a href="https://asean.org/our-communities/economic-community/services/aqrf/" target="_blank" rel="noopener">ASEAN AQRF</a> <a href="https://theaseanmagazine.asean.org/article/higher-education-the-asean-qualifications-reference-framework/" target="_blank" rel="noopener">The ASEAN Magazine</a></li>
+<li><strong>Global HE baseline:</strong> UNESCO's first Global HE Trends Report finds HE enrolment more than doubled in 20 years (269 million in 2024); international mobility tripled (7.3 million students). South and West Asia at 30 per cent enrolment versus 80 per cent in Western Europe/North America. <a href="https://www.unesco.org/en/articles/number-students-higher-education-more-doubled-20-years-inequalities-remain" target="_blank" rel="noopener">UNESCO Global HE Trends Report</a></li>
+<li><strong>Intra-regional mobility pattern:</strong> UNESCO IESALC analysis finds students preferring to study within their region; for ASEAN this is the pattern the AQRF/AQAFHE/AUN-ACTS instruments were designed to capture. <a href="https://www.iesalc.unesco.org/en/articles/shaping-future-higher-education-launch-unescos-global-trends-report" target="_blank" rel="noopener">UNESCO IESALC</a></li>
+<li><strong>External co-financing:</strong> SHARE EU-ASEAN has been the EU's flagship instrument supporting AQRF/AQAFHE since 2015 with successive phases, signalling depth of external co-financing for ASEAN HE regional architecture. <a href="https://www.share-asean.eu/activities/qualifications-reference-frameworks" target="_blank" rel="noopener">SHARE EU-ASEAN</a></li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The AQRF has been operational since 2014 and intra-ASEAN student mobility has grown only from 166,000 to 220,000 between 2009 and 2013 <a href="https://ojed.org/jise/article/view/1058/668" target="_blank" rel="noopener">JISE</a>. The 'regional architecture' frame may overstate what voluntary, non-binding instruments achieve in practice. The honest reading is that AQRF is regulatory architecture, not direct mobility, and the binding constraint is national HE-system reform inside each AMS rather than ASEAN-level coordination. The policy lever the desk can pull is helping member economies prioritise national reform, not waiting for the regional instruments to deliver.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The 2026 GEM Report (UNESCO Global Education Monitoring) focus on equity and access could surface comparative ASEAN HE access metrics that reframe the regional debate.</li>
+<li><span class="weak-signal-marker">weak</span>AUN's expansion of its thematic networks (AUN-ACTS, AUN-QA) suggests universities are anticipating intra-regional mobility growth before AMS governments formalise it; this signals where bottom-up flows could outpace top-down policy.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 2 informs Strategic Implications <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<!-- Theme 3: STI in Asia-Pacific (Near-Term) -->
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Science, Technology, and Innovation in the Asia-Pacific</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The Gyeongju AI Initiative is APEC's first five-year STI instrument with operational artefacts (Korea's Asia-Pacific AI Center). PPSTI 2026 carries the workplan; China's host-year priorities frame innovation around 'new quality productive forces'. The cycle's question is whether the AI Initiative becomes the regional benchmark or one of several competing frameworks (OECD AI, UN AI Advisory Body, ASEAN AI Governance).</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>AI Initiative architecture:</strong> Adopted at Gyeongju 1 November 2025; three objectives (resilient growth, broad participation, energy-efficient infrastructure); annual joint DESG-TELWG reviews; final review 2030. Korea established Asia-Pacific AI Center. <a href="https://www.apec.org/meeting-papers/leaders-declarations/2025/2025-apec-leaders--gyeongju-declaration/apec-artificial-intelligence-(ai)-initiative-(2026-2030)" target="_blank" rel="noopener">APEC AI Initiative</a></li>
+<li><strong>PPSTI 2026 theme and priorities:</strong> 'Fostering an Open and Collaborative Innovation Ecosystem for Resilient Growth'; priorities on competitive non-discriminatory innovation, PPP-based open innovation, open science. <a href="https://apec.org/press/news-releases/2026/economies-press-for-open-innovation-as-science--technology-and-ai-reshape-growth" target="_blank" rel="noopener">APEC PPSTI 27th Plenary</a></li>
+<li><strong>China host-year framing:</strong> 'Building an Asia-Pacific Community to Prosper Together' with priorities of openness, innovation, cooperation; Shenzhen Leaders' Week November 2026; SOM Chair Ambassador Chen Xu. <a href="https://www.apec.org/press/news-releases/2025/china-unveils-apec-2026-theme-and-priorities-in-shenzhen" target="_blank" rel="noopener">APEC China 2026 priorities</a></li>
+<li><strong>External readings:</strong> The Diplomat and Atlantic Council read Gyeongju as a turning point for APEC's relevance in a US-China bifurcated environment; the 'soft' STI agenda is precisely what APEC can credibly hold. <a href="https://thediplomat.com/2025/11/what-the-2025-apec-summit-means-for-south-koreas-ai-ambitions/" target="_blank" rel="noopener">The Diplomat</a> <a href="https://www.atlanticcouncil.org/blogs/new-atlanticist/how-south-korea-advanced-its-trade-and-technology-agenda-at-the-apec-summit/" target="_blank" rel="noopener">Atlantic Council</a> <a href="https://thediplomat.com/2025/11/the-gyeongju-summit-was-a-turning-point-for-apec/" target="_blank" rel="noopener">The Diplomat (Gyeongju turning point)</a></li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The AI Initiative is a five-year voluntary instrument with no enforcement mechanism, no binding capacity-building budget, and a final review four years out. The OECD AI Principles, UN AI Advisory Body, and China-led BRICS AI cooperation already populate the regional and global landscape. The risk is that the APEC AI Initiative becomes a declaratory venue while binding AI policy gets set at OECD (Western-aligned economies) and BRICS (China-led tracks). The policy desk needs to read APEC AI as one of several anchors, not the anchor.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>Korea's Asia-Pacific AI Center is self-funded and independently operated; if Korea's funding commitment weakens with a change of government, the operational artefact loses its anchor.</li>
+<li><span class="weak-signal-marker">weak</span>PPSTI's explicit linking of AI policy to 'green and digital transition' in the 2026 plenary suggests a coming workstream at the AI-energy intersection that the desk should prepare for.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 3 informs Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<!-- Theme 4: TNA for Net Zero (Longer-Range) -->
+<div class="signal-cluster tier-horizon" id="cluster-4">
+<div class="cluster-header"><h3>4. Technology Needs Assessment for Net Zero</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The decarbonisation stack has the cycle's most concrete operational decisions. APAEC 2026-2030 launches inside ASEAN as the new five-year energy-cooperation plan with eight of ten AMS carrying mid-century net-zero targets; UNFCCC TNA Phase III ends with a terminal evaluation expected in 2026; ADB's just-transition financing architecture (CCAM, JETP, grid modernisation, labour transitions) gives the operational counterpart. APEC's EWG sits between them.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>TNA architecture:</strong> UNFCCC TNA process covers ~30 Asia-Pacific developing countries among ~100 globally; Phase III terminal evaluation expected 2026 - the first whole-process review since 2009. <a href="https://unfccc.int/ttclear/tna" target="_blank" rel="noopener">UNFCCC TNA</a> <a href="https://unepccc.org/project/technology-needs-assessment-phase-iii/" target="_blank" rel="noopener">UNEP-CCC TNA Phase III</a></li>
+<li><strong>Regional TNA priorities:</strong> UNEP-CCC Asia-Pacific Regional Technology Brief: mitigation in renewable energy, energy efficiency, transport, waste; adaptation in water, agriculture, coastal-zone management; recurring barriers in financing, regulation, capacity, IPR. <a href="https://unepccc.org/publications/regional-technology-brief-asia-pacific/" target="_blank" rel="noopener">UNEP-CCC Asia-Pacific Regional Technology Brief</a></li>
+<li><strong>APAEC 2026-2030 launch:</strong> AEO8 sets four scenarios (BAS, ATS, RAS, CNS) with CNS charting a 2050 net-zero path; APAEC 2026-2030 begins implementation in 2026; grid investment must double to ~USD 30 billion/yr by 2035. <a href="https://aseanenergy.org/publications/asean-energy-in-2026" target="_blank" rel="noopener">ACE ASEAN Energy in 2026</a> <a href="https://www.adb.org/sites/default/files/2026-02/inclusive-energy-transitions-southeast-asia-beyond-agenda.pdf" target="_blank" rel="noopener">ACE AEO8</a> <a href="https://iea.blob.core.windows.net/assets/ac357b64-0020-421c-98d7-f5c468dadb0f/SoutheastAsiaEnergyOutlook2024.pdf" target="_blank" rel="noopener">IEA Southeast Asia Energy Outlook 2024</a></li>
+<li><strong>Just-transition financing architecture:</strong> ADB's February 2026 agenda outlines co-financing for retiring young coal plants (the SEA fleet averages under 15 years), grid modernisation, and labour-transition packages. <a href="https://aseanenergy.org/publications/the-8th-asean-energy-outlook" target="_blank" rel="noopener">ADB Inclusive Energy Transitions</a></li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The 2026 Middle East energy crisis is increasing Southeast Asia's coal risk in the near term by raising the cost of LNG bridging fuels; the political economy of the transition is currently pulling toward coal extension rather than coal retirement <a href="https://www.renewableenergyasia.org/2026/05/middle-east-crisis-increases-southeast.html" target="_blank" rel="noopener">Eco-Business</a>. The TNA Phase III evaluation, when it lands, may find that the process has been long on prioritisation and short on technology-transfer delivery - a finding that could weaken rather than strengthen the case for putting more APEC weight on the architecture. The desk needs both the operational opportunity (APAEC 2026-2030 launch, TNA evaluation) and the structural counter-pressure in view.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>EGNRET 64 hosted by Thailand in Khon Kaen (late April / early May 2026) is the operational venue where APEC EWG could formally absorb TNA Phase III findings.</li>
+<li><span class="weak-signal-marker">weak</span>BIS Project Agora's atomic settlement of tokenised wholesale cross-border payments is reshaping how energy and technology-transfer flows could be settled; an APEC EWG-Finance interaction is emerging that the desk should map.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 4 informs Strategic Implications <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<!-- Theme 5: Regional political risk (Immediate, closing constraint) -->
+<div class="signal-cluster tier-mandate" id="cluster-5">
+<div class="cluster-header"><h3>5. Regional political risk and supply-chain political economy in mainland Southeast Asia</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The macro constraint against which the other four themes have to perform. The Thailand-Cambodia border conflict (July 2025 outbreak, December 2025 ceasefire, supply-chain rerouting through Vietnam and Laos costing 25-40 per cent transportation premiums) is reshaping mainland SEA's economic geography. APEC formally avoids the file; the desk's mandate does not. The closing theme frames the constraint within which the demography, talent, innovation and decarbonisation stacks have to deliver.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>Border conflict trajectory:</strong> NBR documents the July 2025 outbreak (48 deaths, 300,000 displaced) and ASEAN's inability to broker early resolution; AMRO's November 2025 analytical note quantifies the labour-flow shock (~780,000 Cambodian workers returning). <a href="https://www.renewableenergyasia.org/2026/05/middle-east-crisis-increases-southeast.html" target="_blank" rel="noopener">Eco-Business</a> <a href="https://www.nbr.org/publication/aseans-unwanted-conflict-thailand-cambodia-border-hostilities-in-2025/" target="_blank" rel="noopener">NBR</a></li>
+<li><strong>Supply-chain rerouting:</strong> Logistics Viewpoints / ARC documents shipments rerouting through Vietnam and Laos with 25-40 per cent transportation cost hikes; ripple effects across regional electronics and apparel manufacturing. <a href="https://amro-asia.org/wp-content/uploads/2025/11/Analytical-Note-Assessment-of-the-Impact-of-Cambodia-Thailand-Border-Conflicts-on-Cambodias-Economy_final_nov-17.pdf" target="_blank" rel="noopener">AMRO Cambodia-Thailand note</a></li>
+<li><strong>Fragile ceasefire:</strong> Fulcrum (ISEAS) commentary February 2026 documents the cross-border value-chain erosion continuing into 2026 despite the December 2025 ceasefire. <a href="https://logisticsviewpoints.com/2026/01/07/how-the-thailand-cambodia-border-conflict-is-creating-ripple-effects-across-global-manufacturing-supply-chains/" target="_blank" rel="noopener">Logistics Viewpoints</a></li>
+<li><strong>Regional perception baseline:</strong> ISEAS State of Southeast Asia 2026 Survey (2,008 opinion-makers across all ASEAN states): intensifying major-power rivalry, climate risks, domestic instability and transnational threats; ASEAN implementation gaps raised. <a href="https://www.csis.org/analysis/aligning-apec-beyond-trade-turmoil" target="_blank" rel="noopener">CSIS</a></li>
+<li><strong>Macro update:</strong> AMRO June 2026 interim AREO update maintains 4.0 per cent ASEAN+3 growth but revises inflation up to 1.8 per cent on prolonged Middle East disruption; Strait of Hormuz risk and financial-market volatility named as near-term downside pressure. <a href="https://amro-asia.org/interim-update-of-the-asean3-regional-economic-outlook-areo-june-2026" target="_blank" rel="noopener">AMRO Interim AREO June 2026</a></li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>CSIS's January 2026 reading is that APEC's economic-only perimeter remains valuable precisely because hard-security tensions push elsewhere; the AI Initiative and Demographic Framework give APEC a credible 'soft' agenda in a US-China bifurcated environment <a href="https://fulcrum.sg/the-economic-fallout-from-the-thailand-cambodia-border-conflict/" target="_blank" rel="noopener">Fulcrum</a>. By this reading the desk's instinct to brief the Thailand-Cambodia file may itself drag APEC toward a remit it cannot manage; the right posture is to keep the file inside national policy-strategy channels and outside APEC entirely. The desk needs to hold both views in tension.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The intra-regional demand pivot AMRO documents (28 per cent of global final demand) suggests mainland SEA supply-chain disruption could compound more sharply than past episodes; the second-order channel is consumer-electronics and apparel supply to ASEAN's own markets, not just to the US.</li>
+<li><span class="weak-signal-marker">weak</span>The Cambodia-side labour-flow reversal may produce a long-lived productivity reset in Thai construction and processed agriculture; the structural signal is whether the ~780,000 worker reversal proves cyclical or partial-permanent.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 5 informs Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+</div>
+
+
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions translate the cycle's signals into the China 2026 workplan and onward. Each names the move, a horizon, and a decision posture (Decide, Prepare, Monitor).</p>
+
+<div class="si-item" id="si-1">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 1: Make the operational case for a joint HRDWG-PPSTI workstream on AI capacity-building tied to the demographic transition</h4>
+<span class="si-pill prepare">Prepare</span>
+</div>
+<p>The AI Initiative's Objective 2 (broad participation through capacity-building) and the Demographic Framework's HRDWG embed obligation are independently weighted but operationally connected: AI literacy for ageing-cohort workforces is the intersection. Currently neither working group formally owns it. The desk's move is to draft the case during the SOM2 cycle (mid-2026) so it can be considered before the Shenzhen Leaders' Week settles the 2026 workplan.</p>
+<p class="si-action">Action: Draft the joint workstream concept note for SOM2 (target submission by mid-August 2026), with HRDWG and PPSTI as joint sponsors and DESG-TELWG as a participating fora.</p>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-3" class="xref">3</a>.</span>
+</div>
+
+<div class="si-item" id="si-2">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 2: Position the ASEAN HE architecture (AQRF, AUN-ACTS) as the talent-pipeline answer to the Demographic Framework</h4>
+<span class="si-pill prepare">Prepare</span>
+</div>
+<p>The Collaborative Framework on Demographic Changes embeds obligation on HRDWG; ASEAN's HE architecture sits parallel to HRDWG but with stronger operational mobility instruments. The desk's move is to position the AQRF/AUN-ACTS architecture as the operational answer to the talent-supply problem the demographic transition creates, working through the policy-strategy channel rather than waiting for ASEAN-APEC formalisation.</p>
+<p class="si-action">Action: Commission a brief mapping ASEAN HE mobility data against APEC member-economy talent-supply forecasts for the 2026 Population Policy Forum (Korea host), with comparative analytics from UNESCO's Global HE Trends Report as the structural anchor.</p>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-3">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 3: Align APEC EWG with the UNFCCC TNA Phase III terminal evaluation before the 16th Energy Ministerial</h4>
+<span class="si-pill decide">Decide</span>
+</div>
+<p>This is the cycle's binding decision. The TNA Phase III terminal evaluation lands in 2026; APAEC 2026-2030 begins implementation; China hosts the 16th APEC Energy Ministerial. If APEC EWG does not formally absorb the TNA evaluation conclusions, the financing architecture (ADB just-transition, JETP, CCAM) and the prioritisation architecture (TNA) continue on parallel tracks. The decision the desk needs to escalate is whether APEC EWG explicitly incorporates TNA Phase III findings into the 2026 ministerial agenda.</p>
+<p class="si-action">Action: Decide before EGNRET 64 (Khon Kaen, late April / early May 2026) whether the desk's posture is for explicit TNA Phase III incorporation into the APEC EWG workplan, and brief the position to the Chair through standard channels.</p>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-3" class="xref">3</a> and <a href="#cluster-4" class="xref">4</a>.</span>
+</div>
+
+<div class="si-item" id="si-4">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 4: Stand up a desk-level surveillance line on Thailand-Cambodia macro-spillover without putting the file inside APEC</h4>
+<span class="si-pill monitor">Monitor</span>
+</div>
+<p>APEC formally avoids the file. The desk's policy-strategy mandate does not. The risk to manage is not the conflict itself (an APEC remit it cannot deliver) but the macro-spillover into the cycle's other themes (labour-flow shocks affecting talent stack; supply-chain rerouting affecting industrial decarbonisation). AMRO interim updates and ISEAS analytical commentary give the cadence needed for quarterly desk briefings.</p>
+<p class="si-action">Action: Establish a quarterly desk-briefing cycle keyed to AMRO AREO updates (January / April / July / October) and ISEAS State of SEA / Fulcrum commentary; first cycle Q3 2026 covering the August AMRO interim update.</p>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-5" class="xref">5</a>.</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two critical uncertainties define the operating environment for the 2026-2030 horizon: <strong>STI cooperation density</strong> (does APEC's AI Initiative consolidate as the regional anchor, or fragment into competing blocs?) and <strong>energy-transition financing pace</strong> (does APAEC 2026-2030 / TNA Phase III deliver scaled financing, or stall against the Middle East energy shock and political pressure for coal extension?). The four scenarios are not forecasts; they are the operating environments the policy-strategy team should plan against in parallel.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>The Productive Pivot (Open + Accelerating)</h4>
+<p>APEC AI Initiative consolidates as the credible regional anchor; PPSTI 2026 workstreams deliver on AI-energy intersection; APAEC 2026-2030 launches with scaled financing channels; TNA Phase III evaluation finds the prioritisation architecture credible and the EWG incorporates it. The Demographic Framework's HRDWG-PPSTI bridge operationalises. The Thailand-Cambodia border file recedes as a constraint and APEC's economic agenda compounds across the host-year handovers (China 2026, Vietnam 2027, US 2028).</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> SOM2 2026 endorses the HRDWG-PPSTI joint workstream; APEC EWG 16th Ministerial absorbs TNA Phase III findings; AMRO June 2027 AREO shows ASEAN+3 growth stable above 4 per cent.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Walled Gardens, Powered (Bifurcated + Accelerating)</h4>
+<p>The AI Initiative fragments along US-China lines; OECD AI and BRICS AI tracks attract the binding work; APEC AI becomes declaratory. But APAEC 2026-2030 still delivers because energy financing is more bloc-tolerant than AI cooperation. The decarbonisation stack accelerates inside the two blocs; technology-transfer flows are restructured around bloc lines but at scale. For APEC the cycle is half-successful: energy carries, STI does not.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> APEC AI Initiative annual reviews thin (working-group reports without measurable deliverables); ADB and World Bank energy-transition financing scales; US and China each announce parallel AI capacity-building programmes that bypass APEC.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Talent without Watts (Open + Stalled)</h4>
+<p>APEC AI Initiative consolidates; demographic-and-talent coordination delivers; but the energy-transition financing architecture stalls against the Middle East energy shock, coal-extension political pressure and ADB / JETP delivery friction. The Asia-Pacific has the human-capital pivot but not the energy infrastructure to power what it builds. APEC's economic agenda becomes increasingly disconnected from regional climate trajectory.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Middle East tensions sustain through 2027; SEA coal demand projections revised upward; APAEC 2026-2030 mid-term review (likely 2028) reports delivery shortfalls against the CNS path; JETP project pipeline thin.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>The Drift (Bifurcated + Stalled)</h4>
+<p>The AI Initiative becomes declaratory; APAEC 2026-2030 delivers slowly against bloc-formation; the Demographic Framework runs through 2030 as voluntary coordination without operational teeth. Thailand-Cambodia spillover compounds; the ISEAS Survey trajectory continues. APEC's institutional weight thins relative to OECD, BRICS and ASEAN; the policy-strategy desk's brief becomes preserving member-economy national policy autonomy rather than driving regional coordination.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Three or more APEC working groups report thin annual reviews against the Gyeongju architecture; ISEAS State of SEA 2027 Survey shows further deterioration on ASEAN implementation; member economies revert to bilateral arrangements on AI, energy and demographic policy.</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>Hard-security escalation in the South China Sea above the current baseline</h4>
+<p>APEC's economic-only perimeter and the ISEAS Survey's existing measurement of regional security perception mean a step-change to active military confrontation between major powers in the South China Sea would invalidate the cycle's analytical frame rather than refine it. The current baseline (intensifying rivalry, dispute management, sustained tension without armed escalation) is what the cycle plans against.</p>
+<p class="reinstatement">Reinstate if: any armed engagement between major-power naval assets in the South China Sea, or a freeze of ASEAN-China Code of Conduct negotiations.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Total US withdrawal from APEC participation</h4>
+<p>The cycle plans against continued US participation at SOM and ministerial level, including the US 2028 host-year preparation. A complete US withdrawal would force a structural rethink of APEC's role in the Asia-Pacific economic architecture. The current baseline (reduced US engagement intensity but continued participation) is what the cycle plans against; deeper disengagement is monitored but not planned for.</p>
+<p class="reinstatement">Reinstate if: US announces withdrawal from APEC, declines the 2028 host year, or reduces senior-official engagement to observer level.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Climate tipping-point event during the briefing horizon</h4>
+<p>The cycle plans against continued operationalisation of the existing climate-policy architecture (UNFCCC, TNA, APAEC, ADB / JETP financing). A regional climate tipping-point event (Mekong drought cascade, Pacific Island sea-level inflection, regional rice-belt failure) would shift the operational urgency of Theme 4 by an order of magnitude and pull the AI Initiative's energy-efficiency workstream forward into Theme 4's perimeter.</p>
+<p class="reinstatement">Reinstate if: any IPCC or UNESCAP early-warning indicator for regional climate tipping-point activation triggers above current baseline.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>Where should APEC formally anchor the AI Initiative's energy-efficiency objective: PPSTI, EWG, or the joint DESG-TELWG meeting? Each has structural advantages and disadvantages, and the choice determines whether the workstream gets technology-policy weight or energy-policy weight.</li>
+<li>What is the desk's working judgment on the Korea-China host-year continuity? The four-year compounding logic of the Gyeongju architecture requires that meaningful annual reviews land at every cycle, and the China 2026 cycle is the first stress test.</li>
+<li>Should the HRDWG-PPSTI joint workstream on AI capacity-building be formalised in the China 2026 workplan, or kept as an informal coordination during 2026 with formalisation deferred to Vietnam 2027? The trade-off is between speed and political feasibility under China's host-year priorities.</li>
+<li>What is the right policy posture on TNA Phase III's terminal evaluation in 2026: should the desk push for APEC EWG to formally incorporate the findings, or treat the evaluation as a UNFCCC matter and let APEC's technology-cooperation track run in parallel? The decision shapes the energy-and-technology coordination architecture for 2026-2030.</li>
+<li>How should the desk frame Thailand-Cambodia border risk for member economies, given that APEC formally avoids the file but the macro spillovers (labour-flow shocks, supply-chain rerouting) materially affect the cycle's other themes? The honest frame may be that the desk briefs the file precisely because APEC cannot.</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This inaugural cycle draws on 40 sources gathered against a 180-day recency window (3 December 2025 to 3 June 2026), with structural anchors retained for the Gyeongju adoption events that immediately precede the window. The tier mix is 24 Tier 1 (governments, regulators, IGOs: APEC, IMF, AMRO, UNFCCC, UNEP-CCC, ACE, IEA, ADB, UNESCAP, ASEAN, AUN, ISEAS, PPSTI), 12 Tier 2 (think-tanks and quality journalism: NBR, CSIS, Atlantic Council, The Diplomat, Asia House, KEIA, ARC / Logistics Viewpoints, SHARE, The ASEAN Magazine, UNESCO IESALC, Fulcrum / ISEAS, Renewable Energy Asia), 1 Tier 3 academic open-access article (treated directionally for the historical mobility-volume baseline only), and no Tier 4 sources. Themes 1, 3 and 4 are particularly Tier 1-anchored (APEC declarations, IMF / AMRO macro outlooks, UNFCCC and IEA energy frameworks). Theme 2 leans slightly more on evergreen reference architecture (AQRF, AUN, SHARE) plus the May 2026 UNESCO HE Trends release; Theme 5 (regional political risk) carries the highest Tier 2 share by necessity, since APEC formally avoids the file and Tier 1 institutional coverage is concentrated in non-APEC bodies (AMRO, ISEAS). One conflict surfaced: the ADB silver-dividend frame and the IMF ageing-as-binding-constraint frame are not mutually exclusive but pull in opposite policy directions; the briefing treats both as live and the source register flags the tension.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Aging Society in Asia</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-1"><a href="https://www.apec.org/meeting-papers/leaders-declarations/2025/2025-apec-leaders--gyeongju-declaration/apec-collaborative-framework-for-demographic-changes">APEC Collaborative Framework for Demographic Changes</a></td><td class="tier-1">Tier 1</td><td>Nov 2025</td><td>Multi-fora implementation 2026-2030 with SCE oversight and HRDWG / HWG / PPWE embed obligations; Korea 2026 population policy forum offered.</td></tr>
+<tr><td id="src-2"><a href="https://www.adb.org/adpr/editions/aging-well">ADB - Aging Well in Asia (Asian Development Policy Report)</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Four-dimension well-being framing for ageing populations; structural baseline for post-dividend economy policy.</td></tr>
+<tr><td id="src-3"><a href="https://www.unescap.org/sites/default/d8files/knowledge-products/AP-Ageing-2022-report.pdf">UNESCAP - Asia-Pacific Report on Population Ageing 2022</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Regional baseline: 721 million over-60s in 2024 (one in seven), projected 1.3 billion by 2050.</td></tr>
+<tr><td id="src-4"><a href="https://keia.org/the-peninsula/how-apec-2025-laid-the-path-for-addressing-south-koreas-demographic-challenge/">KEIA - How APEC 2025 Laid the Path</a></td><td class="tier-2">Tier 2</td><td>Dec 2025</td><td>Korea's APEC 2025 hosting embedded demographic change into the architecture and positioned Korea to host the 2026 population policy forum.</td></tr>
+<tr><td id="src-5"><a href="https://www.imf.org/en/publications/reo/apac/issues/2025/10/24/regional-economic-outlook-for-asia-and-pacific-october-2025">IMF - Asia-Pacific Regional Economic Outlook, October 2025</a></td><td class="tier-1">Tier 1</td><td>Oct 2025</td><td>Ageing already dampens potential growth in post-dividend economies; consumption composition shifts toward old-age services.</td></tr>
+<tr><td id="src-6"><a href="https://amro-asia.org/wp-content/uploads/2026/04/AMRO-AREO-2026-Full-Report-.pdf">AMRO - ASEAN+3 Regional Economic Outlook 2026</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>ASEAN+3 4.0 per cent growth in 2026; intra-regional demand share 28 per cent of global final demand; ageing as binding medium-term constraint.</td></tr>
+<tr><td id="src-7"><a href="https://www.apec.org/press/news-releases/2025/apec-dialogue-called-for-regional-action-on-demographic-change">APEC - Dialogue Called for Regional Action on Demographic Change</a></td><td class="tier-1">Tier 1</td><td>Oct 2025</td><td>APEC senior officials' dialogue articulating the case for regional action; trail of policy intent that produced the Framework.</td></tr>
+<tr><td id="src-8"><a href="https://www.adb.org/publications/tapping-technology-maximize-longevity-dividend-asia">ADB - Tapping Technology to Maximize the Longevity Dividend</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Silver dividend counter-frame: ageing into 1.5 per cent GDP uplift via technology, extended working life, productivity investment.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 2: Higher Education in ASEAN</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-9"><a href="https://asean.org/our-communities/economic-community/services/aqrf/">ASEAN - AQRF programme page</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>AQRF as the regional reference framework for qualifications comparison; voluntary engagement does not require national QF changes.</td></tr>
+<tr><td id="src-10"><a href="https://www.unesco.org/en/articles/number-students-higher-education-more-doubled-20-years-inequalities-remain">UNESCO - Global Higher Education Trends Report announcement</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>Global HE enrolment 269 million in 2024; international mobility 7.3 million; intra-regional mobility shift documented.</td></tr>
+<tr><td id="src-11"><a href="https://www.share-asean.eu/activities/qualifications-reference-frameworks">SHARE EU-ASEAN - Qualifications Reference Frameworks</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>SHARE as the EU's flagship instrument supporting AQRF and AQAFHE implementation in ASEAN since 2015 with successive phases.</td></tr>
+<tr><td id="src-12"><a href="https://theaseanmagazine.asean.org/article/higher-education-the-asean-qualifications-reference-framework/">The ASEAN Magazine - AQRF analytical piece</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>AQRF supports mobility through voluntary architecture; slow-burn implementation reflects regulatory rather than direct mobility nature.</td></tr>
+<tr><td id="src-13"><a href="https://www.aunsec.org/">ASEAN University Network (AUN) Secretariat</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>AUN-ACTS credit transfer and AUN-QA quality assurance as the operational backbone for ASEAN intra-regional university mobility.</td></tr>
+<tr><td id="src-14"><a href="https://www.iesalc.unesco.org/en/articles/shaping-future-higher-education-launch-unescos-global-trends-report">UNESCO IESALC - Global HE Trends commentary</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Intra-regional mobility shift in HE; implication for AQRF / AQAFHE / AUN-ACTS as the levers determining whether ASEAN captures the wave.</td></tr>
+<tr><td id="src-15"><a href="https://asean.org/asean-to-facilitate-regional-recognition-of-qualifications/">ASEAN - facilitate regional recognition of qualifications</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Institutional commitment to regional qualifications recognition as the political baseline for the talent-mobility pillar of the AEC.</td></tr>
+<tr><td id="src-16"><a href="https://ojed.org/jise/article/view/1058/668">JISE - AUN in Enhancing Student Mobility</a></td><td class="tier-3">Tier 3</td><td>Evergreen</td><td>Intra-regional student mobility grew from 166,000 (2009) to 220,000 (2013); structural baseline (treated directionally).</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 3: Science, Technology, and Innovation in the Asia-Pacific</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-17"><a href="https://www.apec.org/meeting-papers/leaders-declarations/2025/2025-apec-leaders--gyeongju-declaration/apec-artificial-intelligence-(ai)-initiative-(2026-2030)">APEC AI Initiative (2026-2030)</a></td><td class="tier-1">Tier 1</td><td>Nov 2025</td><td>Three objectives (resilient growth, broad participation, energy-efficient infrastructure); annual joint DESG-TELWG reviews; final review 2030; Korea Asia-Pacific AI Center.</td></tr>
+<tr><td id="src-18"><a href="https://apec.org/press/news-releases/2026/economies-press-for-open-innovation-as-science--technology-and-ai-reshape-growth">APEC - Economies Press for Open Innovation (PPSTI 27th plenary)</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>PPSTI 2026 theme 'Fostering an Open and Collaborative Innovation Ecosystem'; three priorities; AI policy and green-and-digital transition workstreams.</td></tr>
+<tr><td id="src-19"><a href="https://www.apec.org/press/news-releases/2025/china-unveils-apec-2026-theme-and-priorities-in-shenzhen">APEC - China Unveils 2026 Theme and Priorities</a></td><td class="tier-1">Tier 1</td><td>Dec 2025</td><td>'Building an Asia-Pacific Community to Prosper Together'; openness, innovation, cooperation; Shenzhen Leaders' Week November 2026.</td></tr>
+<tr><td id="src-20"><a href="https://www.apec.org/press/news-releases/2026/apec-kicks-off-2026-meetings-to-advance-openness--innovation-and-cooperation">APEC - Kicks Off 2026 Meetings</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>SOM1 cycle launch under China's chair; FM Wang Yi policy address signalling host-year political weight.</td></tr>
+<tr><td id="src-21"><a href="https://thediplomat.com/2025/11/what-the-2025-apec-summit-means-for-south-koreas-ai-ambitions/">The Diplomat - South Korea's AI Ambitions</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>Korea's hosting strategy embedded a Korean-anchored Asia-Pacific AI Center as a regional knowledge hub.</td></tr>
+<tr><td id="src-22"><a href="https://www.atlanticcouncil.org/blogs/new-atlanticist/how-south-korea-advanced-its-trade-and-technology-agenda-at-the-apec-summit/">Atlantic Council - South Korea's APEC Summit Agenda</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>APEC's economic-only perimeter as the source of its credibility under intensifying US-China rivalry.</td></tr>
+<tr><td id="src-23"><a href="https://www.apec.org/groups/som-steering-committee-on-economic-and-technical-cooperation/working-groups/policy-partnership-on-science-technology-and-innovation">APEC PPSTI - programme hub</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>PPSTI three sub-groups providing the operational architecture for AI Initiative, low-carbon technology and university-industry collaboration workstreams.</td></tr>
+<tr><td id="src-24"><a href="https://thediplomat.com/2025/11/the-gyeongju-summit-was-a-turning-point-for-apec/">The Diplomat - Gyeongju Summit Was a Turning Point</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>Gyeongju moved APEC from a perceived low-point in 2024 to a substantive deliverable cycle on AI, demographics and cross-border trade restraint.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 4: Technology Needs Assessment for Net Zero</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-25"><a href="https://unfccc.int/ttclear/tna">UNFCCC - Technology Needs Assessment programme hub</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>TNA process: country-driven prioritisation producing Technology Action Plans; Phase III terminal evaluation in 2026.</td></tr>
+<tr><td id="src-26"><a href="https://unepccc.org/project/technology-needs-assessment-phase-iii/">UNEP-CCC - TNA Phase III project page</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Phase III covers ~30 Asia-Pacific countries; UNEP-CCC works with regional centres; terminal evaluation expected 2026.</td></tr>
+<tr><td id="src-27"><a href="https://unepccc.org/publications/regional-technology-brief-asia-pacific/">UNEP-CCC - Regional Technology Brief: Asia Pacific</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Asia-Pacific TNA priority pattern: mitigation in renewables / efficiency / transport / waste; adaptation in water / agriculture / coast; barriers in financing, regulation, capacity, IPR.</td></tr>
+<tr><td id="src-28"><a href="https://aseanenergy.org/publications/asean-energy-in-2026">ACE - ASEAN Energy in 2026</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>APAEC 2026-2030 begins implementation; 8/10 AMS have mid-century net-zero targets; transition financing and grid investment are the binding operational questions.</td></tr>
+<tr><td id="src-29"><a href="https://www.adb.org/sites/default/files/2026-02/inclusive-energy-transitions-southeast-asia-beyond-agenda.pdf">ADB - Inclusive Energy Transitions in Southeast Asia</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>ADB co-financing for just-energy-transition: technology-transfer co-investment, coal-plant retirement, grid modernisation, labour-transition packages.</td></tr>
+<tr><td id="src-30"><a href="https://aseanenergy.org/publications/the-8th-asean-energy-outlook">ACE - 8th ASEAN Energy Outlook (AEO8)</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Four scenarios (BAS, ATS, RAS, CNS) with CNS charting 2050 net-zero path; ATS projects 28.9 per cent fossil-fuel reliance reduction by 2050.</td></tr>
+<tr><td id="src-31"><a href="https://iea.blob.core.windows.net/assets/ac357b64-0020-421c-98d7-f5c468dadb0f/SoutheastAsiaEnergyOutlook2024.pdf">IEA - Southeast Asia Energy Outlook 2024</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Coal 50 per cent of SEA electricity in 2023, 80 per cent of power-sector emissions; grid investment must double to ~USD 30 billion/yr by 2035.</td></tr>
+<tr><td id="src-32"><a href="https://www.renewableenergyasia.org/2026/05/middle-east-crisis-increases-southeast.html">Renewable Energy Asia / Eco-Business - Middle East crisis increases SEA coal risk</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>2026 Middle East energy crisis raises relative cost of LNG bridging fuels; political economy of transition shifts back toward coal in the near term.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 5: Regional political risk and supply-chain political economy</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-33"><a href="https://www.nbr.org/publication/aseans-unwanted-conflict-thailand-cambodia-border-hostilities-in-2025/">NBR - ASEAN's Unwanted Conflict</a></td><td class="tier-2">Tier 2</td><td>Aug 2025</td><td>ASEAN's inability to broker early resolution signals limits to the bloc's conflict-management capacity; economic spillover became the binding constraint on a faster resolution path.</td></tr>
+<tr><td id="src-34"><a href="https://amro-asia.org/wp-content/uploads/2025/11/Analytical-Note-Assessment-of-the-Impact-of-Cambodia-Thailand-Border-Conflicts-on-Cambodias-Economy_final_nov-17.pdf">AMRO - Cambodia-Thailand Border Conflict Impact Analytical Note</a></td><td class="tier-1">Tier 1</td><td>Nov 2025</td><td>~780,000 Cambodian workers returned home creating acute labour shortages in Thai construction, fishing, processed agriculture; Cambodia faces inflationary spiral on Thai capital-goods dependence.</td></tr>
+<tr><td id="src-35"><a href="https://logisticsviewpoints.com/2026/01/07/how-the-thailand-cambodia-border-conflict-is-creating-ripple-effects-across-global-manufacturing-supply-chains/">Logistics Viewpoints / ARC - Ripple Effects on Supply Chains</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>Cross-border logistics stalled; rerouting through Vietnam and Laos hiked transportation costs 25-40 per cent; ripple effects on regional electronics and apparel.</td></tr>
+<tr><td id="src-36"><a href="https://fulcrum.sg/the-economic-fallout-from-the-thailand-cambodia-border-conflict/">Fulcrum (ISEAS) - Economic Fallout</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>December 2025 ceasefire is fragile; economic spillover continues into 2026 with cross-border value-chain erosion.</td></tr>
+<tr><td id="src-37"><a href="https://www.csis.org/analysis/aligning-apec-beyond-trade-turmoil">CSIS - Aligning APEC Beyond Trade Turmoil</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>APEC's economic-only perimeter remains relevant when hard-security tensions push elsewhere; AI Initiative, Demographic Framework and energy-transition workstreams give APEC credible agenda.</td></tr>
+<tr><td id="src-38"><a href="https://www.iseas.edu.sg/wp-content/uploads/2026/03/State-of-Southeast-Asia-2026-Survey-Final.pdf">ISEAS - State of Southeast Asia 2026 Survey</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>2,008 ASEAN+TL opinion-makers surveyed; intensifying major-power rivalry, climate risks, domestic instability and transnational threats as binding concerns; ASEAN implementation gaps raised.</td></tr>
+<tr><td id="src-39"><a href="https://www.asiahouse.org/publications/annual-outlook-2026/">Asia House - Annual Outlook 2026</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>Asian governments actively securing supply chains, energy sources and critical components; tariff exposure concentrated in Thailand-side textiles and electronics.</td></tr>
+<tr><td id="src-40"><a href="https://amro-asia.org/interim-update-of-the-asean3-regional-economic-outlook-areo-june-2026">AMRO - June 2026 Interim AREO Update</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>ASEAN+3 growth maintained at 4.0 per cent in 2026; inflation revised up to 1.8 per cent on prolonged Middle East disruption; Strait of Hormuz risk and financial volatility downside.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim in the briefing that goes beyond what a cited source literally states, every cycle-over-cycle continuity claim (none this cycle, as it is the inaugural cycle for APEC), and any superlative or loaded language carrying analytical weight.</p>
+
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>None: this is the inaugural cycle for the APEC policy-strategy desk and no prior memory.json cycles exist. Any continuity language ('more substantive than any APEC cycle since 2019') is sourced to The Diplomat's reading rather than to a prior cycle of this brief.</p>
+
+<h4>Superlatives used</h4>
+<p>'Most substantive multi-year architecture since 2019' is the framing used by The Diplomat (source 24) and the Atlantic Council (source 22); the briefing carries the framing as their analytical reading rather than as the desk's independent claim. 'Most concrete near-term decisions' for the decarbonisation stack (Theme 4) is an analyst extrapolation across the APAEC 2026-2030, TNA Phase III evaluation and ADB just-transition financing signals; the underlying sources document each instrument's operational timetable but not the comparative judgment.</p>
+
+<h4>Analytical synthesis claims</h4>
+<p>The framing that the cycle has 'three response stacks' (demographic, technological, decarbonisation) plus a 'closing constraint' (regional political risk) is the briefing's interpretive structure rather than a structure carried by any single source. It is supported by source 17 (AI Initiative), source 1 (Demographic Framework), source 28 (APAEC 2026-2030) and source 37 (ISEAS Survey) but the four-way structuring is analyst synthesis.</p>
+<p>The judgment that the HRDWG-PPSTI joint workstream on AI capacity-building is 'currently un-owned' (Strategic Implication 1) reflects the absence of explicit cross-fora ownership in the AI Initiative and Demographic Framework texts the briefing cites. No source explicitly says the intersection is unowned; the claim is an inferred reading of two source texts side-by-side.</p>
+<p>The reading that 'ageing-as-binding-constraint' (IMF) and 'silver dividend' (ADB) are 'not mutually exclusive but pull in opposite policy directions' (Theme 1 and Audience Snapshot 4) is the briefing's analytical synthesis. The IMF October 2025 outlook and the ADB Aging Well / Longevity Dividend frames do not engage each other directly; the briefing surfaces the tension as a policy-strategy reading.</p>
+<p>The scenario matrix's 'four scenarios' are illustrative operating environments derived from the two named uncertainties; they are not forecasts and no single source endorses any of the four named scenarios.</p>
+</div>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 3 June 2026</p>
+
+</div>
+
+</body>
+</html>

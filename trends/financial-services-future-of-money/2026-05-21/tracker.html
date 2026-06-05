@@ -24,6 +24,12 @@
   .momentum-pill.accelerating { background: #c62828; }
   .momentum-pill.stable { background: #5a6478; }
   .momentum-pill.fading { background: #43a047; }
+  .heat-chip { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: middle; }
+  .heat-cool { background: #43a047; }
+  .heat-moderate { background: #f57c00; }
+  .heat-hot { background: #e65100; }
+  .heat-veryhot { background: #c62828; }
+  .mat-stage { border-bottom: 1px dotted #9aa3b2; cursor: help; }
   .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
   .cluster.opportunity { border-left-color: #43a047; }
   .cluster.risk { border-left-color: #c62828; }
@@ -98,56 +104,72 @@
 <h3>Momentum across the topic</h3>
 <table class="momentum-table">
 <thead>
-<tr><th>Signal</th><th>Direction</th><th>Evidence</th><th>Commentary</th></tr>
+<tr><th>Heat</th><th>Signal</th><th>Maturity</th><th>Timeframe</th><th>Evidence</th><th>Commentary</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>US stablecoin rulemaking machinery</td>
-<td><span class="momentum-pill accelerating">Accelerating</span></td>
-<td>Treasury and OCC GENIUS Act rules issued within past 45 days</td>
-<td>FinCEN and OFAC proposed stablecoin anti-money-laundering rules, with June comment deadlines (<a href="https://home.treasury.gov/news/press-releases/sb0435">U.S. Department of the Treasury</a>, April 2026).</td>
+<td><span class="heat-chip heat-veryhot" title="heat: very hot (very high impact x very likely likelihood)"></span></td>
+<td><strong>US stablecoin rulemaking machinery</strong></td>
+<td><span class="mat-stage" title="GENIUS Act primary rules in motion; Treasury, FinCEN and OFAC have all issued within the cycle (U.S. Treasury, April 2026)">maturing</span></td>
+<td>2026-2028</td>
+<td>Treasury and OCC GENIUS Act rules issued within past 45 days; FinCEN and OFAC stablecoin AML rules with June comment deadlines.</td>
+<td>FinCEN and OFAC proposed stablecoin anti-money-laundering rules, with June comment deadlines (<a href="https://home.treasury.gov/news/press-releases/sb0435" target="_blank" rel="noopener">U.S. Department of the Treasury</a>, April 2026).</td>
 </tr>
 <tr>
-<td>Bank deposit disintermediation evidence</td>
-<td><span class="momentum-pill accelerating">Accelerating</span></td>
-<td>5 sources; 3 within past 60 days vs 2 in prior 60-160 days</td>
-<td>New York Fed research finds the first evidence stablecoins compress partner-bank lending (<a href="https://www.newyorkfed.org/research/staff_reports/sr1185">Federal Reserve Bank of New York</a>, February 2026).</td>
+<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
+<td><strong>Bank deposit disintermediation evidence</strong></td>
+<td><span class="mat-stage" title="First empirical New York Fed evidence of partner-bank lending compression; pre-scale (NY Fed, February 2026)">emerging</span></td>
+<td>2026-2030</td>
+<td>5 sources; 3 within past 60 days vs 2 in prior 60-160 days.</td>
+<td>New York Fed research finds the first evidence stablecoins compress partner-bank lending (<a href="https://www.newyorkfed.org/research/staff_reports/sr1185" target="_blank" rel="noopener">Federal Reserve Bank of New York</a>, February 2026).</td>
 </tr>
 <tr>
-<td>Tokenised bank deposits</td>
-<td><span class="momentum-pill accelerating">Accelerating</span></td>
-<td>5 sources, Sept 2025 to May 2026; live UK and JPMorgan launches</td>
-<td>Six UK banks now run live tokenised sterling deposit transactions (<a href="https://www.ukfinance.org.uk/news-and-insight/press-release/uk-finance-announces-live-pilot-phase-deliver-tokenised-sterling">UK Finance</a>, September 2025).</td>
+<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
+<td><strong>Tokenised bank deposits</strong></td>
+<td><span class="mat-stage" title="Live UK and JPMorgan launches; multi-bank consortium running (UK Finance, September 2025)">maturing</span></td>
+<td>2026-2029</td>
+<td>5 sources, September 2025 to May 2026; live UK and JPMorgan launches.</td>
+<td>Six UK banks now run live tokenised sterling deposit transactions (<a href="https://www.ukfinance.org.uk/news-and-insight/press-release/uk-finance-announces-live-pilot-phase-deliver-tokenised-sterling" target="_blank" rel="noopener">UK Finance</a>, September 2025).</td>
 </tr>
 <tr>
-<td>Tokenised funds and on-chain MMFs</td>
-<td><span class="momentum-pill accelerating">Accelerating</span></td>
-<td>ECB: tokenised MMFs roughly doubled in 2025; fund launches in December</td>
-<td>Tokenised money market funds reached around 7 billion euro as JPMorgan launched its on-chain fund (<a href="https://www.ledgerinsights.com/jp-morgan-launches-tokenized-mmf-on-ethereum/">Ledger Insights</a>, December 2025).</td>
+<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
+<td><strong>Tokenised funds and on-chain MMFs</strong></td>
+<td><span class="mat-stage" title="ECB documents tokenised MMFs roughly doubled in 2025; JPMorgan on-chain fund launched December (Ledger Insights, December 2025)">maturing</span></td>
+<td>2026-2030</td>
+<td>ECB: tokenised MMFs roughly doubled in 2025; fund launches in December.</td>
+<td>Tokenised money market funds reached around 7 billion euro as JPMorgan launched its on-chain fund (<a href="https://www.ledgerinsights.com/jp-morgan-launches-tokenized-mmf-on-ethereum/" target="_blank" rel="noopener">Ledger Insights</a>, December 2025).</td>
 </tr>
 <tr>
-<td>Wholesale central bank settlement rails</td>
-<td><span class="momentum-pill accelerating">Accelerating</span></td>
-<td>ECB Appia roadmap March 2026; Pontes settlement live from September</td>
-<td>The ECB will settle tokenised assets in central bank money via Pontes from September (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html">European Central Bank</a>, May 2026).</td>
+<td><span class="heat-chip heat-hot" title="heat: hot (very high impact x likely likelihood)"></span></td>
+<td><strong>Wholesale central bank settlement rails</strong></td>
+<td><span class="mat-stage" title="ECB Appia roadmap March 2026; Pontes settlement live from September (ECB, May 2026)">emerging</span></td>
+<td>2026-2030</td>
+<td>ECB Appia roadmap March 2026; Pontes settlement live from September.</td>
+<td>The ECB will settle tokenised assets in central bank money via Pontes from September (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260508~dd909fbed1.en.html" target="_blank" rel="noopener">European Central Bank</a>, May 2026).</td>
 </tr>
 <tr>
-<td>Retail digital euro and pound</td>
-<td><span class="momentum-pill stable">Stable</span></td>
-<td>Even spread across the window; multi-year build, no inflection this cycle</td>
-<td>The Eurosystem prepares toward possible issuance near 2029 as the UK pivots toward stablecoins (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260324~66f71f7577.en.html">European Central Bank</a>, March 2026).</td>
+<td><span class="heat-chip heat-moderate" title="heat: moderate (high impact x likely likelihood)"></span></td>
+<td><strong>Retail digital euro and pound</strong></td>
+<td><span class="mat-stage" title="Multi-year build; Eurosystem prepares toward possible issuance near 2029; UK pivot toward stablecoins (ECB, March 2026)">emerging</span></td>
+<td>2027-2032</td>
+<td>Even spread across the window; multi-year build, no inflection this cycle.</td>
+<td>The Eurosystem prepares toward possible issuance near 2029 as the UK pivots toward stablecoins (<a href="https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260324~66f71f7577.en.html" target="_blank" rel="noopener">European Central Bank</a>, March 2026).</td>
 </tr>
 <tr>
-<td>Agent-initiated payments</td>
-<td><span class="momentum-pill accelerating">Accelerating</span></td>
-<td>Visa program March 2026; IMF note April; sources within 65 days</td>
-<td>Visa enrolled 21 banks to test AI-agent payments; the IMF mapped the settlement risks (<a href="https://www.pymnts.com/artificial-intelligence-2/2026/visa-launches-agentic-ready-program-to-help-banks-test-ai-payments/">PYMNTS</a>, March 2026).</td>
+<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
+<td><strong>Agent-initiated payments</strong></td>
+<td><span class="mat-stage" title="Visa enrolled 21 banks; IMF April 2026 settlement-risk note; first standards in formation (PYMNTS, March 2026)">emerging</span></td>
+<td>2026-2030</td>
+<td>Visa program March 2026; IMF note April; sources within 65 days.</td>
+<td>Visa enrolled 21 banks to test AI-agent payments; the IMF mapped the settlement risks (<a href="https://www.pymnts.com/artificial-intelligence-2/2026/visa-launches-agentic-ready-program-to-help-banks-test-ai-payments/" target="_blank" rel="noopener">PYMNTS</a>, March 2026).</td>
 </tr>
 <tr>
-<td>Cashless transition</td>
-<td><span class="momentum-pill fading">Fading</span></td>
-<td>Fed Diary: payment mix consistent three years; cash third for sixth year</td>
-<td>The Fed's 2026 diary finds cash steady at about one in seven payments (<a href="https://www.frbservices.org/news/press-releases/051126-findings-2026-diary-consumer-payment-choice">Federal Reserve Financial Services</a>, May 2026).</td>
+<td><span class="heat-chip heat-cool" title="heat: cool (low impact x very likely likelihood)"></span></td>
+<td><strong>Cashless transition</strong></td>
+<td><span class="mat-stage" title="Fed Diary: payment mix consistent three years; cash third for sixth year; plateau (Fed Financial Services, May 2026)">maturing</span></td>
+<td>2026-2035</td>
+<td>Fed Diary: payment mix consistent three years; cash third for sixth year.</td>
+<td>The Fed's 2026 diary finds cash steady at about one in seven payments (<a href="https://www.frbservices.org/news/press-releases/051126-findings-2026-diary-consumer-payment-choice" target="_blank" rel="noopener">Federal Reserve Financial Services</a>, May 2026).</td>
 </tr>
 </tbody>
 </table>

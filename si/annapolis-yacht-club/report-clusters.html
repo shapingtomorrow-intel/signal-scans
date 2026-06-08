@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token five, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>The Tide and the Member: AYC's Next Five Years: Annapolis Yacht Club Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 30%; }
+  .source-register col.col-tier { width: 10%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 48%; }
+  .source-register td { word-wrap: break-word; overflow-wrap: break-word; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; ANNAPOLIS YACHT CLUB</div>
+<h1 class="report-title">The Tide and the Member: AYC's Next Five Years</h1>
+<div class="meta">
+7 June 2026 &middot; Audience: Annapolis Yacht Club Board (Flag Officers, Treasurer and Finance Committee, House &amp; Properties Committee, General Manager) &middot; Horizon: 2 to 5 years<br>
+<span style="font-size: 0.92em;">Read estimate: 1 min At a Glance &middot; 2 min Executive Synthesis &middot; 24 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five strategic currents converging on Annapolis Yacht Club: the waterfront and chronic flooding, coastal insurance and the NFIP cliff, the Chesapeake Bay environmental trajectory, the private-club demographic reset, and the marine workforce.">
+  <defs>
+    <linearGradient id="ayc-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0382FC"/><stop offset="1" stop-color="#1a237e"/></linearGradient>
+    <pattern id="ayc-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M 14 0 L 0 0 0 14" stroke="#eef2f7" stroke-width="0.5" fill="none"/></pattern>
+  </defs>
+  <rect width="340" height="300" fill="url(#ayc-grid)"/>
+  <path d="M 0,260 Q 60,255 120,260 T 240,260 T 340,258 L 340,300 L 0,300 Z" fill="#cfe2f3" opacity="0.7"/>
+  <path d="M 0,265 Q 80,260 160,266 T 340,264 L 340,300 L 0,300 Z" fill="#9fc5e8" opacity="0.5"/>
+  <path d="M 30,90 Q 50,150 90,170" stroke="#c62828" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text x="20" y="80" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-weight="700">Waterfront</text>
+  <path d="M 90,40 Q 110,110 140,165" stroke="#f57c00" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text x="80" y="32" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#f57c00" font-weight="700">Insurance</text>
+  <path d="M 170,40 Q 170,110 170,170" stroke="#2e7d32" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text x="155" y="32" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#2e7d32" font-weight="700">The Bay</text>
+  <path d="M 250,40 Q 230,110 200,165" stroke="#1e88e5" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text x="232" y="32" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#1e88e5" font-weight="700">Members</text>
+  <path d="M 310,90 Q 290,150 230,170" stroke="#7e57c2" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text x="276" y="80" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7e57c2" font-weight="700">Workforce</text>
+  <rect x="120" y="170" width="100" height="55" rx="10" fill="url(#ayc-grad)"/>
+  <text x="170" y="195" text-anchor="middle" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700">AYC</text>
+  <text x="170" y="212" text-anchor="middle" fill="#cfd9ec" font-family="Helvetica, Arial, sans-serif" font-size="9" font-style="italic">2026-2030</text>
+  <text x="170" y="285" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#1a237e" font-style="italic">Five currents meeting at the Severn waterfront.</text>
+</svg>
+<p class="figure-caption">Five strategic currents (waterfront, insurance, the Bay, members, workforce) converge on the club's Severn River bulkhead. The cycle's question is whether they are managed in parallel or as one programme.</p>
+</div>
+</div>
+
+<div class="at-a-glance">
+<h3>At a glance</h3>
+<p>The next five years at AYC resolve into a single operational question. The club sits on a waterfront that is undergoing the largest infrastructure intervention in modern Annapolis history: the $88M City Dock Resiliency Project broke ground on 3 November 2025 and runs into 2028, just as NOAA projects six to 10 high-tide flood days at the Annapolis gauge in the current meteorological year and the Resilience Authority's Annapolis Maritime Resilience Initiative (AMRI) released its 10-site Phase I concept design in January 2026. The decade's question is whether the club leans into the resilience build at its doorstep, or treats it as an external constraint to be managed.</p>
+<p>Three other forces sit alongside the waterfront question. The NFIP authorisation expires 30 September 2026 unless Congress reauthorises, and Maryland's coastal property insurance market is hardening at renewal. The Chesapeake Bay is in a measurable recovery phase: the 2026 dead-zone forecast ranks among the lowest 10% on record, and the 10-tributary oyster restoration target was hit by end-2025. And the private-club demographic landscape is in inflection: country-club waitlists up 24% since 2019, Gen Z's oldest are 29 and seek 'third places', and the scarcity-marketing playbook is giving way to a belonging-and-sailing-first model that yacht clubs internationally are codifying.</p>
+<p><strong>The one thing to take into the next meeting:</strong> the binding question is whether AYC treats the 2026-2028 City Dock construction window as a sequence of operational disruptions or as the once-in-a-generation moment to align the club's facility, insurance, member-experience and youth-sailing strategy around a single resilience-and-relevance narrative. Watch the AMRI Spa Creek and Back Creek Phase II funding cycle through autumn 2026 as the early signal.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">Will AYC use the 2026-2028 City Dock construction window as a programme of disruptions to be managed, or as the once-in-a-generation moment to align facility, insurance, member experience and youth sailing around a single resilience-and-relevance narrative?</p>
+<p class="sit-up-warrant">The five forces shaping the next decade for the club are converging now; the architecture for an integrated response is being built around the club rather than by it.</p>
+</div>
+
+
+<div class="report-figure">
+<h4>The 2025-2028 convergence: binding events stacking in AYC's operating window</h4>
+<svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Horizontal timeline showing the binding events stacking in AYC's 2025 to 2028 operating window: City Dock groundbreaking November 2025, AMRI Phase I January 2026, mild dead-zone forecast May 2026, NFIP authorisation cliff September 2026, the City Dock construction window extending across the timeline, and the City Dock completion in 2028.">
+  <defs>
+    <pattern id="ayc-fig2-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M 14 0 L 0 0 0 14" stroke="#eef2f7" stroke-width="0.5" fill="none"/></pattern>
+  </defs>
+  <rect width="700" height="280" fill="url(#ayc-fig2-grid)"/>
+
+  <!-- Title -->
+  <text x="350" y="22" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a237e" font-weight="700">Five binding events in a three-year window</text>
+
+  <!-- Construction-window band (background) -->
+  <rect x="80" y="100" width="540" height="40" fill="#e8edf6" rx="6"/>
+  <text x="350" y="125" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" font-weight="600">$88M City Dock Resiliency construction window</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="180" x2="660" y2="180" stroke="#5a6478" stroke-width="1.4"/>
+
+  <!-- Year tick labels -->
+  <line x1="80" y1="176" x2="80" y2="184" stroke="#5a6478" stroke-width="1.4"/>
+  <text x="80" y="200" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">2025</text>
+  <line x1="225" y1="176" x2="225" y2="184" stroke="#5a6478" stroke-width="1.4"/>
+  <text x="225" y="200" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">2026</text>
+  <line x1="370" y1="176" x2="370" y2="184" stroke="#5a6478" stroke-width="1.4"/>
+  <text x="370" y="200" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">2027</text>
+  <line x1="515" y1="176" x2="515" y2="184" stroke="#5a6478" stroke-width="1.4"/>
+  <text x="515" y="200" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">2028</text>
+  <line x1="660" y1="176" x2="660" y2="184" stroke="#5a6478" stroke-width="1.4"/>
+  <text x="660" y="200" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="700">2029</text>
+
+  <!-- Event dots: x position calculated for month within timeline (2025-2029, ~145px per year) -->
+
+  <!-- Nov 2025 City Dock groundbreaking (x = 80 + (10/12)*145 = 80 + 120.8 = 200.8) -->
+  <circle cx="201" cy="180" r="6" fill="#c62828"/>
+  <line x1="201" y1="174" x2="201" y2="80" stroke="#c62828" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="135" y="50" width="135" height="30" fill="#ffebee" stroke="#c62828" stroke-width="1" rx="4"/>
+  <text x="202" y="63" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-weight="700">Nov 2025</text>
+  <text x="202" y="74" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#a62020">City Dock groundbreaking</text>
+
+  <!-- Jan 2026 AMRI Phase I (x = 225 + (0/12)*145 = 225) -->
+  <circle cx="225" cy="180" r="5" fill="#f57c00"/>
+
+  <!-- May 2026 dead-zone forecast (x = 225 + (4/12)*145 = 225 + 48.3 = 273.3) -->
+  <circle cx="273" cy="180" r="5" fill="#2e7d32"/>
+
+  <!-- Sept 30 2026 NFIP cliff (x = 225 + (9/12)*145 = 225 + 108.75 = 333.75) -->
+  <circle cx="334" cy="180" r="7" fill="#c62828"/>
+  <line x1="334" y1="174" x2="334" y2="80" stroke="#c62828" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="295" y="50" width="135" height="30" fill="#ffebee" stroke="#c62828" stroke-width="1" rx="4"/>
+  <text x="362" y="63" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-weight="700">30 Sep 2026</text>
+  <text x="362" y="74" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#a62020">NFIP authorisation expires</text>
+
+  <!-- Late 2028 City Dock completion (x = 515 + (11/12)*145 = 515 + 132.9 = 647.9) ~ end of 2028 -->
+  <circle cx="620" cy="180" r="7" fill="#1a237e"/>
+  <line x1="620" y1="174" x2="620" y2="80" stroke="#1a237e" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="535" y="50" width="125" height="30" fill="#e8edf6" stroke="#1a237e" stroke-width="1" rx="4"/>
+  <text x="597" y="63" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#1a237e" font-weight="700">~2028</text>
+  <text x="597" y="74" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#1a237e">City Dock completion</text>
+
+  <!-- Annotations for the two smaller dots (Jan + May 2026) -->
+  <line x1="225" y1="186" x2="225" y2="225" stroke="#5a6478" stroke-width="0.6" stroke-dasharray="2 2"/>
+  <text x="225" y="238" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#f57c00" font-weight="600">AMRI Phase I</text>
+  <text x="225" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478">Jan 2026</text>
+
+  <line x1="273" y1="186" x2="273" y2="225" stroke="#5a6478" stroke-width="0.6" stroke-dasharray="2 2"/>
+  <text x="273" y="262" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-weight="600">Bay dead-zone forecast</text>
+  <text x="273" y="273" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478">May 2026</text>
+
+</svg>
+<p class="figure-caption">The City Dock construction window (light blue band) runs across most of the cycle horizon; inside it land the NFIP reauthorisation cliff (30 September 2026), the AMRI Phase I concept design, and the favourable Bay dead-zone forecast. Each event is independent; together they form the integrating frame the cycle puts to the board.</p>
+</div>
+
+<div class="pullquote">The binding question is whether AYC treats the 2026-2028 City Dock construction window as a sequence of operational disruptions or as the once-in-a-generation moment to align facility, insurance, member experience and youth sailing around a single resilience-and-relevance narrative.</div>
+
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The single most consequential assumption underneath the cycle is that the City Dock construction window proceeds on its three-year plan. The project has experienced years of delay already; the 2025 groundbreaking followed five years of design and consultation. A construction-stage slip into 2029 or beyond would not change AYC's strategic exposure but would prolong the operating-environment disruption (access, parking, sight lines, boat-show logistics) by at least a year. The flood-mitigation deliverables and the Maritime Welcome Center would arrive later, but the chronic flooding underneath does not pause.</p>
+<p>A second assumption is that the NFIP reauthorisation either lands by 30 September 2026 or lapses briefly without structural reform. The historical pattern (35 short-term reauthorisations since FY2017) supports a brief-lapse-then-renew outcome rather than a substantive reform package. The reading should not over-index on either pole: a substantive reform package would change the premium environment materially; a brief lapse changes very little operationally but does affect 2027 property closings for any club members buying or selling waterfront property.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Treat the City Dock window as a programme, not a parade of disruptions.</strong> Convene a House &amp; Properties working group on the City Dock interface that meets monthly through construction (2026-2028). The group's brief: align AYC's dock, bulkhead and member-access decisions with the city's phase plan, including coordination with the Maritime Welcome Center and Harbormaster relocation. Stand up the working group by end-Q3 2026.</li>
+<li><strong>Open a member-facing dialogue on insurance and resilience.</strong> The NFIP reauthorisation cliff lands inside the budget cycle. A short member briefing in Q4 2026 covering NFIP status, Maryland coastal market trajectory, AYC's facility-insurance position and member options on private flood coverage would translate a national policy event into membership-relevant information. The Treasurer and Finance Committee own the brief.</li>
+<li><strong>Frame the next membership cycle around belonging and sailing, not scarcity.</strong> The industry inflection from scarcity marketing to 'evolution of belonging' is documented across all the 2026 trend reports. AYC's racing identity, the junior programme and the US Sailing Reach pathway are the operating assets for the belonging-and-sailing-first model. The Membership Committee should review the recruitment narrative and the fee architecture against this frame at the FY27 plan stage.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per role inside AYC&rsquo;s leadership. Each card surfaces the one question this cycle puts to that role.</p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">Commodore &amp; Flag Officers</span>
+<h4>Does the club lead the resilience-and-relevance narrative, or react to it as City Dock construction proceeds at the doorstep?</h4>
+<p><strong>The shift:</strong> Five strategic currents converge at the AYC waterfront simultaneously through 2026-2028; the architecture for an integrated response is being built around the club rather than by it.</p>
+<p><strong>The question to brief:</strong> Should the next Commodore's cycle make the City Dock window the integrating frame for the FY27 and FY28 plans, or keep the facility, insurance, member-experience and youth-sailing portfolios on separate tracks?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">General Manager</span>
+<h4>How does the General Manager protect and improve the member experience through three years of construction, a hardening labour market and an inflecting member demographic?</h4>
+<p><strong>The shift:</strong> Construction-stage access disruption, $25 minimum-wage legislative pressure (HB 1229 / SB 886), and Gen Z's belonging-and-sailing-first preference all land inside the day-to-day operations the GM owns.</p>
+<p><strong>The question to brief:</strong> Should the operations roadmap be rewritten to use the construction window as a hospitality-and-programming reset, or kept on the current trajectory with mitigation tactics?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Treasurer &amp; Finance Committee</span>
+<h4>How does the Treasurer position the club's balance sheet, insurance and capital plan against the NFIP cliff and the Maryland coastal-insurance hardening?</h4>
+<p><strong>The shift:</strong> NFIP authorisation expires 30 September 2026; private flood market is opening; Maryland insurers are tightening renewal documentation. The financial-exposure architecture is in motion inside the budget cycle.</p>
+<p><strong>The question to brief:</strong> Should the Finance Committee commission an independent insurance review for the FY27 budget, and what reserves posture is appropriate against potential NFIP brief lapse plus elevated renewal costs?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">House &amp; Properties Committee</span>
+<h4>Does the House Committee align AYC's facility plan with the City Dock and AMRI architecture, or run a parallel facility-improvement programme?</h4>
+<p><strong>The shift:</strong> The Resilience Authority's AMRI Phase I concept design covers 10 top sites in the Spa Creek and Back Creek watersheds; the architecture for federally and state-funded resilience investment around AYC is being designed now.</p>
+<p><strong>The question to brief:</strong> Should the House Committee actively coordinate with the Resilience Authority and the city's project office to make AYC's bulkhead, dock and access integral to the broader Eastport resilience programme rather than adjacent to it?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<div class="signal-clusters">
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes, ranked by impact on Annapolis Yacht Club's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 club plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Annapolis Yacht Club's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<!-- Theme 1 -->
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Chronic flooding, City Dock and the AYC waterfront</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The waterfront the club sits on is presently undergoing the largest infrastructure intervention in modern Annapolis history. The $88M <a href="https://www.chesapeakebaymagazine.com/annapolis-breaks-ground-on-city-dock-resiliency-project-after-opposition-delays/" target="_blank" rel="noopener">City Dock Resiliency Project</a> broke ground 3 November 2025 and runs into 2028 in phased construction. NOAA projects six to 10 flood days at the Annapolis gauge in the current meteorological year; portions of City Dock are already underwater 50-60 days a year. The chronic flooding underneath is the slow-moving force; the construction window is the operational shock; together they reshape three years of AYC's harbour environment.</p>
+<div class="report-figure">
+<h4>The chronic flooding underneath: Annapolis tidal-flood days, 1970 to 2050</h4>
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing the trajectory of Annapolis tidal flood days per year: about 3 to 4 days in the 1970s, 50 to 60 days at City Dock today, 20 to 25 days projected by 2030 for the nine Bay communities tracked by NOAA, and 120 to 170 days projected by 2050. Source: NOAA, Union of Concerned Scientists, Bay Journal.">
+  <defs>
+    <pattern id="ayc-fig1-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M 14 0 L 0 0 0 14" stroke="#eef2f7" stroke-width="0.5" fill="none"/></pattern>
+  </defs>
+  <rect width="700" height="320" fill="url(#ayc-fig1-grid)"/>
+
+  <!-- Axes -->
+  <line x1="80" y1="40" x2="80" y2="260" stroke="#5a6478" stroke-width="1"/>
+  <line x1="80" y1="260" x2="660" y2="260" stroke="#5a6478" stroke-width="1"/>
+
+  <!-- Y-axis tick labels -->
+  <text x="75" y="263" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">0</text>
+  <text x="75" y="200" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">50</text>
+  <text x="75" y="140" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">100</text>
+  <text x="75" y="80" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">150</text>
+  <text x="55" y="155" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" transform="rotate(-90 55 155)">days per year</text>
+
+  <!-- Bars: x=year midpoint, width=80 -->
+  <!-- 1970s baseline: 3-4 days -->
+  <rect x="120" y="252" width="60" height="8" fill="#43a047" rx="2"/>
+  <text x="150" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="600">~1970</text>
+  <text x="150" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">3-4 days</text>
+
+  <!-- 2025 City Dock: 50-60 days -->
+  <rect x="260" y="194" width="60" height="66" fill="#f57c00" rx="2"/>
+  <text x="290" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="600">2025</text>
+  <text x="290" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">50-60 days (City Dock)</text>
+
+  <!-- 2030 projected: ~22 days Bay-wide; 6-10 at Annapolis gauge for 25-26 -->
+  <rect x="400" y="230" width="60" height="30" fill="#e65100" rx="2"/>
+  <text x="430" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="600">2030</text>
+  <text x="430" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">20-25 days (projected, Bay)</text>
+
+  <!-- 2050 projected: 120-170 days -->
+  <rect x="540" y="80" width="60" height="180" fill="#c62828" rx="2"/>
+  <text x="570" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-weight="600">2050</text>
+  <text x="570" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">120-170 days (projected)</text>
+
+  <!-- Annotation: current City Dock -->
+  <line x1="150" y1="252" x2="180" y2="232" stroke="#5a6478" stroke-width="0.6" stroke-dasharray="2 2"/>
+  <text x="195" y="232" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">Half-century</text>
+  <text x="195" y="244" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">baseline</text>
+
+  <line x1="290" y1="194" x2="320" y2="160" stroke="#5a6478" stroke-width="0.6" stroke-dasharray="2 2"/>
+  <text x="332" y="160" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">~15x increase</text>
+  <text x="332" y="172" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">since 1970</text>
+
+  <!-- Title -->
+  <text x="350" y="25" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1a237e" font-weight="700">A 30-fold widening: tidal flooding at Annapolis</text>
+
+  <!-- Source -->
+  <text x="660" y="312" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" font-style="italic">Source: NOAA Tides &amp; Currents; Union of Concerned Scientists; Bay Journal</text>
+</svg>
+<p class="figure-caption">Tidal flooding at Annapolis has gone from a once-a-quarter event in the 1970s to a routine 50-60-day-a-year event at City Dock today. NOAA projects 20-25 flood days a year across the nine Bay communities tracked by 2030 and 120-170 days by 2050. The City Dock Resiliency Project is being built against this trajectory, not against the past.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li><strong>City Dock groundbreaking:</strong> $88M project broke ground 3 November 2025 with outgoing Mayor Buckley presiding; raised waterfront park, flood gates, deployable barriers, restored Burtis House, new Maritime Welcome Center housing the Harbormaster.</li>
+<li><strong>NOAA 2025-2026 flood-day projection:</strong> Six to 10 high-tide flood days at the Annapolis gauge in the current meteorological year; 20-25 days projected by 2030 and 120-170 by 2050 across Bay communities (<a href="https://tidesandcurrents.noaa.gov/high-tide-flooding/annual-outlook.html" target="_blank" rel="noopener">NOAA Tides &amp; Currents</a>).</li>
+<li><strong>AMRI Phase I concept design:</strong> The <a href="http://resilienceauthority.org/annapolis-maritime-resilience-initiative-amri/" target="_blank" rel="noopener">Annapolis Maritime Resilience Initiative</a> released January 2026 Phase I report covering ten top sites in the Spa Creek and Back Creek watersheds; designs intended to guide fundraising. Eastport-and-AYC focus implicit.</li>
+<li><strong>Federal funding architecture:</strong> <a href="https://www.fema.gov/sites/default/files/documents/fema_oehp_hmgp-4491-0043-md-annapolis-city-dock-dea-20250620.pdf" target="_blank" rel="noopener">FEMA HMGP Environmental Assessment</a> dated 20 June 2025 documents federal grant architecture supporting the project; $35M FEMA funds released.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>A more cautious reading is that the construction window's disruption (parking, sightlines, boat-show coordination, dust, noise) will dominate the next three years of member experience regardless of the long-term resilience benefit, and the club should optimise for protecting the existing member experience rather than treating the window as integrating opportunity. The risk in over-integrating with the city's programme is that AYC inherits coordination overhead it does not control; the risk in under-integrating is that AYC's bulkhead and dock decisions land outside an architecture that will then shape the waterfront for thirty years. The honest reading carries both views.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The city's pledge to keep City Dock accessible for the boat shows signals a willingness to coordinate at the operational level that AYC could leverage for racing-event protection too.</li>
+<li><span class="weak-signal-marker">weak</span>The relocation of the Harbormaster's office into the new Maritime Welcome Center changes the operational interface with whoever runs that office over the next decade; relationship-management implications for AYC are non-trivial.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 1 informs Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<!-- Theme 2 -->
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Coastal property insurance and the NFIP reauthorisation window</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">NFIP authorities expire at 11:59 pm on 30 September 2026 unless Congress reauthorises. The Maryland coastal market is hardening: water-adjacent Anne Arundel properties often exceed $200/month before flood coverage; insurers are requiring documented elevation and roof condition at renewal. Private flood markets are opening as a viable substitute for higher-value coastal properties. AYC's facility insurance, the club's own flood coverage and the residual exposure on member-owned vessels at the dock all sit inside this turning market.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>NFIP reauthorisation cliff:</strong> Authorities expire 30 September 2026 unless reauthorised; NAR estimates a lapse would impact roughly 40,000 closings per month nationally (<a href="https://www.nar.realtor/flood-insurance/faq-national-flood-insurance-program-expires-september-30-2026" target="_blank" rel="noopener">NAR FAQ</a>).</li>
+<li><strong>NFIP reform vehicle live:</strong> <a href="https://www.congress.gov/bill/119th-congress/house-bill/5484/text" target="_blank" rel="noopener">H.R.5484</a> would cap annual premium increases, add affordability provisions, increase mitigation investment, require risk-rating transparency. Bill is the principal reform vehicle inside the 119th Congress.</li>
+<li><strong>Maryland coastal market hardening:</strong> Water-adjacent properties in Anne Arundel often exceed $200/month before flood coverage; insurers requiring documented elevation, roof and property-condition at renewal (<a href="https://coveragepriceguide.com/state-of-maryland-home-insurance-cost-guide/" target="_blank" rel="noopener">Coverage Price Guide 2026</a>).</li>
+<li><strong>Private flood market opening:</strong> <a href="https://www.insurancejournal.com/news/national/2026/01/29/856104.htm" target="_blank" rel="noopener">Insurance Journal January 2026</a> documents private flood insurers reading the NFIP lapse threat as a competitive opening; market structure for private flood coverage is hardening into a viable substitute.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The historical pattern of 35 short-term NFIP reauthorisations since FY2017 strongly suggests the 30 September 2026 cliff will produce a short technical lapse and a renewal rather than substantive reform. The Treasurer's response should weight this base case over the more dramatic reform scenarios. The counter-position is that the affordability crisis is now acute enough at the national level that the 30 September 2026 reauthorisation is the most likely moment for substantive reform since Biggert-Waters in 2012; if so, premium-cap language, mitigation incentives and risk-rating transparency could shape the FY28 budget materially. The desk should hold both views.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The renewal-documentation hardening in Maryland (roof, elevation, property condition) creates a small but real informational asymmetry that AYC can resolve through proactive engineering documentation of facility flood resilience.</li>
+<li><span class="weak-signal-marker">weak</span>Private flood market entry creates new competitive options that did not exist five years ago; the Treasurer should know which carriers are active in the Annapolis market by Q4 2026.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 2 informs Strategic Implication <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<!-- Theme 3 -->
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. The Chesapeake Bay environmental trajectory</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The Bay is in a measurable recovery phase. The 2026 dead-zone forecast ranks among the lowest 10% of years since the 1985 monitoring baseline. The 10-tributary oyster restoration target was hit by end of 2025 across 2,400+ acres of healthy reef. The sailing-and-recreation experience that defines AYC's core member value is improving on measurable indicators, even as long-term sea-level rise hardens the chronic-flood signal underneath the facility theme.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>2026 dead-zone forecast:</strong> Severity predicted among lowest 10% of years since 1985; about 31% below long-term average; reduced nitrogen loads (39% lower than average) and reduced river flow (32% below average) drive the favourable outlook (<a href="https://news.wm.edu/2026/05/27/scientists-forecast-milder-chesapeake-bay-dead-zone-in-2026/" target="_blank" rel="noopener">William &amp; Mary VIMS</a>).</li>
+<li><strong>Oyster restoration milestone:</strong> NOAA and partners hit the 10-tributary goal by end of 2025; 2,400+ acres of healthy reef; each oyster filters 3-12 gallons of water per day (<a href="https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress" target="_blank" rel="noopener">NOAA Fisheries</a>).</li>
+<li><strong>Maryland targeted replenishment:</strong> <a href="https://conduitstreet.mdcounties.org/2026/03/02/advancing-bay-restoration-and-coastal-resilience-with-targeted-oyster-replenishment/" target="_blank" rel="noopener">Maryland-led oyster replenishment programme</a> advancing through 2026; supports both water-quality and coastal-resilience objectives including shoreline stabilisation.</li>
+<li><strong>Local water-quality reporting:</strong> Anne Arundel County Department of Health <a href="https://www.aahealth.org/environmental-health/recreational-water-quality/water-quality-report" target="_blank" rel="noopener">recreational-water-quality reporting</a> is the daily condition signal for water-contact decisions.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The Chesapeake Bay Foundation cautions that the 2026 mild-dead-zone forecast partly reflects dry weather rather than structural watershed-policy gains: reading the forecast as confirmation of policy success is an over-read. The structural counter-point is that long-term sea-level rise (Theme 1) and watershed-policy execution remain the binding constraints on the Bay's trajectory; one good forecast year does not reverse the multi-decade signal. AYC should celebrate the recreational-use signal but not extrapolate to a recovery narrative the broader evidence does not yet support.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The shoreline-stabilisation co-benefit of oyster reef restoration may create unexpected interaction with AMRI's Spa Creek and Back Creek resilience designs; the House Committee should track this intersection.</li>
+<li><span class="weak-signal-marker">weak</span>The intersection of UMCES sea-level rise projections and Maryland's oyster-restoration programme creates a state-level analytical baseline AYC can reference rather than rebuild internally.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 3 informs Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<!-- Theme 4 -->
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Private-club demographics: the Millennial / Gen Z reset</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The private-club industry has reached an inflection. Country-club waitlists are up 24% since 2019; the median visitor age has dropped by nearly 8 years at some clubs; Gen Z's oldest are 29 in 2026 and explicitly seek 'third places'. The 2026 trend reports document the move from pandemic-fuelled scarcity marketing toward what the industry calls 'the evolution of belonging'. The yacht-club-specific framing is that culture rather than amenities generates resilience; clubs that commit to sailing-as-identity thrive.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>2026 industry trend baseline:</strong> <a href="https://privateclubmarketing.com/the-evolution-of-belonging-10-membership-marketing-trends-reshaping-private-golf-country-clubs-in-2026/" target="_blank" rel="noopener">Private Club Marketing's 2026 report</a> aggregates data from 1,200 clubs; identifies 10 critical membership-marketing trends; documents the post-scarcity-marketing inflection.</li>
+<li><strong>Waitlist growth and visitor-age drop:</strong> Country-club waitlists up 24% since 2019; median visitor age dropped nearly 8 years at some clubs; median initiation fees for clubs with golf rose $21k since 2019 (<a href="https://www.geckohospitality.com/country-club-trends/" target="_blank" rel="noopener">Gecko Hospitality</a>).</li>
+<li><strong>Gen Z third-place framing:</strong> Oldest Gen Z are 29 in 2026; explicitly seeking third places that are neither home nor work; valuing authenticity over formality, organic interaction over assigned-seating events (<a href="https://privateclubmarketing.com/the-new-guard-how-generation-z-is-quietly-reshaping-private-club-culture/" target="_blank" rel="noopener">Private Club Marketing</a>).</li>
+<li><strong>Yacht-club-specific reading:</strong> <a href="https://www.icoyc.org/news/the-club-industry-is-changing-heres-what-to-do-about-it/" target="_blank" rel="noopener">ICoYC</a> and <a href="https://www.yachtracinglife.com/the-club-problem/" target="_blank" rel="noopener">Yacht Racing Life</a> both name culture and sailing-as-identity as the resilience generator; the Royal Thames J/70 fleet purchase cited as a turnaround case.</li>
+<li><strong>US Sailing Reach 2026 cycle:</strong> <a href="https://www.ussailing.org/news/us-sailing-announces-2026-reach-youth-engagement-grant-recipients/" target="_blank" rel="noopener">2026 Reach grants</a> announced April 2026: 10 grants of $3,500 to community sailing centres; the national architecture into which AYC's junior programme plugs.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p><a href="https://rsmus.com/insights/industries/private-clubs/top-2026-trends-private-clubs.html" target="_blank" rel="noopener">RSM's 2026 trends report</a> argues that the demographic inflection co-exists with an environment that requires sharper financial oversight, stronger governance and more intentional capital planning. The counter-reading is that the 'belonging' frame can become a marketing slogan that distracts from the operational discipline the cycle actually demands. AYC's board should hold both views: the belonging-and-sailing-first frame as the recruitment narrative, the operational-discipline frame as the governance and capital-planning posture.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The fee architecture that drove the $21k initiation-fee increase across golf clubs may be inhibiting the very demographic inflection the industry is celebrating; the Membership Committee should examine whether AYC's fee structure works for or against the recruitment narrative.</li>
+<li><span class="weak-signal-marker">weak</span>The 'evolution of belonging' frame may align particularly well with AYC's racing identity; sailing-as-membership-purpose is more naturally belonging-anchored than golf-as-membership-purpose, which gives AYC a structural advantage.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 4 informs Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<!-- Theme 5 -->
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. Marine workforce and the hospitality / dockyard labour pipeline</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The workforce layer is operationally the lightest of the five but structurally the most enduring. <a href="https://www.cmaa.org/board-brief/board-brief-issues/april-2026/" target="_blank" rel="noopener">CMAA's April 2026 Board Brief</a> reports labour-cost concerns down 13% year-on-year and retention concerns down 23%, though employee cost remains a leading concern. Maryland's marine business contributes about $4.2B annually; the structural shortage facing marinas, boatyards and marine-services labour is documented in trade-press and federal sources. Legislative pressure on hospitality compensation is moving on a parallel track inside the state.</p>
+<div class="cluster-signals">
+<ul>
+<li><strong>CMAA April 2026 labour reading:</strong> Labour-cost concerns down 13%, retention concerns down 23% vs prior year; employee cost remains leading concern; H-2B visa demand strong for seasonal hospitality and dockyard roles (<a href="https://www.cmaa.org/board-brief/board-brief-issues/april-2026/" target="_blank" rel="noopener">CMAA Board Brief</a>).</li>
+<li><strong>Maryland legislative pressure:</strong> <a href="https://www.mdchamber.org/2026/02/23/action-alert-2026-minimum-wage-inflation/" target="_blank" rel="noopener">HB 1229 / SB 886</a> would set state minimum wage at $25 with no tip credit and a constitutional inflation index; under consideration in 2026 session.</li>
+<li><strong>Current Maryland wage baseline:</strong> $15.00/hour for most employees in 2026; $3.63/hour cash wage for tipped workers with tips required to bring total to $15.00 (<a href="https://www.labor.maryland.gov/labor/wages/wagehrfacts.shtml" target="_blank" rel="noopener">Maryland Department of Labor</a>).</li>
+<li><strong>Marine workforce architecture:</strong> Maryland marine business contributes $4.2B annually (<a href="https://coast.noaa.gov/states/fast-facts/marine-economy.html" target="_blank" rel="noopener">NOAA Office for Coastal Management</a>); <a href="https://mtam.org/" target="_blank" rel="noopener">MTAM</a> as state trade-association coordination point; structural shortage framing in <a href="https://maritime-executive.com/magazine/america-s-maritime-labor-shortage" target="_blank" rel="noopener">Maritime Executive</a>.</li>
+<li><strong>2024 CMAA compensation baseline:</strong> <a href="https://www.cmaa.org/announcements/news-items/compensation-benefits-report-now-available/" target="_blank" rel="noopener">CMAA Compensation and Benefits Report</a> released July 2025 with Club Benchmarking; the industry-wide salary and benefits benchmark for AYC's role-pricing decisions.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The 2026 easing in labour-cost concerns may turn out to be cyclical rather than structural. The CMAA April 2026 read could reflect a temporary lull in a longer hardening curve, especially if the HB 1229 / SB 886 type of legislation moves through the next Maryland session. Maritime Executive's structural-shortage framing remains intact: new generations entering the labour market place greater emphasis on work-life balance and long-term flexibility, while seasonal hospitality and dockyard work has not yet adapted. AYC should treat the 2026 easing as a window to invest in workforce architecture rather than as evidence the problem has resolved.</p>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">weak</span>The intersection of Gen Z's third-place-and-belonging preference (Theme 4) with the workforce pipeline is an underexplored opportunity: junior sailors and youth members are a feeder pipeline into seasonal staffing if the architecture supports it.</li>
+<li><span class="weak-signal-marker">weak</span>H-2B visa policy at the federal level remains a wild-card variable for seasonal hospitality and dockyard roles; the GM should track federal H-2B reform signals through 2026-2027.</li>
+</ul>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Theme 5 informs Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions translate the cycle's signals into the FY27 club plan and onwards. Each names the move, a horizon and a decision posture (Decide, Prepare, Monitor).</p>
+
+<div class="si-item" id="si-1">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 1: Stand up a City Dock window working group that runs monthly through 2026-2028</h4>
+<span class="si-pill decide">Decide</span>
+</div>
+<p>The City Dock construction window is a three-year programme not a sequence of disruptions; the House &amp; Properties Committee should own a working group that meets monthly, coordinates with the city's project office and the Resilience Authority, and aligns AYC's bulkhead, dock and member-access decisions with the city's phase plan. The Maritime Welcome Center and Harbormaster relocation create new operational interfaces that the group should manage actively.</p>
+<p class="si-action">Action: Stand up the City Dock working group by end of Q3 2026; first monthly meeting in October 2026; remit covers facility coordination, racing-event access protection, and AMRI Spa Creek and Back Creek interface.</p>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-3" class="xref">3</a>.</span>
+</div>
+
+<div class="si-item" id="si-2">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 2: Commission a comprehensive resilience and insurance audit ahead of the FY27 budget</h4>
+<span class="si-pill prepare">Prepare</span>
+</div>
+<p>The intersection of the City Dock construction window, the NFIP reauthorisation cliff and Maryland's hardening coastal-insurance market means the club's facility-resilience posture and its insurance architecture should be examined together by an independent third party. The output is a single document covering structural resilience, insurance architecture (facility, flood, liability), and recommendations for the FY27 budget.</p>
+<p class="si-action">Action: Treasurer and Finance Committee to commission the audit by end of Q3 2026; report due ahead of the FY27 budget cycle so findings can shape capital and insurance lines.</p>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-3">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 3: Brief members on the NFIP cliff, Maryland market trajectory and AYC's facility position</h4>
+<span class="si-pill prepare">Prepare</span>
+</div>
+<p>The NFIP reauthorisation cliff lands inside the operating cycle and members will read about it through national news that does not address the AYC-specific position. A short briefing in Q4 2026 translates the national policy event into membership-relevant information: club facility coverage, member options on private flood coverage, the Maryland-specific renewal-documentation trend.</p>
+<p class="si-action">Action: Treasurer and Finance Committee to issue member briefing by end of Q4 2026; refresh annually through the construction window.</p>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-4">
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;">
+<h4>SI 4: Reframe the FY27 membership cycle around belonging and sailing-as-identity</h4>
+<span class="si-pill prepare">Prepare</span>
+</div>
+<p>The industry inflection from scarcity marketing to 'evolution of belonging' is documented across all 2026 trend reports. AYC's racing identity, junior programme and US Sailing Reach pathway are the operating assets for the belonging-and-sailing-first model. The Membership Committee should review the recruitment narrative and the fee architecture against this frame at the FY27 plan stage, with particular attention to whether the fee architecture supports or inhibits Gen Z and millennial recruitment.</p>
+<p class="si-action">Action: Membership Committee to deliver the FY27 reframe at the autumn 2026 board cycle; partner with the General Manager on programming implications and with the Junior Sailing leadership on pathway integration.</p>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a>.</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two critical uncertainties define the operating environment for the 2026-2030 horizon: <strong>City Dock construction execution</strong> (does the $88M project run roughly to its three-year plan, or slip into 2029 and beyond?) and <strong>NFIP reauthorisation and market reform</strong> (does Congress deliver a substantive reform package in September 2026, or does the cliff produce a brief lapse and a short-term renewal?). The four scenarios are operating environments to plan against in parallel, not forecasts.</p>
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>The Coordinated Build (On-Plan + Reform)</h4>
+<p>City Dock construction completes on plan in 2028; the Maritime Welcome Center opens, the bulkhead is reinforced, the waterfront experience is materially improved. Congress passes a substantive NFIP reform in September 2026 including premium-cap language, affordability provisions and mitigation incentives. The Maryland coastal-insurance market stabilises. AYC's FY27 resilience and insurance investments compound favourably; the belonging-and-sailing-first membership cycle delivers; the club enters 2030 strongly positioned.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> AMRI Phase II funding secured autumn 2026; H.R.5484 progresses through committee; CMAA labour-easing trend continues; AYC waitlist growth tracks the industry baseline.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Disruption Decade (Slipped + Reform)</h4>
+<p>City Dock construction slips into 2029 with operational disruption extending through three-plus years of member experience. But Congress delivers substantive NFIP reform in September 2026; private flood markets mature; Maryland coastal insurance stabilises. AYC's insurance and capital position improves but the day-to-day environment is harder for longer; the General Manager carries the operational burden while the Treasurer and Finance Committee see the financial picture improve.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> City reports construction-stage delays in 2027 progress updates; H.R.5484 enacted before 30 September 2026; CMAA labour environment continues to ease; AYC waitlist holds.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Build Without Backstop (On-Plan + Brief Lapse)</h4>
+<p>City Dock construction completes on plan; the physical waterfront is materially improved. But NFIP reauthorisation produces a brief lapse and a short-term renewal without substantive reform. Maryland coastal-insurance market continues to harden through 2027-2028. AYC's resilience-and-relevance narrative carries operationally but the financial exposure on facility insurance and member flood coverage stays elevated. The Treasurer's reserves posture and the member-briefing rhythm are the load-bearing levers.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> H.R.5484 stalls in committee; short-term reauthorisation passed late September 2026; Maryland coastal premium reports through 2027 show continued hardening; private flood-market entrants increase in MD.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>The Drift (Slipped + Brief Lapse)</h4>
+<p>City Dock construction slips and NFIP reauthorisation produces a brief technical lapse with no reform. AYC enters 2029 with three years of waterfront disruption behind it, the Maritime Welcome Center delayed, an unreformed national flood programme, and a hardening Maryland coastal market. The membership cycle still benefits from the underlying demographic inflection, but the financial and operational architecture of the club is under pressure simultaneously. The Treasurer and the GM carry compounded load; the Commodore's cycle is dominated by managing the multi-front pressure rather than driving an integrated narrative.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> City Dock 2027 progress reports show schedule slip beyond Q1 2028; H.R.5484 fails to pass; CMAA labour-easing reverses; AYC waitlist softens; Maryland coastal premium hardening accelerates.</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>A catastrophic hurricane or nor'easter event in the Annapolis horizon</h4>
+<p>The cycle plans against the chronic-flooding and infrastructure-trajectory environment, not against a single catastrophic event (a direct hurricane landfall, a 100-year nor'easter, or a regional tropical storm) that would force complete strategic reset rather than refinement. The 2003 Hurricane Isabel devastation and the 2015 clubhouse fire are reminders that the tail risk is real; the cycle plans the baseline, not the tail.</p>
+<p class="reinstatement">Reinstate if: NOAA issues a tropical storm watch within 96 hours of the Maryland coast; or any named storm tracks within 100 miles of Annapolis.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Federal H-2B visa programme suspension</h4>
+<p>The cycle plans against continued H-2B visa availability for seasonal hospitality and dockyard roles. A federal suspension or material restriction of the H-2B programme would compress the workforce-pipeline timeline by a year or more and force emergency staffing decisions outside the scope of the FY27 plan.</p>
+<p class="reinstatement">Reinstate if: any DHS, DOL or White House announcement signals H-2B suspension, cap reduction or material programme restriction within the 2026-2027 visa year.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>Material change in AYC's membership cap or initiation-fee architecture</h4>
+<p>The cycle plans against the current membership architecture as a stable baseline. A material board-level decision to raise the membership cap, restructure initiation fees, or open a new membership category would change the operating environment for the Membership Committee's belonging-and-sailing-first reframe (SI 4); the cycle would need to be rerun against the new baseline.</p>
+<p class="reinstatement">Reinstate if: board approves any change to membership cap, initiation fee structure or category architecture during the 2026-2027 cycle.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>Should the City Dock window working group (SI 1) report monthly to the full board, or only to the House &amp; Properties Committee with quarterly board updates? The trade-off is between board attention and operational efficiency.</li>
+<li>Is the resilience-and-insurance audit (SI 2) best scoped narrowly to facility resilience plus insurance, or broadly to include member education and the racing-event protection question raised by the Maritime Welcome Center transition?</li>
+<li>What is the desk's working judgment on the NFIP reauthorisation outcome: substantive reform, short-term renewal with elements, or brief technical lapse and clean renewal? The reading materially shapes SI 3's brief and the FY27 budget posture.</li>
+<li>If AYC reframes the FY27 membership cycle around belonging and sailing-as-identity, does the fee architecture support or inhibit the recruitment narrative the reframe implies? The Membership Committee will need an explicit board steer on whether the fee architecture is part of the reframe or outside it.</li>
+<li>The 2026 Bay environmental signal is positive but partly weather-driven; how should AYC frame the recreational-use narrative to members without over-promising on a multi-year recovery trajectory the evidence does not yet support?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This inaugural cycle draws on 36 sources gathered against a 180-day recency window (9 December 2025 to 7 June 2026) plus structural anchors for the federal regulatory architecture (NOAA, NFIP / FEMA, NOAA Office for Coastal Management), the City Dock project (federal and city primary sources), the Bay environmental baseline (NOAA Fisheries, UMCES) and the private-club industry trend baseline. Tier mix: 16 Tier 1 (City of Annapolis, NOAA, FEMA, Resilience Authority, NAR, Congress.gov, William &amp; Mary, Chesapeake Bay Program, NOAA Fisheries, UMCES, Anne Arundel County Health, CMAA x2, Maryland Department of Labor, NOAA Office for Coastal Management, US Sailing), 20 Tier 2 (industry trades and analytical publications). Theme 1 (waterfront) and Theme 3 (Bay) are particularly Tier 1-anchored; Theme 4 (private-club demographics) carries the highest Tier 2 share by necessity, since the industry trade-press is the operational baseline. One conflict surfaced: the 2026 dead-zone forecast can be read as policy success or as a dry-weather artefact; CBF flags the second reading and the briefing carries both views as a live policy-strategy question.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Chronic flooding, City Dock and the AYC waterfront</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-1"><a href="https://www.chesapeakebaymagazine.com/annapolis-breaks-ground-on-city-dock-resiliency-project-after-opposition-delays/" target="_blank" rel="noopener">Chesapeake Bay Magazine - Annapolis Breaks Ground on City Dock Resiliency Project after Opposition, Delays</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>City of Annapolis broke ground on the $88M City Dock Resiliency Project on Monday 3 November 2025; the project includes a raised waterfront park with floodgates and deployable barriers; nuisance fl...</td></tr>
+<tr><td id="src-2"><a href="https://annapolis.gov/m/newsflash/home/detail/2037" target="_blank" rel="noopener">City of Annapolis - City of Annapolis Officials Broke Ground on City Dock Resiliency Project</a></td><td class="tier-1">Tier 1</td><td>Nov 2025</td><td>Official City press release: groundbreaking ceremony 3 November 2025; project will raise and reinforce the waterfront, deploy flood barriers, restore the historic Burtis House, and create a new Mar...</td></tr>
+<tr><td id="src-3"><a href="https://www.eyeonannapolis.net/2025/11/city-dock-makeover-begins-with-flood-protections-maritime-center-and-a-little-campaign-season-spin/" target="_blank" rel="noopener">Eye On Annapolis - City Dock Makeover Begins With Flood Protections, Maritime Center, and a Little Campaig...</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>City Dock construction will roll out in phases over roughly three years, with the city pledging to keep City Dock accessible for key events such as the boat shows; the project is expected to wrap u...</td></tr>
+<tr><td id="src-4"><a href="https://tidesandcurrents.noaa.gov/high-tide-flooding/annual-outlook.html" target="_blank" rel="noopener">NOAA (Office for Coastal Management) - Annual High Tide Flooding Outlook - Chesapeake Bay (Annapolis, May 2025-April 2026)</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Annapolis is projected to experience six to 10 days of high tide flooding in the meteorological year May 2025 to April 2026; long-term sunny-day flooding could hit 20-25 days by 2030 and 120-170 da...</td></tr>
+<tr><td id="src-5"><a href="http://resilienceauthority.org/annapolis-maritime-resilience-initiative-amri/" target="_blank" rel="noopener">Resilience Authority of Annapolis and Anne Arundel County - Annapolis Maritime Resilience Initiative (AMRI) - January 2026 update</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>Phase I AMRI Report released January 2026: 10 top sites with conceptual design, planning-level cost estimates and anticipated benefits, in Spa Creek and Back Creek watersheds around Eastport; desig...</td></tr>
+<tr><td id="src-6"><a href="https://www.fema.gov/sites/default/files/documents/fema_oehp_hmgp-4491-0043-md-annapolis-city-dock-dea-20250620.pdf" target="_blank" rel="noopener">FEMA - Environmental Assessment: Annapolis City Dock Flood Mitigation (HMGP-4491-0043-MD)</a></td><td class="tier-1">Tier 1</td><td>Jun 2025</td><td>FEMA Hazard Mitigation Grant Program Draft EA dated 20 June 2025; provides federal regulatory framework for the City Dock flood mitigation project. The federal funding architecture undergirding the...</td></tr>
+<tr><td id="src-7"><a href="https://www.ucs.org/resources/sea-level-rise-and-tidal-flooding-annapolis-maryland" target="_blank" rel="noopener">Union of Concerned Scientists - Sea Level Rise and Tidal Flooding in Annapolis, Maryland</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Portions of the Annapolis City Dock are underwater 50-60 days a year, up from three to four days a year a half-century ago. Sea level around Annapolis has risen by 10 inches since 1950, acceleratin...</td></tr>
+<tr><td id="src-8"><a href="https://www.bayjournal.com/news/climate_change/sunny-day-flooding-on-the-rise-along-the-chesapeake/article_172da0a8-c6c4-11ea-9977-2f8b99578efa.html" target="_blank" rel="noopener">Bay Journal - Sunny-day flooding on the rise along the Chesapeake</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Sunny-day (nuisance) flooding has become the dominant nuisance-flood mechanism for Bay communities; NOAA projects 20-25 days/year by 2030 and 120-170 days/year by 2050 for the nine Bay communities ...</td></tr>
+</tbody>
+</table>
+<h4>Theme 2: Coastal property insurance and the NFIP reauthorisation window</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-9"><a href="https://www.nar.realtor/flood-insurance/faq-national-flood-insurance-program-expires-september-30-2026" target="_blank" rel="noopener">National Association of Realtors - FAQ: National Flood Insurance Program Expires September 30, 2026</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>NFIP authorities expire at 11:59 pm on 30 September 2026 unless Congress reauthorises. NAR estimates a lapse would impact approximately 1,300 property sales each day, roughly 40,000 closings per mo...</td></tr>
+<tr><td id="src-10"><a href="https://www.congress.gov/bill/119th-congress/house-bill/5484/text" target="_blank" rel="noopener">US Congress (Library of Congress) - H.R.5484 - National Flood Insurance Program Reauthorization and Reform Act of 2025</a></td><td class="tier-1">Tier 1</td><td>Sep 2025</td><td>H.R.5484 would cap annual premium increases, incorporate affordability provisions for low- and middle-income policyholders, increase investments in flood mitigation and heighten transparency on FEM...</td></tr>
+<tr><td id="src-11"><a href="https://www.insurancejournal.com/news/national/2026/01/29/856104.htm" target="_blank" rel="noopener">Insurance Journal - Opportunity for Private Flood Insurers With Threat of Another NFIP Lapse</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>Private flood insurers see the threat of an NFIP lapse as a competitive opening; the market structure for private flood coverage is hardening into a viable substitute, particularly for higher-value...</td></tr>
+<tr><td id="src-12"><a href="https://coveragepriceguide.com/state-of-maryland-home-insurance-cost-guide/" target="_blank" rel="noopener">Coverage Price Guide - Maryland Home Insurance Cost Guide 2026</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>Maryland homeowners pay an average $2,622 annually for home insurance (about $219 monthly); water-adjacent properties in Anne Arundel or Talbot County often exceed $200/month before flood coverage....</td></tr>
+<tr><td id="src-13"><a href="https://insurance.maryland.gov/Consumer/Pages/Homeowners-Insurance-Rate-Increases.aspx" target="_blank" rel="noopener">Maryland Insurance Administration - Homeowners Insurance Rate Increases</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Maryland Insurance Administration tracks rate increases filed by insurers and provides regulatory baseline for homeowners coverage. The Maryland state regulatory frame for rate-activity disclosure.</td></tr>
+<tr><td id="src-14"><a href="https://www.levyinstitute.org/publications/a-premium-crisis-climate-change-threatens-homeowners-insurance-housing-and-financial-stability/" target="_blank" rel="noopener">Levy Economics Institute of Bard College - A Premium Crisis: Climate Change Threatens Homeowners Insurance, Housing, and Financial...</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Climate change is rapidly destabilising the US homeowners-insurance system; premiums spiking, coverage availability dwindling, creating a climate-driven crisis of affordability, availability and pr...</td></tr>
+<tr><td id="src-15"><a href="https://www.congress.gov/crs-product/IN10835" target="_blank" rel="noopener">Congress.gov (Congressional Research Service) - What Happens If the National Flood Insurance Program (NFIP) Lapses?</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>CRS analytical baseline: if NFIP authorisation lapses, FEMA stops selling and renewing policies; the borrowing authority drops from $30.425 billion to $1 billion; outstanding policies remain in for...</td></tr>
+</tbody>
+</table>
+<h4>Theme 3: The Chesapeake Bay environmental trajectory</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-16"><a href="https://news.wm.edu/2026/05/27/scientists-forecast-milder-chesapeake-bay-dead-zone-in-2026/" target="_blank" rel="noopener">William & Mary News (Batten School / VIMS) - Scientists forecast milder Chesapeake Bay dead zone in 2026</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>2026 Chesapeake Bay dead zone severity predicted to rank among lowest 10% of years since extensive monitoring began in 1985; about 31% below the long-term average. Reduced nitrogen loads (39% lower...</td></tr>
+<tr><td id="src-17"><a href="https://www.chesapeakebay.net/news/pressrelease/a-mild-dead-zone-is-expected-for-the-chesapeake-bay-this-summer" target="_blank" rel="noopener">Chesapeake Bay Program - A mild dead zone is expected for the Chesapeake Bay this summer</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>Lower nitrogen loads entering the Bay this spring are expected to translate into better oxygen conditions for fish, crabs, oysters and other Bay life this summer 2026; favourable conditions for rec...</td></tr>
+<tr><td id="src-18"><a href="https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress" target="_blank" rel="noopener">NOAA Fisheries - Oyster Reef Restoration in the Chesapeake Bay: We're Making Significant Progress</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>NOAA and partners hit the 10-tributary oyster restoration goal by end of 2025; 2,400+ acres of healthy reef restored across the 10 tributaries. Each oyster filters 3 to 12 gallons of water per day....</td></tr>
+<tr><td id="src-19"><a href="https://conduitstreet.mdcounties.org/2026/03/02/advancing-bay-restoration-and-coastal-resilience-with-targeted-oyster-replenishment/" target="_blank" rel="noopener">Maryland Association of Counties (Conduit Street) - Advancing Bay Restoration and Coastal Resilience With Targeted Oyster Replenishment</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Maryland-led oyster replenishment programme advancing through 2026; targeted reef replenishment supports both water-quality improvement and coastal-resilience objectives, including shoreline stabil...</td></tr>
+<tr><td id="src-20"><a href="https://www.cbf.org/news/dry-spring-could-mean-smaller-dead-zone-in-chesapeake-bay/" target="_blank" rel="noopener">Chesapeake Bay Foundation - Dry Spring Could Mean Smaller Dead Zone in Chesapeake Bay</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>CBF reads the 2026 mild-dead-zone forecast positively but cautions that the favourable signal reflects dry weather rather than structural watershed-policy gains. Counter-position to over-reading th...</td></tr>
+<tr><td id="src-21"><a href="https://www.umces.edu/sea-level-rise-projections" target="_blank" rel="noopener">University of Maryland Center for Environmental Science (UMCES) - Sea-Level Rise Projections (Maryland)</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>UMCES sea-level rise projections form the analytical baseline for Maryland resilience planning across the Bay watershed; the projections inform AMRI, City Dock and county-level adaptation work.</td></tr>
+<tr><td id="src-22"><a href="https://www.aahealth.org/environmental-health/recreational-water-quality/water-quality-report" target="_blank" rel="noopener">Anne Arundel County Department of Health - Recreational Water Quality Report</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Anne Arundel County water-quality reporting is the operational baseline for the sailing and recreational-use experience at the local level; the daily-condition signal members rely on for water-cont...</td></tr>
+</tbody>
+</table>
+<h4>Theme 4: Private-club demographics - the Millennial / Gen Z reset</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-23"><a href="https://privateclubmarketing.com/the-evolution-of-belonging-10-membership-marketing-trends-reshaping-private-golf-country-clubs-in-2026/" target="_blank" rel="noopener">Private Club Marketing - 10 Private Club Membership Trends Defining 2026: Data From 1,200 Clubs</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>After years of pandemic-fuelled growth (63% of clubs reporting increased membership, average waitlists of 70 prospective members), the landscape is shifting. Clubs that thrived on scarcity marketin...</td></tr>
+<tr><td id="src-24"><a href="https://rsmus.com/insights/industries/private-clubs/top-2026-trends-private-clubs.html" target="_blank" rel="noopener">RSM US LLP - Private club 2026 trends: What GMs, CFOs and boards must prioritize</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>2026 environment defined by disciplined execution: economic conditions stable enough to support member demand yet tight enough to require sharper financial oversight, stronger governance, intention...</td></tr>
+<tr><td id="src-25"><a href="https://privateclubmarketing.com/the-new-guard-how-generation-z-is-quietly-reshaping-private-club-culture/" target="_blank" rel="noopener">Private Club Marketing - The New Guard: How Generation Z Is Quietly Reshaping Private Club Culture</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Gen Z (oldest are 29 in 2026) is actively seeking third places that are neither home nor work; the decline of traditional community institutions leaves a vacuum private clubs are uniquely positione...</td></tr>
+<tr><td id="src-26"><a href="https://www.geckohospitality.com/country-club-trends/" target="_blank" rel="noopener">Gecko Hospitality - What Will It Take for Millennials to Join Country Clubs?</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Country club waitlists grown by 24% since 2019; median visitor age dropped by nearly 8 years at some clubs since 2019; median initiation fees for clubs with golf courses have risen by $21k since 20...</td></tr>
+<tr><td id="src-27"><a href="https://www.icoyc.org/news/the-club-industry-is-changing-heres-what-to-do-about-it/" target="_blank" rel="noopener">International Council of Yacht Clubs - The Club Industry Is Changing: Here's What to Do About It</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>Yacht clubs face challenges from declining membership to rising costs; those focusing on fun, accessibility and community sailing thrive; culture rather than amenities will generate resilience; clu...</td></tr>
+<tr><td id="src-28"><a href="https://www.yachtracinglife.com/the-club-problem/" target="_blank" rel="noopener">Yacht Racing Life - The Club Problem</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>The yacht-club model is under structural pressure; clubs that commit to sailing and truly embrace welcoming new members can thrive (the Royal Thames Yacht Club J/70 fleet purchase is cited as a tur...</td></tr>
+<tr><td id="src-29"><a href="https://www.ussailing.org/news/us-sailing-announces-2026-reach-youth-engagement-grant-recipients/" target="_blank" rel="noopener">US Sailing - US Sailing Announces 2026 Reach Youth Engagement Grant Recipients</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>US Sailing 2026 Reach Initiative grants: 10 grants of $3,500 each to community sailing centres; selection ensures regional, programme size and participant diversity. The national architecture for y...</td></tr>
+</tbody>
+</table>
+<h4>Theme 5: Marine workforce and the hospitality / dockyard labour pipeline</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr><td id="src-30"><a href="https://www.cmaa.org/announcements/news-items/compensation-benefits-report-now-available/" target="_blank" rel="noopener">Club Management Association of America (CMAA) - 2024 Compensation and Benefits Report</a></td><td class="tier-1">Tier 1</td><td>Jul 2025</td><td>CMAA Compensation and Benefits Report (2024 data, released July 2025): employee salary and benefits across private clubs; demand for H-2B visas remains strong; club hospitality compensation structu...</td></tr>
+<tr><td id="src-31"><a href="https://www.cmaa.org/board-brief/board-brief-issues/april-2026/" target="_blank" rel="noopener">Club Management Association of America (CMAA) - Board Brief April 2026</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>April 2026 industry briefing: concerns about rising labour costs dropped 13% vs the prior year, retention concerns dropped 23%; the labour environment has eased from peak-tightness levels though em...</td></tr>
+<tr><td id="src-32"><a href="https://www.mdchamber.org/2026/02/23/action-alert-2026-minimum-wage-inflation/" target="_blank" rel="noopener">Maryland Chamber of Commerce - Action Alert: $25 Minimum Wage, No Tip Credit and a Constitutional Mandate (HB 1229 / S...</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>Maryland HB 1229 / SB 886 would mandate a $25 state minimum wage with no tip credit and a constitutional inflation index; if enacted, would fundamentally restructure hospitality compensation includ...</td></tr>
+<tr><td id="src-33"><a href="https://www.labor.maryland.gov/labor/wages/wagehrfacts.shtml" target="_blank" rel="noopener">Maryland Department of Labor - Maryland Minimum Wage and Overtime Law</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Maryland minimum wage in 2026 is $15.00/hour for most employees; tipped employees must receive a cash wage of at least $3.63/hour with tips required to bring total to $15.00. The state baseline aga...</td></tr>
+<tr><td id="src-34"><a href="https://mtam.org/" target="_blank" rel="noopener">Marine Trades Association of Maryland - MTAM - programme hub and job board</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>MTAM is the trade association representing Maryland's marine industry; documents the structural labour shortage facing marinas, boatyards and marine-services firms. The state-level co-ordination po...</td></tr>
+<tr><td id="src-35"><a href="https://coast.noaa.gov/states/fast-facts/marine-economy.html" target="_blank" rel="noopener">NOAA Office for Coastal Management - Marine Economy - State Fast Facts (Maryland)</a></td><td class="tier-1">Tier 1</td><td>Evergreen</td><td>Maryland's marine business contributes about $4.2 billion annually to the state economy; the structural baseline for the workforce-pipeline scale within which AYC's hospitality and dockyard staffin...</td></tr>
+<tr><td id="src-36"><a href="https://maritime-executive.com/magazine/america-s-maritime-labor-shortage" target="_blank" rel="noopener">Maritime Executive - America's Maritime Labor Shortage</a></td><td class="tier-2">Tier 2</td><td>Evergreen</td><td>The US marine labour shortage is structural rather than cyclical; new generations entering the labour market place greater emphasis on work-life balance, mental wellbeing and long-term career flexi...</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim that goes beyond what a cited source literally states, any cycle-over-cycle continuity language (none this cycle, as this is the inaugural cycle for AYC), and any superlative or loaded language carrying analytical weight.</p>
+
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>None: this is the inaugural cycle for the AYC Board briefing and no prior memory.json cycles exist. Phrases like 'once-in-a-generation moment' refer to the City Dock project's external scale, not to a prior cycle of this brief.</p>
+
+<h4>Superlatives used</h4>
+<p>'Largest infrastructure intervention in modern Annapolis history' (used twice) is an analyst characterisation of the $88M City Dock Resiliency Project relative to documented prior Annapolis public-works projects. The figure is sourced; the comparative judgment is analyst extrapolation.</p>
+<p>'Once-in-a-generation moment' (At a Glance, Executive Synthesis, sit-up statement) is the analyst's framing of the 2026-2028 construction window. No single cited source uses the phrase.</p>
+
+<h4>Analytical synthesis claims</h4>
+<p>The framing that 'five strategic currents converge at the waterfront' is the briefing's interpretive structure rather than carried by any single source. It is supported by the City Dock primary sources, the NFIP / Maryland insurance evidence, the NOAA and W&amp;M VIMS Bay-environmental signals, the Private Club Marketing industry trend reports and the CMAA labour reading, but the five-way structuring is analyst synthesis.</p>
+<p>The reading that AYC sits at the intersection of two binding forces (the waterfront and the financial-exposure architecture) plus three operating-environment forces is the briefing's analytical synthesis. No single source explicitly draws the binding-versus-environment distinction; the distinction is the analyst's reading.</p>
+<p>The four scenarios are operating environments derived from the two named uncertainties; they are not forecasts. No source endorses any of the four named scenarios.</p>
+<p>The judgment in Theme 4 that AYC has a 'structural advantage' from sailing-as-membership-purpose being more naturally belonging-anchored than golf-as-membership-purpose is an analyst extrapolation from the ICoYC and Yacht Racing Life pieces; no source explicitly draws the comparative advantage claim.</p>
+</div>
+
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 7 June 2026</p>
+
+</div>
+
+</body>
+</html>

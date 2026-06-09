@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Engineering Around the Chokepoint — Signal Scan</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 850px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  p { margin: 1em 0; }
+  ul { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .signal-meta { background: #f1f3f5; padding: 14px 18px; border-radius: 6px; margin: 16px 0; font-size: 0.95em; }
+  .signal-meta strong { color: #1a237e; }
+  .signal-meta-line { display: block; margin: 4px 0; }
+  .decision-tag { display: inline-block; padding: 3px 12px; border-radius: 14px; font-size: 0.88em; font-weight: 600; vertical-align: middle; }
+  .decision-tag.monitor { background: #4ecdc4; color: #1a1a1a; }
+  .decision-tag.prepare { background: #ffd93d; color: #1a1a1a; }
+  .decision-tag.decide { background: #ff6b6b; color: white; }
+  .action-line { margin-top: 14px; padding-top: 12px; border-top: 1px solid #e0e0e0; font-size: 0.95em; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .counter-arg-box { background: #fce4ec; border-left: 4px solid #e91e63; padding: 14px 18px; border-radius: 6px; margin: 16px 0; }
+  .counter-arg-box h3 { color: #c2185b; margin-top: 0; }
+  .scan-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .scan-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .scan-figure svg { display: block; width: 100%; height: auto; }
+  .scan-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+</style>
+</head>
+<body>
+
+<div class="masthead">Signal Scanner &middot; Supply Chains &amp; Critical Minerals</div>
+
+<article>
+<h2>Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand</h2>
+<p class="seo-line">The consensus on critical minerals is a supply story: build mines, processing, stockpiles and price floors to escape China. The weak signal beneath it is on the demand side, where China's 2025 export controls are accelerating substitution and thrifting fast enough to threaten the economics of the Western build-out for specific minerals on a 2027-2032 horizon.</p>
+
+<p>The consensus on critical minerals is almost entirely a supply story. Diversify away from China, build mines and separation plants, stand up strategic stockpiles, and underwrite them with administered price floors. Beneath that race a different response is gathering pace, and it sits on the demand side. China's 2025 rare-earth export controls did not only spur Western governments to fund supply; they spurred engineers to design the constrained materials out. Rare-earth-free motors, sodium-ion batteries, lower magnet loadings and material thrifting are moving from laboratory to product line. If that substitution scales, the West risks building expensive, subsidised supply into structurally softer demand for the very minerals it is racing to secure. The question is no longer only how to get more, but how much the world will still need.</p>
+
+<h3>Signal Identification</h3>
+<p>This is a demand-side structural shift and capability-disruption signal: engineering substitution and material thrifting, accelerated by export controls, quietly capping demand growth for specific critical minerals even as supply-side policy assumes that demand. It is visible in automaker design choices, battery-chemistry data and central-bank modelling rather than in mine-output headlines, and it sits beneath the secure-more-supply narrative that dominates critical-minerals strategy.</p>
+<div class="signal-meta">
+<span class="signal-meta-line"><strong>Time horizon:</strong> 3-7 years (commercial substitution scaling 2026-2028; demand-forecast divergence visible 2028-2032)</span>
+<span class="signal-meta-line"><strong>Plausibility band:</strong> Medium</span>
+<span class="signal-meta-line"><strong>Geographic / Jurisdictional Scope:</strong> Global, with primary exposure in the US, EU and Japan, whose supply-security spending and price-floor policy are most committed; China as the dominant incumbent supplier; automakers and battery producers worldwide as the substituting actors.</span>
+<span class="signal-meta-line"><strong>Sectors exposed:</strong> Rare-earth miners and processors, permanent-magnet makers, automakers and motor suppliers, battery manufacturers, mining-project financiers and the governments underwriting floors and stockpiles.</span>
+</div>
+
+<h3>What's Changing</h3>
+<p>The supply shock that triggered the response is documented in the primary data. China tightened rare-earth export controls in April 2025, adding samarium, gadolinium, terbium, dysprosium, lutetium, scandium and yttrium, expanded them in October, then suspended the October controls for one year in November; magnets remain the leading global end use, and the record notes plainly that substitutes &ldquo;are available for many applications but generally are less effective&rdquo; (<a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf" target="_blank">U.S. Geological Survey</a>, February 2026). That qualifier is the hinge of the whole signal: substitution is real, imperfect, and now being pushed hard precisely because supply is being weaponised.</p>
+
+<p>The demand-side response has moved from research to product. Western automakers including Stellantis, General Motors and Honda are funding rare-earth-free motor alternatives such as iron-nitrogen magnets, and Tesla's next-generation 2026 motors are slated to drop rare earths again (<a href="https://restofworld.org/2026/chinas-rare-earth-dominance-is-hard-for-ev-makers-to-escape/" target="_blank">Rest of World</a>, 17/03/2026), while startups such as Advanced Electric Machines and Niron Magnetics commercialise motors and magnets built from abundant materials, several targeting market entry around 2026-2027 (<a href="https://www.climatechangenews.com/2026/05/05/the-energy-transition-has-a-rare-earth-problem-these-startups-are-solving-it/" target="_blank">Climate Home News</a>, 05/05/2026). The same is happening in batteries: lithium iron phosphate now accounts for over half of EV batteries and more than 90% of stationary storage globally, and sodium-ion, which avoids nickel and cobalt entirely, is being scaled by CATL and BYD (<a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank">International Energy Agency</a>, May 2026).</p>
+
+<p>Institutions are now naming substitution as a structural consequence, not a footnote. A central-bank model of an 18-month stringent rare-earth export ban projects a 0.3-0.6% output loss in the US and euro area but warns of long-term self-inflicted damage to China through accelerated supply-chain diversification and permanent technological substitution (<a href="https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op384.en.pdf" target="_blank">European Central Bank</a>, 31/03/2026). That cuts against the supply-first posture a year into the response, in which Washington has committed billions in financing and global partnerships yet remains far from genuine resilience (<a href="https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" target="_blank">CSIS</a>, 27/04/2026).</p>
+
+<div class="scan-figure">
+<h4>The demand-side escape route: chemistry substitution in batteries</h4>
+<svg viewBox="0 0 720 210" role="img" aria-label="Bar chart showing lithium iron phosphate share of EV batteries above 50 percent and of stationary storage above 90 percent, against China's roughly 90 percent share of rare-earth refining, illustrating demand-side substitution against a concentrated supply base." xmlns="http://www.w3.org/2000/svg">
+  <!-- axis -->
+  <line x1="250" y1="30" x2="250" y2="180" stroke="#cccccc" stroke-width="1"/>
+  <line x1="250" y1="180" x2="690" y2="180" stroke="#cccccc" stroke-width="1"/>
+  <!-- bar 1 LFP EV >50% -->
+  <text x="240" y="58" text-anchor="end" font-size="12" fill="#1a1a1a">LFP share of EV batteries</text>
+  <rect x="250" y="44" width="220" height="22" fill="#2e7d32"/>
+  <text x="478" y="60" font-size="12" font-weight="700" fill="#2e7d32">&gt;50%</text>
+  <!-- bar 2 LFP storage >90% -->
+  <text x="240" y="100" text-anchor="end" font-size="12" fill="#1a1a1a">LFP share of stationary storage</text>
+  <rect x="250" y="86" width="396" height="22" fill="#2e7d32"/>
+  <text x="654" y="102" font-size="12" font-weight="700" fill="#2e7d32">&gt;90%</text>
+  <!-- bar 3 China refining ~90% -->
+  <text x="240" y="142" text-anchor="end" font-size="12" fill="#1a1a1a">China share of rare-earth refining</text>
+  <rect x="250" y="128" width="396" height="22" fill="#c62828"/>
+  <text x="654" y="144" font-size="12" font-weight="700" fill="#c62828">~90%</text>
+  <text x="250" y="174" font-size="10" fill="#5a6478">Green: demand-side substitution already at scale in batteries. Red: the supply concentration it routes around.</text>
+</svg>
+<p class="figure-caption">Source basis: IEA Global EV Outlook 2026 (May 2026) for LFP shares; European Central Bank (31/03/2026) for China's ~90% refining share.</p>
+</div>
+
+<h3>Disruption Pathway</h3>
+<p>The pathway runs in two stages. In the first, now to roughly 2028, substitution crosses from prototype to volume: rare-earth-free and reduced-rare-earth motors enter mainstream model lines, sodium-ion runs on existing lithium-ion manufacturing lines and scales into cost-sensitive vehicles and stationary storage (<a href="https://www.energy-storage.news/grid-forming-hybrids-and-alternative-chemistries-in-wood-mackenzies-2026-energy-storage-trend-predictions/" target="_blank">Wood Mackenzie</a>, 27/01/2026), and thrifting trims magnet loadings per unit. In the second, 2028 to about 2032, the cumulative effect shows up as a divergence between forecast and realised demand for specific minerals, precisely as Western mines, separation plants, stockpiles and price-floor contracts come online against demand curves drawn before the substitution wave.</p>
+
+<p>Stresses concentrate at three points. Heavy rare earths such as dysprosium and terbium, and the magnet rare earths most exposed to motor redesign, face the sharpest demand-side risk; nickel and cobalt face chemistry substitution as LFP and sodium-ion spread; and Western projects underwritten at administered price floors carry demand-volume risk that floors do not hedge, raising the prospect of stranded capacity if demand undershoots. The adaptations follow at three levels: operationally, automakers and battery makers dual-track designs to keep substitution optional and supply leverage intact; financially, investors should discount long-dated mine and magnet economics for substitution risk rather than assume linear demand; and in policy, governments may need to hedge stockpile and price-floor commitments against the very demand destruction their own supply-security measures help provoke.</p>
+
+<h3>Why This Matters</h3>
+<p>For miners, processors, automakers, battery makers and the policymakers underwriting them, this reframes the demand assumption that every supply decision rests on. Mine and separation-plant capex, offtake contracts and price-floor guarantees are typically sized against demand forecasts drawn before the 2025 controls; if substitution shaves the top off growth for specific high-value minerals, those forecasts overstate the call on Western supply exactly where it is most expensive and most subsidised. Boards should pressure-test demand, not only supply security; automakers should treat design-side substitution as both a hedge and a bargaining chip; investors should price substitution risk into long-dated mining and magnet assets. Taken together, the sources suggest the binding uncertainty for the critical-minerals build-out is shifting from whether the West can supply these minerals to whether it will still need as many.</p>
+<p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag prepare">Prepare</span></strong> &mdash; substitution is reaching commercial reality now but its demand-cap is not yet binding, so build substitution scenarios into demand models and offtake terms and commit on the trigger of volume rare-earth-free model launches and softening magnet-rare-earth prices.</p>
+
+<div class="counter-arg-box">
+<h3>Counter-Argument</h3>
+<p>The strongest objection is that demand still grows steeply and substitution stays marginal this decade. The primary record itself cautions that substitutes are generally less effective (<a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf" target="_blank">U.S. Geological Survey</a>, February 2026), and reporting on the automakers chasing rare-earth-free motors stresses that China's cost advantage is hard to crack and that building independent supply chains could take 15 years (<a href="https://restofworld.org/2026/chinas-rare-earth-dominance-is-hard-for-ev-makers-to-escape/" target="_blank">Rest of World</a>, 17/03/2026). On this reading, electrification doubles magnet-rare-earth demand faster than substitution can erode it, and switching chemistries spreads risk across a broader material set rather than removing it.</p>
+<p>The counter-counter is that the signal does not require demand to fall, only for growth to undershoot the forecasts the supply build-out is sized against. Substitution bites hardest on the specific minerals where Western supply is most costly and most dependent on sustained price floors, so even a partial softening changes the economics of those projects. A central bank, not an advocacy group, has now flagged permanent technological substitution as a structural outcome of export controls (<a href="https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op384.en.pdf" target="_blank">European Central Bank</a>, 31/03/2026) &mdash; the demand curve the consensus assumes is the part most quietly in motion.</p>
+</div>
+
+<h3>Implications</h3>
+<p>On the available evidence this is a structural shift for specific minerals rather than a transient one, with an inflection window of 2028-2032 as substitution volume meets incoming Western supply. Those positioned to gain are automakers that diversify designs, sodium-ion and rare-earth-free motor makers, and magnet recyclers; those exposed are pure-play heavy-rare-earth miners reliant on sustained price floors and late supply entrants. The deeper point, consistent with the USGS record that substitutes exist but are less effective, is that the response to a supply chokepoint is rarely only more supply &mdash; it is also engineering around the chokepoint, and that demand-side adaptation is harder to see and slower to reverse than a new mine.</p>
+
+<h3>Early Indicators to Monitor</h3>
+<ul>
+<li>Volume launches of rare-earth-free or reduced-rare-earth EV models from Tesla, Renault-Valeo, Stellantis or GM through 2026-2027.</li>
+<li>Sodium-ion's share of stationary storage and entry-segment EVs rises materially in IEA and industry data.</li>
+<li>Prices for magnet rare earths such as dysprosium and terbium soften despite China's export controls remaining in force.</li>
+<li>Western mining or magnet projects renegotiate offtake or price-floor terms citing demand uncertainty.</li>
+<li>Recyclers scale neodymium-iron-boron magnet recovery, adding secondary supply that compounds the demand-side squeeze.</li>
+</ul>
+
+<h3>Disconfirming Signals</h3>
+<ul>
+<li>IEA and USGS data show magnet-rare-earth demand accelerating ahead of forecasts, outrunning substitution.</li>
+<li>Rare-earth-free motors stall on performance, efficiency or cost and stay confined to niche segments.</li>
+<li>China relaxes export controls, restoring cheap supply and removing the incentive to substitute.</li>
+<li>Sodium-ion fails to scale economically, leaving nickel- and cobalt-bearing chemistries dominant.</li>
+<li>Price floors hold and Western supply fills demand without the projected stranded-capacity risk.</li>
+</ul>
+
+<h3>Strategic Questions</h3>
+<ul>
+<li>Do you size mine and processing capex to forecast demand, or stress-test it against accelerating substitution?</li>
+<li>Should automakers design out heavy rare earths now, or lock in supply and keep performance?</li>
+<li>At what substitution threshold do stockpile and price-floor commitments become a fiscal liability rather than a hedge?</li>
+<li>Where in the portfolio is demand risk, not supply risk, the binding exposure?</li>
+</ul>
+
+<h3>Keywords</h3>
+<p>Critical minerals; rare earths; substitution; thrifting; rare-earth-free motors; sodium-ion batteries; LFP; permanent magnets; export controls; demand destruction; stranded assets; price floors</p>
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul>
+<li><span class="tier-1">Tier 1</span> Mineral Commodity Summaries 2026: Rare Earths. <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf" target="_blank">U.S. Geological Survey</a>. Published February 2026.</li>
+<li><span class="tier-1">Tier 1</span> Global EV Outlook 2026: Electric vehicle batteries. <a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank">International Energy Agency</a>. Published May 2026.</li>
+<li><span class="tier-2">Tier 2</span> Global implications of export controls on rare earths (Occasional Paper No. 384). <a href="https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op384.en.pdf" target="_blank">European Central Bank</a>. Published 31/03/2026.</li>
+<li><span class="tier-2">Tier 2</span> Rare Earth Export Restrictions One Year Later. <a href="https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later" target="_blank">Center for Strategic and International Studies</a>. Published 27/04/2026.</li>
+<li><span class="tier-2">Tier 2</span> Alternative chemistries in the 2026 energy storage trend predictions. <a href="https://www.energy-storage.news/grid-forming-hybrids-and-alternative-chemistries-in-wood-mackenzies-2026-energy-storage-trend-predictions/" target="_blank">Wood Mackenzie via Energy-Storage.News</a>. Published 27/01/2026.</li>
+<li><span class="tier-3">Tier 3</span> China's rare-earth dominance keeps EV makers dependent. <a href="https://restofworld.org/2026/chinas-rare-earth-dominance-is-hard-for-ev-makers-to-escape/" target="_blank">Rest of World</a>. Published 17/03/2026.</li>
+<li><span class="tier-3">Tier 3</span> The energy transition has a rare earth problem: these startups are solving it. <a href="https://www.climatechangenews.com/2026/05/05/the-energy-transition-has-a-rare-earth-problem-these-startups-are-solving-it/" target="_blank">Climate Home News</a>. Published 05/05/2026.</li>
+</ul>
+
+</article>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 9 June 2026</p>
+
+</body>
+</html>

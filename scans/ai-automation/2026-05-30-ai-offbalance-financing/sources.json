@@ -15,7 +15,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "Stretched valuations and concentration, particularly in AI-related firms, raise downside risks in equity markets. Some firms along the AI value chain have increasingly relied on circular financing.",
     "verbatim_list": null,
     "notes": "Tier 1 multilateral. Names circular financing and AI-valuation concentration as financial-stability concerns."
   },
@@ -35,7 +35,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "Private credit has grown to an estimated $1.5-2.0 trillion at end-2024 and is concentrated in a few sectors, notably technology. Direct bank exposures of around $220 billion of drawn and undrawn credit lines to private credit funds, with commercial estimates of $270-500 billion. AI firms increasingly turning to private lenders to fund datacentres.",
     "verbatim_list": null,
     "notes": "Tier 1 standard-setter. Concentration in technology and bank interlinkage figures are core quantification anchors."
   },
@@ -55,7 +55,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "Vulnerabilities in risky credit markets, including private credit, have shown signs of worsening. AI-related risks likely to increase, potentially rapidly, amid growing intent to deploy advanced AI.",
     "verbatim_list": null,
     "notes": "Tier 1 regulator. Establishes that a G7 macroprudential authority is monitoring private credit + AI as linked risks."
   },
@@ -75,7 +75,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "An AI investment boom increasingly financed by private credit could expose euro-area insurers and pension funds to material second-round losses if technology returns disappoint. In an ECB stress scenario pension funds would lose 5-6% of total assets and insurers around 4%, with bank losses contained at no more than 1.3% of equity. US private credit reached about $1.4 trillion at end-2024, a scale the ECB compared to the $1.5 trillion US subprime mortgage market.",
     "verbatim_list": null,
     "notes": "Tier 1 regulator. The subprime comparison and stress-scenario loss figures are the strongest quantification anchors in the evidence base."
   },
@@ -95,7 +95,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "The top five US hyperscalers had amassed $969 billion in total undiscounted future data-centre lease commitments as of end-2025. $662 billion of that is for leases not yet commenced and therefore off balance sheet under GAAP, equivalent to 113% of the five firms' most recent adjusted debt. AI hardware has a useful life of just four to six years. Meta's $28 billion residual value guarantee recorded as no liability.",
     "verbatim_list": null,
     "notes": "Structural anchor (25 Feb 2026, ~3 months). Analytical source is Moody's Ratings credit research (analysts David Gonzales, Alastair Drake); classified Tier 2 on that basis though accessed via Fortune. Canonical quantification of the off-balance-sheet layer."
   },

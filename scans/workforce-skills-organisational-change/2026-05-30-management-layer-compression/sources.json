@@ -35,7 +35,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "the average number of people reporting to managers has increased from 10.9 in 2024 to 12.1 in 2025, a nearly 50% increase since Gallup began measuring span of control in 2013; manager engagement fell from 31% in 2022 to 22% in 2025",
     "verbatim_list": null,
     "notes": "Tier 2 quality data provider. Primary quantification anchor for span widening and the manager-overload stress point."
   },
@@ -75,7 +75,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "88% of leaders are confident their reorganization will deliver - only 36% of employees agree; ninety percent of middle managers surveyed reported considerable changes to their work; only 22% of employees surveyed said they received sufficient support; nearly 1,000 executives and employees",
     "verbatim_list": null,
     "notes": "Structural anchor (29 Jan 2026, ~4 months). Canonical recent institutional evidence that the reorganization wave centres on the middle-manager layer and is under-supported."
   },
@@ -95,7 +95,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "average span of control is now 14 and still rising, with some managers carrying 90 direct reports; Meta's applied-AI engineering division deployed a 50-to-1 employee-to-manager ratio; LinkedIn job postings with 'manager' in the title declined 12% year-over-year in early 2026 while 'lead' and 'principal' postings grew 18%",
     "verbatim_list": null,
     "notes": "Tier 3 journalism. Source for threshold-crossing spans (50:1, 90) and the manager-title vs lead/principal divergence."
   },
@@ -135,7 +135,7 @@
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
+    "verbatim_quote": "average team size jumps to 12 workers",
     "verbatim_list": null,
     "notes": "Tier 3 trade press. Independent corroboration of the Gallup span figure."
   }

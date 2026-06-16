@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 2,
+    "publisher": "Belfer Center for Science and International Affairs (Harvard Kennedy School)",
+    "title": "AI, Data Centers, and the U.S. Electric Grid: A Watershed Moment",
+    "url": "https://www.belfercenter.org/research-analysis/ai-data-centers-us-electric-grid",
+    "publication_date": "2026-02-10",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "The grid has operated for decades on a shared-cost model; as large creditworthy customers reduce reliance on grid-supplied power through behind-the-meter co-location and third-party contracts, fixed costs do not disappear and pressure shifts onto remaining ratepayers. Contract-based financing (special tariffs, PPAs) is shifting projects away from rate-base recovery and lacks transparency; utilities face stranded-asset risk if projected demand does not materialise.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor. Canonical Harvard policy-brief framing of the cost-recovery and behind-the-meter defection dynamic. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 1,
+    "publisher": "U.S. Energy Information Administration",
+    "title": "EIA releases the Annual Energy Outlook 2026",
+    "url": "https://www.eia.gov/pressroom/releases/press587.php",
+    "publication_date": "2026-04-08",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Data center load is emerging as the dominant driver of long-term U.S. electricity growth; after a decade-plus plateau, national electricity demand has risen 2.1% annually over the past five years. Installed electric generating capacity must increase between 50% and 90% by 2050 across cases to meet growing demand.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary U.S. government statistical agency. WebFetch verified, full press release retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Wood Mackenzie",
+    "title": "The US data centre electrical equipment market: A structural shift in demand",
+    "url": "https://www.woodmac.com/news/opinion/the-us-data-center-electrical-equipment-market-a-structural-shift-in-demand/",
+    "publication_date": "2026-04-21",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "AI-driven data centre growth is a structural shift in power demand; the scale and technical requirements of modern data centres are creating new constraints across the electrical equipment value chain, with supply and manufacturing capacity becoming decisive factors in project delivery, timelines and risk.",
+    "paywalled": true,
+    "treat_directionally": false,
+    "notes": "Institutional consultancy research. WebFetch verified; body is partly gated but the framing and demand-growth figures are confirmed."
+  },
+  {
+    "tier": 3,
+    "publisher": "Utility Dive",
+    "title": "As data centers go off-grid, utilities face new cost and planning risks (Owens and Bazilian)",
+    "url": "https://www.utilitydive.com/news/as-data-centers-go-off-grid-utilities-face-new-cost-and-planning-risks/811944/",
+    "publication_date": "2026-03-17",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Faced with years-long interconnection delays and constrained equipment, some large data centre developers are turning to on-site gas generation; industry disclosures suggest that by the end of the decade a meaningful share of new data centre capacity could be partially or fully self-supplied. These individual decisions amount to a quiet redesign of the power system occurring largely outside traditional planning and regulatory frameworks.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Opinion piece by AIxEnergy founder Brandon Owens and Payne Institute (Colorado School of Mines) director Morgan Bazilian. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Utility Dive",
+    "title": "NERC issues Level 3 alert, mandates action to address data center load losses",
+    "url": "https://www.utilitydive.com/news/nerc-issues-rare-level-3-alert-over-data-center-load-losses/819295/",
+    "publication_date": "2026-05-05",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The North American Electric Reliability Corp. issued a rare Level 3 alert, its highest, after data centres unexpectedly dropped load or oscillated demand rapidly, mandating seven actions by grid entities by 3 August 2026. Summer peak demand is expected to rise 24% over the next 10 years, with data centres accounting for most of the increase.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Quality trade journalism reporting a NERC primary regulator filing. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "pv magazine USA",
+    "title": "U.S. transformer market faces severe supply constraints as lead times extend to four years",
+    "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/",
+    "publication_date": "2026-05-11",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Lead times for high-capacity transformers have reached as long as four years (PwC); prices have risen roughly 80% over five years; grain-oriented electrical steel is a key chokepoint. Some firms are buying production slots at a premium before finalising project sites, and large data centre developers are increasingly turning to on-site generation to bypass grid-connection queues.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Trade journalism citing PwC and Wood Mackenzie data. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Utility Dive",
+    "title": "GE Vernova gas turbine backlog hits 100 GW as prices rise",
+    "url": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-hits-100-gw-as-prices-rise/818332/",
+    "publication_date": "2026-04-23",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "GE Vernova's gas turbine backlog reached 100 GW in Q1 2026, up from 83 GW at end-2025; data centres were responsible for about USD 2.4 billion in electrical-equipment orders in the quarter, more than the company's full-year 2025 total. Its electrification-segment backlog rose from USD 25 billion to USD 42.4 billion year on year.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Trade journalism reporting GE Vernova Q1 2026 earnings disclosures. WebFetch verified, full content retrieved."
+  }
+]

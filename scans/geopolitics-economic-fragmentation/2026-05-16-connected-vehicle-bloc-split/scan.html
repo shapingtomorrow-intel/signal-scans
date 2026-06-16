@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Two Stacks, Two Markets, Signal Scan</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 850px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  p { margin: 1em 0; }
+  ul { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .signal-meta { background: #f1f3f5; padding: 14px 18px; border-radius: 6px; margin: 16px 0; font-size: 0.95em; }
+  .signal-meta strong { color: #1a237e; }
+  .signal-meta-line { display: block; margin: 4px 0; }
+  .decision-tag { display: inline-block; padding: 3px 12px; border-radius: 14px; font-size: 0.88em; font-weight: 600; vertical-align: middle; }
+  .decision-tag.monitor { background: #4ecdc4; color: #1a1a1a; }
+  .decision-tag.prepare { background: #ffd93d; color: #1a1a1a; }
+  .decision-tag.decide { background: #ff6b6b; color: white; }
+  .action-line { margin-top: 14px; padding-top: 12px; border-top: 1px solid #e0e0e0; font-size: 0.95em; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .counter-arg-box { background: #fce4ec; border-left: 4px solid #e91e63; padding: 14px 18px; border-radius: 6px; margin: 16px 0; }
+  .counter-arg-box h3 { color: #c2185b; margin-top: 0; }
+  .test-banner { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 14px; border-radius: 6px; margin-bottom: 18px; font-size: 0.9em; color: #6b5900; }
+  .scan-figure { margin: 18px 0; padding: 14px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .scan-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .scan-figure svg { display: block; width: 100%; height: auto; }
+  .scan-figure .figure-caption { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="test-banner"><strong>Test scan.</strong> Third test, at the recommended 1,200-1,500 word target band (1,550 acceptable). Topic: Connected Transport. Not added to topic_register.json; will not push at the 09:30 sync.</div>
+
+<article>
+<h2>Two Stacks, Two Markets: The Connected Vehicle's Bloc-Level Software Split</h2>
+<p class="seo-line">Beneath the consensus narrative on EVs, autonomy and Mobility-as-a-Service, the connected-vehicle software stack is being structurally split along bloc lines: the US Connected Vehicles Rule's legacy software cutoff just passed in March 2026, with full prohibition effective from model year 2027, and the EU Cybersecurity Act is moving to designate connected vehicles a sensitive sector for vendor restriction.</p>
+
+<p>The consensus narrative on Connected Transport in 2026 runs along familiar tracks: V2X enables smart mobility, software-defined vehicles are the platform of the future, autonomous freight scales before robo-taxis. Each is true. Underneath sits a more immediate development the consensus understates: the connected-vehicle software stack is being structurally split along bloc lines. The US Connected Vehicles Rule's legacy software cutoff passed on 17 March 2026; full software prohibition is effective from model year 2027 (vehicles produced from mid-2026); and the EU Cybersecurity Act is moving to designate connected vehicles a sensitive sector. The Alliance for Automotive Innovation calls this "one of the most consequential and complex auto regulations in decades", and the supply-chain rewiring is happening now.</p>
+
+<h3>Signal Identification</h3>
+<p>A regulatory disruption codifying a bloc-level split in the connected-vehicle software supply chain. The US Connected Vehicles Rule's hard deadlines have begun to land (17 March 2026 legacy cutoff already passed; MY2027 software prohibition next), the EU is moving toward parallel measures, and OEMs and tier-1 suppliers face a structural compliance and stack-architecture challenge.</p>
+<div class="signal-meta">
+<span class="signal-meta-line"><strong>Time horizon:</strong> 1-5 years (March 2026 legacy cutoff just passed; MY2027 enforcement late 2026; EU equivalent measures 2026-2028; hardware prohibition MY2030).</span>
+<span class="signal-meta-line"><strong>Plausibility band:</strong> High (legal instruments now in force; Declarations of Conformity required at 60 days pre-import for MY2027+ connected vehicles).</span>
+<span class="signal-meta-line"><strong>Geographic / Jurisdictional Scope:</strong> Primary: US import market. Secondary: EU regulatory follow-on; China-domestic and China-export market rebalancing. OEM HQ exposure: US, EU, Japan, Korea, China.</span>
+<span class="signal-meta-line"><strong>Sectors exposed:</strong> Auto OEMs; tier-1 software suppliers; semiconductor fabless and IDMs; cloud and telematics platforms; EV-charging operators; auto insurance.</span>
+</div>
+
+<h3>What's Changing</h3>
+
+<p>The US Connected Vehicles Rule prohibits vehicles with covered software designed by entities subject to PRC or Russian jurisdiction; the legacy carve-out cutoff was 17/03/2026, after which any newly developed or maintained software loses the legacy exemption per <a href="https://www.dlapiper.com/en-us/insights/publications/2026/04/connected-vehicles-rule-takes-effect" target="_blank">DLA Piper</a> (04/2026). Software prohibitions enforce against MY2027 vehicles, generally produced from mid-2026. Hardware prohibitions extend to MY2030 per the <a href="https://www.bis.gov/connected-vehicles" target="_blank">Bureau of Industry and Security</a> (current).</p>
+
+<p>Manufacturers must submit Declarations of Conformity to BIS at least 60 days before first importation or sale of each MY2027+ connected vehicle, certifying due-diligence on the entire software supply chain per <a href="https://www.venable.com/insights/publications/2026/02/bis-connected-vehicle-rule-requires-vehicle" target="_blank">Venable LLP</a> (02/2026). The Alliance for Automotive Innovation calls this one of the most consequential auto regulations in decades because automakers must trace code through layers of vendors, subcontractors and licensed repositories that few have ever fully mapped per <a href="https://www.autoconnectedcar.com/2026/03/us-automakers-outing-chinese-code-from-connected-cars-per-federal-anti-chinese-code-rule/" target="_blank">Auto Connected Car News</a> (03/2026).</p>
+
+<p>The EU is moving in parallel. The new EU Cybersecurity Act broadens the legal architecture for restricting market access for vendors deemed "high-risk" in sensitive sectors including connected vehicles, electricity, cloud and medical devices per <a href="https://thediplomat.com/2026/03/eu-cybersecurity-act-increased-scrutiny-of-china-based-supply-chains/" target="_blank">The Diplomat</a> (03/2026). China has warned of reciprocal measures against EU firms if Huawei or ZTE are penalised. The connected-vehicle stack is now a contested security category, not just a commercial one, per <a href="https://www.insurancejournal.com/news/international/2026/02/06/857176.htm" target="_blank">Insurance Journal</a> (02/2026) reporting Bloomberg.</p>
+
+<div class="scan-figure">
+<h4>The US Connected Vehicles Rule, the regulatory clock</h4>
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A horizontal timeline of the US Connected Vehicles Rule, with five milestones: January 2025 BIS final rule, March 2025 rule effective, March 2026 legacy software cutoff (highlighted as the recent inflection point, just passed), late 2026 model year 2027 imports require Declarations of Conformity, and 2030 hardware prohibition for model year 2030. The March 2026 milestone is highlighted in orange; today, mid-May 2026, sits just to its right.">
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif">
+    <text x="360" y="30" font-size="13" font-weight="700" fill="#1a237e" text-anchor="middle">The US Connected Vehicles Rule clock</text>
+    <line x1="80" y1="125" x2="680" y2="125" stroke="#9aa3b2" stroke-width="2"/>
+    <circle cx="80" cy="125" r="7" fill="#1a237e"/>
+    <text x="80" y="105" font-size="10.5" font-weight="700" fill="#1a237e" text-anchor="middle">Jan 2025</text>
+    <text x="80" y="160" font-size="10" fill="#2c3e50" text-anchor="middle">BIS final rule</text>
+    <text x="80" y="174" font-size="10" fill="#2c3e50" text-anchor="middle">published</text>
+    <circle cx="220" cy="125" r="7" fill="#1a237e"/>
+    <text x="220" y="105" font-size="10.5" font-weight="700" fill="#1a237e" text-anchor="middle">Mar 2025</text>
+    <text x="220" y="160" font-size="10" fill="#2c3e50" text-anchor="middle">Rule formally</text>
+    <text x="220" y="174" font-size="10" fill="#2c3e50" text-anchor="middle">effective</text>
+    <circle cx="380" cy="125" r="12" fill="#f57c00" stroke="#e65100" stroke-width="2"/>
+    <text x="380" y="100" font-size="11" font-weight="700" fill="#e65100" text-anchor="middle">17 Mar 2026</text>
+    <text x="380" y="160" font-size="10" font-weight="700" fill="#e65100" text-anchor="middle">Legacy software</text>
+    <text x="380" y="174" font-size="10" font-weight="700" fill="#e65100" text-anchor="middle">cutoff</text>
+    <text x="380" y="188" font-size="10" font-style="italic" fill="#e65100" text-anchor="middle">(two months ago)</text>
+    <circle cx="530" cy="125" r="7" fill="#1a237e"/>
+    <text x="530" y="105" font-size="10.5" font-weight="700" fill="#1a237e" text-anchor="middle">Late 2026</text>
+    <text x="530" y="160" font-size="10" fill="#2c3e50" text-anchor="middle">MY2027 imports</text>
+    <text x="530" y="174" font-size="10" fill="#2c3e50" text-anchor="middle">require DoC</text>
+    <circle cx="680" cy="125" r="7" fill="#1a237e"/>
+    <text x="680" y="105" font-size="10.5" font-weight="700" fill="#1a237e" text-anchor="middle">2030</text>
+    <text x="680" y="160" font-size="10" fill="#2c3e50" text-anchor="middle">Hardware</text>
+    <text x="680" y="174" font-size="10" fill="#2c3e50" text-anchor="middle">prohibition</text>
+    <text x="680" y="188" font-size="10" fill="#2c3e50" text-anchor="middle">(MY2030)</text>
+    <rect x="280" y="212" width="200" height="16" rx="4" fill="#fff3e0"/>
+    <text x="380" y="223" font-size="10" fill="#e65100" text-anchor="middle" font-style="italic">the recent inflection point</text>
+  </g>
+</svg>
+<p class="figure-caption">The first hard compliance deadline (legacy software cutoff) passed two months ago. Declarations of Conformity for MY2027 vehicles begin landing late 2026.</p>
+</div>
+
+<h3>Disruption Pathway</h3>
+
+<p>The pathway runs in three overlapping stages. 2026-2027: US enforcement begins for MY2027 vehicles; OEMs that have not fully mapped their software supply chains face delivery delays and Declaration-of-Conformity rejections. 2027-2028: EU equivalent measures crystallise; tier-1 suppliers (Bosch, Continental, Aptiv, ZF) consolidate Western-stack offerings while Chinese tier-1s (Huawei Auto, ThunderSoft, ECARX) consolidate the China-domestic stack. 2028-2030: hardware prohibition extends to MY2030; the bloc-level architectural split codifies down to silicon and connectivity hardware.</p>
+
+<p>Stresses concentrate in three pressure points. OEM platform economics: maintaining two parallel software stacks compresses the margin gains of software-defined vehicles, whose case rested on amortising one stack across global volume. Tier-1 supplier consolidation: vendors that can credibly attest to a clean Chinese-Russian-free supply chain win share; those that cannot lose access to the US market. National-security review timing: each MY2027 model now needs a 60-day pre-shipment Declaration of Conformity, slowing OEM time-to-market in the most lucrative single market.</p>
+
+<p>Three adaptations are visible. Operationally, OEMs are running first-time software bills of materials (SBOM) audits, often discovering Chinese components they did not know were in their stack. Strategically, tier-1 suppliers are repositioning around the "compliance-attestable" stack; expect M&amp;A consolidation through 2027. Architecturally, the model of one global software platform is giving way to region-specific stacks with a compliance overlay tracking which version ships to which market. The over-the-air update model has to absorb that fragmentation.</p>
+
+<h3>Why This Matters</h3>
+<p>For OEM CEOs, tier-1 supplier strategy teams, automotive investors and corporate-IT buyers in connected fleets, the consensus debate has been about EVs and autonomy, not the software supply chain underneath both. The bloc-level split forces a structural choice: maintain one global stack and lose access to either the US or China market, or maintain two stacks and absorb the cost. CFOs of OEMs should treat the software-supply-chain audit as a 2026 capital and disclosure issue. Tier-1 software suppliers should expect M&amp;A activity and regulatory due-diligence intensification. For investors, the trade is long compliance-attestable Western tier-1 software, with explicit sensitivity to whether the EU's measures crystallise on schedule.</p>
+<p class="action-line"><strong>Decision-action posture: <span class="decision-tag prepare">Prepare</span></strong>. Commit on named triggers: BIS rejects a major OEM's Declaration of Conformity for MY2027; the EU Cybersecurity Act formally designates connected vehicles a sensitive sector under the high-risk vendor framework; a Chinese OEM exits the US market entirely.</p>
+
+<div class="counter-arg-box">
+<h3>Counter-Argument</h3>
+<p>The strongest objection is that the Connected Vehicles Rule will be re-litigated, narrowed, or unevenly enforced. The BIS rule depends on ongoing Bureau resourcing and willingness to enforce; if a major OEM's Declaration of Conformity passes despite known Chinese-software components, the precedent weakens the rule. The EU's "China-free automotive" narrative is also called a myth by some legal commentators per <a href="https://www.twobirds.com/en/insights/2026/the-chinafree-automotive-myth-what-eu-law-really-says" target="_blank">Bird &amp; Bird</a> (2026), because EU law contains no general ban; it relies on case-by-case high-risk vendor designation that may move slowly. If both US enforcement and EU designation soften, the bloc split becomes more friction than fracture.</p>
+</div>
+
+<h3>Implications</h3>
+<p>This is durable structural change. The cost of building two software stacks is now embedded in OEM platform economics for the rest of the decade; even if enforcement softens, the audit and SBOM infrastructure built under the rule does not get unwound. Compliance-attestable tier-1 software suppliers will accumulate share through 2027-2030; OEMs that move first on the supply-chain rewiring will retain US market access on schedule.</p>
+
+<p>This signal is <strong>not</strong> an argument that connected vehicles are an EV-only story; the rule applies across powertrain. It is also <strong>not</strong> simply a US-China trade dispute; the EU's parallel architecture means this is a multi-bloc regulatory phenomenon with structural implications for any OEM with global ambitions. And it is <strong>not</strong> a claim that Chinese OEMs are excluded from the world; their addressable market shifts toward China-domestic plus belt-and-road export markets, with the US (and possibly the EU) walled off. Competing interpretations to hold: an EU enforcement softening could keep European markets effectively unified, or US enforcement could harden under bipartisan congressional pressure (the Moreno-Slotkin Connected Vehicle Security Act).</p>
+
+<h3>Early Indicators to Monitor</h3>
+<ul>
+<li>BIS publicly rejects a MY2027 Declaration of Conformity from a major OEM, forcing disclosure of Chinese-software components.</li>
+<li>The EU formally designates connected vehicles a high-risk sector under the EU Cybersecurity Act vendor framework.</li>
+<li>A Western tier-1 supplier (Bosch, Continental, Aptiv, ZF) acquires a "compliance-attestable" automotive software firm.</li>
+<li>A Chinese OEM (BYD, Geely, NIO, Xpeng) publicly withdraws from or formally avoids the US market.</li>
+</ul>
+
+<h3>Disconfirming Signals</h3>
+<ul>
+<li>BIS issues broad General Authorizations effectively diluting the rule's MY2027 enforcement.</li>
+<li>The EU Cybersecurity Act delays connected-vehicle vendor designation beyond 2028.</li>
+<li>A major OEM Declaration of Conformity passes despite known Chinese components without consequence.</li>
+<li>The US Congress fails to pass the Connected Vehicle Security Act, leaving enforcement to BIS resourcing alone.</li>
+</ul>
+
+<h3>Strategic Questions</h3>
+<ul>
+<li>For OEMs: do you maintain two parallel software stacks, or exit one of the two largest connected-vehicle markets?</li>
+<li>For tier-1 suppliers: is "compliance-attestable to BIS" now the dominant procurement criterion, ahead of price and capability?</li>
+<li>For investors: which Western tier-1 software vendors are positioned to capture share from the bloc split, and what M&amp;A premium do they warrant?</li>
+</ul>
+
+<h3>Keywords</h3>
+<p>Connected vehicles; software-defined vehicle; BIS Connected Vehicles Rule; covered software; Declaration of Conformity; bloc-level supply chain; EU Cybersecurity Act; Chinese OEMs; Tier-1 software; SBOM; vehicle cybersecurity; supply-chain audit</p>
+
+<h3>Bibliography</h3>
+<ul>
+<li><span class="tier-2">Tier 2</span> Connected vehicles rule takes effect: covered software supply chain requirements. <a href="https://www.dlapiper.com/en-us/insights/publications/2026/04/connected-vehicles-rule-takes-effect" target="_blank">DLA Piper</a>. 04/2026.</li>
+<li><span class="tier-2">Tier 2</span> BIS Connected Vehicle Rule Requires Vehicle Software to be Disconnected from China By March 17. <a href="https://www.venable.com/insights/publications/2026/02/bis-connected-vehicle-rule-requires-vehicle" target="_blank">Venable LLP</a>. 02/2026.</li>
+<li><span class="tier-3">Tier 3</span> US Automakers Outing Chinese Code from Connected Cars Per Federal Anti-Chinese Code Rule. <a href="https://www.autoconnectedcar.com/2026/03/us-automakers-outing-chinese-code-from-connected-cars-per-federal-anti-chinese-code-rule/" target="_blank">Auto Connected Car News</a>. 03/2026.</li>
+<li><span class="tier-3">Tier 3</span> EU Cybersecurity Act: Increased Scrutiny of China-Based Supply Chains. <a href="https://thediplomat.com/2026/03/eu-cybersecurity-act-increased-scrutiny-of-china-based-supply-chains/" target="_blank">The Diplomat</a>. 03/2026.</li>
+<li><span class="tier-3">Tier 3</span> EU Needs Smart-Car Data Security Rules And Can Learn From China. <a href="https://www.insurancejournal.com/news/international/2026/02/06/857176.htm" target="_blank">Insurance Journal</a> (reporting <a href="https://www.bloomberg.com/news/articles/2026-02-04/eu-needs-smart-car-data-security-rules-and-can-learn-from-china-group-says" target="_blank">Bloomberg</a>). 06/02/2026.</li>
+<li><span class="tier-2">Tier 2</span> The China-free automotive myth: what EU law really says. <a href="https://www.twobirds.com/en/insights/2026/the-chinafree-automotive-myth-what-eu-law-really-says" target="_blank">Bird &amp; Bird</a>. 2026.</li>
+<li><span class="tier-1">Tier 1</span> Connected Vehicles, Bureau of Industry and Security (rule overview and resources, structural anchor). <a href="https://www.bis.gov/connected-vehicles" target="_blank">US Department of Commerce, BIS</a>. Current.</li>
+<li><span class="tier-3">Tier 3</span> Moreno, Slotkin Bill to Ban Chinese Vehicles, Connected Components from US Market. <a href="https://www.moreno.senate.gov/press-releases/moreno-slotkin-bill-to-ban-chinese-vehicles-connected-components-from-u-s-market/" target="_blank">Senator Bernie Moreno (press release)</a>. 2026.</li>
+</ul>
+
+</article>
+
+<div class="programme-footer">
+<p>This Signal Scan is one component of a Shaping Tomorrow intelligence cycle on <strong>Geopolitics &amp; Economic Fragmentation</strong>. Every monitored topic also includes monthly Change Trackers that assess what is materially shifting in momentum, and a quarterly Decision Intelligence briefing that converts the cycle into board-level strategic implications. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across the three formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme" target="_blank" rel="noopener">Discuss a Tailored Programme</a>
+</div>
+</div>
+</body>
+</html>

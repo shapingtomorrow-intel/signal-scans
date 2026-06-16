@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 1,
+    "publisher": "IPBES (Zenodo record)",
+    "title": "IPBES Business and Biodiversity Assessment: Summary for Policymakers (Jones et al.)",
+    "url": "https://zenodo.org/records/18538597",
+    "publication_date": "2026-02-08",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "Methodological assessment of the impact and dependence of business on biodiversity, approved by IPBES member governments at the twelfth plenary in Manchester (3-8 February 2026). Concludes the accelerating decline in biodiversity is a systemic risk threatening global economic stability and financial markets, not only an environmental concern. The ECB speech cites the assessment's finding that biodiversity loss is among the most serious threats to businesses and that global spending with direct negative impacts on nature reached USD 7.3 trillion in 2023.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor. Tier 1 multilateral primary scientific assessment (IPBES). Zenodo record verified via WebFetch (Published February 8, 2026, version v3, DOI 10.5281/zenodo.18538597); also cited as a footnote in the ECB Banking Supervision speech."
+  },
+  {
+    "tier": 1,
+    "publisher": "ECB Banking Supervision",
+    "title": "Nature in decline, economy on the line: the importance of international cooperation for managing nature-related risks (Frank Elderson)",
+    "url": "https://www.bankingsupervision.europa.eu/press/speeches/date/2026/html/ssm.sp260309~5d4286bf00.en.html",
+    "publication_date": "2026-03-09",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Opening remarks by Frank Elderson (ECB Executive Board, Vice-Chair of the Supervisory Board) at the NGFS Annual Plenary, Pretoria. States the ECB's clear supervisory expectation that supervised banks manage material nature-related risks; nearly 75% of euro-area banks' corporate lending goes to firms highly dependent on at least one ecosystem service; the share of supervised banks with quantitative nature-risk approaches rose from a near-absent base (almost 40% had no defined approach in 2022) to about 75% today; the ECB will publish an updated good-practices compendium including nature in May 2026. Notes central banks are 'policy-takers, not policymakers'.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 1: ECB Banking Supervision interpreting binding supervisory expectations and announcing a formal compendium. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Network for Greening the Financial System (NGFS)",
+    "title": "NGFS 2026 Nature Package (data, modelling and supervision notes)",
+    "url": "https://www.ngfs.net/en/publications-and-statistics/publications/ngfs-2026-nature-package",
+    "publication_date": "2026-04-09",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Package of three complementary notes (nature-related data; modelling tools for nature scenarios; supervision of nature-related financial risks) giving central banks and supervisors practical tools to integrate nature-related risks into prudential work. Builds on the 2024 NGFS Conceptual Framework. Page updated 9 April 2026.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 2 multilateral body (network of 138 central banks and supervisors). WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Institute and Faculty of Actuaries and Anglia Ruskin University",
+    "title": "Planetary Solvency: Tipping into the wild unknown",
+    "url": "https://actuaries.org.uk/planetary-solvency-tipping-into-the-wild-unknown/",
+    "publication_date": "2026-04-30",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Report from the IFoA and Anglia Ruskin University warning that biodiversity loss, climate shocks and geopolitical conflict are disrupting the food system. Recommends policymakers and regulators recognise nature as the foundation of the economy using integrated climate-nature scenarios, and that actuaries and the financial sector recognise food-system fragility as a systemic financial risk with impacts far greater than agriculture's GDP contribution.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 2 professional body plus academic institution. WebFetch verified, full content retrieved (dated 30 April 2026)."
+  },
+  {
+    "tier": 2,
+    "publisher": "Bank for International Settlements (Deutsche Bundesbank speech)",
+    "title": "The environment and the banking sector: a new set of challenges from climate change and loss of biodiversity (Michael Theurer)",
+    "url": "https://www.bis.org/review/r260428b.htm",
+    "publication_date": "2026-04-28",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Speech by Bundesbank Executive Board member Michael Theurer (delivered 12 March 2026, published by BIS 28 April 2026). A Bundesbank analysis of 1,200 German banks (around EUR 1.7 trillion of corporate lending as of December 2025) finds roughly half of corporate loan volume is highly dependent on at least one ecosystem service, with water-based services dominant; cooperative and savings banks carry the largest high-dependency shares. Warns that supervisors who stray too far beyond their price-stability and financial-stability mandates risk undermining their independence.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 2: analytical commentary by a named senior central-bank official, published in the BIS central bank speech review. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Green Central Banking",
+    "title": "Regulators need to incorporate nature risk into prudential regulation, say researchers",
+    "url": "https://greencentralbanking.com/2026/03/12/regulators-need-to-incorporate-nature-risk-into-prudential-regulation-say-researchers/",
+    "publication_date": "2026-03-12",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Reports a Centre for Economic Transition Expertise (CETEx, LSE) study finding the EU banking sector's approach to nature risk is uneven and often folded under climate risk, producing inconsistent disclosure and assessment. Cites an ECB paper that 72% of euro-area companies are highly dependent on ecosystems and that 100 eurozone banks are responsible for 87% of the banking system's biodiversity footprint; warns that relying on a single quantitative metric can create 'a false sense of precision'.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 3 specialist journalism summarising the CETEx report; carries core signal evidence and counter-argument material on data and consistency gaps. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Green Central Banking",
+    "title": "ISSB under attack for proposing voluntary approach to nature risk standards",
+    "url": "https://greencentralbanking.com/2026/04/28/issb-under-attack-for-proposing-voluntary-approach-to-nature-risk-standards/",
+    "publication_date": "2026-04-28",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The International Sustainability Standards Board agreed to propose a non-mandatory IFRS practice statement on nature-related disclosures rather than a binding standard, drawing criticism that it is a 'regressive decision' ducking a materiality question covering more than half of global GDP (an estimated USD 44 trillion of annual economic output dependent on nature). TNFD recommendations had been adopted voluntarily by 733 organisations representing over USD 9.4 trillion in market capitalisation.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 3 specialist journalism; principal sourced evidence that the voluntary-disclosure track is faltering, used in the counter-argument and disconfirming signals. WebFetch verified, full content retrieved."
+  }
+]

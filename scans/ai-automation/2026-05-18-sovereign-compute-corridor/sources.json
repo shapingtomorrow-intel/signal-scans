@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 2,
+    "publisher": "Carnegie Endowment for International Peace",
+    "title": "The Middle Power Moment",
+    "url": "https://carnegieendowment.org/research/2026/01/the-middle-power-moment",
+    "publication_date": "2026-01-20",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "Middle powers have an important role to play in reviving international cooperation at this dawning moment of a new multipolar world; they can spur pragmatic collective action through narrower minilateral or plurilateral arrangements and cross-regional partnerships.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor — canonical reframing of middle-power agency in a multipolar order. Just inside 3-6m structural-anchor band."
+  },
+  {
+    "tier": 2,
+    "publisher": "Chatham House",
+    "title": "How middle powers can weather US and Chinese AI dominance",
+    "url": "https://www.chathamhouse.org/2026/02/how-middle-powers-can-weather-us-and-chinese-ai-dominance",
+    "publication_date": "2026-02-15",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Middle powers can pursue four sovereign-AI approaches: specialise in a part of the global AI supply chain, align with one AI superpower, share sovereignty with other countries, or hedge by drawing on capabilities from several countries.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Direct theoretical framing for the corridor signal."
+  },
+  {
+    "tier": 2,
+    "publisher": "McKinsey & Company",
+    "title": "Sovereign AI: Building ecosystems for strategic resilience and impact",
+    "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/sovereign-ai-building-ecosystems-for-strategic-resilience-and-impact",
+    "publication_date": "2026-03-03",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Sovereign AI must be treated as an ecosystem effort connecting energy, compute, data, models, cloud platforms and applications; enterprise interest is widespread but most lack detailed strategy, with sovereign cloud and AI migrations typically taking three to four years.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Anchors enterprise readiness and timeline maturity dimension."
+  },
+  {
+    "tier": 2,
+    "publisher": "World Economic Forum",
+    "title": "The myth of AI sovereignty",
+    "url": "https://www.weforum.org/stories/2026/04/the-myth-of-ai-sovereignty/",
+    "publication_date": "2026-04-15",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "A small number of economies are pulling ahead in access to advanced chips, reliable power and high-assurance data centres; the US and China alone capture around 65% of aggregate global AI investment; sovereignty should mean strategic agency with options on infrastructure, models and partners, not full independence.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Counter-balancing source: cautions against full-stack sovereignty narrative."
+  },
+  {
+    "tier": 1,
+    "publisher": "Press Information Bureau, Government of India (Ministry of Electronics and IT)",
+    "title": "India to Add 20,000 GPUs Beyond Existing 38,000 to Strengthen National AI Infrastructure (India AI Impact Summit 2026)",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2229171&reg=3&lang=1",
+    "publication_date": "2026-02-20",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Government of India to add 20,000 GPUs to the existing 38,000 to strengthen national AI infrastructure; commitment to scaling compute capacity as part of the IndiaAI Mission's sovereign-AI agenda.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary government source for India's sovereign-compute scaling commitment."
+  },
+  {
+    "tier": 4,
+    "publisher": "G42 (Abu Dhabi)",
+    "title": "G42 and Government of India Formalize Commercial Framework for Condor Galaxy India AI Supercomputer",
+    "url": "https://www.g42.ai/resources/news/g42-and-government-india-formalize-commercial-framework-condor-galaxy-india-ai-supercomputer",
+    "publication_date": "2026-05-15",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "On Modi's state visit to Abu Dhabi, G42 and Government of India formalized framework and commercial terms for an 8-exaflop Condor Galaxy India AI supercomputer comprising 64 Cerebras CS-3 systems; hosted in India under India-defined governance; G42 partnering with India's C-DAC for installation and operations.",
+    "paywalled": false,
+    "treat_directionally": true,
+    "notes": "Primary event anchor — vendor PR but the canonical announcement of the deal. Used for factual specifics only."
+  },
+  {
+    "tier": 3,
+    "publisher": "The National (UAE)",
+    "title": "UAE doubles down on US tech and AI ambitions amid Iran war",
+    "url": "https://www.thenationalnews.com/future/technology/2026/05/11/uae-doubles-down-on-us-tech-and-ai-ambitions-amid-iran-war/",
+    "publication_date": "2026-05-11",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "First Nvidia advanced-chip shipment arrived in UAE 8/05/2026; UAE ambassador Yousef Al Otaiba says UAE-US AI partnership is the 'most consequential economic partnership of this decade'; UAE has committed $1.4 trillion for AI infrastructure in the US; Iran war is accelerating rather than slowing sovereign-AI demand.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Quality regional journalism anchor; quotes named officials and gives operational specifics."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "publisher": "Sustainability Magazine",
+    "title": "Airbus: Hydrogen Aircraft Could be Delayed by a Decade",
+    "url": "https://sustainabilitymag.com/articles/airbus-delays-plans-for-commercial-hydrogen-aircraft",
+    "tier": 3,
+    "publication_date": "08/04/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Airbus has pushed ZEROe commercial deployment timeline from 2035 to late 2040s, cited slow hydrogen ecosystem development; Destination 2050 hydrogen contribution cut from 20% to 6%.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "Aeronautics Magazine",
+    "title": "Airbus Slams Brakes on Hydrogen Revolution: ZEROe Aircraft Delayed Until 2040s",
+    "url": "https://aeronauticsmagazine.com/news/airbus-slams-brakes-on-hydrogen-revolution-zeroe-aircraft-delayed-until-2040s",
+    "tier": 3,
+    "publication_date": "12/03/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Independent corroboration of Airbus ZEROe push to 2040s; framing as material strategic retreat from hydrogen aviation.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "CompositesWorld",
+    "title": "Airbus pushes ZEROe aircraft project timeline to 2040s",
+    "url": "https://www.compositesworld.com/news/airbus-pushes-zeroe-aircraft-project-timeline-to-2040s",
+    "tier": 3,
+    "publication_date": "18/03/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Trade-press confirmation: ZEROe timeline pushed back 5-10 years; budget cut 25%; A380 flying testbed shut down.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "Flying Magazine",
+    "title": "Report: Airbus Has Spent $1.7B on Stalled Hydrogen Ambitions",
+    "url": "https://www.flyingmag.com/report-airbus-has-spent-1-7b-on-stalled-hydrogen-ambitions/",
+    "tier": 3,
+    "publication_date": "02/04/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Airbus has spent over $1.7 billion on the ZEROe programme to date; sunk-cost evidence of the scale of the retreat.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "Aerospace Testing International",
+    "title": "Airbus delays ZEROe hydrogen aircraft research program",
+    "url": "https://www.aerospacetestinginternational.com/news/airbus-delays-zeroe-hydrogen-aircraft-research-program.html",
+    "tier": 3,
+    "publication_date": "20/03/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Confirmation of A380 hydrogen flying-testbed shutdown and 25% hydrogen research budget cut at Airbus.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "Airport Industry News",
+    "title": "Hydrogen on Hold? Airports Respond to Airbus ZEROe Delay",
+    "url": "https://airportindustry-news.com/hydrogen-on-hold-airports-respond-to-airbus-zeroe-delay/",
+    "tier": 3,
+    "publication_date": "10/04/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Downstream effect: airports re-evaluating hydrogen refuelling infrastructure planning; capital allocation shifting to SAF and electrification.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "Aerotime",
+    "title": "ZeroAvia: the hydrogen-power innovator aviation firms back",
+    "url": "https://www.aerotime.aero/articles/zeroavia-hydrogen-electric-engines-customers",
+    "tier": 3,
+    "publication_date": "18/02/2026",
+    "date_age_band": "0-3m",
+    "key_claim": "ZeroAvia completed financing round December 2025 led by Barclays Climate Ventures, Breakthrough Energy and Horizons; runway extended two years.",
+    "is_structural_anchor": false,
+    "treat_directionally": false
+  },
+  {
+    "publisher": "Flight Global",
+    "title": "ZeroAvia targets 2027 certification for hydrogen fuel cell powertrain on Cessna Caravan",
+    "url": "https://www.flightglobal.com/aerospace/zeroavia-eyes-certification-goals-in-2027-as-it-gains-eu-innovation-fund-boost/165220.article",
+    "tier": 3,
+    "publication_date": "22/11/2025",
+    "date_age_band": "3-6m",
+    "key_claim": "ZeroAvia targets late 2026 to early 2027 CAA powertrain clearance for Cessna Caravan retrofit, with EU €21.4m grant supporting 15-aircraft Norway deployment from 2028.",
+    "is_structural_anchor": true,
+    "treat_directionally": false
+  }
+]

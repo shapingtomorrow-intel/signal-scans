@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 2,
+    "publisher": "Council on Strategic Risks",
+    "title": "2025 AIxBio Wrapped: A Year in Review and Projections for 2026",
+    "url": "https://councilonstrategicrisks.org/2025/12/22/2025-aixbio-wrapped-a-year-in-review-and-projections-for-2026/",
+    "publication_date": "2025-12-22",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "Foundation AI models increasingly enable the function of a biomolecule to be preserved even when its sequence changes; an October 2025 Science study used three open-source biological AI models to design proteins structurally similar but sequence-distinct from agents of concern, working with synthesis companies to patch screening tools. Researchers highlight that function-based prediction tools would strengthen synthesis screening over current sequence-based tools.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor. Canonical year-in-review framing of the AIxBio convergence and the sequence-to-function shift. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 1,
+    "publisher": "Frontiers in Bioengineering and Biotechnology",
+    "title": "Synthetic nucleic acids in a post-agent biosecurity Era (Martel, Statens Serum Institut)",
+    "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1819026/full",
+    "publication_date": "2026-04-20",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Agent-centric, list-based biosecurity regimes are being undermined; current screening tools from synthetic nucleic acid providers can be bypassed (Wittmann et al., 2025), as protein-folding prediction algorithms can design proteins with similar 3D structures to agents of concern but very distinct nucleic acid and amino acid sequences. Automated systems can already synthesise fragments up to 750 bases, long enough to code small toxic proteins.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Peer-reviewed Opinion article. WebFetch verified, full abstract and body retrieved."
+  },
+  {
+    "tier": 1,
+    "publisher": "Frontiers in Microbiology",
+    "title": "Toward relational biosecurity: understanding AI-enabled biology as a connected system (Holko, International Computer Science Institute)",
+    "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1856819/full",
+    "publication_date": "2026-05-14",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Biosecurity frameworks remain largely organised around the control of known agents, materials and individual technologies, creating a growing mismatch between emerging capability and current approaches to risk. Nucleic acid sequence screening may not capture risks arising from generative systems that explore novel biological space beyond reference frameworks.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Peer-reviewed Perspective article. WebFetch verified, full abstract retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Centre for the Governance of AI (GovAI)",
+    "title": "Coding Agents Are Changing the Biosecurity Risk Landscape",
+    "url": "https://www.governance.ai/analysis/coding-agents-are-changing-the-biosecurity-risk-landscape",
+    "publication_date": "2026-04-20",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "A non-expert using a coding agent fine-tuned the open-weight Evo 2 model on human-infecting virus sequences, recovering capabilities its developers had filtered out, in a single weekend for roughly USD 760 and with no refusals. Data-filtering safeguards are brittle; physical chokepoints such as mandatory DNA synthesis screening are more robust, but policymakers must ensure screening keeps pace with AI capabilities.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Research blog post; GovAI is a recognised AI-governance research institute. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 2,
+    "publisher": "Epoch AI",
+    "title": "Expanding our analysis of biological AI models",
+    "url": "https://epoch.ai/blog/expanding-our-analysis-of-biological-ai-models",
+    "publication_date": "2026-02-20",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Database of 1,196 biological AI models finds only 3.2% have any documented safeguards (just 1.4% among non-LLM biological AI models); only 2.5% have documented risk assessments. About one in five models are fine-tuned from an existing model rather than trained from scratch.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary database and analysis from a quantitative research organisation. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 3,
+    "publisher": "Health Law & Policy Brief (American University Washington College of Law)",
+    "title": "Biosecurity Catching Up to the Modern Era: A Look Into S.3741",
+    "url": "https://www.healthlawpolicy.org/2026/03/29/biosecurity-catching-up-to-the-modern-era-a-look-into-s-3741/",
+    "publication_date": "2026-03-29",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The Biosecurity Modernization and Innovation Act of 2026 (S.3741), introduced 29 January 2026 by Senators Cotton and Klobuchar, has three elements: a biosecurity element creating mandatory sequence and customer screening protocols built on lists of sequences of concern, a NIST governance sandbox, and a streamlining element giving the White House 90 days to assess oversight gaps.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Law-school policy brief summarising the bill. WebFetch verified, full content retrieved."
+  },
+  {
+    "tier": 4,
+    "publisher": "The Counterfactual (Sophie Kim)",
+    "title": "S.3741 and the art of Not Dying of engineered pathogens: a gap analysis of the Biosecurity Modernization and Innovation Act of 2026",
+    "url": "https://thecounterfactual.substack.com/p/s3741-and-the-art-of-not-dying-of",
+    "publication_date": "2026-03-24",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "S.3741's screening framework is homology-based, not function-based: it checks orders against a list of sequences of concern, while AI protein-design tools can generate functionally dangerous sequences with no list similarity. Section 4(b)(3) only directs NIST to research and prototype sequence-to-function models, with no timeline, funding authorisation, or mandate to integrate function-based screening. Violations carry civil penalties up to USD 500,000 for individuals and USD 750,000 for organisations.",
+    "paywalled": false,
+    "treat_directionally": true,
+    "notes": "Independent gap analysis with a stated advocacy position (urging amendments); treated directionally and used as critical/counter-evidence. Cites the statutory text section-by-section. WebFetch verified, full content retrieved."
+  }
+]

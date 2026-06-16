@@ -1,0 +1,93 @@
+[
+  {
+    "tier": 1,
+    "publisher": "European Commission (DG FISMA)",
+    "title": "Feedback on sustainability reporting standards: additional explanatory information regarding the value chain cap",
+    "url": "https://finance.ec.europa.eu/news/feedback-sustainability-reporting-standards-additional-explanatory-information-regarding-value-chain-2026-05-06_en",
+    "publication_date": "2026-05-06",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The Omnibus I value-chain cap prohibits CSRD companies from REQUIRING value-chain partners of 1,000 employees or fewer to provide more than the voluntary standard; but it applies only to CSRD reporting purposes, does not affect information requests for other purposes, and CSRD companies may still REQUEST above-cap information (which the partner has a statutory right to decline).",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary EC source. Anchors both the signal (the cap binds only public-regulatory requests) and the counter-argument."
+  },
+  {
+    "tier": 1,
+    "publisher": "European Commission (DG FISMA)",
+    "title": "Commission seeks feedback on revised sustainability reporting standards",
+    "url": "https://finance.ec.europa.eu/news/commission-seeks-feedback-revised-sustainability-reporting-standards-2026-05-06_en",
+    "publication_date": "2026-05-06",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The Commission launched a one-month public feedback on draft revised ESRS (mandatory datapoints cut by over 60%, total by over 70%) and a voluntary reporting standard for smaller companies that operationalises the value-chain cap; delegated acts to be adopted after the consultation closes on 3 June 2026.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Primary EC source on the simplified ESRS and the voluntary-standard-as-cap design."
+  },
+  {
+    "tier": 2,
+    "publisher": "Moody's Ratings",
+    "title": "Global Sustainable Finance Outlook 2026 (executive summary)",
+    "url": "https://www.moodys.com/web/en/us/insights/credit-risk/outlooks/global-sustainable-finance.html",
+    "publication_date": "2026-01-21",
+    "date_age_band": "3-6m",
+    "is_structural_anchor": true,
+    "key_claim": "Businesses will increasingly disclose adaptation strategies and investment to stakeholders including regulators and lenders; fragmented regulation is increasing compliance costs; sustainable bond issuance is forecast broadly flat at ~$900bn in 2026.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Structural anchor (3-6m band): canonical institutional framing of the 2026 sustainable-finance landscape and the lender/regulator data-demand thread."
+  },
+  {
+    "tier": 2,
+    "publisher": "S&P Global Ratings",
+    "title": "S&P Global Ratings Forecasts Global Sustainable Bond Market Will Consolidate In 2026 with Issuance Levels at $800-900 billion",
+    "url": "https://press.spglobal.com/2026-03-12-S-P-Global-Ratings-Forecasts-Global-Sustainable-Bond-Market-Will-Consolidate-In-2026-with-Issuance-Levels-at-800-900-billion",
+    "publication_date": "2026-03-12",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The sustainable bond market is consolidating, with the focus shifting from growth to credibility, transparency and measurable outcomes; in the US, labelled issuance has slowed as some issuers prefer conventional bonds to avoid additional reporting requirements.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Tier 2 rating-agency research. Corroborates the quality-over-quantity shift and the disclosure-avoidance dynamic."
+  },
+  {
+    "tier": 3,
+    "publisher": "Green Central Banking",
+    "title": "What happens to climate transition plans in the wake of the EU omnibus?",
+    "url": "https://greencentralbanking.com/2026/02/25/climate-transition-plans-eu-omnibus/",
+    "publication_date": "2026-02-25",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The Omnibus removed legal transition-plan obligations, but banks still need them under CRD6/other legislation; experts warn of 'increased fragmentation and reduced accountability', more data gaps and estimation, and a growing role for specialised private data providers.",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Rich expert-sourced account of the data-fragmentation and private-channel-migration dynamic central to the signal."
+  },
+  {
+    "tier": 3,
+    "publisher": "Gibson Dunn",
+    "title": "Omnibus Simplification of EU's Sustainability Rules (CSRD and CSDDD) Enacted",
+    "url": "https://www.gibsondunn.com/omnibus-simplification-of-eu-sustainability-rules-csrd-and-csddd-enacted/",
+    "publication_date": "2026-03-04",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "Amendment Directive (EU) 2026/470 was published on 26 February 2026 and entered into force on 18 March 2026, significantly narrowing CSRD and CSDDD scope; Wave 1 companies below the revised thresholds fall out of scope for FY2025-2026, with national transposition due by March 2027 (CSRD) and July 2028 (CSDDD).",
+    "paywalled": false,
+    "treat_directionally": false,
+    "notes": "Law-firm client alert; precise legislative-status and timeline anchor."
+  },
+  {
+    "tier": 4,
+    "publisher": "financialregulations.eu (Vyzor)",
+    "title": "EU Omnibus Package 2026: CSRD Scope Reduced by 80% — What Changed and Who Is Still In Scope",
+    "url": "https://financialregulations.eu/blog/eu-omnibus-csrd-simplification-2026",
+    "publication_date": "2026-03-19",
+    "date_age_band": "0-3m",
+    "is_structural_anchor": false,
+    "key_claim": "The Omnibus removes roughly 80% of companies previously in CSRD scope; the shift is also market-driven, as ESG ratings agencies, institutional investors and large corporate customers will continue to request sustainability data even though the legal obligation is gone.",
+    "paywalled": false,
+    "treat_directionally": true,
+    "notes": "Commercial regtech platform (AI-generated analysis). Used only as directional corroboration for the scope-cut framing, which is independently confirmed by the EC and Gibson Dunn sources."
+  }
+]

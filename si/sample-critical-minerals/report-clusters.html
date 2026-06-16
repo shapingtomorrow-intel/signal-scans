@@ -119,6 +119,17 @@
   .si-pill.monitor { background: #2e7d32; color: white; }
   .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
   .scenario-matrix { margin: 32px 0; }
+  /* Bordered matrix with axis labels (Variant C, June 2026). */
+  .scenario-matrix-axed { display: grid; grid-template-columns: 40px 1fr; grid-template-rows: 36px 1fr; gap: 0; margin-top: 20px; }
+  .axis-name-h { grid-row: 1; grid-column: 2; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; }
+  .axis-name-v { grid-row: 2; grid-column: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
+  .matrix-frame { grid-row: 2; grid-column: 2; border: 2px solid #1a237e; border-radius: 12px; position: relative; padding: 28px 14px 20px; background: white; }
+  .matrix-frame .scenario-grid { margin-top: 0; }
+  .corner-label { position: absolute; background: white; padding: 3px 10px; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.06em; text-transform: uppercase; }
+  .corner-tl { top: -11px; left: 22px; }
+  .corner-tr { top: -11px; right: 22px; }
+  .corner-bl { bottom: -11px; left: 22px; }
+  .corner-br { bottom: -11px; right: 22px; }
   .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
   .scenario-cell { padding: 24px; border-radius: 12px; }
   .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
@@ -589,7 +600,16 @@
 <a name="section-scenario-matrix"></a>
 <div class="scenario-matrix">
 <h2>Scenario Matrix</h2>
-<p class="framing-note">Two critical uncertainties define the operating space for the next eighteen to thirty-six months: the speed of US-China decoupling on critical-minerals controls (vertical axis), and the coherence of allied friend-shoring coalitions (horizontal axis).</p>
+<p class="framing-note">Two critical uncertainties define the operating space for the next eighteen to thirty-six months: the coherence of allied friend-shoring coalitions (vertical axis, tight at top) and the speed of US-China decoupling on critical-minerals controls (horizontal axis, fast at left). The four scenarios below are planning aids, not forecasts.</p>
+
+<div class="scenario-matrix-axed">
+<div class="axis-name-h">Speed of decoupling</div>
+<div class="axis-name-v">Coalition coherence</div>
+<div class="matrix-frame">
+<div class="corner-label corner-tl">Tight &middot; Fast</div>
+<div class="corner-label corner-tr">Tight &middot; Slow</div>
+<div class="corner-label corner-bl">Loose &middot; Fast</div>
+<div class="corner-label corner-br">Loose &middot; Slow</div>
 
 <div class="scenario-grid">
 
@@ -617,6 +637,8 @@
 <div class="scenario-indicators"><strong>Early indicators:</strong> A US-China trade architecture releases rare-earth processing technology controls inside twelve months; MSP eligibility convergence stalls; EU CRMA Strategic Projects pipeline grows slowly.</div>
 </div>
 
+</div>
+</div>
 </div>
 </div>
 

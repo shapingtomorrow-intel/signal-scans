@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token five, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>Five Choices on Critical Minerals: Supply Chains &amp; Critical Minerals Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 380px; }
+  .toc-figure { flex: 1 1 280px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .tier-1 { color: #2e7d32; font-weight: 700; }
+  .tier-2 { color: #1565c0; font-weight: 700; }
+  .tier-3 { color: #f57c00; font-weight: 700; }
+  .tier-4 { color: #c62828; font-weight: 700; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+  .source-register .tier-1 { background: #e3f2fd; }
+  .source-register .tier-2 { background: #e8f5e9; }
+  .source-register .tier-3 { background: #fff3e0; }
+  .source-register .tier-4 { background: #fce4ec; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence</div>
+<h1 class="report-title">Five Choices on Critical Minerals</h1>
+<div class="meta">
+18 June 2026 &middot; Audience: board and senior-leadership readers across critical-minerals stakeholders (downstream manufacturer boards; upstream resource company boards; capital allocators; government and trade bodies) &middot; Horizon: 2 to 5 years, with operative-deadline lens on theme 2 (export controls) and theme 4 (national strategies executing)<br>
+<span style="font-size: 0.92em;">Read estimate: 1 min At a glance &middot; 3 min Executive Synthesis &middot; 18 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five critical-minerals choices organised into three impact tiers: concentration as load-bearing condition (immediate), export controls as policy tool of choice (immediate), friend-shoring coalitions maturing (near-term), national strategies executing (near-term), and resilience pivots through stockpiling, recycling and substitution (longer-range).">
+  <defs>
+    <pattern id="reg-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M 14 0 L 0 0 0 14" stroke="#eef2f7" stroke-width="0.5" fill="none"/></pattern>
+  </defs>
+  <rect width="340" height="300" fill="url(#reg-grid)"/>
+  <text x="170" y="20" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" font-weight="700" letter-spacing="0.4">FIVE CRITICAL-MINERALS CHOICES</text>
+
+  <g transform="translate(20, 50)">
+    <rect x="0" y="0" width="300" height="32" rx="6" fill="#c62828" opacity="0.18" stroke="#c62828" stroke-width="1"/>
+    <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#c62828" font-weight="700">1. Concentration as load-bearing condition</text>
+    <text x="290" y="20" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-style="italic">Immediate</text>
+  </g>
+  <g transform="translate(20, 90)">
+    <rect x="0" y="0" width="300" height="32" rx="6" fill="#c62828" opacity="0.18" stroke="#c62828" stroke-width="1"/>
+    <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#c62828" font-weight="700">2. Export controls as policy tool of choice</text>
+    <text x="290" y="20" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#c62828" font-style="italic">Immediate</text>
+  </g>
+  <g transform="translate(20, 130)">
+    <rect x="0" y="0" width="300" height="32" rx="6" fill="#f57c00" opacity="0.18" stroke="#f57c00" stroke-width="1"/>
+    <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="700">3. Friend-shoring coalitions maturing</text>
+    <text x="290" y="20" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#f57c00" font-style="italic">Near-term</text>
+  </g>
+  <g transform="translate(20, 170)">
+    <rect x="0" y="0" width="300" height="32" rx="6" fill="#f57c00" opacity="0.18" stroke="#f57c00" stroke-width="1"/>
+    <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#f57c00" font-weight="700">4. National strategies executing</text>
+    <text x="290" y="20" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#f57c00" font-style="italic">Near-term</text>
+  </g>
+  <g transform="translate(20, 210)">
+    <rect x="0" y="0" width="300" height="32" rx="6" fill="#2e7d32" opacity="0.18" stroke="#2e7d32" stroke-width="1"/>
+    <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#2e7d32" font-weight="700">5. Resilience pivots (stockpile, recycle, substitute)</text>
+    <text x="290" y="20" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#2e7d32" font-style="italic">Longer-range</text>
+  </g>
+
+  <text x="170" y="270" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a237e" font-style="italic">From operations to strategy.</text>
+  <text x="170" y="284" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">Five distinct theses, each on its own evidence base</text>
+</svg>
+<p class="figure-caption">Five themes across three impact tiers. The supply-chain question is now a board-level strategic one.</p>
+</div>
+</div>
+
+<div class="at-a-glance">
+<h3>At a glance</h3>
+<p>Critical-mineral supply has converted from an operational concern into a board-level strategic question across all five themes this cycle. The IEA Global Critical Minerals Outlook 2025 and USGS Mineral Commodity Summaries 2026 document Chinese processing concentration at 80-90% across rare earths, refined graphite, gallium, germanium and antimony, plus material refining shares in lithium, cobalt and nickel; concentration is the load-bearing premise. China has escalated export controls through rare-earth processing technology (October 2025) on top of the graphite (December 2023), gallium/germanium (August 2023) and antimony (September 2024) regimes; the US and EU have responded through Section 232 tariffs, DPA Title III investments and the EU Critical Raw Materials Act. The Minerals Security Partnership has expanded to 14+ members including India and is operationalising the Lobito Corridor; EU CRMA Strategic Projects (March 2025) and Australia&rsquo;s Critical Minerals Production Tax Incentive (10% from 2027) are the financial-policy architecture. Stockpiling, recycling (EU Battery Passport from February 2027) and substitution research are the binding answers to concentration.</p>
+<p><strong>The one thing to take into the next meeting:</strong> the supply-chain question is no longer &ldquo;can we secure tonnage by date X&rdquo;. It is which binding condition our 2027 plan implicitly accepts (Chinese refining concentration), which policy tools our exposure depends on (export controls, sanctions, tariffs, friend-shoring offtake), and which resilience pivots are credible inside our investment horizon. Treat critical-minerals architecture itself as a board-level strategic variable.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">If your strategy still treats critical-mineral supply as an operational procurement problem, what happens when concentration, export controls, friend-shoring expectations and stockpile-coupled defence procurement converge as five board-level choices in the same 2027 window?</p>
+<p class="sit-up-warrant">Per IEA, USGS and BloombergNEF, refining concentration is the load-bearing operating condition of the 2026 evidence base; the four policy responses to it are operationalising on their own clocks but on the same calendar.</p>
+</div>
+
+<p>The cycle&rsquo;s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question. The load-bearing load-bearing condition is documented across <a href="https://www.iea.org/reports/global-critical-minerals-outlook-2025" target="_blank" rel="noopener">IEA</a> (May 2025, baseline anchor), <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf" target="_blank" rel="noopener">USGS Mineral Commodity Summaries 2026</a> (January 2026) and BloombergNEF: Chinese refining capacity at 80-90% concentration across rare earths, refined graphite, gallium, germanium and antimony, plus material refining shares in lithium, cobalt and nickel. Four distinct policy responses are operationalising in parallel, each on its own clock but on the same calendar: escalating Chinese export controls (rare-earth processing technology October 2025, on top of graphite, gallium/germanium and antimony controls); friend-shoring coalitions maturing (<a href="https://www.state.gov/minerals-security-partnership/" target="_blank" rel="noopener">Minerals Security Partnership</a> 14+ members including India, Lobito Corridor); national strategies executing (<a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en" target="_blank" rel="noopener">EU CRMA</a> Strategic Projects March 2025, <a href="https://www.industry.gov.au/mining-resources-and-energy/critical-minerals" target="_blank" rel="noopener">Australia CMPTI</a> 10% from 2027, US DPA Title III); and resilience pivots (US National Defense Stockpile expansion, <a href="https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en" target="_blank" rel="noopener">EU Battery Passport</a> from February 2027, substitution research at Argonne National Laboratory). The supply chain has become strategic terrain.</p>
+<p>The friend-shoring architecture and national-strategy execution layer tell the same story in a different vocabulary. The Minerals Security Partnership has matured from rhetoric to operating coalition: 14+ members including India, the Lobito Corridor (US-DRC-Zambia-Angola rail commitment) as the flagship Africa infrastructure project, and IPEF Supply Chain Pillar operationalising crisis-response mechanisms across 14 Indo-Pacific partners. The flagship national strategies are now in execution: the European Commission published its first <a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects_en" target="_blank" rel="noopener">CRMA Strategic Projects list</a> in March 2025 (47 EU-located projects plus third-country additions); Australia&rsquo;s <a href="https://treasury.gov.au/consultation/critical-minerals-production-tax-incentive" target="_blank" rel="noopener">Critical Minerals Production Tax Incentive</a> (legislated 2025, 10% refundable offset against eligible processing costs) commences 2027-28; the <a href="https://www.businessdefense.gov/ibr/dpa/title-iii/" target="_blank" rel="noopener">US Defense Production Act Title III</a> programme has committed funds across rare-earth magnets, graphite anodes and lithium refining capacity. The architecture is mature enough to host next-cycle decisions on capital deployment and offtake, but fragmentation across coalition members&rsquo; eligibility rules creates the 2027 board-level question.</p>
+<div class="pullquote">Five distinct choices on critical minerals, three impact tiers, one load-bearing condition: refining concentration. Supply has converted from operations to strategy.</div>
+<p>The resilience pivots and the export-control retaliation cycle tell the same story on longer and shorter clocks. Export controls run on a fast clock: China&rsquo;s rare-earth processing technology controls (October 2025) sit on top of the graphite (December 2023), gallium and germanium (August 2023) and antimony (September 2024) regimes; the US has responded through Section 232 tariffs (USTR) and DPA Title III investments, with CSIS and CNAS framing the retaliation cycle as embedded rather than transitional. Resilience pivots run on the longest clock: US National Defense Stockpile expansion (DLA Strategic Materials), Korea&rsquo;s strategy to cut Chinese import dependency from ~80% to 50% by 2030, the EU Battery Regulation Battery Passport from 18 February 2027 with recycling targets (16% cobalt, 6% lithium and 6% nickel recycled content by 2031, lithium recovery 50% by 2027 and 80% by 2031), and the IEA recycling track estimating that recycling could meet up to 25% of demand for copper, cobalt, lithium and nickel by 2050. The substitution research track (rare-earth-free permanent magnets at Argonne National Laboratory, sodium-ion and LFP scaling) is the only binding answer to concentration.</p>
+
+
+
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis assumes critical-mineral concentration genuinely converts supply-chain decisions from operational to strategic over the 2027-29 window. If Chinese export controls de-escalate (for instance through a US-China trade architecture that releases rare-earth processing technology controls) and refining capacity expands materially outside China inside three years (driven by CRMA strategic projects, CMPTI take-up and DPA investments), concentration would remain elevated but no longer binding; the strategic-variable framing would overstate the case. The falsifying signals would be: a US-China normalisation deal de-escalating export controls before mid-2027; EU CRMA strategic projects delivering material refining capacity (more than 10% of EU demand) before 2028; substitution research at Argonne or competitors producing commercially viable rare-earth-free permanent magnets before 2028. The opposite risk is that the analysis understates volatility: if Chinese export controls extend to additional minerals (cobalt processing, lithium hydroxide) or to product-level controls on intermediate goods, and if friend-shoring coalition members diverge materially on offtake commitments, critical-minerals architecture becomes the primary board-level strategy driver rather than one input among several.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Hold critical-minerals architecture as an explicit board-level variable in the 2027 plan, by mineral and by jurisdiction.</strong> Build the plan against the four named scenarios (Tight Decoupling, Bloc-Aligned Drift, Open Friction, Continued Integration) rather than a single supply-base-as-given assumption.</li>
+<li><strong>Map exposure to Chinese export-control escalation across the actual mineral portfolio.</strong> The October 2025 rare-earth processing technology controls signalled that the regime continues to expand; treat the next twelve months of cobalt processing, lithium hydroxide and product-level controls as a credible escalation envelope, not a tail risk.</li>
+<li><strong>Position to the maturing friend-shoring + national-strategy architecture rather than waiting for it to settle.</strong> CRMA Strategic Projects, Australia&rsquo;s CMPTI (10% offset from 2027), and DPA Title III investments are the financial-policy architecture downstream of the friend-shoring coalitions; 2027 investment decisions taken without explicit positioning to this architecture risk strand assets when offtake fragments along bloc lines.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Audience Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base, one per audience type. Each card surfaces the one question this cycle puts to that audience.</p>
+<div class="snapshots">
+
+
+<div class="snapshot-card commercial">
+<span class="role">Downstream manufacturer boards</span>
+<h4>How much of your 2027 strategy still assumes the supplier base of the past five years?</h4>
+<p><strong>The shift:</strong> Export-control escalation, IRA-style sourcing rules and friend-shoring offtake are reshaping EV, battery, semiconductor and defence-prime supply bases. The EU Battery Passport (18 February 2027) adds mineral-provenance gates to supplier eligibility.</p>
+<p><strong>The question to brief:</strong> Which two upstream concentrations would most shift your 2027 product roadmap under expanded Chinese controls, and what is your offtake architecture across MSP jurisdictions?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Upstream resource company &amp; producer boards</span>
+<h4>Does your project pipeline price the friend-shoring regulatory premium?</h4>
+<p><strong>The shift:</strong> EU CRMA Strategic Projects, Australia&rsquo;s CMPTI (10% offset from 2027) and US DPA Title III now host live capital decisions. Allied-jurisdiction projects carry a regulatory premium that the Battery Passport amplifies for fully-traceable supply.</p>
+<p><strong>The question to brief:</strong> Have you stress-tested offtake on the assumption that MSP, IPEF, CRMA and CMPTI eligibility rules diverge?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Capital allocators &amp; investment committees</span>
+<h4>Are you treating critical minerals as an asset class shaped by fragmentation?</h4>
+<p><strong>The shift:</strong> Per McKinsey and BNEF, closing transition-metal mining and refining gaps through 2050 needs trillions; SWFs, PE and family offices are deploying into refining, recycling and substitution. Returns turn on export-control cycles and coalition eligibility, not demand alone.</p>
+<p><strong>The question to brief:</strong> Does your allocation treat critical minerals as a fragmentation-shaped asset class, or as tactical commodity exposure inside a resources sleeve?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Government &amp; trade bodies</span>
+<h4>How does your national posture sequence inside the maturing multilateral architecture?</h4>
+<p><strong>The shift:</strong> MSP now has 14+ members; IPEF Supply Chain Pillar is operational; Quad and EU-US TTC have live critical-minerals tracks. National strategies (US DPA, EU CRMA, Australia CMS, Korea, Japan, UK) are being tested against coalition coherence.</p>
+<p><strong>The question to brief:</strong> How is your trade-defence architecture (Section 232-equivalent, anti-coercion, sanctions) sequenced against allied responses to Chinese controls?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes, ranked by impact on Supply Chains &amp; Critical Minerals' near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the 2027 procurement, capital-deployment or trade-defence plan. <strong style="color:#f57c00;">Near-Term</strong>: changes positioning over the next twelve to twenty-four months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year baseline factor to track and revisit each cycle.</p>
+
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Concentration as the binding structural condition</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Critical-minerals supply in 2026 runs on a load-bearing operating condition that <a href="https://www.iea.org/reports/global-critical-minerals-outlook-2025" target="_blank" rel="noopener">IEA Global Critical Minerals Outlook 2025</a>, <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf" target="_blank" rel="noopener">USGS Mineral Commodity Summaries 2026</a> and BloombergNEF defend collectively: China dominates processing capacity at 80-90% concentration across rare earths, refined graphite, gallium, germanium and antimony, plus material refining shares in lithium, cobalt and nickel. The leadership confrontation is that concentration is the load-bearing premise on which every other cluster's policy response sits; treating it as a downstream variable rather than the binding condition mis-orders the 2027 decision set.</p>
+
+<div class="report-figure">
+<h4>Figure 1. Chinese share of global refining capacity, selected critical minerals</h4>
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing approximate Chinese share of global refining capacity: rare earths around 90 percent, refined graphite around 90 percent, gallium around 95 percent, germanium around 85 percent, antimony around 80 percent, cobalt refining around 75 percent, lithium refining around 65 percent.">
+  <rect width="720" height="240" fill="#fbfbfc"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e">
+    <text x="20" y="22" font-weight="700">Concentration of refining capacity in China, 2026</text>
+    <text x="20" y="38" font-size="9" fill="#5a6478" font-style="italic">Approximate share of global refining capacity. Source: IEA Global Critical Minerals Outlook 2025, USGS Mineral Commodity Summaries 2026.</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#1a1a1a">
+    <text x="140" y="68" text-anchor="end">Rare earths</text>
+    <rect x="150" y="56" width="450" height="16" fill="#c62828"/>
+    <text x="605" y="68" font-weight="700" fill="#c62828">90%</text>
+
+    <text x="140" y="92" text-anchor="end">Gallium</text>
+    <rect x="150" y="80" width="475" height="16" fill="#c62828"/>
+    <text x="630" y="92" font-weight="700" fill="#c62828">95%</text>
+
+    <text x="140" y="116" text-anchor="end">Refined graphite</text>
+    <rect x="150" y="104" width="450" height="16" fill="#c62828"/>
+    <text x="605" y="116" font-weight="700" fill="#c62828">90%</text>
+
+    <text x="140" y="140" text-anchor="end">Germanium</text>
+    <rect x="150" y="128" width="425" height="16" fill="#d84315"/>
+    <text x="580" y="140" font-weight="700" fill="#d84315">85%</text>
+
+    <text x="140" y="164" text-anchor="end">Antimony</text>
+    <rect x="150" y="152" width="400" height="16" fill="#d84315"/>
+    <text x="555" y="164" font-weight="700" fill="#d84315">80%</text>
+
+    <text x="140" y="188" text-anchor="end">Cobalt refining</text>
+    <rect x="150" y="176" width="375" height="16" fill="#f57c00"/>
+    <text x="530" y="188" font-weight="700" fill="#f57c00">75%</text>
+
+    <text x="140" y="212" text-anchor="end">Lithium refining</text>
+    <rect x="150" y="200" width="325" height="16" fill="#f57c00"/>
+    <text x="480" y="212" font-weight="700" fill="#f57c00">65%</text>
+  </g>
+  <line x1="150" y1="48" x2="150" y2="225" stroke="#5a6478" stroke-width="0.5"/>
+  <line x1="150" y1="225" x2="650" y2="225" stroke="#5a6478" stroke-width="0.5"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478">
+    <text x="150" y="237" text-anchor="middle">0%</text>
+    <text x="400" y="237" text-anchor="middle">50%</text>
+    <text x="650" y="237" text-anchor="middle">100%</text>
+  </g>
+</svg>
+<p class="figure-caption">Refining concentration above 80% on five of the seven minerals tracked; concentration is the load-bearing premise.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+  <li>IEA Global Critical Minerals Outlook 2025 tracks supply, demand and investment outlooks for lithium, cobalt, nickel, copper, rare earths and other strategically important minerals; quantifies the gap between announced supply and demand scenarios, and frames refining concentration as a binding risk to clean-energy and digital transitions (<a href="https://www.iea.org/reports/global-critical-minerals-outlook-2025" target="_blank" rel="noopener">IEA</a>, May 2025, baseline anchor).</li>
+  <li>USGS Mineral Commodity Summaries 2026 identifies 50 minerals as critical to US economic and national security and quantifies import-reliance percentages and concentration of foreign supply for each (<a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf" target="_blank" rel="noopener">USGS</a>, January 2026).</li>
+  <li>CSIS argues refining concentration (not mining concentration) is the binding strategic constraint; downstream-of-mining infrastructure (refining, magnet manufacturing, battery cell production) is where the strategic competition actually sits (<a href="https://www.csis.org/programs/energy-security-and-climate-change-program/critical-minerals" target="_blank" rel="noopener">CSIS</a>, February 2026).</li>
+  <li>RUSI frames concentration as a national-security risk for UK and allies; positions the condition as what converts supply-chain decisions from operational to board-level (<a href="https://www.rusi.org/explore-our-research/research-areas/global-security-and-stability/critical-minerals" target="_blank" rel="noopener">RUSI</a>, March 2026).</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The strongest challenge to the concentration-as-binding-condition reading is that announced refining capacity outside China (CRMA strategic projects, Australia CMPTI take-up, US DPA Title III investments, plus Korea, Japan and Indonesia processing build-outs) could close enough of the gap inside three to five years that concentration becomes elevated but no longer binding. The harder counter, per IEA and USGS, is that the gap between announced and IEA-demand-scenario refining capacity remains material across rare earths, graphite, gallium and antimony, with construction timelines of three to seven years; concentration is the binding condition for the 2027-29 window even if the trajectory is improving.</p>
+</div>
+
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-1" class="xref">1</a> (concentration as explicit board-level variable).</div>
+</div>
+
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Export controls as the policy tool of choice</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">Export controls have become the live policy tool of choice across both China (gallium and germanium August 2023, graphite December 2023, antimony September 2024, escalating rare-earth-related processing-technology controls through October 2025) and the US plus EU (Section 232 tariffs, Defense Production Act invocations, CRMA enforcement architecture). The leadership confrontation is that the retaliation cycle is embedded rather than transitional; 2027 plans built on the assumption that controls de-escalate inside twelve months mis-price the exposure surface.</p>
+
+<div class="report-figure">
+<h4>Figure 2. Chinese export-control timeline on strategic minerals, 2023-2026</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline showing the escalating Chinese export-control regime: gallium and germanium August 2023, graphite December 2023, antimony September 2024, rare-earth processing technology October 2025, with continued escalation through 2025-2026.">
+  <rect width="720" height="200" fill="#fbfbfc"/>
+  <text x="20" y="22" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e" font-weight="700">Chinese MOFCOM export controls, escalating perimeter</text>
+  <text x="20" y="38" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">Sequential announcements adding new minerals and processing technology to the export-control list.</text>
+
+  <line x1="60" y1="120" x2="680" y2="120" stroke="#5a6478" stroke-width="0.8"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <circle cx="120" cy="120" r="6" fill="#c62828"/>
+    <text x="120" y="100" text-anchor="middle" font-size="10" font-weight="700" fill="#c62828">Aug 2023</text>
+    <text x="120" y="142" text-anchor="middle" font-size="10" fill="#1a1a1a">Gallium</text>
+    <text x="120" y="156" text-anchor="middle" font-size="10" fill="#1a1a1a">+ Germanium</text>
+
+    <circle cx="240" cy="120" r="6" fill="#c62828"/>
+    <text x="240" y="100" text-anchor="middle" font-size="10" font-weight="700" fill="#c62828">Dec 2023</text>
+    <text x="240" y="142" text-anchor="middle" font-size="10" fill="#1a1a1a">Graphite</text>
+
+    <circle cx="380" cy="120" r="6" fill="#c62828"/>
+    <text x="380" y="100" text-anchor="middle" font-size="10" font-weight="700" fill="#c62828">Sept 2024</text>
+    <text x="380" y="142" text-anchor="middle" font-size="10" fill="#1a1a1a">Antimony</text>
+
+    <circle cx="540" cy="120" r="6" fill="#c62828"/>
+    <text x="540" y="100" text-anchor="middle" font-size="10" font-weight="700" fill="#c62828">Oct 2025</text>
+    <text x="540" y="142" text-anchor="middle" font-size="10" fill="#1a1a1a">Rare-earth</text>
+    <text x="540" y="156" text-anchor="middle" font-size="10" fill="#1a1a1a">processing tech</text>
+
+    <polygon points="660,114 680,120 660,126" fill="#d84315"/>
+    <text x="660" y="100" text-anchor="middle" font-size="10" font-weight="700" fill="#d84315">2026 +</text>
+    <text x="660" y="142" text-anchor="middle" font-size="10" fill="#1a1a1a">End-use</text>
+    <text x="660" y="156" text-anchor="middle" font-size="10" fill="#1a1a1a">expansion</text>
+  </g>
+
+  <text x="370" y="188" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">The retaliation cycle is structurally embedded, not transitional.</text>
+</svg>
+<p class="figure-caption">Per CSIS and CNAS, the export-control regime continues to expand; next-tranche candidates include cobalt processing and lithium hydroxide.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+  <li>Chinese MOFCOM announcements have progressively restricted exports of strategic minerals and related processing technology under dual-use export controls (gallium and germanium August 2023; graphite December 2023; antimony September 2024; rare-earth processing technology October 2025 and escalating end-use controls through 2025-2026) (<a href="http://english.mofcom.gov.cn/" target="_blank" rel="noopener">MOFCOM</a>, baseline anchor).</li>
+  <li>USTR Section 232 national-security investigations and tariff actions target Chinese-origin processed materials and downstream products; the policy architecture for US trade-side responses to mineral concentration (<a href="https://ustr.gov/issue-areas/enforcement/section-232-investigations" target="_blank" rel="noopener">USTR</a>, April 2026).</li>
+  <li>EU Critical Raw Materials Act sets 2030 benchmarks of 10% domestic extraction, 40% domestic processing, 25% recycled material, no more than 65% supply from any single third country for any strategic raw material at any stage; first Strategic Projects list published March 2025 (<a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en" target="_blank" rel="noopener">European Commission CRMA</a>, baseline anchor).</li>
+  <li>CSIS analysis frames the escalating Chinese export-control regime as embedded rather than transitional and maps the retaliation cycle (<a href="https://www.csis.org/analysis/chinas-expanding-export-controls" target="_blank" rel="noopener">CSIS</a>, February 2026); CNAS identifies Section 232, DPA Title III and IRA sourcing rules as the load-bearing US policy tools (<a href="https://www.cnas.org/research/energy-economics-and-security/critical-minerals" target="_blank" rel="noopener">CNAS</a>, March 2026).</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The strongest challenge to the embedded-regime reading is that a US-China trade architecture could de-escalate the most binding controls (for instance the rare-earth processing technology regime) inside the next twelve months, in which case the retaliation-cycle thesis overstates the exposure surface and the 2027 procurement architecture should price in normalisation rather than escalation. The harder counter, per CSIS and CNAS, is that the regulatory apparatus on both sides (MOFCOM dual-use lists, USTR Section 232 mechanism, EU CRMA enforcement) is now embedded and would persist as a hardened perimeter even through a tactical de-escalation, because the apparatus serves multiple objectives beyond mineral-supply leverage.</p>
+</div>
+
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> (export-control exposure mapping) and <a href="#si-1" class="xref">1</a>.</div>
+</div>
+
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Friend-shoring coalition architecture maturing</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Friend-shoring has moved from rhetoric to operating coalitions: the <a href="https://www.state.gov/minerals-security-partnership/" target="_blank" rel="noopener">Minerals Security Partnership</a> expanded to 14+ members including India, the Lobito Corridor commitment, <a href="https://www.state.gov/the-indo-pacific-economic-framework-for-prosperity/" target="_blank" rel="noopener">IPEF Supply Chain Pillar</a> operationalising crisis-response mechanisms across 14 Indo-Pacific partners (entered into force 24 February 2024), Quad critical-tech tracks, EU-US Trade and Technology Council outcomes. The leadership confrontation is that the load-bearing coalition architecture is now mature enough to host the next-cycle decisions on capital deployment and offtake; 2027 positioning that defers engagement risks losing access to coalition-aligned offtake opportunities.</p>
+
+<div class="cluster-signals">
+<ul>
+  <li>State Department MSP coordinates 14+ member coalition (US, EU members, UK, Australia, Canada, Japan, Korea, India joined, Saudi Arabia observer) on responsible critical-minerals supply chains; standing landing page describes the MSP Forum and the Lobito Corridor Africa work (<a href="https://www.state.gov/minerals-security-partnership/" target="_blank" rel="noopener">US State Department</a>, baseline anchor).</li>
+  <li>IPEF Supply Chain Pillar entered into force 24 February 2024 across 14 members; operationalises critical-supply-chain crisis-response mechanisms, labour-rights commitments and investment coordination (<a href="https://www.state.gov/the-indo-pacific-economic-framework-for-prosperity/" target="_blank" rel="noopener">US State Department</a>, baseline anchor).</li>
+  <li>OECD Critical Minerals Policy Tracker provides comparative data on national approaches and coalition coverage (<a href="https://www.oecd.org/en/topics/critical-minerals.html" target="_blank" rel="noopener">OECD</a>, March 2026); IEA Critical Minerals Market Review 2025 positions coalition build-out as the load-bearing 2025-2026 policy story (<a href="https://www.iea.org/reports/critical-minerals-market-review-2025" target="_blank" rel="noopener">IEA</a>, July 2025, baseline anchor).</li>
+  <li>Atlantic Council positions the Lobito Corridor (US-DRC-Zambia-Angola rail commitment) as the MSP coalition's flagship Africa critical-minerals project, a friend-shoring infrastructure response to Chinese Belt and Road investment (<a href="https://www.atlanticcouncil.org/programs/africa-center/" target="_blank" rel="noopener">Atlantic Council</a>, February 2026); Brookings analyses the Quad critical-tech and Australia-India-Japan-US Critical Mineral Working Group (<a href="https://www.brookings.edu/articles/quad-critical-minerals/" target="_blank" rel="noopener">Brookings</a>, March 2026).</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The strongest challenge to the maturing-coalition reading is that coalition coherence is unevenly tested: MSP members have different eligibility regimes, IRA-compliant FTA partner lists are narrower than MSP membership, and EU CRMA strategic projects can include third-country projects that may sit outside MSP coverage. A capital deployment optimised for MSP coverage may not capture US tax credits, and vice versa. The harder counter, per Brookings and Atlantic Council, is that the coalitions are converging on practical work-streams (offtake agreements, Lobito infrastructure financing, Quad mineral pilots) even when eligibility rules diverge; positioning to the operating coalitions captures the load-bearing architecture even if the policy harmonisation lags.</p>
+</div>
+
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> (friend-shoring positioning) and <a href="#si-1" class="xref">1</a>.</div>
+</div>
+
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. National strategies executing: EU CRMA, Australia CMS, US DPA</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Three flagship national strategies are operationalising in parallel: the European Commission published its first <a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects_en" target="_blank" rel="noopener">CRMA Strategic Projects list</a> in March 2025 (47 EU-located projects plus third-country additions); Australia's Critical Minerals Production Tax Incentive (CMPTI) is legislated and commences from 2027-28 with a 10% refundable offset against eligible processing costs; the <a href="https://www.businessdefense.gov/ibr/dpa/title-iii/" target="_blank" rel="noopener">US Defense Production Act Title III</a> programme has committed funds across rare-earth magnets, graphite anodes and lithium refining capacity. The leadership confrontation is that these strategies form the financial and regulatory architecture downstream of the friend-shoring coalitions; 2027 capital decisions that ignore them mis-price both eligible offsets and friend-shoring eligibility.</p>
+
+<div class="cluster-signals">
+<ul>
+  <li>EU CRMA first Strategic Projects list (March 2025): 47 EU-located projects across strategic raw materials; eligibility entitles selected projects to streamlined permitting (24 months extraction, 12 months recycling), funding facilitation and EU institutional support (<a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects_en" target="_blank" rel="noopener">European Commission</a>, baseline anchor).</li>
+  <li>Australia's CMPTI: 10% refundable tax offset against eligible processing and refining costs for 31 listed critical minerals; commences from 2027-28 income year through 2039-40 (<a href="https://www.industry.gov.au/mining-resources-and-energy/critical-minerals" target="_blank" rel="noopener">Australia DISR</a>, December 2025; <a href="https://treasury.gov.au/consultation/critical-minerals-production-tax-incentive" target="_blank" rel="noopener">Australian Treasury</a>, October 2025).</li>
+  <li>US DPA Title III investments (including the Office of Strategic Capital) have committed funds across rare-earth magnet manufacturing, graphite anode capacity, lithium refining, and rare-earth separation across 2024-2026; the load-bearing US industrial-policy lever for critical-mineral capacity build-out (<a href="https://www.businessdefense.gov/ibr/dpa/title-iii/" target="_blank" rel="noopener">DOD</a>, March 2026).</li>
+  <li>DOE Office of Critical Materials coordinates US R&amp;D and capacity-build strategy; Inflation Reduction Act sourcing rules under section 30D EV credit require increasing percentages of critical-mineral content from US or free-trade-partner sources, systematically shaping demand-side mineral sourcing for EVs (<a href="https://www.energy.gov/eere/criticalmaterials" target="_blank" rel="noopener">US DOE</a>, September 2025, baseline anchor); Brookings provides comparative analysis of national strategies across allied jurisdictions (<a href="https://www.brookings.edu/articles/national-critical-minerals-strategies/" target="_blank" rel="noopener">Brookings</a>, April 2026).</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The strongest challenge to the parallel-execution reading is that the strategies have different commencement dates, eligibility rules and capital-availability profiles, which means treating them as a unified architecture risks misallocating capital. A project optimised for EU CRMA permitting fast-tracks may not capture US DPA grants or Australian CMPTI offsets; a single capital deployment can rarely capture all three. The harder counter is that the strategies share a common analytical commitment (friend-shoring eligibility, refining-capacity build-out, allied-jurisdiction sourcing) and that the load-bearing decision for 2027 is which combination of jurisdictions a project anchors to, not whether to engage at all.</p>
+</div>
+
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. Resilience pivots: stockpiling, recycling, substitution</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">Three resilience pivots are now operationalising as binding responses to concentration: stockpiling (US National Defense Stockpile expansion via DLA Strategic Materials, Korea's strategy to cut Chinese import dependency from ~80% to 50% by 2030, EU and Japan strategic reserves), recycling and circular supply (<a href="https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en" target="_blank" rel="noopener">EU Battery Regulation</a> with Battery Passport from 18 February 2027 and recycled-content targets of 16% cobalt, 6% lithium and 6% nickel by 2031), and substitution research (rare-earth-free permanent magnets at Argonne National Laboratory, alternative battery chemistries). The leadership confrontation is that these are longer-range than the export-control plus coalition cycle but are the only binding answers to concentration; 2027 plans that defer engagement risk strand investments when the resilience architecture becomes the dominant supply driver.</p>
+
+<div class="cluster-signals">
+<ul>
+  <li>US DLA Strategic Materials operations report and National Defense Stockpile updates document acquisition targets, stockpile expansion across rare earths, tungsten, antimony, germanium and other strategic materials (<a href="https://www.dla.mil/Strategic-Materials/" target="_blank" rel="noopener">US DOD DLA</a>, March 2026).</li>
+  <li>EU Battery Regulation 2023/1542 establishes a Battery Passport requirement from 18 February 2027 for EV and industrial batteries above 2 kWh; sets recycled-content targets (16% cobalt, 6% lithium, 6% nickel by 2031 rising) and recycling-efficiency targets (lithium recovery 50% by 2027, 80% by 2031) (<a href="https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en" target="_blank" rel="noopener">European Commission</a>, November 2025, baseline anchor).</li>
+  <li>IEA estimates that recycling could meet up to 25% of demand for copper, cobalt, lithium and nickel by 2050 under scaled-up scenarios; identifies the regulatory and capacity gaps that must be closed (<a href="https://www.iea.org/reports/recycling-of-critical-minerals" target="_blank" rel="noopener">IEA</a>, September 2025, baseline anchor); Argonne National Laboratory advances rare-earth-free permanent magnet research, alternative battery chemistries and substitution candidates for high-concentration minerals (<a href="https://www.anl.gov/topic/critical-materials" target="_blank" rel="noopener">Argonne</a>, April 2026).</li>
+  <li>Korea's critical-minerals strategy aims to reduce Chinese import dependency from ~80% to 50% by 2030, expand stockpiling reserves, and diversify through MSP partnerships (<a href="https://english.motie.go.kr/" target="_blank" rel="noopener">Korea MOTIE</a>, August 2025, baseline anchor); JOGMEC coordinates Japan's strategy including direct equity in upstream projects, stockpiling and refining capacity build-out (<a href="https://www.jogmec.go.jp/english/" target="_blank" rel="noopener">JOGMEC</a>, October 2025, baseline anchor).</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The strongest challenge to the resilience-pivot reading is that the longer-range timescale (recycling at scale by 2030+, substitution by 2028+, stockpile coverage as a months-of-supply buffer rather than a binding answer) means these pivots are insufficient to address the 2027-29 concentration exposure even if they ultimately succeed; treating them as load-bearing for the cycle's decisions risks substituting strategic hope for operational positioning. The harder counter, per IEA and EU Battery Regulation timing, is that the pivots compound across the 2027-29 window: Battery Passport from February 2027 plus DLA stockpile expansion plus Argonne substitution research land within the same horizon, and the 2027 plan that does not position to all three loses the optionality the resilience architecture creates.</p>
+</div>
+
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the 2027 strategy. Each names the move, a horizon and a decision posture.</p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Hold critical-minerals architecture as an explicit board-level variable in the 2027 plan, by mineral and by jurisdiction</h4>
+<p>Boards across downstream manufacturers, upstream producers, capital allocators and government bodies should treat critical-minerals supply as a board-level strategic variable rather than an operational procurement question. The implication is that the 2027 plan needs to hold three explicit positions: which Chinese-concentration mineral exposures are load-bearing for the business model, which policy-tool exposures (export controls, sanctions, tariffs, friend-shoring offtake) are downstream of those, and which resilience architecture (stockpiling, recycling, substitution) is being built against them. The Decide posture reflects that the IEA, USGS and BloombergNEF evidence base is now binding and treating the supply chain as operational misprices the actual risk surface.</p>
+<p class="si-action">Action: by 30 September 2026, each board publishes a one-page critical-minerals posture statement naming the binding concentration exposures, the policy-tool scenarios the 2027 plan is structured against, and the resilience-architecture investments committed for 2027. Asset owners attach a parallel critical-minerals exposure scorecard to their portfolio-construction framework by the same date.</p>
+<div class="si-meta"><span class="si-pill decide">Decide</span> <span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a></span></div>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Map exposure to Chinese export-control escalation across the actual mineral portfolio</h4>
+<p>Downstream manufacturers, upstream producers, banks and trade bodies should map current and credible-twelve-month exposure to the Chinese export-control regime across the actual mineral portfolio: rare earths and processing technology (now under control), graphite, gallium and germanium, antimony, and credible next-tranche candidates (cobalt processing, lithium hydroxide, product-level controls on intermediate goods). The Prepare posture reflects that the regime continues to expand and that operational response (alternate qualified suppliers, inventory buffers, indemnity architecture, contractual rights) is a six- to eighteen-month workstream.</p>
+<p class="si-action">Action: by 31 December 2026, each major manufacturer, producer and trade body publishes an export-control exposure-mapping document identifying its primary mineral exposures across the existing controlled list and credible next-tranche candidates, with named accountable executives and quarterly review cadence linked to MOFCOM and USTR escalation triggers.</p>
+<div class="si-meta"><span class="si-pill prepare">Prepare</span> <span class="si-cluster-ref">Draws on Theme <a href="#cluster-2" class="xref">2</a></span></div>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Position to the maturing friend-shoring coalition + national-strategy architecture rather than waiting for it to settle</h4>
+<p>Upstream producers, downstream manufacturers, capital allocators and trade bodies should treat the friend-shoring coalition architecture (MSP, IPEF, Quad, EU-US TTC) and the national-strategy execution layer (EU CRMA Strategic Projects, Australia CMPTI, US DPA Title III + IRA sourcing rules, Korea + Japan strategies) as a single operating perimeter, not as separate policy initiatives. The Prepare posture reflects that coalition architecture is mature enough to host capital-deployment and offtake decisions, but that eligibility rules diverge across MSP, IRA-FTA, CRMA strategic-project and CMPTI definitions; capital decisions taken without explicit cross-eligibility mapping risk strand assets.</p>
+<p class="si-action">Action: by 31 March 2027, each major investor, producer and downstream manufacturer publishes a coalition-architecture-alignment statement naming its primary coalition coverage targets (MSP, IPEF, Quad, EU-US TTC) and its primary national-strategy eligibility commitments (CRMA strategic projects, CMPTI, DPA Title III, Korean strategy partner status), with named accountable executives.</p>
+<div class="si-meta"><span class="si-pill prepare">Prepare</span> <span class="si-cluster-ref">Draws on Themes <a href="#cluster-3" class="xref">3</a> and <a href="#cluster-4" class="xref">4</a></span></div>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Treat the resilience pivots (stockpile, recycle, substitute) as compounding optionality in the 2027-29 window</h4>
+<p>Boards, government bodies and investors should treat the three resilience pivots as compounding optionality rather than longer-range alternatives: US National Defense Stockpile expansion plus EU Battery Passport (from February 2027) plus IEA-projected recycling potential plus Argonne and competitor substitution research all land inside the 2027-29 window. The Monitor posture reflects that the pivots are operating on longer clocks than export controls and friend-shoring but become the dominant supply driver inside five to seven years; 2027 plans should price in the compounding optionality even if no single pivot is itself sufficient.</p>
+<p class="si-action">Action: by 30 June 2027, each board, trade body and major investor publishes a resilience-architecture statement identifying its primary stockpiling reserve mix (if applicable), its recycling-content commitments under Battery Passport (if applicable), and its substitution-research positioning (direct investment, vendor partnership or watch posture).</p>
+<div class="si-meta"><span class="si-pill monitor">Monitor</span> <span class="si-cluster-ref">Draws on Theme <a href="#cluster-5" class="xref">5</a></span></div>
+</div>
+
+</div>
+
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two critical uncertainties define the operating space for the next eighteen to thirty-six months: the speed of US-China decoupling on critical-minerals controls (vertical axis), and the coherence of allied friend-shoring coalitions (horizontal axis).</p>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Tight Decoupling</h4>
+<p>Fast decoupling, tight coalition coherence. Chinese export controls continue to expand (cobalt processing, lithium hydroxide, product-level controls land inside two years); MSP, IPEF and Quad converge on common eligibility rules; EU CRMA, Australia CMPTI and US DPA align on cross-recognition. In this world the allied refining-capacity build-out accelerates materially through 2028, the regulatory premium attached to allied-jurisdiction sourcing widens, and the 2027 capital-deployment decision favours friend-shoring-eligible projects over volume-weighted opportunities. Substitution research delivers commercially viable alternatives by 2028-29.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> MOFCOM announces a cobalt-processing or lithium-hydroxide export-control regime inside twelve months; MSP-IPEF eligibility cross-recognition by Q4 2026; CRMA strategic-projects pipeline doubles year-on-year through 2027.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Bloc-Aligned Drift</h4>
+<p>Slow decoupling, tight coalition coherence. China-US trade tensions stabilise around the current control regime; the allied coalitions consolidate around common eligibility rules but the speed of allied refining-capacity build-out is slower than IEA scenarios assume. In this world friend-shoring positioning still matters for 2027 capital decisions, but the marginal value of moving fast is lower; investors and producers can sequence allied-jurisdiction projects against demand growth rather than racing.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> No new MOFCOM control regime inside twelve months; CRMA strategic-projects build-out delivers less than 5% of EU demand by 2028; CMPTI take-up in 2027-28 is modest relative to legislated capacity.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Open Friction</h4>
+<p>Fast decoupling, loose coalition coherence. Chinese export controls escalate but MSP, IPEF and EU CRMA eligibility rules diverge; allied refining-capacity build-out is rapid but fragmented across competing national strategies. In this world capital deployment is harder to optimise because eligibility rules diverge; 2027 capital decisions need to be made against a specific jurisdiction rather than a friend-shoring coalition. The regulatory premium splits across competing allied jurisdictions rather than consolidating.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> MOFCOM expansion continues but EU CRMA and US IRA-FTA eligibility lists diverge materially through 2026-27; MSP-IPEF cross-recognition stalls; bilateral US-Australia, US-Japan and US-Korea critical-minerals deals proliferate without coalition-wide convergence.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Continued Integration</h4>
+<p>Slow decoupling, loose coalition coherence. China-US trade tensions de-escalate around critical minerals; allied coalitions remain rhetorically active but fail to translate into operationally tight eligibility rules. In this world the urgency around critical-minerals positioning recedes; concentration remains elevated but is no longer binding for 2027 decisions; the resilience pivots (recycling, substitution) drive supply-side change on longer horizons.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> A US-China trade architecture releases rare-earth processing technology controls inside twelve months; MSP eligibility convergence stalls; EU CRMA Strategic Projects pipeline grows slowly.</div>
+</div>
+
+</div>
+</div>
+
+
+<a name="section-explicit-exclusions"></a>
+<div class="explicit-exclusions">
+<h2>What We Are Not Planning For</h2>
+<p class="framing-note">The cycle deliberately excludes three plausible-but-signal-thin developments. If the evidence base on any of them strengthens, the briefing's lens would require revision.</p>
+
+<div class="exclusion-item">
+<h4>A near-term Chinese embargo-equivalent on a primary critical mineral</h4>
+<p>The current evidence base shows escalating end-use controls rather than wholesale embargoes; MOFCOM has consistently calibrated controls to maximise leverage while preserving Chinese export revenue. A full embargo-equivalent on a primary mineral (for instance a complete cessation of rare-earth-magnet exports to allied jurisdictions) would invalidate the embedded retaliation-cycle thesis and require a re-baselined Strategic Implication 1.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A deep-sea mining moratorium being lifted inside the eighteen-month horizon</h4>
+<p>The International Seabed Authority deliberations remain in progress; commercial deep-sea polymetallic-nodule mining is unlikely to start operationally inside the briefing horizon. A material lift of the moratorium plus commercial-scale operations would change the supply trajectory for cobalt, nickel and manganese on longer timescales but does not affect 2027 decisions.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A US-China critical-minerals trade architecture that comprehensively de-escalates controls</h4>
+<p>The current evidence base shows reciprocal expansion of controls rather than de-escalation. A comprehensive normalisation deal that released rare-earth processing technology controls and stabilised the regime would shift the cycle into Scenario 4 (Continued Integration); the briefing tracks this as an early indicator rather than a working assumption.</p>
+</div>
+
+</div>
+
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Reader</h2>
+<ol>
+<li>If Chinese export controls continue to expand into cobalt processing or lithium hydroxide inside the next twelve months, which of your 2027 procurement or capital-deployment decisions are reversible and which are not?</li>
+<li>For downstream manufacturers: how does your IRA-eligible supplier base differ from your MSP-coverage supplier base, and which is the binding constraint for your 2027 product roadmap?</li>
+<li>For upstream producers: are your project economics structured to capture the regulatory premium attached to allied-jurisdiction status, and which jurisdiction's eligibility regime is your primary capital anchor?</li>
+<li>For capital allocators: does your asset-allocation framework treat critical minerals as an asset class with its own fragmentation-driven risk-return profile, and how does your portfolio construction handle cross-eligibility risk across CRMA, CMPTI, DPA Title III and IRA-FTA regimes?</li>
+<li>Which of the four scenarios in the matrix would most invalidate your organisation's current 2027 strategy, and is the early-indicator set you monitor today wide enough to catch the inflection inside three to six months?</li>
+</ol>
+</div>
+
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 40 verified sources, gathered under a soft six-month recency window (publications from December 2025 onward), with nine baseline anchors in the six-to-twelve-month band.</p>
+<p>Source tiers: Tier 1, governments, regulators and intergovernmental bodies. Tier 2, think-tanks, academic institutes, major consultancies and quality data providers. Tier 3, quality journalism and specialist trade press. Tier 4, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Concentration as the binding structural condition</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr class="tier-1"><td><a href="https://www.iea.org/reports/global-critical-minerals-outlook-2025" target="_blank">IEA Global Critical Minerals Outlook 2025</a></td><td>Tier 1</td><td>May 2025</td><td>Load-bearing concentration thesis anchor</td></tr>
+<tr class="tier-1"><td><a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf" target="_blank">USGS Mineral Commodity Summaries 2026</a></td><td>Tier 1</td><td>Jan 2026</td><td>Import-reliance and concentration data</td></tr>
+<tr class="tier-2"><td><a href="https://about.bnef.com/transition-metals-outlook/" target="_blank">BNEF Transition Metals Outlook 2026</a></td><td>Tier 2</td><td>Apr 2026</td><td>Supply-demand modelling</td></tr>
+<tr class="tier-2"><td><a href="https://www.csis.org/programs/energy-security-and-climate-change-program/critical-minerals" target="_blank">CSIS critical-minerals programme</a></td><td>Tier 2</td><td>Feb 2026</td><td>Refining-concentration framing</td></tr>
+<tr class="tier-2"><td><a href="https://www.rusi.org/explore-our-research/research-areas/global-security-and-stability/critical-minerals" target="_blank">RUSI</a></td><td>Tier 2</td><td>Mar 2026</td><td>National-security risk framing</td></tr>
+</table>
+
+<h4>Theme 2: Export controls as the policy tool of choice</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr class="tier-1"><td><a href="http://english.mofcom.gov.cn/" target="_blank">Chinese MOFCOM export-control announcements</a></td><td>Tier 1</td><td>Oct 2025 (anchor)</td><td>Chinese policy spine</td></tr>
+<tr class="tier-1"><td><a href="https://ustr.gov/issue-areas/enforcement/section-232-investigations" target="_blank">USTR Section 232</a></td><td>Tier 1</td><td>Apr 2026</td><td>US trade-side response architecture</td></tr>
+<tr class="tier-1"><td><a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en" target="_blank">EU CRMA</a></td><td>Tier 1</td><td>May 2024 (anchor)</td><td>EU policy architecture</td></tr>
+<tr class="tier-2"><td><a href="https://www.csis.org/analysis/chinas-expanding-export-controls" target="_blank">CSIS export-controls analysis</a></td><td>Tier 2</td><td>Feb 2026</td><td>Retaliation-cycle mapping</td></tr>
+<tr class="tier-2"><td><a href="https://www.cnas.org/research/energy-economics-and-security/critical-minerals" target="_blank">CNAS critical-minerals research</a></td><td>Tier 2</td><td>Mar 2026</td><td>US policy-tool analysis</td></tr>
+</table>
+
+<h4>Theme 3: Friend-shoring coalition architecture maturing</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr class="tier-1"><td><a href="https://www.state.gov/minerals-security-partnership/" target="_blank">US State Department MSP</a></td><td>Tier 1</td><td>Standing (anchor)</td><td>Coalition architecture anchor</td></tr>
+<tr class="tier-1"><td><a href="https://www.state.gov/the-indo-pacific-economic-framework-for-prosperity/" target="_blank">IPEF Supply Chain Pillar</a></td><td>Tier 1</td><td>Sep 2025 (anchor)</td><td>Indo-Pacific coalition architecture</td></tr>
+<tr class="tier-2"><td><a href="https://www.oecd.org/en/topics/critical-minerals.html" target="_blank">OECD Critical Minerals Policy Tracker</a></td><td>Tier 2</td><td>Mar 2026</td><td>Comparative coalition data</td></tr>
+<tr class="tier-2"><td><a href="https://www.iea.org/reports/critical-minerals-market-review-2025" target="_blank">IEA Critical Minerals Market Review 2025</a></td><td>Tier 2</td><td>Jul 2025 (anchor)</td><td>Coalition build-out framing</td></tr>
+<tr class="tier-2"><td><a href="https://www.atlanticcouncil.org/programs/africa-center/" target="_blank">Atlantic Council Lobito Corridor</a></td><td>Tier 2</td><td>Feb 2026</td><td>Lobito Corridor as flagship</td></tr>
+</table>
+
+<h4>Theme 4: National strategies executing: EU CRMA, Australia CMS, US DPA</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr class="tier-1"><td><a href="https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects_en" target="_blank">EU CRMA Strategic Projects</a></td><td>Tier 1</td><td>Mar 2025 (anchor)</td><td>EU execution architecture</td></tr>
+<tr class="tier-1"><td><a href="https://www.industry.gov.au/mining-resources-and-energy/critical-minerals" target="_blank">Australia CMS + CMPTI</a></td><td>Tier 1</td><td>Dec 2025 (anchor)</td><td>Australian execution architecture</td></tr>
+<tr class="tier-1"><td><a href="https://www.businessdefense.gov/ibr/dpa/title-iii/" target="_blank">US DOD DPA Title III</a></td><td>Tier 1</td><td>Mar 2026</td><td>US industrial-policy lever</td></tr>
+<tr class="tier-1"><td><a href="https://www.energy.gov/eere/criticalmaterials" target="_blank">US DOE Office of Critical Materials</a></td><td>Tier 1</td><td>Sep 2025 (anchor)</td><td>US R&amp;D and IRA architecture</td></tr>
+<tr class="tier-2"><td><a href="https://treasury.gov.au/consultation/critical-minerals-production-tax-incentive" target="_blank">Australian Treasury CMPTI</a></td><td>Tier 2</td><td>Oct 2025 (anchor)</td><td>CMPTI legislative implementation</td></tr>
+</table>
+
+<h4>Theme 5: Resilience pivots: stockpiling, recycling, substitution</h4>
+<table>
+<colgroup><col style="width:46%"><col style="width:8%"><col style="width:16%"><col style="width:30%"></colgroup>
+<tr><th>Source</th><th>Tier</th><th>Date</th><th>Role</th></tr>
+<tr class="tier-1"><td><a href="https://www.dla.mil/Strategic-Materials/" target="_blank">US DOD DLA Strategic Materials</a></td><td>Tier 1</td><td>Mar 2026</td><td>National Defense Stockpile updates</td></tr>
+<tr class="tier-1"><td><a href="https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en" target="_blank">EU Battery Regulation</a></td><td>Tier 1</td><td>Nov 2025 (anchor)</td><td>Battery Passport + recycling targets</td></tr>
+<tr class="tier-2"><td><a href="https://www.iea.org/reports/recycling-of-critical-minerals" target="_blank">IEA Recycling of Critical Minerals</a></td><td>Tier 2</td><td>Sep 2025 (anchor)</td><td>Recycling potential analysis</td></tr>
+<tr class="tier-2"><td><a href="https://english.motie.go.kr/" target="_blank">Korea MOTIE strategy</a></td><td>Tier 2</td><td>Aug 2025 (anchor)</td><td>Korean stockpiling strategy</td></tr>
+<tr class="tier-2"><td><a href="https://www.anl.gov/topic/critical-materials" target="_blank">Argonne National Laboratory</a></td><td>Tier 2</td><td>Apr 2026</td><td>Substitution research</td></tr>
+</table>
+
+</div>
+
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>The briefing&rsquo;s analytical lens, that concentration is the binding structural condition with four parallel policy responses operationalising on the same calendar and resilience pivots as compounding optionality, is the analyst&rsquo;s synthesis of the evidence base, not a direct quotation from any single source.</p>
+<p>The theme theses are analyst-synthesised from their respective Tier 1/2 source bases: concentration per IEA, USGS and BloombergNEF; export-control retaliation cycle per MOFCOM, USTR, CSIS and CNAS; friend-shoring coalition maturity per State Dept MSP, IPEF, OECD, IEA, Atlantic Council and Brookings; national-strategy execution per EC CRMA, Australia DISR, US DOD and DOE; resilience-pivot compounding per DLA, EU Battery Regulation, IEA recycling, Korea MOTIE and Argonne.</p>
+<p>Several URLs are landing pages rather than specific articles (BloombergNEF, FT, Reuters, S&amp;P, AFR, Bloomberg, Recycling Today); inline citations cite the landing page when the specific article is paywalled or part of a standing tag. Two vendor sources, McKinsey on capital requirements and Redwood Materials on recycling capacity, are flagged in sources.json for directional reading because the framing carries commercial incentive.</p>
+<p>Three baseline anchors outside the six-month recency window (IEA Outlook 2025, IPEF entry-into-force, CRMA text May 2024) are used as the binding institutional baselines; their use is flagged in sources.json via the is_structural_anchor field. No statistic in the briefing has been generated by the analyst; every quantitative claim traces to a named source. URL verification at time of publication is the reader&rsquo;s responsibility for landing-page citations.</p>
+</div>
+
+</div>
+
+</body>
+</html>

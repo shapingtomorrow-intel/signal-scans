@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Thu, 18 Jun 2026 11:10:55 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 11:32:29 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence</title>
@@ -29,7 +29,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-16-curtailable-connection/scan.html</guid>
 <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that the AI data-centre boom is a power-supply problem demanding new generation, US and British regulators and grid operators are re-pricing grid access around demand flexibility - conditioning fast interconnection on curtailability (FERC's RM26-4 flexible-load fast lane, Texas's mandatory-curtailment law in NERC's 2026 forecasts, the UK DESNZ/Ofgem demand-connection reforms) - turning data centres into dispatchable resources and unlocking existing-grid...</description>
+<description>US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources. Fast interconnection is being conditioned on curtailability (FERC's RM26-4 flexible-load fast lane, Texas's mandatory-curtailment law in NERC's 2026 forecasts, the UK DESNZ/Ofgem demand-connection reforms), unlocking existing-grid headroom on a 2026-2030 horizon.</description>
 </item>
 <item>
 <title>Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate</title>
@@ -61,7 +61,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-06-14-student-skilled-funnel-closure/scan.html</guid>
 <pubDate>Sun, 14 Jun 2026 08:00:00 +0000</pubDate>
 <category>Demographics, Migration &amp; Labour Markets</category>
-<description>Beneath the consensus that immigration caps simply lower headline migration, the Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had quietly become its dominant feeder of permanent skilled labour, creating a skilled-supply gap that lands in 2028-2032.</description>
+<description>The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour. Immigration caps presented as simply lowering headline migration are creating a skilled-supply gap that lands in 2028-2032.</description>
 </item>
 <item>
 <title>The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling</title>
@@ -69,7 +69,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-06-14-china-pipeline-dependence/scan.html</guid>
 <pubDate>Sun, 14 Jun 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
-<description>Beneath the consensus that the US and Europe lead biopharma innovation, Western pharma's future pipeline is becoming dependent on China-originated molecules - roughly 40% of big-pharma licensing now starts in China - just as US national-security policy moves to decouple, setting up a pipeline-versus-security collision over 2026-2030.</description>
+<description>Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation. Roughly 40% of big-pharma licensing now starts in China, just as US national-security policy moves to decouple, setting up a pipeline-versus-security collision over 2026-2030.</description>
 </item>
 <item>
 <title>The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive</title>
@@ -77,7 +77,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html</guid>
 <pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
-<description>Beneath the consensus that AI is racing toward near-zero marginal cost as token prices collapse, agentic and reasoning workloads are consuming tokens faster than unit prices fall - so total inference spend and the cost of completed frontier-grade work are rising, turning inference economics (not capability) into the binding constraint and locking AI-native gross margins structurally below SaaS across 2026-2028.</description>
+<description>Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story. Total inference spend and the cost of completed frontier-grade work are rising, turning inference economics (not capability) into the binding constraint and locking AI-native gross margins structurally below SaaS across 2026-2028.</description>
 </item>
 <item>
 <title>Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains</title>
@@ -85,7 +85,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-13-ai-competence-debt/scan.html</guid>
 <pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
-<description>Beneath the consensus that AI augments workers and reskilling will close the gap, controlled trials and safety bodies show AI dependence eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them - accruing a hidden 'competence debt' that stays invisible while AI is present and surfaces 2027-2030 when AI is absent, fails or must be overridden, hitting succession, oversight and operational resilience.</description>
+<description>AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them. Controlled trials and safety bodies have surfaced a hidden 'competence debt' that stays invisible while AI is present and surfaces 2027-2030 when AI is absent, fails or must be overridden, hitting succession, oversight and operational resilience.</description>
 </item>
 <item>
 <title>Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure</title>
@@ -109,7 +109,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-09-system-strength-procurement/scan.html</guid>
 <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that the grid challenge is building enough clean generation and wires, the binding reliability constraint is shifting from adequacy to system strength and dynamic stability - inertia, fault current, reactive power and oscillation damping that retiring synchronous plants supplied for free - and operators are now procuring these services explicitly through grid-forming inverter mandates, synchronous-condenser retrofits and dedicated stability markets...</description>
+<description>The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous plants supplied for free are now procured explicitly through grid-forming inverter mandates, synchronous-condenser retrofits and dedicated stability markets (ENTSO-E final report 20/03/2026, IEA Electricity 2026 06/02/2026, NESO stability market 24/02/2026) on a 2026-2030 horizon.</description>
 </item>
 <item>
 <title>Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand</title>
@@ -117,7 +117,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-09-mineral-substitution-acceleration/scan.html</guid>
 <pubDate>Tue, 09 Jun 2026 08:00:00 +0000</pubDate>
 <category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the consensus that critical-minerals strategy is a supply story - mines, processing, stockpiles and price floors to escape China - China's 2025 export controls are accelerating demand-side substitution and thrifting (rare-earth-free motors, sodium-ion, LFP, lower magnet loadings) fast enough that Western supply build-outs underwritten at administered price floors risk arriving into structurally softer demand for the specific minerals they target (USGS MCS 2026 Feb...</description>
+<description>China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand. Rare-earth-free motors, sodium-ion, LFP and lower magnet loadings mean Western supply build-outs underwritten at administered price floors risk arriving into structurally softer demand for the specific minerals they target (USGS MCS 2026 Feb 2026, IEA Global EV Outlook 2026 May 2026, ECB Occasional Paper 384 31/03/2026) on a 2028-2032 horizon.</description>
 </item>
 <item>
 <title>Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers</title>
@@ -125,7 +125,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-08-cloud-oversight-perimeter/scan.html</guid>
 <pubDate>Mon, 08 Jun 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
-<description>Beneath the consensus that operational-resilience rules (the EU's DORA, the UK's critical-third-party regime) are just a cyber/compliance burden on regulated firms, financial regulators are for the first time gaining direct supervisory authority over the cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities in their own right, extending the regulatory perimeter from licensed firms to their critical suppliers - a template likely to spread to other sectors -...</description>
+<description>Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities. Operational-resilience rules (the EU's DORA, the UK's critical-third-party regime) extend the regulatory perimeter from licensed firms to their critical suppliers, a template likely to spread to other sectors on a 2026-2028 horizon. Distinct from the AI-focused 25/05 managed-federalism-ai and 01/06...</description>
 </item>
 <item>
 <title>Invisible Dollarisation: How Dollar Stablecoins Are Eroding Emerging-Market Monetary Sovereignty</title>
@@ -133,7 +133,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-08-invisible-dollarisation/scan.html</guid>
 <pubDate>Mon, 08 Jun 2026 08:00:00 +0000</pubDate>
 <category>Financial Services &amp; Future of Money</category>
-<description>Beneath the consensus that dollar stablecoins are a payments-efficiency and US-deposit story, in weak-currency economies they are driving 'invisible dollarisation' - a faster, harder-to-measure currency substitution that erodes monetary sovereignty (weaker policy transmission, deposit flight, amplified capital flight), with the BIS, ECB and IMF naming the risk on a 2026-2028 horizon.</description>
+<description>Dollar stablecoins are driving 'invisible dollarisation' in weak-currency economies, a faster, harder-to-measure currency substitution. The mechanism erodes monetary sovereignty through weaker policy transmission, deposit flight and amplified capital flight, with the BIS, ECB and IMF naming the risk on a 2026-2028 horizon.</description>
 </item>
 <item>
 <title>Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base</title>
@@ -141,7 +141,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-06-open-weight-substrate-shift/scan.html</guid>
 <pubDate>Sat, 06 Jun 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
-<description>Beneath the consensus that the US leads the AI race on frontier-model performance, the deployed inference base is shifting to Chinese open-weight models: US government testing still puts the best Chinese model about 8 months behind the frontier and Stanford's index shows the US narrowly ahead (2.7%), yet PRC-origin open models reportedly grew from ~1% of global AI workloads in late 2024 to ~30% by end-2025, turning 'who has the best model' into 'whose models run in...</description>
+<description>The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads. US government testing puts the best Chinese model about 8 months behind the frontier and Stanford's index shows the US ahead by 2.7%, yet PRC-origin open models reportedly grew from ~1% of global AI workloads in late 2024 to ~30% by end-2025, turning 'who has the best model' into 'whose models run in production' as a national-security, supply-chain...</description>
 </item>
 <item>
 <title>The Manager in the Machine: Algorithmic Management Went Mainstream Before Its Guardrails Arrived</title>
@@ -149,7 +149,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-06-algorithmic-management-default/scan.html</guid>
 <pubDate>Sat, 06 Jun 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
-<description>Beneath the consensus that AI is a productivity copilot assisting workers, AI has quietly become the manager - instructing, monitoring, evaluating and increasingly gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD) - while bias hides inside 'audited' screening tools and the EU's binding high-risk governance has slipped from August 2026 to December 2027, opening a 2026-2028 accountability gap.</description>
+<description>AI has quietly become the manager rather than the copilot, instructing, monitoring, evaluating and gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD). Bias hides inside 'audited' screening tools while the EU's binding high-risk governance has slipped from August 2026 to December 2027, opening a 2026-2028 accountability gap.</description>
 </item>
 <item>
 <title>From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation</title>
@@ -157,7 +157,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-06-06-us-science-talent-outflow/scan.html</guid>
 <pubDate>Sat, 06 Jun 2026 08:00:00 +0000</pubDate>
 <category>Demographics, Migration &amp; Labour Markets</category>
-<description>Beneath the consensus that the US science brain drain is a future risk, 2026 hard data - a doubling of US applications for ERC relocation grants, a five-year-low visa-sponsorship residency match rate, and named departures of senior faculty and Nobel laureates - show the outflow is already underway; and because rival states are locking in talent with multi-year, billion-scale packages in a single 2025-2026 window, this is a structural, self-reinforcing reallocation of the...</description>
+<description>The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency match rate hit a five-year low, and named senior-faculty and Nobel-laureate departures are stacking up; rival states are locking in talent with multi-year, billion-scale packages in a single 2025-2026 window, making this a self-reinforcing reallocation of the global R&amp;D base.</description>
 </item>
 <item>
 <title>When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes</title>
@@ -165,7 +165,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-06-06-gene-therapy-payment-reset/scan.html</guid>
 <pubDate>Sat, 06 Jun 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
-<description>Beneath the consensus that gene therapies are the future of medicine, the one-time-cure business model is failing even where the science works - manufacturers are withdrawing approved therapies and capital is fleeing because systems built for chronic, pay-over-time care cannot finance multimillion-dollar cures; the response now scaling is outcomes-based, government-brokered pay-only-if-it-works financing (CMS's 34-state Medicaid model), which will decide whether the...</description>
+<description>The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures. Manufacturers are withdrawing approved therapies and capital is fleeing; outcomes-based, government-brokered pay-only-if-it-works financing (CMS's 34-state Medicaid model) is scaling and will decide whether the rare-disease pipeline survives the 2026-2029 reset.</description>
 </item>
 <item>
 <title>Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament</title>
@@ -173,7 +173,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-03-energetics-feedstock-chokepoint/scan.html</guid>
 <pubDate>Wed, 03 Jun 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
-<description>Beneath the consensus that European rearmament is gated by budgets and shell-filling lines, the binding constraint has migrated upstream to energetic-materials feedstock - nitrocellulose and its cotton-linter precursor (&gt;70% China-sourced), plus TNT (one major plant in NATO Europe) - so fully-funded 155mm lines can stall on propellant inputs adversaries and competitors control; 2026 is when the EU first funds the chokepoint directly (EDIP's EUR166.4m energetic-components...</description>
+<description>The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock. Nitrocellulose and its cotton-linter precursor (&gt;70% China-sourced) plus TNT (one major plant in NATO Europe) mean fully-funded 155mm lines can stall on propellant inputs adversaries and competitors control; 2026 is when the EU first funds the chokepoint directly (EDIP's EUR166.4m energetic-components call, 30 March 2026), but capacity lands 2027-2028.</description>
 </item>
 <item>
 <title>Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System</title>
@@ -181,7 +181,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-03-reserve-custody-repatriation/scan.html</guid>
 <pubDate>Wed, 03 Jun 2026 08:00:00 +0000</pubDate>
 <category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Beneath the consensus that central banks are simply buying record gold as a dollar hedge, the sharper shift is in custody and settlement: official reserves are migrating out of the dollar-centric vault-and-clearing network - gold repatriated from New York and London into domestic vaults, and gold now exceeding US Treasuries in official holdings (27% vs 22% of reserve assets, ECB June 2026) - fragmenting the plumbing, not just the composition, of the reserve system over...</description>
+<description>Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system. Gold has been repatriated from New York and London into domestic vaults and now exceeds US Treasuries in official holdings (27% vs 22% of reserve assets, ECB June 2026), shifting custody and settlement, not just composition, over 2026-2028.</description>
 </item>
 <item>
 <title>The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out</title>
@@ -189,7 +189,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-02-grid-hardware-ceiling/scan.html</guid>
 <pubDate>Tue, 02 Jun 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that the energy build-out is gated by permitting and interconnection queues, the binding constraint has migrated downstream to grid-hardware manufacturing - transformers, HV cables and switchgear with up-to-four-year lead times and a concentrated electrical-steel input base - which capital and permitting reform cannot compress; the US has invoked the Defense Production Act, classing grid hardware as a national-defence input.</description>
+<description>The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing. Transformers, HV cables and switchgear carry up-to-four-year lead times on a concentrated electrical-steel input base that capital and permitting reform cannot compress; the US has invoked the Defense Production Act, classing grid hardware as a national-defence input.</description>
 </item>
 <item>
 <title>The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint</title>
@@ -197,7 +197,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-02-rare-earth-processing-moat/scan.html</guid>
 <pubDate>Tue, 02 Jun 2026 08:00:00 +0000</pubDate>
 <category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the push to break China's grip by building allied rare-earth mines, the binding chokepoint has moved to the midstream - separation, refining, metallisation and magnet-making - and to the process technology, equipment and know-how that run it, which China's October 2025 controls explicitly fenced off (suspended only to November 2026); even well-funded Western mine-to-magnet build-outs remain structurally dependent.</description>
+<description>The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it. China's October 2025 controls explicitly fenced this layer off (suspended only to November 2026), leaving even well-funded Western mine-to-magnet build-outs structurally dependent.</description>
 </item>
 <item>
 <title>AI-Native or AI-Locked-Out: The Quiet Eligibility Divide Reshaping the Top Twenty Financial Centres</title>
@@ -213,7 +213,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-01-agentic-payments-trust-layer/scan.html</guid>
 <pubDate>Mon, 01 Jun 2026 08:00:00 +0000</pubDate>
 <category>Financial Services &amp; Future of Money</category>
-<description>Beneath the consensus that agentic AI will simply shop for consumers, payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer'; because agent-initiated transactions default to card-not-present with no liability shift, the authentication and liability architecture of payments is being rewritten in privately-set network standards ahead of regulators (IMF, Bank of England FPC, FCA all flagging it in 2026) on a...</description>
+<description>Payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer' for AI buyers. Because agent-initiated transactions default to card-not-present with no liability shift, the authentication and liability architecture of payments is being rewritten in privately-set network standards ahead of regulators (IMF, Bank of England FPC, FCA all flagging it in 2026) on a 2026-2028 horizon.</description>
 </item>
 <item>
 <title>After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect</title>
@@ -221,7 +221,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-01-brussels-effect-reversal/scan.html</guid>
 <pubDate>Mon, 01 Jun 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
-<description>Beneath the consensus that the May 2026 AI Act Omnibus is a pragmatic compliance delay, it is an early rollback of a flagship EU digital law and the seventh of ten standing 'simplification' packages driven by competitiveness (the Draghi report) and explicit US trade pressure - signalling that the one-way 'Brussels Effect' regulatory ratchet has reversed and that 'build to Brussels equals the global ceiling' can no longer be assumed, on a 2026-2028 horizon.</description>
+<description>The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay. It is the seventh of ten standing 'simplification' packages driven by competitiveness (the Draghi report) and explicit US trade pressure; 'build to Brussels equals the global ceiling' can no longer be assumed on a 2026-2028 horizon.</description>
 </item>
 <item>
 <title>After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics</title>
@@ -245,7 +245,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-30-ai-offbalance-financing/scan.html</guid>
 <pubDate>Sat, 30 May 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
-<description>Beneath the consensus that hyperscalers are funding the AI build-out from their own strong balance sheets, a growing share of the financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases - building a concentrated, opaque leverage layer that the IMF, FSB, ECB and Bank of England all began flagging in 2026 and that would turn an AI-revenue disappointment into a financial-stability event.</description>
+<description>A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases. This concentrated, opaque leverage layer (flagged in 2026 by the IMF, FSB, ECB and Bank of England) would turn an AI-revenue disappointment into a financial-stability event.</description>
 </item>
 <item>
 <title>The Vanishing Middle: Why Management-Layer Compression Is Structural, Not Cyclical</title>
@@ -253,7 +253,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-30-management-layer-compression/scan.html</guid>
 <pubDate>Sat, 30 May 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
-<description>Beneath the consensus that AI is driving a cost-cutting cycle of middle-management layoffs, span of control is crossing thresholds once considered dysfunctional - Gallup's US average at 12.1 direct reports, big-tech divisions at 50:1, outliers near 90 - permanently re-architecting the organisation into a thin manager spine plus a widened expert lattice and quietly dismantling the leadership pipeline boards still assume they have, with the succession cost landing around 2028.</description>
+<description>Span of control is crossing thresholds once considered dysfunctional, permanently re-architecting firms into a thin manager spine plus a widened expert lattice. Gallup's US average sits at 12.1 direct reports, big-tech divisions at 50:1, outliers near 90; the leadership pipeline boards still assume they have is being dismantled, with the succession cost landing around 2028.</description>
 </item>
 <item>
 <title>Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible</title>
@@ -269,7 +269,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-05-27-global-south-china-tariffs/scan.html</guid>
 <pubDate>Wed, 27 May 2026 08:00:00 +0000</pubDate>
 <category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Beneath the consensus US-China-EU two-bloc trade fragmentation story, a third front has opened: Mexico (1,463-line tariff reform effective 1 January 2026), Brazil (97.3% ethanolamines antidumping 1 April 2026), India (12% steel safeguard 2025-2028), Indonesia, Turkey and Thailand are imposing their own large tariffs and antidumping duties against Chinese imports - driven by industrial-survival defence against overcapacity-driven export diversion rather than strategic...</description>
+<description>A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports. Mexico (1,463-line tariff reform effective 1 January 2026), Brazil (97.3% ethanolamines antidumping 1 April 2026), India (12% steel safeguard 2025-2028), Indonesia, Turkey and Thailand are acting in industrial-survival defence against overcapacity-driven export diversion rather than strategic alignment with Washington, restructuring global...</description>
 </item>
 <item>
 <title>Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability</title>
@@ -277,7 +277,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-26-correlated-grid-stress/scan.html</guid>
 <pubDate>Tue, 26 May 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that the energy challenge is building clean generation and grid fast enough, the binding reliability risk has quietly shifted: climate change is correlating the stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail, and the 2026 reliability assessments (IEA, NERC, NYISO, ENTSO-E) have begun treating extreme, correlated conditions, not the normal peak, as the binding risk - while capacity...</description>
+<description>Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail. The 2026 reliability assessments (IEA, NERC, NYISO, ENTSO-E) have begun treating extreme, correlated conditions, not the normal peak, as the binding risk, while capacity markets and infrastructure finance remain benchmarked to a static, normal-peak standard.</description>
 </item>
 <item>
 <title>From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy</title>
@@ -285,7 +285,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-05-26-critical-mineral-price-floor/scan.html</guid>
 <pubDate>Tue, 26 May 2026 08:00:00 +0000</pubDate>
 <category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the consensus that critical-minerals policy is about diversifying physical supply away from China, the binding instrument has quietly become price: the Pentagon's July 2025 $110/kg NdPr floor with MP Materials has, in eight months, migrated into a 15 January 2026 executive order contemplating minimum import prices, a 10 March 2026 Lynas-Japan offtake at the same $110/kg floor through 2038, and a USTR-led plurilateral consultation with the EU and Japan that closed on...</description>
+<description>Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument. The Pentagon's July 2025 $110/kg NdPr floor with MP Materials has migrated in eight months into a 15 January 2026 executive order on minimum import prices, a 10 March 2026 Lynas-Japan offtake at the same floor through 2038, and a USTR-led plurilateral consultation with the EU and Japan closed 19 March 2026, taking the policy from...</description>
 </item>
 <item>
 <title>The Narrow-Banking Drift: How Stablecoins Are Quietly Reshaping Who Creates Credit</title>
@@ -293,7 +293,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-05-25-narrow-banking-drift/scan.html</guid>
 <pubDate>Mon, 25 May 2026 08:00:00 +0000</pubDate>
 <category>Financial Services &amp; Future of Money</category>
-<description>Beneath the post-GENIUS '$6 trillion war for deposits' framing, stablecoins are not just moving deposits between institutions but converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills; the durable 2026-2028 consequence is that credit creation migrates out of the relationship-banking system - contracting lending capacity even at banks that capture the flows - while the GENIUS Act yield ban meant to slow it is...</description>
+<description>Stablecoins are quietly converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills. The durable 2026-2028 consequence is that credit creation migrates out of the relationship-banking system, contracting lending capacity even at banks that capture the flows; the GENIUS Act yield ban meant to slow it is already being arbitraged via exchange 'rewards' programmes.</description>
 </item>
 <item>
 <title>Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules</title>
@@ -301,7 +301,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-05-25-managed-federalism-ai/scan.html</guid>
 <pubDate>Mon, 25 May 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
-<description>Beneath the consensus debate over whether a December 2025 executive order can legally preempt state AI laws, the administration has shifted to a model Lawfare calls 'managed federalism' - using conditional broadband (BEAD) funding, a DOJ litigation task force and agency signalling to chill state AI lawmaking in practice without preempting it in law - so the durable 2026-2028 outcome is a deterrence-shaped, contested patchwork rather than a national standard, and the...</description>
+<description>The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'. Conditional broadband (BEAD) funding, a DOJ litigation task force and agency signalling deliver the deterrence; the durable 2026-2028 outcome is a contested patchwork rather than a national standard, with a coordination-and-leverage toolkit transferable to other contested policy domains.</description>
 </item>
 <item>
 <title>After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy</title>
@@ -309,7 +309,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-24-remittance-sender-base-erosion/scan.html</guid>
 <pubDate>Sun, 24 May 2026 08:00:00 +0000</pubDate>
 <category>Demographics, Migration &amp; Labour Markets</category>
-<description>Beneath the consensus that remittances remain a record-breaking, recession-proof pillar of development finance, the migrant sender base is structurally eroding - declining migration and deportations are shrinking the number of senders while a US 1% transfer tax and FinCEN scrutiny raise friction - and the 2025 record was a one-off precautionary surge now exhausting, leaving remittance-dependent economies exposed to a 2026-2028 plateau-and-decline their fiscal models still...</description>
+<description>The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1% transfer tax and FinCEN scrutiny raise friction; the 2025 record was a one-off precautionary surge now exhausting, exposing remittance-dependent economies to a 2026-2028 plateau-and-decline their fiscal models still treat as resilient growth.</description>
 </item>
 <item>
 <title>Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide</title>
@@ -317,7 +317,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-24-mfn-global-repricing/scan.html</guid>
 <pubDate>Sun, 24 May 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
-<description>Beneath the consensus that US Most-Favored-Nation pricing and direct-to-consumer deals are simply lowering US drug prices, the international reference mechanism is restructuring global pharmaceutical pricing - the US government itself states the policy will put upward pressure on prices paid abroad - pushing manufacturers to raise ex-US prices, delay or withhold launches in lower-price markets, and turning US pricing reform into a global repricing and access-contraction...</description>
+<description>US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism. The US government itself states the policy will put upward pressure on prices paid abroad, pushing manufacturers to raise ex-US prices and delay or withhold launches in lower-price markets, turning US pricing reform into a global repricing and access-contraction event across 2026-2028.</description>
 </item>
 <item>
 <title>The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation</title>
@@ -325,7 +325,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html</guid>
 <pubDate>Sat, 23 May 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
-<description>Beneath the consensus that enterprise AI adoption is accelerating, the commercial insurance market is quietly setting the terms of deployment - rewriting standard liability policies to exclude AI-related losses while only a thin affirmative-cover market emerges - making insurability, not capability, an emerging constraint on agentic-AI scale-up across the 2026-2028 renewal cycles.</description>
+<description>Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin affirmative-cover market emerges, setting the real terms of deployment across the 2026-2028 renewal cycles.</description>
 </item>
 <item>
 <title>The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset</title>
@@ -333,7 +333,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-23-pay-transparency-reset/scan.html</guid>
 <pubDate>Sat, 23 May 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
-<description>Beneath the consensus that the EU Pay Transparency Directive is a gender-pay-gap reporting deadline, its mechanics force a structural re-engineering of how firms set, justify and disclose pay - ending pay secrecy and individual negotiation - and the reset lands on 7 June 2026 through a fragmented, partly-resisted patchwork of national laws most employers are not ready for.</description>
+<description>The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation. Framed as a gender-pay-gap reporting deadline, the reset lands on 7 June 2026 through a fragmented, partly-resisted patchwork of national laws most employers are not ready for.</description>
 </item>
 <item>
 <title>The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty</title>
@@ -373,7 +373,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-19-load-follows-generation/scan.html</guid>
 <pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that AI is straining the grid, FERC's December 2025 PJM colocation order, EIA's 2026 retirement-delay data, and a 66% surge in gas-plant build costs together signal a structural inversion: where new electric load now chooses to sit next to existing or new generation, slowing coal retirements and locking in fossil capacity inside the energy transition.</description>
+<description>New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story. FERC's December 2025 PJM colocation order, EIA's 2026 retirement-delay data and a 66% surge in gas-plant build costs together signal load following generation, slowing coal retirements and locking in fossil capacity inside the energy transition.</description>
 </item>
 <item>
 <title>Identity Before Capability</title>
@@ -381,7 +381,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-agent-identity-rails/scan.html</guid>
 <pubDate>Mon, 18 May 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
-<description>Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and Microsoft Entra agent-ID releases are converging into the rails that decide which agents act on whose behalf — a 2026-2028 inflection for IAM, vendor selection and liability.</description>
+<description>Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and Microsoft Entra agent-ID releases are converging into the rails that decide which agents act on whose behalf: a 2026-2028 inflection for IAM, vendor selection and liability.</description>
 </item>
 <item>
 <title>Flash Drought: Speed Not Scarcity</title>
@@ -389,7 +389,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-18-flash-drought-tempo-gap/scan.html</guid>
 <pubDate>Mon, 18 May 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the drought-and-wildfire narrative, flash drought — severe drought intensifying within weeks rather than seasons — is emerging as a distinct systemic-risk category whose tempo outpaces existing parametric-insurance triggers, sovereign-relief mechanisms and pastoral programmes, restructuring climate-risk pricing and early-warning architecture on a 2026-2028 inflection.</description>
+<description>Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces existing parametric-insurance triggers, sovereign-relief mechanisms and pastoral programmes, restructuring climate-risk pricing and early-warning architecture on a 2026-2028 inflection.</description>
 </item>
 <item>
 <title>Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One</title>
@@ -397,7 +397,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-18-hydrogen-aviation-quiet-retreat/scan.html</guid>
 <pubDate>Mon, 18 May 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that SAF, hydrogen-electric and eVTOL form three parallel pathways to aviation decarbonisation, the hydrogen-electric pathway is being materially deprioritised: Airbus ZEROe slipped from 2035 to the late 2040s, Universal Hydrogen folded, and ZeroAvia narrowed scope to small-aircraft retrofit.</description>
+<description>The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL. Airbus ZEROe slipped from 2035 to the late 2040s, Universal Hydrogen folded, and ZeroAvia narrowed scope to small-aircraft retrofit.</description>
 </item>
 <item>
 <title>Compute as Statecraft</title>
@@ -405,7 +405,7 @@
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-sovereign-compute-corridor/scan.html</guid>
 <pubDate>Mon, 18 May 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
-<description>Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class — Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are forming corridors that bypass forced superpower alignment, restructuring middle-power agency, semiconductor supply chains and digital-sovereignty doctrine on a 2026-2028 inflection.</description>
+<description>Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are forming corridors that bypass forced superpower alignment, restructuring middle-power agency, semiconductor supply chains and digital-sovereignty doctrine on a 2026-2028 inflection.</description>
 </item>
 </channel>
 </rss>

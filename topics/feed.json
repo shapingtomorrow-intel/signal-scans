@@ -1,0 +1,1126 @@
+{
+  "generated": "2026-06-18T17:30:23Z",
+  "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
+  "topics": [
+    {
+      "slug": "financial-services-future-of-money",
+      "name": "Financial Services & Future of Money",
+      "tagline": "How money is being rewired: rails, reserves and rulebooks.",
+      "description": "Stablecoins, tokenised bank deposits, retail and wholesale CBDCs, agent-initiated payments, settlement-system change. What it means for treasury, payments, custody and counterparty risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/history/",
+      "latest_read": "Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote",
+      "latest_dates": {
+        "scan": "2026-06-15",
+        "tracker": "2026-06-18",
+        "di": "2026-05-19",
+        "cc": "2026-06-02"
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote",
+          "summary": "Cycle 2. A shared interbank clearing layer for tokenised deposits, a cycle-one wild card, becomes a live programme via The Clearing House; cross-border tokenised settlement and tokenised funds keep...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-06-18/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Liquid Wrapper, Illiquid Core: How Retailised Private Credit Is Moving the Liquidity Mismatch onto Households",
+          "summary": "Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-15-private-credit-retail-wrapper/scan.html",
+          "signal_slug": "private-credit-retail-wrapper"
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Invisible Dollarisation: How Dollar Stablecoins Are Eroding Emerging-Market Monetary Sovereignty",
+          "summary": "Dollar stablecoins are driving 'invisible dollarisation' in weak-currency economies, a faster, harder-to-measure currency substitution.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-08-invisible-dollarisation/scan.html",
+          "signal_slug": "invisible-dollarisation"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Money rewires the rails. Now agents rewire the wallet.",
+          "summary": "Two surfaces being rewired. The rails surface (tokenised bank deposits, regulated stablecoins) consolidates; the wallet surface (agent authentication) opens.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/sample-financial-services-two-rewires/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Know Your Agent: How the Race to Authenticate AI Buyers Is Rewiring Payment Liability",
+          "summary": "Payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer' for AI buyers.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-01-agentic-payments-trust-layer/scan.html",
+          "signal_slug": "agentic-payments-trust-layer"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Narrow-Banking Drift: How Stablecoins Are Quietly Reshaping Who Creates Credit",
+          "summary": "Stablecoins are quietly converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-05-25-narrow-banking-drift/scan.html",
+          "signal_slug": "narrow-banking-drift"
+        },
+        {
+          "date": "2026-05-21",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Stablecoin rules harden as tokenised bank money scales and cash plateaus",
+          "summary": "Inaugural cycle. United States GENIUS Act rulemaking and a maturing tokenised settlement stack lead the accelerators; the retail digital euro holds a steady multi-year tempo and the...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-05-21/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Money Rewires Itself: Rails, Reserves and Rulebooks",
+          "summary": "Money is being rewired in four places at once, and the four rewires are happening on different clocks. Payments rails are migrating onto stablecoins and tokenised collateral while the regulatory...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/money-rewires-itself/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Sovereign Insurer of Last Resort",
+          "summary": "Beneath the headline Hormuz crisis, the structural shift is the sovereign absorption of risks private insurance can no longer model: the US-Chubb $40B Maritime Reinsurance facility and the Treasury...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-05-17-sovereign-insurer-of-last-resort/scan.html",
+          "signal_slug": "sovereign-insurer-of-last-resort"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond Stablecoins",
+          "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-05-16-tokenised-collateral-pivot/scan.html",
+          "signal_slug": "tokenised-collateral-pivot"
+        }
+      ]
+    },
+    {
+      "slug": "supply-chains-critical-minerals",
+      "name": "Supply Chains & Critical Minerals",
+      "tagline": "When the supply chain becomes statecraft.",
+      "description": "Critical-mineral stockpiles, friendshoring, sovereign equity in suppliers, export-quota shocks. What it changes for procurement, inventory and substitution strategy.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/history/",
+      "latest_read": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
+      "latest_dates": {
+        "scan": "2026-06-16",
+        "tracker": "2026-05-22",
+        "di": "2026-06-18",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Five Choices on Critical Minerals",
+          "summary": "The cycle’s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/sample-critical-minerals/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate",
+          "summary": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-16-seabed-minerals-bifurcation/scan.html",
+          "signal_slug": "seabed-minerals-bifurcation"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand",
+          "summary": "China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-09-mineral-substitution-acceleration/scan.html",
+          "signal_slug": "mineral-substitution-acceleration"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint",
+          "summary": "The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-02-rare-earth-processing-moat/scan.html",
+          "signal_slug": "rare-earth-processing-moat"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy",
+          "summary": "Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-05-26-critical-mineral-price-floor/scan.html",
+          "signal_slug": "critical-mineral-price-floor"
+        },
+        {
+          "date": "2026-05-22",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "State intervention in critical minerals accelerates as the export-control truce holds",
+          "summary": "Inaugural cycle. Government intervention dominates the momentum: US strategic stockpiling, equity stakes, price floors and Section 232 trade remedies are accelerating alongside China's new...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/supply-chains-critical-minerals/2026-05-22/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Rerouting Illusion",
+          "summary": "Beneath the deglobalisation headline, the trade data show resilience and rerouting rather than retreat: most corporate de-risking has relabelled and lengthened China-dependence rather than removing...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-05-14-rerouting-illusion/scan.html",
+          "signal_slug": "rerouting-illusion"
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
+          "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-05-09-copper-supply-cliff/scan.html",
+          "signal_slug": "copper-supply-cliff"
+        }
+      ]
+    },
+    {
+      "slug": "workforce-skills-organisational-change",
+      "name": "Workforce, Skills & Organisational Change",
+      "tagline": "What stays human when AI joins the org chart.",
+      "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
+      "latest_read": "AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them.",
+      "latest_dates": {
+        "scan": "2026-06-13",
+        "tracker": "2026-06-04",
+        "di": "2026-06-18",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Beyond the Headcount",
+          "summary": "The workforce contract is being rewritten on five legs at once: AI agents are entering the operating model alongside people; skills frameworks are overtaking degree credentials as the hiring and...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/sample-workforce-skills-organisational-change/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains",
+          "summary": "AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-13-ai-competence-debt/scan.html",
+          "signal_slug": "ai-competence-debt"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Manager in the Machine: Algorithmic Management Went Mainstream Before Its Guardrails Arrived",
+          "summary": "AI has quietly become the manager rather than the copilot, instructing, monitoring, evaluating and gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD).",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-06-algorithmic-management-default/scan.html",
+          "signal_slug": "algorithmic-management-default"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Layers fall and offices fill as engagement hits a new floor",
+          "summary": "Inaugural Change Tracker on Workforce, Skills and Organisational Change. Eight signals: 5 Accelerating (the Great Flattening of middle management, white-collar forever layoffs, manager and employee...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-06-04/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vanishing Middle: Why Management-Layer Compression Is Structural, Not Cyclical",
+          "summary": "Span of control is crossing thresholds once considered dysfunctional, permanently re-architecting firms into a thin manager spine plus a widened expert lattice.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-30-management-layer-compression/scan.html",
+          "signal_slug": "management-layer-compression"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset",
+          "summary": "The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation.",
+          "posture": "Decide",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-23-pay-transparency-reset/scan.html",
+          "signal_slug": "pay-transparency-reset"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Hiring Verification Crisis",
+          "summary": "The credential infrastructure of hiring is being broken by AI faster than the displace-or-augment debate registers.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-16-hiring-verification-crisis/scan.html",
+          "signal_slug": "hiring-verification-crisis"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Whim",
+          "summary": "The employer-paid mobility budget, not city integration apps or super-apps, is the structural successor to the Whim consumer-MaaS dream.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-16-mobility-budget-pivot/scan.html",
+          "signal_slug": "mobility-budget-pivot"
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Broken Rung",
+          "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-14-broken-rung-generational-divide/scan.html",
+          "signal_slug": "broken-rung-generational-divide"
+        }
+      ]
+    },
+    {
+      "slug": "defence-security-resilience",
+      "name": "Defence, Security & Resilience",
+      "tagline": "The mandate spreading from militaries to firms.",
+      "description": "How rearmament, dual-use technology, hybrid threats and whole-of-society resilience are reshaping the operating environment for private operators of critical infrastructure.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
+      "latest_read": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
+      "latest_dates": {
+        "scan": "2026-06-17",
+        "tracker": "2026-06-05",
+        "di": "2026-05-13",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
+          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-17-air-defence-cost-exchange-pivot/scan.html",
+          "signal_slug": "air-defence-cost-exchange-pivot"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
+          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-10-military-schengen-dual-use/scan.html",
+          "signal_slug": "military-schengen-dual-use"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe's rearmament accelerates as the US security guarantee fades",
+          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/defence-security-resilience/2026-06-05/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
+          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-03-energetics-feedstock-chokepoint/scan.html",
+          "signal_slug": "energetics-feedstock-chokepoint"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
+          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-05-27-defence-sfdr-rerating/scan.html",
+          "signal_slug": "defence-sfdr-rerating"
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
+          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-05-20-resilience-mandate-turn/scan.html",
+          "signal_slug": "resilience-mandate-turn"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vulnerability Triage Era &mdash; Signal Scan",
+          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-05-19-cve-enrichment-unbundling/scan.html",
+          "signal_slug": "cve-enrichment-unbundling"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Drones as First Responders",
+          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-05-16-drone-first-response-pivot/scan.html",
+          "signal_slug": "drone-first-response-pivot"
+        },
+        {
+          "date": "2026-05-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Hard Power, Soft Frontiers",
+          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/hard-power-soft-frontiers/",
+          "signal_slug": ""
+        }
+      ]
+    },
+    {
+      "slug": "geopolitics-economic-fragmentation",
+      "name": "Geopolitics & Economic Fragmentation",
+      "tagline": "Operating where consensus is gone.",
+      "description": "Decoupling, sanctions plumbing, industrial-policy capital, middle-power hedging. Strategy across more than one operating environment, simultaneously.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
+      "latest_read": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
+      "latest_dates": {
+        "scan": "2026-06-17",
+        "tracker": "2026-06-05",
+        "di": "2026-05-26",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
+          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-17-state-as-shareholder-turn/scan.html",
+          "signal_slug": "state-as-shareholder-turn"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
+          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-10-outbound-investment-screening/scan.html",
+          "signal_slug": "outbound-investment-screening"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
+          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-06-05/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
+          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-03-reserve-custody-repatriation/scan.html",
+          "signal_slug": "reserve-custody-repatriation"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
+          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-05-27-global-south-china-tariffs/scan.html",
+          "signal_slug": "global-south-china-tariffs"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Operating Where Consensus Is Gone",
+          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/geopolitics-economic-fragmentation-sample/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
+          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-05-20-mirror-licensing-regimes/scan.html",
+          "signal_slug": "mirror-licensing-regimes"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Stacks, Two Markets",
+          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-05-16-connected-vehicle-bloc-split/scan.html",
+          "signal_slug": "connected-vehicle-bloc-split"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the G20 Fracture",
+          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-05-16-minilateral-rule-making-pivot/scan.html",
+          "signal_slug": "minilateral-rule-making-pivot"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Institutional Ratchet",
+          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-05-15-institutional-ratchet/scan.html",
+          "signal_slug": "institutional-ratchet"
+        }
+      ]
+    },
+    {
+      "slug": "energy-infrastructure-climate-resilience",
+      "name": "Energy, Infrastructure & Climate Resilience",
+      "tagline": "The grid, the build-out, and the climate-resilient firm.",
+      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
+      "latest_read": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
+      "latest_dates": {
+        "scan": "2026-06-16",
+        "tracker": "2026-05-28",
+        "di": "2026-05-19",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
+          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-16-curtailable-connection/scan.html",
+          "signal_slug": "curtailable-connection"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
+          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-09-system-strength-procurement/scan.html",
+          "signal_slug": "system-strength-procurement"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
+          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-02-grid-hardware-ceiling/scan.html",
+          "signal_slug": "grid-hardware-ceiling"
+        },
+        {
+          "date": "2026-05-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
+          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/energy-infrastructure-climate-resilience/2026-05-28/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
+          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-26-correlated-grid-stress/scan.html",
+          "signal_slug": "correlated-grid-stress"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Load Follows Generation &mdash; Signal Scan",
+          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-19-load-follows-generation/scan.html",
+          "signal_slug": "load-follows-generation"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Powering AI in a Climate-Stressed World",
+          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/energy-climate-sample/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flash Drought: Speed Not Scarcity",
+          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-18-flash-drought-tempo-gap/scan.html",
+          "signal_slug": "flash-drought-tempo-gap"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
+          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-18-hydrogen-aviation-quiet-retreat/scan.html",
+          "signal_slug": "hydrogen-aviation-quiet-retreat"
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Megacity Subsidence Inflection",
+          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-17-megacity-subsidence-inflection/scan.html",
+          "signal_slug": "megacity-subsidence-inflection"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Last Winter Road",
+          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-16-last-winter-road/scan.html",
+          "signal_slug": "last-winter-road"
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Grid Bypass",
+          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-14-grid-bypass-two-tier/scan.html",
+          "signal_slug": "grid-bypass-two-tier"
+        }
+      ]
+    },
+    {
+      "slug": "regulation-standards-policy-change",
+      "name": "Regulation, Standards & Policy Change",
+      "tagline": "Where compliance becomes strategy.",
+      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
+      "latest_read": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+      "latest_dates": {
+        "scan": "2026-06-15",
+        "tracker": "",
+        "di": "2026-06-11",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
+          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-15-age-assurance-identity-layer/scan.html",
+          "signal_slug": "age-assurance-identity-layer"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Compliance Becomes Strategy",
+          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/sample-regulation-standards-policy-change/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
+          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-08-cloud-oversight-perimeter/scan.html",
+          "signal_slug": "cloud-oversight-perimeter"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
+          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-01-brussels-effect-reversal/scan.html",
+          "signal_slug": "brussels-effect-reversal"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
+          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-05-25-managed-federalism-ai/scan.html",
+          "signal_slug": "managed-federalism-ai"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
+          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-05-15-d2d-spectrum-unbundling/scan.html",
+          "signal_slug": "d2d-spectrum-unbundling"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Disclosure That Didn't Disappear",
+          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-05-15-disclosure-reprivatisation/scan.html",
+          "signal_slug": "disclosure-reprivatisation"
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Nature on the Supervisor's Desk",
+          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-05-14-nature-prudential-recoding/scan.html",
+          "signal_slug": "nature-prudential-recoding"
+        }
+      ]
+    },
+    {
+      "slug": "demographics-migration-labour-markets",
+      "name": "Demographics, Migration & Labour Markets",
+      "tagline": "Who pays for population decline.",
+      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
+      "latest_read": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
+      "latest_dates": {
+        "scan": "2026-06-14",
+        "tracker": "2026-06-11",
+        "di": "2026-05-11",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
+          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-06-14-student-skilled-funnel-closure/scan.html",
+          "signal_slug": "student-skilled-funnel-closure"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Migration inflows reverse as the ageing squeeze turns structural",
+          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-06-11/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
+          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-06-06-us-science-talent-outflow/scan.html",
+          "signal_slug": "us-science-talent-outflow"
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
+          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-31-labour-migration-data-erosion/scan.html",
+          "signal_slug": "labour-migration-data-erosion"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
+          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-24-remittance-sender-base-erosion/scan.html",
+          "signal_slug": "remittance-sender-base-erosion"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Anglo Mobility Reversal &mdash; Signal Scan",
+          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-19-anglo-mobility-reversal/scan.html",
+          "signal_slug": "anglo-mobility-reversal"
+        },
+        {
+          "date": "2026-05-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Who Pays for Population Decline?",
+          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/who-pays-for-population-decline/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
+          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-08-ageing-economy-labour-pact/scan.html",
+          "signal_slug": "ageing-economy-labour-pact"
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Secondary City Pivot",
+          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-08-secondary-city-pivot/scan.html",
+          "signal_slug": "secondary-city-pivot"
+        }
+      ]
+    },
+    {
+      "slug": "health-life-sciences-care-systems",
+      "name": "Health, Life Sciences & Care Systems",
+      "tagline": "The reorganisation of how care gets delivered.",
+      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
+      "latest_read": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
+      "latest_dates": {
+        "scan": "2026-06-14",
+        "tracker": "2026-06-12",
+        "di": "2026-06-02",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
+          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-06-14-china-pipeline-dependence/scan.html",
+          "signal_slug": "china-pipeline-dependence"
+        },
+        {
+          "date": "2026-06-12",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
+          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-06-12/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
+          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-06-06-gene-therapy-payment-reset/scan.html",
+          "signal_slug": "gene-therapy-payment-reset"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Too Much Cure, Not Enough Care",
+          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/sample-health-life-sciences/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
+          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-31-alzheimers-diagnosis-capacity-gap/scan.html",
+          "signal_slug": "alzheimers-diagnosis-capacity-gap"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
+          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-24-mfn-global-repricing/scan.html",
+          "signal_slug": "mfn-global-repricing"
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The 2026 Patent Geography Split",
+          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-17-glp1-patent-geography-split/scan.html",
+          "signal_slug": "glp1-patent-geography-split"
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The MCED Coverage-Evidence Gap",
+          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-17-mced-coverage-evidence-gap/scan.html",
+          "signal_slug": "mced-coverage-evidence-gap"
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Homology Trap",
+          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-14-homology-screening-trap/scan.html",
+          "signal_slug": "homology-screening-trap"
+        }
+      ]
+    },
+    {
+      "slug": "ai-automation",
+      "name": "AI & Automation",
+      "tagline": "From hype to operating model.",
+      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
+      "latest_read": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
+      "latest_dates": {
+        "scan": "2026-06-13",
+        "tracker": "2026-06-04",
+        "di": "2026-05-12",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
+          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html",
+          "signal_slug": "inference-cost-inversion"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
+          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-06-open-weight-substrate-shift/scan.html",
+          "signal_slug": "open-weight-substrate-shift"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "The execution layer goes live as the rulebook stands down",
+          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/trends/ai-automation/2026-06-04/tracker.html",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
+          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-30-ai-offbalance-financing/scan.html",
+          "signal_slug": "ai-offbalance-financing"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
+          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
+          "posture": "Prepare",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html",
+          "signal_slug": "ai-underwriting-brake"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Identity Before Capability",
+          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-agent-identity-rails/scan.html",
+          "signal_slug": "agent-identity-rails"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Compute as Statecraft",
+          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-sovereign-compute-corridor/scan.html",
+          "signal_slug": "sovereign-compute-corridor"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Worlds for Machines",
+          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-16-worlds-for-ai-pivot/scan.html",
+          "signal_slug": "worlds-for-ai-pivot"
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Superconducting Hedge",
+          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-14-superconducting-hedge/scan.html",
+          "signal_slug": "superconducting-hedge"
+        },
+        {
+          "date": "2026-05-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "When AI Joins the Org Chart",
+          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/si/ai-org-chart/",
+          "signal_slug": ""
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
+          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
+          "posture": "",
+          "url": "https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-09-cost-driver-first-ai/scan.html",
+          "signal_slug": "cost-driver-first-ai"
+        }
+      ]
+    }
+  ]
+}

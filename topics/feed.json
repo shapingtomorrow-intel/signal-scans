@@ -1,7 +1,96 @@
 {
-  "generated": "2026-06-18T18:19:22Z",
+  "generated": "2026-06-19T08:30:07Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "regulation-standards-policy-change",
+      "name": "Regulation, Standards & Policy Change",
+      "tagline": "Where compliance becomes strategy.",
+      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
+      "latest_read": "Brussels trims and defers; Washington carves its own track",
+      "latest_dates": {
+        "scan": "2026-06-15",
+        "tracker": "2026-06-19",
+        "di": "2026-06-11",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-19",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Brussels trims and defers; Washington carves its own track",
+          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
+          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Compliance Becomes Strategy",
+          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
+          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
+          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
+          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
+          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Disclosure That Didn't Disappear",
+          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Nature on the Supervisor's Desk",
+          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "financial-services-future-of-money",
       "name": "Financial Services & Future of Money",
@@ -564,87 +653,6 @@
           "type": "Signal Scan",
           "title": "The Grid Bypass",
           "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "regulation-standards-policy-change",
-      "name": "Regulation, Standards & Policy Change",
-      "tagline": "Where compliance becomes strategy.",
-      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
-      "latest_read": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
-      "latest_dates": {
-        "scan": "2026-06-15",
-        "tracker": "",
-        "di": "2026-06-11",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
-          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Compliance Becomes Strategy",
-          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
-          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
-          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
-          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
-          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Disclosure That Didn't Disappear",
-          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Nature on the Supervisor's Desk",
-          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
           "posture": ""
         }
       ]

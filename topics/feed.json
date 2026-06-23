@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T10:04:28Z",
+  "generated": "2026-06-23T10:13:51Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -435,6 +435,14 @@
           "type": "Decision Intelligence",
           "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
           "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Past capability, into liability.",
+          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
           "posture": ""
         },
         {

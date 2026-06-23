@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>After the Copilot: When AI Starts Signing, Spending and Failing: Shaping Tomorrow Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .learn-takeaways { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
+  .learn-takeaways .lt-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 0 8px 8px 0; }
+  .learn-takeaways .lt-card h3 { color: #1a237e; margin: 0 0 10px; font-size: 1.05em; }
+  .learn-takeaways .lt-card ol { margin: 0; padding-left: 20px; line-height: 1.5; color: #2a3142; }
+  .learn-takeaways .lt-learn { background: #eef1f9; border-left: 4px solid #1a237e; }
+  .learn-takeaways .lt-keys { background: #fff8e1; border-left: 4px solid #f57c00; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 360px; box-sizing: border-box; }
+  .toc-figure { flex: 1 1 360px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  /* Bordered matrix with axis labels (Variant C, June 2026):
+     Outer grid wrap places the horizontal axis name on top and the vertical
+     axis name on the left of a bordered .matrix-frame; corner labels at the
+     four corners of the frame name the extremes at each intersection. */
+  .scenario-matrix-axed { display: grid; grid-template-columns: 40px 1fr; grid-template-rows: 36px 1fr; gap: 0; margin-top: 20px; }
+  .axis-name-h { grid-row: 1; grid-column: 2; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; }
+  .axis-name-v { grid-row: 2; grid-column: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
+  .matrix-frame { grid-row: 2; grid-column: 2; border: 2px solid #1a237e; border-radius: 12px; position: relative; padding: 28px 14px 20px; background: white; }
+  .matrix-frame .scenario-grid { margin-top: 0; }
+  .corner-label { position: absolute; background: white; padding: 3px 10px; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.06em; text-transform: uppercase; }
+  .corner-tl { top: -11px; left: 22px; }
+  .corner-tr { top: -11px; right: 22px; }
+  .corner-bl { bottom: -11px; left: 22px; }
+  .corner-br { bottom: -11px; right: 22px; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 28%; }
+  .source-register col.col-tier { width: 11%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 49%; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; word-wrap: break-word; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  td.tier-1 { color: #2e7d32; font-weight: 700; }
+  td.tier-2 { color: #1565c0; font-weight: 700; }
+  td.tier-3 { color: #f57c00; font-weight: 700; }
+  td.tier-4 { color: #c62828; font-weight: 700; }
+  .source-register tr.tier-1 { background: #e3f2fd; }
+  .source-register tr.tier-2 { background: #e8f5e9; }
+  .source-register tr.tier-3 { background: #fff3e0; }
+  .source-register tr.tier-4 { background: #fce4ec; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence</div>
+<h1 class="report-title">After the Copilot: When AI Starts Signing, Spending and Failing</h1>
+<div class="meta">
+<span class="series-continuity">Edition 2, previous report: 'When AI Joins the Org Chart' (May 2026)</span>22 June 2026 &middot; Audience: Senior strategy, foresight, innovation and policy leadership across global organisations &middot; Horizon: 2 to 5 years<br>
+<span style="font-size: 0.92em;">Read estimate: 1 min At a glance &middot; 3 min Executive Synthesis &middot; 24 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+
+<div class="learn-takeaways">
+  <div class="lt-card lt-learn">
+    <h3>What you will learn</h3>
+    <ol>
+      <li>Why governance for autonomous AI is shifting from supervising every decision to governing objectives, guardrails and audited outcomes</li>
+      <li>Which 2026 regulator moves turn AI from a capability question into liability, insurance, sovereign-compute and grid questions</li>
+      <li>Where the binding constraint on AI scaling is no longer model quality or capital, but the contract, the policy wording and the substation</li>
+    </ol>
+  </div>
+  <div class="lt-card lt-keys">
+    <h3>Key takeaways</h3>
+    <ol>
+      <li>The Federal Reserve, OCC and FDIC carved generative and agentic AI out of US model-risk guidance on 17 April 2026</li>
+      <li>Mastercard Agent Pay is now enabled across every European issuer; Visa Intelligent Commerce Connect went network-neutral on 8 April 2026</li>
+      <li>Roughly 82% of US P&C policies carry Verisk/ISO generative-AI exclusions; Germany's four TSOs are rationing 270 GW of connection requests</li>
+    </ol>
+  </div>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract motif: a copilot relationship widening into a network of autonomous agents transacting across a contested floor of regulation, insurance, compute and energy">
+<defs>
+  <linearGradient id="gradA" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1a237e" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#1a237e" stop-opacity="0.25"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="320" height="220" fill="#f8f9fa"/>
+<circle cx="60" cy="40" r="14" fill="url(#gradA)"/>
+<text x="60" y="74" font-size="9" text-anchor="middle" fill="#1a237e">Copilot</text>
+<line x1="60" y1="55" x2="120" y2="110" stroke="#1a237e" stroke-width="1.4" stroke-dasharray="2,3"/>
+<circle cx="120" cy="110" r="10" fill="#1a237e" opacity="0.7"/>
+<circle cx="170" cy="80" r="10" fill="#1a237e" opacity="0.7"/>
+<circle cx="210" cy="140" r="10" fill="#1a237e" opacity="0.7"/>
+<circle cx="260" cy="100" r="10" fill="#1a237e" opacity="0.7"/>
+<line x1="120" y1="110" x2="170" y2="80" stroke="#1a237e" stroke-width="1.2"/>
+<line x1="170" y1="80" x2="210" y2="140" stroke="#1a237e" stroke-width="1.2"/>
+<line x1="210" y1="140" x2="260" y2="100" stroke="#1a237e" stroke-width="1.2"/>
+<line x1="120" y1="110" x2="210" y2="140" stroke="#1a237e" stroke-width="1.2"/>
+<rect x="20" y="170" width="280" height="6" fill="#c62828" opacity="0.55"/>
+<rect x="20" y="180" width="280" height="6" fill="#f57c00" opacity="0.55"/>
+<rect x="20" y="190" width="280" height="6" fill="#2e7d32" opacity="0.55"/>
+<text x="160" y="210" font-size="9" text-anchor="middle" fill="#5a6478">Liability / Insurance / Compute / Grid</text>
+</svg>
+<p class="figure-caption">Tools become counterparties. The floor they stand on (liability, insurance, compute and energy) is the binding constraint, not the network above it.</p>
+</div>
+</div>
+
+
+<div class="at-a-glance">
+<h3>At a glance</h3>
+<p>The AI conversation has moved past whether the technology works. The harder questions this cycle are who is liable when an agent signs a contract, who insures the loss when an agent acts badly, who builds the grid for the next training run, and who decides when an open-weight model from another jurisdiction is good enough.</p>
+<p>Regulators are quietly conceding that human oversight does not scale to autonomous agents. Insurers are quietly withdrawing cover. Card networks are quietly making agents into payers. Grid operators are quietly rationing the power AI needs.</p>
+<p><strong>The one thing to take into the next meeting:</strong> the binding constraint on AI deployment over the next two years is no longer the model. It is the contract layer, the insurance wrapper, the compute supply and the substation. Boards still planning around capability will be planning around the wrong thing.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement"><p class="sit-up-question">Which AI deployments on your desk this week were sized around capability, not around who pays when the agent acts badly?</p>
+<p class="sit-up-warrant">The evidence in this report says the binding constraints have moved to liability, insurance and physical infrastructure.</p></div>
+
+<p>The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing. In the six weeks since the May edition, four institutional moves landed in close succession and they reframe the strategic question for every leadership team holding an AI plan.</p>
+
+<p>First, the Federal Reserve, OCC and FDIC amended their tri-agency model-risk guidance on 17 April 2026 to clarify that it no longer applies to generative or agentic AI (<a href="https://www.federalreserve.gov/newsevents/speech/bowman20260501a.htm" target="_blank" rel="noopener">Federal Reserve Board, May 2026</a>). The Bank of England's parallel <a href="https://www.bankofengland.co.uk/minutes/2026/february/summary-of-ai-roundtables-feb-2026" target="_blank" rel="noopener">February 2026 AI roundtables</a> recorded firms saying the human-in-the-loop concept was 'challenged by the rise of agentic AI' (Bank of England, February 2026). On 25 May 2026 <a href="https://www.iosco.org/library/pubdocs/pdf/IOSCOPD823.pdf" target="_blank" rel="noopener">IOSCO published its Supervisory Toolkit</a> noting member experiments using 'AI as a judge' (IOSCO, May 2026), and on 10 June 2026 the <a href="https://www.fsb.org/2026/06/fsb-consults-on-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/" target="_blank" rel="noopener">FSB consulted on twelve sound practices</a> placing board and senior-management accountability at the centre (FSB, June 2026). Read together, the global supervisory community is publicly admitting that human review at the moment a decision is made does not scale to agentic AI, and is moving to outcome- and lifecycle-based oversight.</p>
+
+<p>Second, the payment networks have stopped piloting and started production. <a href="https://www.mastercard.com/news/europe/en/perspectives/en/2026/europe-is-building-the-foundations-for-trusted-agentic-commerce/" target="_blank" rel="noopener">Mastercard reported on 2 June 2026</a> that every European issuer is now enabled at network level for Agent Pay, with Santander, ING, Deutsche Bank, KBC, UniCredit, Erste, Bank Hapoalim and N26 among those completing live agentic transactions using passkeys for authentication (Mastercard, June 2026). On 8 April 2026 Visa launched <a href="https://investor.visa.com/news/news-details/2026/Visa-Opens-the-Door-to-AI-Driven-Shopping-for-Businesses-Worldwide/default.aspx" target="_blank" rel="noopener">Intelligent Commerce Connect</a> as a neutral on-ramp across protocol stacks (Visa, April 2026). The <a href="https://www.imf.org/en/Publications/fintech-notes/Issues/2026/04/24/How-Agentic-AI-Will-Reshape-Payments" target="_blank" rel="noopener">IMF's April 2026 note on agentic payments</a> argues this changes the unit of analysis: agents are becoming the party (IMF, April 2026). In China, <a href="https://www.caixinglobal.com/2026-03-20/in-depth-ai-agents-ignite-global-battle-for-the-future-of-payments-102425259.html" target="_blank" rel="noopener">Caixin Global reported in March 2026</a> that Alipay's AI Pay passed 100 million users during Chinese New Year and former PBoC Deputy Governor Zhu Min called for a 'Know Your Agent' regime (Caixin Global, March 2026).</p>
+
+<div class="pullquote">The binding constraint on AI deployment over the next two years is no longer the model. It is the contract layer, the insurance wrapper, the compute supply and the substation.</div>
+
+<p>Third, the underwriting brake has hardened. <a href="https://www.munichre.com/en/insights/cyber/cyber-insurance-risks-and-trends-2026.html" target="_blank" rel="noopener">Munich Re's 2026 cyber report</a> notes Verisk/ISO rolled out three generative-AI exclusion endorsements on 1 January 2026 now sitting behind roughly 82% of US P&C policies (Munich Re, March 2026). The <a href="https://www.captive.com/news/captive-insurance-expands-role-in-cyber-risk-financing-strategies" target="_blank" rel="noopener">captive market is absorbing the layers commercial insurers will not write</a> (Captive.com, May 2026), and <a href="https://www.dandodiary.com/2026/06/articles/artificial-intelligence/ai-do-risk-and-the-limits-of-underwriting/" target="_blank" rel="noopener">D&O carriers are now probing board-level AI governance at renewal</a> (D&O Diary, June 2026). The Edwin Coe head of insurance told <a href="https://www.insurancejournal.com/news/international/2026/05/28/870079.htm" target="_blank" rel="noopener">Insurance Journal in May 2026</a> that the diversifiable-loss assumption on which cyber insurance rests is breaking under frontier AI (Insurance Journal, May 2026). The May 2026 Signal Scan flagged this as 'The Underwriting Brake'. A month on, the brake is harder.</p>
+
+<p>Fourth, the physical floor is moving. The <a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank" rel="noopener">IEA's Electricity 2026 report</a> projects data-centre demand to roughly double to ~945 TWh by 2030 (IEA, February 2026); <a href="https://www.utilitydive.com/news/nerc-10-year-peak-demand-forecast-jumps-24-on-new-data-center-loads/810955/" target="_blank" rel="noopener">NERC's January 2026 Long-Term Reliability Assessment</a> lifted its ten-year US summer peak forecast by 69% in a single revision (NERC via Utility Dive, January 2026); Germany's four TSOs <a href="https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-fuehren-reifegradverfahren-ein" target="_blank" rel="noopener">are rationing 270 GW of grid-connection requests</a> against ~94 GW of forecast 2037 need (TransnetBW, February 2026). Even Constellation's Three Mile Island restart depends on transmission upgrades not <a href="https://www.utilitydive.com/news/constellation-three-mile-island-crane-nuclear-ferc-waiver/821836/" target="_blank" rel="noopener">expected before December 2030</a> (Utility Dive, June 2026).</p>
+
+<p>The last cycle's spine theme was the agent operating model. This cycle's spine is the layer underneath. Whichever AI strategy a leadership team has written in 2025 was written before regulators conceded oversight could not scale, before insurers started writing AI exclusions as standard, before card networks made agents into payers and before grid operators started rationing connections. Each of those four reframings independently changes which decisions sit on the next board agenda.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The synthesis assumes the four institutional shifts (regulator concession, payment-rail enablement, insurance hardening and infrastructure rationing) are converging on a 12 to 24 month horizon and will hold long enough to reshape FY27 board agendas. The single most consequential assumption is that the insurance market does not bend back: if cyber and D&O carriers find a workable underwriting language for agentic AI (model-card disclosure, third-party assurance, attestation regimes), capacity reopens and the deployment brake softens within 12 months. The signal that would force a material revision is an LMA model-clause update or a Munich Re position paper offering insurable agentic-AI wordings; absent that, residual-risk allocation continues to bind. A subsidiary risk: a US-China deal that lifts compute-export friction could reshape the sovereign-compute theme inside one cycle.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Name the senior accountable owner for agentic-AI deployment.</strong> The Fed, OCC and FDIC have moved the accountability onto firms; the FSB has placed it on boards and senior management. There must be a named human, not a committee.</li>
+<li><strong>Re-examine every AI-deployment business case against the actual insurance map.</strong> If the cyber or D&O policy has an AI exclusion, the residual risk sits on the balance sheet; that is the real deployment constraint, not the model.</li>
+<li><strong>Audit physical-infrastructure dependency for any AI capex.</strong> Grid-connection queues run four to seven years; water-rights pushback is now municipal-ban territory in the US; the bottleneck is the substation and the basin, not the chip order.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Audience Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same evidence base, one per audience type. Each card carries the one question this cycle puts to that function.</p>
+<div class="snapshots">
+
+
+
+<div class="snapshot-card commercial">
+<span class="role">Strategy and foresight</span>
+<h4>What changes on the board agenda this quarter as agents start signing on the firm's behalf?</h4>
+<p><strong>The shift:</strong> AI has moved from a strategic option to a layer-by-layer operating question: liability, insurance, compute and grid.</p>
+<p><strong>The question to brief:</strong> Which of the five themes most disturbs the FY27 plan we sent to the board, and which paper do we re-open first?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Innovation, digital and CTO</span>
+<h4>Where does the agent governance stack sit in the procurement template before EU AI Act application on 2 August 2026?</h4>
+<p><strong>The shift:</strong> Agent identity, action logging, output classifiers and external review are now procurement primitives, not engineering options.</p>
+<p><strong>The question to brief:</strong> Which vendor and which sovereign-compute fallback does our 18-month deployment plan assume, and is the assumption explicit?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Risk, compliance and general counsel</span>
+<h4>How does the firm allocate liability when an agent acts badly, and where does the cover sit?</h4>
+<p><strong>The shift:</strong> Outcome-based supervision plus tightening AI exclusions in cyber and D&O wordings shifts residual risk onto the balance sheet.</p>
+<p><strong>The question to brief:</strong> Which insured layer have we lost cover on in 2026, and what is the captive or self-retention plan to absorb it?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Workforce, talent and organisational design</span>
+<h4>How do role boundaries change when an agent is the counterparty and not the assistant?</h4>
+<p><strong>The shift:</strong> The May cycle's entry-level reset deepens: routine signing, ordering and reconciliation work moves to agents while exception handling and oversight roles thin out.</p>
+<p><strong>The question to brief:</strong> Which mid-career roles are net consumers of automated outputs rather than producers, and how do we redeploy?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes, ranked by impact on Shaping Tomorrow's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Shaping Tomorrow's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year compounding factor to track and revisit each cycle.</p>
+
+
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Agentic AI moves from prototype to transacting counterparty</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The most consequential 2026 shift in AI is not capability; it is contract. Agents are no longer acting on behalf of a human, they are becoming the party. The Singapore IMDA, the IMF, the OECD, UNCITRAL, the BIS, Visa and Mastercard have all moved within five months to build identity, authentication, settlement and contract law around agent-initiated transactions. For any organisation that pays, gets paid or signs contracts at scale, the question is not whether to allow agents to transact, but who answers when the agent signs and on what authority.</p>
+<div class="report-figure">
+<h4>Figure 1.1: The agent transaction stack assembles, May 2025 to June 2026</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline showing five layers of the agent transaction stack assembling between mid 2025 and June 2026: legal status (UNCITRAL), governance framework (IMDA, OECD), settlement rail (BIS Agora), card-network integration (Visa, Mastercard) and macro reframing (IMF)">
+<rect x="0" y="0" width="720" height="280" fill="#fbfbfc"/>
+<g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e">
+<text x="20" y="22" font-weight="600">Legal status</text>
+<rect x="120" y="10" width="500" height="22" fill="#1a237e" opacity="0.18" rx="4"/>
+<rect x="400" y="10" width="110" height="22" fill="#1a237e" opacity="0.7" rx="4"/>
+<text x="455" y="26" text-anchor="middle" fill="white" font-size="9">UNCITRAL Mar 2026</text>
+
+<text x="20" y="62" font-weight="600">Governance frame</text>
+<rect x="120" y="50" width="500" height="22" fill="#1a237e" opacity="0.18" rx="4"/>
+<rect x="200" y="50" width="65" height="22" fill="#1a237e" opacity="0.7" rx="4"/>
+<text x="232" y="66" text-anchor="middle" fill="white" font-size="9">IMDA Jan 26</text>
+<rect x="280" y="50" width="65" height="22" fill="#1a237e" opacity="0.7" rx="4"/>
+<text x="312" y="66" text-anchor="middle" fill="white" font-size="9">OECD Feb 26</text>
+
+<text x="20" y="102" font-weight="600">Settlement rail</text>
+<rect x="120" y="90" width="500" height="22" fill="#1a237e" opacity="0.18" rx="4"/>
+<rect x="500" y="90" width="95" height="22" fill="#1a237e" opacity="0.7" rx="4"/>
+<text x="548" y="106" text-anchor="middle" fill="white" font-size="9">BIS Agorá 27 May</text>
+
+<text x="20" y="142" font-weight="600">Card-network</text>
+<rect x="120" y="130" width="500" height="22" fill="#1a237e" opacity="0.18" rx="4"/>
+<rect x="380" y="130" width="60" height="22" fill="#c62828" opacity="0.8" rx="4"/>
+<text x="410" y="146" text-anchor="middle" fill="white" font-size="9">Visa 8 Apr</text>
+<rect x="520" y="130" width="100" height="22" fill="#c62828" opacity="0.8" rx="4"/>
+<text x="570" y="146" text-anchor="middle" fill="white" font-size="9">Mastercard 2 Jun</text>
+
+<text x="20" y="182" font-weight="600">Macro framing</text>
+<rect x="120" y="170" width="500" height="22" fill="#1a237e" opacity="0.18" rx="4"/>
+<rect x="420" y="170" width="60" height="22" fill="#1a237e" opacity="0.7" rx="4"/>
+<text x="450" y="186" text-anchor="middle" fill="white" font-size="9">IMF 24 Apr</text>
+
+<line x1="120" y1="220" x2="620" y2="220" stroke="#5a6478" stroke-width="1"/>
+<text x="120" y="240" font-size="9" fill="#5a6478">May 2025</text>
+<text x="620" y="240" font-size="9" text-anchor="end" fill="#5a6478">Jun 2026</text>
+<line x1="120" y1="216" x2="120" y2="224" stroke="#5a6478"/>
+<line x1="620" y1="216" x2="620" y2="224" stroke="#5a6478"/>
+</g>
+</svg>
+<p class="figure-caption">Source: Shaping Tomorrow synthesis of IMDA (Jan 2026), OECD (Feb 2026), UNCITRAL (Mar 2026), Visa (Apr 2026), IMF (Apr 2026), BIS (May 2026) and Mastercard (Jun 2026) announcements.</p>
+</div>
+<div class="cluster-signals">
+<ul>
+<li><a href="https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/singapore-launches-new-model-ai-governance-framework-for-agentic-ai" target="_blank" rel="noopener">Singapore IMDA launched the first national agentic-AI Model Governance Framework on 22 January 2026</a> (IMDA, January 2026), treating agents as a distinct governance class needing identity, action logging and lifecycle accountability rather than per-action human approval.</li>
+<li><a href="https://www.imf.org/en/Publications/fintech-notes/Issues/2026/04/24/How-Agentic-AI-Will-Reshape-Payments" target="_blank" rel="noopener">The IMF's 24 April 2026 Note on agentic payments</a> argues agents reshape who counts as the payer for authentication, dispute and AML/CFT purposes (IMF, April 2026), forcing payments architecture to be rebuilt around non-human counterparties.</li>
+<li><a href="https://www.oecd.org/en/publications/the-agentic-ai-landscape-and-its-conceptual-foundations_396cf758-en.html" target="_blank" rel="noopener">The OECD's February 2026 paper maps agentic AI across 177 jurisdictions</a> and treats it as a socio-technical paradigm whose governance must be lifecycle-embedded rather than per-decision (OECD, February 2026).</li>
+<li><a href="https://www.bis.org/press/p260527.htm" target="_blank" rel="noopener">BIS Project Agorá moved on 27 May 2026 to real-value testing</a> of atomic cross-border settlement across seven major central banks and 40 plus private financial institutions (BIS, May 2026), building the wholesale rails agent-initiated commerce will plug into.</li>
+<li><a href="https://uncitral.un.org/en/working_groups/4/electronic_commerce" target="_blank" rel="noopener">UNCITRAL Working Group IV met 23 to 27 March 2026</a> to advance model legislative provisions on contracts for the provision of data (UNCITRAL, March 2026), extending the automated-contracting framework into machine-mediated transactions.</li>
+<li><a href="https://investor.visa.com/news/news-details/2026/Visa-Opens-the-Door-to-AI-Driven-Shopping-for-Businesses-Worldwide/default.aspx" target="_blank" rel="noopener">Visa's Intelligent Commerce Connect, launched 8 April 2026</a>, sits as a neutral on-ramp for any agent-initiated transaction regardless of protocol or token vault (Visa, April 2026); <a href="https://www.mastercard.com/news/europe/en/perspectives/en/2026/europe-is-building-the-foundations-for-trusted-agentic-commerce/" target="_blank" rel="noopener">Mastercard reported on 2 June 2026</a> that all European issuers are now enabled for Agent Pay, with named live transactions completed by Santander, ING, Deutsche Bank, KBC, UniCredit, Erste, Bank Hapoalim and N26 (Mastercard, June 2026).</li>
+<li><a href="https://www.caixinglobal.com/2026-03-20/in-depth-ai-agents-ignite-global-battle-for-the-future-of-payments-102425259.html" target="_blank" rel="noopener">Caixin Global reported in March 2026</a> that Alipay's AI Pay surpassed 100 million users during Chinese New Year and China UnionPay released an Agentic Payment Open Protocol with 19 institutions, while former PBoC Deputy Governor Zhu Min called for a 'Know Your Agent' regime (Caixin Global, March 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The deployment data so far is largely pilot or controlled-launch. Mastercard's named live transactions are still discrete events rather than steady-state retail volume, China UnionPay's APOP is a protocol rather than market share, and Visa Intelligent Commerce Connect launched only two months before this brief. A reasonable reading is that the contract and rail layer is assembling faster than transaction volume, and an operator could prudently wait two more quarters to see which protocol stack and which authentication standard wins. The counter-counter: every prior payments shift (contactless, instant payments, tokenisation) showed that infrastructure assembled before steady-state volume and the cost of being late to the rail outweighed the cost of choosing the wrong protocol.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Human-in-the-loop scaling concedes to outcome-based oversight</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The supervisory consensus has cracked. Across five months and seven jurisdictions, regulators with statutory responsibility for AI in finance have publicly stated that human oversight cannot scale to agentic AI. The shift is from supervising what an agent does to governing what an agent is allowed to do: objectives, guardrails, audit trails, outcome thresholds. It lands at the exact moment the EU AI Act's human-oversight rules (Article 14) take full force on 2 August 2026. For any leadership team that has written human-in-the-loop into its AI governance policy, the question is whether the policy describes the present or the past.</p>
+
+<div class="cluster-signals">
+<ul>
+<li><a href="https://www.bankofengland.co.uk/minutes/2026/february/summary-of-ai-roundtables-feb-2026" target="_blank" rel="noopener">The Bank of England's February 2026 AI roundtables</a> recorded firms saying the human-in-the-loop concept was 'challenged by the rise of agentic AI' and that risk management should shift to testing, monitoring and setting guardrails around outcomes (Bank of England, February 2026).</li>
+<li><a href="https://www.federalreserve.gov/newsevents/speech/bowman20260501a.htm" target="_blank" rel="noopener">Fed Vice Chair Bowman confirmed on 1 May 2026</a> that revised tri-agency model-risk guidance now applies narrowly to traditional models and basic AI, and that the OCC, FDIC and Fed expect 'other risk-management and governance practices to support adoption of generative and agentic AI' (Federal Reserve, May 2026).</li>
+<li><a href="https://www.iosco.org/library/pubdocs/pdf/IOSCOPD823.pdf" target="_blank" rel="noopener">IOSCO's 25 May 2026 Supervisory Toolkit</a> noted member experiments using AI to oversee AI ('AI as a judge') and flagged agentic AI as raising new control and accountability problems (IOSCO, May 2026).</li>
+<li><a href="https://www.fsb.org/2026/06/fsb-consults-on-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/" target="_blank" rel="noopener">The FSB's 10 June 2026 consultation</a> placed organisation-wide governance and board accountability at the heart of its 12 sound practices, with a final report due October 2026 as a US G20 deliverable (FSB, June 2026).</li>
+<li><a href="https://acpr.banque-france.fr/en/press-release/autorite-de-controle-prudentiel-et-de-resolution-prudential-supervision-and-resolution-authority" target="_blank" rel="noopener">France's ACPR put 'Prepare for AI supervision' in its 2026 work programme on 19 January 2026</a>, confirming it will be designated competent market authority for the AI Act in banking and insurance and will co-develop assessment methodologies rather than rely on case-by-case approval (ACPR, January 2026).</li>
+<li>BaFin's December 2025 AI guidance, analysed by <a href="https://klardenker.kpmg.de/financialservices-hub/ein-blick-auf-die-neue-bafin-orientierungshilfe-zu-kuenstlicher-intelligenz/" target="_blank" rel="noopener">KPMG Germany in January 2026</a>, places AI under DORA's ICT lifecycle rather than treating Article 14 human oversight as a stand-alone control (KPMG, January 2026), signalling that point-in-time human review alone will not satisfy German supervision.</li>
+<li><a href="https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-at-financial-stability-oversight-council-artificial-intelligence-innovation-series-roundtable-030426" target="_blank" rel="noopener">SEC Chair Paul Atkins, on 4 March 2026</a>, rejected 'prescriptive mandates' and disclosure checklists for AI in favour of materiality-based principles oversight (SEC, March 2026).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4><span class="weak-signal-marker">Weak signal</span>Multi-agent systems are crossing into production faster than oversight assumptions are updating</h4>
+<p>Single-agent oversight (one agent, one task chain) is what current human-in-the-loop guidance assumes. Anthropic's Model Context Protocol, Microsoft Copilot Connectors, Google's Agent-to-Agent protocol and Salesforce Agentforce are now enabling teams of agents that negotiate, delegate and escalate among themselves. The supervisory question is no longer "which agent decision needs human approval" but "which multi-agent interaction triggers human review at all"; both governance and audit frameworks were written for the simpler case.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The Ada Lovelace Institute's December 2025 polling of UK adults found 89% want AI proven safe before release and 82% support mandatory pre-market safety testing (<a href="https://www.adalovelaceinstitute.org/policy-briefing/great-expectations/" target="_blank" rel="noopener">Ada Lovelace Institute, December 2025</a>). The regulator drift toward outcome-based oversight outruns public consent: a single high-profile agent failure (a wrongful payment, a biased denial, an unauthorised contract) could force jurisdictions to re-impose hard human-controlled gates, with the EU AI Act's August 2026 application date providing the readiest statutory vehicle. The fact that supervisors privately agree human-in-the-loop does not scale does not mean lawmakers will say so publicly when the first incident makes headlines.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. The AI underwriting brake hardens into the real deployment constraint</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Capacity and capability are no longer the binding constraint on AI deployment; allocated residual risk is. Cyber insurers are writing standardised AI exclusions; professional indemnity wordings are being rewritten around agent-driven actions; D&O carriers are probing board-level AI governance at renewal; the captive market is shifting to absorb the layers commercial insurers will not write. The 23 May 2026 Signal Scan flagged this as the underwriting brake. A month on, the brake is harder. For any organisation deploying AI in the credit, claims, customer-service, contracting or trading perimeter, the next 12 months will turn on what the cyber, professional indemnity and D&O policy say about AI in the small print, and on what cover the captive can provide if the answer is 'nothing'.</p>
+<div class="report-figure">
+<h4>Figure 3.1: The AI exclusion footprint in US P&C insurance, 2026</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stacked bar showing approximately 82% of US property and casualty policies carry Verisk ISO generative-AI exclusion endorsements as at H1 2026, against approximately 18% without">
+<rect x="0" y="0" width="720" height="200" fill="#fbfbfc"/>
+<g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e">
+<text x="20" y="30" font-weight="600">US P&C policies, share with Verisk/ISO generative-AI exclusion endorsements (H1 2026, source: Munich Re)</text>
+<rect x="20" y="60" width="572" height="60" fill="#c62828" opacity="0.78"/>
+<text x="306" y="98" text-anchor="middle" fill="white" font-weight="600" font-size="22">~82% with AI exclusion endorsement</text>
+<rect x="592" y="60" width="108" height="60" fill="#2e7d32" opacity="0.6"/>
+<text x="646" y="98" text-anchor="middle" fill="white" font-weight="600" font-size="13">~18% without</text>
+<text x="20" y="160" font-size="10" fill="#5a6478">Three endorsements (broad form, partial coverage, claim-made) took effect 1 January 2026; Pillsbury and others have flagged the breadth and ambiguity of 'AI-related loss' language.</text>
+</g>
+</svg>
+<p class="figure-caption">Source: Munich Re Cyber Insurance: Risks and Trends 2026 (25 March 2026); Pillsbury Policyholder Pulse (13 April 2026).</p>
+</div>
+<div class="cluster-signals">
+<ul>
+<li><a href="https://www.munichre.com/en/insights/cyber/cyber-insurance-risks-and-trends-2026.html" target="_blank" rel="noopener">Munich Re's March 2026 cyber report</a> names agentic AI as a defining trend and confirms Verisk/ISO rolled out three generative-AI exclusion endorsements on 1 January 2026 now sitting behind roughly 82% of US P&C policies (Munich Re, March 2026).</li>
+<li><a href="https://lmalloyds.com/lma-launches-ai-adoption-toolkit-to-support-governance-led-implementation-across-the-lloyds-market/" target="_blank" rel="noopener">The Lloyd's Market Association launched an AI Adoption Toolkit on 23 April 2026</a> pushing managing agents from experimentation to governance-led adoption with risk tiering and human oversight (LMA, April 2026), language that will translate directly into the questions managing agents put to AI-deploying insureds.</li>
+<li><a href="https://www.captive.com/news/captive-insurance-expands-role-in-cyber-risk-financing-strategies" target="_blank" rel="noopener">Captive practitioners (Marsh, Hylant, Milliman, Iowa Insurance Division), interviewed by Captive.com on 6 May 2026</a>, identified AI-related coverage as a domain where the commercial market is excluding or sub-limiting risk and where captives are stepping in via difference-in-conditions wrappers, with Marsh reporting roughly USD 166m of cyber premium running through its captives (Captive.com, May 2026).</li>
+<li><a href="https://www.eiopa.europa.eu/eiopas-insurance-risk-dashboard-shows-overall-stability-geopolitical-uncertainty-shaping-future-2026-04-30_en" target="_blank" rel="noopener">EIOPA's April 2026 Insurance Risk Dashboard</a> formally flagged digitalisation and cyber exposures, including AI-driven complexity in insurer operations and underwriting, as a persistent risk vector (EIOPA, April 2026).</li>
+<li><a href="https://www.dandodiary.com/2026/06/articles/artificial-intelligence/ai-do-risk-and-the-limits-of-underwriting/" target="_blank" rel="noopener">The D&O Diary reported on 3 June 2026</a> that carriers are now routinely probing AI governance, board reporting, model validation and disclosure controls at renewal, with companies failing those tests facing premium loadings, AI-specific coverage restrictions or declination (D&O Diary, June 2026).</li>
+<li><a href="https://www.insurancejournal.com/news/international/2026/05/28/870079.htm" target="_blank" rel="noopener">Insurance Journal's 28 May 2026 viewpoint</a> by Edwin Coe's head of insurance argued that the diversifiable-loss assumption on which cyber insurance rests is breaking under frontier AI: 'either capacity withdraws or cover becomes prohibitively expensive' (Insurance Journal, May 2026).</li>
+<li><a href="https://www.policyholderpulse.com/ai-exclusions-insurance-policies/" target="_blank" rel="noopener">Pillsbury Winthrop on 13 April 2026 analysed</a> the three Verisk/ISO generative-AI exclusion endorsements, noting their breadth and the litigation risk created by ambiguous 'AI-related' loss language (Pillsbury, April 2026).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4><span class="weak-signal-marker">Weak signal</span>The insurance market is becoming the de-facto AI regulator</h4>
+<p>Cyber, D&amp;O and professional-indemnity underwriter due-diligence questionnaires now set governance standards faster than legislators codify them, and the 82% AI-exclusion endorsement rate is not just a coverage retreat. The underwriter checklist is operating as a parallel compliance regime that boards are answering against, in many jurisdictions before any AI-specific statute lands. Where the regulator is permissive, the insurer is prescriptive; the binding rule on day-to-day deployment is increasingly the policy wording, not the Act.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Two arguments cut against the hardening reading. First, the underwriting brake may be a discovery-phase tightening rather than a market-wide withdrawal; if the Lloyd's AI Adoption Toolkit, captive innovation and reinsurer modelling converge on an insurable form for agentic AI within 12 to 18 months, the brake softens. Second, large operators can self-insure or use captives at scale; the constraint binds harder on mid-cap and public-sector deployers who lack captive scale and rely on commercial cover. The counter-counter: even temporary capacity withdrawal still binds at the FY27 plan horizon, and the captive option transfers cost rather than removes it.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Sovereign compute, frontier-model parity and the post-moat economy</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Model weights are no longer the moat. Open-weight frontier capability now sits within a four-month gap of closed proprietary models; US export-control posture has flipped from presumption of denial to case-by-case review; China, the UK, the EU, Korea, India, the UAE and Saudi Arabia have all launched explicit sovereign-compute architectures. Competitive position in AI is being rebuilt around compute supply, deployment locality and trusted-data integration, not around access to the best model. For any organisation procuring AI for material workflows, the question is whether the vendor lock-in language in the 2025 contract still reflects where leverage sits in 2026.</p>
+
+<div class="cluster-signals">
+<ul>
+<li><a href="https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities" target="_blank" rel="noopener">US Bureau of Industry and Security, on 15 January 2026</a>, shifted the export-control posture on advanced AI semiconductors (Nvidia H200, AMD MI325X and equivalents) for China and Macau from presumption of denial to case-by-case review (BIS, January 2026).</li>
+<li><a href="https://www.csis.org/analysis/countering-chinas-challenge-american-ai-leadership" target="_blank" rel="noopener">CSIS's Greg Allen testified on 2 December 2025</a> that five US firms (Meta, Alphabet, Microsoft, Amazon, Oracle) are projected to spend more than USD 450bn in AI capex in 2026 alone, and that compute concentration remains the largest single US advantage over China (CSIS, December 2025).</li>
+<li><a href="https://www.bis.org/publ/bisbull120.pdf" target="_blank" rel="noopener">BIS Bulletin No 120 on 7 January 2026</a> warned that AI-related investment now exceeds 1% of US GDP and total IT investment 5% (highest since the dot-com peak), with outstanding private credit to AI firms projected at USD 300 to 600bn by 2030 (BIS, January 2026).</li>
+<li><a href="https://www.gov.uk/government/publications/ai-opportunities-action-plan-one-year-on/ai-opportunities-action-plan-one-year-on" target="_blank" rel="noopener">UK DSIT, on 29 January 2026</a>, confirmed a tenfold rise in UK public AI compute (2 to 21 ExaFLOPs) toward a 420 ExaFLOP 2030 target, a sixfold expansion of Cambridge DAWN by Spring 2026, and launched a Sovereign AI Unit backed by up to GBP 500m in April 2026 (DSIT, January 2026).</li>
+<li><a href="https://www.bruegel.org/analysis/europe-needs-strategy-close-artificial-intelligence-compute-gap" target="_blank" rel="noopener">Bruegel on 19 May 2026</a> argued that Europe faces structural loss of economic autonomy without an 'Airbus-style' AI hardware consortium and a Chinese-style mechanism to direct procurement to domestic AI hardware (Bruegel, May 2026).</li>
+<li><a href="https://m.caixin.com/m/2026-04-13/102433293.html" target="_blank" rel="noopener">Caixin reported on 13 April 2026</a> that China's MiniMax M2.7 (229B parameters) was deployed Day-0 with zero-code adaptation across Pingtouge, Huawei Ascend, Moore Threads, Iluvatar CoreX and Nvidia (Caixin, April 2026), confirming Chinese open-weight models now ship on a domestic compute stack.</li>
+<li><a href="https://epoch.ai/data-insights/open-closed-eci-gap" target="_blank" rel="noopener">Epoch AI reported on 29 May 2026</a> that since January 2026 the best open-weight models have lagged frontier closed models by an average of just four months (eight ECI points), comparable to a GPT-5 to GPT-5.5 gap (Epoch AI, May 2026).</li>
+<li><a href="https://www.ceps.eu/ceps-publications/eu-plans-for-ai-gigafactories-sanctuaries-of-innovation-or-cathedrals-in-the-desert/" target="_blank" rel="noopener">CEPS warned in November 2025</a> that the EU's 4 to 5 AI gigafactories (each ~100,000 chips) under InvestAI's ~EUR 20bn envelope are being sited mostly outside Europe's AI hubs of excellence and remain almost exclusively dependent on Nvidia (CEPS, November 2025; six-to-twelve-month anchor).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4><span class="weak-signal-marker">Weak signal</span>Sovereign compute concentration is appearing in credit-rating methodology notes</h4>
+<p>Moody's, S&amp;P and Fitch are beginning to flag datacentre concentration and AI-driven productivity divergence in sovereign methodology commentary. Nations with thin AI infrastructure may face credit downgrade pressure on a 3-5 year horizon as the productivity gap with AI-rich peers widens. The implication runs both ways: hyperscaler capex location decisions are starting to carry sovereign-credit consequences for host countries that current trade-and-investment policy does not yet account for.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Two readings push back. First, the open-versus-closed gap may stop closing: closed labs are widely thought to be withholding their most capable systems, so Epoch's four-month gap may understate the true gap and the moat may reassert itself if frontier training compute keeps doubling. Second, sovereign-compute funds in the UK, EU and Korea may struggle to outrun the US hyperscaler USD 450bn spend; the realistic equilibrium is a two-stack world in which sovereign compute provides national resilience for state and regulated workloads but is not the centre of gravity for frontier training. Both readings are compatible with the cluster's thesis: model-weight moats are weakening even if not collapsed, and competitive position must be planned around the assumption that the next-best open-weight model is good enough for most enterprise workloads.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. The energy, grid and water ceiling on AI scaling</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The previous cycle's 'capex reckoning' theme assumed money was the binding constraint on AI scaling. What the last six months have established is that physical infrastructure is the binding constraint instead, on a three- to seven-year horizon. Grid-interconnection queues run four to seven years; the official US grid-reliability regulator has lifted its ten-year peak forecast by 69% in a single revision; Germany's four TSOs are openly rationing connection slots; water-rights pushback has crossed from advocacy into municipal bans in over 50 US cities. For boards approving AI capex on a three-year payback, the question is whether the substation and the river basin are part of the business case.</p>
+<div class="report-figure">
+<h4>Figure 5.1: German TSO grid-connection queue versus 2037 system need (Q3 2025)</h4>
+<svg viewBox="0 0 720 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison chart: end Q3 2025 the four German transmission system operators held 717 grid connection requests totalling 270 GW, against approximately 94 GW of forecast system need by 2037, illustrating a 2.9x oversubscription">
+<rect x="0" y="0" width="720" height="250" fill="#fbfbfc"/>
+<g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#1a237e">
+<text x="20" y="30" font-weight="600">Grid connection requests vs system need, Germany (GW)</text>
+<text x="20" y="80" font-weight="600">Requests held (Q3 2025)</text>
+<rect x="220" y="65" width="470" height="30" fill="#c62828" opacity="0.78"/>
+<text x="455" y="86" text-anchor="middle" fill="white" font-weight="600" font-size="14">~270 GW (717 requests)</text>
+<text x="20" y="135" font-weight="600">2037 official scenario need</text>
+<rect x="220" y="120" width="163" height="30" fill="#2e7d32" opacity="0.7"/>
+<text x="301" y="141" text-anchor="middle" fill="white" font-weight="600" font-size="13">~94 GW</text>
+<line x1="220" y1="170" x2="690" y2="170" stroke="#5a6478"/>
+<text x="220" y="190" font-size="10" fill="#5a6478">0 GW</text>
+<text x="690" y="190" font-size="10" text-anchor="end" fill="#5a6478">300 GW</text>
+<text x="20" y="220" font-size="10" fill="#5a6478" font-style="italic">Requests for large battery storage alone (545 requests, 211 GW) exceed forecast 2037 need on their own. From 1 April 2026, TSOs ration via a maturity-stage procedure rather than first-come, first-served.</text>
+</g>
+</svg>
+<p class="figure-caption">Source: TransnetBW joint TSO press release, 5 February 2026.</p>
+</div>
+<div class="cluster-signals">
+<ul>
+<li><a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank" rel="noopener">The IEA's Electricity 2026 report (February 2026)</a> projects global data-centre electricity demand to roughly double from ~485 TWh in 2025 to ~945 TWh by 2030, with AI-focused data-centre use up 50% in 2025 alone (IEA, February 2026).</li>
+<li><a href="https://www.utilitydive.com/news/nerc-10-year-peak-demand-forecast-jumps-24-on-new-data-center-loads/810955/" target="_blank" rel="noopener">NERC's January 2026 Long-Term Reliability Assessment</a> forecasts summer peak demand to grow 224 GW over ten years, a 69% jump on the 2024 LTRA forecast, with MISO, PJM, ERCOT and parts of the Pacific Northwest at high reliability risk within five years (NERC, January 2026).</li>
+<li><a href="https://powering-intelligence.epri.com/executive-summary.html" target="_blank" rel="noopener">EPRI's Powering Intelligence 2026 (April 2026)</a> lifted its US data-centre load forecast to 9 to 17% of national electricity by 2030, a 60% upward revision in a single cycle (EPRI, April 2026).</li>
+<li><a href="https://www.utilitydive.com/news/constellation-three-mile-island-crane-nuclear-ferc-waiver/821836/" target="_blank" rel="noopener">FERC, on 1 June 2026, granted Constellation a PJM waiver</a> to transfer 760 MW of capacity interconnection rights to the Three Mile Island Unit 1 (Crane) restart for Microsoft AI loads, but PJM's 765-kV and 500-kV transmission upgrades to fully deliver the unit's output are not expected before December 2030 (Utility Dive, June 2026).</li>
+<li><a href="https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-fuehren-reifegradverfahren-ein" target="_blank" rel="noopener">Germany's four TSOs (TransnetBW, 50Hertz, Amprion, TenneT) announced on 5 February 2026</a> a maturity-stage rationing process starting 1 April 2026: at end Q3 2025 they held 717 connection requests totalling ~270 GW against ~94 GW needed by 2037 in the official scenario (TransnetBW, February 2026).</li>
+<li><a href="https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/" target="_blank" rel="noopener">FERC on 18 December 2025 ordered PJM</a> to develop new rules for data-centre colocation at power plants and revise behind-the-meter generation rules (Utility Dive, December 2025; six-to-twelve-month anchor).</li>
+<li><a href="https://www.eli.org/sites/default/files/files-pdf/Data%20Centers%20and%20Water%20Fact%20Sheet%20ELI%20January%202026%20(1).pdf" target="_blank" rel="noopener">The Environmental Law Institute (January 2026)</a>, citing Lawrence Berkeley National Lab, reports US data centres directly consumed ~66bn litres of water in 2023 (up from 21.2bn in 2014) and indirectly ~800bn litres via electricity generation, with ~two-thirds of new builds in water-stressed regions (ELI, January 2026).</li>
+<li><a href="https://fortune.com/2026/05/13/data-center-georgia-arizona-water-wars/" target="_blank" rel="noopener">Fortune reported on 13 May 2026</a> that two US data-centre developments were caught taking public water without authorisation (~650,000 gallons in Tucson; ~29m unmetered gallons in Fayette County, Georgia) and that more than 50 US cities have enacted bans or moratoria on new data-centre construction (Fortune, May 2026).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4><span class="weak-signal-marker">Weak signal</span>Behind-the-meter AI infrastructure is being tested for utility classification</h4>
+<p>As hyperscalers shift to behind-the-meter generation (BTM gas, BTM small modular nuclear) to escape grid-interconnection queues, regulators in California, Virginia, Texas and Ireland are starting to ask whether this triggers utility classification. The implication: loss of priority interconnection, rate-regulation exposure and public-utility commission jurisdiction. A capex strategy built on regulatory arbitrage of the grid queue could collide with utility-classification rulings inside the same 3-7 year window in which the grid constraint itself bites.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Two arguments soften the ceiling. First, the energy mix can move faster than the grid: behind-the-meter generation, small modular reactors and dedicated nuclear restarts can serve hyperscaler load without waiting for transmission upgrades, and the FERC PJM colocation order is an attempt to make that legal at scale. Second, water consumption falls sharply with liquid cooling and renewable-powered closed-loop systems, so the water question is partly a siting question rather than a global ceiling. The counter-counter: even with behind-the-meter generation the substation and the transmission upgrade matter for any deliverable beyond a single site, and water-rights pushback is now a social-licence question that engineering alone does not resolve.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 plan. Each names the move, a horizon and a decision posture.</p>
+
+
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Name the senior accountable owner for agentic AI and convert the AI governance policy from human-in-the-loop to outcome-based</h4>
+<p>Following the Federal Reserve, OCC and FDIC carve-out of agentic AI from formal model-risk guidance on 17 April 2026 and the FSB's 10 June 2026 placement of board and senior-management accountability at the centre of its 12 sound practices, every organisation deploying AI in material workflows must have a named senior accountable owner for agent deployment, distinct from the CIO and reporting to the board. The AI governance policy that referenced 'human-in-the-loop' as the primary control must be rewritten around objectives, guardrails, action logging and outcome thresholds before EU AI Act application on 2 August 2026.</p>
+<p class="si-action">Action: By 31 August 2026, the board should approve a revised AI governance policy with a named accountable owner, an outcome-based control framework and a documented response to the FSB sound practices.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Re-examine every AI deployment business case against the actual insurance map and the actual grid-and-compute supply</h4>
+<p>Two binding constraints have replaced capability and capex as the deployment gate. First, roughly 82% of US P&C policies now carry Verisk/ISO generative-AI exclusion endorsements, and D&O carriers are probing board-level AI governance at renewal; AI deployments without an explicit residual-risk allocation now sit on the firm's own balance sheet whether the business case acknowledges it or not. Second, grid-connection queues run four to seven years, water-rights pushback is now municipal-ban territory in 50 plus US cities, and physical-infrastructure supply is rationed (270 GW of requests against ~94 GW of forecast 2037 need in Germany). Business cases written in 2025 against 'capacity available' assumptions need re-examining against both.</p>
+<p class="si-action">Action: By end Q3 2026, every live or proposed AI deployment carrying material residual exposure should be re-examined against the current cyber, professional indemnity, D&O and grid/compute supply assumptions and flagged to risk and audit committees.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-3" class="xref">3</a>, <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a>.</span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Build the captive and self-insurance route for AI exposures commercial insurers will not write</h4>
+<p>Captive practitioners are explicit (Marsh, Hylant, Milliman, Iowa Insurance Division) that AI-related coverage is a domain where the commercial market is excluding or sub-limiting risk and where captives are absorbing the layers via difference-in-conditions wrappers and excess attachments. Marsh reports roughly USD 166m of cyber premium running through its captives. For any operator at sufficient scale, the captive route is the alternative to taking the residual risk on the balance sheet uninsured. For sub-captive operators, the choice is between accepting the exclusion, switching carrier or restructuring the deployment to avoid the excluded fact pattern.</p>
+<p class="si-action">Action: By end Q4 2026, group risk should present a paper on captive-versus-commercial allocation of AI residual risk for the next FY27 insurance buying cycle, with specific layers identified as captive-absorbed.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-3" class="xref">3</a>.</span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Re-position vendor and sovereign-compute exposure for a post-moat economy</h4>
+<p>Open-weight frontier models now lag closed proprietary models by an average of four months on Epoch's capability index. Sovereign-compute funds in the UK, EU, Korea, India, the UAE and Saudi Arabia plus the US export-control shift from denial to case-by-case review mean that vendor lock-in language in 2025 contracts likely understates the leverage that has shifted to compute supply, deployment locality and trusted-data integration. The right posture this cycle is not to renegotiate every contract but to monitor the open-versus-closed capability gap and the sovereign-compute build-out, and to ensure FY27 vendor commitments include explicit fallback language and exit terms.</p>
+<p class="si-action">Action: By 31 December 2026, refresh the AI vendor map quarterly, flagging where open-weight frontier capability has reached operational parity for any material workload and where sovereign-compute or in-country deployment is now a procurement option.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-4" class="xref">4</a>.</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">The vertical axis is the pace of agentic-AI legal-and-operational maturation (fast at the top, slow at the bottom). The horizontal axis is the regulator stance (permissive on the left, prescriptive on the right). The four scenarios below are planning aids, not forecasts.</p>
+
+
+<div class="scenario-matrix-axed">
+<div class="axis-name-h">Regulator stance</div>
+<div class="axis-name-v">Pace of agentic-AI maturation</div>
+<div class="matrix-frame">
+<div class="corner-label corner-tl">Fast &middot; Permissive</div>
+<div class="corner-label corner-tr">Fast &middot; Prescriptive</div>
+<div class="corner-label corner-bl">Slow &middot; Permissive</div>
+<div class="corner-label corner-br">Slow &middot; Prescriptive</div>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Agent-First Markets</h4>
+<p>Agentic commerce scales rapidly under outcome-based oversight. Card networks, Big-Tech agent platforms and payment regulators converge on a workable agent identity, authentication and dispute architecture. First-mover sectors capture share quickly; the contract layer assembles in 12 to 18 months. Liability flows are clarified by case law rather than statute. Insurance retreats then re-enters at higher prices with sharper exclusions. Sovereign compute matters less because deployment leverage shifts to data and integration. Boards face a high tempo but legible operating environment.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> (a) Visa or Mastercard report >USD 5bn in named agent-initiated transactions in any single quarter; (b) Lloyd's issues a market model clause for insurable agentic AI; (c) US tri-agency RFI lands on agentic AI with light-touch principles language.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>The Compliance Floor</h4>
+<p>Rapid agentic scaling lands in jurisdictions with clear ex-ante rules. The EU AI Act's human-oversight requirements bite at the 2 August 2026 application date and bifurcate global deployment: EU and UK financial-services operators deploy under FSB sound practices, IOSCO toolkit and EIOPA dashboard pressure; US operators deploy under outcome-based supervision; China deploys under a sovereign protocol stack with PBoC oversight. Compliance costs are real but predictable. The brake remains on cyber and D&O cover; captives expand fast.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> (a) ESMA or EIOPA publishes binding agentic-AI guidance in H2 2026; (b) Chinese e-CNY and APOP integrations cross 500m users; (c) Lloyd's and EIOPA agree a sub-limited agentic-AI cyber wording standard.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Quiet Capability</h4>
+<p>Agents mature in-house under permissive regimes but commercial deployment lags. Capability keeps improving on benchmarks; production deployment stays narrow because the contract, dispute and insurance layer does not coalesce. The supervisory carve-outs in the US and UK become a quiet stalemate: firms have responsibility but no rulebook. Boards inherit AI agents inside their own operations long before agents become market-facing counterparties. The competitive position question is internal productivity, not external scale.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> (a) Mastercard Agent Pay live volume stays below 1% of total transaction count through end-2027; (b) no Lloyd's model agentic-AI wording emerges by end-2026; (c) US tri-agency RFI on agentic AI slips past Q4 2026.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Sandboxed Decade</h4>
+<p>Slow agentic scaling and prescriptive rules. A high-profile agent failure (an unauthorised contract, an automated trading event, a wrongful denial of service) forces lawmakers to re-impose hard human-controlled gates. The EU AI Act becomes a global de facto template; agentic AI stays mostly a tool rather than a counterparty through 2028. Sovereign-compute funds redirect to internal-government and critical-infrastructure use. Insurance reopens for narrowly-defined deployments. The capital case for agentic AI lengthens.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> (a) any one of the major jurisdictions imposes a binding statutory human-oversight requirement on agentic AI post-incident; (b) EU AI Act enforcement actions against agent operators land within the first 12 months of application; (c) Anthropic, OpenAI or a major Chinese frontier lab pulls back an agentic product after a public incident.</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+
+
+<div class="exclusion-item">
+<h4>An imminent frontier-model capability discontinuity that resets the strategic equation</h4>
+<p>Multiple credible voices argue scaling is hitting diminishing returns and the next 12 months will not produce a discontinuous jump in frontier capability. The IMF, the OECD, the BIS and Epoch AI all anchor their analyses on continuous-but-incremental improvement. This briefing therefore treats the 2026 to 2028 horizon as compounding rather than discontinuous capability change. If a frontier lab demonstrates verified agentic reliability above 95% on long-horizon production tasks (currently around 50%), the picture shifts.</p>
+<p class="reinstatement">Reinstate if: Frontier capability moves to verified end-to-end agentic reliability above 95% on a multi-hour task suite, or a frontier lab demonstrates a multi-trillion-parameter training run delivering qualitatively new behaviour.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A US-China deal that lifts AI compute export friction inside the planning horizon</h4>
+<p>The Bureau of Industry and Security shifted from presumption of denial to case-by-case review on 15 January 2026, but the bipartisan US Congressional posture on Chinese AI capability remains hawkish. CSIS's December 2025 testimony argues compute denial is the single most consequential US lever and should be sharpened, not loosened. This briefing therefore plans on continued export friction rather than a deal. If a comprehensive deal lands, the sovereign-compute theme reshapes inside one cycle and frontier-model parity gaps narrow further.</p>
+<p class="reinstatement">Reinstate if: A US-China bilateral framework lifts the case-by-case license review and re-opens H100 or B200 class exports at scale, or BIS publishes a broad delegated-authority framework permitting routine exports under licence.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A coordinated multilateral pause on agentic AI deployment</h4>
+<p>The 2023 Bletchley AI Safety Summit declaration and successor processes have produced soft language; no jurisdiction has imposed a binding moratorium on agentic AI deployment, and the regulatory direction in 2026 is enabling outcome-based oversight rather than prohibition. The G7, G20 and OECD processes are moving toward common principles, not coordinated suspension. This briefing therefore does not plan around a multilateral pause. If a coordinated G7 deployment pause emerges, every theme in this cycle is repriced.</p>
+<p class="reinstatement">Reinstate if: Two or more G7 members impose statutory moratoria on agentic AI deployment in finance or critical infrastructure, or a binding G7 declaration emerges from a successor AI safety summit.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>Which board paper this year was sized around AI capability and would read differently if it had been sized around liability allocation, insurance availability and grid supply?</li>
+<li>If the FSB's 12 sound practices land as written in October 2026 with board and senior-management accountability at the centre, who in this leadership team owns it, and is that person briefed?</li>
+<li>If 82% of US P&C policies now carry generative-AI exclusions and D&O carriers are probing AI governance at renewal, which deployments in our portfolio are now de facto uninsured, and on whose authority did we accept that?</li>
+<li>If Mastercard Agent Pay is enabled across every European issuer and Visa Intelligent Commerce Connect is neutral-rail, what should our 2027 customer journey assume an agent will do on the customer's behalf, and who in the firm is accountable when the agent acts wrongly?</li>
+<li>The 5 May 2026 sample edition treated quantum and biotech as adjacent technologies AI was accelerating. Given the energy, grid and water ceiling now binding on AI itself, which of those adjacent bets is becoming more, not less, important to hedge against the AI ceiling?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 39 verified sources, gathered under a soft six-month recency window (publications from December 2025 onward), with 4 structural anchors in the six-to-twelve-month band.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Agentic AI moves from prototype to transacting counterparty</h4><table><colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup><thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead><tbody><tr class="tier-1"><td><a href="https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/singapore-launches-new-model-ai-governance-framework-for-agentic-ai" target="_blank" rel="noopener">Infocomm Media Development Authority of Singapore (IMDA), Singapore Launches New Model AI Governance Framework for Agentic AI</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>IMDA launches a Model AI Governance Framework dedicated to agentic AI, building on the 2024 generative-AI framework and treating agents as a distinct governance class needing identity, action logging and lifecycle accountability.</td></tr><tr class="tier-1"><td><a href="https://www.imf.org/en/Publications/fintech-notes/Issues/2026/04/24/How-Agentic-AI-Will-Reshape-Payments" target="_blank" rel="noopener">International Monetary Fund, How Agentic AI Will Reshape Payments (IMF Note 2026/004)</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>Agentic AI changes the unit of analysis in payments: agents will initiate, authorise and reconcile transactions, requiring new authentication, dispute and settlement architecture and reshaping who counts as a payer for AML/CFT purposes.</td></tr><tr class="tier-1"><td><a href="https://www.oecd.org/en/publications/the-agentic-ai-landscape-and-its-conceptual-foundations_396cf758-en.html" target="_blank" rel="noopener">OECD, The Agentic AI Landscape and Its Conceptual Foundations (OECD AI Papers No. 56)</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>OECD defines agentic AI as coordinated ensembles of agents that decompose tasks, delegate, collaborate and sustain operations over extended periods in open environments, mapped across 177 jurisdictions; treats it as a system-level paradigm whose governance is lifecycle-embedded rather than per-decision.</td></tr><tr class="tier-2"><td><a href="https://investor.visa.com/news/news-details/2026/Visa-Opens-the-Door-to-AI-Driven-Shopping-for-Businesses-Worldwide/default.aspx" target="_blank" rel="noopener">Visa, Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide (Intelligent Commerce Connect)</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Visa launched Intelligent Commerce Connect as a network-, protocol- and token-vault-agnostic on-ramp that lets AI agents pay and merchants accept agentic transactions through a single integration, supporting Trusted Agent Protocol, Machine Payments Protocol, Agentic Commerce Protocol and Universal Commerce Protocol.</td></tr><tr class="tier-2"><td><a href="https://www.mastercard.com/news/europe/en/perspectives/en/2026/europe-is-building-the-foundations-for-trusted-agentic-commerce/" target="_blank" rel="noopener">Mastercard, Europe is Building the Foundations for Trusted Agentic Commerce</a></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>All Mastercard issuers in Europe are now enabled at network level for Agent Pay; named banks including Santander, ING, Deutsche Bank, KBC, UniCredit, Erste, Bank Hapoalim, N26 and Carrefour Banque have completed live agentic transactions using passkeys for authentication, with Worldline and ING completing a fully European end-to-end agentic payment in production.</td></tr><tr class="tier-1"><td><a href="https://www.bis.org/press/p260527.htm" target="_blank" rel="noopener">Bank for International Settlements, Project Agorá shows how tokenisation can improve wholesale cross-border payments; work will advance to real-value testing</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>Project Agorá's prototype across seven major central banks and 40+ private financial institutions demonstrated that atomic, multi-currency cross-border settlement using tokenised central-bank reserves and tokenised commercial-bank deposits is feasible; the project will now move to real-value testing.</td></tr><tr class="tier-1"><td><a href="https://uncitral.un.org/en/working_groups/4/electronic_commerce" target="_blank" rel="noopener">UNCITRAL (United Nations Commission on International Trade Law), Report of Working Group IV (Electronic Commerce) on the work of its seventieth session (A/CN.9/1242)</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>UNCITRAL Working Group IV held its 70th session on 23-27 March 2026, advancing draft model legislative provisions on contracts for the provision of data, extending the automated-contracting framework into data and AI-mediated transactions.</td></tr><tr class="tier-3"><td><a href="https://www.caixinglobal.com/2026-03-20/in-depth-ai-agents-ignite-global-battle-for-the-future-of-payments-102425259.html" target="_blank" rel="noopener">Caixin Global, In Depth: AI Agents Ignite Global Battle for the Future of Payments</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>Alipay's AI Pay surpassed 100 million users and 200 million transactions during 2026 Chinese New Year; China UnionPay released the Agentic Payment Open Protocol with 19 institutions; former PBoC Deputy Governor Zhu Min has called for a 'Know Your Agent' regime to supplement KYC as systemic risk rises.</td></tr></tbody></table>
+<h4>Theme 2: Human-in-the-loop scaling concedes to outcome-based oversight</h4><table><colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup><thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead><tbody><tr class="tier-1"><td><a href="https://www.iosco.org/library/pubdocs/pdf/IOSCOPD823.pdf" target="_blank" rel="noopener">International Organization of Securities Commissions, Supervisory Toolkit for AI Use in Capital Markets (Final Report FR/02/2026)</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>IOSCO's supervisory toolkit covers the full AI lifecycle including emerging agentic AI; two responding members reported experiments using AI to oversee other AI ('AI as a judge'), and members raised concerns about control over agentic systems and the need for greater governance and accountability focus.</td></tr><tr class="tier-1"><td><a href="https://www.fsb.org/2026/06/fsb-consults-on-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/" target="_blank" rel="noopener">Financial Stability Board, FSB consults on sound practices for the responsible adoption of artificial intelligence (AI)</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>The FSB published a consultation report identifying 12 sound practices for responsible AI adoption, covering organisation-wide governance, lifecycle risk management and cyber/ICT/third-party risks; strongly encourages boards and senior management to reference them, with responses due 22 July 2026 and a final report in October 2026 as a US G20 deliverable.</td></tr><tr class="tier-1"><td><a href="https://www.bankofengland.co.uk/minutes/2026/february/summary-of-ai-roundtables-feb-2026" target="_blank" rel="noopener">Bank of England, Summary of AI roundtables - February 2026</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>Across BoE roundtables, regulated firms said traditional model risk management would not be sustainable as generative and agentic AI proliferated; the emphasis on understanding a model's inner workings was no longer tenable; the concept of 'human-in-the-loop' was challenged by agentic AI; several suggested risk management should shift to testing, monitoring and setting guardrails around AI outcomes.</td></tr><tr class="tier-1"><td><a href="https://www.federalreserve.gov/newsevents/speech/bowman20260501a.htm" target="_blank" rel="noopener">Federal Reserve Board, Artificial Intelligence in the Financial System (speech by Vice Chair for Supervision Michelle W. Bowman, FSOC AI Roundtable)</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>The Federal Reserve, with the OCC and FDIC, amended its model risk management guidance (SR letter 26-2, 17 April 2026) to clarify it does not apply to generative or agentic AI; Bowman said supervisors should assess whether guidance is fit for the future and that other risk-management and governance practices should support agentic AI adoption.</td></tr><tr class="tier-1"><td><a href="https://acpr.banque-france.fr/en/press-release/autorite-de-controle-prudentiel-et-de-resolution-prudential-supervision-and-resolution-authority" target="_blank" rel="noopener">Autorité de contrôle prudentiel et de résolution (ACPR), Banque de France, The ACPR presents its work programme for 2026</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>The French prudential supervisor formally adds 'Prepare for AI supervision' as one of five 2026 priority focus areas, confirming it will be designated competent market authority for the AI Act in banking and insurance and will co-develop assessment methodologies with industry rather than rely on case-by-case human approval.</td></tr><tr class="tier-2"><td><a href="https://klardenker.kpmg.de/financialservices-hub/ein-blick-auf-die-neue-bafin-orientierungshilfe-zu-kuenstlicher-intelligenz/" target="_blank" rel="noopener">KPMG Klardenker (Germany), Ein Blick auf die neue BaFin-Orientierungshilfe zu künstlicher Intelligenz</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>BaFin's new AI guidance (Dec 2025) places AI under DORA's ICT-risk-management lifecycle rather than treating Article 14 human oversight as a stand-alone control; DORA addresses operational resilience while the AI Act layers human-oversight, transparency and non-discrimination requirements; the two regimes only together form a complete German framework.</td></tr><tr class="tier-1"><td><a href="https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-at-financial-stability-oversight-council-artificial-intelligence-innovation-series-roundtable-030426" target="_blank" rel="noopener">U.S. Securities and Exchange Commission, Remarks at FSOC AI Innovation Series Roundtable on Strategy and Governance Principles (Chairman Paul S. Atkins)</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>The SEC Chair rejects prescriptive AI-disclosure or human-in-the-loop checklists in favour of a principles- and materiality-based regime; affirms that human judgment remains imperative but signals the SEC will police outcomes (fraud, materiality) rather than mandate human-oversight architectures.</td></tr><tr class="tier-2"><td><a href="https://www.adalovelaceinstitute.org/policy-briefing/great-expectations/" target="_blank" rel="noopener">Ada Lovelace Institute, Great (public) expectations</a></td><td class="tier-2">Tier 2</td><td>Dec 2025</td><td>Nationally representative UK polling: 89% say AI should not be released until proven safe; 82% support mandatory (not voluntary) pre-market safety testing; 89% want an independent regulator with enforcement powers. Counter-case: without binding human-controlled gates, public trust withdraws.</td></tr></tbody></table>
+<h4>Theme 3: The AI underwriting brake hardens into the real deployment constraint</h4><table><colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup><thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead><tbody><tr class="tier-2"><td><a href="https://www.munichre.com/en/insights/cyber/cyber-insurance-risks-and-trends-2026.html" target="_blank" rel="noopener">Munich Re, Cyber insurance: Risks and trends 2026</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Munich Re's flagship 2026 cyber report names agentic AI as a defining trend reshaping the cyber threat landscape, notes Verisk/ISO rolled out three generative-AI exclusion endorsements on 1 January 2026 now sitting behind roughly 82% of US P&C policies.</td></tr><tr class="tier-2"><td><a href="https://lmalloyds.com/lma-launches-ai-adoption-toolkit-to-support-governance-led-implementation-across-the-lloyds-market/" target="_blank" rel="noopener">Lloyd's Market Association, LMA launches AI Adoption Toolkit to support governance-led implementation across the Lloyd's market</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Lloyd's trade body issued a formal AI Adoption Toolkit pushing managing agents from experimentation to structured governance-led adoption with risk tiering, human oversight and embedded controls; translates directly into the questions managing agents put to AI-deploying insureds.</td></tr><tr class="tier-2"><td><a href="https://www.captive.com/news/captive-insurance-expands-role-in-cyber-risk-financing-strategies" target="_blank" rel="noopener">Captive.com (IRMI), Captive Insurance Expands Role in Cyber-Risk Financing Strategies</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Captive practitioners (Marsh Captive Solutions, Hylant, Milliman, Iowa Insurance Division) explicitly identify AI-related coverage as a domain where the commercial market is excluding or sub-limiting risk and where captives are stepping in via difference-in-conditions wrappers, deductible buy-downs and excess layers; Marsh reports roughly USD 166m of cyber premium running through its captives globally.</td></tr><tr class="tier-1"><td><a href="https://www.eiopa.europa.eu/eiopas-insurance-risk-dashboard-shows-overall-stability-geopolitical-uncertainty-shaping-future-2026-04-30_en" target="_blank" rel="noopener">European Insurance and Occupational Pensions Authority (EIOPA), EIOPA's insurance risk dashboard shows overall stability, with geopolitical uncertainty shaping the future outlook (April 2026)</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>EIOPA's April 2026 supervisory dashboard formally flags digitalisation and cyber exposures, including AI-driven complexity in insurer operations and underwriting, as a persistent risk vector, sustaining supervisory pressure begun with the August 2025 AI Opinion.</td></tr><tr class="tier-3"><td><a href="https://www.dandodiary.com/2026/06/articles/artificial-intelligence/ai-do-risk-and-the-limits-of-underwriting/" target="_blank" rel="noopener">The D&O Diary (Kevin LaCroix / RT ProExec), AI, D&O Risk, and the Limits of Underwriting</a></td><td class="tier-3">Tier 3</td><td>Jun 2026</td><td>AI exposure cannot be cleanly underwritten through traditional methods; carriers are routinely probing AI governance, board reporting, model validation and disclosure controls at renewal; companies failing those tests face premium loadings, AI-specific coverage restrictions, or declination, making AI governance the new gate for D&O capacity.</td></tr><tr class="tier-3"><td><a href="https://www.insurancejournal.com/news/international/2026/05/28/870079.htm" target="_blank" rel="noopener">Insurance Journal, Viewpoint: The AI Boom - When Risk Stops Being Rare, Insurance Must Evolve</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>Edwin Coe head of insurance argues frontier AI tools are breaking the independence-and-time assumptions on which cyber insurability rests; premiums up, wordings tightening around 'reasonable precautions', exclusions expanding, capacity withdrawing from highly correlated AI risks.</td></tr><tr class="tier-3"><td><a href="https://www.policyholderpulse.com/ai-exclusions-insurance-policies/" target="_blank" rel="noopener">Pillsbury Winthrop Shaw Pittman (Policyholder Pulse), AI Exclusions in Insurance Policies: Broad Language, Uncertain Impact</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Pillsbury counsel analyses three Verisk/ISO generative-AI exclusion endorsements taking effect across US P&C lines, noting their broad scope (including any 'AI-related' loss), the litigation risk of broad ambiguity, and the immediate effect on coverage architecture for AI-deploying insureds.</td></tr></tbody></table>
+<h4>Theme 4: Sovereign compute, frontier-model parity, and the post-moat economy</h4><table><colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup><thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead><tbody><tr class="tier-1"><td><a href="https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities" target="_blank" rel="noopener">US Federal Register / Bureau of Industry and Security, Department of Commerce, Revision to License Review Policy for Advanced Computing Commodities</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>BIS shifts its export-control posture on advanced AI semiconductors (Nvidia H200, AMD MI325X and equivalents) for China and Macau from a presumption of denial to case-by-case review, subject to supply, security and testing conditions.</td></tr><tr class="tier-2"><td><a href="https://www.csis.org/analysis/countering-chinas-challenge-american-ai-leadership" target="_blank" rel="noopener">Center for Strategic and International Studies (CSIS), Wadhwani AI Center, Countering China's Challenge to American AI Leadership (Congressional Testimony, Gregory C. Allen)</a></td><td class="tier-2">Tier 2</td><td>Dec 2025</td><td>Five US firms (Meta, Alphabet, Microsoft, Amazon, Oracle) are projected to spend more than $450bn in AI capex in 2026 alone; compute concentration and access to advanced chips remains the largest single US advantage over China, but export-control implementation has been flawed.</td></tr><tr class="tier-1"><td><a href="https://www.bis.org/publ/bisbull120.pdf" target="_blank" rel="noopener">Bank for International Settlements, BIS Bulletin No 120: Financing the AI boom - from cash flows to debt</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>AI-related investment exceeds 1% of US GDP and total IT investment 5% (highest since the dot-com peak); firms are shifting from internal cash flows to debt; outstanding private credit to AI firms could reach $300-600bn by 2030, raising systemic and concentration risks.</td></tr><tr class="tier-1"><td><a href="https://www.gov.uk/government/publications/ai-opportunities-action-plan-one-year-on/ai-opportunities-action-plan-one-year-on" target="_blank" rel="noopener">UK Government / Department for Science, Innovation and Technology (DSIT), AI Opportunities Action Plan: One Year On</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>10x rise in UK public AI compute (2 to 21 ExaFLOPs) toward a 420 ExaFLOP 2030 target; 6x expansion of the Cambridge DAWN supercomputer by Spring 2026; launch of a Sovereign AI Unit backed by up to £500m in April 2026 to back UK AI companies in the value chain.</td></tr><tr class="tier-2"><td><a href="https://www.bruegel.org/analysis/europe-needs-strategy-close-artificial-intelligence-compute-gap" target="_blank" rel="noopener">Bruegel, Europe needs a strategy to close the artificial intelligence compute gap</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Europe faces structural loss of economic autonomy if it remains dependent on US or Chinese compute infrastructure; Mistral 'barely registers' against frontier labs; an 'Airbus-style' AI hardware consortium is needed; the EU lacks a Chinese-style mechanism to direct procurement to domestic AI hardware.</td></tr><tr class="tier-3"><td><a href="https://m.caixin.com/m/2026-04-13/102433293.html" target="_blank" rel="noopener">Caixin, T早报｜DeepSeek V4预计4月下旬发布；美国AI芯片出口审批放缓</a></td><td class="tier-3">Tier 3</td><td>Apr 2026</td><td>Chinese open-source frontier models continue to land on domestic compute: MiniMax M2.7 (229B params, ~10B activated) scored 56.22% on SWE-Pro and was deployed Day-0 with zero-code adaptation on Pingtouge, Huawei Ascend, Moore Threads, Iluvatar CoreX and Nvidia, while DeepSeek V4 was readied for late-April release amid slowing US AI-chip export approvals.</td></tr><tr class="tier-2"><td><a href="https://epoch.ai/data-insights/open-closed-eci-gap" target="_blank" rel="noopener">Epoch AI, Open models lag state-of-the-art closed models by 4 months</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Since January 2026 the best open-weight models have lagged frontier closed models by an average of just 4 months / 8 ECI points on Epoch's Capability Index, comparable to the GPT-5 to GPT-5.5 gap and the smallest open-vs-closed gap Epoch has measured.</td></tr><tr class="tier-2"><td><a href="https://www.ceps.eu/ceps-publications/eu-plans-for-ai-gigafactories-sanctuaries-of-innovation-or-cathedrals-in-the-desert/" target="_blank" rel="noopener">Centre for European Policy Studies (CEPS), EU plans for AI (giga)factories: sanctuaries of innovation, or cathedrals in the desert?</a></td><td class="tier-2">Tier 2</td><td>Nov 2025</td><td>The Commission's plan for 4-5 AI gigafactories (each ~100,000 chips) under InvestAI's ~€20bn envelope is being sited mostly outside Europe's AI hubs of excellence; only Sweden and Finland have power prices competitive with US/Chinese hubs; the build-out remains almost exclusively dependent on Nvidia.</td></tr></tbody></table>
+<h4>Theme 5: The energy, grid and water ceiling on AI scaling</h4><table><colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup><thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead><tbody><tr class="tier-1"><td><a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank" rel="noopener">International Energy Agency, Electricity 2026 - Executive summary</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>Global electricity demand from data centres is projected to roughly double from ~485 TWh in 2025 to ~945 TWh by 2030 in the Base Case (~3% of global demand); data-centre electricity use grew 17% in 2025 and AI-focused data-centre use surged 50%.</td></tr><tr class="tier-3"><td><a href="https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/" target="_blank" rel="noopener">Utility Dive, FERC orders PJM to craft large load colocation rules</a></td><td class="tier-3">Tier 3</td><td>Dec 2025</td><td>On 18 December 2025 FERC ordered PJM to develop new rules and three new transmission services for data centres and other large loads colocating at power plants, and to revise behind-the-meter generation rules.</td></tr><tr class="tier-3"><td><a href="https://www.utilitydive.com/news/constellation-three-mile-island-crane-nuclear-ferc-waiver/821836/" target="_blank" rel="noopener">Utility Dive, Constellation's Three Mile Island nuclear restart gets boost with FERC waiver</a></td><td class="tier-3">Tier 3</td><td>Jun 2026</td><td>FERC granted Constellation a PJM-rules waiver on 1 June 2026 to transfer 760 MW of capacity interconnection rights to the Crane (Three Mile Island Unit 1) restart, but PJM's required 765-kV / 500-kV transmission upgrades to fully deliver the nuclear unit's output aren't expected before December 2030; Constellation has a 20-year deal to sell all the energy to Microsoft for AI data centres.</td></tr><tr class="tier-2"><td><a href="https://www.eli.org/sites/default/files/files-pdf/Data%20Centers%20and%20Water%20Fact%20Sheet%20ELI%20January%202026%20(1).pdf" target="_blank" rel="noopener">Environmental Law Institute, Data Centers and Water Fact Sheet - January 2026</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>U.S. data centres directly consumed ~66 billion litres of water in 2023 (up from 21.2 billion in 2014) and indirectly consumed ~800 billion litres via electricity generation; Lawrence Berkeley National Lab projects data centres will reach 6.7%-12.0% of total U.S. electricity by 2028; roughly two-thirds of data centres built since 2022 sit in water-stressed regions.</td></tr><tr class="tier-2"><td><a href="https://powering-intelligence.epri.com/executive-summary.html" target="_blank" rel="noopener">Electric Power Research Institute (EPRI), Powering Intelligence 2026: Updated Scenarios of U.S. Data Center Electricity Use and Power Strategies - Executive Summary</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>EPRI projects U.S. data centres will consume 9%-17% of national electricity by 2030, a 60% upward revision from prior scenarios; a single 100-1,000 MW facility represents the load of an 80,000-800,000-home neighbourhood, but unlike neighbourhoods can be built in a few years while the grid cannot.</td></tr><tr class="tier-1"><td><a href="https://www.utilitydive.com/news/nerc-10-year-peak-demand-forecast-jumps-24-on-new-data-center-loads/810955/" target="_blank" rel="noopener">North American Electric Reliability Corporation (NERC), reported via Utility Dive, NERC forecasts peak demand to rise 24% on new data center loads (Long-Term Reliability Assessment, January 2026 release)</a></td><td class="tier-1">Tier 1</td><td>Jan 2026</td><td>NERC's 2025 Long-Term Reliability Assessment forecasts summer peak demand to grow 224 GW over 10 years, a 69% jump over the 2024 LTRA forecast and a 24% rise on 2025 peak, with new data centres driving most of the increase; MISO, PJM, ERCOT and parts of the Pacific Northwest at high risk of insufficient reserve margins within five years.</td></tr><tr class="tier-1"><td><a href="https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-fuehren-reifegradverfahren-ein" target="_blank" rel="noopener">TransnetBW (joint statement of German TSOs: TransnetBW, 50Hertz, Amprion, TenneT), Übertragungsnetzbetreiber führen 'Reifegradverfahren' für Netzanschlussanträge von Speichern und Großverbrauchern ein</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>Germany's four TSOs are ending first-come-first-served grid connections for data centres, large battery storage and electrolysers; at end-Q3 2025 they held 717 connection requests totalling ~270 GW (versus ~94 GW needed by 2037 in the official scenario), forcing a new 'maturity-stage' rationing process from 1 April 2026.</td></tr><tr class="tier-3"><td><a href="https://fortune.com/2026/05/13/data-center-georgia-arizona-water-wars/" target="_blank" rel="noopener">Fortune, America's data centers are thirsty. Rural towns are paying the price</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>In May 2026 two data-centre developments (Project Blue in Tucson, Arizona; a QTS/Blackstone-owned 'Project Excalibur' campus in Fayette County, Georgia) were caught taking public water without authorisation (~650,000 gallons via an unauthorised contractor meter in Tucson; ~29 million unmetered gallons in Georgia); more than 50 US cities have enacted bans or moratoria on new data-centre construction.</td></tr></tbody></table>
+</div>
+
+<div class="source-register claim-fidelity">
+<h2>Analyst inferences and editorial framing</h2>
+<p>This appendix declares the analyst-side calls in this briefing, separately from the sourced findings. It is rendered as an appendix to the Source Confidence Register and is not one of the eight numbered sections.</p>
+
+<p><strong>Analyst extrapolations beyond what any single source literally says.</strong> The five-month assembly of the agent transaction stack (IMDA, OECD, UNCITRAL, Visa, IMF, BIS, Mastercard) is an analyst synthesis; no single source describes the cross-layer assembly as a single phenomenon. The framing of "allocated residual risk" as the binding constraint on enterprise AI deployment is an analyst integration of Munich Re, Lloyd's Market Association, Captive.com, D&amp;O Diary, Insurance Journal and Pillsbury commentary; no single source makes that integrative call. The characterisation of "physical infrastructure replaces capital as the binding constraint" on AI scaling integrates IEA, NERC, EPRI, TransnetBW, ELI and Utility Dive evidence; the integration is the analyst's. The estimate that the open-vs-closed model gap has narrowed to 4 months / 8 ECI points is faithful to Epoch AI; the further inference that "the moat is now deployment, identity and data" goes beyond Epoch's own claim.</p>
+
+<p><strong>Weak signals are analyst extrapolations by design.</strong> The four weak signals (multi-agent systems crossing into production faster than oversight assumptions update; the insurance market becoming the de-facto AI regulator; sovereign compute concentration appearing in credit-rating methodology notes; behind-the-meter AI infrastructure being tested for utility classification) are deliberately analyst-projected. Each is supported by partial evidence within the cycle's sourced base but is articulated as a forward-looking pattern the consensus has not yet named. They are surfaced to discipline next-cycle horizon scanning, not as sourced findings.</p>
+
+<p><strong>Editorial framing the analyst owns.</strong> The cycle's central thesis (the boundary between AI-as-tool and AI-as-counterparty is breaking down on five compounding legs) is an analyst frame, defended across the five theme evidence bases but not stated by any single source. The pull-quote, the sit-up statement and the "After the Copilot" editorial title are analyst constructions intended to land the cycle's central tension at board level. The four-cell scenario matrix (pace of agentic-AI maturation against regulator stance) is a planning aid, not a forecast.</p>
+
+<p><strong>Cycle-over-cycle continuity.</strong> This is cycle 2 of the AI &amp; Automation thread for Shaping Tomorrow. Cycle 1 (<em>When AI Joins the Org Chart</em>, 12 May 2026) framed AI entering organisations as participating workforce, with themes on agent deployment, verification-stack procurement, AI's haves-and-have-nots, the entry-level reset and the capex reckoning. Six weeks on, three of those themes have hardened in identifiable ways: the agent deployment shift is now an explicit transacting-counterparty question, the verification stack has moved from "procurement requirement" to "insurance pre-condition" and the capex reckoning has shifted from a capital constraint to a physical-infrastructure constraint. Two themes (AI haves-and-have-nots; entry-level reset) remain live in the labour-and-skills snapshot lens but are not the spine of cycle 2. The cycle 1 "Decide" implications around agent-governance policy and verification procurement are now embedded in cycle 2 Strategic Implications 1 and 3. Next cycle will assess whether the 2 August 2026 EU AI Act application date and Q3 2026 financial-supervisor outputs (FSB October consultation close, BoE follow-up roundtables) have moved against this cycle's reading.</p>
+
+</div>
+
+
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is the quarterly synthesis of a Shaping Tomorrow intelligence cycle on <strong>AI and Automation</strong>. It sits on top of weekly Signal Scans that identify emerging developments and weak signals, and monthly Change Trackers that assess what is materially shifting in momentum. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across all four formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a>
+</div>
+</div>
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 22 June 2026</p>
+
+</div>
+
+</body>
+</html>

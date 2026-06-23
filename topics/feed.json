@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T08:30:55Z",
+  "generated": "2026-06-23T09:57:49Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -426,7 +426,7 @@
         "scan": "2026-06-20",
         "tracker": "2026-06-04",
         "di": "2026-06-22",
-        "cc": ""
+        "cc": "2026-06-22"
       },
       "history": [
         {
@@ -435,6 +435,14 @@
           "type": "Decision Intelligence",
           "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
           "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Past capability, into liability.",
+          "summary": "Six weeks ago, the May Decision Intelligence briefing made a confident case: AI was joining the org chart, and leadership teams owed themselves an agent operating model, a verification stack, an entry-level plan and a capex stress test.",
           "posture": ""
         },
         {

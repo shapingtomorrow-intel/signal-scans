@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 22 Jun 2026 08:30:45 +0000</lastBuildDate>
+<lastBuildDate>Tue, 23 Jun 2026 08:30:49 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-23-design-standard-stationarity-reset/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-23-design-standard-stationarity-reset/scan.html</guid>
+<pubDate>Tue, 23 Jun 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of climate stationarity in the codes that govern rainfall, flood and structural design, silently re-labelling much existing infrastructure as underdesigned and transmitting into insurance, mortgage finance and liability faster than the codes are adopted.</description>
+</item>
+<item>
+<title>The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-23-critical-minerals-stockpile-paradox/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-23-critical-minerals-stockpile-paradox/scan.html</guid>
+<pubDate>Tue, 23 Jun 2026 08:00:00 +0000</pubDate>
+<category>Supply Chains &amp; Critical Minerals</category>
+<description>Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June 2026 G7 stockpiling-coordination declaration, and parallel reserves in China, the EU, India, Japan, South Korea and Australia); the non-obvious risk is that simultaneous, uncoordinated reserve-building is itself a front-loaded demand shock that tightens concentrated markets and...</description>
+</item>
 <item>
 <title>The Stablecoin Bid: How Dollar Tokens Became a Marginal Buyer of US Treasury Bills</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-22-stablecoin-treasury-feedback/scan.html</link>
@@ -22,6 +38,14 @@
 <pubDate>Mon, 22 Jun 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising an agent's individual decisions to governing its objectives, guardrails and outcomes, even excluding generative and agentic AI from formal model-risk rules.</description>
+</item>
+<item>
+<title>When the Agent Signs: AI Agents Inside the Thai e-Transactions Perimeter</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-agents-as-transacting-parties-under-thai-e-transactions-l/2026-06-22-ai-agents-transacting-parties/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-agents-as-transacting-parties-under-thai-e-transactions-l/2026-06-22-ai-agents-transacting-parties/scan.html</guid>
+<pubDate>Mon, 22 Jun 2026 08:00:00 +0000</pubDate>
+<category>AI agents as transacting parties under Thai e-Transactions law</category>
+<description>Beneath the consensus that agentic AI is coming, AI agents are already booking, paying, contracting and signing under trust-services architectures that the Thai Electronic Transactions Act, the e-Signature regime and the NDID consortium all presume a natural-person principal originates, breaking ETDA's trust-attribution layer silently.</description>
 </item>
 <item>
 <title>The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites</title>
@@ -382,30 +406,6 @@
 <pubDate>Wed, 20 May 2026 08:00:00 +0000</pubDate>
 <category>Geopolitics &amp; Economic Fragmentation</category>
 <description>Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025 escalation was suspended rather than repealed, and the suspension is scheduled to lapse on 10 November 2026.</description>
-</item>
-<item>
-<title>The Anglo Mobility Reversal &amp;mdash; Signal Scan</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-19-anglo-mobility-reversal/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-19-anglo-mobility-reversal/scan.html</guid>
-<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
-<category>Demographics, Migration &amp; Labour Markets</category>
-<description>Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university enrolment collapse with Asian and European institutions gaining share signal a structural reorganisation of global mobility corridors away from the Anglosphere.</description>
-</item>
-<item>
-<title>The Vulnerability Triage Era &amp;mdash; Signal Scan</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-05-19-cve-enrichment-unbundling/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-05-19-cve-enrichment-unbundling/scan.html</guid>
-<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting the single global pipeline on which enterprise scanners, FedRAMP, SOC&amp;nbsp;2 and cyber insurance depend.</description>
-</item>
-<item>
-<title>Load Follows Generation &amp;mdash; Signal Scan</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-19-load-follows-generation/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-05-19-load-follows-generation/scan.html</guid>
-<pubDate>Tue, 19 May 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story. FERC's December 2025 PJM colocation order, EIA's 2026 retirement-delay data and a 66% surge in gas-plant build costs together signal load following generation, slowing coal retirements and locking in fossil capacity inside the energy transition.</description>
 </item>
 </channel>
 </rss>

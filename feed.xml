@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Wed, 24 Jun 2026 18:19:16 +0000</lastBuildDate>
+<lastBuildDate>Wed, 24 Jun 2026 18:24:00 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire</title>
@@ -14,6 +14,14 @@
 <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit, moving the binding constraint from money to the credibility of the demand signal.</description>
+</item>
+<item>
+<title>Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-24-lender-of-last-resort-split/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-24-lender-of-last-resort-split/scan.html</guid>
+<pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and Western track, sorting access to crisis finance by alignment rather than need even as the dollar erodes only slowly.</description>
 </item>
 <item>
 <title>The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment</title>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 24 May 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
 <description>US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism. The US government itself states the policy will put upward pressure on prices paid abroad, pushing manufacturers to raise ex-US prices and delay or withhold launches in lower-price markets, turning US pricing reform into a global repricing and access-contraction event across 2026-2028.</description>
-</item>
-<item>
-<title>The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html</guid>
-<pubDate>Sat, 23 May 2026 08:00:00 +0000</pubDate>
-<category>Artificial Intelligence &amp; Automation</category>
-<description>Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin affirmative-cover market emerges, setting the real terms of deployment across the 2026-2028 renewal cycles.</description>
 </item>
 </channel>
 </rss>

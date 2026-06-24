@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token six, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>Thurgau am Knotenpunkt: Kanton Thurgau Decision Intelligence Briefing, June 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .learn-takeaways { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
+  .learn-takeaways .lt-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 0 8px 8px 0; }
+  .learn-takeaways .lt-card h3 { color: #1a237e; margin: 0 0 10px; font-size: 1.05em; }
+  .learn-takeaways .lt-card ol { margin: 0; padding-left: 20px; line-height: 1.5; color: #2a3142; }
+  .learn-takeaways .lt-learn { background: #eef1f9; border-left: 4px solid #1a237e; }
+  .learn-takeaways .lt-keys { background: #fff8e1; border-left: 4px solid #f57c00; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 360px; box-sizing: border-box; }
+  .toc-figure { flex: 1 1 360px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  /* Bordered matrix with axis labels (Variant C, June 2026):
+     Outer grid wrap places the horizontal axis name on top and the vertical
+     axis name on the left of a bordered .matrix-frame; corner labels at the
+     four corners of the frame name the extremes at each intersection. */
+  .scenario-matrix-axed { display: grid; grid-template-columns: 40px 1fr; grid-template-rows: 36px 1fr; gap: 0; margin-top: 20px; }
+  .axis-name-h { grid-row: 1; grid-column: 2; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; }
+  .axis-name-v { grid-row: 2; grid-column: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
+  .matrix-frame { grid-row: 2; grid-column: 2; border: 2px solid #1a237e; border-radius: 12px; position: relative; padding: 28px 14px 20px; background: white; }
+  .matrix-frame .scenario-grid { margin-top: 0; }
+  .corner-label { position: absolute; background: white; padding: 3px 10px; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.06em; text-transform: uppercase; }
+  .corner-tl { top: -11px; left: 22px; }
+  .corner-tr { top: -11px; right: 22px; }
+  .corner-bl { bottom: -11px; left: 22px; }
+  .corner-br { bottom: -11px; right: 22px; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
+  .exclusion-item h4 { margin-top: 0; color: #374151; }
+  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 28%; }
+  .source-register col.col-tier { width: 11%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 49%; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; word-wrap: break-word; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  td.tier-1 { color: #2e7d32; font-weight: 700; }
+  td.tier-2 { color: #1565c0; font-weight: 700; }
+  td.tier-3 { color: #f57c00; font-weight: 700; }
+  td.tier-4 { color: #c62828; font-weight: 700; }
+  .source-register tr.tier-1 { background: #e3f2fd; }
+  .source-register tr.tier-2 { background: #e8f5e9; }
+  .source-register tr.tier-3 { background: #fff3e0; }
+  .source-register tr.tier-4 { background: #fce4ec; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; Kanton Thurgau</div>
+<h1 class="report-title">Thurgau am Knotenpunkt</h1>
+<div class="meta">
+24 June 2026 &middot; Audience: Regierungsrat, Staatskanzlei, Generalsekretariate &middot; Horizon: 2 to 5 years<br>
+<span style="font-size: 0.92em;">Read estimate: 1 min At a glance &middot; 3 min Executive Synthesis &middot; 21 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+<div class="learn-takeaways">
+  <div class="lt-card lt-learn">
+    <h3>What you will learn</h3>
+    <ol>
+      <li>Why six pressures (Bilaterale III, Mostindien climate, AI plus Berufsbildung, Energiewende, OECD tax, ageing) all bite in the same two years.</li>
+      <li>Where the canton has genuine policy choice, and where Bern, Brussels and the Bodensee neighbours have already set the agenda.</li>
+      <li>Which decisions the Regierungsrat should bring to the 2026 to 2028 Legislaturplanung, and which can wait one cycle.</li>
+    </ol>
+  </div>
+  <div class="lt-card lt-keys">
+    <h3>Key takeaways</h3>
+    <ol>
+      <li>Bilaterale III was dispatched to Parliament on 13 March 2026, and a Bund-Kantone Mitwirkungsvereinbarung followed on 22 April: cantons now have formal voice.</li>
+      <li>Thurgau crossed 300,097 residents at end-2025, but growth slowed to plus 1.1 per cent and over-65s now outnumber under-20s for the first time.</li>
+      <li>EFAS locks cantons into 26.9 per cent of net OKP costs from 2028, and the Bund AHV deficit reaches CHF 4.2 bn by 2035 under the BSV reference scenario.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-snapshots">2. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">3. Themes</a></li>
+  <li><a href="#section-strategic-implications">4. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">5. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">6. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">7. Discussion Points</a></li>
+  <li><a href="#section-source-register">8. Source Confidence Register</a></li>
+</ul>
+</div>
+<div class="toc-figure">
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six strands converging at a knot, representing six simultaneous pressures meeting at Thurgau">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0382FC" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a237e" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <circle cx="170" cy="150" r="22" fill="url(#g1)"/>
+  <path d="M 20 30 Q 100 80 170 150" stroke="#1a237e" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M 320 30 Q 240 80 170 150" stroke="#1a237e" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M 10 150 Q 80 150 170 150" stroke="#f57c00" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M 330 150 Q 260 150 170 150" stroke="#f57c00" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M 20 270 Q 100 220 170 150" stroke="#2e7d32" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <path d="M 320 270 Q 240 220 170 150" stroke="#2e7d32" stroke-width="2.5" fill="none" opacity="0.85"/>
+  <text x="20" y="20" fill="#1a237e" font-size="11" font-family="sans-serif">Bodensee</text>
+  <text x="265" y="20" fill="#1a237e" font-size="11" font-family="sans-serif">Mostindien</text>
+  <text x="10" y="145" fill="#f57c00" font-size="11" font-family="sans-serif">Industrie</text>
+  <text x="285" y="145" fill="#f57c00" font-size="11" font-family="sans-serif">Energie</text>
+  <text x="20" y="290" fill="#2e7d32" font-size="11" font-family="sans-serif">OECD/NFA</text>
+  <text x="270" y="290" fill="#2e7d32" font-size="11" font-family="sans-serif">Demografie</text>
+  <text x="148" y="155" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">TG</text>
+</svg>
+<p class="figure-caption">Six pressures meeting at one cantonal node.</p>
+</div>
+</div>
+
+<div class="at-a-glance">
+<h3>At a glance</h3>
+<p>Thurgau is approaching the next five years with six policy pressures arriving at once, and the canton no longer has the luxury of treating any one of them as the dominant problem to solve first.</p>
+
+<p>Bern is renegotiating the canton's room for manoeuvre on Europe, on health-cost share, on social-insurance financing and on the inter-cantonal equalisation system, all in the same Legislaturplanung window. The Bodensee neighbours and the EU are reshaping the cross-border environment in which the canton's economy, labour market and water actually operate. The population has tipped into a demographic mix where ageing matters more than further growth.</p>
+
+<p><strong>The one thing to take into the next meeting:</strong> the Regierungsrat should treat the 2026 to 2028 cycle as a stress test of the canton's reserves, not a continuation of the last decade's expansion playbook, and assume that fiscal headroom on every line is tighter than the 2024 multi-year plan implied.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">Which decisions on your desk this Regierungsratssitzung were sized for a Thurgau still defined by inward migration and a settled federal framework?</p>
+<p class="sit-up-warrant">The evidence in this report says both of those conditions are already changing, in the same two years.</p>
+</div>
+
+<p>The defining feature of this cycle is not any single shock. It is that six largely independent pressures, each one a serious file in its own right, are landing inside the same Legislaturplanung window. Each of them changes the canton's room for manoeuvre on a different file: the Bilaterale III package and the cross-border Bodensee neighbourhood; the climate-and-water stress on Thurgau agriculture; the AI plus Berufsbildung competitiveness question; the Mantelerlass-shaped energy transition; the stacked fiscal pressures from OECD Pillar 2, NFA and EFAS; and a population that has just crossed 300,000 with ageing now outpacing growth. Read in isolation, each is manageable. Read together, they crowd the Regierungsrat agenda and the canton's reserves at the same time.</p>
+
+<p>The spine of this cycle is the federal-cantonal interface. The Bundesrat dispatched the Bilaterale III message to Parliament on 13 March 2026 (<a href="https://www.admin.ch/de/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf" target="_blank" rel="noopener">Schweizerischer Bundesrat, March 2026</a>) and signed a Mitwirkungsvereinbarung with the cantons on 22 April (<a href="https://www.admin.ch/de/newnsb/R-5hVuwjTiDwERRNxS0tY" target="_blank" rel="noopener">Schweizerischer Bundesrat, April 2026</a>). In parallel, the EFV published the Entflechtung 27 Zwischenbericht on 24 April, reopening 14 task areas of Bund-canton division (<a href="https://www.efv.admin.ch/de/newnsb/drIhU-k4sSryUIxnrmO2A" target="_blank" rel="noopener">Eidgenoessische Finanzverwaltung, April 2026</a>); the BAG opened the EFAS ordinance consultation on 1 April, locking cantons into a 26.9 per cent share of net OKP costs from 2028 (<a href="https://www.bag.admin.ch/de/kvg-anderung-einheitliche-finanzierung-der-leistungen" target="_blank" rel="noopener">BAG, April 2026</a>); and Avenir Suisse warned on 2 June that the OECD Pillar 2 revenue projections Bern published in 2024 are now politically fragile after the US Side-by-Side carve-out (<a href="https://www.avenir-suisse.ch/blog-die-schweiz-auf-der-suche-nach-dem-kleinsten-uebel-bei-der-oecd-mindeststeuer/" target="_blank" rel="noopener">Avenir Suisse, June 2026</a>). Every one of these affects Thurgau's medium-term plan.</p>
+
+<div class="pullquote">Read in isolation, each is manageable. Read together, they crowd the Regierungsrat agenda and the canton's reserves at the same time.</div>
+
+<p>Underneath the federal layer, the operating environment is also moving. The KOF cut its 2026 Swiss GDP forecast on 17 June to 0.8 per cent and singled out the Maschinen- and Uhrenindustrie as the cyclical losers (<a href="https://kof.ethz.ch/news-und-veranstaltungen/medien/medienmitteilungen/2026/06/kof-konjunkturprognose-sommer-2026-erdoelpreisschock-bremst-schweizer-wirtschaft.html" target="_blank" rel="noopener">KOF ETH, June 2026</a>); Statistik TG reported via Keystone-SDA on 6 March that the canton has 300,097 residents but plus 1.1 per cent annual growth and ageing now dominate the demographic profile (<a href="https://www.blick.ch/schweiz/ostschweiz/thurgau/bevoelkerungswachstum-der-thurgau-knackt-die-marke-von-300000-einwohnern-id21755842.html" target="_blank" rel="noopener">Blick, March 2026</a>); the IGKB confirmed that the Quagga mussel has fully colonised the Bodensee floor down to 30 m (<a href="https://www.euwid-wasser.de/news/wirtschaft/quagga-muschel-am-bodensee-waechst-nicht-mehr-exponentiell-080126/" target="_blank" rel="noopener">EUWID, January 2026</a>); and Axpo flagged a coming winter Stromluecke in its FY24/25 results (<a href="https://www.axpo.com/ch/de/newsroom/medienmitteilungen/2025/axpo-erzielt-dank-klarer-strategie-erneut-gutes-jahresergebnis.html" target="_blank" rel="noopener">Axpo, December 2025</a>). The signal that may surprise leadership is the convergence: the canton's reserves, fiscal room, demographic dividend and federal-policy space are all being asked to do double duty at once.</p>
+
+<p>What is new in this cycle is the simultaneity, not the individual files. Each one has been on a Regierungsrat agenda before: Bilaterale III was foreshadowed throughout 2024 and 2025; the EFAS principle was settled at the urn in November 2024; the Mostindien drought of 2025 made canton-wide news; the Mantelerlass first package landed in January 2025; AHV financing has been disputed across multiple Bundesrat plans. Reading them serially produces a Legislatur of manageable adjustments. Reading them in parallel, as they will actually arrive, produces a Legislatur where the canton's reserves are asked to absorb a federal redistribution wave, a cross-border renegotiation, an energy market re-design and a demographic tipping point at the same time. Three further forces sharpen the picture: KOF's call that Swiss industry will be sluggish through 2027; Avenir Suisse's 2 June assessment that the OECD Pillar 2 revenue line for Switzerland is now politically fragile; and the IHK Thurgau president's mid-cycle warning that cantonal industry is under more pressure than acknowledged. The reading the briefing rests on is that prudence beats ambition for the next two budget cycles.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>The core assumption underpinning this synthesis is that Bilaterale III will be ratified and not blocked at referendum, and that EFAS implementation proceeds on the planned 2028 timetable. If Bilaterale III fails at the urn, the Bodensee posture collapses back to status quo ante and the canton's preparation work is wasted political capital; if EFAS slips by two or more years, the fiscal squeeze on the canton arrives later and the OECD plus NFA pieces lose their stacked-pressure character. Both of those would force a material re-reading of the cycle's central thesis. A second falsifiable assumption: that Thurgau industry remains export-exposed enough to be hit by the Franc and oil shock. If the SECO and KOF forecasts are revised upward in autumn 2026, the case for prudence weakens.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Take a Regierungsrat position on Bilaterale III by end of Q3 2026.</strong> The Mitwirkungsvereinbarung gives cantons formal voice; silence is itself a position, and Thurgau's exposure to the Grenzgaenger and Bodensee economy is too large to abstain.</li>
+<li><strong>Stress-test the Aufgaben- und Finanzplan against the EFAS plus OECD plus AHV stack before the 2027 budget vote.</strong> Each of the three pressures alone is manageable; the joint effect on cantonal reserves is not yet modelled in public planning documents.</li>
+<li><strong>Commission a cantonal AI plus Berufsbildung programme proposal in 2026.</strong> SBFI has already opened the door with the AI Business Specialist Fachausweis; Thurgau industry will adopt with or without cantonal coordination, and uncoordinated adoption is the more expensive path.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Audience Snapshots</h2>
+<p class="snapshots-intro"><em>Four lenses on the same intelligence base, one per audience type. Each card surfaces the one question this cycle puts to that function.</em></p>
+<div class="snapshots">
+
+<div class="snapshot-card commercial">
+<span class="role">Regierungsrat &amp; Staatskanzlei</span>
+<h4>Which of the six pressures gets first claim on this Legislatur's reserves?</h4>
+<p><strong>The shift:</strong> Six federal and cross-border files have moved into the active decision window at once, and the canton can no longer sequence them.</p>
+<p><strong>The question to brief:</strong> Should the 2026 to 2028 Legislaturplanung be rewritten as a prioritisation exercise rather than a continuation, and if so, who owns the trade-offs?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">DIV &amp; DBU</span>
+<h4>Where is the canton genuinely the decision-maker, and where is Bern or Brussels?</h4>
+<p><strong>The shift:</strong> Bilaterale III, the Mantelerlass second package and the updated Raumkonzept Schweiz have all shifted the locus of regulation upward, while the operational burden stays cantonal.</p>
+<p><strong>The question to brief:</strong> Which Bodensee, energy and agricultural files justify investing cantonal political capital, and which are better handled by sustained federal lobbying through the KdK?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">DEK &amp; DFS</span>
+<h4>How does the canton finance an ageing population while OECD revenue is uncertain and EFAS lands?</h4>
+<p><strong>The shift:</strong> Pillar 2 receipts are politically fragile after the US Side-by-Side deal; EFAS locks cantons into 26.9 per cent of net OKP costs from 2028; the SBFI AI Business Specialist Fachausweis opens a parallel funding lane for adult upskilling.</p>
+<p><strong>The question to brief:</strong> Does Thurgau treat Berufsbildung modernisation as an industrial-policy lever (DEK lead) or as a fiscal-policy lever (DFS lead), and what is the joint sequencing?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">DJS, Gesundheitsamt &amp; Spital Thurgau AG</span>
+<h4>Is the hospital and integration footprint sized for the population the canton actually has in 2030?</h4>
+<p><strong>The shift:</strong> Over-65s now outnumber under-20s, German immigration remains the main growth motor, and EFAS plus TARDOC change hospital reimbursement architecture in parallel.</p>
+<p><strong>The question to brief:</strong> Should Spital Thurgau AG's capacity plan, the Gesundheitsamt's prevention budget and the cantonal Integrationsprogramm be reviewed jointly rather than separately, and when?</p>
+</div>
+
+</div></div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into six themes, ranked by impact on Kanton Thurgau's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the Regierungsprogramm, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Kanton Thurgau's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Bodensee region: cross-border governance of economy, transport and water</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The Bilaterale III package has converted the Bodensee from a quiet cooperation file into the canton's single most consequential cross-border exposure. The Bundesrat has both signed the package and codified cantonal participation in EU dossiers, which means Thurgau now has formal voice on rules affecting its Grenzgaenger workforce, its lake water and its cross-border rail integration. The canton can no longer treat this file as observation-only. The IBK's 2026 Zurich presidency turns the lake-side neighbourhood into a 2050-horizon planning exercise rather than an incremental cooperation forum, and the Raumkonzept Schweiz update treats the International Bodensee Region as a formal Handlungsraum. All three signals point in the same direction: the canton needs a written position, not an implicit one.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The Bilaterale III package was approved by the Bundesrat for parliamentary deliberation on 13 March 2026, covering 94 EU legal acts and adjustments to 36 federal laws, with a facultative state-treaty referendum proposed (<a href="https://www.admin.ch/de/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf" target="_blank" rel="noopener">Schweizerischer Bundesrat, March 2026</a>).</li>
+<li>The Bund-canton Mitwirkungsvereinbarung adopted on 22 April 2026 gives cantons formal participation in dynamic EU legal adoption, dispute resolution and decision-shaping under the package (<a href="https://www.admin.ch/de/newnsb/R-5hVuwjTiDwERRNxS0tY" target="_blank" rel="noopener">Schweizerischer Bundesrat, April 2026</a>).</li>
+<li>The IBK under Zurich's 2026 presidency has shifted focus to a 2050 horizon, with the next Regierungschefkonferenz scheduled for 26 June 2026 and a 'lebenswerte Vier-Laender-Nachbarschaft' as the framing theme (<a href="https://www.bodenseekonferenz.org/35856/Die-IBK/IBK-Vorsitz-2026/index.aspx" target="_blank" rel="noopener">Internationale Bodensee-Konferenz, January 2026</a>).</li>
+<li>Eawag scientist Piet Spaak reports that Quagga mussel growth in the Bodensee is no longer exponential because the lake floor is fully colonised down to 30 m, with lasting effects on drinking-water treatment costs still to play out (<a href="https://www.euwid-wasser.de/news/wirtschaft/quagga-muschel-am-bodensee-waechst-nicht-mehr-exponentiell-080126/" target="_blank" rel="noopener">EUWID, January 2026</a>).</li>
+</ul>
+</div>
+
+<div class="report-figure">
+<h4>Bilaterale III timeline against the canton's 2026 to 2028 decision window</h4>
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline showing Bilaterale III milestones from March 2026 through expected ratification, overlaid with the canton's Legislaturplanung cycle.">
+  <line x1="50" y1="180" x2="680" y2="180" stroke="#1a237e" stroke-width="2"/>
+  <circle cx="80" cy="180" r="6" fill="#0382FC"/>
+  <text x="50" y="210" fill="#1a237e" font-size="11" font-family="sans-serif">Mar 2026</text>
+  <text x="50" y="225" fill="#5a6478" font-size="10" font-family="sans-serif">Botschaft</text>
+  <circle cx="170" cy="180" r="6" fill="#0382FC"/>
+  <text x="140" y="210" fill="#1a237e" font-size="11" font-family="sans-serif">Apr 2026</text>
+  <text x="140" y="225" fill="#5a6478" font-size="10" font-family="sans-serif">Mitwirkungs-V.</text>
+  <circle cx="300" cy="180" r="6" fill="#f57c00"/>
+  <text x="270" y="210" fill="#1a237e" font-size="11" font-family="sans-serif">2026/27</text>
+  <text x="265" y="225" fill="#5a6478" font-size="10" font-family="sans-serif">Parlamentsdebatte</text>
+  <circle cx="450" cy="180" r="6" fill="#f57c00"/>
+  <text x="420" y="210" fill="#1a237e" font-size="11" font-family="sans-serif">2027/28</text>
+  <text x="415" y="225" fill="#5a6478" font-size="10" font-family="sans-serif">Referendum</text>
+  <circle cx="600" cy="180" r="6" fill="#2e7d32"/>
+  <text x="565" y="210" fill="#1a237e" font-size="11" font-family="sans-serif">2028+</text>
+  <text x="565" y="225" fill="#5a6478" font-size="10" font-family="sans-serif">Inkrafttreten</text>
+  <rect x="80" y="60" width="600" height="60" fill="#e3f2fd" stroke="#0382FC" stroke-width="1.5"/>
+  <text x="380" y="85" fill="#1a237e" font-size="13" font-family="sans-serif" font-weight="bold" text-anchor="middle">Thurgau Legislaturplanung 2026-2028</text>
+  <text x="380" y="105" fill="#5a6478" font-size="11" font-family="sans-serif" text-anchor="middle">Cantonal position-taking window overlaps Bundesversammlung deliberation</text>
+  <text x="50" y="30" fill="#1a237e" font-size="13" font-family="sans-serif" font-weight="bold">Bilaterale III: federal calendar vs cantonal decision window</text>
+</svg>
+<p class="figure-caption">Source: dates from <a href="https://www.admin.ch/de/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf" target="_blank" rel="noopener">Bundesrat (March 2026)</a> and <a href="https://www.admin.ch/de/newnsb/R-5hVuwjTiDwERRNxS0tY" target="_blank" rel="noopener">Bundesrat (April 2026)</a>; ratification dates indicative.</p>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>It is possible the Bilaterale III file is overweighted for Thurgau at this cycle. The package may still be blocked at referendum (the 1992 EWR pattern), in which case the canton's preparation work has limited operational return. Cross-border S5 and S14 integration continues bilaterally with SBB, DB and OeBB regardless of the package status, and IGKB cooperation predates Bilaterale III by decades. A reasonable Regierungsrat could argue that the canton's incremental upside from formal participation in dynamic legal adoption is smaller than the political cost of public position-taking ahead of a referendum.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Mostindien under pressure: agriculture, water and climate</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The canton's agricultural identity is meeting three simultaneous pressures: a climate signal that has already triggered a Thurgau-wide surface-water extraction ban once in living memory, a federal Agrarpolitik reset (AP30+) that moves direct payments from prescriptive rules to outcome-based logic, and a slow EU regulatory recalibration of cider semantics that bears directly on Moehl, Thurella and the canton's Most identity. The exposure is not crisis-shaped but built into the sector: roughly 17 per cent of Swiss family farms face a succession decision inside this Legislatur, and special-crops farms are over-represented in the Thurgau plain.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>Thurgau imposed a surface-water extraction ban from 27 June 2025 covering streams, rivers and artificial ponds, affecting roughly 13 per cent of the water normally available to agriculture in drought conditions (<a href="https://www.20min.ch/story/thurgau-wegen-trockenheit-vorlaeufig-gilt-ein-wasserentnahmeverbot-103369567" target="_blank" rel="noopener">20 Minuten, June 2025</a>).</li>
+<li>The Bundesrat opened the AP30+ design phase on 18 February 2026, with a consultation draft due Q3 2026 and the message to parliament by end 2027; funding for 2030 to 2033 is set at the 2029 financial-plan level (<a href="https://www.blw.admin.ch/de/newnsb/6lmKbSWzDwQZM9AeZnB7S" target="_blank" rel="noopener">Bundesamt fuer Landwirtschaft, February 2026</a>).</li>
+<li>The Schweizer Bauernverband demanded on 11 February 2026 that AP2030 prioritise food security (net self-sufficiency at 42 per cent in 2024) and grant 12-year planning stability, framing income and self-sufficiency as the binding constraint (<a href="https://www.sbv-usp.ch/de/agrarpolitik-2030-muss-ernaehrungssicherheit-staerken-und-bauernfamilien-perspektiven-geben" target="_blank" rel="noopener">Schweizer Bauernverband, February 2026</a>).</li>
+<li>Agroscope reports the ratio of farm managers aged 56 to 65 to under-35 rose from 1.8:1 in 2004 to 2.7:1 in 2020, with special-crops farms (over-represented in Thurgau) carrying the oldest managers (<a href="https://www.agrarforschungschweiz.ch/en/2025/04/swiss-agriculture-is-ageing-what-does-this-mean-for-the-future/" target="_blank" rel="noopener">Agroscope, April 2025</a>).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Weak signals to watch</h4>
+<ul>
+<li><span class="weak-signal-marker">Signal:</span> The EU GREX Committee draft Union marketing standard for cider proposes a 50 per cent minimum juice content, which would reshape the labelling and pricing logic Moehl and Thurella export under (<a href="https://cider-review.com/2025/05/08/editorial-eu-cider-definition-creeping-closer/" target="_blank" rel="noopener">Cider Review, May 2025</a>). Gains weight if the GREX delegated act is published in 2026 or 2027.</li>
+<li><span class="weak-signal-marker">Signal:</span> Germany's separate national 50 per cent juice cider definition is set to enter law in 2026 (same source). Gains weight if German retail re-shelves cider categories visibly through 2026 to 2027.</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>This theme reads bigger than the canton's immediate decision load. Thurgau farms have weathered worse droughts, the 2025 Mostobst harvest was low enough to skip the Ernteausgleich rather than crash, and the SBV claims environmental targets are already on track with pesticide risks halved since the Trinkwasserinitiative aftermath. AP30+ continuity in the financial envelope is genuine relief. A cautious reading is that climate signals will get more attention with each dry summer; the policy environment is becoming more, not less, predictable.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Industry, AI and the dual-vocational system as a competitiveness question</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The Thurgau industrial base is bifurcating in plain sight: Stadler Rail in Bussnang is in record expansion while the wider Maschinen- and Uhrenindustrie is depressed by Franc strength and the Iran-war oil shock. The federal Berufsbildung system is responding to AI through curriculum reform rather than a parallel academic track, which plays to Thurgau's longstanding strength. The competitiveness question for the next 24 to 36 months is whether the canton can sequence AI plus dual-vocational adoption faster than its workforce drifts to Zurich, and whether the IHK Thurgau view that the canton is under more pressure than acknowledged is given budget weight in the 2027 plan.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>KOF cut its 2026 Swiss GDP forecast on 17 June 2026 to 0.8 per cent and singled out the Maschinen- and Uhrenindustrie as cyclical losers while pharma and chemistry hold up; AI productivity gains were cited as one of the few upside risks (<a href="https://kof.ethz.ch/news-und-veranstaltungen/medien/medienmitteilungen/2026/06/kof-konjunkturprognose-sommer-2026-erdoelpreisschock-bremst-schweizer-wirtschaft.html" target="_blank" rel="noopener">KOF ETH, June 2026</a>).</li>
+<li>SBFI approved 43 new or revised vocational qualifications in 2025 including a new federal AI Business Specialist Fachausweis, embedding AI absorption inside the dual-vocational architecture rather than alongside it (<a href="https://www.sbfi.admin.ch/de/newnsb/99wjr4Bk83kLHmHW7DhL5" target="_blank" rel="noopener">SBFI, February 2026</a>).</li>
+<li>Stadler Rail reported 2025 turnover of CHF 3.7 bn (plus 13 per cent), a record CHF 32.3 bn order book and plans for roughly 1,000 new positions in 2026; the firm targets above CHF 5 bn revenue this year (<a href="https://www.watson.ch/wirtschaft/schweiz/625135669-stadler-rail-2025-wieder-mit-umsatz-und-gewinnsteigerung" target="_blank" rel="noopener">Watson SDA-Keystone, March 2026</a>).</li>
+<li>IHK Thurgau president Kris Vietze argued in May 2026 that the canton is under more pressure than acknowledged: cautious investment, demographic Fachkraeftemangel that is now baked in, Berufsbildung as the real strength but Hochschulanbindung as the weakness (<a href="https://www.leaderdigital.ch/hauptausgaben/mai-2026-646/der-wirtschaftsraum-thurgau-im-realitaetscheck-15561.html" target="_blank" rel="noopener">LEADER Digital, May 2026</a>).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Weak signals to watch</h4>
+<ul>
+<li><span class="weak-signal-marker">Signal:</span> Buehler Group reports a 67 per cent post-graduation apprenticeship retention rate in Switzerland and AI-embedded products (AI700 sorter, SmartMill) as growth contributors (<a href="https://annualreport.buhlergroup.com/reports/en_25/home/economy/group-report.html" target="_blank" rel="noopener">Buehler Group, February 2026</a>). Gains weight if other Ostschweiz industrial anchors publish similar apprenticeship retention metrics.</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The Stadler record book and Buehler R&amp;D intensity may make the AI plus Berufsbildung file look more comfortable than it is. The cluster's pressure thesis would lose weight if KOF's June 2026 cut for the Maschinen- und Uhrenindustrie proves a single-cycle dip rather than a structural bite, if the SBFI AI Business Specialist Fachausweis is taken up fast enough by Ostschweiz employers that federal architecture closes the absorption gap on its own, and if the Swissmem-documented KMU data-and-partnership barriers (<a href="https://www.swissmem.ch/de/wissen/technologien/kuenstliche-intelligenz/kuenstliche-intelligenz-aktuelle-anwendungen-und-herausforderungen-in-der-schweizer-industrie.html" target="_blank" rel="noopener">Swissmem, May 2024</a>) resolve through Innosuisse channels before cantonal facilitation is needed. Until those conditions are visibly met, the IHK president's pressure call — demographic Fachkraeftemangel now baked in, Berufsbildung as the strength to defend but Hochschulanbindung as the weakness — still argues for sequencing AI adoption inside the canton's dual-vocational architecture faster than the workforce drifts to Zurich, and for giving that sequencing question explicit budget weight in the 2027 plan rather than treating the federal answer as self-executing.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Energy transition: Rhine hydropower, solar build-out and grid bottlenecks</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">The Mantelerlass second package landed in operational form on 1 January 2026, and EKT now has to implement local electricity communities, minimum feed-in tariffs and storage net-charge refunds while Swissgrid runs a new single-price balancing mechanism. Axpo, which holds the concessions on the Rhine plants at Eglisau and Rheinau and is the financial source for the cantonal EKT-Energiestiftung, has flagged a coming winter Stromluecke. The canton's lever is innovation finance rather than generation build, and that lever is small relative to the scale of the change.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The second Mantelerlass package entered into force on 1 January 2026, introducing local electricity communities (LEG), minimum feed-in tariffs and storage net-charge refunds (<a href="https://www.admin.ch/de/nsb?id=104172" target="_blank" rel="noopener">Schweizerischer Bundesrat, February 2025</a>).</li>
+<li>ElCom reports on 31 March 2026 that supply security is short-term assured but storage-lake fill stands at 13 per cent of the 8.91 TWh total and gas storage in NW Europe is 18 per cent versus an 8-year average of 36 per cent (<a href="https://www.elcom.admin.ch/de/aktuelle-einschaetzung-versorgungssicherheit" target="_blank" rel="noopener">ElCom, March 2026</a>).</li>
+<li>From 1 January 2026 LEG enable local solar trade with a 40 per cent (legal maximum 60 per cent) discount on grid usage; DSOs may curtail up to 3 per cent of annual generation without compensation (<a href="https://www.swissolar.ch/de/news/detail/2026-was-gilt-neu-fuer-photovoltaikanlagen-80786" target="_blank" rel="noopener">Swissolar, January 2026</a>).</li>
+<li>Axpo reported adjusted EBIT of CHF 1,261 m for FY24/25, with production down 10 per cent to 32.4 TWh and the CEO warning of a winter Stromluecke; the firm plans roughly CHF 2 bn in Swiss energy infrastructure capex (<a href="https://www.axpo.com/ch/de/newsroom/medienmitteilungen/2025/axpo-erzielt-dank-klarer-strategie-erneut-gutes-jahresergebnis.html" target="_blank" rel="noopener">Axpo, December 2025</a>).</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>It is reasonable to argue that Thurgau's role in the Energiewende is structurally minor and over-scrutinised in this brief. EKT is a small cantonal utility, the Rhine concessions sit with Axpo and Swiss federal institutions, and the canton's investment lever (EKT-Energiestiftung pilots at Schlattingen, Kreuzlingen and elsewhere) is innovation-grant scale, not infrastructure scale (<a href="https://www.leaderdigital.ch/news/ekt-energiestiftung-unterstuetzt-vier-projekte-14577.html" target="_blank" rel="noopener">LEADER Digital, December 2025</a>). The serious decisions on the grid, the hydropower concessions and the alpine solar build-out are federal. The cantonal job is execution discipline, not strategy.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-5">
+<div class="cluster-header"><h3>5. OECD minimum tax, NFA and cantonal finances under pressure</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Four federal pressures stack on the cantonal balance sheet in the same window: the OECD Pillar 2 revenue line that Bern projected at CHF 1.6 bn (CHF 1.2 bn to cantons) is now politically fragile after the US Side-by-Side carve-out; the Entflechtung 27 process reopens the NFA architecture for the first time since 2008, with 14 task areas under review; EFAS locks cantons into 26.9 per cent of net OKP costs from 2028 and nursing care from 2032; and the 13th AHV pension drives BSV's reference-scenario AHV deficit to CHF 4.2 bn by 2035. Each is manageable in isolation, with its own buffer mechanisms and transition windows. The joint effect on Thurgau's medium-term financial plan is not yet modelled in public planning documents, and the canton's own 2024 AFP was built before the OECD Side-by-Side carve-out, before EFAS ordinance details, and before the Entflechtung 27 Zwischenbericht.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The Bundesrat planned from 2026 onward CHF 1.6 bn annual revenue from the national Erganzungssteuer, with 75 per cent (CHF 1.2 bn) flowing constitutionally to cantons and 25 per cent to Bund (<a href="https://www.efd.admin.ch/de/umsetzung-oecd-mindeststeuer-schweiz" target="_blank" rel="noopener">Eidgenoessisches Finanzdepartement, September 2024</a>).</li>
+<li>Avenir Suisse warns on 2 June 2026 that the OECD Side-by-Side package adopted early 2026 exempts US groups from the international Erganzungssteuer, weakening Swiss revenue projections and raising the question of whether Switzerland should join the deal (<a href="https://www.avenir-suisse.ch/blog-die-schweiz-auf-der-suche-nach-dem-kleinsten-uebel-bei-der-oecd-mindeststeuer/" target="_blank" rel="noopener">Avenir Suisse, June 2026</a>).</li>
+<li>The Entflechtung 27 Zwischenbericht of 24 April 2026 proposes a deepened review of task and financing responsibility in 14 task areas covering security, social affairs, transport and education, with the final report due end 2027 (<a href="https://www.efv.admin.ch/de/newnsb/drIhU-k4sSryUIxnrmO2A" target="_blank" rel="noopener">Eidgenoessische Finanzverwaltung, April 2026</a>).</li>
+<li>The BAG opened the EFAS ordinance consultation on 1 April 2026 (deadline 8 July 2026), confirming cantons finance 26.9 per cent of net OKP costs from 2028 and nursing care from 2032 (<a href="https://www.bag.admin.ch/de/kvg-anderung-einheitliche-finanzierung-der-leistungen" target="_blank" rel="noopener">BAG, April 2026</a>).</li>
+</ul>
+</div>
+
+<div class="report-figure">
+<h4>The stacked federal fiscal pressures on the cantonal budget, 2026 to 2032</h4>
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing four federal fiscal pressures on cantons by year of effective bite: OECD Pillar 2 (2026, fragile), Entflechtung 27 (2027 to 2028), EFAS (2028 to 2032) and AHV deficit (2030 to 2035).">
+  <line x1="60" y1="240" x2="700" y2="240" stroke="#1a237e" stroke-width="2"/>
+  <line x1="60" y1="50" x2="60" y2="240" stroke="#1a237e" stroke-width="2"/>
+  <rect x="100" y="160" width="100" height="80" fill="#0382FC" opacity="0.7"/>
+  <text x="150" y="155" fill="#1a237e" font-size="11" font-family="sans-serif" text-anchor="middle">OECD Pillar 2</text>
+  <text x="150" y="260" fill="#5a6478" font-size="10" font-family="sans-serif" text-anchor="middle">2026 (fragile)</text>
+  <text x="150" y="195" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">CHF 1.2 bn</text>
+  <text x="150" y="215" fill="#fff" font-size="9" font-family="sans-serif" text-anchor="middle">to cantons</text>
+  <rect x="240" y="120" width="100" height="120" fill="#f57c00" opacity="0.7"/>
+  <text x="290" y="115" fill="#1a237e" font-size="11" font-family="sans-serif" text-anchor="middle">Entflechtung 27</text>
+  <text x="290" y="260" fill="#5a6478" font-size="10" font-family="sans-serif" text-anchor="middle">2027-2028</text>
+  <text x="290" y="170" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">14 areas</text>
+  <text x="290" y="190" fill="#fff" font-size="9" font-family="sans-serif" text-anchor="middle">reopened</text>
+  <rect x="380" y="80" width="100" height="160" fill="#c62828" opacity="0.7"/>
+  <text x="430" y="75" fill="#1a237e" font-size="11" font-family="sans-serif" text-anchor="middle">EFAS</text>
+  <text x="430" y="260" fill="#5a6478" font-size="10" font-family="sans-serif" text-anchor="middle">2028 onward</text>
+  <text x="430" y="135" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">26.9%</text>
+  <text x="430" y="155" fill="#fff" font-size="9" font-family="sans-serif" text-anchor="middle">of net OKP</text>
+  <rect x="520" y="60" width="100" height="180" fill="#1a237e" opacity="0.8"/>
+  <text x="570" y="55" fill="#1a237e" font-size="11" font-family="sans-serif" text-anchor="middle">AHV deficit</text>
+  <text x="570" y="260" fill="#5a6478" font-size="10" font-family="sans-serif" text-anchor="middle">2030-2035</text>
+  <text x="570" y="120" fill="#fff" font-size="11" font-family="sans-serif" text-anchor="middle" font-weight="bold">CHF 4.2 bn</text>
+  <text x="570" y="140" fill="#fff" font-size="9" font-family="sans-serif" text-anchor="middle">by 2035</text>
+  <text x="60" y="30" fill="#1a237e" font-size="13" font-family="sans-serif" font-weight="bold">Four federal pressures landing on cantons in the same window</text>
+  <text x="60" y="45" fill="#5a6478" font-size="10" font-family="sans-serif">Visual heights indicate cantonal exposure scale, not directly comparable units</text>
+</svg>
+<p class="figure-caption">Sources: <a href="https://www.efd.admin.ch/de/umsetzung-oecd-mindeststeuer-schweiz" target="_blank" rel="noopener">EFD (Sept 2024)</a>, <a href="https://www.efv.admin.ch/de/newnsb/drIhU-k4sSryUIxnrmO2A" target="_blank" rel="noopener">EFV (Apr 2026)</a>, <a href="https://www.bag.admin.ch/de/kvg-anderung-einheitliche-finanzierung-der-leistungen" target="_blank" rel="noopener">BAG (Apr 2026)</a>, <a href="https://www.admin.ch/de/newnsb/NQuDPHrPbIAM_QwARhkIy" target="_blank" rel="noopener">BSV (Aug 2025)</a>.</p>
+</div>
+
+<div class="weak-signals">
+<h4>Weak signals to watch</h4>
+<ul>
+<li><span class="weak-signal-marker">Signal:</span> KPMG reports the average Swiss corporate tax rate fell from 14.6 per cent to 14.4 per cent in 2025, but Geneva, Vaud and Basel-Stadt are raising rates toward the 15 per cent OECD floor from 2026 (<a href="https://kpmg.com/ch/en/media/press-releases/2025/05/clarity-swiss-taxes.html" target="_blank" rel="noopener">KPMG Switzerland, May 2025</a>). Gains weight if Zug or Schwyz announce comparable adjustments.</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>It is plausible the OECD-NFA-EFAS-AHV stack is overstated when read as a 'cumulative bite'. Each file has its own buffer mechanism: the KdK confirms NFA disparities have widened at the poles but narrowed in the middle band where Thurgau sits, the STAF transition payments run to 2030 and the Haerteausgleich to 2034 (<a href="https://kdk.ch/themen/finanzausgleich-und-aufgabenteilung" target="_blank" rel="noopener">KdK, April 2026</a>); the EFAS savings potential is up to CHF 440 m per year nationally; and OECD Pillar 2 still produces some revenue even under the Side-by-Side carve-out. KPMG's data also shows the average Swiss corporate rate has only moved 0.2 percentage points in a year, suggesting tax-competition dynamics have not yet shifted dramatically against mid-tax cantons like Thurgau. A measured reading is that the canton's reserves can absorb 6 to 12 months of any one slippage; the prudence case rests on simultaneity, not severity, which is exactly why a stacked stress-test before the 2027 budget vote is the right hedge.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a>, <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-horizon" id="cluster-6">
+<div class="cluster-header"><h3>6. Population growth, housing and commuter flows</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">Thurgau crossed 300,000 residents at end-2025 but the underlying growth curve is flattening and the age structure has tipped: over-65s now outnumber under-20s for the first time. The canton's role as Zurich's affordability valve is endorsed by UBS Real Estate Focus 2026 but the valve is narrowing as the Swiss vacancy rate fell to 1.00 per cent and construction productivity is suppressed by regulation and approval-timeline drag. The Raumkonzept Schweiz update gives the cantonal-cross-border planning frame national legitimacy, naming the International Bodensee Region as one of twelve federally recognised Handlungsraeume. Net effect: extensive growth is becoming intensive demographic management, and the canton's housing, transport, integration and health-services planning lines need to be sized for an older population that grows more slowly but consumes more services per capita.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>Thurgau crossed 300,097 residents at end-2025 with annual growth slowing to plus 1.1 per cent (versus plus 1.3 per cent in 2024 and plus 1.4 per cent in 2023); over-65s at 60,450 now slightly outnumber under-20s at 60,300 (<a href="https://www.blick.ch/schweiz/ostschweiz/thurgau/bevoelkerungswachstum-der-thurgau-knackt-die-marke-von-300000-einwohnern-id21755842.html" target="_blank" rel="noopener">Blick Keystone-SDA, March 2026</a>).</li>
+<li>The Swiss residential vacancy rate fell to 1.00 per cent on 1 June 2025 (fifth annual decline), with Zurich at 0.48 per cent; Thurgau's roughly 1.4 per cent positions it as the affordability valve for Greater Zurich (<a href="https://www.bwo.admin.ch/de/newnsb/4EOYzS4sVwTFlKxWvUEiR" target="_blank" rel="noopener">Bundesamt fuer Wohnungswesen, September 2025</a>).</li>
+<li>Bund, cantons, cities and communes adopted the updated Raumkonzept Schweiz on 30 March 2026, formally recognising the International Lake Constance Region as one of twelve Handlungsraeume (<a href="https://www.sg.ch/news/sgch_allgemein/2026/03/aktualisiertes-raumkonzept-schweiz-staerkt-die-rolle-des-interna.html" target="_blank" rel="noopener">Kanton St.Gallen Staatskanzlei, March 2026</a>).</li>
+<li>Raiffeisen Economic Research notes on 21 May 2026 that net foreign immigration fell roughly 10 per cent year-on-year in early 2026 but the Angebotsquote remains very low because regulation and construction costs are now the binding constraint (<a href="https://www.raiffeisen.ch/rch/de/wissen/wohnen/aktuelle-studie.html" target="_blank" rel="noopener">Raiffeisen Schweiz, May 2026</a>).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Weak signals to watch</h4>
+<ul>
+<li><span class="weak-signal-marker">Signal:</span> Engel &amp; Voelkers reports Konstanz apartment asking rents at 17.69 EUR/m2 in Q2 2026 (up from 17.47 EUR/m2 a year earlier), explicitly citing 'Naehe zur Schweiz' as the persistent demand driver (<a href="https://www.engelvoelkers.com/de-de/mietspiegel/baden-wuerttemberg/konstanz/" target="_blank" rel="noopener">Engel &amp; Voelkers, June 2026</a>). Gains weight if Konstanz-Kreuzlingen cross-border housing flows show measurable redirection in the SEM data.</li>
+</ul>
+</div>
+
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>It is possible to read the demographic tipping point as good news, not pressure. Slower extensive growth eases the canton's housing-supply problem, ageing residents are less migratory than younger ones and so labour-market friction at the Zurich border may ease, and the 2031 to 2035 horizon for the BSV deficits is far enough out that two intervening federal reforms (12 AHV reform packages have been debated since 1990) could change the trajectory. The Bilanz-relayed UBS view that Thurgau remains affordable for normal earners is itself a competitive advantage Zurich cannot match (<a href="https://www.bilanz.ch/invest/immobilien/ubs-real-estate-focus-2026-wo-das-eigenheim-bezahlbar-ist/k38xtsd" target="_blank" rel="noopener">Bilanz on UBS, March 2026</a>).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note"><em>Four decisions turn this cycle's signals into the 2026 to 2028 Legislaturplanung. Each names the move, a horizon and a decision posture.</em></p>
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Take a Regierungsrat position on Bilaterale III and operationalise the cantonal participation right</h4>
+<p>The Bundesrat has both dispatched the package to Parliament and codified cantonal participation through the 22 April 2026 Mitwirkungsvereinbarung. Thurgau is materially exposed to Grenzgaenger flows, Bodensee water and cross-border rail, which means silence amounts to a position. The Regierungsrat should publish a clear position by end of Q3 2026 and assign a senior Staatskanzlei lead to the KdK working channel on dynamic legal adoption so the canton's voice is structured, not occasional.</p>
+<p class="si-action">Action: by 30 September 2026, the Staatskanzlei tables a Regierungsrat position paper on Bilaterale III with named lead and KdK-channel arrangement.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a> and Theme <a href="#cluster-5" class="xref">5</a>.</span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Bring the Bodensee, energy and demographic files under one coordination roof</h4>
+<p>The Raumkonzept Schweiz update treats the International Bodensee Region as a single Handlungsraum, but the canton's responses sit in DBU (energy, infrastructure), DIV (economy, cross-border) and the Staatskanzlei (federal interface). The S-Bahn coordination work with St.Gallen and Vorarlberg through 2026 is the natural test case. A standing Regierungsrat ausschuss with the four named files, reporting quarterly, would avoid repeated re-discovery and align the canton's voice in IBK, the KdK and Bund consultations.</p>
+<p class="si-action">Action: by 31 December 2026, the Staatskanzlei proposes a Bodensee-Energie-Demografie coordination structure for Regierungsrat approval, with the first quarterly review scheduled Q1 2027.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a>, Theme <a href="#cluster-4" class="xref">4</a> and Theme <a href="#cluster-6" class="xref">6</a>.</span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Stress-test the canton's Aufgaben- und Finanzplan against the EFAS plus OECD plus AHV stack</h4>
+<p>Each of the four federal fiscal pressures (Pillar 2 fragility, NFA reopening, EFAS 26.9 per cent share from 2028, BSV's 13th-AHV deficit) is in the public domain. Their joint effect on Thurgau's reserves and on the 2027 budget vote is not yet modelled in the canton's published planning. The DFS should commission a stacked-scenario analysis (best, central, adverse) with explicit reserve drawdown paths before the budget enters Grosser Rat. The output is not a forecast; it is a stress-test the budget process can defend.</p>
+<p class="si-action">Action: by 30 June 2027, the DFS publishes a stacked-pressures financial stress-test alongside the AFP, with three explicit scenarios for the OECD, EFAS, NFA and AHV files.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-5" class="xref">5</a> and Theme <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Position the cantonal AI plus Berufsbildung lever before the federal architecture hardens</h4>
+<p>SBFI has launched the AI Business Specialist Fachausweis, KOF flagged AI productivity as an upside risk, and the IHK Thurgau president has named Hochschulanbindung as the canton's standing weakness. The Berufsbildungsamt and DEK should track adoption of the new federal AI qualification inside Thurgau industry and consider a cantonal facilitation programme (matched funding for KMU AI apprentice cohorts, joint ZHAW/FH OST modules) over the next 24 months. The decision posture is Monitor rather than Decide because the federal lever may suffice; the canton should not over-build a parallel architecture.</p>
+<p class="si-action">Action: by 31 March 2027, the Berufsbildungsamt reports to the Regierungsrat on adoption of the SBFI AI Business Specialist Fachausweis in Thurgau and on cantonal facilitation options.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-3" class="xref">3</a>.</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two uncertainties matter more than any others for Thurgau in the 2 to 5 year horizon: the pace at which the EU-CH framework renegotiation lands, and the weight of federal redistributive pressure (OECD plus NFA plus EFAS) on the cantonal balance sheet. The vertical axis is the pace of EU-CH framework renegotiation (Fast at the top, Slow at the bottom). The horizontal axis is federal redistributive pressure on Thurgau finances (Light on the left, Heavy on the right). <em>The four scenarios below are planning aids, not forecasts.</em></p>
+
+<div class="scenario-matrix-axed">
+<div class="axis-name-h">Federal redistributive pressure (Light to Heavy)</div>
+<div class="axis-name-v">Pace of EU-CH framework renegotiation (Fast at top, Slow at bottom)</div>
+<div class="matrix-frame">
+<div class="corner-label corner-tl">Fast &middot; Light</div>
+<div class="corner-label corner-tr">Fast &middot; Heavy</div>
+<div class="corner-label corner-bl">Slow &middot; Light</div>
+<div class="corner-label corner-br">Slow &middot; Heavy</div>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Bodensee-Republik</h4>
+<p>Bilaterale III ratifies on time, the Mitwirkungsvereinbarung becomes the working norm, and the OECD plus EFAS bite proves manageable through staggered implementation. Thurgau can lead regional governance in IBK, push cross-border S-Bahn integration toward the December 2026 Bregenz milestone, and use the demographic dividend window before ageing tightens. The canton's posture is confident and outward-facing; the bottleneck is execution capacity in the Staatskanzlei and Generalsekretariate, not strategy.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Bilaterale III referendum passes by Q4 2027; KdK reports cantonal participation working in two or more Bilaterale III dossiers by mid-2028; cantonal reserves stable on the 2027 budget.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Integration trotz Mehrbelastung</h4>
+<p>Bilaterale III lands but the OECD Pillar 2 plus NFA reopening plus EFAS stack eats into cantonal fiscal room. Cross-border integration progresses on schedule but the canton has to prioritise: which Bodensee dossiers, which energy projects, which Berufsbildung commitments. Service-delivery prioritisation gets sharper. The Regierungsrat's challenge is to defend Bilaterale-III political capital against the daily fiscal squeeze, and to keep the long EU file from being collateral damage to short fiscal pain.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Pillar 2 receipts come in 20 per cent or more below 2024 projection by FY2027; EFAS 2028 implementation confirmed on schedule; Grosser Rat blocks two or more line items in the 2027 budget.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Sonderfall verschaerft</h4>
+<p>Bilaterale III stalls or is rejected at referendum, but the OECD-NFA-EFAS stack proves milder than feared. Thurgau retains broad cantonal autonomy and fiscal headroom but cross-border friction remains unresolved: Grenzgaenger administration gets messier, Konstanz-side wage and rent pressure continues, cross-border rail coordination relies on continued bilateral goodwill rather than legal architecture. The canton has to lobby Bern harder for federal mediation and may need to take more bilateral initiative with Baden-Wuerttemberg and Vorarlberg through IBK.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Bilaterale III referendum fails or is withdrawn by 2028; OECD Side-by-Side becomes Swiss policy and revenue holds; EFAS slips by 12 months or more; IBK 2050 study calls for stronger bilateral fall-back arrangements.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Doppelter Druck</h4>
+<p>The worst case for the canton: Bilaterale III slows or fails AND the federal redistributive stack bites simultaneously, AND the demographic cost-curve from the BSV reference scenario accelerates. The canton faces border friction, fiscal compression and ageing-cost pressure at once. The Regierungsrat agenda becomes triage; the 2026 to 2028 Legislaturplanung is rewritten under emergency assumptions; reserves are drawn down sooner than the 2024 AFP envisaged. This is the scenario for which SI 3's stress-test exists.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Bilaterale III stalls or fails (per Sonderfall) AND EFAS confirmed on schedule AND BSV revises AHV deficit upward at the next quinquennial update; cantonal reserves fall by 20 per cent or more on the 2027 budget.</div>
+</div>
+
+</div>
+</div>
+</div></div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item">
+<h4>A near-term collapse in the Swiss-EU relationship</h4>
+<p>Bilaterale III may struggle in committee or at referendum, but a full breakdown of the Swiss-EU relationship in the 2 to 5 year window is not the operating assumption of this cycle. The political costs to both sides remain prohibitive and the institutional momentum behind staggered renegotiation is intact. Planning for a Swexit-style outcome would distort the canton's posture on every other file.</p>
+<p class="reinstatement">Reinstate if: the Bundesversammlung rejects the package on substantive grounds before referendum, or the EU formally suspends parallel agreements.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A federal AI regulation that pre-empts cantonal Berufsbildung action</h4>
+<p>Swiss AI policy is moving through the dual-vocational and sectoral routes (SBFI, KOF, Swissmem) rather than through horizontal regulation on the EU AI Act model. The plausibility of a federal AI act that would constrain cantonal facilitation programmes is low inside the cycle horizon, and SI 4 is sized accordingly.</p>
+<p class="reinstatement">Reinstate if: the Bundesrat opens a horizontal AI law consultation, or the EU AI Act's extraterritorial reach forces a Swiss federal response.</p>
+</div>
+
+<div class="exclusion-item">
+<h4>A sustained Bodensee water-quality crisis requiring emergency cantonal funding</h4>
+<p>The Quagga mussel colonisation is slow and largely irreversible, the IGKB has working coordination, and Bodensee-Wasserversorgung treatment infrastructure is sized for the change. A sudden water-quality crisis severe enough to require emergency cantonal funding outside the existing IGKB and BAFU channels is not in the plausible-event set for the cycle.</p>
+<p class="reinstatement">Reinstate if: a pollution incident exceeds IGKB response capacity, or if Sipplingen treatment costs rise by 30 per cent or more in a single year.</p>
+</div></div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>If the canton has to choose two of the six pressures to put political capital behind in the next 18 months, which two, and why those rather than the others?</li>
+<li>Is the canton's role in Bilaterale III more usefully expressed through KdK coordination or through a distinct Thurgau position, and what is the cost of getting that choice wrong?</li>
+<li>The DFS's 2024 multi-year plan was built before EFAS, Entflechtung 27 and the OECD Side-by-Side carve-out were known. At what point does the canton need to rewrite it rather than adjust it at the margin?</li>
+<li>Should Spital Thurgau AG's capacity plan be reviewed on EFAS plus TARDOC plus demographic assumptions together, or kept on its current operational baseline until the EFAS consultation closes?</li>
+<li>If the SBFI AI Business Specialist Fachausweis proves to be the federal answer Thurgau industry actually adopts, what does the cantonal Berufsbildungsamt stop doing in order to fund deeper engagement on it?</li>
+</ol></div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 41 verified sources, gathered under a soft 6-month window (publications from December 2025 onward), with 10 structural anchors in the six-to-twelve-month band documenting federal frameworks (Mantelerlass, OECD Pillar 2, Stromgesetz, Swissgrid balancing reform, EU cider standard, Konstanz timetable change, IGKB water assessment, Agroscope succession data, KPMG tax comparator, EKT-Energiestiftung pilots) that condition the cycle's findings.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Bodensee region: cross-border governance of economy, transport and water</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.admin.ch/de/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf" target="_blank" rel="noopener">Schweizerischer Bundesrat: Bilaterale III Botschaft</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Bundesrat dispatched Bilaterale III package (94 EU legal acts, 36 federal laws) to Parliament.</td></tr>
+<tr class="tier-1"><td><a href="https://www.admin.ch/de/newnsb/R-5hVuwjTiDwERRNxS0tY" target="_blank" rel="noopener">Schweizerischer Bundesrat: Mitwirkungsvereinbarung Bund-Kantone</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>Cantons gain formal participation right in dynamic EU legal adoption under the package.</td></tr>
+<tr class="tier-2"><td><a href="https://www.bodenseekonferenz.org/35856/Die-IBK/IBK-Vorsitz-2026/index.aspx" target="_blank" rel="noopener">Internationale Bodensee-Konferenz: IBK-Vorsitz 2026</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>Zurich holds 2026 IBK presidency; 26 June 2026 Regierungschefkonferenz and IBK 2050 study.</td></tr>
+<tr class="tier-1"><td><a href="https://www.igkb.org/die-ikgb/news-detail/klimawandel-beeinflusst-bodensee-wasserspiegel-14-05-2025" target="_blank" rel="noopener">Internationale Gewaesserschutzkommission fuer den Bodensee: Klimawandel beeinflusst Bodensee-Wasserspiegel</a></td><td class="tier-1">Tier 1</td><td>May 2025</td><td>Climate signal on Bodensee water levels and Quagga mussel densities (structural anchor).</td></tr>
+<tr class="tier-3"><td><a href="https://www.euwid-wasser.de/news/wirtschaft/quagga-muschel-am-bodensee-waechst-nicht-mehr-exponentiell-080126/" target="_blank" rel="noopener">EUWID Europaeischer Wirtschaftsdienst: Quagga-Muschel waechst nicht mehr exponentiell</a></td><td class="tier-3">Tier 3</td><td>Jan 2026</td><td>Eawag's Spaak reports lake-bed colonisation complete to 30 m depth.</td></tr>
+<tr class="tier-4"><td><a href="https://www.thurbo.ch/erkunden/ausblick/fahrplanwechsel/" target="_blank" rel="noopener">Thurbo AG: Fahrplanwechsel S5 und S14</a></td><td class="tier-4">Tier 4</td><td>Dec 2025</td><td>S5 half-hourly cadence from Dec 2025; hourly through-running to Bregenz from Dec 2026 (structural anchor).</td></tr>
+<tr class="tier-4"><td><a href="https://www.engelvoelkers.com/de-de/mietspiegel/baden-wuerttemberg/konstanz/" target="_blank" rel="noopener">Engel &amp; Voelkers: Mietspiegel Konstanz 2026</a></td><td class="tier-4">Tier 4</td><td>Jun 2026</td><td>Konstanz asking rents at 17.69 EUR/m2 in Q2 2026, citing 'Naehe zur Schweiz' as demand driver.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 2: Mostindien under pressure: agriculture, water and climate</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.blw.admin.ch/de/newnsb/6lmKbSWzDwQZM9AeZnB7S" target="_blank" rel="noopener">Bundesamt fuer Landwirtschaft: Agrarpolitik 2030+</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>AP30+ design phase launched; consultation Q3 2026, funding at 2029 financial-plan level.</td></tr>
+<tr class="tier-2"><td><a href="https://www.sbv-usp.ch/de/agrarpolitik-2030-muss-ernaehrungssicherheit-staerken-und-bauernfamilien-perspektiven-geben" target="_blank" rel="noopener">Schweizer Bauernverband: Agrarpolitik 2030 Position</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>SBV demands food-security priority (42 per cent self-sufficiency 2024), 12-year planning stability.</td></tr>
+<tr class="tier-2"><td><a href="https://www.agrarforschungschweiz.ch/en/2025/04/swiss-agriculture-is-ageing-what-does-this-mean-for-the-future/" target="_blank" rel="noopener">Agroscope: Swiss Agriculture is Ageing</a></td><td class="tier-2">Tier 2</td><td>Apr 2025</td><td>17 per cent of family farms face succession within five years; structural anchor.</td></tr>
+<tr class="tier-3"><td><a href="https://www.bauernzeitung.ch/artikel/markt-preise/obstverband-kein-ernteausgleich-bei-mostobst-552595" target="_blank" rel="noopener">BauernZeitung: Obstverband Kein Ernteausgleich bei Mostobst</a></td><td class="tier-3">Tier 3</td><td>Sep 2025</td><td>2025 Mostobst harvest low (57,000 t apples + 3,200 t pears); no Ernteausgleich triggered.</td></tr>
+<tr class="tier-2"><td><a href="https://www.swissfruit.ch/de/jahresbericht-2025/" target="_blank" rel="noopener">Schweizer Obstverband: Jahresbericht 2025</a></td><td class="tier-2">Tier 2</td><td>Feb 2026</td><td>Industry-association annual baseline for Swiss fruit production and Mostobst channels.</td></tr>
+<tr class="tier-3"><td><a href="https://www.20min.ch/story/thurgau-wegen-trockenheit-vorlaeufig-gilt-ein-wasserentnahmeverbot-103369567" target="_blank" rel="noopener">20 Minuten: Thurgau Wasserentnahmeverbot 2025</a></td><td class="tier-3">Tier 3</td><td>Jun 2025</td><td>Cantonal surface-water extraction ban from 27 June 2025, affecting roughly 13 per cent of agricultural water.</td></tr>
+<tr class="tier-3"><td><a href="https://cider-review.com/2025/05/08/editorial-eu-cider-definition-creeping-closer/" target="_blank" rel="noopener">Cider Review: EU cider definition creeping closer</a></td><td class="tier-3">Tier 3</td><td>May 2025</td><td>EU GREX 50 per cent juice cider standard; Germany's national 50 per cent definition for 2026.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 3: Industry, AI and the dual-vocational system as a competitiveness question</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-2"><td><a href="https://kof.ethz.ch/news-und-veranstaltungen/medien/medienmitteilungen/2026/06/kof-konjunkturprognose-sommer-2026-erdoelpreisschock-bremst-schweizer-wirtschaft.html" target="_blank" rel="noopener">KOF ETH Zuerich: Konjunkturprognose Sommer 2026</a></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>2026 Swiss GDP forecast cut to 0.8 per cent; Maschinen- and Uhrenindustrie depressed.</td></tr>
+<tr class="tier-1"><td><a href="https://www.admin.ch/de/newnsb/vjhHyL-fDL4W8eGwVKWZV" target="_blank" rel="noopener">SECO: Konjunkturprognose Maerz 2026</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Federal expert forecast 1.0 per cent Swiss growth 2026; unemployment rising to 3.0 per cent.</td></tr>
+<tr class="tier-1"><td><a href="https://www.sbfi.admin.ch/de/newnsb/99wjr4Bk83kLHmHW7DhL5" target="_blank" rel="noopener">SBFI: 43 neue und revidierte Berufe</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>New AI Business Specialist Fachausweis integrates AI into dual-vocational architecture.</td></tr>
+<tr class="tier-2"><td><a href="https://www.swissmem.ch/de/wissen/technologien/kuenstliche-intelligenz/kuenstliche-intelligenz-aktuelle-anwendungen-und-herausforderungen-in-der-schweizer-industrie.html" target="_blank" rel="noopener">Swissmem: KI in der Schweizer Industrie</a></td><td class="tier-2">Tier 2</td><td>May 2024</td><td>Industry-association KMU AI adoption framing (structural anchor).</td></tr>
+<tr class="tier-3"><td><a href="https://www.leaderdigital.ch/hauptausgaben/mai-2026-646/der-wirtschaftsraum-thurgau-im-realitaetscheck-15561.html" target="_blank" rel="noopener">LEADER Digital: Interview Kris Vietze IHK Thurgau</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>IHK Thurgau president names structural Fachkraeftemangel and Hochschulanbindung as canton's weakness.</td></tr>
+<tr class="tier-3"><td><a href="https://www.watson.ch/wirtschaft/schweiz/625135669-stadler-rail-2025-wieder-mit-umsatz-und-gewinnsteigerung" target="_blank" rel="noopener">Watson SDA-Keystone: Stadler Rail 2025 Jahresergebnis</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>Stadler Rail 2025 CHF 3.7 bn turnover; CHF 32.3 bn order book; 1,000 new jobs planned in 2026.</td></tr>
+<tr class="tier-4"><td><a href="https://annualreport.buhlergroup.com/reports/en_25/home/economy/group-report.html" target="_blank" rel="noopener">Buehler Group: Annual Report 2025 Group Report</a></td><td class="tier-4">Tier 4</td><td>Feb 2026</td><td>Buehler 67 per cent Swiss apprenticeship retention; AI-embedded products as growth contributors.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 4: Energy transition: Rhine hydropower, solar build-out and grid bottlenecks</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.admin.ch/de/nsb?id=104172" target="_blank" rel="noopener">Schweizerischer Bundesrat / UVEK: Mantelerlass zweites Paket</a></td><td class="tier-1">Tier 1</td><td>Feb 2025</td><td>Mantelerlass second package in force 1 January 2026: LEG, minimum tariffs, storage refunds (structural anchor).</td></tr>
+<tr class="tier-1"><td><a href="https://www.elcom.admin.ch/de/aktuelle-einschaetzung-versorgungssicherheit" target="_blank" rel="noopener">ElCom: Aktuelle Einschaetzung Versorgungssicherheit</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Storage-lake fill 13 per cent of 8.91 TWh total; gas storage NW Europe 18 per cent vs 36 per cent average.</td></tr>
+<tr class="tier-1"><td><a href="https://www.swissgrid.ch/en/home/newsroom/newsfeed/20250317-01.html" target="_blank" rel="noopener">Swissgrid: 2026 tariffs and solidarised costs</a></td><td class="tier-1">Tier 1</td><td>Mar 2025</td><td>2026 transmission tariffs fall; congestion-management costs rise (structural anchor).</td></tr>
+<tr class="tier-1"><td><a href="https://www.swissgrid.ch/de/home/newsroom/newsfeed/20250328-01.html" target="_blank" rel="noopener">Swissgrid: Ein-Preis-Mechanismus Ausgleichsenergie 2026</a></td><td class="tier-1">Tier 1</td><td>Mar 2025</td><td>Single-price mechanism for balancing energy from 1 January 2026 (structural anchor).</td></tr>
+<tr class="tier-2"><td><a href="https://www.swissolar.ch/de/news/detail/2026-was-gilt-neu-fuer-photovoltaikanlagen-80786" target="_blank" rel="noopener">Swissolar: 2026 PV regulatory package</a></td><td class="tier-2">Tier 2</td><td>Jan 2026</td><td>LEG enable 40 per cent (max 60 per cent) grid-charge discount; DSO 3 per cent free-curtailment right.</td></tr>
+<tr class="tier-4"><td><a href="https://www.axpo.com/ch/de/newsroom/medienmitteilungen/2025/axpo-erzielt-dank-klarer-strategie-erneut-gutes-jahresergebnis.html" target="_blank" rel="noopener">Axpo Holding: FY24/25 Jahresabschluss</a></td><td class="tier-4">Tier 4</td><td>Dec 2025</td><td>Axpo EBIT CHF 1,261 m; production minus 10 per cent; CEO warns of winter Stromluecke (structural anchor).</td></tr>
+<tr class="tier-3"><td><a href="https://www.leaderdigital.ch/news/ekt-energiestiftung-unterstuetzt-vier-projekte-14577.html" target="_blank" rel="noopener">LEADER Digital: EKT-Energiestiftung Projekte</a></td><td class="tier-3">Tier 3</td><td>Dec 2025</td><td>EKT-Energiestiftung pilots from Axpo dividend; Thurgau geothermal, biogas, river-heat (structural anchor).</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 5: OECD minimum tax, NFA and cantonal finances under pressure</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.efd.admin.ch/de/umsetzung-oecd-mindeststeuer-schweiz" target="_blank" rel="noopener">Eidgenoessisches Finanzdepartement: OECD-Mindeststeuer Dossier</a></td><td class="tier-1">Tier 1</td><td>Sep 2024</td><td>Bund plans CHF 1.6 bn revenue from 2026; 75 per cent flows to cantons (structural anchor).</td></tr>
+<tr class="tier-1"><td><a href="https://www.efv.admin.ch/de/newnsb/drIhU-k4sSryUIxnrmO2A" target="_blank" rel="noopener">Eidgenoessische Finanzverwaltung: Entflechtung 27 Zwischenbericht</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>First comprehensive NFA federalism revision since 2008; 14 areas reopened.</td></tr>
+<tr class="tier-2"><td><a href="https://kdk.ch/themen/finanzausgleich-und-aufgabenteilung" target="_blank" rel="noopener">Konferenz der Kantonsregierungen: Finanzausgleich Themenseite</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>NFA disparities widening at poles; STAF to 2030; Haerteausgleich to 2034.</td></tr>
+<tr class="tier-1"><td><a href="https://www.bag.admin.ch/de/kvg-anderung-einheitliche-finanzierung-der-leistungen" target="_blank" rel="noopener">Bundesamt fuer Gesundheit: EFAS Vernehmlassung</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>Cantons finance 26.9 per cent of net OKP costs from 2028; nursing care from 2032.</td></tr>
+<tr class="tier-1"><td><a href="https://www.admin.ch/de/newnsb/NQuDPHrPbIAM_QwARhkIy" target="_blank" rel="noopener">BSV / Bundesrat: AHV und IV Finanzperspektiven</a></td><td class="tier-1">Tier 1</td><td>Aug 2025</td><td>AHV deficit reaches CHF 4.2 bn by 2035 (reference scenario); IV exhausted in ~15 years.</td></tr>
+<tr class="tier-2"><td><a href="https://kpmg.com/ch/en/media/press-releases/2025/05/clarity-swiss-taxes.html" target="_blank" rel="noopener">KPMG Switzerland: Clarity on Swiss Taxes 2025</a></td><td class="tier-2">Tier 2</td><td>May 2025</td><td>Swiss average corporate rate fell to 14.4 per cent in 2025; low-tax cantons raising rates.</td></tr>
+<tr class="tier-2"><td><a href="https://www.avenir-suisse.ch/blog-die-schweiz-auf-der-suche-nach-dem-kleinsten-uebel-bei-der-oecd-mindeststeuer/" target="_blank" rel="noopener">Avenir Suisse: OECD-Mindeststeuer Side-by-Side</a></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>US Side-by-Side carve-out weakens Swiss Pillar 2 revenue projection and raises join-or-not question.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 6: Population growth, housing and commuter flows</h4>
+<table>
+<colgroup><col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim"></colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-3"><td><a href="https://www.blick.ch/schweiz/ostschweiz/thurgau/bevoelkerungswachstum-der-thurgau-knackt-die-marke-von-300000-einwohnern-id21755842.html" target="_blank" rel="noopener">Blick Keystone-SDA: Thurgau passes 300,000</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>Thurgau 300,097 residents end-2025; growth plus 1.1 per cent; over-65s outnumber under-20s.</td></tr>
+<tr class="tier-1"><td><a href="https://www.bwo.admin.ch/de/newnsb/4EOYzS4sVwTFlKxWvUEiR" target="_blank" rel="noopener">Bundesamt fuer Wohnungswesen: Leerwohnungsziffer 2025</a></td><td class="tier-1">Tier 1</td><td>Sep 2025</td><td>Swiss vacancy 1.00 per cent on 1 June 2025; Zurich 0.48 per cent (structural anchor).</td></tr>
+<tr class="tier-1"><td><a href="https://www.sem.admin.ch/sem/de/home/publiservice/statistik/auslaenderstatistik/archiv/2025/12.html" target="_blank" rel="noopener">SEM: Auslaenderstatistik Dezember 2025</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>Per-canton stock, immigration and Grenzgaenger permits driving Thurgau population growth.</td></tr>
+<tr class="tier-1"><td><a href="https://www.sg.ch/news/sgch_allgemein/2026/03/aktualisiertes-raumkonzept-schweiz-staerkt-die-rolle-des-interna.html" target="_blank" rel="noopener">Kanton St. Gallen Staatskanzlei: Raumkonzept Schweiz Bodensee</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>International Bodensee Region recognised as one of twelve Handlungsraeume.</td></tr>
+<tr class="tier-2"><td><a href="https://www.raiffeisen.ch/rch/de/wissen/wohnen/aktuelle-studie.html" target="_blank" rel="noopener">Raiffeisen Schweiz: Immobilienstudie 2Q 2026</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Migration minus 10 per cent YoY but vacancy stays low; regulation is the binding constraint.</td></tr>
+<tr class="tier-3"><td><a href="https://www.bilanz.ch/invest/immobilien/ubs-real-estate-focus-2026-wo-das-eigenheim-bezahlbar-ist/k38xtsd" target="_blank" rel="noopener">Bilanz on UBS Real Estate Focus 2026</a></td><td class="tier-3">Tier 3</td><td>Mar 2026</td><td>Thurgau named one of few German-Swiss regions where home ownership remains affordable for normal earners.</td></tr>
+</tbody>
+</table></div>
+
+
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim in the briefing that goes beyond what a cited source literally states, so the Regierungsrat reader can see where analyst judgment is loaded into a sentence that otherwise reads as fact.</p>
+
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>None. This is the inaugural cycle for Kanton Thurgau and the briefing does not draw on a prior cycle. The next cycle will record continuity claims here.</p>
+
+<h4>Superlatives used</h4>
+<p>The Executive Synthesis describes the federal-cantonal interface as "the spine of this cycle"; this is analyst characterisation, not a phrase used by any single source. Theme 6 says "ageing now outpacing growth", which paraphrases the Blick-relayed Statistik TG release; the source data (60,450 over-65s vs 60,300 under-20s) supports the claim. SI 1 says "silence is itself a position"; this is analyst characterisation. Theme 5's framing that the four federal pressures land "in the same window" is an analyst synthesis claim (see below). No "of the decade", "of all time", "unprecedented" or "historic" is used.</p>
+
+<h4>Analytical synthesis claims</h4>
+<p>The cycle's central thesis (six largely independent pressures converging in the same Legislaturplanung window, with cumulative effect on cantonal reserves and agenda) is an analyst synthesis. No single source asserts the joint reading; the inference draws on the EFV Entflechtung 27 paper, the BAG EFAS consultation, the Avenir Suisse OECD analysis, the BSV AHV reference scenario, the Statistik TG demographic release and the Bilaterale III package together. The "Doppelter Druck" scenario combines weak signals from Theme 1 (Bilaterale III referendum risk), Theme 5 (OECD plus EFAS plus AHV) and Theme 6 (BSV reference scenario) into a joint adverse case; this combination is the briefing's reading, not a forecast from any one source. The argument in Theme 3 that the SBFI AI Business Specialist Fachausweis "embeds AI absorption inside the dual-vocational architecture rather than alongside it" is faithful summary of the SBFI February 2026 press release but the inferential framing about Thurgau industry adoption is analyst judgment supported by the IHK Vietze interview and the Buehler annual report. The Theme 4 reading that the canton's lever is "innovation finance rather than generation build" is analyst synthesis drawing on the EKT-Energiestiftung pilots and the Axpo concession concentration.</p>
+</div>
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is the quarterly synthesis of a Shaping Tomorrow intelligence cycle on <strong>Kanton Thurgau</strong>. It sits on top of weekly Signal Scans that identify emerging developments and weak signals, and monthly Change Trackers that assess what is materially shifting in momentum. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across all four formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a>
+</div>
+</div>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 24 June 2026</p>
+
+</div>
+
+</body>
+</html>

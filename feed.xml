@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Wed, 24 Jun 2026 09:35:52 +0000</lastBuildDate>
+<lastBuildDate>Wed, 24 Jun 2026 18:12:58 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire</title>
@@ -14,14 +14,6 @@
 <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit, moving the binding constraint from money to the credibility of the demand signal.</description>
-</item>
-<item>
-<title>Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-24-lender-of-last-resort-split/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-24-lender-of-last-resort-split/scan.html</guid>
-<pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and Western track, sorting access to crisis finance by alignment rather than need even as the dollar erodes only slowly.</description>
 </item>
 <item>
 <title>The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment</title>
@@ -78,6 +70,22 @@
 <pubDate>Sun, 21 Jun 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
 <description>Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market while Medicaid mostly excludes the drugs and employers drop coverage, creating a two-track entitlement with a 2027-2028 coverage cliff.</description>
+</item>
+<item>
+<title>The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-20-ai-value-capture-divide/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-20-ai-value-capture-divide/scan.html</guid>
+<pubDate>Sat, 20 Jun 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and operating-model change, not access.</description>
+</item>
+<item>
+<title>The Reskilling Treadmill: Why Skills Now Decay Faster Than Training Can Refresh Them</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-20-skill-half-life-squeeze/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-20-skill-half-life-squeeze/scan.html</guid>
+<pubDate>Sat, 20 Jun 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>In AI-exposed work the half-life of job skills is collapsing faster than employer training can refresh it, while employer training investment declines and AI strips out the routine tasks that built expertise, shifting the burden of staying employable from firms onto individuals.</description>
 </item>
 <item>
 <title>Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence</title>
@@ -398,14 +406,6 @@
 <pubDate>Sat, 23 May 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
 <description>Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin affirmative-cover market emerges, setting the real terms of deployment across the 2026-2028 renewal cycles.</description>
-</item>
-<item>
-<title>The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-23-pay-transparency-reset/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-05-23-pay-transparency-reset/scan.html</guid>
-<pubDate>Sat, 23 May 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation. Framed as a gender-pay-gap reporting deadline, the reset lands on 7 June 2026 through a fragmented, partly-resisted patchwork of national laws most employers are not ready for.</description>
 </item>
 </channel>
 </rss>

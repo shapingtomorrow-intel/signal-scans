@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T10:09:14Z",
+  "generated": "2026-06-25T10:14:52Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -127,6 +127,135 @@
           "type": "Signal Scan",
           "title": "The Grid Bypass",
           "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "ai-automation",
+      "name": "AI & Automation",
+      "tagline": "From hype to operating model.",
+      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
+      "latest_read": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
+      "latest_dates": {
+        "scan": "2026-06-20",
+        "tracker": "2026-06-04",
+        "di": "2026-06-25",
+        "cc": "2026-06-22"
+      },
+      "history": [
+        {
+          "date": "2026-06-25",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
+          "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Past capability, into liability.",
+          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline",
+          "summary": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
+          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
+          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "The execution layer goes live as the rulebook stands down",
+          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
+          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
+          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Identity Before Capability",
+          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Compute as Statecraft",
+          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Worlds for Machines",
+          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Superconducting Hedge",
+          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "When AI Joins the Org Chart",
+          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
+          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
           "posture": ""
         }
       ]
@@ -620,135 +749,6 @@
           "type": "Signal Scan",
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "ai-automation",
-      "name": "AI & Automation",
-      "tagline": "From hype to operating model.",
-      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
-      "latest_read": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
-      "latest_dates": {
-        "scan": "2026-06-20",
-        "tracker": "2026-06-04",
-        "di": "2026-06-22",
-        "cc": "2026-06-22"
-      },
-      "history": [
-        {
-          "date": "2026-06-22",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
-          "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Past capability, into liability.",
-          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline",
-          "summary": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
-          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
-          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "The execution layer goes live as the rulebook stands down",
-          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
-          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
-          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Identity Before Capability",
-          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Compute as Statecraft",
-          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Worlds for Machines",
-          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Superconducting Hedge",
-          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-12",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "When AI Joins the Org Chart",
-          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
-          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
           "posture": ""
         }
       ]

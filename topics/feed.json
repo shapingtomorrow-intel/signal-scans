@@ -1,7 +1,136 @@
 {
-  "generated": "2026-06-24T18:24:00Z",
+  "generated": "2026-06-25T08:30:07Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "energy-infrastructure-climate-resilience",
+      "name": "Energy, Infrastructure & Climate Resilience",
+      "tagline": "The grid, the build-out, and the climate-resilient firm.",
+      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
+      "latest_read": "Delivery overtakes generation as the binding limit; catastrophe momentum cools",
+      "latest_dates": {
+        "scan": "2026-06-23",
+        "tracker": "2026-06-25",
+        "di": "2026-05-19",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-25",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Delivery overtakes generation as the binding limit; catastrophe momentum cools",
+          "summary": "Edition 2. The cycle's dominant movement: delivery, not generation, is now the binding limit. GE Vernova's gas-turbine backlog hit 100 GW with slots booked toward 2030, grid investment still trails...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment",
+          "summary": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
+          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
+          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
+          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
+          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
+          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Load Follows Generation &mdash; Signal Scan",
+          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Powering AI in a Climate-Stressed World",
+          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flash Drought: Speed Not Scarcity",
+          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
+          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Megacity Subsidence Inflection",
+          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Last Winter Road",
+          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Grid Bypass",
+          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "defence-security-resilience",
       "name": "Defence, Security & Resilience",
@@ -200,127 +329,6 @@
           "type": "Signal Scan",
           "title": "The Institutional Ratchet",
           "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "energy-infrastructure-climate-resilience",
-      "name": "Energy, Infrastructure & Climate Resilience",
-      "tagline": "The grid, the build-out, and the climate-resilient firm.",
-      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
-      "latest_read": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
-      "latest_dates": {
-        "scan": "2026-06-23",
-        "tracker": "2026-05-28",
-        "di": "2026-05-19",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment",
-          "summary": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
-          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
-          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
-          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
-          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
-          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Load Follows Generation &mdash; Signal Scan",
-          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Powering AI in a Climate-Stressed World",
-          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Flash Drought: Speed Not Scarcity",
-          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
-          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Megacity Subsidence Inflection",
-          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Last Winter Road",
-          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Grid Bypass",
-          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
           "posture": ""
         }
       ]

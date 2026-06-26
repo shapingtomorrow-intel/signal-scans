@@ -1,7 +1,104 @@
 {
-  "generated": "2026-06-25T12:20:12Z",
+  "generated": "2026-06-26T08:30:05Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "supply-chains-critical-minerals",
+      "name": "Supply Chains & Critical Minerals",
+      "tagline": "When the supply chain becomes statecraft.",
+      "description": "Critical-mineral stockpiles, friendshoring, sovereign equity in suppliers, export-quota shocks. What it changes for procurement, inventory and substitution strategy.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/history/",
+      "latest_read": "China blacklists US rare-earth champions as Washington turns market-maker",
+      "latest_dates": {
+        "scan": "2026-06-23",
+        "tracker": "2026-06-26",
+        "di": "2026-06-18",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-26",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "China blacklists US rare-earth champions as Washington turns market-maker",
+          "summary": "Cycle 2. China's 22 June blacklisting of MP Materials and USA Rare Earths flips last cycle's Stable export-control read to Accelerating.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges",
+          "summary": "Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Five Choices on Critical Minerals",
+          "summary": "The cycle’s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate",
+          "summary": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand",
+          "summary": "China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint",
+          "summary": "The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy",
+          "summary": "Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-22",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "State intervention in critical minerals accelerates as the export-control truce holds",
+          "summary": "Inaugural cycle. Government intervention dominates the momentum: US strategic stockpiling, equity stakes, price floors and Section 232 trade remedies are accelerating alongside China's new...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Rerouting Illusion",
+          "summary": "Beneath the deglobalisation headline, the trade data show resilience and rerouting rather than retreat: most corporate de-risking has relabelled and lengthened China-dependence rather than removing...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
+          "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "ai-automation",
       "name": "AI & Automation",
@@ -458,95 +555,6 @@
           "type": "Signal Scan",
           "title": "The Institutional Ratchet",
           "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "supply-chains-critical-minerals",
-      "name": "Supply Chains & Critical Minerals",
-      "tagline": "When the supply chain becomes statecraft.",
-      "description": "Critical-mineral stockpiles, friendshoring, sovereign equity in suppliers, export-quota shocks. What it changes for procurement, inventory and substitution strategy.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/history/",
-      "latest_read": "Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June...",
-      "latest_dates": {
-        "scan": "2026-06-23",
-        "tracker": "2026-05-22",
-        "di": "2026-06-18",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges",
-          "summary": "Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Five Choices on Critical Minerals",
-          "summary": "The cycle’s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate",
-          "summary": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand",
-          "summary": "China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint",
-          "summary": "The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy",
-          "summary": "Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-22",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "State intervention in critical minerals accelerates as the export-control truce holds",
-          "summary": "Inaugural cycle. Government intervention dominates the momentum: US strategic stockpiling, equity stakes, price floors and Section 232 trade remedies are accelerating alongside China's new...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Rerouting Illusion",
-          "summary": "Beneath the deglobalisation headline, the trade data show resilience and rerouting rather than retreat: most corporate de-risking has relabelled and lengthened China-dependence rather than removing...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
-          "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
           "posture": ""
         }
       ]

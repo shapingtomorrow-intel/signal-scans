@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Polar A/S Cycle 1 Change Tracker, 29 June 2026</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
+  p { margin: 1em 0; }
+  ul, ol { margin: 1em 0; padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { color: #555; font-size: 0.93em; margin-bottom: 1.2em; }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .momentum-table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.93em; }
+  .momentum-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .momentum-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .momentum-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; white-space: nowrap; color: white; }
+  .momentum-pill.accelerating { background: #c62828; }
+  .momentum-pill.stable { background: #5a6478; }
+  .momentum-pill.fading { background: #43a047; }
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: white; border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin-top: 0; color: #1a237e; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: white; border: 1px solid #eef0f3; border-left: 5px solid #00897b; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: white; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0; border-left: 4px solid #1a237e; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tracker-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 14px; }
+  .tracker-header .masthead { margin-bottom: 0; flex: 1 1 auto; }
+  .tracker-logo { width: 220px; height: auto; flex: 0 0 auto; }
+  @media (max-width: 600px) { .tracker-header { flex-direction: column; align-items: flex-start; } .tracker-logo { width: 160px; } }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  .lang-switch { font-size: 0.85em; color: #5a6478; margin: -6px 0 16px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+
+
+  /* Heat-chip + maturity-stage (new ST tracker format) */
+  .heat-chip { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: middle; }
+  .heat-chip.heat-cool { background: #1565c0; }
+  .heat-chip.heat-moderate { background: #f57c00; }
+  .heat-chip.heat-hot { background: #c62828; }
+  .heat-chip.heat-veryhot { background: #b71c1c; box-shadow: 0 0 0 2px rgba(183,28,28,0.25); }
+  .mat-stage { display: inline-block; padding: 2px 8px; border-radius: 10px; background: #eef0f3; color: #1a237e; font-size: 0.82em; font-weight: 600; text-transform: lowercase; letter-spacing: 0.02em; cursor: help; border-bottom: 1px dotted #1a237e; }
+  .mat-arrow { display: inline-block; font-size: 0.85em; font-weight: 700; margin-left: 3px; }
+  .mat-advanced { color: #c62828; }
+  .mat-declined { color: #2e7d32; }
+  .new-badge { display: inline-block; font-size: 0.7em; font-weight: 700; letter-spacing: 0.05em; padding: 1px 6px; border-radius: 4px; background: #00897b; color: white; text-transform: uppercase; margin-left: 4px; vertical-align: middle; }
+  .bibliography { margin: 18px 0; }
+  .bibliography ol { padding-left: 22px; font-size: 0.9em; }
+  .bibliography li { margin-bottom: 6px; line-height: 1.5; }
+
+  /* Scannable in-block scaffolding (sub-labels, evidence-list, anchor-strip, posture-row) */
+  .cluster .sub-label, .wild-card .sub-label, .implications .sub-label { display: block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5a6478; margin: 14px 0 2px; }
+  .cluster .sub-label:first-of-type, .wild-card .sub-label:first-of-type { margin-top: 8px; }
+  .cluster .sub-block, .wild-card .sub-block, .implications .sub-block { margin: 0 0 4px; font-size: 0.95em; color: #2c3e50; }
+  .cluster ul.evidence-list, .wild-card ul.evidence-list, .implications ul.evidence-list { margin: 6px 0 0; padding-left: 20px; font-size: 0.92em; color: #2c3e50; }
+  .cluster ul.evidence-list li, .wild-card ul.evidence-list li, .implications ul.evidence-list li { margin-bottom: 4px; line-height: 1.5; }
+  .cluster .anchor-strip, .wild-card .anchor-strip, .implications .anchor-strip { display: flex; flex-wrap: wrap; gap: 18px; margin: 10px 0 6px; padding: 8px 12px; background: #f6f8fc; border-radius: 6px; font-size: 0.85em; }
+  .cluster .anchor-strip .anchor, .wild-card .anchor-strip .anchor, .implications .anchor-strip .anchor { display: inline-flex; align-items: baseline; gap: 6px; }
+  .cluster .anchor-strip .label, .wild-card .anchor-strip .label, .implications .anchor-strip .label { font-weight: 700; color: #5a6478; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85em; }
+  .cluster .anchor-strip .value, .wild-card .anchor-strip .value, .implications .anchor-strip .value { color: #031B41; font-weight: 600; }
+</style>
+</head>
+<body>
+<header class="tracker-header">
+<p class="masthead">Change Tracker &middot; Polar A/S &middot; Cycle 1 &middot; 29 June 2026</p>
+<svg class="tracker-logo" viewBox="0 0 206 21" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MakeMyStrategy"><path d="M38.723 0.669922L38.6806 0.76325H36.865L32.2834 13.108L27.6849 0.76325H25.8183L25.7844 0.678406V0.76325H23.9688V15.9757H26.4207V4.2079L30.8156 15.9757H33.7088L38.0867 4.21638V15.9757H40.5387V0.76325H38.723V0.669922Z" fill="#1D1D1D"/><path d="M52.4843 12.9382V7.67794C52.4843 5.34474 50.7874 4.0127 47.8094 4.0127C44.8314 4.0127 42.8291 5.54836 42.7188 8.13609V8.48395H45.0774V8.19548C45.1877 6.73617 46.0701 6.04894 47.8348 6.04894C49.922 6.04894 50.2104 6.89738 50.2104 7.74581C50.2104 8.29729 50.0068 8.59425 48.8275 8.77242L46.0446 9.23057C43.6266 9.63782 42.4473 10.8171 42.4473 12.8364C42.4473 14.9915 43.9575 16.332 46.384 16.332C47.1434 16.382 47.9026 16.2321 48.5859 15.8971C49.2692 15.5621 49.8527 15.0539 50.2783 14.423C50.2783 14.8557 50.3462 15.2714 50.3801 15.7296V16.0181H52.62V15.6702C52.5238 14.7628 52.4784 13.8507 52.4843 12.9382V12.9382ZM46.7743 14.2448C46.0786 14.2448 44.9077 14.0412 44.9077 12.7007C44.9077 11.8522 45.2301 11.2838 46.8422 10.9529L48.6663 10.5796C49.2131 10.4803 49.7459 10.3151 50.2529 10.0875V10.4693C50.2529 12.3443 49.2093 14.2448 46.7743 14.2448V14.2448Z" fill="#1D1D1D"/><path d="M65.1942 4.97183L65.33 4.83608V4.38641H62.6744L57.6941 9.20552C57.5159 9.36673 57.3462 9.5449 57.1765 9.72307V0H54.75V15.976H57.1341V12.6587L59.0431 10.8515L63.0647 15.9421H66.1106L60.6042 9.33279L65.1942 4.97183Z" fill="#1D1D1D"/><path d="M74.7219 12.2083C74.3825 13.6506 73.3474 14.3548 71.5742 14.3548C69.4276 14.3548 68.3331 13.2519 68.1804 10.8932H76.8854V10.6302C76.9296 10.3497 76.9466 10.0655 76.9363 9.78175C76.9363 6.27771 74.7813 4.00391 71.4639 4.00391C67.9598 4.02936 65.7539 6.37953 65.7539 10.1805C65.7539 13.9815 67.9004 16.3571 71.5063 16.3571C76.0709 16.3571 76.826 13.2943 76.9532 12.3525V11.9877H74.7813L74.7219 12.2083ZM68.2059 8.9418C68.4859 6.93949 69.5549 6.00621 71.5317 6.00621C73.5086 6.00621 74.4419 6.96495 74.6116 8.9418H68.2059Z" fill="#1D1D1D"/><path d="M93.5661 0.669922L93.5322 0.76325H91.7165L87.135 13.108L82.5365 0.76325H80.6699L80.636 0.678406V0.76325H78.8203V15.9757H81.2723V4.2079L85.6672 15.9757H88.5604L92.9298 4.21638V15.9757H95.3903V0.76325H93.5661V0.669922Z" fill="#1D1D1D"/><path d="M102.711 13.0238L102.66 13.185L99.1644 4.38672H96.6191L101.209 15.9763H101.566L100.624 18.3011H97.4676V20.3628H99.8686C102.075 20.3628 102.575 19.3616 103.262 17.5969L108.599 4.38672H106.181L102.711 13.0238Z" fill="#1D1D1D"/><path d="M118.034 7.38961L114.394 6.83813C113.079 6.6345 112.468 5.98969 112.468 4.85279C112.468 2.85048 114.301 2.43475 115.862 2.43475C118.22 2.43475 119.51 3.45287 119.714 5.45518V5.74364H122.098V5.40427C121.877 2.20567 119.612 0.373047 115.887 0.373047C111.569 0.373047 110.025 2.70624 110.025 4.89521C110.025 7.2878 111.323 8.63681 113.995 9.02709L117.431 9.55312C119.128 9.84159 119.824 10.4779 119.824 11.8439C119.824 13.2099 119.383 14.245 116.218 14.245C113.393 14.245 111.976 13.0741 111.976 10.6561V10.3422H109.566V10.6646C109.566 12.7687 110.415 16.3067 116.244 16.3067C120.274 16.3067 122.327 14.7286 122.327 11.6063C122.267 9.19678 120.918 7.85625 118.034 7.38961Z" fill="#1D1D1D"/><path d="M127.529 1.95117H126.027L125.357 4.28437L123.023 4.84434V6.39697H125.102V13.0996C125.102 15.1698 125.951 15.9758 128.072 15.9758H130.982V13.9141H127.495V6.39697H131.109V4.38618H127.495L127.529 1.95117Z" fill="#1D1D1D"/><path d="M135.139 6.21961V4.38699H132.746V15.9766H135.139V11.6241C135.139 9.4776 135.504 8.1201 136.284 7.38196C136.621 7.08927 137.016 6.87017 137.442 6.73868C137.869 6.6072 138.318 6.56622 138.762 6.61837H139.542V4.24275H138.829C138.094 4.21719 137.366 4.38663 136.718 4.73384C136.069 5.08106 135.525 5.59367 135.139 6.21961V6.21961Z" fill="#1D1D1D"/><path d="M150.174 12.9382V7.67794C150.174 5.34474 148.477 4.0127 145.49 4.0127C142.504 4.0127 140.51 5.54836 140.4 8.13609V8.48395H142.758V8.19548C142.877 6.73617 143.751 6.04894 145.516 6.04894C147.611 6.04894 147.891 6.89738 147.891 7.74581C147.891 8.29729 147.688 8.59425 146.517 8.77242L143.726 9.23057C141.308 9.63782 140.137 10.8171 140.137 12.8364C140.137 14.9914 141.638 16.332 144.065 16.332C144.828 16.3866 145.593 16.2388 146.281 15.9037C146.969 15.5685 147.557 15.0578 147.985 14.423C147.985 14.8557 148.053 15.2714 148.095 15.7296V16.0181H150.335V15.6702C150.229 14.7633 150.176 13.8512 150.174 12.9382V12.9382ZM144.464 14.2448C143.76 14.2448 142.589 14.0412 142.589 12.7007C142.589 11.8522 142.92 11.2838 144.523 10.9529L146.347 10.5796C146.894 10.4816 147.427 10.3164 147.934 10.0875V10.4693C147.959 12.3443 146.882 14.2448 144.489 14.2448H144.464Z" fill="#1D1D1D"/><path d="M155.586 1.95117H154.093L153.414 4.28437L151.115 4.84434V6.39697H153.202V13.0996C153.202 15.1698 154.051 15.9758 156.172 15.9758H159.074V13.9141H155.586V6.39697H159.209V4.38618H155.586V1.95117Z" fill="#1D1D1D"/><path d="M168.745 12.2083C168.406 13.6506 167.371 14.3548 165.598 14.3548C163.451 14.3548 162.357 13.2519 162.161 10.8932H170.909L170.951 10.6302C170.995 10.3497 171.012 10.0655 171.002 9.78175C171.002 6.27771 168.856 4.00391 165.53 4.00391C161.983 4.00391 159.777 6.35407 159.777 10.1296C159.777 13.9051 161.924 16.3062 165.53 16.3062C170.094 16.3062 170.849 13.2434 170.977 12.3016V11.9368H168.839L168.745 12.2083ZM162.229 8.9418C162.509 6.93949 163.578 6.00621 165.555 6.00621C167.532 6.00621 168.474 6.96495 168.635 8.9418H162.229Z" fill="#1D1D1D"/><path d="M181.48 5.56616C181.003 5.05513 180.418 4.65618 179.768 4.39799C179.118 4.1398 178.419 4.02878 177.722 4.07291C174.328 4.07291 172.334 6.194 172.334 9.89318C172.334 13.5924 174.251 15.7389 177.722 15.7389C178.414 15.7859 179.108 15.6828 179.757 15.4368C180.405 15.1908 180.993 14.8077 181.48 14.3135V15.6625C181.48 17.7921 180.572 18.5896 178.137 18.5896C176.143 18.5896 175.108 17.8515 174.964 16.3328V16.0443H172.572V16.3837C172.784 19.1072 174.744 20.6259 178.103 20.6259C182.015 20.6259 183.83 19.0648 183.83 15.705V4.38684H181.48V5.56616ZM181.48 9.89318C181.48 12.5403 180.445 13.7196 178.137 13.7196C175.83 13.7196 174.744 12.6167 174.744 9.89318C174.744 7.1697 175.719 6.09219 178.137 6.09219C180.555 6.09219 181.48 7.26303 181.48 9.89318Z" fill="#1D1D1D"/><path d="M194.453 4.38672L190.966 13.0492L190.915 13.185L187.428 4.38672H184.883L189.481 15.9763H189.838L188.887 18.3011H185.74V20.3628H188.141C190.347 20.3628 190.839 19.3616 191.535 17.5969L196.837 4.38672H194.453Z" fill="#1D1D1D"/><path d="M201.546 4.75155H200.231V8.05196H199.773V4.75155H198.449V4.38672H201.538L201.546 4.75155Z" fill="#1D1D1D"/><path d="M206.001 8.05196H205.543V4.72609L204.304 8.05196H203.693L202.454 4.72609V8.05196H201.996V4.38672H202.777L204.007 7.63623L205.212 4.38672H206.001V8.05196Z" fill="#1D1D1D"/><path d="M3.99613 7.99219H0V15.976H7.99226V11.9883H3.99613V7.99219Z" fill="#287AFF"/><path d="M15.976 0H7.99219V3.99613H11.9883V7.99226H15.976V0Z" fill="#287AFF"/></svg>
+</header>
+<p class="lang-switch"><strong>English</strong> &middot; <a href="tracker-da.html">Dansk</a></p>
+
+<article>
+
+<h2>Money cleared, capacity is the question: Polar A/S faces four parallel pressure tests in H2 2026</h2>
+<p class="seo-line">Four parallel shifts (aftermarket-fluids electrification, channel concentration on Polar's commodity SKUs, simultaneous REACH-Annex-XVII and biocide regulatory deadlines through 2026-2027, and the rising fixed-cost gap of a three-site Danish footprint) all gain momentum inside the cycle, with the first hard deadline (REACH 2025/1090 on DMAC/NEP) landing 23 December 2026.</p>
+
+<p>This is the inaugural Polar A/S Change Tracker. Across the four topics that frame Polar's strategic exposure (automotive-fluids volume, e-commerce and distributor pressure on commodity products, solvent and biocide regulation, and the fixed-cost economics of two Esbjerg sites plus one Skanderborg site) nine of the eleven signals tracked this cycle are <strong>Accelerating</strong>, one is <strong>Stable</strong>, and one is <strong>Fading</strong>. The pattern is consistent: the trajectory of demand, channel, regulation and cost is all moving against an undifferentiated small-batch blender, but the moves do not arrive evenly. The 23 December 2026 REACH compliance deadline for DMAC and NEP, the 17 June 2026 CLP Omnibus VI political agreement, and the SEAC final PFAS opinion expected end-2026 are dated triggers Polar can plan against. The slower trends, including channel concentration, EV substitution of glycol coolants, the energy-cost gap between Danish industrial sites and continental peers, will compound across the FY27 cycle. The question this Tracker frames for Polar's next board cycle is which subset of the 55-SKU range earns the fixed-cost burden of three sites, and which routes (asset-light tolling, SKU prune, distributor-channel re-set) buy the most time.</p>
+
+<h3>Momentum across the topic</h3>
+<table class="momentum-table">
+<thead>
+<tr><th>Heat</th><th>Signal</th><th>Maturity</th><th>Horizon</th><th>Recency</th><th>Commentary</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="heat-chip heat-cool" title="heat: cool (positive for Polar's aftermarket-fluids volume)"></span></td>
+<td>EU 2035 ICE phase-out softens to 90% target <span class="new-badge">New</span></td>
+<td><span class="mat-stage" title="Commission proposal published 16 December 2025; in trilogue mid-2026">maturing</span></td>
+<td>2026-2035</td>
+<td>Commission proposal Dec 2025; ICCT modelling Dec 2025; in trilogue Q2 2026</td>
+<td>The Commission's 16 December 2025 proposal replaces the 100% CO2-reduction target for new cars in 2035 with a 90% target, keeping PHEVs, range-extenders and mild hybrids sellable post-2035 (<a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3051" target="_blank">European Commission</a>, December 2025). ICCT modelling projects 17pp lower 2030 BEV share than the prior trajectory.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely on Polar's Danish workshop demand)"></span></td>
+<td>Denmark EV share crosses two-thirds of new sales</td>
+<td><span class="mat-stage" title="EAFO data through Feb 2026 confirms shift confirmed; Kline 2034 parc projection institutionalised">maturing</span></td>
+<td>2026-2030</td>
+<td>EAFO Jan 2026; Mobility Denmark 2026; Kline 2025 outlook</td>
+<td>Denmark hit 68.5% BEV share of new car sales in 2025 and 81.6% in February 2026 (<a href="https://alternative-fuels-observatory.ec.europa.eu/general-information/news/denmarks-ev-market-accelerates-2025-momentum-points-another-strong-year-0" target="_blank">EAFO / European Commission</a>, January 2026). Domestic aftermarket-fluids volume erodes 5-10 years ahead of EU average; ICE parc (Kline: ~15% BEV by 2034 in EU parc) keeps a long tail in workshop demand.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-moderate" title="heat: moderate (premium niche; opportunity for new qualified-supplier window)"></span></td>
+<td>EV thermal-management coolant opens niche</td>
+<td><span class="mat-stage" title="BASF Glysantin Electrified product launch September 2025; Nordic OEM workshop qualification window open through 2027">emerging</span></td>
+<td>2026-2030</td>
+<td>BASF launch Sep 2025; Kline 2025 outlook; ongoing OEM qualification cycle</td>
+<td>BASF launched a dielectric, low-conductivity coolant specifically for EV battery thermal management in September 2025 (<a href="https://klinegroup.com/energy/europe-lubricant-market-2025-growth-opportunities/" target="_blank">Kline &amp; Co</a>, 2025 outlook). EV coolant is a premium specification, not a volume replacement; Polar's MEG/MPG commodity grades are not in scope, but the segment is forming.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-veryhot" title="heat: very hot (very high impact x very likely on Polar's commodity-SKU margin)"></span></td>
+<td>Nordic distributor consolidation tightens channel</td>
+<td><span class="mat-stage" title="Wurth EUR 20.7bn FY25 (Jan 2026); Solar AR 2025 (Feb 2026); Ahlsell-CVC partnership 2025; cohort consolidation">maturing</span> <span class="mat-arrow mat-advanced">&#8599;</span></td>
+<td>2026-2028</td>
+<td>3 sources within 90 days; cohort move</td>
+<td>W&uuml;rth Group reported EUR 20.7bn 2025 sales with e-business at 25.2% (EUR 5.2bn) and Chemicals business unit growing 6.7% (<a href="https://news.wuerth.com/wuerth-group-reports-record-sales-in-2025/" target="_blank">W&uuml;rth Group</a>, January 2026); Ahlsell consolidated under CVC with 100+ acquisitions (<a href="https://www.cvc.com/media/news/2025/ahlsell-welcomes-new-investors-and-extends-its-partnership-with-cvc-in-preparation-for-further-growth/" target="_blank">CVC</a>, 2025); Solar A/S (Denmark) DKK ~12bn doubling down on e-commerce + AI logistics (<a href="https://www.inderes.dk/en/releases/solar-as-no-1-2026-annual-report-2025" target="_blank">Solar AR 2025</a>, February 2026). All three are shelf-space gatekeepers for the kind of commodity SKUs Polar produces.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely on brand premium)"></span></td>
+<td>EU B2B e-commerce growth still has long runway</td>
+<td><span class="mat-stage" title="Eurostat 2025 release (4.34% baseline); Eurostat news 20 May 2026; long-runway diffusion">emerging</span></td>
+<td>2026-2030</td>
+<td>Eurostat 2025 + May 2026 update</td>
+<td>Only 4.34% of EU enterprise turnover came from B2B web sales in 2024 (<a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics" target="_blank">Eurostat</a>, 2025); Eurostat 20 May 2026 update confirms digital procurement skew to large enterprises (the cohort distributor catalogues target). Pricing transparency on commodity SKUs will compound across the cycle.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-hot" title="heat: hot (regulatory direction-of-travel; next ATP cycle catches Polar's solvents)"></span></td>
+<td>REACH Annex XVII closes on dipolar-aprotic solvents</td>
+<td><span class="mat-stage" title="Commission Reg (EU) 2025/1090 published 3 June 2025; binding compliance 23 December 2026">maturing</span></td>
+<td>2026-2027</td>
+<td>EUR-Lex Reg 2025/1090 June 2025; deadline inside 6 months</td>
+<td>DMAC and NEP added to REACH Annex XVII at 0.3% w/w with DNEL-based controls; main compliance <strong>23 December 2026</strong>, NEP fibre derogation 23 June 2029 (<a href="https://eur-lex.europa.eu/eli/reg/2025/1090/oj/eng" target="_blank">EUR-Lex</a>, June 2025). Joins NMP (2018) and DMF (2021) in the closed group. Polar's solvent catalogue (acetone, IPA, xylene, white spirit) is not directly hit, but the regulatory direction-of-travel is now established.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-hot" title="heat: hot (new ELOC ground sets precedent for further solvent listings)"></span></td>
+<td>n-hexane added to SVHC list on neurotoxicity grounds <span class="new-badge">New</span></td>
+<td><span class="mat-stage" title="ECHA Candidate List update 4 February 2026; first listing on ELOC neurotoxicity grounds">emerging</span></td>
+<td>2026-2028</td>
+<td>ECHA Feb 2026; precedent-setting</td>
+<td>n-hexane added to SVHC Candidate List, the first listing on ELOC (equivalent level of concern) for neurotoxicity, plus BPAF (reprotoxic); list now 253 entries (<a href="https://echa.europa.eu/-/echa-adds-two-hazardous-chemicals-to-the-candidate-list-1" target="_blank">ECHA</a>, February 2026). Triggers Article 33 communication and SCIP notification for any article above 0.1%.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-hot" title="heat: hot (every label in scope needs reissue inside the cycle)"></span></td>
+<td>23rd ATP to CLP mandates from 1 February 2027</td>
+<td><span class="mat-stage" title="Commission Delegated Reg (EU) 2025/1222 adopted 2 April 2025; mandatory application 1 February 2027">maturing</span></td>
+<td>2026-2027</td>
+<td>EUR-Lex Reg 2025/1222 April 2025</td>
+<td>24 new harmonised classifications and 10 revisions, mandatory from 1 February 2027 (<a href="https://eur-lex.europa.eu/eli/reg_del/2025/1222/oj/eng" target="_blank">EUR-Lex</a>, April 2025). Polar's white-spirit, xylene, acetone and bioethanol labels need re-issue inside the cycle.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-hot" title="heat: hot (customer-facing query pressure 2026-2027)"></span></td>
+<td>PFAS universal restriction enters decisive phase</td>
+<td><span class="mat-stage" title="RAC final 2 Mar 2026; SEAC consultation closed 25 May 2026; SEAC final expected end-2026">emerging</span> <span class="mat-arrow mat-advanced">&#8599;</span></td>
+<td>2026-2028</td>
+<td>4 ECHA dated events in 90 days</td>
+<td>RAC final opinion 2 March 2026; SEAC draft 10 March; consultation closed 25 May 2026; SEAC final expected end-2026; Commission draft Annex XVII text ~Q1 2027 (<a href="https://www.echa.europa.eu/-/pfas-2026-echa-committees-opinions" target="_blank">ECHA</a>, March 2026). Consumer mixtures face short ~18-month transitions. Polar's exposure: low direct, but customers (workshops, agriculture, household trade) will be querying PFAS-content statements through 2027.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-veryhot" title="heat: very hot (sets the cost benchmark bank and acquirer will price against)"></span></td>
+<td>European chemicals capacity utilisation below break-even</td>
+<td><span class="mat-stage" title="Cefic Q1 2026 Trends Report (April 2026); third consecutive quarterly read below threshold">maturing</span></td>
+<td>2026-2030</td>
+<td>Cefic Q1 2026 release; sector baseline</td>
+<td>EU27 chemicals utilisation ~74% vs the ~80-85% threshold most assets need to cover fixed costs; ~37 Mt EU capacity (~9% of EU output) permanently shuttered 2024-25, ~20,000 jobs lost (<a href="https://cefic.org/news/cefics-chemical-trends-report-q1-2026-is-out/" target="_blank">Cefic</a>, April 2026). Polar's three-site footprint is sub-scale relative to the firms making these decisions, but the trend sets the cost benchmark the bank and any acquirer will price against.</td>
+</tr>
+<tr>
+<td><span class="heat-chip heat-moderate" title="heat: moderate (stable but high; fixed-cost burden compounds)"></span></td>
+<td>Danish industrial energy cost gap widens</td>
+<td><span class="mat-stage" title="Eurostat H1 2025; Forsyningstilsynet Aug 2025; Industriens Overenskomst 2025-2028">declining</span></td>
+<td>2026-2028</td>
+<td>Eurostat H1 2025; Forsyningstilsynet Aug 2025; OK25-28 ratified</td>
+<td>Danish household electricity ~EUR 34.9/100 kWh vs European average EUR 28.7; business electricity ~141% of European average; gas EUR 13.1/100 kWh vs EU EUR 11.4 (<a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Electricity_price_statistics" target="_blank">Eurostat</a>, H1 2025). The gap is stable but high; Industriens Overenskomst 2025-2028 locks in wage steps of 4.0% / 3.5% / 3.5% plus +1pp employer pension, hard-coding labour-cost inflation against falling-volume risk.</td>
+</tr>
+</tbody>
+</table>
+
+<p class="small">Heat (impact x likelihood for Polar): <span class="heat-chip heat-cool"></span> cool &middot; <span class="heat-chip heat-moderate"></span> moderate &middot; <span class="heat-chip heat-hot"></span> hot &middot; <span class="heat-chip heat-veryhot"></span> very hot. Maturity: hover any stage for its evidence basis; <span class="mat-arrow mat-advanced">&#8599;</span> advanced a stage since the prior cycle would appear in cycle 2; <span class="new-badge">New</span> new to the register this cycle.</p>
+
+<h3>Pattern narrative</h3>
+
+<div class="cluster risk">
+<h4>The commodity-SKU squeeze runs in all four directions at once<span class="cluster-type">Evolving Risk</span></h4>
+
+<span class="sub-label">The pattern</span>
+<p class="sub-block">The pressure on Polar's commodity-grade SKUs (screenwash, MEG/MPG coolants, AdBlue, drain cleaner, salmiac, white spirit) is not a single shock but four overlapping ones.</p>
+
+<span class="sub-label">The four sources of pressure</span>
+<ul class="evidence-list">
+<li><strong>From above (distributor consolidation)</strong>: W&uuml;rth EUR 20.7bn at +6.7% Chemicals growth; Ahlsell consolidating under CVC; Solar A/S DKK 12bn pushing e-commerce + AI logistics. Producer margin compressed.</li>
+<li><strong>From below (B2B e-commerce + price transparency)</strong>: 4.34% of EU enterprise turnover and rising. Brand premium erodes.</li>
+<li><strong>Floor cost (REACH/CLP re-classification)</strong>: raises compliance cost without conferring pricing power.</li>
+<li><strong>Site cost (Danish energy + labour)</strong>: Esbjerg + Skanderborg sit at the EU upper quartile.</li>
+</ul>
+
+<span class="sub-label">Why it matters</span>
+<p class="sub-block">The four sources of pressure compound. The small-batch blender's margin is exposed on every dimension at once.</p>
+</div>
+
+<div class="cluster transformation">
+<h4>Regulation lifts the floor under compliant biocide players<span class="cluster-type">Transformation Driver</span></h4>
+
+<span class="sub-label">The pattern</span>
+<p class="sub-block">The same regulatory cycle that prices commodity SKUs out of channel margin lifts a counter-floor. Compliance lock-in protects Article 95 suppliers from private-label and Amazon-Business generics in a way that pure commodity chemistry does not.</p>
+
+<span class="sub-label">Three confirming signals</span>
+<ul class="evidence-list">
+<li><strong>ECHA Biocides Committee positive ethanol opinion</strong> in PT1/PT2/PT4, February 2026 (<a href="https://echa.europa.eu/-/echa-s-biocides-committee-supports-approval-of-ethanol-in-disinfectants" target="_blank">ECHA</a>).</li>
+<li><strong>EU BPR Union authorisation fee EUR 179,250</strong> (August 2025, +19.5%) (<a href="https://www.useforesight.io/news/eu-raises-biocidal-product-fees-by-19-5-to-reflect-inflation" target="_blank">Foresight</a>).</li>
+<li><strong>Implementing Reg (EU) 2026/373</strong> (20 February 2026): copper-hydroxide and copper(II)-oxide PT8 expiries extended to 31 July 2029.</li>
+</ul>
+
+<span class="sub-label">Live risk to the moat</span>
+<p class="sub-block">Greek CLH dossier targeting CMR Cat 1A / Repr 1A re-classification of ethanol, due end-2026. If it lands, Polar's ethanol-based products and the wider European disinfectant base reset together.</p>
+</div>
+
+<div class="cluster opportunity">
+<h4>Asset-light tolling has become the European specialty-chemical default<span class="cluster-type">Opportunity</span></h4>
+
+<span class="sub-label">The pattern</span>
+<p class="sub-block">The sub-scale European specialty player has a well-trodden route out of the fixed-cost trap: third-party tolling.</p>
+
+<span class="sub-label">The named exemplars</span>
+<ul class="evidence-list">
+<li><strong>Umicore Specialty Materials, Bruges</strong> (<a href="https://csm.umicore.com/en/metal-carboxylates-organics/toll-manufacturing/" target="_blank">Umicore</a>): metal carboxylates and organics toll.</li>
+<li><strong>Parallel European tollers</strong>: cleaning, automotive and household chemistries.</li>
+</ul>
+
+<span class="sub-label">The forward question</span>
+<p class="sub-block">The cycle question is not whether to keep three sites (the energy + wage trajectory makes that decision for the FY28 plan) but how much of the 55-SKU portfolio can be retained via tolling without losing the customer relationships that the in-house blend currently anchors.</p>
+</div>
+
+<h3>Three-site cost picture</h3>
+
+<div class="cluster risk">
+<h4>Esbjerg pivots to Power-to-X; chemicals competes for land and grid<span class="cluster-type">Site Economics</span></h4>
+
+<span class="sub-label">The pattern</span>
+<p class="sub-block">Esbjerg's industrial economy has pivoted decisively from oil and gas to offshore wind, Power-to-X and CO2 logistics. Chemical tenants now compete for land and grid capacity with much higher-value green-fuels projects.</p>
+
+<div class="anchor-strip">
+<span class="anchor"><span class="label">H2 Energy Europe</span><span class="value">1 GW hydrogen, from 2026</span></span>
+<span class="anchor"><span class="label">Hoest / CIP ammonia</span><span class="value">From 2027</span></span>
+<span class="anchor"><span class="label">WEF status</span><span class="value">Transitioning Industrial Cluster</span></span>
+</div>
+
+<span class="sub-label">Polar's three-site exposure</span>
+<ul class="evidence-list">
+<li><strong>M&aring;devej 80 (Esbjerg)</strong>: benefits from cluster vitality; rising land cost + grid queue.</li>
+<li><strong>Brol&aelig;ggervej 16 (Esbjerg)</strong>: same pressure as M&aring;devej.</li>
+<li><strong>Hylkevej 31 (Skanderborg)</strong>: outside the cluster and outside its land-cost pressure, but also outside its grid-priority queue.</li>
+</ul>
+
+<span class="sub-label">Sources</span>
+<p class="sub-block"><a href="https://www.openaccessgovernment.org/stakeholder/port-esbjerg/181381/" target="_blank">Port Esbjerg</a>; <a href="https://www.tgs4c.com/news/port-esbjerg-recognised-by-the-world-economic-forum-for-its-offshore-wind-led-industrial-cluster-nid32711.html" target="_blank">TGS4C / WEF</a>, 2025.</p>
+</div>
+
+<h3>Wild cards</h3>
+
+<div class="wild-card risk">
+<h4><span class="wc-label">Risk wild card</span>Ethanol re-classified CMR Cat 1A / Repr 1A late-2026</h4>
+<p>The Greek CLH dossier targeting ethanol is due end-2026. If RAC adopts CMR 1A / Repr 1A, the downstream effect on Polar's ethanol-based household and industrial products and the wider Nordic disinfectant base would be a labelling and authorisation cycle reset in 2027.</p>
+</div>
+
+<div class="wild-card risk">
+<h4><span class="wc-label">Risk wild card</span>Tuck-in approach to Polar Group from a foreign strategic</h4>
+<p>Polar's Nordic peer set is actively consolidating into foreign strategics: Plum A/S (Assens) acquired by Finnish Kiilto, Kr&uuml;ger A/S owned by Veolia (<a href="https://www.kruger.dk/" target="_blank">Kr&uuml;ger</a>). Polar's modest profitability (DKK 11m gross profit, ~12 FTE on the A/S CVR), 25-year operating history and complete Nordic distribution footprint make it a candidate target on a 24-month horizon.</p>
+</div>
+
+<div class="wild-card opportunity">
+<h4><span class="wc-label">Opportunity wild card</span>EV-coolant qualified-supplier window</h4>
+<p>EV battery thermal management requires dielectric, low-conductivity coolants (BASF Glysantin Electrified launched September 2025) on a different specification base than the MEG/MPG line. The qualification cycle through Nordic auto OEM workshops and EV-aftermarket chains is open for a small number of regional blenders through 2027.</p>
+</div>
+
+<h3>What's gaining momentum</h3>
+<ol>
+<li><strong>Channel concentration on commodity SKUs.</strong> Three Nordic distributors at EUR 20.7bn (W&uuml;rth), DKK 12bn (Solar A/S) and SEK 51bn (Ahlsell) consolidating shelf-space gatekeeping over screenwash, AdBlue and commodity solvents.</li>
+<li><strong>Regulatory cycle compression.</strong> Four named EU dates inside the next 18 months: REACH 23 December 2026 (DMAC/NEP), CLP 1 February 2027 (23rd ATP), SEAC PFAS final end-2026, BPR fee uplift already effective 14 August 2025.</li>
+<li><strong>Danish electrification curve.</strong> Denmark hit 81.6% EV share of new car sales in February 2026 (5-10 years ahead of EU average), compressing aftermarket-fluids volume on a faster clock domestically than the wider EU base.</li>
+</ol>
+
+<div class="implications">
+<h3>Implications for Polar A/S</h3>
+<p>The Tracker's central reading is that all four exposure dimensions are accelerating against Polar simultaneously. The board questions for the FY27 cycle:</p>
+<ol>
+<li><strong>SKU prune vs site prune.</strong> Which subset of the 55-SKU range earns the three-site fixed-cost burden, and at what utilisation rate? The Cefic benchmark of 74% utilisation against an ~80-85% break-even threshold makes this the cycle's binding question.</li>
+<li><strong>Compliance as moat.</strong> The BPR EUR 179,250 Union authorisation fee, the Article 95 supplier list and the ECHA ethanol opinion together create a defensible moat for Polar to occupy at the regulated end of its catalogue, where private label and Amazon Business cannot easily follow. Which SKUs migrate into that moat, and which migrate out?</li>
+<li><strong>Asset-light option value.</strong> The European toller market (Umicore Bruges and parallel offers) is established. The question is not whether to consider tolling but which products move first, on what risk-share, and what relationship architecture preserves the customer.</li>
+<li><strong>Strategic-buyer optionality.</strong> Plum-to-Kiilto and Kr&uuml;ger-to-Veolia set the local precedent. The board's question is whether to plan as if continuing independent operation is the default, or whether to build the next 18 months around being a clean acquisition target.</li>
+</ol>
+</div>
+
+
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press.</p>
+<div class="bibliography">
+<ol>
+<li><span class="tier-1">Tier 1</span> Commission takes action for clean and competitive automotive sector. <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3051" target="_blank">European Commission</a>. Published 16/12/2025.</li>
+<li><span class="tier-1">Tier 1</span> Denmark's EV Market Accelerates in 2025. <a href="https://alternative-fuels-observatory.ec.europa.eu/general-information/news/denmarks-ev-market-accelerates-2025-momentum-points-another-strong-year-0" target="_blank">European Alternative Fuels Observatory</a>. Published 01/2026.</li>
+<li><span class="tier-1">Tier 1</span> Commission Regulation (EU) 2025/1090 (REACH Annex XVII entries 80 &amp; 81). <a href="https://eur-lex.europa.eu/eli/reg/2025/1090/oj/eng" target="_blank">EUR-Lex</a>. Published 03/06/2025.</li>
+<li><span class="tier-1">Tier 1</span> Commission Delegated Regulation (EU) 2025/1222 (23rd ATP to CLP). <a href="https://eur-lex.europa.eu/eli/reg_del/2025/1222/oj/eng" target="_blank">EUR-Lex</a>. Published 02/04/2025.</li>
+<li><span class="tier-1">Tier 1</span> ECHA adds two hazardous chemicals to the Candidate List (n-hexane, BPAF). <a href="https://echa.europa.eu/-/echa-adds-two-hazardous-chemicals-to-the-candidate-list-1" target="_blank">ECHA</a>. Published 04/02/2026.</li>
+<li><span class="tier-1">Tier 1</span> ECHA Biocides Committee supports approval of ethanol in disinfectants. <a href="https://echa.europa.eu/-/echa-s-biocides-committee-supports-approval-of-ethanol-in-disinfectants" target="_blank">ECHA</a>. Published 02/2026.</li>
+<li><span class="tier-1">Tier 1</span> PFAS restriction: ECHA Committees' opinions and next steps. <a href="https://www.echa.europa.eu/-/pfas-2026-echa-committees-opinions" target="_blank">ECHA</a>. Published 03/2026.</li>
+<li><span class="tier-1">Tier 1</span> Electricity price statistics (H1 2025 release). <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Electricity_price_statistics" target="_blank">Eurostat</a>. Published 2025.</li>
+<li><span class="tier-1">Tier 1</span> E-commerce statistics, 2025 release. <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics" target="_blank">Eurostat</a>. Published 2025.</li>
+<li><span class="tier-2">Tier 2</span> Cefic Chemical Trends Report Q1 2026. <a href="https://cefic.org/news/cefics-chemical-trends-report-q1-2026-is-out/" target="_blank">Cefic</a>. Published 04/2026.</li>
+<li><span class="tier-2">Tier 2</span> Europe Lubricant Market 2025: Growth &amp; Opportunities. <a href="https://klinegroup.com/energy/europe-lubricant-market-2025-growth-opportunities/" target="_blank">Kline &amp; Company</a>. Published 2025.</li>
+<li><span class="tier-2">Tier 2</span> Securing the competitiveness of the European chemical industry. <a href="https://www.mckinsey.com/industries/chemicals/our-insights/securing-the-competitiveness-of-the-european-chemical-industry" target="_blank">McKinsey &amp; Company</a>. Published 2025.</li>
+<li><span class="tier-3">Tier 3</span> W&uuml;rth Group reports record sales in 2025. <a href="https://news.wuerth.com/wuerth-group-reports-record-sales-in-2025/" target="_blank">W&uuml;rth Group</a>. Published 01/2026.</li>
+<li><span class="tier-3">Tier 3</span> Ahlsell welcomes new investors and extends its partnership with CVC. <a href="https://www.cvc.com/media/news/2025/ahlsell-welcomes-new-investors-and-extends-its-partnership-with-cvc-in-preparation-for-further-growth/" target="_blank">CVC</a>. Published 2025.</li>
+<li><span class="tier-3">Tier 3</span> Solar A/S Annual Report 2025. <a href="https://www.inderes.dk/en/releases/solar-as-no-1-2026-annual-report-2025" target="_blank">Inderes / Solar A/S</a>. Published 02/2026.</li>
+</ol>
+</div>
+
+<div class="programme-footer">
+<p>This Change Tracker is part of a Shaping Tomorrow Decision Intelligence programme prepared for <strong>Polar A/S</strong> by <strong>MakeMyStrategy</strong>. The Tracker reads month-by-month momentum across the four topics Polar's leadership team has prioritised: automotive-fluids volume, distributor and e-commerce pressure on commodity products, solvent and biocide regulation, and the three-site fixed-cost picture. The cycle's deeper analysis and forward decisions are in the accompanying Decision Intelligence Preview and Action Triggers briefing.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="../../index.html">View the Polar A/S decision-intelligence pack</a>
+</div>
+</div>
+
+<hr>
+<p class="small">Prepared by MakeMyStrategy in partnership with Shaping Tomorrow &middot; 29 June 2026</p>
+
+</article>
+
+</body>
+</html>

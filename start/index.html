@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get started &middot; Shaping Tomorrow</title>
+<meta name="description" content="A custom intelligence programme that gives you a weekly weak-signal alert, a monthly synthesis, a quarterly board-grade briefing, and a quarterly operational handoff. Tell us four areas you want tracked and we do the rest.">
+<meta property="og:title" content="Get started &middot; Shaping Tomorrow">
+<meta property="og:description" content="A custom intelligence programme that gives you a weekly weak-signal alert, a monthly synthesis, a quarterly board-grade briefing, and a quarterly operational handoff.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://decision-intel.shapingtomorrow.com/start/">
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; max-width: 860px; margin: 0 auto; padding: 0 24px; color: #031B41; line-height: 1.6; background: #FFFFFF; }
+  header.page-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 24px 0 16px; border-bottom: 1px solid #e5e8ed; }
+  header.page-header .brand { font-size: 0.95em; color: #5a6478; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+  header.page-header .brand-name { color: #031B41; }
+  header.page-header .nav a { color: #5a6478; text-decoration: none; font-size: 0.92em; margin-left: 22px; font-weight: 600; }
+  header.page-header .nav a:hover { color: #0382FC; }
+  h1 { font-size: 2.4em; margin: 36px 0 12px; color: #031B41; line-height: 1.18; letter-spacing: -0.01em; }
+  .tagline { font-size: 1.2em; color: #0382FC; font-weight: 600; margin: 0 0 22px; line-height: 1.45; }
+  .intro { font-size: 1.05em; color: #031B41; margin: 0 0 28px; }
+  h2 { font-size: 1.6em; color: #031B41; margin: 56px 0 14px; line-height: 1.25; letter-spacing: -0.005em; }
+  h3 { font-size: 1.15em; color: #031B41; margin: 24px 0 8px; }
+  p { margin: 0 0 16px; }
+  .section-lede { color: #2c3e50; font-size: 1.02em; margin: 0 0 24px; }
+
+  /* The four-artefact rhythm cards */
+  .rhythm-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 24px 0 8px; }
+  @media (max-width: 720px) { .rhythm-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 420px) { .rhythm-grid { grid-template-columns: 1fr; } }
+  .rhythm-card { border: 1px solid #e5e8ed; border-left-width: 4px; border-radius: 6px; padding: 16px 18px; background: #fafbfc; }
+  .rhythm-card.scan { border-left-color: #0382FC; }
+  .rhythm-card.tracker { border-left-color: #F59E0B; }
+  .rhythm-card.brief { border-left-color: #2e7d32; }
+  .rhythm-card.action { border-left-color: #7e57c2; }
+  .rhythm-card .cadence { font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; margin: 0 0 4px; }
+  .rhythm-card.scan .cadence { color: #0a4ea3; }
+  .rhythm-card.tracker .cadence { color: #8a5a00; }
+  .rhythm-card.brief .cadence { color: #1d5d27; }
+  .rhythm-card.action .cadence { color: #4527a0; }
+  .rhythm-card h3 { margin: 0 0 8px; font-size: 1.08em; }
+  .rhythm-card p { margin: 0 0 8px; font-size: 0.93em; color: #2c3e50; line-height: 1.5; }
+  .rhythm-card .meta { font-size: 0.82em; color: #5a6478; margin: 4px 0 0; }
+
+  /* Sample pack */
+  .samples-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 16px 0 8px; }
+  .sample-card { border: 1px solid #e5e8ed; border-radius: 6px; padding: 18px; background: white; transition: border-color 0.15s, box-shadow 0.15s; }
+  .sample-card:hover { border-color: #0382FC; box-shadow: 0 4px 12px rgba(3, 130, 252, 0.08); }
+  .sample-card .sample-type { font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: #5a6478; margin: 0 0 6px; }
+  .sample-card h3 { font-size: 1.05em; margin: 0 0 8px; }
+  .sample-card h3 a { color: #031B41; text-decoration: none; }
+  .sample-card h3 a:hover { color: #0382FC; }
+  .sample-card p { font-size: 0.92em; color: #2c3e50; margin: 0 0 10px; }
+  .sample-card .sample-readlink { font-size: 0.88em; color: #0382FC; font-weight: 600; text-decoration: none; }
+  .sample-card .sample-readlink:hover { text-decoration: underline; }
+
+  /* Onboarding steps */
+  .steps { counter-reset: step; margin: 24px 0 8px; padding: 0; list-style: none; }
+  .steps li { counter-increment: step; position: relative; padding: 14px 16px 14px 56px; margin: 0 0 10px; background: #f6f8fb; border-radius: 6px; }
+  .steps li::before { content: counter(step); position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; background: #0382FC; color: white; font-weight: 700; font-size: 0.92em; display: flex; align-items: center; justify-content: center; }
+  .steps li strong { color: #031B41; }
+  .steps li .step-detail { display: block; font-size: 0.92em; color: #5a6478; margin-top: 2px; }
+
+  /* Intake form */
+  .form-section { background: #f6f8fb; padding: 32px 28px; border-radius: 10px; margin: 32px 0 24px; }
+  .form-section h2 { margin-top: 0; font-size: 1.5em; }
+  .form-section .form-lede { font-size: 0.98em; color: #2c3e50; margin: 0 0 24px; }
+  form.intake-form .field { margin: 0 0 18px; }
+  form.intake-form label { display: block; font-weight: 600; color: #031B41; font-size: 0.95em; margin: 0 0 6px; }
+  form.intake-form label .required { color: #C2185B; }
+  form.intake-form .help { display: block; font-weight: 400; color: #5a6478; font-size: 0.86em; margin: 2px 0 8px; line-height: 1.45; }
+  form.intake-form input[type="text"],
+  form.intake-form input[type="email"],
+  form.intake-form input[type="tel"],
+  form.intake-form textarea,
+  form.intake-form select { width: 100%; padding: 10px 12px; border: 1px solid #cbd2db; border-radius: 5px; font-family: inherit; font-size: 0.96em; color: #031B41; background: white; }
+  form.intake-form input:focus,
+  form.intake-form textarea:focus,
+  form.intake-form select:focus { outline: 2px solid #0382FC; outline-offset: -1px; border-color: #0382FC; }
+  form.intake-form textarea { min-height: 110px; resize: vertical; line-height: 1.5; }
+  form.intake-form .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  form.intake-form .checkbox-group { display: flex; flex-wrap: wrap; gap: 14px 22px; margin-top: 4px; }
+  form.intake-form .checkbox-group label { font-weight: 400; font-size: 0.95em; display: flex; align-items: center; gap: 6px; cursor: pointer; }
+  form.intake-form .checkbox-group input[type="checkbox"] { margin: 0; }
+  form.intake-form button[type="submit"] { background: #0382FC; color: white; border: none; padding: 14px 32px; border-radius: 5px; font-size: 1.02em; font-weight: 600; cursor: pointer; font-family: inherit; }
+  form.intake-form button[type="submit"]:hover { background: #0269d4; }
+  form.intake-form .form-footer { margin: 18px 0 0; font-size: 0.86em; color: #5a6478; }
+
+  /* Alternative-contact strip below the form */
+  .alt-contact { margin: 12px 0 0; padding: 16px 20px; background: #fff; border: 1px dashed #cbd2db; border-radius: 6px; font-size: 0.93em; color: #2c3e50; }
+  .alt-contact a { color: #0382FC; font-weight: 600; text-decoration: none; }
+  .alt-contact a:hover { text-decoration: underline; }
+
+  /* Footer */
+  .page-footer { color: #5a6478; font-size: 0.85em; margin: 56px 0 32px; border-top: 1px solid #e5e8ed; padding-top: 22px; }
+  .page-footer a { color: #5a6478; }
+
+  @media (max-width: 600px) {
+    body { padding: 0 16px; }
+    h1 { font-size: 1.85em; }
+    h2 { font-size: 1.35em; }
+    .form-section { padding: 22px 18px; }
+    form.intake-form .field-row { grid-template-columns: 1fr; }
+    header.page-header .nav a { margin-left: 14px; font-size: 0.86em; }
+  }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+<div class="brand">Shaping&nbsp;<span class="brand-name">Tomorrow</span></div>
+<nav class="nav">
+<a href="https://decision-intel.shapingtomorrow.com/topics/">Samples</a>
+<a href="https://www.shapingtomorrow.com/">About</a>
+</nav>
+</header>
+
+<h1>A custom intelligence programme, built around four areas you want tracked.</h1>
+
+<p class="tagline">You see structural change coming before your competitors do, in a rhythm that fits how your board and operating team actually consume information.</p>
+
+<p class="intro">Most foresight reports arrive in heavy quarterly chunks no one reads end-to-end. We do it the other way around: a weekly weak-signal alert, a monthly synthesis, a quarterly board-grade briefing, and an end-of-quarter operational handoff. The reading load is steady and small. The strategic clarity compounds.</p>
+
+<h2>How it works</h2>
+
+<p class="section-lede">A typical programme tracks four areas of change you care about (technology shifts, regulatory pressure, customer behaviour, competitive moves, supply-chain risk, anything). The cadence below repeats every quarter; the depth deepens as memory accumulates across cycles.</p>
+
+<div class="rhythm-grid">
+  <div class="rhythm-card scan">
+    <p class="cadence">Weekly</p>
+    <h3>Signal Scan</h3>
+    <p>One weak signal beneath the headlines. The non-obvious development we think you should pay attention to this week.</p>
+    <p class="meta">~1,300 words &middot; 5-min read</p>
+  </div>
+  <div class="rhythm-card tracker">
+    <p class="cadence">Monthly</p>
+    <h3>Change Tracker</h3>
+    <p>A synthesis of what shifted across your tracked areas this month, drawing on the month's scans plus any external developments worth flagging.</p>
+    <p class="meta">~1,200 words &middot; 5-min read</p>
+  </div>
+  <div class="rhythm-card brief">
+    <p class="cadence">Quarterly</p>
+    <h3>Decision Intelligence Briefing</h3>
+    <p>A board-grade briefing covering all four of your tracked areas as themes: signal clusters, leadership snapshots, scenario matrix, strategic implications.</p>
+    <p class="meta">~6,000 words &middot; 20-min read</p>
+  </div>
+  <div class="rhythm-card action">
+    <p class="cadence">End of quarter</p>
+    <h3>Action Triggers</h3>
+    <p>One per topic, after the quarterly briefing ships. The operational handoff: what your team should watch, prepare for, or decide on next quarter.</p>
+    <p class="meta">~1,800 words &middot; 7-min read</p>
+  </div>
+</div>
+
+<p>Every claim in every deliverable passes through six audit gates before it leaves us, including a verbatim-quote provenance check that confirms every quoted source phrase actually appears on the live source page. That is a quality bar most foresight providers do not match. It is the reason your board can act on what we ship.</p>
+
+<h2>What happens next</h2>
+
+<p class="section-lede">Four touchpoints, roughly two weeks from your first form submission to the first Signal Scan landing in your inbox.</p>
+
+<ol class="steps">
+  <li>
+    <strong>You submit the form below.</strong>
+    <span class="step-detail">We read it the same day and reply within one business day to confirm fit and propose a Discovery call time.</span>
+  </li>
+  <li>
+    <strong>Discovery call (60 minutes).</strong>
+    <span class="step-detail">A short, structured conversation where we help you define the four areas your programme should track. You think out loud, we listen and group.</span>
+  </li>
+  <li>
+    <strong>We send back a written programme proposal.</strong>
+    <span class="step-detail">Two pages: your four areas translated into defined topics, a 12-month calendar showing every scan, tracker, briefing and Action Triggers date, plus distribution and branding confirmations. You sign off or ask for edits.</span>
+  </li>
+  <li>
+    <strong>Your programme begins the following Monday.</strong>
+    <span class="step-detail">First Signal Scan arrives that week. First Change Tracker at the end of the month. First Decision Intelligence briefing at the natural quarter end.</span>
+  </li>
+</ol>
+
+<div class="form-section" id="get-started">
+<h2>Start the conversation</h2>
+<p class="form-lede">Tell us a little about your organisation and the areas you would like a custom intelligence programme to track. There are no compulsory long answers; brief is fine. We will follow up within one business day.</p>
+
+<!--
+  Form submits via standard HTML POST. Wire the `action` attribute below
+  to whichever endpoint you use to receive intake submissions
+  (Formspree, Web3Forms, your own backend, etc.). The form fields use
+  semantic names so any standard handler will receive them cleanly.
+-->
+<form class="intake-form" method="post" action="/api/intake-submit" enctype="application/x-www-form-urlencoded">
+
+  <div class="field">
+    <label for="name">Your name <span class="required">*</span></label>
+    <input type="text" id="name" name="name" required autocomplete="name">
+  </div>
+
+  <div class="field field-row">
+    <div>
+      <label for="role">Your role or title <span class="required">*</span></label>
+      <input type="text" id="role" name="role" required autocomplete="organization-title">
+    </div>
+    <div>
+      <label for="company">Organisation <span class="required">*</span></label>
+      <input type="text" id="company" name="company" required autocomplete="organization">
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="email">Email <span class="required">*</span></label>
+    <input type="email" id="email" name="email" required autocomplete="email">
+  </div>
+
+  <div class="field">
+    <label for="areas">Four areas of change you would like tracked <span class="required">*</span></label>
+    <span class="help">In a few lines each, name the strategic shifts you want a programme to follow. Examples: regulatory pressure on industrial chemicals; battery and EV supply-chain reconfiguration; competitor moves in adjacent markets; workforce and capability gaps. Brief is fine; we will help you sharpen them on the call.</span>
+    <textarea id="areas" name="areas" required placeholder="Use your own words. We will help you sharpen and group on the discovery call."></textarea>
+  </div>
+
+  <div class="field">
+    <label for="strategic_question">What strategic question would this help you answer</label>
+    <span class="help">Optional, one line. The sharper the question, the sharper our Preview. Examples: "Should we divest from EU asbestos-replacement chemistry by 2028?", "Where do we site the next data centre?", "Is our PMI pricing posture still defensible in three of our five markets?". A vague hunch is fine if that is where you are.</span>
+    <input type="text" id="strategic_question" name="strategic_question" placeholder="The decision this programme would help you take">
+  </div>
+
+  <div class="field">
+    <label for="audience">Who else would read this</label>
+    <span class="help">Names, roles, what decisions they make. Helps us calibrate voice and depth.</span>
+    <textarea id="audience" name="audience" placeholder="e.g. CEO, Chair, COO, Head of R&amp;D, board of 6"></textarea>
+  </div>
+
+  <div class="field">
+    <label for="languages">Languages</label>
+    <span class="help">English is default. Bilingual delivery available (we currently ship English plus Danish, Thai, German, French, Korean; others on request).</span>
+    <input type="text" id="languages" name="languages" placeholder="English; Danish">
+  </div>
+
+  <div class="field">
+    <label for="existing">Anything you already get and do not want us to duplicate</label>
+    <span class="help">Optional. Helps us position our work alongside what you already receive from internal teams or other providers.</span>
+    <textarea id="existing" name="existing"></textarea>
+  </div>
+
+  <div class="field">
+    <label for="notes">Any questions or notes for us</label>
+    <textarea id="notes" name="notes"></textarea>
+  </div>
+
+  <div class="field">
+    <button type="submit">Send to Shaping Tomorrow</button>
+  </div>
+
+  <p class="form-footer">By submitting, you agree we can contact you about your enquiry. We do not share your details with anyone else.</p>
+</form>
+
+<div class="alt-contact">
+  Prefer to start with a direct email? Write to <a href="mailto:matthew.richardson@shapingtomorrow.com?subject=Custom%20intelligence%20programme%20enquiry">matthew.richardson@shapingtomorrow.com</a> or book a 30-minute call at <a href="https://calendly.com/shapingtomorrow/30min" target="_blank" rel="noopener">calendly.com/shapingtomorrow/30min</a>.
+</div>
+</div>
+
+<footer class="page-footer">
+&copy; Shaping Tomorrow. Strategic foresight, sourced rigorously, audited end-to-end. <a href="https://www.shapingtomorrow.com/">shapingtomorrow.com</a> &middot; <a href="https://decision-intel.shapingtomorrow.com/">decision-intel.shapingtomorrow.com</a>
+</footer>
+
+</body>
+</html>

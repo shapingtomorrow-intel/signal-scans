@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T15:24:27Z",
+  "generated": "2026-06-29T15:28:08Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -13,7 +13,7 @@
       "latest_dates": {
         "scan": "2026-06-24",
         "tracker": "2026-06-05",
-        "di": "2026-06-29",
+        "di": "2026-07-02",
         "cc": "2026-07-03"
       },
       "history": [
@@ -34,11 +34,11 @@
           "posture": ""
         },
         {
-          "date": "2026-06-29",
+          "date": "2026-07-02",
           "kind": "brief",
           "type": "Decision Intelligence",
           "title": "Defence Meets Industrial Reality",
-          "summary": "Six weeks ago the question was the 1.5% security band. Today it is whether European industry can absorb it. Four shifts since the May cycle that should be on the board's next agenda: Six weeks ago...",
+          "summary": "The May briefing called the 1.5% security band the cycle's commercial spine. Six weeks on, the spending has cleared, but the supplier base, mid-tier components, procurement law and skilled-welder pool to absorb it have not.",
           "posture": ""
         },
         {

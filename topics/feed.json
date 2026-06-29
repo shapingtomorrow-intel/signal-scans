@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T09:53:42Z",
+  "generated": "2026-06-29T14:33:29Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -216,6 +216,111 @@
           "type": "Signal Scan",
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "defence-security-resilience",
+      "name": "Defence, Security & Resilience",
+      "tagline": "The mandate spreading from militaries to firms.",
+      "description": "How rearmament, dual-use technology, hybrid threats and whole-of-society resilience are reshaping the operating environment for private operators of critical infrastructure.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
+      "latest_read": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
+      "latest_dates": {
+        "scan": "2026-06-24",
+        "tracker": "2026-06-05",
+        "di": "2026-06-29",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-06-29",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Defence Meets Industrial Reality",
+          "summary": "&#8364;38bn SAFE loans approved (Jan), &#8364;1.5bn EDIP work programme adopted (Mar), German Procurement Acceleration Act passed (Jan), French PLF 2026 +&#8364;6.7bn defence uplift, all in H1 2026.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire",
+          "summary": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
+          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
+          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe's rearmament accelerates as the US security guarantee fades",
+          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
+          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
+          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
+          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vulnerability Triage Era &mdash; Signal Scan",
+          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Drones as First Responders",
+          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Hard Power, Soft Frontiers",
+          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
           "posture": ""
         }
       ]
@@ -894,103 +999,6 @@
           "type": "Signal Scan",
           "title": "The Grid Bypass",
           "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "defence-security-resilience",
-      "name": "Defence, Security & Resilience",
-      "tagline": "The mandate spreading from militaries to firms.",
-      "description": "How rearmament, dual-use technology, hybrid threats and whole-of-society resilience are reshaping the operating environment for private operators of critical infrastructure.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
-      "latest_read": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
-      "latest_dates": {
-        "scan": "2026-06-24",
-        "tracker": "2026-06-05",
-        "di": "2026-05-13",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire",
-          "summary": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
-          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
-          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-05",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe's rearmament accelerates as the US security guarantee fades",
-          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
-          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
-          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
-          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Vulnerability Triage Era &mdash; Signal Scan",
-          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Drones as First Responders",
-          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-13",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Hard Power, Soft Frontiers",
-          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
           "posture": ""
         }
       ]

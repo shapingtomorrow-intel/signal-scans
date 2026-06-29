@@ -14,7 +14,7 @@
   .lede { font-size: 1.07em; color: #2c3e50; margin: 0 0 1.6em; max-width: 760px; }
   .source-bar { background: #f6f8fc; border: 1px solid #e1e6ee; border-radius: 8px; padding: 14px 18px; margin: 0 0 28px; font-size: 0.92em; }
   .source-bar .label { display: block; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.06em; color: #5a6478; font-weight: 700; margin: 0 0 8px; }
-  .source-bar .chip { display: inline-flex; align-items: center; padding: 3px 11px; border-radius: 12px; margin: 0 8px 6px 0; font-size: 0.88em; font-weight: 600; }
+  .source-bar .chip { display: flex; align-items: center; padding: 5px 12px; border-radius: 12px; margin: 0 0 6px; font-size: 0.88em; font-weight: 600; width: fit-content; max-width: 100%; }
   .source-bar .chip .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; }
   .source-bar .chip.scan { background: #eaf3ff; color: #0a4ea3; }
   .source-bar .chip.tracker { background: #fff2dc; color: #8a5a00; }
@@ -33,6 +33,23 @@
   .item .item-trace.scan { background: #eaf3ff; color: #0a4ea3; }
   .item .item-trace.tracker { background: #fff2dc; color: #8a5a00; }
   .item .item-trace.brief { background: #e6f3e8; color: #1d5d27; }
+
+  /* In-item readability scaffolding: sub-labels, evidence anchors, micro-rows */
+  .item .sub-label { display: block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5a6478; margin: 14px 0 2px; }
+  .item .sub-label:first-of-type { margin-top: 8px; }
+  .item .sub-block { margin: 0 0 4px; font-size: 0.95em; color: #2c3e50; }
+  .item ul.evidence-list { margin: 6px 0 0; padding-left: 20px; font-size: 0.92em; color: #2c3e50; }
+  .item ul.evidence-list li { margin-bottom: 4px; line-height: 1.5; }
+  .item .anchor-strip { display: flex; flex-wrap: wrap; gap: 18px; margin: 10px 0 6px; padding: 8px 12px; background: #f6f8fc; border-radius: 6px; font-size: 0.85em; }
+  .item .anchor-strip .anchor { display: inline-flex; align-items: baseline; gap: 6px; }
+  .item .anchor-strip .anchor .label { font-weight: 700; color: #5a6478; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85em; }
+  .item .anchor-strip .anchor .value { color: #031B41; font-weight: 600; }
+  .item .posture-row { display: flex; align-items: center; gap: 10px; margin: 12px 0 0; padding: 8px 12px; background: #fbfbfc; border-left: 3px solid #5a6478; border-radius: 0 6px 6px 0; }
+  .item .posture-row.decide { border-left-color: #c62828; }
+  .item .posture-row.prepare { border-left-color: #F59E0B; }
+  .item .posture-row.monitor { border-left-color: #5a6478; }
+  .item .posture-row p { margin: 0; font-size: 0.93em; color: #2c3e50; }
+
   .section.warnings .item { border-left-color: #c62828; }
   .section.warnings h2 { color: #c62828; }
   .section.assumptions .item { border-left-color: #1a237e; }
@@ -75,16 +92,16 @@
 
 <div class="source-bar">
 <span class="label">Drawing on</span>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-09-cost-driver-first-ai/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 9 May 2026 &middot; 'Why "We Use AI" Is About to Stop Winning Contractor Tenders'</a>
-<a class="chip brief" href="https://decision-intel.shapingtomorrow.com/si/ai-org-chart/" target="_blank" rel="noopener"><span class="dot"></span>Decision Intelligence, 12 May 2026 &middot; 'When AI Joins the Org Chart'</a>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-16-worlds-for-ai-pivot/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 16 May 2026 &middot; 'Worlds for Machines'</a>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-agent-identity-rails/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 18 May 2026 &middot; 'Identity Before Capability'</a>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 23 May 2026 &middot; 'The Underwriting Brake'</a>
-<a class="chip tracker" href="https://decision-intel.shapingtomorrow.com/trends/ai-automation/2026-06-04/tracker.html" target="_blank" rel="noopener"><span class="dot"></span>Change Tracker, 4 June 2026 &middot; 'The execution layer goes live as the rulebook stands down'</a>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-30-ai-offbalance-financing/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 30 May 2026 &middot; 'Off the Books: AI’s Build-Out as Financing Risk'</a>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 13 June 2026 &middot; 'The Inference-Cost Inversion'</a>
-<a class="chip scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-20-ai-value-capture-divide/scan.html" target="_blank" rel="noopener"><span class="dot"></span>Signal Scan, 20 June 2026 &middot; 'The Value-Capture Divide'</a>
-<a class="chip brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener"><span class="dot"></span>Decision Intelligence, 25 June 2026 &middot; 'After the Copilot: When AI Starts Signing, Spending and Failing'</a>
+<span class="chip brief"><span class="dot"></span>Decision Intelligence, 25 June 2026 &middot; 'After the Copilot: When AI Starts Signing, Spending and Failing'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 20 June 2026 &middot; 'The Value-Capture Divide'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 13 June 2026 &middot; 'The Inference-Cost Inversion'</span>
+<span class="chip tracker"><span class="dot"></span>Change Tracker, 4 June 2026 &middot; 'The execution layer goes live as the rulebook stands down'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 30 May 2026 &middot; 'Off the Books: AI’s Build-Out as Financing Risk'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 23 May 2026 &middot; 'The Underwriting Brake'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 18 May 2026 &middot; 'Identity Before Capability'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 16 May 2026 &middot; 'Worlds for Machines'</span>
+<span class="chip brief"><span class="dot"></span>Decision Intelligence, 12 May 2026 &middot; 'When AI Joins the Org Chart'</span>
+<span class="chip scan"><span class="dot"></span>Signal Scan, 9 May 2026 &middot; 'Why "We Use AI" Is About to Stop Winning Contractor Tenders'</span>
 </div>
 
 <!-- Figure: thesis visualisation -->
@@ -164,27 +181,75 @@
 
 <!-- begin: warnings_items -->
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~5 weeks <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-agent-identity-rails/scan.html" target="_blank" rel="noopener">Signal Scan, 18 May</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
+<p class="item-meta">Speed of consensus catch-up: ~5 weeks <span class="item-trace scan">Signal Scan, 18 May</span> <span class="item-trace brief">DI cycle 2</span></p>
 <h3>Agent identity, not model capability, decides which AI is allowed to act on whose behalf</h3>
-<p>The 18 May Signal Scan named the agent-identity-and-authorization stack (NIST AI Agent Standards Initiative, the NCCoE concept paper, OpenID Foundation's federal RFI response, Okta and Microsoft Entra agent-ID releases) as the rail that would decide which agents got to act on whose behalf. Five weeks later the 25 June briefing recorded the consensus catch-up: Singapore IMDA's January 2026 Model Governance Framework, the OECD's February 2026 paper, the IMF's April 2026 note on agentic payments and Mastercard's all-European-issuers Agent Pay enablement on 2 June 2026 all treat agent identity as a procurement, regulatory and settlement primitive. Cycle 2 elevates this to a Decide posture; the question is not what an agent can do, it is whether it will be allowed to do it.</p>
+
+<span class="sub-label">The early read &middot; 18 May</span>
+<p class="sub-block">The Signal Scan named the agent-identity-and-authorization stack as the rail that would decide which agents got to act on whose behalf: NIST AI Agent Standards Initiative, the NCCoE concept paper, OpenID Foundation's federal RFI response, Okta and Microsoft Entra agent-ID releases.</p>
+
+<span class="sub-label">What hardened by 25 June</span>
+<ul class="evidence-list">
+<li><strong>Singapore IMDA</strong>: January 2026 Model Governance design treats agent identity as a procurement primitive.</li>
+<li><strong>OECD</strong>: February 2026 paper.</li>
+<li><strong>IMF</strong>: April 2026 note on agentic payments.</li>
+<li><strong>Mastercard</strong>: all-European-issuers Agent Pay enablement, 2 June 2026.</li>
+</ul>
+
+<div class="posture-row decide"><span class="posture-pill decide">Decide</span><p>The question is not what an agent can do, it is whether it will be allowed to do it.</p></div>
 </div>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~4 weeks <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html" target="_blank" rel="noopener">Signal Scan, 23 May</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
+<p class="item-meta">Speed of consensus catch-up: ~4 weeks <span class="item-trace scan">Signal Scan, 23 May</span> <span class="item-trace brief">DI cycle 2</span></p>
 <h3>The binding constraint on agentic AI is insurability, not capability</h3>
-<p>The 23 May Signal Scan flagged the underwriting brake before it was widely read as the deployment gate: US carriers and the standards body for commercial general liability were already inserting AI exclusions into casualty, D&amp;O, E&amp;O and fiduciary lines, while only a thin affirmative-cover market was filling the gap. A month later the 25 June briefing confirmed the brake had hardened: roughly 82% of US P&amp;C policies now carry Verisk/ISO generative-AI exclusion endorsements, the Lloyd's Market Association launched its AI Adoption Toolkit on 23 April 2026, captive practitioners (Marsh, Hylant, Milliman, Iowa Insurance Division) are absorbing the layers commercial insurers will not write, and D&amp;O carriers are probing board-level AI governance at renewal. Cycle 2 elevates this to a Decide posture for any operator deploying AI in the credit, claims, contracting or trading perimeter.</p>
+
+<span class="sub-label">The early read &middot; 23 May</span>
+<p class="sub-block">The Signal Scan flagged the underwriting brake before it was widely read as the deployment gate. US carriers and the standards body for commercial general liability were already inserting AI exclusions into casualty, D&amp;O, E&amp;O and fiduciary lines, while only a thin affirmative-cover market was filling the gap.</p>
+
+<span class="sub-label">What hardened by 25 June</span>
+<ul class="evidence-list">
+<li>Roughly <strong>82% of US P&amp;C policies</strong> now carry Verisk/ISO generative-AI exclusion endorsements.</li>
+<li><strong>Lloyd's Market Association</strong>: AI Adoption Toolkit launched 23 April 2026.</li>
+<li><strong>Captive practitioners</strong> (Marsh, Hylant, Milliman, Iowa Insurance Division) are absorbing the layers commercial insurers will not write.</li>
+<li><strong>D&amp;O carriers</strong> are probing board-level AI governance at renewal.</li>
+</ul>
+
+<div class="posture-row decide"><span class="posture-pill decide">Decide</span><p>For any operator deploying AI in the credit, claims, contracting or trading perimeter.</p></div>
 </div>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~3 weeks <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-30-ai-offbalance-financing/scan.html" target="_blank" rel="noopener">Signal Scan, 30 May</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
+<p class="item-meta">Speed of consensus catch-up: ~3 weeks <span class="item-trace scan">Signal Scan, 30 May</span> <span class="item-trace brief">DI cycle 2</span></p>
 <h3>Hyperscaler balance-sheet strength is the wrong place to look for AI financing risk</h3>
-<p>The 30 May Signal Scan caught what BIS Bulletin No 120 (7 January 2026) had quietly named but the wider market had not yet absorbed: a growing share of the AI build-out has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases that published debt figures do not reflect. The IMF, FSB, ECB and Bank of England flagged the concentration between February and May 2026; the 25 June briefing records BIS Bulletin 120's warning that AI-related investment now exceeds 1% of US GDP and that outstanding private credit to AI firms is projected at USD 300 to 600 billion by 2030. A disappointing AI-revenue print would no longer be only a tech-equity correction; it would land on insurers, pension funds and a private-credit book several times the visible bank exposure. Cycle 2 holds this as a Prepare posture for CFOs and asset allocators.</p>
+
+<span class="sub-label">The early read &middot; 30 May</span>
+<p class="sub-block">The Signal Scan caught what BIS Bulletin No 120 (7 January 2026) had quietly named but the wider market had not yet absorbed: a growing share of the AI build-out has migrated off balance sheet into SPVs, private credit and residual-value-guaranteed leases that published debt figures do not reflect.</p>
+
+<span class="sub-label">What hardened by 25 June</span>
+<ul class="evidence-list">
+<li><strong>IMF, FSB, ECB and Bank of England</strong> flagged the concentration between February and May 2026.</li>
+<li><strong>BIS Bulletin 120</strong>: AI-related investment now exceeds 1% of US GDP.</li>
+<li><strong>Outstanding private credit to AI firms</strong>: projected at $300bn to $600bn by 2030.</li>
+</ul>
+
+<span class="sub-label">Why it matters</span>
+<p class="sub-block">A disappointing AI-revenue print has stopped being only a tech-equity correction. It would land on insurers, pension funds and a private-credit book several times the visible bank exposure.</p>
+
+<div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>For CFOs and asset allocators.</p></div>
 </div>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: still pre-consensus <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html" target="_blank" rel="noopener">Signal Scan, 13 June</a></p>
+<p class="item-meta">Speed of consensus catch-up: still pre-consensus <span class="item-trace scan">Signal Scan, 13 June</span></p>
 <h3>Cheaper tokens are producing higher AI bills, not lower ones</h3>
-<p>The 13 June Signal Scan surfaced the inference-cost inversion before consensus framing has caught up: per-token prices are collapsing (the 'LLMflation' narrative) but agentic and reasoning workloads consume tokens faster than prices fall, so total inference spend on a useful task is rising rather than falling. This is the unit-economics counterpart to the underwriting brake: the consensus narrative is deflation, the invoice is inflation. Cycle 2 does not yet carry this directly, which is the point: the cycle's CFO-facing capex stress-test (SI 4 in the May briefing) was sized around a falling marginal cost. The disconfirming signal is the enterprise invoice. Posture: Prepare, with the trigger of the first frontier-lab earnings call naming agentic-workload cost inflation explicitly.</p>
+
+<span class="sub-label">The early read &middot; 13 June</span>
+<p class="sub-block">The Signal Scan surfaced the inference-cost inversion before consensus framing caught up. Per-token prices are collapsing (the "LLMflation" narrative), but agentic and reasoning workloads consume tokens faster than prices fall, so total inference spend on a useful task is rising rather than falling.</p>
+
+<span class="sub-label">The pattern</span>
+<p class="sub-block">This is the unit-economics counterpart to the underwriting brake. The consensus narrative is deflation; the enterprise invoice is inflation.</p>
+
+<span class="sub-label">Why it matters now</span>
+<p class="sub-block">The May briefing's CFO-facing capex stress-test (SI 4) was sized around falling marginal cost. The disconfirming signal is the enterprise invoice.</p>
+
+<div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>Trigger to escalate: the first frontier-lab earnings call naming agentic-workload cost inflation explicitly.</p></div>
 </div>
 <!-- end: warnings_items -->
 </section>
@@ -198,31 +263,91 @@
 <div class="item">
 <p class="item-meta">Shift 1 of 5</p>
 <h3>"AI is moving from tool to colleague to manager-of-tasks"</h3>
-<p>This was the May briefing's spine, held inside the org-chart frame. The June briefing's evidence sharpens it: the agent has moved past joining the org chart and started becoming the counterparty itself. IMDA, the IMF, the OECD, UNCITRAL, the BIS, Visa and Mastercard have all moved within five months to build identity, authentication, settlement and contract law around agent-initiated transactions. The forward-thesis implication: an organisation can have a perfectly clean agent operating model and still be unprepared for the question of who answers when the agent signs.</p>
+
+<span class="sub-label">May briefing held</span>
+<p class="sub-block">The cycle's spine, held inside the org-chart frame: AI graduating from tool through colleague to manager-of-tasks.</p>
+
+<span class="sub-label">25 June reads</span>
+<p class="sub-block">The agent has moved past joining the org chart and started becoming the counterparty itself. Five months of regulatory and payment-rails activity confirm it:</p>
+<ul class="evidence-list">
+<li>IMDA, OECD, IMF, UNCITRAL, BIS building identity, authentication, settlement and contract treatment.</li>
+<li>Visa and Mastercard wiring agent-initiated payments into card rails.</li>
+</ul>
+
+<span class="sub-label">Forward thesis</span>
+<p class="sub-block">An organisation can have a perfectly clean agent operating model and still be unprepared for the question of who answers when the agent signs.</p>
 </div>
 
 <div class="item">
 <p class="item-meta">Shift 2 of 5</p>
-<h3>"Verification is now a procurement capability, not a policy artefact" (cycle 1, SI 2)</h3>
-<p>Held by cycle 1 as a hard EU AI Act 2 August 2026 deadline, with the trust stack arriving on cue. The cycle's body of work confirms the procurement framing but adds a layer underneath: verification is now also an insurance procurement question. Roughly 82% of US P&amp;C policies carry generative-AI exclusion endorsements (Munich Re, March 2026), and the underwriter due-diligence questionnaire is operating as a parallel compliance regime, in many jurisdictions setting governance standards before any AI-specific statute lands. The procurement clause was the right artefact; it now sits inside a policy wording that may decline the cover.</p>
+<h3>"Verification is now a procurement capability, not a policy artefact"</h3>
+
+<span class="sub-label">May briefing held</span>
+<p class="sub-block">A hard EU AI Act 2 August 2026 deadline, with the trust stack arriving on cue and verification handled as a procurement clause.</p>
+
+<span class="sub-label">25 June reads</span>
+<p class="sub-block">The procurement framing is confirmed; a layer was missing underneath. Verification is now also an insurance procurement question.</p>
+<ul class="evidence-list">
+<li>Roughly <strong>82% of US P&amp;C policies</strong> carry generative-AI exclusion endorsements (Munich Re, March 2026).</li>
+<li>Underwriter due-diligence questionnaires now operate as a parallel compliance regime, in many jurisdictions setting governance standards before any AI-specific statute lands.</li>
+</ul>
+
+<span class="sub-label">Forward thesis</span>
+<p class="sub-block">The procurement clause was the right artefact. It now sits inside a policy wording that may decline the cover.</p>
 </div>
 
 <div class="item">
 <p class="item-meta">Shift 3 of 5</p>
 <h3>"Human-in-the-loop is the operating control"</h3>
-<p>Implicit in cycle 1's verification theme and in the cycle's reading of the EU AI Act. Refuted by the 25 June briefing's Theme 2: the Bank of England recorded firms saying human-in-the-loop is 'challenged by the rise of agentic AI'; the Fed, OCC and FDIC carved generative and agentic AI out of US model-risk guidance on 17 April 2026; IOSCO's 25 May 2026 Supervisory Toolkit notes member experiments using 'AI as a judge'; the FSB's 10 June 2026 consultation places board and senior-management accountability at the centre. The control model has reset from supervising what an agent does to governing what an agent is allowed to do. Any AI governance policy still anchored on human-in-the-loop describes the past, not the present.</p>
+
+<span class="sub-label">May briefing held</span>
+<p class="sub-block">Implicit in cycle 1's verification theme and in the cycle's reading of the EU AI Act: a human reviewing the agent's output is the operating control.</p>
+
+<span class="sub-label">25 June reads</span>
+<p class="sub-block">Refuted across four supervisory venues in two months:</p>
+<ul class="evidence-list">
+<li><strong>Bank of England</strong>: recorded firms saying human-in-the-loop is "challenged by the rise of agentic AI".</li>
+<li><strong>Fed, OCC, FDIC</strong>: carved generative and agentic AI out of US model-risk guidance, 17 April 2026.</li>
+<li><strong>IOSCO</strong>: 25 May 2026 Supervisory Toolkit notes member experiments using "AI as a judge".</li>
+<li><strong>FSB</strong>: 10 June 2026 consultation places board and senior-management accountability at the centre.</li>
+</ul>
+
+<span class="sub-label">Forward thesis</span>
+<p class="sub-block">The control model has reset from supervising what an agent does to governing what an agent is allowed to do. Any AI governance policy still anchored on human-in-the-loop describes the past, not the present.</p>
 </div>
 
 <div class="item">
 <p class="item-meta">Shift 4 of 5</p>
-<h3>"The $7.6 trillion AI capex envelope binds at hyperscaler free cash flow" (cycle 1, Theme 5)</h3>
-<p>Cycle 1's capex reckoning located the binding constraint at the hyperscaler income statement (FCF deficits, depreciation schedules, silicon useful life). Two cycle-2 evidence streams move the constraint elsewhere. The 30 May Signal Scan shows the financing layer has migrated off balance sheet into SPVs, private credit and residual-value-guaranteed leases held by insurers, pension funds and private-credit funds. The 25 June briefing's Theme 5 shows the physical layer is binding: NERC lifted its ten-year US summer peak forecast by 69% in a single revision, Germany's four TSOs are rationing 270 GW of grid-connection requests against ~94 GW of forecast 2037 need, and more than 50 US cities have enacted moratoria on new data-centre construction. The substation, not the spreadsheet, is the gate.</p>
+<h3>"The $7.6 trillion AI capex envelope binds at hyperscaler free cash flow"</h3>
+
+<span class="sub-label">May briefing held</span>
+<p class="sub-block">The capex reckoning located the binding constraint at the hyperscaler income statement: FCF deficits, depreciation schedules, silicon useful life.</p>
+
+<span class="sub-label">25 June reads</span>
+<p class="sub-block">Two evidence streams move the constraint elsewhere. The financing layer has migrated off balance sheet; the physical layer is binding.</p>
+<ul class="evidence-list">
+<li><strong>Financing layer</strong>: SPVs, private credit, residual-value-guaranteed leases held by insurers, pension funds and private-credit funds (30 May scan).</li>
+<li><strong>NERC</strong>: lifted its ten-year US summer peak forecast by 69% in a single revision.</li>
+<li><strong>Germany's four TSOs</strong>: rationing 270 GW of grid-connection requests against ~94 GW of forecast 2037 need.</li>
+<li><strong>50+ US cities</strong>: enacted moratoria on new data-centre construction.</li>
+</ul>
+
+<span class="sub-label">Forward thesis</span>
+<p class="sub-block">The substation, not the spreadsheet, is the gate.</p>
 </div>
 
 <div class="item">
 <p class="item-meta">Shift 5 of 5</p>
-<h3>"The AI haves and have-nots gap is a measurement lag" (cycle 1 counter-argument framing)</h3>
-<p>The May briefing presented the J-curve reading as a credible counter to the haves-and-have-nots distribution story. The 20 June Signal Scan sharpens the call: at near-saturation adoption, returns are pooling in roughly the fifth of firms that have rebuilt workflows around the technology, while the rest run pilots that never reach the income statement. Adoption has gone wide; the return on it has stayed narrow. The divide is scaling and value capture, not access. For boards, the forward thesis is that AI portfolios under-deliver not because the tools fail, but because the bolt-on integration pattern caps the return at the integration boundary.</p>
+<h3>"The AI haves and have-nots gap is a measurement lag"</h3>
+
+<span class="sub-label">May briefing held</span>
+<p class="sub-block">The J-curve reading: a credible counter to the haves-and-have-nots distribution story. Adoption was diffuse, returns would follow.</p>
+
+<span class="sub-label">25 June reads</span>
+<p class="sub-block">The 20 June Signal Scan sharpens the call. At near-saturation adoption, returns are pooling in roughly the fifth of firms that have rebuilt workflows around the technology. The rest run pilots that never reach the income statement. Adoption has gone wide; the return on it has stayed narrow. The divide is scaling and value capture, not access.</p>
+
+<span class="sub-label">Forward thesis</span>
+<p class="sub-block">AI portfolios under-deliver not because the tools fail, but because the bolt-on integration pattern caps the return at the integration boundary.</p>
 </div>
 <!-- end: assumptions_items -->
 </section>
@@ -234,27 +359,88 @@
 
 <!-- begin: actions_items -->
 <div class="item">
-<p class="item-meta"><span class="posture-pill decide">Decide</span> Action 1 <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
-<h3>Name a senior accountable owner for agentic AI and rewrite the governance policy from human-in-the-loop to outcome-based before 2 August 2026</h3>
-<p>Boards and General Counsel teams should treat the rewrite as a board-cycle item, not a compliance refresh. The Fed, OCC and FDIC have moved accountability onto firms; the FSB has placed it on boards and senior management; the EU AI Act takes full force on 2 August 2026 with its human-oversight rules intact. The evidence base in DI cycle 2's Theme 2 is now sufficient for a Decide call: name the senior accountable owner (distinct from the CIO, reporting to the board), and replace the human-in-the-loop language with objectives, guardrails, action logging and outcome thresholds. The cost of standing on a stale policy at the next supervisory engagement is materially higher than the cost of writing the new one now.</p>
+<p class="item-meta"><span class="posture-pill decide">Decide</span> Action 1 <span class="item-trace brief">DI cycle 2</span></p>
+<h3>Name a senior accountable owner for agentic AI and rewrite the governance policy from human-in-the-loop to outcome-based</h3>
+
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Owner</span><span class="value">Board / General Counsel</span></span>
+<span class="anchor"><span class="label">Deadline</span><span class="value">Before 2 August 2026</span></span>
+<span class="anchor"><span class="label">Driver</span><span class="value">EU AI Act full force</span></span>
+</div>
+
+<span class="sub-label">Why decide now</span>
+<p class="sub-block">The Fed, OCC and FDIC have moved accountability onto firms. The FSB has placed it on boards and senior management. The EU AI Act takes full force on 2 August 2026 with its human-oversight rules intact. Standing on a stale policy at the next supervisory engagement costs more than writing the new one now.</p>
+
+<span class="sub-label">The decision, in two moves</span>
+<ul class="evidence-list">
+<li>Name the senior accountable owner (distinct from the CIO, reporting to the board).</li>
+<li>Replace the human-in-the-loop language with objectives, guardrails, action logging and outcome thresholds.</li>
+</ul>
 </div>
 
 <div class="item">
-<p class="item-meta"><span class="posture-pill prepare">Prepare</span> Action 2 <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html" target="_blank" rel="noopener">Signal Scan, 23 May</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
-<h3>Re-examine every live AI deployment against the actual insurance map by end Q3 2026; stand up the captive route for layers commercial insurers will not write</h3>
-<p>The Chief Risk Officer and Group Risk function should treat the cycle's underwriting evidence as the binding gate on AI deployment, not a downstream compliance task. By end Q3 2026, every live or proposed AI deployment carrying material residual exposure should be tested against the current cyber, professional indemnity and D&amp;O wording and flagged where the policy no longer covers the loss. For operators at captive scale, the next FY27 insurance buying cycle is the window to absorb the excluded layers via difference-in-conditions wrappers; for sub-captive operators, the choice is between accepting the exclusion, switching carrier or restructuring the deployment to avoid the excluded fact pattern. The Prepare posture reflects that the insurable wording is still being written.</p>
+<p class="item-meta"><span class="posture-pill prepare">Prepare</span> Action 2 <span class="item-trace scan">Signal Scan, 23 May</span> <span class="item-trace brief">DI cycle 2</span></p>
+<h3>Re-examine every live AI deployment against the actual insurance map; stand up the captive route for excluded layers</h3>
+
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Owner</span><span class="value">CRO / Group Risk</span></span>
+<span class="anchor"><span class="label">Deadline</span><span class="value">End Q3 2026</span></span>
+<span class="anchor"><span class="label">Buying window</span><span class="value">Next FY27 insurance cycle</span></span>
+</div>
+
+<span class="sub-label">Why prepare now</span>
+<p class="sub-block">The cycle's underwriting evidence is the binding gate on AI deployment, not a downstream compliance task. The insurable wording is still being written; positioning now sets the cover available later.</p>
+
+<span class="sub-label">Preparing means three things</span>
+<ul class="evidence-list">
+<li>By end Q3 2026, test every live or proposed AI deployment carrying material residual exposure against the current cyber, PI and D&amp;O wording. Flag where the policy no longer covers the loss.</li>
+<li>For operators at captive scale: use the FY27 insurance buying cycle to absorb the excluded layers via difference-in-conditions wrappers.</li>
+<li>For sub-captive operators: choose between accepting the exclusion, switching carrier, or restructuring the deployment to avoid the excluded fact pattern.</li>
+</ul>
+
+<span class="sub-label">Trigger to escalate to Decide</span>
+<p class="sub-block">A material AI-related loss that triggers an exclusion dispute in the operator's own book, or in a comparable book in the same sector.</p>
 </div>
 
 <div class="item">
-<p class="item-meta"><span class="posture-pill prepare">Prepare</span> Action 3 <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-30-ai-offbalance-financing/scan.html" target="_blank" rel="noopener">Signal Scan, 30 May</a> <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html" target="_blank" rel="noopener">Signal Scan, 13 June</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
-<h3>CFOs rebuild the AI capex business case around physical-infrastructure dependency and inference-cost trajectory, not falling marginal cost</h3>
-<p>The CFO and CTO should treat the May briefing's AI-return stress test as superseded. Two pieces of cycle-2 evidence move the inputs. The 30 May Signal Scan and the 25 June briefing's Theme 5 together show physical infrastructure is the binding constraint on the three- to seven-year horizon: grid-connection queues run four to seven years, water-rights pushback is municipal-ban territory, and behind-the-meter generation triggers utility-classification risk. The 13 June Signal Scan on inference-cost inversion shows the per-task unit cost of agentic workloads is rising as token prices fall. By the FY27 planning round, every AI capex commitment above the materiality threshold should carry a named substation, a named water source and a named inference-cost trajectory by workload class, signed off by the CFO.</p>
+<p class="item-meta"><span class="posture-pill prepare">Prepare</span> Action 3 <span class="item-trace scan">Signal Scan, 30 May</span> <span class="item-trace scan">Signal Scan, 13 June</span> <span class="item-trace brief">DI cycle 2</span></p>
+<h3>CFOs rebuild the AI capex business case around physical-infrastructure dependency and inference-cost trajectory</h3>
+
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Owner</span><span class="value">CFO + CTO</span></span>
+<span class="anchor"><span class="label">Sign-off</span><span class="value">FY27 planning round</span></span>
+<span class="anchor"><span class="label">Horizon</span><span class="value">Three to seven years</span></span>
+</div>
+
+<span class="sub-label">Why prepare now</span>
+<p class="sub-block">Treat the May briefing's AI-return stress test as superseded. Two cycle-2 evidence streams move the inputs:</p>
+<ul class="evidence-list">
+<li><strong>Physical infrastructure is the binding constraint.</strong> Grid-connection queues run four to seven years; water-rights pushback is municipal-ban territory; behind-the-meter generation triggers utility-classification risk.</li>
+<li><strong>Inference-cost inversion.</strong> The per-task unit cost of agentic workloads is rising as token prices fall.</li>
+</ul>
+
+<span class="sub-label">Preparing means three things</span>
+<ul class="evidence-list">
+<li>By the FY27 planning round, every AI capex commitment above materiality carries a <strong>named substation</strong>.</li>
+<li>A <strong>named water source</strong>.</li>
+<li>A <strong>named inference-cost trajectory by workload class</strong>, signed off by the CFO.</li>
+</ul>
+
+<span class="sub-label">Trigger to escalate to Decide</span>
+<p class="sub-block">A planned data-centre programme rejected at the grid-connection stage, or an inference-cost overrun above the FY27 capex margin.</p>
 </div>
 
 <div class="item">
-<p class="item-meta"><span class="posture-pill monitor">Monitor</span> Action 4 <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-23-ai-underwriting-brake/scan.html" target="_blank" rel="noopener">Signal Scan, 23 May</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/ai-after-the-copilot/" target="_blank" rel="noopener">DI cycle 2</a></p>
+<p class="item-meta"><span class="posture-pill monitor">Monitor</span> Action 4 <span class="item-trace scan">Signal Scan, 23 May</span> <span class="item-trace brief">DI cycle 2</span></p>
 <h3>Watch the Lloyd's model agentic-AI wording and the open-versus-closed capability gap as the cycle-3 escalation trigger</h3>
-<p>Boards and Strategy functions should track two named milestones over the next six months: a Lloyd's Market Association model clause for insurable agentic AI, and Epoch AI's monthly capability index for the gap between best open-weight and best closed-proprietary models. Escalate this Monitor to Prepare if either: (a) the LMA publishes a sub-limited agentic-AI cyber wording by end-2026 (which would soften the underwriting brake and reopen capacity, reshaping SI 2); or (b) the open-versus-closed gap stays inside six months for three consecutive Epoch readings (which would confirm the post-moat reading of cycle 2's Theme 4 and force vendor renegotiation). Absent either trigger, hold posture and revisit at the next Action Triggers cycle.</p>
+
+<span class="sub-label">Two named markers for the next six months</span>
+<ul class="evidence-list">
+<li><strong>Lloyd's Market Association sub-limited agentic-AI cyber wording</strong>. Publication by end-2026 would soften the underwriting brake and reopen capacity, reshaping Strategic Implication 2.</li>
+<li><strong>Open-vs-closed capability gap (Epoch AI monthly index)</strong>. The gap staying inside six months for three consecutive readings would confirm the post-moat reading of Theme 4 and force vendor renegotiation.</li>
+</ul>
+
+<div class="posture-row monitor"><span class="posture-pill monitor">Monitor</span><p>Either trigger fires: escalate to Prepare. Absent either, hold posture and revisit at the next Action Triggers cycle.</p></div>
 </div>
 <!-- end: actions_items -->
 </section>

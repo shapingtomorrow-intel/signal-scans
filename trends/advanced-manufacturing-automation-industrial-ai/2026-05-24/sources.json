@@ -20,7 +20,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The J.P.Morgan Global Manufacturing PMI - a composite index produced by J.P.Morgan and S&P Global Market Intelligence in association with ISM and IFPSM - rose to a 44-month high of 51.9 in February, up from 50.9 in January.",
+    "verbatim_quote": "rose to a 44-month high of 51.9 in February, up from 50.9 in January.",
     "verbatim_list": null,
     "notes": "Tier 1: closely-watched primary survey data compiled by S&P Global with J.P.Morgan, ISM and IFPSM covering ~13,500 firms / 98% of global manufacturing value added. A 1.6-point jump in the investment-goods PMI is directly relevant to automation-equipment demand momentum."
   },
@@ -45,7 +45,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "In March 2026, compared with February 2026, seasonally adjusted industrial production increased by 0.2% in the euro area and by 0.8% in the EU, according to first estimates from Eurostat... In March 2026, compared with March 2025, industrial production decreased by 2.1% in the euro area and by 1.0% in the EU.",
+    "verbatim_quote": "industrial production decreased by 2.1% in the euro area and by 1.0% in the EU.",
     "verbatim_list": null,
     "notes": "Tier 1: official EU statistics. Provides the macro counterweight to robotics-installation growth - Europe's factory output is fading year-on-year, a key 'cooling' signal for a momentum tracker."
   },
@@ -220,7 +220,7 @@
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The VDMA Robotics + Automation expects sales to fall by 5% to EUR 14.1 billion in 2026. This is due to weak demand from key customer industries, geopolitical uncertainties and unfavorable economic conditions. The industry already recorded a 7% decline in sales in 2025.",
+    "verbatim_quote": "VDMA Robotics + Automation expects sales to fall by 5% to EUR 14.1 billion in 2026.",
     "verbatim_list": null,
     "notes": "Tier 3: established specialist trade press (Wiley-VCH industrial titles) reporting the VDMA Robotics + Automation Association's official 2026 forecast; carries the verbatim VDMA figures and an explicit machine-readable publication date. Used as a dated, verifiable proxy because the VDMA.eu article viewer renders its body and date only via client-side script. treat_directionally=true as the 2026 revenue figure is an association forecast."
   },

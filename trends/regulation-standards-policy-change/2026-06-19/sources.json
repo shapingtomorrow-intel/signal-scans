@@ -204,8 +204,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "As of January 5, 2026, the U.S. is the only country identified and formally published by the OECD as meeting the eligibility criteria",
-    "verbatim_list": null
+    "verbatim_quote": null,
+    "verbatim_list": null,
+    "notes": "verbatim_quote cleared 2026-06-30: source URL is a PDF (/content/dam/.../side-by-side-package.pdf) whose binary text stream is not readable by audit_verbatim_quote_provenance.py (the script fetches raw bytes, strips HTML tags, and substring-matches; PDF content streams are FlateDecode-encoded and never yield matchable text). Substantive claim ('US is the only jurisdiction the OECD recognises as qualifying as of 5 Jan 2026') is retained as faithful_summary; date_evidence and key_claim corroborate via websearch snippet. See audit_overrides.json for the paper trail."
   },
   {
     "topic": "Regulation, Standards and Policy Change",

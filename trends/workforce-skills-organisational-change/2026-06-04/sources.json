@@ -184,9 +184,10 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "I lost some sleep that night, thinking that our traditional laws of leadership, principles of leadership, do not apply to these agentic agents",
-    "verbatim_list": null
+    "claim_strength": "verbatim",
+    "verbatim_quote": "our traditional laws of leadership, principles of leadership, do not apply to these agentic agents",
+    "verbatim_list": null,
+    "notes": "Original verbatim_quote stitched across a 'he said' attribution break ('I lost some sleep that night,' he said, 'thinking that...'). Rewritten to a single contiguous 15-word span from the second half of Sysco's Bhatnagar's quote, which carries the analytical payload on agentic agents. Triaged by automated audit-triage agent, 2026-06-30."
   },
   {
     "topic": "Workforce, Skills and Organisational Change",

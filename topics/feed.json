@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T10:57:31Z",
+  "generated": "2026-06-30T11:12:20Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -93,7 +93,7 @@
           "date": "2026-05-19",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "The Vulnerability Triage Era &mdash; Signal Scan",
+          "title": "The Vulnerability Triage Era",
           "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
           "posture": ""
         },
@@ -198,7 +198,7 @@
           "date": "2026-05-19",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "Load Follows Generation &mdash; Signal Scan",
+          "title": "Load Follows Generation",
           "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
           "posture": ""
         },
@@ -650,7 +650,7 @@
           "date": "2026-05-19",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "The Anglo Mobility Reversal &mdash; Signal Scan",
+          "title": "The Anglo Mobility Reversal",
           "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
           "posture": ""
         },

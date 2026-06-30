@@ -48,7 +48,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The European Union has registered EUR 822 billion total losses in the period of 1980-2024, with 25% of these losses registered between 2021 and 2024. The report comes ahead of the European Commission's expected publication of a European Integrated Framework for Climate Resilience, due by the end of 2026. Only 16% of small municipalities have adaptation action plans, compared to 28% of larger ones.",
+    "verbatim_quote": "The European Union has registered EUR 822 billion total losses in the period of 1980-2024, with 25% of these losses registered between 2021 and 2024",
     "verbatim_list": null,
     "cluster": "Physical-risk repricing cools as resilience deadlines arrive"
   },
@@ -74,7 +74,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "Gas Power equipment backlog and slot reservation agreements grew from 83 to 100 GW; now anticipate reaching at least 110 GW by year-end 2026. In the quarter, our Electrification segment booked $2.4 billion in equipment orders to support data centers, more than all of last year.",
+    "verbatim_quote": "In the quarter, our Electrification segment booked $2.4 billion in equipment orders to support data centers, more than all of last year.",
     "verbatim_list": null,
     "cluster": "Delivery, not generation, now sets the pace"
   },
@@ -99,7 +99,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "Wind and solar facilities must either be placed in service by December 31, 2027, or begin construction within one year after enactment of the OBBB (by July 4, 2026). The Physical Work Test is the exclusive method for establishing that construction has begun on an applicable wind or solar facility before July 5, 2026.",
+    "verbatim_quote": "the Physical Work Test described in section 3.02 of this notice is the sole method that a taxpayer may use for these purposes",
     "verbatim_list": null,
     "cluster": "Washington compresses the near-term clean-energy window"
   },
@@ -124,7 +124,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "We anticipate that the 2026 Atlantic basin hurricane season will have somewhat below-normal activity. We are forecasting a below-average probability for major hurricane landfalls along the continental United States coastline and in the Caribbean.",
+    "verbatim_quote": "We are forecasting a below-average probability for major hurricane landfalls along the continental United States coastline and in the Caribbean.",
     "verbatim_list": null,
     "cluster": "Physical-risk repricing cools as resilience deadlines arrive"
   },
@@ -151,7 +151,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "今年一季度，全国可再生能源新增装机5893万千瓦，占新增装机的70%。其中，风电新增并网1577万千瓦，光伏发电新增并网4119万千瓦 (Q1 2026: 58.9 GW of new renewable capacity, 70% of all additions; 15.8 GW wind; 41.2 GW solar).",
+    "verbatim_quote": "今年一季度，全国可再生能源新增装机5893万千瓦，占新增装机的70%",
     "verbatim_list": null,
     "cluster": "Clean supply keeps scaling through the US policy turn"
   },
@@ -176,7 +176,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "Annual additions of energy storage, excluding pumped hydro, reached 112 gigawatts in 2025 - up 48% from 2024. 158 GW global energy storage annual additions forecast for 2026, excluding pumped hydro.",
+    "verbatim_quote": "Annual additions of energy storage, excluding pumped hydro, reached 112 gigawatts in 2025 - up 48% from 2024",
     "verbatim_list": null,
     "cluster": "Clean supply keeps scaling through the US policy turn"
   },
@@ -251,7 +251,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The coming decade will require technology companies to decide how nuclear fits into their energy strategies and grapple with the obligations that follow.",
+    "verbatim_quote": "Nuclear is a marathon. Signing up for the marathon does not move the sprint's finish line.",
     "verbatim_list": null,
     "cluster": "Clean supply keeps scaling through the US policy turn"
   },
@@ -276,7 +276,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "The Trump administration is making deals to pay offshore wind developers nearly US$2 billion in taxpayer money to walk away from energy projects.",
+    "verbatim_quote": "The department would pay the developers more than $2bn for withdrawing from the four leases and investing in oil and gas projects instead.",
     "verbatim_list": null,
     "cluster": "Washington compresses the near-term clean-energy window"
   },
@@ -301,7 +301,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The decision restores availability of the 5% Safe Harbor for wind and solar projects unless and until the IRS issues revised guidance or a court overturns the ruling on appeal. The ruling comes less than one month before the July 4, 2026 statutory deadline.",
+    "verbatim_quote": "The decision restores availability of the 5% Safe Harbor for wind and solar projects unless and until the IRS issues revised guidance or a court overturns the ruling on appeal.",
     "verbatim_list": null,
     "cluster": "Washington compresses the near-term clean-energy window"
   },
@@ -376,7 +376,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "Beginning-of-construction rules create urgency for solar and wind facilities to demonstrate physical work of a significant nature before July 5, 2026.",
+    "verbatim_quote": "To avoid the accelerated placed-in-service date of Dec. 31, 2027, taxpayers would need to demonstrate they started construction on or before July 4, 2026.",
     "verbatim_list": null,
     "cluster": "Washington compresses the near-term clean-energy window"
   }

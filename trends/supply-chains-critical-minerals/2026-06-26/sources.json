@@ -19,8 +19,8 @@
     "is_structural_anchor": true,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "for a remarkable 19 out of 20 important strategic minerals, China is the leading refiner, with an average market share of 70%. ... China’s dominance is even greater in the separation and refining stages, representing about 91% of global production ... This share has risen significantly to 94% today",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "for a remarkable 19 out of 20 important strategic minerals, China is the leading refiner, with an average market share of 70%",
     "verbatim_list": null
   },
   {
@@ -43,8 +43,8 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "Since 2020, nearly 100 new export measures have been introduced on critical energy transition minerals. These include 37 licensing requirements, 31 export taxes, 29 export bans and one export quota. ... China for 69% of rare earth mine production",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Since 2020, nearly 100 new export measures have been introduced on critical energy transition minerals. These include 37 licensing requirements, 31 export taxes, 29 export bans and one export quota.",
     "verbatim_list": null
   },
   {
@@ -163,8 +163,8 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "a $1.6 billion debt and equity investment package with the Department of Commerce (“CHIPS”) ... the U.S. Government would take a 10% stake in USA Rare Earth ... an equity stake for the U.S. Government of approximately 15% ... On January 14, 2026, President Trump issued a proclamation under Section 232 of the Trade Expansion Act of 1962 that directs U.S. negotiators to secure trade deals for processed critical minerals, with measures such as price floors",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "a $1.6 billion debt and equity investment package with the Department of Commerce",
     "verbatim_list": null
   },
   {
@@ -187,8 +187,8 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "China has added 10 United States-based companies to its export control list and barred government procurement from nearly 50 US companies ... The list of companies includes rare-earth mine operator MP Materials Corp, rare-earth magnet maker USA Rare Earths",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The list of companies includes rare-earth mine operator MP Materials Corp, rare-earth magnet maker USA Rare Earths",
     "verbatim_list": null
   },
   {
@@ -211,9 +211,10 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "The G7 said it would work toward a road map by the end of 2026. ... The East Asian country accounts for roughly 70 percent of global rare earth mining and about 90 percent of processing capacity.",
-    "verbatim_list": null
+    "claim_strength": "verbatim",
+    "verbatim_quote": "work toward a road map by the end of 2026",
+    "verbatim_list": null,
+    "notes": "Verbatim quote re-anchored 2026-06-30. Previous quote ('The East Asian country accounts for roughly 70 percent of global rare earth mining and about 90 percent of processing capacity.') was a verbatim sentence on the live page but the audit reported FAIL, and it supported no body-text claim (no body text uses the 70%/90% framing). New 41-char span is a clean contiguous substring of 'The G7 said it would work toward a road map by the end of 2026.', directly anchoring the body-text claim that 'At Evian the G7 pledged a standards-based-markets road map by end-2026'. No smart quotes, no em-dashes, no inline tags within the span; the surrounding 'G7' link sits outside the chosen substring."
   },
   {
     "tier": 3,
@@ -303,8 +304,8 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "the One Big Beautiful Act appropriated $2 billion to the NDS Transaction Fund ... The Trump Administration also announced a new initiative for a $12 billion critical minerals stockpile ... a $2.5 billion Strategic Resilience Reserve",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "the One Big Beautiful Act appropriated $2 billion to the NDS Transaction Fund",
     "verbatim_list": null
   }
 ]

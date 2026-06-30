@@ -17,8 +17,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "I have determined that it is necessary and appropriate to impose a 100 percent ad valorem duty rate on the import of patented pharmaceuticals and associated pharmaceutical ingredients; the ad valorem duty rate be 20 percent on imports produced by companies that have plans, approved by the Secretary, to onshore production; According to the Food and Drug Administration, as of 2025, approximately 53 percent of patented pharmaceutical products distributed domestically are produced outside the country.",
-    "verbatim_list": null
+    "verbatim_quote": "According to the Food and Drug Administration, as of 2025, approximately 53 percent of patented pharmaceutical products distributed domestically are produced outside the country.",
+    "verbatim_list": null,
+    "notes": "Previous verbatim_quote was stitched from three non-contiguous spans (clauses 7, 8 and paragraph 2 of the proclamation); replaced with a single contiguous span from paragraph 2."
   },
   {
     "topic": "Health, Life Sciences and Care Systems",
@@ -143,8 +144,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "Despite 90 new antibacterial agents being in preclinical or clinical development, as highlighted in WHO's 2025 antibacterial pipeline analysis, few clinical candidates target bacterial priority pathogens and even fewer are considered innovative.",
-    "verbatim_list": null
+    "verbatim_quote": "few clinical candidates target bacterial priority pathogens and even fewer are considered innovative",
+    "verbatim_list": null,
+    "notes": "Original quote shortened to a guaranteed contiguous tail-span after the audit fetcher failed to match the longer string (likely a normalisation edge case around the curly apostrophe in 'WHO's'); the shorter span verifies cleanly against the page body."
   },
   {
     "topic": "Health, Life Sciences and Care Systems",
@@ -164,8 +166,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "The pipeline of drugs aimed at tackling antimicrobial resistance has shrunk by 35 percent over the past five years, with just 60 projects in development from large research-based pharmaceutical companies in 2026, down from 92 in 2021.",
-    "verbatim_list": null
+    "verbatim_quote": "The antibiotic pipeline has shrunk 35 percent in five years",
+    "verbatim_list": null,
+    "notes": "Second triage 2026-06-30: the prior body-paragraph quote ('In 2026, just 60 projects...') is present verbatim in the article body but the audit fetcher reports FAIL on it on the user's machine (Euronews is fronted by a CDN that intermittently serves a bot-challenge interstitial to urllib's User-Agent, so the article body never reaches the matcher). Replaced with a 60-char ASCII-only span from the article's H2 subhead, which renders inside a clean <h2> with no inline tags and is also echoed in og:description/twitter:description, giving the matcher multiple chances to find it. Supports the same body-text claim (35% AMR pipeline shrinkage)."
   },
   {
     "topic": "Health, Life Sciences and Care Systems",
@@ -184,9 +187,10 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": "HHS has formally re-established ACIP's charter (again)—the April 6th Federal Register notice was withdrawn, and replaced with a new charter signed by HHS Secretary Robert F. Kennedy Jr. on May 19th. The revised charter removed some of the controversial language from the April iteration. It no longer explicitly calls out mRNA vaccines as a focus for vaccine safety reviews.",
-    "verbatim_list": null
+    "claim_strength": "verbatim",
+    "verbatim_quote": "It no longer explicitly calls out mRNA vaccines as a focus for vaccine safety reviews",
+    "verbatim_list": null,
+    "notes": "Previous verbatim_quote dropped the page's quotation marks around 'controversial' (paraphrase) and contained an em-dash; replaced with a single contiguous span from the same paragraph."
   },
   {
     "topic": "Health, Life Sciences and Care Systems",
@@ -248,8 +252,9 @@
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "verbatim",
-    "verbatim_quote": "The London-based startup announced Wednesday that it raised $2.1 billion in a new funding round led by existing investor Thrive Capital. The company now expects its first AI-designed drugs to enter clinical trials by the end of 2026.",
-    "verbatim_list": null
+    "verbatim_quote": "The London-based startup announced Wednesday that it raised $2.1 billion in a new funding round led by existing investor Thrive Capital.",
+    "verbatim_list": null,
+    "notes": "Previous verbatim_quote stitched two sentences that are several paragraphs apart on the page; replaced with the first sentence alone (single contiguous span)."
   },
   {
     "topic": "Health, Life Sciences and Care Systems",
@@ -290,7 +295,8 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "these measures could help improve the lives of the 1.5 million people employed in social care and the people they care for; The government recently announced £500 million funding for the first Fair Pay Agreement in social care in England; vacancy rates are still around three times higher than in the wider economy and recent progress is fragile.",
-    "verbatim_list": null
+    "verbatim_quote": "vacancy rates are still around three times higher than in the wider economy and recent progress is fragile",
+    "verbatim_list": null,
+    "notes": "Previous verbatim_quote stitched three separate spans (statement, Notes-to-editors, and quote attribution) joined by semicolons; replaced with a single contiguous span from the statement."
   }
 ]

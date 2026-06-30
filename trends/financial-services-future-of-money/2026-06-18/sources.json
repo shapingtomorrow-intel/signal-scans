@@ -70,8 +70,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The stablecoin market has demonstrated significant growth in 2025, with aggregate market capitalization reaching $317 billion as of April 6, 2026, representing a more than 50% growth since early 2025, despite flattening-out during the final quarter of 2025 and first quarter of 2026.",
-    "verbatim_list": null
+    "verbatim_quote": "The stablecoin market has demonstrated significant growth in 2025, with aggregate market capitalization reaching $317 billion as of April 6, 2026, representing a more than 50% growth since early 2025",
+    "verbatim_list": null,
+    "notes": "Quote shortened on 2026-06-30 audit triage: page text contains 'flattening- out' (stray space after hyphen) which the audit normaliser does not collapse, breaking the substring match. Shortened span ends before the troublesome word."
   },
   {
     "topic": "Financial Services and the Future of Money",
@@ -119,8 +120,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The stablecoin market currently stands at roughly $300 billion (CoinMarketCap) against $17.15 trillion in total deposits (Federal Reserve Release H.8 Table 4, Line 34); At baseline, full prohibition generates a $2.1 billion lending gain (0.017% of total loans).",
-    "verbatim_list": null
+    "verbatim_quote": "The stablecoin market currently stands at roughly $300 billion (CoinMarketCap) against $17.15 trillion in total deposits (Federal Reserve Release H.8 Table 4, Line 34), giving a baseline share of stablecoin around 1.7%.",
+    "verbatim_list": null,
+    "notes": "Quote replaced on 2026-06-30 audit triage: original was stitched from page 11 and page 13 of the PDF. Replaced with a single contiguous span from the Calibration section (page 11)."
   },
   {
     "topic": "Financial Services and the Future of Money",
@@ -215,8 +217,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "the Bank is proposing temporary holding limits of 20,000 pounds per coin for individuals and 10 million pounds for businesses (with an exemptions regime to allow the largest businesses to hold more if required).",
-    "verbatim_list": null
+    "verbatim_quote": "the Bank is proposing temporary holding limits of £20,000 per coin for individuals and £10 million for businesses (with an exemptions regime to allow the largest businesses to hold more if required).",
+    "verbatim_list": null,
+    "notes": "Quote restored on 2026-06-30 audit triage: original spelled the pound sign as the word 'pounds'. Replaced with literal pound-sign characters as they appear on the live page."
   },
   {
     "topic": "Financial Services and the Future of Money",
@@ -264,8 +267,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "Even if stablecoin supply were to reach Citigroup's bullish scenario of $4 trillion by 2030, total supply would remain small compared with the more than $72 trillion in projected global commercial deposits (excluding China).",
-    "verbatim_list": null
+    "verbatim_quote": "total supply would remain small compared with the more than $72 trillion in projected global commercial deposits (excluding China).",
+    "verbatim_list": null,
+    "notes": "Quote shortened on 2026-06-30 audit triage: original wrapped the page's inline link 'Citigroup's bullish scenario of $4 trillion by 2030' which broke substring matching after HTML strip. Shortened to the contiguous post-link span."
   },
   {
     "topic": "Financial Services and the Future of Money",
@@ -360,8 +364,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The filings build on BUIDL, BlackRock's first tokenized fund, which launched in March 2024 and now manages more than $2.5 billion across eight chains, including Ethereum, Solana, and Aptos.",
-    "verbatim_list": null
+    "verbatim_quote": null,
+    "verbatim_list": null,
+    "notes": "verbatim_quote cleared on 2026-06-30 audit triage: CoinDesk renders article body client-side (JS), so the audit fetcher returns an empty document and cannot verify any verbatim span. Body of the original quote was 'The filings build on BUIDL, BlackRock's first tokenized fund, which launched in March 2024 and now manages more than $2.5 billion across eight chains, including Ethereum, Solana, and Aptos.' Content is on the live page but not in the static HTML."
   },
   {
     "topic": "Financial Services and the Future of Money",
@@ -408,8 +413,9 @@
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "if stablecoin adoption reaches roughly four trillion dollars by 2030, deposits would therefore decline, resulting in $3.7 trillion in destroyed deposits.",
-    "verbatim_list": null
+    "verbatim_quote": "Deposits would have first risen by $300 billion then fallen by $4 trillion, so that's $3.7 trillion in destroyed deposits",
+    "verbatim_list": null,
+    "notes": "Quote replaced on 2026-06-30 audit triage: original paraphrased and stitched two spans of the BPI blog. Replaced with a single contiguous verbatim span from the System-Based Thinking section."
   },
   {
     "topic": "Financial Services and the Future of Money",
@@ -457,7 +463,8 @@
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "Building on its first stablecoin settlement pilots in early 2025, Visa has moved billions of dollars in stablecoins across VisaNet, with an annualized run rate of approximately $7 billion as of March 2026.",
+    "verbatim_quote": "moved billions of dollars in stablecoins across VisaNet, with an annualized run rate of approximately $7 billion as of March 2026.",
+    "notes": "Quote shortened on 2026-06-30 audit triage: the live page renders some 'Visa' tokens with the following space stripped (e.g. 'Visahas', 'Visais'), which breaks substring matching after HTML tag strip. Shortened span starts after the problematic 'Visa has' boundary.",
     "verbatim_list": null
   }
 ]

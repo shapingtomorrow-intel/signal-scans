@@ -17,6 +17,13 @@
   h1 { font-size: 2em; margin: 0 0 0.2em; color: #031B41; line-height: 1.15; }
   .tagline { font-size: 1.15em; color: #0382FC; font-weight: 600; margin: 0 0 0.6em; }
   .description { font-size: 1.02em; color: #031B41; max-width: 720px; margin: 0 0 1.6em; }
+  /* Intelligence-cycle explainer figure. Sits between the description and the deliverables timeline
+     so a prospect grasps the four-formats/three-clocks rhythm before scanning individual editions.
+     Heading uses "topic" (not "theme") to match the reader-facing terminology used across the site. */
+  .rhythm-heading { font-size: 1.05em; color: #031B41; margin: 20px 0 8px; font-weight: 700; }
+  .rhythm-figure { margin: 0 0 22px; padding: 14px 16px; background: #fbfbfc; border: 1px solid #e1e6ee; border-radius: 8px; }
+  .rhythm-figure svg { display: block; width: 100%; height: auto; max-width: 100%; }
+  .rhythm-figure figcaption { font-size: 0.85em; color: #5a6478; font-style: italic; margin: 10px 0 0; line-height: 1.5; }
   .legend { font-size: 0.85em; color: #5a6478; margin: 0 0 1.4em; }
   .legend span { display: inline-block; margin-right: 16px; }
   .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
@@ -96,6 +103,115 @@
 </header>
 <p class="tagline">How money is being rewired: rails, reserves and rulebooks.</p>
 <p class="description">Stablecoins, tokenised bank deposits, retail and wholesale CBDCs, agent-initiated payments, settlement-system change. What it means for treasury, payments, custody and counterparty risk.</p>
+<h2 class="rhythm-heading">How this topic gets tracked</h2><figure class="rhythm-figure"><svg viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Shaping Tomorrow intelligence cycle. Signal Scans run continuously every week (full-opacity dots through this cycle's weeks 1 to 12, then fading dots showing the rhythm continues into the next cycle). Change Trackers run continuously every four weeks (full-opacity dots at weeks 4, 8 and 12, then a fading dot at week 16 showing the rhythm continues). Decision Intelligence runs at the start of the cycle (week 1) and the end (week 13, which is also the start of the next cycle). Action Triggers is an end-of-cycle synthesis at the cycle boundary, analyst-triggered. Seventeen dashed lines fan up from every in-cycle dot (twelve Signal Scans, three Change Trackers, two Decision Intelligence briefings) to the Action Triggers dot, showing Action Triggers reads across every deliverable produced in the cycle.">
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="380" y="26" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#031B41" font-weight="700" text-anchor="middle">THE SHAPING TOMORROW INTELLIGENCE CYCLE</text>
+  <text x="380" y="44" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle">Four formats on three clocks. Signal Scans and Change Trackers are continuous; Decision Intelligence is quarterly; Action Triggers is analyst-triggered.</text>
+
+  <!-- Axes - Week 1 at x=240, Week 13 at x=570, each week = 27.5 px, axis extends to x=720 to show continuation into next cycle -->
+  <line x1="240" y1="290" x2="720" y2="290" stroke="#5a6478" stroke-width="1"/>
+
+  <!-- Cycle boundary marker (vertical dotted line between week 13 and continuation zone) -->
+  <line x1="585" y1="60" x2="585" y2="290" stroke="#c5cae9" stroke-width="1" stroke-dasharray="2 3" opacity="0.7"/>
+  <text x="585" y="56" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" font-style="italic" text-anchor="middle">cycle boundary</text>
+
+  <!-- Week labels -->
+  <text x="240" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 1</text>
+  <text x="350" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 5</text>
+  <text x="460" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 9</text>
+  <text x="570" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 13</text>
+  <text x="660" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle">next cycle &rarr;</text>
+  <text x="380" y="335" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle">one quarterly intelligence cycle, repeating</text>
+
+  <!-- Y axis label -->
+  <text x="40" y="170" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle" transform="rotate(-90, 40, 170)">depth of synthesis &rarr;</text>
+
+  <!-- Row 1: Signal Scan (bottom - atomic) - 12 weekly dots inside this cycle + 4 fading dots showing continuation -->
+  <text x="65" y="265" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0382FC" font-weight="700">Signal Scan</text>
+  <text x="65" y="278" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">every week &middot; continuous</text>
+  <line x1="240" y1="262" x2="720" y2="262" stroke="#eaf3ff" stroke-width="2"/>
+  <!-- This cycle (weeks 1-12) -->
+  <circle cx="240" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="268" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="295" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="323" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="350" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="378" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="405" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="433" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="460" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="488" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="515" cy="262" r="7" fill="#0382FC"/>
+  <circle cx="543" cy="262" r="7" fill="#0382FC"/>
+  <!-- Next cycle continuation (fading) - weeks 14, 15, 16, 17 -->
+  <circle cx="598" cy="262" r="7" fill="#0382FC" opacity="0.7"/>
+  <circle cx="625" cy="262" r="7" fill="#0382FC" opacity="0.5"/>
+  <circle cx="653" cy="262" r="7" fill="#0382FC" opacity="0.32"/>
+  <circle cx="680" cy="262" r="7" fill="#0382FC" opacity="0.18"/>
+  <text x="710" y="266" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0382FC" opacity="0.55">&hellip;</text>
+
+  <!-- Row 2: Change Tracker - weeks 4, 8, 12 + week 16 continuation -->
+  <text x="65" y="206" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#F59E0B" font-weight="700">Change Tracker</text>
+  <text x="65" y="219" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">every 4 weeks &middot; continuous</text>
+  <line x1="240" y1="200" x2="720" y2="200" stroke="#fff2dc" stroke-width="2"/>
+  <!-- This cycle (weeks 4, 8, 12) -->
+  <circle cx="323" cy="200" r="9" fill="#F59E0B"/>
+  <circle cx="433" cy="200" r="9" fill="#F59E0B"/>
+  <circle cx="543" cy="200" r="9" fill="#F59E0B"/>
+  <!-- Next cycle continuation (fading) - week 16 -->
+  <circle cx="653" cy="200" r="9" fill="#F59E0B" opacity="0.45"/>
+  <text x="710" y="205" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#F59E0B" opacity="0.55">&hellip;</text>
+
+  <!-- Row 3: Decision Intelligence - weeks 1 and 13 (week 13 is also next cycle's week 1) -->
+  <text x="65" y="146" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="700">Decision Intelligence</text>
+  <text x="65" y="159" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">quarterly &middot; cycle bookends</text>
+  <line x1="240" y1="138" x2="720" y2="138" stroke="#e6f3e8" stroke-width="2"/>
+  <circle cx="240" cy="138" r="11" fill="#2e7d32"/>
+  <circle cx="570" cy="138" r="11" fill="#2e7d32"/>
+  <text x="240" y="120" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-style="italic" text-anchor="middle">start</text>
+  <text x="570" y="120" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-style="italic" text-anchor="middle">end / next start</text>
+
+  <!-- Row 4: Action Triggers (top - highest synthesis) - at the cycle boundary, analyst-triggered -->
+  <text x="65" y="86" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7e57c2" font-weight="700">Action Triggers</text>
+  <text x="65" y="99" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">end of cycle &middot; cross-format synthesis</text>
+  <text x="65" y="111" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">analyst-triggered</text>
+  <line x1="240" y1="78" x2="720" y2="78" stroke="#ede7f6" stroke-width="2"/>
+  <circle cx="605" cy="78" r="12" fill="#7e57c2"/>
+
+  <!-- Aggregation lines: Action Triggers reads across EVERY in-cycle deliverable -->
+  <!-- Target is the Action Triggers dot at (605, 78). 17 dashed lines: 12 Signal Scans, 3 Change Trackers, 2 Decision Intelligence. -->
+  <!-- Lines start slightly above each source dot (y - 7) and end slightly below the AT dot (y + 7) so they do not draw over the circles. -->
+  <!-- Faded next-cycle dots are deliberately NOT connected; the synthesis is end-of-this-cycle only. -->
+
+  <!-- From 12 Signal Scan dots (y=262) -->
+  <line x1="240" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="268" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="295" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="323" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="350" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="378" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="405" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="433" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="460" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="488" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="515" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="543" y1="255" x2="603" y2="85" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.3"/>
+
+  <!-- From 3 Change Tracker dots (y=200) -->
+  <line x1="323" y1="191" x2="603" y2="86" stroke="#7e57c2" stroke-width="1.2" fill="none" stroke-dasharray="2 2" opacity="0.32"/>
+  <line x1="433" y1="191" x2="603" y2="86" stroke="#7e57c2" stroke-width="1.2" fill="none" stroke-dasharray="2 2" opacity="0.32"/>
+  <line x1="543" y1="191" x2="603" y2="86" stroke="#7e57c2" stroke-width="1.2" fill="none" stroke-dasharray="2 2" opacity="0.4"/>
+
+  <!-- From 2 Decision Intelligence dots (y=138) -->
+  <line x1="240" y1="127" x2="603" y2="88" stroke="#7e57c2" stroke-width="1.4" fill="none" stroke-dasharray="2 2" opacity="0.45"/>
+  <line x1="570" y1="127" x2="603" y2="88" stroke="#7e57c2" stroke-width="1.4" fill="none" stroke-dasharray="2 2" opacity="0.55"/>
+
+  <!-- Legend right of Action Triggers -->
+  <text x="630" y="84" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7e57c2" font-weight="700">reads</text>
+  <text x="630" y="95" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7e57c2" font-weight="700">across</text>
+</svg><figcaption>Four formats. Three clocks. One cycle.</figcaption></figure>
 <p class="legend">
 <span><i style="background:#0382FC"></i>Signal Scan (weekly)</span>
 <span><i style="background:#F59E0B"></i>Change Tracker (monthly)</span>
@@ -109,6 +225,6 @@
 
 <section class="programme-cta-block"><h2>Continuous intelligence on this topic</h2><p class="lede">Every topic is delivered as a continuous cycle: weekly Signal Scans, monthly Change Trackers and a quarterly Decision Intelligence briefing. Choose the engagement that fits how you want to use it.</p><div class="programme-tiers"><div class="programme-tier"><h3>Single-Topic Programme</h3><p class="tier-body">Continuous intelligence focused on one strategic priority &mdash; competitor, technology, regulation, market or emerging risk.</p><p class="tier-best-for">Best for</p><p class="tier-best-list">Strategy teams &middot; Innovation teams &middot; Risk functions &middot; Executive leadership</p></div><div class="programme-tier"><h3>Multi-Topic Programme</h3><p class="tier-body">Several interconnected topics monitored through a common framework so the team gets one structured view rather than isolated reports.</p><p class="tier-best-for">Best for</p><p class="tier-best-list">Executive committees &middot; Corporate strategy teams &middot; Large business units</p></div><div class="programme-tier"><h3>Sector-Exclusive Partnership</h3><p class="tier-body">Four intelligence topics plus monitoring of up to ten named competitors, with sector exclusivity within European retail banking and payments and priority analyst access.</p><p class="tier-best-for">Best for</p><p class="tier-best-list">Sector leaders seeking a protected intelligence advantage</p></div></div><p class="discovery-line"><strong>Want to test it before committing?</strong> The three-month Discovery Programme runs the complete cycle on one topic and is fully credited against a subsequent annual engagement.</p><div class="programme-cta-actions"><a class="programme-cta-primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a></div></section>
 
-<p class="footer">Built 2026-07-01 13:14 local time.</p>
+<p class="footer">Built 2026-07-01 13:51 local time.</p>
 </body>
 </html>

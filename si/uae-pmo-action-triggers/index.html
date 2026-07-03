@@ -50,6 +50,30 @@
   .item .posture-row.prepare { border-left-color: #F59E0B; }
   .item .posture-row.monitor { border-left-color: #5a6478; }
   .item .posture-row p { margin: 0; font-size: 0.93em; color: #2c3e50; }
+  .item .trigger-condition { background: #f4f0fa; border-left: 3px solid #7e57c2; border-radius: 0 6px 6px 0; padding: 10px 14px; margin: 8px 0 14px; }
+  .item .trigger-condition .sub-label { margin: 0; color: #4527a0; }
+  .item .trigger-condition p { margin: 3px 0 0; color: #3d2f5e; font-size: 0.94em; line-height: 1.5; }
+  .item .decision-window { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 6px; vertical-align: baseline; }
+  .item .decision-window.immediate { background: #ffe0e0; color: #b71c1c; }
+  .item .decision-window.next-quarter { background: #fff2dc; color: #8a5a00; }
+  .item .decision-window.next-planning-cycle { background: #e6f0ff; color: #0a4ea3; }
+  .item .decision-window.monitor-only { background: #edefef; color: #4a5568; }
+  /* Cycle at a glance panel: sits between LEDE and source bar. */
+  .cycle-glance { background: #f4f0fa; border: 1px solid #d6c9ea; border-left: 4px solid #7e57c2; border-radius: 8px; padding: 18px 22px; margin: 0 0 26px; }
+  .cycle-glance h3 { color: #4527a0; margin: 0 0 12px; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+  .glance-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 0 0 12px; }
+  @media (max-width: 600px) { .glance-grid { grid-template-columns: repeat(2, 1fr); } }
+  .glance-stat { background: white; border-radius: 6px; padding: 10px 12px; }
+  .glance-n { display: block; font-size: 1.7em; font-weight: 700; color: #4527a0; line-height: 1; margin: 0 0 4px; }
+  .glance-n.glance-shift { color: #b71c1c; }
+  .glance-label { display: block; font-size: 0.78em; color: #3d2f5e; line-height: 1.3; }
+  .glance-trend { margin: 6px 0 0; font-size: 0.9em; color: #3d2f5e; display: flex; align-items: center; gap: 10px; }
+  .glance-trend .trend-label { font-weight: 600; }
+  .glance-trend .trend-arrow { font-size: 1.3em; font-weight: 700; line-height: 1; }
+  .glance-trend .trend-arrow.trend-up { color: #1d5d27; }
+  /* Lead-time badge: visual weight on the "we were N weeks ahead" measure. */
+  .lead-time { display: inline-flex; align-items: baseline; gap: 6px; background: #eaf3ff; color: #0a4ea3; padding: 2px 10px; border-radius: 12px; font-size: 0.78em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 8px; }
+  .lead-time .lead-value { font-size: 1.05em; }
   .section.warnings .item { border-left-color: #c62828; }
   .section.warnings h2 { color: #c62828; }
   .section.assumptions .item { border-left-color: #1a237e; }
@@ -83,7 +107,17 @@
 </header>
 
 <h1>Two clocks synchronised. Supervision became the constraint.</h1>
-<p class="lede">Three weeks ago the June briefing argued that the FY27 plan should hold five variables as a linked system, with execution-to-absorption mistuning as the binding risk. The cycle's evidence has moved faster than that. Cabinet cadence and enterprise-production cadence met inside a six-week window; two independent US datasets turned the graduate-absorption clock into a measurable one; and the 1 July scan reframed the 80,000-worker programme itself, from displacement mitigation to supervision-capacity build. The body of work surfaces three patterns no single deliverable carries alone: early warnings, shifting assumptions, and actions now decision-shaped.</p>
+<p class="lede">Over this cycle, the strategic constraint changed. Three weeks ago the central question was whether execution would stay aligned across five interacting variables. Today the evidence points elsewhere. Cabinet cadence and enterprise-production cadence met inside a six-week window. Two independent labour datasets turned the graduate-absorption clock into a measurable one. And the 80,000-worker programme has been reframed, from displacement mitigation to supervision-capacity build. This synthesis surfaces the four early warnings that hardened, the four cycle-over-cycle assumption shifts, and the four actions the cycle's accumulated evidence has made decision-shaped.</p>
+
+<div class="cycle-glance">
+<h3>Strategic picture at a glance</h3>
+<div class="glance-grid">
+<div class="glance-stat"><span class="glance-n">4</span><span class="glance-label">Weak signals became measurable</span></div>
+<div class="glance-stat"><span class="glance-n">4</span><span class="glance-label">Strategic assumptions changed</span></div>
+<div class="glance-stat"><span class="glance-n">4</span><span class="glance-label">Actions now decision-shaped</span></div>
+<div class="glance-stat"><span class="glance-n glance-shift">1</span><span class="glance-label">Strategic constraint replaced</span></div>
+</div>
+</div>
 
 <div class="source-bar">
 <span class="label">Drawing on</span>
@@ -98,13 +132,13 @@
 <p class="section-lede">Signals the portfolio surfaced before consensus formed, in the order they hardened.</p>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~3 weeks <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-skilling-trap/" target="_blank" rel="noopener">Signal Scan</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
-<h3>The entry-level clock the June briefing flagged became measurable in two US datasets before the ink dried</h3>
+<p class="item-meta"><span class="lead-time">Lead time <span class="lead-value">3 weeks ahead</span></span><a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-skilling-trap/" target="_blank" rel="noopener">Signal Scan</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
+<h3>The entry-level clock we flagged became measurable in two independent US datasets before the ink dried</h3>
 
-<span class="sub-label">The early read &middot; 9 June</span>
+<span class="sub-label">Initial signal</span>
 <p class="sub-block">The June sovereign-skilling-trap scan named a concentrated cohort collapse under aggregate-stable employment, arguing that the FY28-FY30 Emirati graduate cohort would arrive into a labour market where the entry rung had been thinned by agentic deployment.</p>
 
-<span class="sub-label">What hardened by 30 June</span>
+<span class="sub-label">Now evident</span>
 <ul class="evidence-list">
 <li><strong>Stanford HAI 2026 AI Index</strong>: US software developer employment ages 22-25 down close to 20% since 2024, cited in the tracker's entry-level cluster.</li>
 <li><strong>Federal Reserve FEDS Notes, 27 March 2026</strong>: firms' job-posting behaviour shows concentrated unemployment increases among recent graduates in AI-exposed occupations.</li>
@@ -116,17 +150,17 @@
 <span class="anchor"><span class="label">Datasets aligned</span><span class="value">3 (US)</span></span>
 </div>
 
-<div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>The entry-task-redesign workstream the June DI called for now has a measurable external benchmark; MoCA and FAHR own the domestic replication test.</p></div>
+<div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>The entry-task-redesign workstream we called for now has a measurable external benchmark; MoCA and FAHR own the domestic replication test.</p></div>
 </div>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~4 weeks <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-agentic-ai/" target="_blank" rel="noopener">DI 9 June</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
-<h3>Cabinet cadence and enterprise-production cadence landed in the same six-week window, faster than the June briefing expected</h3>
+<p class="item-meta"><span class="lead-time">Lead time <span class="lead-value">4 weeks ahead</span></span><a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-agentic-ai/" target="_blank" rel="noopener">DI 9 June</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
+<h3>Cabinet cadence and enterprise-production cadence landed in the same six-week window, faster than we had expected</h3>
 
-<span class="sub-label">The early read &middot; 9 June</span>
-<p class="sub-block">The DI treated Government 4.0 execution as an Immediate-tier theme on a 24-month clock. The concern was ministry-level coordination through the May framework, not concurrent global production evidence at scale.</p>
+<span class="sub-label">Initial signal</span>
+<p class="sub-block">Government 4.0 execution had been treated as an Immediate-tier theme on a 24-month clock. The concern was ministry-level coordination through the May framework, not concurrent global production evidence at scale.</p>
 
-<span class="sub-label">What hardened by 30 June</span>
+<span class="sub-label">Now evident</span>
 <ul class="evidence-list">
 <li><strong>Four named federal agents live</strong>: procurement, tax auditing, customer happiness and technical support unveiled at the 20 May retreat, per Khaleej Times.</li>
 <li><strong>ADNOC discloses 115 agents in production</strong>, and the Presidential Court commits to 75% agentic operations.</li>
@@ -137,13 +171,13 @@
 </div>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~3 weeks <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-skilling-trap/" target="_blank" rel="noopener">Signal Scan 9 June</a> <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-supervisor-premium/" target="_blank" rel="noopener">Signal Scan 1 July</a></p>
+<p class="item-meta"><span class="lead-time">Lead time <span class="lead-value">3 weeks ahead</span></span><a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-skilling-trap/" target="_blank" rel="noopener">Signal Scan 9 June</a> <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-supervisor-premium/" target="_blank" rel="noopener">Signal Scan 1 July</a></p>
 <h3>Meaningful oversight of autonomous agents is the binding national constraint, not model access or compute</h3>
 
-<span class="sub-label">The early read &middot; 9 June</span>
-<p class="sub-block">The June scan named a training-target mismatch: sovereign programmes were aimed at the entry-tier tasks the next production wave would absorb. Consensus still read this as a headcount question.</p>
+<span class="sub-label">Initial signal</span>
+<p class="sub-block">We had identified a training-target mismatch: sovereign programmes were aimed at the entry-tier tasks the next production wave would absorb. Consensus still read this as a headcount question.</p>
 
-<span class="sub-label">What hardened by 1 July</span>
+<span class="sub-label">Now evident</span>
 <ul class="evidence-list">
 <li><strong>NIST AI Agent Standards Initiative, 17 February 2026</strong>: real-time oversight of long-running autonomous agents is genuinely hard; accountability lands on humans, not on supervisor agents.</li>
 <li><strong>Microsoft 2026 Work Trend Index, 5 May 2026</strong>: active agents up 15x year on year, 18x in large enterprises; quality control of AI output rated most valuable skill by 50% of users.</li>
@@ -154,14 +188,14 @@
 </div>
 
 <div class="item">
-<p class="item-meta">Speed of consensus catch-up: ~4 weeks <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-agentic-ai/" target="_blank" rel="noopener">DI 9 June</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
+<p class="item-meta"><span class="lead-time">Lead time <span class="lead-value">4 weeks ahead</span></span><a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-agentic-ai/" target="_blank" rel="noopener">DI 9 June</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
 <h3>Saudi and UAE are running parallel sovereign responses to a shared labour signal, not a positioning race one wins by pacing faster</h3>
 
-<span class="sub-label">The early read &middot; 9 June</span>
-<p class="sub-block">Theme 3 of the DI held the talent-and-capital variable as a contested pool the UAE could out-attract Saudi through Golden Visa, sovereign-fund co-investment and MBRSG.</p>
+<span class="sub-label">Initial signal</span>
+<p class="sub-block">The talent-and-capital variable had been held as a contested pool the UAE could out-attract Saudi through Golden Visa, sovereign-fund co-investment and MBRSG.</p>
 
-<span class="sub-label">What hardened by 30 June</span>
-<p class="sub-block">The tracker's Regional pull and skill premium cluster reads Saudi's Humain $1.2bn capacity deal at Davos and the 2026 Year of AI as parallel responses to the same OECD skills-shortage constraint (40% of employers) and PwC 62% wage premium the UAE faces. Both bids are sitting in the same labour-market context.</p>
+<span class="sub-label">Now evident</span>
+<p class="sub-block">The Regional pull and skill premium cluster now reads Saudi's Humain $1.2bn capacity deal at Davos and the 2026 Year of AI as parallel responses to the same OECD skills-shortage constraint (40% of employers) and PwC 62% wage premium the UAE faces. Both bids are sitting in the same labour-market context.</p>
 
 <div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>Attraction planning still matters, but the FY27 sequencing conversation is more usefully framed as parallel supervision-capacity build than as talent race.</p></div>
 </div>
@@ -177,10 +211,10 @@
 <h3>"The 80,000-worker programme captures public-sector capability; the structural gap sits in private-sector and international-firm absorption."</h3>
 
 <span class="sub-label">Prior cycle held</span>
-<p class="sub-block">The June DI's Theme 2 read the programme as a capability answer whose absorption gap sat downstream, in the private and international-firm hiring layer where the FY28-FY30 cohort would land.</p>
+<p class="sub-block">The prior cycle read the programme as a capability answer whose absorption gap sat downstream, in the private and international-firm hiring layer where the FY28-FY30 cohort would land.</p>
 
-<span class="sub-label">1 July reads</span>
-<p class="sub-block">The 1 July scan reframes the programme itself as the supervision-capacity build the country needs. Value in knowledge work concentrates in the tier that directs and answers for agents; supervision, not the entry-task layer, is the binding national constraint.</p>
+<span class="sub-label">This cycle reads</span>
+<p class="sub-block">This cycle reframes the programme itself as the supervision-capacity build the country needs. Value in knowledge work concentrates in the tier that directs and answers for agents; supervision, not the entry-task layer, is the binding national constraint.</p>
 
 <span class="sub-label">Forward thesis</span>
 <p class="sub-block">The absorption gap is real but secondary; the FY27 plan's first job is tilting the 80,000-worker curriculum toward supervision, orchestration and accountability skills.</p>
@@ -191,9 +225,9 @@
 <h3>"The execution variable runs on a 24-month clock."</h3>
 
 <span class="sub-label">Prior cycle held</span>
-<p class="sub-block">The June briefing placed Government 4.0 execution on a two-year horizon defined by the May Cabinet decision, with ministry coordination through the federal work-team design as the dominant risk.</p>
+<p class="sub-block">The prior cycle placed Government 4.0 execution on a two-year horizon defined by the May Cabinet decision, with ministry coordination through the federal work-team design as the dominant risk.</p>
 
-<span class="sub-label">30 June reads</span>
+<span class="sub-label">This cycle reads</span>
 <ul class="evidence-list">
 <li><strong>Six weeks Cabinet-to-live</strong>: April Cabinet decision to four named phase-one agents on 20 May, per Khaleej Times.</li>
 <li><strong>MBZUAI signed as full-curriculum knowledge partner</strong>, 21 May, per MBZUAI announcement.</li>
@@ -209,9 +243,9 @@
 <h3>"Sovereign workforce strategies are training larger cohorts in the agentic-AI-fluent capabilities most closely correlated with the roles being absorbed."</h3>
 
 <span class="sub-label">Prior cycle held</span>
-<p class="sub-block">The 9 June scan named the sovereign-skilling-trap: federal programmes targeting first-generation agentic AI operator roles risk aiming at exactly the task tier the next production wave will absorb.</p>
+<p class="sub-block">We had named the sovereign-skilling-trap: federal programmes targeting first-generation agentic AI operator roles risk aiming at exactly the task tier the next production wave will absorb.</p>
 
-<span class="sub-label">1 July reads</span>
+<span class="sub-label">This cycle reads</span>
 <p class="sub-block">The trap has been partially answered by moving the aim up a tier. Supervision, orchestration and accountability are the roles agent economics reward, and per NIST are the ones a human has to hold. The 80,000-worker curriculum can be tilted without redesign.</p>
 
 <span class="sub-label">Forward thesis</span>
@@ -223,9 +257,9 @@
 <h3>"Cross-variable mistuning between the five clocks is the primary strategic risk."</h3>
 
 <span class="sub-label">Prior cycle held</span>
-<p class="sub-block">The DI's central bet was that holding execution, absorption, attraction, infrastructure and positioning as one linked system was the right frame, with mistuning between them as the binding risk.</p>
+<p class="sub-block">The prior cycle's central bet was that holding execution, absorption, attraction, infrastructure and positioning as one linked system was the right frame, with mistuning between them as the binding risk.</p>
 
-<span class="sub-label">1 July reads</span>
+<span class="sub-label">This cycle reads</span>
 <p class="sub-block">Two clocks have synchronised faster than the June frame anticipated (execution and enterprise production), and one clock has hardened into measurable form (absorption). The linked-system frame holds; the risk has shifted from mistuning to supervision-capacity shortfall inside the execution clock.</p>
 
 <span class="sub-label">Forward thesis</span>
@@ -236,110 +270,133 @@
 
 <section class="section actions">
 <h2>Actions triggered</h2>
-<p class="section-lede">Decisions now decision-shaped enough to act on, with Decide / Prepare / Monitor postures and named owners.</p>
+<p class="section-lede">Each trigger names why it activates now, what has changed, why it matters, the recommended actions, the primary decision owner, the decision window, and the conditions under which the recommendation should be reviewed.</p>
 
 <div class="item">
 <p class="item-meta"><span class="posture-pill decide">Decide</span> Action 1 <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-supervisor-premium/" target="_blank" rel="noopener">Signal Scan 1 July</a> <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-agentic-ai/" target="_blank" rel="noopener">DI 9 June</a></p>
 <h3>Tilt the 80,000-worker curriculum toward agent supervision, orchestration and accountability</h3>
 
-<div class="anchor-strip">
-<span class="anchor"><span class="label">Owner</span><span class="value">Ministry of Cabinet Affairs and FAHR, with MBZUAI</span></span>
-<span class="anchor"><span class="label">Deadline</span><span class="value">Q4 2026 curriculum revision</span></span>
-<span class="anchor"><span class="label">Scope</span><span class="value">Full 80,000-worker programme, all five categories</span></span>
+<div class="trigger-condition">
+<span class="sub-label">Trigger condition</span>
+<p>This recommendation has been activated because four federal agents went live inside a six-week Cabinet-to-production window (procurement, tax auditing, customer happiness, technical support), NIST published its finding that oversight capacity (not model capability) caps agent deployment, and the 80,000-worker training programme has no supervision-and-accountability track written into the FAHR-MBZUAI curriculum.</p>
 </div>
 
-<span class="sub-label">Why decide now</span>
-<p class="sub-block">Phase-one agents are live in procurement, tax auditing, customer happiness and technical support; NIST confirms oversight capacity, not model capability, caps deployment. The training design has to move before the next agent cohort goes live.</p>
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Primary decision owner</span><span class="value">Ministry of Cabinet Affairs and FAHR, with MBZUAI</span></span>
+<span class="anchor"><span class="label">Decision window</span><span class="value"><span class="decision-window immediate">Immediate</span>Q4 2026 curriculum revision</span></span>
+</div>
 
-<span class="sub-label">The decision in three moves</span>
+
+<span class="sub-label">Why this now matters</span>
+<p class="sub-block">Every additional intake trained on the current curriculum widens the gap between what officers can do and what the state is deploying agents to do. Value in knowledge work is concentrating in the tier that directs and answers for agents.</p>
+
+<span class="sub-label">Recommended actions</span>
 <ul class="evidence-list">
-<li>Rewrite the FAHR-MBZUAI knowledge-partner curriculum so the Leadership and Specialist categories carry an explicit supervision-and-accountability track.</li>
-<li>Publish a Q4 2026 quality gate that measures graduates on directed-agent tasks, not headcount trained.</li>
-<li>Set a target human-to-agent ratio for federal deployment (start at 1:5) and hold ministry work-teams to it in the ministry-level assessment indicators.</li>
+<li><strong>Immediate:</strong> rewrite the FAHR-MBZUAI knowledge-partner curriculum so the Leadership and Specialist categories carry an explicit supervision-and-accountability track.</li>
+<li><strong>Immediate:</strong> publish a Q4 2026 quality gate that measures graduates on directed-agent tasks, not headcount trained.</li>
+<li><strong>Follow-on:</strong> set a target human-to-agent ratio for federal deployment (start at 1:5) and hold ministry work-teams to it in the ministry-level assessment indicators.</li>
 </ul>
+
+<span class="sub-label">Review conditions</span>
+<p class="sub-block">This recommendation should be reviewed if the federal agent rollout is paused for more than three months, if MBZUAI proposes a supervision curriculum module Cabinet Affairs can adopt directly (which would reduce this to Approve rather than Design), or if NIST retracts its human-oversight framing in a subsequent update.</p>
 </div>
 
 <div class="item">
 <p class="item-meta"><span class="posture-pill prepare">Prepare</span> Action 2 <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a> <a class="item-trace scan" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-skilling-trap/" target="_blank" rel="noopener">Signal Scan 9 June</a></p>
 <h3>Convert the entry-task-redesign workstream into a private-sector commitment set for FY28-FY30 Emirati graduates</h3>
 
-<div class="anchor-strip">
-<span class="anchor"><span class="label">Owner</span><span class="value">Ministry of Cabinet Affairs and FAHR with Ministry of Economy</span></span>
-<span class="anchor"><span class="label">Deadline</span><span class="value">31 December 2026 (per SI 2)</span></span>
-<span class="anchor"><span class="label">Scope</span><span class="value">Major UAE-resident multinationals and Nafis private-sector employers</span></span>
+<div class="trigger-condition">
+<span class="sub-label">Trigger condition</span>
+<p>This recommendation has been activated because three independent US datasets published within four months (Stanford HAI, Federal Reserve FEDS Notes, WEF) now anchor the entry-level compression pattern we identified, and the FY28-FY30 Emirati graduate cohort is 18 to 30 months from labour-market arrival.</p>
 </div>
 
-<span class="sub-label">Why prepare now</span>
-<p class="sub-block">Three independent US datasets (Stanford HAI, Fed FEDS Notes, WEF) now anchor the entry-level compression pattern. The FY28-FY30 cohort is 18-30 months out; a Q2 2027 commitment set is too late.</p>
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Primary decision owner</span><span class="value">Ministry of Cabinet Affairs and FAHR, with Ministry of Economy</span></span>
+<span class="anchor"><span class="label">Decision window</span><span class="value"><span class="decision-window next-quarter">Next quarter</span>Commitment set by 31 December 2026 (per SI 2)</span></span>
+</div>
 
-<span class="sub-label">The preparation in three moves</span>
+
+<span class="sub-label">Why this now matters</span>
+<p class="sub-block">The trap we named (training programmes aimed at tasks agents will absorb) has now been documented in independent labour data. A Q2 2027 private-sector commitment set arrives after the first FY28 cohort has already entered the market.</p>
+
+<span class="sub-label">Recommended actions</span>
 <ul class="evidence-list">
-<li>Publish a named list of junior agentic-AI roles (orchestrator, validator, exception handler, assurance analyst) with role specs to which the private sector can hire.</li>
-<li>Negotiate Emirati graduate-intake commitments from a defined set of employers (Microsoft, Accenture, PwC, KPMG, EY, McKinsey, BCG, Deloitte, TCS) for FY28-FY30.</li>
-<li>Integrate the commitments into Nafis 2026's five AI-enabled quality priorities so the private-sector metric is measurable at the same cadence as the public-sector programme.</li>
+<li><strong>Immediate:</strong> publish a named list of junior agentic-AI roles (orchestrator, validator, exception handler, assurance analyst) with role specs the private sector can hire against.</li>
+<li><strong>Next quarter:</strong> negotiate Emirati graduate-intake commitments from a defined set of employers (Microsoft, Accenture, PwC, KPMG, EY, McKinsey, BCG, Deloitte, TCS) for FY28-FY30.</li>
+<li><strong>Follow-on:</strong> integrate the commitments into Nafis 2026's five AI-enabled quality priorities so the private-sector metric is measurable at the same cadence as the public-sector programme.</li>
 </ul>
 
-<span class="sub-label">Trigger to escalate</span>
-<p class="sub-block">Escalate to Decide if a first UAE or GCC dataset lands showing the same 20% developer-cohort compression, or if Nafis quarterly reporting flags entry-grade Emiratisation stalling.</p>
+<span class="sub-label">Review conditions</span>
+<p class="sub-block">This recommendation should be reviewed if a first UAE or GCC dataset lands showing the same 20 per cent developer-cohort compression (escalate to Decide), if Nafis quarterly reporting shows entry-grade Emiratisation stalling (escalate), if a major named employer publishes an FY28 Emirati graduate commitment ahead of negotiation (partial resolution, reduce scope), or if the US datasets are significantly revised (weaken the case).</p>
 </div>
 
 <div class="item">
 <p class="item-meta"><span class="posture-pill prepare">Prepare</span> Action 3 <a class="item-trace brief" href="https://decision-intel.shapingtomorrow.com/si/uae-pmo-sovereign-agentic-ai/" target="_blank" rel="noopener">DI 9 June</a> <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
-<h3>Publish the five-clock plan with named Minister owners and add supervision-capacity as the sixth number on the quarterly review</h3>
+<h3>Publish the five-clock plan with named Minister owners and add supervision capacity as the sixth number on the quarterly review</h3>
 
-<div class="anchor-strip">
-<span class="anchor"><span class="label">Owner</span><span class="value">PMO strategy team</span></span>
-<span class="anchor"><span class="label">Deadline</span><span class="value">30 September 2026 (per SI 1)</span></span>
-<span class="anchor"><span class="label">Scope</span><span class="value">FY27 Cabinet plan; quarterly cross-variable review</span></span>
+<div class="trigger-condition">
+<span class="sub-label">Trigger condition</span>
+<p>This recommendation has been activated because two of the five clocks (execution and enterprise production) synchronised inside a single six-week window, one clock (absorption) hardened into a measurable form we did not yet have, and the FY27 Cabinet planning round is three months away.</p>
 </div>
 
-<span class="sub-label">Why prepare now</span>
-<p class="sub-block">Execution and enterprise-production clocks synchronised in the June cycle; absorption clock hardened into measurable form. The five-variable design still holds but needs a supervision-capacity anchor to remain useful under six-week execution cadence.</p>
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Primary decision owner</span><span class="value">PMO strategy team</span></span>
+<span class="anchor"><span class="label">Decision window</span><span class="value"><span class="decision-window immediate">Immediate</span>30 September 2026 (per SI 1)</span></span>
+</div>
 
-<span class="sub-label">The preparation in three moves</span>
+
+<span class="sub-label">Why this now matters</span>
+<p class="sub-block">Without named Minister-level ownership per clock and a supervision-capacity metric on the quarterly review, the plan reads as a static frame instead of an operating rhythm; the accountability line for the pace shift is unassigned.</p>
+
+<span class="sub-label">Recommended actions</span>
 <ul class="evidence-list">
-<li>Assign Minister-level clock ownership as the June DI set out: Cabinet Affairs and FAHR on execution; MoHRE on absorption; Investment and Economy on attraction; UAE AI Office on infrastructure; MoFAIC and UAE AI Office on positioning.</li>
-<li>Add human-to-agent ratio, quality-controlled agent-decision volume and agent-incident count to the quarterly cross-variable review.</li>
-<li>Chair the first review at Prime Minister or Deputy PM level, on the ministry-level assessment indicators defined in the May framework.</li>
+<li><strong>Immediate:</strong> assign Minister-level clock ownership per the June DI (Cabinet Affairs and FAHR on execution; MoHRE on absorption; Investment and Economy on attraction; UAE AI Office on infrastructure; MoFAIC and UAE AI Office on positioning).</li>
+<li><strong>Immediate:</strong> add human-to-agent ratio, quality-controlled agent-decision volume, and agent-incident count to the quarterly cross-variable review.</li>
+<li><strong>Follow-on:</strong> chair the first review at Prime Minister or Deputy PM level, on the ministry-level assessment indicators defined in the May framework.</li>
 </ul>
 
-<span class="sub-label">Trigger to escalate</span>
-<p class="sub-block">Escalate to Decide if a named phase-one federal agent produces a public error that cascades across adjacent agents, or if any Minister-level clock owner misses the September publishing deadline.</p>
+<span class="sub-label">Review conditions</span>
+<p class="sub-block">This recommendation should be reviewed if a named phase-one federal agent produces a public error that cascades across adjacent agents (escalate to Decide with immediate ministerial intervention), if any Minister-level clock owner misses the September publishing deadline (escalate on accountability grounds), or if the Cabinet elects to consolidate the five clocks into a single-Minister mandate (revised scope: single-clock plan).</p>
 </div>
 
 <div class="item">
 <p class="item-meta"><span class="posture-pill monitor">Monitor</span> Action 4 <a class="item-trace tracker" href="https://decision-intel.shapingtomorrow.com/si/agentic-ai-future-jobs/" target="_blank" rel="noopener">Change Tracker</a></p>
-<h3>Map the 2 August 2026 EU GPAI enforcement clock across G42 and Khazna tenants before the summer</h3>
+<h3>Map the 2 August 2026 EU GPAI enforcement clock across G42, AI71 and Khazna tenants before the summer</h3>
 
-<div class="anchor-strip">
-<span class="anchor"><span class="label">Owner</span><span class="value">UAE AI Office and MoFAIC</span></span>
-<span class="anchor"><span class="label">Deadline</span><span class="value">1 August 2026 (day before activation)</span></span>
-<span class="anchor"><span class="label">Scope</span><span class="value">UAE-hosted GPAI providers with EU customers</span></span>
+<div class="trigger-condition">
+<span class="sub-label">Trigger condition</span>
+<p>This recommendation has been activated because EU Commission Article 50 transparency powers activate on 2 August 2026, the January 2026 Commission guidelines confirm extraterritorial reach applies to UAE entities placing AI on the EU market, and no consolidated compliance-status view exists across UAE-hosted GPAI providers.</p>
 </div>
 
-<span class="sub-label">Why monitor now</span>
-<p class="sub-block">EU Commission GPAI enforcement powers activate 2 August 2026 with Article 50 transparency, per the January 2026 guidelines. The extraterritorial reach applies to UAE entities placing AI on the EU market and is a fixed, dated clock.</p>
+<div class="anchor-strip">
+<span class="anchor"><span class="label">Primary decision owner</span><span class="value">UAE AI Office and MoFAIC</span></span>
+<span class="anchor"><span class="label">Decision window</span><span class="value"><span class="decision-window immediate">Immediate</span>1 August 2026 (day before activation)</span></span>
+</div>
 
-<span class="sub-label">The preparation in three moves</span>
+
+<span class="sub-label">Why this now matters</span>
+<p class="sub-block">A single Commission enforcement notice against a UAE-hosted provider would compromise the sovereign-AI positioning we built around, and there is no shared readiness view Ministers can point to.</p>
+
+<span class="sub-label">Recommended actions</span>
 <ul class="evidence-list">
-<li>Identify UAE-hosted providers (G42, AI71, Khazna tenants) with EU customer footprints.</li>
-<li>Confirm Article 50 transparency readiness with each named entity, on the CBUAE February 2026 board-accountability template.</li>
-<li>Publish a single compliance-status page the UAE AI Office maintains through 2027 Annex III activation.</li>
+<li><strong>Immediate:</strong> identify UAE-hosted providers (G42, AI71, Khazna tenants) with EU customer footprints.</li>
+<li><strong>Immediate:</strong> confirm Article 50 transparency readiness with each named entity, on the CBUAE February 2026 board-accountability template.</li>
+<li><strong>Follow-on:</strong> publish a single compliance-status page the UAE AI Office maintains through the December 2027 Annex III activation.</li>
 </ul>
 
-<span class="sub-label">Trigger to escalate</span>
-<p class="sub-block">Reinstate as Prepare if a UAE-hosted provider receives a Commission enforcement notice, or if the postponed December 2027 Annex III deadline is brought forward in any Omnibus revision.</p>
+<span class="sub-label">Review conditions</span>
+<p class="sub-block">This recommendation should be reviewed if a UAE-hosted provider receives a Commission enforcement notice (reinstate as Prepare with named remediation programme), if the postponed December 2027 Annex III deadline is brought forward in any Omnibus revision (widen scope), if the Commission revises Article 50 to exclude foundation-model providers under a size threshold (narrow scope significantly), or if UAE providers relocate EU-serving workloads to EU-based subsidiaries as a mitigating architecture change.</p>
 </div>
 
 </section>
 
 <div class="bottom-line">
 <h2>The body of work, in one sentence</h2>
-<p>The June bet that the FY27 plan should hold five variables as one linked system still holds, but the binding constraint has moved from cross-variable mistuning to supervision capacity, and the 80,000-worker programme is now the country's answer to that constraint rather than to displacement.</p>
+<p>Over this cycle, the strategic constraint changed. Three weeks ago the central question was whether execution would stay aligned across five interacting variables. Today the evidence points elsewhere: supervision capacity has emerged as the limiting factor, and every other clock in the FY27 plan now depends on it.</p>
 </div>
 
 <div class="programme-footer">
-<p>This Action Triggers brief is the end-of-cycle synthesis across the deliverables of your Shaping Tomorrow Single-Topic Programme on <strong>Agentic AI and Future Jobs</strong>. To extend the programme to additional topics, add a named competitor, or move to a Sector-Exclusive Partnership, contact your analyst.</p>
+<p>This briefing is not another report. It is the synthesis produced after continuously monitoring signals, tracking change, testing assumptions and updating scenarios throughout the cycle. Its purpose is to identify the points at which accumulated evidence has become decision-changing. To extend the programme to additional topics, add a named competitor benchmark, or move to a Sector-Exclusive Programme, contact your analyst.</p>
 <div class="programme-ctas">
 <a class="programme-cta primary" href="mailto:hello@shapingtomorrow.com?subject=Next%20cycle%20discussion">Book your next-cycle discussion</a>
 <a class="programme-cta secondary" href="mailto:hello@shapingtomorrow.com?subject=Add%20topic%20to%20programme">Add a topic to your programme</a>

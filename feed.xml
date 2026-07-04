@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 03 Jul 2026 08:30:07 +0000</lastBuildDate>
+<lastBuildDate>Sat, 04 Jul 2026 08:30:15 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Consent Constraint: Why the AI Buildout Now Runs Through Local Politics</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-04-ai-buildout-consent-constraint/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-04-ai-buildout-consent-constraint/scan.html</guid>
+<pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>Local political consent has overtaken capital, chips and grid engineering as the binding constraint on the US AI infrastructure buildout: a record ~$130bn of data-centre projects were blocked or delayed in Q1 2026, 71% of Americans oppose a local data centre, and states, regulators and the White House are converting the backlash into binding cost-allocation rules on a 2026-2028 horizon.</description>
+</item>
+<item>
+<title>The Second Workforce: AI Agents Enter the Employment System of Record</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-04-agents-on-org-chart/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-04-agents-on-org-chart/scan.html</guid>
+<pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>Enterprises are rebuilding the administrative machinery of employment, HRMS worker types, agent-manager roles, CAIO mandates and pay architecture, to manage AI agents as a second workforce, ahead of the empirical displacement evidence, so the binding 2026-2028 question is who governs digital labour (HR or IT) and on what terms.</description>
+</item>
 <item>
 <title>The Backup Nobody Owns: How GPS Jamming Is Making Timing Resilience a Civil-Infrastructure Duty</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-01-pnt-resilience-mandate/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 01 Jun 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay. It is the seventh of ten standing 'simplification' packages driven by competitiveness (the Draghi report) and explicit US trade pressure; 'build to Brussels equals the global ceiling' can no longer be assumed on a 2026-2028 horizon.</description>
-</item>
-<item>
-<title>After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-31-labour-migration-data-erosion/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-05-31-labour-migration-data-erosion/scan.html</guid>
-<pubDate>Sun, 31 May 2026 08:00:00 +0000</pubDate>
-<category>Demographics, Migration &amp; Labour Markets</category>
-<description>Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the most decision-critical inputs for monetary, fiscal and migration policy.</description>
-</item>
-<item>
-<title>Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-31-alzheimers-diagnosis-capacity-gap/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-05-31-alzheimers-diagnosis-capacity-gap/scan.html</guid>
-<pubDate>Sun, 31 May 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a diagnosis-to-care capacity-and-financing gap.</description>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,467 @@
 {
-  "generated": "2026-07-05T09:52:41Z",
+  "generated": "2026-07-06T08:30:04Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "financial-services-future-of-money",
+      "name": "Financial Services & Future of Money",
+      "tagline": "How money is being rewired: rails, reserves and rulebooks.",
+      "description": "Stablecoins, tokenised bank deposits, retail and wholesale CBDCs, agent-initiated payments, settlement-system change. What it means for treasury, payments, custody and counterparty risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/history/",
+      "latest_read": "Beneath the 'Treasury clearing is on track' consensus, the done-away, multi-CCP market structure the SEC's mandate assumes has not materialised: with under six months to the 31 December 2026 cash...",
+      "latest_dates": {
+        "scan": "2026-07-06",
+        "tracker": "2026-06-18",
+        "di": "2026-05-19",
+        "cc": "2026-06-02"
+      },
+      "history": [
+        {
+          "date": "2026-07-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Done-Away Gap: Treasury Clearing's Big Bang Arrives Before the Market Structure It Assumes",
+          "summary": "Beneath the 'Treasury clearing is on track' consensus, the done-away, multi-CCP market structure the SEC's mandate assumes has not materialised: with under six months to the 31 December 2026 cash...",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-06-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Rail Switch: How Account-to-Account Payments Are Acquiring the Plumbing to Rival Cards",
+          "summary": "Beneath the 'cards are unbeatable / stablecoins are the future' consensus, account-to-account payments are acquiring scheme-level scaffolding (the UK's first new payment scheme since 2008, the EU...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Stablecoin Bid: How Dollar Tokens Became a Marginal Buyer of US Treasury Bills",
+          "summary": "Beneath the stablecoin-payments consensus, dollar stablecoins have become a sizeable, run-prone marginal buyer of US Treasury bills, so their reserve flows now move front-end Treasury yields and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-18",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote",
+          "summary": "Cycle 2. A shared interbank clearing layer for tokenised deposits, a cycle-one wild card, becomes a live programme via The Clearing House; cross-border tokenised settlement and tokenised funds keep...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Liquid Wrapper, Illiquid Core: How Retailised Private Credit Is Moving the Liquidity Mismatch onto Households",
+          "summary": "Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Invisible Dollarisation: How Dollar Stablecoins Are Eroding Emerging-Market Monetary Sovereignty",
+          "summary": "Dollar stablecoins are driving 'invisible dollarisation' in weak-currency economies, a faster, harder-to-measure currency substitution.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Money rewires the rails. Now agents rewire the wallet.",
+          "summary": "Two surfaces being rewired. The rails surface (tokenised bank deposits, regulated stablecoins) consolidates; the wallet surface (agent authentication) opens.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Know Your Agent: How the Race to Authenticate AI Buyers Is Rewiring Payment Liability",
+          "summary": "Payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer' for AI buyers.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Narrow-Banking Drift: How Stablecoins Are Quietly Reshaping Who Creates Credit",
+          "summary": "Stablecoins are quietly converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-21",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Stablecoin rules harden as tokenised bank money scales and cash plateaus",
+          "summary": "Inaugural cycle. United States GENIUS Act rulemaking and a maturing tokenised settlement stack lead the accelerators; the retail digital euro holds a steady multi-year tempo and the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Money Rewires Itself: Rails, Reserves and Rulebooks",
+          "summary": "Money is being rewired in four places at once, and the four rewires are happening on different clocks. Payments rails are migrating onto stablecoins and tokenised collateral while the regulatory...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Sovereign Insurer of Last Resort",
+          "summary": "Beneath the headline Hormuz crisis, the structural shift is the sovereign absorption of risks private insurance can no longer model: the US-Chubb $40B Maritime Reinsurance facility and the Treasury...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond Stablecoins",
+          "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "regulation-standards-policy-change",
+      "name": "Regulation, Standards & Policy Change",
+      "tagline": "Where compliance becomes strategy.",
+      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
+      "latest_read": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
+      "latest_dates": {
+        "scan": "2026-07-06",
+        "tracker": "2026-06-19",
+        "di": "2026-06-11",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
+          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
+          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
+          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-19",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Brussels trims and defers; Washington carves its own track",
+          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
+          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Compliance Becomes Strategy",
+          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
+          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
+          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
+          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
+          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Disclosure That Didn't Disappear",
+          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Nature on the Supervisor's Desk",
+          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "demographics-migration-labour-markets",
+      "name": "Demographics, Migration & Labour Markets",
+      "tagline": "Who pays for population decline.",
+      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
+      "latest_read": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
+      "latest_dates": {
+        "scan": "2026-07-05",
+        "tracker": "2026-06-11",
+        "di": "2026-05-11",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Young-Labour Reservoir Is Draining Before the Rich World Has Finished Ageing",
+          "summary": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Decade-Low Mirage: How a Record Care-Staffing Headline Hides a Pipeline Cut at Both Ends",
+          "summary": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites",
+          "summary": "As advanced economies cut migration on the assumption that AI will offset the lost labour, AI's impact lands in high-wage white-collar work while the acute shortages concentrate in care, health...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
+          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Migration inflows reverse as the ageing squeeze turns structural",
+          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
+          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
+          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
+          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Anglo Mobility Reversal",
+          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Who Pays for Population Decline?",
+          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
+          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Secondary City Pivot",
+          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "health-life-sciences-care-systems",
+      "name": "Health, Life Sciences & Care Systems",
+      "tagline": "The reorganisation of how care gets delivered.",
+      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
+      "latest_read": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
+      "latest_dates": {
+        "scan": "2026-07-05",
+        "tracker": "2026-06-12",
+        "di": "2026-06-02",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Approved on Mechanism, Not Trials: The FDA's Plausible-Mechanism Reset for Bespoke Gene Therapies",
+          "summary": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Market Failure: How 'Subscription' Payments for Antibiotics Are Crossing From Pilot to Policy",
+          "summary": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two-Track Obesity Care: How GLP-1 Access Split by Payer Just as the Pills Arrived",
+          "summary": "Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
+          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-12",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
+          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
+          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Too Much Cure, Not Enough Care",
+          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
+          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
+          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The 2026 Patent Geography Split",
+          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The MCED Coverage-Evidence Gap",
+          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Homology Trap",
+          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "ai-automation",
       "name": "AI & Automation",
@@ -764,434 +1224,6 @@
           "type": "Signal Scan",
           "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
           "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "financial-services-future-of-money",
-      "name": "Financial Services & Future of Money",
-      "tagline": "How money is being rewired: rails, reserves and rulebooks.",
-      "description": "Stablecoins, tokenised bank deposits, retail and wholesale CBDCs, agent-initiated payments, settlement-system change. What it means for treasury, payments, custody and counterparty risk.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/history/",
-      "latest_read": "Beneath the 'cards are unbeatable / stablecoins are the future' consensus, account-to-account payments are acquiring scheme-level scaffolding (the UK's first new payment scheme since 2008, the EU...",
-      "latest_dates": {
-        "scan": "2026-06-29",
-        "tracker": "2026-06-18",
-        "di": "2026-05-19",
-        "cc": "2026-06-02"
-      },
-      "history": [
-        {
-          "date": "2026-06-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Rail Switch: How Account-to-Account Payments Are Acquiring the Plumbing to Rival Cards",
-          "summary": "Beneath the 'cards are unbeatable / stablecoins are the future' consensus, account-to-account payments are acquiring scheme-level scaffolding (the UK's first new payment scheme since 2008, the EU...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Stablecoin Bid: How Dollar Tokens Became a Marginal Buyer of US Treasury Bills",
-          "summary": "Beneath the stablecoin-payments consensus, dollar stablecoins have become a sizeable, run-prone marginal buyer of US Treasury bills, so their reserve flows now move front-end Treasury yields and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote",
-          "summary": "Cycle 2. A shared interbank clearing layer for tokenised deposits, a cycle-one wild card, becomes a live programme via The Clearing House; cross-border tokenised settlement and tokenised funds keep...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Liquid Wrapper, Illiquid Core: How Retailised Private Credit Is Moving the Liquidity Mismatch onto Households",
-          "summary": "Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Invisible Dollarisation: How Dollar Stablecoins Are Eroding Emerging-Market Monetary Sovereignty",
-          "summary": "Dollar stablecoins are driving 'invisible dollarisation' in weak-currency economies, a faster, harder-to-measure currency substitution.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Money rewires the rails. Now agents rewire the wallet.",
-          "summary": "Two surfaces being rewired. The rails surface (tokenised bank deposits, regulated stablecoins) consolidates; the wallet surface (agent authentication) opens.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Know Your Agent: How the Race to Authenticate AI Buyers Is Rewiring Payment Liability",
-          "summary": "Payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer' for AI buyers.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Narrow-Banking Drift: How Stablecoins Are Quietly Reshaping Who Creates Credit",
-          "summary": "Stablecoins are quietly converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-21",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Stablecoin rules harden as tokenised bank money scales and cash plateaus",
-          "summary": "Inaugural cycle. United States GENIUS Act rulemaking and a maturing tokenised settlement stack lead the accelerators; the retail digital euro holds a steady multi-year tempo and the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Money Rewires Itself: Rails, Reserves and Rulebooks",
-          "summary": "Money is being rewired in four places at once, and the four rewires are happening on different clocks. Payments rails are migrating onto stablecoins and tokenised collateral while the regulatory...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Sovereign Insurer of Last Resort",
-          "summary": "Beneath the headline Hormuz crisis, the structural shift is the sovereign absorption of risks private insurance can no longer model: the US-Chubb $40B Maritime Reinsurance facility and the Treasury...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond Stablecoins",
-          "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "regulation-standards-policy-change",
-      "name": "Regulation, Standards & Policy Change",
-      "tagline": "Where compliance becomes strategy.",
-      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
-      "latest_read": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
-      "latest_dates": {
-        "scan": "2026-06-29",
-        "tracker": "2026-06-19",
-        "di": "2026-06-11",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
-          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
-          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-19",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Brussels trims and defers; Washington carves its own track",
-          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
-          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Compliance Becomes Strategy",
-          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
-          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
-          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
-          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
-          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Disclosure That Didn't Disappear",
-          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Nature on the Supervisor's Desk",
-          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "demographics-migration-labour-markets",
-      "name": "Demographics, Migration & Labour Markets",
-      "tagline": "Who pays for population decline.",
-      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
-      "latest_read": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
-      "latest_dates": {
-        "scan": "2026-06-28",
-        "tracker": "2026-06-11",
-        "di": "2026-05-11",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Decade-Low Mirage: How a Record Care-Staffing Headline Hides a Pipeline Cut at Both Ends",
-          "summary": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites",
-          "summary": "As advanced economies cut migration on the assumption that AI will offset the lost labour, AI's impact lands in high-wage white-collar work while the acute shortages concentrate in care, health...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
-          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Migration inflows reverse as the ageing squeeze turns structural",
-          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
-          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-31",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
-          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
-          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Anglo Mobility Reversal",
-          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Who Pays for Population Decline?",
-          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
-          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Secondary City Pivot",
-          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "health-life-sciences-care-systems",
-      "name": "Health, Life Sciences & Care Systems",
-      "tagline": "The reorganisation of how care gets delivered.",
-      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
-      "latest_read": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
-      "latest_dates": {
-        "scan": "2026-06-28",
-        "tracker": "2026-06-12",
-        "di": "2026-06-02",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Market Failure: How 'Subscription' Payments for Antibiotics Are Crossing From Pilot to Policy",
-          "summary": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two-Track Obesity Care: How GLP-1 Access Split by Payer Just as the Pills Arrived",
-          "summary": "Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
-          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-12",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
-          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
-          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Too Much Cure, Not Enough Care",
-          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-31",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
-          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
-          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The 2026 Patent Geography Split",
-          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The MCED Coverage-Evidence Gap",
-          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Homology Trap",
-          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
           "posture": ""
         }
       ]

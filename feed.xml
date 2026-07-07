@@ -5,8 +5,16 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 06 Jul 2026 08:30:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 08:34:02 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Designation Letter: Europe's Critical-Entity Rules Land Unevenly from 17 July</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-07-critical-entity-designation/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-07-critical-entity-designation/scan.html</guid>
+<pubDate>Tue, 07 Jul 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a supervised statutory duty for named operators across eleven sectors — but it lands as a patchwork (Germany legislating only in January 2026, the Dutch law still before the Senate, seven member states referred to the CJEU in April 2026), so through 2026-2028 operators' resilience agendas...</description>
+</item>
 <item>
 <title>The Done-Away Gap: Treasury Clearing's Big Bang Arrives Before the Market Structure It Assumes</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-06-done-away-clearing-gap/scan.html</link>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 02 Jun 2026 08:00:00 +0000</pubDate>
 <category>Supply Chains &amp; Critical Minerals</category>
 <description>The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it. China's October 2025 controls explicitly fenced this layer off (suspended only to November 2026), leaving even well-funded Western mine-to-magnet build-outs structurally dependent.</description>
-</item>
-<item>
-<title>AI-Native or AI-Locked-Out: The Quiet Eligibility Divide Reshaping the Top Twenty Financial Centres</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-infrastructure-and-the-future-competitiveness-of-financia/2026-06-02-ai-eligibility-divide/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-infrastructure-and-the-future-competitiveness-of-financia/2026-06-02-ai-eligibility-divide/scan.html</guid>
-<pubDate>Tue, 02 Jun 2026 08:00:00 +0000</pubDate>
-<category>AI Infrastructure and the Future Competitiveness of Financial Centres</category>
-<description>Power, not capital or talent, is becoming the binding constraint on which financial centres can host AI-driven finance; data-centre moratoria and AI-sovereignty rules are silently dividing the top twenty into AI-eligible and AI-ineligible cohorts that GFCI methodology does not yet score.</description>
 </item>
 </channel>
 </rss>

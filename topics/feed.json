@@ -1,7 +1,273 @@
 {
-  "generated": "2026-07-06T08:43:47Z",
+  "generated": "2026-07-07T08:34:02Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "demographics-migration-labour-markets",
+      "name": "Demographics, Migration & Labour Markets",
+      "tagline": "Who pays for population decline.",
+      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
+      "latest_read": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
+      "latest_dates": {
+        "scan": "2026-07-05",
+        "tracker": "2026-06-11",
+        "di": "2026-07-09",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-09",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Workforce You Can't Buy",
+          "summary": "The May scan asked who pays for population decline and framed bilateral migration pacts as the coming currency of ageing-economy statecraft.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Young-Labour Reservoir Is Draining Before the Rich World Has Finished Ageing",
+          "summary": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Decade-Low Mirage: How a Record Care-Staffing Headline Hides a Pipeline Cut at Both Ends",
+          "summary": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites",
+          "summary": "As advanced economies cut migration on the assumption that AI will offset the lost labour, AI's impact lands in high-wage white-collar work while the acute shortages concentrate in care, health...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
+          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Migration inflows reverse as the ageing squeeze turns structural",
+          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
+          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
+          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
+          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Anglo Mobility Reversal",
+          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Who Pays for Population Decline?",
+          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
+          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Secondary City Pivot",
+          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "energy-infrastructure-climate-resilience",
+      "name": "Energy, Infrastructure & Climate Resilience",
+      "tagline": "The grid, the build-out, and the climate-resilient firm.",
+      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
+      "latest_read": "Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a...",
+      "latest_dates": {
+        "scan": "2026-07-07",
+        "tracker": "2026-06-25",
+        "di": "2026-05-19",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-07",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Designation Letter: Europe's Critical-Entity Rules Land Unevenly from 17 July",
+          "summary": "Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Water Ceiling: Why Power-Plant Water, Not Cooling, Will Gate the AI Data-Centre Buildout",
+          "summary": "Beneath the consensus that power and the grid are the binding constraint on the AI data-centre buildout, the binding limit is water - especially the indirect water consumed at thermoelectric power...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-25",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Delivery overtakes generation as the binding limit; catastrophe momentum cools",
+          "summary": "Edition 2. The cycle's dominant movement: delivery, not generation, is now the binding limit. GE Vernova's gas-turbine backlog hit 100 GW with slots booked toward 2030, grid investment still trails...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment",
+          "summary": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
+          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
+          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
+          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
+          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
+          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Load Follows Generation",
+          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Powering AI in a Climate-Stressed World",
+          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flash Drought: Speed Not Scarcity",
+          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
+          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Megacity Subsidence Inflection",
+          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Last Winter Road",
+          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Grid Bypass",
+          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "financial-services-future-of-money",
       "name": "Financial Services & Future of Money",
@@ -232,119 +498,6 @@
           "type": "Signal Scan",
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "demographics-migration-labour-markets",
-      "name": "Demographics, Migration & Labour Markets",
-      "tagline": "Who pays for population decline.",
-      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
-      "latest_read": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
-      "latest_dates": {
-        "scan": "2026-07-05",
-        "tracker": "2026-06-11",
-        "di": "2026-05-11",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-07-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Young-Labour Reservoir Is Draining Before the Rich World Has Finished Ageing",
-          "summary": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Decade-Low Mirage: How a Record Care-Staffing Headline Hides a Pipeline Cut at Both Ends",
-          "summary": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites",
-          "summary": "As advanced economies cut migration on the assumption that AI will offset the lost labour, AI's impact lands in high-wage white-collar work while the acute shortages concentrate in care, health...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
-          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Migration inflows reverse as the ageing squeeze turns structural",
-          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
-          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-31",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
-          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
-          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Anglo Mobility Reversal",
-          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Who Pays for Population Decline?",
-          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
-          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Secondary City Pivot",
-          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
           "posture": ""
         }
       ]
@@ -982,143 +1135,6 @@
           "type": "Signal Scan",
           "title": "The Institutional Ratchet",
           "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "energy-infrastructure-climate-resilience",
-      "name": "Energy, Infrastructure & Climate Resilience",
-      "tagline": "The grid, the build-out, and the climate-resilient firm.",
-      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
-      "latest_read": "Beneath the consensus that power and the grid are the binding constraint on the AI data-centre buildout, the binding limit is water - especially the indirect water consumed at thermoelectric power...",
-      "latest_dates": {
-        "scan": "2026-06-30",
-        "tracker": "2026-06-25",
-        "di": "2026-05-19",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-06-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Water Ceiling: Why Power-Plant Water, Not Cooling, Will Gate the AI Data-Centre Buildout",
-          "summary": "Beneath the consensus that power and the grid are the binding constraint on the AI data-centre buildout, the binding limit is water - especially the indirect water consumed at thermoelectric power...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-25",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Delivery overtakes generation as the binding limit; catastrophe momentum cools",
-          "summary": "Edition 2. The cycle's dominant movement: delivery, not generation, is now the binding limit. GE Vernova's gas-turbine backlog hit 100 GW with slots booked toward 2030, grid investment still trails...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment",
-          "summary": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
-          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
-          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
-          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
-          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
-          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Load Follows Generation",
-          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Powering AI in a Climate-Stressed World",
-          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Flash Drought: Speed Not Scarcity",
-          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
-          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Megacity Subsidence Inflection",
-          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Last Winter Road",
-          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Grid Bypass",
-          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
           "posture": ""
         }
       ]

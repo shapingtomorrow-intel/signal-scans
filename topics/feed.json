@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T12:47:46Z",
+  "generated": "2026-07-08T07:19:14Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-07-05",
         "tracker": "2026-06-11",
         "di": "2026-07-09",
-        "cc": ""
+        "cc": "2026-07-10"
       },
       "history": [
+        {
+          "date": "2026-07-10",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The reservoir emptied. The import valve jammed shut in the same cycle.",
+          "summary": "Over this cycle, the strategic constraint on advanced-economy labour changed. Eight weeks ago the central question was who would pay for population decline, and whether bilateral migration pacts would fund it.",
+          "posture": ""
+        },
         {
           "date": "2026-07-09",
           "kind": "brief",

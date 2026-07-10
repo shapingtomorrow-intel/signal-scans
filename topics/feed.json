@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T10:56:33Z",
+  "generated": "2026-07-10T08:30:08Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -9,10 +9,10 @@
       "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
-      "latest_read": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
+      "latest_read": "EU migration rules go live as the labour squeeze turns permanent",
       "latest_dates": {
         "scan": "2026-07-05",
-        "tracker": "2026-06-11",
+        "tracker": "2026-07-09",
         "di": "2026-07-09",
         "cc": "2026-07-10"
       },
@@ -23,6 +23,14 @@
           "type": "Action Triggers",
           "title": "The reservoir emptied. The import valve jammed shut in the same cycle.",
           "summary": "Over this cycle, the strategic constraint on advanced-economy labour changed. Eight weeks ago the central question was who would pay for population decline, and whether bilateral migration pacts would fund it.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-09",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "EU migration rules go live as the labour squeeze turns permanent",
+          "summary": "Second Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 3 Accelerating (European migration restriction, below-replacement fertility, skilled-talent migration...",
           "posture": ""
         },
         {
@@ -127,6 +135,127 @@
           "type": "Signal Scan",
           "title": "The Secondary City Pivot",
           "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "health-life-sciences-care-systems",
+      "name": "Health, Life Sciences & Care Systems",
+      "tagline": "The reorganisation of how care gets delivered.",
+      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
+      "latest_read": "US pharma tariffs near enforcement; global health financing retreats",
+      "latest_dates": {
+        "scan": "2026-07-05",
+        "tracker": "2026-07-10",
+        "di": "2026-06-02",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-10",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "US pharma tariffs near enforcement; global health financing retreats",
+          "summary": "Second Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 4 Accelerating (US pharma tariffs and MFN pricing, global health financing retrenchment, US vaccine-policy disruption...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Approved on Mechanism, Not Trials: The FDA's Plausible-Mechanism Reset for Bespoke Gene Therapies",
+          "summary": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Market Failure: How 'Subscription' Payments for Antibiotics Are Crossing From Pilot to Policy",
+          "summary": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two-Track Obesity Care: How GLP-1 Access Split by Payer Just as the Pills Arrived",
+          "summary": "Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
+          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-12",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
+          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
+          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Too Much Cure, Not Enough Care",
+          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
+          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
+          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The 2026 Patent Geography Split",
+          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The MCED Coverage-Evidence Gap",
+          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Homology Trap",
+          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
           "posture": ""
         }
       ]
@@ -885,119 +1014,6 @@
           "type": "Signal Scan",
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "health-life-sciences-care-systems",
-      "name": "Health, Life Sciences & Care Systems",
-      "tagline": "The reorganisation of how care gets delivered.",
-      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
-      "latest_read": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
-      "latest_dates": {
-        "scan": "2026-07-05",
-        "tracker": "2026-06-12",
-        "di": "2026-06-02",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-07-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Approved on Mechanism, Not Trials: The FDA's Plausible-Mechanism Reset for Bespoke Gene Therapies",
-          "summary": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Market Failure: How 'Subscription' Payments for Antibiotics Are Crossing From Pilot to Policy",
-          "summary": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two-Track Obesity Care: How GLP-1 Access Split by Payer Just as the Pills Arrived",
-          "summary": "Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
-          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-12",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
-          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
-          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Too Much Cure, Not Enough Care",
-          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-31",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
-          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
-          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The 2026 Patent Geography Split",
-          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The MCED Coverage-Evidence Gap",
-          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Homology Trap",
-          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
           "posture": ""
         }
       ]

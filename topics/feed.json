@@ -1,7 +1,289 @@
 {
-  "generated": "2026-07-14T08:31:36Z",
+  "generated": "2026-07-14T13:21:30Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "energy-infrastructure-climate-resilience",
+      "name": "Energy, Infrastructure & Climate Resilience",
+      "tagline": "The grid, the build-out, and the climate-resilient firm.",
+      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
+      "latest_read": "Beneath the consensus that solar is the cheapest power and its build-out unstoppable, solar's own success is collapsing its capture price: EU-27 day-ahead negative-price hours more than doubled year...",
+      "latest_dates": {
+        "scan": "2026-07-14",
+        "tracker": "2026-06-25",
+        "di": "2026-07-16",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-16",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer the Grid Said No",
+          "summary": "The May cycle framed integrated capital planning against four constraints: grid, water, insurance and capital. Eight weeks on, the constraints did not release, they changed venue.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Value-Deflation Cliff: How Solar's Own Success Repriced the Merchant Renewables Model",
+          "summary": "Beneath the consensus that solar is the cheapest power and its build-out unstoppable, solar's own success is collapsing its capture price: EU-27 day-ahead negative-price hours more than doubled year...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-07",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Designation Letter: Europe's Critical-Entity Rules Land Unevenly from 17 July",
+          "summary": "Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Water Ceiling: Why Power-Plant Water, Not Cooling, Will Gate the AI Data-Centre Buildout",
+          "summary": "Beneath the consensus that power and the grid are the binding constraint on the AI data-centre buildout, the binding limit is water - especially the indirect water consumed at thermoelectric power...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-25",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Delivery overtakes generation as the binding limit; catastrophe momentum cools",
+          "summary": "Edition 2. The cycle's dominant movement: delivery, not generation, is now the binding limit. GE Vernova's gas-turbine backlog hit 100 GW with slots booked toward 2030, grid investment still trails...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment",
+          "summary": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
+          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
+          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
+          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
+          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
+          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Load Follows Generation",
+          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Powering AI in a Climate-Stressed World",
+          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flash Drought: Speed Not Scarcity",
+          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
+          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Megacity Subsidence Inflection",
+          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Last Winter Road",
+          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Grid Bypass",
+          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "supply-chains-critical-minerals",
+      "name": "Supply Chains & Critical Minerals",
+      "tagline": "When the supply chain becomes statecraft.",
+      "description": "Critical-mineral stockpiles, friendshoring, sovereign equity in suppliers, export-quota shocks. What it changes for procurement, inventory and substitution strategy.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/history/",
+      "latest_read": "Beneath the consensus that breaking China's grip on critical minerals means diversifying mines and refineries, the next contested layer is the urban mine (end-of-life batteries and black mass)...",
+      "latest_dates": {
+        "scan": "2026-07-14",
+        "tracker": "2026-06-26",
+        "di": "2026-06-18",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Urban Mine Enclosure: How Battery Scrap Became a Strategic Resource",
+          "summary": "Beneath the consensus that breaking China's grip on critical minerals means diversifying mines and refineries, the next contested layer is the urban mine (end-of-life batteries and black mass)...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-07",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Suspended, Not Dismantled: China's Extraterritorial Mineral Licensing and the Supply-Chain Map It Hands Beijing",
+          "summary": "Beneath the consensus that the November 2025 suspension and general-licence detente have defused China's rare-earth weapon, Beijing has left a permanent, reactivatable extraterritorial licensing...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Benchmark Trap: Why Western Mines Won't Loosen China's Grip on Critical-Mineral Prices",
+          "summary": "Beneath the consensus that China's critical-minerals dominance is a physical problem of mines and refineries, China is consolidating the price-discovery layer - internationalising its yuan futures...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-26",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "China blacklists US rare-earth champions as Washington turns market-maker",
+          "summary": "Cycle 2. China's 22 June blacklisting of MP Materials and USA Rare Earths flips last cycle's Stable export-control read to Accelerating.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges",
+          "summary": "Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Five Choices on Critical Minerals",
+          "summary": "The cycle’s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate",
+          "summary": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand",
+          "summary": "China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint",
+          "summary": "The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy",
+          "summary": "Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-22",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "State intervention in critical minerals accelerates as the export-control truce holds",
+          "summary": "Inaugural cycle. Government intervention dominates the momentum: US strategic stockpiling, equity stakes, price floors and Section 232 trade remedies are accelerating alongside China's new...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Rerouting Illusion",
+          "summary": "Beneath the deglobalisation headline, the trade data show resilience and rerouting rather than retreat: most corporate de-risking has relabelled and lengthened China-dependence rather than removing...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
+          "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "financial-services-future-of-money",
       "name": "Financial Services & Future of Money",
@@ -1094,264 +1376,6 @@
           "type": "Signal Scan",
           "title": "The Institutional Ratchet",
           "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "energy-infrastructure-climate-resilience",
-      "name": "Energy, Infrastructure & Climate Resilience",
-      "tagline": "The grid, the build-out, and the climate-resilient firm.",
-      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
-      "latest_read": "Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a...",
-      "latest_dates": {
-        "scan": "2026-07-07",
-        "tracker": "2026-06-25",
-        "di": "2026-05-19",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-07-07",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Designation Letter: Europe's Critical-Entity Rules Land Unevenly from 17 July",
-          "summary": "Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Water Ceiling: Why Power-Plant Water, Not Cooling, Will Gate the AI Data-Centre Buildout",
-          "summary": "Beneath the consensus that power and the grid are the binding constraint on the AI data-centre buildout, the binding limit is water - especially the indirect water consumed at thermoelectric power...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-25",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Delivery overtakes generation as the binding limit; catastrophe momentum cools",
-          "summary": "Edition 2. The cycle's dominant movement: delivery, not generation, is now the binding limit. GE Vernova's gas-turbine backlog hit 100 GW with slots booked toward 2030, grid investment still trails...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment",
-          "summary": "Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres",
-          "summary": "US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When Inertia Stops Being Free: Grids Pivot From Building Power to Buying Stability",
-          "summary": "The binding grid reliability constraint is shifting from adequacy to system strength and dynamic stability. Inertia, fault current, reactive power and oscillation damping that retiring synchronous...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Factory, Not the Queue: Grid-Hardware Manufacturing Is the Binding Constraint on the Energy Build-Out",
-          "summary": "The binding constraint on the energy build-out has migrated downstream from permitting queues to grid-hardware manufacturing.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Power demand outpaces grid; US policy retreats; insured losses harden",
-          "summary": "Inaugural cycle. Clean build-out is accelerating with renewables, batteries crossing the 100 GW annual-additions mark and the first US advanced-nuclear construction permit in roughly a decade...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Adequate, and Still Exposed: How Correlated Climate Stress Is Redefining Grid Reliability",
-          "summary": "Climate change is correlating stresses on generation, transmission and demand so that a grid can hold an adequate reserve margin and still fail.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Load Follows Generation",
-          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Powering AI in a Climate-Stressed World",
-          "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Flash Drought: Speed Not Scarcity",
-          "summary": "Beneath the drought-and-wildfire narrative, flash drought: severe drought intensifying within weeks rather than seasons: is emerging as a distinct systemic-risk category whose tempo outpaces...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Hydrogen on Hold: How Aviation's Three-Pathway Decarbonisation Is Quietly Collapsing to One",
-          "summary": "The hydrogen-electric pathway to aviation decarbonisation is being materially deprioritised, collapsing the assumed three-pathway story to SAF and eVTOL.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Megacity Subsidence Inflection",
-          "summary": "Megacity subsidence is outrunning sea-level rise as the binding coastal-risk variable, with two 2026 Nature studies showing cities sinking 5-10x faster than oceans are rising.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Last Winter Road",
-          "summary": "Three Northwest Territories diamond mines are in simultaneous financial distress, the 2026 Tibbitt-to-Contwoyto winter road carried half its historic loads, the 2027 season is openly in question...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Grid Bypass",
-          "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "supply-chains-critical-minerals",
-      "name": "Supply Chains & Critical Minerals",
-      "tagline": "When the supply chain becomes statecraft.",
-      "description": "Critical-mineral stockpiles, friendshoring, sovereign equity in suppliers, export-quota shocks. What it changes for procurement, inventory and substitution strategy.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/history/",
-      "latest_read": "Beneath the consensus that the November 2025 suspension and general-licence detente have defused China's rare-earth weapon, Beijing has left a permanent, reactivatable extraterritorial licensing...",
-      "latest_dates": {
-        "scan": "2026-07-07",
-        "tracker": "2026-06-26",
-        "di": "2026-06-18",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-07-07",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Suspended, Not Dismantled: China's Extraterritorial Mineral Licensing and the Supply-Chain Map It Hands Beijing",
-          "summary": "Beneath the consensus that the November 2025 suspension and general-licence detente have defused China's rare-earth weapon, Beijing has left a permanent, reactivatable extraterritorial licensing...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Benchmark Trap: Why Western Mines Won't Loosen China's Grip on Critical-Mineral Prices",
-          "summary": "Beneath the consensus that China's critical-minerals dominance is a physical problem of mines and refineries, China is consolidating the price-discovery layer - internationalising its yuan futures...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-26",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "China blacklists US rare-earth champions as Washington turns market-maker",
-          "summary": "Cycle 2. China's 22 June blacklisting of MP Materials and USA Rare Earths flips last cycle's Stable export-control read to Accelerating.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges",
-          "summary": "Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Five Choices on Critical Minerals",
-          "summary": "The cycle’s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate",
-          "summary": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand",
-          "summary": "China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint",
-          "summary": "The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy",
-          "summary": "Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-22",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "State intervention in critical minerals accelerates as the export-control truce holds",
-          "summary": "Inaugural cycle. Government intervention dominates the momentum: US strategic stockpiling, equity stakes, price floors and Section 232 trade remedies are accelerating alongside China's new...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Rerouting Illusion",
-          "summary": "Beneath the deglobalisation headline, the trade data show resilience and rerouting rather than retreat: most corporate de-risking has relabelled and lengthened China-dependence rather than removing...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
-          "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
           "posture": ""
         }
       ]

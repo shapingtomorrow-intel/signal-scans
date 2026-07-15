@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 14 Jul 2026 13:21:28 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 08:30:07 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-15-counter-drone-authority-gap/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-15-counter-drone-authority-gap/scan.html</guid>
+<pubDate>Wed, 15 Jul 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>Beneath the 'drone wall' consensus that Europe's drone problem is one of hardware and spending, the binding constraint is engagement authority: the nationally-set legal question of who may lawfully detect, track and destroy a drone over domestic and civilian airspace, and in the sub-five-minute window before it acts. Through 2026 that authority is being rewritten by emergency national law (Germany's Luftsicherheitsgesetz, in force March 2026; Poland's Operation SAN) and the...</description>
+</item>
+<item>
+<title>Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-15-economic-security-widening-net/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-15-economic-security-widening-net/scan.html</guid>
+<pubDate>Wed, 15 Jul 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state machinery: Japan's first overhaul of its Economic Security Promotion Act since 2022 (Cabinet-approved 19 March 2026) pulls services and medical infrastructure into a critical-infrastructure regime that already designates 257 operators and reaches down to sub-subcontractors; the US runs...</description>
+</item>
 <item>
 <title>The Value-Deflation Cliff: How Solar's Own Success Repriced the Merchant Renewables Model</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-14-capture-price-cliff/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
 <description>Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story. Total inference spend and the cost of completed frontier-grade work are rising, turning inference economics (not capability) into the binding constraint and locking AI-native gross margins structurally below SaaS across 2026-2028.</description>
-</item>
-<item>
-<title>Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-13-ai-competence-debt/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-06-13-ai-competence-debt/scan.html</guid>
-<pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them. Controlled trials and safety bodies have surfaced a hidden 'competence debt' that stays invisible while AI is present and surfaces 2027-2030 when AI is absent, fails or must be overridden, hitting succession, oversight and operational resilience.</description>
-</item>
-<item>
-<title>Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-10-military-schengen-dual-use/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-10-military-schengen-dual-use/scan.html</guid>
-<pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian transport infrastructure - ports, rail, bridges, tunnels - into a regulated, binding dual-use defence asset class, with adoption targeted end-2026 and an operational 'Military Schengen' framework by end-2027.</description>
 </item>
 </channel>
 </rss>

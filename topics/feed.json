@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T12:18:56Z",
+  "generated": "2026-07-15T12:27:55Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -21,7 +21,7 @@
           "date": "2026-07-17",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The constraint moved downstream. The grid gained a veto.",
+          "title": "The Grid Acquired a Veto",
           "summary": "Over the cycle the binding constraint changed twice, then changed character: the May question was whether the transmission queue would gate the AI buildout; the answer came as the constraint walked...",
           "posture": ""
         },

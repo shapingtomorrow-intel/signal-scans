@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Thu, 16 Jul 2026 08:30:08 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 11:48:03 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace</title>
@@ -46,22 +46,6 @@
 <pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule and defence flow-downs, Germany's BSI has for the first time end-dated classical asymmetric encryption ('alternativlos'), and the EU's end-2026 milestones convert cryptography into audited, contract-clause compliance - so the binding constraint is the regulatory clock, not the...</description>
-</item>
-<item>
-<title>Deposits, Not Stablecoins: How Rival Bank Consortia Are Rebuilding the Correspondent Hierarchy On-Chain</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-13-tokenized-deposit-tiering/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-13-tokenized-deposit-tiering/scan.html</guid>
-<pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
-<category>Financial Services &amp; Future of Money</category>
-<description>Beneath the consensus that stablecoins will disintermediate banks, the US tokenised-money contest is resolving toward tokenised bank deposits: the FDIC's April 2026 GENIUS rulemaking keeps deposit insurance for tokenised deposits and denies pass-through insurance to stablecoins, while the market has split into rival bank consortia (money-centre banks via The Clearing House, CHIPS/RTP-bridged, targeting H1 2027; regional banks via the Cari Network, targeting year-end 2026)...</description>
-</item>
-<item>
-<title>The Empty Sandbox: The EU's Flagship AI-Innovation Track Is Quietly Stalling</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-07-13-ai-sandbox-delivery-gap/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-07-13-ai-sandbox-delivery-gap/scan.html</guid>
-<pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
-<category>Regulation, Standards &amp; Policy Change</category>
-<description>Beneath the EU's competitiveness pivot and the Digital Omnibus's headline 'timeline relief', the bloc's flagship pro-innovation instrument, the AI regulatory sandbox, is quietly failing to materialise: only one of 27 member states (Spain) has an operational sandbox, the Council pushed the 2 August 2026 mandate to 2 August 2027, and independent analysis flags a structural triple constraint (regulator capacity, cross-authority coordination, attractiveness to firms) plus a...</description>
 </item>
 <item>
 <title>Work Visas as Return Leverage: How the EU Ties Legal Labour Migration to Deportation Diplomacy</title>
@@ -406,6 +390,22 @@
 <pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
 <description>AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them. Controlled trials and safety bodies have surfaced a hidden 'competence debt' that stays invisible while AI is present and surfaces 2027-2030 when AI is absent, fails or must be overridden, hitting succession, oversight and operational resilience.</description>
+</item>
+<item>
+<title>Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-10-military-schengen-dual-use/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-06-10-military-schengen-dual-use/scan.html</guid>
+<pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian transport infrastructure - ports, rail, bridges, tunnels - into a regulated, binding dual-use defence asset class, with adoption targeted end-2026 and an operational 'Military Schengen' framework by end-2027.</description>
+</item>
+<item>
+<title>Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-10-outbound-investment-screening/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-10-outbound-investment-screening/scan.html</guid>
+<pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound investment screening crossed three thresholds at once - the US codified and expanded its regime via the December 2025 COINS Act (six adversary states, new sectors), China stood up a mirror regime on 1 June 2026, and Washington began templating inbound/outbound screening into bilateral...</description>
 </item>
 </channel>
 </rss>

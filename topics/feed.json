@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T09:00:29Z",
+  "generated": "2026-07-16T11:48:03Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -208,14 +208,6 @@
           "type": "Signal Scan",
           "title": "The Counter-Ledger: Central Banks and Commercial Banks Build Their Answer to Stablecoins",
           "summary": "Beneath the stablecoins-have-won narrative, the regulated core built the rival system this quarter: the BIS's 2026 blueprint anchors tokenisation in central-bank money on unified ledgers, Project...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Deposits, Not Stablecoins: How Rival Bank Consortia Are Rebuilding the Correspondent Hierarchy On-Chain",
-          "summary": "Beneath the consensus that stablecoins will disintermediate banks, the US tokenised-money contest is resolving toward tokenised bank deposits: the FDIC's April 2026 GENIUS rulemaking keeps deposit...",
           "posture": "Prepare"
         },
         {
@@ -748,14 +740,6 @@
           "type": "Signal Scan",
           "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
           "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Empty Sandbox: The EU's Flagship AI-Innovation Track Is Quietly Stalling",
-          "summary": "Beneath the EU's competitiveness pivot and the Digital Omnibus's headline 'timeline relief', the bloc's flagship pro-innovation instrument, the AI regulatory sandbox, is quietly failing to...",
           "posture": "Prepare"
         },
         {

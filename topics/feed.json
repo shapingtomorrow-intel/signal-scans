@@ -1,7 +1,313 @@
 {
-  "generated": "2026-07-17T10:47:38Z",
+  "generated": "2026-07-18T08:23:46Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "ai-automation",
+      "name": "AI & Automation",
+      "tagline": "From hype to operating model.",
+      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
+      "latest_read": "The three best US measures of AI adoption diverge four-fold, so there is no single adoption rate. About 18% of firms, 41% of workers and 78% employment-weighted, the gap revealing AI that is broad...",
+      "latest_dates": {
+        "scan": "2026-07-18",
+        "tracker": "2026-07-02",
+        "di": "2026-06-25",
+        "cc": "2026-06-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Breadth Without Depth: Why AI's Adoption Numbers Diverge Four-Fold",
+          "summary": "The three best US measures of AI adoption diverge four-fold, so there is no single adoption rate. About 18% of firms, 41% of workers and 78% employment-weighted, the gap revealing AI that is broad...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-11",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "AI's Reported Profits Rest on an Accounting Guess About How Long GPUs Last",
+          "summary": "Beneath the AI-bubble debate, the reported profitability sustaining the trillion-dollar buildout increasingly rests on a discretionary accounting estimate: the four-to-six-year useful life hyperscalers assign to GPUs that turn over economically in two to three years.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-04",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Consent Constraint: Why the AI Buildout Now Runs Through Local Politics",
+          "summary": "Local political consent has overtaken capital, chips and grid engineering as the binding constraint on the US AI infrastructure buildout: a record ~$130bn of data-centre projects were blocked or...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Capital repricing arrives as the rulebook stands down",
+          "summary": "Cycle 2. AI financing and bubble repricing enters the register as the steepest new mover: a late-June selloff (Nasdaq off over 2%, Micron over 13%) landed with a BIS warning that opaque, circular AI financing could trigger the next crisis.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Upstream Capture: Why Physical AI Is Being Decided in Data, Components and Standards",
+          "summary": "Beneath the humanoid-robot race over hardware and market size, the decisive 2026 contest in physical AI is moving upstream to the embodied-training-data pipeline, the component supply chain and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-26",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Past capability, into liability.",
+          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-25",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
+          "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline",
+          "summary": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
+          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
+          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "The execution layer goes live as the rulebook stands down",
+          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
+          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
+          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Identity Before Capability",
+          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Compute as Statecraft",
+          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Worlds for Machines",
+          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Superconducting Hedge",
+          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "When AI Joins the Org Chart",
+          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
+          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "workforce-skills-organisational-change",
+      "name": "Workforce, Skills & Organisational Change",
+      "tagline": "What stays human when AI joins the org chart.",
+      "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
+      "latest_read": "The sharpest AI pay divide is opening inside occupations, not between them. Workers who restructure their work around AI command a widening premium (PwC puts it at 62% in 2026) over...",
+      "latest_dates": {
+        "scan": "2026-07-18",
+        "tracker": "2026-07-02",
+        "di": "2026-06-18",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-07-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Same Title, Different Pay: The AI-Fluency Divide Opening Inside Occupations",
+          "summary": "The sharpest AI pay divide is opening inside occupations, not between them. Workers who restructure their work around AI command a widening premium (PwC puts it at 62% in 2026) over...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-11",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Deferred Its Workplace-AI Rules to 2027; the Duty to Consult Workers Still Binds",
+          "summary": "Beneath the headline that the EU has deferred its AI Act high-risk employment rules from August 2026 to December 2027, the binding constraint on workplace AI has not disappeared but shifted...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-04",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Second Workforce: AI Agents Enter the Employment System of Record",
+          "summary": "Enterprises are rebuilding the administrative machinery of employment, HRMS worker types, agent-manager roles, CAIO mandates and pay architecture, to manage AI agents as a second workforce, ahead of...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Flattening cuts into the leadership pipeline as layoffs cool",
+          "summary": "Cycle 2. Leadership-pipeline erosion enters the register as the steepest new mover: aggressive delayering removes where future leaders are trained, with Gartner projecting one in five firms cutting more than half their middle managers and only 6% of Gen Z wanting senior roles.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Headcount Reset: Why Firms Are Decoupling Jobs From Growth Before the AI Payoff Is Proven",
+          "summary": "Beneath the competing narratives that AI either grows jobs and productivity or simply enables efficient layoffs, a growing set of firms are pre-committing to a permanent decoupling of revenue growth...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Reskilling Treadmill: Why Skills Now Decay Faster Than Training Can Refresh Them",
+          "summary": "In AI-exposed work the half-life of job skills is collapsing faster than employer training can refresh it, while employer training investment declines and AI strips out the routine tasks that built...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Beyond the Headcount",
+          "summary": "The workforce contract is being rewritten on five legs at once: AI agents are entering the operating model alongside people; skills frameworks are overtaking degree credentials as the hiring and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains",
+          "summary": "AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Manager in the Machine: Algorithmic Management Went Mainstream Before Its Guardrails Arrived",
+          "summary": "AI has quietly become the manager rather than the copilot, instructing, monitoring, evaluating and gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD).",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Layers fall and offices fill as engagement hits a new floor",
+          "summary": "Inaugural Change Tracker on Workforce, Skills and Organisational Change. Eight signals: 5 Accelerating (the Great Flattening of middle management, white-collar forever layoffs, manager and employee...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vanishing Middle: Why Management-Layer Compression Is Structural, Not Cyclical",
+          "summary": "Span of control is crossing thresholds once considered dysfunctional, permanently re-architecting firms into a thin manager spine plus a widened expert lattice.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset",
+          "summary": "The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation.",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Hiring Verification Crisis",
+          "summary": "The credential infrastructure of hiring is being broken by AI faster than the displace-or-augment debate registers.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Whim",
+          "summary": "The employer-paid mobility budget, not city integration apps or super-apps, is the structural successor to the Whim consumer-MaaS dream.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Broken Rung",
+          "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "regulation-standards-policy-change",
       "name": "Regulation, Standards & Policy Change",
@@ -1118,296 +1424,6 @@
           "type": "Signal Scan",
           "title": "The Homology Trap",
           "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "ai-automation",
-      "name": "AI & Automation",
-      "tagline": "From hype to operating model.",
-      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
-      "latest_read": "Beneath the AI-bubble debate, the reported profitability sustaining the trillion-dollar buildout increasingly rests on a discretionary accounting estimate: the four-to-six-year useful life hyperscalers assign to GPUs that turn over economically in two to three years.",
-      "latest_dates": {
-        "scan": "2026-07-11",
-        "tracker": "2026-07-02",
-        "di": "2026-06-25",
-        "cc": "2026-06-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-11",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "AI's Reported Profits Rest on an Accounting Guess About How Long GPUs Last",
-          "summary": "Beneath the AI-bubble debate, the reported profitability sustaining the trillion-dollar buildout increasingly rests on a discretionary accounting estimate: the four-to-six-year useful life hyperscalers assign to GPUs that turn over economically in two to three years.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-04",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Consent Constraint: Why the AI Buildout Now Runs Through Local Politics",
-          "summary": "Local political consent has overtaken capital, chips and grid engineering as the binding constraint on the US AI infrastructure buildout: a record ~$130bn of data-centre projects were blocked or...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-02",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Capital repricing arrives as the rulebook stands down",
-          "summary": "Cycle 2. AI financing and bubble repricing enters the register as the steepest new mover: a late-June selloff (Nasdaq off over 2%, Micron over 13%) landed with a BIS warning that opaque, circular AI financing could trigger the next crisis.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Upstream Capture: Why Physical AI Is Being Decided in Data, Components and Standards",
-          "summary": "Beneath the humanoid-robot race over hardware and market size, the decisive 2026 contest in physical AI is moving upstream to the embodied-training-data pipeline, the component supply chain and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-26",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Past capability, into liability.",
-          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-25",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
-          "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline",
-          "summary": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
-          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
-          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "The execution layer goes live as the rulebook stands down",
-          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
-          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
-          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Identity Before Capability",
-          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Compute as Statecraft",
-          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Worlds for Machines",
-          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Superconducting Hedge",
-          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-12",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "When AI Joins the Org Chart",
-          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
-          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "workforce-skills-organisational-change",
-      "name": "Workforce, Skills & Organisational Change",
-      "tagline": "What stays human when AI joins the org chart.",
-      "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
-      "latest_read": "Beneath the headline that the EU has deferred its AI Act high-risk employment rules from August 2026 to December 2027, the binding constraint on workplace AI has not disappeared but shifted...",
-      "latest_dates": {
-        "scan": "2026-07-11",
-        "tracker": "2026-07-02",
-        "di": "2026-06-18",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-07-11",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Deferred Its Workplace-AI Rules to 2027; the Duty to Consult Workers Still Binds",
-          "summary": "Beneath the headline that the EU has deferred its AI Act high-risk employment rules from August 2026 to December 2027, the binding constraint on workplace AI has not disappeared but shifted...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-04",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Second Workforce: AI Agents Enter the Employment System of Record",
-          "summary": "Enterprises are rebuilding the administrative machinery of employment, HRMS worker types, agent-manager roles, CAIO mandates and pay architecture, to manage AI agents as a second workforce, ahead of...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-02",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Flattening cuts into the leadership pipeline as layoffs cool",
-          "summary": "Cycle 2. Leadership-pipeline erosion enters the register as the steepest new mover: aggressive delayering removes where future leaders are trained, with Gartner projecting one in five firms cutting more than half their middle managers and only 6% of Gen Z wanting senior roles.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Headcount Reset: Why Firms Are Decoupling Jobs From Growth Before the AI Payoff Is Proven",
-          "summary": "Beneath the competing narratives that AI either grows jobs and productivity or simply enables efficient layoffs, a growing set of firms are pre-committing to a permanent decoupling of revenue growth...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Reskilling Treadmill: Why Skills Now Decay Faster Than Training Can Refresh Them",
-          "summary": "In AI-exposed work the half-life of job skills is collapsing faster than employer training can refresh it, while employer training investment declines and AI strips out the routine tasks that built...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Beyond the Headcount",
-          "summary": "The workforce contract is being rewritten on five legs at once: AI agents are entering the operating model alongside people; skills frameworks are overtaking degree credentials as the hiring and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains",
-          "summary": "AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Manager in the Machine: Algorithmic Management Went Mainstream Before Its Guardrails Arrived",
-          "summary": "AI has quietly become the manager rather than the copilot, instructing, monitoring, evaluating and gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD).",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Layers fall and offices fill as engagement hits a new floor",
-          "summary": "Inaugural Change Tracker on Workforce, Skills and Organisational Change. Eight signals: 5 Accelerating (the Great Flattening of middle management, white-collar forever layoffs, manager and employee...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Vanishing Middle: Why Management-Layer Compression Is Structural, Not Cyclical",
-          "summary": "Span of control is crossing thresholds once considered dysfunctional, permanently re-architecting firms into a thin manager spine plus a widened expert lattice.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset",
-          "summary": "The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation.",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Hiring Verification Crisis",
-          "summary": "The credential infrastructure of hiring is being broken by AI faster than the displace-or-augment debate registers.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After Whim",
-          "summary": "The employer-paid mobility budget, not city integration apps or super-apps, is the structural successor to the Whim consumer-MaaS dream.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Broken Rung",
-          "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
           "posture": ""
         }
       ]

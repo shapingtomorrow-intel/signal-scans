@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/trends/</link>
 <description>Momentum scans from the Shaping Tomorrow horizon. Each Change Tracker reads across the recent evidence on one topic, labelling the signals beneath it as Accelerating, Stable or Fading, and surfacing the wild cards worth watching.</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 21 Jul 2026 16:25:32 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 16:54:25 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/trends/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>Europe enacts its simplification; the US stablecoin clock runs down</title>
@@ -16,12 +16,28 @@
 <description>Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection simplification, US federal-versus-state AI preemption), 5 Stable (EU sustainability rollback, OECD Pillar Two carve-out, ISSB baseline, US crypto market-structure CLARITY Act, ISO/IEC 42001), 0 Fading. The EU AI Act simplification was formally adopted (Council 29 June), advancing to...</description>
 </item>
 <item>
+<title>US and UK stablecoin rulebooks harden as the digital euro clears Parliament</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-07-16/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-07-16/tracker.html</guid>
+<pubDate>Thu, 16 Jul 2026 08:00:00 +0000</pubDate>
+<category>Financial Services and the Future of Money</category>
+<description>Third Change Tracker on Financial Services and the Future of Money. Nine signals: 6 Accelerating (US stablecoin rulemaking, retail digital euro, UK systemic stablecoin regime, interbank tokenised-deposit clearing, stablecoin deposit disintermediation, agent-initiated machine payments), 2 Stable (wholesale cross-border tokenised settlement, tokenised funds and on-chain MMFs), 1 Fading (cash displacement). The Bank of England systemic stablecoin regime is new to the register...</description>
+</item>
+<item>
 <title>US pharma tariffs near enforcement; global health financing retreats</title>
 <link>https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-07-10/tracker.html</link>
 <guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-07-10/tracker.html</guid>
 <pubDate>Fri, 10 Jul 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences and Care Systems</category>
 <description>Second Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 4 Accelerating (US pharma tariffs and MFN pricing, global health financing retrenchment, US vaccine-policy disruption, Medicare GLP-1 access expansion), 5 Stable (EU Critical Medicines Act, antibiotic pipeline shortfall, UK social care workforce reform, AI-designed drug discovery, NHS neighbourhood health shift), 1 Fading (pandemic-preparedness governance). The Section 232 tariff reaches...</description>
+</item>
+<item>
+<title>EU migration rules go live as the labour squeeze turns permanent</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-07-09/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-07-09/tracker.html</guid>
+<pubDate>Thu, 09 Jul 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration and Labour Markets</category>
+<description>Second Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 3 Accelerating (European migration restriction, below-replacement fertility, skilled-talent migration competition), 5 Stable (US net migration, working-age contraction and ageing, retirement-age reform, care and health workforce shortage, AI as a partial demographic offset), 0 Fading. The EU Pact on Migration and Asylum and the Talent Pool regulation both entered into force; two July...</description>
 </item>
 <item>
 <title>Drones and capital accelerate; Washington's guarantee thins further</title>
@@ -62,6 +78,14 @@
 <pubDate>Fri, 26 Jun 2026 08:00:00 +0000</pubDate>
 <category>Supply Chains and Critical Minerals</category>
 <description>Cycle 2. China's 22 June blacklisting of MP Materials and USA Rare Earths flips last cycle's Stable export-control read to Accelerating. Washington deepens its market-maker role through equity stakes, a $110/kg price floor, Section 232 and a $12bn Project Vault stockpile, while allied diversification gained political momentum at the G7 Evian summit yet still trails China's refining grip.</description>
+</item>
+<item>
+<title>Delivery overtakes generation as the binding limit; catastrophe momentum cools</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/energy-infrastructure-climate-resilience/2026-06-25/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/energy-infrastructure-climate-resilience/2026-06-25/tracker.html</guid>
+<pubDate>Thu, 25 Jun 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure and Climate Resilience</category>
+<description>Edition 2. The cycle's dominant movement: delivery, not generation, is now the binding limit. GE Vernova's gas-turbine backlog hit 100 GW with slots booked toward 2030, grid investment still trails over 2,500 GW of stalled queue capacity, and AI data-centre load is the settled premise. Clean supply keeps scaling (renewables past coal in 2025, storage nearing solar) even as US policy compresses the near-term window through the 4 July OBBBA cliff, about USD 2bn of...</description>
 </item>
 <item>
 <title>Brussels trims and defers; Washington carves its own track</title>

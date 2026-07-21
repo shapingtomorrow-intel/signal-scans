@@ -226,9 +226,10 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "Global insured losses totaled USD 107 billion in 2025, and secondary perils - wildfires, severe convective storms and floods - drove a record 92% of total global natural catastrophe insured losses. The LA wildfires generated record-breaking combined insured losses of around USD 40 billion. In a peak-loss scenario, insured losses could reach USD 320 billion in 2026.",
+    "verbatim_quote": null,
     "verbatim_list": null,
-    "cluster": "Physical-risk repricing cools as resilience deadlines arrive"
+    "cluster": "Physical-risk repricing cools as resilience deadlines arrive",
+    "notes": "verbatim_quote withheld 2026-07-21: stored quote was stitched/reworded and 3 of 4 figures live only in the sigma PDF, not the cited HTML; the USD 107bn/92%/USD 40bn/USD 320bn figures are genuine Swiss Re sigma data and rest on key_claim."
   },
   {
     "topic": "Energy, Infrastructure and Climate Resilience",

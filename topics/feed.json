@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T10:17:37Z",
+  "generated": "2026-07-21T10:52:18Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-07-20",
         "tracker": "2026-07-16",
         "di": "2026-07-23",
-        "cc": "2026-06-02"
+        "cc": "2026-07-24"
       },
       "history": [
+        {
+          "date": "2026-07-24",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The Perimeter Followed the Money",
+          "summary": "Money left the bank; the perimeter followed it onto programmable rails. The scans caught the leaving early (invisible dollarisation, the stablecoin Treasury bid, the account-to-account rail switch)...",
+          "posture": ""
+        },
         {
           "date": "2026-07-23",
           "kind": "brief",

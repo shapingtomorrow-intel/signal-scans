@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 20 Jul 2026 16:19:22 +0000</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 08:30:06 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Retirement by Federal Order: The Quiet Federalisation of US Resource Adequacy</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-21-standing-grid-emergency/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-21-standing-grid-emergency/scan.html</guid>
+<pubDate>Tue, 21 Jul 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>A 90-day US emergency power has become the instrument that decides which power plants retire. Every DOE 202(c) order issued since May 2025 has been renewed, 22 orders cover 12 generating units, ratepayer costs exceed $300 million, and the DC Circuit now weighs whether the rolling federal retirement veto stands.</description>
+</item>
+<item>
+<title>Mines Without Smelters: The Midstream Gap in the West's Critical-Minerals Push</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-21-allied-smelter-squeeze/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-21-allied-smelter-squeeze/scan.html</guid>
+<pubDate>Tue, 21 Jul 2026 08:00:00 +0000</pubDate>
+<category>Supply Chains &amp; Critical Minerals</category>
+<description>Critical-minerals diversification is failing at the midstream, where allied smelting is closing or moving onto state support. The copper processing benchmark settled at zero for 2026, zinc spot fees are deeply negative, and the IEA finds diversification investment concentrated in mines while refining capacity lags to 2035.</description>
+</item>
 <item>
 <title>Past the Sponsor Bank: How Central Banks Are Rationing Direct Access to Settlement</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-20-settlement-access-tiering/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sun, 14 Jun 2026 08:00:00 +0000</pubDate>
 <category>Demographics, Migration &amp; Labour Markets</category>
 <description>The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour. Immigration caps presented as simply lowering headline migration are creating a skilled-supply gap that lands in 2028-2032.</description>
-</item>
-<item>
-<title>The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-06-14-china-pipeline-dependence/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-06-14-china-pipeline-dependence/scan.html</guid>
-<pubDate>Sun, 14 Jun 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation. Roughly 40% of big-pharma licensing now starts in China, just as US national-security policy moves to decouple, setting up a pipeline-versus-security collision over 2026-2030.</description>
-</item>
-<item>
-<title>The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-06-13-inference-cost-inversion/scan.html</guid>
-<pubDate>Sat, 13 Jun 2026 08:00:00 +0000</pubDate>
-<category>Artificial Intelligence &amp; Automation</category>
-<description>Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story. Total inference spend and the cost of completed frontier-grade work are rising, turning inference economics (not capability) into the binding constraint and locking AI-native gross margins structurally below SaaS across 2026-2028.</description>
 </item>
 </channel>
 </rss>

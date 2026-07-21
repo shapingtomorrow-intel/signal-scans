@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T10:52:18Z",
+  "generated": "2026-07-21T11:01:59Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -200,14 +200,6 @@
           "type": "Decision Intelligence",
           "title": "The Summer the Grid Said No",
           "summary": "The May cycle framed integrated capital planning against four constraints: grid, water, insurance and capital. Eight weeks on, the constraints did not release, they changed venue.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-16",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The constraint moved downstream. The grid gained a veto.",
-          "summary": "Over this cycle, the binding constraint changed twice, and then changed character entirely: the May question was whether the transmission queue would gate the AI buildout; the cycle answered a...",
           "posture": ""
         },
         {

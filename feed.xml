@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Wed, 22 Jul 2026 08:30:07 +0000</lastBuildDate>
+<lastBuildDate>Wed, 22 Jul 2026 13:33:28 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>Silence Means Yes: The EU Suspends Its Precautionary Default for Defence</title>
@@ -118,6 +118,22 @@
 <pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule and defence flow-downs, Germany's BSI has for the first time end-dated classical asymmetric encryption ('alternativlos'), and the EU's end-2026 milestones convert cryptography into audited, contract-clause compliance - so the binding constraint is the regulatory clock, not the...</description>
+</item>
+<item>
+<title>The 100/20/0 Menu: How US Pharma Tariffs Force Onshoring and Price Cuts, Company by Company</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-07-12-pharma-tariff-onshoring-lever/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-07-12-pharma-tariff-onshoring-lever/scan.html</guid>
+<pubDate>Sun, 12 Jul 2026 08:00:00 +0000</pubDate>
+<category>Health, Life Sciences &amp; Care Systems</category>
+<description>Beneath the 'pharma tariffs raise prices' headline, the April 2026 Section 232 duty is a tiered coercion menu (100% default; 20% with a Commerce onshoring plan; 0% to 2029 only with an HHS most-favored-nation pricing agreement) that forces company-by-company onshoring and price concessions, re-mapping where medicines are made and priced.</description>
+</item>
+<item>
+<title>The Older-Worker Lever: Later Retirement Is Doing More Than Migration to Fill Europe's Labour Gap</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-07-12-older-worker-labour-lever/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-07-12-older-worker-labour-lever/scan.html</guid>
+<pubDate>Sun, 12 Jul 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration &amp; Labour Markets</category>
+<description>Beneath the consensus that migration and AI will fill ageing Europe's labour gap, the quieter and larger lever is older-worker participation and later retirement: euro-area 55-74 participation rose from 40.3% (Q4 2019) to 44.9% (Q4 2025), employers increasingly prize experienced hires, and pension-age rises (UK 66 to 67 from 2026) are institutionalising longer working lives, reshaping workforce planning, pensions and the silver economy.</description>
 </item>
 <item>
 <title>AI's Reported Profits Rest on an Accounting Guess About How Long GPUs Last</title>
@@ -390,22 +406,6 @@
 <pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
 <description>US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources. Fast interconnection is being conditioned on curtailability (FERC's RM26-4 flexible-load fast lane, Texas's mandatory-curtailment law in NERC's 2026 forecasts, the UK DESNZ/Ofgem demand-connection reforms), unlocking existing-grid headroom on a 2026-2030 horizon.</description>
-</item>
-<item>
-<title>Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-16-seabed-minerals-bifurcation/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-16-seabed-minerals-bifurcation/scan.html</guid>
-<pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's 65,000 km2 Clarion-Clipperton application ruled fully compliant in May 2026, permit expected by Q1 2027) that bypasses the multilateral ISA regime - which failed again in March 2026 to agree a Mining Code - splitting ocean-mineral governance into a national fast track and a stalled...</description>
-</item>
-<item>
-<title>Liquid Wrapper, Illiquid Core: How Retailised Private Credit Is Moving the Liquidity Mismatch onto Households</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-15-private-credit-retail-wrapper/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-15-private-credit-retail-wrapper/scan.html</guid>
-<pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
-<category>Financial Services &amp; Future of Money</category>
-<description>Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval funds, ELTIFs, 401(k) sleeves) whose redemption promises rest on untested 5%-per-quarter gates; in Q1 2026 those gates were hit across the largest funds, turning a wholesale-credit story into a household financial-stability one.</description>
 </item>
 </channel>
 </rss>

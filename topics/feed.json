@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T08:32:00Z",
+  "generated": "2026-07-22T13:33:28Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -928,6 +928,14 @@
           "posture": "Prepare"
         },
         {
+          "date": "2026-07-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Older-Worker Lever: Later Retirement Is Doing More Than Migration to Fill Europe's Labour Gap",
+          "summary": "Beneath the consensus that migration and AI will fill ageing Europe's labour gap, the quieter and larger lever is older-worker participation and later retirement: euro-area 55-74 participation rose...",
+          "posture": "Prepare"
+        },
+        {
           "date": "2026-07-10",
           "kind": "cross_cutter",
           "type": "Action Triggers",
@@ -1070,6 +1078,14 @@
           "type": "Signal Scan",
           "title": "One Country, Many Vaccine Schedules: America's Immunization Standard Splintered Into a Non-Federal Patchwork",
           "summary": "Beneath the fight over the US administration's vaccine changes, the decades-long single national immunization standard has splintered: medical societies and 28 states now issue their own schedules...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The 100/20/0 Menu: How US Pharma Tariffs Force Onshoring and Price Cuts, Company by Company",
+          "summary": "Beneath the 'pharma tariffs raise prices' headline, the April 2026 Section 232 duty is a tiered coercion menu (100% default; 20% with a Commerce onshoring plan; 0% to 2029 only with an HHS...",
           "posture": "Prepare"
         },
         {

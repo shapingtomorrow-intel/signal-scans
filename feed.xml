@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 21 Jul 2026 08:30:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 22 Jul 2026 08:30:07 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Silence Means Yes: The EU Suspends Its Precautionary Default for Defence</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-22-defence-tacit-approval-turn/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-22-defence-tacit-approval-turn/scan.html</guid>
+<pubDate>Wed, 22 Jul 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>The EU has inverted its permitting default for defence: a project application not decided on deadline is now tacitly approved. The 10 June 2026 Defence Readiness Omnibus deal sets a 42-working-day default and a 102-working-day cap, with chemicals exemptions and general transfer licences attached.</description>
+</item>
+<item>
+<title>The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-22-shadow-fleet-nationalisation/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-22-shadow-fleet-nationalisation/scan.html</guid>
+<pubDate>Wed, 22 Jul 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system. The Russian flag's share of shadow-fleet oil volumes rose from 3% to 23% in a year, and draft decrees would fast-track up to a thousand ships onto the Russian register.</description>
+</item>
 <item>
 <title>Retirement by Federal Order: The Quiet Federalisation of US Resource Adequacy</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-21-standing-grid-emergency/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
 <category>Financial Services &amp; Future of Money</category>
 <description>Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval funds, ELTIFs, 401(k) sleeves) whose redemption promises rest on untested 5%-per-quarter gates; in Q1 2026 those gates were hit across the largest funds, turning a wholesale-credit story into a household financial-stability one.</description>
-</item>
-<item>
-<title>From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-15-age-assurance-identity-layer/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-06-15-age-assurance-identity-layer/scan.html</guid>
-<pubDate>Mon, 15 Jun 2026 08:00:00 +0000</pubDate>
-<category>Regulation, Standards &amp; Policy Change</category>
-<description>Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS age-signal APIs (Apple, Google), an EU age-verification blueprint wired to the Digital Identity Wallet, and the first international standard (ISO/IEC 27566-1), shifting liability onto platforms and developers and laying rails toward reusable digital identity.</description>
-</item>
-<item>
-<title>Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-06-14-student-skilled-funnel-closure/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-06-14-student-skilled-funnel-closure/scan.html</guid>
-<pubDate>Sun, 14 Jun 2026 08:00:00 +0000</pubDate>
-<category>Demographics, Migration &amp; Labour Markets</category>
-<description>The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour. Immigration caps presented as simply lowering headline migration are creating a skilled-supply gap that lands in 2028-2032.</description>
 </item>
 </channel>
 </rss>

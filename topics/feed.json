@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T08:39:57Z",
+  "generated": "2026-07-25T08:59:14Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -9,7 +9,7 @@
       "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
-      "latest_read": "GPU compute is acquiring the market infrastructure of a tradable commodity: exchange-listed futures arrive later in 2026.",
+      "latest_read": "GPU compute is being financialised: exchange-listed futures arrive later in 2026, putting a public forward curve on a non-storable input.",
       "latest_dates": {
         "scan": "2026-07-25",
         "tracker": "2026-07-02",
@@ -22,7 +22,7 @@
           "kind": "scan",
           "type": "Signal Scan",
           "title": "Compute Gets a Forward Curve: GPU Futures and the Repricing of the AI Buildout",
-          "summary": "GPU compute is acquiring the market infrastructure of a tradable commodity: exchange-listed futures arrive later in 2026.",
+          "summary": "GPU compute is being financialised: exchange-listed futures arrive later in 2026, putting a public forward curve on a non-storable input.",
           "posture": "Prepare"
         },
         {
@@ -1249,7 +1249,7 @@
       "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
-      "latest_read": "As the EU Migration Pact enters application (12 June 2026), the EU is wiring its new legal-labour channels (the Talent Pool and the updated Single Permit) to third-country cooperation on returns, so...",
+      "latest_read": "The EU's new legal-labour-migration channels now sit in the same policy circuit as returns. The Return Regulation makes readmission integral and the Commission names visa, trade and financial policy...",
       "latest_dates": {
         "scan": "2026-07-19",
         "tracker": "2026-07-09",
@@ -1261,8 +1261,8 @@
           "date": "2026-07-19",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "Work Visas as Return Leverage: How the EU Ties Legal Labour Migration to Deportation Diplomacy",
-          "summary": "As the EU Migration Pact enters application (12 June 2026), the EU is wiring its new legal-labour channels (the Talent Pool and the updated Single Permit) to third-country cooperation on returns, so...",
+          "title": "Work Visas in the Returns Circuit: How EU Labour Migration Became Exposed to Deportation Diplomacy",
+          "summary": "The EU's new legal-labour-migration channels now sit in the same policy circuit as returns. The Return Regulation makes readmission integral and the Commission names visa, trade and financial policy...",
           "posture": "Prepare"
         },
         {

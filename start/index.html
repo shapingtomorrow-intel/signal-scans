@@ -84,6 +84,9 @@
   form.intake-form .checkbox-group { display: flex; flex-wrap: wrap; gap: 14px 22px; margin-top: 4px; }
   form.intake-form .checkbox-group label { font-weight: 400; font-size: 0.95em; display: flex; align-items: center; gap: 6px; cursor: pointer; }
   form.intake-form .checkbox-group input[type="checkbox"] { margin: 0; }
+  .sent-banner { background: #e8f5e9; border: 1px solid #c3e3c8; border-left: 5px solid #1b5e20; border-radius: 0 8px 8px 0;
+                 padding: 16px 20px; margin: 0 0 26px; color: #1b5e20; line-height: 1.55; }
+  .sent-banner a { color: #1b5e20; font-weight: 600; }
   form.intake-form button[type="submit"] { background: #0382FC; color: white; border: none; padding: 14px 32px; border-radius: 5px; font-size: 1.02em; font-weight: 600; cursor: pointer; font-family: inherit; }
   form.intake-form button[type="submit"]:hover { background: #0269d4; }
   form.intake-form .form-footer { margin: 18px 0 0; font-size: 0.86em; color: #5a6478; }
@@ -184,12 +187,24 @@
 <p class="form-lede">Tell us a little about your organisation and the areas you would like a custom intelligence programme to track. There are no compulsory long answers; brief is fine. We will follow up within one business day.</p>
 
 <!--
-  Form submits via standard HTML POST. Wire the `action` attribute below
-  to whichever endpoint you use to receive intake submissions
-  (Formspree, Web3Forms, your own backend, etc.). The form fields use
-  semantic names so any standard handler will receive them cleanly.
+  Form submits via FormSubmit.co, which relays the POST to
+  matthew.richardson@shapingtomorrow.com as a formatted email (reply-to is
+  set to the submitter's email automatically). One-time setup: the first
+  submission triggers an activation email to that address; click the link
+  once and the endpoint is live. _honey is a hidden spam honeypot; _next
+  redirects back here with ?sent=1, which shows the thank-you banner.
 -->
-<form class="intake-form" method="post" action="/api/intake-submit" enctype="application/x-www-form-urlencoded">
+<div class="sent-banner" id="sent-banner" hidden>
+  <strong>Thank you, your details are on their way to us.</strong>
+  We will reply within one working day to arrange the discovery call. If anything is urgent in the meantime,
+  write to <a href="mailto:matthew.richardson@shapingtomorrow.com">matthew.richardson@shapingtomorrow.com</a>.
+</div>
+<form class="intake-form" method="post" action="https://formsubmit.co/matthew.richardson@shapingtomorrow.com" enctype="application/x-www-form-urlencoded">
+  <input type="hidden" name="_subject" value="New programme enquiry via decision-intel /start/">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://decision-intel.shapingtomorrow.com/start/?sent=1">
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
 
   <div class="field">
     <label for="name">Your name <span class="required">*</span></label>
@@ -258,6 +273,17 @@
   Prefer to start with a direct email? Write to <a href="mailto:matthew.richardson@shapingtomorrow.com?subject=Custom%20intelligence%20programme%20enquiry">matthew.richardson@shapingtomorrow.com</a> or book a 30-minute call at <a href="https://calendly.com/shapingtomorrow/30min" target="_blank" rel="noopener">calendly.com/shapingtomorrow/30min</a>.
 </div>
 </div>
+
+<script>
+(function () {
+  if (new URLSearchParams(window.location.search).get('sent') === '1') {
+    var b = document.getElementById('sent-banner');
+    if (b) { b.hidden = false; b.scrollIntoView({ block: 'center' }); }
+    var f = document.querySelector('form.intake-form');
+    if (f) f.reset();
+  }
+})();
+</script>
 
 <footer class="page-footer">
 &copy; Shaping Tomorrow. Strategic foresight, sourced rigorously, audited end-to-end. <a href="https://www.shapingtomorrow.com/">shapingtomorrow.com</a> &middot; <a href="https://decision-intel.shapingtomorrow.com/">decision-intel.shapingtomorrow.com</a>

@@ -45,7 +45,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "The 60 economies collectively account for 99.4% of all goods imported into the United States. The USTR has proposed additional tariffs ranging from 10% to 12.5% on imports.",
+    "verbatim_quote": "The 60 economies collectively account for 99.4% of all goods imported into the United States.",
     "verbatim_list": null,
     "cluster": "Coercion becomes the default tool"
   },
@@ -95,7 +95,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The EU adopted its 20th package of sanctions against Russia on 23 April 2026",
+    "verbatim_quote": "The Council today adopted a far-reaching 20th package of restrictive measures",
     "verbatim_list": null,
     "cluster": "Coercion becomes the default tool"
   },

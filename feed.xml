@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 24 Jul 2026 08:30:09 +0000</lastBuildDate>
+<lastBuildDate>Sat, 25 Jul 2026 08:30:09 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Compute Gets a Forward Curve: GPU Futures and the Repricing of the AI Buildout</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-25-compute-commodity-turn/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-25-compute-commodity-turn/scan.html</guid>
+<pubDate>Sat, 25 Jul 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>GPU compute is acquiring the market infrastructure of a tradable commodity: exchange-listed futures arrive later in 2026. The forward curve they create will reprice collateral, depreciation and financing assumptions across the increasingly leveraged AI buildout.</description>
+</item>
+<item>
+<title>When Switching Stops Paying: America's Churn Collapse and the Forced Rebuild of Internal Mobility</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-25-labour-churn-collapse/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-25-labour-churn-collapse/scan.html</guid>
+<pubDate>Sat, 25 Jul 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>America's job-market churn engine has stalled: hires and quits are stuck at decade-low rates while the job-switching pay premium has nearly closed. Skills renewal is moving inside the firm, and attrition-led workforce planning has lost its main lever.</description>
+</item>
 <item>
 <title>Silence Means Yes: The EU Suspends Its Precautionary Default for Defence</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-22-defence-tacit-approval-turn/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 17 Jun 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying down from exquisite interceptors toward attritable, low-cost counter-drone layers, restructuring the supplier base toward start-ups and Ukraine-tested systems.</description>
-</item>
-<item>
-<title>The State as Shareholder: How Ownership Became a Lever of Economic Statecraft</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-17-state-as-shareholder-turn/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-06-17-state-as-shareholder-turn/scan.html</guid>
-<pubDate>Wed, 17 Jun 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes, golden shares and sovereign-fund positions in strategic firms while screening inbound capital into trusted and adversary lanes, fragmenting global capital along security lines.</description>
-</item>
-<item>
-<title>The Curtailable Connection: How Flexibility Became the Price of Grid Access for AI Data Centres</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-16-curtailable-connection/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-16-curtailable-connection/scan.html</guid>
-<pubDate>Tue, 16 Jun 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>US and British regulators and grid operators are re-pricing grid access around demand flexibility, turning data centres into dispatchable resources. Fast interconnection is being conditioned on curtailability (FERC's RM26-4 flexible-load fast lane, Texas's mandatory-curtailment law in NERC's 2026 forecasts, the UK DESNZ/Ofgem demand-connection reforms), unlocking existing-grid headroom on a 2026-2030 horizon.</description>
 </item>
 </channel>
 </rss>

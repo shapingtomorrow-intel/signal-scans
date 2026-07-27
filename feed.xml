@@ -5,8 +5,16 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 27 Jul 2026 09:14:50 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 09:21:14 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The End of Free Bank Data: America Reprices Open Banking</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-27-bank-data-repricing/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-27-bank-data-repricing/scan.html</guid>
+<pubDate>Mon, 27 Jul 2026 08:00:00 +0000</pubDate>
+<category>Financial Services &amp; Future of Money</category>
+<description>The free-data foundation of US open banking is being repriced into a negotiated, fee-bearing market. The CFPB's July 2026 rewrite is expected to permit tiered bank data fees while New York legislates a state-level fee ban, deciding fintech and pay-by-bank economics through 2028.</description>
+</item>
 <item>
 <title>Deregulation Without Repeal: Why the Rules Are Still on the Books</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-07-27-unrepealed-rule-overhang/scan.html</link>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 23 Jun 2026 08:00:00 +0000</pubDate>
 <category>Supply Chains &amp; Critical Minerals</category>
 <description>Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June 2026 G7 stockpiling-coordination declaration, and parallel reserves in China, the EU, India, Japan, South Korea and Australia); the non-obvious risk is that simultaneous, uncoordinated reserve-building is itself a front-loaded demand shock that tightens concentrated markets and...</description>
-</item>
-<item>
-<title>The Stablecoin Bid: How Dollar Tokens Became a Marginal Buyer of US Treasury Bills</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-22-stablecoin-treasury-feedback/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-22-stablecoin-treasury-feedback/scan.html</guid>
-<pubDate>Mon, 22 Jun 2026 08:00:00 +0000</pubDate>
-<category>Financial Services &amp; Future of Money</category>
-<description>Beneath the stablecoin-payments consensus, dollar stablecoins have become a sizeable, run-prone marginal buyer of US Treasury bills, so their reserve flows now move front-end Treasury yields and their redemption risk threatens forced sales in the bill market, drawing stablecoin growth into US debt management and monetary-policy transmission.</description>
 </item>
 </channel>
 </rss>

@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 27 Jul 2026 09:21:14 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jul 2026 08:39:46 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Priced for Proof: Adaptation Evidence Becomes the Insurability Test for Infrastructure</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-28-insurability-capital-gate/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-28-insurability-capital-gate/scan.html</guid>
+<pubDate>Tue, 28 Jul 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>Evidence of physical adaptation is turning into a precondition of infrastructure finance, not just of cheaper cover. Prudential supervisors, development financiers and lenders are building the machinery now, while the softest reinsurance market in years masks the shift.</description>
+</item>
+<item>
+<title>Acid Before Ore: The Reagent Chokepoint Behind the Critical-Minerals Build-Out</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-28-reagent-chokepoint/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-28-reagent-chokepoint/scan.html</guid>
+<pubDate>Tue, 28 Jul 2026 08:00:00 +0000</pubDate>
+<category>Supply Chains &amp; Critical Minerals</category>
+<description>The binding constraint on critical-mineral supply has moved from the ore to the reagents used to process it. Sulphur and sulphuric acid, byproducts with almost no supply elasticity, now gate copper, nickel and phosphate output.</description>
+</item>
 <item>
 <title>The End of Free Bank Data: America Reprices Open Banking</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-27-bank-data-repricing/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 24 Jun 2026 08:00:00 +0000</pubDate>
 <category>Geopolitics &amp; Economic Fragmentation</category>
 <description>The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and Western track, sorting access to crisis finance by alignment rather than need even as the dollar erodes only slowly.</description>
-</item>
-<item>
-<title>The End of Stationarity: How Climate-Adjusted Design Codes Are Repricing the Built Environment</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-23-design-standard-stationarity-reset/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-23-design-standard-stationarity-reset/scan.html</guid>
-<pubDate>Tue, 23 Jun 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the climate-adaptation spending debate, the engineering design baseline itself is being rewritten: regulators (NOAA Atlas 15, the UK Environment Agency) are abandoning the assumption of climate stationarity in the codes that govern rainfall, flood and structural design, silently re-labelling much existing infrastructure as underdesigned and transmitting into insurance, mortgage finance and liability faster than the codes are adopted.</description>
-</item>
-<item>
-<title>The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-23-critical-minerals-stockpile-paradox/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-23-critical-minerals-stockpile-paradox/scan.html</guid>
-<pubDate>Tue, 23 Jun 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June 2026 G7 stockpiling-coordination declaration, and parallel reserves in China, the EU, India, Japan, South Korea and Australia); the non-obvious risk is that simultaneous, uncoordinated reserve-building is itself a front-loaded demand shock that tightens concentrated markets and...</description>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,337 @@
 {
-  "generated": "2026-08-02T10:15:53Z",
+  "generated": "2026-08-03T08:30:06Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "financial-services-future-of-money",
+      "name": "Financial Services & Future of Money",
+      "tagline": "How money is being rewired: rails, reserves and rulebooks.",
+      "description": "Stablecoins, tokenised bank deposits, retail and wholesale CBDCs, agent-initiated payments, settlement-system change. What it means for treasury, payments, custody and counterparty risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/history/",
+      "latest_read": "The credit risk banks shed through record synthetic risk transfers is partly looping back, because banks finance their own protection sellers.",
+      "latest_dates": {
+        "scan": "2026-08-03",
+        "tracker": "2026-07-16",
+        "di": "2026-07-23",
+        "cc": "2026-07-24"
+      },
+      "history": [
+        {
+          "date": "2026-08-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Circles of Risk: Why the Credit Risk Banks Paid to Shed Has Not Left the System",
+          "summary": "The credit risk banks shed through record synthetic risk transfers is partly looping back, because banks finance their own protection sellers.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Free Bank Data: America Reprices Open Banking",
+          "summary": "The free-data foundation of US open banking is being repriced into a negotiated, fee-bearing market. The CFPB's July 2026 rewrite is expected to permit tiered bank data fees while New York...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-24",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The Perimeter Followed the Money",
+          "summary": "Money left the bank; the perimeter followed it onto programmable rails. The scans caught the leaving early (invisible dollarisation, the stablecoin Treasury bid, the account-to-account rail switch)...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-23",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer Money Left the Bank",
+          "summary": "This is the inaugural Financial Services & Future of Money cycle, so it sets a baseline rather than grading a prior scan.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Past the Sponsor Bank: How Central Banks Are Rationing Direct Access to Settlement",
+          "summary": "Central banks are quietly deciding the future of money at the access layer, redrawing who may settle directly in central-bank money.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-16",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "US and UK stablecoin rulebooks harden as the digital euro clears Parliament",
+          "summary": "Third Change Tracker on Financial Services and the Future of Money. Nine signals: 6 Accelerating (US stablecoin rulemaking, retail digital euro, UK systemic stablecoin regime, interbank...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Counter-Ledger: Central Banks and Commercial Banks Build Their Answer to Stablecoins",
+          "summary": "Beneath the stablecoins-have-won narrative, the regulated core built the rival system this quarter: the BIS's 2026 blueprint anchors tokenisation in central-bank money on unified ledgers, Project...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Done-Away Gap: Treasury Clearing's Big Bang Arrives Before the Market Structure It Assumes",
+          "summary": "Beneath the 'Treasury clearing is on track' consensus, the done-away, multi-CCP market structure the SEC's mandate assumes has not materialised: with under six months to the 31 December 2026 cash...",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-06-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Rail Switch: How Account-to-Account Payments Are Acquiring the Plumbing to Rival Cards",
+          "summary": "Beneath the 'cards are unbeatable / stablecoins are the future' consensus, account-to-account payments are acquiring scheme-level scaffolding (the UK's first new payment scheme since 2008, the EU...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Stablecoin Bid: How Dollar Tokens Became a Marginal Buyer of US Treasury Bills",
+          "summary": "Beneath the stablecoin-payments consensus, dollar stablecoins have become a sizeable, run-prone marginal buyer of US Treasury bills, so their reserve flows now move front-end Treasury yields and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-18",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote",
+          "summary": "Cycle 2. A shared interbank clearing layer for tokenised deposits, a cycle-one wild card, becomes a live programme via The Clearing House; cross-border tokenised settlement and tokenised funds keep...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Liquid Wrapper, Illiquid Core: How Retailised Private Credit Is Moving the Liquidity Mismatch onto Households",
+          "summary": "Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Invisible Dollarisation: How Dollar Stablecoins Are Eroding Emerging-Market Monetary Sovereignty",
+          "summary": "Dollar stablecoins are driving 'invisible dollarisation' in weak-currency economies, a faster, harder-to-measure currency substitution.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Money rewires the rails. Now agents rewire the wallet.",
+          "summary": "Two surfaces being rewired. The rails surface (tokenised bank deposits, regulated stablecoins) consolidates; the wallet surface (agent authentication) opens.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Know Your Agent: How the Race to Authenticate AI Buyers Is Rewiring Payment Liability",
+          "summary": "Payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer' for AI buyers.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Narrow-Banking Drift: How Stablecoins Are Quietly Reshaping Who Creates Credit",
+          "summary": "Stablecoins are quietly converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-21",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Stablecoin rules harden as tokenised bank money scales and cash plateaus",
+          "summary": "Inaugural cycle. United States GENIUS Act rulemaking and a maturing tokenised settlement stack lead the accelerators; the retail digital euro holds a steady multi-year tempo and the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Money Rewires Itself: Rails, Reserves and Rulebooks",
+          "summary": "Money is being rewired in four places at once, and the four rewires are happening on different clocks. Payments rails are migrating onto stablecoins and tokenised collateral while the regulatory...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Sovereign Insurer of Last Resort",
+          "summary": "Beneath the headline Hormuz crisis, the structural shift is the sovereign absorption of risks private insurance can no longer model: the US-Chubb $40B Maritime Reinsurance facility and the Treasury...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond Stablecoins",
+          "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "regulation-standards-policy-change",
+      "name": "Regulation, Standards & Policy Change",
+      "tagline": "Where compliance becomes strategy.",
+      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
+      "latest_read": "PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds.",
+      "latest_dates": {
+        "scan": "2026-08-03",
+        "tracker": "2026-07-17",
+        "di": "2026-06-11",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-08-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Regulating by Class: PFAS Rules Now Attach to the Whole Chemistry, Not the Substance",
+          "summary": "PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Deregulation Without Repeal: Why the Rules Are Still on the Books",
+          "summary": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rules Without Referees: The EU's Missing Certification Machinery",
+          "summary": "The EU's binding regulatory constraint has quietly shifted from the rules to the machinery that enforces them. AI Act and Cyber Resilience Act certification depends on notified bodies and harmonised...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-17",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe enacts its simplification; the US stablecoin clock runs down",
+          "summary": "Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
+          "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
+          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
+          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
+          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-19",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Brussels trims and defers; Washington carves its own track",
+          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
+          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Compliance Becomes Strategy",
+          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
+          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
+          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
+          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
+          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Disclosure That Didn't Disappear",
+          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Nature on the Supervisor's Desk",
+          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "demographics-migration-labour-markets",
       "name": "Demographics, Migration & Labour Markets",
@@ -1326,320 +1656,6 @@
           "type": "Signal Scan",
           "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
           "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "financial-services-future-of-money",
-      "name": "Financial Services & Future of Money",
-      "tagline": "How money is being rewired: rails, reserves and rulebooks.",
-      "description": "Stablecoins, tokenised bank deposits, retail and wholesale CBDCs, agent-initiated payments, settlement-system change. What it means for treasury, payments, custody and counterparty risk.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/financial-services-future-of-money/history/",
-      "latest_read": "The free-data foundation of US open banking is being repriced into a negotiated, fee-bearing market. The CFPB's July 2026 rewrite is expected to permit tiered bank data fees while New York...",
-      "latest_dates": {
-        "scan": "2026-07-27",
-        "tracker": "2026-07-16",
-        "di": "2026-07-23",
-        "cc": "2026-07-24"
-      },
-      "history": [
-        {
-          "date": "2026-07-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The End of Free Bank Data: America Reprices Open Banking",
-          "summary": "The free-data foundation of US open banking is being repriced into a negotiated, fee-bearing market. The CFPB's July 2026 rewrite is expected to permit tiered bank data fees while New York...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-24",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The Perimeter Followed the Money",
-          "summary": "Money left the bank; the perimeter followed it onto programmable rails. The scans caught the leaving early (invisible dollarisation, the stablecoin Treasury bid, the account-to-account rail switch)...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-23",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer Money Left the Bank",
-          "summary": "This is the inaugural Financial Services & Future of Money cycle, so it sets a baseline rather than grading a prior scan.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Past the Sponsor Bank: How Central Banks Are Rationing Direct Access to Settlement",
-          "summary": "Central banks are quietly deciding the future of money at the access layer, redrawing who may settle directly in central-bank money.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-16",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "US and UK stablecoin rulebooks harden as the digital euro clears Parliament",
-          "summary": "Third Change Tracker on Financial Services and the Future of Money. Nine signals: 6 Accelerating (US stablecoin rulemaking, retail digital euro, UK systemic stablecoin regime, interbank...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Counter-Ledger: Central Banks and Commercial Banks Build Their Answer to Stablecoins",
-          "summary": "Beneath the stablecoins-have-won narrative, the regulated core built the rival system this quarter: the BIS's 2026 blueprint anchors tokenisation in central-bank money on unified ledgers, Project...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Done-Away Gap: Treasury Clearing's Big Bang Arrives Before the Market Structure It Assumes",
-          "summary": "Beneath the 'Treasury clearing is on track' consensus, the done-away, multi-CCP market structure the SEC's mandate assumes has not materialised: with under six months to the 31 December 2026 cash...",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-06-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Rail Switch: How Account-to-Account Payments Are Acquiring the Plumbing to Rival Cards",
-          "summary": "Beneath the 'cards are unbeatable / stablecoins are the future' consensus, account-to-account payments are acquiring scheme-level scaffolding (the UK's first new payment scheme since 2008, the EU...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Stablecoin Bid: How Dollar Tokens Became a Marginal Buyer of US Treasury Bills",
-          "summary": "Beneath the stablecoin-payments consensus, dollar stablecoins have become a sizeable, run-prone marginal buyer of US Treasury bills, so their reserve flows now move front-end Treasury yields and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote",
-          "summary": "Cycle 2. A shared interbank clearing layer for tokenised deposits, a cycle-one wild card, becomes a live programme via The Clearing House; cross-border tokenised settlement and tokenised funds keep...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Liquid Wrapper, Illiquid Core: How Retailised Private Credit Is Moving the Liquidity Mismatch onto Households",
-          "summary": "Beneath the 'private credit bubble' debate, the structural shift is the wrapper: illiquid loans are sold through semi-liquid, retail- and retirement-accessible vehicles (non-traded BDCs, interval...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Invisible Dollarisation: How Dollar Stablecoins Are Eroding Emerging-Market Monetary Sovereignty",
-          "summary": "Dollar stablecoins are driving 'invisible dollarisation' in weak-currency economies, a faster, harder-to-measure currency substitution.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Money rewires the rails. Now agents rewire the wallet.",
-          "summary": "Two surfaces being rewired. The rails surface (tokenised bank deposits, regulated stablecoins) consolidates; the wallet surface (agent authentication) opens.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Know Your Agent: How the Race to Authenticate AI Buyers Is Rewiring Payment Liability",
-          "summary": "Payment networks and protocol owners (Visa, Mastercard, Google) are racing to own the agent-authorization 'trust layer' for AI buyers.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Narrow-Banking Drift: How Stablecoins Are Quietly Reshaping Who Creates Credit",
-          "summary": "Stablecoins are quietly converting credit-creating fractional-reserve bank deposits into fully-reserved 'narrow' money backed by Treasury bills.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-21",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Stablecoin rules harden as tokenised bank money scales and cash plateaus",
-          "summary": "Inaugural cycle. United States GENIUS Act rulemaking and a maturing tokenised settlement stack lead the accelerators; the retail digital euro holds a steady multi-year tempo and the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Money Rewires Itself: Rails, Reserves and Rulebooks",
-          "summary": "Money is being rewired in four places at once, and the four rewires are happening on different clocks. Payments rails are migrating onto stablecoins and tokenised collateral while the regulatory...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Sovereign Insurer of Last Resort",
-          "summary": "Beneath the headline Hormuz crisis, the structural shift is the sovereign absorption of risks private insurance can no longer model: the US-Chubb $40B Maritime Reinsurance facility and the Treasury...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond Stablecoins",
-          "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "regulation-standards-policy-change",
-      "name": "Regulation, Standards & Policy Change",
-      "tagline": "Where compliance becomes strategy.",
-      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
-      "latest_read": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
-      "latest_dates": {
-        "scan": "2026-07-27",
-        "tracker": "2026-07-17",
-        "di": "2026-06-11",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-07-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Deregulation Without Repeal: Why the Rules Are Still on the Books",
-          "summary": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rules Without Referees: The EU's Missing Certification Machinery",
-          "summary": "The EU's binding regulatory constraint has quietly shifted from the rules to the machinery that enforces them. AI Act and Cyber Resilience Act certification depends on notified bodies and harmonised...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-17",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe enacts its simplification; the US stablecoin clock runs down",
-          "summary": "Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
-          "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
-          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
-          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
-          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-19",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Brussels trims and defers; Washington carves its own track",
-          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
-          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Compliance Becomes Strategy",
-          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
-          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
-          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
-          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
-          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Disclosure That Didn't Disappear",
-          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Nature on the Supervisor's Desk",
-          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
           "posture": ""
         }
       ]

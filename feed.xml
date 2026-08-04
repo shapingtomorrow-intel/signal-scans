@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 03 Aug 2026 08:30:05 +0000</lastBuildDate>
+<lastBuildDate>Tue, 04 Aug 2026 08:30:07 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Regulated Load: Data Centres Are About to Be Treated Like Power Plants</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-04-load-side-reliability-perimeter/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-04-load-side-reliability-perimeter/scan.html</guid>
+<pubDate>Tue, 04 Aug 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>US reliability regulation is crossing the meter: the largest data-centre loads are being pulled inside the grid's mandatory rulebook. FERC's 16 July 2026 order requires NERC to file computational-load standards and registry criteria by 31 December 2026, after a Level 3 alert on mass load-loss events.</description>
+</item>
+<item>
+<title>Mapped to the Mine: The Pentagon Turns Procurement into Supply-Chain Regulation</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-08-04-mapped-to-the-mine/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-08-04-mapped-to-the-mine/scan.html</guid>
+<pubDate>Tue, 04 Aug 2026 08:00:00 +0000</pubDate>
+<category>Supply Chains &amp; Critical Minerals</category>
+<description>US minerals statecraft is moving from border instruments into the purchase order: defence procurement is becoming the supply-chain regulator. EO 14415 ends routine sourcing waivers from 1 January 2027 and requires contractors at every tier to map materials to the origin of raw minerals.</description>
+</item>
 <item>
 <title>Circles of Risk: Why the Credit Risk Banks Paid to Shed Has Not Left the System</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-03-srt-circles-of-risk/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 01 Jul 2026 08:00:00 +0000</pubDate>
 <category>Geopolitics &amp; Economic Fragmentation</category>
 <description>Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order 14411 deputise third countries and importers to police Chinese content over a 2026-2027 inflection.</description>
-</item>
-<item>
-<title>The Water Ceiling: Why Power-Plant Water, Not Cooling, Will Gate the AI Data-Centre Buildout</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-30-data-power-water-ceiling/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-06-30-data-power-water-ceiling/scan.html</guid>
-<pubDate>Tue, 30 Jun 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that power and the grid are the binding constraint on the AI data-centre buildout, the binding limit is water - especially the indirect water consumed at thermoelectric power plants, an order of magnitude larger than on-site cooling - so with two-thirds of post-2022 build in water-stressed basins, water rights and disclosure are becoming the gating approval ahead of the grid connection on a 2026-2028 inflection.</description>
-</item>
-<item>
-<title>The Benchmark Trap: Why Western Mines Won't Loosen China's Grip on Critical-Mineral Prices</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-30-mineral-benchmark-capture/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-06-30-mineral-benchmark-capture/scan.html</guid>
-<pubDate>Tue, 30 Jun 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the consensus that China's critical-minerals dominance is a physical problem of mines and refineries, China is consolidating the price-discovery layer - internationalising its yuan futures (GFEX lithium from 3 July 2026) and setting reference prices under its 1998 Pricing Law so even the US DoD-MP Materials floor tracks a Chinese NdPr index - so Western physical diversification will not deliver pricing sovereignty unless allies also build their own benchmarks, on a...</description>
 </item>
 </channel>
 </rss>

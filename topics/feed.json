@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T14:48:52Z",
+  "generated": "2026-08-04T15:06:41Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -13,7 +13,7 @@
       "latest_dates": {
         "scan": "2026-08-02",
         "tracker": "2026-07-10",
-        "di": "2026-06-02",
+        "di": "2026-08-06",
         "cc": "2026-08-07"
       },
       "history": [
@@ -23,6 +23,14 @@
           "type": "Action Triggers",
           "title": "The Cure Was the Decoy",
           "summary": "The breakthroughs took the headlines while the binding constraint on medicine migrated to the layers a molecule cannot reach: price, patent, payer track, supply origin and the global health commons...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-06",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer Medicine Chose Sides",
+          "summary": "This was the summer medicine chose sides. Within a few months the US put a 100 percent tariff on patented drugs and tied it to price, seventeen manufacturers signed pricing deals, the EU passed a...",
           "posture": ""
         },
         {

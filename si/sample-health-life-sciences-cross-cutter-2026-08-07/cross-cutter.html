@@ -147,6 +147,19 @@
   .section.warnings h2 { color: #c62828; }
   .section.assumptions .item { border-left-color: #1a237e; }
   .section.assumptions h2 { color: #1a237e; }
+  /* Assumption verdicts (2026-08-05 patch) */
+  .verdict { display: inline-block; padding: 2px 10px; border-radius: 11px; font-size: 0.78em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; margin-left: 8px; vertical-align: middle; }
+  .verdict.replaced, .verdict.overturned { background: #fdecea; color: #c62828; }
+  .verdict.weakened { background: #fdf3e0; color: #8a5a00; }
+  .verdict.split { background: #f3e8fb; color: #6a1b9a; }
+  .verdict.holding { background: #e6f3e8; color: #1d5d27; }
+  .section.assumptions .item.v-replaced, .section.assumptions .item.v-overturned { border-left-color: #c62828; }
+  .section.assumptions .item.v-weakened { border-left-color: #f9a825; }
+  .section.assumptions .item.v-split { border-left-color: #6a1b9a; }
+  .section.assumptions .item.v-holding { border-left-color: #2e7d32; }
+  .section.assumptions .sub-label.l-prior { color: #8a93a3; }
+  .section.assumptions .sub-label.l-now { color: #1a237e; }
+  .section.assumptions .sub-label.l-fwd { color: #2e7d32; }
   .section.actions .item { border-left-color: #2e7d32; }
   .section.actions h2 { color: #2e7d32; }
   /* Action posture pills */
@@ -363,55 +376,55 @@
 <p class="section-lede">Cycle-over-cycle assumption changes, in decreasing order of strategic weight.</p>
 
 <!-- begin: assumptions_items -->
-<div class="item">
-<p class="item-meta">Shift 1 of 5</p>
+<div class="item v-replaced">
+<p class="item-meta">Shift 1 of 5 <span class="verdict replaced">Replaced</span></p>
 <h3>&ldquo;Regulation is converging across major markets&rdquo;</h3>
-<span class="sub-label">Prior cycle held</span>
+<span class="sub-label l-prior">Prior cycle held</span>
 <p class="sub-block">The June Decision Intelligence read regulatory convergence across major markets as a force, harmonising rules and easing the cross-border flow of medicine.</p>
-<span class="sub-label">This cycle reads</span>
+<span class="sub-label l-now">This cycle reads</span>
 <p class="sub-block">The opposite happened. Markets diverged: US tariffs and MFN pricing, an EU Buy-European Critical Medicines Act, a fractured US vaccine standard, and the completed US exit from the WHO.</p>
-<span class="sub-label">Forward thesis</span>
-<p class="sub-block">The fragile variable next cycle is whether the divergence hardens into permanent blocs, or is unwound through the same pricing deals that softened the tariff.</p>
+<span class="sub-label l-fwd">Forward thesis</span>
+<p class="sub-block">The fragile variable next cycle is whether <strong>the divergence hardens into permanent blocs</strong>, or is unwound through the same pricing deals that softened the tariff.</p>
 </div>
-<div class="item">
-<p class="item-meta">Shift 2 of 5</p>
+<div class="item v-split">
+<p class="item-meta">Shift 2 of 5 <span class="verdict split">Split</span></p>
 <h3>&ldquo;The GLP-1 wave lifts all boats&rdquo;</h3>
-<span class="sub-label">Prior cycle held</span>
+<span class="sub-label l-prior">Prior cycle held</span>
 <p class="sub-block">GLP-1 access was read as broadening toward near-universal coverage as supply expanded and oral formulations arrived.</p>
-<span class="sub-label">This cycle reads</span>
+<span class="sub-label l-now">This cycle reads</span>
 <p class="sub-block">Access split by payer into a ring-fenced Medicare track, a manufacturer cash market, and Medicaid and employer exclusions, a two-track entitlement with a 2027-28 coverage cliff.</p>
-<span class="sub-label">Forward thesis</span>
-<p class="sub-block">The question is whether the cliff is bridged into durable coverage or drops millions back into the cash market.</p>
+<span class="sub-label l-fwd">Forward thesis</span>
+<p class="sub-block">The question is whether <strong>the cliff is bridged into durable coverage</strong> or drops millions back into the cash market.</p>
 </div>
-<div class="item">
-<p class="item-meta">Shift 3 of 5</p>
+<div class="item v-replaced">
+<p class="item-meta">Shift 3 of 5 <span class="verdict replaced">Replaced</span></p>
 <h3>&ldquo;If the science works, the cure sells&rdquo;</h3>
-<span class="sub-label">Prior cycle held</span>
+<span class="sub-label l-prior">Prior cycle held</span>
 <p class="sub-block">The binding constraint on a cure was assumed to be scientific and regulatory success.</p>
-<span class="sub-label">This cycle reads</span>
+<span class="sub-label l-now">This cycle reads</span>
 <p class="sub-block">The one-time-cure gene-therapy model failed even where the science worked; manufacturers withdrew approved therapies and capital fled, until outcomes-based, government-brokered financing began to scale.</p>
-<span class="sub-label">Forward thesis</span>
-<p class="sub-block">Whether the rare-disease pipeline survives now turns on payment design, not on discovery.</p>
+<span class="sub-label l-fwd">Forward thesis</span>
+<p class="sub-block">Whether the rare-disease pipeline survives now turns on <strong>payment design, not on discovery</strong>.</p>
 </div>
-<div class="item">
-<p class="item-meta">Shift 4 of 5</p>
+<div class="item v-weakened">
+<p class="item-meta">Shift 4 of 5 <span class="verdict weakened">Weakened</span></p>
 <h3>&ldquo;Western pharma leads biopharma innovation&rdquo;</h3>
-<span class="sub-label">Prior cycle held</span>
+<span class="sub-label l-prior">Prior cycle held</span>
 <p class="sub-block">US and European firms were assumed to hold the innovation frontier outright.</p>
-<span class="sub-label">This cycle reads</span>
+<span class="sub-label l-now">This cycle reads</span>
 <p class="sub-block">Roughly 40 percent of big-pharma licensing now starts in China, making the future pipeline dependent on the very country that decoupling policy targets.</p>
-<span class="sub-label">Forward thesis</span>
-<p class="sub-block">The fragile variable is whether security policy severs the pipeline it has come to depend on.</p>
+<span class="sub-label l-fwd">Forward thesis</span>
+<p class="sub-block">The fragile variable is whether <strong>security policy severs the pipeline</strong> it has come to depend on.</p>
 </div>
-<div class="item">
-<p class="item-meta">Shift 5 of 5</p>
+<div class="item v-replaced">
+<p class="item-meta">Shift 5 of 5 <span class="verdict replaced">Replaced</span></p>
 <h3>&ldquo;Drug pricing is a domestic US fight&rdquo;</h3>
-<span class="sub-label">Prior cycle held</span>
+<span class="sub-label l-prior">Prior cycle held</span>
 <p class="sub-block">US drug-pricing reform was read as a domestic affordability debate with domestic effects.</p>
-<span class="sub-label">This cycle reads</span>
+<span class="sub-label l-now">This cycle reads</span>
 <p class="sub-block">Through its international reference mechanism, US MFN pricing became a global repricing and access-contraction event, pushing ex-US prices up and delaying launches in lower-price markets.</p>
-<span class="sub-label">Forward thesis</span>
-<p class="sub-block">The question is how far reference-pricing spillover contracts access in the markets that set the reference.</p>
+<span class="sub-label l-fwd">Forward thesis</span>
+<p class="sub-block">The question is how far <strong>reference-pricing spillover contracts access</strong> in the markets that set the reference.</p>
 </div>
 <!-- end: assumptions_items -->
 </section>

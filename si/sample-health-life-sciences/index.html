@@ -118,9 +118,15 @@
   .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
   .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
   .exclusions-section h2 { color: #1a237e; margin-top: 0; }
-  .exclusion-item { padding: 16px; background: white; border-radius: 8px; margin: 12px 0; border-left: 4px solid #a0aec0; }
-  .exclusion-item h4 { margin-top: 0; color: #374151; }
-  .reinstatement { font-size: 0.92em; color: #555; font-style: italic; margin-top: 8px; }
+  .exclusion-item { padding: 16px 20px; background: #ffffff; border-radius: 8px; margin: 12px 0; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; }
+  .exclusion-item .excl-eyebrow { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .exclusion-item.excl-1 { border-left-color: #7e57c2; } .exclusion-item.excl-1 .excl-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .exclusion-item.excl-2 { border-left-color: #26a69a; } .exclusion-item.excl-2 .excl-eyebrow { background: #e0f2f1; color: #00796b; }
+  .exclusion-item.excl-3 { border-left-color: #ef6c00; } .exclusion-item.excl-3 .excl-eyebrow { background: #fff3e0; color: #e65100; }
+  .exclusion-item.excl-4 { border-left-color: #5c6bc0; } .exclusion-item.excl-4 .excl-eyebrow { background: #e8eaf6; color: #3949ab; }
+  .exclusion-item h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.05em; }
+  .reinstatement { font-size: 0.9em; color: #4a5568; margin: 12px 0 0; padding: 8px 12px; border-radius: 6px; background: #f3f5f8; }
+  .reinstatement strong { color: #1a237e; }
   .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
   .discussion-points h2 { color: white; margin-top: 0; }
   .discussion-points ol { padding-left: 24px; }
@@ -707,25 +713,29 @@ Cycle: 6 August 2026 &middot; Audience: Health, life-sciences and care-system le
 <h2>What We Are Not Planning For</h2>
 <p class="framing-note">Four scenarios held out of the plan because the evidence does not yet justify resourcing against them. Each carries the reinstatement trigger that would change that judgement.</p>
 
-<div class="exclusion-item">
+<div class="exclusion-item excl-1">
+<span class="excl-eyebrow">Governance reversal</span>
 <h4>Exclusion 1: A full US return to the multilateral health system within the horizon</h4>
 <p>The <a href="https://www.kff.org/global-health-policy/the-u-s-government-and-the-world-health-organization/">WHO withdrawal is complete</a> and aid has been <a href="https://www.kff.org/global-health-policy/analysis-of-u-s-and-global-fund-funding-reductions-in-mou-countries/">cut across dozens of countries</a>. A partial re-engagement is possible, but a wholesale return to pre-2025 US funding and leadership within the horizon is not the base case. We are not planning for a full US multilateral restoration, while treating targeted re-engagement as a live upside.</p>
 <p class="reinstatement"><strong>Reinstatement trigger:</strong> a US administration resumes WHO membership and restores appropriated Gavi and Global Fund contributions.</p>
 </div>
 
-<div class="exclusion-item">
+<div class="exclusion-item excl-2">
+<span class="excl-eyebrow">Reshoring shock</span>
 <h4>Exclusion 2: Tariffs fully reshoring the pharmaceutical supply chain by 2030</h4>
 <p>Reshoring <a href="https://www.pharmaceuticalcommerce.com/view/faq-where-us-pharma-reshoring-stands-in-2026">pledges are large</a> but plants take years, and <a href="https://www.indrastra.com/2026/06/indias-api-trap-incremental-pli-gains.html">ingredient dependence on China</a> runs deep. We are not planning for a fully reshored US or EU supply chain within the horizon; the realistic outcome is partial, costly localisation of the most critical products.</p>
 <p class="reinstatement"><strong>Reinstatement trigger:</strong> multiple flagship API and finished-dose plants reach commercial operation and materially cut import reliance.</p>
 </div>
 
-<div class="exclusion-item">
+<div class="exclusion-item excl-3">
+<span class="excl-eyebrow">Discovery leap</span>
 <h4>Exclusion 3: An AI-designed drug reaching market approval within the horizon</h4>
 <p>Regulators have set <a href="https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development">AI-in-development principles</a> and observers argue approval is <a href="https://news.bloomberglaw.com/health-law-and-business/fda-approval-for-ai-designed-drugs-probably-isnt-that-far-away">not far off</a>, but designing a molecule is not approving a therapy, and trials take years. We are not planning for a fully AI-designed drug to gain approval within the near horizon, while tracking it as a watch item.</p>
 <p class="reinstatement"><strong>Reinstatement trigger:</strong> the FDA accepts a marketing application whose lead molecule was AI-generated, with pivotal trial data.</p>
 </div>
 
-<div class="exclusion-item">
+<div class="exclusion-item excl-4">
+<span class="excl-eyebrow">Indication leap</span>
 <h4>Exclusion 4: GLP-1 drugs proving a broad panacea beyond metabolic disease</h4>
 <p>The GLP-1 wave is real, but the <a href="https://www.nature.com/articles/d41591-026-00018-2">Alzheimer's trials failed</a>, and not every adjacent indication will land. We are not planning for GLP-1s to become a general-purpose therapy across neurodegenerative and other conditions within the horizon.</p>
 <p class="reinstatement"><strong>Reinstatement trigger:</strong> a well-powered phase 3 shows GLP-1 benefit in a major non-metabolic indication such as dementia or addiction.</p>

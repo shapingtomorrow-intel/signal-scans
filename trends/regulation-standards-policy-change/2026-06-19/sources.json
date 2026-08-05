@@ -42,8 +42,11 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "raising its thresholds to companies with more than 1,000 employees and above EUR 450 million net annual turnover; the CS3D scope is narrowed by raising its thresholds to companies with more than 5,000 employees and above EUR 1.5 billion net turnover",
-    "verbatim_list": null
+    "verbatim_quote": "The CSRD's scope is narrowed by raising its thresholds to companies with more than 1,000 employees and above €450 million net annual turnover.",
+    "verbatim_list": [
+      "The CSRD's scope is narrowed by raising its thresholds to companies with more than 1,000 employees and above €450 million net annual turnover.",
+      "The CS3D's scope is narrowed by raising its thresholds to companies with more than 5,000 employees and above €1.5 billion net turnover, considering that such large companies have the biggest influence on their value chain and are best equipped to make a positive impact and absorb the costs and burdens of due diligence processes."
+    ]
   },
   {
     "topic": "Regulation, Standards and Policy Change",

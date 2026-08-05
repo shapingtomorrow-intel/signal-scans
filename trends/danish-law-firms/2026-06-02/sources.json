@@ -243,11 +243,11 @@
     "publisher": "TipRanks",
     "title": "Harvey Wins Firm-Wide Deployment at Kromann Reumert",
     "url": "https://www.tipranks.com/news/private-companies/harvey-wins-firm-wide-deployment-at-kromann-reumert",
-    "publication_date": "2026-02-20",
+    "publication_date": "2026-02-04",
     "date_source": "byline",
-    "date_evidence": "TipRanks news article published February 2026 on Kromann Reumert's firm-wide Harvey AI deployment; the deal was announced in February 2026.",
+    "date_evidence": "Date line as printed on the live page, read 2026-08-05: 'Updated: February 4, 2026 at 12:06 PM ET', corresponding to meta-article:updated_time 2026-02-04T12:06:30.000Z. That is an update timestamp; the page exposed no separate published timestamp, so publication_date records the earliest date the page itself evidences. The date_source enum has no value for an update timestamp, so 'byline' is retained as the closest available.",
     "verified_at": "2026-06-02T17:13:24Z",
-    "date_age_band": "0-3m",
+    "date_age_band": "3-6m",
     "key_claim": "Kromann Reumert deployed Harvey AI platform firm-wide in February 2026 after a security- and compliance-focused evaluation prioritising Microsoft-native integration; the CIO stated the firm is 'now live with Harvey across the firm, no longer testing but using the platform actively in our daily work'.",
     "signals_supported": [
       "AI adoption"
@@ -256,9 +256,10 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
-    "claim_strength": "verbatim",
-    "verbatim_quote": "now live with Harvey across the firm, no longer testing but using the platform actively in our daily work",
-    "verbatim_list": null
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": null,
+    "verbatim_list": null,
+    "notes": "verbatim_quote moved 2026-08-05 to the Harvey record in this file. The TipRanks page loads in full and is live, but carries no direct quotation from anyone at Kromann Reumert; it is a short third-party summary of Harvey's LinkedIn post, re-confirmed 2026-08-05. The sentence itself is genuine and appears verbatim on https://www.harvey.ai/blog/kromann-reumert-selects-harvey, attributed to Jacob Brønnum-Schou, Chief Information Officer. This record is retained as a Tier 3 secondary reference for the deployment. Do not restore a verbatim_quote here unless TipRanks itself publishes one."
   },
   {
     "topic": "Danish law firms",
@@ -363,11 +364,11 @@
     "publisher": "Harvey (vendor blog)",
     "title": "Kromann Reumert Selects Harvey",
     "url": "https://www.harvey.ai/blog/kromann-reumert-selects-harvey",
-    "publication_date": "2026-02-12",
+    "publication_date": "2026-02-03",
     "date_source": "byline",
-    "date_evidence": "Harvey vendor blog announcement of Kromann Reumert firm-wide deployment; published February 2026 alongside the firm's go-live; treat directionally because Harvey is the vendor.",
+    "date_evidence": "Byline as printed on the live page, read 2026-08-05: 'by Harvey Team•Feb 3, 2026'. The page exposed no separate published-time metadata to the fetcher.",
     "verified_at": "2026-06-02T17:14:29Z",
-    "date_age_band": "0-3m",
+    "date_age_band": "3-6m",
     "key_claim": "Harvey vendor blog confirms Kromann Reumert as the first Nordic firm-wide Harvey deployment; includes statement from the managing partner that Harvey supports lawyers in delivering smarter, faster and more precise advice; vendor framing.",
     "signals_supported": [
       "AI adoption"
@@ -376,8 +377,9 @@
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": true,
-    "claim_strength": "faithful_summary",
-    "verbatim_quote": null,
-    "verbatim_list": null
+    "claim_strength": "verbatim",
+    "verbatim_quote": "We are now live with Harvey across the firm – no longer testing but using the platform actively in our daily work.",
+    "verbatim_list": null,
+    "notes": "verbatim_quote added 2026-08-05, moved from the TipRanks record in this file where it had been filed against a page that does not carry it. Confirmed on the live page 2026-08-05 and attributed there to Jacob Brønnum-Schou, Chief Information Officer, Kromann Reumert. The page prints an en-dash before 'no longer'; normalise() in audit_verbatim_quote_provenance.py folds dash variants through _QUOTE_MAP before matching, so the stored form matches the rendered page. If the gate ever returns FAIL on this span, the fallback is the contiguous dash-free tail 'no longer testing but using the platform actively in our daily work', which is 67 characters and clears MIN_QUOTE_LEN. treat_directionally stays true: this is still a vendor-published page, even though the speaker is the customer's CIO."
   }
 ]

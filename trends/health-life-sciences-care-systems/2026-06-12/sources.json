@@ -102,7 +102,7 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "On 12 May 2026, the Council reached a provisional agreement with the European Parliament on the Critical Medicines Act.",
+    "verbatim_quote": "The new rules seek to diversify supply chains of critical medicines, make it easier for EU countries to join forces to procure critical medicines, and strengthen the manufacturing capacity for critical medicines and their active ingredients within the EU.",
     "verbatim_list": null
   },
   {
@@ -231,8 +231,9 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "The program has helped shepherd over 400 therapies for rare conditions through FDA approval.",
-    "verbatim_list": null
+    "verbatim_quote": null,
+    "verbatim_list": null,
+    "notes": "verbatim_quote removed 2026-08-05 on Matthew Richardson's instruction. The sentence could not be confirmed on any live page: innovativegenomics.org returns HTTP 403 to every client tried (the audit's urllib fetcher and a browser-shaped fetcher, multiple attempts on 2026-08-05) and no verbatim republication was locatable. It was never quoted in the tracker body and no numerical claim depended on it, so removal costs nothing analytically. The source is retained as a Tier 2 reference for the CRISPR clinical-trial pipeline. Do not restore the sentence without confirming it against the live page."
   },
   {
     "topic": "Health, Life Sciences and Care Systems",

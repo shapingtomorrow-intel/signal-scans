@@ -410,8 +410,12 @@
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "Loblaw is expanding its longstanding autonomous partnership with Gatik, deploying 50 Level 4 AI trucks across the GTA to serve over 300 of its stores.",
-    "verbatim_list": null,
+    "verbatim_quote": "Canadian food retailer, Loblaw Companies Limited, is expanding its use of driverless trucks in the Greater Toronto Area (GTA) through a renewed five-year partnership with autonomous middle-mile logistics company, Gatik.",
+    "verbatim_list": [
+      "Under the first phase of the agreement, 20 autonomous trucks will deploy across Loblaw's regional distribution network by the end of this year.",
+      "An additional 30 trucks will roll out by the end of 2026.",
+      "Once fully deployed, these vehicles will support deliveries to more than 300 Loblaw stores."
+    ],
     "key_claim": "Loblaw and Gatik's September 2025 five-year agreement to deploy 50 Level 4 autonomous trucks across the GTA — North America's largest single driverless truck deployment — is operationally live in 2026 and enabled by Ontario's ACMV Pilot Program launched August 2025.",
     "signals_supported": [
       "Heavy-truck and freight autonomy commercial movement",

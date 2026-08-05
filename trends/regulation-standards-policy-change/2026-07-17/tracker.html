@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Europe enacts its simplification; the US stablecoin clock runs down, Change Tracker</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
   h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
   h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
   h4 { color: #4a5568; margin-top: 1em; font-size: 1.02em; }
@@ -89,6 +89,79 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
   .programme-footer .programme-cta:hover { opacity: 0.9; }
+/* ---- Trend Radar section ---- */
+  .dist-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 18px; align-items: center; font-size: 0.9em; }
+  .dist-row .label { font-size: 0.8em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #5a6478; }
+  .dist-pill { display: inline-block; padding: 3px 12px; border-radius: 14px; font-weight: 700; font-size: 0.9em; }
+  .dist-pill.acc { background: #fdecea; color: #b02a22; border: 1px solid #f0c7c3; }
+  .dist-pill.sta { background: #eef1f4; color: #4a5568; border: 1px solid #dde3e9; }
+  .dist-pill.fad { background: #e8f5e9; color: #1b5e20; border: 1px solid #cde6cf; }
+  .tr-layout { display: flex; gap: 18px; align-items: stretch; flex-wrap: wrap; }
+  .tr-card { flex: 1 1 620px; box-sizing: border-box; border: 1px solid #e3e8ee; border-radius: 12px; padding: 12px;
+             background: #fff; position: relative; overflow: hidden; display: flex; flex-direction: column;
+             transition: box-shadow .15s; }
+  .tr-card:hover { box-shadow: 0 6px 20px rgba(20,40,70,.12); }
+  .tr-legend { flex: 0 0 auto; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 11.5px;
+               color: #5a6478; margin: 0 0 6px; line-height: 1.3; }
+  .tr-legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: middle; margin-right: 4px; box-sizing: border-box; }
+  .tr-legend .sw.wild { border-radius: 2px; transform: rotate(45deg); width: 9px; height: 9px; }
+  .tr-legend .heat-dot { display: inline-block; border-radius: 50%; background: #9aa4b0; vertical-align: middle; margin: 0 1px; }
+  .tr-thumbwrap { flex: 1 1 auto; position: relative; width: 100%; min-height: 0; }
+  .tr-thumbwrap svg { width: 100%; height: auto; display: block; }
+  .tr-expand { position: absolute; right: 10px; bottom: 10px; background: rgba(15,46,92,.82); color: #fff; font-size: 11px;
+               font-weight: 600; padding: 3px 10px; border-radius: 20px; pointer-events: none; }
+  .tr-panel { flex: 1 1 300px; min-width: 280px; max-width: 420px; border: 1px solid #e3e8ee; border-radius: 12px;
+              padding: 18px 20px; box-sizing: border-box; background: #fbfbfc; position: relative; }
+  .tr-panel .hint { color: #8a94a3; font-size: 0.92em; font-style: italic; }
+  .tr-panel h3 { margin: 0 0 6px; color: #1a237e; font-size: 1.05em; line-height: 1.3; padding-right: 40px; }
+  .tr-panel .meta-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; }
+  .tr-panel p { margin: 8px 0; font-size: 0.93em; }
+  .tr-panel .k { font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; display: block; margin-top: 12px; }
+  .chip { display: inline-block; padding: 2px 9px; border-radius: 12px; font-size: 0.72em; font-weight: 700;
+          letter-spacing: 0.04em; text-transform: uppercase; }
+  .chip.heat-cool { background: #e8f5e9; color: #1b5e20; } .chip.heat-moderate { background: #fff3e0; color: #e65100; }
+  .chip.heat-hot { background: #ffe7d6; color: #c1440e; } .chip.heat-veryhot { background: #ffebee; color: #b71c1c; }
+  .chip.mom-accelerating { background: #fdecea; color: #b02a22; }
+  .chip.mom-stable { background: #eef1f4; color: #4a5568; }
+  .chip.mom-fading { background: #e8f5e9; color: #1b5e20; }
+  .chip.cl-risk { background: #fdecea; color: #b02a22; } .chip.cl-transformation { background: #eaf0fb; color: #2f5fd0; }
+  .chip.cl-opportunity { background: #e9f6ee; color: #1e7e3e; }
+  .chip.new { background: #e8eaf6; color: #1a237e; }
+  .chip.wild-risk { background: #f3e5f5; color: #6a1b9a; } .chip.wild-opp { background: #e0f2f1; color: #00695c; }
+  .chip.cooled { background: #fff3e0; color: #ef6c00; }
+  .tr-overlay { position: fixed; inset: 0; background: rgba(15,23,35,.62); display: none; align-items: center;
+                justify-content: center; z-index: 9999; padding: 18px; }
+  .tr-overlay.open { display: flex; }
+  .tr-modal { background: #fff; border-radius: 14px; padding: 14px 16px 16px; width: min(98vw, 1680px);
+              max-height: 97vh; overflow: auto; box-shadow: 0 24px 70px rgba(0,0,0,.35); position: relative; }
+  .tr-close { position: absolute; top: 10px; right: 12px; border: none; background: #eef1f4; color: #33414f;
+              width: 32px; height: 32px; border-radius: 8px; font-size: 17px; cursor: pointer; line-height: 1; }
+  .tr-close:hover { background: #e0e5ea; }
+  .tr-modal .eyebrow { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #8a94a3; font-weight: 700; margin: 2px 0 2px; }
+  .tr-modal .mtitle { font-size: 16px; font-weight: 700; margin: 0 0 8px; color: #1a2530; }
+  .tr-modal-flex { display: flex; gap: 16px; align-items: stretch; flex-wrap: wrap; }
+  .tr-modal-flex svg { flex: 1 1 940px; min-width: 0; width: auto; height: auto; display: block; }
+  .tr-panel.in-modal { flex: 1 1 260px; min-width: 250px; max-width: 320px; align-self: stretch; overflow-y: auto; max-height: 84vh; }
+  @media (max-width: 900px) { .tr-panel.in-modal { max-width: none; } }
+  .tr-help { position: absolute; top: 10px; right: 10px; width: 26px; height: 26px; border-radius: 50%;
+             border: 1.5px solid #1a237e; background: #fff; color: #1a237e; font-weight: 700; font-size: 14px;
+             cursor: pointer; line-height: 1; z-index: 2; }
+  .tr-help:hover { background: #eef1f9; }
+  .tr-panel[data-state="howto"] .tr-help { display: none; }
+  .howto-row { display: flex; gap: 10px; align-items: flex-start; margin: 10px 0; }
+  .howto-glyph { flex: 0 0 34px; text-align: center; padding-top: 1px; }
+  .howto-row p { margin: 0; font-size: 0.88em; line-height: 1.45; }
+  /* ---- Momentum table ---- */
+  .reg-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 14px 0; }
+  .reg-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .reg-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  .reg-table th:nth-child(1), .reg-table td:nth-child(1) { width: 17%; }
+  .reg-table th:nth-child(3), .reg-table td:nth-child(3) { white-space: nowrap; width: 104px; }
+  .reg-table th:nth-child(6), .reg-table td:nth-child(6) { width: 38%; }
+  /* ---- retrofit: widen body for the radar, cap text columns ---- */
+  .prose { max-width: 920px; }
+  article > p, article > ul, article > ol, .seo-line, .series-continuity,
+  .cluster, .gaining-momentum, .wild-card, .implications { max-width: 920px; }
 </style>
 </head>
 <body>
@@ -106,87 +179,52 @@
 
 <p>Regulation this cycle is moving on three tracks at once. In Europe, simplification stopped being a proposal and became law: the AI Act's high-risk rules were deferred on 29 June, and the CSRD and CSDDD rollback is in force. In the US, rule-making is fragmenting along national lines, with the GENIUS Act's stablecoin deadline landing on 18 July and a crypto market-structure bill still fighting for Senate votes. Beneath both, voluntary standards such as the ISSB disclosures and ISO/IEC 42001 keep gaining ground as the cross-border baseline. For boards, the live question is which of these three now sets the compliance floor.</p>
 
+<h3>Trend Radar</h3>
+<p class="prose" style="margin-top:4px;">The momentum register mapped onto the horizon: ring = when a trend bites, sector = the cycle&rsquo;s pattern cluster, blip size = heat, arrows = momentum, dashed ghosts and tails = drift since the prior cycle. Hover any blip for its full entry; expand for the reading view.</p>
+<div class="dist-row">
+<span class="label">Momentum this cycle</span>
+<span class="dist-pill acc">4 Accelerating</span>
+<span class="dist-pill sta">5 Stable</span>
+<span class="dist-pill fad">0 Fading</span>
+<span class="small" style="color:#5a6478;">&middot; 1 new to the register &middot; 2 cooled</span>
+</div>
+<div class="tr-layout">
+  <div class="tr-card" id="tr-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Trend Radar enlarged">
+    <div class="tr-legend" aria-hidden="true">
+      <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>evolving risk</span>
+      <span><span class="sw" style="background:#eaf0fb;border:2px solid #2f5fd0;"></span>transformation driver</span>
+      <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>emerging opportunity</span>
+      <span><span class="sw wild" style="background:#f3e5f5;border:2px dashed #8e24aa;"></span>wild card</span>
+      <span style="opacity:.85">heat:</span>
+      <span><span class="heat-dot" style="width:6px;height:6px;"></span><span class="heat-dot" style="width:9px;height:9px;"></span><span class="heat-dot" style="width:12px;height:12px;"></span> cool &rarr; very hot</span>
+      <span>&#9650; toward centre = accelerating &middot; &#9661; outward = fading</span>
+      <span><span class="sw" style="background:transparent;border:1.6px dashed #9aa7b4;"></span>drift tail = last cycle&rsquo;s state</span>
+      <span><span class="sw" style="background:#eef1f4;border:1.6px dashed #8a94a3;"></span>&#10005; left the register</span>
+    </div>
+    <div class="tr-thumbwrap">
+      <svg id="tr-svg" role="img" aria-label="Trend Radar: tracked trends and wild cards positioned by time-horizon ring, grouped in cluster sectors, sized by heat, with momentum arrows and drift tails."></svg>
+      <span class="tr-expand">&#10530; Expand</span>
+    </div>
+  </div>
+  <aside class="tr-panel" id="tr-panel" aria-live="off"></aside>
+</div>
+<div class="tr-overlay" id="tr-overlay" role="dialog" aria-modal="true" aria-label="Trend Radar, enlarged">
+  <div class="tr-modal">
+    <button class="tr-close" id="tr-close" aria-label="Close">&times;</button>
+    <p class="eyebrow">Trend Radar</p>
+    <p class="mtitle">Regulation, Standards and Policy Change &middot; 17 July 2026</p>
+    <div class="tr-modal-flex">
+      <svg id="tr-svg-modal" role="img" aria-label="Enlarged Trend Radar"></svg>
+      <aside class="tr-panel in-modal" id="tr-panel-modal" aria-live="polite"></aside>
+    </div>
+  </div>
+</div>
 <h3>Momentum across the topic</h3>
-<table class="momentum-table">
-<thead>
-<tr><th>Heat</th><th>Signal</th><th>Maturity</th><th>Timeframe</th><th>Evidence</th><th>Commentary</th></tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="heat-chip heat-veryhot" title="heat: very hot (very high impact x very likely likelihood)"></span></td>
-<td>EU sustainability reporting rollback (CSRD/CSDDD)</td>
-<td><span class="mat-stage" title="Amendment Directive (EU) 2026/470 in force 18 March 2026; ESRS delegated act due September 2026 (Gibson Dunn, March 2026)">maturing</span></td>
-<td>2026-2029</td>
-<td>In force since 18 March; simplified ESRS due September 2026</td>
-<td>Now law; most companies fall out of scope, deadlines slip past 2027 (<a href="https://www.gibsondunn.com/omnibus-simplification-of-eu-sustainability-rules-csrd-and-csddd-enacted/">Gibson Dunn</a>, March 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
-<td>EU AI Act deferral and simplification</td>
-<td><span class="mat-stage" title="Digital Omnibus on AI adopted by Council 29 June 2026; high-risk deadlines deferred to 2027-2028 (Council of the EU, June 2026)">maturing</span><span class="mat-arrow mat-advanced">&#8599;</span></td>
-<td>2026-2028</td>
-<td>Adopted 29 June; high-risk rules deferred to December 2027</td>
-<td>Last cycle's deal is now law; high-risk duties deferred to 2027 (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/">Council of the EU</a>, June 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-hot" title="heat: hot (very high impact x likely likelihood)"></span></td>
-<td>EU data-protection and digital-rules simplification</td>
-<td><span class="mat-stage" title="Digital Omnibus GDPR proposal advancing; EDPB warns against redefining personal data (EDPB, February 2026)">emerging</span></td>
-<td>2026-2027</td>
-<td>GDPR overhaul advancing; regulators warn on the personal-data redefinition; Feb 2026</td>
-<td>Regulators warn a narrower personal-data definition would gut the GDPR (<a href="https://www.edpb.europa.eu/news/news/2026/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while_en">EDPB</a>, February 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
-<td>US GENIUS Act stablecoin rulemaking build-out</td>
-<td><span class="mat-stage" title="Statutory rulemaking deadline 18 July 2026; Treasury and OCC stablecoin proposals issued (Treasury, April 2026)">maturing</span></td>
-<td>2026-2027</td>
-<td>Statutory 18 July rule deadline; Treasury and OCC proposals live</td>
-<td>The rule clock hits 18 July, forcing a federal stablecoin regime (<a href="https://cryptoslate.com/genius-act-deadline-puts-stablecoin-issuers-on-the-clock/">CryptoSlate</a>, July 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
-<td>OECD Pillar Two US side-by-side carve-out</td>
-<td><span class="mat-stage" title="Side-by-side package agreed 5 January 2026; first GloBE Information Return filings due 30 June 2026 (EY, January 2026)">maturing</span></td>
-<td>2026-2027</td>
-<td>US carve-out via the January side-by-side package; first GloBE returns filed 30 June</td>
-<td>The US carve-out holds as the first GloBE returns come due (<a href="https://taxnews.ey.com/news/2026-0226-oecd-releases-side-by-side-package-on-pillar-two-global-minimum-tax-detailed-review">EY</a>, January 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-hot" title="heat: hot (high impact x very likely likelihood)"></span></td>
-<td>ISSB global sustainability-disclosure baseline</td>
-<td><span class="mat-stage" title="28 jurisdictions adopted IFRS S1/S2 by 22 April 2026, 12 more planned (S&amp;P Global, May 2026)">maturing</span></td>
-<td>2026-2030</td>
-<td>28 jurisdictions adopted IFRS S1/S2 by April, 12 more planned; sources to May 2026</td>
-<td>Adoption widens as the EU retreats, hardening the ISSB into the baseline (<a href="https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q2-2026">S&amp;P Global</a>, May 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-moderate" title="heat: moderate (high impact x likely likelihood)"></span></td>
-<td>US crypto market-structure legislation (CLARITY Act) <span class="new-badge">New</span></td>
-<td><span class="mat-stage" title="Senate Banking advanced substitute 14 May 2026; contested floor push week of 20 July (CoinDesk, July 2026)">emerging</span></td>
-<td>2026-2027</td>
-<td>Committee-passed 14 May; contested floor push for the week of 20 July</td>
-<td>A merged bill targets a late-July floor vote but lacks the votes (<a href="https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say">CoinDesk</a>, July 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-moderate" title="heat: moderate (high impact x likely likelihood)"></span></td>
-<td>US federal-versus-state AI preemption contest</td>
-<td><span class="mat-stage" title="109 state AI laws by 1 July 2026 despite the December 2025 preemption executive order (Tech Policy Press, July 2026)">emerging</span></td>
-<td>2026-2028</td>
-<td>109 state AI laws by 1 July despite the federal preemption order</td>
-<td>States keep legislating despite the preemption order, deepening the patchwork (<a href="https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/">Tech Policy Press</a>, July 2026).</td>
-</tr>
-<tr>
-<td><span class="heat-chip heat-moderate" title="heat: moderate (medium impact x very likely likelihood)"></span></td>
-<td>ISO/IEC 42001 voluntary AI-governance standard</td>
-<td><span class="mat-stage" title="First AI management-system standard (2023); certification adoption scaling through 2026 (ISO)">emerging</span></td>
-<td>2026-2030</td>
-<td>First AI management-system standard; certification adoption scaling through 2026</td>
-<td>Certification keeps scaling as a portable AI-governance baseline (<a href="https://www.iso.org/standard/42001">ISO</a>).</td>
-</tr>
-</tbody>
+<table class="reg-table">
+<thead><tr><th>Trend</th><th>Cluster</th><th>Horizon</th><th>Heat</th><th>Momentum</th><th>Evidence</th></tr></thead>
+<tbody id="reg-body"></tbody>
 </table>
-<p class="small">Heat (impact x likelihood): <span class="heat-chip heat-cool"></span> cool &middot; <span class="heat-chip heat-moderate"></span> moderate &middot; <span class="heat-chip heat-hot"></span> hot &middot; <span class="heat-chip heat-veryhot"></span> very hot. Maturity: hover any stage for its evidence basis; <span class="mat-arrow mat-advanced">&#8599;</span> advanced and <span class="mat-arrow mat-declined">&#8600;</span> declined a stage since last cycle; <span class="new-badge">New</span> new to the register this cycle.</p>
+<p class="small">Ring = when the trend bites (Now, Next, Later), sector = pattern cluster, blip size and stroke = heat (impact &times; likelihood), arrows = momentum direction this cycle. Wild cards sit on the dashed outer rim. <strong>Drift tails</strong> show movement against the prior cycle&rsquo;s register: a dashed ghost is the trend&rsquo;s previous state and the dotted tail leads to where it sits now. Trends with no tail held their grades.</p>
 
 <h3>Pattern narrative</h3>
 
@@ -203,23 +241,6 @@
 <div class="cluster opportunity">
 <h4>Voluntary standards become the working baseline<span class="cluster-type">Emerging Opportunity</span></h4>
 <p>As statute defers and national rules diverge, voluntary standards are filling the gap. The ISSB's disclosure standards reached 28 adopting jurisdictions by April, a dozen more planned, as the EU pares back its own rules. ISO/IEC 42001, the first AI management-system standard, keeps adding certified vendors as a portable baseline. For cross-border firms, these standards increasingly set the working compliance floor.</p>
-</div>
-
-<div class="tracker-figure">
-<h4>Signal momentum distribution this cycle</h4>
-<svg viewBox="0 0 720 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of nine tracked signals by momentum direction: Accelerating four, Stable five, Fading zero.">
-  <text x="70" y="28" font-size="13" fill="#5a6478">Signals by momentum direction (n = 9)</text>
-  <line x1="70" y1="210" x2="680" y2="210" stroke="#9aa3b2" stroke-width="1"/>
-  <rect x="130" y="90" width="120" height="120" fill="#c62828"/>
-  <text x="190" y="80" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">4</text>
-  <text x="190" y="232" text-anchor="middle" font-size="14" fill="#1a1a1a">Accelerating</text>
-  <rect x="310" y="60" width="120" height="150" fill="#9aa3b2"/>
-  <text x="370" y="50" text-anchor="middle" font-size="22" font-weight="700" fill="#5a6478">5</text>
-  <text x="370" y="232" text-anchor="middle" font-size="14" fill="#1a1a1a">Stable</text>
-  <text x="550" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="#2e7d32">0</text>
-  <text x="550" y="232" text-anchor="middle" font-size="14" fill="#1a1a1a">Fading</text>
-</svg>
-<p class="figure-caption">Direction classified internally from the source-base distribution across the nine tracked signals; no signal is fading this cycle.</p>
 </div>
 
 <div class="gaining-momentum">
@@ -266,23 +287,6 @@
 <p>With 28 jurisdictions on the ISSB baseline and certification scaling, standards edge from optional to expected (<a href="https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q2-2026">S&amp;P Global</a>, May 2026). If they become purchasing conditions, adoption stops being voluntary.</p>
 </div>
 
-<div class="tracker-figure">
-<h4>Wild Card field: potential impact against surprise</h4>
-<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scatter plot of three wild cards positioned by surprise on the horizontal axis and potential impact on the vertical axis. Two disruptive risks sit high on impact; one disruptive opportunity sits mid-right.">
-  <line x1="90" y1="250" x2="680" y2="250" stroke="#9aa3b2" stroke-width="1"/>
-  <line x1="90" y1="40" x2="90" y2="250" stroke="#9aa3b2" stroke-width="1"/>
-  <text x="385" y="288" text-anchor="middle" font-size="13" fill="#5a6478">Surprise, lower to higher</text>
-  <text x="34" y="150" text-anchor="middle" font-size="13" fill="#5a6478" transform="rotate(-90 34 150)">Potential impact</text>
-  <circle cx="300" cy="80" r="11" fill="#8e24aa"/>
-  <text x="316" y="84" font-size="12" fill="#1a1a1a">GDPR personal-data redefinition</text>
-  <circle cx="470" cy="150" r="11" fill="#8e24aa"/>
-  <text x="486" y="154" font-size="12" fill="#1a1a1a">Crypto market-structure collapse</text>
-  <circle cx="560" cy="140" r="11" fill="#00897b"/>
-  <text x="392" y="122" font-size="12" fill="#1a1a1a">Standards as market-access passports</text>
-</svg>
-<p class="figure-caption">Purple marks a disruptive risk, teal an opportunity; positions are analyst estimates, not measured values.</p>
-</div>
-
 <div class="implications">
 <h3>Implications</h3>
 <p>Three things are worth watching. Europe's simplification is now law, so the near-term work is transposition and the delegated acts that set the reporting burden; the GDPR redefinition is the one to watch, because it changes scope, not just process. In the US, the 18 July stablecoin deadline is the nearest hard date, and whether the CLARITY bill clears the Senate before the recess decides if market structure is set by statute or by agencies. For cross-border firms, the hedge is the voluntary baseline: the ISSB disclosures and ISO/IEC 42001 travel a diverging map better than any one regime.</p>
@@ -316,5 +320,418 @@
 <hr>
 <p class="small">Prepared by Shaping Tomorrow: 17 July 2026</p>
 
+<script>
+(function(){
+  // === RADAR_DATA_START =====================================================
+  var TOPIC_SHORT = "Regulation\n& Policy";
+  var PREV_LABEL = "19 June 2026 cycle";
+  var RINGS = [
+    { key: "now",   label: "NOW (TO 2027)",  r: 128 },
+    { key: "next",  label: "NEXT (2027-28)", r: 218 },
+    { key: "later", label: "LATER (2029+)",  r: 300 }
+  ];
+  var WILD_R = 352;
+  var BOUNDS = [170, 260, 322];
+  var SECTORS = [
+    { key:"risk", name:"Rulebooks\nsplinter", type:"Evolving Risk",
+      a0:0, a1:150, fill:"#fdecea", stroke:"#d9433a", tint:"rgba(217,67,58,0.045)" },
+    { key:"transformation", name:"Europe\u2019s\nsimplification", type:"Transformation Driver",
+      a0:150, a1:285, fill:"#eaf0fb", stroke:"#2f5fd0", tint:"rgba(47,95,208,0.045)" },
+    { key:"opportunity", name:"Voluntary\nstandards", type:"Emerging Opportunity",
+      a0:285, a1:360, fill:"#e9f6ee", stroke:"#2ea44f", tint:"rgba(46,164,79,0.055)" }
+  ];
+  var HEAT_R = { cool:7, moderate:9.5, hot:12.5, veryhot:15 };
+  var SIGNALS = [
+    { name:"EU sustainability reporting rollback (CSRD/CSDDD)", short:"CSRD/CSDDD\nrollback", sector:"transformation", ring:"now", angle:168, heat:"veryhot", maturity:"Maturing", timeframe:"2026-2029", momentum:"stable", cooled:true, prev:{heat:"veryhot", momentum:"accelerating", ring:"now"}, evidence:"In force since 18 March; simplified ESRS delegated act due September 2026", commentary:"The big adoption landed last cycle; momentum cools from Accelerating as the work shifts to transposition and ESRS simplification. Most companies fall out of scope and deadlines slip past 2027.", source:{label:"Gibson Dunn", date:"March 2026", url:"https://www.gibsondunn.com/omnibus-simplification-of-eu-sustainability-rules-csrd-and-csddd-enacted/"} },
+    { name:"EU AI Act deferral and simplification", short:"EU AI Act\ndeferral", sector:"transformation", ring:"next", angle:198, heat:"hot", maturity:"Maturing", timeframe:"2026-2028", momentum:"accelerating", prev:{heat:"hot", momentum:"accelerating", ring:"next"}, evidence:"Digital Omnibus on AI adopted by Council 29 June; high-risk duties deferred to December 2027 and August 2028", commentary:"Maturity advances a stage this cycle: last cycle's provisional deal is now formally law, with the high-risk timeline pushed out.", source:{label:"Council of the EU", date:"June 2026", url:"https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"} },
+    { name:"EU data-protection and digital-rules simplification", short:"GDPR/Digital\nOmnibus", sector:"transformation", ring:"now", angle:262, heat:"hot", maturity:"Emerging", timeframe:"2026-2027", momentum:"accelerating", evidence:"Digital Omnibus GDPR/ePrivacy/Data Act proposal advancing; EDPB-EDPS warn against redefining personal data", commentary:"The personal-data redefinition fight is live and the co-legislative process is moving; this is the clause that changes GDPR scope, not just process.", source:{label:"EDPB", date:"February 2026", url:"https://www.edpb.europa.eu/news/news/2026/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while_en"} },
+    { name:"US GENIUS Act stablecoin rulemaking build-out", short:"GENIUS Act\nstablecoin rules", sector:"risk", ring:"now", angle:33, heat:"hot", maturity:"Maturing", timeframe:"2026-2027", momentum:"accelerating", evidence:"Statutory one-year rulemaking deadline 18 July 2026; Treasury/FinCEN/OFAC and OCC proposals issued", commentary:"The final-rule deadline is days away; multiple federal NPRMs since February stand up a US stablecoin regime at speed.", source:{label:"US Department of the Treasury", date:"April 2026", url:"https://home.treasury.gov/news/press-releases/sb0435"} },
+    { name:"US crypto market-structure legislation (CLARITY Act)", short:"CLARITY Act\nmarket structure", sector:"risk", ring:"next", angle:50, heat:"moderate", maturity:"Emerging", timeframe:"2026-2027", momentum:"stable", isNew:true, evidence:"Senate Banking advanced a substitute 14 May; contested floor push targeted for the week of 20 July but short of 60 votes", commentary:"New to the register: committee passage in May, a contested floor push in July, and no assured majority yet.", source:{label:"CoinDesk", date:"July 2026", url:"https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say"} },
+    { name:"OECD Pillar Two US side-by-side carve-out", short:"Pillar Two\nUS carve-out", sector:"risk", ring:"now", angle:106, heat:"hot", maturity:"Maturing", timeframe:"2026-2027", momentum:"stable", cooled:true, prev:{heat:"hot", momentum:"accelerating", ring:"now"}, evidence:"Side-by-side package agreed 5 January; first GloBE Information Return filings due 30 June 2026", commentary:"No new inflection since the January package; momentum cools from Accelerating into implementation and first filings.", source:{label:"EY", date:"January 2026", url:"https://taxnews.ey.com/news/2026-0226-oecd-releases-side-by-side-package-on-pillar-two-global-minimum-tax-detailed-review"} },
+    { name:"US federal-versus-state AI preemption contest", short:"US AI\npreemption fight", sector:"risk", ring:"next", angle:132, heat:"moderate", maturity:"Emerging", timeframe:"2026-2028", momentum:"accelerating", evidence:"109 state AI laws and 28 data-centre laws enacted by 1 July despite the December 2025 preemption executive order and DOJ task force", commentary:"State lawmaking stays robust while federal preemption via order and litigation remains legally contested, deepening the patchwork.", source:{label:"Tech Policy Press", date:"July 2026", url:"https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/"} },
+    { name:"ISSB global sustainability-disclosure baseline", short:"ISSB\ndisclosure base", sector:"opportunity", ring:"later", angle:305, heat:"hot", maturity:"Maturing", timeframe:"2026-2030", momentum:"stable", evidence:"28 jurisdictions adopted IFRS S1/S2 by 22 April, 12 more planned; interest rising as the EU retreats", commentary:"Steady jurisdiction-by-jurisdiction adoption; the ISSB baseline widens as Europe pares its own rules back.", source:{label:"S&P Global", date:"May 2026", url:"https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q2-2026"} },
+    { name:"ISO/IEC 42001 voluntary AI-governance standard", short:"ISO/IEC\n42001", sector:"opportunity", ring:"later", angle:345, heat:"moderate", maturity:"Emerging", timeframe:"2026-2030", momentum:"stable", evidence:"First AI management-system standard (2023); certification adoption scaling across vendors and enterprises through 2026", commentary:"A steady multi-year build off the 2023 standard; certification keeps compounding as a portable governance baseline.", source:{label:"ISO", date:"2023 standard", url:"https://www.iso.org/standard/42001"} }
+  ];
+  var WILDCARDS = [
+    { name:"GDPR personal-data redefinition adopted over regulator objection", short:"GDPR redefinition\nadopted", sector:"transformation", angle:242, type:"Disruptive Risk", impact:"Very High", surprise:"Co-legislators override the EDPB and narrow the definition of personal data.", indicators:"Trilogue text keeping the pseudonymisation carve-out to personal data.", source:{label:"EDPB", date:"February 2026", url:"https://www.edpb.europa.eu/news/news/2026/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while_en"} },
+    { name:"US crypto market-structure push collapses for 2026", short:"CLARITY Act\ncollapses", sector:"risk", angle:144, type:"Disruptive Risk", impact:"High", surprise:"After the GENIUS Act win, the broader CLARITY market-structure bill dies on the Senate floor.", indicators:"No bipartisan deal on the crypto-ethics provision before the August recess.", source:{label:"CoinDesk", date:"July 2026", url:"https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say"} },
+    { name:"Voluntary standards harden into market-access passports", short:"Standards as\npassports", sector:"opportunity", angle:293, type:"Disruptive Opportunity", impact:"High", surprise:"Buyers and regulators treat ISSB reporting or ISO/IEC 42001 certification as a condition of market access.", indicators:"Procurement or listing rules referencing the standards as a baseline.", source:{label:"S&P Global", date:"May 2026", url:"https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q2-2026"} }
+  ];
+  var EXITED = [];
+  // === RADAR_DATA_END =======================================================
+  var NS = "http://www.w3.org/2000/svg";
+  var CX = 600, CY = 470, SX = 1.32;
+  var HUB_R = 62;
+  var HEAT_LABEL = { cool:"Cool", moderate:"Moderate", hot:"Hot", veryhot:"Very hot" };
+  var MOM_LABEL = { accelerating:"Accelerating", stable:"Stable", fading:"Fading" };
+  function rad(d){ return d * Math.PI / 180; }
+  function P(aDeg, r){ var t = rad(aDeg); return { x: CX + SX * r * Math.sin(t), y: CY - r * Math.cos(t) }; }
+  function sectorOf(key){ for (var i=0;i<SECTORS.length;i++) if (SECTORS[i].key===key) return SECTORS[i]; }
+  function ringOf(key){ for (var i=0;i<RINGS.length;i++) if (RINGS[i].key===key) return RINGS[i]; }
+  function el(tag, attrs, parent){ var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+  function fmtSource(s){
+    var name = s.url ? '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.label + '</a>' : s.label;
+    return name + ', ' + s.date;
+  }
+  function wedgePath(a0, a1, r){
+    var steps = Math.max(8, Math.round((a1-a0)/6)), d = "M " + CX + " " + CY;
+    for (var i=0;i<=steps;i++){ var p = P(a0 + (a1-a0)*i/steps, r); d += " L " + p.x.toFixed(1) + " " + p.y.toFixed(1); }
+    return d + " Z";
+  }
+  function ringEllipse(r, attrs, parent){
+    var e = el("ellipse", { cx: CX, cy: CY, rx: SX*r, ry: r }, parent);
+    for (var k in attrs) e.setAttribute(k, attrs[k]); return e;
+  }
+  function render(svg, big){
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    var fs = big ? 1.32 : 1;
+    var halfW = SX*WILD_R + (big ? 265 : 235), halfH = WILD_R + (big ? 108 : 96);
+    svg.setAttribute("viewBox", (CX-halfW) + " " + (CY-halfH) + " " + (2*halfW) + " " + (2*halfH));
+    SECTORS.forEach(function(s){
+      el("path", { d: wedgePath(s.a0, s.a1, WILD_R+14), fill: s.tint, stroke: "none" }, svg);
+    });
+    SECTORS.forEach(function(s){
+      var p = P(s.a0, WILD_R+14);
+      el("line", { x1: CX, y1: CY, x2: p.x, y2: p.y, stroke: "#d6dde4", "stroke-width": 1.4 }, svg);
+    });
+    BOUNDS.forEach(function(r){ ringEllipse(r, { fill:"none", stroke:"#d6dde4", "stroke-width":1.4 }, svg); });
+    ringEllipse(WILD_R, { fill:"none", stroke:"#8e24aa", "stroke-width":1.6, "stroke-dasharray":"5 5", opacity:0.55 }, svg);
+    var ringLabels = [ [RINGS[0].r, RINGS[0].label], [RINGS[1].r, RINGS[1].label], [RINGS[2].r, RINGS[2].label], [WILD_R, "WILD CARDS"] ];
+    ringLabels.forEach(function(rl){
+      var t = el("text", { x: CX, y: CY - rl[0] - 8, "text-anchor":"middle", "font-size": 10.5*fs,
+                           "font-weight":700, fill: rl[1]==="WILD CARDS" ? "#8e24aa" : "#8a94a3",
+                           "letter-spacing":"0.08em" }, svg);
+      t.textContent = rl[1];
+    });
+    SECTORS.forEach(function(s){
+      var mid = (s.a0 + s.a1)/2, p = P(mid, WILD_R + 48);
+      var anchor = "middle";
+      if (Math.sin(rad(mid)) > 0.35) anchor = "start"; else if (Math.sin(rad(mid)) < -0.35) anchor = "end";
+      var nameLines = s.name.split("\n");
+      nameLines.forEach(function(line, i){
+        var t1 = el("text", { x: p.x, y: p.y - 7 - (nameLines.length-1-i)*14*fs, "text-anchor": anchor,
+                              "font-size": 12.5*fs, "font-weight":700, fill: s.stroke }, svg);
+        t1.textContent = line;
+      });
+      var t2 = el("text", { x: p.x, y: p.y + 8, "text-anchor": anchor, "font-size": 10*fs, "font-weight":700,
+                            fill: "#8a94a3", "letter-spacing":"0.06em" }, svg);
+      t2.textContent = s.type.toUpperCase();
+    });
+    ringEllipse(HUB_R, { fill:"#eaf0fb", stroke:"#2f5fd0", "stroke-width":3 }, svg);
+    TOPIC_SHORT.split("\n").forEach(function(line, i, arr){
+      var t = el("text", { x: CX, y: CY - (arr.length-1)*8 + i*16 - 2, "text-anchor":"middle",
+                           "font-size": 13*fs, "font-weight":700, fill:"#1a2530" }, svg);
+      t.textContent = line;
+    });
+    var tt = el("text", { x: CX, y: CY + (TOPIC_SHORT.split("\n").length)*8 + 12, "text-anchor":"middle",
+                          "font-size": 9*fs, "font-weight":700, fill:"#2f5fd0", "letter-spacing":"0.08em" }, svg);
+    tt.textContent = "TREND RADAR";
+    function drawMomentum(g, aDeg, r, blipR, momentum, color){
+      if (momentum === "stable") return;
+      var inward = (momentum === "accelerating");
+      var tipR = inward ? r - blipR - 19 : r + blipR + 19;
+      var baseR = inward ? r - blipR - 5 : r + blipR + 5;
+      var tip = P(aDeg, tipR), base = P(aDeg, baseR);
+      var ta = rad(aDeg), tx = SX*Math.cos(ta), ty = Math.sin(ta);
+      var tl = Math.sqrt(tx*tx + ty*ty); tx = tx/tl*7; ty = ty/tl*7;
+      el("path", { d: "M " + tip.x + " " + tip.y + " L " + (base.x - tx) + " " + (base.y - ty) +
+                     " L " + (base.x + tx) + " " + (base.y + ty) + " Z",
+                   fill: color, opacity: 0.95 }, g);
+    }
+    var interactive = [];
+    function hasDrift(sig){
+      return sig.prev && (sig.prev.heat !== sig.heat || sig.prev.momentum !== sig.momentum || sig.prev.ring !== sig.ring);
+    }
+    function tailPath(a0, r0, a1, r1){
+      var pA = P(a0, r0), pB = P(a1, r1), pM = P((a0+a1)/2, (r0+r1)/2 * 1.045);
+      return "M " + pA.x.toFixed(1) + " " + pA.y.toFixed(1) +
+             " Q " + pM.x.toFixed(1) + " " + pM.y.toFixed(1) +
+             " " + pB.x.toFixed(1) + " " + pB.y.toFixed(1);
+    }
+    SIGNALS.forEach(function(sig){
+      if (!hasDrift(sig)) return;
+      var s = sectorOf(sig.sector);
+      var rNow = ringOf(sig.ring).r, rPrev = ringOf(sig.prev.ring).r;
+      var aPrev = sig.angle - 14;
+      var gp = P(aPrev, rPrev), gr = HEAT_R[sig.prev.heat] * fs;
+      el("path", { d: tailPath(aPrev, rPrev, sig.angle, rNow), fill:"none", stroke:"#9aa7b4",
+                   "stroke-width": 1.6, "stroke-dasharray":"2 4", "stroke-linecap":"round", opacity:0.85 }, svg);
+      el("circle", { cx: gp.x, cy: gp.y, r: gr, fill: s.fill, "fill-opacity": 0.35,
+                     stroke: s.stroke, "stroke-width": 1.6, "stroke-dasharray":"3 3", opacity: 0.55 }, svg);
+    });
+    EXITED.forEach(function(ex, idx){
+      var r = ringOf(ex.ring).r, p = P(ex.angle, r), gr = HEAT_R[ex.prevHeat] * fs;
+      var g = el("g", { "data-idx": idx, "data-kind":"exited", cursor:"pointer" }, svg);
+      el("circle", { cx: p.x, cy: p.y, r: gr, fill:"#eef1f4", "fill-opacity":0.6,
+                     stroke:"#8a94a3", "stroke-width":1.8, "stroke-dasharray":"3 3", opacity:0.8 }, g);
+      el("line", { x1: p.x - gr*0.55, y1: p.y - gr*0.55, x2: p.x + gr*0.55, y2: p.y + gr*0.55,
+                   stroke:"#8a94a3", "stroke-width":1.6, opacity:0.8 }, g);
+      el("line", { x1: p.x - gr*0.55, y1: p.y + gr*0.55, x2: p.x + gr*0.55, y2: p.y - gr*0.55,
+                   stroke:"#8a94a3", "stroke-width":1.6, opacity:0.8 }, g);
+      var lp = P(ex.angle, r + gr + 14);
+      var anchor = Math.sin(rad(ex.angle)) > 0.4 ? "start" : (Math.sin(rad(ex.angle)) < -0.4 ? "end" : "middle");
+      ex.short.split("\n").forEach(function(line, i){
+        var t = el("text", { x: lp.x, y: lp.y + i*12*fs + 4, "text-anchor": anchor, "font-size": 10*fs,
+                             "font-weight":600, fill:"#8a94a3", "font-style":"italic" }, g);
+        t.textContent = line;
+      });
+      var t2 = el("text", { x: lp.x, y: lp.y + ex.short.split("\n").length*12*fs + 4, "text-anchor": anchor,
+                            "font-size": 8.5*fs, "font-weight":700, fill:"#8a94a3", "letter-spacing":"0.04em" }, g);
+      t2.textContent = "LEFT THE REGISTER";
+      interactive.push(g);
+    });
+    SIGNALS.forEach(function(sig, idx){
+      var s = sectorOf(sig.sector), ring = ringOf(sig.ring), r = ring.r;
+      var p = P(sig.angle, r), br = HEAT_R[sig.heat] * fs;
+      var g = el("g", { "data-idx": idx, "data-kind":"signal", cursor:"pointer" }, svg);
+      drawMomentum(g, sig.angle, r, br, sig.momentum, "#4a5563");
+      el("circle", { cx: p.x, cy: p.y, r: br, fill: s.fill, stroke: s.stroke,
+                     "stroke-width": sig.heat==="hot"||sig.heat==="veryhot" ? 3 : 2.2 }, g);
+      if (sig.isNew){
+        var np = P(sig.angle, r + br + 4);
+        var badge = el("g", {}, g);
+        el("rect", { x: np.x - 16, y: np.y - 8, width: 32, height: 13, rx: 3, fill:"#e8eaf6" }, badge);
+        var nt = el("text", { x: np.x, y: np.y + 2, "text-anchor":"middle", "font-size": 8.5*fs, "font-weight":700, fill:"#1a237e" }, badge);
+        nt.textContent = "NEW";
+      }
+      if (sig.cooled){
+        var cp = P(sig.angle, r - br - 11);
+        var ct = el("text", { x: cp.x, y: cp.y + 4, "text-anchor":"middle", "font-size": 11*fs, "font-weight":700, fill:"#ef6c00" }, g);
+        ct.textContent = "↘";
+      }
+      var lp = P(sig.angle, r + br + (sig.isNew ? 22 : 14));
+      var anchor = "middle";
+      if (Math.sin(rad(sig.angle)) > 0.4) anchor = "start"; else if (Math.sin(rad(sig.angle)) < -0.4) anchor = "end";
+      sig.short.split("\n").forEach(function(line, i){
+        var t = el("text", { x: lp.x, y: lp.y + i*12*fs + 4, "text-anchor": anchor, "font-size": 10.5*fs,
+                             "font-weight":600, fill:"#1a2530" }, g);
+        t.textContent = line;
+      });
+      interactive.push(g);
+    });
+    WILDCARDS.forEach(function(wc, idx){
+      var risky = wc.type.indexOf("Risk") >= 0;
+      var stroke = risky ? "#8e24aa" : "#00897b", fill = risky ? "#f3e5f5" : "#e0f2f1";
+      var p = P(wc.angle, WILD_R), sz = 11 * fs;
+      var g = el("g", { "data-idx": idx, "data-kind":"wild", cursor:"pointer" }, svg);
+      el("rect", { x: p.x - sz/1.4, y: p.y - sz/1.4, width: sz*1.42, height: sz*1.42, rx: 2,
+                   transform: "rotate(45 " + p.x + " " + p.y + ")",
+                   fill: fill, stroke: stroke, "stroke-width": 2.4, "stroke-dasharray": "4 3" }, g);
+      var lp = P(wc.angle, WILD_R + 24);
+      var anchor = Math.sin(rad(wc.angle)) > 0.4 ? "start" : (Math.sin(rad(wc.angle)) < -0.4 ? "end" : "middle");
+      wc.short.split("\n").forEach(function(line, i){
+        var t = el("text", { x: lp.x, y: lp.y + i*12*fs, "text-anchor": anchor, "font-size": 10*fs,
+                             "font-weight":600, fill: stroke }, g);
+        t.textContent = line;
+      });
+      interactive.push(g);
+    });
+    return interactive;
+  }
+  // ---- detail panels ----
+  var pinned = null;
+  function chip(cls, txt){ return '<span class="chip ' + cls + '">' + txt + '</span>'; }
+  function showSignal(sig, target){
+    var panel = target || document.getElementById("tr-panel");
+    var s = sectorOf(sig.sector), ring = ringOf(sig.ring);
+    var chips = chip("cl-" + sig.sector, s.type) + chip("heat-" + sig.heat, "Heat: " + HEAT_LABEL[sig.heat]) +
+                chip("mom-" + sig.momentum, MOM_LABEL[sig.momentum]);
+    if (sig.isNew) chips += chip("new", "New this cycle");
+    if (sig.cooled) chips += chip("cooled", "↘ cooled a stage");
+    var since = "";
+    if (sig.isNew){
+      since = '<span class="k">Since last cycle (' + PREV_LABEL + ')</span><p>Entered the register this cycle.</p>';
+    } else if (sig.prev){
+      var moves = [];
+      if (sig.prev.heat !== sig.heat) moves.push("heat " + HEAT_LABEL[sig.prev.heat] + " &rarr; " + HEAT_LABEL[sig.heat]);
+      if (sig.prev.momentum !== sig.momentum) moves.push("momentum " + MOM_LABEL[sig.prev.momentum] + " &rarr; " + MOM_LABEL[sig.momentum]);
+      if (sig.prev.ring !== sig.ring) moves.push("horizon " + ringOf(sig.prev.ring).label + " &rarr; " + ringOf(sig.ring).label);
+      if (sig.prev.wasNew) moves.push("entered the register last cycle, held its grades");
+      since = '<span class="k">Since last cycle (' + PREV_LABEL + ')</span><p>' +
+              (moves.length ? moves.join("; ") + "." : "No change: same heat, momentum and horizon.") + '</p>';
+    }
+    panel.innerHTML = '<h3>' + sig.name + '</h3><div class="meta-row">' + chips + '</div>' + since +
+      '<span class="k">Horizon</span><p>' + ring.label.replace("NOW","Now").replace("NEXT","Next").replace("LATER","Later") +
+      ' &middot; bites ' + sig.timeframe + ' &middot; maturity: ' + sig.maturity + '</p>' +
+      '<span class="k">Evidence</span><p>' + sig.evidence + ' (' + fmtSource(sig.source) + ').</p>' +
+      '<span class="k">Commentary</span><p>' + sig.commentary + '</p>';
+    panel.setAttribute("data-state", "entry");
+  }
+  function showWild(wc, target){
+    var panel = target || document.getElementById("tr-panel");
+    var risky = wc.type.indexOf("Risk") >= 0;
+    panel.innerHTML = '<h3>' + wc.name + '</h3><div class="meta-row">' +
+      chip(risky ? "wild-risk" : "wild-opp", wc.type) + chip("heat-veryhot", "Impact: " + wc.impact) + '</div>' +
+      '<span class="k">Surprise characteristics</span><p>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</p>' +
+      '<span class="k">Early warning indicators</span><p>' + wc.indicators + '</p>';
+    panel.setAttribute("data-state", "entry");
+  }
+  function showExited(ex, target){
+    var panel = target || document.getElementById("tr-panel");
+    panel.innerHTML = '<h3>' + ex.name + '</h3><div class="meta-row">' +
+      '<span class="chip" style="background:#eef1f4;color:#5a6478;">Left the register</span>' +
+      chip("heat-" + ex.prevHeat, "Was: " + HEAT_LABEL[ex.prevHeat]) + '</div>' +
+      '<span class="k">Last carried</span><p>' + PREV_LABEL + '</p>' +
+      '<span class="k">What happened</span><p>' + ex.note + '</p>';
+    panel.setAttribute("data-state", "entry");
+  }
+  function bind(nodes){
+    nodes.forEach(function(g){
+      var kind = g.getAttribute("data-kind"), idx = +g.getAttribute("data-idx");
+      var show = function(){
+        if (kind === "signal") showSignal(SIGNALS[idx]);
+        else if (kind === "wild") showWild(WILDCARDS[idx]);
+        else showExited(EXITED[idx]);
+      };
+      g.addEventListener("mouseenter", function(){ if (!pinned) show(); });
+      g.addEventListener("click", function(ev){ ev.stopPropagation(); pinned = g; show(); });
+    });
+  }
+  document.body.addEventListener("click", function(){ pinned = null; });
+  var mainSvg = document.getElementById("tr-svg");
+  bind(render(mainSvg, false));
+  // ---- expanded view ----
+  var overlay = document.getElementById("tr-overlay"), drawn = false;
+  var card = document.getElementById("tr-card");
+  var modalPinned = null;
+  function bindModal(nodes){
+    var mp = document.getElementById("tr-panel-modal");
+    nodes.forEach(function(g){
+      var kind = g.getAttribute("data-kind"), idx = +g.getAttribute("data-idx");
+      var show = function(){
+        if (kind === "signal") showSignal(SIGNALS[idx], mp);
+        else if (kind === "wild") showWild(WILDCARDS[idx], mp);
+        else showExited(EXITED[idx], mp);
+      };
+      g.addEventListener("mouseenter", function(){ if (!modalPinned) show(); });
+      g.addEventListener("click", function(ev){ ev.stopPropagation(); modalPinned = g; show(); });
+    });
+    document.querySelector(".tr-modal").addEventListener("click", function(){ modalPinned = null; });
+  }
+  function openModal(){
+    if (!drawn){
+      bindModal(render(document.getElementById("tr-svg-modal"), true)); drawn = true;
+      var mp = document.getElementById("tr-panel-modal");
+      attachHelp(mp, function(){ modalPinned = null; seedHowto(mp); });
+      seedHowto(mp);
+      document.getElementById("tr-svg-modal").addEventListener("mouseleave", function(){
+        if (!modalPinned) seedHowto(mp);
+      });
+    }
+    overlay.classList.add("open"); document.getElementById("tr-close").focus();
+  }
+  function closeModal(){ overlay.classList.remove("open"); card.focus(); }
+  card.addEventListener("click", function(ev){
+    if (ev.target === card || ev.target.closest(".tr-thumbwrap svg") === null || ev.target.tagName === "svg") openModal();
+  });
+  card.addEventListener("keydown", function(e){ if (e.key === "Enter" || e.key === " "){ e.preventDefault(); openModal(); } });
+  document.getElementById("tr-close").addEventListener("click", closeModal);
+  overlay.addEventListener("click", function(e){ if (e.target === overlay) closeModal(); });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape" && overlay.classList.contains("open")) closeModal(); });
+  // ---- how-to-read starter card (default panel state) ----
+  var HOWTO_HTML =
+    '<h3>How to read this radar</h3>' +
+    '<div class="howto-row"><div class="howto-glyph"><svg width="30" height="30" viewBox="0 0 30 30">' +
+    '<circle cx="15" cy="15" r="13" fill="none" stroke="#d6dde4" stroke-width="1.5"/>' +
+    '<circle cx="15" cy="15" r="8" fill="none" stroke="#d6dde4" stroke-width="1.5"/>' +
+    '<circle cx="15" cy="15" r="3" fill="#eaf0fb" stroke="#2f5fd0" stroke-width="1.5"/></svg></div>' +
+    '<p><strong>Rings are time.</strong> Now to 2027 &middot; Next 2027-30 &middot; Later 2030+. ' +
+    'The closer to the centre, the sooner it bites.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#fdecea;border:2px solid #d9433a;"></span> ' +
+    '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#eaf0fb;border:2px solid #2f5fd0;"></span> ' +
+    '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#e9f6ee;border:2px solid #2ea44f;"></span></div>' +
+    '<p><strong>Sectors are the cycle&rsquo;s patterns.</strong> Red = evolving risk, blue = transformation driver, ' +
+    'green = emerging opportunity, the same palette as our Futures Wheel.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:7px;height:7px;border-radius:50%;border:2px solid #5a6478;vertical-align:middle;"></span> ' +
+    '<span style="display:inline-block;width:13px;height:13px;border-radius:50%;border:2.5px solid #5a6478;vertical-align:middle;"></span></div>' +
+    '<p><strong>Size is heat.</strong> Bigger blips carry higher impact &times; likelihood in the momentum table.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph" style="font-size:15px;color:#4a5563;">&#9650;</div>' +
+    '<p><strong>Arrows are momentum.</strong> Pointing toward the centre = accelerating; outward = fading. ' +
+    'No arrow = stable.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph" style="font-size:15px;color:#ef6c00;font-weight:700;">&#8600;</div>' +
+    '<p><strong>An orange &#8600; means cooled a stage.</strong> The signal stepped down in momentum since the prior cycle, ' +
+    'for example from accelerating to stable. It sits just inside the blip.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:11px;height:11px;border-radius:50%;border:1.6px dashed #9aa7b4;"></span>&hellip;</div>' +
+    '<p><strong>Dashed ghosts are last cycle.</strong> ' + (/inaugural/.test(PREV_LABEL) ? 'This is the inaugural cycle, so no drift tails appear yet.' : 'The dotted tail shows the drift since the ' + PREV_LABEL + '.') + '</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:9px;height:9px;background:#f3e5f5;border:2px dashed #8e24aa;transform:rotate(45deg);"></span></div>' +
+    '<p><strong>Diamonds on the outer rim are wild cards</strong>, low-probability, high-impact discontinuities, ' +
+    'each with its tripwires.</p></div>' +
+    '<p style="margin-top:14px;font-size:0.92em;font-weight:600;color:#1a237e;background:#eef1f9;border:1px solid #d6dff3;border-radius:8px;padding:10px 12px;">Hover any blip for its full register entry, and click to pin it. ' +
+    'This guide returns when you move away, or press <strong>?</strong> any time.</p>';
+  function seedHowto(panel){ panel.innerHTML = HOWTO_HTML; panel.setAttribute("data-state", "howto"); }
+  function attachHelp(panel, onClick){
+    var btn = document.createElement("button");
+    btn.className = "tr-help";
+    btn.type = "button";
+    btn.setAttribute("aria-label", "How to read this radar");
+    btn.setAttribute("title", "How to read this radar");
+    btn.textContent = "?";
+    btn.addEventListener("click", function(ev){ ev.stopPropagation(); onClick(); });
+    new MutationObserver(function(){
+      if (!panel.contains(btn)) panel.appendChild(btn);
+    }).observe(panel, { childList: true });
+    panel.appendChild(btn);
+    return btn;
+  }
+  var mainPanel = document.getElementById("tr-panel");
+  // Revolving register: the default panel state cycles through the tracked
+  // signals so the space beside the radar always carries content. Hover a blip
+  // to hold it, click to pin, or press "?" for the how-to-read guide.
+  var rot = { i: 0, timer: null, overSvg: false, overPanel: false, guide: false };
+  function rotEligible(){ return !pinned && !rot.overSvg && !rot.overPanel && !rot.guide; }
+  function rotShow(){ showSignal(SIGNALS[rot.i % SIGNALS.length]); }
+  attachHelp(mainPanel, function(){ pinned = null; rot.guide = true; seedHowto(mainPanel); });
+  rotShow();
+  rot.timer = setInterval(function(){
+    if (!rotEligible()) return;
+    rot.i = (rot.i + 1) % SIGNALS.length;
+    rotShow();
+  }, 4500);
+  mainSvg.addEventListener("mouseenter", function(){ rot.overSvg = true; });
+  mainSvg.addEventListener("mouseleave", function(){ rot.overSvg = false; if (!pinned) rot.guide = false; });
+  mainPanel.addEventListener("mouseenter", function(){ rot.overPanel = true; });
+  mainPanel.addEventListener("mouseleave", function(){ rot.overPanel = false; });
+  // ---- momentum table ----
+  var tb = document.getElementById("reg-body");
+  function evCell(sig){
+    var ev = sig.evidence.replace(/\.\s*$/, "");
+    return ev + ' (' + fmtSource(sig.source) + ').';
+  }
+  SIGNALS.forEach(function(sig){
+    var s = sectorOf(sig.sector);
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><strong>' + sig.name + '</strong>' + (sig.isNew ? ' ' + chip("new","New") : '') +
+      (sig.cooled ? ' <span style="color:#ef6c00;font-weight:700;">↘</span>' : '') + '</td>' +
+      '<td>' + chip("cl-" + sig.sector, s.type) + '</td>' +
+      '<td>' + sig.timeframe + '</td>' +
+      '<td>' + chip("heat-" + sig.heat, HEAT_LABEL[sig.heat]) + '</td>' +
+      '<td>' + chip("mom-" + sig.momentum, MOM_LABEL[sig.momentum]) + '</td>' +
+      '<td>' + evCell(sig) + '</td>';
+    tb.appendChild(tr);
+  });
+  WILDCARDS.forEach(function(wc){
+    var risky = wc.type.indexOf("Risk") >= 0;
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><strong>' + wc.name + '</strong></td>' +
+      '<td>' + chip(risky ? "wild-risk" : "wild-opp", wc.type) + '</td>' +
+      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + '</td><td>&ndash;</td>' +
+      '<td>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</td>';
+    tb.appendChild(tr);
+  });
+  EXITED.forEach(function(ex){
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><strong style="color:#8a94a3;">' + ex.name + '</strong></td>' +
+      '<td><span class="chip" style="background:#eef1f4;color:#5a6478;">Left the register</span></td>' +
+      '<td>&ndash;</td><td>' + chip("heat-" + ex.prevHeat, "Was " + HEAT_LABEL[ex.prevHeat]) + '</td><td>&ndash;</td>' +
+      '<td>' + ex.note + '</td>';
+    tb.appendChild(tr);
+  });
+})();
+</script>
 </body>
 </html>

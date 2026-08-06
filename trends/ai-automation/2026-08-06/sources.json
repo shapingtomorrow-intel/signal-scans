@@ -1,0 +1,434 @@
+[
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 1,
+  "publisher": "International Energy Agency",
+  "title": "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions",
+  "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+  "publication_date": "2026-04-16",
+  "date_source": "byline",
+  "date_evidence": "Press release  \n16 April 2026",
+  "verified_at": "2026-08-06T09:14:37Z",
+  "date_age_band": "3-6m",
+  "key_claim": "Electricity demand from data centres soared by 17% in 2025, with AI-focused data centres growing even faster and far outpacing the 3% growth in global electricity demand; the capex of five large technology companies surged to more than $400 billion in 2025 and is set to rise a further 75% in 2026.",
+  "frame_summary": "The IEA argues that AI-driven data centre power demand has become a binding physical constraint that is reshaping energy markets and forcing a scramble for generation and grid solutions.",
+  "signals_supported": [
+   "ai-data-centre-power-demand",
+   "ai-capex-supercycle"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Electricity demand from data centres soared by 17% in 2025, and that of AI-focused data centres climbed even faster – well outpacing growth in global electricity demand of 3%.",
+  "verbatim_list": [
+   "the capital expenditure of five large technology companies surged to more than $400 billion in 2025 and is set to increase by a further 75% in 2026.",
+   "The pipeline of conditional offtake agreements between data centre operators and small modular reactor (SMR) nuclear projects has grown from 25 gigawatts at the end of 2024 to 45 gigawatts today"
+  ],
+  "cluster": "Light touch above, hard law below"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 2,
+  "publisher": "Tech Policy Press",
+  "title": "Where State AI Legislation Stands Half Way Into 2026",
+  "url": "https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/",
+  "publication_date": "2026-07-06",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-07-06T13:03:30.705Z",
+  "verified_at": "2026-08-06T09:21:52Z",
+  "date_age_band": "0-3m",
+  "key_claim": "As of July 1, 2026, US states have enacted 109 AI laws and 28 data center laws, with 29 states enacting AI legislation so far in 2026, even as federal preemption efforts advance.",
+  "frame_summary": "Tech Policy Press argues that state AI regulation is proliferating faster than federal preemption can contain it, while broad algorithmic discrimination protections have nearly collapsed.",
+  "signals_supported": [
+   "us-preemption-state-ai-law"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "By our count, as of July 1, states have enacted 109 AI and 28 data center laws.",
+  "verbatim_list": [
+   "So far in 2026, 29 states have enacted AI legislation.",
+   "This year has seen the near total collapse of broad algorithmic discrimination protection."
+  ],
+  "cluster": "Light touch above, hard law below"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 2,
+  "publisher": "PwC",
+  "title": "AI reshapes global labour market into two distinct paths, rewarding human skills: PwC 2026 Global AI Jobs Barometer",
+  "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html",
+  "publication_date": "2026-06-15",
+  "date_source": "meta:pubdate",
+  "date_evidence": "meta-pwcReleaseDate: 2026-06-15T05:23:00.000+01:00",
+  "verified_at": "2026-08-06T09:26:11Z",
+  "date_age_band": "0-3m",
+  "date_age_band_note": "0-3m",
+  "key_claim": "Companies in the most AI-exposed sectors recorded 34% productivity growth in 2025 relative to 2018, versus 24% for the least AI-exposed companies, and the wage premium for AI skills rose to 62% from 57% a year earlier.",
+  "frame_summary": "PwC argues that AI is already delivering measurable, real productivity and wage gains for skilled workers and AI-exposed firms, countering claims that enterprise AI returns are illusory.",
+  "signals_supported": [
+   "enterprise-value-capture-gap",
+   "ai-returns-counter-position"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Job openings for these ‘seniorised’ entry-level roles have grown 35% since 2019, while other entry-level roles shrank 10%.",
+  "verbatim_list": [
+   "the average wage premium for workers with AI skills continued to surge higher – hitting 62%, up from 57% last year.",
+   "Companies operating in the most AI-exposed sectors recorded 34% productivity growth in 2025 relative to 2018, compared to 24% for the companies least able to use AI."
+  ],
+  "cluster": "Cheaper capability, measured returns"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 3,
+  "publisher": "Forbes",
+  "title": "Central Banks Are Joining The AI Bubble Debate",
+  "url": "https://www.forbes.com/sites/ronschmelzer/2026/07/08/central-banks-are-joining-the-ai-bubble-debate/",
+  "publication_date": "2026-07-08",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published: 2026-07-08",
+  "verified_at": "2026-08-06T09:31:04Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Central banks including the ECB are formally warning about AI-related financial stability risk; ECB Banking Supervision told significant euro area banks that emerging AI models can find vulnerabilities and generate working exploits at unprecedented speed.",
+  "frame_summary": "Forbes argues that the AI bubble debate has moved from market commentary into formal central-bank risk supervision.",
+  "signals_supported": [
+   "ai-financing-bubble-repricing",
+   "frontier-ai-cyber-risk"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "ECB Banking Supervision said emerging AI models can identify vulnerabilities and generate working exploits at “unprecedented speed.”",
+  "verbatim_list": [
+   "The European Central Bank went further."
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 1,
+  "publisher": "Bank of England",
+  "title": "Financial Policy Committee Record – July 2026",
+  "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026",
+  "publication_date": "2026-07-07",
+  "date_source": "byline",
+  "date_evidence": "Published on\n 07 July 2026",
+  "verified_at": "2026-08-06T09:38:29Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The FPC judged that a re-evaluation of AI companies' earnings prospects could trigger sharp asset-price adjustments, amplified by high index concentration in AI-related equities, momentum-driven positioning and rising leverage; it also flagged rapid growth in AI companies' use of credit markets, including private credit.",
+  "frame_summary": "The Bank of England argues that AI has become a systemically important channel through which asset-price and credit-market shocks could transmit into UK financial stability.",
+  "signals_supported": [
+   "ai-financing-bubble-repricing",
+   "ai-capex-supercycle"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "The Committee noted the risk that any fall in the equity prices of AI companies in the near term – for example, if there were to be a re-evaluation of earnings prospects – would be amplified by this high index concentration in AI-related equities, momentum-driven positioning and increasing leverage.",
+  "verbatim_list": [
+   "AI-related companies’ use of credit markets has accelerated rapidly, including in public markets, private credit, leveraged and structured finance, and is set to increase further as financing needs continue to expand."
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 1,
+  "publisher": "European Systemic Risk Board",
+  "title": "Frontier AI models could strain cyber resilience in the financial system, ESRB warns",
+  "url": "https://www.esrb.europa.eu/news/pr/date/2026/html/esrb.pr260707~4e1b68241a.en.html",
+  "publication_date": "2026-07-07",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-07-07",
+  "verified_at": "2026-08-06T09:42:18Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The ESRB published a formal warning that frontier AI models are reshaping the cyber threat landscape for EU finance, after its General Board raised its systemic cyber risk assessment from 'elevated' in March to 'severe' in June 2026.",
+  "frame_summary": "The ESRB argues that frontier AI cyber capability is a near-term systemic risk to EU financial stability that requires coordinated action from providers, institutions and authorities, not just longer-term monitoring.",
+  "signals_supported": [
+   "frontier-ai-cyber-risk"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Frontier AI models are a paradigm shift for cybersecurity. Eventually, these models are likely to strengthen cyber resilience. In the short to medium term, however, they provide an advantage to threat actors, enabling them to discover vulnerabilities and execute cyberattacks with increased speed, scale and sophistication.",
+  "verbatim_list": [
+   "This warning comes after the ESRB General Board assessed systemic cyber risk as \"severe\" in June, up from \"elevated\" in March."
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 1,
+  "publisher": "Financial Stability Board",
+  "title": "Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Consultation report",
+  "url": "https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/",
+  "publication_date": "2026-06-10",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-06-10T08:00:05+00:00",
+  "verified_at": "2026-08-06T09:46:55Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The FSB proposed 12 sound practices spanning organisation-wide AI governance and the full AI lifecycle, covering generative and agentic AI risks, with consultation running to 22 July 2026 and a final report due October 2026.",
+  "frame_summary": "The FSB argues that financial institutions need practice-level guardrails now because AI's rapid evolution and adoption is outpacing existing supervisory frameworks.",
+  "signals_supported": [
+   "frontier-ai-cyber-risk",
+   "agentic-ai-pilots-to-production"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Financial institutions are leveraging AI to transform operations and services, but its rapid adoption may also amplify or introduce risks that need to be identified and managed appropriately.",
+  "verbatim_list": [
+   "the report proposes a menu of 12 sound practices that financial institutions could apply in their organisation-wide AI governance and management of the relevant stages of AI development and deployment (AI lifecycle)."
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 1,
+  "publisher": "Bank for International Settlements",
+  "title": "I. Progress and peril",
+  "url": "https://www.bis.org/publ/arpdf/ar2026e1.htm",
+  "publication_date": "2026-06-28",
+  "date_source": "meta:dc.date",
+  "date_evidence": "meta-DC.date: 2026-06-28",
+  "verified_at": "2026-08-06T09:52:07Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The BIS Annual Economic Report finds the five largest hyperscalers set to spend over $1 trillion on AI capex from 2025-2026, outpacing their earnings and free cash flow, and warns that opaque circular financing between chipmakers, hyperscalers and AI labs compounds financial-stability vulnerabilities.",
+  "frame_summary": "The BIS argues the AI investment boom has already outpaced every prior technology bubble in scale, and that competitive FOMO rather than disciplined return expectations may be driving the buildout.",
+  "signals_supported": [
+   "ai-capex-supercycle",
+   "ai-financing-bubble-repricing"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "The five largest hyperscalers are set to spend over a trillion US dollars on AI-related capital expenditure from 2025 through 2026. These commitments are outpacing earnings and the free cash flow of these firms, leading some to issue debt to raise additional financing",
+  "verbatim_list": [
+   "The most prominent is circular financing: chip makers and hyperscalers take equity stakes in AI labs or neocloud providers, who in turn commit to multi-year purchases of chips or computing power."
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 1,
+  "publisher": "European Commission",
+  "title": "Transparency obligations under Article 50 of the AI Act",
+  "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+  "publication_date": "2026-07-24",
+  "date_source": "byline",
+  "date_evidence": "Last update\n\n24 July 2026",
+  "verified_at": "2026-08-06T09:57:41Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Article 50 transparency duties for AI providers and deployers apply from 2 August 2026, with only a narrow four-month grace period (to 2 December 2026) for machine-readable marking of content already on the market before that date; fines can reach EUR 15 million or 3% of worldwide turnover.",
+  "frame_summary": "The Commission argues the AI Act's transparency and GPAI-enforcement machinery is going live on schedule even as the Digital Omnibus pushed back the higher-risk obligations, so most enterprises must have disclosure and marking controls ready now.",
+  "signals_supported": [
+   "eu-ai-act-simplification-delay"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Article 50 of the AI Act applies as from 2 August 2026. From that date onwards, providers and deployers of AI systems must comply with the transparency obligations laid down in that provision. A limited grace period is envisaged only for AI systems placed on the market before 2 August 2026 and only as regards the marking and detection obligation for AI-generated content (Article 50(2) of the AI Act).",
+  "verbatim_list": [
+   "Fines can reach up to 15 million euros or 3% of total worldwide turnover for the preceding financial year, while proportionality can be taken into account in the case of small and medium sized enterprises (SMEs) and small mid-cap companies (SMCs)."
+  ],
+  "cluster": "Light touch above, hard law below"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 2,
+  "publisher": "McKinsey & Company",
+  "title": "State of AI trust in 2026: Shifting to the agentic era",
+  "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/state-of-ai-trust-in-2026-shifting-to-the-agentic-era",
+  "publication_date": "2026-03-25",
+  "date_source": "meta:date",
+  "date_evidence": "meta-itemdate: 2026-03-25T00:00:00Z",
+  "verified_at": "2026-08-06T10:03:19Z",
+  "date_age_band": "3-6m",
+  "key_claim": "Nearly two-thirds of surveyed organizations cite security and risk concerns as the top barrier to scaling agentic AI, ahead of regulatory uncertainty; organizations investing $25 million or more in responsible-AI initiatives are far more likely to report EBIT impact above 5 percent.",
+  "frame_summary": "McKinsey argues that trust and governance maturity, not model capability, is now the binding constraint on moving agentic AI from pilots into scaled production value.",
+  "signals_supported": [
+   "agentic-ai-pilots-to-production",
+   "enterprise-value-capture-gap"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Nearly two‑thirds of respondents cite security and risk concerns as the top barrier to fully scaling agentic AI, well ahead of regulatory uncertainty or technical limitations.",
+  "verbatim_list": [
+   "Organizations investing $25 million or more into RAI initiatives report significantly higher maturity scores and are far more likely to realize material AI benefits, including EBIT impact above 5 percent."
+  ],
+  "cluster": "Cheaper capability, measured returns"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 3,
+  "publisher": "Axios",
+  "title": "Meta and Microsoft report ballooning AI expenses",
+  "url": "https://www.axios.com/2026/07/29/meta-microsoft-earnings-reports-ai",
+  "publication_date": "2026-07-29",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-07-29T20:39:54Z",
+  "verified_at": "2026-08-06T10:07:52Z",
+  "date_age_band": "0-3m",
+  "key_claim": "In Q2 2026 earnings, Meta's expenses rose 55% to $42 billion while revenue grew only 28% and net income fell 14% to $15.8 billion, while Microsoft's capex soared 70% to $41 billion even as its net income rose 31% to $35.8 billion.",
+  "frame_summary": "Axios argues that hyperscaler AI capex is now diverging in impact - straining Meta's earnings while Microsoft's cloud scale still absorbs the cost - unsettling investors who had assumed uniform payoff.",
+  "signals_supported": [
+   "ai-capex-supercycle"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Meta — which owns Facebook, Instagram and WhatsApp — recorded a 55% increase in expenses, to $42 billion, while revenue grew at a slower pace of 28%.",
+  "verbatim_list": [
+   "Consequently, the company's net income fell 14%, to $15.8 billion.",
+   "Microsoft — whose $100 billion Azure cloud business is at the center of the AI bonanza — said its capital expenditures soared 70%, to $41 billion"
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 2,
+  "publisher": "Goldman Sachs",
+  "title": "Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out",
+  "url": "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out",
+  "publication_date": "2026-05-01",
+  "date_source": "byline",
+  "date_evidence": "Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out\n\nMay 1, 2026\n\nShare",
+  "verified_at": "2026-08-06T10:12:44Z",
+  "date_age_band": "3-6m",
+  "key_claim": "Goldman Sachs Global Institute's baseline model projects $765 billion in annual AI capex in 2026 rising to $1.6 trillion by 2031, cumulative $7.6 trillion between 2026-2031, but stresses the figure is highly sensitive to assumptions like chip useful life and data-centre cost per megawatt.",
+  "frame_summary": "Goldman Sachs argues that widely cited AI capex totals are far more conditional than they appear, since a small number of infrastructure assumptions - not demand alone - determine whether the build-out lands closer to $4 trillion or $8 trillion.",
+  "signals_supported": [
+   "ai-capex-supercycle",
+   "ai-financing-bubble-repricing"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "The baseline model implies $765 billion in annual AI CapEx in 2026, growing to $1.6 trillion in annual CapEx in 2031.",
+  "verbatim_list": [
+   "Estimates of $4 trillion to $8 trillion of total capital investment over the next five years have featured prominently in recent market commentary."
+  ],
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 2,
+  "publisher": "Stanford HAI",
+  "title": "Open-Weight Models Aren't Enough. We Need Truly Open Source AI Models for Science and Society.",
+  "url": "https://hai.stanford.edu/news/open-weight-models-arent-enough-we-need-truly-open-source-ai-models-for-science-and-society",
+  "publication_date": "2026-08-04",
+  "date_source": "byline",
+  "date_evidence": "Date\n\nAugust 04, 2026",
+  "verified_at": "2026-08-06T10:17:33Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Stanford HAI reports that Chinese open-weight models (Moonshot AI's Kimi K3, Alibaba's Qwen3.8-Max) are closing the performance gap with US frontier models at lower cost, while the US Commerce Department has already forced Anthropic to take its Mythos 5 and Fable 5 models offline under an export-control order.",
+  "frame_summary": "Stanford HAI argues that open-weight availability is being mistaken for genuine openness, and that the real policy fight is shifting toward export controls on Chinese open models as the capability gap narrows.",
+  "signals_supported": [
+   "open-weight-models-closing-gap"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "Chinese open-weight models have made stunning progress in recent months, with offerings from companies like DeepSeek and Alibaba closing the performance gap with American counterparts. Stanford HAI’s own AI Index found the U.S.-China performance gap narrowing to a few percentage points last year.",
+  "verbatim_list": [
+   "forcing Anthropic to take Mythos 5 and Fable 5 fully offline under a Commerce Department export-control order."
+  ],
+  "cluster": "Cheaper capability, measured returns"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 3,
+  "publisher": "Forbes",
+  "title": "Bond Investors Push Back As AI Debt Heads Toward $570 Billion",
+  "url": "https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/",
+  "publication_date": "2026-07-17",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published: 2026-07-17",
+  "verified_at": "2026-08-06T10:21:57Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Global AI-related debt issuance is projected to hit $570 billion in 2026, with financing shifting toward private credit and off-balance-sheet vehicles; bond demand is softening as shown by declining coverage ratios for hyperscaler bonds.",
+  "frame_summary": "Forbes argues that AI financing risk is migrating from transparent public markets into opaque private credit, making a repricing harder for investors to see coming.",
+  "signals_supported": [
+   "ai-financing-bubble-repricing"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "global AI-related debt issuance projected to hit $570 billion by 2026. While not a crisis, bond demand is softening, evidenced by declining coverage ratios for hyperscaler bonds, suggesting investors may soon demand higher yields.",
+  "verbatim_list": null,
+  "cluster": "The buildout gets supervised"
+ },
+ {
+  "topic": "Artificial Intelligence and Automation",
+  "tier": 4,
+  "publisher": "24/7 Wall St.",
+  "title": "The Palantir-Nvidia Sovereign AI Deal Will Reshape Who Wins the AI Infrastructure Race",
+  "url": "https://247wallst.com/investing/2026/07/02/the-palantir-nvidia-sovereign-ai-deal-will-reshape-who-wins-the-ai-infrastructure-race/",
+  "publication_date": "2026-07-02",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-07-02T11:29:09+00:00",
+  "verified_at": "2026-08-06T10:26:08Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Palantir and Nvidia announced a sovereign AI partnership integrating Nvidia's Nemotron open-weight models into Palantir's Sovereign AI Operating System, letting government and critical-infrastructure customers own model weights outright rather than renting closed-lab APIs; the sovereign AI infrastructure market is projected to reach $177 billion by 2035.",
+  "frame_summary": "The piece argues that sovereign, self-hosted AI stacks are emerging as a distinct competitive front against closed-lab API models, driven by governments' and enterprises' unwillingness to cede data control to third parties.",
+  "signals_supported": [
+   "sovereign-compute-race",
+   "open-weight-models-closing-gap"
+  ],
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": true,
+  "original_language": "en",
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "The deal integrates Nvidia’s Nemotron open-weight models into Palantir’s Sovereign AI Operating System. Customers in U.S. government agencies and critical infrastructure gain the ability to deploy, customize, and post-train models on their own data — while keeping full ownership of the resulting model weights.",
+  "verbatim_list": [
+   "sovereign AI infrastructure could grow into a $177 billion market by 2035 at a 28% CAGR, according to Precedence Research."
+  ],
+  "cluster": "Cheaper capability, measured returns"
+ }
+]

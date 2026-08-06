@@ -1,0 +1,39 @@
+{
+  "generated": "2026-08-06T10:14:15Z",
+  "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
+  "latest": {
+    "signal_scan": {
+      "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
+      "date": "2026-08-05",
+      "topic": "Geopolitics & Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
+      "posture": "Prepare",
+      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-05-earn-down-tariff-rebuild/scan.html"
+    },
+    "change_tracker": {
+      "title": "Beijing's enforcement hardens; Washington opens a demand-side front",
+      "date": "2026-07-24",
+      "topic": "Supply Chains and Critical Minerals",
+      "topic_slug": "supply-chains-critical-minerals",
+      "posture": "",
+      "url": "https://decision-intel.shapingtomorrow.com/trends/supply-chains-critical-minerals/2026-07-24/tracker.html"
+    },
+    "decision_intelligence": {
+      "title": "The Summer Medicine Chose Sides",
+      "date": "2026-08-06",
+      "topic": "Health, Life Sciences & Care Systems",
+      "topic_slug": "health-life-sciences-care-systems",
+      "posture": "",
+      "company": "Sample: Health, Life Sciences and Care Systems",
+      "url": "https://decision-intel.shapingtomorrow.com/si/sample-health-life-sciences/"
+    },
+    "action_triggers": {
+      "title": "The Cure Was the Decoy",
+      "date": "2026-08-07",
+      "topic": "Health, Life Sciences & Care Systems",
+      "topic_slug": "health-life-sciences-care-systems",
+      "posture": "",
+      "url": "https://decision-intel.shapingtomorrow.com/si/sample-health-life-sciences-cross-cutter-2026-08-07/"
+    }
+  }
+}

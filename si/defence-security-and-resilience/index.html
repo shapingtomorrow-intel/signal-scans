@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Change Tracker: Defence, Security and Resilience, 07 August 2026</title>
+<meta name="description" content="NATO's Ankara summit committed more than 40 billion dollars to counter-drone defence and Brussels put five joint industrial projects before the Council, yet European budget growth halved this year and Germany's volunteer recruitment drive returned 530 people.">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 1200px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; background: #fff; }
+  a { color: #1565c0; text-decoration: none; } a:hover { text-decoration: underline; }
+  h2 { color: #1a237e; font-size: 1.55em; margin-top: 0; }
+  h3 { color: #1a237e; margin-top: 1.6em; font-size: 1.18em; }
+  p { margin: 1em 0; }
+  .prose { max-width: 920px; }
+  .tracker-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 14px; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0; flex: 1 1 auto; }
+  .tracker-logo { width: 220px; height: auto; flex: 0 0 auto; }
+  @media (max-width: 640px) { .tracker-header { flex-direction: column; } .tracker-logo { width: 160px; } }
+  .seo-line { color: #5a6478; font-style: italic; font-size: 0.96em; margin-top: -8px; margin-bottom: 18px; }
+  .series-continuity { display: block; font-size: 0.9em; color: #5a6478; margin-bottom: 4px; }
+  .small { font-size: 0.88em; color: #555; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
+  /* ---- Trend Radar section ---- */
+  .dist-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 18px; align-items: center; font-size: 0.9em; }
+  .dist-row .label { font-size: 0.8em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #5a6478; }
+  .dist-pill { display: inline-block; padding: 3px 12px; border-radius: 14px; font-weight: 700; font-size: 0.9em; }
+  .dist-pill.acc { background: #fdecea; color: #b02a22; border: 1px solid #f0c7c3; }
+  .dist-pill.sta { background: #eef1f4; color: #4a5568; border: 1px solid #dde3e9; }
+  .dist-pill.fad { background: #e8f5e9; color: #1b5e20; border: 1px solid #cde6cf; }
+  .tr-layout { display: flex; gap: 18px; align-items: stretch; flex-wrap: wrap; }
+  .tr-card { flex: 1 1 620px; box-sizing: border-box; border: 1px solid #e3e8ee; border-radius: 12px; padding: 12px;
+             background: #fff; position: relative; overflow: hidden; display: flex; flex-direction: column;
+             transition: box-shadow .15s; }
+  .tr-card:hover { box-shadow: 0 6px 20px rgba(20,40,70,.12); }
+  .tr-legend { flex: 0 0 auto; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 11.5px;
+               color: #5a6478; margin: 0 0 6px; line-height: 1.3; }
+  .tr-legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 50%; vertical-align: middle; margin-right: 4px; box-sizing: border-box; }
+  .tr-legend .sw.wild { border-radius: 2px; transform: rotate(45deg); width: 9px; height: 9px; }
+  .tr-legend .heat-dot { display: inline-block; border-radius: 50%; background: #9aa4b0; vertical-align: middle; margin: 0 1px; }
+  .tr-thumbwrap { flex: 1 1 auto; position: relative; width: 100%; min-height: 0; }
+  .tr-thumbwrap svg { width: 100%; height: auto; display: block; }
+  .tr-expand { position: absolute; right: 10px; bottom: 10px; background: rgba(15,46,92,.82); color: #fff; font-size: 11px;
+               font-weight: 600; padding: 3px 10px; border-radius: 20px; pointer-events: none; }
+  .tr-panel { flex: 1 1 300px; min-width: 280px; max-width: 420px; border: 1px solid #e3e8ee; border-radius: 12px;
+              padding: 18px 20px; box-sizing: border-box; background: #fbfbfc; position: relative; }
+  .tr-panel .hint { color: #8a94a3; font-size: 0.92em; font-style: italic; }
+  .tr-panel h3 { margin: 0 0 6px; color: #1a237e; font-size: 1.05em; line-height: 1.3; }
+  .tr-panel .meta-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 10px; }
+  .tr-panel p { margin: 8px 0; font-size: 0.93em; }
+  .tr-panel .k { font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; display: block; margin-top: 12px; }
+  .chip { display: inline-block; padding: 2px 9px; border-radius: 12px; font-size: 0.72em; font-weight: 700;
+          letter-spacing: 0.04em; text-transform: uppercase; }
+  .chip.heat-cool { background: #e8f5e9; color: #1b5e20; } .chip.heat-moderate { background: #fff3e0; color: #e65100; }
+  .chip.heat-hot { background: #ffe7d6; color: #c1440e; } .chip.heat-veryhot { background: #ffebee; color: #b71c1c; }
+  .chip.mom-accelerating { background: #fdecea; color: #b02a22; }
+  .chip.mom-stable { background: #eef1f4; color: #4a5568; }
+  .chip.mom-fading { background: #e8f5e9; color: #1b5e20; }
+  .chip.cl-risk { background: #fdecea; color: #b02a22; } .chip.cl-transformation { background: #eaf0fb; color: #2f5fd0; }
+  .chip.cl-opportunity { background: #e9f6ee; color: #1e7e3e; }
+  .chip.new { background: #e8eaf6; color: #1a237e; }
+  .chip.wild-risk { background: #f3e5f5; color: #6a1b9a; } .chip.wild-opp { background: #e0f2f1; color: #00695c; }
+  .chip.cooled { background: #fff3e0; color: #ef6c00; }
+  .tr-overlay { position: fixed; inset: 0; background: rgba(15,23,35,.62); display: none; align-items: center;
+                justify-content: center; z-index: 9999; padding: 18px; }
+  .tr-overlay.open { display: flex; }
+  .tr-modal { background: #fff; border-radius: 14px; padding: 14px 16px 16px; width: min(98vw, 1680px);
+              max-height: 97vh; overflow: auto; box-shadow: 0 24px 70px rgba(0,0,0,.35); position: relative; }
+  .tr-close { position: absolute; top: 10px; right: 12px; border: none; background: #eef1f4; color: #33414f;
+              width: 32px; height: 32px; border-radius: 8px; font-size: 17px; cursor: pointer; line-height: 1; }
+  .tr-close:hover { background: #e0e5ea; }
+  .tr-modal .eyebrow { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #8a94a3; font-weight: 700; margin: 2px 0 2px; }
+  .tr-modal .mtitle { font-size: 16px; font-weight: 700; margin: 0 0 8px; color: #1a2530; }
+  .tr-modal-flex { display: flex; gap: 16px; align-items: stretch; flex-wrap: wrap; }
+  .tr-modal-flex svg { flex: 1 1 940px; min-width: 0; width: auto; height: auto; display: block; }
+  .tr-panel.in-modal { flex: 1 1 260px; min-width: 250px; max-width: 320px; align-self: stretch; overflow-y: auto; max-height: 84vh; }
+  @media (max-width: 900px) { .tr-panel.in-modal { max-width: none; } }
+  .tr-help { position: absolute; top: 10px; right: 10px; width: 26px; height: 26px; border-radius: 50%;
+             border: 1.5px solid #1a237e; background: #fff; color: #1a237e; font-weight: 700; font-size: 14px;
+             cursor: pointer; line-height: 1; z-index: 2; }
+  .tr-help:hover { background: #eef1f9; }
+  .tr-panel[data-state="howto"] .tr-help { display: none; }
+  .howto-row { display: flex; gap: 10px; align-items: flex-start; margin: 10px 0; }
+  .howto-glyph { flex: 0 0 34px; text-align: center; padding-top: 1px; }
+  .howto-row p { margin: 0; font-size: 0.88em; line-height: 1.45; }
+  /* ---- Momentum table ---- */
+  .reg-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 14px 0; }
+  .reg-table th { background: #e9ecef; color: #1a237e; padding: 8px 10px; text-align: left; border-bottom: 2px solid #c5cae9; font-weight: 600; }
+  .reg-table td { padding: 9px 10px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  /* ---- Pattern narrative clusters ---- */
+  .cluster { display: block; margin: 18px 0; padding: 14px 18px; border-radius: 8px; background: #fff;
+             border: 1px solid #eef0f3; border-left: 5px solid #1a237e; max-width: 920px; }
+  .cluster.opportunity { border-left-color: #43a047; }
+  .cluster.risk { border-left-color: #c62828; }
+  .cluster.transformation { border-left-color: #1a237e; }
+  .cluster h4 { margin: 0 0 6px; color: #1a237e; font-size: 1.02em; }
+  .cluster .cluster-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700;
+                           letter-spacing: 0.04em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .cluster.opportunity .cluster-type { background: #e8f5e9; color: #1b5e20; }
+  .cluster.risk .cluster-type { background: #ffebee; color: #b71c1c; }
+  .cluster.transformation .cluster-type { background: #e8eaf6; color: #1a237e; }
+  .cluster p { margin: 6px 0 0; font-size: 0.95em; }
+  .gaining-momentum { background: #f8f9fa; padding: 14px 18px; border-radius: 8px; border-left: 4px solid #c62828;
+                      margin: 18px 0; max-width: 920px; }
+  .gaining-momentum h3 { margin-top: 0; }
+  .gaining-momentum ol { margin: 0.6em 0 0; padding-left: 22px; }
+  .gaining-momentum li { margin-bottom: 8px; font-size: 0.95em; }
+  .gaining-momentum li strong { color: #1a237e; }
+  /* ---- Wild cards ---- */
+  .wild-card { padding: 14px 18px; border-radius: 8px; margin: 14px 0; background: #fff; border: 1px solid #eef0f3;
+               border-left: 5px solid #00897b; max-width: 920px; }
+  .wild-card.risk { border-left-color: #8e24aa; }
+  .wild-card.opportunity { border-left-color: #00897b; }
+  .wild-card h4 { margin: 0 0 6px; color: #1a237e; }
+  .wild-card .wc-meta { margin: 4px 0 8px; font-size: 0.88em; }
+  .wild-card .wc-label { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72em; font-weight: 700;
+                         letter-spacing: 0.04em; text-transform: uppercase; margin-right: 8px; color: #fff; }
+  .wild-card.risk .wc-label { background: #8e24aa; }
+  .wild-card.opportunity .wc-label { background: #00897b; }
+  .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  /* ---- Implications ---- */
+  .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0;
+                  border-left: 4px solid #1a237e; max-width: 920px; }
+  .implications h3 { margin-top: 0; color: #1a237e; }
+  /* ---- Bibliography ---- */
+  .tier-1 { color: #2e7d32; font-weight: 700; font-size: 0.85em; }
+  .tier-2 { color: #1565c0; font-weight: 700; font-size: 0.85em; }
+  .tier-3 { color: #f57c00; font-weight: 700; font-size: 0.85em; }
+  .tier-4 { color: #c62828; font-weight: 700; font-size: 0.85em; }
+  ul.bib { margin: 1em 0; padding-left: 24px; max-width: 920px; }
+  ul.bib li { margin-bottom: 8px; }
+  /* ---- Programme footer ---- */
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px;
+                      margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600;
+                                     text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 16px; }
+    .tr-expand, .tr-overlay, .tr-help { display: none !important; }
+    .tr-card, .tr-panel, .reg-table tr, .cluster, .wild-card, .implications, .gaining-momentum { break-inside: avoid; page-break-inside: avoid; }
+    h2, h3 { break-after: avoid; page-break-after: avoid; }
+    .tr-layout { display: block; }
+    .tr-panel { margin-top: 14px; max-width: none; }
+    .reg-table thead { display: table-header-group; }
+  }
+</style>
+</head>
+<body>
+<header class="tracker-header">
+<div class="masthead">Change Tracker &middot; Defence, Security and Resilience &middot; 07 August 2026</div>
+<a href="https://www.shapingtomorrow.com" target="_blank" rel="noopener"><img class="tracker-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow"></a>
+</header>
+<article>
+<h2>Counter-drone billions land at Ankara as the spending curve flattens</h2>
+<p class="seo-line">NATO's Ankara summit committed more than 40 billion dollars to counter-drone defence and Brussels put five joint industrial projects before the Council, yet European budget growth halved this year and Germany's volunteer recruitment drive returned 530 people.</p>
+<p class="series-continuity">Edition 3. Previous cycle: &ldquo;Drones and capital accelerate; Washington&rsquo;s guarantee thins further&rdquo; (July 2026).</p>
+<div class="prose">
+<p>The consensus read on European defence is a straight line upward: more money, more
+programmes, more capability. This cycle the line bends. Ankara attached over 40 billion
+dollars to counter-drone defence over five years, and the Commission put five joint industrial
+projects into the Council's hands. The aggregate budget picture cooled at the same time:
+European allies and Canada are set to raise defence budgets by 2.1 percent this year against
+4.6 percent last (<a href="https://icds.ee/en/defence-spending-who-is-doing-what-july-2026/" target="_blank">International Centre for Defence and Security</a>, July 2026).
+Rearmament, Accelerating last cycle, reads Stable here. The binding constraint has moved with it.
+Germany's new volunteer scheme returned 530 commitments from almost 300,000 questionnaires, which
+puts people rather than procurement at the front of the queue.</p>
+</div>
+<h3>Trend Radar</h3>
+<p class="prose" style="margin-top:4px;">The momentum register mapped onto the horizon: ring = when a trend bites, sector = the cycle's pattern cluster, blip size = heat, arrows = momentum, dashed ghosts and tails = drift since the prior cycle. Hover any blip for its full entry; expand for the reading view.</p>
+<div class="dist-row">
+<span class="label">Momentum this cycle</span>
+<span class="dist-pill acc">6 Accelerating</span>
+<span class="dist-pill sta">2 Stable</span>
+<span class="dist-pill fad">1 Fading</span>
+<span class="small" style="color:#5a6478;">&middot; 1 new to the register &middot; 2 cooled a direction &middot; 1 advanced a stage</span>
+</div>
+<div class="tr-layout">
+  <div class="tr-card" id="tr-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Trend Radar enlarged">
+    <div class="tr-legend" aria-hidden="true">
+      <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>evolving risk</span>
+      <span><span class="sw" style="background:#eaf0fb;border:2px solid #2f5fd0;"></span>transformation driver</span>
+      <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>emerging opportunity</span>
+      <span><span class="sw wild" style="background:#f3e5f5;border:2px dashed #8e24aa;"></span>wild card</span>
+      <span style="opacity:.85">heat:</span>
+      <span><span class="heat-dot" style="width:6px;height:6px;"></span><span class="heat-dot" style="width:9px;height:9px;"></span><span class="heat-dot" style="width:12px;height:12px;"></span> cool &rarr; very hot</span>
+      <span>&#9650; toward centre = accelerating &middot; &#9661; outward = fading</span>
+      <span><span class="sw" style="background:transparent;border:1.6px dashed #9aa7b4;"></span>drift tail = last cycle&rsquo;s state</span>
+      <span><span class="sw" style="background:#eef1f4;border:1.6px dashed #8a94a3;"></span>&#10005; left the register</span>
+    </div>
+    <div class="tr-thumbwrap">
+      <svg id="tr-svg" role="img" aria-label="Trend Radar: tracked trends and wild cards positioned by time-horizon ring, grouped in cluster sectors, sized by heat, with momentum arrows and drift tails."></svg>
+      <span class="tr-expand">&#10530; Expand</span>
+    </div>
+  </div>
+  <aside class="tr-panel" id="tr-panel" aria-live="polite"></aside>
+</div>
+<div class="tr-overlay" id="tr-overlay" role="dialog" aria-modal="true" aria-label="Trend Radar, enlarged">
+  <div class="tr-modal">
+    <button class="tr-close" id="tr-close" aria-label="Close">&times;</button>
+    <p class="eyebrow">Trend Radar</p>
+    <p class="mtitle">Defence, Security and Resilience &middot; 07 August 2026</p>
+    <div class="tr-modal-flex">
+      <svg id="tr-svg-modal" role="img" aria-label="Enlarged Trend Radar"></svg>
+      <aside class="tr-panel in-modal" id="tr-panel-modal" aria-live="polite"></aside>
+    </div>
+  </div>
+</div>
+<h3>Momentum across the topic</h3>
+<table class="reg-table">
+<thead><tr><th>Trend</th><th>Cluster</th><th>Horizon</th><th>Heat</th><th>Momentum</th><th>Evidence</th></tr></thead>
+<tbody id="reg-body"></tbody>
+</table>
+<p class="small">Ring = when the trend bites (Now, Next, Later), sector = pattern cluster, blip size and stroke = heat (impact &times; likelihood), arrows = momentum direction this cycle. Wild cards sit on the dashed outer rim. <strong>Drift tails</strong> show movement against the prior cycle's register: a dashed ghost is the trend&rsquo;s previous state and the dotted tail leads to where it sits now; a grey crossed ghost marks a trend carried last cycle but absent from this one. Trends with no tail held their grades.</p>
+<h3>Pattern narrative</h3>
+<div class="cluster risk">
+<h4>The grey-zone front widens<span class="cluster-type">Evolving Risk</span></h4>
+<p>Three signals now move together. NATO will run a marketplace of tested and
+compatible counter-drone systems (<a href="https://www.nato.int/en/news-and-events/articles/news/2026/07/07/nato-allies-invest-40-billion-dollars-in-counter-drone-capabilities-and-drone-training" target="_blank">NATO</a>, July 2026), the Commission's
+proposed projects cover both drone work and maritime and seabed defence
+(<a href="https://defence-industry-space.ec.europa.eu/commission-proposes-five-joint-defence-projects-strengthen-europes-industrial-capabilities-2026-07-03_en" target="_blank">European Commission</a>, July 2026), and Critical Entities Resilience designations
+issued from 17 July across eleven sectors turn resilience guidance into dated obligation.
+Protection now has budget lines and deadlines. Whether it is aimed at the right target is
+contested, and that is the more useful reading of this cluster: CEPA puts the chokepoint onshore
+at landing stations rather than on the seabed
+(<a href="https://cepa.org/article/cable-danger-look-beyond-the-sea-to-the-shore/" target="_blank">Center for European Policy Analysis</a>, May 2026), quarterly vessel tracking finds
+most cable-adjacent activity is accidental trawling
+(<a href="https://windward.ai/knowledge-base/q2-2026-tso-submarine-cables-risk-report/" target="_blank">Windward</a>, August 2026), and the judgement on the Baltic is that patrols and
+post-incident seizures fall short of deterrence
+(<a href="https://thebulletin.org/2026/02/seabed-zero-baltic-sabotage-and-the-global-risks-to-undersea-infrastructure/" target="_blank">Bulletin of the Atomic Scientists</a>, February 2026). Carnegie's reading is
+that Russian economic strain makes cheap hybrid pressure more likely, not less, and that Europe
+still lacks the standing instruments to answer it
+(<a href="https://carnegieendowment.org/europe/strategic-europe/2026/07/why-russia-could-escalate-hybrid-warfare-against-europe" target="_blank">Carnegie Endowment for International Peace</a>, July 2026).</p>
+</div>
+<div class="cluster transformation">
+<h4>Europe's forced strategic autonomy<span class="cluster-type">Transformation Driver</span></h4>
+<p>The Pentagon opened its Europe posture review on 28 July with a
+six-month clock, a rotational brigade mission in Romania ending in October and 5,000 troops
+leaving Germany (<a href="https://www.stripes.com/theaters/europe/2026-07-28/pentagon-europe-force-posture-review-22386853.html" target="_blank">Stars and Stripes</a>, July 2026), though no posture decisions
+have been published (<a href="https://www.militarytimes.com/news/pentagon-congress/2026/07/29/pentagon-has-kicked-off-review-of-us-force-posture-in-europe/" target="_blank">Military Times</a>, July 2026). Europe is being asked to
+absorb that as its own budget growth slows and its recruitment machinery fails. Taken together,
+the sources suggest the gap that matters over the next two years is human rather than fiscal:
+budgets can be voted in a season, soldiers cannot.</p>
+</div>
+<div class="cluster opportunity">
+<h4>Capital and industry mobilise against the clock<span class="cluster-type">Emerging Opportunity</span></h4>
+<p>Brussels moved from programme design to project selection: five European
+Defence Projects of Common Interest, an average of 18 member states in each, and Ukraine in four
+of the five (<a href="https://defence-industry-space.ec.europa.eu/commission-proposes-five-joint-defence-projects-strengthen-europes-industrial-capabilities-2026-07-03_en" target="_blank">European Commission</a>, July 2026). The EU and Ukraine signed a defence
+industrial partnership on 15 July, with a further billion euro disbursed for drone procurement
+and joint production targeted by the end of 2026
+(<a href="https://euneighbourseast.eu/news/latest-news/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-e1-billion-for-drones/" target="_blank">EU Neighbours East</a>, July 2026). Private capital produced no matching inflection:
+the record still rests on 2025's 8.7 billion dollars
+(<a href="https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026" target="_blank">Vestbee</a>, April 2026).</p>
+</div>
+<div class="gaining-momentum">
+<h3>Signals gaining momentum</h3>
+<ol>
+<li><strong>Counter-drone defence and airspace incursions.</strong> A funded
+marketplace turns procurement into a catalogue exercise, and the decision point arrives when
+national air-defence budgets have to choose between it and legacy programmes.</li>
+<li><strong>Hybrid threats, sabotage and resilience rules.</strong> Designation letters across
+eleven sectors start a ten-month compliance clock that reaches operators who have never carried a
+security obligation.</li>
+<li><strong>Critical undersea infrastructure protection.</strong> A named EU maritime and seabed
+project replaces patrols as the anchor, and the landward reframing would move the money again if
+adopted.</li>
+<li><strong>Ukrainian drone innovation scaling into Europe.</strong> Joint ventures reaching
+production before December would place battlefield-iterated designs inside European supply
+chains.</li>
+</ol>
+</div>
+<h3>Wild Cards to Watch</h3>
+<div class="wild-card risk">
+<h4>An airspace incursion crosses the casualty threshold</h4>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p><strong>Surprise characteristics:</strong> A drone or an interceptor fragment kills civilians inside NATO territory before attribution is settled.</p>
+<p><strong>Early warning indicators:</strong> Incursion frequency on the eastern flank; changes to national air-policing rules of engagement; any Article 4 consultation.</p>
+<p>Carnegie's assessment is that a forced political decision under contested attribution is the outcome Moscow would seek (<a href="https://carnegieendowment.org/europe/strategic-europe/2026/07/why-russia-could-escalate-hybrid-warfare-against-europe" target="_blank">Carnegie Endowment for International Peace</a>, July 2026). The counter-drone money reduces the technical exposure; it does nothing to shorten the attribution clock.</p>
+</div>
+<div class="wild-card risk">
+<h4>The target is the landing station, not the seabed</h4>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p><strong>Surprise characteristics:</strong> Connectivity is taken down onshore, where multiple cable systems converge, rather than by cutting cable at sea.</p>
+<p><strong>Early warning indicators:</strong> National physical-security standards for landing stations; insurer appetite; designation of digital infrastructure operators under the resilience rules.</p>
+<p>At least 11 undersea cables and pipelines have been damaged in the Baltic since late 2023 without systemic outage, because traffic reroutes (<a href="https://cepa.org/article/cable-danger-look-beyond-the-sea-to-the-shore/" target="_blank">Center for European Policy Analysis</a>, May 2026). Those cables carry more than four fifths of US military communications (<a href="https://thebulletin.org/2026/02/seabed-zero-baltic-sabotage-and-the-global-risks-to-undersea-infrastructure/" target="_blank">Bulletin of the Atomic Scientists</a>, February 2026), and quarterly tracking finds state-of-concern vessel activity near cables falling sharply while trawler incidents rise (<a href="https://windward.ai/knowledge-base/q2-2026-tso-submarine-cables-risk-report/" target="_blank">Windward</a>, August 2026).</p>
+</div>
+<div class="wild-card opportunity">
+<h4>Ukraine becomes Europe's drone export engine</h4>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p><strong>Surprise characteristics:</strong> A wartime economy becomes a net supplier of drone designs to the continent rather than an aid recipient.</p>
+<p><strong>Early warning indicators:</strong> Joint-venture production starting before December; the September Brussels meeting of the drone alliance; European orders placed against Ukrainian designs.</p>
+<p>The July partnership targets joint drone and counter-drone production with member states by the end of 2026, and joint anti-ballistic missile work by 2028 (<a href="https://euneighbourseast.eu/news/latest-news/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-e1-billion-for-drones/" target="_blank">EU Neighbours East</a>, July 2026).</p>
+</div>
+<div class="implications">
+<h3>Implications</h3>
+<p>Three things are worth watching before the next cycle. The Council's
+deliberation on the five projects of common interest will show whether 325 million euro of seed
+funding converts into the long-run ambition attached to it, or stalls at proposal stage. The
+Pentagon's review reports inside six months and will set European force-planning assumptions for
+2027, so contingency work against a deeper drawdown warrants preparation now rather than on
+publication. The manpower question is the genuine decision point: Germany has until next summer
+to judge whether a voluntary scheme can deliver, and that judgement will shape recruitment policy
+well beyond Berlin (<a href="https://brusselssignal.eu/2026/06/german-army-only-recruits-530-people-after-asking-300000/" target="_blank">Brussels Signal</a>, June 2026).</p>
+</div>
+<h3>Bibliography</h3>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<ul class="bib">
+<li><span class="tier-1">Tier 1</span> Commission proposes five joint defence projects to strengthen Europe's industrial capabilities. <a href="https://defence-industry-space.ec.europa.eu/commission-proposes-five-joint-defence-projects-strengthen-europes-industrial-capabilities-2026-07-03_en" target="_blank">European Commission</a> (03/07/2026).</li>
+<li><span class="tier-1">Tier 1</span> NATO Allies invest 40 billion dollars in counter-drone capabilities and drone training. <a href="https://www.nato.int/en/news-and-events/articles/news/2026/07/07/nato-allies-invest-40-billion-dollars-in-counter-drone-capabilities-and-drone-training" target="_blank">NATO</a> (07/07/2026).</li>
+<li><span class="tier-1">Tier 1</span> Secretary General on the Ankara Summit: NATO delivers. <a href="https://nato.int/en/news-and-events/articles/news/2026/07/08/secretary-general-on-the-ankara-summit-nato-delivers" target="_blank">NATO</a> (08/07/2026).</li>
+<li><span class="tier-1">Tier 1</span> EU launches Ukraine defence industrial partnership, Drone Deal and disburses €1 billion for drones. <a href="https://euneighbourseast.eu/news/latest-news/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-e1-billion-for-drones/" target="_blank">EU Neighbours East</a> (16/07/2026).</li>
+<li><span class="tier-2">Tier 2</span> Cable Danger: Look Beyond the Sea to the Shore. <a href="https://cepa.org/article/cable-danger-look-beyond-the-sea-to-the-shore/" target="_blank">Center for European Policy Analysis</a> (18/05/2026).</li>
+<li><span class="tier-2">Tier 2</span> What Does NATO Defense Spending Look Like Heading into the Ankara Summit?. <a href="https://www.csis.org/analysis/what-does-nato-defense-spending-look-heading-ankara-summit" target="_blank">Center for Strategic and International Studies</a> (06/07/2026).</li>
+<li><span class="tier-2">Tier 2</span> Eleven takeaways from the NATO Summit in Ankara. <a href="https://www.atlanticcouncil.org/dispatches/eleven-takeaways-from-the-nato-summit-in-ankara/" target="_blank">Atlantic Council</a> (09/07/2026).</li>
+<li><span class="tier-2">Tier 2</span> Defence Spending: Who Is Doing What? July 2026. <a href="https://icds.ee/en/defence-spending-who-is-doing-what-july-2026/" target="_blank">International Centre for Defence and Security</a> (09/07/2026).</li>
+<li><span class="tier-2">Tier 2</span> Why Russia Could Escalate Hybrid Warfare Against Europe. <a href="https://carnegieendowment.org/europe/strategic-europe/2026/07/why-russia-could-escalate-hybrid-warfare-against-europe" target="_blank">Carnegie Endowment for International Peace</a> (21/07/2026).</li>
+<li><span class="tier-3">Tier 3</span> Seabed zero: Baltic sabotage and the global risks to undersea infrastructure. <a href="https://thebulletin.org/2026/02/seabed-zero-baltic-sabotage-and-the-global-risks-to-undersea-infrastructure/" target="_blank">Bulletin of the Atomic Scientists</a> (13/02/2026).</li>
+<li><span class="tier-3">Tier 3</span> Europe's defence and resilience startups hit $8.7B in 2025. Here are top deals so far in 2026. <a href="https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026" target="_blank">Vestbee</a> (15/04/2026).</li>
+<li><span class="tier-3">Tier 3</span> German army only recruits 530 people after asking 300,000. <a href="https://brusselssignal.eu/2026/06/german-army-only-recruits-530-people-after-asking-300000/" target="_blank">Brussels Signal</a> (26/06/2026).</li>
+<li><span class="tier-3">Tier 3</span> Pentagon launches review that could reshape US military presence in Europe. <a href="https://www.stripes.com/theaters/europe/2026-07-28/pentagon-europe-force-posture-review-22386853.html" target="_blank">Stars and Stripes</a> (28/07/2026).</li>
+<li><span class="tier-3">Tier 3</span> Pentagon has 'kicked off' review of US force posture in Europe. <a href="https://www.militarytimes.com/news/pentagon-congress/2026/07/29/pentagon-has-kicked-off-review-of-us-force-posture-in-europe/" target="_blank">Military Times</a> (29/07/2026).</li>
+<li><span class="tier-4">Tier 4</span> Q2 2026 TSO Submarine Cables Risk Report: Threats, Trends, CER. <a href="https://windward.ai/knowledge-base/q2-2026-tso-submarine-cables-risk-report/" target="_blank">Windward</a> (03/08/2026).</li>
+</ul>
+</article>
+<div class="programme-footer">
+<p>This Change Tracker is one component of a Shaping Tomorrow intelligence cycle on <strong>Defence, Security and Resilience</strong>. Every monitored topic also includes weekly Signal Scans on emerging developments and weak signals, and a quarterly Decision Intelligence briefing that converts the cycle into board-level strategic implications. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across the three formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a>
+</div>
+</div>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 07 August 2026</p>
+<script>
+(function(){
+  // === RADAR_DATA_START =====================================================
+  var TOPIC_SHORT = "Defence\n& Resilience";
+  var PREV_LABEL = "3 July 2026 cycle";
+  var RINGS = [
+    { key: "now",   label: "NOW (TO 2027)",   r: 128 },
+    { key: "next",  label: "NEXT (2027-29)",  r: 218 },
+    { key: "later", label: "LATER (2029+)",   r: 300 }
+  ];
+  var WILD_R = 352;
+  var BOUNDS = [170, 260, 322];
+  var SECTORS = [
+    { key:"risk", name:"The grey-zone\nfront widens", type:"Evolving Risk",
+      a0:25, a1:145, fill:"#fdecea", stroke:"#d9433a", tint:"rgba(217,67,58,0.045)" },
+    { key:"transformation", name:"Europe's forced\nstrategic autonomy", type:"Transformation Driver",
+      a0:145, a1:250, fill:"#eaf0fb", stroke:"#2f5fd0", tint:"rgba(47,95,208,0.045)" },
+    { key:"opportunity", name:"Capital and industry\nagainst the clock", type:"Emerging Opportunity",
+      a0:250, a1:336, fill:"#e9f6ee", stroke:"#2ea44f", tint:"rgba(46,164,79,0.055)" }
+  ];
+  var HEAT_R = { cool:7, moderate:9.5, hot:12.5, veryhot:15 };
+  var SIGNALS = [
+    { name:"Counter-drone defence and airspace incursions", short:"Counter-drone\ndefence", sector:"risk", ring:"now", angle:40,
+      heat:"veryhot", maturity:"Maturing", timeframe:"2026-2030", momentum:"accelerating",
+      evidence:"NATO committed over 40 billion dollars to counter-drone capability across five years at Ankara and will run a marketplace of tested and compatible systems; all three supporting sources within 35 days",
+      commentary:"Counter-drone moved from national improvisation to a funded alliance programme with a procurement channel attached.",
+      source:{label:"NATO", date:"July 2026", url:"https://www.nato.int/en/news-and-events/articles/news/2026/07/07/nato-allies-invest-40-billion-dollars-in-counter-drone-capabilities-and-drone-training"} },
+    { name:"Critical undersea infrastructure protection", short:"Undersea\ninfrastructure", sector:"risk", ring:"now", angle:78,
+      heat:"hot", maturity:"Emerging", timeframe:"2026-2030", momentum:"accelerating",
+      prev:{heat:"hot", momentum:"stable", ring:"now"},
+      evidence:"Maritime and seabed defence named as one of five EU projects of common interest, set against 11 Baltic cable and pipeline damage events since late 2023; newest supporting source 3 July",
+      commentary:"Direction reverses from Stable: the seabed now has a named EU project behind it rather than patrols alone.",
+      source:{label:"European Commission", date:"July 2026", url:"https://defence-industry-space.ec.europa.eu/commission-proposes-five-joint-defence-projects-strengthen-europes-industrial-capabilities-2026-07-03_en"} },
+    { name:"Hybrid threats, sabotage and resilience rules", short:"Hybrid threats\nand resilience rules", sector:"risk", ring:"next", angle:116,
+      heat:"hot", maturity:"Maturing", timeframe:"2026-2029", momentum:"accelerating",
+      prev:{heat:"hot", momentum:"accelerating", ring:"next"},
+      evidence:"Critical Entities Resilience designations issued from 17 July across eleven sectors with a ten-month compliance clock, against a fourfold rise in Russian sabotage operations since 2024; newest supporting source late July",
+      commentary:"Maturity advances a stage: designation letters convert resilience guidance into a dated obligation.",
+      source:{label:"Carnegie Endowment for International Peace", date:"July 2026", url:"https://carnegieendowment.org/europe/strategic-europe/2026/07/why-russia-could-escalate-hybrid-warfare-against-europe"} },
+    { name:"NATO 5% target and European rearmament", short:"NATO 5% target\nand rearmament", sector:"transformation", ring:"now", angle:162,
+      heat:"veryhot", maturity:"Maturing", timeframe:"2026-2035", momentum:"stable", cooled:true,
+      prev:{heat:"veryhot", momentum:"accelerating", ring:"now"},
+      evidence:"Allied defence and security spending is around 4 percent of GDP one year into the ten-year path, but European and Canadian budget growth of 2.1 percent this year is less than half last year's 4.6 percent; all four supporting sources in the first ten days of July",
+      commentary:"Cools from Accelerating: the level is high and still rising, the rate of increase is not.",
+      source:{label:"International Centre for Defence and Security", date:"July 2026", url:"https://icds.ee/en/defence-spending-who-is-doing-what-july-2026/"} },
+    { name:"US commitment to European defence", short:"US commitment\nto Europe", sector:"transformation", ring:"now", angle:198,
+      heat:"veryhot", maturity:"Declining", timeframe:"2026-2030", momentum:"fading",
+      evidence:"The Europe force posture review formally opened on 28 July with a six-month clock, a Romania rotational brigade mission ending in October and 5,000 troops leaving Germany; both supporting sources within ten days of each other",
+      commentary:"The drawdown now has a process and a deadline attached, which is what makes it plannable for allies.",
+      source:{label:"Stars and Stripes", date:"July 2026", url:"https://www.stripes.com/theaters/europe/2026-07-28/pentagon-europe-force-posture-review-22386853.html"} },
+    { name:"Military manpower and recruitment shortfall", short:"Manpower and\nrecruitment", sector:"transformation", ring:"later", angle:232,
+      heat:"hot", maturity:"Emerging", timeframe:"2027-2035", momentum:"accelerating", isNew:true,
+      evidence:"Germany's new volunteer scheme returned 530 commitments from almost 300,000 questionnaires against a target of 260,000 soldiers plus 200,000 reservists by the mid-2030s; single supporting source, late June",
+      commentary:"New to the register: the constraint on European rearmament is shifting from budget lines to bodies.",
+      source:{label:"Brussels Signal", date:"June 2026", url:"https://brusselssignal.eu/2026/06/german-army-only-recruits-530-people-after-asking-300000/"} },
+    { name:"EU defence-industrial programme (EDIP and EDPCIs)", short:"EDIP and\nEDPCIs", sector:"opportunity", ring:"now", angle:262,
+      heat:"hot", maturity:"Emerging", timeframe:"2026-2033", momentum:"accelerating",
+      evidence:"Five European Defence Projects of Common Interest proposed with 325 million euro allocated, an average of 18 member states in each and Ukraine in four of the five; newest supporting source 3 July",
+      commentary:"The programme moved from work programme to named projects, with the Council now the gating step.",
+      source:{label:"European Commission", date:"July 2026", url:"https://defence-industry-space.ec.europa.eu/commission-proposes-five-joint-defence-projects-strengthen-europes-industrial-capabilities-2026-07-03_en"} },
+    { name:"Ukrainian drone innovation scaling into Europe", short:"Ukrainian drone\nco-production", sector:"opportunity", ring:"now", angle:296,
+      heat:"hot", maturity:"Emerging", timeframe:"2026-2030", momentum:"accelerating",
+      evidence:"The EU and Ukraine signed a defence industrial partnership on 15 July with a further billion euro disbursed for drone procurement and joint production targeted by the end of 2026; supporting source mid-July",
+      commentary:"Co-production now has a signed instrument and a date rather than a statement of intent.",
+      source:{label:"EU Neighbours East", date:"July 2026", url:"https://euneighbourseast.eu/news/latest-news/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-e1-billion-for-drones/"} },
+    { name:"Defence-technology venture capital surge", short:"Defence-tech\nventure capital", sector:"opportunity", ring:"next", angle:328,
+      heat:"hot", maturity:"Maturing", timeframe:"2026-2029", momentum:"stable", cooled:true,
+      prev:{heat:"hot", momentum:"accelerating", ring:"next"},
+      evidence:"The 8.7 billion dollar 2025 record and a 43 percent share of European deeptech funding still stand, with no new capital inflection entering this cycle's evidence base; newest supporting source mid-April",
+      commentary:"Cools from Accelerating: the level holds but the evidence flow stopped this cycle.",
+      source:{label:"Vestbee", date:"April 2026", url:"https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026"} }
+  ];
+  var WILDCARDS = [
+    { name:"An airspace incursion crosses the casualty threshold", short:"Casualty\nthreshold", sector:"risk", angle:55,
+      type:"Disruptive Risk", impact:"Very High",
+      surprise:"A drone or an interceptor fragment kills civilians inside NATO territory before attribution is settled",
+      indicators:"Incursion frequency on the eastern flank; national air-policing rules of engagement; any Article 4 consultation.",
+      source:{label:"Carnegie Endowment for International Peace", date:"July 2026", url:"https://carnegieendowment.org/europe/strategic-europe/2026/07/why-russia-could-escalate-hybrid-warfare-against-europe"} },
+    { name:"The target is the landing station, not the seabed", short:"Landing station,\nnot seabed", sector:"risk", angle:122,
+      type:"Disruptive Risk", impact:"High",
+      surprise:"Connectivity is taken down onshore where cable systems converge, rather than by cutting cable at sea",
+      indicators:"Physical-security standards for landing stations; insurer appetite; designation of digital infrastructure operators.",
+      source:{label:"Center for European Policy Analysis", date:"May 2026", url:"https://cepa.org/article/cable-danger-look-beyond-the-sea-to-the-shore/"} },
+    { name:"Ukraine becomes Europe's drone export engine", short:"Ukraine as\nexport engine", sector:"opportunity", angle:272,
+      type:"Disruptive Opportunity", impact:"High",
+      surprise:"A wartime economy becomes the continent's fastest-iterating supplier rather than an aid recipient",
+      indicators:"Joint-venture production starting before December; the September Brussels drone alliance meeting; European orders on Ukrainian designs.",
+      source:{label:"EU Neighbours East", date:"July 2026", url:"https://euneighbourseast.eu/news/latest-news/eu-launches-ukraine-defence-industrial-partnership-drone-deal-and-disburses-e1-billion-for-drones/"} }
+  ];
+  var EXITED = [];
+  // === RADAR_DATA_END =======================================================
+  var NS = "http://www.w3.org/2000/svg";
+  var CX = 600, CY = 470, SX = 1.32;
+  var HUB_R = 62;
+  var HEAT_LABEL = { cool:"Cool", moderate:"Moderate", hot:"Hot", veryhot:"Very hot" };
+  var MOM_LABEL = { accelerating:"Accelerating", stable:"Stable", fading:"Fading" };
+  function rad(d){ return d * Math.PI / 180; }
+  function P(aDeg, r){ var t = rad(aDeg); return { x: CX + SX * r * Math.sin(t), y: CY - r * Math.cos(t) }; }
+  function sectorOf(key){ for (var i=0;i<SECTORS.length;i++) if (SECTORS[i].key===key) return SECTORS[i]; }
+  function ringOf(key){ for (var i=0;i<RINGS.length;i++) if (RINGS[i].key===key) return RINGS[i]; }
+  function el(tag, attrs, parent){ var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+  function fmtSource(s){
+    var name = s.url ? '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.label + '</a>' : s.label;
+    return name + ', ' + s.date;
+  }
+  function wedgePath(a0, a1, r){
+    var steps = Math.max(8, Math.round((a1-a0)/6)), d = "M " + CX + " " + CY;
+    for (var i=0;i<=steps;i++){ var p = P(a0 + (a1-a0)*i/steps, r); d += " L " + p.x.toFixed(1) + " " + p.y.toFixed(1); }
+    return d + " Z";
+  }
+  function ringEllipse(r, attrs, parent){
+    var e = el("ellipse", { cx: CX, cy: CY, rx: SX*r, ry: r }, parent);
+    for (var k in attrs) e.setAttribute(k, attrs[k]); return e;
+  }
+  function render(svg, big){
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    var fs = big ? 1.32 : 1;
+    var halfW = SX*WILD_R + (big ? 265 : 235), halfH = WILD_R + (big ? 108 : 96);
+    svg.setAttribute("viewBox", (CX-halfW) + " " + (CY-halfH) + " " + (2*halfW) + " " + (2*halfH));
+    SECTORS.forEach(function(s){
+      el("path", { d: wedgePath(s.a0, s.a1, WILD_R+14), fill: s.tint, stroke: "none" }, svg);
+    });
+    SECTORS.forEach(function(s){
+      var p = P(s.a0, WILD_R+14);
+      el("line", { x1: CX, y1: CY, x2: p.x, y2: p.y, stroke: "#d6dde4", "stroke-width": 1.4 }, svg);
+    });
+    BOUNDS.forEach(function(r){ ringEllipse(r, { fill:"none", stroke:"#d6dde4", "stroke-width":1.4 }, svg); });
+    ringEllipse(WILD_R, { fill:"none", stroke:"#8e24aa", "stroke-width":1.6, "stroke-dasharray":"5 5", opacity:0.55 }, svg);
+    var ringLabels = [ [RINGS[0].r, RINGS[0].label], [RINGS[1].r, RINGS[1].label], [RINGS[2].r, RINGS[2].label], [WILD_R, "WILD CARDS"] ];
+    ringLabels.forEach(function(rl){
+      var t = el("text", { x: CX, y: CY - rl[0] - 8, "text-anchor":"middle", "font-size": 10.5*fs,
+                           "font-weight":700, fill: rl[1]==="WILD CARDS" ? "#8e24aa" : "#8a94a3",
+                           "letter-spacing":"0.08em" }, svg);
+      t.textContent = rl[1];
+    });
+    SECTORS.forEach(function(s){
+      var mid = (s.a0 + s.a1)/2, p = P(mid, WILD_R + 48);
+      var anchor = "middle";
+      if (Math.sin(rad(mid)) > 0.35) anchor = "start"; else if (Math.sin(rad(mid)) < -0.35) anchor = "end";
+      var nameLines = s.name.split("\n");
+      nameLines.forEach(function(line, i){
+        var t1 = el("text", { x: p.x, y: p.y - 7 - (nameLines.length-1-i)*14*fs, "text-anchor": anchor,
+                              "font-size": 12.5*fs, "font-weight":700, fill: s.stroke }, svg);
+        t1.textContent = line;
+      });
+      var t2 = el("text", { x: p.x, y: p.y + 8, "text-anchor": anchor, "font-size": 10*fs, "font-weight":700,
+                            fill: "#8a94a3", "letter-spacing":"0.06em" }, svg);
+      t2.textContent = s.type.toUpperCase();
+    });
+    ringEllipse(HUB_R, { fill:"#eaf0fb", stroke:"#2f5fd0", "stroke-width":3 }, svg);
+    TOPIC_SHORT.split("\n").forEach(function(line, i, arr){
+      var t = el("text", { x: CX, y: CY - (arr.length-1)*8 + i*16 - 2, "text-anchor":"middle",
+                           "font-size": 13*fs, "font-weight":700, fill:"#1a2530" }, svg);
+      t.textContent = line;
+    });
+    var tt = el("text", { x: CX, y: CY + (TOPIC_SHORT.split("\n").length)*8 + 12, "text-anchor":"middle",
+                          "font-size": 9*fs, "font-weight":700, fill:"#2f5fd0", "letter-spacing":"0.08em" }, svg);
+    tt.textContent = "TREND RADAR";
+    function drawMomentum(g, aDeg, r, blipR, momentum, color){
+      if (momentum === "stable") return;
+      var inward = (momentum === "accelerating");
+      var tipR = inward ? r - blipR - 19 : r + blipR + 19;
+      var baseR = inward ? r - blipR - 5 : r + blipR + 5;
+      var tip = P(aDeg, tipR), base = P(aDeg, baseR);
+      var ta = rad(aDeg), tx = SX*Math.cos(ta), ty = Math.sin(ta);
+      var tl = Math.sqrt(tx*tx + ty*ty); tx = tx/tl*7; ty = ty/tl*7;
+      el("path", { d: "M " + tip.x + " " + tip.y + " L " + (base.x - tx) + " " + (base.y - ty) +
+                     " L " + (base.x + tx) + " " + (base.y + ty) + " Z",
+                   fill: color, opacity: 0.95 }, g);
+    }
+    var interactive = [];
+    function hasDrift(sig){
+      return sig.prev && (sig.prev.heat !== sig.heat || sig.prev.momentum !== sig.momentum || sig.prev.ring !== sig.ring);
+    }
+    function tailPath(a0, r0, a1, r1){
+      var pA = P(a0, r0), pB = P(a1, r1), pM = P((a0+a1)/2, (r0+r1)/2 * 1.045);
+      return "M " + pA.x.toFixed(1) + " " + pA.y.toFixed(1) +
+             " Q " + pM.x.toFixed(1) + " " + pM.y.toFixed(1) +
+             " " + pB.x.toFixed(1) + " " + pB.y.toFixed(1);
+    }
+    SIGNALS.forEach(function(sig){
+      if (!hasDrift(sig)) return;
+      var s = sectorOf(sig.sector);
+      var rNow = ringOf(sig.ring).r, rPrev = ringOf(sig.prev.ring).r;
+      var aPrev = sig.angle - 14;
+      var gp = P(aPrev, rPrev), gr = HEAT_R[sig.prev.heat] * fs;
+      el("path", { d: tailPath(aPrev, rPrev, sig.angle, rNow), fill:"none", stroke:"#9aa7b4",
+                   "stroke-width": 1.6, "stroke-dasharray":"2 4", "stroke-linecap":"round", opacity:0.85 }, svg);
+      el("circle", { cx: gp.x, cy: gp.y, r: gr, fill: s.fill, "fill-opacity": 0.35,
+                     stroke: s.stroke, "stroke-width": 1.6, "stroke-dasharray":"3 3", opacity: 0.55 }, svg);
+    });
+    EXITED.forEach(function(ex, idx){
+      var r = ringOf(ex.ring).r, p = P(ex.angle, r), gr = HEAT_R[ex.prevHeat] * fs;
+      var g = el("g", { "data-idx": idx, "data-kind":"exited", cursor:"pointer" }, svg);
+      el("circle", { cx: p.x, cy: p.y, r: gr, fill:"#eef1f4", "fill-opacity":0.6,
+                     stroke:"#8a94a3", "stroke-width":1.8, "stroke-dasharray":"3 3", opacity:0.8 }, g);
+      el("line", { x1: p.x - gr*0.55, y1: p.y - gr*0.55, x2: p.x + gr*0.55, y2: p.y + gr*0.55,
+                   stroke:"#8a94a3", "stroke-width":1.6, opacity:0.8 }, g);
+      el("line", { x1: p.x - gr*0.55, y1: p.y + gr*0.55, x2: p.x + gr*0.55, y2: p.y - gr*0.55,
+                   stroke:"#8a94a3", "stroke-width":1.6, opacity:0.8 }, g);
+      var lp = P(ex.angle, r + gr + 14);
+      var anchor = Math.sin(rad(ex.angle)) > 0.4 ? "start" : (Math.sin(rad(ex.angle)) < -0.4 ? "end" : "middle");
+      ex.short.split("\n").forEach(function(line, i){
+        var t = el("text", { x: lp.x, y: lp.y + i*12*fs + 4, "text-anchor": anchor, "font-size": 10*fs,
+                             "font-weight":600, fill:"#8a94a3", "font-style":"italic" }, g);
+        t.textContent = line;
+      });
+      var t2 = el("text", { x: lp.x, y: lp.y + ex.short.split("\n").length*12*fs + 4, "text-anchor": anchor,
+                            "font-size": 8.5*fs, "font-weight":700, fill:"#8a94a3", "letter-spacing":"0.04em" }, g);
+      t2.textContent = "LEFT THE REGISTER";
+      interactive.push(g);
+    });
+    SIGNALS.forEach(function(sig, idx){
+      var s = sectorOf(sig.sector), ring = ringOf(sig.ring), r = ring.r;
+      var p = P(sig.angle, r), br = HEAT_R[sig.heat] * fs;
+      var g = el("g", { "data-idx": idx, "data-kind":"signal", cursor:"pointer" }, svg);
+      drawMomentum(g, sig.angle, r, br, sig.momentum, "#4a5563");
+      el("circle", { cx: p.x, cy: p.y, r: br, fill: s.fill, stroke: s.stroke,
+                     "stroke-width": sig.heat==="hot"||sig.heat==="veryhot" ? 3 : 2.2 }, g);
+      if (sig.isNew){
+        var np = P(sig.angle, r + br + 4);
+        var badge = el("g", {}, g);
+        el("rect", { x: np.x - 16, y: np.y - 8, width: 32, height: 13, rx: 3, fill:"#e8eaf6" }, badge);
+        var nt = el("text", { x: np.x, y: np.y + 2, "text-anchor":"middle", "font-size": 8.5*fs, "font-weight":700, fill:"#1a237e" }, badge);
+        nt.textContent = "NEW";
+      }
+      if (sig.cooled){
+        var cp = P(sig.angle, r + br + 10);
+        var ct = el("text", { x: cp.x + 10, y: cp.y, "text-anchor":"start", "font-size": 11*fs, "font-weight":700, fill:"#ef6c00" }, g);
+        ct.textContent = "↘";
+      }
+      var lp = P(sig.angle, r + br + (sig.isNew ? 22 : 14));
+      var anchor = "middle";
+      if (Math.sin(rad(sig.angle)) > 0.4) anchor = "start"; else if (Math.sin(rad(sig.angle)) < -0.4) anchor = "end";
+      sig.short.split("\n").forEach(function(line, i){
+        var t = el("text", { x: lp.x, y: lp.y + i*12*fs + 4, "text-anchor": anchor, "font-size": 10.5*fs,
+                             "font-weight":600, fill:"#1a2530" }, g);
+        t.textContent = line;
+      });
+      interactive.push(g);
+    });
+    WILDCARDS.forEach(function(wc, idx){
+      var risky = wc.type.indexOf("Risk") >= 0;
+      var stroke = risky ? "#8e24aa" : "#00897b", fill = risky ? "#f3e5f5" : "#e0f2f1";
+      var p = P(wc.angle, WILD_R), sz = 11 * fs;
+      var g = el("g", { "data-idx": idx, "data-kind":"wild", cursor:"pointer" }, svg);
+      el("rect", { x: p.x - sz/1.4, y: p.y - sz/1.4, width: sz*1.42, height: sz*1.42, rx: 2,
+                   transform: "rotate(45 " + p.x + " " + p.y + ")",
+                   fill: fill, stroke: stroke, "stroke-width": 2.4, "stroke-dasharray": "4 3" }, g);
+      var lp = P(wc.angle, WILD_R + 24);
+      var anchor = Math.sin(rad(wc.angle)) > 0.4 ? "start" : (Math.sin(rad(wc.angle)) < -0.4 ? "end" : "middle");
+      wc.short.split("\n").forEach(function(line, i){
+        var t = el("text", { x: lp.x, y: lp.y + i*12*fs, "text-anchor": anchor, "font-size": 10*fs,
+                             "font-weight":600, fill: stroke }, g);
+        t.textContent = line;
+      });
+      interactive.push(g);
+    });
+    return interactive;
+  }
+  // ---- detail panels ----
+  var pinned = null;
+  function chip(cls, txt){ return '<span class="chip ' + cls + '">' + txt + '</span>'; }
+  function showSignal(sig, target){
+    var panel = target || document.getElementById("tr-panel");
+    var s = sectorOf(sig.sector), ring = ringOf(sig.ring);
+    var chips = chip("cl-" + sig.sector, s.type) + chip("heat-" + sig.heat, "Heat: " + HEAT_LABEL[sig.heat]) +
+                chip("mom-" + sig.momentum, MOM_LABEL[sig.momentum]);
+    if (sig.isNew) chips += chip("new", "New this cycle");
+    if (sig.cooled) chips += chip("cooled", "↘ cooled a stage");
+    var since = "";
+    if (sig.isNew){
+      since = '<span class="k">Since last cycle (' + PREV_LABEL + ')</span><p>Entered the register this cycle.</p>';
+    } else if (sig.prev){
+      var moves = [];
+      if (sig.prev.heat !== sig.heat) moves.push("heat " + HEAT_LABEL[sig.prev.heat] + " &rarr; " + HEAT_LABEL[sig.heat]);
+      if (sig.prev.momentum !== sig.momentum) moves.push("momentum " + MOM_LABEL[sig.prev.momentum] + " &rarr; " + MOM_LABEL[sig.momentum]);
+      if (sig.prev.ring !== sig.ring) moves.push("horizon " + ringOf(sig.prev.ring).label + " &rarr; " + ringOf(sig.ring).label);
+      if (sig.prev.wasNew) moves.push("entered the register last cycle, held its grades");
+      since = '<span class="k">Since last cycle (' + PREV_LABEL + ')</span><p>' +
+              (moves.length ? moves.join("; ") + "." : "No change: same heat, momentum and horizon.") + '</p>';
+    }
+    panel.innerHTML = '<h3>' + sig.name + '</h3><div class="meta-row">' + chips + '</div>' + since +
+      '<span class="k">Horizon</span><p>' + ring.label.replace("NOW","Now").replace("NEXT","Next").replace("LATER","Later") +
+      ' &middot; bites ' + sig.timeframe + ' &middot; maturity: ' + sig.maturity + '</p>' +
+      '<span class="k">Evidence</span><p>' + sig.evidence + ' (' + fmtSource(sig.source) + ').</p>' +
+      '<span class="k">Commentary</span><p>' + sig.commentary + '</p>';
+    panel.setAttribute("data-state", "entry");
+  }
+  function showWild(wc, target){
+    var panel = target || document.getElementById("tr-panel");
+    var risky = wc.type.indexOf("Risk") >= 0;
+    panel.innerHTML = '<h3>' + wc.name + '</h3><div class="meta-row">' +
+      chip(risky ? "wild-risk" : "wild-opp", wc.type) + chip("heat-veryhot", "Impact: " + wc.impact) + '</div>' +
+      '<span class="k">Surprise characteristics</span><p>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</p>' +
+      '<span class="k">Early warning indicators</span><p>' + wc.indicators + '</p>';
+    panel.setAttribute("data-state", "entry");
+  }
+  function showExited(ex, target){
+    var panel = target || document.getElementById("tr-panel");
+    panel.innerHTML = '<h3>' + ex.name + '</h3><div class="meta-row">' +
+      '<span class="chip" style="background:#eef1f4;color:#5a6478;">Left the register</span>' +
+      chip("heat-" + ex.prevHeat, "Was: " + HEAT_LABEL[ex.prevHeat]) + '</div>' +
+      '<span class="k">Last carried</span><p>' + PREV_LABEL + '</p>' +
+      '<span class="k">What happened</span><p>' + ex.note + '</p>';
+    panel.setAttribute("data-state", "entry");
+  }
+  function bind(nodes){
+    nodes.forEach(function(g){
+      var kind = g.getAttribute("data-kind"), idx = +g.getAttribute("data-idx");
+      var show = function(){
+        if (kind === "signal") showSignal(SIGNALS[idx]);
+        else if (kind === "wild") showWild(WILDCARDS[idx]);
+        else showExited(EXITED[idx]);
+      };
+      g.addEventListener("mouseenter", function(){ if (!pinned) show(); });
+      g.addEventListener("click", function(ev){ ev.stopPropagation(); pinned = g; show(); });
+    });
+  }
+  document.body.addEventListener("click", function(){ pinned = null; });
+  var mainSvg = document.getElementById("tr-svg");
+  bind(render(mainSvg, false));
+  // ---- expanded view ----
+  var overlay = document.getElementById("tr-overlay"), drawn = false;
+  var card = document.getElementById("tr-card");
+  var modalPinned = null;
+  function bindModal(nodes){
+    var mp = document.getElementById("tr-panel-modal");
+    nodes.forEach(function(g){
+      var kind = g.getAttribute("data-kind"), idx = +g.getAttribute("data-idx");
+      var show = function(){
+        if (kind === "signal") showSignal(SIGNALS[idx], mp);
+        else if (kind === "wild") showWild(WILDCARDS[idx], mp);
+        else showExited(EXITED[idx], mp);
+      };
+      g.addEventListener("mouseenter", function(){ if (!modalPinned) show(); });
+      g.addEventListener("click", function(ev){ ev.stopPropagation(); modalPinned = g; show(); });
+    });
+    document.querySelector(".tr-modal").addEventListener("click", function(){ modalPinned = null; });
+  }
+  function openModal(){
+    if (!drawn){
+      bindModal(render(document.getElementById("tr-svg-modal"), true)); drawn = true;
+      var mp = document.getElementById("tr-panel-modal");
+      attachHelp(mp, function(){ modalPinned = null; seedHowto(mp); });
+      seedHowto(mp);
+      document.getElementById("tr-svg-modal").addEventListener("mouseleave", function(){
+        if (!modalPinned) seedHowto(mp);
+      });
+    }
+    overlay.classList.add("open"); document.getElementById("tr-close").focus();
+  }
+  function closeModal(){ overlay.classList.remove("open"); card.focus(); }
+  card.addEventListener("click", function(ev){
+    if (ev.target === card || ev.target.closest(".tr-thumbwrap svg") === null || ev.target.tagName === "svg") openModal();
+  });
+  card.addEventListener("keydown", function(e){ if (e.key === "Enter" || e.key === " "){ e.preventDefault(); openModal(); } });
+  document.getElementById("tr-close").addEventListener("click", closeModal);
+  overlay.addEventListener("click", function(e){ if (e.target === overlay) closeModal(); });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape" && overlay.classList.contains("open")) closeModal(); });
+  // ---- how-to-read starter card (default panel state) ----
+  var HOWTO_HTML =
+    '<h3>How to read this radar</h3>' +
+    '<div class="howto-row"><div class="howto-glyph"><svg width="30" height="30" viewBox="0 0 30 30">' +
+    '<circle cx="15" cy="15" r="13" fill="none" stroke="#d6dde4" stroke-width="1.5"/>' +
+    '<circle cx="15" cy="15" r="8" fill="none" stroke="#d6dde4" stroke-width="1.5"/>' +
+    '<circle cx="15" cy="15" r="3" fill="#eaf0fb" stroke="#2f5fd0" stroke-width="1.5"/></svg></div>' +
+    '<p><strong>Rings are time.</strong> Now 2026-27 &middot; Next 2027-29 &middot; Later 2029+. ' +
+    'The closer to the centre, the sooner it bites.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#fdecea;border:2px solid #d9433a;"></span> ' +
+    '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#eaf0fb;border:2px solid #2f5fd0;"></span> ' +
+    '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#e9f6ee;border:2px solid #2ea44f;"></span></div>' +
+    '<p><strong>Sectors are the cycle&rsquo;s patterns.</strong> Red = evolving risk, blue = transformation driver, ' +
+    'green = emerging opportunity, the same palette as our Futures Wheel.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:7px;height:7px;border-radius:50%;border:2px solid #5a6478;vertical-align:middle;"></span> ' +
+    '<span style="display:inline-block;width:13px;height:13px;border-radius:50%;border:2.5px solid #5a6478;vertical-align:middle;"></span></div>' +
+    '<p><strong>Size is heat.</strong> Bigger blips carry higher impact &times; likelihood in the momentum table.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph" style="font-size:15px;color:#4a5563;">&#9650;</div>' +
+    '<p><strong>Arrows are momentum.</strong> Pointing toward the centre = accelerating; outward = fading. ' +
+    'No arrow = stable.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:11px;height:11px;border-radius:50%;border:1.6px dashed #9aa7b4;"></span>&hellip;</div>' +
+    '<p><strong>Dashed ghosts are last cycle.</strong> The dotted tail shows the drift since the 30 May register.</p></div>' +
+    '<div class="howto-row"><div class="howto-glyph">' +
+    '<span style="display:inline-block;width:9px;height:9px;background:#f3e5f5;border:2px dashed #8e24aa;transform:rotate(45deg);"></span></div>' +
+    '<p><strong>Diamonds on the outer rim are wild cards</strong>, low-probability, high-impact discontinuities, ' +
+    'each with its tripwires.</p></div>' +
+    '<p style="margin-top:14px;font-size:0.92em;font-weight:600;color:#1a237e;background:#eef1f9;border:1px solid #d6dff3;border-radius:8px;padding:10px 12px;">Hover any blip for its full register entry, and click to pin it. ' +
+    'This guide returns when you move away, or press <strong>?</strong> any time.</p>';
+  function seedHowto(panel){ panel.innerHTML = HOWTO_HTML; panel.setAttribute("data-state", "howto"); }
+  function attachHelp(panel, onClick){
+    var btn = document.createElement("button");
+    btn.className = "tr-help";
+    btn.type = "button";
+    btn.setAttribute("aria-label", "How to read this radar");
+    btn.setAttribute("title", "How to read this radar");
+    btn.textContent = "?";
+    btn.addEventListener("click", function(ev){ ev.stopPropagation(); onClick(); });
+    new MutationObserver(function(){
+      if (!panel.contains(btn)) panel.appendChild(btn);
+    }).observe(panel, { childList: true });
+    panel.appendChild(btn);
+    return btn;
+  }
+  var mainPanel = document.getElementById("tr-panel");
+  attachHelp(mainPanel, function(){ pinned = null; seedHowto(mainPanel); });
+  seedHowto(mainPanel);
+  mainSvg.addEventListener("mouseleave", function(){ if (!pinned) seedHowto(mainPanel); });
+  // ---- momentum table ----
+  var tb = document.getElementById("reg-body");
+  function evCell(sig){
+    var ev = sig.evidence.replace(/\.\s*$/, "");
+    return ev + ' (' + fmtSource(sig.source) + ').';
+  }
+  SIGNALS.forEach(function(sig){
+    var s = sectorOf(sig.sector);
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><strong>' + sig.name + '</strong>' + (sig.isNew ? ' ' + chip("new","New") : '') +
+      (sig.cooled ? ' <span style="color:#ef6c00;font-weight:700;">↘</span>' : '') + '</td>' +
+      '<td>' + chip("cl-" + sig.sector, s.type) + '</td>' +
+      '<td>' + sig.timeframe + '</td>' +
+      '<td>' + chip("heat-" + sig.heat, HEAT_LABEL[sig.heat]) + '</td>' +
+      '<td>' + chip("mom-" + sig.momentum, MOM_LABEL[sig.momentum]) + '</td>' +
+      '<td>' + evCell(sig) + '</td>';
+    tb.appendChild(tr);
+  });
+  WILDCARDS.forEach(function(wc){
+    var risky = wc.type.indexOf("Risk") >= 0;
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><strong>' + wc.name + '</strong></td>' +
+      '<td>' + chip(risky ? "wild-risk" : "wild-opp", wc.type) + '</td>' +
+      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + '</td><td>&ndash;</td>' +
+      '<td>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</td>';
+    tb.appendChild(tr);
+  });
+  EXITED.forEach(function(ex){
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><strong style="color:#8a94a3;">' + ex.name + '</strong></td>' +
+      '<td><span class="chip" style="background:#eef1f4;color:#5a6478;">Left the register</span></td>' +
+      '<td>&ndash;</td><td>' + chip("heat-" + ex.prevHeat, "Was " + HEAT_LABEL[ex.prevHeat]) + '</td><td>&ndash;</td>' +
+      '<td>' + ex.note + '</td>';
+    tb.appendChild(tr);
+  });
+})();
+</script>
+</body>
+</html>

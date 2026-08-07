@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T08:30:56Z",
+  "generated": "2026-08-07T11:54:12Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-05-earn-down-tariff-rebuild/scan.html"
     },
     "change_tracker": {
-      "title": "The layoff wave cools; the entry-level argument reopens",
-      "date": "2026-08-06",
-      "topic": "Workforce, Skills and Organisational Change",
-      "topic_slug": "workforce-skills-organisational-change",
+      "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
+      "date": "2026-08-07",
+      "topic": "Geopolitics and Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-08-06/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-08-07/tracker.html"
     },
     "decision_intelligence": {
       "title": "The Summer Medicine Chose Sides",

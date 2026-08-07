@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T10:14:15Z",
+  "generated": "2026-08-07T08:30:56Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-05-earn-down-tariff-rebuild/scan.html"
     },
     "change_tracker": {
-      "title": "Beijing's enforcement hardens; Washington opens a demand-side front",
-      "date": "2026-07-24",
-      "topic": "Supply Chains and Critical Minerals",
-      "topic_slug": "supply-chains-critical-minerals",
+      "title": "The layoff wave cools; the entry-level argument reopens",
+      "date": "2026-08-06",
+      "topic": "Workforce, Skills and Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/supply-chains-critical-minerals/2026-07-24/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-08-06/tracker.html"
     },
     "decision_intelligence": {
       "title": "The Summer Medicine Chose Sides",

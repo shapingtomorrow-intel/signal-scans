@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 07 Aug 2026 08:30:07 +0000</lastBuildDate>
+<lastBuildDate>Sat, 08 Aug 2026 08:30:04 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Steering by Drifting Instruments: AI Capex Has Decalibrated the Macro Data Boards Plan On</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-08-decalibrated-macro-signals/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-08-decalibrated-macro-signals/scan.html</guid>
+<pubDate>Sat, 08 Aug 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>AI capital spending is now large enough to decalibrate the macro data policymakers and boards steer by. Deflator choice, terms-of-trade gains and one concentrated spending line pull real growth, national income and the natural rates apart across 2026 to 2029.</description>
+</item>
+<item>
+<title>The Reallocation That Isn't: AI's Labour Shock Lands on Places, Not on Movers</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-08-place-bound-labour-adjustment/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-08-place-bound-labour-adjustment/scan.html</guid>
+<pubDate>Sat, 08 Aug 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>Labour markets are absorbing the AI shock through places and entry cohorts, not through workers moving. OECD evidence finds adjustment running via joblessness and opportunities for newcomers rather than incumbents switching sectors, with regional mobility unable to close the gaps.</description>
+</item>
 <item>
 <title>The €190 Billion Shortlist: Brussels Starts Picking Europe’s Defence Programmes</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-05-defence-projects-common-interest/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sun, 05 Jul 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
 <description>Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a single platform on biological mechanism rather than large randomized trials, shifting the basis of evidence and reopening the ultra-rare market.</description>
-</item>
-<item>
-<title>The Consent Constraint: Why the AI Buildout Now Runs Through Local Politics</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-04-ai-buildout-consent-constraint/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-04-ai-buildout-consent-constraint/scan.html</guid>
-<pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
-<category>Artificial Intelligence &amp; Automation</category>
-<description>Local political consent has overtaken capital, chips and grid engineering as the binding constraint on the US AI infrastructure buildout: a record ~$130bn of data-centre projects were blocked or delayed in Q1 2026, 71% of Americans oppose a local data centre, and states, regulators and the White House are converting the backlash into binding cost-allocation rules on a 2026-2028 horizon.</description>
-</item>
-<item>
-<title>The Second Workforce: AI Agents Enter the Employment System of Record</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-04-agents-on-org-chart/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-04-agents-on-org-chart/scan.html</guid>
-<pubDate>Sat, 04 Jul 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>Enterprises are rebuilding the administrative machinery of employment, HRMS worker types, agent-manager roles, CAIO mandates and pay architecture, to manage AI agents as a second workforce, ahead of the empirical displacement evidence, so the binding 2026-2028 question is who governs digital labour (HR or IT) and on what terms.</description>
 </item>
 </channel>
 </rss>

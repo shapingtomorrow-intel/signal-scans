@@ -1,7 +1,386 @@
 {
-  "generated": "2026-08-08T08:31:04Z",
+  "generated": "2026-08-09T08:30:06Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "demographics-migration-labour-markets",
+      "name": "Demographics, Migration & Labour Markets",
+      "tagline": "Who pays for population decline.",
+      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
+      "latest_read": "Britain now sets the pay floor for mid-skill work visas by a lifetime fiscal calculation that assumes the worker never settles.",
+      "latest_dates": {
+        "scan": "2026-08-09",
+        "tracker": "2026-07-09",
+        "di": "2026-07-09",
+        "cc": "2026-07-10"
+      },
+      "history": [
+        {
+          "date": "2026-08-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Priced Not to Stay: The Fiscal Test That Now Sets Britain's Migrant Wage Floor",
+          "summary": "Britain now sets the pay floor for mid-skill work visas by a lifetime fiscal calculation that assumes the worker never settles.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Registered, Not Called: Germany Has Rebuilt Conscription's Machinery Ahead of Any Decision to Use It",
+          "summary": "Germany has rebuilt the machinery of conscription without yet deciding to use it. A birth cohort is registered, nationwide compulsory medical screening starts July 2027, and a demand-triggered draft...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Shortage Without Mobility: Labour Supply Has Become a Property of Place",
+          "summary": "Labour-market adjustment has stopped running through workers moving. Acute shortage and durable slack now sit inside the same country, and the national levers of migration, skills funding and pay...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Work Visas in the Returns Circuit: How EU Labour Migration Became Exposed to Deportation Diplomacy",
+          "summary": "The EU's new legal-labour-migration channels now sit in the same policy circuit as returns. The Return Regulation makes readmission integral and the Commission names visa, trade and financial policy...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Older-Worker Lever: Later Retirement Is Doing More Than Migration to Fill Europe's Labour Gap",
+          "summary": "Beneath the consensus that migration and AI will fill ageing Europe's labour gap, the quieter and larger lever is older-worker participation and later retirement: euro-area 55-74 participation rose...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-10",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The reservoir emptied. The import valve jammed shut in the same cycle.",
+          "summary": "Over this cycle, the strategic constraint on advanced-economy labour changed. Eight weeks ago the central question was who would pay for population decline, and whether bilateral migration pacts would fund it.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-09",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "EU migration rules go live as the labour squeeze turns permanent",
+          "summary": "Second Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 3 Accelerating (European migration restriction, below-replacement fertility, skilled-talent migration...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-09",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Workforce You Can't Buy",
+          "summary": "The May scan asked who pays for population decline and framed bilateral migration pacts as the coming currency of ageing-economy statecraft.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Young-Labour Reservoir Is Draining Before the Rich World Has Finished Ageing",
+          "summary": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Decade-Low Mirage: How a Record Care-Staffing Headline Hides a Pipeline Cut at Both Ends",
+          "summary": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites",
+          "summary": "As advanced economies cut migration on the assumption that AI will offset the lost labour, AI's impact lands in high-wage white-collar work while the acute shortages concentrate in care, health...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
+          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Migration inflows reverse as the ageing squeeze turns structural",
+          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
+          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
+          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
+          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Anglo Mobility Reversal",
+          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Who Pays for Population Decline?",
+          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
+          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Secondary City Pivot",
+          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "health-life-sciences-care-systems",
+      "name": "Health, Life Sciences & Care Systems",
+      "tagline": "The reorganisation of how care gets delivered.",
+      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
+      "latest_read": "Accountability for clinical AI has been relocated from the product to the practitioner. The EU deferred its high-risk rules and the MHRA placed AI scribes outside device regulation, both on the...",
+      "latest_dates": {
+        "scan": "2026-08-09",
+        "tracker": "2026-07-10",
+        "di": "2026-08-06",
+        "cc": "2026-08-07"
+      },
+      "history": [
+        {
+          "date": "2026-08-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Out of Scope by Design: Clinical AI Accountability Lands on the Clinician",
+          "summary": "Accountability for clinical AI has been relocated from the product to the practitioner. The EU deferred its high-risk rules and the MHRA placed AI scribes outside device regulation, both on the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-07",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The Cure Was the Decoy",
+          "summary": "The breakthroughs took the headlines while the binding constraint on medicine migrated to the layers a molecule cannot reach: price, patent, payer track, supply origin and the global health commons...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-06",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer Medicine Chose Sides",
+          "summary": "This was the summer medicine chose sides. Within a few months the US put a 100 percent tariff on patented drugs and tied it to price, seventeen manufacturers signed pricing deals, the EU passed a...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rationing by Assessment: How the Eligibility Threshold Became Long-Term Care's Main Cost Lever",
+          "summary": "Long-term care rationing has moved from the benefit schedule into the eligibility assessment. Germany's draft care law books its largest saving from recalibrating the assessment instrument, and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Linkage Fight: Why an Unfinished WHO Annex Now Carries the Weight of the Treaty",
+          "summary": "An unfinished technical annex now gates the WHO Pandemic Agreement's entry into force. The unresolved question is whether access to pathogens and sequence data stays legally tied to benefit-sharing...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "One Country, Many Vaccine Schedules: America's Immunization Standard Splintered Into a Non-Federal Patchwork",
+          "summary": "Beneath the fight over the US administration's vaccine changes, the decades-long single national immunization standard has splintered: medical societies and 28 states now issue their own schedules...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The 100/20/0 Menu: How US Pharma Tariffs Force Onshoring and Price Cuts, Company by Company",
+          "summary": "Beneath the 'pharma tariffs raise prices' headline, the April 2026 Section 232 duty is a tiered coercion menu (100% default; 20% with a Commerce onshoring plan; 0% to 2029 only with an HHS...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-10",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "US pharma tariffs near enforcement; global health financing retreats",
+          "summary": "Second Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 4 Accelerating (US pharma tariffs and MFN pricing, global health financing retrenchment, US vaccine-policy disruption...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Approved on Mechanism, Not Trials: The FDA's Plausible-Mechanism Reset for Bespoke Gene Therapies",
+          "summary": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Market Failure: How 'Subscription' Payments for Antibiotics Are Crossing From Pilot to Policy",
+          "summary": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two-Track Obesity Care: How GLP-1 Access Split by Payer Just as the Pills Arrived",
+          "summary": "Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
+          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-12",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
+          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
+          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-02",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Too Much Cure, Not Enough Care",
+          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-31",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
+          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
+          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The 2026 Patent Geography Split",
+          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The MCED Coverage-Evidence Gap",
+          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Homology Trap",
+          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "climate-nature-food-systems",
+      "name": "Climate, Nature & Food Systems",
+      "tagline": "Nature moves onto the risk register.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
+      "latest_read": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+      "latest_dates": {
+        "scan": "2026-08-08",
+        "tracker": "",
+        "di": "",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
+          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "posture": "Prepare"
+        }
+      ]
+    },
     {
       "slug": "ai-automation",
       "name": "AI & Automation",
@@ -376,7 +755,7 @@
       "slug": "defence-security-resilience",
       "name": "Defence, Security & Resilience",
       "tagline": "Past financing. Into the supplier base.",
-      "description": "Rearmament has cleared the budget line; industrial absorption is the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
+      "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
       "latest_read": "Counter-drone billions land at Ankara as the spending curve flattens",
@@ -553,7 +932,7 @@
       "slug": "geopolitics-economic-fragmentation",
       "name": "Geopolitics & Economic Fragmentation",
       "tagline": "Operating where consensus is gone.",
-      "description": "Decoupling, sanctions plumbing, industrial-policy capital, middle-power hedging. Strategy across more than one operating environment, simultaneously.",
+      "description": "Decoupling, sanctions plumbing, industrial-policy capital, middle-power hedging, and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
       "latest_read": "Sanctions reach into third countries while the dollar's reserve share climbs",
@@ -735,179 +1114,10 @@
       ]
     },
     {
-      "slug": "health-life-sciences-care-systems",
-      "name": "Health, Life Sciences & Care Systems",
-      "tagline": "The reorganisation of how care gets delivered.",
-      "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
-      "latest_read": "Long-term care rationing has moved from the benefit schedule into the eligibility assessment. Germany's draft care law books its largest saving from recalibrating the assessment instrument, and...",
-      "latest_dates": {
-        "scan": "2026-08-02",
-        "tracker": "2026-07-10",
-        "di": "2026-08-06",
-        "cc": "2026-08-07"
-      },
-      "history": [
-        {
-          "date": "2026-08-07",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The Cure Was the Decoy",
-          "summary": "The breakthroughs took the headlines while the binding constraint on medicine migrated to the layers a molecule cannot reach: price, patent, payer track, supply origin and the global health commons...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-06",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer Medicine Chose Sides",
-          "summary": "This was the summer medicine chose sides. Within a few months the US put a 100 percent tariff on patented drugs and tied it to price, seventeen manufacturers signed pricing deals, the EU passed a...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rationing by Assessment: How the Eligibility Threshold Became Long-Term Care's Main Cost Lever",
-          "summary": "Long-term care rationing has moved from the benefit schedule into the eligibility assessment. Germany's draft care law books its largest saving from recalibrating the assessment instrument, and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Linkage Fight: Why an Unfinished WHO Annex Now Carries the Weight of the Treaty",
-          "summary": "An unfinished technical annex now gates the WHO Pandemic Agreement's entry into force. The unresolved question is whether access to pathogens and sequence data stays legally tied to benefit-sharing...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "One Country, Many Vaccine Schedules: America's Immunization Standard Splintered Into a Non-Federal Patchwork",
-          "summary": "Beneath the fight over the US administration's vaccine changes, the decades-long single national immunization standard has splintered: medical societies and 28 states now issue their own schedules...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-12",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The 100/20/0 Menu: How US Pharma Tariffs Force Onshoring and Price Cuts, Company by Company",
-          "summary": "Beneath the 'pharma tariffs raise prices' headline, the April 2026 Section 232 duty is a tiered coercion menu (100% default; 20% with a Commerce onshoring plan; 0% to 2029 only with an HHS...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-10",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "US pharma tariffs near enforcement; global health financing retreats",
-          "summary": "Second Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 4 Accelerating (US pharma tariffs and MFN pricing, global health financing retrenchment, US vaccine-policy disruption...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Approved on Mechanism, Not Trials: The FDA's Plausible-Mechanism Reset for Bespoke Gene Therapies",
-          "summary": "Beneath the consensus that gene therapy is failing commercially, the FDA is rebuilding the approval model for individualized genetic medicines, letting variant-specific gene editors clear as a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Market Failure: How 'Subscription' Payments for Antibiotics Are Crossing From Pilot to Policy",
-          "summary": "Beneath the consensus that antibiotic R&D is a permanent market failure, a delinked 'subscription' pull-payment standard is consolidating across the UK, EU and US at once in 2026: the UK model...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two-Track Obesity Care: How GLP-1 Access Split by Payer Just as the Pills Arrived",
-          "summary": "Beneath the consensus that GLP-1 weight-loss drugs are becoming universal, US obesity-drug access is splitting by payer into a time-limited, ring-fenced Medicare track and a manufacturer cash market...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Borrowed Pipeline: Western Pharma's Dependence on China-Originated Drugs Collides With Decoupling",
-          "summary": "Western pharma's future pipeline is becoming dependent on China-originated molecules even as the US and Europe still appear to lead biopharma innovation.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-12",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Tariff and pricing shocks accelerate; pandemic governance stalls",
-          "summary": "Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When the Cure Outruns the Checkbook: The Gene-Therapy Payment Model Is Being Rebuilt Around Outcomes",
-          "summary": "The one-time-cure gene-therapy business model is failing even where the science works, as systems built for chronic pay-over-time care cannot finance multimillion-dollar cures.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Too Much Cure, Not Enough Care",
-          "summary": "capability AI, biotech, DTx capacity clinical workforce GAP reimbursement + regulation bridge The cycle's central tension: capability is rising, capacity is falling, and the institutional bridges (reimbursement architectures, regulatory frameworks) are racing to close the gap.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-31",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Diagnosed, Then What? Alzheimer's Blood Tests Are Outrunning Treatment and Care Capacity",
-          "summary": "Scalable primary-care Alzheimer's blood tests are moving diagnosis out of specialist gatekeeping faster than health systems can confirm, treat or support the patients identified, opening a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Exporting the Price Fight: How US Drug-Pricing Reform Is Quietly Repricing Medicines Worldwide",
-          "summary": "US Most-Favored-Nation drug pricing is restructuring global pharmaceutical pricing through its international reference mechanism.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The 2026 Patent Geography Split",
-          "summary": "Beneath the headline GLP-1 boom, semaglutide patent expiry across India, Brazil, China, Canada and Türkiye in 2026 is creating a two-tier global obesity-drug market: restructuring pricing power...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The MCED Coverage-Evidence Gap",
-          "summary": "Beneath the headline launch of multi-cancer blood tests, the Sewell Act enacted February 2026 has authorised Medicare coverage of MCED screening from 2028 even as the landmark NHS-Galleri trial...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Homology Trap",
-          "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
-          "posture": ""
-        }
-      ]
-    },
-    {
       "slug": "energy-infrastructure-climate-resilience",
       "name": "Energy, Infrastructure & Climate Resilience",
       "tagline": "The grid, the build-out, and the climate-resilient firm.",
-      "description": "Energy transition under stress, AI's load on the grid, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
+      "description": "Energy transition under stress, AI's load on the grid, grid-hardware supply chains, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
       "latest_read": "US reliability regulation is crossing the meter: the largest data-centre loads are being pulled inside the grid's mandatory rulebook.",
@@ -1100,159 +1310,6 @@
           "type": "Signal Scan",
           "title": "The Grid Bypass",
           "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "supply-chains-critical-minerals",
-      "name": "Supply Chains & Critical Minerals",
-      "tagline": "When the supply chain becomes statecraft.",
-      "description": "Critical-mineral stockpiles, friendshoring, sovereign equity in suppliers, export-quota shocks. What it changes for procurement, inventory and substitution strategy.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/supply-chains-critical-minerals/history/",
-      "latest_read": "US minerals statecraft is moving from border instruments into the purchase order: defence procurement is becoming the supply-chain regulator.",
-      "latest_dates": {
-        "scan": "2026-08-04",
-        "tracker": "2026-07-24",
-        "di": "2026-06-18",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-08-04",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mapped to the Mine: The Pentagon Turns Procurement into Supply-Chain Regulation",
-          "summary": "US minerals statecraft is moving from border instruments into the purchase order: defence procurement is becoming the supply-chain regulator.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Acid Before Ore: The Reagent Chokepoint Behind the Critical-Minerals Build-Out",
-          "summary": "The binding constraint on critical-mineral supply has moved from the ore to the reagents used to process it. Sulphur and sulphuric acid, byproducts with almost no supply elasticity, now gate copper...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-24",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Beijing's enforcement hardens; Washington opens a demand-side front",
-          "summary": "Third cycle. After June's escalation China's export-control architecture stopped expanding and cools to Stable, while enforcement accelerated via MOFCOM's whole-of-society reporting mechanism and detentions.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mines Without Smelters: The Midstream Gap in the West's Critical-Minerals Push",
-          "summary": "Critical-minerals diversification is failing at the midstream, where allied smelting is closing or moving onto state support.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Urban Mine Enclosure: How Battery Scrap Became a Strategic Resource",
-          "summary": "Beneath the consensus that breaking China's grip on critical minerals means diversifying mines and refineries, the next contested layer is the urban mine (end-of-life batteries and black mass)...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-07",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Suspended, Not Dismantled: China's Extraterritorial Mineral Licensing and the Supply-Chain Map It Hands Beijing",
-          "summary": "Beneath the consensus that the November 2025 suspension and general-licence detente have defused China's rare-earth weapon, Beijing has left a permanent, reactivatable extraterritorial licensing...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Benchmark Trap: Why Western Mines Won't Loosen China's Grip on Critical-Mineral Prices",
-          "summary": "Beneath the consensus that China's critical-minerals dominance is a physical problem of mines and refineries, China is consolidating the price-discovery layer - internationalising its yuan futures...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-26",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "China blacklists US rare-earth champions as Washington turns market-maker",
-          "summary": "Cycle 2. China's 22 June blacklisting of MP Materials and USA Rare Earths flips last cycle's Stable export-control read to Accelerating.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Just-in-Case Turn: How the Critical-Minerals Stockpiling Race Could Spike the Prices It Hedges",
-          "summary": "Beneath the race to diversify critical-mineral mining and processing away from China, governments are pivoting to demand-side strategic stockpiling and offtake (the US Project Vault reserve, a June...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Five Choices on Critical Minerals",
-          "summary": "The cycle’s central tension is that critical-mineral supply has converted from an operational procurement problem into a board-level strategic question.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mining the Commons Alone: The Unilateral US Seabed-Minerals Track and the ISA Stalemate",
-          "summary": "Beneath the land-bound contest over mines, processing and China, a new supply frontier is opening at the deep seabed through a unilateral US permitting track (NOAA's January 2026 final rule; TMC's...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Engineering Around the Chokepoint: Substitution Is Quietly Capping Critical-Mineral Demand",
-          "summary": "China's 2025 export controls are accelerating demand-side substitution and thrifting fast enough to cap critical-mineral demand.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Method, Not the Mine: Why Rare-Earth Processing Technology Is the Binding Chokepoint",
-          "summary": "The binding rare-earth chokepoint has moved from mines to the midstream: separation, refining, metallisation and magnet-making, plus the process technology, equipment and know-how that run it.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Diversify to Underwrite: The $110/kg Pivot in Western Critical-Minerals Policy",
-          "summary": "Western critical-minerals strategy is pivoting from diversifying physical supply to administered prices as the binding instrument.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-22",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "State intervention in critical minerals accelerates as the export-control truce holds",
-          "summary": "Inaugural cycle. Government intervention dominates the momentum: US strategic stockpiling, equity stakes, price floors and Section 232 trade remedies are accelerating alongside China's new...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Rerouting Illusion",
-          "summary": "Beneath the deglobalisation headline, the trade data show resilience and rerouting rather than retreat: most corporate de-risking has relabelled and lengthened China-dependence rather than removing...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Why Copper, Not Lithium, Sets the Pace of the Energy Transition",
-          "summary": "Copper supply is now the binding constraint on global energy-transition timing: mine-to-metal lead times of 15-20 years cannot be compressed by additional capital, restructuring utility capex...",
           "posture": ""
         }
       ]
@@ -1583,175 +1640,6 @@
           "type": "Signal Scan",
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "demographics-migration-labour-markets",
-      "name": "Demographics, Migration & Labour Markets",
-      "tagline": "Who pays for population decline.",
-      "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
-      "latest_read": "Germany has rebuilt the machinery of conscription without yet deciding to use it. A birth cohort is registered, nationwide compulsory medical screening starts July 2027, and a demand-triggered draft...",
-      "latest_dates": {
-        "scan": "2026-08-02",
-        "tracker": "2026-07-09",
-        "di": "2026-07-09",
-        "cc": "2026-07-10"
-      },
-      "history": [
-        {
-          "date": "2026-08-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Registered, Not Called: Germany Has Rebuilt Conscription's Machinery Ahead of Any Decision to Use It",
-          "summary": "Germany has rebuilt the machinery of conscription without yet deciding to use it. A birth cohort is registered, nationwide compulsory medical screening starts July 2027, and a demand-triggered draft...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Shortage Without Mobility: Labour Supply Has Become a Property of Place",
-          "summary": "Labour-market adjustment has stopped running through workers moving. Acute shortage and durable slack now sit inside the same country, and the national levers of migration, skills funding and pay...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Work Visas in the Returns Circuit: How EU Labour Migration Became Exposed to Deportation Diplomacy",
-          "summary": "The EU's new legal-labour-migration channels now sit in the same policy circuit as returns. The Return Regulation makes readmission integral and the Commission names visa, trade and financial policy...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-12",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Older-Worker Lever: Later Retirement Is Doing More Than Migration to Fill Europe's Labour Gap",
-          "summary": "Beneath the consensus that migration and AI will fill ageing Europe's labour gap, the quieter and larger lever is older-worker participation and later retirement: euro-area 55-74 participation rose...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-10",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The reservoir emptied. The import valve jammed shut in the same cycle.",
-          "summary": "Over this cycle, the strategic constraint on advanced-economy labour changed. Eight weeks ago the central question was who would pay for population decline, and whether bilateral migration pacts would fund it.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-09",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "EU migration rules go live as the labour squeeze turns permanent",
-          "summary": "Second Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 3 Accelerating (European migration restriction, below-replacement fertility, skilled-talent migration...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-09",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Workforce You Can't Buy",
-          "summary": "The May scan asked who pays for population decline and framed bilateral migration pacts as the coming currency of ageing-economy statecraft.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Young-Labour Reservoir Is Draining Before the Rich World Has Finished Ageing",
-          "summary": "The young-labour reservoir that ageing rich economies rely on for migration and offshored production is draining a generation early, because fertility has fallen to or below replacement across the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Decade-Low Mirage: How a Record Care-Staffing Headline Hides a Pipeline Cut at Both Ends",
-          "summary": "England's adult social care vacancy rate has fallen to a decade low (6.2%) and filled posts hit a record 1.59m, but the improvement rests on a recruitment pipeline severed at both ends: overseas...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Automation Mismatch: AI Arrives in the Offices, Not the Care Homes and Building Sites",
-          "summary": "As advanced economies cut migration on the assumption that AI will offset the lost labour, AI's impact lands in high-wage white-collar work while the acute shortages concentrate in care, health...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Closing the Funnel: How Student-Visa Caps Are Severing the West's Main Skilled-Labour Pipeline",
-          "summary": "The Anglosphere is dismantling the international-student-to-skilled-worker conversion funnel that had become its dominant feeder of permanent skilled labour.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Migration inflows reverse as the ageing squeeze turns structural",
-          "summary": "Inaugural Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 5 Accelerating (US net migration turning negative, European migration restriction, retirement-age reform...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Warning to Outflow: America's Science Brain Drain Crosses Into Structural Reallocation",
-          "summary": "The US science brain drain is already underway, not a future risk, with 2026 data showing structural outflow. US applications for ERC relocation grants have doubled, the visa-sponsorship residency...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-31",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Survey: How Collapsing Response Rates Are Rewiring Labour and Migration Statistics",
-          "summary": "Collapsing survey response rates, funding and political pressure, and a forced pivot to administrative data are degrading official labour and migration statistics just as those numbers became the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Precautionary Surge: How a Shrinking Sender Base Is Hollowing Out the Remittance Economy",
-          "summary": "The migrant remittance sender base is structurally eroding even as headline flows look record-breaking. Declining migration and deportations are shrinking the number of senders while a US 1%...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Anglo Mobility Reversal",
-          "summary": "Beneath the headline that the US is closing its borders, the first negative US net migration in 50 years, Frontex's 40% Q1 2026 drop in EU irregular crossings, and a simultaneous Big Four university...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Who Pays for Population Decline?",
-          "summary": "This cycle's signal is not a single force with downstream consequences. It is five load-bearing dynamics moving in parallel, each with its own mechanism, its own evidence base and its own decision horizon.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "How Ageing Economies Are Out-Bidding Each Other for Migrant Labour",
-          "summary": "Beneath the headline anti-migration politics, ageing economies (Japan, South Korea, Germany, Italy, plus second-tier) are pivoting from migration-restriction to migration-competition posture...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Secondary City Pivot",
-          "summary": "Three converging structural pressures: climate adaptation costs, AI-infrastructure power and water demand, and demographic stagnation in mature megacities: are tilting capital, corporate location...",
           "posture": ""
         }
       ]

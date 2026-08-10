@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sun, 09 Aug 2026 08:30:05 +0000</lastBuildDate>
+<lastBuildDate>Mon, 10 Aug 2026 08:30:08 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Mobilisation Gap: Near 24/7 Settlement Meets an Office-Hours Collateral Perimeter</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-10-collateral-mobilisation-gap/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-10-collateral-mobilisation-gap/scan.html</guid>
+<pubDate>Mon, 10 Aug 2026 08:00:00 +0000</pubDate>
+<category>Financial Services &amp; Future of Money</category>
+<description>Tokenisation's first binding effect lands on collateral, not payments. Regulators admit tokenised assets only where they re-use incumbent depositories, while settlement moves towards near 24/7, opening an intraday and weekend mobilisation gap on bank balance sheets.</description>
+</item>
+<item>
+<title>Detection, Not Deregulation: Why Simplified Rulebooks Are Getting Harder to Breach</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-10-detection-not-deregulation/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-10-detection-not-deregulation/scan.html</guid>
+<pubDate>Mon, 10 Aug 2026 08:00:00 +0000</pubDate>
+<category>Regulation, Standards &amp; Policy Change</category>
+<description>Supervisory detection capability, not the rule book, is the variable moving in 2026. Simplification packages cut visible burden while SupTech budgets, tax-authority analytics and reporting coverage quietly raise the odds that an unchanged obligation binds.</description>
+</item>
 <item>
 <title>Priced Not to Stay: The Fiscal Test That Now Sets Britain's Migrant Wage Floor</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-09-priced-not-to-stay/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Tue, 07 Jul 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
 <description>Beneath the consensus that European infrastructure resilience is a voluntary capex question, the CER Directive's 17 July 2026 designation deadline turns physical and climate resilience into a supervised statutory duty for named operators across eleven sectors — but it lands as a patchwork (Germany legislating only in January 2026, the Dutch law still before the Senate, seven member states referred to the CJEU in April 2026), so through 2026-2028 operators' resilience agendas...</description>
-</item>
-<item>
-<title>Suspended, Not Dismantled: China's Extraterritorial Mineral Licensing and the Supply-Chain Map It Hands Beijing</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-07-extraterritorial-mineral-licensing/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-07-extraterritorial-mineral-licensing/scan.html</guid>
-<pubDate>Tue, 07 Jul 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the consensus that the November 2025 suspension and general-licence detente have defused China's rare-earth weapon, Beijing has left a permanent, reactivatable extraterritorial licensing architecture intact (a 0.1% de-minimis rule modelled on the US Foreign Direct Product Rule, plus mandatory value-chain and end-use disclosure and a public-reporting enforcement mechanism live from 1 July 2026), so through 2026-2028 the binding constraint shifts from denial of...</description>
-</item>
-<item>
-<title>The Done-Away Gap: Treasury Clearing's Big Bang Arrives Before the Market Structure It Assumes</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-06-done-away-clearing-gap/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-06-done-away-clearing-gap/scan.html</guid>
-<pubDate>Mon, 06 Jul 2026 08:00:00 +0000</pubDate>
-<category>Financial Services &amp; Future of Money</category>
-<description>Beneath the 'Treasury clearing is on track' consensus, the done-away, multi-CCP market structure the SEC's mandate assumes has not materialised: with under six months to the 31 December 2026 cash deadline, done-away documentation and pricing remain unresolved, unresolved inter-affiliate and extraterritorial exemptions are freezing readiness builds, and activity is defaulting into concentrated done-with clearing at FICC, so the mandate lands as a concentration event repricing...</description>
 </item>
 </channel>
 </rss>

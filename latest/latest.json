@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-10T08:31:00Z",
+  "generated": "2026-08-11T08:31:20Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Detection, Not Deregulation: Why Simplified Rulebooks Are Getting Harder to Breach",
-      "date": "2026-08-10",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
+      "title": "Keeping the Scrap: Critical-Minerals Security Arrives as an Export Duty on Waste",
+      "date": "2026-08-11",
+      "topic": "Geopolitics & Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-10-detection-not-deregulation/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-11-scrap-export-retention/scan.html"
     },
     "change_tracker": {
       "title": "Sanctions reach into third countries while the dollar's reserve share climbs",

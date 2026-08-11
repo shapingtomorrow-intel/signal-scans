@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the eight
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Eight anchored sections, in order:
+    1  #section-executive-synthesis
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (5-6 themes; reader-visible label: Themes)
+    4  #section-strategic-implications  (4 SIs)
+    5  #section-scenario-matrix       (2x2, 4 cells)
+    6  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    7  #section-discussion-points     (5 points)
+    8  #section-source-register       (per-theme tables)
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token five, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<title>The Summer That Enforcement Went Local: Regulation, Standards &amp; Policy Change Decision Intelligence Briefing, August 2026</title>
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .learn-takeaways { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
+  .learn-takeaways .lt-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 0 8px 8px 0; }
+  .learn-takeaways .lt-card h3 { color: #1a237e; margin: 0 0 10px; font-size: 1.05em; }
+  .learn-takeaways .lt-card ol { margin: 0; padding-left: 20px; line-height: 1.5; color: #2a3142; }
+  .learn-takeaways .lt-learn { background: #eef1f9; border-left: 4px solid #1a237e; }
+  .learn-takeaways .lt-keys { background: #fff8e1; border-left: 4px solid #f57c00; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 240px; box-sizing: border-box; }
+  .toc-figure { flex: 2 1 520px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #8e24aa; color: white; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  /* Bordered matrix with axis labels (Variant C, June 2026):
+     Outer grid wrap places the horizontal axis name on top and the vertical
+     axis name on the left of a bordered .matrix-frame; corner labels at the
+     four corners of the frame name the extremes at each intersection. */
+  .scenario-matrix-axed { display: grid; grid-template-columns: 40px 1fr; grid-template-rows: 36px 1fr; gap: 0; margin-top: 20px; }
+  .axis-name-h { grid-row: 1; grid-column: 2; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; }
+  .axis-name-v { grid-row: 2; grid-column: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
+  .matrix-frame { grid-row: 2; grid-column: 2; border: 2px solid #1a237e; border-radius: 12px; position: relative; padding: 28px 14px 20px; background: white; }
+  .matrix-frame .scenario-grid { margin-top: 0; }
+  .corner-label { position: absolute; background: white; padding: 3px 10px; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.06em; text-transform: uppercase; }
+  .corner-tl { top: -11px; left: 22px; }
+  .corner-tr { top: -11px; right: 22px; }
+  .corner-bl { bottom: -11px; left: 22px; }
+  .corner-br { bottom: -11px; right: 22px; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px 20px; background: #ffffff; border-radius: 8px; margin: 12px 0; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; }
+  .exclusion-item .excl-eyebrow { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .exclusion-item.excl-1 { border-left-color: #7e57c2; } .exclusion-item.excl-1 .excl-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .exclusion-item.excl-2 { border-left-color: #26a69a; } .exclusion-item.excl-2 .excl-eyebrow { background: #e0f2f1; color: #00796b; }
+  .exclusion-item.excl-3 { border-left-color: #ef6c00; } .exclusion-item.excl-3 .excl-eyebrow { background: #fff3e0; color: #e65100; }
+  .exclusion-item h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.05em; }
+  .reinstatement { font-size: 0.9em; color: #4a5568; margin: 12px 0 0; padding: 8px 12px; border-radius: 6px; background: #f3f5f8; }
+  .reinstatement strong { color: #1a237e; }
+  .discussion-points { background: #1a237e; color: white; padding: 28px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: white; margin-top: 0; }
+  .discussion-points ol { padding-left: 24px; }
+  .discussion-points li { margin-bottom: 12px; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 28%; }
+  .source-register col.col-tier { width: 11%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 49%; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; word-wrap: break-word; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .source-register td.tier-1 { color: #2e7d32; font-weight: 700; }
+  .source-register td.tier-2 { color: #1565c0; font-weight: 700; }
+  .source-register td.tier-3 { color: #f57c00; font-weight: 700; }
+  .source-register td.tier-4 { color: #c62828; font-weight: 700; }
+  .source-register tr.tier-1 { background: #e3f2fd; }
+  .source-register tr.tier-2 { background: #e8f5e9; }
+  .source-register tr.tier-3 { background: #fff3e0; }
+  .source-register tr.tier-4 { background: #fce4ec; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence</div>
+<h1 class="report-title">The Summer That Enforcement Went Local</h1>
+<div class="meta">
+Second cycle &middot; 13 August 2026 &middot; Audience: strategy, legal and compliance leadership across regulated industries (boards and audit committees; general counsel; compliance and regulatory affairs; operations and technology) &middot; Horizon: 12 to 24 months (operative deadlines), with a 3 to 5-year structural lens<br>
+<span style="font-size: 0.92em;">Read estimate: 3 min Executive Synthesis &middot; 20 min full read</span>
+</div>
+</div>
+<img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow">
+</div>
+
+
+<div class="learn-takeaways">
+  <div class="lt-card lt-learn">
+    <h3>What you will learn</h3>
+    <ol>
+      <li>Why one EU regulation now behaves as twenty-seven separate enforcement regimes, and how to tell which of yours are real.</li>
+      <li>Why the reporting deadline stopped being a reliable planning anchor, and what replaces it in the FY27 plan.</li>
+      <li>How compliance documentation written for a regulator becomes evidence for a claimant from December 2026.</li>
+    </ol>
+  </div>
+  <div class="lt-card lt-keys">
+    <h3>Key takeaways</h3>
+    <ol>
+      <li>Only eight of twenty-seven member states had notified an AI Act single point of contact as of March 2026.</li>
+      <li>California moved its first emissions reporting deadline from 10 August to 10 November 2026 by withdrawing an approved rule.</li>
+      <li>The Commission referred Ireland, Spain, France and the Netherlands to the Court of Justice on 8 July 2026.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-why-now">2. Why this matters now</a></li>
+  <li><a href="#section-snapshots">3. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">4. Themes</a></li>
+  <li><a href="#section-strategic-implications">5. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">6. Scenario Matrix</a></li>
+  <li><a href="#section-explicit-exclusions">7. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">8. Discussion Points</a></li>
+  <li><a href="#section-source-register">9. Source Confidence Register</a></li>
+  <li><a href="#claim-fidelity">10. Claim-Fidelity Appendix</a></li>
+</ul>
+</div>
+
+<div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+36" data-fw-engine="2">
+<style id="fw-style">
+  .fw-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2530;}
+  .fw-card{box-sizing:border-box!important;width:100%!important;max-width:860px!important;height:540px!important;max-height:100%!important;margin:0 auto!important;border:1px solid #e3e8ee!important;border-radius:12px!important;padding:10px!important;background:#fff!important;cursor:pointer;position:relative;overflow:hidden;display:flex!important;flex-direction:column!important;transition:box-shadow .15s,transform .15s;}
+  .fw-card:hover{box-shadow:0 6px 20px rgba(20,40,70,.12);transform:translateY(-1px);}
+  .fw-card:focus-visible{outline:3px solid #0f2e5c;outline-offset:2px;}
+  .fw-legend{flex:0 0 auto!important;display:flex!important;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:11px;color:#5a6478;margin:0 0 6px!important;line-height:1.2;}
+  .fw-legend .sw{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:5px;box-sizing:border-box;}
+  .fw-legend .lw{display:inline-block;width:18px;height:2px;background:#5a6478;vertical-align:middle;margin-right:5px;border-radius:2px;}
+  .fw-legend .lw.high{height:4px;background:#4a5563;}
+  .fw-legend .lw.med{height:2.5px;background:#6a7480;}
+  .fw-legend .lw.low{height:1.4px;background:#9aa4b0;}
+  .fw-thumbwrap{flex:1 1 auto!important;position:relative!important;width:100%!important;min-height:0!important;}
+  .fw-thumbwrap svg,.fw-card .fw-thumbwrap svg{width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;display:block!important;margin:0!important;}
+  /* Also override any host CSS that would cap the modal SVG (e.g. .toc-figure svg { max-width: 340px }) */
+  .fw-modal svg,.fw-modal #fw-modal-svg{max-width:none!important;max-height:none!important;width:min(94vw,1040px)!important;height:auto!important;display:block!important;margin:0 auto!important;}
+  .fw-expand{position:absolute;right:8px;bottom:8px;background:rgba(15,46,92,.82);color:#fff;font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;pointer-events:none;}
+  .fw-eyebrow{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#8a94a3;font-weight:700;margin:0 0 2px;}
+  .fw-title{font-size:14px;font-weight:700;margin:0 0 8px;line-height:1.25;}
+  .fw-overlay{position:fixed;inset:0;background:rgba(15,23,35,.62);display:none;align-items:center;justify-content:center;z-index:9999;padding:18px;}
+  .fw-overlay.open{display:flex;}
+  .fw-modal{background:#fff;border-radius:14px;padding:14px 16px 16px;max-width:min(96vw,1100px);max-height:96vh;overflow:auto;box-shadow:0 24px 70px rgba(0,0,0,.35);position:relative;}
+  .fw-close{position:absolute;top:10px;right:12px;border:none;background:#eef1f4;color:#33414f;width:32px;height:32px;border-radius:8px;font-size:17px;cursor:pointer;line-height:1;}
+  .fw-close:hover{background:#e0e5ea;}
+  .fw-modal-legend{display:flex;flex-wrap:wrap;gap:16px;align-items:center;font-size:13px;color:#33414f;margin:6px 2px 12px;}
+  .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
+</style>
+<div class="fw-wrap">
+  <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
+    <div class="fw-legend" aria-hidden="true">
+      <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+      <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+      <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed/neutral</span>
+      <span style="opacity:.85">impact &times; likelihood:</span>
+      <span><span class="lw high"></span>high</span>
+      <span><span class="lw med"></span>med</span>
+      <span><span class="lw low"></span>low</span>
+    </div>
+    <div class="fw-thumbwrap">
+      <svg id="fw-thumb" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" style="display:block;" role="img"></svg>
+      <span class="fw-expand">&#10530; Expand</span>
+    </div>
+  </div>
+  <div class="fw-overlay" id="fw-overlay" role="dialog" aria-modal="true" aria-label="Futures Wheel, enlarged">
+    <div class="fw-modal">
+      <button class="fw-close" id="fw-close" aria-label="Close">&times;</button>
+      <p class="fw-eyebrow" style="margin-top:2px;">Futures Wheel</p>
+      <p class="fw-title" id="fw-title-modal" style="font-size:16px;"></p>
+      <div class="fw-modal-legend">
+        <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+        <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+        <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed / neutral</span>
+        <span style="opacity:.85">impact &times; likelihood:</span>
+        <span><span class="lw high" style="background:#4a5563;height:4px;"></span>high</span>
+        <span><span class="lw med" style="background:#6a7480;height:2.5px;"></span>med</span>
+        <span><span class="lw low" style="background:#9aa4b0;height:1.4px;"></span>low</span>
+      </div>
+      <svg id="fw-modal-svg" viewBox="0 0 1200 1200" style="width:min(94vw,1040px);height:auto;display:block;" role="img"></svg>
+    </div>
+  </div>
+</div>
+
+<script id="fw-engine">
+(function(){
+  // === WHEEL_DATA_START (build_futures_wheel.py replaces this object) ===
+  var TITLE = "The Summer That Enforcement Went Local: one rulebook arrives as twenty-seven enforcement regimes";
+  var DATA = {"label": "One rulebook,\ntwenty-seven\nenforcers", "pol": "0", "children": [{"label": "Enforcement odds\nvary by\njurisdiction", "pol": "-", "im": "vhigh", "lk": "high", "children": [{"label": "Article 50 exposure\nconcentrates in\nfunded states", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Marking duties\ntested in\nGermany first", "pol": "-", "im": "med", "lk": "high"}, {"label": "Grace period\nends 2\nDecember 2026", "pol": "-", "im": "high", "lk": "high"}, {"label": "Deployers reclassify\ntheir system\ninventories", "pol": "0", "im": "med", "lk": "med"}]}, {"label": "Unpoliced states\nbecome soft\nlanding zones", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Placement decisions\nmove for\nregulatory reasons", "pol": "0", "im": "med", "lk": "med"}, {"label": "Commission opens\ndesignation\ninfringements", "pol": "-", "im": "med", "lk": "med"}, {"label": "Reputational risk\noutruns legal\nrisk", "pol": "-", "im": "med", "lk": "med"}]}]}, {"label": "Germany becomes\nthe reference\nsupervisor", "pol": "+", "im": "high", "lk": "high", "children": [{"label": "Bundesnetzagentur guidance\nread as\nEU default", "pol": "+", "im": "high", "lk": "high", "children": [{"label": "Service desk\nrulings travel\nacross borders", "pol": "+", "im": "med", "lk": "high"}, {"label": "Sandbox access\nbecomes a\nsiting factor", "pol": "+", "im": "med", "lk": "med"}, {"label": "German classifications\nset the\nde facto standard", "pol": "+", "im": "high", "lk": "med"}]}, {"label": "First enforcement\nrecord written\nin Germany", "pol": "0", "im": "high", "lk": "med", "children": [{"label": "Early cases\nshape Article 50\ninterpretation", "pol": "0", "im": "high", "lk": "med"}, {"label": "Penalties benchmarked\nto the 3%\nturnover ceiling", "pol": "-", "im": "high", "lk": "low"}, {"label": "Other states\ncopy German\nprocedure", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "Compliance budgets\nmispriced by\ngeography", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Undifferentiated EU\nprogrammes overspend", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Effort spread\nwhere no\nauthority exists", "pol": "-", "im": "med", "lk": "high"}, {"label": "Board challenge\non compliance\nreturn", "pol": "0", "im": "med", "lk": "med"}, {"label": "Jurisdiction weighting\nenters FY27\nplanning", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Scarce AI\nexpertise bid\nup", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Regulators compete\nwith industry\nfor specialists", "pol": "-", "im": "med", "lk": "high"}, {"label": "Advisory capacity\nbecomes the\nbottleneck", "pol": "-", "im": "med", "lk": "med"}, {"label": "In-house training\ncheaper than\nhiring", "pol": "+", "im": "low", "lk": "med"}]}]}, {"label": "Forum shopping\nfor market\nentry", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Entry sequenced\nby supervisor\nreadiness", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Launch in\nunsupervised states\nfirst", "pol": "0", "im": "med", "lk": "med"}, {"label": "Commission scrutiny\nof entry\npatterns", "pol": "-", "im": "low", "lk": "low"}, {"label": "Single market\ncoherence questioned", "pol": "-", "im": "med", "lk": "low"}]}, {"label": "Legal opinions\ndiverge across\nmember states", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Contract terms\nvary by\njurisdiction", "pol": "-", "im": "med", "lk": "high"}, {"label": "Group-wide policies\nbecome unenforceable", "pol": "-", "im": "med", "lk": "med"}, {"label": "Harmonisation guidance\ndemanded from\nAI Office", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "AI Office\nabsorbs the\nenforcement load", "pol": "0", "im": "high", "lk": "med", "children": [{"label": "GPAI enforcement\nsets the\nvisible precedent", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "Model access\npowers exercised", "pol": "-", "im": "high", "lk": "med"}, {"label": "Corrective measures\npublished as\nguidance", "pol": "+", "im": "med", "lk": "med"}, {"label": "National layer\nlooks decorative", "pol": "0", "im": "med", "lk": "med"}]}, {"label": "Centralisation pressure\nbuilds on\nthe national model", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Calls to\nfederalise supervision", "pol": "0", "im": "med", "lk": "low"}, {"label": "Member states\nresist competence\ntransfer", "pol": "-", "im": "med", "lk": "med"}, {"label": "Hybrid model\nentrenched by\ndefault", "pol": "0", "im": "med", "lk": "high"}]}]}, {"label": "Private liability\nfills the\nsupervisory gap", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Claimants use\nregulatory records\nas evidence", "pol": "-", "im": "vhigh", "lk": "high", "children": [{"label": "Article 9\ndisclosure orders\nbegin", "pol": "-", "im": "high", "lk": "med"}, {"label": "Documentation quality\ndetermines outcomes", "pol": "-", "im": "high", "lk": "high"}, {"label": "Retention policies\nrewritten before\nDecember", "pol": "+", "im": "high", "lk": "med"}]}, {"label": "Insurance prices\nthe supervisory\nvacuum", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Product cover\nextended to\nsoftware", "pol": "0", "im": "med", "lk": "high"}, {"label": "Premiums rise\nfor AI\ndeployers", "pol": "-", "im": "med", "lk": "med"}, {"label": "Underwriters demand\ncompliance evidence", "pol": "+", "im": "med", "lk": "med"}]}]}]};
+    // === WHEEL_DATA_END ===
+
+  var NS="http://www.w3.org/2000/svg";
+  var R=[0,260,470,660], RAD=[130,88,60,50], FS=[16,13,11,10], CX=600, CY=600;
+  var FW_ENGINE_VERSION=2; // v2 = elongated layout (SX) + capDepth thumbnail.
+  // Do NOT replace this file with an older copy: build_futures_wheel.py refuses
+  // to run below this version. If you must, pass --allow-legacy-engine.
+  var SX=1.5; // horizontal spread: >1 widens the wheel into a non-circular landscape shape
+  var IM={low:1,med:2,high:3,vhigh:4}, LK={low:1,med:2,high:3};
+  // Line weight encodes impact x likelihood (12 possible; baseline 1.4)
+  function width(n){ var s=(IM[n.im]||2)*(LK[n.lk]||2); return 1.6+s*0.55; }
+  // Polarity palette: risk pink+red / opportunity pale-green+green / mixed grey
+  function col(p){
+    if(p==="+") return {f:"#e9f6ee",s:"#2ea44f",t:"#1a2530"};
+    if(p==="-") return {f:"#fdecea",s:"#d9433a",t:"#1a2530"};
+    return {f:"#eef1f4",s:"#8a94a3",t:"#1a2530"};
+  }
+  var CENTER={f:"#eaf0fb",s:"#2f5fd0",t:"#1a2530"};
+
+  function render(svg, opts){
+    opts = opts || {};
+    while(svg.firstChild) svg.removeChild(svg.firstChild);
+    var data=JSON.parse(JSON.stringify(DATA));
+    var leaves=[]; (function collect(n){ (n.children&&n.children.length)?n.children.forEach(collect):leaves.push(n); })(data);
+    var N=leaves.length, step=2*Math.PI/N;
+    leaves.forEach(function(l,i){ l.t=i*step; });
+    (function setA(n,d){ n.depth=d; if(n.children&&n.children.length){ n.children.forEach(function(c){setA(c,d+1);}); n.t=n.children.reduce(function(a,c){return a+c.t;},0)/n.children.length; } })(data,0);
+    var maxDepth=0; (function md(n){ if(n.depth>maxDepth) maxDepth=n.depth; (n.children||[]).forEach(md); })(data);
+    var rd = (opts.capDepth!=null) ? Math.min(maxDepth, opts.capDepth) : maxDepth; // render-depth cap: thumbnail shows fewer rings, modal shows all
+    var halfW=SX*R[rd]+RAD[rd]+26, halfH=R[rd]+RAD[rd]+26;
+    svg.setAttribute("viewBox",(CX-halfW)+" "+(CY-halfH)+" "+(2*halfW)+" "+(2*halfH));
+    function P(t,r){ return {x:CX+SX*r*Math.sin(t), y:CY-r*Math.cos(t)}; }
+    // Guide arcs: thin concentric quadratic-curve arcs on the ring 1 and the outer ring
+    function arc(t1,t2,r,c,w){
+      var a=P(t1,r),b=P(t2,r),m=(t1+t2)/2,cp=P(m,r*1.06);
+      var p=document.createElementNS(NS,"path");
+      p.setAttribute("d","M"+a.x+","+a.y+" Q"+cp.x+","+cp.y+" "+b.x+","+b.y);
+      p.setAttribute("fill","none");p.setAttribute("stroke",c);p.setAttribute("stroke-width",w);
+      svg.appendChild(p);
+    }
+    var r1n=data.children;
+    for(var i=0;i<r1n.length;i++) arc(r1n[i].t,r1n[(i+1)%r1n.length].t,R[1],"#d6dde4",1.4);
+    if(maxDepth>=2 && opts.capDepth==null){ for(var k=0;k<N;k++) arc(leaves[k].t,leaves[(k+1)%N].t,R[maxDepth],"#dbe6de",1.4); }
+    // Weighted spokes: line thickness encodes impact x likelihood
+    function spoke(a,b,w){
+      var l=document.createElementNS(NS,"line");
+      l.setAttribute("x1",a.x);l.setAttribute("y1",a.y);l.setAttribute("x2",b.x);l.setAttribute("y2",b.y);
+      l.setAttribute("stroke","#9aa7b4");l.setAttribute("stroke-width",w);l.setAttribute("stroke-linecap","round");l.setAttribute("opacity","0.9");
+      svg.appendChild(l);
+    }
+    (function edges(n){
+      var p=P(n.t,R[n.depth]);
+      (n.children||[]).forEach(function(c){ if(c.depth<=rd){ spoke(p,P(c.t,R[c.depth]),width(c)); edges(c); } });
+    })(data);
+    // Nodes (drawn on top)
+    (function node(n){
+      if(n.depth>rd) return;
+      var pt=P(n.t,R[n.depth]),d=n.depth,r=RAD[d],c=d===0?CENTER:col(n.pol);
+      var ci=document.createElementNS(NS,"circle");
+      ci.setAttribute("cx",pt.x);ci.setAttribute("cy",pt.y);ci.setAttribute("r",r);
+      ci.setAttribute("fill",c.f);ci.setAttribute("stroke",c.s);ci.setAttribute("stroke-width",d===0?3:2.6);
+      svg.appendChild(ci);
+      var showLabel = opts.allLabels || d<=1;
+      if(showLabel){
+        var lines=String(n.label).split("\n"),fs=FS[d],lh=fs*1.15;
+        var t=document.createElementNS(NS,"text");
+        t.setAttribute("x",pt.x);t.setAttribute("y",pt.y-(lines.length-1)*lh/2+fs*0.34);
+        t.setAttribute("text-anchor","middle");t.setAttribute("font-size",fs);t.setAttribute("font-weight",d<=1?"700":"600");t.setAttribute("fill",c.t);
+        lines.forEach(function(ln,idx){var ts=document.createElementNS(NS,"tspan");ts.setAttribute("x",pt.x);ts.setAttribute("dy",idx===0?0:lh);ts.textContent=ln;t.appendChild(ts);});
+        svg.appendChild(t);
+      }
+      (n.children||[]).forEach(node);
+    })(data);
+  }
+
+  var elTitleThumb=document.getElementById("fw-title-thumb"); if(elTitleThumb) elTitleThumb.textContent=TITLE;
+  var elTitleModal=document.getElementById("fw-title-modal"); if(elTitleModal) elTitleModal.textContent=TITLE;
+  var elThumb=document.getElementById("fw-thumb"); if(elThumb) elThumb.setAttribute("aria-label","Futures Wheel thumbnail for "+TITLE);
+  var elModalSvg=document.getElementById("fw-modal-svg"); if(elModalSvg) elModalSvg.setAttribute("aria-label","Enlarged Futures Wheel for "+TITLE);
+  if(elThumb) render(elThumb, {allLabels:false, capDepth:2});
+  var overlay=document.getElementById("fw-overlay"), drawn=false;
+  function open(){ if(!drawn){ render(document.getElementById("fw-modal-svg"), {allLabels:true}); drawn=true; } overlay.classList.add("open"); document.getElementById("fw-close").focus(); }
+  function close(){ overlay.classList.remove("open"); document.getElementById("fw-card").focus(); }
+  var card=document.getElementById("fw-card");
+  card.addEventListener("click",open);
+  card.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); open(); } });
+  document.getElementById("fw-close").addEventListener("click",close);
+  overlay.addEventListener("click",function(e){ if(e.target===overlay) close(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&overlay.classList.contains("open")) close(); });
+})();
+</script>
+</div>
+</div>
+
+
+<a name="section-why-now"></a>
+<div class="at-a-glance">
+<h3>Why this matters now</h3>
+<p>Europe finished writing its digital rulebook some time ago. What changed this summer is who enforces it, and the answer turns out to be different in every country.</p>
+<p>Three institutions moved at once. Germany created a national AI supervisor and gave it a budget. The Commission ran out of patience with four member states that never wrote their cybersecurity law and took them to court. And a Californian regulator withdrew a rule it had already approved, moving a reporting deadline that thousands of companies had been planning against.</p>
+<p><strong>The one thing to take into the next meeting:</strong> stop treating a regulation as one compliance surface. The same obligation now carries a different chance of being enforced depending on which country you are in, and the deadline you are planning against may not be the one you eventually report to. Watch whether your largest jurisdictions have actually named and funded a supervisor.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+
+<p class="sit-up-question">Which of the compliance deadlines on your desk this week are actually fixed, and which are simply the latest version a regulator has published?</p>
+<p class="sit-up-warrant">Two of the four dated obligations this programme tracked in June have already moved, and one moved after the rule implementing it had been formally approved.</p>
+</div>
+
+<p>The rules are not the story this cycle. The enforcement machinery is. Across eight weeks, four separate jurisdictions changed not what they require but who requires it, how that person is funded, and which forum the argument happens in. That is a quieter shift than a new regulation and a more consequential one, because it moves regulatory exposure from a question of text to a question of geography.</p>
+<p>What has materially changed since 11 June is that the June cycle's central prediction held in one place and broke in another. The AI Act's 2 August 2026 date survived the Digital Omnibus exactly as forecast: the Parliament's plenary <a href="https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai">approved the agreement on 16 June 2026</a> by 423 votes to 57, postponing high-risk obligations while leaving general-purpose AI enforcement and Article 50 transparency intact. California did the opposite. CARB approved its implementing regulation on 26 February, <a href="https://content.govdelivery.com/accounts/CARB/bulletins/41d8418">withdrew it from final review on 24 June</a>, re-proposed modified text on 27 July, and moved the first emissions reporting deadline from 10 August to 10 November 2026. A rule that had cleared its own board was pulled back and rewritten while companies were building to it.</p>
+<p>The spine of this cycle is the first theme, because everything else is a variation on it. Germany's AI supervision law entered into force on <a href="https://bmds.bund.de/aktuelles/pressemitteilungen/detail/neues-ki-gesetz-tritt-in-kraft">29 July 2026</a>, four days before the obligations it supervises became enforceable, making the Bundesnetzagentur the national coordinator and pairing it with a service desk and funded sandboxes. Set that against the European Parliament's own research service, which records that as of <a href="https://epthinktank.eu/2026/03/18/enforcement-of-the-ai-act/">March 2026 only eight of twenty-seven member states</a> had notified a single point of contact. The Commission's guidance is explicit that Article 50 is <a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act">enforced mainly by national market-surveillance authorities</a>. One rulebook, then, but a supervisor in some countries and an empty chair in others.</p>
+<p>Three forces now dominate leadership attention, and none of them is a new rule. The first is enforcement asymmetry: identical obligations carrying materially different probabilities of ever being enforced. The second is calendar instability: deadlines that move by administrative act rather than by legislation, which makes date-anchored planning brittle. The third is forum migration: supervision moving out of administrative dialogue and into courts, whether that is the Commission <a href="https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules">referring four member states to the CJEU on 8 July</a>, designated cloud providers challenging their own designation before the ESAs' Joint Board of Appeal, or the US Department of Justice intervening with its own complaint against a state statute.</p>
+
+<div class="pullquote">One rulebook, then, but a supervisor in some countries and an empty chair in others.</div>
+
+<p>The insight most likely to surprise leadership is that the federal attempt to suppress US state AI regulation has coincided with an increase in it. Executive Order 14365 created a litigation task force in December 2025 and conditioned discretionary funding on states not enforcing their AI laws. Congress then declined preemption twice. Colorado did not repeal its statute; it <a href="https://leg.colorado.gov/bills/sb26-189">rewrote it in May 2026</a>. By 1 July, states had <a href="https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/">enacted 109 AI laws</a>. The multi-state compliance burden is growing during precisely the period Washington is trying to eliminate it, which is an uncomfortable planning fact for anyone who deferred work on the assumption that preemption would arrive.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>This analysis assumes that a named and funded national supervisor materially raises the probability of enforcement, and that an unnamed one lowers it. That is an inference from institutional design, not an observed enforcement record, because almost no national AI Act enforcement action has yet occurred anywhere. The claim would be materially wrong if the AI Office's centralised powers over general-purpose models turn out to carry most of the practical enforcement weight, leaving national capacity largely decorative. The evidence that would force revision is the first year of enforcement actions: if they cluster at EU level rather than in the states with functioning authorities, the geography argument in this brief weakens considerably. A second vulnerability is the assumption that the Californian deadline settles at 10 November; if the Office of Administrative Law rejects the modified text, the anchor moves again and the disclosure theme is understated rather than overstated.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Re-baseline the FY27 plan on enforcement probability by jurisdiction.</strong> A single compliance calendar now hides more risk than it manages, because the same obligation carries different enforcement odds in Germany and in a member state with no designated authority.</li>
+<li><strong>Move the disclosure anchor from the reporting date to assurance readiness.</strong> The dates are moving and the assurance escalation is written into statute, so the fixed point is data that can survive an auditor rather than a filing that meets a deadline.</li>
+<li><strong>Treat AI Act technical documentation as future litigation discovery.</strong> From 9 December 2026 the records built for a regulator become the material a claimant can compel, and failure to produce them can itself presume a defect.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications.</p>
+
+<div class="continuity-ledger" style="background:#eef1f9;border-left:4px solid #1a237e;padding:20px 24px;border-radius:0 8px 8px 0;margin:24px 0 8px;">
+<h4 style="margin:0 0 6px;color:#1a237e;">Continuity ledger: resolving the prior cycle's dated commitments</h4>
+<p style="margin:0 0 12px;font-size:0.92em;color:#5a6478;">Ten dated commitments were carried forward from the 11 June cycle. Two themes from that cycle were retired at sign-off; their obligations are resolved here rather than dropped.</p>
+<table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+<tr style="text-align:left;color:#1a237e;"><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">Obligation</th><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">Verdict</th><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">What changed</th></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">EU AI Act Omnibus formal adoption before 2 August 2026</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#2e7d32;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">CONFIRMED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Parliament's plenary <a href="https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai">approved the agreement on 16 June 2026</a>, 423 to 57 with 174 abstentions, five days after the June cycle published.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Google DMA final decision on Search and Play, 27 July 2026</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#2e7d32;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">CONFIRMED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">The decision <a href="https://obsidianri.com/blog/newsroom-eu-20260723-google-dma-890m-fine">landed on 22 July at EUR 890 million</a>, five days early and split EUR 460m for Search self-preferencing and EUR 430m for Play anti-steering, with a sixty-day remedy clock.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">EU AI Act 2 August 2026 GPAI and Article 50 enforcement go-live</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#2e7d32;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">CONFIRMED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Both took effect on schedule; the AI Office <a href="https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html">became entitled to exercise investigation and enforcement powers on 2 August</a>. Carried into Theme 1.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">California SB 253 first Scope 1+2 reporting cycle, 10 August 2026</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#c62828;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">BROKEN</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">CARB <a href="https://content.govdelivery.com/accounts/CARB/bulletins/41d8418">withdrew its approved regulation on 24 June</a> and deferred the deadline to 10 November 2026. Carried into Theme 2.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">EFRAG-ESRS Delegated Act publication, expected Q4 2026</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#1565c0;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">REOPENED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Arrived early but is not yet law: the Commission <a href="https://www.efrag.org/en/news-and-calendar/news/european-commission-publishes-delegated-act-on-revised-esrs-and-voluntary-sustainability-reporting">published the delegated act on 3 July 2026</a>, now in Parliament and Council scrutiny, applying from FY2027.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">DORA second supervisory cycle, RoI submissions Q1 2027</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#1565c0;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">REOPENED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Brought forward and narrowed: the FSMA confirms the <a href="https://www.fsma.be/en/news/dora-register-information-third-party-ict-service-providers-limited-update-2026">2026 exercise runs with a more limited scope</a>, shifting the register from mass collection to delta tracking.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">NIS2 transposition completion for the remaining member states</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#c62828;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">BROKEN</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Not completed, and now litigated: the Commission <a href="https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules">referred four member states to the CJEU on 8 July 2026</a> seeking a lump sum and daily penalties. Carried into Theme 3.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Austria NISG 2026 entry into force, October 2026</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#f57c00;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">No qualifying Tier 1 to Tier 3 evidence dated inside this cycle's window was located. Austria was not among the four states referred on 8 July, which is weak negative evidence only. Re-tracked next cycle.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Trump tariff retaliation against EU tech</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#f57c00;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">The June cycle logged this as live monitoring alongside a digital-markets theme that was retired at sign-off this cycle. No evidenced movement was gathered; the milestone is carried forward rather than closed.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #dfe3f0;">EU Anti-Coercion Instrument invocation signals</td><td style="padding:8px;border-bottom:1px solid #dfe3f0;"><span style="background:#f57c00;color:#fff;padding:2px 8px;border-radius:10px;font-size:0.82em;font-weight:600;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #dfe3f0;">Retired with June's trade and export-controls theme. The instrument remains live and uninvoked so far as this cycle's scan reached, but no source was gathered to evidence the position and none should be inferred.</td></tr>
+</table>
+</div>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Audience Snapshots</h2>
+<p class="snapshots-intro">Four lenses on the same intelligence base. Each card carries the one question this cycle puts to that function, and the shift that provoked it.</p>
+<div class="snapshots">
+
+
+
+<div class="snapshot-card commercial">
+<span class="role">Boards and audit committees</span>
+<h4>If the reporting deadline moves again, does our assurance timetable still work?</h4>
+<p><strong>The shift:</strong> California’s first emissions deadline moved by three months through an administrative withdrawal, while the statutory escalation to reasonable assurance by 2030 did not move at all.</p>
+<p><strong>The question to brief:</strong> Are we resourcing the audit trail to a statutory assurance standard, or to whichever filing date is currently published?</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">General counsel and legal leadership</span>
+<h4>Which of our regulatory records will a claimant be able to compel from December 2026?</h4>
+<p><strong>The shift:</strong> The revised Product Liability Directive brings software within the definition of a product and lets a court presume defectiveness where ordered disclosure is not met.</p>
+<p><strong>The question to brief:</strong> Have we reviewed document retention on AI systems on the assumption that the reader is a claimant’s counsel rather than a supervisor?</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Compliance and regulatory affairs</span>
+<h4>In how many of our jurisdictions does a competent authority actually exist?</h4>
+<p><strong>The shift:</strong> Only eight of twenty-seven member states had notified an AI Act single point of contact as of March 2026, while Germany stood up a funded supervisor on 29 July.</p>
+<p><strong>The question to brief:</strong> Should our compliance effort be weighted by obligation, as now, or by the enforcement capacity of each jurisdiction?</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Operations and technology leadership</span>
+<h4>Do we know which of our systems fall under the December content-marking grace period?</h4>
+<p><strong>The shift:</strong> Article 50 transparency applied from 2 August 2026, but marking and detection duties carry a grace period to 2 December 2026 for systems already on the market.</p>
+<p><strong>The question to brief:</strong> Can we produce, this quarter, an inventory splitting AI systems by whether they were placed on the market before 2 August 2026?</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes, ranked by impact on Regulation, Standards &amp; Policy Change's near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the FY27 compliance and strategy plan, the corporate structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes Regulation, Standards &amp; Policy Change's competitive position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year structural factor to track and revisit each cycle.</p>
+
+
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Supervision goes national</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">The AI Act stopped being one compliance surface this summer and became twenty-seven. Germany created a funded national supervisor four days before the obligations it supervises became enforceable; most member states have not. Because the Commission's own guidance places Article 50 enforcement mainly with national authorities, and because each state funds its own, the same obligation now carries a materially different probability of enforcement depending on where a system is placed on the market. Compliance effort weighted purely by obligation, rather than by the enforcement capacity of each jurisdiction, is now mispriced.</p>
+<div class="report-figure">
+<h4>Figure 1: One rulebook, twenty-seven enforcement postures</h4>
+<svg viewBox="0 0 720 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart. Of 27 EU member states, 8 had notified an AI Act single point of contact as of March 2026, leaving 19 not notified. Separately, of 27 member states, 1 had an operational AI regulatory sandbox as of August 2025, 5 were implementing, 4 intending and 16 had no stated plan.">
+<text x="0" y="16" font-family="Georgia,serif" font-size="13" fill="#1a237e">Single points of contact notified to the Commission (March 2026)</text>
+<rect x="0" y="26" width="213" height="26" fill="#1a237e"></rect>
+<rect x="213" y="26" width="507" height="26" fill="#c5cae9"></rect>
+<text x="10" y="44" font-family="Georgia,serif" font-size="13" fill="#ffffff">8 notified</text>
+<text x="223" y="44" font-family="Georgia,serif" font-size="13" fill="#37415a">19 not notified</text>
+<text x="0" y="86" font-family="Georgia,serif" font-size="13" fill="#1a237e">AI regulatory sandboxes, obligation applying from 2 August 2026 (position at August 2025)</text>
+<rect x="0" y="96" width="27" height="26" fill="#2e7d32"></rect>
+<rect x="27" y="96" width="133" height="26" fill="#66bb6a"></rect>
+<rect x="160" y="96" width="107" height="26" fill="#a5d6a7"></rect>
+<rect x="267" y="96" width="453" height="26" fill="#e8eaf0"></rect>
+<text x="4" y="140" font-family="Georgia,serif" font-size="11" fill="#2e7d32">1 operational</text>
+<text x="80" y="140" font-family="Georgia,serif" font-size="11" fill="#37415a">5 implementing</text>
+<text x="190" y="140" font-family="Georgia,serif" font-size="11" fill="#37415a">4 intending</text>
+<text x="400" y="140" font-family="Georgia,serif" font-size="11" fill="#37415a">16 with no stated plan</text>
+<line x1="0" y1="160" x2="720" y2="160" stroke="#c5cae9" stroke-width="1"></line>
+<text x="0" y="182" font-family="Georgia,serif" font-size="12" fill="#5a6478">Germany joined the notified group on 29 July 2026, four days before the obligations became enforceable.</text>
+</svg>
+<p class="figure-caption">Sources: European Parliamentary Research Service, <a href="https://epthinktank.eu/2026/03/18/enforcement-of-the-ai-act/">Enforcement of the AI Act</a> (March 2026) and <a href="https://epthinktank.eu/2026/04/01/ai-regulatory-sandboxes-state-of-play-and-implementation-challenges/">AI regulatory sandboxes</a> (April 2026).</p>
+</div>
+<div class="cluster-signals">
+<ul>
+<li>Germany's KI-MIG entered into force on 29 July 2026, making the Bundesnetzagentur national coordinator while leaving sectoral regulators in place. The ministry describes it as bundling national coordination at the Bundesnetzagentur while building on existing market-surveillance competences (<a href="https://bmds.bund.de/aktuelles/pressemitteilungen/detail/neues-ki-gesetz-tritt-in-kraft">BMDS</a>, July 2026).</li>
+<li>The supervisor arrives with an enabler mandate attached, not only enforcement powers: a service desk offering risk-classification guidance and a regulatory sandbox aimed at smaller firms (<a href="https://www.bundesnetzagentur.de/1112336">Bundesnetzagentur</a>, July 2026).</li>
+<li>Eight of twenty-seven member states had notified a single point of contact as of March 2026, seven months after the Article 70 deadline (<a href="https://epthinktank.eu/2026/03/18/enforcement-of-the-ai-act/">European Parliamentary Research Service</a>, March 2026).</li>
+<li>Article 50 applies from 2 August 2026 with fines to EUR 15 million or 3% of worldwide turnover, but a grace period runs to 2 December 2026 for marking duties on systems already on the market (<a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act">European Commission</a>, July 2026).</li>
+<li>National architectures differ in kind, not only in readiness: Poland created a single dedicated supervisor while France plans to involve fourteen separate bodies (<a href="https://www.bsg.ox.ac.uk/blog/ai-acts-enforcement-gap-what-polands-new-regulator-reveals-about-europes-challenge">Blavatnik School of Government</a>, March 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The asymmetry may be temporary and largely cosmetic. Designation is administrative and can happen quickly once political attention arrives, and the AI Office holds sole enforcement authority over general-purpose models, which is where the largest providers and the greatest systemic risk sit. On that reading the national layer handles a long tail of lower-salience cases and the enforcement that matters is centralised and uniform. The counter to the counter is that the long tail is precisely where most deployers live, and Article 50 is a deployer-facing obligation.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. The disclosure calendar becomes negotiable</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="cluster-framing">A reporting deadline that can be moved by administrative act is not a planning anchor. California demonstrated this in the most direct way available: it withdrew a regulation its own board had already approved and moved the first emissions reporting deadline by three months, with the replacement text still not final. The statutory assurance escalation, by contrast, did not move and cannot be moved without legislation. That asymmetry is the planning instruction for this theme: build to the assurance standard, not to the filing date.</p>
+<div class="cluster-signals">
+<ul>
+<li>CARB approved the initial regulation on 26 February 2026 and then withdrew it from final review to make clarifying changes, deferring first Scope 1 and 2 reporting from 10 August to 10 November 2026 (<a href="https://content.govdelivery.com/accounts/CARB/bulletins/41d8418">California Air Resources Board</a>, June 2026).</li>
+<li>The replacement is not yet law. Modified text was published on 27 July 2026 with a fifteen-day comment window closing on 11 August, and still requires approval from the Office of Administrative Law (<a href="https://content.govdelivery.com/accounts/CARB/bulletins/421d3a1">California Air Resources Board</a>, July 2026).</li>
+<li>The assurance ramp sits in statute rather than in the rulemaking: limited assurance on Scope 1 and 2 from 2026, rising to reasonable assurance from 2030 (<a href="https://california.public.law/codes/health_and_safety_code_section_38532">California Health and Safety Code section 38532</a>).</li>
+<li>Mandatory Scope 3 for 2027 is proposed to cover only five of the fifteen categories, the ones already most commonly reported, which makes the demand standardisation of existing estimates rather than new data acquisition (<a href="https://www.ropesgray.com/en/insights/viewpoints/2026/07/102ndej/carb-fleshes-out-proposed-sb-253-ghg-emissions-reporting-and-assurance-requiremen">Ropes &amp; Gray</a>, July 2026).</li>
+<li>The second source of uncertainty is judicial and unresolved: the Ninth Circuit heard argument on the SB 261 challenge on 9 January 2026 and a merits decision is still awaited (<a href="https://www.mayerbrown.com/en/insights/publications/2026/08/california-climate-disclosure-laws-carb-finalizes-its-initial-rulemaking-resets-the-2026-deadline-and-previews-the-2027-framework">Mayer Brown</a>, August 2026).</li>
+<li>Europe shows the same pattern from the other direction. The revised ESRS were published on 3 July 2026 but sit in Parliament and Council scrutiny, applying from FY2027 with early adoption permitted only once in force (<a href="https://www.efrag.org/en/news-and-calendar/news/european-commission-publishes-delegated-act-on-revised-esrs-and-voluntary-sustainability-reporting">EFRAG</a>, July 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>A three-month deferral with a narrowed Scope 3 perimeter is regulatory pragmatism, not instability, and reading it as the collapse of the calendar overstates it. Regulators have always adjusted implementation timetables, and doing so in response to feasibility evidence is the system working. The stronger form of this objection is that the content of the obligation has been remarkably stable throughout: what moved was the date, not the requirement to measure. Companies that built capability rather than filings have lost nothing.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-2" class="xref">2</a>.</div>
+</div>
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Cyber supervision moves to the courts</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">Supervision that has run for two years as correspondence has now moved into adversarial forums on both axes at once. The Commission is suing four member states for never writing the law, and designated cloud and services providers are challenging the supervisory designations applied to them. For firms in scope this changes the character of the risk: the question is no longer only whether you comply, but whether the authority you would comply with exists, and whether the provider you depend on is contesting the regime it sits under.</p>
+<div class="report-figure">
+<h4>Figure 2: The infringement ladder, climbed to the top</h4>
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline diagram of the NIS2 infringement procedure. Transposition deadline 17 October 2024. Letters of formal notice to 23 member states on 28 November 2024. Reasoned opinions to 19 member states on 7 May 2025. Referral of 4 member states to the Court of Justice on 8 July 2026, with financial sanctions sought.">
+<line x1="40" y1="70" x2="680" y2="70" stroke="#c5cae9" stroke-width="3"></line>
+<circle cx="60" cy="70" r="9" fill="#5a6478"></circle>
+<circle cx="250" cy="70" r="9" fill="#f57c00"></circle>
+<circle cx="440" cy="70" r="9" fill="#ef6c00"></circle>
+<circle cx="650" cy="70" r="11" fill="#c62828"></circle>
+<text x="24" y="46" font-family="Georgia,serif" font-size="12" fill="#37415a">17 Oct 2024</text>
+<text x="212" y="46" font-family="Georgia,serif" font-size="12" fill="#37415a">28 Nov 2024</text>
+<text x="404" y="46" font-family="Georgia,serif" font-size="12" fill="#37415a">7 May 2025</text>
+<text x="608" y="46" font-family="Georgia,serif" font-size="12" fill="#c62828">8 Jul 2026</text>
+<text x="10" y="102" font-family="Georgia,serif" font-size="12" fill="#1a237e">Deadline</text>
+<text x="196" y="102" font-family="Georgia,serif" font-size="12" fill="#1a237e">Formal notice</text>
+<text x="386" y="102" font-family="Georgia,serif" font-size="12" fill="#1a237e">Reasoned opinion</text>
+<text x="600" y="102" font-family="Georgia,serif" font-size="12" fill="#1a237e">Court referral</text>
+<text x="196" y="120" font-family="Georgia,serif" font-size="12" fill="#5a6478">23 states</text>
+<text x="386" y="120" font-family="Georgia,serif" font-size="12" fill="#5a6478">19 states</text>
+<text x="600" y="120" font-family="Georgia,serif" font-size="12" fill="#5a6478">4 states</text>
+<line x1="40" y1="146" x2="680" y2="146" stroke="#c5cae9" stroke-width="1"></line>
+<text x="40" y="170" font-family="Georgia,serif" font-size="12" fill="#5a6478">Ireland, Spain, France and the Netherlands. Lump sum plus daily penalties sought until full transposition is notified.</text>
+</svg>
+<p class="figure-caption">Source: European Commission, <a href="https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules">referral press release</a> (July 2026); state counts at the notice and opinion stages from the same release and contemporaneous reporting.</p>
+</div>
+<div class="cluster-signals">
+<ul>
+<li>The Commission referred Ireland, Spain, France and the Netherlands to the Court of Justice on 8 July 2026, asking for a lump sum and continuing daily penalties until each notifies full transposition (<a href="https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2">The Record</a>, July 2026).</li>
+<li>The procedural ladder is now fully climbed: letters of formal notice on 28 November 2024, reasoned opinions on 7 May 2025, referral in July 2026 (<a href="https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules">European Commission</a>, July 2026).</li>
+<li>France was still pre-adoption a month after referral. A written answer published in the Journal officiel on 4 August 2026 continues to describe the measure as a projet de loi de transposition (<a href="https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14127.pdf">Assemblée nationale</a>, August 2026).</li>
+<li>Transposition alone does not close the gap. Germany, which has transposed, recorded 17,729 entities registered with the BSI by 30 June 2026, well short of commonly cited scope estimates (<a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-in-Zahlen/nis-2-in-zahlen.html">BSI</a>, August 2026).</li>
+<li>On the financial-sector axis, the first DORA incident report records 3,383 major incidents with about a third having cross-border impact through shared infrastructure, and only around a tenth cybersecurity-related (<a href="https://www.eiopa.europa.eu/esas-publish-first-report-dora-major-ict-related-incidents-2026-06-03_en">ESAs</a>, June 2026).</li>
+<li>Designated critical providers are contesting the regime rather than absorbing it, with challenges brought or weighed before the ESAs' Joint Board of Appeal (<a href="https://blogs.law.ox.ac.uk/oblb/blog-post/2026/04/doras-ctpp-oversight-regime-designation-litigation">Oxford Business Law Blog</a>, April 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Court referrals are slow and their practical effect on any individual firm is close to nil in the near term. A CJEU judgment against France penalises the French exchequer, not French companies, and the transposition will land regardless of the litigation. On this reading the referral is a milestone in an administrative process rather than a change in corporate risk. What weakens that objection is the ENISA evidence that legislation drives cyber investment: delay is not neutral, it shows up as measurable capability shortfall in the sectors least able to absorb it.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Liability becomes the other enforcement channel</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="cluster-framing">From 9 December 2026 a second enforcement route opens that is not staffed by regulators at all. The revised Product Liability Directive brings software and AI systems inside the definition of a product, lets a claimant compel disclosure on a showing of mere plausibility, and permits a court to presume defectiveness where that disclosure is not met. The practical consequence for any firm deploying AI is that the technical documentation built to satisfy a supervisor is simultaneously the evidence file for a civil claim, and the decision about what to retain is now a liability decision rather than a records-management one.</p>
+<div class="cluster-signals">
+<ul>
+<li>Member states must bring transposing measures into force by 9 December 2026, and the Directive expressly includes software within the definition of a product (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024L2853">Directive (EU) 2024/2853</a>).</li>
+<li>The disclosure trigger is deliberately low and its threshold is undefined: a claimant need only present facts sufficient to support the plausibility of the claim (<a href="https://www.jonesday.com/en/insights/2026/06/the-revised-eu-product-liability-directive-state-of-play-across-eu-member-states-and-evolving-risk-landscape">Jones Day</a>, June 2026).</li>
+<li>Failure to comply with ordered disclosure risks the defect itself being presumed, which converts document retention practice into a determinant of liability outcomes (<a href="https://www.pinsentmasons.com/out-law/news/german-businesses-must-assess-product-liability-frameworks-ahead-of-eu-deadline">Pinsent Masons</a>, August 2026).</li>
+<li>AI Act compliance artefacts are the material at issue: technical documentation and record-keeping obligations become the evidentiary record a claimant seeks (<a href="https://www.freshfields.com/en/our-thinking/blogs/risk-and-compliance/product-risks-today-how-the-new-product-liability-directive-turns-ai-act-complia-102mpu2">Freshfields</a>, April 2026).</li>
+<li>Commencement will be staggered rather than synchronised. Only Hungary had fully transposed as at late June 2026, with roughly half of member states showing no meaningful public step (<a href="https://www.faegredrinker.com/en/insights/publications/2026/6/transposing-the-eus-new-product-liability-directive-a-member-state-progress-report">Faegre Drinker</a>, June 2026).</li>
+<li>There is no harmonised fallback: the AI Liability Directive was withdrawn after being flagged in the Commission's 2025 work programme, leaving claims outside the strict-liability perimeter to national fault regimes (<a href="https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-ai-liability-directive">European Parliament</a>, May 2026).</li>
+<li>Insurers are repricing rather than monitoring, with psychiatric injury and data corruption becoming recoverable heads of damage and cover demand extending to importers, distributors and online marketplaces (<a href="https://www.algoodbody.com/insights-publications/eu-revised-product-liability-directive-what-does-it-mean-for-irish-insurers">A&amp;L Goodbody</a>, May 2026).</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Product liability regimes take years to generate case law, and the first claims under this Directive will concern conventional goods rather than AI systems. Strict liability also requires damage, and most enterprise AI failures produce economic loss rather than the personal injury or property damage the regime covers, which leaves a narrower opening than the headline suggests. The rebuttal is that the disclosure mechanism bites before any of that is resolved: a defendant can be ordered to hand over its documentation long before a court decides whether the claim succeeds.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-3" class="xref">3</a>.</div>
+</div>
+<div class="signal-cluster tier-horizon" id="cluster-5">
+<div class="cluster-header"><h3>5. Washington against the states</h3><span class="impact-tier horizon">Longer-Range</span></div>
+<p class="cluster-framing">The United States is running the opposite experiment to Europe. Rather than decentralising enforcement, the federal executive has tried to eliminate the sub-federal layer entirely, and has so far failed. For any company with US operations the planning consequence is counter-intuitive: the attempt to create a single national standard has left more state law in force, not less, and has added federal litigation as a new variable on top. Deferring multi-state compliance work in expectation of preemption is now the expensive choice.</p>
+<div class="cluster-signals">
+<ul>
+<li>Executive Order 14365 directs the Attorney General to establish a litigation task force whose sole responsibility is challenging state AI laws, and conditions certain discretionary funding on non-enforcement (<a href="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/">The White House</a>, December 2025).</li>
+<li>The order asserts no preemptive authority of its own. The published text names the grounds as unconstitutional regulation of interstate commerce or conflict with existing federal regulation (<a href="https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence">Federal Register, 90 FR 58499</a>, December 2025).</li>
+<li>The administration conceded the statutory route is necessary, asking Congress in March 2026 to preempt state AI laws imposing undue burdens (<a href="https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf">The White House</a>, March 2026).</li>
+<li>Congress has declined twice, rejecting preemption in the One Big Beautiful Bill Act and again in the National Defense Authorization Act (<a href="https://www.ropesgray.com/en/insights/alerts/2026/03/the-white-house-legislative-recommendations-national-policy-framework-for-artificial-intelligence-an">Ropes &amp; Gray</a>, March 2026).</li>
+<li>States legislated anyway. Colorado replaced its algorithmic-discrimination duty with a documentation and disclosure framework rather than repealing it, with developer obligations starting 1 January 2027 (<a href="https://leg.colorado.gov/bills/sb26-189">Colorado General Assembly</a>, May 2026).</li>
+</ul>
+</div>
+<div class="weak-signals">
+<h4>Weak signals</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> The preemption window is shrinking rather than widening. The moratorium began as a decade-long proposal, failed twice in Congress, and now survives as a <a href="https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/">three-year preemption inside a bipartisan discussion draft</a> (June 2026). Gains weight if the draft receives committee action or acquires a Senate companion; loses weight if it stalls through the autumn.</li>
+<li><span class="weak-signal-marker">Weak signal</span> The federal theory of the case is constitutional, not preemptive. In the Colorado litigation the Department of Justice is arguing <a href="https://ai-analytics.wharton.upenn.edu/wharton-accountable-ai-lab/the-colorado-ai-act-xai-and-the-doj-what-business-leaders-need-to-know/">extraterritorial burden on interstate commerce</a> (May 2026) rather than displacement by federal rule. Gains weight if a court accepts a dormant Commerce Clause theory against a state AI statute, which would reach far more state law than any statute Congress has considered.</li>
+<li><span class="weak-signal-marker">Weak signal</span> State legislative energy is migrating to frontier-model and chatbot rules rather than general algorithmic-discrimination duties, with Illinois adding <a href="https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/">annual audit requirements for covered companies</a> (July 2026). Gains weight if a second state adopts an audit mandate, which would create a compliance surface with no EU analogue.</li>
+</ul>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>A single adverse ruling could invert this reading quickly. If a court accepts the dormant Commerce Clause argument against Colorado, the reasoning would reach most state AI statutes at once, and the count of 109 enacted laws would become a measure of exposure to invalidation rather than of compliance burden. Equally, a change in congressional composition could revive statutory preemption at short notice. The theme is rated Longer-Range because the mechanism is contested and slow, not because the outcome is small.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+<p class="framing-note">Four decisions turn this cycle's signals into the FY27 compliance and strategy plan. Each names the move, a horizon and a decision posture.</p>
+
+
+
+<div class="si-item" id="si-1">
+<h4>SI 1: Re-baseline the FY27 plan on enforcement probability by jurisdiction, not on a single compliance calendar</h4>
+<p>The compliance function should rebuild its FY27 jurisdictional map before the plan is signed off, weighting effort by whether a competent authority exists, is funded and has published a supervisory approach, rather than by obligation alone. This is a Decide rather than a Prepare because the plan is being written now and the alternative, an undifferentiated European compliance programme, systematically over-invests in states with no supervisor and under-invests in the two or three that will actually act. Germany is the immediate case: a funded authority with a service desk and a sandbox will generate supervisory contact within the plan period, and that contact is an opportunity as much as a risk.</p>
+<p class="si-action">Action: By 30 September 2026 the Chief Compliance Officer produces a jurisdiction-weighted enforcement map for the FY27 plan, naming for each material market whether an AI Act competent authority is designated, funded and operational.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a> and <a href="#cluster-3" class="xref">3</a>.</span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>SI 2: Move the disclosure anchor from the reporting date to assurance-grade data readiness</h4>
+<p>Finance and the audit committee should re-cut the sustainability reporting programme so that its milestones are assurance milestones rather than filing milestones. The evidence for this is that the filing date moved three months by administrative act while the assurance escalation, written into statute, did not move at all and cannot without legislation. A programme built to a filing date has to be re-planned every time a regulator reopens a rulemaking; a programme built to limited assurance in 2026 and reasonable assurance by 2030 is indifferent to that churn and is also the harder capability to acquire late.</p>
+<p class="si-action">Action: Before the FY27 budget is fixed, the CFO and audit committee chair agree an assurance-readiness milestone plan covering Scope 1 and 2 to limited-assurance standard, with the five proposed 2027 Scope 3 categories scoped separately.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-2" class="xref">2</a>.</span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>SI 3: Treat AI Act technical documentation as litigation discovery material before 9 December 2026</h4>
+<p>The General Counsel and the technology function should jointly review retention, versioning and contents of AI technical documentation on the explicit assumption that its next reader is a claimant's counsel rather than a supervisor. The Directive's disclosure mechanism triggers on a plausibility showing and a failure to disclose can itself presume the defect, so the material's completeness becomes a determinant of outcome rather than a matter of tidiness. The work has to precede transposition rather than follow it, because national commencement dates will be staggered and the first firms to be tested will be those in the states that moved early.</p>
+<p class="si-action">Action: By 30 November 2026 the General Counsel completes a retention and disclosure review of AI technical documentation and logs across all EU-facing systems, with a written position on the development-risk defence in each material jurisdiction.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-1" class="xref">1</a>.</span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>SI 4: Track the US preemption contest as a litigation variable rather than a compliance one</h4>
+<p>Strategy and legal should keep the US state AI landscape under active monitoring without re-planning around any expected federal displacement, because the executive order asserts no preemptive authority of its own and Congress has declined the statutory route twice. The variable worth watching is judicial: a court accepting the interstate-commerce argument against Colorado would reach far more state law than any bill currently drafted, and that is the event that would justify changing posture. Until then, the operative fact is that state obligations continue to accumulate.</p>
+<p class="si-action">Action: The General Counsel adds the DOJ intervention in the Colorado litigation to the quarterly legal risk report, with a standing trigger to convene if a court rules on the interstate-commerce theory.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-5" class="xref">5</a>.</span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix</h2>
+<p class="framing-note">Two uncertainties will shape the regulatory operating environment over the next three to five years more than any other. The vertical axis is enforcement capacity: whether national authorities are named, funded and staffed, with resourced at the top and hollow at the bottom. The horizontal axis is calendar reliability: whether published deadlines hold, with holding on the left and moving on the right. The four scenarios below are planning aids, not forecasts.</p>
+
+<!-- The bordered matrix carries the axis names (top and left) and the four
+     extreme-pair labels at the corners of the frame. Match each scenario's
+     cell position to its corner-label: top-left = high vertical + low
+     horizontal, top-right = high vertical + high horizontal, etc. -->
+<div class="scenario-matrix-axed">
+<div class="axis-name-h">Calendar reliability (deadlines hold on the left, keep moving on the right)</div>
+<div class="axis-name-v">Enforcement capacity (resourced at top, hollow at bottom)</div>
+<div class="matrix-frame">
+<div class="corner-label corner-tl">Resourced &middot; Holding</div>
+<div class="corner-label corner-tr">Resourced &middot; Moving</div>
+<div class="corner-label corner-bl">Hollow &middot; Holding</div>
+<div class="corner-label corner-br">Hollow &middot; Moving</div>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>The Even Hand</h4>
+<p>Member states complete their designations through 2027 and fund them at something like the German level, while the Californian rulemaking settles and the 10 November date holds. Compliance becomes expensive but legible: obligations mean roughly the same thing across jurisdictions, supervisory expectations converge through the AI Office and the ESAs, and a single well-built programme travels. Enforcement actions begin appearing in 2027 at a steady rate and cluster on genuine outliers rather than on whoever happened to be in a well-staffed jurisdiction. Planning in this world is a resourcing question rather than a geography question, and the firms that invested early in documentation and assurance capability are rewarded with lower marginal cost per new obligation.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Five or more further single points of contact notified before the end of 2026; the CARB regulation clears the Office of Administrative Law without further modification; the first national AI Act enforcement action lands in a state other than Germany.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>The Moving Target</h4>
+<p>Authorities get built and funded, but deadlines keep slipping as regulators respond to feasibility complaints. This is the most operationally demanding world, because capable supervisors exist and will eventually act, while the timetable against which readiness is measured keeps resetting. Programmes planned to dates are re-planned repeatedly and lose credibility internally; the organisations that cope are those that decoupled capability milestones from filing milestones. Assurance readiness, documentation completeness and inventory quality become the real measures of progress, and the published deadline becomes a scheduling detail rather than a governance objective.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> A second material deferral in either California or the ESRS scrutiny process; further national AI Act designations announced alongside transitional non-enforcement statements; supervisors publishing readiness expectations rather than enforcement notices.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>The Paper Regime</h4>
+<p>The dates hold but the supervisors never materialise beyond a handful of states. Obligations are legally in force and practically unpoliced across much of the single market, which sounds comfortable and is not, because exposure concentrates rather than disappears: it migrates to the two or three jurisdictions with functioning authorities and to the private-law channel opening in December 2026. Firms discover that the binding constraint was never the regulator but the claimant, and that liability, insurance pricing and contractual risk allocation do the work enforcement was expected to do. Compliance budgets set by reference to supervisory risk turn out to have been aimed at the wrong adversary.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> The single-points-of-contact count remains in single figures into 2027; the first significant AI-related civil claims are filed under transposed product liability rules; insurers reprice AI-related product cover ahead of any enforcement action.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>The Lottery</h4>
+<p>Neither capacity nor calendar is dependable. Obligations exist, deadlines move, and whether anything is enforced depends on which member state a system happens to be placed in and which rulemaking cycle it lands in. This is the hardest world to plan for and the easiest to under-prepare for, because the absence of visible enforcement reads as evidence that preparation was unnecessary right up until the moment a single authority acts. The rational posture is insurance-like rather than compliance-like: hold enough documentation and assurance capability to survive an adverse event whose timing and location cannot be predicted, and accept that the cost cannot be justified by any specific expected enforcement.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Further deferrals coinciding with continued designation failure; the CJEU proceedings producing penalties without prompting rapid transposition; divergent national commencement of the Product Liability Directive well past 9 December 2026.</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+
+
+<div class="exclusion-item excl-1">
+<span class="excl-eyebrow">Digital markets enforcement</span>
+<h4>A further step-change in DMA or DSA penalties against platform gatekeepers</h4>
+<p>The Commission's Google decision landed on 22 July at EUR 890 million with a sixty-day remedy clock, and DSA enforcement has continued through the summer. This is consequential for platform businesses and largely second-order for the regulated-industry audience this briefing serves, whose exposure runs through the platforms they buy from rather than through gatekeeper obligations they carry themselves. The June cycle treated digital-markets enforcement as its own theme; a cycle later the pattern is established rather than emerging, and the analytical return on repeating it is low.</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> a gatekeeper fails to satisfy a remedy order and periodic penalty payments begin accruing, which would convert a fine into an operating-model constraint with supply-chain consequences for enterprise buyers.</p>
+</div>
+
+<div class="exclusion-item excl-2">
+<span class="excl-eyebrow">Trade and export controls</span>
+<h4>Escalation of the US and China dual-use semiconductor perimeter</h4>
+<p>June's cycle carried this as a Longer-Range theme. Nothing decisive was found to have moved on the licensing thresholds or the tariff architecture within this cycle's window, and the EU Anti-Coercion Instrument remains uninvoked so far as this scan reached. Carrying a theme forward on the strength of its previous importance rather than on new evidence is how a cycle becomes a newsletter, so it comes out this cycle and is resolved in the continuity ledger instead.</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> the Anti-Coercion Instrument is invoked, or licensing thresholds move again in a way that changes the classification of currently exportable hardware.</p>
+</div>
+
+<div class="exclusion-item excl-3">
+<span class="excl-eyebrow">Political discontinuity</span>
+<h4>A change of European Commission priorities that reverses the simplification agenda</h4>
+<p>The Omnibus programme has proceeded through two cycles with cross-institutional support, and the revised ESRS are already in scrutiny. A reversal would require a political shift with no current evidence behind it, and planning for one would mean holding capability against a standard that has been formally withdrawn. The more likely near-term variation is further simplification rather than less, which the current posture already accommodates.</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> the Parliament or Council rejects the ESRS delegated act during scrutiny, which would reopen the content question rather than only the date.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Discussion Points for the Leadership Team</h2>
+<ol>
+<li>If we weighted compliance spend by the enforcement capacity of each jurisdiction rather than by the obligations we carry, which two markets would gain budget and which four would lose it, and are we willing to defend that asymmetry to a regulator who asks why?</li>
+<li>Our sustainability reporting programme currently has a filing date as its governing milestone. What would we have to stop doing in order to make limited assurance readiness the governing milestone instead, and who owns that trade-off?</li>
+<li>If a claimant compelled disclosure of our AI technical documentation next year, what would it show about systems we deployed before the documentation discipline was in place, and is that a retention question or a remediation question?</li>
+<li>We have no evidenced position on whether Austria, or any other state outside our core markets, has stood up a competent authority. Is that acceptable ignorance, or is jurisdictional supervisory status something we should be tracking as a standing indicator?</li>
+<li>The weak signal in this cycle is that the US federal case against state AI law is being argued on interstate-commerce grounds rather than preemption. If that argument succeeds, most state AI statutes fall at once. Are we planning for the world where our multi-state compliance investment becomes redundant, and what would we want to have avoided building?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This cycle draws on 42 sources: 23 Tier 1, 15 Tier 2, 4 Tier 3 and no Tier 4. The recency window is 180 days back from the 13 August 2026 cycle date, with four structural anchors held outside it because they are the canonical primary instruments rather than commentary: Directive (EU) 2024/2853, California Health and Safety Code section 38532, Executive Order 14365 and its Federal Register publication. Every URL was fetched and read before inclusion, and each verbatim span was taken from the fetched text rather than from a search-engine snippet; sources whose date could not be evidenced from the page itself were dropped rather than estimated. The tier profile is uneven by theme and deliberately so. Themes 1, 2 and 3 rest almost entirely on primary institutional sources, because supervisory architecture, rulemaking status and infringement procedure are all matters of public record. Theme 4 leans on Tier 2 law-firm analysis, because transposition progress across 27 member states is not published centrally and practitioner surveys are the only systematic view available; the Directive itself carries every load-bearing legal claim. Theme 5 carries three of the four Tier 3 sources in the base, because the count of enacted state laws and the status of a congressional discussion draft are not available from any Tier 1 or Tier 2 publisher. One conflict is worth naming: German scope estimates for NIS2 vary between roughly 29,000 and 30,000 entities depending on the source, and none is official, so the report cites only the BSI's own registration figure of 17,729 and describes the gap qualitatively rather than quoting a shortfall.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+
+<h4>Theme 1: Supervision goes national: Germany's KI-MIG and the fragmentation of one rulebook into 27 enforcers</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://bmds.bund.de/aktuelles/pressemitteilungen/detail/neues-ki-gesetz-tritt-in-kraft">Bundesministerium für Digitales und Staatsmodernisierung (BMDS)</a> <span style="font-size:0.85em;color:#5a6478;">[DE]</span></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>Germany's KI-MIG entered into force on 29 July 2026, four days before the AI Act's GPAI and transparency layer went live, concentrating national coordination in the Bundesnetzagentur while deliberately preserving the jurisdiction of existing sectoral market-surveillance bodies.</td></tr>
+<tr class="tier-1"><td><a href="https://www.bundesnetzagentur.de/1112336">Bundesnetzagentur</a> <span style="font-size:0.85em;color:#5a6478;">[DE]</span></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>The Bundesnetzagentur's own account confirms it becomes simultaneously market-surveillance authority, single contact point and complaints body for the AI Regulation in Germany, with direct supervisory reach over AI in radio equipment and in sensitive Annex III domains such as HR, critical infrastructure and education.</td></tr>
+<tr class="tier-1"><td><a href="https://epthinktank.eu/2026/03/18/enforcement-of-the-ai-act/">European Parliamentary Research Service (EPRS)</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>The European Parliament's own research service documents the scale of the Article 70 designation gap: seven months after the August 2025 deadline, only eight of twenty-seven member states appeared on the Commission's list of single points of contact.</td></tr>
+<tr class="tier-1"><td><a href="https://epthinktank.eu/2026/04/01/ai-regulatory-sandboxes-state-of-play-and-implementation-challenges/">European Parliamentary Research Service (EPRS)</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>The sandbox obligation bites from 2 August 2026, yet EPRS records that as of August 2025 only Spain had an operational AI regulatory sandbox, with five implementing, four intending and sixteen silent on their plans.</td></tr>
+<tr class="tier-1"><td><a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act">European Commission (Shaping Europe's digital future)</a></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>The Commission's own guidance, refreshed nine days before go-live, confirms Article 50 applies from 2 August 2026 and, decisively for this theme, that enforcement falls mainly to national market-surveillance authorities rather than the AI Office, whose jurisdiction is confined to systems built on general-purpose models under specific conditions.</td></tr>
+<tr class="tier-2"><td><a href="https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html">Wilson Sonsini Goodrich &amp; Rosati</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>Published the day after go-live, this sets out precisely what the AI Office may now do to GPAI providers: demand information, obtain model access for evaluation, compel corrective measures, and in serious cases force restriction, withdrawal or recall, backed by fines up to the higher of EUR 15 million or 3% of worldwide turnover.</td></tr>
+<tr class="tier-2"><td><a href="https://www.bsg.ox.ac.uk/blog/ai-acts-enforcement-gap-what-polands-new-regulator-reveals-about-europes-challenge">Blavatnik School of Government, University of Oxford</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Poland's creation of KRiBSI as a single dedicated AI supervisor is the structural opposite of the dominant European pattern, in which oversight is dispersed across incumbent regulators, with France reportedly involving fourteen separate bodies.</td></tr>
+<tr class="tier-2"><td><a href="https://artificialintelligenceact.eu/national-implementation-plans/">Future of Life Institute (EU Artificial Intelligence Act)</a></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>This tracker gives the member-state-level texture behind the aggregate designation gap, classifying roughly nine states as having designated both required authorities, around a dozen as partially clear with legislation pending or only one authority named, and a residual group with no competent authority established at all.</td></tr>
+</tbody>
+</table>
+<h4>Theme 2: The disclosure calendar becomes negotiable: California's reset and the assurance ramp</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://content.govdelivery.com/accounts/CARB/bulletins/41d8418">California Air Resources Board</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>CARB itself confirms it withdrew the Initial Regulation from OAL final review after the Board had already approved it on 26 February 2026, in order to make clarifying changes through a 15-day comment process.</td></tr>
+<tr class="tier-1"><td><a href="https://content.govdelivery.com/accounts/CARB/bulletins/421d3a1">California Air Resources Board</a></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>CARB re-proposed the withdrawn regulation as modified text on 27 July 2026 with a 15-day comment window closing 11 August 2026, covering the fee program, the first-year reporting deadline and key definitions.</td></tr>
+<tr class="tier-1"><td><a href="https://california.public.law/codes/health_and_safety_code_section_38532">California Legislature (Health and Safety Code, via Public.Law)</a></td><td class="tier-1">Tier 1</td><td>Oct 2025</td><td>The underlying statute, not the CARB rulemaking, fixes the assurance escalation: limited assurance on Scope 1 and 2 from 2026 and reasonable assurance from 2030, with Scope 3 limited assurance from 2030.</td></tr>
+<tr class="tier-1"><td><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ%3AL_202600470">Official Journal of the European Union (EUR-Lex)</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>The enacted Omnibus I Directive rewrites CSRD Article 19a so that sustainability reporting bites only on undertakings exceeding both EUR 450 million net turnover and an average of 1,000 employees.</td></tr>
+<tr class="tier-2"><td><a href="https://www.ropesgray.com/en/insights/viewpoints/2026/07/102ndej/carb-fleshes-out-proposed-sb-253-ghg-emissions-reporting-and-assurance-requiremen">Ropes &amp; Gray LLP</a></td><td class="tier-2">Tier 2</td><td>Jul 2026</td><td>At its 21 July 2026 workshop CARB previewed a 2027 framework in which mandatory Scope 3 reporting is narrowed to five of the fifteen GHG Protocol categories, with the rest voluntary.</td></tr>
+<tr class="tier-2"><td><a href="https://www.mayerbrown.com/en/insights/publications/2026/08/california-climate-disclosure-laws-carb-finalizes-its-initial-rulemaking-resets-the-2026-deadline-and-previews-the-2027-framework">Mayer Brown</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>As of early August 2026 the Ninth Circuit has heard argument in the Chamber of Commerce appeal but has issued no merits decision, so the injunction pending appeal against SB 261 remains the operative legal position.</td></tr>
+<tr class="tier-2"><td><a href="https://www.efrag.org/en/news-and-calendar/news/european-commission-publishes-delegated-act-on-revised-esrs-and-voluntary-sustainability-reporting">EFRAG</a></td><td class="tier-2">Tier 2</td><td>Jul 2026</td><td>The Commission has adopted and published the delegated act carrying the simplified ESRS, but it is in the Parliament and Council scrutiny window and only enters into force on Official Journal publication if not rejected.</td></tr>
+<tr class="tier-2"><td><a href="https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q2-2026">S&amp;P Global Sustainable1</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>Twenty-eight jurisdictions had adopted the ISSB standards on a voluntary or mandatory basis as of 22 April 2026, with a further twelve planning adoption.</td></tr>
+</tbody>
+</table>
+<h4>Theme 3: Cyber supervision moves to the courts: NIS2 referrals and the DORA second cycle</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules">European Commission (Shaping Europe's digital future)</a></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>On 8 July 2026 the Commission escalated NIS2 non-transposition to the third and final infringement stage, referring Ireland, Spain, France and the Netherlands to the CJEU.</td></tr>
+<tr class="tier-3"><td><a href="https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2">The Record (Recorded Future News)</a></td><td class="tier-3">Tier 3</td><td>Jul 2026</td><td>Reporting by Alexander Martin confirms the referrals were filed at the CJEU against four member states more than 20 months past the 17 October 2024 transposition deadline.</td></tr>
+<tr class="tier-1"><td><a href="https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14127.pdf">Assemblée nationale (Question écrite QE14127, réponse du Premier ministre)</a> <span style="font-size:0.85em;color:#5a6478;">[FR]</span></td><td class="tier-1">Tier 1</td><td>Aug 2026</td><td>The French government's answer, published in the Journal officiel on 4 August 2026, under a month after the CJEU referral, still frames NIS2 as a 'projet de loi de transposition', confirming the enabling statute remained unadopted at that date.</td></tr>
+<tr class="tier-1"><td><a href="https://www.fsma.be/en/news/dora-register-information-third-party-ict-service-providers-limited-update-2026">FSMA (Financial Services and Markets Authority, Belgium)</a></td><td class="tier-1">Tier 1</td><td>Feb 2026</td><td>A national competent authority confirms the second Register of Information cycle is deliberately narrower than the 2025 baseline collection, with only a limited subset of firms required to resubmit and an option simply to confirm no change.</td></tr>
+<tr class="tier-1"><td><a href="https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors">ENISA (European Union Agency for Cybersecurity)</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>ENISA's 2026 NIS360 finds overall maturity rising, with trust services, aviation and financial market infrastructures now scoring high, while a persistent risk zone remains where sector criticality outruns capability.</td></tr>
+<tr class="tier-1"><td><a href="https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-in-Zahlen/nis-2-in-zahlen.html">BSI (Bundesamt für Sicherheit in der Informationstechnik)</a> <span style="font-size:0.85em;color:#5a6478;">[DE]</span></td><td class="tier-1">Tier 1</td><td>Aug 2026</td><td>Germany, which unlike the four referred states has transposed, publishes hard registration counts: 17,729 entities registered with the BSI by 30 June 2026, split 11,501 important and 6,215 particularly important entities.</td></tr>
+<tr class="tier-1"><td><a href="https://www.eiopa.europa.eu/esas-publish-first-report-dora-major-ict-related-incidents-2026-06-03_en">EIOPA (on behalf of the ESAs: EBA, EIOPA, ESMA)</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>The ESAs' inaugural DORA incident report records roughly 3,383 major incidents across the EU financial sector, about 0.18 per in-scope entity, with around one third having cross-border impact through shared infrastructure.</td></tr>
+<tr class="tier-2"><td><a href="https://blogs.law.ox.ac.uk/oblb/blog-post/2026/04/doras-ctpp-oversight-regime-designation-litigation">Oxford Business Law Blog, University of Oxford Faculty of Law</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Academic-hosted analysis by Linklaters partners confirms the ESAs designated an inaugural list of 19 CTPPs and argues that each oversight action is itself a litigation vector.</td></tr>
+</tbody>
+</table>
+<h4>Theme 4: Liability becomes the other enforcement channel: the revised Product Liability Directive</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024L2853">EUR-Lex / Official Journal of the European Union</a></td><td class="tier-1">Tier 1</td><td>Nov 2024</td><td>The Directive sets a single hard date, requiring member states to bring transposing measures into force by 9 December 2026, which is the Directive's own deadline and not the date any given national regime actually starts to bite.</td></tr>
+<tr class="tier-1"><td><a href="https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-ai-liability-directive">European Parliament (Legislative Train Schedule)</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>The Parliament's own legislative tracker confirms the AI Liability Directive proposal was flagged for withdrawal in the Commission's 2025 work programme and formally withdrawn in October 2025.</td></tr>
+<tr class="tier-1"><td><a href="https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-produkthaftungsrecht-1150448">Deutscher Bundestag</a> <span style="font-size:0.85em;color:#5a6478;">[DE]</span></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>Germany's transposition bill reached first reading in the Bundestag in early March 2026, framed in the government's own words as the first comprehensive reform of German product liability law since 1989.</td></tr>
+<tr class="tier-2"><td><a href="https://www.faegredrinker.com/en/insights/publications/2026/6/transposing-the-eus-new-product-liability-directive-a-member-state-progress-report">Faegre Drinker Biddle &amp; Reath LLP</a></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>As at late June 2026 only Hungary had completed transposition, with legislation adopted 16 December 2025, roughly thirteen member states including Germany, Ireland, Italy, the Netherlands and Portugal at draft or in-progress stage, and a comparable number, notably France, Spain, Belgium and Poland, showing no meaningful public step.</td></tr>
+<tr class="tier-2"><td><a href="https://www.jonesday.com/en/insights/2026/06/the-revised-eu-product-liability-directive-state-of-play-across-eu-member-states-and-evolving-risk-landscape">Jones Day</a></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>Jones Day's mid-2026 survey records published draft transposition bills in Germany, Finland, Czechia, Slovakia, Lithuania, Croatia, the Netherlands, Denmark, Poland and Sweden, and identifies the disclosure mechanism's undefined plausibility threshold as the single most contested design choice, the Dutch draft being the most claimant-friendly.</td></tr>
+<tr class="tier-2"><td><a href="https://www.freshfields.com/en/our-thinking/blogs/risk-and-compliance/product-risks-today-how-the-new-product-liability-directive-turns-ai-act-complia-102mpu2">Freshfields</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>This is the sharpest articulation of the discovery interaction: because the PLD ties defectiveness to compliance with mandatory safety requirements, the AI Act's Article 11 technical documentation and its logging obligations become the evidentiary record a claimant seeks under Article 9 disclosure.</td></tr>
+<tr class="tier-2"><td><a href="https://www.pinsentmasons.com/out-law/news/german-businesses-must-assess-product-liability-frameworks-ahead-of-eu-deadline">Pinsent Masons (Out-Law)</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>The most recent practitioner read, published four months before the deadline, stresses the operational consequence of Article 10: a defendant that fails to comply with a court-ordered disclosure risks having defectiveness presumed against it, which turns document-retention and internal record-keeping practice into a direct determinant of liability outcomes.</td></tr>
+<tr class="tier-2"><td><a href="https://www.algoodbody.com/insights-publications/eu-revised-product-liability-directive-what-does-it-mean-for-irish-insurers">A&amp;L Goodbody LLP</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>The clearest insurance-market read on the reform: non-life insurers are being told to reassess policy wording, underwriting guidelines and reserving practice before 9 December 2026, because software, AI systems and cybersecurity failures now fall within 'product' and psychiatric injury and data corruption become recoverable heads of damage.</td></tr>
+</tbody>
+</table>
+<h4>Theme 5: Washington against the states: federal preemption as the new regulatory risk</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/">The White House</a></td><td class="tier-1">Tier 1</td><td>Dec 2025</td><td>The order directs the Attorney General to stand up an AI Litigation Task Force within 30 days whose sole remit is to sue states over AI laws the administration deems inconsistent with federal policy.</td></tr>
+<tr class="tier-1"><td><a href="https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence">Federal Register (Office of the Federal Register, NARA)</a></td><td class="tier-1">Tier 1</td><td>Dec 2025</td><td>The authoritative citation is Executive Order 14365, published at 90 FR 58499 on 16 December 2025, document number 2025-23092, signed 11 December 2025.</td></tr>
+<tr class="tier-1"><td><a href="https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf">The White House</a></td><td class="tier-1">Tier 1</td><td>Mar 2026</td><td>In March 2026 the administration converted the executive order's ambition into an explicit ask of Congress: statutory preemption of state AI laws that impose undue burdens, replacing state regimes with a single minimally burdensome federal standard.</td></tr>
+<tr class="tier-1"><td><a href="https://leg.colorado.gov/bills/sb26-189">Colorado General Assembly</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>Colorado did not repeal its AI regime under federal pressure; it rewrote it.</td></tr>
+<tr class="tier-2"><td><a href="https://www.ropesgray.com/en/insights/alerts/2026/03/the-white-house-legislative-recommendations-national-policy-framework-for-artificial-intelligence-an">Ropes &amp; Gray LLP</a></td><td class="tier-2">Tier 2</td><td>Mar 2026</td><td>Ropes &amp; Gray's reading is that the White House framework runs into a repeated congressional refusal: preemption was rejected in the One Big Beautiful Bill Act and again in the National Defense Authorization Act.</td></tr>
+<tr class="tier-2"><td><a href="https://ai-analytics.wharton.upenn.edu/wharton-accountable-ai-lab/the-colorado-ai-act-xai-and-the-doj-what-business-leaders-need-to-know/">Wharton Accountable AI Lab, University of Pennsylvania</a></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>The preemption fight has moved from paper to court: the Department of Justice did not merely file a brief in xAI's challenge to the Colorado AI Act but intervened and filed its own complaint, which Wharton characterises as highly unusual.</td></tr>
+<tr class="tier-3"><td><a href="https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/">Roll Call</a></td><td class="tier-3">Tier 3</td><td>Jun 2026</td><td>After the moratorium failed in reconciliation and again in the defence bill, the vehicle has shifted to a bipartisan House discussion draft from Obernolte and Trahan containing a three-year preemption of state AI development laws.</td></tr>
+<tr class="tier-3"><td><a href="https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/">Tech Policy Press</a></td><td class="tier-3">Tier 3</td><td>Jul 2026</td><td>The quantitative answer to whether the executive order chilled state lawmaking is no: by Tech Policy Press's count, states had enacted 109 AI laws and 28 data centre laws as of 1 July 2026.</td></tr>
+</tbody>
+</table>
+<h4>Continuity Ledger</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai">European Parliament (Legislative Train Schedule)</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>Resolves the June cycle's first tracked milestone.</td></tr>
+<tr class="tier-3"><td><a href="https://obsidianri.com/blog/newsroom-eu-20260723-google-dma-890m-fine">Obsidian Regulatory Intelligence</a></td><td class="tier-3">Tier 3</td><td>Jul 2026</td><td>Resolves the June cycle's second tracked milestone, and resolves it early.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<a name="claim-fidelity"></a>
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim in the briefing that goes beyond what a cited source literally states, together with the method limitations a reader should weigh.</p>
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>The continuity ledger grades ten dated obligations carried forward from 11 June 2026. Seven are graded against sources in this cycle's evidence base. Three, the Austrian NISG entry into force, the tariff-retaliation watch and the Anti-Coercion Instrument, are graded UNRESOLVED because no qualifying source dated inside the window was gathered for them. UNRESOLVED here means no evidence was collected, not that nothing happened, and no inference should be drawn from the absence.</p>
+<h4>Superlatives used</h4>
+<p>The briefing describes the Product Liability Directive reform using a Tier 2 source's own characterisation of it as the most significant overhaul of European product liability law in almost forty years; that is the source's claim, not an independent finding. No other superlative is used. The phrase "the summer that enforcement went local" is an editorial framing device rather than an evidentiary claim.</p>
+<h4>Analytical synthesis claims</h4>
+<p>Four claims in this briefing are analyst synthesis across sources rather than assertions any single source makes. First, that a named and funded national supervisor raises the probability of enforcement while an unnamed one lowers it: this is an inference from institutional design, is stated as such in the stress-test box, and has no enforcement record behind it because almost none yet exists. Second, that assurance readiness is a more durable planning anchor than a filing date: this reads the statutory assurance ramp against the administrative deferral and is the analyst's construction, not CARB's. Third, that supervision is migrating into adversarial forums on two axes at once: the CJEU referrals and the CTPP appeals are documented separately by different sources and the pattern joining them is analytical. Fourth, that the German registration figure of 17,729 evidences a scope-versus-registration gap: the comparison estimate is not official and the gap is therefore described qualitatively.</p>
+<h4>Verification method and its limits</h4>
+<p>Every source was fetched and read before inclusion. Verification was executed as five parallel batches, one per theme, so the verified_at field carries five distinct timestamps across 42 records rather than a separate timestamp for each. The source-date audit flags this pattern as a possible fabricated-metadata tell; it is disclosed here rather than disguised. Two further audit warnings are known and accepted: the date-audit script does not recognise US month-day-year date strings, so two correctly dated American sources warn as month-unconfirmed, and one structural anchor, the Product Liability Directive, is older than the twelve-month ceiling the sourcing guide sets for anchors, retained because a directive does not age the way commentary does.</p>
+</div>
+
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is the quarterly synthesis of a Shaping Tomorrow intelligence cycle on <strong>Regulation, Standards &amp; Policy Change</strong>. It sits on top of weekly Signal Scans that identify emerging developments and weak signals, and monthly Change Trackers that assess what is materially shifting in momentum. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across all four formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a>
+</div>
+</div>
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 13 August 2026</p>
+
+</div>
+
+</body>
+</html>

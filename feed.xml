@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 11 Aug 2026 08:30:05 +0000</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 08:30:06 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Booking the Range: Test Access Now Sets the Pace of Defence Delivery</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-12-test-access-gate/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-12-test-access-gate/scan.html</guid>
+<pubDate>Wed, 12 Aug 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>Access to test slots and qualification approvals now sets the pace of defence delivery, not capital. Booking a US Army range had been taking companies up to 18 months, and Europe is attacking the same gate by making a round tested once acceptable across member states.</description>
+</item>
+<item>
+<title>Capital Without Concrete: Why the Investment Rebound Has Not Reached the Ground</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-12-capital-without-concrete/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-12-capital-without-concrete/scan.html</guid>
+<pubDate>Wed, 12 Aug 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements thinned across Latin America and Europe.</description>
+</item>
 <item>
 <title>The Queue Was Never the Demand: Collateral Now Decides Which Data Centres Count</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-11-commitment-tested-load/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 11 Jul 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
 <description>Beneath the AI-bubble debate, the reported profitability sustaining the trillion-dollar buildout increasingly rests on a discretionary accounting estimate: the four-to-six-year useful life hyperscalers assign to GPUs that turn over economically in two to three years. A reset toward the real replacement cadence would cut hyperscaler earnings by roughly a fifth and $175-230bn across 2026-2028, and because that earnings base underwrites debt-financed capex now driving most of...</description>
-</item>
-<item>
-<title>Europe Deferred Its Workplace-AI Rules to 2027; the Duty to Consult Workers Still Binds</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-11-algorithmic-codetermination/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-11-algorithmic-codetermination/scan.html</guid>
-<pubDate>Sat, 11 Jul 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>Beneath the headline that the EU has deferred its AI Act high-risk employment rules from August 2026 to December 2027, the binding constraint on workplace AI has not disappeared but shifted location: the duty to inform and consult worker representatives and keep meaningful human oversight already binds through Article 26(7), national employment law and a widening set of collective agreements, so across 2026-2028 the governance of the AI-managed workplace is being decided...</description>
-</item>
-<item>
-<title>Manpower Before Materiel: Europe's Rearmament Runs Into the Soldier It Cannot Recruit</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-08-manpower-before-materiel/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-08-manpower-before-materiel/scan.html</guid>
-<pubDate>Wed, 08 Jul 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Beneath the consensus that European rearmament is a solved spending problem, the binding constraint has shifted from money to trained people: recruitment and retention are failing (Germany drew about 530 volunteers from roughly 298,200 contacted), so states are turning a quiet compulsion ratchet - needs-based conscription and, in Germany's Reservestaerkungsgesetz of 1 July 2026, mandatory reserve call-ups that override employer consent - placing a new statutory claim on the...</description>
 </item>
 </channel>
 </rss>

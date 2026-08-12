@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T17:25:57Z",
+  "generated": "2026-08-12T08:30:06Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -167,6 +167,392 @@
           "type": "Signal Scan",
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "defence-security-resilience",
+      "name": "Defence, Security & Resilience",
+      "tagline": "Past financing. Into the supplier base.",
+      "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
+      "latest_read": "Access to test slots and qualification approvals now sets the pace of defence delivery, not capital. Booking a US Army range had been taking companies up to 18 months, and Europe is attacking the...",
+      "latest_dates": {
+        "scan": "2026-08-12",
+        "tracker": "2026-08-07",
+        "di": "2026-07-02",
+        "cc": "2026-07-03"
+      },
+      "history": [
+        {
+          "date": "2026-08-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Booking the Range: Test Access Now Sets the Pace of Defence Delivery",
+          "summary": "Access to test slots and qualification approvals now sets the pace of defence delivery, not capital. Booking a US Army range had been taking companies up to 18 months, and Europe is attacking the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-07",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Counter-drone billions land at Ankara as the spending curve flattens",
+          "summary": "Third cycle. NATO's Ankara summit attached more than 40 billion dollars to counter-drone capability over five years plus a marketplace of tested systems, and the Commission proposed five European Defence Projects of Common Interest with 325 million euro allocated.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The €190 Billion Shortlist: Brussels Starts Picking Europe’s Defence Programmes",
+          "summary": "The EU has begun designating defence capabilities as 'projects of common interest', importing its infrastructure playbook into military planning.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Repair Manual Is the Asset: Defence Data Rights Flip to a Government Default",
+          "summary": "Who owns the repair data is becoming the binding constraint on defence readiness, not how much is spent. The FY27 Senate NDAA would make government-purpose rights the default for technical data and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Silence Means Yes: The EU Suspends Its Precautionary Default for Defence",
+          "summary": "The EU has inverted its permitting default for defence: a project application not decided on deadline is now tacitly approved.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace",
+          "summary": "Beneath the 'drone wall' consensus that Europe's drone problem is one of hardware and spending, the binding constraint is engagement authority: the nationally-set legal question of who may lawfully...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Manpower Before Materiel: Europe's Rearmament Runs Into the Soldier It Cannot Recruit",
+          "summary": "Beneath the consensus that European rearmament is a solved spending problem, the binding constraint has shifted from money to trained people: recruitment and retention are failing (Germany drew...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Drones and capital accelerate; Washington's guarantee thins further",
+          "summary": "Edition 2. Counter-drone defence and record private capital lead the accelerators; Ukrainian production scaling into Europe becomes a tracked signal; the US guarantee thins further with a six-month...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The money cleared. The shop floor did not.",
+          "summary": "Money is no longer the binding constraint on European defence; supplier absorption is, and the unlock is the credibility of the demand signal.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-02",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Defence Meets Industrial Reality",
+          "summary": "The May briefing called the 1.5% security band the cycle's commercial spine. Six weeks on, the spending has cleared, but the supplier base, mid-tier components, procurement law and skilled-welder pool to absorb it have not.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Backup Nobody Owns: How GPS Jamming Is Making Timing Resilience a Civil-Infrastructure Duty",
+          "summary": "Persistent GNSS jamming and spoofing are converting positioning-navigation-timing resilience from a military and aviation-safety concern into a budgeted civil critical-infrastructure obligation, as...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire",
+          "summary": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
+          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
+          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe's rearmament accelerates as the US security guarantee fades",
+          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
+          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
+          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
+          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vulnerability Triage Era",
+          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Drones as First Responders",
+          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Hard Power, Soft Frontiers",
+          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "geopolitics-economic-fragmentation",
+      "name": "Geopolitics & Economic Fragmentation",
+      "tagline": "Operating where consensus is gone.",
+      "description": "Decoupling, sanctions plumbing, industrial-policy capital, middle-power hedging, and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
+      "latest_read": "The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements...",
+      "latest_dates": {
+        "scan": "2026-08-12",
+        "tracker": "2026-08-07",
+        "di": "2026-07-29",
+        "cc": "2026-07-30"
+      },
+      "history": [
+        {
+          "date": "2026-08-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Capital Without Concrete: Why the Investment Rebound Has Not Reached the Ground",
+          "summary": "The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-11",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Keeping the Scrap: Critical-Minerals Security Arrives as an Export Duty on Waste",
+          "summary": "Scrap is being reclassified from tradable waste into retained strategic feedstock. The G7 committed on 17 June to stopping end-of-life material rich in critical raw materials leaving the bloc, and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-07",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
+          "summary": "Third cycle. The EU's 21st Russia package, adopted 23 July 2026, carried 218 designations, the largest round in four years, froze the oil price cap at USD 44.10 and created the first third-country...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
+          "summary": "US tariffs are being re-founded as an earn-down lattice: statutory, sector-by-sector rates that partners lower by copying American rules.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-30",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The Tariff Was the Decoy",
+          "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
+          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer the Dollar Blinked",
+          "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet",
+          "summary": "Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers",
+          "summary": "Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Managed Trade Returns: How Market Access Became a Negotiated, Conditional Privilege",
+          "summary": "Beneath the tariff-war headlines, the US-led trade order is being rebuilt as 'managed trade': market access is bought with quantitative purchase and investment pledges (more than $5 trillion) and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff coercion broadens and central-bank gold turns; the dollar erodes only at the edges",
+          "summary": "Edition 2. Economic coercion broadens as USTR Section 301 tariffs reach 99.4 percent of US imports and the EU activates its anti-circumvention tool; central-bank gold buying reverses from fading to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Made Where, Exactly: How Rules of Origin Became the New Front in US-China Decoupling",
+          "summary": "Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort",
+          "summary": "The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
+          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
+          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
+          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
+          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
+          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Operating Where Consensus Is Gone",
+          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
+          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Stacks, Two Markets",
+          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the G20 Fracture",
+          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Institutional Ratchet",
+          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
           "posture": ""
         }
       ]
@@ -376,199 +762,6 @@
           "type": "Signal Scan",
           "title": "The Grid Bypass",
           "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "geopolitics-economic-fragmentation",
-      "name": "Geopolitics & Economic Fragmentation",
-      "tagline": "Operating where consensus is gone.",
-      "description": "Decoupling, sanctions plumbing, industrial-policy capital, middle-power hedging, and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
-      "latest_read": "Scrap is being reclassified from tradable waste into retained strategic feedstock. The G7 committed on 17 June to stopping end-of-life material rich in critical raw materials leaving the bloc, and...",
-      "latest_dates": {
-        "scan": "2026-08-11",
-        "tracker": "2026-08-07",
-        "di": "2026-07-29",
-        "cc": "2026-07-30"
-      },
-      "history": [
-        {
-          "date": "2026-08-11",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Keeping the Scrap: Critical-Minerals Security Arrives as an Export Duty on Waste",
-          "summary": "Scrap is being reclassified from tradable waste into retained strategic feedstock. The G7 committed on 17 June to stopping end-of-life material rich in critical raw materials leaving the bloc, and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-07",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
-          "summary": "Third cycle. The EU's 21st Russia package, adopted 23 July 2026, carried 218 designations, the largest round in four years, froze the oil price cap at USD 44.10 and created the first third-country...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
-          "summary": "US tariffs are being re-founded as an earn-down lattice: statutory, sector-by-sector rates that partners lower by copying American rules.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-30",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The Tariff Was the Decoy",
-          "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
-          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer the Dollar Blinked",
-          "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet",
-          "summary": "Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers",
-          "summary": "Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Managed Trade Returns: How Market Access Became a Negotiated, Conditional Privilege",
-          "summary": "Beneath the tariff-war headlines, the US-led trade order is being rebuilt as 'managed trade': market access is bought with quantitative purchase and investment pledges (more than $5 trillion) and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Tariff coercion broadens and central-bank gold turns; the dollar erodes only at the edges",
-          "summary": "Edition 2. Economic coercion broadens as USTR Section 301 tariffs reach 99.4 percent of US imports and the EU activates its anti-circumvention tool; central-bank gold buying reverses from fading to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Made Where, Exactly: How Rules of Origin Became the New Front in US-China Decoupling",
-          "summary": "Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort",
-          "summary": "The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
-          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
-          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-05",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
-          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
-          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
-          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Operating Where Consensus Is Gone",
-          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
-          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two Stacks, Two Markets",
-          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the G20 Fracture",
-          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Institutional Ratchet",
-          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
           "posture": ""
         }
       ]
@@ -1503,183 +1696,6 @@
           "type": "Signal Scan",
           "title": "The Broken Rung",
           "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "defence-security-resilience",
-      "name": "Defence, Security & Resilience",
-      "tagline": "Past financing. Into the supplier base.",
-      "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
-      "latest_read": "Counter-drone billions land at Ankara as the spending curve flattens",
-      "latest_dates": {
-        "scan": "2026-08-05",
-        "tracker": "2026-08-07",
-        "di": "2026-07-02",
-        "cc": "2026-07-03"
-      },
-      "history": [
-        {
-          "date": "2026-08-07",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Counter-drone billions land at Ankara as the spending curve flattens",
-          "summary": "Third cycle. NATO's Ankara summit attached more than 40 billion dollars to counter-drone capability over five years plus a marketplace of tested systems, and the Commission proposed five European Defence Projects of Common Interest with 325 million euro allocated.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The €190 Billion Shortlist: Brussels Starts Picking Europe’s Defence Programmes",
-          "summary": "The EU has begun designating defence capabilities as 'projects of common interest', importing its infrastructure playbook into military planning.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Repair Manual Is the Asset: Defence Data Rights Flip to a Government Default",
-          "summary": "Who owns the repair data is becoming the binding constraint on defence readiness, not how much is spent. The FY27 Senate NDAA would make government-purpose rights the default for technical data and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Silence Means Yes: The EU Suspends Its Precautionary Default for Defence",
-          "summary": "The EU has inverted its permitting default for defence: a project application not decided on deadline is now tacitly approved.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace",
-          "summary": "Beneath the 'drone wall' consensus that Europe's drone problem is one of hardware and spending, the binding constraint is engagement authority: the nationally-set legal question of who may lawfully...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Manpower Before Materiel: Europe's Rearmament Runs Into the Soldier It Cannot Recruit",
-          "summary": "Beneath the consensus that European rearmament is a solved spending problem, the binding constraint has shifted from money to trained people: recruitment and retention are failing (Germany drew...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Drones and capital accelerate; Washington's guarantee thins further",
-          "summary": "Edition 2. Counter-drone defence and record private capital lead the accelerators; Ukrainian production scaling into Europe becomes a tracked signal; the US guarantee thins further with a six-month...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The money cleared. The shop floor did not.",
-          "summary": "Money is no longer the binding constraint on European defence; supplier absorption is, and the unlock is the credibility of the demand signal.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-02",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Defence Meets Industrial Reality",
-          "summary": "The May briefing called the 1.5% security band the cycle's commercial spine. Six weeks on, the spending has cleared, but the supplier base, mid-tier components, procurement law and skilled-welder pool to absorb it have not.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Backup Nobody Owns: How GPS Jamming Is Making Timing Resilience a Civil-Infrastructure Duty",
-          "summary": "Persistent GNSS jamming and spoofing are converting positioning-navigation-timing resilience from a military and aviation-safety concern into a budgeted civil critical-infrastructure obligation, as...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire",
-          "summary": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
-          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
-          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-05",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe's rearmament accelerates as the US security guarantee fades",
-          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
-          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
-          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
-          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Vulnerability Triage Era",
-          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Drones as First Responders",
-          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-13",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Hard Power, Soft Frontiers",
-          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
           "posture": ""
         }
       ]

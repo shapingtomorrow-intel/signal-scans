@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T13:23:09Z",
+  "generated": "2026-08-12T14:11:15Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-08-10",
         "tracker": "2026-07-17",
         "di": "2026-08-13",
-        "cc": ""
+        "cc": "2026-08-14"
       },
       "history": [
+        {
+          "date": "2026-08-14",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The rulebook stopped being the constraint. The enforcer did.",
+          "summary": "Over this cycle the strategic constraint changed hands: the rules are largely settled, the deadlines are still slipping, and what determines exposure is whether a jurisdiction has a funded enforcer...",
+          "posture": ""
+        },
         {
           "date": "2026-08-13",
           "kind": "brief",

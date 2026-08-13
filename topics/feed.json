@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T07:35:46Z",
+  "generated": "2026-08-13T08:19:30Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -191,9 +191,17 @@
         "scan": "2026-08-08",
         "tracker": "2026-08-06",
         "di": "2026-08-13",
-        "cc": ""
+        "cc": "2026-08-14"
       },
       "history": [
+        {
+          "date": "2026-08-14",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The exit closed. Nobody built the inside.",
+          "summary": "Over this cycle, the constraint on workforce planning changed address. Thirteen weeks ago the central question was how much work AI would take away, and the plan that followed from it was a...",
+          "posture": ""
+        },
         {
           "date": "2026-08-13",
           "kind": "brief",

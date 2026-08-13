@@ -11,14 +11,20 @@
     "verified_at": "2026-06-04T00:31:12Z",
     "date_age_band": "3-6m",
     "key_claim": "One in 10 job postings in advanced economies now require at least one new skill; job postings with a new skill pay about 3 percent more, rising to 8.5 to 15 percent for four or more new skills; employment in AI-vulnerable occupations is 3.6 percent lower after five years in high-AI-skill-demand regions; Finland, Ireland and Denmark top the IMF Skill Readiness Index.",
-    "signals_supported": ["Reskilling imperative and shortening skill half-life", "AI-driven entry-level hiring squeeze"],
+    "signals_supported": [
+      "Reskilling imperative and shortening skill half-life",
+      "AI-driven entry-level hiring squeeze"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "Skills become the currency",
+    "frame_summary": "Argues that AI's labour-market outcome is policy-determined rather than technologically determined: the disruption creates new skills and occupations as well as destroying them, so whether workers capture the upside depends on investment in skill adaptation.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -32,14 +38,20 @@
     "verified_at": "2026-06-04T00:31:48Z",
     "date_age_band": "3-6m",
     "key_claim": "The OECD AI exposure measure finds AI capabilities are closest to routine information-processing and administrative work; occupations at highest risk of automation account for about 28 percent of jobs across OECD countries, and most exposed workers will see tasks change rather than need specialised AI skills.",
-    "signals_supported": ["Reskilling imperative and shortening skill half-life", "AI-driven entry-level hiring squeeze"],
+    "signals_supported": [
+      "Reskilling imperative and shortening skill half-life",
+      "AI-driven entry-level hiring squeeze"
+    ],
     "is_evergreen": true,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "Skills become the currency",
+    "frame_summary": "Argues that AI exposure has been measured badly and should be derived from AI's actual capability profile, and that real-world impact still hinges on adoption, regulation and organisational choice rather than on capability alone.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -53,14 +65,20 @@
     "verified_at": "2026-06-04T00:32:25Z",
     "date_age_band": "3-6m",
     "key_claim": "By 2030, 22 percent of jobs are expected to be disrupted (170 million new roles, 92 million displaced); 39 percent of workers' core skills are anticipated to change by 2030 as AI moves into workflows; only 0.5 percent of global GDP is invested in adult lifelong learning, and the longevity of technical skills is shortening.",
-    "signals_supported": ["Reskilling imperative and shortening skill half-life", "Skills-based hiring policy-practice gap"],
+    "signals_supported": [
+      "Reskilling imperative and shortening skill half-life",
+      "Skills-based hiring policy-practice gap"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "Skills become the currency",
+    "frame_summary": "Argues that the binding constraint on growth is now skills rather than capital or technology, and that the failure is systemic, so the fix is coordinated system redesign rather than individual worker retraining.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -74,14 +92,19 @@
     "verified_at": "2026-06-04T00:33:03Z",
     "date_age_band": "0-3m",
     "key_claim": "Global employee engagement fell to 20 percent in 2025, its lowest level since 2020 and the first two consecutive years of decline, costing an estimated $10 trillion in lost productivity; manager engagement fell from 27 percent to 22 percent between 2024 and 2025, and the direct manager is the strongest predictor of whether an employee adopts AI.",
-    "signals_supported": ["Manager and employee engagement collapse"],
+    "signals_supported": [
+      "Manager and employee engagement collapse"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The human contract frays",
+    "frame_summary": "Argues that the global engagement collapse is specifically a manager problem, with organisational flattening implicated as a cause, and that it is a management-practice failure rather than an inevitable macro trend.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -95,14 +118,20 @@
     "verified_at": "2026-06-04T00:33:41Z",
     "date_age_band": "0-3m",
     "key_claim": "AI's workforce disruption has moved from prediction to reality, hitting young workers first: employment among software developers aged 22 to 25 fell nearly 20 percent since 2024 even as older cohorts grew, with the same pattern in other high-exposure jobs such as customer service.",
-    "signals_supported": ["AI-driven entry-level hiring squeeze", "The Great Flattening"],
+    "signals_supported": [
+      "AI-driven entry-level hiring squeeze",
+      "The Great Flattening"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The human contract frays",
+    "frame_summary": "Argues that AI's capability and adoption curves have outrun the institutional scaffolding around them, so the salient questions are who bears the costs and who captures the benefits rather than whether the technology works.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -116,14 +145,20 @@
     "verified_at": "2026-06-04T00:34:19Z",
     "date_age_band": "3-6m",
     "key_claim": "US-based employers announced 1,170,821 job cuts in the first 11 months of 2025, up 54 percent year on year and only the sixth year since 1993 to top 1.1 million through November; 'forever layoffs' (rolling cuts of fewer than 50 workers) now make up a majority of cuts, AI has been blamed for more than 70,000 announced cuts since 2023, and announced hiring is at its lowest year-to-date level since 2010.",
-    "signals_supported": ["White-collar forever layoffs", "The Great Flattening"],
+    "signals_supported": [
+      "White-collar forever layoffs",
+      "The Great Flattening"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The org chart compresses",
+    "frame_summary": "Argues that the shift from rare mass layoffs to continuous rolling cuts is a deliberate structural change in the employment model rather than a cyclical downturn, giving employers permanent headcount flexibility at the cost of chronic worker insecurity.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -137,14 +172,19 @@
     "verified_at": "2026-06-04T00:34:57Z",
     "date_age_band": "6-12m",
     "key_claim": "Gartner found that through 2026, 20 percent of organizations surveyed will use AI to flatten their organizational structure, eliminating over half of their current middle-management positions, as AI puts knowledge at everyone's fingertips and shifts the premium from knowing answers to executing with consistency.",
-    "signals_supported": ["The Great Flattening"],
+    "signals_supported": [
+      "The Great Flattening"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": true,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The org chart compresses",
+    "frame_summary": "Argues that middle managers are being eliminated because AI has collapsed the value of their proprietary-knowledge moat, so survival depends on shifting from knowing answers to executing consistently.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -158,14 +198,19 @@
     "verified_at": "2026-06-04T00:35:36Z",
     "date_age_band": "0-3m",
     "key_claim": "Five days in the office is the least popular work setup, especially for workers in their 20s and 30s, yet more than half of Fortune 100 companies have moved from hybrid to fully in-office policies, with Stellantis and Home Depot the latest major employers to require five days a week alongside Amazon, Instagram and Paramount.",
-    "signals_supported": ["Five-day return-to-office mandates"],
+    "signals_supported": [
+      "Five-day return-to-office mandates"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The human contract frays",
+    "frame_summary": "Argues that employer return-to-office mandates are diverging sharply from a near-universal worker preference for hybrid, and that the divergence carries burnout and retention consequences.",
+    "frame_provenance": "derived_from_key_claim"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -179,7 +224,10 @@
     "verified_at": "2026-06-04T00:36:14Z",
     "date_age_band": "0-3m",
     "key_claim": "Operations chiefs at Nike, Sysco, Box and Thomson Reuters describe an 'automation illusion'; Sysco's customer-service head added seven AI agents as direct reports reviewed alongside humans at his weekly business review, observing that traditional leadership principles do not apply to agentic agents, and Box found low internal AI adoption driven by skills confusion rather than resistance.",
-    "signals_supported": ["AI agents enter the org as coworkers", "Reskilling imperative and shortening skill half-life"],
+    "signals_supported": [
+      "AI agents enter the org as coworkers",
+      "Reskilling imperative and shortening skill half-life"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -187,7 +235,10 @@
     "claim_strength": "verbatim",
     "verbatim_quote": "our traditional laws of leadership, principles of leadership, do not apply to these agentic agents",
     "verbatim_list": null,
-    "notes": "Original verbatim_quote stitched across a 'he said' attribution break ('I lost some sleep that night,' he said, 'thinking that...'). Rewritten to a single contiguous 15-word span from the second half of Sysco's Bhatnagar's quote, which carries the analytical payload on agentic agents. Triaged by automated audit-triage agent, 2026-06-30."
+    "notes": "Original verbatim_quote stitched across a 'he said' attribution break ('I lost some sleep that night,' he said, 'thinking that...'). Rewritten to a single contiguous 15-word span from the second half of Sysco's Bhatnagar's quote, which carries the analytical payload on agentic agents. Triaged by automated audit-triage agent, 2026-06-30.",
+    "cluster": "The org chart compresses",
+    "frame_summary": "Argues that the barrier to AI value is neither employee resistance nor model quality but the gap between deploying tools and operationalising them, and that no management doctrine yet exists for supervising agentic systems.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -201,14 +252,20 @@
     "verified_at": "2026-06-04T00:36:52Z",
     "date_age_band": "0-3m",
     "key_claim": "Cognizant CEO Ravi Kumar S. said the firm hired 20,000 entry-level graduates last year and expects more in 2026, calling an entry-level jobs collapse 'fearmongering'; he predicts the workforce pyramid will flatten with leaner middle layers, and notes OpenAI's Sam Altman and Anthropic's Dario Amodei have walked back earlier AI-jobs-apocalypse predictions.",
-    "signals_supported": ["AI-driven entry-level hiring squeeze", "The Great Flattening"],
+    "signals_supported": [
+      "AI-driven entry-level hiring squeeze",
+      "The Great Flattening"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The human contract frays",
+    "frame_summary": "Argues that the entry-level jobs apocalypse was overstated and that AI is hollowing the middle of the organisational pyramid rather than the bottom.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -222,14 +279,19 @@
     "verified_at": "2026-06-04T00:37:30Z",
     "date_age_band": "0-3m",
     "key_claim": "85 percent of employers told TestGorilla they use skills-based hiring, while Harvard Business School and the Burning Glass Institute found fewer than 1 in 700 new hires (0.14 percent) were workers without a bachelor's degree; 53 percent of employers had publicly removed degree requirements, up from 30 percent the prior year, but the practice trails the policy.",
-    "signals_supported": ["Skills-based hiring policy-practice gap"],
+    "signals_supported": [
+      "Skills-based hiring policy-practice gap"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "Skills become the currency",
+    "frame_summary": "Argues that the gulf between employers claiming skills-based hiring and practising it is caused by missing verification infrastructure rather than bad faith, so maturing credential standards will close it.",
+    "frame_provenance": "fetched"
   },
   {
     "topic": "Workforce, Skills and Organisational Change",
@@ -243,13 +305,19 @@
     "verified_at": "2026-06-04T00:38:08Z",
     "date_age_band": "0-3m",
     "key_claim": "Bayer cut management layers from 11-12 to 6-7 with average span of control now 14 (some managers carrying 90 reports) and about 5,500 roles eliminated; Amazon cut roughly 14,000 corporate roles in October 2025 and lifted its individual-contributor-to-manager ratio; Meta is cutting 8,000 more roles with spans reportedly reaching 50 to 1; Korn Ferry found 41 percent of employees saw layers trimmed and 37 percent who lost a manager felt directionless.",
-    "signals_supported": ["The Great Flattening", "Manager and employee engagement collapse"],
+    "signals_supported": [
+      "The Great Flattening",
+      "Manager and employee engagement collapse"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": true,
     "claim_strength": "faithful_summary",
     "verbatim_quote": null,
-    "verbatim_list": null
+    "verbatim_list": null,
+    "cluster": "The org chart compresses",
+    "frame_summary": "Argues that AI-driven flattening at large employers means workforce planning should be organised around tasks rather than around headcount and management layers.",
+    "frame_provenance": "derived_from_key_claim"
   }
 ]

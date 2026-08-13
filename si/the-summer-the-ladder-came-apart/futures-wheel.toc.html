@@ -1,0 +1,159 @@
+<div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+36">
+<style id="fw-style">
+  .fw-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2530;}
+  .fw-card{box-sizing:border-box!important;width:100%!important;max-width:860px!important;height:540px!important;max-height:100%!important;margin:0 auto!important;border:1px solid #e3e8ee!important;border-radius:12px!important;padding:10px!important;background:#fff!important;cursor:pointer;position:relative;overflow:hidden;display:flex!important;flex-direction:column!important;transition:box-shadow .15s,transform .15s;}
+  .fw-card:hover{box-shadow:0 6px 20px rgba(20,40,70,.12);transform:translateY(-1px);}
+  .fw-card:focus-visible{outline:3px solid #0f2e5c;outline-offset:2px;}
+  .fw-legend{flex:0 0 auto!important;display:flex!important;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:11px;color:#5a6478;margin:0 0 6px!important;line-height:1.2;}
+  .fw-legend .sw{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:5px;box-sizing:border-box;}
+  .fw-legend .lw{display:inline-block;width:18px;height:2px;background:#5a6478;vertical-align:middle;margin-right:5px;border-radius:2px;}
+  .fw-legend .lw.high{height:4px;background:#4a5563;}
+  .fw-legend .lw.med{height:2.5px;background:#6a7480;}
+  .fw-legend .lw.low{height:1.4px;background:#9aa4b0;}
+  .fw-thumbwrap{flex:1 1 auto!important;position:relative!important;width:100%!important;min-height:0!important;}
+  .fw-thumbwrap svg,.fw-card .fw-thumbwrap svg{width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;display:block!important;margin:0!important;}
+  /* Also override any host CSS that would cap the modal SVG (e.g. .toc-figure svg { max-width: 340px }) */
+  .fw-modal svg,.fw-modal #fw-modal-svg{max-width:none!important;max-height:none!important;width:min(94vw,1040px)!important;height:auto!important;display:block!important;margin:0 auto!important;}
+  .fw-expand{position:absolute;right:8px;bottom:8px;background:rgba(15,46,92,.82);color:#fff;font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;pointer-events:none;}
+  .fw-eyebrow{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#8a94a3;font-weight:700;margin:0 0 2px;}
+  .fw-title{font-size:14px;font-weight:700;margin:0 0 8px;line-height:1.25;}
+  .fw-overlay{position:fixed;inset:0;background:rgba(15,23,35,.62);display:none;align-items:center;justify-content:center;z-index:9999;padding:18px;}
+  .fw-overlay.open{display:flex;}
+  .fw-modal{background:#fff;border-radius:14px;padding:14px 16px 16px;max-width:min(96vw,1100px);max-height:96vh;overflow:auto;box-shadow:0 24px 70px rgba(0,0,0,.35);position:relative;}
+  .fw-close{position:absolute;top:10px;right:12px;border:none;background:#eef1f4;color:#33414f;width:32px;height:32px;border-radius:8px;font-size:17px;cursor:pointer;line-height:1;}
+  .fw-close:hover{background:#e0e5ea;}
+  .fw-modal-legend{display:flex;flex-wrap:wrap;gap:16px;align-items:center;font-size:13px;color:#33414f;margin:6px 2px 12px;}
+  .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
+</style>
+<div class="fw-wrap">
+  <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
+    <div class="fw-legend" aria-hidden="true">
+      <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+      <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+      <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed/neutral</span>
+      <span style="opacity:.85">impact &times; likelihood:</span>
+      <span><span class="lw high"></span>high</span>
+      <span><span class="lw med"></span>med</span>
+      <span><span class="lw low"></span>low</span>
+    </div>
+    <div class="fw-thumbwrap">
+      <svg id="fw-thumb" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" style="display:block;" role="img"></svg>
+      <span class="fw-expand">&#10530; Expand</span>
+    </div>
+  </div>
+  <div class="fw-overlay" id="fw-overlay" role="dialog" aria-modal="true" aria-label="Futures Wheel, enlarged">
+    <div class="fw-modal">
+      <button class="fw-close" id="fw-close" aria-label="Close">&times;</button>
+      <p class="fw-eyebrow" style="margin-top:2px;">Futures Wheel</p>
+      <p class="fw-title" id="fw-title-modal" style="font-size:16px;"></p>
+      <div class="fw-modal-legend">
+        <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+        <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+        <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed / neutral</span>
+        <span style="opacity:.85">impact &times; likelihood:</span>
+        <span><span class="lw high" style="background:#4a5563;height:4px;"></span>high</span>
+        <span><span class="lw med" style="background:#6a7480;height:2.5px;"></span>med</span>
+        <span><span class="lw low" style="background:#9aa4b0;height:1.4px;"></span>low</span>
+      </div>
+      <svg id="fw-modal-svg" viewBox="0 0 1200 1200" style="width:min(94vw,1040px);height:auto;display:block;" role="img"></svg>
+    </div>
+  </div>
+</div>
+
+<script id="fw-engine">
+(function(){
+  // === WHEEL_DATA_START (build_futures_wheel.py replaces this object) ===
+  var TITLE = "The bottom rung is redesigned, not deleted";
+  var DATA = {"label": "The bottom rung\nis redesigned,\nnot deleted", "pol": "0", "children": [{"label": "Junior hiring\npauses before\nthe evidence lands", "pol": "-", "im": "vhigh", "lk": "high", "children": [{"label": "Graduate intake\ncut on a\nrelative statistic", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Cohort gap opens\nin the 2029\nmid-level bench", "pol": "-", "im": "high", "lk": "med"}, {"label": "Rehiring costs\nmore than the\nsaving banked", "pol": "-", "im": "med", "lk": "high"}, {"label": "Employer brand\nweakens on\ncampus", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Redesign work\nis deferred,\nnot done", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Junior roles\nkeep obsolete\ntask lists", "pol": "-", "im": "med", "lk": "high"}, {"label": "Attrition rises\namong the\nnewly hired", "pol": "-", "im": "med", "lk": "med"}, {"label": "Apprentice funding\nis surrendered\nto peers", "pol": "-", "im": "low", "lk": "med"}]}]}, {"label": "Experience is\nnot being made\nanywhere", "pol": "-", "im": "vhigh", "lk": "med", "children": [{"label": "The mid-level\nbench thins\nby 2029", "pol": "-", "im": "vhigh", "lk": "med", "children": [{"label": "Succession plans\nlose their\nfeeder pool", "pol": "-", "im": "high", "lk": "med"}, {"label": "Contractor spend\nreplaces internal\ncapability", "pol": "-", "im": "high", "lk": "high"}, {"label": "Institutional memory\nleaves with\nretirement", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Tacit knowledge\nstops being\ntransferred", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Review quality\nfalls as agents\nscale", "pol": "-", "im": "high", "lk": "med"}, {"label": "Error detection\nrests on\nfewer people", "pol": "-", "im": "high", "lk": "low"}, {"label": "Training burden\nshifts to the\npublic purse", "pol": "0", "im": "low", "lk": "low"}]}]}, {"label": "Supervision becomes\nthe entry-level\njob", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "New job families\nenter the job\narchitecture", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Oversight competence\nbecomes a hiring\ncriterion", "pol": "+", "im": "high", "lk": "med"}, {"label": "Article 26 roles\nare named and\nbudgeted", "pol": "+", "im": "med", "lk": "high"}, {"label": "Graduate schemes\nrebuild around\nexceptions", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Entry-level work\nis harder to\nautomate away", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Junior pay floors\nrise with the\noversight duty", "pol": "0", "im": "med", "lk": "low"}, {"label": "Time to competence\nlengthens rather\nthan shortens", "pol": "-", "im": "med", "lk": "med"}, {"label": "Curricula re-cut\ntoward judgement\nnot tooling", "pol": "+", "im": "low", "lk": "med"}]}]}, {"label": "Progression moves\ninside the\norganisation", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "Internal mobility\nbecomes a funded\ncapacity", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Lateral-move rate\nenters the\nboard pack", "pol": "+", "im": "med", "lk": "high"}, {"label": "Retraining throughput\nbecomes the binding\nconstraint", "pol": "-", "im": "high", "lk": "high"}, {"label": "Reward reopens\nwithout an external\nbenchmark", "pol": "0", "im": "med", "lk": "med"}]}, {"label": "Mid-career stall\nbecomes a\nvisible cost", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Engagement holds\nwhile intent to\nstay falls", "pol": "-", "im": "med", "lk": "high"}, {"label": "The ten-year\nplateau reaches the\nrisk register", "pol": "0", "im": "med", "lk": "med"}, {"label": "Buy-out packages\nreplace promotion\nbudgets", "pol": "-", "im": "med", "lk": "low"}]}]}, {"label": "Pay separates\ninside a single\ngrade", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "An unwritten premium\nmeets equal-value\nlaw", "pol": "-", "im": "vhigh", "lk": "med", "children": [{"label": "Information requests\nname AI skills\nas the criterion", "pol": "-", "im": "high", "lk": "med"}, {"label": "Pay differences\nmust be objectively\njustified", "pol": "-", "im": "high", "lk": "high"}, {"label": "Job architecture\nis reopened\nmid-year", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "The premium proves\nto be a scarcity\nrent", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Fluency spreads\nand the within-grade\ngap compresses", "pol": "+", "im": "med", "lk": "med"}, {"label": "Early hires sit\nabove the newly\nset band", "pol": "-", "im": "med", "lk": "high"}, {"label": "Reward strategy\nis rewritten\ntwice", "pol": "-", "im": "low", "lk": "med"}]}]}, {"label": "Agents acquire\nowners before\nheadcounts", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "The register arrives\nthrough the\ncompliance door", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "Named owners appear\nin the risk\nregister", "pol": "+", "im": "med", "lk": "high"}, {"label": "Log retention\nbecomes a systems\ncost line", "pol": "-", "im": "med", "lk": "high"}, {"label": "Works councils\ngate the\nrollout", "pol": "0", "im": "high", "lk": "med"}]}, {"label": "Workforce planning\nstays people-only\nfor now", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Capacity is planned\nwithout counting\nits agents", "pol": "-", "im": "high", "lk": "med"}, {"label": "Headcount targets\nmisstate real\nthroughput", "pol": "-", "im": "med", "lk": "med"}, {"label": "A first agent count\nappears in a\ndisclosure", "pol": "+", "im": "low", "lk": "low"}]}]}]};
+    // === WHEEL_DATA_END ===
+
+  var NS="http://www.w3.org/2000/svg";
+  var R=[0,260,470,660], RAD=[130,88,60,50], FS=[16,13,11,10], CX=600, CY=600;
+  var FW_ENGINE_VERSION=2; // v2 = elongated layout (SX) + capDepth thumbnail.
+  // Do NOT replace this file with an older copy: build_futures_wheel.py refuses
+  // to run below this version. If you must, pass --allow-legacy-engine.
+  var SX=1.5; // horizontal spread: >1 widens the wheel into a non-circular landscape shape
+  var IM={low:1,med:2,high:3,vhigh:4}, LK={low:1,med:2,high:3};
+  // Line weight encodes impact x likelihood (12 possible; baseline 1.4)
+  function width(n){ var s=(IM[n.im]||2)*(LK[n.lk]||2); return 1.6+s*0.55; }
+  // Polarity palette: risk pink+red / opportunity pale-green+green / mixed grey
+  function col(p){
+    if(p==="+") return {f:"#e9f6ee",s:"#2ea44f",t:"#1a2530"};
+    if(p==="-") return {f:"#fdecea",s:"#d9433a",t:"#1a2530"};
+    return {f:"#eef1f4",s:"#8a94a3",t:"#1a2530"};
+  }
+  var CENTER={f:"#eaf0fb",s:"#2f5fd0",t:"#1a2530"};
+
+  function render(svg, opts){
+    opts = opts || {};
+    while(svg.firstChild) svg.removeChild(svg.firstChild);
+    var data=JSON.parse(JSON.stringify(DATA));
+    var leaves=[]; (function collect(n){ (n.children&&n.children.length)?n.children.forEach(collect):leaves.push(n); })(data);
+    var N=leaves.length, step=2*Math.PI/N;
+    leaves.forEach(function(l,i){ l.t=i*step; });
+    (function setA(n,d){ n.depth=d; if(n.children&&n.children.length){ n.children.forEach(function(c){setA(c,d+1);}); n.t=n.children.reduce(function(a,c){return a+c.t;},0)/n.children.length; } })(data,0);
+    var maxDepth=0; (function md(n){ if(n.depth>maxDepth) maxDepth=n.depth; (n.children||[]).forEach(md); })(data);
+    var rd = (opts.capDepth!=null) ? Math.min(maxDepth, opts.capDepth) : maxDepth; // render-depth cap: thumbnail shows fewer rings, modal shows all
+    var halfW=SX*R[rd]+RAD[rd]+26, halfH=R[rd]+RAD[rd]+26;
+    svg.setAttribute("viewBox",(CX-halfW)+" "+(CY-halfH)+" "+(2*halfW)+" "+(2*halfH));
+    function P(t,r){ return {x:CX+SX*r*Math.sin(t), y:CY-r*Math.cos(t)}; }
+    // Guide arcs: thin concentric quadratic-curve arcs on the ring 1 and the outer ring
+    function arc(t1,t2,r,c,w){
+      var a=P(t1,r),b=P(t2,r),m=(t1+t2)/2,cp=P(m,r*1.06);
+      var p=document.createElementNS(NS,"path");
+      p.setAttribute("d","M"+a.x+","+a.y+" Q"+cp.x+","+cp.y+" "+b.x+","+b.y);
+      p.setAttribute("fill","none");p.setAttribute("stroke",c);p.setAttribute("stroke-width",w);
+      svg.appendChild(p);
+    }
+    var r1n=data.children;
+    for(var i=0;i<r1n.length;i++) arc(r1n[i].t,r1n[(i+1)%r1n.length].t,R[1],"#d6dde4",1.4);
+    if(maxDepth>=2 && opts.capDepth==null){ for(var k=0;k<N;k++) arc(leaves[k].t,leaves[(k+1)%N].t,R[maxDepth],"#dbe6de",1.4); }
+    // Weighted spokes: line thickness encodes impact x likelihood
+    function spoke(a,b,w){
+      var l=document.createElementNS(NS,"line");
+      l.setAttribute("x1",a.x);l.setAttribute("y1",a.y);l.setAttribute("x2",b.x);l.setAttribute("y2",b.y);
+      l.setAttribute("stroke","#9aa7b4");l.setAttribute("stroke-width",w);l.setAttribute("stroke-linecap","round");l.setAttribute("opacity","0.9");
+      svg.appendChild(l);
+    }
+    (function edges(n){
+      var p=P(n.t,R[n.depth]);
+      (n.children||[]).forEach(function(c){ if(c.depth<=rd){ spoke(p,P(c.t,R[c.depth]),width(c)); edges(c); } });
+    })(data);
+    // Nodes (drawn on top)
+    (function node(n){
+      if(n.depth>rd) return;
+      var pt=P(n.t,R[n.depth]),d=n.depth,r=RAD[d],c=d===0?CENTER:col(n.pol);
+      var ci=document.createElementNS(NS,"circle");
+      ci.setAttribute("cx",pt.x);ci.setAttribute("cy",pt.y);ci.setAttribute("r",r);
+      ci.setAttribute("fill",c.f);ci.setAttribute("stroke",c.s);ci.setAttribute("stroke-width",d===0?3:2.6);
+      svg.appendChild(ci);
+      var showLabel = opts.allLabels || d<=1;
+      if(showLabel){
+        var lines=String(n.label).split("\n"),fs=FS[d],lh=fs*1.15;
+        var t=document.createElementNS(NS,"text");
+        t.setAttribute("x",pt.x);t.setAttribute("y",pt.y-(lines.length-1)*lh/2+fs*0.34);
+        t.setAttribute("text-anchor","middle");t.setAttribute("font-size",fs);t.setAttribute("font-weight",d<=1?"700":"600");t.setAttribute("fill",c.t);
+        lines.forEach(function(ln,idx){var ts=document.createElementNS(NS,"tspan");ts.setAttribute("x",pt.x);ts.setAttribute("dy",idx===0?0:lh);ts.textContent=ln;t.appendChild(ts);});
+        svg.appendChild(t);
+      }
+      (n.children||[]).forEach(node);
+    })(data);
+  }
+
+  var elTitleThumb=document.getElementById("fw-title-thumb"); if(elTitleThumb) elTitleThumb.textContent=TITLE;
+  var elTitleModal=document.getElementById("fw-title-modal"); if(elTitleModal) elTitleModal.textContent=TITLE;
+  var elThumb=document.getElementById("fw-thumb"); if(elThumb) elThumb.setAttribute("aria-label","Futures Wheel thumbnail for "+TITLE);
+  var elModalSvg=document.getElementById("fw-modal-svg"); if(elModalSvg) elModalSvg.setAttribute("aria-label","Enlarged Futures Wheel for "+TITLE);
+  if(elThumb) render(elThumb, {allLabels:false, capDepth:2});
+  var overlay=document.getElementById("fw-overlay"), drawn=false;
+  function open(){ if(!drawn){ render(document.getElementById("fw-modal-svg"), {allLabels:true}); drawn=true; } overlay.classList.add("open"); document.getElementById("fw-close").focus(); }
+  function close(){ overlay.classList.remove("open"); document.getElementById("fw-card").focus(); }
+  var card=document.getElementById("fw-card");
+  card.addEventListener("click",open);
+  card.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); open(); } });
+  document.getElementById("fw-close").addEventListener("click",close);
+  overlay.addEventListener("click",function(e){ if(e.target===overlay) close(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&overlay.classList.contains("open")) close(); });
+})();
+</script>
+</div>

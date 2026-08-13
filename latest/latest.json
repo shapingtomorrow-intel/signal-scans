@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T08:31:17Z",
+  "generated": "2026-08-13T08:30:54Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,29 +11,29 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-12-test-access-gate/scan.html"
     },
     "change_tracker": {
-      "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
-      "date": "2026-08-07",
-      "topic": "Geopolitics and Economic Fragmentation",
-      "topic_slug": "geopolitics-economic-fragmentation",
+      "title": "Enforcement starts subtracting from employment as Europe's restriction story goes quiet",
+      "date": "2026-08-13",
+      "topic": "Demographics, Migration and Labour Markets",
+      "topic_slug": "demographics-migration-labour-markets",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-08-07/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-08-13/tracker.html"
     },
     "decision_intelligence": {
-      "title": "The Summer That Enforcement Went Local",
+      "title": "The Summer the Ladder Came Apart",
       "date": "2026-08-13",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
+      "posture": "",
+      "company": "Sample Showcase: Workforce, Skills & Organisational Change",
+      "url": "https://decision-intel.shapingtomorrow.com/si/the-summer-the-ladder-came-apart/"
+    },
+    "action_triggers": {
+      "title": "The rulebook stopped being the constraint. The enforcer did.",
+      "date": "2026-08-14",
       "topic": "Regulation, Standards & Policy Change",
       "topic_slug": "regulation-standards-policy-change",
       "posture": "",
-      "company": "Sample Showcase: Regulation, Standards and Policy Change",
-      "url": "https://decision-intel.shapingtomorrow.com/si/the-summer-that-enforcement-went-local/"
-    },
-    "action_triggers": {
-      "title": "The Cure Was the Decoy",
-      "date": "2026-08-07",
-      "topic": "Health, Life Sciences & Care Systems",
-      "topic_slug": "health-life-sciences-care-systems",
-      "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/sample-health-life-sciences-cross-cutter-2026-08-07/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/sample-regulation-standards-policy-change-cross-cutter-2026-08-14/"
     }
   }
 }

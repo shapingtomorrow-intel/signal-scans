@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-14T08:31:07Z",
+  "generated": "2026-08-15T08:31:10Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Booking the Range: Test Access Now Sets the Pace of Defence Delivery",
-      "date": "2026-08-12",
-      "topic": "Defence, Security & Resilience",
-      "topic_slug": "defence-security-resilience",
+      "title": "Attribution Under Test: What It Costs to Say the Layoff Was AI",
+      "date": "2026-08-15",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-12-test-access-gate/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-15-contested-ai-attribution/scan.html"
     },
     "change_tracker": {
       "title": "Enforcement starts subtracting from employment as Europe's restriction story goes quiet",

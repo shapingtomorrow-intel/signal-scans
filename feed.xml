@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sat, 15 Aug 2026 08:30:08 +0000</lastBuildDate>
+<lastBuildDate>Sun, 16 Aug 2026 08:30:08 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Breakeven at Zero: The Denominator Now Moves More Than the Labour Market</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-16-breakeven-at-zero/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-16-breakeven-at-zero/scan.html</guid>
+<pubDate>Sun, 16 Aug 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration &amp; Labour Markets</category>
+<description>The benchmark for reading the jobs number has fallen to about zero, so a weak payroll print no longer signals a weakening labour market. Migration reversal and ageing did that, while a January population-control revision and a UK accreditation step-down made the denominator the most volatile input in labour statistics.</description>
+</item>
+<item>
+<title>The Price of the Dataset: African Governments Are Turning Down Health Aid Over Data Terms</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-16-price-of-the-dataset/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-16-price-of-the-dataset/scan.html</guid>
+<pubDate>Sun, 16 Aug 2026 08:00:00 +0000</pubDate>
+<category>Health, Life Sciences &amp; Care Systems</category>
+<description>The consideration in the bilateral deals replacing US health aid is the national health dataset, not only the money. Data and specimen commitments run years longer than the funding, and Ghana, South Africa, Zambia and Zimbabwe have refused those terms while the WHO benefit-sharing annex is still unwritten.</description>
+</item>
 <item>
 <title>The Memory Queue: AI Supply Contracts Now Decide What Else Gets Built</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-15-ai-memory-allocation-queue/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
 <category>Financial Services &amp; Future of Money</category>
 <description>Beneath the stablecoins-have-won narrative, the regulated core built the rival system this quarter: the BIS's 2026 blueprint anchors tokenisation in central-bank money on unified ledgers, Project Agora advanced to real-value cross-border testing with eight central banks and 40+ institutions, and the largest US banks are launching a shared tokenized deposit network through The Clearing House for H1 2027 - shifting the contest from whether money tokenises to whether it...</description>
-</item>
-<item>
-<title>The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-07-13-quantum-compliance-clock/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-07-13-quantum-compliance-clock/scan.html</guid>
-<pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
-<category>Regulation, Standards &amp; Policy Change</category>
-<description>Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule and defence flow-downs, Germany's BSI has for the first time end-dated classical asymmetric encryption ('alternativlos'), and the EU's end-2026 milestones convert cryptography into audited, contract-clause compliance - so the binding constraint is the regulatory clock, not the...</description>
-</item>
-<item>
-<title>The 100/20/0 Menu: How US Pharma Tariffs Force Onshoring and Price Cuts, Company by Company</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-07-12-pharma-tariff-onshoring-lever/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-07-12-pharma-tariff-onshoring-lever/scan.html</guid>
-<pubDate>Sun, 12 Jul 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>Beneath the 'pharma tariffs raise prices' headline, the April 2026 Section 232 duty is a tiered coercion menu (100% default; 20% with a Commerce onshoring plan; 0% to 2029 only with an HHS most-favored-nation pricing agreement) that forces company-by-company onshoring and price concessions, re-mapping where medicines are made and priced.</description>
 </item>
 </channel>
 </rss>

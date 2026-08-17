@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-16T08:32:50Z",
+  "generated": "2026-08-17T08:32:12Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "The Price of the Dataset: African Governments Are Turning Down Health Aid Over Data Terms",
-      "date": "2026-08-16",
-      "topic": "Health, Life Sciences & Care Systems",
-      "topic_slug": "health-life-sciences-care-systems",
+      "title": "Regulation by Purchase Order: Simplified Procurement Rulebooks Come Back Carrying More Conditions",
+      "date": "2026-08-17",
+      "topic": "Regulation, Standards & Policy Change",
+      "topic_slug": "regulation-standards-policy-change",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-16-price-of-the-dataset/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-17-regulation-by-purchase-order/scan.html"
     },
     "change_tracker": {
       "title": "Enforcement starts subtracting from employment as Europe's restriction story goes quiet",

@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sun, 16 Aug 2026 08:30:08 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 08:30:05 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The Recapture Charge: Regulators Put a Price on Pension Liabilities Coming Back</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-17-recapture-charge/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-17-recapture-charge/scan.html</guid>
+<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
+<category>Financial Services &amp; Future of Money</category>
+<description>Regulators have started charging capital for the risk that annuity liabilities ceded offshore come back. The PRA and the NAIC both moved in 2026, so a reinsurer's domicile and rating, not its asset mix, now price pension buyout capacity.</description>
+</item>
+<item>
+<title>Regulation by Purchase Order: Simplified Procurement Rulebooks Come Back Carrying More Conditions</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-17-regulation-by-purchase-order/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-17-regulation-by-purchase-order/scan.html</guid>
+<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
+<category>Regulation, Standards &amp; Policy Change</category>
+<description>The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions. Origin, cybersecurity and sovereignty tests now bind suppliers that no sector regulator covers.</description>
+</item>
 <item>
 <title>Breakeven at Zero: The Denominator Now Moves More Than the Labour Market</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-16-breakeven-at-zero/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Tue, 14 Jul 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
 <description>Beneath the consensus that solar is the cheapest power and its build-out unstoppable, solar's own success is collapsing its capture price: EU-27 day-ahead negative-price hours more than doubled year on year to 1,223 in Q1 2026 and close to half of April solar output in France and Germany cleared below zero, moving the binding constraint on the transition from generation cost to captured revenue and forcing a pivot from unfirmed merchant renewables toward storage-paired...</description>
-</item>
-<item>
-<title>The Urban Mine Enclosure: How Battery Scrap Became a Strategic Resource</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-14-urban-mine-enclosure/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-14-urban-mine-enclosure/scan.html</guid>
-<pubDate>Tue, 14 Jul 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the consensus that breaking China's grip on critical minerals means diversifying mines and refineries, the next contested layer is the urban mine (end-of-life batteries and black mass), which is being enclosed as an export-controlled strategic resource: the EU classified black mass as hazardous waste and restricts its export from 2026 while lacking domestic processing capacity, whereas China, holding about 75% of black-mass recycling capacity, reclassified it as an...</description>
-</item>
-<item>
-<title>The Counter-Ledger: Central Banks and Commercial Banks Build Their Answer to Stablecoins</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-13-counter-ledger-buildout/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-07-13-counter-ledger-buildout/scan.html</guid>
-<pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
-<category>Financial Services &amp; Future of Money</category>
-<description>Beneath the stablecoins-have-won narrative, the regulated core built the rival system this quarter: the BIS's 2026 blueprint anchors tokenisation in central-bank money on unified ledgers, Project Agora advanced to real-value cross-border testing with eight central banks and 40+ institutions, and the largest US banks are launching a shared tokenized deposit network through The Clearing House for H1 2027 - shifting the contest from whether money tokenises to whether it...</description>
 </item>
 </channel>
 </rss>

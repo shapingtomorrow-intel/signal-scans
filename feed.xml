@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 17 Aug 2026 11:35:06 +0000</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 08:30:03 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>The Recapture Charge: Regulators Put a Price on Pension Liabilities Coming Back</title>
@@ -22,6 +22,22 @@
 <pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions. Origin, cybersecurity and sovereignty tests now bind suppliers that no sector regulator covers.</description>
+</item>
+<item>
+<title>Back on the Balance Sheet: How Utilities Re-Enter Generation Without Changing the Law</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-17-utility-generation-workaround/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-17-utility-generation-workaround/scan.html</guid>
+<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>US utilities are re-entering generation ownership through legal workarounds rather than repeal of restructuring laws. Storage argued not to be generation, majority-owned affiliates and rate-based nuclear are the routes, against a PJM auction that cleared at its cap and still fell short.</description>
+</item>
+<item>
+<title>The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-and-food-systems/2026-08-17-sulphuric-acid-allocation/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-and-food-systems/2026-08-17-sulphuric-acid-allocation/scan.html</guid>
+<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
+<category>Climate, Nature &amp; Food Systems</category>
+<description>Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid cost shares are outbidding phosphate producers, so fertiliser curtails first.</description>
 </item>
 <item>
 <title>Breakeven at Zero: The Denominator Now Moves More Than the Labour Market</title>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 15 Jul 2026 08:00:00 +0000</pubDate>
 <category>Geopolitics &amp; Economic Fragmentation</category>
 <description>Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state machinery: Japan's first overhaul of its Economic Security Promotion Act since 2022 (Cabinet-approved 19 March 2026) pulls services and medical infrastructure into a critical-infrastructure regime that already designates 257 operators and reaches down to sub-subcontractors; the US runs...</description>
-</item>
-<item>
-<title>The Value-Deflation Cliff: How Solar's Own Success Repriced the Merchant Renewables Model</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-14-capture-price-cliff/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-07-14-capture-price-cliff/scan.html</guid>
-<pubDate>Tue, 14 Jul 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Beneath the consensus that solar is the cheapest power and its build-out unstoppable, solar's own success is collapsing its capture price: EU-27 day-ahead negative-price hours more than doubled year on year to 1,223 in Q1 2026 and close to half of April solar output in France and Germany cleared below zero, moving the binding constraint on the transition from generation cost to captured revenue and forcing a pivot from unfirmed merchant renewables toward storage-paired...</description>
-</item>
-<item>
-<title>The Urban Mine Enclosure: How Battery Scrap Became a Strategic Resource</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-14-urban-mine-enclosure/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-14-urban-mine-enclosure/scan.html</guid>
-<pubDate>Tue, 14 Jul 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Beneath the consensus that breaking China's grip on critical minerals means diversifying mines and refineries, the next contested layer is the urban mine (end-of-life batteries and black mass), which is being enclosed as an export-controlled strategic resource: the EU classified black mass as hazardous waste and restricts its export from 2026 while lacking domestic processing capacity, whereas China, holding about 75% of black-mass recycling capacity, reclassified it as an...</description>
 </item>
 </channel>
 </rss>

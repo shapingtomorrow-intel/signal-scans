@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-18T08:30:59Z",
+  "generated": "2026-08-19T08:30:56Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Back on the Balance Sheet: How Utilities Re-Enter Generation Without Changing the Law",
-      "date": "2026-08-17",
-      "topic": "Energy, Infrastructure & Climate Resilience",
-      "topic_slug": "energy-infrastructure-climate-resilience",
+      "title": "Rationed, Not Taxed: The Volume Cap Returns as Europe's Trade Instrument",
+      "date": "2026-08-19",
+      "topic": "Geopolitics & Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-17-utility-generation-workaround/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-19-rationed-by-volume/scan.html"
     },
     "change_tracker": {
       "title": "Enforcement starts subtracting from employment as Europe's restriction story goes quiet",
@@ -19,21 +19,21 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-08-13/tracker.html"
     },
     "decision_intelligence": {
-      "title": "The Summer the Careers Ladder Came Apart",
-      "date": "2026-08-13",
-      "topic": "Workforce, Skills & Organisational Change",
-      "topic_slug": "workforce-skills-organisational-change",
+      "title": "Why AI Projects Now Die on Value, Not Capability",
+      "date": "2026-08-20",
+      "topic": "AI & Automation",
+      "topic_slug": "ai-automation",
       "posture": "",
-      "company": "Sample Showcase: Workforce, Skills & Organisational Change",
-      "url": "https://decision-intel.shapingtomorrow.com/si/the-summer-the-ladder-came-apart/"
+      "company": "Shaping Tomorrow (sample / marketing publication)",
+      "url": "https://decision-intel.shapingtomorrow.com/si/ai-dies-on-value/"
     },
     "action_triggers": {
-      "title": "The rulebook stopped being the constraint. The enforcer did.",
-      "date": "2026-08-14",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
+      "title": "AI Spending Is Not Earning Its Keep.",
+      "date": "2026-08-21",
+      "topic": "AI & Automation",
+      "topic_slug": "ai-automation",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/sample-regulation-standards-policy-change-cross-cutter-2026-08-14/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/shaping-tomorrow-sample-ai-automation-cross-cutter-2026-08-21/"
     }
   }
 }

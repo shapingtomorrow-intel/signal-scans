@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 18 Aug 2026 08:47:52 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 08:30:05 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>One Thousand a Day: The Casualty Plan That Lands on Civilian Hospitals</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-19-civilian-casualty-reception/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-19-civilian-casualty-reception/scan.html</guid>
+<pubDate>Wed, 19 Aug 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>Europe's casualty plan is being written into civilian hospital law. Germany's Gesundheitssicherstellungsgesetz, due in draft in September 2026, would distribute up to a thousand wounded a day through regional hubs, and the tightest link is blood processing capacity rather than beds or donors.</description>
+</item>
+<item>
+<title>Rationed, Not Taxed: The Volume Cap Returns as Europe's Trade Instrument</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-19-rationed-by-volume/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-19-rationed-by-volume/scan.html</guid>
+<pubDate>Wed, 19 Aug 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>Trade protection is being rationed by volume rather than priced by tariff. The EU's steel regime from 1 July 2026 caps duty-free imports at 18.3 million tonnes with a 50 percent out-of-quota duty, and the UK and Canada run the same machinery.</description>
+</item>
 <item>
 <title>The Recapture Charge: Regulators Put a Price on Pension Liabilities Coming Back</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-17-recapture-charge/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 18 Jul 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
 <description>The sharpest AI pay divide is opening inside occupations, not between them. Workers who restructure their work around AI command a widening premium (PwC puts it at 62% in 2026) over identically-titled peers who do not.</description>
-</item>
-<item>
-<title>The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-15-counter-drone-authority-gap/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-15-counter-drone-authority-gap/scan.html</guid>
-<pubDate>Wed, 15 Jul 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Beneath the 'drone wall' consensus that Europe's drone problem is one of hardware and spending, the binding constraint is engagement authority: the nationally-set legal question of who may lawfully detect, track and destroy a drone over domestic and civilian airspace, and in the sub-five-minute window before it acts. Through 2026 that authority is being rewritten by emergency national law (Germany's Luftsicherheitsgesetz, in force March 2026; Poland's Operation SAN) and the...</description>
-</item>
-<item>
-<title>Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-15-economic-security-widening-net/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-15-economic-security-widening-net/scan.html</guid>
-<pubDate>Wed, 15 Jul 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state machinery: Japan's first overhaul of its Economic Security Promotion Act since 2022 (Cabinet-approved 19 March 2026) pulls services and medical infrastructure into a critical-infrastructure regime that already designates 257 operators and reaches down to sub-subcontractors; the US runs...</description>
 </item>
 </channel>
 </rss>

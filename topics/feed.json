@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T08:31:07Z",
+  "generated": "2026-08-20T11:09:15Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -21,7 +21,7 @@
           "date": "2026-08-21",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "AI Spending Is Not Earning Its Keep.",
+          "title": "AI Spending Is Not Earning Its Keep",
           "summary": "Over this cycle, the question changed from who governs AI to who can prove it works. Eight weeks ago the central issue was the floor underneath deployment: insurance wording, agent identity, contract law, the grid queue and the inference invoice. That floor is now occupied.",
           "posture": ""
         },

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T08:31:11Z",
+  "generated": "2026-08-21T08:32:13Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-08-19-rationed-by-volume/scan.html"
     },
     "change_tracker": {
-      "title": "Tokenised settlement clears real money as the stablecoin float shrinks",
-      "date": "2026-08-20",
-      "topic": "Financial Services and the Future of Money",
-      "topic_slug": "financial-services-future-of-money",
+      "title": "Europe switches on AI enforcement; Washington's crypto clocks slip",
+      "date": "2026-08-21",
+      "topic": "Regulation, Standards and Policy Change",
+      "topic_slug": "regulation-standards-policy-change",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-08-20/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/regulation-standards-policy-change/2026-08-21/tracker.html"
     },
     "decision_intelligence": {
       "title": "Why AI Projects Now Die on Value, Not Capability",
@@ -28,7 +28,7 @@
       "url": "https://decision-intel.shapingtomorrow.com/si/ai-dies-on-value/"
     },
     "action_triggers": {
-      "title": "AI Spending Is Not Earning Its Keep.",
+      "title": "AI Spending Is Not Earning Its Keep",
       "date": "2026-08-21",
       "topic": "AI & Automation",
       "topic_slug": "ai-automation",

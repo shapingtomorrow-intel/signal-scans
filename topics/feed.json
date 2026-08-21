@@ -1,7 +1,200 @@
 {
-  "generated": "2026-08-21T08:30:06Z",
+  "generated": "2026-08-21T08:32:08Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "regulation-standards-policy-change",
+      "name": "Regulation, Standards & Policy Change",
+      "tagline": "Where compliance becomes strategy.",
+      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
+      "latest_read": "Europe switches on AI enforcement; Washington's crypto clocks slip",
+      "latest_dates": {
+        "scan": "2026-08-17",
+        "tracker": "2026-08-21",
+        "di": "2026-08-13",
+        "cc": "2026-08-14"
+      },
+      "history": [
+        {
+          "date": "2026-08-21",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe switches on AI enforcement; Washington's crypto clocks slip",
+          "summary": "Third cycle. The AI Office's investigation and fining powers over general-purpose AI providers took effect on 2 August, entering the register as the cycle's steepest accelerator, and the sustainability rollback re-accelerated as the simplified ESRS was adopted.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Regulation by Purchase Order: Simplified Procurement Rulebooks Come Back Carrying More Conditions",
+          "summary": "The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-14",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The rulebook stopped being the constraint. The enforcer did.",
+          "summary": "Over this cycle the strategic constraint changed hands: the rules are largely settled, the deadlines are still slipping, and what determines exposure is whether a jurisdiction has a funded enforcer...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer That Enforcement Went Local",
+          "summary": "The rules are not the story this cycle. The enforcement machinery is. Across eight weeks, four separate jurisdictions changed not what they require but who requires it, how that person is funded...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Detection, Not Deregulation: Why Simplified Rulebooks Are Getting Harder to Breach",
+          "summary": "Supervisory detection capability, not the rule book, is the variable moving in 2026. Simplification packages cut visible burden while SupTech budgets, tax-authority analytics and reporting coverage...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Regulating by Class: PFAS Rules Now Attach to the Whole Chemistry, Not the Substance",
+          "summary": "PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Deregulation Without Repeal: Why the Rules Are Still on the Books",
+          "summary": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rules Without Referees: The EU's Missing Certification Machinery",
+          "summary": "The EU's binding regulatory constraint has quietly shifted from the rules to the machinery that enforces them. AI Act and Cyber Resilience Act certification depends on notified bodies and harmonised...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-17",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe enacts its simplification; the US stablecoin clock runs down",
+          "summary": "Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
+          "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
+          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
+          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
+          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-19",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Brussels trims and defers; Washington carves its own track",
+          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
+          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Compliance Becomes Strategy",
+          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
+          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
+          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
+          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
+          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Disclosure That Didn't Disappear",
+          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Nature on the Supervisor's Desk",
+          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "ai-automation",
       "name": "AI & Automation",
@@ -818,191 +1011,6 @@
           "type": "Signal Scan",
           "title": "The Institutional Ratchet",
           "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "regulation-standards-policy-change",
-      "name": "Regulation, Standards & Policy Change",
-      "tagline": "Where compliance becomes strategy.",
-      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
-      "latest_read": "The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions.",
-      "latest_dates": {
-        "scan": "2026-08-17",
-        "tracker": "2026-07-17",
-        "di": "2026-08-13",
-        "cc": "2026-08-14"
-      },
-      "history": [
-        {
-          "date": "2026-08-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Regulation by Purchase Order: Simplified Procurement Rulebooks Come Back Carrying More Conditions",
-          "summary": "The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-14",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The rulebook stopped being the constraint. The enforcer did.",
-          "summary": "Over this cycle the strategic constraint changed hands: the rules are largely settled, the deadlines are still slipping, and what determines exposure is whether a jurisdiction has a funded enforcer...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-13",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer That Enforcement Went Local",
-          "summary": "The rules are not the story this cycle. The enforcement machinery is. Across eight weeks, four separate jurisdictions changed not what they require but who requires it, how that person is funded...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Detection, Not Deregulation: Why Simplified Rulebooks Are Getting Harder to Breach",
-          "summary": "Supervisory detection capability, not the rule book, is the variable moving in 2026. Simplification packages cut visible burden while SupTech budgets, tax-authority analytics and reporting coverage...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Regulating by Class: PFAS Rules Now Attach to the Whole Chemistry, Not the Substance",
-          "summary": "PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Deregulation Without Repeal: Why the Rules Are Still on the Books",
-          "summary": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rules Without Referees: The EU's Missing Certification Machinery",
-          "summary": "The EU's binding regulatory constraint has quietly shifted from the rules to the machinery that enforces them. AI Act and Cyber Resilience Act certification depends on notified bodies and harmonised...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-17",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe enacts its simplification; the US stablecoin clock runs down",
-          "summary": "Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
-          "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
-          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
-          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
-          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-19",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Brussels trims and defers; Washington carves its own track",
-          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
-          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Compliance Becomes Strategy",
-          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
-          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
-          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
-          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
-          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Disclosure That Didn't Disappear",
-          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Nature on the Supervisor's Desk",
-          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
           "posture": ""
         }
       ]

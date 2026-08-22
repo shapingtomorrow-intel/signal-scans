@@ -1,200 +1,7 @@
 {
-  "generated": "2026-08-21T08:37:21Z",
+  "generated": "2026-08-22T08:37:15Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
-    {
-      "slug": "regulation-standards-policy-change",
-      "name": "Regulation, Standards & Policy Change",
-      "tagline": "Where compliance becomes strategy.",
-      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
-      "latest_read": "Europe switches on AI enforcement; Washington's crypto clocks slip",
-      "latest_dates": {
-        "scan": "2026-08-17",
-        "tracker": "2026-08-21",
-        "di": "2026-08-13",
-        "cc": "2026-08-14"
-      },
-      "history": [
-        {
-          "date": "2026-08-21",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe switches on AI enforcement; Washington's crypto clocks slip",
-          "summary": "Third cycle. The AI Office's investigation and fining powers over general-purpose AI providers took effect on 2 August, entering the register as the cycle's steepest accelerator, and the sustainability rollback re-accelerated as the simplified ESRS was adopted.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Regulation by Purchase Order: Simplified Procurement Rulebooks Come Back Carrying More Conditions",
-          "summary": "The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-14",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The rulebook stopped being the constraint. The enforcer did.",
-          "summary": "Over this cycle the strategic constraint changed hands: the rules are largely settled, the deadlines are still slipping, and what determines exposure is whether a jurisdiction has a funded enforcer...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-13",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer That Enforcement Went Local",
-          "summary": "The rules are not the story this cycle. The enforcement machinery is. Across eight weeks, four separate jurisdictions changed not what they require but who requires it, how that person is funded...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Detection, Not Deregulation: Why Simplified Rulebooks Are Getting Harder to Breach",
-          "summary": "Supervisory detection capability, not the rule book, is the variable moving in 2026. Simplification packages cut visible burden while SupTech budgets, tax-authority analytics and reporting coverage...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Regulating by Class: PFAS Rules Now Attach to the Whole Chemistry, Not the Substance",
-          "summary": "PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Deregulation Without Repeal: Why the Rules Are Still on the Books",
-          "summary": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rules Without Referees: The EU's Missing Certification Machinery",
-          "summary": "The EU's binding regulatory constraint has quietly shifted from the rules to the machinery that enforces them. AI Act and Cyber Resilience Act certification depends on notified bodies and harmonised...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-17",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe enacts its simplification; the US stablecoin clock runs down",
-          "summary": "Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
-          "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
-          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
-          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
-          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-19",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Brussels trims and defers; Washington carves its own track",
-          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
-          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-11",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Compliance Becomes Strategy",
-          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
-          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
-          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
-          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
-          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Disclosure That Didn't Disappear",
-          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Nature on the Supervisor's Desk",
-          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
-          "posture": ""
-        }
-      ]
-    },
     {
       "slug": "ai-automation",
       "name": "AI & Automation",
@@ -202,14 +9,22 @@
       "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
-      "latest_read": "Memory, not compute, is where AI now takes capacity from the rest of the economy. Three suppliers have contracted years of DRAM output to AI customers, so phones, PCs, cars and security hardware are...",
+      "latest_read": "The commercial terms for machine reading of the web are forming faster than the legal ones. A default block on mixed-purpose crawlers lands on 15 September 2026 across a fifth of the world's...",
       "latest_dates": {
-        "scan": "2026-08-15",
+        "scan": "2026-08-22",
         "tracker": "2026-08-06",
         "di": "2026-08-20",
         "cc": "2026-08-21"
       },
       "history": [
+        {
+          "date": "2026-08-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Blocked by Default: Machine Access to the Web Now Has a Price and a Deadline",
+          "summary": "The commercial terms for machine reading of the web are forming faster than the legal ones. A default block on mixed-purpose crawlers lands on 15 September 2026 across a fifth of the world's...",
+          "posture": "Decide"
+        },
         {
           "date": "2026-08-21",
           "kind": "cross_cutter",
@@ -416,6 +231,400 @@
           "type": "Signal Scan",
           "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
           "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "workforce-skills-organisational-change",
+      "name": "Workforce, Skills & Organisational Change",
+      "tagline": "What stays human when AI joins the org chart.",
+      "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
+      "latest_read": "Firms rehiring experienced staff after AI-driven cuts may be buying a stock of judgement rather than restarting its production.",
+      "latest_dates": {
+        "scan": "2026-08-22",
+        "tracker": "2026-08-06",
+        "di": "2026-08-13",
+        "cc": "2026-08-14"
+      },
+      "history": [
+        {
+          "date": "2026-08-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Apprenticeship Was the Codified Work: Firms Are Bidding Up Judgement They Have Stopped Manufacturing",
+          "summary": "Firms rehiring experienced staff after AI-driven cuts may be buying a stock of judgement rather than restarting its production.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Attribution Under Test: What It Costs to Say the Layoff Was AI",
+          "summary": "Saying a layoff was caused by AI has become a claim that others can test. AI leads stated reasons for US job cuts while measured separations barely move, and the label now triggers union clauses, EU...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-14",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The exit closed. Nobody built the inside.",
+          "summary": "Over this cycle, the constraint on workforce planning changed address. Thirteen weeks ago the central question was how much work AI would take away, and the plan that followed from it was a...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer the Careers Ladder Came Apart",
+          "summary": "Three separate mechanisms that used to make a career legible have stopped working at the same time, and each shows up in a different dataset that was not built to talk to the others.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Reallocation That Isn't: AI's Labour Shock Lands on Places, Not on Movers",
+          "summary": "Labour markets are absorbing the AI shock through places and entry cohorts, not through workers moving. OECD evidence finds adjustment running via joblessness and opportunities for newcomers rather...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-06",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "The layoff wave cools; the entry-level argument reopens",
+          "summary": "Third cycle. Announced US job cuts fell to their lowest monthly total since December 2025 even as AI led all named reasons, so white-collar layoffs ease to Fading.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Aggregation Trigger: Why Dispersed AI Job Cuts Stop Being Cheap in 2027",
+          "summary": "Redundancy is about to be counted per employer rather than per site, which lands directly on AI-driven cuts of two or three roles per location.",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-07-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "When Switching Stops Paying: America's Churn Collapse and the Forced Rebuild of Internal Mobility",
+          "summary": "America's job-market churn engine has stalled: hires and quits are stuck at decade-low rates while the job-switching pay premium has nearly closed.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Same Title, Different Pay: The AI-Fluency Divide Opening Inside Occupations",
+          "summary": "The sharpest AI pay divide is opening inside occupations, not between them. Workers who restructure their work around AI command a widening premium (PwC puts it at 62% in 2026) over...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-11",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Deferred Its Workplace-AI Rules to 2027; the Duty to Consult Workers Still Binds",
+          "summary": "Beneath the headline that the EU has deferred its AI Act high-risk employment rules from August 2026 to December 2027, the binding constraint on workplace AI has not disappeared but shifted...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-04",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Second Workforce: AI Agents Enter the Employment System of Record",
+          "summary": "Enterprises are rebuilding the administrative machinery of employment, HRMS worker types, agent-manager roles, CAIO mandates and pay architecture, to manage AI agents as a second workforce, ahead of...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Flattening cuts into the leadership pipeline as layoffs cool",
+          "summary": "Cycle 2. Leadership-pipeline erosion enters the register as the steepest new mover: aggressive delayering removes where future leaders are trained, with Gartner projecting one in five firms cutting more than half their middle managers and only 6% of Gen Z wanting senior roles.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Headcount Reset: Why Firms Are Decoupling Jobs From Growth Before the AI Payoff Is Proven",
+          "summary": "Beneath the competing narratives that AI either grows jobs and productivity or simply enables efficient layoffs, a growing set of firms are pre-committing to a permanent decoupling of revenue growth...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Reskilling Treadmill: Why Skills Now Decay Faster Than Training Can Refresh Them",
+          "summary": "In AI-exposed work the half-life of job skills is collapsing faster than employer training can refresh it, while employer training investment declines and AI strips out the routine tasks that built...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Beyond the Headcount",
+          "summary": "The workforce contract is being rewritten on five legs at once: AI agents are entering the operating model alongside people; skills frameworks are overtaking degree credentials as the hiring and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains",
+          "summary": "AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Manager in the Machine: Algorithmic Management Went Mainstream Before Its Guardrails Arrived",
+          "summary": "AI has quietly become the manager rather than the copilot, instructing, monitoring, evaluating and gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD).",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Layers fall and offices fill as engagement hits a new floor",
+          "summary": "Inaugural Change Tracker on Workforce, Skills and Organisational Change. Eight signals: 5 Accelerating (the Great Flattening of middle management, white-collar forever layoffs, manager and employee...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vanishing Middle: Why Management-Layer Compression Is Structural, Not Cyclical",
+          "summary": "Span of control is crossing thresholds once considered dysfunctional, permanently re-architecting firms into a thin manager spine plus a widened expert lattice.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset",
+          "summary": "The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation.",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Hiring Verification Crisis",
+          "summary": "The credential infrastructure of hiring is being broken by AI faster than the displace-or-augment debate registers.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Whim",
+          "summary": "The employer-paid mobility budget, not city integration apps or super-apps, is the structural successor to the Whim consumer-MaaS dream.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Broken Rung",
+          "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "regulation-standards-policy-change",
+      "name": "Regulation, Standards & Policy Change",
+      "tagline": "Where compliance becomes strategy.",
+      "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
+      "latest_read": "Europe switches on AI enforcement; Washington's crypto clocks slip",
+      "latest_dates": {
+        "scan": "2026-08-17",
+        "tracker": "2026-08-21",
+        "di": "2026-08-13",
+        "cc": "2026-08-14"
+      },
+      "history": [
+        {
+          "date": "2026-08-21",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe switches on AI enforcement; Washington's crypto clocks slip",
+          "summary": "Third cycle. The AI Office's investigation and fining powers over general-purpose AI providers took effect on 2 August, entering the register as the cycle's steepest accelerator, and the sustainability rollback re-accelerated as the simplified ESRS was adopted.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Regulation by Purchase Order: Simplified Procurement Rulebooks Come Back Carrying More Conditions",
+          "summary": "The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-14",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The rulebook stopped being the constraint. The enforcer did.",
+          "summary": "Over this cycle the strategic constraint changed hands: the rules are largely settled, the deadlines are still slipping, and what determines exposure is whether a jurisdiction has a funded enforcer...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer That Enforcement Went Local",
+          "summary": "The rules are not the story this cycle. The enforcement machinery is. Across eight weeks, four separate jurisdictions changed not what they require but who requires it, how that person is funded...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Detection, Not Deregulation: Why Simplified Rulebooks Are Getting Harder to Breach",
+          "summary": "Supervisory detection capability, not the rule book, is the variable moving in 2026. Simplification packages cut visible burden while SupTech budgets, tax-authority analytics and reporting coverage...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Regulating by Class: PFAS Rules Now Attach to the Whole Chemistry, Not the Substance",
+          "summary": "PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Deregulation Without Repeal: Why the Rules Are Still on the Books",
+          "summary": "Most US deregulation since 2025 has suspended enforcement rather than repealed rules, so the obligations remain codified and reversible.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rules Without Referees: The EU's Missing Certification Machinery",
+          "summary": "The EU's binding regulatory constraint has quietly shifted from the rules to the machinery that enforces them. AI Act and Cyber Resilience Act certification depends on notified bodies and harmonised...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-17",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe enacts its simplification; the US stablecoin clock runs down",
+          "summary": "Second Change Tracker on Regulation, Standards and Policy Change. Nine signals: 4 Accelerating (EU AI Act deferral and simplification, US GENIUS Act stablecoin rulemaking, EU data-protection...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Quantum Compliance Clock: Post-Quantum Migration Becomes Binding Law Before the Threat Arrives",
+          "summary": "Beneath the 'quantum is a decade away' consensus, post-quantum migration became enforceable regulation: EO 14412 binds US agencies to 2030-2031 deadlines and pulls contractors in through a FAR rule...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Liability Handover: Strict Liability for Software and AI Arrives as Europe's Rulebooks Retreat",
+          "summary": "Beneath the EU-deregulation consensus (Omnibus VII deferring the AI Act's high-risk rules to December 2027 and August 2028), enforcement is migrating from regulators to courts: the new Product...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Removable Regulator: How Eroding Agency and Central-Bank Independence Reprices Policy Risk",
+          "summary": "Beneath the headline policy reversals, the legal and normative firewall insulating independent regulators and central banks from at-will political removal is being dismantled - the Supreme Court is expected to gut or narrow Humphrey's Executor in Trump v. Slaughter and Trump v.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After Human-in-the-Loop: Regulators Concede Oversight Cannot Scale to Agentic AI",
+          "summary": "Beneath the human-in-the-loop consensus, financial regulators and standard-setters are conceding that human oversight cannot scale to agentic AI and are shifting the control model from supervising...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-19",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Brussels trims and defers; Washington carves its own track",
+          "summary": "Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "From Age Gate to Identity Layer: How Child-Safety Mandates Are Building the Internet's New Identity Infrastructure",
+          "summary": "Beneath the child-safety framing of 2026's online age-verification laws, age assurance is hardening into a standardised, platform-level identity layer for the consumer internet, converging OS...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-11",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Compliance Becomes Strategy",
+          "summary": "The cycle&rsquo;s central tension is that regulation has become a strategic variable rather than a planning constraint.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Inside the Perimeter: Regulators Take Direct Oversight of the Cloud Hyperscalers",
+          "summary": "Financial regulators are for the first time gaining direct supervisory authority over cloud hyperscalers (AWS, Microsoft, Google Cloud) as designated entities.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Ratchet: How the EU's AI Act Rollback Reverses the Brussels Effect",
+          "summary": "The one-way 'Brussels Effect' regulatory ratchet has reversed: the May 2026 AI Act Omnibus is an early rollback of a flagship EU digital law, not a pragmatic compliance delay.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Preemption by Other Means: How 'Managed Federalism' Is Quietly Reshaping Who Sets AI Rules",
+          "summary": "The US administration is chilling state AI lawmaking in practice without preempting it in law, a model Lawfare calls 'managed federalism'.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the Coverage Gap: D2D Satellite and the Unbundling of Mobile Spectrum",
+          "summary": "A cluster of May 2026 US spectrum decisions has quietly turned direct-to-device satellite from a coverage add-on into a market-structure event: reallocating dedicated mobile spectrum to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Disclosure That Didn't Disappear",
+          "summary": "The EU's Omnibus I directive frees roughly 80% of companies from mandatory sustainability reporting: but the demand for ESG data is not disappearing, it is migrating from one harmonised public...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Nature on the Supervisor's Desk",
+          "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
           "posture": ""
         }
       ]
@@ -1639,199 +1848,6 @@
           "type": "Signal Scan",
           "title": "The Homology Trap",
           "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "workforce-skills-organisational-change",
-      "name": "Workforce, Skills & Organisational Change",
-      "tagline": "What stays human when AI joins the org chart.",
-      "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
-      "latest_read": "Saying a layoff was caused by AI has become a claim that others can test. AI leads stated reasons for US job cuts while measured separations barely move, and the label now triggers union clauses, EU...",
-      "latest_dates": {
-        "scan": "2026-08-15",
-        "tracker": "2026-08-06",
-        "di": "2026-08-13",
-        "cc": "2026-08-14"
-      },
-      "history": [
-        {
-          "date": "2026-08-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Attribution Under Test: What It Costs to Say the Layoff Was AI",
-          "summary": "Saying a layoff was caused by AI has become a claim that others can test. AI leads stated reasons for US job cuts while measured separations barely move, and the label now triggers union clauses, EU...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-14",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The exit closed. Nobody built the inside.",
-          "summary": "Over this cycle, the constraint on workforce planning changed address. Thirteen weeks ago the central question was how much work AI would take away, and the plan that followed from it was a...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-13",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer the Careers Ladder Came Apart",
-          "summary": "Three separate mechanisms that used to make a career legible have stopped working at the same time, and each shows up in a different dataset that was not built to talk to the others.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Reallocation That Isn't: AI's Labour Shock Lands on Places, Not on Movers",
-          "summary": "Labour markets are absorbing the AI shock through places and entry cohorts, not through workers moving. OECD evidence finds adjustment running via joblessness and opportunities for newcomers rather...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-06",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "The layoff wave cools; the entry-level argument reopens",
-          "summary": "Third cycle. Announced US job cuts fell to their lowest monthly total since December 2025 even as AI led all named reasons, so white-collar layoffs ease to Fading.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Aggregation Trigger: Why Dispersed AI Job Cuts Stop Being Cheap in 2027",
-          "summary": "Redundancy is about to be counted per employer rather than per site, which lands directly on AI-driven cuts of two or three roles per location.",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-07-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "When Switching Stops Paying: America's Churn Collapse and the Forced Rebuild of Internal Mobility",
-          "summary": "America's job-market churn engine has stalled: hires and quits are stuck at decade-low rates while the job-switching pay premium has nearly closed.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Same Title, Different Pay: The AI-Fluency Divide Opening Inside Occupations",
-          "summary": "The sharpest AI pay divide is opening inside occupations, not between them. Workers who restructure their work around AI command a widening premium (PwC puts it at 62% in 2026) over...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-11",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Deferred Its Workplace-AI Rules to 2027; the Duty to Consult Workers Still Binds",
-          "summary": "Beneath the headline that the EU has deferred its AI Act high-risk employment rules from August 2026 to December 2027, the binding constraint on workplace AI has not disappeared but shifted...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-04",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Second Workforce: AI Agents Enter the Employment System of Record",
-          "summary": "Enterprises are rebuilding the administrative machinery of employment, HRMS worker types, agent-manager roles, CAIO mandates and pay architecture, to manage AI agents as a second workforce, ahead of...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-02",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Flattening cuts into the leadership pipeline as layoffs cool",
-          "summary": "Cycle 2. Leadership-pipeline erosion enters the register as the steepest new mover: aggressive delayering removes where future leaders are trained, with Gartner projecting one in five firms cutting more than half their middle managers and only 6% of Gen Z wanting senior roles.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Headcount Reset: Why Firms Are Decoupling Jobs From Growth Before the AI Payoff Is Proven",
-          "summary": "Beneath the competing narratives that AI either grows jobs and productivity or simply enables efficient layoffs, a growing set of firms are pre-committing to a permanent decoupling of revenue growth...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Reskilling Treadmill: Why Skills Now Decay Faster Than Training Can Refresh Them",
-          "summary": "In AI-exposed work the half-life of job skills is collapsing faster than employer training can refresh it, while employer training investment declines and AI strips out the routine tasks that built...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-18",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Beyond the Headcount",
-          "summary": "The workforce contract is being rewritten on five legs at once: AI agents are entering the operating model alongside people; skills frameworks are overtaking degree credentials as the hiring and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Competence Debt: The Hidden Human-Capital Liability Beneath AI's Productivity Gains",
-          "summary": "AI dependence is eroding critical thinking, persistence, error-detection and tacit expertise faster than reskilling rebuilds them.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Manager in the Machine: Algorithmic Management Went Mainstream Before Its Guardrails Arrived",
-          "summary": "AI has quietly become the manager rather than the copilot, instructing, monitoring, evaluating and gating hiring, promotion and termination at near-universal scale (90% of US firms, OECD).",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Layers fall and offices fill as engagement hits a new floor",
-          "summary": "Inaugural Change Tracker on Workforce, Skills and Organisational Change. Eight signals: 5 Accelerating (the Great Flattening of middle management, white-collar forever layoffs, manager and employee...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Vanishing Middle: Why Management-Layer Compression Is Structural, Not Cyclical",
-          "summary": "Span of control is crossing thresholds once considered dysfunctional, permanently re-architecting firms into a thin manager spine plus a widened expert lattice.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The End of Pay Secrecy: The EU Directive Forcing a Structural Compensation Reset",
-          "summary": "The EU Pay Transparency Directive is forcing a structural re-engineering of how firms set, justify and disclose pay, ending pay secrecy and individual negotiation.",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Hiring Verification Crisis",
-          "summary": "The credential infrastructure of hiring is being broken by AI faster than the displace-or-augment debate registers.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After Whim",
-          "summary": "The employer-paid mobility budget, not city integration apps or super-apps, is the structural successor to the Whim consumer-MaaS dream.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Broken Rung",
-          "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
           "posture": ""
         }
       ]

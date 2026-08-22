@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 21 Aug 2026 08:30:06 +0000</lastBuildDate>
+<lastBuildDate>Sat, 22 Aug 2026 08:37:15 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Blocked by Default: Machine Access to the Web Now Has a Price and a Deadline</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-22-blocked-by-default-access/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-22-blocked-by-default-access/scan.html</guid>
+<pubDate>Sat, 22 Aug 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>The commercial terms for machine reading of the web are forming faster than the legal ones. A default block on mixed-purpose crawlers lands on 15 September 2026 across a fifth of the world's websites, the billing unit has moved from per-crawl to per-answer, and the UK has proposed to watch the licensing market rather than legislate.</description>
+</item>
+<item>
+<title>The Apprenticeship Was the Codified Work: Firms Are Bidding Up Judgement They Have Stopped Manufacturing</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-22-judgement-supply-line/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-22-judgement-supply-line/scan.html</guid>
+<pubDate>Sat, 22 Aug 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>Firms rehiring experienced staff after AI-driven cuts may be buying a stock of judgement rather than restarting its production. Young-worker employment has fallen in codified-knowledge occupations while experienced-worker employment held in tacit-knowledge ones; whether AI caused it is contested.</description>
+</item>
 <item>
 <title>One Thousand a Day: The Casualty Plan That Lands on Civilian Hospitals</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-19-civilian-casualty-reception/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sun, 19 Jul 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
 <description>Beneath the fight over the US administration's vaccine changes, the decades-long single national immunization standard has splintered: medical societies and 28 states now issue their own schedules, ACIP has had no functioning quorum since March 2026, and because the ACA, the Vaccines for Children program and Medicare peg no-cost coverage to ACIP, the coverage guarantee itself is fragmenting by payer and state, with a cliff building for end-2026 when insurers' voluntary...</description>
-</item>
-<item>
-<title>Breadth Without Depth: Why AI's Adoption Numbers Diverge Four-Fold</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-18-ai-adoption-measurement-gap/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-07-18-ai-adoption-measurement-gap/scan.html</guid>
-<pubDate>Sat, 18 Jul 2026 08:00:00 +0000</pubDate>
-<category>AI &amp; Automation</category>
-<description>The three best US measures of AI adoption diverge four-fold, so there is no single adoption rate. About 18% of firms, 41% of workers and 78% employment-weighted, the gap revealing AI that is broad but shallow, widely touched yet rarely material to output.</description>
-</item>
-<item>
-<title>Same Title, Different Pay: The AI-Fluency Divide Opening Inside Occupations</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-18-ai-fluency-pay-divide/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-07-18-ai-fluency-pay-divide/scan.html</guid>
-<pubDate>Sat, 18 Jul 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>The sharpest AI pay divide is opening inside occupations, not between them. Workers who restructure their work around AI command a widening premium (PwC puts it at 62% in 2026) over identically-titled peers who do not.</description>
 </item>
 </channel>
 </rss>

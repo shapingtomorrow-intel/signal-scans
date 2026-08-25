@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-24T08:31:01Z",
+  "generated": "2026-08-25T08:32:08Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Nominal at the Border: The EU Routed More Rules Through Customs As Detection Rates Fell",
-      "date": "2026-08-24",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
-      "posture": "Decide",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-08-24-nominal-border-enforcement/scan.html"
+      "title": "Megawatts Without Availability: Retirement Deferrals Are Padding Reserve Margins the Grid Cannot Draw On",
+      "date": "2026-08-25",
+      "topic": "Energy, Infrastructure & Climate Resilience",
+      "topic_slug": "energy-infrastructure-climate-resilience",
+      "posture": "Prepare",
+      "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-25-padded-reserve-margin/scan.html"
     },
     "change_tracker": {
       "title": "Europe switches on AI enforcement; Washington's crypto clocks slip",

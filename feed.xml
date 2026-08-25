@@ -5,8 +5,16 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 24 Aug 2026 08:30:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 25 Aug 2026 08:30:32 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Megawatts Without Availability: Retirement Deferrals Are Padding Reserve Margins the Grid Cannot Draw On</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-25-padded-reserve-margin/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-25-padded-reserve-margin/scan.html</guid>
+<pubDate>Tue, 25 Aug 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>US retirement deferrals are padding reserve margins with capacity the grid cannot reliably call on. Conventional forced outage rates hit 9.2% in 2025 and the units held open by federal order are running far below their own recent history, so the reserve requirement itself is being re-based upward.</description>
+</item>
 <item>
 <title>Legislated Back In: Cash Acquired Acceptance Duties While Its Payment Share Kept Falling</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-08-24-cash-contingency-mandate/scan.html</link>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 21 Jul 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
 <description>A 90-day US emergency power has become the instrument that decides which power plants retire. Every DOE 202(c) order issued since May 2025 has been renewed, 22 orders cover 12 generating units, ratepayer costs exceed $300 million, and the DC Circuit now weighs whether the rolling federal retirement veto stands.</description>
-</item>
-<item>
-<title>Mines Without Smelters: The Midstream Gap in the West's Critical-Minerals Push</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-21-allied-smelter-squeeze/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/supply-chains-critical-minerals/2026-07-21-allied-smelter-squeeze/scan.html</guid>
-<pubDate>Tue, 21 Jul 2026 08:00:00 +0000</pubDate>
-<category>Supply Chains &amp; Critical Minerals</category>
-<description>Critical-minerals diversification is failing at the midstream, where allied smelting is closing or moving onto state support. The copper processing benchmark settled at zero for 2026, zinc spot fees are deeply negative, and the IEA finds diversification investment concentrated in mines while refining capacity lags to 2035.</description>
 </item>
 </channel>
 </rss>

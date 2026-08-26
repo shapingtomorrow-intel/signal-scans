@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T08:03:11Z",
+  "generated": "2026-08-26T08:35:54Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-08-26",
         "tracker": "2026-08-07",
         "di": "2026-08-27",
-        "cc": "2026-07-03"
+        "cc": "2026-08-28"
       },
       "history": [
+        {
+          "date": "2026-08-28",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Defence spending slowed. The claims on civil capacity did not.",
+          "summary": "Over this cycle, the lever changed. Two months ago the central question was whether European industry could absorb money that had already cleared, and the answer was expected to arrive as factory capacity.",
+          "posture": ""
+        },
         {
           "date": "2026-08-27",
           "kind": "brief",

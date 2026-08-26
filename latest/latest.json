@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-25T08:32:08Z",
+  "generated": "2026-08-26T08:50:44Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Megawatts Without Availability: Retirement Deferrals Are Padding Reserve Margins the Grid Cannot Draw On",
-      "date": "2026-08-25",
-      "topic": "Energy, Infrastructure & Climate Resilience",
-      "topic_slug": "energy-infrastructure-climate-resilience",
+      "title": "The Missing Ledger: NATO's 1.5% Tier Goes Unmeasured While Its Perimeter Widens",
+      "date": "2026-08-26",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-25-padded-reserve-margin/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-26-untracked-defence-tier/scan.html"
     },
     "change_tracker": {
       "title": "Europe switches on AI enforcement; Washington's crypto clocks slip",
@@ -19,21 +19,21 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/regulation-standards-policy-change/2026-08-21/tracker.html"
     },
     "decision_intelligence": {
-      "title": "Why AI Projects Now Die on Value, Not Capability",
-      "date": "2026-08-20",
-      "topic": "AI & Automation",
-      "topic_slug": "ai-automation",
+      "title": "You Don't Have to Be in Defence to Be Caught by It",
+      "date": "2026-08-27",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
       "posture": "",
       "company": "Shaping Tomorrow (sample / marketing publication)",
-      "url": "https://decision-intel.shapingtomorrow.com/si/ai-dies-on-value/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/not-in-defence-caught-by-it/"
     },
     "action_triggers": {
-      "title": "AI Spending Is Not Earning Its Keep",
-      "date": "2026-08-21",
-      "topic": "AI & Automation",
-      "topic_slug": "ai-automation",
+      "title": "Defence spending slowed. The claims on civil capacity did not.",
+      "date": "2026-08-28",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/shaping-tomorrow-sample-ai-automation-cross-cutter-2026-08-21/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/defence-security-resilience-action-triggers/"
     }
   }
 }

@@ -1,0 +1,481 @@
+[
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "PJM filed a proposal with FERC with the goal of commencing a Reliability Backstop Procurement (RBP) on Sept. 30, 2026, as the result of an accelerated stakeholder process and guided by PJM’s core mission to maintain reliability consistent with the direction in the PJM Board of Manager’s letter from Jan. 16 and the stated goals by PJM governors and the White House National Energy Dominance Council.",
+      "To guard against double procurement, the initial procurement target will be decreased by the sum of qualifying new resources that are the subject of executed bilateral contracts or otherwise bring new capacity to the system.",
+      "The success of the procurement requires state participation, the RBP proposal states, as states have authority over how retail costs are allocated from the Reliability Backstop Procurement to Load Serving Entities and end-use customers."
+    ],
+    "tier": 1,
+    "publisher": "PJM Interconnection (Inside Lines)",
+    "title": "PJM Reliability Backstop Proposal Outlines Steps To Secure New Supply and Maintain Reliability",
+    "url": "https://insidelines.pjm.com/pjm-reliability-backstop-proposal-outlines-steps-to-secure-new-supply-and-maintain-reliability/",
+    "publication_date": "2026-07-31",
+    "date_source": "byline",
+    "date_evidence": "One-time procurement aims to backfill capacity shortfall                    July 31, 2026",
+    "verified_at": "2026-08-27T09:14:23Z",
+    "date_age_band": "0-3m",
+    "key_claim": "PJM filed a one-time Reliability Backstop Procurement at FERC on 31 July 2026, commencing 30 September, securing resources for up to 15 years at a maximum willingness to pay of a MW-weighted average $555/MW-day, against the 6,831 MW shortfall from the 2028/2029 capacity auction.",
+    "frame_summary": "PJM argues the shortfall is solvable through a one-time procurement plus bilateral contracting, but frames state action on retail cost allocation, not extra supply, as the condition on which the plan succeeds.",
+    "signals_supported": [
+      "Capacity-market scarcity pricing",
+      "Ratepayer cost-allocation politics",
+      "AI data-centre electricity demand"
+    ],
+    "cluster": "Scarcity acquires a price and a payer",
+    "verbatim_quote": "The Reliability Backstop Procurement would secure resources for terms of up to 15 years with a maximum willingness to pay equal to a MW-weighted average of $555/MW-day."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "PJM aims to announce the backstop auction results by Dec. 2, before it holds a base capacity auction for the 2029/30 delivery year.",
+      "The rules would affect data centers that come online after June 1, 2027."
+    ],
+    "tier": 3,
+    "publisher": "Utility Dive",
+    "title": "PJM files backstop auction plan at FERC to meet capacity shortfall",
+    "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
+    "publication_date": "2026-08-03",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-08-03 | meta-article_date_original: Monday, August 03, 2026, 08:22 AM",
+    "verified_at": "2026-08-27T09:16:41Z",
+    "date_age_band": "0-3m",
+    "key_claim": "PJM's backstop auction runs 30 September to 21 October to fill a 6.8 GW shortfall, with a proposed $555/MW-day price cap against the $325/MW-day cap of the last base auction, results due by 2 December.",
+    "frame_summary": "Utility Dive frames the filing as a reliability fix whose real test is political, since it works only if states shield retail customers from the cost shift it creates.",
+    "signals_supported": [
+      "Capacity-market scarcity pricing",
+      "Ratepayer cost-allocation politics"
+    ],
+    "cluster": "Scarcity acquires a price and a payer",
+    "verbatim_quote": "The grid operator proposed a $555/MW-day overall price cap for the auction, up from a $325/MW-day cap for its last base capacity auction."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "PJM relied on Wagner Unit 4 during periods of unusually high temperatures earlier this summer, using the unit’s remaining operating hours.",
+      "PJM has since indicated to DOE that it continues to need Wagner Unit 4 to meet high electricity demand and help prevent power outages."
+    ],
+    "tier": 1,
+    "publisher": "US Department of Energy",
+    "title": "Energy Secretary Acts to Protect Mid-Atlantic Grid",
+    "url": "https://www.energy.gov/articles/energy-secretary-acts-protect-mid-atlantic-grid",
+    "publication_date": "2026-08-19",
+    "date_source": "byline",
+    "date_evidence": "Emergency order strengthens grid reliability and minimizes the risk of energy shortfalls in 13 states and the District of Columbia. Energy.gov August 19, 2026",
+    "verified_at": "2026-08-27T09:19:08Z",
+    "date_age_band": "0-3m",
+    "key_claim": "DOE issued a Federal Power Act Section 202(c) emergency order on 19 August 2026 permitting PJM to run Wagner Unit 4 beyond its operating limit from 20 August to 17 November 2026.",
+    "frame_summary": "DOE presents repeated emergency dispatch orders as routine protection of reliability for 65 million people rather than as intervention that defers the retirement decisions causing the shortfall.",
+    "signals_supported": [
+      "Emergency-order reliability governance",
+      "Heat as an operating constraint"
+    ],
+    "cluster": "Heat stops being a loss statistic",
+    "verbatim_quote": "This order is effective from August 20, 2026, through November 17, 2026."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "In total, 13 of the 57 reactors in EDF's nuclear fleet were affected. Eight reactors were completely shut down while five were operating at reduced power.",
+      "France uses nuclear power to generate around 70% of its electricity."
+    ],
+    "tier": 3,
+    "publisher": "Euronews (My Europe)",
+    "title": "Extreme weather and jellyfish knock one-fifth of France's nuclear capacity offline",
+    "url": "https://www.euronews.com/my-europe/2026/08/12/heatwave-and-jellyfish-a-fifth-of-french-nuclear-capacity-offline",
+    "publication_date": "2026-08-12",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-12 16:09:00 +02:00",
+    "verified_at": "2026-08-27T09:21:35Z",
+    "date_age_band": "0-3m",
+    "original_language": "en",
+    "key_claim": "A record 20.4% of French nuclear generating capacity was unavailable on 12 August 2026, with 13 of EDF's 57 reactors affected, eight fully shut and five at reduced power, driven by drought, extreme heat and a jellyfish swarm at Gravelines.",
+    "frame_summary": "Euronews argues that environmental conditions, not plant faults, are now the binding constraint on French nuclear output, and that warming water is producing failure modes the fleet was not designed around.",
+    "signals_supported": [
+      "Heat as an operating constraint"
+    ],
+    "cluster": "Heat stops being a loss statistic",
+    "verbatim_quote": "According to AFP calculations based on data published by energy group EDF since 2015, 20.4% of generating capacity was unavailable."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "According to EDO, half (50%) of the EU and the UK is under drought at some level of intensity (watch, warning and alert) with 9% of the territory at alert level in July."
+    ],
+    "tier": 1,
+    "publisher": "European Commission (Joint Research Centre)",
+    "title": "Worsening drought and record heat grip Europe, fuelling extraordinary wildfires and extremely low river flows",
+    "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en",
+    "publication_date": "2026-08-12",
+    "date_source": "byline",
+    "date_evidence": "Publication date 12 August 2026",
+    "verified_at": "2026-08-27T09:23:52Z",
+    "date_age_band": "0-3m",
+    "key_claim": "EU wildfire burnt area reached 505,683 hectares by 5 August 2026 against 379,392 hectares by the same date in 2025, while half the EU and UK sat under some level of drought and the Loire, Po, Rhine and Danube hit record low flows.",
+    "frame_summary": "The JRC argues that compound drought and heat is now a cross-sector stress event degrading energy generation alongside water, agriculture and transport, and that 2026 has already outpaced last year's record fire season.",
+    "signals_supported": [
+      "Heat as an operating constraint",
+      "EU resilience and climate-adaptation deadlines"
+    ],
+    "cluster": "Heat stops being a loss statistic",
+    "verbatim_quote": "In the following week, 2026 overtook 2025 for the same period, and by 5 August the total burnt area has reached 505,683 hectares since the start of the year compared to 379,392 hectares burnt by 5 August 2025."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Notre plan d’investissement (SDDR) intègre un volet renouvellement et adaptation du réseau électrique au changement climatique (24 milliards d’euros d’ici à 2040) pour maintenir un haut niveau de qualité de service tout en anticipant les impacts du changement climatique (+4°C en 2100)."
+    ],
+    "tier": 1,
+    "publisher": "RTE",
+    "title": "Canicule : la securite d'approvisionnement en electricite n'appelle aucune vigilance particuliere",
+    "url": "https://www.rte-france.com/actualites/canicule-securite-approvisionnement-electricite-appelle-aucune-vigilance-particuliere",
+    "publication_date": "2026-06-22",
+    "date_source": "byline",
+    "date_evidence": "Canicule : la sécurité d’approvisionnement en électricité n’appelle aucune vigilance particulière 22/06/2026",
+    "verified_at": "2026-08-27T09:26:14Z",
+    "date_age_band": "0-3m",
+    "original_language": "fr",
+    "key_claim": "RTE reports French demand averaging 58 GW during the June heat episode, below the 60 GW peak of 1 July 2025, and confirms a 24 billion euro network renewal and climate-adaptation component in its SDDR investment plan to 2040.",
+    "frame_summary": "RTE argues that the French system is dimensioned for current heat episodes and that the real adaptation question is long-dated network renewal, not near-term supply security.",
+    "signals_supported": [
+      "Heat as an operating constraint"
+    ],
+    "cluster": "Heat stops being a loss statistic",
+    "verbatim_quote": "La consommation d’électricité atteindra 58 GW en moyenne cette semaine, et restera en deçà du pic de consommation de 60 GW atteint le 1er juillet 2025."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "The total was the lowest first-half outcome since 2020 and below the trend estimate of USD 66 billion.",
+      "They generated USD 28 billion in insured losses, the lowest since 2021 (USD 21 billion, inflation-adjusted).",
+      "According to NOAA data, 22% of all the hurricanes making landfall in the US during the 1950–2025 period occurred under El Niño conditions.",
+      "This year's quieter first half reflects the geography and timing of storms rather than any structural reduction in risk."
+    ],
+    "tier": 2,
+    "publisher": "Swiss Re Institute",
+    "title": "First-half 2026 insured natural catastrophe losses: below trend, rising risks",
+    "url": "https://www.swissre.com/institute/research/topics-and-risk-dialogues/climate-and-natural-catastrophe-risk/first-half-2026-insured-catastrophe-losses.html",
+    "publication_date": "2026-08-11",
+    "date_source": "byline",
+    "date_evidence": "Published on: 11 Aug 2026",
+    "verified_at": "2026-08-27T09:28:47Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Global insured natural catastrophe losses reached an estimated USD 42 billion in H1 2026, the lowest first half since 2020 and below the USD 66 billion trend, with severe convective storms at USD 28 billion.",
+    "frame_summary": "Swiss Re argues the quiet first half reflects where storms landed rather than any reduction in risk, and warns that El Nino lowers the odds of an active season without removing the tail.",
+    "signals_supported": [
+      "Insured catastrophe-loss repricing"
+    ],
+    "cluster": "Heat stops being a loss statistic",
+    "verbatim_quote": "Swiss Re Institute’s preliminary estimates put global insured natural catastrophe losses at USD 42 billion in the first half of 2026."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "NOAA also raised the probability of a below-average season from 55% to 75%.",
+      "A strong El Niño has already taken hold, with water temperatures in the El Niño zone now 2.07 degrees above average, higher than the same point for other recent Super El Niño events of 2015, 1997, 1991, and 1982."
+    ],
+    "tier": 3,
+    "publisher": "Fox Weather",
+    "title": "NOAA releases updated 2026 Atlantic hurricane outlook as looming 'Super' El Nino aims to limit activity",
+    "url": "https://www.foxweather.com/weather-news/noaa-2026-hurricane-season-forecast-august-super-el-nino",
+    "publication_date": "2026-08-06",
+    "date_source": "meta:dc.date",
+    "date_evidence": "meta-dc.date: 2026-08-06 | meta-dcterms.created: 2026-08-06T08:16:26-04:00",
+    "verified_at": "2026-08-27T09:31:09Z",
+    "date_age_band": "0-3m",
+    "key_claim": "NOAA's August update expects 7 to 13 named storms and 0 to 2 major hurricanes, and raised the probability of a below-average Atlantic season from 55% to 75% on a strengthening El Nino.",
+    "frame_summary": "Fox Weather frames the downgraded outlook as El Nino suppression of Atlantic activity while stressing NOAA's caveat that a record-strength event could produce impacts outside the historical pattern.",
+    "signals_supported": [
+      "Insured catastrophe-loss repricing"
+    ],
+    "cluster": "Heat stops being a loss statistic",
+    "verbatim_quote": "The agency expects 7 to 13 named storms, 2 to 6 hurricanes, including 0 to 2 major (Category 3 or stronger) hurricanes."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Ferraro said lead times across the company now run three years or more.",
+      "Bruch projected the addressable market for gas turbines could reach 120 GW a year, with about half of that demand coming from the United States."
+    ],
+    "tier": 3,
+    "publisher": "Utility Dive",
+    "title": "Siemens Energy's gas turbine backlog nears 70 GW as company expands manufacturing",
+    "url": "https://www.utilitydive.com/news/siemens-gas-turbine-backlog-nears-70-gw-as-company-expands-manufacturing/827390/",
+    "publication_date": "2026-08-10",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-08-10 | meta-article_date_original: Monday, August 10, 2026, 08:00 AM",
+    "verified_at": "2026-08-27T09:33:26Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Siemens Energy shipped 6 GW of turbines in its fiscal third quarter and booked 15 GW of new gas orders, taking its gas services backlog to 69 GW, with company-wide lead times of three years or more.",
+    "frame_summary": "Utility Dive frames turbine and transformer manufacturing capacity, not orders, as the binding constraint, with vendors expanding lines years ahead of the demand they have already contracted.",
+    "signals_supported": [
+      "Gas turbine supply bottleneck"
+    ],
+    "cluster": "Scarcity acquires a price and a payer",
+    "verbatim_quote": "It shipped 6 GW of turbines during the third quarter, bringing its total gas services backlog to 69 GW, according to an earnings presentation."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Worldwide data center power demand is expected to rise 27% in 2026 and reach 132 gigawatts (GW), up from 104GW in 2025."
+    ],
+    "tier": 2,
+    "publisher": "Gartner",
+    "title": "Gartner Says Data Center Electricity Consumption to Grow 26% in 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-06-10-gartner-says-data-center-electricity-demand-to-grow-26-percent-in-2026",
+    "publication_date": "2026-06-10",
+    "date_source": "byline",
+    "date_evidence": "STAMFORD, Conn., June 10, 2026",
+    "verified_at": "2026-08-27T09:35:52Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Gartner forecasts global data-centre electricity consumption of 565 TWh in 2026, up from 447 TWh in 2025, with worldwide data-centre power demand rising 27% to 132 GW.",
+    "frame_summary": "Gartner argues that power availability rather than chips or capital is now the constraint on AI capacity, making grid access a competitive variable for operators.",
+    "signals_supported": [
+      "AI data-centre electricity demand"
+    ],
+    "cluster": "Scarcity acquires a price and a payer",
+    "verbatim_quote": "Gartner forecasts global data center electricity consumption to reach 565 terawatt hours (TWh) in 2026, up from 447TWh in 2025."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "In the last year, DEP hasbecome aware of an unprecedented number of data center proposals, with over 100 projects reported in publicly sourced databases, and 58 projects engaged with DEP to discuss permitting at some level of formality."
+    ],
+    "tier": 1,
+    "publisher": "Commonwealth of Pennsylvania (Office of the Governor)",
+    "title": "Governor Shapiro Signs Executive Order Demanding Data Center Developers Comply with Strict Requirements and Blocking Speculative, Irresponsible Data Center Projects",
+    "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen",
+    "publication_date": "2026-08-18",
+    "date_source": "byline",
+    "date_evidence": "Governor Shapiro Signs Executive Order ... August 18, 2026",
+    "verified_at": "2026-08-27T09:38:31Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Executive Order 2026-05 requires data-centre developers to pay the full cost of new generation, transmission and distribution infrastructure; of more than 100 proposed Pennsylvania projects, 58 have engaged DEP on permitting, 15 have applied for at least one permit and five are fully permitted.",
+    "frame_summary": "The Shapiro administration argues that households should not underwrite speculative data-centre pipelines, and uses state permitting leverage to force cost causation onto developers where the legislature has not acted.",
+    "signals_supported": [
+      "Ratepayer cost-allocation politics",
+      "AI data-centre electricity demand"
+    ],
+    "cluster": "Scarcity acquires a price and a payer",
+    "verbatim_quote": "Of those projects, 15 have applied for at least one DEP permit, and only five have received all necessary permits required for their first phase of development."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "There is considerable variation across the country, though, as last year's rates went up 26.3% in DC, 18.9% in Pennsylvania, and 16.3% in Rhode Island, with smaller increases in southern and western states."
+    ],
+    "tier": 2,
+    "publisher": "Brookings",
+    "title": "How rising electric rates could affect the 2026 midterms",
+    "url": "https://www.brookings.edu/articles/how-rising-electric-rates-could-affect-the-2026-midterms",
+    "publication_date": "2026-03-20",
+    "date_source": "byline",
+    "date_evidence": "Douglas Dillon Chair in Governmental Studies March 20, 2026",
+    "verified_at": "2026-08-27T09:41:07Z",
+    "date_age_band": "3-6m",
+    "key_claim": "US electric rates measured by average retail revenue per kilowatt rose 7.1% in 2025 and are expected to keep rising in 2026, with increases of 26.3% in the District of Columbia, 18.9% in Pennsylvania and 16.3% in Rhode Island.",
+    "frame_summary": "Brookings argues that data-centre-linked electricity costs have become a bipartisan political liability, so the cost-allocation fight will be settled at the ballot box as much as at the regulator.",
+    "signals_supported": [
+      "Ratepayer cost-allocation politics"
+    ],
+    "cluster": "Scarcity acquires a price and a payer",
+    "verbatim_quote": "According to the U.S. Energy Information Administration, electric rates measured by average retail revenues per kilowatt went up 7.1% in 2025 and are expected to continue rising in 2026."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "The RTOs and ISOs must respond to FERC's orders within 60 days by August 17, 2026.",
+      "The EIT creates a temporary, stand-alone process under which PJM may evaluate up to 10 interconnection requests per calendar year for new or uprated capacity resources of at least 250 MW that can achieve commercial operation within three years."
+    ],
+    "tier": 2,
+    "publisher": "Orrick, Herrington & Sutcliffe",
+    "title": "FERC Show Cause Orders Signal Broad Reform to Large Load Interconnection Policies",
+    "url": "https://www.orrick.com/en/Insights/2026/07/FERC-Show-Cause-Orders-Signal-Broad-Reform-to-Large-Load-Interconnection-Policies",
+    "publication_date": "2026-07-06",
+    "date_source": "byline",
+    "date_evidence": "6 minute read | July.06.2026",
+    "verified_at": "2026-08-27T09:43:44Z",
+    "date_age_band": "0-3m",
+    "key_claim": "FERC issued show cause orders on 18 June 2026 to all six jurisdictional RTOs and ISOs on large-load interconnection rules, proposing a large-load definition of at least 50 MW peak at 69 kV or above, with responses due 17 August 2026.",
+    "frame_summary": "Orrick argues that FERC has moved from case-by-case co-location disputes to a systematic federal rewrite of large-load connection rules, and that the resulting tariffs will decide data-centre project timelines.",
+    "signals_supported": [
+      "Large-load interconnection rules"
+    ],
+    "cluster": "Connection rules and storage widen the valve",
+    "verbatim_quote": "However, FERC proposes to define a large load as a commercial or industrial customer located at a single site behind one or more points of interconnection that has a peak load of at least 50 MW, connects to the transmission grid at a voltage of at least 69 kV, and is not part of a co-location arrangement."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "More than 2 500 gigawatts (GW) worth of projects – encompassing renewables, storage, and projects with large loads, such as data centres − remain stalled in grid connection queues worldwide.",
+      "Global electricity demand is forecast to increase at a brisk average annual rate of 3.6% over the 2026-2030 forecast period, supported by rising consumption from industry, electric vehicles, air conditioning and data centres."
+    ],
+    "tier": 1,
+    "publisher": "International Energy Agency",
+    "title": "Executive summary: Electricity 2026",
+    "url": "https://www.iea.org/reports/electricity-2026/executive-summary",
+    "publication_date": "2026-02-06",
+    "date_source": "byline",
+    "date_evidence": "Electricity 2026 Published 06 February 2026",
+    "verified_at": "2026-08-27T09:46:19Z",
+    "date_age_band": "6-12m",
+    "key_claim": "The IEA forecasts global electricity demand growth averaging 3.6% a year to 2030, with more than 2,500 GW of projects stalled in connection queues worldwide and 750 GW to 900 GW potentially enabled by flexible, non-firm connection agreements.",
+    "frame_summary": "The IEA argues that the delivery constraint is contractual and regulatory as much as physical, and that non-firm connection rules can release stalled capacity faster than any grid build-out.",
+    "signals_supported": [
+      "Large-load interconnection rules",
+      "AI data-centre electricity demand"
+    ],
+    "cluster": "Connection rules and storage widen the valve",
+    "verbatim_quote": "About 750 GW to 900 GW of projects could be enabled via more flexible, non-firm grid connection agreements."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Over 610 GWh of energy storage is now expected to be installed by 2030, up from previous projections.",
+      "In Q1, 7.8 GWh of utility-scale storage was installed in the United States."
+    ],
+    "tier": 2,
+    "publisher": "Solar Energy Industries Association",
+    "title": "US adds 10 GWh of new energy storage capacity in the first quarter, marking largest Q1 on record",
+    "url": "https://seia.org/news/largest-q1-on-record-for-energy-storage/",
+    "publication_date": "2026-05-21",
+    "date_source": "byline",
+    "date_evidence": "Marking Largest Q1 on Record ... May 21, 2026",
+    "verified_at": "2026-08-27T09:48:55Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The US installed 9.7 GWh of new energy storage in Q1 2026, the strongest first quarter on record, of which 7.8 GWh was utility scale, with more than 610 GWh now expected to be installed by 2030.",
+    "frame_summary": "SEIA argues storage has become energy-security infrastructure whose growth is now limited by federal permitting decisions rather than demand or cost.",
+    "signals_supported": [
+      "Battery storage scaling"
+    ],
+    "cluster": "Connection rules and storage widen the valve",
+    "verbatim_quote": "The U.S. energy storage industry installed 9.7 gigawatt-hours (GWh) of new capacity in the first quarter of 2026, the strongest first quarter in the sector's history."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "China exported almost 1.2m tonnes of solar cells in April 2026, according to Reuters."
+    ],
+    "tier": 2,
+    "publisher": "Carbon Brief",
+    "title": "Chart: Why China's solar boom is slowing down",
+    "url": "https://www.carbonbrief.org/chart-why-chinas-solar-boom-is-slowing-down",
+    "publication_date": "2026-06-05",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-06-05T12:36:55+00:00",
+    "verified_at": "2026-08-27T09:51:33Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Chinese solar installations fell 56% year on year to 9 GW in March 2026 and 79% to 10 GW in April, after a record 315 GW added in 2025, as pricing reform replaced fixed feed-in tariffs.",
+    "frame_summary": "Carbon Brief argues the slowdown is a pricing-policy transition rather than a collapse in demand, with export volumes still rising even as domestic additions fall.",
+    "signals_supported": [
+      "Battery storage scaling"
+    ],
+    "cluster": "Connection rules and storage widen the valve",
+    "verbatim_quote": "Installations in March fell 56% year-on-year to 9GW, while new capacity in April totalled 10GW, a 79% drop compared to a year earlier, according to Carbon Brief's analysis of official data."
+  },
+  {
+    "topic": "Energy, Infrastructure and Climate Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [],
+    "tier": 1,
+    "publisher": "European Commission (Climate Action)",
+    "title": "European Climate Resilience and Risk Management: Integrated Framework",
+    "url": "https://climate.ec.europa.eu/areas-action/adaptation-and-resilience-climate-change/european-climate-resilience-and-risk-management-integrated-framework_en",
+    "publication_date": "2026-05-19",
+    "date_source": "byline",
+    "date_evidence": "This page was last updated on 19 May 2026",
+    "verified_at": "2026-08-27T09:54:02Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The Commission's integrated climate resilience and risk management package, combining legislative and non-legislative measures, is expected to be adopted in the second half of 2026.",
+    "frame_summary": "The Commission argues that resilience must be designed into infrastructure and investment rules rather than added after events, and is preparing binding as well as voluntary instruments to that end.",
+    "signals_supported": [
+      "EU resilience and climate-adaptation deadlines"
+    ],
+    "cluster": "Connection rules and storage widen the valve",
+    "verbatim_quote": "It will consist of a balanced policy package which, following a thorough impact assessment process, is expected to be adopted during the second half of 2026."
+  }
+]

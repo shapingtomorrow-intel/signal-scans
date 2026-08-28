@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T15:32:24Z",
+  "generated": "2026-08-28T08:33:03Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-26-untracked-defence-tier/scan.html"
     },
     "change_tracker": {
-      "title": "Scarcity gets a $555 cap; heat takes a fifth of France's reactors",
-      "date": "2026-08-27",
-      "topic": "Energy, Infrastructure and Climate Resilience",
-      "topic_slug": "energy-infrastructure-climate-resilience",
+      "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
+      "date": "2026-08-28",
+      "topic": "Climate, Nature & Food Systems",
+      "topic_slug": "climate-nature-food-systems",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/energy-infrastructure-climate-resilience/2026-08-27/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/climate-nature-food-systems/2026-08-28/tracker.html"
     },
     "decision_intelligence": {
       "title": "You Don't Have to Be in Defence to Be Caught by It",

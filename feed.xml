@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 28 Aug 2026 08:30:04 +0000</lastBuildDate>
+<lastBuildDate>Sat, 29 Aug 2026 08:30:20 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Who Pays When the Agent Errs: Agentic Commerce Ships Without Its Dispute Layer</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-29-agent-error-liability-gap/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-29-agent-error-liability-gap/scan.html</guid>
+<pubDate>Sat, 29 Aug 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>Agent-initiated checkout went live in 2026 without a rule for who absorbs the loss when an agent errs. Card-network rulebooks and bilateral contracts are writing that dispute layer ahead of any statute, with merchants holding the default exposure.</description>
+</item>
+<item>
+<title>The EU's Platform-Work Employment Presumption Falls Due in December, With Most National Laws Missing</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-29-presumption-before-the-laws/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-29-presumption-before-the-laws/scan.html</guid>
+<pubDate>Sat, 29 Aug 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>The EU's platform-work employment presumption falls due on 2 December 2026 before most national laws exist. Germany has no draft, the Dutch and Czech acts commence after the deadline with different tests, so firms face a patchwork of burden-of-proof reversals rather than one rule.</description>
+</item>
 <item>
 <title>The Missing Ledger: NATO's 1.5% Tier Goes Unmeasured While Its Perimeter Widens</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-26-untracked-defence-tier/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 25 Jul 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
 <description>America's job-market churn engine has stalled: hires and quits are stuck at decade-low rates while the job-switching pay premium has nearly closed. Skills renewal is moving inside the firm, and attrition-led workforce planning has lost its main lever.</description>
-</item>
-<item>
-<title>Silence Means Yes: The EU Suspends Its Precautionary Default for Defence</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-22-defence-tacit-approval-turn/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-22-defence-tacit-approval-turn/scan.html</guid>
-<pubDate>Wed, 22 Jul 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>The EU has inverted its permitting default for defence: a project application not decided on deadline is now tacitly approved. The 10 June 2026 Defence Readiness Omnibus deal sets a 42-working-day default and a 102-working-day cap, with chemicals exemptions and general transfer licences attached.</description>
-</item>
-<item>
-<title>The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-22-shadow-fleet-nationalisation/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-22-shadow-fleet-nationalisation/scan.html</guid>
-<pubDate>Wed, 22 Jul 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system. The Russian flag's share of shadow-fleet oil volumes rose from 3% to 23% in a year, and draft decrees would fast-track up to a thousand ships onto the Russian register.</description>
 </item>
 </channel>
 </rss>

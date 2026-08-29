@@ -1,14 +1,14 @@
 {
-  "generated": "2026-08-28T08:33:03Z",
+  "generated": "2026-08-29T08:31:38Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "The Missing Ledger: NATO's 1.5% Tier Goes Unmeasured While Its Perimeter Widens",
-      "date": "2026-08-26",
-      "topic": "Defence, Security & Resilience",
-      "topic_slug": "defence-security-resilience",
+      "title": "The EU's Platform-Work Employment Presumption Falls Due in December, With Most National Laws Missing",
+      "date": "2026-08-29",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-08-26-untracked-defence-tier/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-29-presumption-before-the-laws/scan.html"
     },
     "change_tracker": {
       "title": "Water goes to two-year tenor; nature finance stalls at $1,000",

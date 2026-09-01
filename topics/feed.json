@@ -1,7 +1,72 @@
 {
-  "generated": "2026-09-01T08:32:55Z",
+  "generated": "2026-09-01T13:42:17Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "climate-nature-food-systems",
+      "name": "Climate, Nature & Food Systems",
+      "tagline": "Nature moves onto the risk register.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
+      "latest_read": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+      "latest_dates": {
+        "scan": "2026-09-01",
+        "tracker": "2026-08-28",
+        "di": "2026-09-03",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-09-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Climate Policy Has Started Taking Things Away",
+          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
+          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
+          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
+          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
+          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
+          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "posture": "Prepare"
+        }
+      ]
+    },
     {
       "slug": "energy-infrastructure-climate-resilience",
       "name": "Energy, Infrastructure & Climate Resilience",
@@ -240,63 +305,6 @@
           "title": "The Grid Bypass",
           "summary": "As transformer and grid-equipment shortages harden, the largest electricity loads are defecting to behind-the-meter generation, fragmenting the power system into a fast private tier and a slow...",
           "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "climate-nature-food-systems",
-      "name": "Climate, Nature & Food Systems",
-      "tagline": "Nature moves onto the risk register.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
-      "latest_read": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-      "latest_dates": {
-        "scan": "2026-09-01",
-        "tracker": "2026-08-28",
-        "di": "",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-09-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
-          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
-          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
-          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
-          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
-          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
-          "posture": "Prepare"
         }
       ]
     },
@@ -1582,17 +1590,9 @@
         "scan": "2026-08-26",
         "tracker": "2026-08-07",
         "di": "2026-08-27",
-        "cc": "2026-08-28"
+        "cc": "2026-07-03"
       },
       "history": [
-        {
-          "date": "2026-08-28",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Defence spending slowed. The claims on civil capacity did not.",
-          "summary": "Over this cycle, the lever changed. Two months ago the central question was whether European industry could absorb money that had already cleared, and the answer was expected to arrive as factory capacity.",
-          "posture": ""
-        },
         {
           "date": "2026-08-27",
           "kind": "brief",

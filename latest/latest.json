@@ -1,39 +1,39 @@
 {
-  "generated": "2026-09-01T08:33:01Z",
+  "generated": "2026-09-03T10:30:27Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
-      "date": "2026-09-01",
-      "topic": "Climate, Nature & Food Systems",
-      "topic_slug": "climate-nature-food-systems",
+      "title": "China Has Turned Its Export Control List Into a Standing Reciprocity Machine",
+      "date": "2026-09-02",
+      "topic": "Geopolitics & Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-09-01-uncertified-restoration-supply/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-02-list-for-list-retaliation/scan.html"
     },
     "change_tracker": {
-      "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
-      "date": "2026-08-28",
+      "title": "Hiring freezes before firing does; the AI rulebook arrives by contract",
+      "date": "2026-09-03",
+      "topic": "Workforce, Skills and Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
+      "posture": "",
+      "url": "https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-09-03/tracker.html"
+    },
+    "decision_intelligence": {
+      "title": "Climate Policy Has Started Taking Things Away",
+      "date": "2026-09-03",
       "topic": "Climate, Nature & Food Systems",
       "topic_slug": "climate-nature-food-systems",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/climate-nature-food-systems/2026-08-28/tracker.html"
-    },
-    "decision_intelligence": {
-      "title": "You Don't Have to Be in Defence to Be Caught by It",
-      "date": "2026-08-27",
-      "topic": "Defence, Security & Resilience",
-      "topic_slug": "defence-security-resilience",
-      "posture": "",
       "company": "Shaping Tomorrow (sample / marketing publication)",
-      "url": "https://decision-intel.shapingtomorrow.com/si/not-in-defence-caught-by-it/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/climate-policy-taking-things-away/"
     },
     "action_triggers": {
-      "title": "Defence spending slowed. The claims on civil capacity did not.",
-      "date": "2026-08-28",
-      "topic": "Defence, Security & Resilience",
-      "topic_slug": "defence-security-resilience",
+      "title": "The rules now decide what you may use, and for how long",
+      "date": "2026-09-04",
+      "topic": "Climate, Nature & Food Systems",
+      "topic_slug": "climate-nature-food-systems",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/defence-security-resilience-action-triggers/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/climate-nature-food-systems-action-triggers/"
     }
   }
 }

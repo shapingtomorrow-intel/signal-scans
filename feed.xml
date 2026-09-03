@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 01 Sep 2026 08:30:08 +0000</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 10:29:27 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Deniable Sabotage Falls Between the War Clause and the Terrorism Pool</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-02-grey-zone-cover-gap/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-02-grey-zone-cover-gap/scan.html</guid>
+<pubDate>Wed, 02 Sep 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>Deniable state-linked sabotage of European infrastructure now falls between the war clause and the terrorism pool, uninsured by default. The Lloyd's market is drafting which hostile acts (cyberattacks, drone incursions, undersea sabotage) do not count as war, Pool Re and TRIPRA certify terrorism rather than state-linked sabotage, political violence premium of about US$1.5 billion sits against loss estimates near double that, and TRIPRA expires at end-2027.</description>
+</item>
+<item>
+<title>China Has Turned Its Export Control List Into a Standing Reciprocity Machine</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-02-list-for-list-retaliation/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-02-list-for-list-retaliation/scan.html</guid>
+<pubDate>Wed, 02 Sep 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>China now answers each Western entity listing with a matched list of its own, within days and in the same numbers. MOFCOM listed 10 US entities on 22 June 2026 and 14 EU entities on 24 July, one day after the EU's 21st sanctions package named 14 Chinese and Hong Kong firms.</description>
+</item>
 <item>
 <title>Utility Wildfire Liability Now Turns on a Regulator-Approved Document</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-01-plan-became-the-shield/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 01 Aug 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
 <description>Redundancy is about to be counted per employer rather than per site, which lands directly on AI-driven cuts of two or three roles per location. UK rules are due in 2027 and the penalty for mis-consulting doubled in April 2026.</description>
-</item>
-<item>
-<title>The Repair Manual Is the Asset: Defence Data Rights Flip to a Government Default</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-29-repair-rights-default/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-07-29-repair-rights-default/scan.html</guid>
-<pubDate>Wed, 29 Jul 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Who owns the repair data is becoming the binding constraint on defence readiness, not how much is spent. The FY27 Senate NDAA would make government-purpose rights the default for technical data and software, reaching a sustainment pool that carries about half of a legacy platform's lifetime profit.</description>
-</item>
-<item>
-<title>Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-29-flag-based-minimum-tax/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-07-29-flag-based-minimum-tax/scan.html</guid>
-<pubDate>Wed, 29 Jul 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their European and Asian competitors still pay, and implementing states are answering with competitiveness relief and unilateral digital levies rather than enforcement.</description>
 </item>
 </channel>
 </rss>

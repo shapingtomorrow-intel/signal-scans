@@ -1,0 +1,478 @@
+[
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 1,
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "title": "The Employment Situation: July 2026",
+    "url": "https://www.bls.gov/news.release/archives/empsit_08072026.htm",
+    "publication_date": "2026-08-07",
+    "date_source": "byline",
+    "date_evidence": "Transmission of material in this news release is embargoed until                       USDL-26-1291\n8:30 a.m. (ET) Friday, August 7, 2026",
+    "verified_at": "2026-09-03T01:53:56Z",
+    "date_age_band": "0-3m",
+    "key_claim": "US nonfarm payroll employment fell by 23,000 in July 2026 and the unemployment rate held at 4.1 percent, with May and June payroll gains revised down by a combined 103,000.",
+    "frame_summary": "As an official statistical release it frames July as a 'little changed' month, emphasising stability in headline rates while the detail (negative payrolls, downward revisions, falling participation since January, financial-activities job losses) points to a softening labour market.",
+    "signals_supported": [
+      "low-hire-labour-market",
+      "skill-scarcity-pay-signal"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Total nonfarm payroll employment changed little in July (-23,000), following an average monthly gain of 34,000 over the prior 12 months.",
+    "verbatim_list": [
+      "The change in total nonfarm payroll employment for May was revised down by 66,000, from +129,000 to +63,000, and the change for June was revised down by 37,000, from +57,000 to +20,000. With these revisions, employment in May and June combined is 103,000 lower than previously reported.",
+      "In July, average hourly earnings for all employees on private nonfarm payrolls, at $37.62, were little changed (+2 cents). Over the year, average hourly earnings have increased by 3.2 percent."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "Archive URL for the 7 August 2026 release (confirmed present via search index and fetched directly); quotes read from the release text with hard line breaks collapsed. The page fetched is the LIVE 'latest release' URL (empsit.nr0.htm) and will be overwritten on 4 September 2026 with the August 2026 release; the archive URL given (archives/empsit_08072026.htm) is the stable one to cite but could not be fetched by this tool. Release text is in a fixed-width block with hard line breaks; quotes above have line breaks collapsed to single spaces. Page footer shows 'Last Modified Date: August 07, 2026'. Page also notes a preliminary benchmark revision to be published 28 August 2026."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 1,
+    "publisher": "Office for National Statistics",
+    "title": "Labour market overview, UK: August 2026",
+    "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/august2026",
+    "publication_date": "2026-08-18",
+    "date_source": "byline",
+    "date_evidence": "Release date:  \n18 August 2026  \n\nNext release:  \n15 September 2026",
+    "verified_at": "2026-09-03T01:57:55Z",
+    "date_age_band": "0-3m",
+    "key_claim": "UK payrolled employees fell by 78,000 (0.3%) in the year to June 2026, the unemployment rate rose to 4.9% in April to June 2026, vacancies fell to 707,000 (the lowest outside the pandemic since 2014) and regular pay growth slowed to 3.5%.",
+    "frame_summary": "The ONS frames the data as a gradually loosening labour market driven by employer cost pressures, while repeatedly cautioning that LFS quality issues mean users should rely on PAYE RTI and long-term trends rather than short-term survey movements.",
+    "signals_supported": [
+      "low-hire-labour-market",
+      "skill-scarcity-pay-signal"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Early estimates for May to July 2026 suggest a decrease of 6,000 (0.8%) to 707,000, compared with February to April 2026. Estimates have remained broadly flat since the start of the year, only decreasing by 11,000 since January to March 2026.",
+    "verbatim_list": [
+      "Estimates for payrolled employees in the UK fell by 78,000 (0.3%) between June 2025 and June 2026. However, it was largely unchanged on the month, decreasing by 13,000 (0.0%) between May and June 2026.",
+      "The UK unemployment rate for people aged 16 years and over was estimated at 4.9% in April to June 2026. This is up by 0.2 percentage points on the year but down by 0.1 percentage points on the latest quarter.",
+      "Annual growth in employees' average earnings in Great Britain was 3.5% for regular earnings (excluding bonuses) and 4.1% for total earnings (including bonuses) in April to June 2026. Annual average regular earnings growth was 6.1% for the public sector and 2.8% for the private sector."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "Accredited/official statistics bulletin; the page carries no meta published_time tag, so the visible 'Release date: 18 August 2026' dateline and the 'Cite this statistical bulletin' line ('released 18 August 2026') are the date evidence. Page states 'This is the latest release' and the URL is a fixed monthly slug so it will not be overwritten. Bulletin notes an LFS operational issue in May 2026 and that AWE data were revised back to the start of the series due to a seasonal adjustment review. Open Government Licence."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 1,
+    "publisher": "OECD",
+    "title": "Recent policy developments on AI in the labour market",
+    "url": "https://www.oecd.org/en/publications/recent-policy-developments-on-ai-in-the-labour-market_c0ffced7-en.html",
+    "publication_date": "2026-07-23",
+    "date_source": "meta:date",
+    "date_evidence": "meta-citation_publication_date: 2026/07/23",
+    "verified_at": "2026-09-03T01:59:29Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The paper reviews recent AI-in-the-labour-market policy measures in G7 countries, the EU and selected Latin American economies across six policy areas and finds that most AI issues are handled through existing labour-market frameworks, with explicit AI-targeted policy most developed for skills and adoption and still emerging for privacy, transparency and accountability.",
+    "frame_summary": "The OECD argues that governments are adapting rather than reinventing labour policy for AI, and that the policy gap lies not in skills/adoption (where action is concentrated) but in worker-protection areas such as privacy, non-discrimination, transparency and accountability where guidance remains nascent.",
+    "signals_supported": [
+      "algorithmic-management-employment-law",
+      "union-ai-clauses"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Policies explicitly targeted at AI in the labour market are most developed for AI skills and adoption, while measures and guidance are still emerging in other policy areas, particularly privacy, transparency and accountability.",
+    "verbatim_list": [
+      "Across most policy areas, AI-related issues are primarily addressed through existing labour market policy frameworks, rather than through stand-alone AI policies."
+    ],
+    "cluster": "Rules arrive by contract before statute",
+    "notes": "Quotes are taken from the page's abstract as exposed in the meta-citation_abstract / meta-description tags (identical text), because the OECD summary page renders its body via JavaScript and the fetched text contained only navigation. The PDF (https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/recent-policy-developments-on-ai-in-the-labour-market_52d4afe2/c0ffced7-en.pdf) fetched with no extractable text. Date ambiguity: the page meta gives 2026/07/23 while a web search snippet from the OECD AI Papers series listing gives '24 July 2026, 64 Pages'; the meta date is used here. Author is listed as 'OECD' (no named authors on page). DOI https://doi.org/10.1787/c0ffced7-en. Keywords tag identifies it as a Working paper from the Directorate for Employment, Labour and Social Affairs under the AI-WIPS programme. Contains no headline statistics; it is a qualitative policy review."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 1,
+    "publisher": "OECD",
+    "title": "Skills in the AI age",
+    "url": "https://www.oecd.org/en/publications/skills-in-the-ai-age_972bd15e-en.html",
+    "publication_date": "2026-07-08",
+    "date_source": "meta:date",
+    "date_evidence": "meta-citation_publication_date: 2026/07/08",
+    "verified_at": "2026-09-03T02:03:55Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The paper examines how AI, as a general-purpose technology comparable to the steam engine and electricity, is transforming labour markets and shifting skill requirements unevenly across sectors, regions, cities and skill levels, and sets out the policy responses needed to equip workers.",
+    "frame_summary": "The OECD frames AI as a net opportunity for productivity, growth and job creation that turns into displacement only if the transition is mismanaged, placing the burden on policymakers and skills systems to manage adaptation rather than on restraining the technology.",
+    "signals_supported": [
+      "reskilling-imperative"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "However, AI also presents challenges such as job displacements if the transition to using it is not properly managed. The effects of AI on employment differ across sectors, regions and cities, as well as across skill levels.",
+    "verbatim_list": [
+      "As general-purpose technologies like the steam engine and electricity once revolutionised society, artificial intelligence (AI) is likewise doing so today. By enhancing productivity, stimulating economic growth and creating new job opportunities, AI could significantly enhance human work and the labour market."
+    ],
+    "cluster": "Rules arrive by contract before statute",
+    "notes": "Quotes are taken from the page's abstract as exposed in the meta-citation_abstract / meta-description tags, because the OECD summary page body renders via JavaScript and the fetched text contained only navigation; the PDF (https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/skills-in-the-ai-age_e8d8c1e6/972bd15e-en.pdf) fetched with no extractable text. The OECD.AI mirror page shows the visible dateline 'July 8, 2026', matching the meta date, but its abstract wording differs slightly ('such as job displacement, if the transition to its use is not properly managed'); the oecd.org meta wording is used above. Author listed as 'OECD' (no named authors on page); keywords tag identifies it as a Policy paper from the Directorate for Science, Technology and Innovation. DOI https://doi.org/10.1787/972bd15e-en. The 7%-to-20% firm-adoption statistic surfaced in a search snippet should be verified against the PDF/full report before citing."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 2,
+    "publisher": "Stanford Digital Economy Lab",
+    "title": "No Widespread Displacement, but the AI Employment Gap for Young Workers Has Widened to 19%",
+    "url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
+    "publication_date": "2026-08-12",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-12T11:18:20+00:00",
+    "verified_at": "2026-09-03T02:06:13Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Using ADP payroll data through June 2026, the revised 'Canaries in the Coal Mine' paper finds no economy-wide AI job displacement, but employment of 22-25 year-olds in highly AI-exposed occupations is now about 19% below where it would be had it kept pace with less-exposed peers (up from 15% at the July 2025 data vintage), driven mainly by reduced hiring rather than separations.",
+    "frame_summary": "The authors argue that AI's labour-market effects are showing up first and selectively among young workers in automation-heavy, codified-knowledge occupations, and that these are suggestive descriptive patterns warranting continuous monitoring rather than definitive causal proof.",
+    "signals_supported": [
+      "entry-level-hiring-squeeze"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Employment among workers ages 22–25 in highly AI-exposed occupations now stands about 19% below where it would be if it had kept pace with employment among similarly aged workers in less-exposed occupations. Experienced workers show no comparable gap.",
+    "verbatim_list": [
+      "This divergence has widened steadily since we first documented it in August 2025: by this same measure, the shortfall was 15% at the July 2025 data vintage and is 19% as of June 2026.",
+      "These are descriptive patterns, not causal estimates of the effect of AI."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "Blog summary of revised working paper by Erik Brynjolfsson, Bharat Chandar and Ruyu Chen (PDF at digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf). Visible dateline 'August 12, 2026' matches meta published_time; article modified 2026-08-17. Third quote is from the page's footnote 1. Authors explicitly caveat that results are descriptive and sensitive to specification; ADP sample gaps larger than national survey benchmarks."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 2,
+    "publisher": "The Budget Lab at Yale",
+    "title": "AI Is Probably Not (Yet) the Reason for Labor Market Weakening",
+    "url": "https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening",
+    "publication_date": "2026-05-07",
+    "date_source": "byline",
+    "date_evidence": "[Ryan Nunn](https://budgetlab.yale.edu/person/ryan-nunn)\n\nMay 7, 2026\n\n[Printable PDF]",
+    "verified_at": "2026-09-03T02:07:52Z",
+    "date_age_band": "3-6m",
+    "key_claim": "Applying synthetic differences-in-differences to the microdata behind the monthly US jobs reports, The Budget Lab finds no statistically distinguishable effect of AI on employment shares or real hourly wages in AI-exposed occupations, despite a cooling labour market with unemployment at 4.3% in March 2026 and payroll growth of only about 20,000 jobs per month.",
+    "frame_summary": "The piece argues that the popular conjecture that AI adoption explains the weak 'low hire, low fire' labour market is not supported by the evidence to date, and that careful econometrics that account for structural differences between exposed and unexposed occupations are needed before attributing labour-market weakness to AI.",
+    "signals_supported": [
+      "entry-level-hiring-squeeze",
+      "low-hire-labour-market"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "When we apply our preferred strategy, we find no strong evidence of impacts as of yet.",
+    "verbatim_list": [
+      "Payroll employment growth has been relatively weak over the prior year, at only about 20,000 net new jobs per month.",
+      "From its post-pandemic low of 3.4% in April 2023, the unemployment rate has risen to 4.3% in March 2026—a higher though still healthy level."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "No article:published_time or datePublished meta tag on the page; date taken from the visible dateline under the author name (Ryan Nunn). Commentary summarising a fuller companion analysis ('What we do and don't know about how AI is affecting the labor market') released the same day. Page also states average employment share of an exposed occupation was just above 0.16% (footnote 3)."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 2,
+    "publisher": "Gallup",
+    "title": "State of the Global Workplace 2026",
+    "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx",
+    "publication_date": "2026-04-07",
+    "date_source": "websearch:snippet",
+    "date_evidence": "Gallup's report landing page carries no machine-readable publication date; the companion release article 'Global Employee Engagement Continues Decline' (gallup.com/workplace/708071) carries meta-article:published_time: 2026-04-07 and announces the report.",
+    "verified_at": "2026-09-03T02:12:31Z",
+    "date_age_band": "3-6m",
+    "key_claim": "Gallup's State of the Global Workplace 2026 report finds global employee engagement fell to 20% in 2025 (lowest since 2020, down from a 23% peak in 2022), costing an estimated $10 trillion or 9% of GDP in lost productivity, with manager engagement dropping nine points since 2022 (from 31% to 22%) accounting for most of the decline.",
+    "frame_summary": "Gallup frames the engagement slump as fundamentally a manager crisis, linked in part to organisational flattening, and argues that investing in manager selection, training and support (including manager-led AI adoption) is the lever for reversing it, since best-practice organisations achieve 79% manager engagement.",
+    "signals_supported": [
+      "manager-engagement-collapse"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The 2026 edition finds that global employee engagement fell to 20% in 2025, its lowest level since 2020, costing the world economy an estimated $10 trillion in lost productivity.",
+    "verbatim_list": [
+      "According to the 2026 State of the Global Workplace report, the largest year-over-year drop in manager engagement occurred between 2024 and 2025, when it declined by five points from 27% to 22%. In short, managers used to enjoy an “engagement premium” at work, but they are increasingly only as engaged as those they lead."
+    ],
+    "cluster": "Managers become the AI lever",
+    "notes": "Report landing page (evergreen URL, updated annually) carries no publication-date meta tag; on-page evidence is only 'Cite as: Gallup. (2026)' and an image alt reading 'SGOW > Top Card > 2026 Release > 2026-04 [UPDATE]'. The 2026-04-07 date and the date_evidence meta line are taken from Gallup's companion release article 'Global Employee Engagement Continues Decline' (https://www.gallup.com/workplace/708071/global-employee-engagement-continues-decline.aspx, dateline April 7, 2026), which announces the report. Third quote: the rendered fetch shows the report title in italics markup (*State of the Global Workplace*); asterisks removed here. Full report PDF: https://www.gallup.com/file/workplace/707798/state-of-the-global-workplace-2026-download.pdf. Data collected Jan-Dec 2025 across 140+ countries. Publication date taken from the companion release article; the landing page itself is an evergreen report URL."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 2,
+    "publisher": "KPMG",
+    "title": "AI Investment and Agent Deployment Hold Steady Amid Growing Focus on Pragmatism",
+    "url": "https://kpmg.com/us/en/media/news/q2-ai-pulse-2026.html",
+    "publication_date": "2026-06-24",
+    "date_source": "meta:pubdate",
+    "date_evidence": "meta-publishDate: June 24, 2026",
+    "verified_at": "2026-09-03T02:15:40Z",
+    "date_age_band": "0-3m",
+    "key_claim": "KPMG's Q2 2026 AI Quarterly Pulse Survey of 204 U.S. C-suite leaders at $1bn+ companies (fielded 28 April to 25 May 2026) finds AI investment steady at a weighted average of $202 million planned over 12 months (vs $207 million last quarter), agent deployment flat at 53% (vs 55%), multi-agent orchestration doubled from 9% to 18%, employee resistance up from 5% to 20%, and only 26% of organisations with full real-time visibility into AI operating costs.",
+    "frame_summary": "KPMG argues that enterprise AI has entered a pragmatic phase where the binding constraint is no longer ambition or deployment but the economics of running AI at scale, cost literacy and workforce trust, positioning cost management and reskilling as the next leadership priorities.",
+    "signals_supported": [
+      "ai-agents-coworkers"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "As organizations push further into agent-based models, employee resistance has increased to 20%, up from 5% last quarter. The nature of that resistance, however, has shifted.",
+    "verbatim_list": [
+      "While agent deployment this quarter is on par with last quarter (53% compared to 55%), the percentage of organizations orchestrating multiple AI agents across workflows doubled from 9% to 18%, pointing to a shift toward more coordinated, enterprise-level use to connect workflows across teams, systems and decisions."
+    ],
+    "cluster": "Managers become the AI lever",
+    "notes": "Press release page; fetch output was large (57KB) and saved to file. Date evidence from KPMG's custom meta-publishDate / meta-displayDate / meta-sortDate (2026-06-24T04:00:00Z) tags; no standard article:published_time. Quote 3 is a bullet in the key-findings list rather than running body prose. The opening paragraph's '26%' sentence contains an embedded external link (Axios) so was not used as a quote. Page also includes a Q&A summary table and industry-specific findings (banking agent adoption 56% vs 23% in Q1 2026)."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 3,
+    "publisher": "NPR",
+    "title": "Many recent grads say AI is making it harder to get a job. Economists aren't so sure",
+    "url": "https://www.npr.org/2026/08/18/nx-s1-5910677/recent-college-graduates-employment-job-artificial-intelligence",
+    "publication_date": "2026-08-18",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-08-18",
+    "verified_at": "2026-09-03T02:16:07Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The New York Fed puts unemployment for recent college graduates (22-27) at 5.7% as of June versus 4.1% for all workers, and while Stanford's Brynjolfsson finds a 16% relative employment decline for 22-25-year-olds in AI-exposed roles since late 2022, Harvard's Deming and Chicago's Humlum attribute the weak entry-level market more to remote work and note that the heaviest AI-adopting firms grew entry-level headcount by 12%.",
+    "frame_summary": "The piece argues that graduates' belief that AI is shutting them out is contested by economists, presenting AI as at most a partial explanation alongside remote work and cyclical factors, while all three experts agree a major but ultimately net-positive employment shift is underway.",
+    "signals_supported": [
+      "entry-level-hiring-squeeze"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "According to the Federal Reserve Bank of New York, the unemployment rate for recent graduates — which it defines as 22-to-27-year-olds with a new bachelor's degree or higher — was 5.7% as of June, more than the rate for all workers, which stands at 4.1%.",
+    "verbatim_list": [
+      "The study examined AI spending and employee head count across more than 21,000 U.S. firms, from early 2021 to early 2026. It found that at companies making the largest AI investments, entry-level head count grew by 12% over the two years following AI adoption."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "Also carries meta-cXenseParse:publishtime: 2026-08-18T05:00:00-04:00 and visible dateline 'August 18, 20265:00 AM ET'. Aired on Morning Edition; part of NPR's 'Learning in the age of AI' series. Byline Lee V. Gaines. The 16% figure sentence contains an embedded link so was not selected as a verbatim quote."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 3,
+    "publisher": "Forbes",
+    "title": "What The Changes In Entry-Level Jobs Mean For New College Graduates",
+    "url": "https://www.forbes.com/sites/michaeltnietzel/2026/08/02/what-the-changes-in-entry-level-jobs-mean-for-new-college-graduates/",
+    "publication_date": "2026-08-02",
+    "date_source": "byline",
+    "date_evidence": "Michael T. Nietzel, Senior Contributor\n\n Sun, August 2, 2026 at 6:00 AM EDT 4 min read",
+    "verified_at": "2026-09-03T02:20:20Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Cadient's analysis of 7,984 salaried openings across a stable employer panel from 2022 to 2026 finds the share of salaried jobs open to candidates with no experience fell 73% in four years (now one in 50 openings, down from one in 15), overall salaried postings fell 27%, applicants per position more than tripled, and senior-experience roles doubled, against a backdrop of 5.6% unemployment for recent graduates versus 4.2% overall.",
+    "frame_summary": "The article argues that new graduates face a structural catch-22 (employers and applicant-tracking software demand experience before granting the chance to get it) and that this collides with new federal earnings-accountability rules to create a 'perfect storm' for both students and higher-education institutions.",
+    "signals_supported": [
+      "entry-level-hiring-squeeze"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The share of salaried jobs open to candidates with no experience has fallen 73% in four years. Inexperienced candidates are now welcomed in just one in 50 openings, down from one in 15 in 2022.",
+    "verbatim_list": [
+      "This group of employers posted 27% fewer salaried openings overall. More than three times as many applicants now apply for every salaried position compared with 2022, and that increased competition is occuring for seasoned and entry-level candidates alike."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "Forbes page bot-blocks static fetches; text verified from the Yahoo Finance syndicated copy whose canonical points to this URL. Forbes.com fetch returned no body (likely bot-blocking); all text taken from the Yahoo Finance syndicated copy, which states 'This article was originally published on Forbes.com' and carries the Forbes URL as canonical. Date read from the Yahoo byline/dateline, which matches the Forbes URL slug date. Author Michael T. Nietzel is a Forbes Senior Contributor (opinion/contributor content, not staff reporting). Quote 3 contains the original typo 'occuring'. Web search snippet for the Forbes URL also confirmed the 73% / one-in-50 / 7,984 / 5.6% vs 4.2% figures. Bot-blocked (HTTP 403) to static fetchers; quote hand-verified 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 3,
+    "publisher": "Axios",
+    "title": "Inside the AI protections union workers are winning",
+    "url": "https://www.axios.com/2026/07/26/union-contracts-ai-workplace-disruption",
+    "publication_date": "2026-07-26",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-07-26T12:24:03Z",
+    "verified_at": "2026-09-03T02:22:06Z",
+    "date_age_band": "0-3m",
+    "key_claim": "With Congress stalled, union contracts are becoming the main guardrail against workplace AI: the NewsGuild has 85-90 contracts with explicit AI provisions, SAG-AFTRA and ZeniMax workers have won consent and notify-and-bargain clauses, but only 16.5 million U.S. workers (11.2%) were union-represented in 2025, leaving roughly 130 million without that leverage.",
+    "frame_summary": "The piece argues that America is becoming a patchwork in which unionised workers have a say over AI deployment while the non-union majority, especially in tech and finance, are on their own because federal legislation has amounted to 'baby steps'.",
+    "signals_supported": [
+      "union-ai-clauses"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "That amounts to just 11.2% of workers, but the rate varies drastically by industry and job.",
+    "verbatim_list": [
+      "The NewsGuild currently has between 85 and 90 contracts with explicit AI provisions, Schleuss says.",
+      "In finance, it's a mere 1.1%."
+    ],
+    "cluster": "Rules arrive by contract before statute",
+    "notes": "Page <title> and og:title read 'Unionized workers are bargaining with the bots' / 'Unions give workers more leverage against workplace AI', but the on-page H1 and meta-headline is 'Inside the AI protections union workers are winning'. Byline Josephine Walker; category Politics & Policy. Visible dateline 'Jul 26, 2026'. Axios bullet-point format means many key sentences contain embedded links; quotes chosen from link-free sentences where possible. Bot-blocked (HTTP 403) to static fetchers; quote hand-verified 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 3,
+    "publisher": "Fast Company",
+    "title": "Everyone wants to kill the middle manager role. The data says don’t do it",
+    "url": "https://www.fastcompany.com/91548285/everyone-wants-to-kill-the-middle-manager-role-the-data-says-dont-do-it",
+    "publication_date": "2026-06-01",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-06-01T08:30:00+00:00",
+    "verified_at": "2026-09-03T02:27:52Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The 'Great Flattening' is widespread (41% of employees say their companies trimmed management layers last year per Korn Ferry; middle managers were over 31% of 2023 layoffs; Gartner predicts 20% of organisations will use AI to eliminate over half of middle-management positions through 2026), yet Gallup finds managers account for at least 70% of the variance in employee engagement and earlier no-manager experiments at Zappos and Medium were reversed.",
+    "frame_summary": "An opinion piece by a former chief people officer arguing that eliminating middle managers in favour of AI or self-managing teams is a costly mistake, and that the real fix is better selection, training and support of managers rather than fewer of them.",
+    "signals_supported": [
+      "the-great-flattening",
+      "manager-engagement-collapse"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Some 41% of employees say their companies trimmed management layers last year, according to Korn Ferry’s survey of 15,000 professionals worldwide. Middle managers accounted for more than 31% of all layoffs in 2023.",
+    "verbatim_list": [
+      "Gallup’s research is also clear on this: Companies miss the mark on high managerial talent in 82% of their hiring decisions."
+    ],
+    "cluster": "Managers become the AI lever",
+    "notes": "Byline Ashley Herd (author of The Manager Method); contributed opinion/advice column in the Work Life section, not reporting. Visible dateline '06-01-2026' matches meta. Statistics are second-hand citations of Korn Ferry, Bloomberg, Gartner, Gallup and Deloitte. In the fetched markdown the first and fourth quotes contain hyperlinks on 'Korn Ferry's', 'more than 31%' and 'hiring'; link markup removed here, wording unchanged. Page contains promotional blocks for the author's book. Bot-blocked (HTTP 403) to static fetchers; quote hand-verified 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 3,
+    "publisher": "Fortune",
+    "title": "AI agents are flattening corporate hierarchies. Here’s how companies—and managers—can develop a new playbook",
+    "url": "https://fortune.com/2026/06/09/ai-agents-flattening-corporate-hierarchies-companies-managers-develop-new-playbook/",
+    "publication_date": "2026-06-09",
+    "date_source": "byline",
+    "date_evidence": "June 9, 2026, 9:45 AM ET",
+    "verified_at": "2026-09-03T02:30:41Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Around 41% of employees say their companies trimmed management layers last year (Korn Ferry survey of 15,000 professionals), and companies such as Cloudflare (which cut roughly 20% of staff, mostly 'measurers' in middle management and back-office functions) are using AI agents to absorb coordination work once done by middle managers.",
+    "frame_summary": "The article argues that a 'Great Flattening' is under way but not yet mainstream, and that surviving managers must shift from information-brokering to supervising AI agents and exercising distinctly human leadership, while warning that automating entry-level work risks hollowing out the future expert pipeline.",
+    "signals_supported": [
+      "the-great-flattening",
+      "ai-agents-coworkers"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Around 41% of employees say their companies trimmed management layers last year, according to Korn Ferry’s survey of 15,000 professionals worldwide. And recent restructuring efforts at companies including Meta, Citigroup, CrowdStrike, and GitLab have fueled debate about whether AI could accelerate a broader shift toward flatter organizations.",
+    "verbatim_list": [
+      "After cutting roughly 20% of the company’s workforce while posting record revenue, Prince said: “The vast majority of those we laid off last week were measurers,” he wrote. He defined “measurers” as those in middle management, finance, legal, internal auditing, and revenue recognition.",
+      "“The biggest risk isn’t necessarily fewer middle managers today,” Martina said. “It’s what happens 10 years from now if fewer people are getting the experience they need to become senior leaders and experts.”"
+    ],
+    "cluster": "Managers become the AI lever",
+    "notes": "No meta article:published_time tag in the fetched HTML; date taken from the visible byline dateline 'June 9, 2026, 9:45 AM ET'. Author Sharon Goldman is listed as 'Former AI Reporter'. The first quote contains inline links (Korn Ferry, Meta, Citigroup) in the original HTML; text is otherwise verbatim. The 41% figure originates from Korn Ferry, not Fortune's own research."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 3,
+    "publisher": "Ius Laboris",
+    "title": "EU Platform Work Directive: which countries have implemented?",
+    "url": "https://iuslaboris.com/insights/eu-platform-work-directive-which-countries-have-implemented/",
+    "publication_date": "2026-04-27",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-04-27T13:50:20+00:00",
+    "verified_at": "2026-09-03T02:31:39Z",
+    "date_age_band": "3-6m",
+    "key_claim": "Directive (EU) 2024/2831 on platform work, adopted 14 October 2024, must be transposed by Member States by 2 December 2026 and introduces a rebuttable presumption of employment plus algorithmic-management and worker-data protections; the page tracks national transposition progress via an interactive map.",
+    "frame_summary": "The source frames the Directive as a compliance deadline for international employers, presenting it neutrally as a legal-explainer and transposition tracker from an employment-law firm alliance rather than taking a position for or against the presumption of employment.",
+    "signals_supported": [
+      "algorithmic-management-employment-law"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Directive (EU) 2024/2831 on improving working conditions in platform work (known as the ‘Platform work directive’) was adopted on 14 October 2024. Member States have until 2 December 2026 to transpose it into national law.",
+    "verbatim_list": null,
+    "cluster": "Rules arrive by contract before statute",
+    "notes": "Page was last modified 2026-06-03 (meta-article:modified_time) and the og:image filename says 'last updated april 2026'; visible dateline is '27.04.26'. The country-by-country transposition status is inside an embedded Datawrapper map (https://datawrapper.dwcdn.net/KcWNP/11/), so the fetched text does NOT contain the per-country implementation list; only the Directive summary is in the body text. Author: Gisella Rocio Alvarado Caycho (Sagardoy, Spain)."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 4,
+    "publisher": "Challenger, Gray & Christmas",
+    "title": "Challenger Report: Layoffs Fall, Hiring Picks Up; AI Leads For Fifth Straight Month",
+    "url": "https://www.challengergray.com/blog/challenger-report-layoffs-fall-hiring-picks-up-ai-leads-for-fifth-straight-month/",
+    "publication_date": "2026-08-06",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-06T09:30:00+00:00",
+    "verified_at": "2026-09-03T02:35:29Z",
+    "date_age_band": "0-3m",
+    "key_claim": "U.S. employers announced 33,429 job cuts in July 2026 (down 27% from June and 46% year-on-year, the lowest monthly total in two years), with AI the leading stated reason for the fifth consecutive month at 10,970 cuts (33%) and 112,713 year-to-date (about 24%), while announced hiring plans rose to 16,095, the highest July figure since 2022.",
+    "frame_summary": "The report frames AI as reshaping rather than dismantling the labour market: cuts are concentrated in Tech and increasingly attributed to AI for investor-messaging reasons, but overall layoffs are falling and hiring in floor-based sectors is rising, and Challenger flags that attribution of cuts to AI is becoming more ambiguous and opaque.",
+    "signals_supported": [
+      "white-collar-forever-layoffs"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "In July, Artificial Intelligence (AI) led all reasons for job cuts, with 10,970 announced during the month, or 33%. It is the fifth consecutive month AI has been the leading reason. So far this year, AI has been cited in 112,713 job cut announcements, approximately 24% of all cuts.",
+    "verbatim_list": [
+      "July’s total is the lowest monthly total since July 2024, when 25,885 cuts were announced. Through July, employers have announced 477,033 job cuts, down 41% from the 806,383 cuts announced in the first seven months of 2025.",
+      "So far this year, companies have announced plans to hire 107,500 workers, up 25% from the 86,132 plans announced through July 2025. It is the strongest January-to-July total since 2023."
+    ],
+    "cluster": "The hiring door narrows",
+    "notes": "Press-release style monthly report; author meta Colleen Madden Blumenfeld; quotes attributed to Andy Challenger, CRO. Visible dateline 'Aug 06'. meta-article:modified_time 2026-08-22 (media coverage section added later). Full report with tables available as PDF at https://www.challengergray.com/wp-content/uploads/2026/08/Challenger-Report-July-2026.pdf. Note the Montefiore/Datavant case is tracked as 'Technological Update (possibly AI)', not as AI."
+  },
+  {
+    "topic": "Workforce, Skills and Organisational Change",
+    "tier": 4,
+    "publisher": "UFCW",
+    "title": "Book Workers Ratify New Contract With Artificial Intelligence Protection Clause",
+    "url": "https://forlocals.ufcw.org/2026/08/28/book-workers-ratify-new-contract-with-artificial-intelligence-protection-clause/",
+    "publication_date": "2026-08-28",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-28T19:26:26+00:00",
+    "verified_at": "2026-09-03T02:39:48Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Seven UFCW Local 400 members at Solid State Books' H Street location in Washington, D.C. ratified a three-year contract that includes a clause, drafted by UFCW's National Bargaining Department, barring termination, layoff, demotion or reduced hours as a result of introducing or expanding AI technologies, alongside guaranteed annual raises, recall language and higher minimum staffing.",
+    "frame_summary": "The post presents the agreement as a model of union-won AI job-protection language that even very small bargaining units can secure, framing AI as something that may enhance but must not replace human labour.",
+    "signals_supported": [
+      "union-ai-clauses"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "original_language": "en",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The clause, supplied by staff in the UFCW International’s National Bargaining Department, states that AI may enhance the work performed by bargaining unit employees but cannot replace or displace human labor.",
+    "verbatim_list": [
+      "It reads: “No bargaining unit employee shall be terminated, laid off, demoted, or suffer a reduction in regularly scheduled hours as a result of the introduction, implementation, or expansion of any AI Technologies."
+    ],
+    "cluster": "Rules arrive by contract before statute",
+    "notes": "Internal UFCW communications site for local unions (author meta 'lgoertzel'); union-sourced, not independent reporting. Ratification occurred 'earlier this summer' (image filename suggests 6 Aug 2026), but post date is 28 Aug 2026. Visible dateline '28 Aug 2026'. Very small bargaining unit (seven workers). The AI clause quotation on the page runs into a separate surveillance/privacy paragraph."
+  }
+]

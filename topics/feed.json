@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T08:30:07Z",
+  "generated": "2026-09-04T08:31:15Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -1869,7 +1869,7 @@
       "latest_read": "US employers are converting health coverage from a defined benefit into a fixed contribution just as the individual market they would hand workers to contracts.",
       "latest_dates": {
         "scan": "2026-08-30",
-        "tracker": "2026-07-10",
+        "tracker": "2026-08-14",
         "di": "2026-08-06",
         "cc": "2026-08-07"
       },
@@ -1897,6 +1897,14 @@
           "title": "The Price of the Dataset: African Governments Are Turning Down Health Aid Over Data Terms",
           "summary": "The consideration in the bilateral deals replacing US health aid is the national health dataset, not only the money.",
           "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-14",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Ebola response trails transmission while US immunisation cover keeps thinning",
+          "summary": "Third Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 5 Accelerating (Bundibugyo Ebola emergency, US measles elimination at risk, US vaccine-policy disruption, US pharma...",
+          "posture": ""
         },
         {
           "date": "2026-08-09",

@@ -1,0 +1,441 @@
+[
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization (Disease Outbreak News)",
+    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+    "publication_date": "2026-08-01",
+    "date_source": "byline",
+    "date_evidence": "Citable reference: World Health Organization (1 August 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo.",
+    "verified_at": "2026-08-14T00:04:19Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Bundibugyo virus disease outbreak in DRC is the largest Ebola outbreak ever recorded in the country, with 3605 confirmed cases and 1587 deaths (CFR 44%) as of 30 July 2026 across 49 health zones in five provinces.",
+    "frame_summary": "WHO argues the response is being outpaced by the outbreak and that a substantial scale-up across all response pillars, not travel or trade restrictions, is what is needed to get ahead of it.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "As of 30 July 2026, a total of 3605 confirmed cases, including 1587 deaths (CFR 44%), have been reported in the Democratic Republic of the Congo.",
+    "verbatim_list": [
+      "Ituri remains the most affected province, accounting for 88% (3176/3605) of all confirmed cases and 82.6% (1311/1587) of reported deaths nationwide."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization (Disease Outbreak News, DRC and Uganda)",
+    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo and Uganda",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+    "publication_date": "2026-07-17",
+    "date_source": "byline",
+    "date_evidence": "Citable reference: World Health Organization (17 July 2026). Disease Outbreak News; Bundibugyo Virus Disease, Democratic Republic of the Congo and Uganda.",
+    "verified_at": "2026-08-14T00:06:52Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 15 July 2026 the DRC had 2124 confirmed cases and 828 deaths, with 119 confirmed infections among health workers at a 30.3% case fatality ratio, while Uganda began its 42-day countdown after its last case on 21 June.",
+    "frame_summary": "WHO argues that occupational exposure, weak infection prevention in health facilities and conflict-driven population movement are the conditions sustaining transmission, and that response must be community-led rather than externally imposed.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Infections among health workers continued to increase, with 119 confirmed cases, 61 recoveries and 36 deaths reported among health workers, corresponding to a CFR of 30.3%.",
+    "verbatim_list": [
+      "Since 3 July 2026, an additional 664 confirmed cases, including 376 confirmed deaths, have been reported in the Democratic Republic of the Congo."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization",
+    "title": "WHO Member States agree to extend negotiations on Pathogen Access and Benefit Sharing annex",
+    "url": "https://www.who.int/news/item/01-05-2026-who-member-states-agree-to-extend-negotiations-on-pathogen-access-and-benefit-sharing-annex",
+    "publication_date": "2026-05-01",
+    "date_source": "byline",
+    "date_evidence": "WHO Member States agree to extend negotiations on Pathogen Access and Benefit Sharing annex\n\n1 May 2026\n\nNews release",
+    "verified_at": "2026-08-14T00:08:37Z",
+    "date_age_band": "3-6m",
+    "key_claim": "Member states could not finalise the PABS annex and agreed to extend negotiations, with the outcome due to the May 2027 Assembly or an earlier special session, leaving the Pandemic Agreement unable to open for signature.",
+    "frame_summary": "WHO frames the delay as progress requiring more time rather than failure, arguing that the annex is the last piece needed before countries can ratify the Pandemic Agreement.",
+    "signals_supported": [
+      "Pandemic-preparedness governance"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Given the need for further negotiations, the Assembly will be asked to consider continuing IGWG’s work as mandated in Resolution WHA78.1 and submit the outcome to the next Assembly in May 2027, or earlier by a special session of WHA in 2026.",
+    "verbatim_list": [
+      "The IGWG will hold its seventh meeting from 6 to 17 July 2026."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Department of Health and Social Care",
+    "title": "10 Year Capital Plan to rebuild NHS and bring care closer to home",
+    "url": "https://www.gov.uk/government/news/10-year-capital-plan-to-rebuild-nhs-and-bring-care-closer-to-home",
+    "publication_date": "2026-07-08",
+    "date_source": "meta:pubdate",
+    "date_evidence": "meta-govuk:first-published-at: 2026-07-08T00:05:04+01:00",
+    "verified_at": "2026-08-14T00:09:41Z",
+    "date_age_band": "0-3m",
+    "key_claim": "England's 10 Year Capital Plan commits a health capital budget rising to £15 billion in 2029/30, confirms 250 Neighbourhood Health Centres, and allocates at least £6.75 billion over nine years to repairs and the maintenance backlog.",
+    "frame_summary": "DHSC argues that replacing stop-start investment with a long-term capital settlement is what makes the neighbourhood care model deliverable rather than aspirational.",
+    "signals_supported": [
+      "NHS neighbourhood health shift"
+    ],
+    "cluster": "Supply and care capacity legislated under strain",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Backed by a record capital budget for health, rising to £15 billion in 2029 to 2030, the plan sets out how the government will rebuild, renew and modernise the NHS.",
+    "verbatim_list": [
+      "This plan confirms the government will deliver 250 Neighbourhood Health Centres.",
+      "Last year alone, leaking roofs, broken heating systems, electrical faults and other building failures caused more than 4,100 disruptions to patient care, including cancelled appointments and delayed treatment."
+    ],
+    "notes": " 2026-09-03: verbatim_quote corrected to the live wording ('2029 to 2030'); the earlier capture read '2029/30', which the quote-provenance gate correctly rejected. Page shows updated-at 2026-07-28."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Department of Health and Social Care (Social care blog)",
+    "title": "Two Big Milestones for Millions of Care Workers in England",
+    "url": "https://socialcare.blog.gov.uk/2026/07/22/two-big-milestones-for-millions-of-care-workers-in-england/",
+    "publication_date": "2026-07-22",
+    "date_source": "byline",
+    "date_evidence": "Posted by: Rose Thomas Willis, Posted on: 22 July 2026 - Categories: Carers, Workforce",
+    "verified_at": "2026-08-14T00:10:56Z",
+    "date_age_band": "0-3m",
+    "key_claim": "DHSC finalised the Fair Pay Agreement process, will stand up an Adult Social Care Negotiating Body by the end of 2026, and added ten role categories to the Care Workforce Pathway, with the first agreement backed by £500 million in 2028-29.",
+    "frame_summary": "DHSC argues these are landmark reforms that will end decades of low pay in adult social care and build the foundations of a National Care Service.",
+    "signals_supported": [
+      "UK social care workforce reform"
+    ],
+    "cluster": "Supply and care capacity legislated under strain",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The Fair Pay Agreement is a landmark reform that will turn the page on decades of low pay and insecurity for the 1.5 million people working in the sector.",
+    "verbatim_list": [
+      "The first Fair Pay Agreement is backed by £500 million in 2028-29.",
+      "We are introducing a regular negotiation process led by a new Adult Social Care Negotiating Body that will be set up by the end of the year."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Council of the European Union",
+    "title": "Critical medicines act: Council and Parliament reach provisional deal",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/12/critical-medicines-act-council-and-parliament-reach-provisional-deal/",
+    "publication_date": "2026-05-12",
+    "date_source": "byline",
+    "date_evidence": "Council of the EU - Press release - 12 May 2026 06:02",
+    "verified_at": "2026-08-14T00:12:08Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The Council and Parliament reached a provisional deal on the Critical Medicines Act, adding resilience requirements to public procurement, cutting the joint-procurement threshold from nine member states to five, and extending scope to orphan medicines, with formal adoption still pending.",
+    "frame_summary": "The Council argues that procurement rules and EU-based manufacturing incentives are the practical route to reducing dependency and ending shortages of antibiotics, insulin and painkillers.",
+    "signals_supported": [
+      "EU Critical Medicines Act"
+    ],
+    "cluster": "Supply and care capacity legislated under strain",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The provisional agreement will now have to be endorsed by the Council and the Parliament. It will then formally be adopted by both institutions following legal-linguistic revision.",
+    "verbatim_list": [
+      "Orphan medicinal products are used to treat life-threatening or very serious conditions that affect no more than 5 in 10,000 people in the EU."
+    ],
+    "notes": " Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "US Centers for Disease Control and Prevention (Avian Influenza)",
+    "title": "Global Summary of Human Cases of H5N1 Bird Flu from August 2025 to June 2026",
+    "url": "https://www.cdc.gov/bird-flu/spotlights/global-summary-06262026.html",
+    "publication_date": "2026-06-26",
+    "date_source": "meta:date",
+    "date_evidence": "meta-cdc:last_published: 2026-06-26T08:30:10Z",
+    "verified_at": "2026-08-14T00:13:24Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Twelve human H5N1 infections, three of them fatal, were reported outside the United States between 4 August 2025 and 10 June 2026, taking the global total since 1997 to 1,022 cases.",
+    "frame_summary": "CDC frames these as sporadic, poultry-linked events that do not change the low risk to the general public, while arguing they justify continued surveillance and pandemic preparedness investment.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "From August 4, 2025 to June 10, 2026, 12 human infections with avian influenza A(H5N1) viruses (H5N1 bird flu) were reported by three countries outside of the United States.",
+    "verbatim_list": [
+      "As of June 10, 2026, 1,022 cases have now been reported worldwide since 1997."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "Johns Hopkins Bloomberg School of Public Health (International Vaccine Access Center)",
+    "title": "2026 U.S. Measles Cases Surpass 2025 Level, Highest Since Declared Eliminated in 2000",
+    "url": "https://publichealth.jhu.edu/ivac/2026/2026-us-measles-cases-surpass-2025-level",
+    "publication_date": "2026-07-22",
+    "date_source": "byline",
+    "date_evidence": "Published\n\nJuly 22, 2026\n\nBy\n\nVictoria Willens",
+    "verified_at": "2026-08-14T00:14:47Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 21 July 2026 the US had recorded 2,295 confirmed measles cases, past the 2,289 recorded in all of 2025 and the highest annual total since 1991, with an elimination-status review due later in the year.",
+    "frame_summary": "IVAC argues that the elimination-status verdict is beside the point: the operative fact is that US measles incidence is at a multi-decade high and only higher vaccination coverage will reverse it.",
+    "signals_supported": [
+      "US measles elimination at risk"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Regardless of what is determined about the country’s measles elimination status, the reality is that the United States has more measles cases this year than it has in decades,",
+    "verbatim_list": [
+      "As of July 21, 2026, there have been 2,295 confirmed cases of measles across the United States, according to data from from the U.S. Measles Tracker, surpassing the 2,289 cases reported in all of 2025."
+    ],
+    "notes": " Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "Johns Hopkins Bloomberg School of Public Health (IVAC, global immunization)",
+    "title": "Latest Global Immunization Coverage Estimates Illustrate Gaps in Vaccine Access",
+    "url": "https://publichealth.jhu.edu/311/2026/latest-global-immunization-coverage-estimates-illustrate-gaps-in-vaccine-access",
+    "publication_date": "2026-07-27",
+    "date_source": "byline",
+    "date_evidence": "Published\n\nJuly 27, 2026",
+    "verified_at": "2026-08-14T00:15:58Z",
+    "date_age_band": "0-3m",
+    "key_claim": "WHO and UNICEF estimates show global immunisation coverage was broadly flat in 2025, with 13.5 million zero-dose children and measles first-dose coverage stalled at 84% against a 95% target.",
+    "frame_summary": "IVAC argues that flat coverage combined with falling global health financing puts immunisation targets out of reach, and that zero-dose children in fragile settings need different strategies rather than more of the same.",
+    "signals_supported": [
+      "Global health financing retrenchment"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "An estimated 13.5 million zero-dose children did not receive their first dose of DTP vaccine in 2025, approximately 750,000 fewer children than 2024, but far too many children continue to miss out on life-saving vaccines.",
+    "verbatim_list": [
+      "Measles vaccine coverage has also stalled, with only 84% of children receiving their first dose of measles-containing vaccine (MCV1) and just 77% receiving their second dose."
+    ],
+    "notes": " Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "KFF",
+    "title": "Measles Elimination Status: What It Is and How the U.S. Could Lose It",
+    "url": "https://www.kff.org/other-health/measles-elimination-status-what-it-is-and-how-the-u-s-could-lose-it/",
+    "publication_date": "2026-04-07",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-04-07T16:16:13+00:00",
+    "verified_at": "2026-08-14T00:17:11Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The US reported over 3,800 measles cases between January 2025 and March 2026, with 48 outbreaks in 2025 and 16 more by March 2026, against 64 outbreaks across the whole decade to 2011.",
+    "frame_summary": "KFF argues that losing elimination status would matter less as a technical reclassification than as a marker of eroded US commitment to measles prevention, foreshadowing endemic transmission and recurring costs.",
+    "signals_supported": [
+      "US measles elimination at risk"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "There were 64 measles outbreaks in total over ten years (2001 -2011) but in 2025 there were 48 outbreaks, and there have been 16 new outbreaks in 2026 through March.",
+    "verbatim_list": [
+      "However, a series of measles outbreaks began in the U.S. in early 2025 that continue today: from January 2025 through the end of March 2026, U.S. states have reported over 3,800 measles cases."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "KFF (Medicare)",
+    "title": "What to Know About the BALANCE Model for GLP-1s in Medicare and Medicaid and the Medicare GLP-1 Bridge",
+    "url": "https://www.kff.org/medicare/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/",
+    "publication_date": "2026-05-11",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-05-11T18:12:09+00:00",
+    "verified_at": "2026-08-14T00:18:26Z",
+    "date_age_band": "3-6m",
+    "key_claim": "CMS delayed the BALANCE Model indefinitely after Part D sponsor uptake fell short of an 80% participation threshold, extending the Medicare GLP-1 Bridge instead at a $245 net monthly price through the end of 2027.",
+    "frame_summary": "KFF argues that GLP-1 access rests on fragile temporary demonstration authority rather than statutory entitlement, leaving beneficiaries facing a coverage cliff and payers unwilling to absorb unquantified cost risk.",
+    "signals_supported": [
+      "Medicare GLP-1 access expansion"
+    ],
+    "cluster": "Access and discovery still unproven",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Manufacturers have agreed to provide eligible GLP-1s under the Bridge program at a net price of $245 per month supply.",
+    "verbatim_list": [
+      "CMS was aiming for a “critical mass” of Part D sponsors to participate and established a threshold participation rate of 80% for 2027."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Office of the Federal Register",
+    "title": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States",
+    "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06956/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states",
+    "publication_date": "2026-04-09",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-04-09",
+    "verified_at": "2026-08-14T00:19:38Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The proclamation imposes a 100 percent ad valorem duty on imported patented pharmaceuticals and their ingredients, reduced to 20 percent for companies with approved onshoring plans and to zero for companies holding MFN pricing agreements, effective 31 July 2026 for Annex III companies and 29 September 2026 for the rest, with generics excluded.",
+    "frame_summary": "The proclamation asserts that heavy US import reliance on patented pharmaceuticals and ingredients, compounded by foreign government intervention in the market, threatens to impair national security, and that tariffs paired with onshoring and pricing agreements are the remedy.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing"
+    ],
+    "cluster": "Supply and care capacity legislated under strain",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "(4) The tariffs and tariff treatment imposed by this proclamation shall be effective with respect to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern daylight time on July 31, 2026, for the companies listed in Annex III to this proclamation and September 29, 2026, for other companies and shall continue in effect, unless such actions are expressly reduced, modified, or terminated.",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "CIDRAP, University of Minnesota",
+    "title": "Trump signs executive order to break up measles, mumps, rubella vaccine",
+    "url": "https://www.cidrap.umn.edu/childhood-vaccines/trump-signs-executive-order-break-measles-mumps-rubella-vaccine",
+    "publication_date": "2026-08-10",
+    "date_source": "byline",
+    "date_evidence": "President Donald Trump signs an Executive Order on vaccines on Aug. 10, 2026.",
+    "verified_at": "2026-08-14T00:20:55Z",
+    "date_age_band": "0-3m",
+    "key_claim": "An executive order signed on 10 August 2026 urges childhood vaccines to be given at separate visits and calls for the MMR vaccine to be split into three, directing the attorney general to act against state vaccine laws, while at least 23 states now follow AAP rather than CDC guidance.",
+    "frame_summary": "CIDRAP argues the order is not evidence-based, would raise cost and infection risk without licensed separate vaccines existing, and adds confusion at a point when measles is spreading and children are returning to school.",
+    "signals_supported": [
+      "US vaccine-policy disruption"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The order advises states and territories to consider updating their vaccine laws and regulations, and it directs the attorney general to take legal action against states with laws that violate religious freedom, disability accommodations, or parental authority.",
+    "verbatim_list": [
+      "But public health experts worry that the order will create more confusion for parents."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "Health Policy Watch",
+    "title": "EXCLUSIVE: Here is the 'Final Text' of UN Political Declaration on Pandemics, Although its Adoption is Far From Guaranteed",
+    "url": "https://healthpolicy-watch.news/exclusive-here-is-the-final-draft-of-un-political-declaration-on-pandemics/",
+    "publication_date": "2026-08-06",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-06T18:45:28+02:00",
+    "verified_at": "2026-08-14T00:22:07Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The final text of the UN Political Declaration on pandemic prevention, preparedness and response went under silence procedure on 28 July ahead of a 25 September High-Level Meeting, but omits concrete timelines for the $15 billion needed annually for preparedness.",
+    "frame_summary": "The piece argues the declaration names every problem and commits to none of the fixes, and that the fight over it will turn on ideological objections rather than on the missing implementation and financing plan.",
+    "signals_supported": [
+      "Pandemic-preparedness governance",
+      "Global health financing retrenchment"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The first weakness is the lack of “concrete commitments or timelines” to fill the financing gap, including the $15 billion needed annually to prepare for pandemics.",
+    "verbatim_list": [
+      "The HLM is set for 25 September, the last Friday of the UN General Assembly."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "Maine Morning Star",
+    "title": "Medicaid cuts put rural hospitals and economies at risk",
+    "url": "https://mainemorningstar.com/2026/08/03/medicaid-cuts-put-rural-hospitals-and-economies-at-risk/",
+    "publication_date": "2026-08-03",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-03T16:54:41+00:00",
+    "verified_at": "2026-08-14T00:23:19Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Around 31,000 Mainers are expected to lose Medicaid under the new federal law, putting four financially fragile rural hospitals at risk, with the closure of both Aroostook County hospitals alone costing $113.6 million in wages.",
+    "frame_summary": "This commentary argues the coverage losses are a political choice whose rural economic damage the federal Rural Health Transformation Program cannot offset, and that states should expand coverage rather than absorb the cuts.",
+    "signals_supported": [
+      "US measles elimination at risk",
+      "Global health financing retrenchment"
+    ],
+    "cluster": "Response capacity is being outrun",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Around 31,000 Mainers are expected to lose Medicaid due to new administrative burdens from the bill.",
+    "verbatim_list": [
+      "If both were to close, the county would lose $113.6 million in wages."
+    ],
+    "notes": " Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03, see audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "BioPharma Dive",
+    "title": "How well are AI-discovered drugs faring in the clinic?",
+    "url": "https://www.biopharmadive.com/news/ai-drug-discovery-insilico-recursion-verge/825367/",
+    "publication_date": "2026-07-17",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-07-17",
+    "verified_at": "2026-08-14T00:24:33Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Few AI-discovered drugs have reached late-stage trials, with Insilico's rentosertib now in a 52-week phase 3 in China and Recursion posting a polyp-burden reduction, set against failures such as Verge Genomics' ALS candidate.",
+    "frame_summary": "The piece argues that AI's apparent early-phase advantage remains unproven where it matters, and that the technology's real test is whether a small number of closely watched assets survive mid-stage and late-stage efficacy trials.",
+    "signals_supported": [
+      "AI-designed drug discovery"
+    ],
+    "cluster": "Access and discovery still unproven",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Insilico also has its own candidates in the works as part of an expansive pipeline that includes over 40 programs in a wide swath of indications.",
+    "verbatim_list": [
+      "Most patients in the trial continued to show reductions even after they were off the medication for 12 weeks — a promising sign for a condition with no existing treatment options."
+    ]
+  }
+]

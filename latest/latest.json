@@ -1,22 +1,22 @@
 {
-  "generated": "2026-09-03T10:30:27Z",
+  "generated": "2026-09-05T08:31:26Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "China Has Turned Its Export Control List Into a Standing Reciprocity Machine",
-      "date": "2026-09-02",
-      "topic": "Geopolitics & Economic Fragmentation",
-      "topic_slug": "geopolitics-economic-fragmentation",
+      "title": "Dividing the Dividend: Who Keeps AI's Gains Is Being Settled by Contract, Not by Statute",
+      "date": "2026-09-05",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-02-list-for-list-retaliation/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-05-dividend-by-contract/scan.html"
     },
     "change_tracker": {
-      "title": "Hiring freezes before firing does; the AI rulebook arrives by contract",
-      "date": "2026-09-03",
-      "topic": "Workforce, Skills and Organisational Change",
-      "topic_slug": "workforce-skills-organisational-change",
+      "title": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
+      "date": "2026-09-04",
+      "topic": "Geopolitics and Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-09-03/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-09-04/tracker.html"
     },
     "decision_intelligence": {
       "title": "Climate Policy Has Started Taking Things Away",

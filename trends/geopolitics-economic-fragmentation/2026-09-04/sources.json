@@ -1,0 +1,578 @@
+[
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Each Section 338 proclamation imposes a 50% tariff on a different set of Canadian imports, covering products ranging from wine to hockey sticks to cement.",
+    "verbatim_list": [
+      "From April 2025 through March 2026, Canadian imports of U.S. motor vehicles decreased by approximately 22%, or $5.6 billion, compared to the same period in 2024-2025."
+    ],
+    "tier": 1,
+    "publisher": "The White House",
+    "title": "Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/",
+    "publication_date": "2026-07-20",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-07-20T21:00:00+00:00",
+    "verified_at": "2026-09-04T09:31:07Z",
+    "date_age_band": "0-3m",
+    "key_claim": "On 20 July 2026 three Section 338 proclamations imposed additional 50% tariffs on sets of Canadian goods linked to autos, alcohol and dairy, applying regardless of USMCA origin, citing a 22% ($5.6 billion) fall in Canadian imports of US motor vehicles and an 81% ($582 million) fall in imports of US alcoholic beverages.",
+    "frame_summary": "The White House argues the tariffs are a proportionate offset to Canadian discrimination and casts Canada, with China, as the only partner that retaliated rather than negotiated.",
+    "signals_supported": [
+      "North American trade bloc fractures",
+      "US tariff regime after the Section 122 sunset"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The United States did not agree to renew the USMCA in its current form.",
+    "verbatim_list": [
+      "However, the Agreement remains in force pending resolution of these issues or until the Agreement’s termination."
+    ],
+    "tier": 1,
+    "publisher": "Office of the United States Trade Representative",
+    "title": "Ambassador Greer Issues Statement on the USMCA Joint Review",
+    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+    "publication_date": "2026-07-01",
+    "date_source": "byline",
+    "date_evidence": "July 01, 2026 (visible dateline above 'WASHINGTON')",
+    "verified_at": "2026-09-04T09:32:19Z",
+    "date_age_band": "0-3m",
+    "key_claim": "At the 1 July 2026 joint review the United States did not agree to renew USMCA in its current form; the agreement remains in force pending resolution or termination.",
+    "frame_summary": "USTR frames non-renewal as leverage to fix the agreement's shortcomings and the US deficits with Mexico and Canada rather than as a step toward termination.",
+    "signals_supported": [
+      "Connector economies and friend-shoring",
+      "North American trade bloc fractures"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Ambassador Greer and Secretary Ebrard highlighted the continued constructive engagement between USTR and the Secretariat of Economy and directed their teams to convene for the fourth bilateral negotiating round in Washington, D.C. in September 2026.",
+    "verbatim_list": [
+      "Ambassador Greer and President Sheinbaum agreed on the importance of bilateral cooperation and underscored the urgency of growing North American manufacturing, strengthening regional supply chains, and addressing free-riding from non-parties."
+    ],
+    "tier": 1,
+    "publisher": "Office of the United States Trade Representative",
+    "title": "Joint Statement from Ambassador Jamieson Greer and Mexican Secretary of Economy Marcelo Ebrard",
+    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/joint-statement-ambassador-jamieson-greer-and-mexican-secretary-economy-marcelo-ebrard",
+    "publication_date": "2026-07-23",
+    "date_source": "byline",
+    "date_evidence": "July 23, 2026 (visible dateline above body)",
+    "verified_at": "2026-09-04T09:53:20Z",
+    "date_age_band": "0-3m",
+    "key_claim": "At the third bilateral round in Mexico City on 23 July 2026 the two sides reviewed economic security, labour, agriculture, electronic payment services, steel and aluminium and autos, and directed teams to a fourth round in Washington in September 2026.",
+    "frame_summary": "The communique projects constructive momentum around North American manufacturing and curbing free-riding by non-parties while disclosing no substantive outcome.",
+    "signals_supported": [
+      "Connector economies and friend-shoring"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Consistent with the specific direction of the President, in the investigations of all other economies, the Trade Representative has determined to impose a tariff rate of 12.5 percent on goods of each such economy, unless otherwise exempted from this action.",
+    "verbatim_list": [
+      "With respect to tariff rates, the Trade Representative has determined, consistent with the specific direction of the President, to impose a tariff of 10 percent on goods of Argentina, Bangladesh, Cambodia, Canada, Ecuador, El Salvador, Guatemala, Honduras, India, Indonesia, Jordan, Malaysia, Mexico, Pakistan, Sri Lanka, Trinidad and Tobago, and the United Kingdom, unless otherwise exempted from this action."
+    ],
+    "tier": 1,
+    "publisher": "Federal Register",
+    "title": "Notice of Actions in Section 301 Investigations of Acts, Policies, and Practices of Various Economies Related to the Failure of Each Economy To Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced With Forced Labor",
+    "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies",
+    "publication_date": "2026-07-28",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-07-28",
+    "verified_at": "2026-09-04T09:33:02Z",
+    "date_age_band": "0-3m",
+    "key_claim": "USTR imposed Section 301 tariffs on all products of 60 economies effective 24 July 2026: 10 percent for 17 named economies including Canada, Mexico, India and the United Kingdom and 12.5 percent for all others, with exemptions by annex.",
+    "frame_summary": "The notice presents near-universal tariffs as the appropriate remedy for each economy's failure to enact or enforce a forced-labour import ban, recording that lower rates or negotiation alone would be less effective.",
+    "signals_supported": [
+      "US tariff regime after the Section 122 sunset"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Canada will match Washington’s new tariffs dollar for dollar in order to protect Canadian workers, farmers, families, and businesses.",
+    "verbatim_list": [
+      "Canada fuels American growth: supplying 99% of their natural gas imports, 85% of electricity imports, and 60% of crude oil imports."
+    ],
+    "tier": 1,
+    "publisher": "Prime Minister of Canada",
+    "title": "Prime Minister Carney delivers remarks on Canada-U.S. trade negotiations",
+    "url": "https://www.pm.gc.ca/en/news/speeches/2026/08/22/prime-minister-carney-delivers-remarks-canada-us-trade-negotiations",
+    "publication_date": "2026-08-22",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: Sat, 08/22/2026 - 10:53 (also meta-dcterms.issued: 2026-08-22; visible dateline 'August 22, 2026 / Ottawa, Ontario')",
+    "verified_at": "2026-09-04T09:51:38Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Canada suspended trade negotiations with the US on 21 August 2026 and will match the new 50% tariffs dollar for dollar with measures in steel, dairy, appliances, agricultural equipment, pulp and paper and electronics; Carney cites Canada supplying 99% of US natural gas imports, 85% of electricity imports and 60% of crude oil imports.",
+    "frame_summary": "Carney argues the US has proven an unreliable partner whose demands crossed sovereignty red lines, so Canada is right to walk away, retaliate and pursue diversification as its main plan rather than a fallback.",
+    "signals_supported": [
+      "North American trade bloc fractures"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The current reading of 101.7 for the barometer index (represented by the blue line in the above chart) is down slightly from its January value of 102.3, suggesting that merchandise trade growth may be starting to slow.",
+    "verbatim_list": [
+      "The barometer's component indices are all near their common baseline value of 100, except for the electronic components index (105.5), which has risen firmly above trend."
+    ],
+    "tier": 1,
+    "publisher": "World Trade Organization",
+    "title": "Goods trade holding up despite Middle East conflict and high energy prices",
+    "url": "https://www.wto.org/english/news_e/news26_e/wtoi_05jun26_405_e.htm",
+    "publication_date": "2026-06-05",
+    "date_source": "byline",
+    "date_evidence": "5 JUNE 2026 (visible dateline above 'WTO TRADE BAROMETERS')",
+    "verified_at": "2026-09-04T09:47:12Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Goods Trade Barometer reads 101.7, down from 102.3 in January but above the 100 baseline; electronic components (105.5) sit firmly above trend on AI investment, and the March forecast is 1.9% merchandise trade growth in 2026, or 1.4% under a high energy price scenario.",
+    "frame_summary": "The WTO argues world goods trade is proving resilient because AI-related electronics demand is offsetting the Middle East energy drag, though momentum is beginning to slow.",
+    "signals_supported": [
+      "Fragmentation drag on global growth",
+      "Bloc-aligned trade reconfiguration"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": true,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Global growth is projected at 3.0 percent for 2026 and 3.4 percent for 2027, broadly unchanged cumulatively from the April 2026 World Economic Outlook.",
+    "verbatim_list": [
+      "The outlook is uneven: The war shock is weighing on energy importers and vulnerable economies, while AI-driven demand is lifting countries integrated into the global technology value chain."
+    ],
+    "tier": 1,
+    "publisher": "International Monetary Fund",
+    "title": "World Economic Outlook Update, July 2026: Global Economy in Crosscurrents of War and Technology",
+    "url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "publication_date": "2026-07-08",
+    "date_source": "meta:date",
+    "date_evidence": "meta-Date: 2026-07-08",
+    "verified_at": "2026-09-04T09:49:58Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The IMF projects global growth of 3.0 percent in 2026 and 3.4 percent in 2027, broadly unchanged cumulatively from April, with the war shock weighing on energy importers while AI-driven demand lifts technology-integrated economies.",
+    "frame_summary": "The IMF argues the world economy is being pulled in opposite directions by war-driven energy headwinds and a technology upcycle, so headline stability masks widening divergence.",
+    "signals_supported": [
+      "Fragmentation drag on global growth"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)",
+    "notes": "Bot block: imf.org returns HTTP 403 to the host audit fetcher (also 2026-08-07 cycle). Quote read from a successful live fetch of the page on 2026-09-04 (overview paragraph). Marked paywalled per the publish script's bot-block path; not an override. Manual browser check recommended."
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Taken together, the three proclamations cover approximately US$20 billion worth of US imports from Canada in both 2024 and 2025, or approximately 5% of the value of all goods imported from Canada.",
+    "verbatim_list": [
+      "A broader question for US trade policy is whether the Trump administration is using this action as a trial for the untested law because, if it survives legal challenge, Section 338 could provide a faster way to reestablish the Trump administration's reciprocal tariff policy than Section 301 has offered."
+    ],
+    "tier": 2,
+    "publisher": "White & Case",
+    "title": "Trump administration imposes 50% tariffs on certain Canadian products in first use of Section 338",
+    "url": "https://www.whitecase.com/insight-alert/trump-administration-imposes-50-tariffs-certain-canadian-products-first-use-section",
+    "publication_date": "2026-07-24",
+    "date_source": "byline",
+    "date_evidence": "Alert 24 July 2026 | 7 min read (visible byline block)",
+    "verified_at": "2026-09-04T09:31:48Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The three Section 338 proclamations cover approximately US$20 billion of US imports from Canada, about 5% of all goods imported from Canada, across 554 tariff subheadings, and mark the first use of Section 338 by any president.",
+    "frame_summary": "White & Case argues the action is a legally novel, untested escalation that may be a trial run for using Section 338 as a faster alternative to Section 301, raising questions about USMCA's durability.",
+    "signals_supported": [
+      "North American trade bloc fractures",
+      "US tariff regime after the Section 122 sunset"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "This decision triggers the annual joint review process under Article 34.7.4, which will proceed each year until the Parties either agree to an extension or the Agreement expires on July 1, 2036.",
+    "verbatim_list": [
+      "Although Canada participated in the July 1 Commission meeting, it has not yet begun substantive text-based negotiations with the United States."
+    ],
+    "tier": 2,
+    "publisher": "White & Case",
+    "title": "USMCA 2026 Joint Review: United States declines to extend Agreement, triggering annual reviews",
+    "url": "https://www.whitecase.com/insight-alert/usmca-2026-joint-review-united-states-declines-extend-agreement-triggering-annual",
+    "publication_date": "2026-07-02",
+    "date_source": "byline",
+    "date_evidence": "Alert 02 July 2026 | 4 min read (visible byline block)",
+    "verified_at": "2026-09-04T09:32:05Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The US declined to confirm a 16-year extension at the 1 July 2026 joint review, activating annual reviews under Article 34.7.4 until extension or expiry on 1 July 2036; the agreement remains fully in force.",
+    "frame_summary": "The alert argues non-renewal is a deferral rather than a loss, stressing continuity of USMCA rights and the standing extension pathway.",
+    "signals_supported": [
+      "Connector economies and friend-shoring"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "USTR has stated that it intends to conduct these investigations on an expedited basis, aiming to complete the process and be prepared to impose tariffs by around July 24, 2026.",
+    "verbatim_list": [
+      "Section 122 tariffs can be implemented quickly but are limited to a maximum duration of 150 days and a maximum rate of 15%."
+    ],
+    "tier": 2,
+    "publisher": "White & Case",
+    "title": "USTR initiates Section 301 investigations of 16 US trade partners targeting industrial excess capacity",
+    "url": "https://www.whitecase.com/insight-alert/ustr-initiates-section-301-investigations-16-us-trade-partners-targeting-industrial",
+    "publication_date": "2026-03-12",
+    "date_source": "byline",
+    "date_evidence": "Alert 12 March 2026 | 6 min read (visible byline block)",
+    "verified_at": "2026-09-04T09:34:40Z",
+    "date_age_band": "3-6m",
+    "key_claim": "On 11 March 2026 USTR opened Section 301 investigations into structural excess capacity in 16 economies including China, the EU, Japan, Korea, Mexico and Vietnam, aiming to be ready to impose tariffs by around 24 July 2026 as the durable replacement for the 150-day Section 122 surcharge.",
+    "frame_summary": "The alert frames the investigations as the durable second stage of a two-stage plan to rebuild the tariff wall lost when IEEPA tariffs were struck down.",
+    "signals_supported": [
+      "US tariff regime after the Section 122 sunset"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "USTR has expedited several recent Section 301 investigations, including the recently concluded forced labor action, in which USTR released its determination 82 days following initiation, and tariffs became effective only hours after being finalized and published by USTR.",
+    "verbatim_list": [
+      "Since July 2025, the Office of the U.S. Trade Representative (“USTR”) has initiated six new Section 301 proceedings, concluding several in record time and imposing a range of responsive tariffs.",
+      "Most recently, USTR finalized Section 301 tariffs ranging from 10 percent to 12.5 percent against 60 economies relating to their failure to impose or enforce import prohibitions on goods made with forced labor."
+    ],
+    "tier": 2,
+    "publisher": "Covington & Burling",
+    "title": "Current and Forthcoming Section 301 Trade Actions by the Trump Administration",
+    "url": "https://www.cov.com/en/news-and-insights/insights/2026/08/current-and-forthcoming-section-301-trade-actions-by-the-trump-administration",
+    "publication_date": "2026-08-10",
+    "date_source": "byline",
+    "date_evidence": "Alert August 10, 2026 (visible byline)",
+    "verified_at": "2026-09-04T09:33:51Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Since July 2025 USTR has opened six Section 301 proceedings; the forced-labour action delivered 10 to 12.5 percent tariffs on 60 economies 82 days after initiation, while the 16-economy excess-capacity case and others remain pending.",
+    "frame_summary": "Covington argues Section 301 has become the administration's primary vehicle for reconstructing the struck-down IEEPA tariffs, producing an expedited, overlapping and unpredictable tariff web.",
+    "signals_supported": [
+      "US tariff regime after the Section 122 sunset"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "On a y-t-d basis, central banks reported purchases have totalled around 130t of gold.",
+    "verbatim_list": [
+      "This compares to a reported ~160t which was purchased over the same period last year.",
+      "Notably, activity from the People’s Bank of China (PBoC) has picked up pace in recent months, with double-digit monthly purchases of gold since May 2026."
+    ],
+    "tier": 2,
+    "publisher": "World Gold Council",
+    "title": "Central Bank Gold Statistics: Central banks make positive headlines on gold",
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/09/central-bank-gold-statistics-central-banks-make-positive-headlines-gold",
+    "publication_date": "2026-09-03",
+    "date_source": "byline",
+    "date_evidence": "3 September, 2026 (visible dateline under the headline)",
+    "verified_at": "2026-09-04T09:45:31Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Central banks were net buyers of gold in July 2026 led by China and Poland; the People's Bank of China has made double-digit monthly purchases since May 2026, and year-to-date reported purchases of around 130t compare with about 160t over the same period of 2025.",
+    "frame_summary": "The WGC argues official-sector demand for gold remains structurally positive and broadening even though the reported year-to-date pace is below last year's.",
+    "signals_supported": [
+      "Central-bank gold accumulation"
+    ],
+    "cluster": "The dollar order erodes at the edges (Transformation Driver)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The proposed 50 percent U.S.-specific content requirement emerged as one of the principal sticking points in the negotiations, with Mexican officials expressing reservations about the proposal.",
+    "verbatim_list": [
+      "Under USMCA, vehicles must contain 75 percent North American content to qualify for duty-free treatment, up from 62.5 percent under NAFTA, USMCA’s predecessor.",
+      "On July 1, the White House opted not to renew the deal, meaning it falls into a process of annual reviews."
+    ],
+    "tier": 2,
+    "publisher": "Americas Society/Council of the Americas",
+    "title": "Tracking the U.S.-Mexico Talks in the USMCA Review",
+    "url": "https://www.as-coa.org/articles/tracking-us-mexico-talks-usmca-review",
+    "publication_date": "2026-07-30",
+    "date_source": "byline",
+    "date_evidence": "Thursday, July 30, 2026 (visible dateline above headline; page notes it was originally published June 16, 2026 and since updated)",
+    "verified_at": "2026-09-04T09:54:13Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The US is pushing to raise USMCA auto rules of origin from 75 percent regional content and add a 50 percent US-specific content floor, which Mexico resists; after the White House declined renewal on 1 July the pact fell into annual reviews.",
+    "frame_summary": "AS/COA positions the review as an issue-by-issue negotiation in which Washington uses tariff leverage and non-trade demands to reshape North American supply chains against China while Mexico defends regional rather than US-specific content.",
+    "signals_supported": [
+      "Connector economies and friend-shoring"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Each side blamed the other for the collapse of negotiations in Washington late Friday, leading the U.S. to impose 50% tariffs on $20 billion worth of Canadian goods and Canada setting Sept. 8 as the start of its retaliatory penalties.",
+    "verbatim_list": [
+      "The countries sold each other $880 billion worth of goods and services last year.",
+      "Nearly 72% of Canada's goods exports last year went to the United States."
+    ],
+    "tier": 3,
+    "publisher": "PBS News",
+    "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
+    "url": "https://www.pbs.org/newshour/world/u-s-imposes-50-tariffs-on-20-billion-worth-of-canadian-products-canada-says-it-will-retaliate",
+    "publication_date": "2026-08-22",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-22T11:30:49-04:00",
+    "verified_at": "2026-09-04T09:52:01Z",
+    "date_age_band": "0-3m",
+    "key_claim": "After talks collapsed late on 21 August 2026 the US imposed 50% tariffs on $20 billion of Canadian goods under Section 338 and Canada set 8 September for retaliation; the two countries traded $880 billion in goods and services last year and nearly 72% of Canada's goods exports went to the US.",
+    "frame_summary": "The AP report frames the episode as a rupture of a historically cooperative alliance in which lost trust and the threat to USMCA matter more than the immediate economic hit.",
+    "signals_supported": [
+      "North American trade bloc fractures"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "It gives President Trump the ability to issue tariffs on these importers — up to 100% for major buyers of Russian energy, such as China and India.",
+    "verbatim_list": [
+      "The bill, which passed Friday by a vote of 86 to 11, is designed to stifle the Russian economy and bring an end to a war that started in 2022 when President Vladimir Putin launched an invasion of Ukraine that has since cost thousands of civilian lives.",
+      "The legislation will still need to pass the House before it can go to President Trump for his signature."
+    ],
+    "tier": 3,
+    "publisher": "NPR",
+    "title": "Senate passes Russia sanctions bill that was long championed by Lindsey Graham",
+    "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+    "publication_date": "2026-08-07",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-08-07 (also meta-cXenseParse:publishtime: 2026-08-07T13:33:40-04:00; visible 'August 7, 2026 1:33 PM ET')",
+    "verified_at": "2026-09-04T09:50:47Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Senate passed the Russia sanctions bill on 7 August 2026 by 86 to 11; it lets the President impose tariffs of up to 100% on major importers of Russian energy such as China and India, and still needs House passage.",
+    "frame_summary": "NPR frames the bill as Graham's posthumous bipartisan legacy while flagging House Democratic unease about handing Trump new tariff powers.",
+    "signals_supported": [
+      "Sanctions and economic statecraft escalation",
+      "Extraterritorial enforcement reaches third countries"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Vlasiuk offered a three-part plan: partners should synchronize designations on every identified Russian ballistic manufacturer across allied jurisdictions; impose sectoral restrictions on roughly 110 materials used in missile production; and tighten export licensing for sensitive electronics and other inputs.",
+    "verbatim_list": [
+      "KYIV, Ukraine — Dozens of American- and European-made components are still being used to build Russia’s deadly ballistic missiles despite nearly 24,000 sanctions imposed on Russia-linked individuals and entities since 2022, Ukraine’s presidential commissioner for sanctions policy said last week."
+    ],
+    "tier": 3,
+    "publisher": "Defense News",
+    "title": "US tech found in Russian ballistic missiles",
+    "url": "https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/",
+    "publication_date": "2026-09-01",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-01T14:35:51.865Z",
+    "verified_at": "2026-09-04T09:35:22Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Ukraine's sanctions commissioner showed on 25 August 2026 that US and European components remain in Russian ballistic missiles despite nearly 24,000 sanctions since 2022, with Russian output above 100 missiles a month; Kyiv seeks synchronised designations and restrictions on roughly 110 materials.",
+    "frame_summary": "Defense News argues that enforcement, not sanctions volume, is the binding constraint, with third-country intermediaries replaced as fast as they are designated.",
+    "signals_supported": [
+      "Extraterritorial enforcement reaches third countries",
+      "Sanctions and economic statecraft escalation"
+    ],
+    "cluster": "Coercion turns on allies (Evolving Risk)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "In June, most trade finance transactions used the US dollar, which made up 81.16% of the total value.",
+    "verbatim_list": [
+      "The euro (EUR) remains the second most used currency, accounting for 21.88% of the volume.",
+      "Hong Kong accounts for 75.90% of offshore RMB transaction value, highlighting its role as the dominant offshore RMB hub."
+    ],
+    "tier": 3,
+    "publisher": "Trade Treasury Payments",
+    "title": "USD leads global payments: SWIFT's Global Currency Tracker July 2026",
+    "url": "https://tradetreasurypayments.com/articles/usd-leads-global-payments-swifts-global-currency-tracker-july-2026",
+    "publication_date": "2026-07-27",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-07-27T14:00:23.000Z",
+    "verified_at": "2026-09-04T09:46:20Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Swift's July 2026 tracker shows the dollar at half of global payments value in June 2026 with the euro at 21.88%; the dollar made up 81.16% of trade finance value and Hong Kong handled 75.90% of offshore renminbi transactions.",
+    "frame_summary": "The piece argues the dollar and euro remain the entrenched backbone of international payments while the renminbi's rise, concentrated in Hong Kong, is gradual diversification rather than displacement.",
+    "signals_supported": [
+      "Declining dollar reserve share",
+      "Alternative payment infrastructure"
+    ],
+    "cluster": "The dollar order erodes at the edges (Transformation Driver)"
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": true,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Members of the BRICS group of nations are discussing potential linkages between their respective fast payment systems and central bank digital currencies, Reserve Bank of India Governor Sanjay Malhotra said at an event on Tuesday.",
+    "verbatim_list": [
+      "Reuters reported earlier this year that the RBI recommended to the government that a proposal to connect CBDCs be included in the agenda for the 2026 BRICS summit."
+    ],
+    "tier": 3,
+    "publisher": "Yahoo Finance",
+    "title": "BRICS nations discuss linking payment systems and CBDCs, RBI chief says (Reuters)",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/brics-nations-discuss-linking-payment-071524620.html",
+    "publication_date": "2026-08-11",
+    "date_source": "byline",
+    "date_evidence": "Reuters Tue, August 11, 2026 at 3:15 AM EDT 1 min read (visible byline; dateline 'MUMBAI, Aug 11 (Reuters)')",
+    "verified_at": "2026-09-04T09:48:09Z",
+    "date_age_band": "0-3m",
+    "key_claim": "RBI Governor Sanjay Malhotra said on 11 August 2026 that BRICS members are discussing links between fast payment systems and central bank digital currencies to cut cross-border costs, but that the work remains at discussion stage ahead of the 2026 summit India hosts.",
+    "frame_summary": "The Reuters report frames BRICS payment integration as an exploratory, cost-driven discussion rather than an imminent alternative settlement system.",
+    "signals_supported": [
+      "Alternative payment infrastructure"
+    ],
+    "cluster": "The dollar order erodes at the edges (Transformation Driver)",
+    "notes": "Consent wall: finance.yahoo.com redirects non-consented UK/EU clients to consent.yahoo.com, so the host audit fetcher never receives the article body (FAIL on 2026-09-04). Quote read on the rendered article on 2026-09-04 after rejecting cookies; Yahoo also injects zero-width watermark characters into body text, which the audit normalisation strips. Marked paywalled per the publish script's consent-wall path; not an override."
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": true,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "At a meeting in Beijing, Trump and Xi appeared to put differences behind them but signed no new deals.",
+    "verbatim_list": [
+      "But this week, the Trump administration announced plans to ban Chinese robots and power inverters as national security threats."
+    ],
+    "tier": 3,
+    "publisher": "Axios",
+    "title": "Bessent sets stage for Xi visit in high-level China talk",
+    "url": "https://www.axios.com/2026/07/30/bessent-xi-china-visit-trade-greer",
+    "publication_date": "2026-07-30",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-07-30T19:07:14.091000Z",
+    "verified_at": "2026-09-04T09:49:03Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Bessent and Greer held a video call with Vice Premier He Lifeng to prepare Xi Jinping's September 2026 visit, pressing Beijing on rare-earth and agricultural commitments, while the administration moved to ban Chinese robots and power inverters.",
+    "frame_summary": "Axios frames the pre-summit diplomacy as cordial on the surface but underpinned by unresolved tension over rare earths, chips and Iran, implying any Trump-Xi deals will be fragile.",
+    "signals_supported": [
+      "Bloc-aligned trade reconfiguration"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)",
+    "notes": "Bot block: axios.com returns HTTP 403 to the host audit fetcher. Quote read from a successful live fetch of the page on 2026-09-04 (free-tier article). Marked paywalled per the publish script's bot-block path; not an override. Manual browser check recommended."
+  },
+  {
+    "topic": "Geopolitics and Economic Fragmentation",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "es",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "El secretario Ebrard y Greer destacaron el continuo diálogo constructivo entre la Secretaría de Economía de México y la USTR, e instruyeron a sus equipos a celebrar la cuarta ronda de negociaciones bilaterales en Washington, D.C., contemplada en septiembre de 2026.",
+    "verbatim_list": [
+      "La Secretaría de Economía destacó además que México mantiene su ventaja arancelaria en el mercado estadounidense, ya que 85 por ciento de las exportaciones nacionales continúan ingresando con arancel cero, al amparo del T-MEC."
+    ],
+    "tier": 3,
+    "publisher": "El Financiero",
+    "title": "Termina tercera ronda para revisar el T-MEC con avances entre México y EU",
+    "url": "https://www.elfinanciero.com.mx/economia/2026/07/24/termina-tercera-ronda-para-revisar-el-t-mec-con-avances-entre-mexico-y-eu/",
+    "publication_date": "2026-07-24",
+    "date_source": "byline",
+    "date_evidence": "Por Jassiel Valdelamar julio 24, 2026 | 2:17 hrs (visible byline)",
+    "verified_at": "2026-09-04T10:03:27Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Mexico's Economy Ministry said the third bilateral round of the T-MEC review closed constructively with progress on steel, aluminium, value chains and substitution of Asian imports, and stressed that 85 percent of Mexican exports still enter the US at zero tariff under the T-MEC.",
+    "frame_summary": "El Financiero argues the review is progressing and Mexico's preferential access remains intact, while US pressure on security and water, which Sheinbaum rejects as trade issues, hangs over the process.",
+    "signals_supported": [
+      "Connector economies and friend-shoring"
+    ],
+    "cluster": "Trade reroutes, it does not retreat (Emerging Opportunity)"
+  }
+]

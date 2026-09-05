@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T08:30:07Z",
+  "generated": "2026-09-05T08:31:20Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -564,14 +564,22 @@
       "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
-      "latest_read": "Deniable state-linked sabotage of European infrastructure now falls between the war clause and the terrorism pool, uninsured by default.",
+      "latest_read": "Incursions multiply on the eastern flank; Washington sends allies a questionnaire",
       "latest_dates": {
         "scan": "2026-09-02",
-        "tracker": "2026-08-07",
+        "tracker": "2026-09-04",
         "di": "2026-08-27",
         "cc": "2026-08-28"
       },
       "history": [
+        {
+          "date": "2026-09-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Incursions multiply on the eastern flank; Washington sends allies a questionnaire",
+          "summary": "Fourth cycle. Russian drones breached Romanian airspace more often in the first eight months of 2026 than in the previous four years combined, with four shot down by 17 August, and the North Atlantic Council met on 12 August on the violations.",
+          "posture": ""
+        },
         {
           "date": "2026-09-02",
           "kind": "scan",
@@ -789,14 +797,22 @@
       "description": "Decoupling, sanctions plumbing, industrial-policy capital, middle-power hedging, and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
-      "latest_read": "China now answers each Western entity listing with a matched list of its own, within days and in the same numbers.",
+      "latest_read": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
       "latest_dates": {
         "scan": "2026-09-02",
-        "tracker": "2026-08-07",
+        "tracker": "2026-09-04",
         "di": "2026-07-29",
         "cc": "2026-07-30"
       },
       "history": [
+        {
+          "date": "2026-09-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
+          "summary": "Fourth cycle. Coercion fell inside the bloc: the first use of Section 338 put 50% duties on about $20 billion of Canadian goods from 22 August, talks collapsed and Canada set 8 September for dollar-for-dollar retaliation, so a new signal enters the register.",
+          "posture": ""
+        },
         {
           "date": "2026-09-02",
           "kind": "scan",

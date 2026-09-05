@@ -1,0 +1,554 @@
+[
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Allies reiterated that Russia bears full responsibility for the airspace violations, which are dangerous and unacceptable, and demonstrate Russia’s increasing tolerance for risk.",
+    "verbatim_list": [
+      "NATO Allies met this morning in the North Atlantic Council (Wednesday 12 August) to discuss the recent airspace violations in Poland and Romania, as well as recent drone incidents.",
+      "NATO continues to strengthen its integrated air and missile defences across the Alliance, and Allies underlined the actions they have taken to bolster defences on the eastern flank, from the Baltic to the Black Sea."
+    ],
+    "tier": 1,
+    "publisher": "NATO",
+    "title": "NATO Allies condemn recent airspace violations and incidents",
+    "url": "https://www.nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents",
+    "publication_date": "2026-08-12",
+    "date_source": "byline",
+    "date_evidence": "12 August 2026 (visible dateline under the headline; body opens 'NATO Allies met this morning in the North Atlantic Council (Wednesday 12 August) to discuss the recent airspace violations in Poland and Romania')",
+    "verified_at": "2026-09-04T07:11:26Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The North Atlantic Council met on 12 August 2026 on airspace violations in Poland and Romania and recent drone incidents; Allies said Russia bears full responsibility and that the violations demonstrate Russia's increasing tolerance for risk, and pointed to strengthened integrated air and missile defence from the Baltic to the Black Sea.",
+    "frame_summary": "NATO frames the incursions as deliberate Russian risk-taking that the Alliance answers with solidarity statements and strengthened air and missile defence rather than any new deterrent step.",
+    "signals_supported": [
+      "Counter-drone defence and airspace incursions"
+    ],
+    "cluster": "Pressure from two directions (Evolving Risk)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The progress shown at the recent NATO Summit in Ankara, including the $139 billion increase in defence spending from European Allies and Canada in 2025, underline the substantial advances made the path to a stronger, fairer Alliance.",
+    "verbatim_list": [
+      "Mr Colby met with the North Atlantic Council (NAC) to discuss how NATO is strengthening its deterrence and defence and brief Allies on the ongoing U.S. review of its force posture in Europe."
+    ],
+    "tier": 1,
+    "publisher": "NATO",
+    "title": "Secretary General welcomes United States Under Secretary of War for Policy to NATO Headquarters",
+    "url": "https://www.nato.int/en/news-and-events/articles/news/2026/08/27/secretary-general-welcomes-united-states-under-secretary-of-war-for-policy-to-nato-headquarters",
+    "publication_date": "2026-08-27",
+    "date_source": "byline",
+    "date_evidence": "27 August 2026 (visible dateline under the headline; body opens 'On Thursday (27 August 2026), NATO Secretary General Mark Rutte welcomed')",
+    "verified_at": "2026-09-04T07:33:09Z",
+    "date_age_band": "0-3m",
+    "key_claim": "On 27 August 2026 Elbridge Colby briefed the North Atlantic Council on the US force posture review; NATO cited the $139 billion increase in defence spending by European Allies and Canada in 2025 as evidence of a stronger, fairer Alliance.",
+    "frame_summary": "NATO frames the posture review as part of a cooperative rebalancing toward a stronger Europe in a stronger NATO, not as a US withdrawal.",
+    "signals_supported": [
+      "NATO 5% target and European rearmament",
+      "US commitment to European defence"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "SAFE is a €150 billion financial instrument providing loans to Member States.",
+    "verbatim_list": [
+      "Estonia receives first €351.6 million payment under SAFE defence instrument",
+      "Further payments will follow, as agreed milestones and implementation are met."
+    ],
+    "tier": 1,
+    "publisher": "European Commission",
+    "title": "Estonia receives first €351.6 million payment under SAFE defence instrument",
+    "url": "https://defence-industry-space.ec.europa.eu/estonia-receives-first-eur3516-million-payment-under-safe-defence-instrument-2026-08-12_en",
+    "publication_date": "2026-08-12",
+    "date_source": "byline",
+    "date_evidence": "Publication date 12 August 2026 (visible on page; also 'News article - 12 August 2026' and meta-og:updated_time: 2026-08-12T14:00:00+0200)",
+    "verified_at": "2026-09-04T07:12:03Z",
+    "date_age_band": "0-3m",
+    "key_claim": "On 12 August 2026 Estonia received the first SAFE pre-financing payment of €351.6 million, 15% of its €2.3 billion allocation; SAFE is a €150 billion loan instrument for joint procurement of ammunition, missiles, air defence and ground combat systems produced within the EU.",
+    "frame_summary": "The Commission argues that SAFE money is now moving fast to the Eastern Flank and that joint procurement through it will reinforce Europe's defence industrial base.",
+    "signals_supported": [
+      "EU defence-industrial programme (EDIP, EDPCIs and SAFE)",
+      "NATO 5% target and European rearmament"
+    ],
+    "cluster": "Capital and industry against the clock (Emerging Opportunity)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Its objective is to build joint ventures between Ukrainian and European companies, and to accelerate the development and production of next-generation drones and counter-drone systems.",
+    "verbatim_list": [
+      "The founding members of the alliance have been selected following an open call for expression of interest."
+    ],
+    "tier": 1,
+    "publisher": "European Commission",
+    "title": "Commission launches EU-Ukraine Drone Alliance to boost drone and counter-drone technology",
+    "url": "https://defence-industry-space.ec.europa.eu/commission-launches-eu-ukraine-drone-alliance-boost-drone-and-counter-drone-technology-2026-07-17_en",
+    "publication_date": "2026-07-17",
+    "date_source": "byline",
+    "date_evidence": "Publication date 17 July 2026 (visible on page; also 'News article - 17 July 2026' and meta-og:updated_time: 2026-07-17T14:00:00+0200)",
+    "verified_at": "2026-09-04T07:22:41Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Commission launched the EU-Ukraine Drone Alliance with 18 founding members (nine EU and nine Ukrainian companies) to build joint ventures for next-generation drones and counter-drone systems, with the first members' meeting in Brussels in September.",
+    "frame_summary": "The Commission frames the Alliance as the operational start of joint EU-Ukraine drone industrial integration serving both Ukraine's needs and Europe's own readiness.",
+    "signals_supported": [
+      "Ukrainian drone innovation scaling into Europe",
+      "Counter-drone defence and airspace incursions"
+    ],
+    "cluster": "Capital and industry against the clock (Emerging Opportunity)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "On average, 18 Member States participate in each project and Ukraine participates in four of the five projects.",
+    "verbatim_list": [
+      "The industrial projects focus on five priority areas: drones and counter-drone systems; maritime and seabed defence; space; air and missile defence; as well as strengthening security along the EU's Eastern Flank.",
+      "With a combined funding ambition of around €190 billion by 2036, they will play a key role in strengthening the Member States’ capabilities and keep Europe and Europeans safe."
+    ],
+    "tier": 1,
+    "publisher": "European Commission",
+    "title": "Commission proposes five joint defence projects to strengthen Europe's industrial capabilities",
+    "url": "https://defence-industry-space.ec.europa.eu/commission-proposes-five-joint-defence-projects-strengthen-europes-industrial-capabilities-2026-07-03_en",
+    "publication_date": "2026-07-03",
+    "date_source": "byline",
+    "date_evidence": "Publication date 3 July 2026 (visible on page; also meta-og:updated_time: 2026-07-03T14:00:00+0200)",
+    "verified_at": "2026-09-04T07:41:55Z",
+    "date_age_band": "0-3m",
+    "key_claim": "On 3 July 2026 the Commission proposed five European Defence Projects of Common Interest (drones and counter-drone, maritime and seabed, space, air and missile defence, Eastern Flank) with a combined funding ambition of around €190 billion by 2036, 18 Member States on average per project and Ukraine in four of five; the Council must now formally establish them.",
+    "frame_summary": "The Commission presents the projects as the vehicle for systems too large for any single state, positioning Brussels as financier and coordinator of long-term collaborative defence projects.",
+    "signals_supported": [
+      "EU defence-industrial programme (EDIP, EDPCIs and SAFE)",
+      "Critical undersea infrastructure protection"
+    ],
+    "cluster": "Capital and industry against the clock (Emerging Opportunity)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": true,
+    "treat_directionally": false,
+    "original_language": "de",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Zum Stichtag 31.07.2026 wächst die Bundeswehr auf rund 186.700 Soldatinnen und Soldaten auf.",
+    "verbatim_list": [
+      "Zugleich wird ein neuer Höchststand seit rund 13 Jahren erreicht.",
+      "Von allen Interessierten haben bis Ende Juli rund 2.630 Personen ein Assessment durchlaufen.",
+      "Militärische Gesamtstärke: Mit aktuell rund 186.700 Soldatinnen und Soldaten verzeichnen wir im Vergleich zum Juli 2025 einen Zuwachs von mehr als zwei Prozent (absolut rund 3.700 Personen mehr).",
+      "Bewerbungen militärische Laufbahn: Mit rund 47.300 Bewerbungen verzeichnen wir ein Plus von 26 % im Vergleich zum Vorjahresmonat (07/2025) sowie ein Plus von 6.800 zum Vormonat."
+    ],
+    "tier": 1,
+    "publisher": "Bundesministerium der Verteidigung",
+    "title": "Personalzahlen der Bundeswehr auf neuem Höchststand",
+    "url": "https://www.bmvg.de/de/presse/personalzahlen-der-bundeswehr-auf-neuem-hoechststand-6143516",
+    "publication_date": "2026-08-17",
+    "date_source": "byline",
+    "date_evidence": "Veröffentlichungsdatum 17.08.2026",
+    "verified_at": "2026-09-04T07:30:18Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 31 July 2026 the Bundeswehr had about 186,700 soldiers, up more than two percent (about 3,700) on July 2025 and the highest level in about 13 years; applications reached about 47,300 (+26% year on year), about 12,100 are serving under the new military service, and about 2,630 people had completed an assessment from roughly 378,000 questionnaire letters sent.",
+    "frame_summary": "The ministry argues that rising applications, hires and headcount show the new military service measures are working and that the Bundeswehr is an attractive employer.",
+    "signals_supported": [
+      "Military manpower and recruitment shortfall"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)",
+    "notes": "JS-gated shell for non-browser clients: the host audit fetcher failed two different plain-text sentences from this page on 2026-09-04 (bullet sentence, then the lead-paragraph sentence), while a live fetch the same day returned the full article with both sentences verbatim. Quote re-read on the live page 2026-09-04. Marked paywalled per the publish script's bot-block path; not an override. Confirm the fetcher payload with diagnose_quote_mismatch.py on the host before considering a known_systemic_overrides.json pattern."
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Recent announcements include a reduction of 5,000 U.S. troops from Germany, of 700 personnel from Romania, and a decrease in the U.S. presence in Estonia from approximately 500–700 troops to fewer than 100 pending decisions associated with the force posture review.",
+    "verbatim_list": [
+      "The challenge is not simply funding.",
+      "These efforts represent significant advances, but most will require years rather than months to mature.",
+      "An approach that places too much emphasis on national performance risks creating competition among allies at precisely the moment when the transition to a more European-led defense model requires greater integration, specialization, and burden sharing."
+    ],
+    "tier": 2,
+    "publisher": "Center for Strategic and International Studies",
+    "title": "The Europe Force Posture Review and the Transition to NATO 3.0",
+    "url": "https://www.csis.org/analysis/europe-force-posture-review-and-transition-nato-30",
+    "publication_date": "2026-08-25",
+    "date_source": "meta:date",
+    "date_evidence": "meta-citation_publication_date: Tue, 08/25/2026 - 12:00 (visible byline 'Published August 25, 2026')",
+    "verified_at": "2026-09-04T07:11:58Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The US has already cut 5,000 troops from Germany and 700 from Romania and cancelled long-range fires deployments; European allies and Canada raised spending roughly 20 percent in 2025 and have largely filled NATO force-plan gaps, but integrated command and control, intelligence fusion, advanced air and missile defence and large-scale logistics remain US-dependent, and using political loyalty as a review criterion risks alliance cohesion.",
+    "frame_summary": "CSIS argues the transition to a European-led conventional defence is already under way and is a question of capability substitution rather than burden sharing, with industrial capacity the binding constraint and loyalty-based evaluation the main risk to cohesion.",
+    "signals_supported": [
+      "US commitment to European defence",
+      "NATO 5% target and European rearmament",
+      "Critical undersea infrastructure protection"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The US represents on average just under half of NATO’s collective might—a share that NATO allies have agreed to reduce to 38% by 2029.",
+    "verbatim_list": [
+      "To keep their continent safe, Europeans must build their ability to act with America where possible, with less America where necessary and without America if it comes to that."
+    ],
+    "tier": 2,
+    "publisher": "European Council on Foreign Relations",
+    "title": "Making defence European again",
+    "url": "https://ecfr.eu/publication/making-defence-european-again/",
+    "publication_date": "2026-06-04",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-06-04T05:00:00+02:00",
+    "verified_at": "2026-09-04T07:48:37Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Europeans face a 5 to 7 year window of highest Russian aggression risk; the US provides just under half of NATO's collective might, a share allies have agreed to reduce to 38% by 2029.",
+    "frame_summary": "ECFR argues that Europe should build a distinctly European defence model able to act with, with less, or without America, layering NATO structures, EU funding and minilateral coalitions rather than replicating the US role.",
+    "signals_supported": [
+      "US commitment to European defence",
+      "NATO 5% target and European rearmament"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The region now accounts for over 21% of the global total compared to 17% in 2022.",
+    "verbatim_list": [
+      "In 2025, global defence spending reached USD2.63 trillion, up from USD2.48trn in 2024."
+    ],
+    "tier": 2,
+    "publisher": "International Institute for Strategic Studies",
+    "title": "The Military Balance 2026: Global defence spending",
+    "url": "https://www.iiss.org/publications/the-military-balance/2026/the-military-balance-2026/global-defence-spending/",
+    "publication_date": "2026-02-24",
+    "date_source": "byline",
+    "date_evidence": "24th February 2026 (visible dateline above 'THE MILITARY BALANCE 2026 / Global defence spending')",
+    "verified_at": "2026-09-04T07:42:30Z",
+    "date_age_band": "6-12m",
+    "key_claim": "Global defence spending reached USD2.63 trillion in 2025, with Europe now over 21% of the global total against 17% in 2022, while Russian real growth slowed to 3% from 56.9% in 2024.",
+    "frame_summary": "IISS argues the 2025 spending uplift was driven by Europe and the Middle East rather than the US, and that Europe's defence-industrial shift is defined by a venture surge and a growing but member-state-constrained EU role.",
+    "signals_supported": [
+      "NATO 5% target and European rearmament"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Officials are then expected by Nov. 6 to present Hegseth with at least four potential courses of action.",
+    "verbatim_list": [
+      "Officials in some NATO member states have expressed concerns that the review will result in significant cuts to the roughly 80,000-troop U.S. military presence in Europe and punish allies that denied U.S. access to bases or airspace during the Iran war.",
+      "The questionnaire, which was sent to NATO allies this month, was meant to let the Pentagon hear from allies directly."
+    ],
+    "tier": 3,
+    "publisher": "Stars and Stripes",
+    "title": "Pentagon gets first NATO ally responses to questionnaire as it weighs Europe troop cuts",
+    "url": "https://www.stripes.com/theaters/europe/2026-08-28/colby-nato-defense-questionnaire-22683850.html",
+    "publication_date": "2026-08-28",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-28T16:27:32.000Z",
+    "verified_at": "2026-09-04T07:11:41Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Pentagon sent NATO allies a questionnaire in August on support for NATO 3.0, public backing of US foreign policy and restrictions on base or airspace use during the Iran war; responses were due 28 August, SACEUR presents military recommendations in September, and at least four courses of action go to Hegseth by 6 November against a roughly 80,000-troop presence.",
+    "frame_summary": "The report frames the review as a loyalty-tinged competition among allies for US presence, with a dated decision path that some diplomats call a scary exercise.",
+    "signals_supported": [
+      "US commitment to European defence"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": true,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "But competing priorities could stymie the Defense Department’s ability to make the major drawdowns that some officials are pushing for.",
+    "verbatim_list": null,
+    "tier": 3,
+    "publisher": "Foreign Policy",
+    "title": "Colby's Europe Force Posture Review Might Not End in Major U.S. Troop Reductions",
+    "url": "https://foreignpolicy.com/2026/08/27/us-europe-defense-posture-review-troops-elbridge-colby-hegseth-nato/",
+    "publication_date": "2026-08-27",
+    "date_source": "jsonld:datePublished",
+    "date_evidence": "\"datePublished\":\"2026-08-27T13:00:02-04:00\" (JSON-LD NewsArticle; visible byline 'AUGUST 27, 2026, 1:00 PM')",
+    "verified_at": "2026-09-04T07:24:12Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Colby launched a six-month review on 27 July, but competing priorities in Congress, among European allies and with Trump himself could stymie the major drawdowns some officials want.",
+    "frame_summary": "Foreign Policy argues that alarm over the review is overblown because political constraints in Washington and Europe make large US troop reductions unlikely.",
+    "signals_supported": [
+      "US commitment to European defence"
+    ],
+    "cluster": "Europe's forced strategic autonomy (Transformation Driver)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "The Defense Ministry in Bucharest said that so far this year, Russia had attacked targets close to Romania's frontier 54 times, representing a significant increase on the 28 attacks close to the border in all of 2025.",
+    "verbatim_list": [
+      "As of Aug. 17, four Russian drones had been shot down in Romanian airspace, the ministry said.",
+      "Drones or fragments of them were found on Romanian territory 27 times so far this year, the ministry said, a significant increase compared with the 16 such discoveries in all of 2025."
+    ],
+    "tier": 3,
+    "publisher": "ABC News",
+    "title": "Russia's escalating strikes in Ukraine increasingly spilling into NATO, Romania says",
+    "url": "https://abcnews.com/International/russia-drone-incursions-nato-airspace-jump-exponentially-2026/story?id=135771388",
+    "publication_date": "2026-08-21",
+    "date_source": "byline",
+    "date_evidence": "August 21, 2026, 4:02 AM (visible byline under 'By David Brennan'; also meta-lastPublishedDate: 2026-08-21T09:41:35Z)",
+    "verified_at": "2026-09-04T07:25:44Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Romanian Defence Ministry data show at least 23 Russian drone violations of Romanian airspace in 2026 to 17 August, more than the 18 recorded from 2022 to 2025; four drones shot down; drones or fragments found 27 times against 16 in all of 2025; 54 Russian attacks near the border against 28 in 2025.",
+    "frame_summary": "ABC argues Romania has become NATO's hottest frontier with Russia and that cheap drones impose an unsustainable cost imbalance on the alliance's interceptors.",
+    "signals_supported": [
+      "Counter-drone defence and airspace incursions"
+    ],
+    "cluster": "Pressure from two directions (Evolving Risk)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Russia is expanding its campaign of hybrid attacks against countries that supply weapons and money to Kyiv and has caught Europe without a plan to respond.",
+    "verbatim_list": [
+      "But the bloc has yet to change its fundamentally defensive posture, according to people familiar with how the institutions gauge outside threats, who spoke on condition of anonymity.",
+      "NATO members have pledged $80 billion in military aid to Ukraine for 2026 and “at least the equivalent levels” in 2027 at the alliance’s July summit in Ankara."
+    ],
+    "tier": 3,
+    "publisher": "Insurance Journal",
+    "title": "Russia's Escalating Hybrid Attacks Put Europeans in a Bind (Bloomberg)",
+    "url": "https://www.insurancejournal.com/news/international/2026/08/26/882915.htm",
+    "publication_date": "2026-08-26",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-26T09:45:11+00:00 (visible byline 'By Aaron Eglitis and Milda Seputyte | August 26, 2026')",
+    "verified_at": "2026-09-04T07:26:29Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Russia is expanding hybrid attacks on Ukraine's backers, including an attempted assassination in Poland, a fire at an Estonian drone maker and an explosive drone at Leipzig airport, while the EU has yet to change its defensive posture; NATO members pledged $80 billion in military aid to Ukraine for 2026 at Ankara.",
+    "frame_summary": "The Bloomberg report argues Europe's response to Russian hybrid warfare remains reactive and defensive, without a deterrence plan, which emboldens Moscow to keep probing.",
+    "signals_supported": [
+      "Hybrid threats, sabotage and resilience rules"
+    ],
+    "cluster": "Pressure from two directions (Evolving Risk)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": true,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "These attacks, which have been increasing in number and severity, include sabotage, assassinations, political interference and influence, cyberattacks, and airspace violations, among others.",
+    "verbatim_list": [
+      "Continued Russian hybrid warfare activities are raising questions in both the United States and Europe about the long-term threat Russia poses to U.S. and European strategic and national security interests."
+    ],
+    "tier": 3,
+    "publisher": "USNI News",
+    "title": "Report to Congress on Russian Hybrid Warfare in Europe (Congressional Research Service R49134, 11 August 2026)",
+    "url": "https://news.usni.org/2026/08/19/report-to-congress-on-russian-hybrid-warfare-in-europe",
+    "publication_date": "2026-08-19",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-19T11:24:21+00:00",
+    "verified_at": "2026-09-04T07:21:07Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Congressional Research Service report of 11 August 2026 finds Russian hybrid attacks in Europe increasing in number and severity across sabotage, assassinations, political interference, cyberattacks and airspace violations, and asks Congress what mix of military, law-enforcement and intelligence responses to support.",
+    "frame_summary": "The CRS frames Russian hybrid warfare as a sustained, escalating campaign that forces a choice about which response mix works and what the US owes Europe in answering it.",
+    "signals_supported": [
+      "Hybrid threats, sabotage and resilience rules"
+    ],
+    "cluster": "Pressure from two directions (Evolving Risk)",
+    "notes": "Host audit fetcher returns HTTP 403 (bot block). Quote read from a successful live fetch of the page on 2026-09-04 (CRS summary reproduced by USNI News); marked paywalled per the publish script's bot-block path. Not an override."
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Bulgaria’s parliament approved the temporary deployment of up to eight KC-135 refuelling aircraft, 250 personnel, and supporting equipment at Bezmer in July.",
+    "verbatim_list": [
+      "Two US tanker aircraft left Bulgaria’s Bezmer Air Base on 21 August, almost a month after arriving.",
+      "Nevertheless, by publicly naming Bulgaria after already striking Akrotiri, Tehran has moved the possibility of attacks on European military facilities beyond private contingency planning."
+    ],
+    "tier": 3,
+    "publisher": "EU Perspectives",
+    "title": "Iran names Bulgaria in threat against European bases",
+    "url": "https://euperspectives.eu/2026/08/iran-threat-bulgaria-european-military-bases/",
+    "publication_date": "2026-08-25",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-25T10:17:58+00:00 (visible date '25. 08. 2026')",
+    "verified_at": "2026-09-04T07:28:50Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Iran's foreign ministry publicly named Bulgaria as a potential target for letting US tankers refuel at Bezmer; Bulgaria's parliament had approved up to eight KC-135s and 250 personnel in July, two tankers left on 21 August, and an Iranian-made drone had already struck RAF Akrotiri in Cyprus in March.",
+    "frame_summary": "The article argues that by naming an EU and NATO member after striking Akrotiri, Tehran has moved attacks on European military facilities from contingency planning into a live test of NATO Article 5 and EU Article 42(7).",
+    "signals_supported": [
+      "Middle East war spillover onto NATO's southern flank"
+    ],
+    "cluster": "Pressure from two directions (Evolving Risk)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "NATO member Turkey, which shares a border with Iran and hosts about 1,700 permanently assigned U.S. active-duty personnel, has already been the target of Iranian fire.",
+    "verbatim_list": [
+      "They described Iran’s present threat to Europe as “real but limited” to southern and southeastern areas of the Continent."
+    ],
+    "tier": 3,
+    "publisher": "Stars and Stripes",
+    "title": "Iran eyes US military bases in Europe as targets if war ramps up, report says",
+    "url": "https://www.stripes.com/theaters/europe/2026-08-19/iran-europe-attacks-22598834.html",
+    "publication_date": "2026-08-19",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-19T14:24:04.000Z (visible byline 'Published August 19, 2026')",
+    "verified_at": "2026-09-04T07:26:02Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Citing the Financial Times, US bases in countries such as Bulgaria have been assessed by Iran as possible targets if the US escalates the war; Turkey, hosting about 1,700 US personnel, has already been targeted by Iranian missiles, and analysts describe the threat to Europe as real but limited to the south and south-east.",
+    "frame_summary": "The report frames the Iranian threat to Europe as real but geographically limited and contingent on US escalation, relaying expert doubts about Iranian accuracy at range.",
+    "signals_supported": [
+      "Middle East war spillover onto NATO's southern flank"
+    ],
+    "cluster": "Pressure from two directions (Evolving Risk)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "That seems to be changing thanks to the two-pronged realities of deteriorating relationships between Washington and Europe, and the sudden surge in European defense spending and subsequent push to build weapons domestically.",
+    "verbatim_list": [
+      "At Honeywell Aerospace, Currier said the company is looking for ways to capitalize on the Europeans desires, and that means talking more about the 13 European countries his company operates in and the five that have manufacturing facilities on the continent."
+    ],
+    "tier": 3,
+    "publisher": "Breaking Defense",
+    "title": "Europe wants ITAR-free weapons. US firms are trying to adjust.",
+    "url": "https://breakingdefense.com/2026/08/europe-wants-itar-free-weapons-us-firms-are-trying-to-adjust/",
+    "publication_date": "2026-08-04",
+    "date_source": "jsonld:datePublished",
+    "date_evidence": "\"datePublished\":\"2026-08-04T13:47:01+00:00\" (JSON-LD Article; visible byline 'By Ashley Roque and Aaron Mehta on August 04, 2026')",
+    "verified_at": "2026-09-04T07:35:27Z",
+    "date_age_band": "0-3m",
+    "key_claim": "European governments increasingly avoid US-controlled ITAR components in domestically built weapons, driven by the see-through rule and deteriorating trust, and European firms now market ITAR-free status as a selling point; Honeywell operates in 13 European countries with manufacturing in five.",
+    "frame_summary": "Breaking Defense argues the ITAR-free push is a real and growing trend that US industry and government must answer with export-control reform rather than dismiss.",
+    "signals_supported": [
+      "EU defence-industrial programme (EDIP, EDPCIs and SAFE)",
+      "NATO 5% target and European rearmament"
+    ],
+    "cluster": "Capital and industry against the clock (Emerging Opportunity)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "In 2025, the sector accounted for 43% of all deeptech funding and 13% of total VC investment in Europe, a share that has tripled in just three years.",
+    "verbatim_list": [
+      "Growth is increasingly driven by large, late-stage rounds, which reached $4.7 billion in 2025, tripling year-on-year, while early-stage activity softened slightly."
+    ],
+    "tier": 3,
+    "publisher": "Vestbee",
+    "title": "Europe's defence and resilience startups hit $8.7B in 2025. Here are top deals so far in 2026",
+    "url": "https://www.vestbee.com/insights/articles/europ-s-defence-top-deals-in-early-2026",
+    "publication_date": "2026-04-15",
+    "date_source": "byline",
+    "date_evidence": "April 15, 2026·5 min read (visible byline; author Lisa Palchynska, Editor-in-Chief, Vestbee Insights)",
+    "verified_at": "2026-09-04T07:40:16Z",
+    "date_age_band": "3-6m",
+    "key_claim": "European defence, security and resilience startups raised a record $8.7 billion in 2025, 43% of European deeptech funding and 13% of all European VC, with late-stage rounds reaching $4.7 billion, tripling year on year.",
+    "frame_summary": "Vestbee argues defence capital is consolidating into fewer, larger, AI-anchored late-stage rounds and shifting from funding innovation to scaling deployable capability.",
+    "signals_supported": [
+      "Defence-technology venture capital surge"
+    ],
+    "cluster": "Capital and industry against the clock (Emerging Opportunity)"
+  },
+  {
+    "topic": "Defence, Security and Resilience",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "These top 5 start-ups account for almost 60% of the total capital raised since 2021.",
+    "verbatim_list": [
+      "In 2025, 154 deals with a total investment volume of €2.8 billion were registered (+148% deals and +718% volume compared to 2021)."
+    ],
+    "tier": 4,
+    "publisher": "FCF Fox Corporate Finance",
+    "title": "FCF DefenseTech Venture Capital Report 2026",
+    "url": "https://www.fcf.de/en/resources/research/fcf-defensetech-venture-capital-report-2026",
+    "publication_date": "2026-04-14",
+    "date_source": "byline",
+    "date_evidence": "Apr 14, 2026, 2:40:41 PM (visible post date under 'by FCF DeepTech')",
+    "verified_at": "2026-09-04T07:40:52Z",
+    "date_age_band": "3-6m",
+    "key_claim": "European DefenseTech venture deals reached 154 and €2.8 billion in 2025, with the top five start-ups accounting for almost 60% of capital raised since 2021 and Germany first by invested capital.",
+    "frame_summary": "The advisory firm argues the market has entered mega-deal-driven growth centred on Germany but remains concentrated in a handful of champions with a moderate exit environment.",
+    "signals_supported": [
+      "Defence-technology venture capital surge"
+    ],
+    "cluster": "Capital and industry against the clock (Emerging Opportunity)"
+  }
+]

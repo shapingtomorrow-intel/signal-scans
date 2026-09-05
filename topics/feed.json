@@ -1,80 +1,7 @@
 {
-  "generated": "2026-09-04T08:47:06Z",
+  "generated": "2026-09-05T08:30:07Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
-    {
-      "slug": "climate-nature-food-systems",
-      "name": "Climate, Nature & Food Systems",
-      "tagline": "Nature moves onto the risk register.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
-      "latest_read": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-      "latest_dates": {
-        "scan": "2026-09-01",
-        "tracker": "2026-08-28",
-        "di": "2026-09-03",
-        "cc": "2026-09-04"
-      },
-      "history": [
-        {
-          "date": "2026-09-04",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The rules now decide what you may use, and for how long",
-          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-03",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Climate Policy Has Started Taking Things Away",
-          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
-          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
-          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
-          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
-          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
-          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
-          "posture": "Prepare"
-        }
-      ]
-    },
     {
       "slug": "ai-automation",
       "name": "AI & Automation",
@@ -82,14 +9,22 @@
       "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
-      "latest_read": "Agents escape the sandbox as Europe enforces and Washington reviews in private",
+      "latest_read": "Access to full-capability US frontier AI is now allocated by government clearance rather than by price. Three releases since June 2026 (Mythos 5, GPT-5.6, GPT-6 Astra) passed through an unpublished...",
       "latest_dates": {
-        "scan": "2026-08-29",
+        "scan": "2026-09-05",
         "tracker": "2026-09-03",
         "di": "2026-08-20",
         "cc": "2026-08-21"
       },
       "history": [
+        {
+          "date": "2026-09-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Capability by Clearance: Frontier AI Releases Now Pass Through an Unpublished Government Gate",
+          "summary": "Access to full-capability US frontier AI is now allocated by government clearance rather than by price. Three releases since June 2026 (Mythos 5, GPT-5.6, GPT-6 Astra) passed through an unpublished...",
+          "posture": "Prepare"
+        },
         {
           "date": "2026-09-03",
           "kind": "tracker",
@@ -331,14 +266,22 @@
       "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
-      "latest_read": "Hiring freezes before firing does; the AI rulebook arrives by contract",
+      "latest_read": "Who keeps AI's productivity gains is being settled by contract rather than by statute. With the US labour share at 52.8% in Q2 2026, the lowest since 1947, and real hourly pay falling, notice...",
       "latest_dates": {
-        "scan": "2026-08-29",
+        "scan": "2026-09-05",
         "tracker": "2026-09-03",
         "di": "2026-08-13",
         "cc": "2026-08-14"
       },
       "history": [
+        {
+          "date": "2026-09-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Dividing the Dividend: Who Keeps AI's Gains Is Being Settled by Contract, Not by Statute",
+          "summary": "Who keeps AI's productivity gains is being settled by contract rather than by statute. With the US labour share at 52.8% in Q2 2026, the lowest since 1947, and real hourly pay falling, notice...",
+          "posture": "Prepare"
+        },
         {
           "date": "2026-09-03",
           "kind": "tracker",
@@ -538,6 +481,79 @@
           "title": "The Broken Rung",
           "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
           "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "climate-nature-food-systems",
+      "name": "Climate, Nature & Food Systems",
+      "tagline": "Nature moves onto the risk register.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
+      "latest_read": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+      "latest_dates": {
+        "scan": "2026-09-01",
+        "tracker": "2026-08-28",
+        "di": "2026-09-03",
+        "cc": "2026-09-04"
+      },
+      "history": [
+        {
+          "date": "2026-09-04",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The rules now decide what you may use, and for how long",
+          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Climate Policy Has Started Taking Things Away",
+          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
+          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
+          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
+          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
+          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
+          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "posture": "Prepare"
         }
       ]
     },

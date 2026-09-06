@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sat, 05 Sep 2026 08:30:06 +0000</lastBuildDate>
+<lastBuildDate>Sun, 06 Sep 2026 08:30:22 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Legalised, Not Recruited: Spain's Job Growth Now Runs on the Workers It Already Had</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-09-06-legalised-not-recruited/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-09-06-legalised-not-recruited/scan.html</guid>
+<pubDate>Sun, 06 Sep 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration &amp; Labour Markets</category>
+<description>Spain now grows its workforce by regularising the irregular workers it already had rather than by admitting new ones. 337,917 regularised workers were on the Social Security rolls at 31 August 2026, foreigners supplied 71% of the year's affiliation gain and all of August's seasonally adjusted rise while nationals fell, and the one-year permits convert only through employment or registered job search from spring 2027, with 22 EU governments calling the scheme a pull factor.</description>
+</item>
+<item>
+<title>China's Premium Drug Channel Is Being Underwritten by the Drugmakers</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-06-c-list-without-payer/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-06-c-list-without-payer/scan.html</guid>
+<pubDate>Sun, 06 Sep 2026 08:00:00 +0000</pubDate>
+<category>Health, Life Sciences &amp; Care Systems</category>
+<description>China's state-curated premium drug list has no payer, so its premium price is being underwritten by the drugmakers themselves. In year one Huiminbao payments for innovative drugs stayed flat at 18亿 yuan, Shanghai's flagship scheme dropped a CAR-T, listed drugs reached 12.3% of tertiary hospitals and filings for the 2026 list fell from 141 to 61; the NHSA now tells commercial insurers to pay first while the insurance industry builds its catalogue on claim caps above which the...</description>
+</item>
 <item>
 <title>Capability by Clearance: Frontier AI Releases Now Pass Through an Unpublished Government Gate</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-05-capability-by-clearance/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 03 Aug 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>PFAS regulation now runs by chemical class, not named substances; EU committees, US states and insurers enforce it while Washington rescinds. A 14,000-substance EU restriction opinion, class-wide state bans and reporting, and pollution exclusions carry the shift through 2032.</description>
-</item>
-<item>
-<title>Registered, Not Called: Germany Has Rebuilt Conscription's Machinery Ahead of Any Decision to Use It</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-02-conscription-labour-claim/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-02-conscription-labour-claim/scan.html</guid>
-<pubDate>Sun, 02 Aug 2026 08:00:00 +0000</pubDate>
-<category>Demographics, Migration &amp; Labour Markets</category>
-<description>Germany has rebuilt the machinery of conscription without yet deciding to use it. A birth cohort is registered, nationwide compulsory medical screening starts July 2027, and a demand-triggered draft waits on a recruitment shortfall rather than a security event.</description>
-</item>
-<item>
-<title>Rationing by Assessment: How the Eligibility Threshold Became Long-Term Care's Main Cost Lever</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-02-assessment-threshold-rationing/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-02-assessment-threshold-rationing/scan.html</guid>
-<pubDate>Sun, 02 Aug 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>Long-term care rationing has moved from the benefit schedule into the eligibility assessment. Germany's draft care law books its largest saving from recalibrating the assessment instrument, and England has halved its Continuing Healthcare conversion rate with no rule change.</description>
 </item>
 </channel>
 </rss>

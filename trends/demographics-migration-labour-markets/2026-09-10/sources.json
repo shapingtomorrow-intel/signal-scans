@@ -1,0 +1,473 @@
+[
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "US Bureau of Labor Statistics",
+    "title": "The Employment Situation, August 2026",
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "publication_date": "2026-09-04",
+    "date_source": "byline",
+    "date_evidence": "Transmission of material in this news release is embargoed until USDL-26-1435 8:30 a.m. (ET) Friday, September 4, 2026",
+    "verified_at": "2026-09-10T07:02:41Z",
+    "date_age_band": "0-3m",
+    "cluster": "The deficit stops making news",
+    "key_claim": "US nonfarm payrolls rose by 162,000 in August 2026 against an average monthly gain of 31,000 over the prior 12 months, the participation rate edged up to 61.6 percent, and health care added 13,000 jobs against a 32,000 monthly average.",
+    "frame_summary": "A neutral statistical release presenting a labour market that added jobs faster than trend in August while participation ticked up, with the slowdown concentrated in health care and information rather than across the economy.",
+    "signals_supported": [
+      "Prime-age participation slips",
+      "Care and health workforce shortage",
+      "Enforcement drag on native-born employment"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Total nonfarm payroll employment rose by 162,000 in August, higher than the average monthly gain of 31,000 over the prior 12 months.",
+    "verbatim_list": [
+      "The labor force participation rate edged up to 61.6 percent in August but is down by 0.5 percentage point since January.",
+      "Employment in health care continued to trend up in August (+13,000) but at a slower pace than the average monthly gain over the prior 12 months (+32,000).",
+      "The unemployment rate was unchanged at 4.1 percent in August, and the number of unemployed people changed little at 7.0 million."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "Federal Register",
+    "title": "Fee for Certain H-1B Petitions (notice of proposed rulemaking)",
+    "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17324/fee-for-certain-h-1b-petitions",
+    "publication_date": "2026-08-25",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-25",
+    "verified_at": "2026-09-10T07:06:18Z",
+    "date_age_band": "0-3m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "DHS proposes a $103,265 fee payable at filing on every H-1B cap-subject petition, in addition to all existing fees, with written comments due on or before September 24, 2026.",
+    "frame_summary": "Frames the charge as cost recovery for the federal government's administration of the lawful immigration system, not as a workforce measure, so the level is set by agency cost accounting rather than by labour demand.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The Department of Homeland Security (DHS) proposes to establish a $103,265 fee, payable at the time of filing, for all H-1B cap-subject petitions, including those eligible for the advanced degree exemption, which would be imposed in addition to all other applicable fees or payments.",
+    "verbatim_list": [
+      "Written comments must be submitted on or before September 24, 2026."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "US Citizenship and Immigration Services",
+    "title": "DHS Proposes Additional H-1B Fee",
+    "url": "https://www.uscis.gov/newsroom/news-releases/dhs-proposes-additional-h-1b-fee",
+    "publication_date": "2026-08-24",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "<meta property=\"article:published_time\" content=\"2026-08-24\">",
+    "verified_at": "2026-09-10T07:09:53Z",
+    "date_age_band": "0-3m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "USCIS estimates the proposed fee would raise approximately $8.8 billion a year on a projected annual volume of 85,000 cap-subject petitions, with cap-exempt petitions from universities and non-profit research bodies excluded.",
+    "frame_summary": "Presents the fee as making petitioners rather than taxpayers pay for adjudication and vetting, which places the cost on private employers while sheltering universities and public research from it.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "DHS estimates the proposed fee would generate approximately $8.8 billion annually, based on a projected annual volume of 85,000 H-1B cap-subject petitions.",
+    "verbatim_list": [
+      "Under the proposed rule, the additional fee would not apply to H-1B petitions that are not subject to the cap, such as petitions filed by certain nonprofit research organizations, governmental research organizations, and institutions of higher education."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "KFF",
+    "title": "The Trump Administration's Proposed $103,265 Fee for H-1B Visas Could Affect the Health Care Workforce",
+    "url": "https://www.kff.org/quick-insights/the-trump-administrations-proposed-103265-fee-for-h-1b-visas-could-affect-the-health-care-workforce/",
+    "publication_date": "2026-08-26",
+    "date_source": "byline",
+    "date_evidence": "Published: August 26, 2026",
+    "verified_at": "2026-09-10T07:11:07Z",
+    "date_age_band": "0-3m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "The proposed fee applies at filing and so reaches far more petitions than the 85,000 approved annually under the cap, with the burden falling hardest on rural and lower-income communities and smaller private employers.",
+    "frame_summary": "Argues the fee works as a workforce barrier rather than a neutral cost-recovery measure, because it is charged on petitions that may never be approved and lands on the employers and places least able to absorb it.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry",
+      "Care and health workforce shortage"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Since the fee is applicable at the time of petition filing, it will apply to a significantly larger number of petitions than the 85,000 approved annually under the cap, including those that are not approved.",
+    "verbatim_list": [
+      "The proposed $103,265 fee could lead to reductions in U.S. health care workforce, increasing barriers to care.",
+      "Public comments on the proposed rule are due by September 24th, 2026, after which the DHS is legally required to review and consider the feedback received before it can publish a final rule."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "American Hospital Association",
+    "title": "Fact Sheet: Impact of H-1B Filing Fee on the Health Care Workforce",
+    "url": "https://www.aha.org/2026-04-01-fact-sheet-impact-h-1b-filing-fee-health-care-workforce",
+    "publication_date": "2026-04-01",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "<meta name=\"publish_date\" property=\"article:published_time\" content=\"2026-04-01T12:43:42-05:00\">",
+    "verified_at": "2026-09-10T07:12:30Z",
+    "date_age_band": "3-6m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "In an AHA survey of more than 1,000 hospitals and health systems, more than 70% expect the H-1B visa fee to affect patient care and 64% of those using the programme will pause, defer or limit recruitment because of it.",
+    "frame_summary": "An advocacy fact sheet arguing that pricing H-1B entry worsens an already severe clinical workforce shortage, and that health care professionals should be exempted from the charge.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry",
+      "Care and health workforce shortage"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "64% of hospitals that utilized, or planned to utilize, the H-1B visa program will pause, defer or limit recruitment due to the $100,000 H-1B visa petition fee.",
+    "verbatim_list": [
+      "More than 70% of hospitals anticipate the H-1B visa fee will impact patient care.",
+      "57% of positions that would have been filled by H-1B visa holders were clinical roles."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "KFF",
+    "title": "Recent Changes to Temporary Protected Status Designations: Potential Impacts on Health and Health Care",
+    "url": "https://www.kff.org/immigrant-health/recent-changes-to-temporary-protected-status-designations-potential-impacts-on-health-and-health-care/",
+    "publication_date": "2026-05-01",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-05-01T13:00:26+00:00",
+    "verified_at": "2026-09-10T07:04:56Z",
+    "date_age_band": "3-6m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "Termination of protected status for the remaining Venezuelan holders is expected to take effect in October 2026 and could affect over 350,000 immigrants; likely TPS holders made up about 740,000 US workers in 2024, including about 53,000 in health care.",
+    "frame_summary": "Argues that withdrawing legal status is simultaneously a coverage shock and a workforce shock, because the same people lose work authorisation, employer health cover and eligibility for federally funded care at once.",
+    "signals_supported": [
+      "Care and health workforce shortage"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "KFF analysis of ACS data show that, as of 2024, noncitizen immigrants likely to have TPS from 16 of the 17 countries with active designations at the time made up about 740,000 workers in the U.S., including about 53,000 health care workers.",
+    "verbatim_list": [
+      "Termination of TPS designation for Yemen took effect in May 2026, and termination of TPS designation as well as work authorization for remaining Venezuelan TPS holders is expected to take effect in October 2026, which could impact over 350,000 immigrants from these countries."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "WABE",
+    "title": "Georgia's elder care workforce faces impact as Haitians lose protected immigration status",
+    "url": "https://www.wabe.org/georgias-elder-care-workforce-faces-impact-as-haitians-lose-protected-immigration-status/",
+    "publication_date": "2026-09-08",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-08T13:57:54+00:00",
+    "verified_at": "2026-09-10T07:13:12Z",
+    "date_age_band": "0-3m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "About one in four US health care workers providing direct patient care is an immigrant, and Georgia's elder care workforce is exposed as Haitian protected status ends.",
+    "frame_summary": "Argues that status termination is not a contained immigration question but a care-access shock that reaches citizen households with no immigration connection of their own.",
+    "signals_supported": [
+      "Care and health workforce shortage"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "About one out of every four health care workers who provide direct patient care nationwide is an immigrant, according to KFF, a nonprofit health policy group.",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "Center for Immigration Studies",
+    "title": "Census Bureau Survey Shows Total Foreign-Born Down 2.9 Million",
+    "url": "https://cis.org/Report/Census-Bureau-Survey-Shows-Total-ForeignBorn-Down-29-Million",
+    "publication_date": "2026-09-03",
+    "date_source": "byline",
+    "date_evidence": "By Steven A. Camarota and Karen Zeigler on September 3, 2026",
+    "verified_at": "2026-09-10T07:10:24Z",
+    "date_age_band": "0-3m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "The foreign-born population fell by 2.9 million between January 2025 and July 2026 on Current Population Survey data, but only 44 percent of that decline was workers.",
+    "frame_summary": "Argues the immigrant decline is real rather than a survey artefact, while insisting the labour-market consequence is overstated because most of the people who left were not in the workforce.",
+    "signals_supported": [
+      "US net migration turns negative"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Only 44 percent of the decline in the foreign-born are workers; the rest are children, the elderly, and other non-workers.",
+    "verbatim_list": [
+      "The total foreign-born population declined 2.9 million from January 2025 to July 2026.",
+      "We preliminarily estimate that the illegal immigrant population may have declined 2.3 million, from 15.8 million in January of 2025 to 13.5 million in July of 2026."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "Center for Immigration Studies",
+    "title": "Has Immigration Enforcement Benefitted American Workers?",
+    "url": "https://cis.org/Camarota/Has-Immigration-Enforcement-Benefitted-American-Workers",
+    "publication_date": "2026-07-09",
+    "date_source": "byline",
+    "date_evidence": "By Steven A. Camarota and Karen Zeigler on July 9, 2026",
+    "verified_at": "2026-09-10T07:07:39Z",
+    "date_age_band": "0-3m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "Even after the January 2026 reweighting of the Current Population Survey, 1.4 million more native-born people were employed in June 2026 than in January 2025.",
+    "frame_summary": "Argues directly against the claim that enforcement has cost US-born workers jobs, reading stable native unemployment and participation as evidence that the crackdown has not damaged their labour-market position.",
+    "signals_supported": [
+      "Enforcement drag on native-born employment"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Even with the January adjustment, there were still 1.4 million more natives employed in June 2026 than in January 2025, when increased enforcement began.",
+    "verbatim_list": [
+      "The reweighting of the data by the government in January of 2026 caused a huge 2.5 million decline in the estimated number of natives employed ─ the largest decline in native employment associated with the annual reweighting of the data since 1996."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "Indeed Hiring Lab",
+    "title": "A Shifting Pipeline: What Indeed's Data Reveals About Immigrants' Role in the US Labor Force",
+    "url": "https://hiringlab.indeed.com/2026/05/21/immigrants-role-in-the-us-labor-force/",
+    "publication_date": "2026-05-21",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "<meta property=\"article:published_time\" content=\"2026-05-21T11:00:00+00:00\">",
+    "verified_at": "2026-09-10T07:08:15Z",
+    "date_age_band": "3-6m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "The share of clicks on US job postings coming from abroad has fallen to 1.4% as of April 2026, the lowest since January 2020, even as the share of US postings offering sponsorship has tripled since the pandemic.",
+    "frame_summary": "Argues that the United States is losing its pull on foreign workers exactly when employers need them most, so the constraint ahead is willingness to come rather than the number of visas available.",
+    "signals_supported": [
+      "US net migration turns negative",
+      "Six-figure fee on skilled entry"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The share of clicks on US job postings from abroad peaked in 2023 and has been falling sharply since, sitting at just 1.4% as of April 2026, the lowest value since January 2020.",
+    "verbatim_list": [
+      "The share of US job postings offering visa or green card sponsorship has tripled since the pandemic and has remained persistently elevated."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "Office for National Statistics",
+    "title": "Net migration continues to fall",
+    "url": "https://blog.ons.gov.uk/2026/05/21/net-migration-continues-to-fall/",
+    "publication_date": "2026-05-21",
+    "date_source": "time:datetime",
+    "date_evidence": "<time class=\"published\" datetime=\"2026-05-21T09:30:18+01:00\">May 21, 2026</time>",
+    "verified_at": "2026-09-10T07:05:33Z",
+    "date_age_band": "3-6m",
+    "cluster": "Entry gets priced and withdrawn",
+    "key_claim": "UK non-EU net migration has fallen by two-thirds since its 2023 peak, with the near-halving of non-EU work-related arrivals the main driver of the continued fall.",
+    "frame_summary": "Argues the fall is a supply effect of visa rule changes on non-EU work routes rather than any exodus of British citizens, and corrects the earlier emigration surge as a measurement artefact now resolved by administrative data.",
+    "signals_supported": [
+      "European migration restriction tightens"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Overall, non-EU net migration has fallen by two-thirds since it peaked in 2023.",
+    "verbatim_list": [
+      "In the most recent period, the number of people from outside the EU arriving for work-related reasons almost halved and is the main factor behind the continued fall in net migration."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "Centers for Disease Control and Prevention",
+    "title": "U.S. Births down 1% in 2025",
+    "url": "https://www.cdc.gov/nchs/pressroom/releases/20260409.html",
+    "publication_date": "2026-04-09",
+    "date_source": "byline",
+    "date_evidence": "For immediate release: April 9, 2026",
+    "verified_at": "2026-09-10T07:03:27Z",
+    "date_age_band": "3-6m",
+    "cluster": "The deficit stops making news",
+    "key_claim": "US births fell 1% in 2025 to 3,606,400 and the general fertility rate slipped to 53.1 births per 1,000 females aged 15 to 44.",
+    "frame_summary": "A neutral statistical release framing 2025 as one more year of the same slow fertility decline rather than a break, with the sharpest single movement in the record-low teen birth rate.",
+    "signals_supported": [
+      "Below-replacement fertility broadens"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The general fertility rate also fell slightly to 53.1 births for every 1,000 females ages 15 to 44 in 2025.",
+    "verbatim_list": [
+      "The report shows the number of births decreased by 1% from 2024, with 3,606,400 births recorded in 2025."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "Eurostat",
+    "title": "Demography of Europe, 2026 edition",
+    "url": "https://ec.europa.eu/eurostat/web/interactive-publications/demography-2026",
+    "publication_date": "2026-05-21",
+    "date_source": "byline",
+    "date_evidence": "Demography of Europe – 2026 edition The different visualisation tools allow you to explore in an easy and interactive way selected indicators on population development, the trend of an ageing population, longer lives, having children... - 21 May 2026",
+    "verified_at": "2026-09-10T07:09:02Z",
+    "date_age_band": "3-6m",
+    "cluster": "The deficit stops making news",
+    "key_claim": "On 1 January 2025 the EU had 99 million people aged 65 or over, 22% of its population, against a total fertility rate of 1.34 live births per woman in 2024.",
+    "frame_summary": "Presents the official statistical picture without policy advocacy, and in doing so shows an EU whose population only holds up because inward migration offsets a natural decline that has run negative since 2012.",
+    "signals_supported": [
+      "Working-age contraction and ageing",
+      "Below-replacement fertility broadens"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "On 1 January 2025, there were 99 million people aged 65 years old or more, representing 22% of the total EU population.",
+    "verbatim_list": [
+      "In 2024, the total fertility rate in the EU stood at 1.34 live births per woman, down from 1.46 in 2004 and below the replacement level of 2.1, at which a population is considered stable."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "St. Louis Fed",
+    "title": "What's Behind the Sharp Drop in Labor Force Participation?",
+    "url": "https://www.stlouisfed.org/on-the-economy/2026/aug/what-is-behind-sharp-drop-labor-force-participation",
+    "publication_date": "2026-08-04",
+    "date_source": "byline",
+    "date_evidence": "What's Behind the Sharp Drop in Labor Force Participation? August 04, 2026 By Alexander Bick",
+    "verified_at": "2026-09-10T07:06:44Z",
+    "date_age_band": "0-3m",
+    "cluster": "The deficit stops making news",
+    "key_claim": "US labour force participation fell to 61.6% in June 2026, but 43% of the six-month decline traces to the January 2026 population-control revision and a further 16% to population ageing.",
+    "frame_summary": "Argues against reading the participation fall as workers giving up, holding that most of it is a one-off measurement correction plus slow ageing and that only the single month of prime-age withdrawal is genuine news.",
+    "signals_supported": [
+      "Prime-age participation slips",
+      "Working-age contraction and ageing"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The largest single piece of the drop, 43%, traces to one statistical event: the unusually large population-control revision the Bureau of Labor Statistics (BLS) introduced in January 2026.",
+    "verbatim_list": [
+      "The remainder, 16%, is due to an aging population.",
+      "The U.S. labor force participation rate—the share of the population age 16 and older working or looking for work—fell to 61.6% in June 2026."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "European Commission",
+    "title": "Addressing worker shortages by attracting global talent",
+    "url": "https://commission.europa.eu/news-and-media/news/addressing-worker-shortages-attracting-global-talent-2026-06-15_en",
+    "publication_date": "2026-06-15",
+    "date_source": "jsonld:datePublished",
+    "date_evidence": "\"datePublished\": \"2026-06-15T14:00:00+02:00\"",
+    "verified_at": "2026-09-10T07:10:58Z",
+    "date_age_band": "0-3m",
+    "cluster": "Recruitment machinery lags the need",
+    "key_claim": "The EU Talent Pool entered into force in June 2026 but is not expected to be fully operational until the end of 2027, while member states had until May 2026 to transpose the updated Single Permit Directive.",
+    "frame_summary": "Argues that easing legal labour migration is a competitiveness necessity for a shrinking EU workforce, and positions these instruments as the legal-pathway half of a migration approach whose other half is enforcement.",
+    "signals_supported": [
+      "Skilled-talent migration competition"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The Single Permit Directive makes it easier for people from outside the EU to apply for jobs, by providing one single permit for both the right to work and reside in the EU.",
+    "verbatim_list": [
+      "It is expected to be fully operational by the end of 2027.",
+      "EU countries had until May 2026 to adjust their national legal frameworks."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "East Asia Forum",
+    "title": "Japan narrows path to citizenship amid labour shortages",
+    "url": "https://eastasiaforum.org/2026/05/15/japan-narrows-path-to-citizenship-amid-labour-shortages/",
+    "publication_date": "2026-05-15",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "<meta property=\"article:published_time\" content=\"2026-05-15T22:00:00+10:00\">",
+    "verified_at": "2026-09-10T07:12:05Z",
+    "date_age_band": "3-6m",
+    "cluster": "Recruitment machinery lags the need",
+    "key_claim": "Japan's five-year statutory residence requirement for naturalisation is unchanged, but tightened ministry scrutiny means applicants now face expectations of stable residence closer to a decade.",
+    "frame_summary": "Argues that Japan is deliberately separating economic incorporation from political belonging, widening labour-market access while using administrative discretion rather than legislation to restrict who can become Japanese.",
+    "signals_supported": [
+      "Asian economies open to foreign labour"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Japan is opening its labour market while narrowing the symbolic boundaries of belonging.",
+    "verbatim_list": [
+      "But in practice, applicants increasingly face expectations of stable residence and social integration in Japan for closer to a decade before naturalisation is realistically attainable."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "The Japan Times",
+    "title": "Foreign workers in Japan reach a record 2.57 million in 2025",
+    "url": "https://www.japantimes.co.jp/news/2026/01/30/japan/foreign-workers-record-high/",
+    "publication_date": "2026-01-30",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "<meta property=\"article:published_time\" content=\"2026-01-30T17:20:00+09:00\"/>",
+    "verified_at": "2026-09-10T07:13:48Z",
+    "date_age_band": "6-12m",
+    "cluster": "Recruitment machinery lags the need",
+    "key_claim": "Foreign workers in Japan reached a record 2.57 million at the end of October 2025, up 11.7% year on year, on health ministry data.",
+    "frame_summary": "Argues that Japan's economy has become structurally dependent on foreign labour to offset a shrinking population, and sets that dependence against a political current now tightening the rules on foreign residents.",
+    "signals_supported": [
+      "Asian economies open to foreign labour"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Foreign workers in Japan hit a record high in 2025, totaling 2.57 million as of the end of October, up 11.7% from the year before, as the country suffers from an acute labor shortage due to a shrinking population, health ministry data released Friday showed.",
+    "verbatim_list": [
+      "By nationality, Vietnamese comprised 23.6%, the largest percentage, at 605,906, followed by Chinese (431,949) and Filipinos (260,869)."
+    ]
+  }
+]

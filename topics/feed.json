@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T08:30:06Z",
+  "generated": "2026-09-10T08:37:51Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -9,10 +9,10 @@
       "description": "Ageing, migration policy shifts, labour-market structure change. What it means for hiring, pension and care planning, regional strategy and growth assumptions.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/history/",
-      "latest_read": "Spain now grows its workforce by regularising the irregular workers it already had rather than by admitting new ones.",
+      "latest_read": "Enforcement drag fades as a six-figure fee prices skilled entry",
       "latest_dates": {
         "scan": "2026-09-06",
-        "tracker": "2026-08-13",
+        "tracker": "2026-09-10",
         "di": "2026-09-10",
         "cc": "2026-09-11"
       },
@@ -23,6 +23,14 @@
           "type": "Action Triggers",
           "title": "Nobody reopened the border. Every government counted who was already inside.",
           "summary": "The cycle answered July's question and replaced it. The workers exist: 337,917 regularised onto the Spanish rolls, 4.41 million under temporary protection being converted rather than returned, and a...",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-10",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Enforcement drag fades as a six-figure fee prices skilled entry",
+          "summary": "Fourth Change Tracker on Demographics, Migration and Labour Markets. Ten signals: 3 Accelerating (a six-figure fee on skilled entry, care and health workforce shortage, US net migration turning...",
           "posture": ""
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T08:37:56Z",
+  "generated": "2026-09-11T09:46:57Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-09-waiver-becomes-a-plan/scan.html"
     },
     "change_tracker": {
-      "title": "Enforcement drag fades as a six-figure fee prices skilled entry",
-      "date": "2026-09-10",
-      "topic": "Demographics, Migration and Labour Markets",
-      "topic_slug": "demographics-migration-labour-markets",
+      "title": "Ebola spreads to 60 health zones as pathogen access goes bilateral",
+      "date": "2026-09-11",
+      "topic": "Health, Life Sciences and Care Systems",
+      "topic_slug": "health-life-sciences-care-systems",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-09-10/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-09-11/tracker.html"
     },
     "decision_intelligence": {
       "title": "Nobody Is Recruiting Their Way Out of This Any More",

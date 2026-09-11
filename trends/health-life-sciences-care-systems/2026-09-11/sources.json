@@ -1,0 +1,511 @@
+[
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization (Disease Outbreak News)",
+    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+    "publication_date": "2026-08-28",
+    "date_source": "byline",
+    "date_evidence": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo\n\n28 August 2026\n\nSee all DONs related to this event",
+    "verified_at": "2026-09-11T07:12:43Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 26 August 2026 the Democratic Republic of the Congo had reported 5794 confirmed Bundibugyo virus disease cases and 2786 deaths at a crude case fatality ratio of 48.1%, across 60 health zones in six provinces, up from 54 health zones two weeks earlier.",
+    "frame_summary": "WHO argues the epidemic is expanding faster than the response can detect and isolate cases, and that the binding weakness is late case recognition and unsafe care rather than any absence of a response plan.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "As of 26 August 2026, a total of 5794 confirmed cases, including 2786 deaths, have been reported, corresponding to a crude case fatality ratio (CFR) of 48.1%.",
+    "verbatim_list": [
+      "Cases have been reported from 60 health zones (HZ) across six provinces.",
+      "Delays in recognizing cases increase the likelihood of onward transmission within households, communities and healthcare facilities.",
+      "On 27 August, vaccination of health care workers using the Ervebo vaccine was initiated in the Democratic Republic of the Congo in some areas, including in Kisangani, Tshopo province.",
+      "Since 14 August 2026 when the last Disease Outbreak News was published, an additional 1129 confirmed cases, including 602 confirmed deaths, have been reported in the Democratic Republic of the Congo.",
+      "Although Ervebo is a safe vaccine, and effective against Ebola virus disease, it is not known whether it provides protection against the Bundibugyo virus in humans.",
+      "Thus, starting a clinical trial of the vaccine, alongside this wider use, is key to provide important new evidence and inform future use of the vaccine."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization (IHR Emergency Committee)",
+    "title": "Second meeting of the IHR Emergency Committee on the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo, temporary recommendations",
+    "url": "https://www.who.int/news/item/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+    "publication_date": "2026-08-24",
+    "date_source": "byline",
+    "date_evidence": "24 August 2026\n\nStatement\n\nGeneva\n\nOn 18 August 2026, the Emergency Committee regarding the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo met for the second time to reassess the situation",
+    "verified_at": "2026-09-11T07:18:09Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Director-General kept the PHEIC in place after the second Emergency Committee meeting on 18 August and issued a new section of temporary recommendations covering social measures, mass gatherings and domestic mobility, including road checkpoints and surveillance on inland waterways running to Kinshasa.",
+    "frame_summary": "WHO argues the epidemic has outgrown clinical containment and now requires population-movement controls and timely payment of the response workforce, which places the burden on state capacity rather than on medical countermeasures.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Establish BVD surveillance on vessels navigating inland waterways, connecting areas with community BVD transmission with major urban centers, including the Capital Kinshasa.",
+    "verbatim_list": [
+      "Postpone mass gatherings in areas with ongoing community BDV transmission.",
+      "health workforce management and protection, including timely payment of salaries and, as appropriate, hazard pay."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "US Centers for Disease Control and Prevention (Measles)",
+    "title": "Measles Cases and Outbreaks",
+    "url": "https://www.cdc.gov/measles/data-research/index.html",
+    "publication_date": "2026-09-04",
+    "date_source": "meta:dc.date",
+    "date_evidence": "meta-DC.date: 2026-09-04T11:36:29Z ; meta-cdc:last_published: 2026-09-04T11:51:20Z ; meta-cdc:last_reviewed: September 4, 2026",
+    "verified_at": "2026-09-11T07:26:51Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 3 September 2026 the United States had recorded 3,134 confirmed measles cases in 47 jurisdictions with 38 new outbreaks, against 2,289 in all of 2025, while kindergarten MMR coverage has fallen to 92.4% from 95.2% in 2019 to 2020.",
+    "frame_summary": "CDC attributes the recurrence and size of US outbreaks to kindergarten vaccination coverage having fallen below the level at which community immunity holds, framing this as a coverage problem rather than an importation problem.",
+    "signals_supported": [
+      "US measles elimination at risk"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "At local levels, vaccine coverage rates may vary considerably, and pockets of unvaccinated people can exist in states with high vaccination coverage.",
+    "verbatim_list": [
+      "As of September 3, 2026, 3,134 confirmed* measles cases were reported in the United States in 2026.",
+      "There have been 38 new outbreaks** reported in 2026, and 95% of confirmed cases (2,969 of 3,134) are outbreak-associated (1,594 from outbreaks starting in 2026 and 1,375 from outbreaks that started in 2025).",
+      "However, vaccination coverage among U.S. kindergartners has decreased from 95.2% during the 2019-2020 school year to 92.4% in the 2025-2026 school year, leaving approximately 280,000 kindergartners at risk during the 2025-2026 school year.",
+      "When more than 95% of people in a community are vaccinated (coverage >95%), most people are protected through community immunity (herd immunity).",
+      "Among these, 3,118 measles cases were reported by 47 jurisdictions"
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Pan American Health Organization",
+    "title": "Update on the review of measles elimination status",
+    "url": "https://www.paho.org/en/news/2-3-2026-update-review-measles-elimination-status",
+    "publication_date": "2026-03-02",
+    "date_source": "byline",
+    "date_evidence": "Update on the review of measles elimination status\n\n2 Mar 2026\n\nWashington, D.C., 2 March 2026 (PAHO)",
+    "verified_at": "2026-09-11T07:31:28Z",
+    "date_age_band": "6-12m",
+    "key_claim": "PAHO will review the measles elimination status of the United States and Mexico in November 2026 at the annual meeting of the Regional Verification Commission, assessing re-establishment of endemic transmission over one year from outbreak onset, 20 January 2025 in the US.",
+    "frame_summary": "PAHO frames the elimination verdict as a scheduled technical determination made on genomic and epidemiological evidence by an independent commission, not as a political judgement on any country's vaccine policy.",
+    "signals_supported": [
+      "US measles elimination at risk"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The Pan American Health Organization (PAHO) informs that the review of the measles elimination status in the United States and Mexico will take place in November 2026, during the Commission's regular annual meeting of the Regional Verification Commission for the Elimination of Measles, Rubella, and Congenital Rubella Syndrome (RVC).",
+    "verbatim_list": [
+      "For both the United States and Mexico, the analysis period for assessing the possible re-establishment of endemic measles transmission corresponds to one year from the onset of the reported outbreaks: 20 January 2025 in the United States and 1 February 2025 in Mexico."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "Johns Hopkins Bloomberg School of Public Health (International Vaccine Access Center)",
+    "title": "2026 U.S. Measles Cases Surpass 2025 Level, Highest Since Declared Eliminated in 2000",
+    "url": "https://publichealth.jhu.edu/ivac/2026/2026-us-measles-cases-surpass-2025-level",
+    "publication_date": "2026-07-22",
+    "date_source": "byline",
+    "date_evidence": "Published\n\nJuly 22, 2026\n\nBy\n\nVictoria Willens",
+    "verified_at": "2026-09-11T07:35:14Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 21 July 2026 the US had recorded 2,295 confirmed measles cases, past the 2,289 recorded in all of 2025 and the highest annual total since 1991, with an elimination-status review due later in the year.",
+    "frame_summary": "IVAC argues the elimination-status verdict is beside the point: the operative fact is that US measles incidence is at a multi-decade high and only higher vaccination coverage will reverse it.",
+    "signals_supported": [
+      "US measles elimination at risk"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Regardless of what is determined about the country's measles elimination status, the reality is that the United States has more measles cases this year than it has in decades,",
+    "verbatim_list": [
+      "As of July 21, 2026, there have been 2,295 confirmed cases of measles across the United States, according to data from from the U.S. Measles Tracker, surpassing the 2,289 cases reported in all of 2025."
+    ],
+    "notes": "Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03 and carried forward in audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "KFF",
+    "title": "The White House Takes Another Shot at Changing U.S. Childhood Vaccine Recommendations",
+    "url": "https://www.kff.org/other-health/the-white-house-takes-another-shot-at-changing-u-s-childhood-vaccine-recommendations/",
+    "publication_date": "2026-08-11",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-11T19:39:48+00:00",
+    "verified_at": "2026-09-11T07:41:06Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The 10 August executive order directs separate rather than combination MMR shots, empowers an HHS task force of federal officials that could bypass ACIP, and directs the Attorney General to challenge conflicting state laws, but 30 states including DC have already decoupled from federal recommendations and courts have blocked the earlier revised schedule.",
+    "frame_summary": "KFF argues the order is unlikely to move US vaccine policy because the federal lever has lost its grip on the states and the courts, and that its main effect will be confusion among parents rather than changed practice.",
+    "signals_supported": [
+      "US vaccine-policy disruption"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Given ongoing legal challenges to the administration's vaccine actions and declining influence of federal recommendations on states vaccine policy decisions, it is not clear how much the new EO can shift U.S. vaccine policy.",
+    "verbatim_list": [
+      "In fact, most states - 30 including DC - have already made moves to decouple their vaccine policies from federal government recommendations for one or more childhood vaccines, instead relying on prior recommendations, state recommendations, and/or those of external entities such as American Academy of Pediatrics (AAP).",
+      "Any recommendations from the Task Force are also unlikely to change how insurance covers childhood vaccinations given that private insurers have pledged to maintain existing childhood vaccine coverage through the end of 2027"
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "Johns Hopkins Bloomberg School of Public Health (IVAC, global immunization)",
+    "title": "Latest Global Immunization Coverage Estimates Illustrate Gaps in Vaccine Access",
+    "url": "https://publichealth.jhu.edu/311/2026/latest-global-immunization-coverage-estimates-illustrate-gaps-in-vaccine-access",
+    "publication_date": "2026-07-27",
+    "date_source": "byline",
+    "date_evidence": "Published\n\nJuly 27, 2026\n\nLatest Global Immunization Coverage Estimates Illustrate Gaps in Vaccine Access",
+    "verified_at": "2026-09-11T07:46:33Z",
+    "date_age_band": "0-3m",
+    "key_claim": "WHO and UNICEF estimates show global immunisation coverage was broadly flat in 2025, with 13.5 million zero-dose children and measles first-dose coverage stalled at 84% against a 95% target.",
+    "frame_summary": "IVAC argues that flat coverage combined with falling global health financing puts immunisation targets out of reach, and that zero-dose children in fragile settings need different strategies rather than more of the same.",
+    "signals_supported": [
+      "Global health financing retrenchment"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "An estimated 13.5 million zero-dose children did not receive their first dose of DTP vaccine in 2025, approximately 750,000 fewer children than 2024, but far too many children continue to miss out on life-saving vaccines.",
+    "verbatim_list": [
+      "Measles vaccine coverage has also stalled, with only 84% of children receiving their first dose of measles-containing vaccine (MCV1) and just 77% receiving their second dose."
+    ],
+    "notes": "Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03 and carried forward in audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "Health Policy Watch",
+    "title": "Germany Plans More Cuts to Global Health Funding, But Policymakers Push Back on 2027 Draft Budget",
+    "url": "https://healthpolicy-watch.news/germany-slash-global-health-funding/",
+    "publication_date": "2026-08-26",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-26T18:44:32+02:00",
+    "verified_at": "2026-09-11T07:52:19Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Germany's draft 2027 budget cuts the flexible operational fund for international public health by 15.3% to EUR 47.33 million while total federal spending rises 5.9% on defence, with Germany now the largest government contributor to WHO after the US withdrawal.",
+    "frame_summary": "The piece argues Germany is subordinating global health to defence and national interest, and that the cuts fall precisely on the flexible funds that pay for outbreak response rather than on the headline pledges that attract attention.",
+    "signals_supported": [
+      "Global health financing retrenchment"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "This affects almost exclusively the central operational fund for strengthening international public health, which Berlin is planning to slash by 15.3% to €47.33 million.",
+    "verbatim_list": [
+      "Since the US's withdrawal from WHO, the Federal Republic has become the largest government contributor.",
+      "While the overall draft budget for 2027 is set to expand by 5.9% to a total of €555.4 billion, driven by increased defence spending, Finance Minister Lars Klingbeil is enforcing strict fiscal discipline in other policy areas.",
+      "The Bundestag expects to finalise the budget in late autumn."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "Health Policy Watch (Pan American Health Organization)",
+    "title": "US Proposal to Eliminate PAHO Funding Raises Alarm Over Health Security in Americas",
+    "url": "https://healthpolicy-watch.news/us-proposal-to-eliminate-paho-funding-raises-alarm-over-hemispheric-health-security/",
+    "publication_date": "2026-09-03",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-03T18:50:01+02:00",
+    "verified_at": "2026-09-11T07:57:44Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The US FY2027 budget request proposes eliminating funding to PAHO, which has already adopted a 17% budget reduction and expects to fall from 1,042 posts to about 869, while the US owes nearly $135 million in member fees since 2024.",
+    "frame_summary": "The piece argues that removing US funding from the regional body that provides early warning would leave the United States less able to detect disease threats before they arrive, and reports bipartisan security officials making that case against the administration.",
+    "signals_supported": [
+      "Global health financing retrenchment",
+      "US measles elimination at risk"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "In response to unpaid US dues, PAHO, the WHO's regional arm with 35 member states across the Americas, has adopted a 17% reduction in its upcoming budget.",
+    "verbatim_list": [
+      "Across the organization, total positions are projected to drop from 1,042 during the 2024-2025 budget cycle to approximately 869 positions across 2026-2027.",
+      "In 2025 alone, PAHO's regional surveillance system analyzed 2.1 million disease threat data points, detecting 157 public health events across the Americas, the organization said."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "The White House",
+    "title": "Fact Sheet: President Donald J. Trump Announces Deal with Nine Additional Pharmaceutical Manufacturers to Lower Drug Prices for Americans",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-deal-with-nine-additional-pharmaceutical-manufacturers-to-lower-drug-prices-for-americans/",
+    "publication_date": "2026-08-31",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-31T19:14:29+00:00",
+    "verified_at": "2026-09-11T08:03:27Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Nine further manufacturers signed most-favoured-nation pricing agreements on 31 August, taking the total to 26 companies covering 89% of the branded drug market, with at least $19.6 billion of near-term US manufacturing commitments and donations of active ingredients to a strategic reserve.",
+    "frame_summary": "The White House argues that trading tariff exposure for most-favoured-nation prices and onshoring commitments is what rebalances international drug pricing and secures American supply, presenting the negotiated deal rather than the duty as the working instrument.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing",
+      "Medicare GLP-1 access expansion"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The agreements bring the total number of pharmaceutical manufacturers with MFN deals to 26, covering 89% of the branded drug market.",
+    "verbatim_list": [
+      "These nine pharmaceutical manufacturers committed to invest at least $19.6 billion collectively in U.S. manufacturing in the near term.",
+      "In the two months since the launch of this program, over 500,000 seniors have saved a total of $216 million dollars on these life-changing medicines."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Office of the Federal Register",
+    "title": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States",
+    "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06956/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states",
+    "publication_date": "2026-04-09",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-04-09",
+    "verified_at": "2026-09-11T08:08:52Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The proclamation imposes a 100 percent ad valorem duty on imported patented pharmaceuticals and their ingredients, reduced to 20 percent for companies with approved onshoring plans and to zero for companies holding MFN pricing agreements, effective 31 July 2026 for Annex III companies and 29 September 2026 for the rest, with generics excluded.",
+    "frame_summary": "The proclamation asserts that heavy US import reliance on patented pharmaceuticals and ingredients, compounded by foreign government intervention in the market, threatens to impair national security, and that tariffs paired with onshoring and pricing agreements are the remedy.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "(4) The tariffs and tariff treatment imposed by this proclamation shall be effective with respect to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern daylight time on July 31, 2026, for the companies listed in Annex III to this proclamation and September 29, 2026, for other companies and shall continue in effect, unless such actions are expressly reduced, modified, or terminated.",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "Health Policy Watch (Africa)",
+    "title": "Namibia Rejects US Demands for Data and Pathogen-Sharing",
+    "url": "https://healthpolicy-watch.news/namibia-rejects-us-demands-for-data-and-pathogen-sharing/",
+    "publication_date": "2026-09-02",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-02T15:07:29+02:00",
+    "verified_at": "2026-09-11T08:14:16Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Namibia has rejected US demands for health data and pathogen sharing attached to a bilateral replacement for PEPFAR support worth around $45 million a year, joining Zimbabwe and Ghana, while the Kenya and DRC agreements face legal challenge.",
+    "frame_summary": "The piece argues that US bilateral health agreements demanding pathogen access without guaranteed benefit-sharing are a direct challenge to the multilateral PABS system, and that recipient states are refusing the terms even at the cost of losing funding.",
+    "signals_supported": [
+      "Pathogen access as bilateral leverage"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "However, the US withdrew from the WHO when Donald Trump assumed the presidency in January 2025, and its bilateral health agreements, which demand access to pathogen information without guaranteeing that any benefits will be shared, are a direct challenge to a WHO PABS system.",
+    "verbatim_list": [
+      "In the past few years, the country has received around $45 million a year in support from the US President's Emergency Plan for AIDS Relief (PEPFAR), and a total of over $1 billion since 2003.",
+      "Zimbabwe and Ghana have also rejected the US data- and pathogen-sharing demands, while the memorandums of understanding (MOUs) that the US has reached with Kenya and the Democratic Republic of Congo (DRC) both face legal challenges from civil society groups."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization (Pandemic Agreement)",
+    "title": "WHO Member States continue negotiations on the Pathogen Access and Benefit Sharing Annex",
+    "url": "https://www.who.int/news/item/20-07-2026-who-member-states-continue-negotiations-on-the-pathogen-access-and-benefit-sharing-annex",
+    "publication_date": "2026-07-20",
+    "date_source": "byline",
+    "date_evidence": "WHO Member States continue negotiations on the Pathogen Access and Benefit Sharing Annex\n\n20 July 2026\n\nNews release\n\nGeneva",
+    "verified_at": "2026-09-11T08:19:37Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The seventh IGWG meeting closed in July without a finalised PABS annex, leaving contractual arrangements, laboratory network structure and the definition of benefits unresolved, with the eighth meeting set for 14 to 18 September 2026.",
+    "frame_summary": "WHO argues that a negotiated multilateral PABS system is the route to rapid pathogen sharing with fair benefit return, and presents the remaining disagreements as bridgeable rather than as evidence the multilateral route is failing.",
+    "signals_supported": [
+      "Pathogen access as bilateral leverage"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "WHO Member States have advanced negotiations on the Pathogen Access and Benefit Sharing (PABS) annex, a central component of the WHO Pandemic Agreement, while agreeing that continued discussions are needed to finalize a framework that supports a faster, more effective and equitable response to future pandemics.",
+    "verbatim_list": [
+      "The IGWG will hold its eighth meeting from 14-18 September 2026.",
+      "Discussions focused on several interrelated elements of the PABS system, including the contractual arrangements underpinning the framework, the structure of the laboratory networks responsible for the sharing and handling of pathogens with pandemic potential and their sequence information, and the definition of benefits arising from pathogen sharing."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "Health Policy Watch (Pandemics and Emergencies)",
+    "title": "Political Declaration on Pandemics is Modified Ahead of UN Meeting",
+    "url": "https://healthpolicy-watch.news/political-declaration-on-pandemics-is-modified-ahead-of-un-meeting/",
+    "publication_date": "2026-08-19",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-19T16:56:00+02:00",
+    "verified_at": "2026-09-11T08:24:58Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Political Declaration due for adoption at the UN High-Level Meeting on 25 September was modified after the July silence procedure, gaining a three-year review timeline while campaigners note the $15 billion a year they say is needed remains uncommitted.",
+    "frame_summary": "The piece argues the declaration is being negotiated down to what states will tolerate rather than up to what preparedness requires, and that the financing figure campaigners cite is nowhere near being met.",
+    "signals_supported": [
+      "Pathogen access as bilateral leverage",
+      "Global health financing retrenchment"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "A welcome addition is a timeline change, with progress on pandemic preparedness to be reviewed in three years instead of five.",
+    "verbatim_list": [
+      "The Friends reiterated that $15 billion a year is needed to pandemic-proof the world",
+      "Armenia and Rwanda, the co-facilitators of the declaration negotiations, put the \"final\" text of the declaration for the High-Level Meeting (HLM) on PPPR in September under the silence procedure on 28 July."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Council of the European Union",
+    "title": "Critical medicines act: Council and Parliament reach provisional deal",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/12/critical-medicines-act-council-and-parliament-reach-provisional-deal/",
+    "publication_date": "2026-05-12",
+    "date_source": "byline",
+    "date_evidence": "Council of the EU - Press release - 12 May 2026 06:02",
+    "verified_at": "2026-09-11T08:30:41Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The Council and Parliament reached a provisional deal on the Critical Medicines Act, adding resilience requirements to public procurement, cutting the joint-procurement threshold from nine member states to five, and extending scope to orphan medicines, with formal adoption still pending.",
+    "frame_summary": "The Council argues that procurement rules and EU-based manufacturing incentives are the practical route to reducing dependency and ending shortages of antibiotics, insulin and painkillers.",
+    "signals_supported": [
+      "EU Critical Medicines Act"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The provisional agreement will now have to be endorsed by the Council and the Parliament. It will then formally be adopted by both institutions following legal-linguistic revision.",
+    "verbatim_list": [
+      "Orphan medicinal products are used to treat life-threatening or very serious conditions that affect no more than 5 in 10,000 people in the EU."
+    ],
+    "notes": "Bot-blocked (HTTP 403) to static fetchers; quote hand-verified on the live page 2026-09-03 and carried forward in audit_overrides.json."
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 2,
+    "publisher": "KFF (Medicare)",
+    "title": "What to Know About the BALANCE Model for GLP-1s in Medicare and Medicaid and the Medicare GLP-1 Bridge",
+    "url": "https://www.kff.org/medicare/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/",
+    "publication_date": "2026-05-11",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-05-11T18:12:09+00:00",
+    "verified_at": "2026-09-11T08:36:22Z",
+    "date_age_band": "3-6m",
+    "key_claim": "CMS delayed the BALANCE Model indefinitely after Part D sponsor uptake fell short of an 80% participation threshold, extending the Medicare GLP-1 Bridge instead at a $245 net monthly price through the end of 2027.",
+    "frame_summary": "KFF argues that GLP-1 access rests on fragile temporary demonstration authority rather than statutory entitlement, leaving beneficiaries facing a coverage cliff and payers unwilling to absorb unquantified cost risk.",
+    "signals_supported": [
+      "Medicare GLP-1 access expansion"
+    ],
+    "cluster": "Delivery now, durability later",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Manufacturers have agreed to provide eligible GLP-1s under the Bridge program at a net price of $245 per month supply.",
+    "verbatim_list": [
+      "CMS was aiming for a \"critical mass\" of Part D sponsors to participate and established a threshold participation rate of 80% for 2027."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "BioPharma Dive",
+    "title": "How well are AI-discovered drugs faring in the clinic?",
+    "url": "https://www.biopharmadive.com/news/ai-drug-discovery-insilico-recursion-verge/825367/",
+    "publication_date": "2026-07-17",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-07-17",
+    "verified_at": "2026-09-11T08:41:55Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Few AI-discovered drugs have reached late-stage trials, with Insilico's rentosertib now in a 52-week phase 3 in China and Recursion posting a polyp-burden reduction, set against failures such as Verge Genomics' ALS candidate.",
+    "frame_summary": "The piece argues that AI's apparent early-phase advantage remains unproven where it matters, and that the technology's real test is whether a small number of closely watched assets survive mid-stage and late-stage efficacy trials.",
+    "signals_supported": [
+      "AI-designed drug discovery"
+    ],
+    "cluster": "Delivery now, durability later",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Insilico also has its own candidates in the works as part of an expansive pipeline that includes over 40 programs in a wide swath of indications.",
+    "verbatim_list": [
+      "Most patients in the trial continued to show reductions even after they were off the medication for 12 weeks - a promising sign for a condition with no existing treatment options."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Department of Health and Social Care (Social care blog)",
+    "title": "Two Big Milestones for Millions of Care Workers in England",
+    "url": "https://socialcare.blog.gov.uk/2026/07/22/two-big-milestones-for-millions-of-care-workers-in-england/",
+    "publication_date": "2026-07-22",
+    "date_source": "byline",
+    "date_evidence": "Posted by: Rose Thomas Willis, Posted on: 22 July 2026 - Categories: Carers, Workforce",
+    "verified_at": "2026-09-11T08:47:11Z",
+    "date_age_band": "0-3m",
+    "key_claim": "DHSC finalised the Fair Pay Agreement process, will stand up an Adult Social Care Negotiating Body by the end of 2026, and added ten role categories to the Care Workforce Pathway, with the first agreement backed by GBP 500 million in 2028-29.",
+    "frame_summary": "DHSC argues these are landmark reforms that will end decades of low pay in adult social care and build the foundations of a National Care Service.",
+    "signals_supported": [
+      "UK social care workforce reform"
+    ],
+    "cluster": "Delivery now, durability later",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The Fair Pay Agreement is a landmark reform that will turn the page on decades of low pay and insecurity for the 1.5 million people working in the sector.",
+    "verbatim_list": [
+      "The first Fair Pay Agreement is backed by £500 million in 2028-29.",
+      "We are introducing a regular negotiation process led by a new Adult Social Care Negotiating Body that will be set up by the end of the year."
+    ]
+  }
+]

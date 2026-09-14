@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T10:10:39Z",
+  "generated": "2026-09-14T14:21:51Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -254,7 +254,7 @@
           "date": "2026-09-14",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "Exclusive, Not Shared: The AI Act's Simplification Package Moved Frontier Enforcement to Brussels",
+          "title": "The AI Act's Simplification Package Moved Frontier Enforcement to Brussels",
           "summary": "The AI Act's simplification package moved frontier enforcement to Brussels. Regulation (EU) 2026/1744 gives the Commission's AI Office exclusive competence over systems built on general-purpose...",
           "posture": "Prepare"
         },

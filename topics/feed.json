@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15T14:30:06Z",
+  "generated": "2026-09-15T15:13:30Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-09-15",
         "tracker": "2026-08-27",
         "di": "2026-09-17",
-        "cc": "2026-07-17"
+        "cc": "2026-09-18"
       },
       "history": [
+        {
+          "date": "2026-09-18",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Scarcity now has a price. Settle who pays it.",
+          "summary": "Over this cycle, the scarcity everyone had been describing acquired two things it lacked in July: a price, and a contest over who pays it.",
+          "posture": ""
+        },
         {
           "date": "2026-09-17",
           "kind": "brief",

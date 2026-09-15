@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15T13:49:30Z",
+  "generated": "2026-09-15T13:57:47Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -13,10 +13,18 @@
       "latest_dates": {
         "scan": "2026-09-15",
         "tracker": "2026-08-27",
-        "di": "2026-07-16",
+        "di": "2026-09-17",
         "cc": "2026-07-17"
       },
       "history": [
+        {
+          "date": "2026-09-17",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Paying More Did Not Bring More Power",
+          "summary": "The defining fact of this cycle is that the electricity system reached the top of its price signal and got almost nothing back.",
+          "posture": ""
+        },
         {
           "date": "2026-09-15",
           "kind": "scan",

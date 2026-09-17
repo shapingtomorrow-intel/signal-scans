@@ -1,0 +1,572 @@
+[
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Vote Result: Cloture on the Motion to Proceed Rejected",
+      "Required For Majority: 3/5",
+      "YEAs 49 NAYs 50 Not Voting 1"
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "United States Senate",
+    "title": "Roll Call Vote 119th Congress - 2nd Session, vote number 234: cloture on the motion to proceed to H.R. 3633 (Digital Asset Market Clarity Act)",
+    "bib_title": "Roll Call Vote 119th Congress, 2nd Session, vote 234: cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm",
+    "publication_date": "2026-09-15",
+    "date_source": "byline",
+    "date_evidence": "Vote Date: September 15, 2026, 02:19 PM",
+    "verified_at": "2026-09-17T00:31:07Z",
+    "date_age_band": "0-3m",
+    "key_claim": "On 15 September 2026 the Senate rejected cloture on the motion to proceed to H.R. 3633, the Digital Asset Market Clarity Act, by 49 yeas to 50 nays with one senator not voting, against a three-fifths requirement.",
+    "frame_summary": "An official roll-call record, presenting the outcome as a procedural rejection of the motion to proceed rather than a verdict on the bill's substance.",
+    "signals_supported": [
+      "US crypto market-structure bill stalls"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "Vote Result: Cloture on the Motion to Proceed Rejected"
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Comments on the NPRM must be received on or before October 19, 2026.",
+      "The Department of the Treasury (Treasury) proposes to issue regulations to implement section 3 of the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act regarding the statutory prohibitions and limitations on payment stablecoin issuance, offer, and sale in the United States."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "Federal Register",
+    "title": "GENIUS Act Regulations on Payment Stablecoin Issuance, Offer, and Sale (Department of the Treasury notice of proposed rulemaking)",
+    "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16796/genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale",
+    "publication_date": "2026-08-18",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-18",
+    "verified_at": "2026-09-17T00:06:42Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Treasury proposed regulations implementing section 3 of the GENIUS Act on who may issue, offer and sell payment stablecoins in the United States, with comments due by 19 October 2026.",
+    "frame_summary": "Treasury frames section 3 as the architecture of the US stablecoin market, with extraterritorial reach over any offer or sale to a person in the United States, and treats the safe harbours it may grant as narrow and de minimis.",
+    "signals_supported": [
+      "US stablecoin rulemaking machinery"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "Comments on the NPRM must be received on or before October 19, 2026."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Payment stablecoins could be included in either M1 or non-M1 M2 depending on their use cases.",
+      "Institutional customers are using tokenized deposits as they would a checking account.",
+      "Few payment stablecoins are currently in operation, making the assessment of their functional use difficult.",
+      "This note is independent research, reflecting only the views of the authors, and is not part of any policy deliberation on how to define the U.S. monetary aggregates."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "Federal Reserve Board",
+    "title": "New Forms of Money and the U.S. Monetary Aggregates (FEDS Notes)",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/new-forms-of-money-and-the-u-s-monetary-aggregates-20260904.html",
+    "publication_date": "2026-09-04",
+    "date_source": "byline",
+    "date_evidence": "September 04, 2026\n\n### New Forms of Money and the U.S. Monetary Aggregates",
+    "verified_at": "2026-09-17T00:09:18Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Federal Reserve Board staff set out how tokenised deposits, tokenised money funds and payment stablecoins could be brought into the monetary aggregates: tokenised deposits already sit in M1 or M2, tokenised money funds in M2, and payment stablecoins could land in either depending on use.",
+    "frame_summary": "The note argues that the new digital instruments meet the definition of money and that measurement, not legal status, is the open question, with payment stablecoins' placement turning on whether they become a medium of exchange rather than a trading balance.",
+    "signals_supported": [
+      "Bank tokenised deposits reach corporate clients",
+      "US stablecoin rulemaking machinery"
+    ],
+    "cluster": "Central bank money goes on-chain and bank tokens crowd stablecoins",
+    "verbatim_quote": "Payment stablecoins could be included in either M1 or non-M1 M2 depending on their use cases."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "If tokenised commercial bank deposits can be programmed, settle in central bank money and interoperate seamlessly with tokenised assets, they provide the key functionalities that stablecoins are intended to offer.",
+      "Here I will suggest that central banks should embrace DLT and go on-chain themselves.",
+      "But a stablecoin issuer has no independent capacity to meet the second criterion: the ability to expand liquidity elastically, especially during periods of stress when funding markets experience strains and confidence shifts abruptly."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "European Central Bank",
+    "title": "Central banks on-chain (speech by Isabel Schnabel at the Jackson Hole Economic Policy Symposium)",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
+    "publication_date": "2026-08-28",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-28",
+    "verified_at": "2026-09-17T00:14:55Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Schnabel argues that stablecoin issuers cannot expand liquidity elastically in stress and so cannot serve as the ultimate settlement asset, that central banks should put their own money on-chain, and that programmable tokenised deposits settling in central bank money deliver what stablecoins promise.",
+    "frame_summary": "The speech argues that tokenisation pays off only if central bank money itself becomes a native programmable asset, and that on a unified ledger tokenised bank deposits make private stablecoins largely redundant for domestic payments.",
+    "signals_supported": [
+      "Eurosystem DLT settlement goes live",
+      "Bank tokenised deposits reach corporate clients"
+    ],
+    "cluster": "Central bank money goes on-chain and bank tokens crowd stablecoins",
+    "verbatim_quote": "If tokenised commercial bank deposits can be programmed, settle in central bank money and interoperate seamlessly with tokenised assets, they provide the key functionalities that stablecoins are intended to offer."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Ab Mitte 2028 wollen wir einen Rund-um-die-Uhr-Betrieb sowie erweiterte Programmierbarkeit, Resilienz auf dem neuesten Stand der Technik und die Fähigkeit zur Abwicklung in mehreren Währungen anbieten.",
+      "In diesem Jahr wollen wir den Worten Taten folgen lassen und Pontes in Betrieb nehmen.",
+      "Pontes ist von zentraler Bedeutung, denn Vertrauen in ein Settlement Asset lässt sich nicht durch Technologie schaffen.",
+      "Die Bereitstellung von Zentralbankgeld ist eine notwendige, aber keine hinreichende Voraussetzung für die Ausweitung und Integration des digitalen Finanzwesens in Europa."
+    ],
+    "original_language": "de",
+    "tier": 1,
+    "publisher": "European Central Bank",
+    "title": "Von der Vision zur Umsetzung: Aufbau eines tokenisierten Finanzmarkts in Europa (Rede von Piero Cipollone auf dem Zahlungsverkehrssymposium der Deutschen Bundesbank)",
+    "bib_title": "Von der Vision zur Umsetzung: Aufbau eines tokenisierten Finanzmarkts in Europa (speech by Piero Cipollone at the Deutsche Bundesbank payments symposium; German)",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260826~3641116314.de.html",
+    "publication_date": "2026-08-26",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-26",
+    "verified_at": "2026-09-17T00:35:12Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Cipollone confirms that Pontes goes live in 2026, that the Eurosystem intends to offer round-the-clock operation, wider programmability and multi-currency settlement from mid-2028, and that Pontes and Appia are two parts of one strategy.",
+    "frame_summary": "The speech frames central bank money on-chain as necessary but not sufficient: trust in a settlement asset cannot be created by technology, and Europe's tokenised market will fragment into technological islands unless law and market structure are harmonised alongside it.",
+    "signals_supported": [
+      "Eurosystem DLT settlement goes live"
+    ],
+    "cluster": "Central bank money goes on-chain and bank tokens crowd stablecoins",
+    "verbatim_quote": "Ab Mitte 2028 wollen wir einen Rund-um-die-Uhr-Betrieb sowie erweiterte Programmierbarkeit, Resilienz auf dem neuesten Stand der Technik und die Fähigkeit zur Abwicklung in mehreren Währungen anbieten."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "The Bank expects a typical transition period to be in the range of 12 to 36 months.",
+      "The Bank intends to finalise its CoP by the end of the year.",
+      "Where stablecoins are widely used in payments and may pose risks to UK financial stability, their issuance will be subject to joint regulation by the Bank of England (the Bank) and the FCA, once recognised as systemic by HM Treasury (HMT)."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "Bank of England",
+    "title": "Bank of England and Financial Conduct Authority's approach to joint regulation of systemic stablecoin issuers",
+    "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
+    "publication_date": "2026-06-30",
+    "date_source": "byline",
+    "date_evidence": "Published on\n 30 June 2026",
+    "verified_at": "2026-09-17T00:19:36Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Bank and the FCA set out how an FCA-regulated stablecoin issuer moves to joint regulation once HM Treasury recognises it as systemic, with a typical transition of 12 to 36 months and the Bank's Code of Practice to be finalised by the end of 2026.",
+    "frame_summary": "The paper argues for a proportionate, case-by-case recognition process and targeted rather than full alignment between the two rulebooks, on the grounds that systemic issuers warrant stricter treatment than the FCA's baseline.",
+    "signals_supported": [
+      "UK systemic stablecoin regime"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "The Bank expects a typical transition period to be in the range of 12 to 36 months."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Vulnerabilities in risky asset valuations, sovereign debt markets, and risky credit markets, including in private credit, previously highlighted by the FPC remain, and some have become more pronounced since the December 2025 Financial Stability Report.",
+      "Furthermore, a subset of US private credit funds, mainly non-traded BDCs, have faced liquidity pressures arising from elevated redemption requests.",
+      "The OECD estimated that the share of private credit financing AI investment increased from 9% in 2024 to 34% in 2025."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "Bank of England",
+    "title": "Financial Stability Report - July 2026",
+    "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
+    "publication_date": "2026-07-07",
+    "date_source": "byline",
+    "date_evidence": "Published on 07 July 2026 Downloads Press conference",
+    "verified_at": "2026-09-17T00:21:03Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Financial Policy Committee reports that vulnerabilities in risky credit markets, including private credit, have become more pronounced since December 2025, and that a subset of US private credit funds, mainly non-traded BDCs, faced liquidity pressure from elevated redemption requests.",
+    "frame_summary": "The FPC frames private credit as a contagion channel into wider risky-credit conditions through refinancing stress and sentiment rather than as a direct threat to UK banks, and singles out AI-related borrowing as the new concentration inside it.",
+    "signals_supported": [
+      "Private credit redemption gates"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Vulnerabilities in risky asset valuations, sovereign debt markets, and risky credit markets, including in private credit, previously highlighted by the FPC remain, and some have become more pronounced since the December 2025 Financial Stability Report."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Private credit at its current size and scope has not been tested during a severe economic downturn, which could expose leverage and borrower credit quality vulnerabilities.",
+      "The private credit market has grown significantly across jurisdictions, with its total size estimated to be between $1.5 trillion and $2 trillion."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "Financial Stability Board",
+    "title": "Report on Vulnerabilities in Private Credit",
+    "url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
+    "publication_date": "2026-05-06",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-05-06T06:00:10+00:00",
+    "verified_at": "2026-09-17T00:22:47Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The FSB puts the private credit market at between $1.5 trillion and $2 trillion and warns that at its current size and scope it has not been tested in a severe economic downturn.",
+    "frame_summary": "The FSB frames private credit as beneficial but opaque, leveraged and increasingly interconnected with banks, insurers and private equity, with data gaps that hide vulnerabilities until stress exposes them.",
+    "signals_supported": [
+      "Private credit redemption gates"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Private credit at its current size and scope has not been tested during a severe economic downturn, which could expose leverage and borrower credit quality vulnerabilities."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "The proposed mechanism aims to reduce Europe’s significant protection gap, which in the past left around 75% of economic losses from natural catastrophes uninsured, and to strengthen the continent’s resilience against increasingly frequent and severe natural disasters like floods, droughts, storms and wildfires.",
+      "Designed to be fiscally neutral, it would allow the insurance industry to absorb the costs over time without using taxpayers’ money."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "European Insurance and Occupational Pensions Authority",
+    "title": "EIOPA and ESM staff propose mechanism to better manage fallout from outsized natural catastrophes",
+    "url": "https://www.eiopa.europa.eu/eiopa-and-esm-staff-propose-mechanism-better-manage-fallout-outsized-natural-catastrophes-2026-04-09_en",
+    "publication_date": "2026-04-09",
+    "date_source": "byline",
+    "date_evidence": "Publication date\n9 April 2026",
+    "verified_at": "2026-09-17T00:24:29Z",
+    "date_age_band": "3-6m",
+    "key_claim": "EIOPA and ESM staff propose a Europe-wide natural catastrophe insurance pool financed by risk-based premiums plus a loan-based public backstop for tail events, to narrow a gap that left around 75% of European natural catastrophe losses uninsured.",
+    "frame_summary": "The proposal argues that private reinsurance and national schemes cannot absorb the large-scale disasters a warmer climate makes more likely, so a fiscally neutral European pooling and lending layer is needed to keep cover available and affordable without taxpayer money.",
+    "signals_supported": [
+      "Climate cover retreat forces EU risk pooling"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "The proposed mechanism aims to reduce Europe’s significant protection gap, which in the past left around 75% of economic losses from natural catastrophes uninsured, and to strengthen the continent’s resilience against increasingly frequent and severe natural disasters like floods, droughts, storms and wildfires."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "In high-risk areas, insurance may even become unavailable as insurers withdraw coverage or introduce exclusions as risks escalate.",
+      "According to EIOPA’s 2025 Eurobarometer, only 17% of respondents hold coverage for property damage caused by natural catastrophes.",
+      "Uninsurability will become a tangible problem for certain regions and perils unless we make rapid progress on risk-pooling and mitigation."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "European Insurance and Occupational Pensions Authority",
+    "title": "Insurance protection gaps in a changing climate (speech by Petra Hielkema)",
+    "url": "https://www.eiopa.europa.eu/insurance-protection-gaps-changing-climate-2026-04-16_en",
+    "publication_date": "2026-04-16",
+    "date_source": "byline",
+    "date_evidence": "Publication date\n16 April 2026",
+    "verified_at": "2026-09-17T00:25:51Z",
+    "date_age_band": "3-6m",
+    "key_claim": "EIOPA's chair says only 17% of respondents to its 2025 Eurobarometer hold cover for natural catastrophe property damage and warns that in high-risk areas insurers may withdraw cover or add exclusions as risks escalate.",
+    "frame_summary": "Hielkema argues the protection gap is a societal and fiscal resilience problem that purely risk-based pricing will worsen, so the answer lies in disclosure, underwriting that rewards adaptation, and EU-level pooling rather than in leaving retreat to the market.",
+    "signals_supported": [
+      "Climate cover retreat forces EU risk pooling"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "In high-risk areas, insurance may even become unavailable as insurers withdraw coverage or introduce exclusions as risks escalate."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Our estimates indicate that a 1% exogenous increase in net stablecoin inflows raises parity deviations by 40 basis points, depreciates the local currency, and widens the dollar premium in synthetic funding markets (covered interest parity (CIP) deviations).",
+      "Using data on four USD-pegged stablecoins and 27 fiat currencies, this paper documents spillovers from stablecoin-based foreign exchange (FX) to traditional FX markets."
+    ],
+    "original_language": "en",
+    "tier": 1,
+    "publisher": "International Monetary Fund",
+    "title": "Stablecoin Inflows and Spillovers to FX Markets (IMF Working Paper No. 2026/056)",
+    "url": "https://www.imf.org/en/publications/wp/issues/2026/03/27/stablecoin-inflows-and-spillovers-to-fx-markets-575046",
+    "publication_date": "2026-03-27",
+    "date_source": "meta:date",
+    "date_evidence": "meta-Date: 2026-03-27",
+    "verified_at": "2026-09-17T00:27:14Z",
+    "date_age_band": "3-6m",
+    "key_claim": "Across four dollar stablecoins and 27 fiat currencies, a 1% exogenous rise in net stablecoin inflows raises parity deviations by 40 basis points, depreciates the local currency and widens the dollar premium in synthetic funding markets.",
+    "frame_summary": "The paper argues that stablecoin foreign exchange has become a distinct, frictionally segmented segment of global currency markets whose flows transmit causally into traditional FX and dollar funding, and therefore into financial stability.",
+    "signals_supported": [
+      "Digital dollarisation in emerging markets"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Our estimates indicate that a 1% exogenous increase in net stablecoin inflows raises parity deviations by 40 basis points, depreciates the local currency, and widens the dollar premium in synthetic funding markets (covered interest parity (CIP) deviations)."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "faithful_summary",
+    "verbatim_list": [
+      "Comptroller Gould also said that the OCC will begin processing at the beginning of 2027 applications from national banks, savings associations, federal branches and nonbank entities seeking to issue payment stablecoins.",
+      "Those banks without a tokenized deposit strategy risk being left behind as the world is quickly moving to one where customers (and their agents) demand (expect) their deposits to be tokenized.",
+      "The result is a potential competitive asymmetry: Early movers secured federal charters under bespoke, lighter-touch conditions, while later applicants will face a fully articulated prudential regime."
+    ],
+    "original_language": "en",
+    "tier": 2,
+    "publisher": "Paul Hastings",
+    "title": "Bank On It: September 2026 Update",
+    "url": "https://www.paulhastings.com/insights/client-alerts/bank-on-it-september-2026-update",
+    "publication_date": "2026-09-10",
+    "date_source": "byline",
+    "date_evidence": "# Bank On It: September 2026 Update\n\nSeptember 10, 2026",
+    "verified_at": "2026-09-17T00:17:40Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Paul Hastings reports that the OCC's GENIUS Act rules will be finalised by November with issuer applications processed from the beginning of 2027, and that banks without a tokenised deposit strategy risk being left behind.",
+    "frame_summary": "The newsletter argues that regulatory clarity is arriving unevenly, creating a competitive asymmetry between early-mover charters and later applicants, and that tokenised deposits are becoming a default client expectation rather than an option.",
+    "signals_supported": [
+      "US stablecoin rulemaking machinery",
+      "Bank tokenised deposits reach corporate clients"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "Comptroller Gould also said that the OCC will begin processing at the beginning of 2027 applications from national banks, savings associations, federal branches and nonbank entities seeking to issue payment stablecoins."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "A companion study modelling bank responses in detail found that real concerns would only emerge above a limit of €5,000.",
+      "Trilogue negotiations opened in Brussels on 13 July, with the Irish presidency targeting political agreement before year end.",
+      "Even under an extreme, historically unprecedented bank run scenario, only nine of roughly 2,000 banks assessed would risk breaching their liquidity buffers, and the ECB states none would be a significant institution."
+    ],
+    "original_language": "en",
+    "tier": 2,
+    "publisher": "OMFIF",
+    "title": "Whose interest does the digital euro's holding limit really serve?",
+    "url": "https://www.omfif.org/2026/09/whose-interest-does-the-digital-euros-holding-limit-really-serve/",
+    "publication_date": "2026-09-15",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-15T14:25:34+00:00",
+    "verified_at": "2026-09-17T00:29:33Z",
+    "date_age_band": "0-3m",
+    "key_claim": "With digital euro trilogues under way since 13 July and the Irish presidency targeting agreement by year end, the ECB's own modelling finds real bank-liquidity concerns only above a holding limit of 5,000 euros, while businesses face a zero limit.",
+    "frame_summary": "The author argues the holding-limit debate has been miscast as run prevention when the ECB's own numbers show the limit chiefly protects a calculable bank interest margin, and that the choice of limit is a distributional decision dressed as a stability one.",
+    "signals_supported": [
+      "Retail digital euro"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "A companion study modelling bank responses in detail found that real concerns would only emerge above a limit of €5,000."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "faithful_summary",
+    "verbatim_list": [
+      "Earlier redeeming investors get cashed out at net asset value, creating an incentive to redeem before others if they think that the true value of a fund's portfolio is lower than its reported value, perhaps because a fund manager has not updated the valuation records appropriately.",
+      "To manage liquidity pressure, certain funds have used redemption restrictions to reduce outflows.",
+      "Investors in non-traded private credit funds (such as the funds in Table 1) typically have redemption restrictions at around 5% of the fund's net asset value per quarter."
+    ],
+    "original_language": "en",
+    "tier": 2,
+    "publisher": "EveryCRSReport",
+    "title": "Private Credit Funds Redemption Restrictions: Market Context and Policy Issues (Congressional Research Service Insight IN12674)",
+    "url": "https://www.everycrsreport.com/reports/IN12674.html",
+    "publication_date": "2026-04-02",
+    "date_source": "byline",
+    "date_evidence": "Updated April 2, 2026\n (IN12674)",
+    "verified_at": "2026-09-17T00:23:58Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The Congressional Research Service records that non-traded private credit funds typically cap redemptions at about 5% of net asset value per quarter and that in early 2026 several large funds received requests far above their caps and used the restrictions to slow outflows.",
+    "frame_summary": "CRS frames the gating wave as a liquidity-mismatch and valuation-transparency problem in a market that is small against US capital markets but linked to banks and insurers, and argues policy should aim at monitoring and accurate pricing rather than at eliminating the risk.",
+    "signals_supported": [
+      "Private credit redemption gates"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Earlier redeeming investors get cashed out at net asset value, creating an incentive to redeem before others if they think that the true value of a fund's portfolio is lower than its reported value, perhaps because a fund manager has not updated the valuation records appropriately."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "The Digital Asset Market Clarity Act failed to survive the politics of the U.S. Senate on Tuesday as a 49-50 vote meant to start the bill toward passage fell far short in rounding up the 60 supporters required to advance.",
+      "The setback for the crypto industry's top policy goal potentially sends the process back to the drawing board unless some long-odds maneuvers develop in the final weeks of the congressional session after November's midterm elections."
+    ],
+    "original_language": "en",
+    "tier": 3,
+    "publisher": "CoinDesk",
+    "title": "Crypto's biggest Senate push falls flat as the Clarity Act fails to clear a crucial procedural vote",
+    "url": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote",
+    "publication_date": "2026-09-15",
+    "date_source": "meta:pubdate",
+    "date_evidence": "meta-parsely-pub-date: 2026-09-15T18:50:58.579Z ; meta-publish_date: 20260915",
+    "verified_at": "2026-09-17T00:12:21Z",
+    "date_age_band": "0-3m",
+    "key_claim": "The Clarity Act failed a Senate cloture vote 49-50 on 15 September 2026, short of the 60 needed, leaving the market-structure bill with only long-odds routes back before the current Congress ends.",
+    "frame_summary": "CoinDesk argues the loss returns crypto market structure to SEC and CFTC rulemaking that a later administration can undo, and that the window narrows further if Democrats take either chamber in November.",
+    "signals_supported": [
+      "US crypto market-structure bill stalls"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "The Digital Asset Market Clarity Act failed to survive the politics of the U.S. Senate on Tuesday as a 49-50 vote meant to start the bill toward passage fell far short in rounding up the 60 supporters required to advance."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "\"So we are very intent on moving quickly and getting a final rule out by November so that we will be able to start processing applications within the new year,\" Gould said.",
+      "Agencies often take longer to implement new rules, but Gould said on Wednesday that the agency will have the rule out before the GENIUS Act's January 2027 effective date."
+    ],
+    "original_language": "en",
+    "tier": 3,
+    "publisher": "The Block",
+    "title": "OCC races to finalize GENIUS Act stablecoin rules by November",
+    "url": "https://www.theblock.co/news/regulation/2026-08-19-occ-races-to-finalize-genius-act-stablecoin-rules-by-november-412240",
+    "publication_date": "2026-08-19",
+    "date_source": "byline",
+    "date_evidence": "Regulation•August 19, 2026, 1:03PM EDT",
+    "verified_at": "2026-09-17T00:15:49Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Comptroller Jonathan Gould said on 19 August 2026 that the OCC intends to issue its final GENIUS Act rule by November so that it can start processing issuer applications in the new year, ahead of the Act's January 2027 effective date.",
+    "frame_summary": "The Block frames the OCC as decoupling GENIUS implementation from the faltering Clarity Act and executing on the law it already has after regulators missed the July statutory deadline.",
+    "signals_supported": [
+      "US stablecoin rulemaking machinery"
+    ],
+    "cluster": "Rulebooks arrive by deadline and supervisor, not by statute",
+    "verbatim_quote": "\"So we are very intent on moving quickly and getting a final rule out by November so that we will be able to start processing applications within the new year,\" Gould said."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Tether's USDT, the largest stablecoin, has seen its market capitalization fall to roughly $184 billion from $190 billion in May, a decline of about $6 billion.",
+      "The market shrank by $7.7 billion in June alone, the largest dollar amount since May 2022's Terra-Luna crash, but stablecoins will likely resume their long-term growth, one analyst said.",
+      "Circle's USDC has dropped to around $73 billion from its March 2026 peak of just shy of $80 billion, shedding another $7 billion."
+    ],
+    "original_language": "en",
+    "tier": 3,
+    "publisher": "CoinDesk",
+    "title": "Stablecoins see biggest drop since 2022 crypto winter led by Tether (USDT), Circle's USDC decline",
+    "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
+    "publication_date": "2026-07-12",
+    "date_source": "meta:pubdate",
+    "date_evidence": "meta-parsely-pub-date: 2026-07-12T13:00:00.000Z",
+    "verified_at": "2026-09-17T00:26:37Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Stablecoin market capitalisation fell about $10 billion from its May 2026 peak, including $7.7 billion in June alone, the largest monthly dollar decline since May 2022, with USDT down to roughly $184 billion from $190 billion.",
+    "frame_summary": "The article argues the contraction is a modest, probably temporary pullback within a growth market and partly a sign of a more competitive issuer field after the GENIUS Act, not a repeat of the 2022 collapse.",
+    "signals_supported": [
+      "Stablecoin supply contraction"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Tether's USDT, the largest stablecoin, has seen its market capitalization fall to roughly $184 billion from $190 billion in May, a decline of about $6 billion."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Repurchase requests came in at 12.4% of NAV for the quarter, up from 10.4% in Q1 2026 and the highest level Stanger has recorded.",
+      "Sponsors fulfilled 38% of those requests, returning $5.9 billion to investors during the quarter and $12.7 billion for the year to date through June 30.",
+      "Redemptions exceeded new capital by nearly three times during Q2 2026, producing net outflows of approximately $3.8 billion and marking the sector’s second consecutive quarter of net outflows."
+    ],
+    "original_language": "en",
+    "tier": 3,
+    "publisher": "AltsWire",
+    "title": "Nontraded BDC Fundraising Falls to Lowest Quarterly Level Since 2020",
+    "url": "https://altswire.com/nontraded-bdc-fundraising-falls-to-lowest-quarterly-level-since-2020/",
+    "publication_date": "2026-08-10",
+    "date_source": "byline",
+    "date_evidence": "August 10, 2026 (byline) ; meta-article:published_time: 2026-08-11T00:00:49+00:00",
+    "verified_at": "2026-09-17T00:28:05Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Robert A. Stanger data show non-traded BDC repurchase requests reached 12.4% of net asset value in the second quarter of 2026, up from 10.4% in the first, the highest Stanger has recorded, with sponsors fulfilling 38% of requests and returning $5.9 billion.",
+    "frame_summary": "Stanger, via AltsWire, frames the episode as the demanding stage of a liquidity cycle in which proration is working as designed and investors are rationally rotating out of flat-returning credit, with early third-quarter data hinting at moderation.",
+    "signals_supported": [
+      "Private credit redemption gates"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Repurchase requests came in at 12.4% of NAV for the quarter, up from 10.4% in Q1 2026 and the highest level Stanger has recorded."
+  },
+  {
+    "topic": "Financial Services and the Future of Money",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "claim_strength": "verbatim",
+    "verbatim_list": [
+      "Recent performance suggests redemption limits are functioning as intended, while underlying credit performance has remained relatively resilient despite concerns about broader deterioration.",
+      "Continued institutional fundraising suggests elevated redemption activity has not translated into a broad retreat from private credit, supporting KBRA’s view that recent pressure has reflected sentiment and liquidity preferences more than widespread credit deterioration."
+    ],
+    "original_language": "en",
+    "tier": 4,
+    "publisher": "FinancialContent",
+    "title": "KBRA Releases Research: Private Credit: Why Gates Are Good for Investors (Business Wire release)",
+    "url": "https://www.financialcontent.com/article/bizwire-2026-9-16-kbra-releases-research-private-credit-why-gates-are-good-for-investors",
+    "publication_date": "2026-09-16",
+    "date_source": "byline",
+    "date_evidence": "Published at September 16th 2026, 10:13 AM EDT via Business Wire",
+    "verified_at": "2026-09-17T00:30:19Z",
+    "date_age_band": "0-3m",
+    "key_claim": "KBRA, which rates 16 perpetual non-traded BDCs out of 35 rated BDCs, says redemption limits have functioned as intended, are generally credit positive for rated debt, and that redemption pressure reflects sentiment and liquidity preference more than credit deterioration.",
+    "frame_summary": "KBRA argues gates are a deliberate protection that aligns investor liquidity with asset liquidity and prevents fire sales, so the 2026 gating episode is a design working rather than a market failing.",
+    "signals_supported": [
+      "Private credit redemption gates"
+    ],
+    "cluster": "Non-bank liquidity promises meet a live test",
+    "verbatim_quote": "Recent performance suggests redemption limits are functioning as intended, while underlying credit performance has remained relatively resilient despite concerns about broader deterioration."
+  }
+]

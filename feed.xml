@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 18 Sep 2026 08:37:16 +0000</lastBuildDate>
+<lastBuildDate>Sat, 19 Sep 2026 08:30:09 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>SEC Staff Put AI Data-Centre Bonds Outside the Asset-Backed Securities Regime</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-19-outside-the-abs-regime/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-19-outside-the-abs-regime/scan.html</guid>
+<pubDate>Sat, 19 Sep 2026 08:00:00 +0000</pubDate>
+<category>AI &amp; Automation</category>
+<description>US regulators have placed data-centre securitisations outside the asset-backed securities regime. The SEC staff letter of 29 July 2026 lifts Regulation AB disclosure and the 5% retention rule off a market that grew from $4 billion outstanding in 2020 to $61 billion in 2026, and whose paper carries a five-year repayment expectation against a 25-30 year final maturity.</description>
+</item>
+<item>
+<title>Britain's Guaranteed-Hours Duty Makes the Rota, Not the Contract, the Source of Entitlement</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-19-rota-not-the-contract/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-19-rota-not-the-contract/scan.html</guid>
+<pubDate>Sat, 19 Sep 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>Britain's guaranteed-hours duty is a recurring calculation run off the rota, not a one-off conversion of contracts. Government analysis moves its scope from 3.3 million employee jobs at an 8-hour threshold to 28.6 million at 48, and the options assessment tells employers to rebuild payroll and rostering systems.</description>
+</item>
 <item>
 <title>Guarding Europe's New Arms Plants Has Been Left to the Firms That Own Them</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-16-who-guards-the-plant/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sun, 16 Aug 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
 <description>The consideration in the bilateral deals replacing US health aid is the national health dataset, not only the money. Data and specimen commitments run years longer than the funding, and Ghana, South Africa, Zambia and Zimbabwe have refused those terms while the WHO benefit-sharing annex is still unwritten.</description>
-</item>
-<item>
-<title>The Memory Queue: AI Supply Contracts Now Decide What Else Gets Built</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-15-ai-memory-allocation-queue/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-08-15-ai-memory-allocation-queue/scan.html</guid>
-<pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
-<category>Artificial Intelligence &amp; Automation</category>
-<description>Memory, not compute, is where AI now takes capacity from the rest of the economy. Three suppliers have contracted years of DRAM output to AI customers, so phones, PCs, cars and security hardware are rationed by allocation rather than cleared by price.</description>
-</item>
-<item>
-<title>Attribution Under Test: What It Costs to Say the Layoff Was AI</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-15-contested-ai-attribution/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-08-15-contested-ai-attribution/scan.html</guid>
-<pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>Saying a layoff was caused by AI has become a claim that others can test. AI leads stated reasons for US job cuts while measured separations barely move, and the label now triggers union clauses, EU rulemaking and investor scrutiny.</description>
 </item>
 </channel>
 </rss>

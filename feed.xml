@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sat, 19 Sep 2026 08:30:09 +0000</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 08:30:08 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>States Withdraw the Enrolment Buffers and Set a Statutory Calendar for School Mergers</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-09-20-scheduled-not-decided/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-09-20-scheduled-not-decided/scan.html</guid>
+<pubDate>Sun, 20 Sep 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration &amp; Labour Markets</category>
+<description>School closure in the United States has become a scheduled statutory process rather than a local board decision. The funding devices that hid a decade of enrolment decline are being withdrawn at the same time, with Vermont's merger ballots fixed for Town Meeting Day 2028.</description>
+</item>
+<item>
+<title>Medicare Reprices the Hospital Outpatient Premium by Service Family, and From 2028 Site by Site</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-20-one-family-at-a-time/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-20-one-family-at-a-time/scan.html</guid>
+<pubDate>Sun, 20 Sep 2026 08:00:00 +0000</pubDate>
+<category>Health, Life Sciences &amp; Care Systems</category>
+<description>Medicare is withdrawing the hospital outpatient payment premium one service family at a time rather than in a single cut. From January 2028 every off-campus department bills under its own identifier behind a provider-based attestation, turning a blanket entitlement into a per-site, per-code permission.</description>
+</item>
 <item>
 <title>SEC Staff Put AI Data-Centre Bonds Outside the Asset-Backed Securities Regime</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-19-outside-the-abs-regime/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
 <description>US utilities are re-entering generation ownership through legal workarounds rather than repeal of restructuring laws. Storage argued not to be generation, majority-owned affiliates and rate-based nuclear are the routes, against a PJM auction that cleared at its cap and still fell short.</description>
-</item>
-<item>
-<title>Breakeven at Zero: The Denominator Now Moves More Than the Labour Market</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-16-breakeven-at-zero/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-08-16-breakeven-at-zero/scan.html</guid>
-<pubDate>Sun, 16 Aug 2026 08:00:00 +0000</pubDate>
-<category>Demographics, Migration &amp; Labour Markets</category>
-<description>The benchmark for reading the jobs number has fallen to about zero, so a weak payroll print no longer signals a weakening labour market. Migration reversal and ageing did that, while a January population-control revision and a UK accreditation step-down made the denominator the most volatile input in labour statistics.</description>
-</item>
-<item>
-<title>The Price of the Dataset: African Governments Are Turning Down Health Aid Over Data Terms</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-16-price-of-the-dataset/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-08-16-price-of-the-dataset/scan.html</guid>
-<pubDate>Sun, 16 Aug 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>The consideration in the bilateral deals replacing US health aid is the national health dataset, not only the money. Data and specimen commitments run years longer than the funding, and Ghana, South Africa, Zambia and Zimbabwe have refused those terms while the WHO benefit-sharing annex is still unwritten.</description>
 </item>
 </channel>
 </rss>

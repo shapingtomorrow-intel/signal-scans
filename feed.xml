@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sun, 20 Sep 2026 08:30:08 +0000</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 08:30:08 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Treasury Issuance and Dealer Balance Sheets Set the Price of Overnight Dollar Funding</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-09-21-issuance-not-reserves/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-09-21-issuance-not-reserves/scan.html</guid>
+<pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
+<category>Financial Services &amp; Future of Money</category>
+<description>The price of overnight dollar funding is set by Treasury issuance and dealer balance sheets, not by the level of reserves. Federal Reserve staff find $100 billion of net coupon issuance adds 3.9 basis points to the tri-party repo spread while daily changes in reserves plus ON RRP add nothing, and on 19 August the Treasury at least doubled long-end buybacks.</description>
+</item>
+<item>
+<title>US Bank Examiners Must Now Show Likely Material Harm Before Raising a Finding</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-09-21-likely-not-possible/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-09-21-likely-not-possible/scan.html</guid>
+<pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
+<category>Regulation, Standards &amp; Policy Change</category>
+<description>US bank examiners must now prove likely material financial harm before they can raise a finding. The OCC and FDIC final rule of 27 August binds from 2 November 2026, abolishes supervisory recommendations and matters requiring board attention, and the Federal Reserve did not join it.</description>
+</item>
 <item>
 <title>States Withdraw the Enrolment Buffers and Set a Statutory Calendar for School Mergers</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-09-20-scheduled-not-decided/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>The rulebook being simplified in 2026 is the one governing how the state buys, and it returns carrying more conditions. Origin, cybersecurity and sovereignty tests now bind suppliers that no sector regulator covers.</description>
-</item>
-<item>
-<title>The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-08-17-sulphuric-acid-allocation/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-08-17-sulphuric-acid-allocation/scan.html</guid>
-<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
-<category>Climate, Nature &amp; Food Systems</category>
-<description>Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid cost shares are outbidding phosphate producers, so fertiliser curtails first.</description>
-</item>
-<item>
-<title>Back on the Balance Sheet: How Utilities Re-Enter Generation Without Changing the Law</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-17-utility-generation-workaround/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-17-utility-generation-workaround/scan.html</guid>
-<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>US utilities are re-entering generation ownership through legal workarounds rather than repeal of restructuring laws. Storage argued not to be generation, majority-owned affiliates and rate-based nuclear are the routes, against a PJM auction that cleared at its cap and still fell short.</description>
 </item>
 </channel>
 </rss>

@@ -171,6 +171,21 @@
   .claim-fidelity { font-size: 1em; }
   .claim-fidelity p { font-size: 0.92em; }
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  /* Scenario matrix on phones (22 September 2026): the two-column grid and absolutely
+     positioned corner labels overflowed a 390px viewport by about 30px. */
+  @media (max-width: 600px) {
+    .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
+    .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
+    .axis-name-v { font-size: 0.66em; }
+    .matrix-frame { padding: 26px 8px 22px; min-width: 0; }
+    .scenario-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+    .scenario-cell { padding: 10px; font-size: 0.84em; min-width: 0; overflow-wrap: anywhere; }
+    .corner-label { font-size: 0.6em; padding: 2px 5px; max-width: 44%; white-space: normal; line-height: 1.2; }
+    .corner-tl, .corner-bl { left: 8px; }
+    .corner-tr, .corner-br { right: 8px; text-align: right; }
+    .corner-tl, .corner-tr { top: -10px; }
+    .corner-bl, .corner-br { bottom: -10px; }
+  }
   @media print {
     html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
     body { max-width: none; padding: 0; }
@@ -597,8 +612,8 @@ official tender records could not be retrieved, and the appendix says so.</p>
 <h2>Themes</h2>
 <p class="signal-clusters-intro">The cycle's signals are organised into four themes, ranked by impact on near-term decisions. <strong style="color:#c62828;">Immediate</strong>: changes the near-term plan, the structure or the proposition. <strong style="color:#f57c00;">Near-Term</strong>: changes position over the next twelve months. <strong style="color:#2e7d32;">Longer-Range</strong>: a multi-year factor to track and revisit each cycle.</p>
 
-<div class="signal-cluster tier-immediate" id="cluster-1">
-<div class="cluster-header"><h3>1. Britain has already chosen, and did not call it a choice</h3><span class="impact-tier immediate">Immediate</span></div>
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Britain has already chosen, and did not call it a choice</h3><span class="impact-tier mandate">Immediate</span></div>
 <p class="cluster-framing">Between May 2025 and September 2026 the United Kingdom took a series of decisions that together settle its supply relationship with the United States for the rest of the decade. It signed a European security partnership that defers industrial questions (<a href="https://www.gov.uk/government/publications/uk-eu-security-and-defence-partnership/security-and-defence-partnership-between-the-european-union-and-the-united-kingdom-of-great-britain-and-northern-ireland" target="_blank" rel="noopener">the Security and Defence Partnership</a>, May 2025), published a defence review organised around NATO First (<a href="https://www.gov.uk/government/publications/the-strategic-defence-review-2025-making-britain-safer-secure-at-home-strong-abroad/the-strategic-defence-review-2025-making-britain-safer-secure-at-home-strong-abroad" target="_blank" rel="noopener">the Strategic Defence Review</a>, Jun 2025), published an industrial strategy narrowing sovereign capability to a protected list (<a href="https://assets.publishing.service.gov.uk/media/68bea3fc223d92d088f01d69/Defence_Industrial_Strategy_2025_-_Making_Defence_an_Engine_for_Growth.pdf" target="_blank" rel="noopener">CP 1388</a>, Sep 2025), walked away from the European financing instrument (<a href="https://questions-statements.parliament.uk/written-statements/detail/2025-12-01/hcws1114" target="_blank" rel="noopener">the Paymaster General</a>, Dec 2025), and let the American export-control exemption come into force (<a href="https://www.federalregister.gov/documents/2025/12/30/2025-23998/international-traffic-in-arms-regulations-exemption-for-defense-trade-and-cooperation-among" target="_blank" rel="noopener">the US Department of State</a>, Dec 2025). No single one of those was framed as a decision about dependence. Together they are one.</p>
 
 <div class="report-figure" data-figure-form="timeline">
@@ -678,8 +693,8 @@ official tender records could not be retrieved, and the appendix says so.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Draws on SI 1</div>
 </div>
 
-<div class="signal-cluster tier-immediate" id="cluster-2">
-<div class="cluster-header"><h3>2. The dependency that is load bearing was bought through frameworks</h3><span class="impact-tier immediate">Immediate</span></div>
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. The dependency that is load bearing was bought through frameworks</h3><span class="impact-tier mandate">Immediate</span></div>
 <p class="cluster-framing">The dependency most discussed is in defence. The dependency hardest to reverse is in the cloud estate, and it was never decided at all. It was bought through central buying agreements, extended administratively and enlarged mid-contract, in a market where two American firms hold most of the supply. This is where an adviser looking for the real exposure should look, because it is the part with the least deliberation behind it and the most switching cost in front of it.</p>
 
 <div class="report-figure" data-figure-form="bar">
@@ -737,8 +752,8 @@ official tender records could not be retrieved, and the appendix says so.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Draws on SI 2</div>
 </div>
 
-<div class="signal-cluster tier-near-term" id="cluster-3">
-<div class="cluster-header"><h3>3. Reliability is becoming a specification rather than a diplomatic question</h3><span class="impact-tier near-term">Near-Term</span></div>
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Reliability is becoming a specification rather than a diplomatic question</h3><span class="impact-tier positioning">Near-Term</span></div>
 <p class="cluster-framing">The most consequential shift in this evidence base is not about American behaviour. It is that other governments have stopped treating supplier reliability as something to be managed through relationships and started writing it into rules, contracts and designs. Once reliability is a specification, a country that treats it as a relationship is not making a different choice. It is failing to make one.</p>
 
 <div class="cluster-signals">
@@ -765,8 +780,8 @@ official tender records could not be retrieved, and the appendix says so.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Draws on SI 3</div>
 </div>
 
-<div class="signal-cluster tier-near-term" id="cluster-4">
-<div class="cluster-header"><h3>4. Europe legislates sovereignty, Britain leaves it to the buyer</h3><span class="impact-tier near-term">Near-Term</span></div>
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Europe legislates sovereignty, Britain leaves it to the buyer</h3><span class="impact-tier positioning">Near-Term</span></div>
 <p class="cluster-framing">The clearest contrast in this cycle is institutional rather than political. Continental governments are converting sovereignty preferences into binding requirements: certification thresholds, origin tests, mandated reduction plans. Britain has the machinery to do something similar and has chosen instead to empower individual buyers to exercise judgement. That is a legitimate choice. Its consequence is that nothing is recorded, nothing accumulates and no one can be asked to account for the aggregate.</p>
 
 <div class="cluster-signals">
@@ -839,7 +854,7 @@ official tender records could not be retrieved, and the appendix says so.</p>
 
 <div class="scenario-matrix-axed">
 <div class="axis-name-h">US behaviour: steady and predictable &rarr; disruptive enough to force the question</div>
-<div class="axis-name-v">UK instruments: buyer discretion only &rarr; a stated position on dependence</div>
+<div class="axis-name-v">UK instruments: a stated position on dependence &rarr; buyer discretion only</div>
 <div class="matrix-frame">
 <div class="corner-label corner-tl">Steady US, discretion only</div>
 <div class="corner-label corner-tr">Disruptive US, discretion only</div>

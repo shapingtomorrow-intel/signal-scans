@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T12:50:57Z",
+  "generated": "2026-09-22T13:46:10Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-09-21",
         "tracker": "2026-09-17",
         "di": "2026-09-24",
-        "cc": "2026-07-24"
+        "cc": "2026-09-25"
       },
       "history": [
+        {
+          "date": "2026-09-25",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Money left the bank. Its protections stayed behind.",
+          "summary": "Over this cycle, the question changed from whether money would leave the bank to what protects it once it has. Nine weeks ago the central question was whether a US yield rule would set the pace of deposit flight.",
+          "posture": ""
+        },
         {
           "date": "2026-09-24",
           "kind": "brief",

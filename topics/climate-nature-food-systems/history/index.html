@@ -68,6 +68,10 @@
   .signup-cta p { margin: 0; color: #FCE4EC; font-size: 0.93em; line-height: 1.5; }
   .signup-cta .signup-button { display: inline-block; background: #ffffff; color: #C2185B; padding: 12px 32px; border-radius: 4px; font-weight: 700; font-size: 0.96em; letter-spacing: 0.04em; text-transform: uppercase; text-decoration: none; flex: 0 0 auto; }
   .signup-cta .signup-button:hover { background: #FCE4EC; }
+  .rhythm-heading { font-size: 1.05em; color: #031B41; margin: 20px 0 8px; font-weight: 700; }
+  .rhythm-figure { margin: 0 0 22px; padding: 14px 16px; background: #fbfbfc; border: 1px solid #e1e6ee; border-radius: 8px; }
+  .rhythm-figure svg { display: block; width: 100%; height: auto; max-width: 100%; }
+  .rhythm-figure figcaption { font-size: 0.85em; color: #5a6478; font-style: italic; margin: 10px 0 0; line-height: 1.5; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
 </style>
 </head>
@@ -78,6 +82,115 @@
 </header>
 <p class="tagline">Nature moves onto the risk register.</p>
 <p class="crumb">Every Signal Scan, Change Tracker, Decision Intelligence briefing and end-of-cycle synthesis published on this theme. Read the deliverables in full as part of a tailored programme. <a href="https://shapingtomorrow.com/contact/?subject=Discuss%20a%20Tailored%20Programme">Discuss a tailored programme &rarr;</a></p>
+<h2 class="rhythm-heading">How this topic gets tracked</h2><figure class="rhythm-figure"><svg viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Shaping Tomorrow intelligence cycle. Rows from top: Signal Scans run continuously every week (full-opacity dots through this cycle's weeks 1 to 12, then fading dots showing the rhythm continues into the next cycle). Change Trackers run continuously every four weeks (full-opacity dots at weeks 4, 8 and 12, then a fading dot at week 16 showing the rhythm continues). Decision Intelligence runs at the start of the cycle (week 1) and the end (week 13, which is also the start of the next cycle). Action Triggers is an end-of-cycle synthesis at the cycle boundary, analyst-triggered. Seventeen dashed lines fan down from every in-cycle dot (twelve Signal Scans, three Change Trackers, two Decision Intelligence briefings) to the Action Triggers dot, showing Action Triggers reads across every deliverable produced in the cycle.">
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="380" y="26" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#031B41" font-weight="700" text-anchor="middle">THE SHAPING TOMORROW INTELLIGENCE CYCLE</text>
+  <text x="380" y="44" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle">Four formats on three clocks. Signal Scans and Change Trackers are continuous; Decision Intelligence is quarterly; Action Triggers is analyst-triggered.</text>
+
+  <!-- Axes - Week 1 at x=240, Week 13 at x=570, each week = 27.5 px, axis extends to x=720 to show continuation into next cycle -->
+  <line x1="240" y1="290" x2="720" y2="290" stroke="#5a6478" stroke-width="1"/>
+
+  <!-- Cycle boundary marker (vertical dotted line between week 13 and continuation zone) -->
+  <line x1="585" y1="60" x2="585" y2="290" stroke="#c5cae9" stroke-width="1" stroke-dasharray="2 3" opacity="0.7"/>
+  <text x="585" y="56" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#5a6478" font-style="italic" text-anchor="middle">cycle boundary</text>
+
+  <!-- Week labels -->
+  <text x="240" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 1</text>
+  <text x="350" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 5</text>
+  <text x="460" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 9</text>
+  <text x="570" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" text-anchor="middle">Week 13</text>
+  <text x="660" y="310" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle">next cycle &rarr;</text>
+  <text x="380" y="335" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle">one quarterly intelligence cycle, repeating</text>
+
+  <!-- Y axis label: depth of synthesis increases downward in this row order -->
+  <text x="40" y="170" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle" transform="rotate(90, 40, 170)">depth of synthesis &rarr;</text>
+
+  <!-- Row 1 (top): Signal Scan - 12 weekly dots inside this cycle + 4 fading dots showing continuation -->
+  <text x="65" y="81" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0382FC" font-weight="700">Signal Scan</text>
+  <text x="65" y="94" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">every week &middot; continuous</text>
+  <line x1="240" y1="78" x2="720" y2="78" stroke="#eaf3ff" stroke-width="2"/>
+  <!-- This cycle (weeks 1-12) -->
+  <circle cx="240" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="268" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="295" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="323" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="350" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="378" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="405" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="433" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="460" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="488" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="515" cy="78" r="7" fill="#0382FC"/>
+  <circle cx="543" cy="78" r="7" fill="#0382FC"/>
+  <!-- Next cycle continuation (fading) - weeks 14, 15, 16, 17 -->
+  <circle cx="598" cy="78" r="7" fill="#0382FC" opacity="0.7"/>
+  <circle cx="625" cy="78" r="7" fill="#0382FC" opacity="0.5"/>
+  <circle cx="653" cy="78" r="7" fill="#0382FC" opacity="0.32"/>
+  <circle cx="680" cy="78" r="7" fill="#0382FC" opacity="0.18"/>
+  <text x="710" y="82" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0382FC" opacity="0.55">&hellip;</text>
+
+  <!-- Row 2: Change Tracker - weeks 4, 8, 12 + week 16 continuation -->
+  <text x="65" y="144" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#F59E0B" font-weight="700">Change Tracker</text>
+  <text x="65" y="157" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">every 4 weeks &middot; continuous</text>
+  <line x1="240" y1="138" x2="720" y2="138" stroke="#fff2dc" stroke-width="2"/>
+  <!-- This cycle (weeks 4, 8, 12) -->
+  <circle cx="323" cy="138" r="9" fill="#F59E0B"/>
+  <circle cx="433" cy="138" r="9" fill="#F59E0B"/>
+  <circle cx="543" cy="138" r="9" fill="#F59E0B"/>
+  <!-- Next cycle continuation (fading) - week 16 -->
+  <circle cx="653" cy="138" r="9" fill="#F59E0B" opacity="0.45"/>
+  <text x="710" y="143" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#F59E0B" opacity="0.55">&hellip;</text>
+
+  <!-- Row 3: Decision Intelligence - weeks 1 and 13 (week 13 is also next cycle's week 1) -->
+  <text x="65" y="208" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="700">Decision Intelligence</text>
+  <text x="65" y="221" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">quarterly &middot; cycle bookends</text>
+  <line x1="240" y1="200" x2="720" y2="200" stroke="#e6f3e8" stroke-width="2"/>
+  <circle cx="240" cy="200" r="11" fill="#2e7d32"/>
+  <circle cx="570" cy="200" r="11" fill="#2e7d32"/>
+  <text x="240" y="182" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-style="italic" text-anchor="middle">start</text>
+  <text x="570" y="182" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-style="italic" text-anchor="middle">end / next start</text>
+
+  <!-- Row 4 (bottom - highest synthesis): Action Triggers - at the cycle boundary, analyst-triggered -->
+  <text x="65" y="270" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7e57c2" font-weight="700">Action Triggers</text>
+  <text x="65" y="283" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">end of cycle &middot; cross-format synthesis</text>
+  <text x="65" y="295" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">analyst-triggered</text>
+  <line x1="240" y1="262" x2="720" y2="262" stroke="#ede7f6" stroke-width="2"/>
+  <circle cx="605" cy="262" r="12" fill="#7e57c2"/>
+
+  <!-- Aggregation lines: Action Triggers reads across EVERY in-cycle deliverable -->
+  <!-- Target is the Action Triggers dot at (605, 262). 17 dashed lines: 12 Signal Scans, 3 Change Trackers, 2 Decision Intelligence. -->
+  <!-- Lines start slightly below each source dot and end slightly above the AT dot so they do not draw over the circles. -->
+  <!-- Faded next-cycle dots are deliberately NOT connected; the synthesis is end-of-this-cycle only. -->
+
+  <!-- From 12 Signal Scan dots (y=78) -->
+  <line x1="240" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="268" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="295" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="323" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="350" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="378" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="405" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="433" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="460" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="488" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="515" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.22"/>
+  <line x1="543" y1="85" x2="603" y2="255" stroke="#7e57c2" stroke-width="1" stroke-dasharray="2 2" opacity="0.3"/>
+
+  <!-- From 3 Change Tracker dots (y=138) -->
+  <line x1="323" y1="147" x2="603" y2="254" stroke="#7e57c2" stroke-width="1.2" fill="none" stroke-dasharray="2 2" opacity="0.32"/>
+  <line x1="433" y1="147" x2="603" y2="254" stroke="#7e57c2" stroke-width="1.2" fill="none" stroke-dasharray="2 2" opacity="0.32"/>
+  <line x1="543" y1="147" x2="603" y2="254" stroke="#7e57c2" stroke-width="1.2" fill="none" stroke-dasharray="2 2" opacity="0.4"/>
+
+  <!-- From 2 Decision Intelligence dots (y=200) -->
+  <line x1="240" y1="211" x2="603" y2="252" stroke="#7e57c2" stroke-width="1.4" fill="none" stroke-dasharray="2 2" opacity="0.45"/>
+  <line x1="570" y1="211" x2="603" y2="252" stroke="#7e57c2" stroke-width="1.4" fill="none" stroke-dasharray="2 2" opacity="0.55"/>
+
+  <!-- Legend right of Action Triggers -->
+  <text x="630" y="268" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7e57c2" font-weight="700">reads</text>
+  <text x="630" y="279" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7e57c2" font-weight="700">across</text>
+</svg><figcaption>Four formats. Three clocks. One cycle.</figcaption></figure>
 <p class="legend">
 <span><i style="background:#0382FC"></i>Signal Scan <em>(weekly)</em></span>
 <span><i style="background:#F59E0B"></i>Change Tracker <em>(monthly)</em></span>
@@ -87,6 +200,6 @@
 <div class="timeline">
 <div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">22 September 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>Europe Certified Carbon Farming Before the Land Safeguards Were Written</h3><p>Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">15 September 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived</h3><p>Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">8 September 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing</h3><p>Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry cross_cutter"><div class="tl-dot cross_cutter"></div><div class="tl-meta"><span class="tl-type cross_cutter">Action Triggers</span><span class="tl-date">4 September 2026</span> <span class="tl-cadence">(end-of-cycle synthesis)</span></div><h3>The rules now decide what you may use, and for how long</h3><p>Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.</p><div class="tl-chips"><span class="toc-label">Inside this Action Triggers</span><span class="tl-chip">Early Warnings</span><span class="tl-chip">Shifting Assumptions</span><span class="tl-chip">Actions Triggered</span></div></div><div class="tl-entry brief"><div class="tl-dot brief"></div><div class="tl-meta"><span class="tl-type brief">Decision Intelligence</span><span class="tl-date">3 September 2026</span> <span class="tl-cadence">(quarterly)</span></div><h3>Climate Policy Has Started Taking Things Away</h3><p>The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.</p><div class="tl-chips"><span class="toc-label">Inside this briefing</span><span class="tl-chip">Executive Synthesis</span><span class="tl-chip">Leadership Snapshots</span><span class="tl-chip">Themes</span><span class="tl-chip">Strategic Implications</span><span class="tl-chip">Scenario Matrix</span><span class="tl-chip">What We Are Not Planning For</span><span class="tl-chip">Questions For The Next Strategy Meeting</span><span class="tl-chip">Source Confidence Register</span><span class="tl-chip">Claim-fidelity Self-Disclosure</span></div></div><div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">1 September 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets</h3><p>Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry tracker"><div class="tl-dot tracker"></div><div class="tl-meta"><span class="tl-type tracker">Change Tracker</span><span class="tl-date">28 August 2026</span> <span class="tl-cadence">(monthly)</span></div><h3>Water goes to two-year tenor; nature finance stalls at $1,000</h3><p>Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...</p><div class="tl-chips"><span class="toc-label">Inside this tracker</span><span class="tl-chip">Trend Radar</span><span class="tl-chip">Momentum</span><span class="tl-chip">Pattern Narrative</span><span class="tl-chip">Signals Gaining Momentum</span><span class="tl-chip">Wild Cards</span><span class="tl-chip">Implications</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">25 August 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets</h3><p>The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">17 August 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur</h3><p>Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div><div class="tl-entry scan"><div class="tl-dot scan"></div><div class="tl-meta"><span class="tl-type scan">Signal Scan</span><span class="tl-date">8 August 2026</span> <span class="tl-cadence">(weekly)</span></div><h3>After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register</h3><p>Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...</p><div class="tl-chips"><span class="toc-label">Inside this scan</span><span class="tl-chip">Signal Identification</span><span class="tl-chip">What's Changing</span><span class="tl-chip">Disruption Pathway</span><span class="tl-chip">Why This Matters Now</span><span class="tl-chip">Counter-Argument</span><span class="tl-chip">Implications</span><span class="tl-chip">Early Indicators</span><span class="tl-chip">Disconfirming Signals</span><span class="tl-chip">Strategic Questions</span><span class="tl-chip">Bibliography</span></div></div>
 </div>
-<p class="footer">Built 2026-09-22 09:35 local time.</p>
+<p class="footer">Built 2026-09-22 13:49 local time.</p>
 </body>
 </html>

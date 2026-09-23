@@ -11,6 +11,13 @@
   .summary-card:hover { background: #fbeaf1; }
   .sc-label { display: block; font-size: 0.72em; letter-spacing: 0.08em; text-transform: uppercase;
                font-weight: 700; color: #ad1457; margin-bottom: 2px; }
+  .sc-pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #c2185b;
+               margin-right: 8px; vertical-align: 1px; box-shadow: 0 0 0 0 rgba(194,24,91,0.55);
+               animation: scPulse 2s ease-out infinite; }
+  @keyframes scPulse { 0% { box-shadow: 0 0 0 0 rgba(194,24,91,0.55); }
+                        70% { box-shadow: 0 0 0 7px rgba(194,24,91,0); }
+                        100% { box-shadow: 0 0 0 0 rgba(194,24,91,0); } }
+  @media (prefers-reduced-motion: reduce) { .sc-pulse { animation: none; } }
   .sc-title { display: block; font-size: 1.08em; font-weight: 700; color: #ad1457; }
   .sc-sub { display: block; font-size: 0.92em; color: #2c3e50; margin-top: 3px; }
   .topic-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 0.4em; }
@@ -46,6 +53,6 @@
 <li><a href="demographics-migration-labour-markets/"><strong>Demographics, Migration &amp; Labour Markets</strong></a><div class="topic-tagline">Who pays for population decline.</div><div class="topic-meta">scan 2026-09-20 &middot; tracker 2026-09-10 &middot; DI report 2026-09-10</div></li>
 <li><a href="health-life-sciences-care-systems/"><strong>Health, Life Sciences &amp; Care Systems</strong></a><div class="topic-tagline">The reorganisation of how care gets delivered.</div><div class="topic-meta">scan 2026-09-20 &middot; tracker 2026-09-11 &middot; DI report 2026-08-06</div></li>
 </ul>
-<p class="footer">Built 2026-09-23 12:38 local time. <a href="https://decision-intel.shapingtomorrow.com/">decision-intel home</a></p>
+<p class="footer">Built 2026-09-23 12:43 local time. <a href="https://decision-intel.shapingtomorrow.com/">decision-intel home</a></p>
 </body>
 </html>

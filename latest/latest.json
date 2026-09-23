@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-22T08:33:07Z",
+  "generated": "2026-09-23T08:33:02Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "US Bank Examiners Must Now Show Likely Material Harm Before Raising a Finding",
-      "date": "2026-09-21",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
-      "posture": "Decide",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-09-21-likely-not-possible/scan.html"
+      "title": "Germany's Reserve Bill Ends the Employer Veto and Books No Cost to Business",
+      "date": "2026-09-23",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
+      "posture": "Prepare",
+      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-23-reserve-cost-on-payroll/scan.html"
     },
     "change_tracker": {
       "title": "Enforcement and liability bind as Europe's simplification push runs out",
@@ -28,12 +28,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/si/where-your-money-will-live-in-2030/"
     },
     "action_triggers": {
-      "title": "Scarcity now has a price. Settle who pays it.",
-      "date": "2026-09-18",
-      "topic": "Energy, Infrastructure & Climate Resilience",
-      "topic_slug": "energy-infrastructure-climate-resilience",
+      "title": "Money left the bank. Its protections stayed behind.",
+      "date": "2026-09-25",
+      "topic": "Financial Services & Future of Money",
+      "topic_slug": "financial-services-future-of-money",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/energy-infrastructure-climate-resilience-action-triggers-2026-09-18/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/financial-services-future-of-money-action-triggers-2026-09-25/"
     }
   }
 }

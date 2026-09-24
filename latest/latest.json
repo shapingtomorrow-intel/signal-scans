@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T08:33:02Z",
+  "generated": "2026-09-24T08:31:45Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-23-reserve-cost-on-payroll/scan.html"
     },
     "change_tracker": {
-      "title": "Enforcement and liability bind as Europe's simplification push runs out",
-      "date": "2026-09-18",
-      "topic": "Regulation, Standards and Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
+      "title": "Regulators audit data-centre load; a court curbs emergency orders",
+      "date": "2026-09-24",
+      "topic": "Energy, Infrastructure and Climate Resilience",
+      "topic_slug": "energy-infrastructure-climate-resilience",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/regulation-standards-policy-change/2026-09-18/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/energy-infrastructure-climate-resilience/2026-09-24/tracker.html"
     },
     "decision_intelligence": {
       "title": "Where Your Money Will Live in 2030",

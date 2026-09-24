@@ -290,6 +290,19 @@
   .fw-legend { font-size: 12.5px !important; }
   .dp-standfirst { font-size: 0.95em; color: #5a6478; margin: 0 0 10px; }
   .snap-purpose { font-size: 0.88em; color: #5a6478; margin-top: 6px; }
+  /* Questions restyled to match the Options and What We Are Not Planning For sections (24 September 2026) */
+  .discussion-points { background: #fafafa; color: inherit; border: 1px solid #e0e0e0; border-radius: 12px; padding: 28px; }
+  .discussion-points ol { list-style: none; padding: 0; margin: 0; counter-reset: dp; }
+  .discussion-points h2 { color: #1a237e; }
+  .discussion-points .dp-standfirst { color: #5a6478; margin: 0 0 14px 0; }
+  .discussion-points li { counter-increment: dp; position: static; display: block; background: #ffffff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 18px; margin: 12px 0; }
+  .discussion-points li::before { content: "Question " counter(dp); position: static; width: auto; display: table; min-width: 0; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 8px; }
+  .discussion-points li:nth-child(5n+1) { border-left-color: #26a69a; } .discussion-points li:nth-child(5n+1)::before { background: #e0f2f1; color: #00796b; }
+  .discussion-points li:nth-child(5n+2) { border-left-color: #1e88e5; } .discussion-points li:nth-child(5n+2)::before { background: #e3f2fd; color: #1565c0; }
+  .discussion-points li:nth-child(5n+3) { border-left-color: #7e57c2; } .discussion-points li:nth-child(5n+3)::before { background: #ede7f6; color: #5e35b1; }
+  .discussion-points li:nth-child(5n+4) { border-left-color: #ef6c00; } .discussion-points li:nth-child(5n+4)::before { background: #fff3e0; color: #e65100; }
+  .discussion-points li:nth-child(5n+5) { border-left-color: #d81b60; } .discussion-points li:nth-child(5n+5)::before { background: #fce4ec; color: #ad1457; }
+  @media (max-width: 600px) { .discussion-points { padding: 18px 14px; } }
 </style>
 </head>
 <body>
@@ -337,7 +350,7 @@ Cycle: 24 September 2026 &middot; Audience: Leaders in banking, payments, policy
   <li><a href="#section-snapshots">3. Audience Snapshots</a></li>
   <li><a href="#section-signal-clusters">4. Themes</a></li>
   <li><a href="#section-strategic-implications">5. Strategic Implications</a></li>
-  <li><a href="#section-scenario-matrix">6. Scenario Matrix</a></li>
+  <li><a href="#section-scenario-matrix">6. Scenario Matrix 2030</a></li>
   <li><a href="#section-options">7. Options</a></li>
   <li><a href="#section-explicit-exclusions">8. What We Are Not Planning For</a></li>
   <li><a href="#section-discussion-points">9. Questions For The Next Strategy Meeting</a></li>
@@ -1222,12 +1235,10 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
 
 <a name="section-scenario-matrix"></a>
 <div class="scenario-matrix">
-<h2>Scenario Matrix</h2>
-<p class="framing-note">The first version of this matrix asked how fast money leaves banks and whether the rules are joined up, which produced futures that differed mainly in speed. This version asks two questions whose answers produce different kinds of money system by 2030: who issues the money people use every day, and who protects it. AI adoption and the growth of private credit are not axes because they advance in all four futures; each scenario shows how they play out. The four scenarios are planning aids, not forecasts.</p>
-
+<h2>Scenario Matrix 2030</h2>
 <div class="scenario-matrix-axed">
-<div class="axis-name-h">Who issues everyday money by 2030: mainly banks &rarr; mainly non-banks</div>
-<div class="axis-name-v">Who protects the money: each firm's own terms &rarr; public protections extended</div>
+<div class="axis-name-h">Money issued by: banks &rarr; non-banks</div>
+<div class="axis-name-v">Protection: firm terms &rarr; public rules</div>
 <div class="matrix-frame">
 <div class="corner-label corner-tl">Public protections &middot; bank money</div>
 <div class="corner-label corner-tr">Public protections &middot; non-bank money</div>

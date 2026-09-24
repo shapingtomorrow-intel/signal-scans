@@ -1,0 +1,511 @@
+[
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "This legislation will prevent data centers from shifting costs onto everyday ratepayers.",
+  "verbatim_list": [
+   "The new laws will also ensure data centers comply with California energy procurement requirements, bring new clean energy supply onto the grid, and pay for any upgrade costs."
+  ],
+  "tier": 1,
+  "publisher": "Office of the Governor of California",
+  "title": "Governor Newsom signs most comprehensive data center laws in the nation, providing communities more control on water, electricity, and land use",
+  "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/",
+  "publication_date": "2026-09-21",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-09-21T15:35:25+00:00",
+  "verified_at": "2026-09-24T00:19:43Z",
+  "date_age_band": "0-3m",
+  "key_claim": "On 21 September 2026 California enacted seven data-centre bills requiring disclosure of water and electricity use, compliance with state procurement rules, and payment of grid and water upgrade costs, so that data centres do not shift costs onto other ratepayers.",
+  "frame_summary": "Argues that data centres must pay their own way and that state law, not federal deregulation, is the instrument that protects ratepayers and communities from the costs of their growth.",
+  "signals_supported": [
+   "Ratepayer cost-allocation politics",
+   "Data-centre load verification"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "cited staff testimony calling the proposed $584 million price tag “staggering” and “very expensive.”",
+  "verbatim_list": [
+   "“much of the growth appears to be based upon anticipated data center customer additions,”"
+  ],
+  "tier": 3,
+  "publisher": "Utility Dive",
+  "title": "North Carolina regulators deny Duke Energy gas turbine request over ‘staggering’ cost, uncertain need",
+  "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+  "publication_date": "2026-09-22",
+  "date_source": "meta:date",
+  "date_evidence": "meta-date: 2026-09-22",
+  "verified_at": "2026-09-24T00:19:47Z",
+  "date_age_band": "0-3m",
+  "key_claim": "On 18 September 2026 the North Carolina Utilities Commission denied Duke Energy's request for a $584 million, 255 MW gas turbine, finding the data-centre-driven load growth behind it insufficiently reliable to act on and the cost very high.",
+  "frame_summary": "Frames the denial as a regulator refusing to build gas capacity against speculative data-centre demand, using cost accountability to ratepayers as the test, while airing staff concern about future reserve margins.",
+  "signals_supported": [
+   "Data-centre load verification",
+   "AI data-centre electricity demand"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "“Approximately 90 percent of the new power requests are data centers.”",
+  "verbatim_list": [
+   "Interconnection queue requests total about 474 GW, which “is more than five times Texas’ record peak electricity demand for ERCOT,” Abbott said in a Monday letter to the grid operator and state regulators."
+  ],
+  "tier": 3,
+  "publisher": "Utility Dive",
+  "title": "Facing an estimated 474 GW of interconnection requests, Texas hits pause on data centers",
+  "url": "https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046/",
+  "publication_date": "2026-08-05",
+  "date_source": "meta:date",
+  "date_evidence": "meta-date: 2026-08-05",
+  "verified_at": "2026-09-24T00:19:56Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Texas Governor Abbott ordered an audit of every data centre in ERCOT's roughly 474 GW interconnection queue, about 90 percent of which is data centres, pausing new data-centre interconnections.",
+  "frame_summary": "Frames the audit as a de facto moratorium prompted by an inflated, speculative queue, and stresses the uncertainty it creates for investors.",
+  "signals_supported": [
+   "Data-centre load verification",
+   "AI data-centre electricity demand"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "the governor directed the Texas Commission on Environmental Quality (TCEQ) to stop issuing new permits until ERCOT",
+  "verbatim_list": [
+   "TCEQ was asked to provide an update to the Office of the Governor by Monday, Oct. 19"
+  ],
+  "tier": 3,
+  "publisher": "CBS News (CBS Texas)",
+  "title": "Gov. Abbott pauses new data center permits until water, power audit complete",
+  "url": "https://www.cbsnews.com/texas/news/texas-gov-greg-abbott-pause-new-data-center-permits-sept-21-2026/",
+  "publication_date": "2026-09-21",
+  "date_source": "byline",
+  "date_evidence": "Updated on: September 21, 2026 / 10:20 PM CDT / CBS Texas",
+  "verified_at": "2026-09-24T00:25:02Z",
+  "date_age_band": "0-3m",
+  "key_claim": "On 21 September 2026 Governor Abbott directed the Texas Commission on Environmental Quality to stop issuing new data-centre permits until the power and water audit is complete, with an update due to his office by 19 October.",
+  "frame_summary": "Reports the halt as an escalation that turns completion of the power and water audit into a precondition for any new state permit, widening verification from the grid queue to environmental approvals.",
+  "signals_supported": [
+   "Data-centre load verification"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "As of September 2026, 25 states have approved at least one large load tariff, and another 7 states have pending large load tariffs.",
+  "verbatim_list": [
+   "The list of publicly announced projects represents more than $1.13 trillion in investment and more than 71 gigawatts (GW) of connected load."
+  ],
+  "tier": 3,
+  "publisher": "Edison Electric Institute",
+  "title": "Large Load Projects and Tariffs (September 2026)",
+  "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+  "publication_date": "2026-09-11",
+  "date_source": "pdf:titlepage",
+  "date_evidence": "Updated September 11, 2026.",
+  "verified_at": "2026-09-24T01:20:48Z",
+  "date_age_band": "0-3m",
+  "key_claim": "As of September 2026, 25 states have approved at least one large-load tariff and 7 more have tariffs pending; announced large-load projects total more than $1.13 trillion and 71 GW.",
+  "frame_summary": "Industry position that investor-owned utilities can serve large loads while protecting existing customers, through tariffs that make large customers cover their full cost of service.",
+  "signals_supported": [
+   "Ratepayer cost-allocation politics"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Since 2025, tariffs have generally trended toward longer minimum contract durations, with the median increasing from 5 years for tariffs proposed before 2025 to 12 years for tariffs proposed since 2025.",
+  "verbatim_list": [
+   "Lawrence Berkeley National Laboratory estimates that total U.S. data center electricity demand more than doubled (2.3x) from 2018 to 2024 and could triple (3.3x) from 2024 to 2028 (Smith et al. 2026)."
+  ],
+  "tier": 2,
+  "publisher": "Lawrence Berkeley National Laboratory",
+  "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update",
+  "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+  "publication_date": "2026-08",
+  "date_source": "pdf:titlepage",
+  "date_evidence": "TECHNICAL BRIEF | 1 August 2026",
+  "verified_at": "2026-09-24T01:22:59Z",
+  "notes": "Title-page text reads 'TECHNICAL BRIEF | 1' (page header and page number) followed on the next line by 'August 2026'; publication is month-level, not 1 August.",
+  "date_age_band": "0-3m",
+  "key_claim": "Across 55 large-load tariffs, the median minimum contract term rose from 5 years for tariffs proposed before 2025 to 12 years for those proposed since, alongside minimum bills, exit fees and hold-harmless provisions.",
+  "frame_summary": "Argues that large-load tariff design is settling on tools that move stranded-cost and under-use risk from existing ratepayers onto the large customer, and offers regulators a neutral typology of those practices.",
+  "signals_supported": [
+   "Ratepayer cost-allocation politics",
+   "Data-centre load verification"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The study projects data centers to consume 9% to 17% of U.S. electricity demand by 2030, a significant increase from the 4% to 5% share estimated for 2024.",
+  "verbatim_list": [
+   "EEI finds that state commissions in 24 states have approved at least one large load tariff, while another 6 states have pending large load tariffs (as of July 2026).",
+   "The report also estimates the interconnection capacity required to meet the electricity demand of data centers in 2030 to be 148 GW, assuming a 50% average utilization rate."
+  ],
+  "tier": 2,
+  "publisher": "Lawrence Berkeley National Laboratory",
+  "title": "Large Load Literature Review: September 2026 Update",
+  "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/lbnl_lllreview_september_2026.pdf",
+  "publication_date": "2026-09",
+  "date_source": "pdf:titlepage",
+  "date_evidence": "September 2026 Update",
+  "verified_at": "2026-09-24T00:20:08Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Headline forecasts put US data centres at 9% to 17% of electricity demand by 2030 (EPRI), or 649 TWh and 11.8% in LBNL's reference case, needing about 148 GW of interconnection capacity.",
+  "frame_summary": "A descriptive compendium that presents data-centre load forecasts as a wide and uncertain range and treats the effect on retail rates as conditional on tariff design, flexibility and interconnection reform.",
+  "signals_supported": [
+   "AI data-centre electricity demand",
+   "Large-load interconnection rules",
+   "Ratepayer cost-allocation politics"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The Reliability Backstop Procurement would secure resources for terms of up to 15 years with a maximum willingness to pay equal to a MW-weighted average of $555/MW-day.",
+  "verbatim_list": [
+   "The July 31 proposal advanced by the PJM Board of Managers charts a parallel path to secure new generation resources against the 6,831 MW shortfall resulting from the recent capacity auction for the 2028/2029 Delivery Year.",
+   "To guard against double procurement, the initial procurement target will be decreased by the sum of qualifying new resources that are the subject of executed bilateral contracts or otherwise bring new capacity to the system.",
+   "The success of the procurement requires state participation, the RBP proposal states, as states have authority over how retail costs are allocated from the Reliability Backstop Procurement to Load Serving Entities and end-use customers."
+  ],
+  "tier": 1,
+  "publisher": "PJM Interconnection (Inside Lines)",
+  "title": "PJM Reliability Backstop Proposal Outlines Steps To Secure New Supply and Maintain Reliability",
+  "url": "https://insidelines.pjm.com/pjm-reliability-backstop-proposal-outlines-steps-to-secure-new-supply-and-maintain-reliability/",
+  "publication_date": "2026-07-31",
+  "date_source": "byline",
+  "date_evidence": "July 31, 2026",
+  "verified_at": "2026-09-24T00:20:18Z",
+  "date_age_band": "0-3m",
+  "key_claim": "PJM filed a one-time Reliability Backstop Procurement at FERC targeted to open on 30 September 2026 against a 6,831 MW shortfall, with terms of up to 15 years and a maximum willingness to pay of $555/MW-day, reduced by bilateral contracts and conditional on state cost allocation.",
+  "frame_summary": "PJM argues the backstop is needed for reliability but that keeping it affordable depends on states assigning retail costs to large loads, placing responsibility for the payer on the states rather than the market.",
+  "signals_supported": [
+   "Capacity-market scarcity pricing",
+   "Ratepayer cost-allocation politics",
+   "Battery storage scaling"
+  ],
+  "cluster": "Load has to prove itself before anyone pays"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "PJM has recalled or canceled transmission and generation outages to the extent possible, but approximately 36,000 MW in outages remain, in addition to transmission outages.",
+  "verbatim_list": [
+   "PJM also requested and received a combined emergency order, to be effective through Sept. 18, from the U.S. Department of Energy.",
+   "PJM called on demand response resources across different portions of its footprint to maintain reliable system operations through unusually warm September weather and necessary outages for both generation resources and transmission."
+  ],
+  "tier": 1,
+  "publisher": "PJM Interconnection (Inside Lines)",
+  "title": "PJM Operations Update – Sept. 17, 2026",
+  "url": "https://insidelines.pjm.com/pjm-operations-update-sept-17-2026/",
+  "publication_date": "2026-09-17",
+  "date_source": "byline",
+  "date_evidence": "September 17, 2026",
+  "verified_at": "2026-09-24T00:20:55Z",
+  "date_age_band": "0-3m",
+  "key_claim": "On 17 September 2026 PJM called demand response in parts of its footprint through unusually warm weather with about 36,000 MW of generation outages still in place, and obtained a DOE emergency order effective through 18 September.",
+  "frame_summary": "Presents late-season heat arriving during maintenance season as a manageable operating stress, handled with demand response, export curtailment and emergency federal authority.",
+  "signals_supported": [
+   "Heat as an operating constraint",
+   "Emergency-order reliability governance"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The Court ruled that the DOE order was an unlawful use of Section 202(c) of the Federal Power Act.",
+  "verbatim_list": [
+   "Instead, Consumers Energy has reported $295 million in costs associated with the Campbell plant from May 2025 to June 30, 2026, which the utility is seeking to recover from electric customers across the north and central regions of the Midcontinent Independent System Operator.",
+   "DOE’s sixth order forces Consumers Energy to run the J.H. Campbell coal plant until November 14, 2026, nearly a year and a half beyond its previously approved retirement date of May 31, 2025."
+  ],
+  "tier": 1,
+  "publisher": "Michigan Department of Attorney General",
+  "title": "Attorney General: Federal Appeals Court Vacates First DOE Order Forcing Operation of J.H. Campbell Coal Plant",
+  "url": "https://www.michigan.gov/ag/news/press-releases/2026/09/11/federal-appeals-court-vacates-first-doe-order-forcing-operation-of-jh-campbell-coal-plant",
+  "publication_date": "2026-09-11",
+  "date_source": "byline",
+  "date_evidence": "September 11, 2026",
+  "verified_at": "2026-09-24T00:19:38Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The D.C. Circuit vacated DOE's first Section 202(c) order keeping the J.H. Campbell coal plant running, finding it an unlawful use of the Federal Power Act; Consumers Energy has reported $295 million in associated costs and a sixth order runs to 14 November 2026.",
+  "frame_summary": "Argues that DOE's emergency orders are manufactured emergencies that load avoidable costs onto ratepayers, and presents the ruling as confirmation that the authority was misused.",
+  "signals_supported": [
+   "Emergency-order reliability governance",
+   "Ratepayer cost-allocation politics"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "This order is in effect beginning on September 2, 2026, through November 30, 2026.",
+  "verbatim_list": [
+   "Unit 1 was slated to enter a premature extended cold shutdown in June 2026."
+  ],
+  "tier": 1,
+  "publisher": "US Department of Energy",
+  "title": "Energy Secretary Saves Coal-Fired Generation from Going Offline in Florida",
+  "url": "https://www.energy.gov/articles/energy-secretary-saves-coal-fired-generation-going-offline-florida",
+  "publication_date": "2026-09-01",
+  "date_source": "byline",
+  "date_evidence": "September 1, 2026",
+  "verified_at": "2026-09-24T00:20:38Z",
+  "date_age_band": "0-3m",
+  "key_claim": "DOE ordered the Orlando Utilities Commission to keep Stanton Energy Center Unit 1 available under a Section 202(c) emergency order from 2 September to 30 November 2026.",
+  "frame_summary": "Argues that retiring coal plants early threatens reliability and raises costs, and presents federal emergency orders as protecting consumers.",
+  "signals_supported": [
+   "Emergency-order reliability governance"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits",
+  "notes": "Page metadata carries article:published_time 2026-08-21 and modified_time 2026-09-01; the visible byline, the 'today issued' wording and the 2 September effective date all indicate 1 September publication. Byline date used."
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Western Europe experienced its warmest summer on record, surpassing the long-standing 2003 record.",
+  "verbatim_list": [
+   "With a global average surface air temperature 1.65°C higher than the estimated pre-industrial baseline, this August was the first month to exceed 1.5°C since November 2025."
+  ],
+  "tier": 1,
+  "publisher": "Copernicus Climate Change Service",
+  "title": "Copernicus: August was the world’s joint hottest month on record, pushing global temperatures back above 1.5°C above pre-industrial levels",
+  "url": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above",
+  "publication_date": "2026-09-10",
+  "date_source": "byline",
+  "date_evidence": "Date: 10th September 2026",
+  "verified_at": "2026-09-24T00:20:45Z",
+  "date_age_band": "0-3m",
+  "key_claim": "August 2026 tied July 2023 as the hottest month on record at 1.65°C above pre-industrial, and western Europe had its warmest summer on record, beating 2003.",
+  "frame_summary": "Attributes the records to fossil-fuel warming amplified by a strengthening El Nino and presents them as evidence that climate change is driving extremes on land and at sea.",
+  "signals_supported": [
+   "Heat as an operating constraint"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Jusqu’à 13,4 gigawatts (GW) cumulés d’indisponibilités ont été relevés au pic de l’été",
+  "verbatim_list": [
+   "C’est un record, devant 2003 (environ 6 TWh) et 2020 (3 TWh).",
+   "Au total, 15 réacteurs ont été touchés, soit 21 % du parc nucléaire français.",
+   "pour plus de 10 térawattheures (TWh) de production perdue"
+  ],
+  "tier": 3,
+  "publisher": "Révolution Énergétique",
+  "title": "Hausse de la climatisation, arrêts de réacteurs nucléaires : comment le réseau électrique français a passé l'été 2026 ?",
+  "url": "https://www.revolution-energetique.com/actus/hausse-de-la-climatisation-arrets-de-reacteurs-nucleaires-comment-le-reseau-electrique-francais-a-passe-lete-2026/",
+  "publication_date": "2026-09-21",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-09-21T17:21:01",
+  "verified_at": "2026-09-24T01:22:31Z",
+  "date_age_band": "0-3m",
+  "original_language": "fr",
+  "key_claim": "RTE's first review of summer 2026 found up to 13.4 GW of French nuclear capacity unavailable at the peak and more than 10 TWh of output lost to river-flow and temperature limits, a record ahead of 2003 and 2020, with 15 reactors affected, while nuclear output overall held close to prior summers and the grid was not significantly affected.",
+  "frame_summary": "Reports RTE's summer review as showing that heat and drought cost French nuclear a record volume of output and pushed up gas use and spot prices, while arguing the grid itself absorbed the shock without significant disruption.",
+  "signals_supported": [
+   "Heat as an operating constraint"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits",
+  "notes": "French-language trade press reporting RTE's summer 2026 review. Replaces the June 2026 Révolution Énergétique piece on EDF's adaptation plan, which is older and less directly tied to this cycle's heat evidence."
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "the utilities had collectively lost $20 billion in market value since Thursday",
+  "verbatim_list": [
+   "After nearly a month of intense closed-door negotiations, California lawmakers on the last day of session killed a compromise bill that failed to insulate investor-owned utilities when they cause catastrophic wildfires."
+  ],
+  "tier": 3,
+  "publisher": "CalMatters",
+  "title": "Wildfire liability bill dies without a vote on final day of session",
+  "url": "https://calmatters.org/economy/2026/09/wildfire-liability-bill-dies-without-a-vote-on-final-day-of-session/",
+  "publication_date": "2026-09-01",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-09-01T20:32:33+00:00",
+  "verified_at": "2026-09-24T00:21:02Z",
+  "date_age_band": "0-3m",
+  "key_claim": "California lawmakers let a compromise wildfire-liability bill die on the last day of session; PG&E and Edison told legislators they had lost $20 billion in market value in days, and hearings move to the autumn.",
+  "frame_summary": "Frames the collapse as an unresolved contest between fire survivors, consumers and insurers on one side and utilities, investors and the governor on the other, leaving who bears catastrophic wildfire cost undecided.",
+  "signals_supported": [
+   "Utility wildfire-liability exposure",
+   "Ratepayer cost-allocation politics"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "or $4.3 billion in Edison’s case, if the company’s equipment sparks a blaze",
+  "verbatim_list": [
+   "cut its outlook on Edison International and its Southern California utility to negative from stable",
+   "a special session before the end of the year remains “a possibility.”"
+  ],
+  "tier": 3,
+  "publisher": "Claims Journal",
+  "title": "Edison CEO Warns Wildfire Impasse Risks Higher Customer Bills",
+  "url": "https://www.claimsjournal.com/news/national/2026/09/23/340299.htm",
+  "publication_date": "2026-09-23",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-09-23T05:00:19+00:00",
+  "verified_at": "2026-09-24T00:48:51Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Edison's chief executive warned that a downgrade to junk after the wildfire-bill impasse would add hundreds of millions of dollars to customer costs; the $4.3 billion shareholder liability cap lapses if the state wildfire fund runs dry, Fitch cut Edison's outlook to negative, and a special session before year end remains possible.",
+  "frame_summary": "Frames the legislative impasse as a credit and cost-of-capital risk whose cost lands on customers' bills rather than on shareholders, with a special session as the remaining route to a liability cap.",
+  "signals_supported": [
+   "Utility wildfire-liability exposure",
+   "Ratepayer cost-allocation politics"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits",
+  "notes": "Syndicated Bloomberg story (Michelle Ma), carried by Claims Journal (Wells Media Group). Replaces the Insurance Journal copy of the same story, which could not be re-read within this run."
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "However, climatologically, about 40% of the season’s hurricane activity still remains.",
+  "verbatim_list": null,
+  "tier": 3,
+  "publisher": "Fox Weather",
+  "title": "Historically quiet Atlantic hurricane season shatters century-old record amid brewing Super El Niño",
+  "url": "https://www.foxweather.com/weather-news/historically-quiet-atlantic-hurricane-season-super-el-nino",
+  "publication_date": "2026-09-21",
+  "date_source": "meta:dc.date",
+  "date_evidence": "meta-dc.date: 2026-09-21",
+  "verified_at": "2026-09-24T00:21:23Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The Atlantic has had five named storms and no hurricanes, the first time in 112 years, under a strengthening El Nino, though climatologically about 40% of the season's hurricane activity still remains.",
+  "frame_summary": "Treats the quiet season as a historic El Nino-driven anomaly while warning against complacency because a large share of the season's activity is still to come.",
+  "signals_supported": [
+   "Insured catastrophe-loss repricing"
+  ],
+  "cluster": "Emergency powers and climate costs meet their limits"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Demand for energy storage is outpacing expectations, prompting a 11.5% increase in the report’s forecast through 2030 to 683 GWh.",
+  "verbatim_list": [
+   "installed a record 20.2 gigawatt-hours (GWh) of new capacity in Q2, bringing total installations in the first half of 2026 to 30.8 GWh",
+   "Utility-scale energy storage capacity has nearly doubled from 88 GWh to 165 GWh in the first 18 months of the Trump administration, as grid operators, utilities and energy buyers turn to storage to strengthen reliability and meet rising electricity demand."
+  ],
+  "tier": 2,
+  "publisher": "Solar Energy Industries Association",
+  "title": "REPORT: U.S. Adds 20 GWh of Energy Storage Capacity in Q2, Largest Quarter on Record",
+  "url": "https://seia.org/news/largest-quarter-on-record-for-energy-storage/",
+  "publication_date": "2026-09-01",
+  "date_source": "byline",
+  "date_evidence": "September 1, 2026",
+  "verified_at": "2026-09-24T00:19:44Z",
+  "date_age_band": "0-3m",
+  "key_claim": "The US installed a record 20.2 GWh of storage in Q2 2026, 30.8 GWh in the first half, and the 2030 forecast was raised 11.5% to 683 GWh.",
+  "frame_summary": "Presents storage as a reliability and affordability resource that grid operators and buyers are adopting faster than forecast, including in Republican-led states, to argue for continued bipartisan policy support.",
+  "signals_supported": [
+   "Battery storage scaling",
+   "Capacity-market scarcity pricing"
+  ],
+  "cluster": "Storage outruns the connection rulebook"
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "FERC suggested defining a large load as a new facility over 50 MW, seeking transmission service above 69 kV, and not part of co-located arrangements.",
+  "verbatim_list": null,
+  "tier": 2,
+  "publisher": "RMI",
+  "title": "Understanding FERC’s Large Load Orders",
+  "url": "https://rmi.org/resources/understanding-fercs-large-load-orders/",
+  "publication_date": "2026-07-06",
+  "date_source": "byline",
+  "date_evidence": "July 6, 2026",
+  "verified_at": "2026-09-24T00:20:09Z",
+  "date_age_band": "0-3m",
+  "key_claim": "FERC's June 2026 show cause orders found all six RTO and ISO tariffs unjust and unreasonable on large-load integration, suggested a 50 MW threshold, and allow reform filings up to 15 November where a 90-day extension is sought.",
+  "frame_summary": "Argues that FERC set a direction but left most design choices (definitions, security terms, pricing) to regional stakeholder processes, so outcomes will differ by market and flexible loads and grid technologies are the near-term levers.",
+  "signals_supported": [
+   "Large-load interconnection rules"
+  ],
+  "cluster": "Storage outruns the connection rulebook"
+ }
+]

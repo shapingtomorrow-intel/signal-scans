@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T12:23:31Z",
+  "generated": "2026-09-25T07:53:54Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -264,6 +264,111 @@
           "title": "Beyond Stablecoins",
           "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
           "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "climate-nature-food-systems",
+      "name": "Climate, Nature & Food Systems",
+      "tagline": "Nature moves onto the risk register.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
+      "latest_read": "Black Sea grain corridor breaks; carbon and water disputes go legal",
+      "latest_dates": {
+        "scan": "2026-09-22",
+        "tracker": "2026-09-25",
+        "di": "2026-09-03",
+        "cc": "2026-09-04"
+      },
+      "history": [
+        {
+          "date": "2026-09-25",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",
+          "summary": "Edition 2. Ukrainian strikes shut more than 90 percent of Russia's Azov-Black Sea grain-export capacity, pushing FAO's Food Price Index up 1.9 percent in August with wheat and sugar leading; India's reopening of a four-year wheat-export ban offers only partial relief.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Certified Carbon Farming Before the Land Safeguards Were Written",
+          "summary": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived",
+          "summary": "Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing",
+          "summary": "Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The rules now decide what you may use, and for how long",
+          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Climate Policy Has Started Taking Things Away",
+          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
+          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
+          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
+          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
+          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
+          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "posture": "Prepare"
         }
       ]
     },
@@ -1059,103 +1164,6 @@
           "title": "The Institutional Ratchet",
           "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
           "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "climate-nature-food-systems",
-      "name": "Climate, Nature & Food Systems",
-      "tagline": "Nature moves onto the risk register.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
-      "latest_read": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
-      "latest_dates": {
-        "scan": "2026-09-22",
-        "tracker": "2026-08-28",
-        "di": "2026-09-03",
-        "cc": "2026-09-04"
-      },
-      "history": [
-        {
-          "date": "2026-09-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Certified Carbon Farming Before the Land Safeguards Were Written",
-          "summary": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived",
-          "summary": "Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing",
-          "summary": "Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-04",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The rules now decide what you may use, and for how long",
-          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-03",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Climate Policy Has Started Taking Things Away",
-          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
-          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
-          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
-          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
-          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
-          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
-          "posture": "Prepare"
         }
       ]
     },

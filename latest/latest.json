@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-26T11:38:09Z",
+  "generated": "2026-09-27T11:27:46Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "The CIO Inherits Accountability for Agents HR Never Onboarded",
-      "date": "2026-09-26",
-      "topic": "Workforce, Skills & Organisational Change",
-      "topic_slug": "workforce-skills-organisational-change",
+      "title": "India's Capability Centres Have Outlasted the H-1B Fee That Triggered Them",
+      "date": "2026-09-27",
+      "topic": "Demographics, Migration & Labour Markets",
+      "topic_slug": "demographics-migration-labour-markets",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-26-cio-inherits-the-agent-workforce/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-09-27-gcc-outlasts-h1b-fee/scan.html"
     },
     "change_tracker": {
       "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",

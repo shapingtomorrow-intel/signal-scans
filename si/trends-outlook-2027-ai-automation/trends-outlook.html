@@ -36,6 +36,7 @@
   .fig .cap { font-size: 0.82em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
   .items { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .item { padding: 14px 18px; border-radius: 8px; background: #fff; border: 1px solid #eef0f3; border-left: 5px solid #5a6478; display: flex; flex-direction: column; }
+  .item { scroll-margin-top: 16px; } .item:target { box-shadow: 0 0 0 3px #9fc3ff; }
   .item.decide { border-left-color: #c62828; } .item.prepare { border-left-color: #F59E0B; } .item.monitor { border-left-color: #5a6478; }
   .item h3 { margin: 2px 0 4px; font-size: 1.04em; color: #031B41; font-weight: 700; line-height: 1.35; }
   .sub-label { display: block; font-size: 0.7em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5a6478; margin: 10px 0 2px; }
@@ -163,7 +164,7 @@
 </div>
 <div class="section signals"><h2>What 2027 brings</h2><p class="section-lede">Numbered in the order the decisions fall. Red numbers need a decision now, amber next quarter, blue in the next planning cycle.</p>
 <div class="items">
-<div class="item decide">
+<div class="item decide" id="signal-1">
 <div class="dw-row"><span class="num immediate">1</span><span class="label">Decision window</span><span class="decision-window immediate">Immediate</span><span class="span">to Dec 2026</span></div>
 <h3>Websites are starting to charge AI companies to read them</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">Cloudflare, which sits in front of about a fifth of the world’s websites, now blocks AI data-gathering bots by default on many ad-supported pages and is testing payment per AI answer (<a href="https://remoteworkeurope.eu/news/2026/cloudflare-sep-15-ai-default-flip-pay-per-use/" target="_blank" rel="noopener">Remote Work Europe</a>, September 2026).</p>
@@ -171,7 +172,7 @@
 <div class="spacer"></div>
 <div class="posture-row decide"><span class="posture-pill decide">Decide</span><p>Now: live since 15 September</p><span class="who">Pass to <b>Marketing &amp; digital</b></span></div>
 </div>
-<div class="item decide">
+<div class="item decide" id="signal-2">
 <div class="dw-row"><span class="num immediate">2</span><span class="label">Decision window</span><span class="decision-window immediate">Immediate</span><span class="span">to Dec 2026</span></div>
 <h3>AI has bought up the memory chips that phones, cars and PCs need</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">Three companies make almost all the world’s memory chips and have promised years of output to AI. Prices are on course to rise more than 400% between 2024 and the end of 2026.</p>
@@ -179,7 +180,7 @@
 <div class="spacer"></div>
 <div class="posture-row decide"><span class="posture-pill decide">Decide</span><p>Now: 2027 supply deals are being agreed</p><span class="who">Pass to <b>Operations &amp; buying</b></span></div>
 </div>
-<div class="item decide">
+<div class="item decide" id="signal-3">
 <div class="dw-row"><span class="num immediate">3</span><span class="label">Decision window</span><span class="decision-window immediate">Immediate</span><span class="span">to Dec 2026</span></div>
 <h3>AI is helping attackers move faster, and AI agents have already slipped their controls</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">AI models can now turn software flaws into working attacks faster than ever, says Europe’s bank supervisor (<a href="https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf" target="_blank" rel="noopener">European Central Bank</a>, July 2026). In a UK government test, AI agents acted on the live internet without permission in 10 of 122 runs (<a href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing" target="_blank" rel="noopener">AI Security Institute</a>, August 2026).</p>
@@ -187,7 +188,7 @@
 <div class="spacer"></div>
 <div class="posture-row decide"><span class="posture-pill decide">Decide</span><p>Now: the biggest euro-area banks owe plans by 31 October</p><span class="who">Pass to <b>Security &amp; risk</b></span></div>
 </div>
-<div class="item decide">
+<div class="item decide" id="signal-4">
 <div class="dw-row"><span class="num immediate">4</span><span class="label">Decision window</span><span class="decision-window immediate">Immediate</span><span class="span">to Dec 2026</span></div>
 <h3>AI can now buy things, but nobody has decided who pays when it gets it wrong</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">Visa, Mastercard and American Express now let AI assistants buy things. The card industry’s new draft standard still does not say who pays for a mistake (<a href="https://finovate.com/emvco-releases-framework-for-card-based-agentic-payments/" target="_blank" rel="noopener">Finovate</a>, September 2026).</p>
@@ -195,7 +196,7 @@
 <div class="spacer"></div>
 <div class="posture-row decide"><span class="posture-pill decide">Decide</span><p>This Christmas, as the first disputes arrive</p><span class="who">Pass to <b>Sales &amp; payments</b></span></div>
 </div>
-<div class="item prepare">
+<div class="item prepare" id="signal-5">
 <div class="dw-row"><span class="num next-quarter">5</span><span class="label">Decision window</span><span class="decision-window next-quarter">Next quarter</span><span class="span">Jan&#8211;Mar 2027</span></div>
 <h3>Insurers are excluding AI mistakes from business cover</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">About eight in ten US business insurance policies now exclude losses caused by generative AI, and some insurers now exclude AI altogether.</p>
@@ -203,7 +204,7 @@
 <div class="spacer"></div>
 <div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>Next insurance renewal (often January 2027)</p><span class="who">Pass to <b>Risk &amp; legal</b></span></div>
 </div>
-<div class="item prepare">
+<div class="item prepare" id="signal-6">
 <div class="dw-row"><span class="num next-quarter">6</span><span class="label">Decision window</span><span class="decision-window next-quarter">Next quarter</span><span class="span">Jan&#8211;Mar 2027</span></div>
 <h3>The AI building boom is running on borrowing that is hard to see</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">The biggest tech firms are on course to spend more on AI data centres than their businesses bring in (<a href="https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow" target="_blank" rel="noopener">Epoch AI</a>, June 2026), so more is borrowed in ways that stay off headline debt figures, often from insurers and pension funds.</p>
@@ -211,7 +212,7 @@
 <div class="spacer"></div>
 <div class="posture-row prepare"><span class="posture-pill prepare">Prepare</span><p>Early-2027 company results</p><span class="who">Pass to <b>Finance &amp; investment</b></span></div>
 </div>
-<div class="item monitor">
+<div class="item monitor" id="signal-7">
 <div class="dw-row"><span class="num next-planning-cycle">7</span><span class="label">Decision window</span><span class="decision-window next-planning-cycle">Next planning cycle</span><span class="span">Apr 2027 on</span></div>
 <h3>New data centres could be first to lose power when the grid is stretched</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">Local opposition held up about $130bn of US data-centre projects in a single quarter. The largest US grid operator has proposed cutting new data centres off before homes when power runs short.</p>
@@ -219,7 +220,7 @@
 <div class="spacer"></div>
 <div class="posture-row monitor"><span class="posture-pill monitor">Monitor</span><p>June 2027, when new grid rules would start</p><span class="who">Pass to <b>Operations &amp; IT</b></span></div>
 </div>
-<div class="item prepare">
+<div class="item prepare" id="signal-8">
 <div class="dw-row"><span class="num next-planning-cycle">8</span><span class="label">Decision window</span><span class="decision-window next-planning-cycle">Next planning cycle</span><span class="span">Apr 2027 on</span></div>
 <h3>Access to the most powerful AI now runs through US government approval</h3>
 <span class="sub-label">What&#8217;s happening</span><p class="sub-block">In June a US government letter led one developer to switch off two leading AI models worldwide for more than two weeks. The newest top-tier models have since passed a government review before release.</p>

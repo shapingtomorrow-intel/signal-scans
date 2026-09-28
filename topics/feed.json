@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T09:59:20Z",
+  "generated": "2026-09-28T14:21:38Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -1042,7 +1042,7 @@
       "slug": "ai-automation",
       "name": "AI & Automation",
       "tagline": "From hype to operating model, and the risks that scale with it.",
-      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it. Also frontier safety: capability thresholds, evaluations and alignment, and what credible progress toward superintelligence would mean for governance and risk.",
+      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it. Also frontier safety and security: capability thresholds, evaluations and alignment, AI systems escaping the controls placed on them, AI-assisted cyber attack and defence, and what credible progress toward superintelligence would mean for governance and risk.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
       "latest_read": "Agentic AI browsers shipped to the public before their core security problem was solved. Within five months of 2026, both product design (OpenAI's retreat from its standalone Atlas browser) and...",

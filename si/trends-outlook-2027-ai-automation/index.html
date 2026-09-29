@@ -94,6 +94,24 @@
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
   @media (max-width: 700px) { .fig { overflow-x: auto; -webkit-overflow-scrolling: touch; } .fig svg { min-width: 720px; } .fig .cap::before { content: 'Swipe sideways to see the whole diagram. '; font-style: normal; font-weight: 600; } body { padding: 16px; } .items { grid-template-columns: 1fr; } .scorecard .tiles { grid-template-columns: repeat(2, 1fr); } .synth-header { flex-direction: column; } .scan-logo { width: 160px; } }
   @media print { .item, .fig, .bottom-line { break-inside: avoid; } .items { display: block; } .item { margin: 0 0 12px; } }
+
+  /* How this was made (added 29 September 2026) */
+  .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
+  .method-line a { color: #1a237e; font-weight: 600; text-decoration: none; border-bottom: 1px solid #c5cae9; }
+  .method-line a:hover { border-bottom-color: #1a237e; }
+  .meta .method-line { display: block; margin: 4px 0 0; }
+  .method-card { background: #f8f9fb; border: 1px solid #e3e7ee; border-left: 4px solid #1a237e; border-radius: 8px;
+                 padding: 14px 20px; margin: 28px 0 14px; color: #2c3e50; line-height: 1.5; }
+  .method-card .method-eyebrow { font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+                                 color: #5a6478; margin: 0 0 4px; }
+  .method-card .method-name { font-size: 1.05em; font-weight: 700; margin: 0 0 4px; }
+  .method-card .method-name a { color: #1a237e; text-decoration: none; }
+  .method-card p { margin: 0 0 8px; }
+  .method-card .method-stages { font-size: 0.86em; color: #5a6478; }
+  .method-card .method-stages a { color: #1a237e; text-decoration: underline; text-decoration-color: #c5cae9; text-underline-offset: 2px; }
+  .method-card .method-stages a:hover { text-decoration-color: #1a237e; }
+  .method-card .method-more { font-weight: 600; color: #1a237e; text-decoration: none; font-size: 0.92em; }
+  .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -102,6 +120,7 @@
 <h1>You Don’t Have to Use AI to Be Caught by It in 2027</h1>
 <p class="meta-line">Edition 1. One topic a week to Christmas, looking ahead to 2027 and beyond from a year of our deliverables.</p>
 <p class="lede">In 2027 AI will catch businesses that have never built an AI product. It will reach them through insurance policies, power and chip supplies, payment rules, government approvals and attackers who now use it. Below are eight developments we flagged during 2026, when each is likely to reach your desk, and who should take the decision.</p>
+<p class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.</p>
 <div class="section timing"><h2>The dates to watch</h2><p class="section-lede">When each decision lands, and who to tell. The colour of each number shows how soon.</p>
 <div class="fig"><svg viewBox="0 56 860 354" role="img" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" xmlns="http://www.w3.org/2000/svg" aria-label="A horizontal line with eight numbered stops, one per decision in the order they fall, evenly spaced and labelled alternately above and below with a date, the event and the team to tell. Stops are red for immediate decisions, amber for next quarter and blue for the next planning cycle. The line ends in a grey stop marked 2028.">
 <line x1="70" y1="196" x2="758" y2="196" stroke="#d6dfee" stroke-width="10" stroke-linecap="round"/>
@@ -398,6 +417,7 @@
 <span class="chip new"><span class="dot"></span>8 sources checked, September 2026</span>
 </div></div>
 
+<div class="method-card"><div class="method-eyebrow">How this was made</div><p class="method-name"><a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">The Decision-Grade Intelligence Method</a></p><p>Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence.</p><p class="method-stages"><a href="https://www.shapingtomorrow.com/methodology#stage-scan" target="_blank" rel="noopener">Scan</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-filter" target="_blank" rel="noopener">Filter</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-stresstest" target="_blank" rel="noopener">Stress-test</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-judge" target="_blank" rel="noopener">Judge</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-trigger" target="_blank" rel="noopener">Trigger</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-brief" target="_blank" rel="noopener">Actionable Intelligence</a></p><p><a class="method-more" href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">See full methodology &rarr;</a></p></div>
 <div class="programme-footer">
 <p>This Trends Outlook reads back across a year of a Shaping Tomorrow intelligence cycle on <strong>AI &amp; Automation</strong>: the weekly Signal Scans that identified emerging developments and weak signals, the monthly Change Trackers that assessed what was shifting in momentum, the quarterly Decision Intelligence briefings that converted the cycle into board-level strategic implications, and the Action Triggers that closed each cycle. It surfaces what the year's work caught before consensus formed, and where each signal lands next. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
 <div class="programme-ctas">

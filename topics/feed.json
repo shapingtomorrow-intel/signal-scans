@@ -1,7 +1,264 @@
 {
-  "generated": "2026-09-29T13:35:38Z",
+  "generated": "2026-09-29T14:43:59Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "geopolitics-economic-fragmentation",
+      "name": "Geopolitics & Economic Fragmentation",
+      "tagline": "Operating where consensus is gone.",
+      "description": "Political risk and the fracturing of the world economy. Elections and policy reversals, unstable governments, coups and civil unrest, sanctions, expropriation and resource nationalism, and the erosion of the rule of law that contracts depend on. Alongside it, decoupling, industrial-policy capital, middle-power hedging and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
+      "latest_read": "Refining states are metering diesel exports, leaving importers to bid for what is left. Russia's rolling bans, China's inventory-conditional permissions, India's fortnightly export levy and a US ban...",
+      "latest_dates": {
+        "scan": "2026-09-23",
+        "tracker": "2026-09-04",
+        "di": "2026-10-01",
+        "cc": "2026-07-30"
+      },
+      "history": [
+        {
+          "date": "2026-10-01",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Diesel, Allies and the New World Order",
+          "summary": "The war with Iran has cut the fuel coming out of the Middle East, and diesel is where the shortage bites hardest. Global stocks fell by 507 million barrels between February and August (IEA, Sep 2026).",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Refining States Are Metering Diesel Exports, Leaving Importers to Bid for the Remainder",
+          "summary": "Refining states are metering diesel exports, leaving importers to bid for what is left. Russia's rolling bans, China's inventory-conditional permissions, India's fortnightly export levy and a US ban...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "US Trade Blacklists Now Decide Who a Federally Funded Scientist May Work With",
+          "summary": "US trade blacklists now decide who a federally funded scientist may work with. From FY2027 the NSF bars its funds from any collaboration with entities on twelve restricted-party lists, the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Voluntary Top-Up: Carbon Border Recognition as a Design Brief for Third-Country Carbon Markets",
+          "summary": "Carbon border recognition has become the design brief for other countries' carbon markets. Britain published a list of 16 qualifying schemes while the EU prices each consignment, and Turkiye's new...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
+          "summary": "Fourth cycle. Coercion fell inside the bloc: the first use of Section 338 put 50% duties on about $20 billion of Canadian goods from 22 August, talks collapsed and Canada set 8 September for dollar-for-dollar retaliation, so a new signal enters the register.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "China Has Turned Its Export Control List Into a Standing Reciprocity Machine",
+          "summary": "China now answers each Western entity listing with a matched list of its own, within days and in the same numbers.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "One Metal, Two Prices: The Western Rare Earth Premium Is Being Written into 15-Year Contracts",
+          "summary": "The same kilogram of rare earth now has two prices depending on the buyer's bloc. Government floor-price offtakes and G7 mechanisms are contracting the ex-China premium, around five times Chinese...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rationed, Not Taxed: The Volume Cap Returns as Europe's Trade Instrument",
+          "summary": "Trade protection is being rationed by volume rather than priced by tariff. The EU's steel regime from 1 July 2026 caps duty-free imports at 18.3 million tonnes with a 50 percent out-of-quota duty...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Capital Without Concrete: Why the Investment Rebound Has Not Reached the Ground",
+          "summary": "The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-07",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
+          "summary": "Third cycle. The EU's 21st Russia package, adopted 23 July 2026, carried 218 designations, the largest round in four years, froze the oil price cap at USD 44.10 and created the first third-country...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
+          "summary": "US tariffs are being re-founded as an earn-down lattice: statutory, sector-by-sector rates that partners lower by copying American rules.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-30",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The Tariff Was the Decoy",
+          "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
+          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer the Dollar Blinked",
+          "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet",
+          "summary": "Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers",
+          "summary": "Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Managed Trade Returns: How Market Access Became a Negotiated, Conditional Privilege",
+          "summary": "Beneath the tariff-war headlines, the US-led trade order is being rebuilt as 'managed trade': market access is bought with quantitative purchase and investment pledges (more than $5 trillion) and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff coercion broadens and central-bank gold turns; the dollar erodes only at the edges",
+          "summary": "Edition 2. Economic coercion broadens as USTR Section 301 tariffs reach 99.4 percent of US imports and the EU activates its anti-circumvention tool; central-bank gold buying reverses from fading to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Made Where, Exactly: How Rules of Origin Became the New Front in US-China Decoupling",
+          "summary": "Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort",
+          "summary": "The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
+          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
+          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
+          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
+          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
+          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Operating Where Consensus Is Gone",
+          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
+          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Stacks, Two Markets",
+          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the G20 Fracture",
+          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Institutional Ratchet",
+          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "energy-infrastructure-climate-resilience",
       "name": "Energy, Infrastructure & Climate Resilience",
@@ -306,7 +563,7 @@
       "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
-      "latest_read": "The ISSB calls its nature Practice Statement voluntary, but IFRS S1 already requires material nature disclosure.",
+      "latest_read": "An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules.",
       "latest_dates": {
         "scan": "2026-09-29",
         "tracker": "2026-09-25",
@@ -319,7 +576,7 @@
           "kind": "scan",
           "type": "Signal Scan",
           "title": "The ISSB Calls Its Nature Rules Voluntary While IFRS S1 Already Requires the Disclosure",
-          "summary": "The ISSB calls its nature Practice Statement voluntary, but IFRS S1 already requires material nature disclosure.",
+          "summary": "An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules.",
           "posture": "Prepare"
         },
         {
@@ -2231,255 +2488,6 @@
           "type": "Decision Intelligence",
           "title": "Hard Power, Soft Frontiers",
           "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "geopolitics-economic-fragmentation",
-      "name": "Geopolitics & Economic Fragmentation",
-      "tagline": "Operating where consensus is gone.",
-      "description": "Political risk and the fracturing of the world economy. Elections and policy reversals, unstable governments, coups and civil unrest, sanctions, expropriation and resource nationalism, and the erosion of the rule of law that contracts depend on. Alongside it, decoupling, industrial-policy capital, middle-power hedging and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
-      "latest_read": "Refining states are metering diesel exports, leaving importers to bid for what is left. Russia's rolling bans, China's inventory-conditional permissions, India's fortnightly export levy and a US ban...",
-      "latest_dates": {
-        "scan": "2026-09-23",
-        "tracker": "2026-09-04",
-        "di": "2026-07-29",
-        "cc": "2026-07-30"
-      },
-      "history": [
-        {
-          "date": "2026-09-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Refining States Are Metering Diesel Exports, Leaving Importers to Bid for the Remainder",
-          "summary": "Refining states are metering diesel exports, leaving importers to bid for what is left. Russia's rolling bans, China's inventory-conditional permissions, India's fortnightly export levy and a US ban...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "US Trade Blacklists Now Decide Who a Federally Funded Scientist May Work With",
-          "summary": "US trade blacklists now decide who a federally funded scientist may work with. From FY2027 the NSF bars its funds from any collaboration with entities on twelve restricted-party lists, the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Voluntary Top-Up: Carbon Border Recognition as a Design Brief for Third-Country Carbon Markets",
-          "summary": "Carbon border recognition has become the design brief for other countries' carbon markets. Britain published a list of 16 qualifying schemes while the EU prices each consignment, and Turkiye's new...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
-          "summary": "Fourth cycle. Coercion fell inside the bloc: the first use of Section 338 put 50% duties on about $20 billion of Canadian goods from 22 August, talks collapsed and Canada set 8 September for dollar-for-dollar retaliation, so a new signal enters the register.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "China Has Turned Its Export Control List Into a Standing Reciprocity Machine",
-          "summary": "China now answers each Western entity listing with a matched list of its own, within days and in the same numbers.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "One Metal, Two Prices: The Western Rare Earth Premium Is Being Written into 15-Year Contracts",
-          "summary": "The same kilogram of rare earth now has two prices depending on the buyer's bloc. Government floor-price offtakes and G7 mechanisms are contracting the ex-China premium, around five times Chinese...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rationed, Not Taxed: The Volume Cap Returns as Europe's Trade Instrument",
-          "summary": "Trade protection is being rationed by volume rather than priced by tariff. The EU's steel regime from 1 July 2026 caps duty-free imports at 18.3 million tonnes with a 50 percent out-of-quota duty...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-12",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Capital Without Concrete: Why the Investment Rebound Has Not Reached the Ground",
-          "summary": "The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-07",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
-          "summary": "Third cycle. The EU's 21st Russia package, adopted 23 July 2026, carried 218 designations, the largest round in four years, froze the oil price cap at USD 44.10 and created the first third-country...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
-          "summary": "US tariffs are being re-founded as an earn-down lattice: statutory, sector-by-sector rates that partners lower by copying American rules.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-30",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The Tariff Was the Decoy",
-          "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
-          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer the Dollar Blinked",
-          "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet",
-          "summary": "Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers",
-          "summary": "Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Managed Trade Returns: How Market Access Became a Negotiated, Conditional Privilege",
-          "summary": "Beneath the tariff-war headlines, the US-led trade order is being rebuilt as 'managed trade': market access is bought with quantitative purchase and investment pledges (more than $5 trillion) and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Tariff coercion broadens and central-bank gold turns; the dollar erodes only at the edges",
-          "summary": "Edition 2. Economic coercion broadens as USTR Section 301 tariffs reach 99.4 percent of US imports and the EU activates its anti-circumvention tool; central-bank gold buying reverses from fading to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Made Where, Exactly: How Rules of Origin Became the New Front in US-China Decoupling",
-          "summary": "Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort",
-          "summary": "The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
-          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
-          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-05",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
-          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
-          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
-          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Operating Where Consensus Is Gone",
-          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
-          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two Stacks, Two Markets",
-          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the G20 Fracture",
-          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Institutional Ratchet",
-          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
           "posture": ""
         }
       ]

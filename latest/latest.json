@@ -1,14 +1,14 @@
 {
-  "generated": "2026-09-29T08:35:20Z",
+  "generated": "2026-09-30T08:39:17Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Europe's 2028 Switchgear Gas Ban Would Leave Grid Operators One EU-Based Supplier",
-      "date": "2026-09-29",
-      "topic": "Energy, Infrastructure & Climate Resilience",
-      "topic_slug": "energy-infrastructure-climate-resilience",
+      "title": "Niger's US Uranium Loan Turns Political Risk into a Queue of Sovereign Consents",
+      "date": "2026-09-30",
+      "topic": "Geopolitics & Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-29-switchgear-gas-ban-one-supplier/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-30-queue-of-sovereign-consents/scan.html"
     },
     "change_tracker": {
       "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",
@@ -19,13 +19,13 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/climate-nature-food-systems/2026-09-25/tracker.html"
     },
     "decision_intelligence": {
-      "title": "Where Your Money Will Live in 2030",
-      "date": "2026-09-24",
-      "topic": "Financial Services & Future of Money",
-      "topic_slug": "financial-services-future-of-money",
+      "title": "Diesel, Allies and the New World Order",
+      "date": "2026-10-01",
+      "topic": "Geopolitics & Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "",
-      "company": "Financial Services & Future of Money",
-      "url": "https://decision-intel.shapingtomorrow.com/si/where-your-money-will-live-in-2030/"
+      "company": "geopolitics-economic-fragmentation-sample",
+      "url": "https://decision-intel.shapingtomorrow.com/si/diesel-allies-and-the-new-world-order/"
     },
     "action_triggers": {
       "title": "Money left the bank. Its protections stayed behind.",

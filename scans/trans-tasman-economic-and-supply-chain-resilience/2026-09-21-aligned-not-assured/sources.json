@@ -186,5 +186,77 @@
     "verbatim_quote": null,
     "verbatim_list": null,
     "notes": "Tier 3 corroboration of the region-wide turn to precautionary supply arrangements. Carried as faithful summary rather than verbatim because the host frequently refuses automated fetches, and a quote the provenance gate cannot reach would need an override."
+  },
+  {
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "verbatim_list": [
+      "to prevent or relieve critical shortages of foodstuffs or other essential goods"
+    ],
+    "verbatim_quote": "A Member State shall not impose new quantitative export restrictions or intensify existing quantitative export restrictions on the export of goods to the territory of the other Member State.",
+    "url": "https://www.dfat.gov.au/sites/default/files/anzcerta1.pdf",
+    "publisher": "Department of Foreign Affairs and Trade (DFAT, dfat.gov.au)",
+    "title": "Australia New Zealand Closer Economic Relations Trade Agreement (ANZCERTA), treaty text",
+    "tier": 1,
+    "publication_date": "1983-03-28",
+    "date_source": "pdf:titlepage",
+    "date_evidence": "Treaty text signed at Canberra on 28 March 1983; entry into force 1 January 1983",
+    "verified_at": "2026-09-30T07:41:12Z",
+    "date_age_band": "structural-anchor",
+    "key_claim": "Article 8(2) bars either country from imposing new or intensifying existing quantitative export restrictions on goods exported to the other; Article 18(f) lets either adopt measures necessary to prevent or relieve critical shortages of foodstuffs or other essential goods, provided they are not arbitrary or unjustified discrimination or a disguised restriction on trade.",
+    "frame_summary": "The treaty keeps trans-Tasman exports open in normal times while preserving each government's right to protect its own market in a critical shortage of essential goods.",
+    "claim_strength": "verbatim",
+    "notes": "Standing law, carried as a structural anchor. Added in the revision of 30 September 2026, which corrected the first version's claim that no trans-Tasman text commits either country not to restrict exports to the other. Added to this scan in the revision of 30 September 2026."
+  },
+  {
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "verbatim_list": [
+      "The Protocol reflects the priority we accord each other with respect to trade in essential supplies including petroleum oils, such as diesel, and liquefied natural gas."
+    ],
+    "verbatim_quote": "endeavouring not to adopt export prohibitions or restrictions on essential supplies between us",
+    "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/protocol-on-economic-resilience-and-essential-supplies/",
+    "publisher": "Ministry of Foreign Affairs Singapore (MFA, mfa.gov.sg)",
+    "title": "Protocol on Economic Resilience and Essential Supplies",
+    "tier": 1,
+    "publication_date": "2026-04-17",
+    "date_source": "byline",
+    "date_evidence": "Press statement dated 17 April 2026",
+    "verified_at": "2026-09-30T07:44:38Z",
+    "date_age_band": "0-6m",
+    "key_claim": "Singapore and Australia substantially concluded a Protocol on Economic Resilience and Essential Supplies reflecting the priority each accords the other in trade in essential supplies including diesel and LNG, with the parties endeavouring not to adopt export prohibitions or restrictions on essential supplies between them; it enters into force when both complete domestic processes.",
+    "frame_summary": "Singapore presents the protocol as mutual priority in essential supplies, framed as best endeavours rather than an unconditional guarantee of supply.",
+    "claim_strength": "verbatim",
+    "notes": "Added 30 September 2026. The first version omitted Australia's protocol with Singapore. Added to this scan in the revision of 30 September 2026."
+  },
+  {
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "verbatim_list": [
+      "establishes the Australia-Singapore Economic Resilience Dialogue"
+    ],
+    "verbatim_quote": "Singapore is Australia's largest fuel supplier, providing 55 per cent of Australia's petrol, 15 per cent of its diesel and 23 per cent of its aviation fuel",
+    "url": "https://www.foreignminister.gov.au/minister/penny-wong/media-release/australia-and-singapore-sign-landmark-protocol-economic-resilience-and-essential-supplies",
+    "publisher": "Australian Minister for Foreign Affairs (foreignminister.gov.au)",
+    "title": "Australia and Singapore sign landmark Protocol on Economic Resilience and Essential Supplies",
+    "tier": 1,
+    "publication_date": "2026-07-27",
+    "date_source": "byline",
+    "date_evidence": "Media release dated 27 July 2026",
+    "verified_at": "2026-09-30T07:46:05Z",
+    "date_age_band": "0-6m",
+    "key_claim": "Australia and Singapore signed the Protocol on 27 July 2026 to bolster the security of essential supplies including petrol and keep trade flowing during disruption; Singapore is Australia's largest fuel supplier, providing 55 per cent of its petrol, 15 per cent of its diesel and 23 per cent of its aviation fuel; the Protocol establishes an Australia-Singapore Economic Resilience Dialogue.",
+    "frame_summary": "Australia frames the protocol as securing supply from its largest fuel supplier and keeping trade flowing in disruption, through a standing dialogue.",
+    "claim_strength": "verbatim",
+    "notes": "Added 30 September 2026. Also published on the Trade Minister's and Defence Minister's sites. Added to this scan in the revision of 30 September 2026."
   }
 ]

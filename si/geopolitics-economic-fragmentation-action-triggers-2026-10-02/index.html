@@ -55,6 +55,15 @@
   .item .sub-block { margin: 0 0 4px; font-size: 0.95em; color: #2c3e50; }
   .item ul.evidence-list { margin: 6px 0 0; padding-left: 20px; font-size: 0.92em; color: #2c3e50; }
   .item ul.evidence-list li { margin-bottom: 4px; line-height: 1.5; }
+  /* Review conditions as signposts (baked 30 September 2026): each li is one "If ..." sentence
+     with a move pill in front. Pills reuse the posture colours; no new colours. */
+  .item ul.signposts { list-style: none; margin: 6px 0 0; padding: 0; font-size: 0.92em; color: #2c3e50; }
+  .item ul.signposts li { margin: 0 0 6px; line-height: 1.5; padding-left: 0; }
+  .sp-move { display: inline-block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+             padding: 1px 8px; border-radius: 12px; margin-right: 6px; vertical-align: middle; border: 1.5px solid; background: #fff; white-space: nowrap; }
+  .sp-move.up { color: #c62828; border-color: #c62828; }
+  .sp-move.side { color: #b45309; border-color: #F59E0B; }
+  .sp-move.down { color: #5a6478; border-color: #5a6478; }
   .item .anchor-strip { display: flex; flex-wrap: wrap; gap: 18px; margin: 10px 0 6px; padding: 8px 12px; background: #f6f8fc; border-radius: 6px; font-size: 0.85em; }
   .item .anchor-strip .anchor { display: inline-flex; align-items: baseline; gap: 6px; }
   .item .anchor-strip .anchor .label { font-weight: 700; color: #5a6478; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85em; }
@@ -443,7 +452,11 @@
 </ul>
 
 <span class="sub-label">Review conditions</span>
-<p class="sub-block">This recommendation should be reviewed if Washington imposes a formal ban or cap, which would move it to emergency allocation, if exports recover and a ban is ruled out after the elections, or if the Strait of Hormuz reopens and exporters lift their curbs.</p>
+<ul class="signposts">
+<li><span class="sp-move up">Escalate</span>If Washington imposes a formal ban or cap on diesel exports, by executive order or rule, at any level, move to emergency allocation across operations.</li>
+<li><span class="sp-move down">Stand down</span>If weekly US diesel exports recover above their March level and the administration rules out a ban after 3 November, release the term supply as it expires.</li>
+<li><span class="sp-move down">Stand down</span>If the Strait of Hormuz reopens and two or more of the metering exporters lift their curbs in the same quarter, return to spot purchasing.</li>
+</ul>
 </div>
 
 <div class="item">
@@ -469,7 +482,11 @@
 </ul>
 
 <span class="sub-label">Review conditions</span>
-<p class="sub-block">This recommendation should be reviewed if the 22nd package passes without a Chinese response, which would narrow its scope, if a fourth jurisdiction copies the steel quota design or an allied funder adopts the US lists, which would raise it to Decide, or if a trade panel rules the steel quotas unlawful.</p>
+<ul class="signposts">
+<li><span class="sp-move up">Raise to Decide</span>If a fourth jurisdiction adopts a volume quota with a fixed reference period, or an allied research funder adopts the US restricted-party lists by reference, give the map a budget line and a named owner this quarter.</li>
+<li><span class="sp-move side">Scale back</span>If the 22nd EU package is adopted and MOFCOM has not listed a European entity within 30 days, drop the China-response screen from the map.</li>
+<li><span class="sp-move side">Scale back</span>If a WTO or bilateral panel rules the EU or UK steel quotas unlawful, remove quota allocation from the map and watch the compensation route instead.</li>
+</ul>
 </div>
 
 <div class="item">
@@ -494,7 +511,11 @@
 </ul>
 
 <span class="sub-label">Review conditions</span>
-<p class="sub-block">This recommendation should be reviewed if US-Canada talks resume and the 50% duties are lifted, if the EU-Australia agreement stalls in ratification, or if European elections in 2027 bring governments that pull back from the new partnerships.</p>
+<ul class="signposts">
+<li><span class="sp-move side">Scale back</span>If US-Canada talks resume and the Section 338 duties are lifted in full, keep the second route as an option rather than a plan.</li>
+<li><span class="sp-move side">Scale back</span>If the EU-Australia agreement misses ratification by the end of 2027, re-plan capacity around the Pacific pact and the EU-Korea agreement only.</li>
+<li><span class="sp-move down">Stand down</span>If two or more of the partner governments elected in 2027 withdraw from a signed agreement, stop the partnership route and return to the control map alone.</li>
+</ul>
 </div>
 
 <div class="item">
@@ -518,7 +539,10 @@
 </ul>
 
 <span class="sub-label">Review conditions</span>
-<p class="sub-block">Reinstate this as Prepare if another state lender announces staged, consent-linked cover for a Sahel mine by mid-2027. Stand it down if the Benin-Niger border reopens with no limit on strategic products and the Niger loan is drawn on schedule.</p>
+<ul class="signposts">
+<li><span class="sp-move up">Raise to Prepare</span>If a second state lender publishes consent-linked disbursement conditions for a Sahel mine before 30 June 2027, map every sovereign act in each exposure and price delay.</li>
+<li><span class="sp-move down">Stand down</span>If the Benin-Niger border reopens with uranium named in the transit terms and the Niger loan records a first drawdown, return to the standard country-risk model.</li>
+</ul>
 </div>
 
 <div class="item">
@@ -542,7 +566,11 @@
 </ul>
 
 <span class="sub-label">Review conditions</span>
-<p class="sub-block">Reinstate this as Prepare if the dollar's reserve share falls back below 57% in the second-quarter data, or if BRICS payment links go live. Stand it down if the share holds above 57% for four consecutive quarters.</p>
+<ul class="signposts">
+<li><span class="sp-move up">Raise to Prepare</span>If the dollar's share of allocated reserves falls below 57% in the IMF's second-quarter release, reopen the July diversification case.</li>
+<li><span class="sp-move up">Raise to Prepare</span>If a BRICS fast-payment or CBDC link goes live between two central banks, test the non-dollar fallback against the live link.</li>
+<li><span class="sp-move down">Stand down</span>If the dollar's share holds above 57% for four consecutive quarterly releases, retire this item from the register.</li>
+</ul>
 </div>
 <!-- end: actions_items -->
 </section>

@@ -1,7 +1,280 @@
 {
-  "generated": "2026-10-01T15:17:27Z",
+  "generated": "2026-10-02T07:56:13Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
+    {
+      "slug": "defence-security-resilience",
+      "name": "Defence, Security & Resilience",
+      "tagline": "Past financing. Into the supplier base.",
+      "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
+      "latest_read": "EU defence money becomes named projects while the posture review scores allies",
+      "latest_dates": {
+        "scan": "2026-09-30",
+        "tracker": "2026-10-02",
+        "di": "2026-08-27",
+        "cc": "2026-08-28"
+      },
+      "history": [
+        {
+          "date": "2026-10-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "EU defence money becomes named projects while the posture review scores allies",
+          "summary": "Fifth cycle. The Council identified the first five European Defence Projects of Common Interest on 28 September, now eligible for EDIP funding, and the Commission approved five exceptions to the Ukraine loan's procurement rules so Ukraine's own drones can be bought.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The US Pays Retainers on 60 Ships While NATO Still Assumes Commercial Shipping Will Turn Up",
+          "summary": "NATO's reinforcement plan assumes commercial ships and crews will be available, while the US pays retainers on 60 ships.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Germany's Reserve Bill Ends the Employer Veto and Books No Cost to Business",
+          "summary": "Germany's reserve bill moves the cost of mobilisation onto employers while booking no cost to business. The Reserve Strengthening Act ends employer consent to call-ups from early 2027, its impact...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Guarding Europe's New Arms Plants Has Been Left to the Firms That Own Them",
+          "summary": "Guarding Europe's new drone and munitions plants has been left to the firms that own them. After the August and September arson cases, Poland promised patrols and recommendations, Denmark's PET told...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Waiver Becomes a Plan: Defence Sourcing Turns on Funded Qualification from January 2027",
+          "summary": "Non-availability stops being a defence for US contractors on 1 January 2027. Executive Order 14415 replaces the waiver with a funded second-source qualification plan and an indentured bill of...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Incursions multiply on the eastern flank; Washington sends allies a questionnaire",
+          "summary": "Fourth cycle. Russian drones breached Romanian airspace more often in the first eight months of 2026 than in the previous four years combined, with four shot down by 17 August, and the North Atlantic Council met on 12 August on the violations.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Deniable Sabotage Falls Between the War Clause and the Terrorism Pool",
+          "summary": "Deniable state-linked sabotage of European infrastructure now falls between the war clause and the terrorism pool, uninsured by default.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-28",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Defence spending slowed. The claims on civil capacity did not.",
+          "summary": "Money stopped being the accelerant. The binding gates moved above the factory, into who may be recruited, who may build, who owns the repair data and which hospital takes the wounded.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-27",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "You Don't Have to Be in Defence to Be Caught by It",
+          "summary": "Two cycles ago this briefing argued that defence had stopped being a sector. In June it argued that the binding constraint had dropped from money to factories.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Missing Ledger: NATO's 1.5% Tier Goes Unmeasured While Its Perimeter Widens",
+          "summary": "Nearly a third of NATO's 5% pledge sits in a tier nobody measures. The 1.5% defence-related category has no agreed definition or NATO reporting, and the EU's parallel fiscal flexibility for defence...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "One Thousand a Day: The Casualty Plan That Lands on Civilian Hospitals",
+          "summary": "Europe's casualty plan is being written into civilian hospital law. Germany's Gesundheitssicherstellungsgesetz, due in draft in September 2026, would distribute up to a thousand wounded a day...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Booking the Range: Test Access Now Sets the Pace of Defence Delivery",
+          "summary": "Access to test slots and qualification approvals now sets the pace of defence delivery, not capital. Booking a US Army range had been taking companies up to 18 months, and Europe is attacking the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-07",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Counter-drone billions land at Ankara as the spending curve flattens",
+          "summary": "Third cycle. NATO's Ankara summit attached more than 40 billion dollars to counter-drone capability over five years plus a marketplace of tested systems, and the Commission proposed five European Defence Projects of Common Interest with 325 million euro allocated.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The €190 Billion Shortlist: Brussels Starts Picking Europe’s Defence Programmes",
+          "summary": "The EU has begun designating defence capabilities as 'projects of common interest', importing its infrastructure playbook into military planning.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Repair Manual Is the Asset: Defence Data Rights Flip to a Government Default",
+          "summary": "Who owns the repair data is becoming the binding constraint on defence readiness, not how much is spent. The FY27 Senate NDAA would make government-purpose rights the default for technical data and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Silence Means Yes: The EU Suspends Its Precautionary Default for Defence",
+          "summary": "The EU has inverted its permitting default for defence: a project application not decided on deadline is now tacitly approved.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace",
+          "summary": "Beneath the 'drone wall' consensus that Europe's drone problem is one of hardware and spending, the binding constraint is engagement authority: the nationally-set legal question of who may lawfully...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Manpower Before Materiel: Europe's Rearmament Runs Into the Soldier It Cannot Recruit",
+          "summary": "Beneath the consensus that European rearmament is a solved spending problem, the binding constraint has shifted from money to trained people: recruitment and retention are failing (Germany drew...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Drones and capital accelerate; Washington's guarantee thins further",
+          "summary": "Edition 2. Counter-drone defence and record private capital lead the accelerators; Ukrainian production scaling into Europe becomes a tracked signal; the US guarantee thins further with a six-month...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The money cleared. The shop floor did not.",
+          "summary": "Money is no longer the binding constraint on European defence; supplier absorption is, and the unlock is the credibility of the demand signal.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-02",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Defence Meets Industrial Reality",
+          "summary": "The May briefing called the 1.5% security band the cycle's commercial spine. Six weeks on, the spending has cleared, but the supplier base, mid-tier components, procurement law and skilled-welder pool to absorb it have not.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Backup Nobody Owns: How GPS Jamming Is Making Timing Resilience a Civil-Infrastructure Duty",
+          "summary": "Persistent GNSS jamming and spoofing are converting positioning-navigation-timing resilience from a military and aviation-safety concern into a budgeted civil critical-infrastructure obligation, as...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire",
+          "summary": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
+          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
+          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Europe's rearmament accelerates as the US security guarantee fades",
+          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
+          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
+          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
+          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Vulnerability Triage Era",
+          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Drones as First Responders",
+          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-13",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Hard Power, Soft Frontiers",
+          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
+          "posture": ""
+        }
+      ]
+    },
     {
       "slug": "geopolitics-economic-fragmentation",
       "name": "Geopolitics & Economic Fragmentation",
@@ -817,271 +1090,6 @@
           "type": "Signal Scan",
           "title": "The Broken Rung",
           "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "defence-security-resilience",
-      "name": "Defence, Security & Resilience",
-      "tagline": "Past financing. Into the supplier base.",
-      "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
-      "latest_read": "NATO's reinforcement plan assumes commercial ships and crews will be available, while the US pays retainers on 60 ships.",
-      "latest_dates": {
-        "scan": "2026-09-30",
-        "tracker": "2026-09-04",
-        "di": "2026-08-27",
-        "cc": "2026-08-28"
-      },
-      "history": [
-        {
-          "date": "2026-09-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The US Pays Retainers on 60 Ships While NATO Still Assumes Commercial Shipping Will Turn Up",
-          "summary": "NATO's reinforcement plan assumes commercial ships and crews will be available, while the US pays retainers on 60 ships.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Germany's Reserve Bill Ends the Employer Veto and Books No Cost to Business",
-          "summary": "Germany's reserve bill moves the cost of mobilisation onto employers while booking no cost to business. The Reserve Strengthening Act ends employer consent to call-ups from early 2027, its impact...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Guarding Europe's New Arms Plants Has Been Left to the Firms That Own Them",
-          "summary": "Guarding Europe's new drone and munitions plants has been left to the firms that own them. After the August and September arson cases, Poland promised patrols and recommendations, Denmark's PET told...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Waiver Becomes a Plan: Defence Sourcing Turns on Funded Qualification from January 2027",
-          "summary": "Non-availability stops being a defence for US contractors on 1 January 2027. Executive Order 14415 replaces the waiver with a funded second-source qualification plan and an indentured bill of...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Incursions multiply on the eastern flank; Washington sends allies a questionnaire",
-          "summary": "Fourth cycle. Russian drones breached Romanian airspace more often in the first eight months of 2026 than in the previous four years combined, with four shot down by 17 August, and the North Atlantic Council met on 12 August on the violations.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Deniable Sabotage Falls Between the War Clause and the Terrorism Pool",
-          "summary": "Deniable state-linked sabotage of European infrastructure now falls between the war clause and the terrorism pool, uninsured by default.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-28",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Defence spending slowed. The claims on civil capacity did not.",
-          "summary": "Money stopped being the accelerant. The binding gates moved above the factory, into who may be recruited, who may build, who owns the repair data and which hospital takes the wounded.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-27",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "You Don't Have to Be in Defence to Be Caught by It",
-          "summary": "Two cycles ago this briefing argued that defence had stopped being a sector. In June it argued that the binding constraint had dropped from money to factories.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Missing Ledger: NATO's 1.5% Tier Goes Unmeasured While Its Perimeter Widens",
-          "summary": "Nearly a third of NATO's 5% pledge sits in a tier nobody measures. The 1.5% defence-related category has no agreed definition or NATO reporting, and the EU's parallel fiscal flexibility for defence...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "One Thousand a Day: The Casualty Plan That Lands on Civilian Hospitals",
-          "summary": "Europe's casualty plan is being written into civilian hospital law. Germany's Gesundheitssicherstellungsgesetz, due in draft in September 2026, would distribute up to a thousand wounded a day...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-12",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Booking the Range: Test Access Now Sets the Pace of Defence Delivery",
-          "summary": "Access to test slots and qualification approvals now sets the pace of defence delivery, not capital. Booking a US Army range had been taking companies up to 18 months, and Europe is attacking the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-07",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Counter-drone billions land at Ankara as the spending curve flattens",
-          "summary": "Third cycle. NATO's Ankara summit attached more than 40 billion dollars to counter-drone capability over five years plus a marketplace of tested systems, and the Commission proposed five European Defence Projects of Common Interest with 325 million euro allocated.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The €190 Billion Shortlist: Brussels Starts Picking Europe’s Defence Programmes",
-          "summary": "The EU has begun designating defence capabilities as 'projects of common interest', importing its infrastructure playbook into military planning.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Repair Manual Is the Asset: Defence Data Rights Flip to a Government Default",
-          "summary": "Who owns the repair data is becoming the binding constraint on defence readiness, not how much is spent. The FY27 Senate NDAA would make government-purpose rights the default for technical data and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Silence Means Yes: The EU Suspends Its Precautionary Default for Defence",
-          "summary": "The EU has inverted its permitting default for defence: a project application not decided on deadline is now tacitly approved.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Authority Gap: Europe's Counter-Drone Defence Hinges on Who May Fire Over Domestic Airspace",
-          "summary": "Beneath the 'drone wall' consensus that Europe's drone problem is one of hardware and spending, the binding constraint is engagement authority: the nationally-set legal question of who may lawfully...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Manpower Before Materiel: Europe's Rearmament Runs Into the Soldier It Cannot Recruit",
-          "summary": "Beneath the consensus that European rearmament is a solved spending problem, the binding constraint has shifted from money to trained people: recruitment and retention are failing (Germany drew...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Drones and capital accelerate; Washington's guarantee thins further",
-          "summary": "Edition 2. Counter-drone defence and record private capital lead the accelerators; Ukrainian production scaling into Europe becomes a tracked signal; the US guarantee thins further with a six-month...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The money cleared. The shop floor did not.",
-          "summary": "Money is no longer the binding constraint on European defence; supplier absorption is, and the unlock is the credibility of the demand signal.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-02",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Defence Meets Industrial Reality",
-          "summary": "The May briefing called the 1.5% security band the cycle's commercial spine. Six weeks on, the spending has cleared, but the supplier base, mid-tier components, procurement law and skilled-welder pool to absorb it have not.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Backup Nobody Owns: How GPS Jamming Is Making Timing Resilience a Civil-Infrastructure Duty",
-          "summary": "Persistent GNSS jamming and spoofing are converting positioning-navigation-timing resilience from a military and aviation-safety concern into a budgeted civil critical-infrastructure obligation, as...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Warm-Base Turn: How the West Pays Industry to Hold Capacity It May Never Fire",
-          "summary": "Western defence procurement is shifting from buying end-items to buying standing, surge-ready capacity through multiyear demand guarantees, framework agreements, demand aggregation and state credit...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Flipping the Cost Curve: Europe's Quiet Pivot to Attritable Counter-Drone Air Defence",
-          "summary": "Beneath Europe's rearmament-and-3.5%-GDP narrative, the binding 2026 constraint is air defence's cost-exchange ratio, and EU money, NATO procurement mechanics and battlefield doctrine are buying...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Mass Without Movement: How 'Military Schengen' Is Reclassifying Civilian Transport as Dual-Use Defence Infrastructure",
-          "summary": "Beneath the headline of European rearmament, the binding constraint on deterrence has shifted from spending to movement; through 2026 the EU's Military Mobility Regulation is converting civilian...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-05",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Europe's rearmament accelerates as the US security guarantee fades",
-          "summary": "Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Upstream of the Shell: The Energetics Chokepoint Beneath Europe's Rearmament",
-          "summary": "The binding constraint on European rearmament has migrated upstream from budgets to energetic-materials feedstock.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Re-Rated: How EU Sustainable-Finance Rules Quietly Switched Defence from Excluded to Eligible",
-          "summary": "Beneath the ReArm Europe fiscal escalation narrative, the EU's sustainable-finance rulebook has been re-engineered to admit defence as SDG-16-aligned: the 30 December 2025 Commission Notice plus...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Resilience Mandate: How Europe Is Making Whole-of-Society Security a Binding Private-Sector Duty",
-          "summary": "Beneath headline rearmament, European security is being institutionalised as a binding, distributed obligation on companies, critical-infrastructure operators and households; 2026 is the year...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Vulnerability Triage Era",
-          "summary": "Beneath the AI-cyber arms-race narrative, NIST's 15 April 2026 retreat to risk-based NVD triage, ENISA's elevation to CVE Root, and AI-scale vulnerability discovery are simultaneously fragmenting...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Drones as First Responders",
-          "summary": "The operational reset of American policing is happening through commercial drone vendors, not the police-reform or AI-accountability debate.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-13",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Hard Power, Soft Frontiers",
-          "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
           "posture": ""
         }
       ]

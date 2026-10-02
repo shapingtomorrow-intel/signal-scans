@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T07:56:13Z",
+  "generated": "2026-10-02T08:01:47Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -282,14 +282,22 @@
       "description": "Political risk and the fracturing of the world economy. Elections and policy reversals, unstable governments, coups and civil unrest, sanctions, expropriation and resource nationalism, and the erosion of the rule of law that contracts depend on. Alongside it, decoupling, industrial-policy capital, middle-power hedging and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
-      "latest_read": "Niger's US-backed uranium loan turns Sahel political risk into a queue of sovereign consents. The DFC approved up to $414.2 million for Dasa on 16 September, but three of four named conditions are...",
+      "latest_read": "Coercion hardens into law and import bans while political risk moves to the ballot",
       "latest_dates": {
         "scan": "2026-09-30",
-        "tracker": "2026-09-04",
+        "tracker": "2026-10-02",
         "di": "2026-10-01",
         "cc": "2026-10-02"
       },
       "history": [
+        {
+          "date": "2026-10-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Coercion hardens into law and import bans while political risk moves to the ballot",
+          "summary": "Fifth cycle. Washington moved from duties to outright import bans on Canadian alcohol, dairy and motorcycles under five Section 338 proclamations, and Canada matched with counter-tariffs of 15, 25 and 50 per cent.",
+          "posture": ""
+        },
         {
           "date": "2026-10-02",
           "kind": "cross_cutter",

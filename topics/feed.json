@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T08:36:52Z",
+  "generated": "2026-10-04T13:08:28Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -282,7 +282,7 @@
       "description": "Health-system reform, life-sciences breakthroughs, care-at-home, AI in clinical workflows. What this changes for providers, payers and adjacent industries.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
-      "latest_read": "England's nursing supply fell from both overseas and domestic sources in 2025-26. Overseas-educated joiners fell 47% and UK-educated 4.9% as vacancies shrank, suggesting supply is adjusting to...",
+      "latest_read": "England's nursing supply fell from both overseas and domestic sources in 2025-26. Overseas-educated joiners fell 47% and UK-educated 4.9% as vacancies shrank, while policy needs a bigger domestic...",
       "latest_dates": {
         "scan": "2026-10-04",
         "tracker": "2026-09-11",
@@ -295,7 +295,7 @@
           "kind": "scan",
           "type": "Signal Scan",
           "title": "England's Nursing Supply Fell From Both Overseas and Domestic Sources at Once",
-          "summary": "England's nursing supply fell from both overseas and domestic sources in 2025-26. Overseas-educated joiners fell 47% and UK-educated 4.9% as vacancies shrank, suggesting supply is adjusting to...",
+          "summary": "England's nursing supply fell from both overseas and domestic sources in 2025-26. Overseas-educated joiners fell 47% and UK-educated 4.9% as vacancies shrank, while policy needs a bigger domestic...",
           "posture": "Prepare"
         },
         {

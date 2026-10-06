@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T09:24:31Z",
+  "generated": "2026-10-06T09:37:23Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-10-04",
         "tracker": "2026-09-11",
         "di": "2026-10-08",
-        "cc": "2026-08-07"
+        "cc": "2026-10-09"
       },
       "history": [
+        {
+          "date": "2026-10-09",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Treatment Got Cheaper. Care Became the Bottleneck.",
+          "summary": "Over this cycle, the binding constraint moved from making and pricing medicines to paying for and staffing care. Nine weeks ago the central question was whether medicine had become industrial policy, settled by tariffs and pricing deals. It had, and the deals spread.",
+          "posture": ""
+        },
         {
           "date": "2026-10-08",
           "kind": "brief",

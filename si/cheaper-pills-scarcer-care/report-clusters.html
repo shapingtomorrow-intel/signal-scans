@@ -1,0 +1,1226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cheaper Pills, Scarcer Care. Health, Life Sciences and Care Systems Decision Intelligence, October 2026</title>
+<!-- The separator here is a full stop, not a colon. audit_ai_tells.py Pattern 16
+     (colon-prefix framing, added 2026-09-14) hard-fails any <title> of the form
+     "Clever Phrase: The Actual Claim", and the old template line produced exactly
+     that shape on every cycle. Do not reintroduce the colon. -->
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  .learn-takeaways { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
+  .learn-takeaways .lt-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 0 8px 8px 0; }
+  .learn-takeaways .lt-card h3 { color: #1a237e; margin: 0 0 10px; font-size: 1.05em; }
+  .learn-takeaways .lt-card ol { margin: 0; padding-left: 20px; line-height: 1.5; color: #2a3142; }
+  .learn-takeaways .lt-learn { background: #eef1f9; border-left: 4px solid #1a237e; }
+  .learn-takeaways .lt-keys { background: #fff8e1; border-left: 4px solid #f57c00; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 240px; box-sizing: border-box; }
+  .toc-figure { flex: 2 1 520px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #7b1fa2; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.72em; font-weight: 700; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  /* Bordered matrix with axis labels (Variant C, June 2026):
+     Outer grid wrap places the horizontal axis name on top and the vertical
+     axis name on the left of a bordered .matrix-frame; corner labels at the
+     four corners of the frame name the extremes at each intersection. */
+  .scenario-matrix-axed { display: grid; grid-template-columns: 40px 1fr; grid-template-rows: 36px 1fr; gap: 0; margin-top: 20px; }
+  .axis-name-h { grid-row: 1; grid-column: 2; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; }
+  .axis-name-v { grid-row: 2; grid-column: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
+  .matrix-frame { grid-row: 2; grid-column: 2; border: 2px solid #1a237e; border-radius: 12px; position: relative; padding: 28px 14px 20px; background: white; }
+  .matrix-frame .scenario-grid { margin-top: 0; }
+  .corner-label { position: absolute; background: white; padding: 3px 10px; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.06em; text-transform: uppercase; }
+  .corner-tl { top: -11px; left: 22px; }
+  .corner-tr { top: -11px; right: 22px; }
+  .corner-bl { bottom: -11px; left: 22px; }
+  .corner-br { bottom: -11px; right: 22px; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px 20px; background: #ffffff; border-radius: 8px; margin: 12px 0; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; }
+  .exclusion-item .excl-eyebrow { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .exclusion-item.excl-1 { border-left-color: #7e57c2; } .exclusion-item.excl-1 .excl-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .exclusion-item.excl-2 { border-left-color: #26a69a; } .exclusion-item.excl-2 .excl-eyebrow { background: #e0f2f1; color: #00796b; }
+  .exclusion-item.excl-3 { border-left-color: #ef6c00; } .exclusion-item.excl-3 .excl-eyebrow { background: #fff3e0; color: #e65100; }
+  .exclusion-item h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.05em; }
+  .reinstatement { font-size: 0.9em; color: #4a5568; margin: 12px 0 0; padding: 8px 12px; border-radius: 6px; background: #f3f5f8; }
+  .reinstatement strong { color: #1a237e; }
+  .discussion-points { background: #f4f6fb; color: #1a1a1a; border: 1px solid #d6dfee; border-left: 5px solid #1a237e;
+      padding: 32px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: #1a237e; margin: 0 0 6px 0; }
+  .discussion-points .dp-standfirst { color: #5a6478; font-size: 0.92em; margin: 0 0 22px 0; max-width: 640px; }
+  .discussion-points ol { list-style: none; padding: 0; margin: 0; counter-reset: dp; }
+  /* The number sits in an absolutely positioned gutter rather than as a flex item.
+     This rule used to be `display: flex`, which turns every inline child of the <li>
+     into its own flex item: a question carrying an inline source citation rendered the
+     anchor as a separate column with the sentence broken around it (Belastingdienst,
+     22 September 2026). Earlier cycles happened to write questions with no links, so
+     the fault stayed hidden. Keep this block-level; do not reintroduce flex here. */
+  .discussion-points li { counter-increment: dp; position: relative; padding: 14px 0 14px 46px; border-top: 1px solid #d6dfee; margin: 0; }
+  .discussion-points li::before { content: counter(dp, decimal-leading-zero); position: absolute; left: 0; top: 15px; width: 30px; font-weight: 800; color: #1a237e; font-size: 0.95em; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 28%; }
+  .source-register col.col-tier { width: 11%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 49%; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; word-wrap: break-word; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .source-register td.tier-1 { color: #2e7d32; font-weight: 700; }
+  .source-register td.tier-2 { color: #1565c0; font-weight: 700; }
+  .source-register td.tier-3 { color: #f57c00; font-weight: 700; }
+  .source-register td.tier-4 { color: #c62828; font-weight: 700; }
+  .source-register tr.tier-1 { background: #e3f2fd; }
+  .source-register tr.tier-2 { background: #e8f5e9; }
+  .source-register tr.tier-3 { background: #fff3e0; }
+  .source-register tr.tier-4 { background: #fce4ec; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  /* Scenario matrix on phones (22 September 2026): the two-column grid and absolutely
+     positioned corner labels overflowed a 390px viewport by about 30px. */
+  @media (max-width: 600px) {
+    .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
+    .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
+    .axis-name-v { font-size: 0.66em; }
+    .matrix-frame { padding: 26px 8px 22px; min-width: 0; }
+    .scenario-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+    .scenario-cell { padding: 10px; font-size: 0.84em; min-width: 0; overflow-wrap: anywhere; }
+    .corner-label { font-size: 0.6em; padding: 2px 5px; max-width: 44%; white-space: normal; line-height: 1.2; }
+    .corner-tl, .corner-bl { left: 8px; }
+    .corner-tr, .corner-br { right: 8px; text-align: right; }
+    .corner-tl, .corner-tr { top: -10px; }
+    .corner-bl, .corner-br { bottom: -10px; }
+  }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+
+  /* Format of 24 September 2026 (tested on the FS, Energy and Thurgau DIs, then adopted).
+     Chip rule: solid chips are reserved for the two action calls (.impact-tier timing and
+     .si-pill Decide/Prepare/Monitor). Every other chip is pastel: tinted fill, dark text. */
+  .fw-note { font-size: 0.82em; color: #5a6478; line-height: 1.45; margin: 8px 4px 0; }
+  .fw-legend { font-size: 12.5px !important; }
+  .snap-purpose { font-size: 0.88em; color: #5a6478; margin-top: 6px; }
+  .weight-table { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 0.92em; }
+  .weight-table th, .weight-table td { border-bottom: 1px solid #dee2e6; padding: 7px 8px; text-align: left; vertical-align: top; }
+  .weight-table th { background: #eef1f6; color: #1a237e; }
+  .wt { display: inline-block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; }
+  .wt.high { background: #fdecea; color: #c62828; }
+  .wt.medium { background: #fff3e0; color: #e65100; }
+  .wt.low { background: #eceff1; color: #546e7a; }
+  .wt.hoch { background: #fdecea; color: #c62828; } .wt.mittel { background: #fff3e0; color: #e65100; } .wt.tief { background: #eceff1; color: #546e7a; }
+  .weight-line { font-size: 0.9em; color: #33414f; background: #f5f7fa; border-radius: 6px; padding: 6px 10px; margin: 4px 0 10px; }
+  .outlook { background: #eef5ff; border-left: 4px solid #1565c0; border-radius: 0 8px 8px 0; padding: 10px 14px; margin: 14px 0; }
+  .outlook h4 { margin: 0 0 6px; color: #1565c0; }
+  .outlook p { margin: 0 0 6px; }
+  .options-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .option-area { margin: 26px 0 6px; }
+  .option-area:first-child { margin-top: 0; }
+  .option-area h3 { margin: 0 0 12px; color: #1a237e; font-size: 1.3em; }
+  .opt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+  .opt { background: #fff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; }
+  .opt .opt-eyebrow { align-self: flex-start; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .opt.o-a { border-left-color: #26a69a; } .opt.o-a .opt-eyebrow { background: #e0f2f1; color: #00796b; }
+  .opt.o-b { border-left-color: #1e88e5; } .opt.o-b .opt-eyebrow { background: #e3f2fd; color: #1565c0; }
+  .opt.o-c { border-left-color: #7e57c2; } .opt.o-c .opt-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .opt h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.02em; }
+  .opt p { margin: 0 0 8px; font-size: 0.93em; }
+  .opt .opt-trade { font-size: 0.88em; color: #4a5568; }
+  .opt .opt-trade strong, .opt .opt-fits strong { color: #1a237e; }
+  .opt .opt-fits { margin: auto 0 0; font-size: 0.86em; color: #4a5568; padding: 7px 10px; border-radius: 6px; background: #f3f5f8; }
+  .abbrev-section { background: #f8f9fa; padding: 20px 24px; border-radius: 12px; margin: 32px 0; font-size: 0.9em; }
+  .abbrev-section h2 { margin-top: 0; }
+  .abbrev-list { columns: 2 320px; column-gap: 28px; margin: 0; }
+  .abbrev-list div { break-inside: avoid; margin: 0 0 6px; }
+  .abbrev-list strong { color: #1a237e; }
+  /* Questions: light panel with coloured-edge cards, matching Options and What We Are Not Planning For */
+  .discussion-points { background: #fafafa; color: inherit; border: 1px solid #e0e0e0; border-radius: 12px; padding: 28px; }
+  .discussion-points ol { list-style: none; padding: 0; margin: 0; counter-reset: dp; }
+  .discussion-points h2 { color: #1a237e; }
+  .discussion-points .dp-standfirst { color: #5a6478; margin: 0 0 14px 0; }
+  .discussion-points li { counter-increment: dp; position: static; display: block; background: #ffffff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 18px; margin: 12px 0; }
+  .discussion-points li::before { content: "Question " counter(dp); position: static; width: auto; display: table; min-width: 0; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 8px; }
+  .discussion-points li:nth-child(5n+1) { border-left-color: #26a69a; } .discussion-points li:nth-child(5n+1)::before { background: #e0f2f1; color: #00796b; }
+  .discussion-points li:nth-child(5n+2) { border-left-color: #1e88e5; } .discussion-points li:nth-child(5n+2)::before { background: #e3f2fd; color: #1565c0; }
+  .discussion-points li:nth-child(5n+3) { border-left-color: #7e57c2; } .discussion-points li:nth-child(5n+3)::before { background: #ede7f6; color: #5e35b1; }
+  .discussion-points li:nth-child(5n+4) { border-left-color: #ef6c00; } .discussion-points li:nth-child(5n+4)::before { background: #fff3e0; color: #e65100; }
+  .discussion-points li:nth-child(5n+5) { border-left-color: #d81b60; } .discussion-points li:nth-child(5n+5)::before { background: #fce4ec; color: #ad1457; }
+  @media (max-width: 640px) {
+    .weight-table thead { display: none; }
+    .weight-table, .weight-table tbody, .weight-table tr, .weight-table td { display: block; width: 100%; box-sizing: border-box; }
+    .weight-table tr { border-bottom: 2px solid #dee2e6; padding: 4px 0; }
+    .weight-table td { border: none; padding: 2px 4px; }
+    .weight-table td::before { content: attr(data-l) ": "; font-weight: 600; color: #1a237e; }
+  }
+  @media (max-width: 600px) {
+    .options-section, .discussion-points { padding: 18px 14px; }
+    .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
+    .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
+    .axis-name-v { font-size: 0.66em; }
+    .matrix-frame { padding: 26px 8px 22px; min-width: 0; }
+    .scenario-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+    .scenario-cell { padding: 10px; font-size: 0.84em; min-width: 0; overflow-wrap: anywhere; }
+    .corner-label { font-size: 0.6em; padding: 2px 5px; max-width: 44%; white-space: normal; line-height: 1.2; }
+    .corner-tl, .corner-bl { left: 8px; }
+    .corner-tr, .corner-br { right: 8px; text-align: right; }
+    .corner-tl, .corner-tr { top: -10px; }
+    .corner-bl, .corner-br { bottom: -10px; }
+  }
+
+  /* How this was made (added 29 September 2026) */
+  .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
+  .method-line a { color: #1a237e; font-weight: 600; text-decoration: none; border-bottom: 1px solid #c5cae9; }
+  .method-line a:hover { border-bottom-color: #1a237e; }
+  .meta .method-line { display: block; margin: 4px 0 0; }
+  .method-card { background: #f8f9fb; border: 1px solid #e3e7ee; border-left: 4px solid #1a237e; border-radius: 8px;
+                 padding: 14px 20px; margin: 28px 0 14px; color: #2c3e50; line-height: 1.5; }
+  .method-card .method-eyebrow { font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+                                 color: #5a6478; margin: 0 0 4px; }
+  .method-card .method-name { font-size: 1.05em; font-weight: 700; margin: 0 0 4px; }
+  .method-card .method-name a { color: #1a237e; text-decoration: none; }
+  .method-card p { margin: 0 0 8px; }
+  .method-card .method-stages { font-size: 0.86em; color: #5a6478; }
+  .method-card .method-stages a { color: #1a237e; text-decoration: underline; text-decoration-color: #c5cae9; text-underline-offset: 2px; }
+  .method-card .method-stages a:hover { text-decoration-color: #1a237e; }
+  .method-card .method-more { font-weight: 600; color: #1a237e; text-decoration: none; font-size: 0.92em; }
+  .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
+
+  /* How this was made (added 29 September 2026) */
+  .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
+  .method-line a { color: #1a237e; font-weight: 600; text-decoration: none; border-bottom: 1px solid #c5cae9; }
+  .method-line a:hover { border-bottom-color: #1a237e; }
+  .meta .method-line { display: block; margin: 4px 0 0; }
+  .method-card { background: #f8f9fb; border: 1px solid #e3e7ee; border-left: 4px solid #1a237e; border-radius: 8px;
+                 padding: 14px 20px; margin: 28px 0 14px; color: #2c3e50; line-height: 1.5; }
+  .method-card .method-eyebrow { font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+                                 color: #5a6478; margin: 0 0 4px; }
+  .method-card .method-name { font-size: 1.05em; font-weight: 700; margin: 0 0 4px; }
+  .method-card .method-name a { color: #1a237e; text-decoration: none; }
+  .method-card p { margin: 0 0 8px; }
+  .method-card .method-stages { font-size: 0.86em; color: #5a6478; }
+  .method-card .method-stages a { color: #1a237e; text-decoration: underline; text-decoration-color: #c5cae9; text-underline-offset: 2px; }
+  .method-card .method-stages a:hover { text-decoration-color: #1a237e; }
+  .method-card .method-more { font-weight: 600; color: #1a237e; text-decoration: none; font-size: 0.92em; }
+  .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence</div>
+<h1 class="report-title">Cheaper Pills, Scarcer Care</h1>
+<div class="meta">
+<span class="series-continuity">Edition 3 in the Health, Life Sciences &amp; Care Systems series. Previous Decision Intelligence briefing: &lsquo;The Summer Medicine Chose Sides&rsquo; (August 2026).</span>
+Cycle: 8 October 2026 &middot; Audience: Leaders who pay for, provide or depend on health and care &middot; Horizon: to 2030<br>
+<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 23 min full read</span>
+<span class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.</span>
+</div>
+</div>
+<a href="https://www.shapingtomorrow.com" target="_blank" rel="noopener"><img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow"></a>
+</div>
+
+<div class="learn-takeaways">
+  <div class="lt-card lt-learn">
+    <h3>What you will learn</h3>
+    <ol>
+      <li>Why care for older people has become a question of who pays, as governments tighten who qualifies and families pick up more</li>
+      <li>How the same year that makes weight-loss drugs cheap and global is making health cover dearer and harder to keep</li>
+      <li>Where employers, care providers, drugmakers and policymakers can still shape the outcome, set out as options to 2030</li>
+    </ol>
+  </div>
+  <div class="lt-card lt-keys">
+    <h3>Key takeaways</h3>
+    <ol>
+      <li>Germany's cabinet approved a care reform on 30 September that raises the bar for help with daily living</li>
+      <li>US marketplace health insurance enrolment fell 12% after subsidies expired, and employers expect an 8.2% cost rise in 2027</li>
+      <li>Generic weight-loss jabs are on sale in India and approved in Canada, and 13.1% of US adults now use these drugs</li>
+    </ol>
+  </div>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-executive-synthesis">1. Executive Synthesis</a></li>
+  <li><a href="#section-why-now">2. Why This Matters Now</a></li>
+  <li><a href="#section-snapshots">3. Audience Snapshots</a></li>
+  <li><a href="#section-signal-clusters">4. Themes</a></li>
+  <li><a href="#section-strategic-implications">5. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">6. Scenario Matrix 2030</a></li>
+  <li><a href="#section-options">7. Options</a></li>
+  <li><a href="#section-explicit-exclusions">8. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">9. Questions For The Next Strategy Meeting</a></li>
+  <li><a href="#section-source-register">10. Source Confidence Register</a></li>
+  <li><a href="#claim-fidelity">11. Claim-Fidelity Appendix</a></li>
+  <li><a href="#section-abbreviations">12. Abbreviations</a></li>
+</ul>
+</div>
+<div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+24" data-fw-engine="3">
+<style id="fw-style">
+  .fw-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2530;}
+  .fw-card{box-sizing:border-box!important;width:100%!important;max-width:860px!important;height:540px!important;max-height:100%!important;margin:0 auto!important;border:1px solid #e3e8ee!important;border-radius:12px!important;padding:10px!important;background:#fff!important;cursor:pointer;position:relative;overflow:hidden;display:flex!important;flex-direction:column!important;transition:box-shadow .15s,transform .15s;}
+  .fw-card:hover{box-shadow:0 6px 20px rgba(20,40,70,.12);transform:translateY(-1px);}
+  .fw-card:focus-visible{outline:3px solid #0f2e5c;outline-offset:2px;}
+  .fw-note{font-size:0.82em;color:#5a6478;line-height:1.45;margin:8px 4px 0;}
+  .fw-legend{flex:0 0 auto!important;display:flex!important;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12.5px;color:#5a6478;margin:0 0 6px!important;line-height:1.2;}
+  .fw-legend .sw{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:5px;box-sizing:border-box;}
+  .fw-legend .lw,.fw-modal-legend .lw{display:inline-block;width:18px;height:2px;background:#5a6478;vertical-align:middle;margin-right:5px;border-radius:2px;}
+  .fw-legend .lw.high,.fw-modal-legend .lw.high{height:4px;background:#4a5563;}
+  .fw-legend .lw.med,.fw-modal-legend .lw.med{height:2.5px;background:#6a7480;}
+  .fw-legend .lw.low,.fw-modal-legend .lw.low{height:1.4px;background:#9aa4b0;}
+  .fw-modal-legend .lw{width:24px;margin-right:7px;}
+  .fw-thumbwrap{flex:1 1 auto!important;position:relative!important;width:100%!important;min-height:0!important;}
+  .fw-thumbwrap svg,.fw-card .fw-thumbwrap svg{width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;display:block!important;margin:0!important;}
+  /* Also override any host CSS that would cap the modal SVG (e.g. .toc-figure svg { max-width: 340px }) */
+  .fw-modal svg,.fw-modal #fw-modal-svg{max-width:none!important;max-height:none!important;width:min(94vw,1040px)!important;height:auto!important;display:block!important;margin:0 auto!important;}
+  .fw-expand{position:absolute;right:8px;bottom:8px;background:rgba(15,46,92,.82);color:#fff;font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;pointer-events:none;}
+  .fw-eyebrow{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#8a94a3;font-weight:700;margin:0 0 2px;}
+  .fw-title{font-size:14px;font-weight:700;margin:0 0 8px;line-height:1.25;}
+  .fw-overlay{position:fixed;inset:0;background:rgba(15,23,35,.62);display:none;align-items:center;justify-content:center;z-index:9999;padding:18px;}
+  .fw-overlay.open{display:flex;}
+  .fw-modal{background:#fff;border-radius:14px;padding:14px 16px 16px;max-width:min(96vw,1100px);max-height:96vh;overflow:auto;box-shadow:0 24px 70px rgba(0,0,0,.35);position:relative;}
+  .fw-close{position:absolute;top:10px;right:12px;border:none;background:#eef1f4;color:#33414f;width:32px;height:32px;border-radius:8px;font-size:17px;cursor:pointer;line-height:1;}
+  .fw-close:hover{background:#e0e5ea;}
+  .fw-modal-legend{display:flex;flex-wrap:wrap;gap:16px;align-items:center;font-size:13px;color:#33414f;margin:6px 2px 12px;}
+  .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
+</style>
+<div class="fw-wrap">
+  <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
+    <div class="fw-legend" aria-hidden="true">
+      <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+      <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+      <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed/neutral</span>
+      <span style="opacity:.85">line weight = impact &times; likelihood (analyst rating):</span>
+      <span><span class="lw high"></span>high</span>
+      <span><span class="lw med"></span>med</span>
+      <span><span class="lw low"></span>low</span>
+    </div>
+    <div class="fw-thumbwrap">
+      <svg id="fw-thumb" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" style="display:block;" role="img"></svg>
+      <span class="fw-expand">&#10530; Expand</span>
+    </div>
+  </div>
+<p class="fw-note"><strong>How to read this figure:</strong> each line runs from a development to its possible consequences. Line weight shows impact multiplied by likelihood, each rated high, medium or low. The ratings are the analysis's judgement from the cited sources, not calculated values. Hover over a circle to see its rating; click to enlarge.</p>
+  <div class="fw-overlay" id="fw-overlay" role="dialog" aria-modal="true" aria-label="Futures Wheel, enlarged">
+    <div class="fw-modal">
+      <button class="fw-close" id="fw-close" aria-label="Close">&times;</button>
+      <p class="fw-eyebrow" style="margin-top:2px;">Futures Wheel</p>
+      <p class="fw-title" id="fw-title-modal" style="font-size:16px;"></p>
+      <div class="fw-modal-legend">
+        <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+        <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+        <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed / neutral</span>
+        <span style="opacity:.85">line weight = impact &times; likelihood (analyst rating):</span>
+        <span><span class="lw high" style="background:#4a5563;height:4px;"></span>high</span>
+        <span><span class="lw med" style="background:#6a7480;height:2.5px;"></span>med</span>
+        <span><span class="lw low" style="background:#9aa4b0;height:1.4px;"></span>low</span>
+      </div>
+      <svg id="fw-modal-svg" viewBox="0 0 1200 1200" style="width:min(94vw,1040px);height:auto;display:block;" role="img"></svg>
+    </div>
+  </div>
+</div>
+
+<script id="fw-engine">
+(function(){
+  // === WHEEL_DATA_START (build_futures_wheel.py replaces this object) ===
+  var TITLE = "Families pay for care";
+  var DATA = {"label": "Families pay for\ncare", "pol": "0", "children": [{"label": "Fewer qualify for\nhelp", "pol": "-", "im": "vhigh", "lk": "high", "children": [{"label": "Families care\nunpaid", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Carers cut work\nhours", "pol": "-", "im": "high", "lk": "med"}, {"label": "Women hit\nhardest", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "Applications\nrush", "pol": "0", "im": "med", "lk": "high", "children": [{"label": "Assessors\nswamped", "pol": "-", "im": "med", "lk": "med"}, {"label": "Savings fall\nshort", "pol": "0", "im": "med", "lk": "med"}]}]}, {"label": "Care staff harder\nto find", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Providers close", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Waiting lists\ngrow", "pol": "-", "im": "high", "lk": "med"}, {"label": "Hospital beds\nblocked", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Pay deals arrive", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "NHS-style pay\nladder", "pol": "+", "im": "med", "lk": "low"}, {"label": "Council costs\nrise", "pol": "-", "im": "med", "lk": "med"}]}]}, {"label": "Employers step in", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Carer leave\ngrows", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Staff retained", "pol": "+", "im": "med", "lk": "med"}, {"label": "New benefit\nmarket", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Benefit costs\nrise", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Pay rises\nsqueezed", "pol": "-", "im": "med", "lk": "med"}, {"label": "Cover shifts to\nstaff", "pol": "-", "im": "med", "lk": "med"}]}]}, {"label": "Care insurance\ndebate", "pol": "0", "im": "high", "lk": "med", "children": [{"label": "New care levy", "pol": "0", "im": "high", "lk": "low", "children": [{"label": "Stable care\nfunding", "pol": "+", "im": "high", "lk": "low"}, {"label": "Payslips shrink", "pol": "-", "im": "med", "lk": "low"}]}, {"label": "Private policies\nshrink", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Gap left open", "pol": "-", "im": "med", "lk": "med"}, {"label": "Insurers\nrethink", "pol": "0", "im": "med", "lk": "med"}]}]}, {"label": "Home care expands", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Tech-enabled\ncare", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Remote\nmonitoring", "pol": "+", "im": "med", "lk": "med"}, {"label": "Fewer care\nhomes", "pol": "0", "im": "med", "lk": "low"}]}, {"label": "Shorter waits", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Fewer hospital\nstays", "pol": "+", "im": "med", "lk": "med"}, {"label": "Local providers\ngrow", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "Inequality widens", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Care by postcode", "pol": "-", "im": "med", "lk": "high", "children": [{"label": "Richer areas\ncope", "pol": "-", "im": "med", "lk": "high"}, {"label": "Councils ration", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "Savings run down", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Homes sold for\ncare", "pol": "-", "im": "high", "lk": "med"}, {"label": "Less to pass on", "pol": "-", "im": "med", "lk": "med"}]}]}]};
+    // === WHEEL_DATA_END ===
+
+  var NS="http://www.w3.org/2000/svg";
+  var R=[0,260,470,660], RAD=[140,108,66,62], FS=[23,18.5,13,12], CX=600, CY=600;
+  var FW_ENGINE_VERSION=3; // v3 (2026-09-24) = v2 plus larger nodes and labels, hover ratings and a reading note. v2 = elongated layout (SX) + capDepth thumbnail.
+  // Do NOT replace this file with an older copy: build_futures_wheel.py refuses
+  // to run below this version. If you must, pass --allow-legacy-engine.
+  var SX=1.5; // horizontal spread: >1 widens the wheel into a non-circular landscape shape
+  var IM={low:1,med:2,high:3,vhigh:4}, LK={low:1,med:2,high:3};
+  // Line weight encodes impact x likelihood (12 possible; baseline 1.4)
+  function width(n){ var s=(IM[n.im]||2)*(LK[n.lk]||2); return 1.6+s*0.55; }
+  // Polarity palette: risk pink+red / opportunity pale-green+green / mixed grey
+  function col(p){
+    if(p==="+") return {f:"#e9f6ee",s:"#2ea44f",t:"#1a2530"};
+    if(p==="-") return {f:"#fdecea",s:"#d9433a",t:"#1a2530"};
+    return {f:"#eef1f4",s:"#8a94a3",t:"#1a2530"};
+  }
+  var CENTER={f:"#eaf0fb",s:"#2f5fd0",t:"#1a2530"};
+
+  function render(svg, opts){
+    opts = opts || {};
+    while(svg.firstChild) svg.removeChild(svg.firstChild);
+    var data=JSON.parse(JSON.stringify(DATA));
+    var leaves=[]; (function collect(n){ (n.children&&n.children.length)?n.children.forEach(collect):leaves.push(n); })(data);
+    var N=leaves.length, step=2*Math.PI/N;
+    leaves.forEach(function(l,i){ l.t=i*step; });
+    (function setA(n,d){ n.depth=d; if(n.children&&n.children.length){ n.children.forEach(function(c){setA(c,d+1);}); n.t=n.children.reduce(function(a,c){return a+c.t;},0)/n.children.length; } })(data,0);
+    var maxDepth=0; (function md(n){ if(n.depth>maxDepth) maxDepth=n.depth; (n.children||[]).forEach(md); })(data);
+    var rd = (opts.capDepth!=null) ? Math.min(maxDepth, opts.capDepth) : maxDepth; // render-depth cap: thumbnail shows fewer rings, modal shows all
+    var halfW=SX*R[rd]+RAD[rd]+26, halfH=R[rd]+RAD[rd]+26;
+    svg.setAttribute("viewBox",(CX-halfW)+" "+(CY-halfH)+" "+(2*halfW)+" "+(2*halfH));
+    function P(t,r){ return {x:CX+SX*r*Math.sin(t), y:CY-r*Math.cos(t)}; }
+    // Guide arcs: thin concentric quadratic-curve arcs on the ring 1 and the outer ring
+    function arc(t1,t2,r,c,w){
+      var a=P(t1,r),b=P(t2,r),m=(t1+t2)/2,cp=P(m,r*1.06);
+      var p=document.createElementNS(NS,"path");
+      p.setAttribute("d","M"+a.x+","+a.y+" Q"+cp.x+","+cp.y+" "+b.x+","+b.y);
+      p.setAttribute("fill","none");p.setAttribute("stroke",c);p.setAttribute("stroke-width",w);
+      svg.appendChild(p);
+    }
+    var r1n=data.children;
+    for(var i=0;i<r1n.length;i++) arc(r1n[i].t,r1n[(i+1)%r1n.length].t,R[1],"#d6dde4",1.4);
+    if(maxDepth>=2 && opts.capDepth==null){ for(var k=0;k<N;k++) arc(leaves[k].t,leaves[(k+1)%N].t,R[maxDepth],"#dbe6de",1.4); }
+    // Weighted spokes: line thickness encodes impact x likelihood
+    function spoke(a,b,w){
+      var l=document.createElementNS(NS,"line");
+      l.setAttribute("x1",a.x);l.setAttribute("y1",a.y);l.setAttribute("x2",b.x);l.setAttribute("y2",b.y);
+      l.setAttribute("stroke","#9aa7b4");l.setAttribute("stroke-width",w);l.setAttribute("stroke-linecap","round");l.setAttribute("opacity","0.9");
+      svg.appendChild(l);
+    }
+    (function edges(n){
+      var p=P(n.t,R[n.depth]);
+      (n.children||[]).forEach(function(c){ if(c.depth<=rd){ spoke(p,P(c.t,R[c.depth]),width(c)); edges(c); } });
+    })(data);
+    // Nodes (drawn on top)
+    (function node(n){
+      if(n.depth>rd) return;
+      var pt=P(n.t,R[n.depth]),d=n.depth,r=RAD[d],c=d===0?CENTER:col(n.pol);
+      var ci=document.createElementNS(NS,"circle");
+      ci.setAttribute("cx",pt.x);ci.setAttribute("cy",pt.y);ci.setAttribute("r",r);
+      ci.setAttribute("fill",c.f);ci.setAttribute("stroke",c.s);ci.setAttribute("stroke-width",d===0?3:2.6);
+      if(d>0){ var tt=document.createElementNS(NS,"title"); var EN={vhigh:"very high",high:"high",med:"medium",low:"low"}; tt.textContent=String(n.label).replace(/\n/g," ")+": impact "+(EN[n.im]||"medium")+", likelihood "+(EN[n.lk]||"medium")+" (analyst rating)"; ci.appendChild(tt); }
+      svg.appendChild(ci);
+      var showLabel = opts.allLabels || d<=1;
+      if(showLabel){
+        var lines=String(n.label).split("\n"),fs=FS[d],lh=fs*1.15;
+        var t=document.createElementNS(NS,"text");
+        t.setAttribute("x",pt.x);t.setAttribute("y",pt.y-(lines.length-1)*lh/2+fs*0.34);
+        t.setAttribute("text-anchor","middle");t.setAttribute("font-size",fs);t.setAttribute("font-weight",d<=1?"700":"600");t.setAttribute("fill",c.t);
+        lines.forEach(function(ln,idx){var ts=document.createElementNS(NS,"tspan");ts.setAttribute("x",pt.x);ts.setAttribute("dy",idx===0?0:lh);ts.textContent=ln;t.appendChild(ts);});
+        svg.appendChild(t);
+      }
+      (n.children||[]).forEach(node);
+    })(data);
+  }
+
+  var elTitleThumb=document.getElementById("fw-title-thumb"); if(elTitleThumb) elTitleThumb.textContent=TITLE;
+  var elTitleModal=document.getElementById("fw-title-modal"); if(elTitleModal) elTitleModal.textContent=TITLE;
+  var elThumb=document.getElementById("fw-thumb"); if(elThumb) elThumb.setAttribute("aria-label","Futures Wheel thumbnail for "+TITLE);
+  var elModalSvg=document.getElementById("fw-modal-svg"); if(elModalSvg) elModalSvg.setAttribute("aria-label","Enlarged Futures Wheel for "+TITLE);
+  if(elThumb) render(elThumb, {allLabels:false, capDepth:2});
+  var overlay=document.getElementById("fw-overlay"), drawn=false;
+  function open(){ if(!drawn){ render(document.getElementById("fw-modal-svg"), {allLabels:true}); drawn=true; } overlay.classList.add("open"); document.getElementById("fw-close").focus(); }
+  function close(){ overlay.classList.remove("open"); document.getElementById("fw-card").focus(); }
+  var card=document.getElementById("fw-card");
+  card.addEventListener("click",open);
+  card.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); open(); } });
+  document.getElementById("fw-close").addEventListener("click",close);
+  overlay.addEventListener("click",function(e){ if(e.target===overlay) close(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&overlay.classList.contains("open")) close(); });
+})();
+</script>
+</div>
+</div>
+
+<a name="section-why-now"></a>
+<div class="at-a-glance">
+<h3>Why This Matters Now</h3>
+<p>Medicines are getting cheaper while the care people need as they age, and the insurance that pays for treatment,
+are getting harder to get.</p>
+
+<p>Copies of the best-known weight-loss drugs have gone on sale in several large countries at a fraction of the
+original price. At the same time, governments in Europe are making it harder to qualify for help with care in old
+age, the United States is cutting back health insurance support, and employers face their steepest health-cost rise
+in two decades. Governments are also using trade deals to push medicine prices around, and AI tools are spreading
+through surgeries faster than the rules that govern them.</p>
+
+<p><strong>The one thing to take into the next meeting:</strong> plan for a world where buying a treatment is easy but
+paying for care is not. Ask who in your organisation, your workforce or your family would carry the cost of care,
+and watch the care reforms in Germany and England over the next twelve months.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+
+<div class="sit-up-statement">
+<p class="sit-up-question">Which of your plans assume that the state will pay for care when your staff's parents, or you, grow old?</p>
+<p class="sit-up-warrant">Germany has just raised the bar for help (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">German Health Ministry, in German</a>, Sep 2026), and England's care review now reports in 2027, not 2026 (<a href="https://socialcare.blog.gov.uk/2026/08/06/the-prime-ministers-commitment-to-adult-social-care/" target="_blank" rel="noopener">Department of Health and Social Care</a>, Aug 2026).</p>
+</div>
+
+
+<p>Medicines are becoming cheaper and easier to get, while care and the insurance that pays for it are becoming
+scarcer. Generic weight-loss drugs went on sale in India after the patent expired in March, with more than 50
+products approved (<a href="https://medicaldialogues.in/news/industry/pharma/recalls-by-dr-reddys-torrent-put-spotlight-on-quality-standards-in-indias-semaglutide-market-174725" target="_blank" rel="noopener">Medical Dialogues</a>, Jul 2026), and Canada approved its first generic for weight loss in June (<a href="https://www.canada.ca/en/health-canada/news/2026/06/canada-approves-first-generic-semaglutide-for-weight-loss.html" target="_blank" rel="noopener">Health Canada</a>, Jun 2026). Over the same
+months Germany's cabinet approved a care reform that raises the bar for help with daily living (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">German Health Ministry, in German</a>, Sep 2026), and in
+the United States enrolment in marketplace health insurance fell 12% once extra subsidies ended (<a href="https://www.kff.org/affordable-care-act/how-has-aca-marketplace-enrollment-changed-across-states-in-2026/" target="_blank" rel="noopener">KFF</a>, Jul 2026). Employers
+expect their health costs to rise 8.2% next year, the most since 2003 (<a href="https://www.mercer.com/en-us/about/newsroom/employers-expect-health-benefit-costs-to-jump-in-2027/" target="_blank" rel="noopener">Mercer</a>, Sep 2026).</p>
+
+<p>Some of this is settled: the subsidies have gone, generics are on sale and US Medicaid work requirements begin in
+January (<a href="https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals" target="_blank" rel="noopener">Federal Register</a>, Jun 2026). What is not settled is how far governments will push the cost of care onto families, whether
+cheap weight-loss drugs reach people through insurance or only for cash, whether US pricing deals delay new medicines
+elsewhere, and who answers for AI errors in the consulting room.</p>
+
+<p>Looking ahead to 2030, the US Congressional Budget Office expects the number of uninsured people to rise from 30
+million in 2026 towards 37 million (<a href="https://www.cbo.gov/publication/62539" target="_blank" rel="noopener">Congressional Budget Office</a>, Jul 2026), the European Labour Authority says Europe will need about 808,000 more care
+workers by 2040 just to stand still (<a href="https://www.ela.europa.eu/sites/default/files/2026-04/ela-report-labour-mobility-long-term-care.pdf" target="_blank" rel="noopener">European Labour Authority</a>, Apr 2026), and Morgan Stanley expects the share of eligible patients outside the US
+taking these drugs to rise from 2% to 10% by 2035 (<a href="https://www.morganstanley.com/insights/articles/glp1-weight-loss-market-may-double-190-billion-2035" target="_blank" rel="noopener">Morgan Stanley</a>, Apr 2026). None of this is certain, and each is a place where readers
+can still choose their position: section 7 sets out the options.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+
+<p>The weakest assumption is that governments will keep pushing care costs onto families. Germany's own analysts expect
+the tighter care rules to save only about half the money planned (<a href="https://www.aok.de/pp/bv/wido-pm/analyse-des-wido-pauschale-erhoehung-der-schwellenwerte-fuer-die-pflegebegutachtung-wird-deutlich-weniger-einsparungen-bringen-als-erwartet/" target="_blank" rel="noopener">AOK Research Institute, in German</a>, Sep 2026), and Australia is adding home care places
+rather than cutting them (<a href="https://www.theweeklysource.com.au/health-dept-tells-senate-inquiry-support-at-home-is-improving/" target="_blank" rel="noopener">The Weekly SOURCE</a>, Sep 2026). If England's care review in 2027 leads to new public money, the squeeze on
+families eases and the case for the employer options in section 7 weakens.</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Find out who in your workforce cares for an older relative, and what it costs you.</strong> Governments are tightening who qualifies for care help, so more of the work falls to families and employers.</li>
+<li><strong>Set 2027 health-benefit budgets for a rise of 8% to 9% and decide who carries it.</strong> Employers expect the steepest rise in two decades, and staff are being moved towards buying their own cover.</li>
+<li><strong>Plan for weight-loss drugs used by many more people at far lower prices.</strong> Generics, pills and cash-pay channels are widening use well beyond today's patients.</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications, and with alternatives in the Options.</p>
+</div>
+
+<div class="continuity-ledger" style="background:#eef1f9;border-left:4px solid #1a237e;padding:20px 24px;border-radius:0 8px 8px 0;margin:24px 0 8px;">
+<h4 style="margin:0 0 6px;color:#1a237e;">Continuity ledger: what the August edition said and what happened</h4>
+<p style="margin:0 0 12px;font-size:0.92em;color:#5a6478;">The seven tests the August edition set, each graded here, including the three still open.</p>
+<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+<tr style="text-align:left;color:#1a237e;"><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">Test set in August</th><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">Verdict</th><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">What happened</th></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether the 100% US tariff on patented medicines is collected or waived</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#2e7d32;">CONFIRMED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Both. From 29 September firms with no pricing deal pay 100%, but firms that pair a pricing deal with US manufacturing pay nothing until January 2029, and many specialty medicines are exempt (<a href="https://www.pharmexec.com/view/new-us-guidance-lays-out-exemptions-100-tariffs-report" target="_blank" rel="noopener">Pharmaceutical Executive</a>, Sep 2026). The tariff works as a lever, as August argued.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether the US resumes any funding for the World Health Organization or Gavi, the vaccine alliance</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#5a6478;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The administration said in July it would release $600 million for Gavi, with conditions, but there is no sign of money for the WHO (<a href="https://www.kff.org/global-health-policy/the-trump-administrations-foreign-aid-review-status-of-u-s-support-for-gavi-the-vaccine-alliance/" target="_blank" rel="noopener">KFF</a>, Aug 2026).</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether the EU's Critical Medicines Act is adopted with its buy-European preference</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#5a6478;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The preference survives in the agreed text, but formal adoption has slipped to the end of 2026 or early 2027 (<a href="https://www.ropesgray.com/en/insights/viewpoints/2026/09/102o09a/buy-european-incentivising-eu-based-pharmaceutical-manufacturing" target="_blank" rel="noopener">Ropes &amp; Gray</a>, Sep 2026).</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether pledges to build medicine factories in the US turn into plants</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#00796b;">ON TRACK</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Building has started: Eli Lilly broke ground on a $6.5 billion plant in Houston, part of a $50 billion plan (<a href="https://www.industrialinfo.com/news/article/eli-lilly-advances-us-manufacturing-buildout--362903" target="_blank" rel="noopener">Industrial Info Resources</a>, Sep 2026). None of the new plants is producing yet.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether access to weight-loss drugs widens through insurance or narrows to those who can pay</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#2e7d32;">CONFIRMED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">It is narrowing in US workplace cover: fewer large employers cover these drugs, and some will steer staff to cash-pay channels (<a href="https://www.businessgrouphealth.org/resources/2027-employer-healthcare-strategy-survey-executive-summary" target="_blank" rel="noopener">Business Group on Health</a>, Aug 2026). Abroad, generics are widening access instead (Theme 3).</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether safety and evidence rules catch up with AI in the consulting room</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#5a6478;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The UK has a detailed blueprint (<a href="https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare" target="_blank" rel="noopener">Medicines and Healthcare products Regulatory Agency</a>, Sep 2026), but the EU has delayed its rules for AI in medical devices to August 2028 (<a href="https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act" target="_blank" rel="noopener">White &amp; Case</a>, Aug 2026).</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether the Global Fund's shortfall in money to fight AIDS, TB and malaria bites</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#2e7d32;">CONFIRMED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">It is biting on prevention: people taking HIV prevention medicine fell from 1.4 million to 1.1 million in 2025 (<a href="https://www.theglobalfund.org/en/opinion/2026/2026-09-16-progress-deadliest-infectious-diseases-knife-edge" target="_blank" rel="noopener">The Global Fund</a>, Sep 2026).</td></tr>
+</table></div>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Audience Snapshots</h2>
+<p class="snapshots-intro">Four cards, one per reader group. Each says what is changing for that group and suggests one question for the next meeting, so a team can take its card as an agenda item without reading the whole report.</p>
+<div class="snapshots">
+
+<div class="snapshot-card operations">
+<span class="role">If you run or pay for care services</span>
+<h4>Governments are tightening who qualifies, and staff are harder to find</h4>
+<p><strong>What is changing:</strong> Germany is raising the points needed for help (<a href="https://www.test.de/Pflegereform-5999460-0/" target="_blank" rel="noopener">Stiftung Warentest, in German</a>, Sep 2026), England's first pay deal for care workers starts in April 2028 (<a href="https://www.gov.uk/government/consultations/fair-pay-agreement-process-in-adult-social-care/outcome/fair-pay-agreement-process-in-adult-social-care-government-response" target="_blank" rel="noopener">Department of Health and Social Care</a>, Jul 2026), and recruits from abroad fell to 30,000 (<a href="https://www.localgov.co.uk/Social-care-vacancy-rate-falls-to-decade-low-but-challenges-ahead/64563" target="_blank" rel="noopener">LocalGov</a>, Jun 2026).</p>
+<p><strong>Question for your next meeting:</strong> If fewer people qualify for public help, who will pay for the care we provide, and can we keep enough staff to provide it?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Turns a policy change into a number: the clients and staff at risk next year.</p>
+</div>
+
+<div class="snapshot-card commercial">
+<span class="role">If you employ people</span>
+<h4>Health cover is costing more, and care for older relatives is landing on your staff</h4>
+<p><strong>What is changing:</strong> Employer health costs are expected to rise 8.2% in 2027 (<a href="https://www.mercer.com/en-us/about/newsroom/employers-expect-health-benefit-costs-to-jump-in-2027/" target="_blank" rel="noopener">Mercer</a>, Sep 2026), fewer large employers cover weight-loss drugs (<a href="https://www.businessgrouphealth.org/newsroom/news-and-press-releases/press-releases/2027-employer-healthcare-strategy-survey" target="_blank" rel="noopener">Business Group on Health</a>, Aug 2026), and 68% of French adults say they could not pay for care in old age alone (<a href="https://www.france-epargne.fr/news/dependance-trois-francais-sur-quatre-favorables-a-une-assurance-generalisee" target="_blank" rel="noopener">France &Eacute;pargne, in French</a>, Sep 2026).</p>
+<p><strong>Question for your next meeting:</strong> How many of our people are paying for or providing care for a relative, and what would it cost us to help?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Puts care costs on the same list as pay and pensions, where they can be planned.</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">If you make or sell medicines</span>
+<h4>Prices are now set in deals with governments, and copies arrive fast when patents end</h4>
+<p><strong>What is changing:</strong> Deals with the White House cover 90% of the US branded market (<a href="https://www.whitehouse.gov/releases/2026/09/president-trump-extends-most-favored-nation-pricing-to-every-medicaid-program-in-america/" target="_blank" rel="noopener">The White House</a>, Sep 2026), a 100% tariff hits firms without one (<a href="https://public-inspection.federalregister.gov/2026-19498.pdf" target="_blank" rel="noopener">Federal Register</a>, Sep 2026), and more than 50 generic weight-loss products were approved in India (<a href="https://medicaldialogues.in/news/industry/pharma/recalls-by-dr-reddys-torrent-put-spotlight-on-quality-standards-in-indias-semaglutide-market-174725" target="_blank" rel="noopener">Medical Dialogues</a>, Jul 2026).</p>
+<p><strong>Question for your next meeting:</strong> In which markets would a US pricing deal make us launch later or not at all, and what would that cost us in reputation?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Shows where pricing deals may cost more in access than they save in tariffs.</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">If you invest or set policy</span>
+<h4>The money is moving from insurance to cash, and from the state to families</h4>
+<p><strong>What is changing:</strong> The uninsured in the US are forecast to rise to 37 million (<a href="https://www.cbo.gov/publication/62539" target="_blank" rel="noopener">Congressional Budget Office</a>, Jul 2026), Dutch patients face a higher deductible from 2028 (<a href="https://www.zorgwijzer.nl/zorgverzekering-2027/verhoging-eigen-risico-zorgverzekering-gaat-voorlopig-niet-door" target="_blank" rel="noopener">Zorgwijzer, in Dutch</a>, Sep 2026), and Germany is raising co-payments by 50% (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026" target="_blank" rel="noopener">German Health Ministry, in German</a>, Jul 2026).</p>
+<p><strong>Question for your next meeting:</strong> Which of our assumptions rely on today's level of public cover, and what happens if more of the bill moves to households?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Tests whether forecasts still hold as cost shifts from public budgets to people.</p>
+</div>
+
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">The cycle's signals are organised into five themes. The tier (<strong style="color:#c62828;">Immediate</strong>, <strong style="color:#f57c00;">Near-Term</strong>, <strong style="color:#2e7d32;">Longer-Range</strong>) says <em>when</em> a theme bites. The weight says <em>how much</em> it shapes readers' decisions to 2030, and the last two columns say who decides and how much room readers have to act. Weights are the analysis's judgement, stated so they can be challenged.</p>
+<table class="weight-table"><thead><tr><th>Theme</th><th>Weight</th><th>Who decides</th><th>Room to act</th></tr></thead><tbody><tr><td data-l="Theme">1. Who pays for care in old age, and who does the caring</td><td data-l="Weight"><span class="wt high">high</span></td><td data-l="Who decides">National governments and, in England, councils and a new pay-bargaining body</td><td data-l="Room to act">Moderate: employers, providers and families can plan ahead even where the rules are set</td></tr><tr><td data-l="Theme">2. Millions are losing health cover and paying more for what is left</td><td data-l="Weight"><span class="wt high">high</span></td><td data-l="Who decides">The US Congress and federal agencies, state governments, employers and European health ministries</td><td data-l="Room to act">Moderate: states and employers can soften the losses, as some already have</td></tr><tr><td data-l="Theme">3. Weight-loss drugs are going cheap and global</td><td data-l="Weight"><span class="wt high">high</span></td><td data-l="Who decides">Medicines regulators, generic makers, insurers and employers</td><td data-l="Room to act">High for food, insurance and health businesses deciding how to respond</td></tr><tr><td data-l="Theme">4. Medicine prices are now set in trade deals</td><td data-l="Weight"><span class="wt medium">medium</span></td><td data-l="Who decides">The White House and drugmakers, with European and UK governments responding</td><td data-l="Room to act">Low for most readers; high for drugmakers choosing where and when to launch</td></tr><tr><td data-l="Theme">5. AI has joined the consultation before the rules have</td><td data-l="Weight"><span class="wt medium">medium</span></td><td data-l="Who decides">Medicines regulators, health boards and the insurers that cover doctors</td><td data-l="Room to act">High: health boards choose which tools to buy and how to check them</td></tr></tbody></table>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Who pays for care in old age, and who does the caring</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="weight-line"><strong>Weight:</strong> <span class="wt high">high</span> &middot; <strong>Who decides:</strong> National governments and, in England, councils and a new pay-bargaining body &middot; <strong>Room to act:</strong> Moderate: employers, providers and families can plan ahead even where the rules are set</p>
+<p class="cluster-framing">Ageing populations need more care, and the systems that provide it are short of both money and people. The response this autumn is to tighten who qualifies for help and to ask families to pay more, while promising better pay for care workers later. The consequence reaches well beyond the care sector: employers lose staff who look after parents, and households carry costs they have not planned for.</p>
+
+<div class="report-figure" data-figure-form="timeline">
+<svg viewBox="0 0 720 383" width="100%" role="img" aria-label="Timeline of care reforms in Germany, England and Australia from July 2026 to 2029">
+  <style>
+    .fg-t { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #1a237e; }
+    .fg-l { font: 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #37474f; }
+    .fg-y { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #1a237e; }
+    .fg-s { font: 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #5a6478; }
+  </style>
+  <text class="fg-t" x="8" y="18">Care reforms on the calendar: who pays, and when, 2026 to 2029</text>
+  <line x1="120" y1="40" x2="120" y2="305" stroke="#90a4ae" stroke-width="1.4"/>
+  <circle cx="120" cy="56" r="5" fill="#1a237e"/>
+  <text class="fg-y" x="8" y="60">July 2026</text>
+  <text class="fg-l" x="136" y="60">England merges its care review into one report, now due summer 2027</text>
+  <circle cx="120" cy="83" r="5" fill="#c62828"/>
+  <text class="fg-y" x="8" y="87">30 Sep 2026</text>
+  <text class="fg-l" x="136" y="87">Germany's cabinet approves its care reform</text>
+  <circle cx="120" cy="110" r="5" fill="#c62828"/>
+  <text class="fg-y" x="8" y="114">31 Dec 2026</text>
+  <text class="fg-l" x="136" y="114">Germany: last date to apply for care help under the old rules</text>
+  <circle cx="120" cy="137" r="5" fill="#c62828"/>
+  <text class="fg-y" x="8" y="141">1 Jan 2027</text>
+  <text class="fg-l" x="136" y="141">Germany: higher care contributions for childless members</text>
+  <circle cx="120" cy="164" r="5" fill="#1a237e"/>
+  <text class="fg-y" x="8" y="168">Apr 2027</text>
+  <text class="fg-l" x="136" y="168">England: first pay talks for care workers begin</text>
+  <circle cx="120" cy="191" r="5" fill="#1a237e"/>
+  <text class="fg-y" x="8" y="195">Summer 2027</text>
+  <text class="fg-l" x="136" y="195">England: Casey Commission reports on adult social care</text>
+  <circle cx="120" cy="218" r="5" fill="#2e7d32"/>
+  <text class="fg-y" x="8" y="222">1 Nov 2027</text>
+  <text class="fg-l" x="136" y="222">Australia: target of a three-month wait for home care</text>
+  <circle cx="120" cy="245" r="5" fill="#c62828"/>
+  <text class="fg-y" x="8" y="249">Jan 2028</text>
+  <text class="fg-l" x="136" y="249">Germany: new care contribution for co-insured spouses</text>
+  <circle cx="120" cy="272" r="5" fill="#1a237e"/>
+  <text class="fg-y" x="8" y="276">Apr 2028</text>
+  <text class="fg-l" x="136" y="276">England: first fair pay agreement for care workers takes effect</text>
+  <circle cx="120" cy="299" r="5" fill="#c62828"/>
+  <text class="fg-y" x="8" y="303">2029</text>
+  <text class="fg-l" x="136" y="303">Germany: care benefits start rising each year with inflation</text>
+  <text class="fg-s" x="8" y="335">Red: Germany. Navy: England. Green: Australia.</text>
+  <text class="fg-s" x="8" y="350">Dates after September 2026 are plans or scheduled events, not certainties.</text>
+  <text class="fg-s" x="8" y="365">Sources: German Health Ministry, Stiftung Warentest, DHSC, The Weekly SOURCE.</text>
+</svg>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>Germany's cabinet approved its care reform on 30 September. Childless members will pay more from January, spouses who are insured through a partner from 2028, and the bar for the lower care grades rises (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">German Health Ministry, in German</a>, Sep 2026). Grade 1 will need 15 assessment points instead of 12.5 (<a href="https://www.test.de/Pflegereform-5999460-0/" target="_blank" rel="noopener">Stiftung Warentest, in German</a>, Sep 2026).</li>
+<li>England has merged the Casey Commission's work into a single report due by summer 2027, and the government's own account acknowledges unacceptable levels of unmet need and the high costs of care (<a href="https://socialcare.blog.gov.uk/2026/08/06/the-prime-ministers-commitment-to-adult-social-care/" target="_blank" rel="noopener">Department of Health and Social Care</a>, Aug 2026). The first fair pay agreement for care workers takes effect in April 2028, with up to &pound;500 million for its first year (<a href="https://www.gov.uk/government/consultations/fair-pay-agreement-process-in-adult-social-care/outcome/fair-pay-agreement-process-in-adult-social-care-government-response" target="_blank" rel="noopener">Department of Health and Social Care</a>, Jul 2026).</li>
+<li>Care vacancies in England fell to 6.2%, but new recruits from abroad fell to 30,000 after the visa route closed and posts held by British workers fell by 40,000. &ldquo;The sector is projected to require a further 410,000 posts by 2040.&rdquo; (<a href="https://www.localgov.co.uk/Social-care-vacancy-rate-falls-to-decade-low-but-challenges-ahead/64563" target="_blank" rel="noopener">LocalGov</a>, Jun 2026).</li>
+<li>In France, 68% of adults say they could not pay for losing their independence alone, and a care-home place costs more than &euro;2,400 a month (<a href="https://www.france-epargne.fr/news/dependance-trois-francais-sur-quatre-favorables-a-une-assurance-generalisee" target="_blank" rel="noopener">France &Eacute;pargne, in French</a>, Sep 2026). In Japan, bankruptcies among day-care providers for older people rose 68.7% in the first five months of 2026 (<a href="https://www.tsr-net.co.jp/data/detail/1202949_1527.html" target="_blank" rel="noopener">Tokyo Shoko Research, in Japanese</a>, Jun 2026).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Early indicators</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> <strong>Staff shortages are now closing care businesses.</strong> Of the 27 Japanese day-care providers that went bankrupt between January and May, eight failed because they could not find staff, against one a year earlier (<a href="https://www.tsr-net.co.jp/data/detail/1202949_1527.html" target="_blank" rel="noopener">Tokyo Shoko Research, in Japanese</a>, Jun 2026). In France, private long-term care insurance is shrinking even as most people say they want a general scheme (<a href="https://www.france-epargne.fr/news/dependance-trois-francais-sur-quatre-favorables-a-une-assurance-generalisee" target="_blank" rel="noopener">France &Eacute;pargne, in French</a>, Sep 2026). Neither the market nor the workforce is filling the gap on its own.</li>
+</ul>
+</div>
+<div class="outlook">
+<h4>Outlook to 2030</h4>
+<p>The European Labour Authority says Europe needs about 808,000 more long-term care workers by 2040 just to keep today's ratio of carers to older people, while the number receiving care rises by more than 41% (<a href="https://www.ela.europa.eu/sites/default/files/2026-04/ela-report-labour-mobility-long-term-care.pdf" target="_blank" rel="noopener">European Labour Authority</a>, Apr 2026). Germany will index care benefits to inflation from 2029 (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">German Health Ministry, in German</a>, Sep 2026) and England's care report lands in 2027. On that path, by 2030 more of the cost and the work of care will sit with families and employers than today.</p>
+<p><strong>What it means:</strong> Treat care for older relatives as a workforce and budget issue now, not a private matter for staff.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The squeeze may be smaller than it looks. Germany's AOK research institute expects the tighter rules to save about &euro;2 billion a year, half what was planned, because applicants and assessors adapt (<a href="https://www.aok.de/pp/bv/wido-pm/analyse-des-wido-pauschale-erhoehung-der-schwellenwerte-fuer-die-pflegebegutachtung-wird-deutlich-weniger-einsparungen-bringen-als-erwartet/" target="_blank" rel="noopener">AOK Research Institute, in German</a>, Sep 2026). Australia is adding 32,000 home care places this year and aims for a three-month average wait by November 2027 (<a href="https://www.theweeklysource.com.au/health-dept-tells-senate-inquiry-support-at-home-is-improving/" target="_blank" rel="noopener">The Weekly SOURCE</a>, Sep 2026).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-1" class="xref">1</a>.</div>
+</div>
+
+<div class="signal-cluster tier-mandate" id="cluster-2">
+<div class="cluster-header"><h3>2. Millions are losing health cover and paying more for what is left</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="weight-line"><strong>Weight:</strong> <span class="wt high">high</span> &middot; <strong>Who decides:</strong> The US Congress and federal agencies, state governments, employers and European health ministries &middot; <strong>Room to act:</strong> Moderate: states and employers can soften the losses, as some already have</p>
+<p class="cluster-framing">In the United States, the extra help that kept individual health insurance affordable has ended, and new rules will make it harder to keep public cover from January. Employers face their steepest cost rise in two decades. Europe is moving in the same direction more gently, with higher co-payments and deductibles. People who keep their cover pay more for it, and more of the bill falls on households.</p>
+
+<div class="report-figure" data-figure-form="bar">
+<svg viewBox="0 0 720 278" width="100%" role="img" aria-label="Bar chart of the change in US marketplace health insurance enrolment from 2025 to 2026: New Mexico up 14%, state-run marketplaces down 6%, federal marketplace states down 15%, all states down 12%, Ohio and Oklahoma down about 32%">
+  <style>
+    .bg-t { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #1a237e; }
+    .bg-l { font: 600 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #1a237e; }
+    .bg-v { font: 700 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #263238; }
+    .bg-s { font: 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #5a6478; }
+  </style>
+  <text class="bg-t" x="8" y="18">Change in US marketplace health insurance enrolment, 2025 to 2026</text>
+  <line x1="460" y1="32" x2="460" y2="208" stroke="#90a4ae" stroke-width="1"/>
+  <rect x="460" y="38" width="88" height="22" rx="3" fill="#2e7d32"/>
+  <text class="bg-l" x="8" y="53">New Mexico</text>
+  <text class="bg-v" x="554" y="53" text-anchor="start">+14%</text>
+  <rect x="422" y="72" width="38" height="22" rx="3" fill="#ef9a9a"/>
+  <text class="bg-l" x="8" y="87">State-run marketplaces</text>
+  <text class="bg-v" x="416" y="87" text-anchor="end">-6%</text>
+  <rect x="366" y="106" width="94" height="22" rx="3" fill="#c62828"/>
+  <text class="bg-l" x="8" y="121">Federal marketplace states</text>
+  <text class="bg-v" x="360" y="121" text-anchor="end">-15%</text>
+  <rect x="385" y="140" width="75" height="22" rx="3" fill="#ef9a9a"/>
+  <text class="bg-l" x="8" y="155">All states</text>
+  <text class="bg-v" x="379" y="155" text-anchor="end">-12%</text>
+  <rect x="259" y="174" width="201" height="22" rx="3" fill="#c62828"/>
+  <text class="bg-l" x="8" y="189">Ohio and Oklahoma</text>
+  <text class="bg-v" x="253" y="189" text-anchor="end">-32%</text>
+  <text class="bg-s" x="8" y="228">Enrolment counted in February of each year, after the extra federal subsidies ended on 31 December 2025.</text>
+  <text class="bg-s" x="8" y="243">New Mexico was the only state to replace the lost subsidies in full with its own money.</text>
+  <text class="bg-s" x="8" y="258">Source: KFF analysis of federal enrolment data, July 2026.</text>
+</svg>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>Enrolment in the US marketplaces fell 12%, from 21.8 million to 19.2 million, after the extra subsidies expired. Ohio and Oklahoma fell by just over 32%, but &ldquo;New Mexico is the only state to fully replace the expired federal enhanced premiums tax credits with state-funded subsidies.&rdquo; (<a href="https://www.kff.org/affordable-care-act/how-has-aca-marketplace-enrollment-changed-across-states-in-2026/" target="_blank" rel="noopener">KFF</a>, Jul 2026).</li>
+<li>Insurers have proposed a typical 15% rise for 2027 after 20% this year, and &ldquo;If these early indications of median premium increases for 2027 hold, typical premiums for insurers participating in the ACA Marketplaces will have jumped by more than one-third over a two-year period.&rdquo; (<a href="https://www.healthsystemtracker.org/brief/how-much-and-why-aca-marketplace-premiums-are-going-up-in-2027" target="_blank" rel="noopener">Peterson-KFF Health System Tracker</a>, Jul 2026).</li>
+<li>From 1 January 2027, states must require many adults on Medicaid, the US health programme for people on low incomes, to show 80 hours a month of work or similar activity (<a href="https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals" target="_blank" rel="noopener">Federal Register</a>, Jun 2026). In 2025, before these changes, 26.7 million people were uninsured all year (<a href="https://www.census.gov/library/publications/2026/demo/p60-291.html" target="_blank" rel="noopener">US Census Bureau</a>, Sep 2026).</li>
+<li>Employers expect health costs per employee to rise 8.2% in 2027, the most since 2003 (<a href="https://www.mercer.com/en-us/about/newsroom/employers-expect-health-benefit-costs-to-jump-in-2027/" target="_blank" rel="noopener">Mercer</a>, Sep 2026). In Germany, patient co-payments will rise by 50% as the health insurers need almost &euro;19 billion of savings (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026" target="_blank" rel="noopener">German Health Ministry, in German</a>, Jul 2026).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Early indicators</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> <strong>Employers are handing staff the money to buy their own cover.</strong> More than 20,000 US businesses now give staff a sum to buy individual insurance instead of running a group plan, up 53% on 2025, and take-up among larger employers more than doubled (<a href="https://www.insurancebusinessmag.com/us/news/benefits/more-large-employers-are-turning-to-ichra-as-group-costs-climb-585997.aspx" target="_blank" rel="noopener">Insurance Business</a>, Aug 2026). They are moving people into the very market that is losing its subsidies.</li>
+</ul>
+</div>
+<div class="outlook">
+<h4>Outlook to 2030</h4>
+<p>The Congressional Budget Office expects the number of uninsured Americans to grow from 30 million in 2026 to 37 million by 2036, mainly because of the 2025 budget law (<a href="https://www.cbo.gov/publication/62539" target="_blank" rel="noopener">Congressional Budget Office</a>, Jul 2026). The Netherlands plans to raise its compulsory deductible from 2028 (<a href="https://www.zorgwijzer.nl/zorgverzekering-2027/verhoging-eigen-risico-zorgverzekering-gaat-voorlopig-niet-door" target="_blank" rel="noopener">Zorgwijzer, in Dutch</a>, Sep 2026). On that reading, by 2030 more people in rich countries will pay a larger share of their health costs directly.</p>
+<p><strong>What it means:</strong> Expect health cover to cost more and cover less each year to 2030, and decide in advance who absorbs it.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Losses can be softened. New Mexico, which replaced the subsidies with its own money, grew enrolment by 14%, and state-run marketplaces fell only 6% (<a href="https://www.kff.org/affordable-care-act/how-has-aca-marketplace-enrollment-changed-across-states-in-2026/" target="_blank" rel="noopener">KFF</a>, Jul 2026). The uninsured rate did not rise in 2025 (<a href="https://www.census.gov/library/publications/2026/demo/p60-291.html" target="_blank" rel="noopener">US Census Bureau</a>, Sep 2026), so the full effect is still a forecast.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-2" class="xref">2</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-3">
+<div class="cluster-header"><h3>3. Weight-loss drugs are going cheap and global</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="weight-line"><strong>Weight:</strong> <span class="wt high">high</span> &middot; <strong>Who decides:</strong> Medicines regulators, generic makers, insurers and employers &middot; <strong>Room to act:</strong> High for food, insurance and health businesses deciding how to respond</p>
+<p class="cluster-framing">The patents on semaglutide, the medicine in Ozempic and Wegovy, expired this year in several large countries, and cheap copies are arriving. Pills are joining injections. Use is spreading from rich-country patients to a mass market, with effects on what people eat, what employers pay and how health systems plan. Who pays is unsettled: generics widen access abroad while some US employers stop covering the drugs.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>Health Canada approved its first generic semaglutide for weight loss in June and is reviewing six more; generics in Canada are often 45% to 90% cheaper than the brand (<a href="https://www.canada.ca/en/health-canada/news/2026/06/canada-approves-first-generic-semaglutide-for-weight-loss.html" target="_blank" rel="noopener">Health Canada</a>, Jun 2026). India has approved more than 50 generic products since March (<a href="https://medicaldialogues.in/news/industry/pharma/recalls-by-dr-reddys-torrent-put-spotlight-on-quality-standards-in-indias-semaglutide-market-174725" target="_blank" rel="noopener">Medical Dialogues</a>, Jul 2026), and Brazil approved its first generic in August, which by law must cost at least 35% less (<a href="https://trademap.com.br/noticias/news-8207265" target="_blank" rel="noopener">InfoMoney, in Portuguese</a>, Aug 2026).</li>
+<li>IQVIA puts the obesity-medicine market at $66 billion in 2025 and $92 billion in 2026, and notes that &ldquo;Notably, around two-thirds of volume are users new to any GLP-1 therapy, suggesting that convenience, and lower prices expand the market rather than simply driving switching from injectables.&rdquo; (<a href="https://www.iqvia.com/locations/emea/blogs/2026/04/the-outlook-for-obesity-from-2026-to-2030" target="_blank" rel="noopener">IQVIA</a>, Apr 2026). 13.1% of US adults now use these drugs (<a href="https://www.foodbusinessnews.net/articles/30575-oral-glp-1s-rapidly-expanding-user-base" target="_blank" rel="noopener">Food Business News</a>, Jun 2026).</li>
+<li>WHO has opened a route for generic semaglutide to be approved for purchase by UN agencies and poorer countries (<a href="https://extranet.who.int/prequal/news/3rd-invitation-manufacturers-medicinal-products-management-diabetes-submit-expression-interest" target="_blank" rel="noopener">World Health Organization</a>, May 2026).</li>
+<li>The knock-on effects are already measurable: US grocery sales are expected to fall 1.1% to 2.7% this year, $9 billion to $21 billion (<a href="https://www.foodbusinessnews.net/articles/30575-oral-glp-1s-rapidly-expanding-user-base" target="_blank" rel="noopener">Food Business News</a>, Jun 2026). &ldquo;Fewer employers are covering GLP-1s to treat obesity, with coverage dropping from 72% in 2025 to 60% in 2026.&rdquo; (<a href="https://www.businessgrouphealth.org/newsroom/news-and-press-releases/press-releases/2027-employer-healthcare-strategy-survey" target="_blank" rel="noopener">Business Group on Health</a>, Aug 2026).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Early indicators</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> <strong>China is preparing to copy the next generation.</strong> Chinese generic semaglutide cannot launch until after mid-2027 because of data protection, but Chinese firms are already preparing copies of the newer pills and injections before the originals are approved in China (<a href="https://www.yicai.com/news/103246573.html" target="_blank" rel="noopener">Yicai, in Chinese</a>, Jun 2026). IQVIA counts 74 Chinese developers (<a href="https://www.iqvia.com/locations/emea/blogs/2026/04/the-outlook-for-obesity-from-2026-to-2030" target="_blank" rel="noopener">IQVIA</a>, Apr 2026).</li>
+</ul>
+</div>
+<div class="outlook">
+<h4>Outlook to 2030</h4>
+<p>Morgan Stanley expects nearly 30% of eligible patients in the US and 10% elsewhere to be taking these drugs by 2035, up from about 6% and 2%, and sees Brazilian prices falling by up to 70% (<a href="https://www.morganstanley.com/insights/articles/glp1-weight-loss-market-may-double-190-billion-2035" target="_blank" rel="noopener">Morgan Stanley</a>, Apr 2026). IQVIA's range for the market from 2027, $105 billion to $200 billion (<a href="https://www.iqvia.com/locations/emea/blogs/2026/04/the-outlook-for-obesity-from-2026-to-2030" target="_blank" rel="noopener">IQVIA</a>, Apr 2026), shows how uncertain the price-volume balance is. By 2030, on this reading, these drugs will be a mass-market product priced like other generics in much of the world.</p>
+<p><strong>What it means:</strong> Plan for weight-loss drugs used by far more people at far lower prices, and for the effect on your own market.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>Cheap supply is not yet reliable. Dr Reddy's, Torrent and USV recalled batches in India, and Dr Reddy's expects supply in India and Canada to be disrupted until at least late October (<a href="https://medicaldialogues.in/news/industry/pharma/recalls-by-dr-reddys-torrent-put-spotlight-on-quality-standards-in-indias-semaglutide-market-174725" target="_blank" rel="noopener">Medical Dialogues</a>, Jul 2026). In the US, falling employer cover means access may move to cash payment rather than widen (<a href="https://www.businessgrouphealth.org/resources/2027-employer-healthcare-strategy-survey-executive-summary" target="_blank" rel="noopener">Business Group on Health</a>, Aug 2026).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-4">
+<div class="cluster-header"><h3>4. Medicine prices are now set in trade deals</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="weight-line"><strong>Weight:</strong> <span class="wt medium">medium</span> &middot; <strong>Who decides:</strong> The White House and drugmakers, with European and UK governments responding &middot; <strong>Room to act:</strong> Low for most readers; high for drugmakers choosing where and when to launch</p>
+<p class="cluster-framing">Medicine prices in the United States are now set in private deals between the White House and individual drugmakers, backed by tariffs. Because those deals link US prices to what other rich countries pay, companies have a reason to raise prices or launch later abroad. For patients in Europe and elsewhere, the risk is waiting longer for new medicines.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The White House says companies covering 90% of the US branded market have signed pricing deals, and claims &ldquo;These agreements are projected to save Americans more than $600 billion.&rdquo; (<a href="https://www.whitehouse.gov/releases/2026/09/president-trump-extends-most-favored-nation-pricing-to-every-medicaid-program-in-america/" target="_blank" rel="noopener">The White House</a>, Sep 2026). The US Medicare and Medicaid agency says 40 states and Puerto Rico had signed up for these prices in Medicaid, saving an estimated $64.3 billion over ten years (<a href="https://www.cms.gov/newsroom/press-releases/cms-announces-participants-landmark-medicaid-drug-payment-model-bring-down-drug-costs-most" target="_blank" rel="noopener">Centers for Medicare &amp; Medicaid Services</a>, Sep 2026).</li>
+<li>A 100% tariff on patented medicines applies from 29 September to firms without a deal, while many specialty medicines from the EU, UK, Japan and other partners pay nothing (<a href="https://public-inspection.federalregister.gov/2026-19498.pdf" target="_blank" rel="noopener">Federal Register</a>, Sep 2026). Nine more mid-sized drugmakers signed deals in September (<a href="https://www.duanemorris.com/alerts/most_favored_nation_drug_pricing_agreements_expanded_nine_additional_pharmaceutical_0926.html" target="_blank" rel="noopener">Duane Morris</a>, Sep 2026).</li>
+<li>Across 36 European countries only 44% of new medicines are available, after an average wait of 607 days (<a href="https://www.ohe.org/insights/how-long-are-patients-waiting-for-new-treatments/" target="_blank" rel="noopener">Office of Health Economics</a>, Jul 2026). Reuters data relayed by Euronews show new launches in EU markets down about 35% (<a href="https://de.euronews.com/2026/09/14/us-preisdruck-bei-medikamenten-europaische-patienten-warten-wohl-langer" target="_blank" rel="noopener">Euronews, in German</a>, Sep 2026).</li>
+<li>The UK chose to pay more for new medicines, and the industry body says &pound;1.98bn of new investment followed, though &ldquo;This recovery is not yet secure.&rdquo; (<a href="https://pharmaceutical-journal.com/article/news/manufacturers-body-reports-2bn-boost-to-pharma-investment-in-uk-in-the-past-year" target="_blank" rel="noopener">The Pharmaceutical Journal</a>, Sep 2026).</li>
+</ul>
+</div>
+
+<div class="weak-signals">
+<h4>Early indicators</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> <strong>A US deal that rewards higher prices abroad.</strong> Documents obtained by the campaign group Public Citizen show Pfizer's deal gives the US health department a share of extra revenue if Pfizer raises its prices overseas (<a href="https://www.fiercepharma.com/pharma/new-mfn-deal-details-reignite-concerns-trumps-pricing-policy-favors-pharma" target="_blank" rel="noopener">Fierce Pharma</a>, Sep 2026). US policy now has a direct interest in what other countries pay.</li>
+</ul>
+</div>
+<div class="outlook">
+<h4>Outlook to 2030</h4>
+<p>The Medicaid pricing model launched in January 2026 and runs for five years, to the end of 2030 (<a href="https://www.cms.gov/newsroom/press-releases/cms-announces-participants-landmark-medicaid-drug-payment-model-bring-down-drug-costs-most" target="_blank" rel="noopener">Centers for Medicare &amp; Medicaid Services</a>, Sep 2026). On that path, by 2030 the price of a new medicine in Europe will be negotiated with one eye on Washington, and the gap in launch dates between the US and smaller markets is likely to widen.</p>
+<p><strong>What it means:</strong> Expect new medicines to reach some countries later, and treat US pricing deals as part of every market's access plan.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The savings may be smaller than claimed. A Lancet study reported by Euronews finds confidential deals with 17 companies cut possible Medicare savings by 71% (<a href="https://de.euronews.com/2026/09/14/us-preisdruck-bei-medikamenten-europaische-patienten-warten-wohl-langer" target="_blank" rel="noopener">Euronews, in German</a>, Sep 2026), and Lilly's deal leaves out obesity drugs, which could cost Medicaid nearly $1.7 billion in savings (<a href="https://www.fiercepharma.com/pharma/new-mfn-deal-details-reignite-concerns-trumps-pricing-policy-favors-pharma" target="_blank" rel="noopener">Fierce Pharma</a>, Sep 2026).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<div class="signal-cluster tier-positioning" id="cluster-5">
+<div class="cluster-header"><h3>5. AI has joined the consultation before the rules have</h3><span class="impact-tier positioning">Near-Term</span></div>
+<p class="weight-line"><strong>Weight:</strong> <span class="wt medium">medium</span> &middot; <strong>Who decides:</strong> Medicines regulators, health boards and the insurers that cover doctors &middot; <strong>Room to act:</strong> High: health boards choose which tools to buy and how to check them</p>
+<p class="cluster-framing">AI note-takers that listen to consultations and write up the record are spreading quickly, because they save time and reduce burnout. The rules have not kept up. Regulators have decided most of these tools are not medical devices, so the clinician remains responsible for every error, and patients are not always told the tool is in use.</p>
+
+<div class="cluster-signals">
+<ul>
+<li>The UK medicines regulator says AI scribes that only transcribe or summarise are not medical devices, and that &ldquo;Clinicians remain responsible for reviewing and verifying AI generated transcripts, summaries and other outputs before they are used in patient care.&rdquo; (<a href="https://www.gov.uk/government/news/mhra-clarifies-regulatory-status-of-ambient-voice-technologies-used-in-the-nhs" target="_blank" rel="noopener">Medicines and Healthcare products Regulatory Agency</a>, Jul 2026).</li>
+<li>In a survey of more than 1,000 UK GPs, about one in seven already used AI scribes; four in five users saved time, but nearly one-third said errors happened often (<a href="https://healthmanagement.org/c/it/news/ai-scribes-cut-workload-but-need-oversight" target="_blank" rel="noopener">HealthManagement.org</a>, Jul 2026).</li>
+<li>A UK national commission on regulating AI in healthcare heard from more than 12,000 people (<a href="https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare" target="_blank" rel="noopener">Medicines and Healthcare products Regulatory Agency</a>, Sep 2026). A law firm's reading of its report says current law creates &ldquo;liability sinks&rdquo;, &ldquo;where frontline staff absorb responsibility for AI failures despite having limited control over product design.&rdquo; (<a href="https://cms.law/en/gbr/legal-updates/from-pre-market-to-lifecycle-the-national-commission-s-44-recommendations-on-ai-regulation-in-healthcare" target="_blank" rel="noopener">CMS law firm</a>, Sep 2026), and 77% of health professionals want the rules overhauled.</li>
+<li>France's largest insurer of doctors tells its members that it is always the doctor who will be held liable (<a href="https://macsf.fr/responsabilite-professionnelle/cadre-juridique/usage-ia-dans-pratique-quotidienne-quelle-responsabilite" target="_blank" rel="noopener">MACSF, in French</a>, May 2026). In the US, over 280 health-AI bills were introduced in the first half of 2026, but only 33 became law (<a href="https://www.manatt.com/insights/white-papers/2026/manatt-health-q2-2026-ai-policy-and-health-care" target="_blank" rel="noopener">Manatt</a>, Jul 2026).</li>
+</ul>
+</div>
+<div class="outlook">
+<h4>Outlook to 2030</h4>
+<p>The EU has delayed its AI rules for AI built into medical devices to 2 August 2028 (<a href="https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act" target="_blank" rel="noopener">White &amp; Case</a>, Aug 2026), and the new EU product liability rules apply only to products placed on the market from 9 December 2026 (<a href="https://macsf.fr/responsabilite-professionnelle/cadre-juridique/usage-ia-dans-pratique-quotidienne-quelle-responsabilite" target="_blank" rel="noopener">MACSF, in French</a>, May 2026). On that path, AI will be in most consultations well before 2030, and clinicians will carry the risk until the rules arrive.</p>
+<p><strong>What it means:</strong> Use AI tools, but decide now who checks them, who tells patients and who pays when they go wrong.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The benefits are real and measured. At Mass General Brigham, ambient AI was linked to a 21.2-point fall in burnout (<a href="https://www.beckershospitalreview.com/healthcare-information-technology/ai/ambient-ai-scales-across-health-systems-as-burnout-data-emerges/" target="_blank" rel="noopener">Becker&rsquo;s Hospital Review</a>, May 2026), and the UK commission's staged &ldquo;L-plate&rdquo; approvals would let regulators supervise tools in use rather than block them (<a href="https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare" target="_blank" rel="noopener">Medicines and Healthcare products Regulatory Agency</a>, Sep 2026).</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implication <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+
+<div class="si-item" id="si-1">
+<h4>Implication 1: Treat care for older relatives as a workforce and budget issue</h4>
+<p>Governments are tightening who qualifies for care help (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">German Health Ministry, in German</a>, Sep 2026) and England's reforms will not report until 2027 (<a href="https://socialcare.blog.gov.uk/2026/08/06/the-prime-ministers-commitment-to-adult-social-care/" target="_blank" rel="noopener">Department of Health and Social Care</a>, Aug 2026). Employers and care providers should find out how many staff look after an older relative, what that costs in absence and turnover, and what support would keep them: flexible hours, paid carers' leave or help finding care.</p>
+<p class="si-action">Action: HR directors to measure caring responsibilities in their workforce and agree a carer support policy by 30 June 2027.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a></span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>Implication 2: Budget for dearer health cover and decide who carries the rise</h4>
+<p>Employers expect an 8.2% rise in 2027 (<a href="https://www.mercer.com/en-us/about/newsroom/employers-expect-health-benefit-costs-to-jump-in-2027/" target="_blank" rel="noopener">Mercer</a>, Sep 2026), marketplace premiums are rising again (<a href="https://www.healthsystemtracker.org/brief/how-much-and-why-aca-marketplace-premiums-are-going-up-in-2027" target="_blank" rel="noopener">Peterson-KFF Health System Tracker</a>, Jul 2026) and more employers are moving staff onto individual cover (<a href="https://www.insurancebusinessmag.com/us/news/benefits/more-large-employers-are-turning-to-ichra-as-group-costs-climb-585997.aspx" target="_blank" rel="noopener">Insurance Business</a>, Aug 2026). Finance and HR teams should set 2027 budgets for a rise of 8% to 9%, decide how much to pass to staff, and check what moving staff to individual cover would mean for those who lose subsidies.</p>
+<p class="si-action">Action: Finance and HR teams to approve 2027 health-benefit budgets with an explicit cost-sharing decision by 31 December 2026.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-2" class="xref">2</a> and <a href="#cluster-3" class="xref">3</a></span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>Implication 3: Plan for weight-loss drugs in mass use at generic prices</h4>
+<p>Generics are on sale in India and approved in Canada (<a href="https://www.canada.ca/en/health-canada/news/2026/06/canada-approves-first-generic-semaglutide-for-weight-loss.html" target="_blank" rel="noopener">Health Canada</a>, Jun 2026), pills are adding new users (<a href="https://www.iqvia.com/locations/emea/blogs/2026/04/the-outlook-for-obesity-from-2026-to-2030" target="_blank" rel="noopener">IQVIA</a>, Apr 2026) and grocery spending is already falling (<a href="https://www.foodbusinessnews.net/articles/30575-oral-glp-1s-rapidly-expanding-user-base" target="_blank" rel="noopener">Food Business News</a>, Jun 2026). Food companies, insurers, employers and health planners should model a 2030 in which use is several times today's and prices are far lower, and decide whether to cover, steer or adapt.</p>
+<p class="si-action">Action: Strategy teams in food, insurance and benefits to run a 2030 weight-loss drug scenario by 30 June 2027.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-3" class="xref">3</a></span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>Implication 4: Watch where new medicines launch and who answers for AI errors</h4>
+<p>US pricing deals may delay launches abroad (<a href="https://de.euronews.com/2026/09/14/us-preisdruck-bei-medikamenten-europaische-patienten-warten-wohl-langer" target="_blank" rel="noopener">Euronews, in German</a>, Sep 2026), the EU's buy-European medicines law awaits adoption (<a href="https://www.ropesgray.com/en/insights/viewpoints/2026/09/102o09a/buy-european-incentivising-eu-based-pharmaceutical-manufacturing" target="_blank" rel="noopener">Ropes &amp; Gray</a>, Sep 2026), and AI rules for medical devices now apply only from 2028 (<a href="https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act" target="_blank" rel="noopener">White &amp; Case</a>, Aug 2026). Policymakers, drugmakers and health boards should track launch dates in their markets and the liability position of the AI tools they use.</p>
+<p class="si-action">Action: Policy and medical teams to review launch delays and AI liability each quarter from January 2027.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Themes <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a></span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix 2030</h2>
+<div class="scenario-matrix-axed">
+<div class="axis-name-h">Who pays for care: the state &rarr; families</div>
+<div class="axis-name-v">Medicines paid by: insurance &rarr; cash</div>
+<div class="matrix-frame">
+<div class="corner-label corner-tl">State care &middot; cash medicines</div>
+<div class="corner-label corner-tr">Family care &middot; cash medicines</div>
+<div class="corner-label corner-bl">State care &middot; insured medicines</div>
+<div class="corner-label corner-br">Family care &middot; insured medicines</div>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>Public care, private pills</h4>
+<p>In 2030 governments have found the money for care, perhaps after England's review, but medicines are mostly bought for cash at generic prices. Weight-loss drugs cost little and reach most who want them, while insurance retreats to the most expensive treatments.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> New public money for care; more drugs sold direct to patients; insurers drop cover for cheap generics.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Pay as you go</h4>
+<p>In 2030 families pay for both care and medicines directly. Cheap generics keep pills affordable, but care is the large bill, and employers and households carry it. Inequality in who gets care widens.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Eligibility tightened again; more uninsured; cash-pay channels for medicines grow.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>The managed squeeze</h4>
+<p>In 2030 the state still funds care and insurance still pays for medicines, but both are rationed to fit budgets: tight eligibility, waiting lists and long delays for new medicines, as Europe's 607-day average wait shows (<a href="https://www.ohe.org/insights/how-long-are-patients-waiting-for-new-treatments/" target="_blank" rel="noopener">Office of Health Economics</a>, Jul 2026).</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Care budgets frozen; launch delays lengthen; insurers restrict access to new drugs.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Covered pills, family care</h4>
+<p>In 2030 insurers and employers pay for medicines, including weight-loss drugs, but care in old age falls mainly on families. Workplaces become the main source of help for carers.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> Employers add carer benefits; care eligibility tightened; insurers keep covering GLP-1 drugs.</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<a name="section-options"></a>
+<div class="options-section">
+<div class="option-area"><h3>Options: Care for older people (governments, councils and care providers)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Tighten who qualifies</h4><p>Keep budgets in line by raising the bar for help, as Germany is doing.</p><p class="opt-trade"><strong>Trade-off:</strong> Saves public money now, but moves cost and work onto families and may save less than planned.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Pay as you go; Covered pills, family care</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Pay carers more and fund home care</h4><p>Raise care workers' pay and expand help at home, as England's pay agreement and Australia's home care places do.</p><p class="opt-trade"><strong>Trade-off:</strong> Costs public money, but keeps people out of hospital and care homes.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Public care, private pills; The managed squeeze</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Create dedicated care insurance</h4><p>Fund care through a dedicated insurance or a national care service, as France is debating.</p><p class="opt-trade"><strong>Trade-off:</strong> The biggest change and a new tax or contribution, but a stable source of money for decades.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Public care, private pills</p></div></div></div>
+<div class="option-area"><h3>Options: Staff health and care benefits (employers)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Absorb the rise</h4><p>Keep current health plans and pay the extra cost.</p><p class="opt-trade"><strong>Trade-off:</strong> Simple and good for staff, but the cost rises every year.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The managed squeeze; Covered pills, family care</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Share the cost and steer spending</h4><p>Raise staff contributions and steer weight-loss drugs to cheaper cash channels.</p><p class="opt-trade"><strong>Trade-off:</strong> Holds the budget, but some staff will lose access.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Give staff a sum and add carer support</h4><p>Fund individual cover with a fixed sum and add paid carers' leave and help finding care.</p><p class="opt-trade"><strong>Trade-off:</strong> Caps the employer's cost and helps carers, but staff carry more risk in a dearer individual market.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Pay as you go; Covered pills, family care</p></div></div></div>
+<div class="option-area"><h3>Options: Weight-loss drugs (insurers, health systems and food companies)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Wait and see</h4><p>Keep current coverage and products while prices settle.</p><p class="opt-trade"><strong>Trade-off:</strong> No cost now, but slow to respond if use multiplies.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The managed squeeze</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Cover generics with conditions</h4><p>Cover cheaper generics and pills for those most likely to benefit, with support to stay on treatment.</p><p class="opt-trade"><strong>Trade-off:</strong> Spends money now to save on illness later, and needs reliable supply.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Covered pills, family care; The managed squeeze</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Redesign around mass use</h4><p>Reshape products, menus and health plans for a population where many take these drugs.</p><p class="opt-trade"><strong>Trade-off:</strong> The biggest shift, and costly if use falls back.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Public care, private pills; Pay as you go</p></div></div></div>
+<div class="option-area"><h3>Options: AI tools in care (health boards and clinicians)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Let clinicians check the output</h4><p>Use AI scribes and leave clinicians to correct errors, as the rules now expect.</p><p class="opt-trade"><strong>Trade-off:</strong> Fast and cheap, but clinicians carry the risk.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Monitor tools and tell patients</h4><p>Audit error rates, tell patients when AI is used and report incidents.</p><p class="opt-trade"><strong>Trade-off:</strong> Costs time and money, but builds trust and spots problems early.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The managed squeeze; Public care, private pills</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Share the risk with suppliers</h4><p>Buy only tools whose makers accept part of the liability and agree to ongoing monitoring.</p><p class="opt-trade"><strong>Trade-off:</strong> Fewer tools to choose from, but clearer accountability.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Public care, private pills; Covered pills, family care</p></div></div></div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item excl-1">
+<span class="excl-eyebrow">Not planned for</span>
+<h4>A collapse in the supply of generic weight-loss drugs</h4>
+<p>The recalls so far are batches at a few makers (<a href="https://medicaldialogues.in/news/industry/pharma/recalls-by-dr-reddys-torrent-put-spotlight-on-quality-standards-in-indias-semaglutide-market-174725" target="_blank" rel="noopener">Medical Dialogues</a>, Jul 2026), while India has approved more than 50 products and Canada is reviewing six more applications (<a href="https://www.canada.ca/en/health-canada/news/2026/06/canada-approves-first-generic-semaglutide-for-weight-loss.html" target="_blank" rel="noopener">Health Canada</a>, Jun 2026).</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> a regulator suspends several makers at once or a safety alert covers generic semaglutide as a class.</p>
+</div>
+
+<div class="exclusion-item excl-2">
+<span class="excl-eyebrow">Not planned for</span>
+<h4>Free personal care in England before 2030</h4>
+<p>The care review reports in 2027 (<a href="https://socialcare.blog.gov.uk/2026/08/06/the-prime-ministers-commitment-to-adult-social-care/" target="_blank" rel="noopener">Department of Health and Social Care</a>, Aug 2026) and the first pay agreement comes in 2028 with a capped budget (<a href="https://www.gov.uk/government/consultations/fair-pay-agreement-process-in-adult-social-care/outcome/fair-pay-agreement-process-in-adult-social-care-government-response" target="_blank" rel="noopener">Department of Health and Social Care</a>, Jul 2026).</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> the government commits new money to free personal care in a budget or spending review.</p>
+</div>
+
+<div class="exclusion-item excl-3">
+<span class="excl-eyebrow">Not planned for</span>
+<h4>A US return to the World Health Organization</h4>
+<p>The only movement is conditional money for Gavi, with no sign of funding for the WHO (<a href="https://www.kff.org/global-health-policy/the-trump-administrations-foreign-aid-review-status-of-u-s-support-for-gavi-the-vaccine-alliance/" target="_blank" rel="noopener">KFF</a>, Aug 2026).</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> the US announces it will rejoin or resume funding the WHO.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Questions For The Next Strategy Meeting</h2>
+<p class="dp-standfirst">Five questions this cycle's evidence should put on the agenda.</p>
+<ol>
+<li>If fewer of our staff's parents qualify for public care help, how much caring will our staff do, and what will it cost us?</li>
+<li>Which of our 2027 budgets assume health cover costs what it did this year?</li>
+<li>If weight-loss drugs are taken by three times as many people by 2030, which of our products, prices or plans change?</li>
+<li>Pfizer's deal rewards it for raising prices abroad (<a href="https://www.fiercepharma.com/pharma/new-mfn-deal-details-reignite-concerns-trumps-pricing-policy-favors-pharma" target="_blank" rel="noopener">Fierce Pharma</a>, Sep 2026). Which medicines our country relies on could arrive later or cost more as a result?</li>
+<li>Who in our organisation answers for a mistake made by an AI tool, and do the patients or customers know the tool is in use?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 50 verified sources, gathered under a soft six-month window (publications from April 2026 onward), with no structural anchors in the six-to-twelve-month band.</p>
+<p class="small">Source tiers: Tier 1, governments, regulators and intergovernmental bodies. Tier 2, think-tanks, academic institutes, major consultancies and quality data providers. Tier 3, quality journalism and specialist trade press. Tier 4, vendor, company and practitioner sources, used only as directional corroboration. This briefing uses no Tier 4 source.</p>
+
+<h4>Theme 1: Who pays for care in old age, and who does the caring</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">Bundesministerium für Gesundheit</a> <span style="color:#5a6478;font-style:italic;">(in German)</span></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>Germany&#x27;s federal cabinet approved the long-term care reorganisation law (PNOG) on 30 September 2026. From 1 January 2027 the care-insurance surcharge for childless members rises by 0.3 points to 0.9%; from 1 January 2028 a 0.52% surcharge applies for co-insured spouses or partners; from 2029 benefits rise each year with core inflation. The assessment rules are recalibrated so that care grades 1 to 3 are awarded &#x27;more precisely&#x27;, and €1.6 billion goes to digitalising long-term care facilities.</td></tr>
+<tr class="tier-1"><td><a href="https://socialcare.blog.gov.uk/2026/08/06/the-prime-ministers-commitment-to-adult-social-care/" target="_blank" rel="noopener">Department of Health and Social Care (Social care blog, GOV.UK)</a></td><td class="tier-1">Tier 1</td><td>Aug 2026</td><td>The Casey Commission&#x27;s first-phase report has not been published; instead the Prime Minister announced that the Commission&#x27;s work will be accelerated, delivering its (single) report by summer 2027. Baroness Casey launched a public &#x27;Big Conversation on Care&#x27; running until April 2027, and a cross-departmental ministerial group will look at broadening the Fair Pay Agreement towards NHS standards of pay and progression.</td></tr>
+<tr class="tier-1"><td><a href="https://www.gov.uk/government/consultations/fair-pay-agreement-process-in-adult-social-care/outcome/fair-pay-agreement-process-in-adult-social-care-government-response" target="_blank" rel="noopener">Department of Health and Social Care (GOV.UK)</a></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>England&#x27;s first Fair Pay Agreement for adult social care workers will come into effect in April 2028, with negotiations for 2028 to 2029 beginning around April 2027 in a new Adult Social Care Negotiating Body. Maximum funding to councils to cover the agreement&#x27;s extra costs has been agreed at £500 million for the first year.</td></tr>
+<tr class="tier-1"><td><a href="https://www.ela.europa.eu/sites/default/files/2026-04/ela-report-labour-mobility-long-term-care.pdf" target="_blank" rel="noopener">European Labour Authority</a></td><td class="tier-1">Tier 1</td><td>Apr 2026</td><td>Over 3.2 million long-term care workers were employed in the EU-27 in 2024 (about 1.6% of employment). Keeping the same ratio of care workers to older people until 2040 will need about 808,000 more long-term care workers, while recipients of residential and home care aged 65 and over rise by more than 41% between 2022 and 2040; non-EU nationals already make up 8.8% of the workforce.</td></tr>
+<tr class="tier-2"><td><a href="https://www.test.de/Pflegereform-5999460-0/" target="_blank" rel="noopener">Stiftung Warentest</a> <span style="color:#5a6478;font-style:italic;">(in German)</span></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>Under the cabinet-approved reform, care grade 1 would need 15 instead of 12.5 assessment points, grade 2 at least 30 instead of 27, and grade 3 at least 50 instead of 47.5. The contribution rate for childless members rises to 4.5% (from 4.2%). Applications postmarked by 31 December 2026 are still assessed under the old rules.</td></tr>
+<tr class="tier-2"><td><a href="https://www.aok.de/pp/bv/wido-pm/analyse-des-wido-pauschale-erhoehung-der-schwellenwerte-fuer-die-pflegebegutachtung-wird-deutlich-weniger-einsparungen-bringen-als-erwartet/" target="_blank" rel="noopener">Wissenschaftliches Institut der AOK (WIdO)</a> <span style="color:#5a6478;font-style:italic;">(in German)</span></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>The AOK&#x27;s research institute (WIdO) estimates that raising the care-grade thresholds will save only about €2 billion a year rather than the roughly €4 billion expected. Its analysis of about 1.1 million AOK members assessed in 2024 found almost 21% of first assessments and about 16% of upgrades fell in the threshold zones.</td></tr>
+<tr class="tier-2"><td><a href="https://www.tsr-net.co.jp/data/detail/1202949_1527.html" target="_blank" rel="noopener">東京商工リサーチ (Tokyo Shoko Research)</a> <span style="color:#5a6478;font-style:italic;">(in Japanese)</span></td><td class="tier-2">Tier 2</td><td>Jun 2026</td><td>Bankruptcies of Japanese day-service (adult day care) operators reached 27 in January-May 2026, up 68.7% year on year and already above the previous first-half record of 25 since 2000; 8 of them were &#x27;labour-shortage&#x27; bankruptcies (1 a year earlier). Home-visit care (houmon kaigo) bankruptcies, by contrast, fell to 31 (down 18.4%), the first decline for the period in five years.</td></tr>
+<tr class="tier-3"><td><a href="https://www.france-epargne.fr/news/dependance-trois-francais-sur-quatre-favorables-a-une-assurance-generalisee" target="_blank" rel="noopener">France Épargne</a> <span style="color:#5a6478;font-style:italic;">(in French)</span></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>In the Mutualité Française&#x27;s 2026 survey (Odoxa, 3,000 people), 68% say they cannot bear the cost of losing independence alone. A care-home (Ehpad) place costs on average more than €2,400 a month, with a median €731 left for the resident to pay; private long-term care insurance contributions fell 1.4% to €609 million; and 2.8 million older people are expected to need support by 2050.</td></tr>
+<tr class="tier-3"><td><a href="https://www.theweeklysource.com.au/health-dept-tells-senate-inquiry-support-at-home-is-improving/" target="_blank" rel="noopener">The Weekly SOURCE</a></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>Australia&#x27;s health department told a Senate inquiry that about 390,000 people were receiving Support at Home at 30 June, with another 32,000 places to be released this financial year and a further 300,000 places forecast to be needed by 2035. Waits for medium-priority cases had fallen from eight to nine months to five to six months, and the department says it is on track for an average three-month wait by 1 November 2027.</td></tr>
+<tr class="tier-3"><td><a href="https://www.localgov.co.uk/Social-care-vacancy-rate-falls-to-decade-low-but-challenges-ahead/64563" target="_blank" rel="noopener">LocalGov</a></td><td class="tier-3">Tier 3</td><td>Jun 2026</td><td>Skills for Care data show England&#x27;s adult social care vacancy rate fell to 6.2% in 2025/26, the lowest since 2015/16, around 96,000 vacancies a day, down 10.5%. But new international recruits arriving directly from abroad fell to 30,000 after the visa route closed, posts filled by British nationals fell by 40,000 in the year (130,000 since 2020/21), and the sector needs a further 410,000 posts by 2040.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 2: Millions are losing health cover and paying more for what is left</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.census.gov/library/publications/2026/demo/p60-291.html" target="_blank" rel="noopener">U.S. Census Bureau</a></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>In 2025, 26.7 million people (7.9 percent) were uninsured for the whole year, statistically unchanged from 2024. But public coverage for adults aged 19 to 64 fell by 0.5 percentage points to 17.3 percent, and Medicaid coverage decreased by 0.5 percentage points.</td></tr>
+<tr class="tier-1"><td><a href="https://www.cbo.gov/publication/62539" target="_blank" rel="noopener">Congressional Budget Office</a></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>CBO projects the number of uninsured people rising from 30 million in 2026 to 37 million in 2036, largely because the 2025 reconciliation act will reduce Medicaid and CHIP enrolment and, to a lesser extent, marketplace enrolment. An average of 36 million people, 10 percent of the population, are projected to be uninsured in any given month, and about 60 percent of the uninsured in 2036 would be eligible for subsidised coverage.</td></tr>
+<tr class="tier-1"><td><a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026" target="_blank" rel="noopener">Bundesministerium für Gesundheit</a> <span style="color:#5a6478;font-style:italic;">(in German)</span></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>Germany&#x27;s Bundestag passed the statutory health insurance contribution-stabilisation law; the health ministry says it requires savings of almost €19 billion in the coming year alone. Patient co-payments and their limits will be indexed to price and wage growth and raised by 50%.</td></tr>
+<tr class="tier-1"><td><a href="https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals" target="_blank" rel="noopener">Federal Register (Centers for Medicare &amp; Medicaid Services, HHS)</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>CMS&#x27;s interim final rule requires states to implement Medicaid work (&#x27;community engagement&#x27;) requirements no later than January 1, 2027, with covered adults having to show at least 80 hours a month of work or other qualifying activity. In FY 2025, approximately 82.4 million people were enrolled in Medicaid, roughly 20 million of them in the expansion adult group the rule targets; the rule took effect on July 31, 2026.</td></tr>
+<tr class="tier-2"><td><a href="https://www.mercer.com/en-us/about/newsroom/employers-expect-health-benefit-costs-to-jump-in-2027/" target="_blank" rel="noopener">Mercer</a></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>Mercer&#x27;s survey finds US employer health benefit cost per employee is expected to rise 8.2% on average in 2027, the highest increase since 2003, even after cost-cutting; without action current plan costs would rise 11%. 59% of employers plan cost-cutting changes in 2027, such as higher deductibles, versus a 6.7% average projected increase this year.</td></tr>
+<tr class="tier-2"><td><a href="https://www.kff.org/affordable-care-act/how-has-aca-marketplace-enrollment-changed-across-states-in-2026/" target="_blank" rel="noopener">KFF</a></td><td class="tier-2">Tier 2</td><td>Jul 2026</td><td>Effectuated ACA marketplace enrollment in February 2026 fell to 19.2 million from a record 21.8 million in 2025, a 12% drop after the enhanced tax credits expired. HealthCare.gov states fell 15% and state-based marketplaces 6%; Ohio and Oklahoma fell just over 32%, while New Mexico, the only state to fully replace the credits with state money, grew 14%.</td></tr>
+<tr class="tier-2"><td><a href="https://www.healthsystemtracker.org/brief/how-much-and-why-aca-marketplace-premiums-are-going-up-in-2027" target="_blank" rel="noopener">Peterson-KFF Health System Tracker</a></td><td class="tier-2">Tier 2</td><td>Jul 2026</td><td>Across 276 ACA marketplace insurers in all 50 states and DC, the median proposed premium increase for 2027 is 15%, after a median proposed 18% and finalised 20% for 2026. If these hold, typical marketplace premiums will have risen by more than one-third over two years; for 2026 the departure of healthier enrollees after the subsidy expiry added an estimated 4 percentage points.</td></tr>
+<tr class="tier-3"><td><a href="https://www.zorgwijzer.nl/zorgverzekering-2027/verhoging-eigen-risico-zorgverzekering-gaat-voorlopig-niet-door" target="_blank" rel="noopener">Zorgwijzer</a> <span style="color:#5a6478;font-style:italic;">(in Dutch)</span></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>The Dutch compulsory deductible stays at €385 in 2027 because the cabinet has postponed the planned rise to €455 by a year, but it holds to a rise from 2028 and wants further increases after that. Zorgwijzer calculates the average basic premium will rise 7% to 9% in 2027.</td></tr>
+<tr class="tier-3"><td><a href="https://www.insurancebusinessmag.com/us/news/benefits/more-large-employers-are-turning-to-ichra-as-group-costs-climb-585997.aspx" target="_blank" rel="noopener">Insurance Business</a></td><td class="tier-3">Tier 3</td><td>Aug 2026</td><td>More than 20,000 US businesses now offer an individual coverage health reimbursement arrangement (ICHRA) as their main health benefit, a 53% jump from 2025, per the HRA Council; adoption among employers with 50 or more full-time equivalent staff more than doubled year-over-year, and ICHRA-covered lives passed 500,000 at the start of 2026.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 3: Weight-loss drugs are going cheap and global</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.canada.ca/en/health-canada/news/2026/06/canada-approves-first-generic-semaglutide-for-weight-loss.html" target="_blank" rel="noopener">Health Canada</a></td><td class="tier-1">Tier 1</td><td>Jun 2026</td><td>Health Canada authorised the first generic semaglutide injection for chronic weight management (for patients 12 years and over), its third generic semaglutide approval, and is reviewing six other generic submissions. Canada became the first G7 country to approve a generic semaglutide on April 28, 2026; many generics in Canada are 45 to 90% cheaper than brand names.</td></tr>
+<tr class="tier-1"><td><a href="https://extranet.who.int/prequal/news/3rd-invitation-manufacturers-medicinal-products-management-diabetes-submit-expression-interest" target="_blank" rel="noopener">World Health Organization (WHO Prequalification of Medical Products)</a></td><td class="tier-1">Tier 1</td><td>May 2026</td><td>WHO&#x27;s Prequalification Unit widened its insulin invitation into one for medicines to manage diabetes and added semaglutide injection, opening a route for generic semaglutide makers to win WHO prequalification, which UN agencies and many low- and middle-income country buyers rely on for procurement.</td></tr>
+<tr class="tier-2"><td><a href="https://www.businessgrouphealth.org/newsroom/news-and-press-releases/press-releases/2027-employer-healthcare-strategy-survey" target="_blank" rel="noopener">Business Group on Health</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>Among large US employers, coverage of GLP-1s for obesity fell from 72% in 2025 to 60% in 2026; employers expect a median 9.2% healthcare cost trend for 2027, pharmacy is 25% of total health spend and employer drug costs are estimated to rise 12% in 2026. Survey of 127 employers covering 8.7 million people in the United States, completed in June 2026.</td></tr>
+<tr class="tier-2"><td><a href="https://www.morganstanley.com/insights/articles/glp1-weight-loss-market-may-double-190-billion-2035" target="_blank" rel="noopener">Morgan Stanley</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>Morgan Stanley raised its forecast for the diabetes and obesity drug market to $190 billion by 2035 ($40 billion more than before; $79 billion in 2025 sales), with nearly 30% of the obese or diabetic population in the U.S. and 10% elsewhere treated by 2035, up from about 6% and 2% in 2025. In Brazil the GLP-1 market could more than quadruple with generics cutting prices by up to 70%; employer obesity coverage rose from 44% in 2024 to 48% and is projected at 65% by 2027.</td></tr>
+<tr class="tier-2"><td><a href="https://www.iqvia.com/locations/emea/blogs/2026/04/the-outlook-for-obesity-from-2026-to-2030" target="_blank" rel="noopener">IQVIA</a></td><td class="tier-2">Tier 2</td><td>Apr 2026</td><td>IQVIA says the global obesity medicines market reached $66 billion in 2025 (list price), is forecast at $92 billion in 2026 and between $105 billion and $200 billion by 2027 and beyond. Markets where semaglutide exclusivity is lost account for 38% of adults living with obesity; there are 74 Chinese generic developers; oral Wegovy took around one-third of new-to-brand US prescriptions within eight weeks, with around two-thirds of volume from people new to any GLP-1.</td></tr>
+<tr class="tier-3"><td><a href="https://trademap.com.br/noticias/news-8207265" target="_blank" rel="noopener">InfoMoney (via TradeMap)</a> <span style="color:#5a6478;font-style:italic;">(in Portuguese)</span></td><td class="tier-3">Tier 3</td><td>Aug 2026</td><td>Brazil&#x27;s regulator Anvisa approved the first generic semaglutide (from EMS, for type 2 diabetes). Brazilian law requires generics to cost at least 35% less than the reference product, which would mean about R$294 against the R$452 starting price of EMS&#x27;s own branded version.</td></tr>
+<tr class="tier-3"><td><a href="https://medicaldialogues.in/news/industry/pharma/recalls-by-dr-reddys-torrent-put-spotlight-on-quality-standards-in-indias-semaglutide-market-174725" target="_blank" rel="noopener">Medical Dialogues</a></td><td class="tier-3">Tier 3</td><td>Jul 2026</td><td>After the March 2026 patent expiry, more than 50 CDSCO-approved generic semaglutide products entered India&#x27;s market, with some vials cutting the cost to nearly Rs 325 per weekly injection. Dr. Reddy&#x27;s recalled batches of its brand Obeda for an impurity linked to the active ingredient and expects supply disruption in India and Canada until at least late October; Torrent and USV also recalled batches.</td></tr>
+<tr class="tier-3"><td><a href="https://www.foodbusinessnews.net/articles/30575-oral-glp-1s-rapidly-expanding-user-base" target="_blank" rel="noopener">Food Business News</a></td><td class="tier-3">Tier 3</td><td>Jun 2026</td><td>Citing Big Chalk Analytics, GLP-1 use rose to 13.1% of US adults in June 2026 from 12% in November 2025; pills could expand the active user base by as much as 50% by 2027. Big Chalk now expects GLP-1s to cut US grocery dollar sales by 1.1% to 2.7% in 2026 ($9 billion to $21 billion) and volume by 1.4% to 3.4%; oral GLP-1s are expected to reach 20% of GLP-1 drug sales by 2031, growing from $3.2 billion in 2025 to $34.3 billion.</td></tr>
+<tr class="tier-3"><td><a href="https://www.yicai.com/news/103246573.html" target="_blank" rel="noopener">第一财经 (Yicai)</a> <span style="color:#5a6478;font-style:italic;">(in Chinese)</span></td><td class="tier-3">Tier 3</td><td>Jun 2026</td><td>Although semaglutide&#x27;s compound patent has expired in China, data protection means domestic generic semaglutide is not expected to launch until after the second quarter of 2027. Meanwhile Chinese firms are already preparing copies of next-generation drugs: Nuotai Biologics&#x27; subsidiary had a generic semaglutide tablet clinical trial application accepted, and Lilly said on 24 June that oral orforglipron could launch in China as early as later this year.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 4: Medicine prices are now set in trade deals</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://public-inspection.federalregister.gov/2026-19498.pdf" target="_blank" rel="noopener">Federal Register (U.S. Department of Commerce, Bureau of Industry and Security)</a></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>Proclamation 11020 put a 100 percent tariff on certain patented medicines from July 31, 2026 for listed companies and from September 29, 2026 for all others. The notice sets a zero tariff for specialty medicines (orphan drugs, nuclear medicines, plasma-derived therapies, fertility drugs, cell and gene therapies, antibody-drug conjugates, CBRN countermeasures, animal health) from jurisdictions with a trade and security framework agreement, including the EU, UK, Japan, Switzerland, Korea and India.</td></tr>
+<tr class="tier-1"><td><a href="https://www.whitehouse.gov/releases/2026/09/president-trump-extends-most-favored-nation-pricing-to-every-medicaid-program-in-america/" target="_blank" rel="noopener">The White House</a></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>The White House says drugmakers covering 90% of the branded US market have signed Most Favored Nation (MFN) deals to align US prices with the lowest paid in comparable rich countries, projected to save more than $600 billion; MFN pricing now reaches every state Medicaid programme. The same companies have committed about $170 billion to US manufacturing and R&amp;D.</td></tr>
+<tr class="tier-1"><td><a href="https://www.cms.gov/newsroom/press-releases/cms-announces-participants-landmark-medicaid-drug-payment-model-bring-down-drug-costs-most" target="_blank" rel="noopener">Centers for Medicare &amp; Medicaid Services</a></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>All 50 states, DC and Puerto Rico have applied to the GENEROUS Medicaid MFN model and forty states plus Puerto Rico have signed agreements; the model is estimated to save $64.3 billion over ten years. GENEROUS launched in January 2026 and runs for five years.</td></tr>
+<tr class="tier-2"><td><a href="https://www.duanemorris.com/alerts/most_favored_nation_drug_pricing_agreements_expanded_nine_additional_pharmaceutical_0926.html" target="_blank" rel="noopener">Duane Morris LLP</a></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>Nine more mid-sized manufacturers signed MFN agreements, bringing the total to 26 and covering approximately 89 percent of the branded prescription drug market; the nine committed at least $19.6 billion to US manufacturing. The White House estimates MFN agreements could generate $600 billion in savings over the next decade.</td></tr>
+<tr class="tier-2"><td><a href="https://www.ohe.org/insights/how-long-are-patients-waiting-for-new-treatments/" target="_blank" rel="noopener">Office of Health Economics</a></td><td class="tier-2">Tier 2</td><td>Jul 2026</td><td>The EFPIA Patients W.A.I.T. Indicator 2026 covers 168 new medicines in 36 European countries: on average 44% are available and the mean time from EU authorisation to availability is 607 days. The six European MFN reference countries average 71% availability, and the authors say US MFN pricing means European adoption speed will have repercussions globally.</td></tr>
+<tr class="tier-3"><td><a href="https://www.fiercepharma.com/pharma/new-mfn-deal-details-reignite-concerns-trumps-pricing-policy-favors-pharma" target="_blank" rel="noopener">Fierce Pharma</a></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>Public Citizen documents obtained under FOI show Pfizer&#x27;s MFN deal gives HHS a portion of Pfizer&#x27;s increased revenue if it raises drug prices overseas, and that Pfizer only signed a definitive deal in late February, nearly five months after it was announced as done. Lilly&#x27;s deal carves out obesity drugs, which Public Citizen says could cost Medicaid nearly $1.7 billion in savings; 27 companies have now signed MFN pacts.</td></tr>
+<tr class="tier-3"><td><a href="https://de.euronews.com/2026/09/14/us-preisdruck-bei-medikamenten-europaische-patienten-warten-wohl-langer" target="_blank" rel="noopener">Euronews</a> <span style="color:#5a6478;font-style:italic;">(in German)</span></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>Citing Reuters, new medicine launches in EU markets fell by about 35% compared with the previous ten months. Citing a Lancet study, for three in four drugs studied the loss from lower US prices would exceed the drug&#x27;s total annual sales in the reference country, and confidential deals exempting 17 companies shrink the possible Medicare savings by 71%.</td></tr>
+<tr class="tier-3"><td><a href="https://pharmaceutical-journal.com/article/news/manufacturers-body-reports-2bn-boost-to-pharma-investment-in-uk-in-the-past-year" target="_blank" rel="noopener">The Pharmaceutical Journal</a></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>The ABPI says drugmakers have committed £1.98bn of investment into the UK since September 2025, listing 16 financial commitments by 13 companies between October 2025 and July 2026, after a period when companies paused or withdrew nearly £2bn; it credits higher NICE cost-effectiveness thresholds and favourable UK-US tariff terms, but warns the recovery is not yet secure.</td></tr>
+</tbody>
+</table>
+
+<h4>Theme 5: AI has joined the consultation before the rules have</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare" target="_blank" rel="noopener">GOV.UK (Medicines and Healthcare products Regulatory Agency)</a></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>The MHRA-convened National Commission into the Regulation of AI in Healthcare, after gathering evidence from more than 12,000 people, recommends &#x27;L-plate&#x27; staged authorisations for new AI models, continuous real-world monitoring of AI-enabled devices instead of one-off approval, public access to adverse-incident data, and stronger MHRA enforcement powers.</td></tr>
+<tr class="tier-1"><td><a href="https://www.gov.uk/government/news/mhra-clarifies-regulatory-status-of-ambient-voice-technologies-used-in-the-nhs" target="_blank" rel="noopener">GOV.UK (Medicines and Healthcare products Regulatory Agency)</a></td><td class="tier-1">Tier 1</td><td>Jul 2026</td><td>MHRA guidance, written with NHS England, says AI scribes used only to transcribe, summarise consultations, draft letters or suggest clinical codes for a clinician to review are NOT regulated as medical devices, while those that support diagnosis or treatment or take automated action (such as placing orders without clinician review) are. It states that clinicians remain responsible for reviewing and verifying AI outputs, and that this responsibility is unchanged.</td></tr>
+<tr class="tier-2"><td><a href="https://cms.law/en/gbr/legal-updates/from-pre-market-to-lifecycle-the-national-commission-s-44-recommendations-on-ai-regulation-in-healthcare" target="_blank" rel="noopener">CMS</a></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>The National Commission&#x27;s final report (10 September 2026; 119 pages, 44 recommendations) finds that under current negligence law, claims fall disproportionately on healthcare professionals and providers, creating &#x27;liability sinks&#x27; where frontline staff absorb responsibility for AI failures; 77% of healthcare professionals called for a complete overhaul or significant reform, and the report admits broader liability reform will take time.</td></tr>
+<tr class="tier-2"><td><a href="https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act" target="_blank" rel="noopener">White &amp; Case LLP</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>The EU&#x27;s Digital Omnibus on AI, published in the Official Journal on 24 July 2026 and in force from 27 July 2026, pushes the AI Act&#x27;s high-risk obligations for AI embedded in medical devices back to 2 August 2028 (stand-alone high-risk systems to 2 December 2027).</td></tr>
+<tr class="tier-2"><td><a href="https://www.manatt.com/insights/white-papers/2026/manatt-health-q2-2026-ai-policy-and-health-care" target="_blank" rel="noopener">Manatt</a></td><td class="tier-2">Tier 2</td><td>Jul 2026</td><td>In the first half of 2026 US state legislatures introduced over 280 health-AI bills but only 33 were signed into law across 22 states; seven of those states imposed requirements on consumer-facing AI chatbots, and six new laws bar chatbots from presenting themselves as mental health care providers. Some laws require licensed professionals to keep responsibility for all AI-assisted interactions and outputs.</td></tr>
+<tr class="tier-2"><td><a href="https://macsf.fr/responsabilite-professionnelle/cadre-juridique/usage-ia-dans-pratique-quotidienne-quelle-responsabilite" target="_blank" rel="noopener">MACSF</a> <span style="color:#5a6478;font-style:italic;">(in French)</span></td><td class="tier-2">Tier 2</td><td>May 2026</td><td>France&#x27;s largest medical liability insurer tells doctors that when AI is used in practice, it is always the physician&#x27;s liability that will be pursued; the new EU product liability directive, which presumes a product defective under certain conditions, does not apply to products placed on the market before 9 December 2026, so it will be months before courts show how it works.</td></tr>
+<tr class="tier-3"><td><a href="https://healthmanagement.org/c/it/news/ai-scribes-cut-workload-but-need-oversight" target="_blank" rel="noopener">HealthManagement.org</a></td><td class="tier-3">Tier 3</td><td>Jul 2026</td><td>Reporting the largest UK survey of GPs on ambient scribes (Blease et al., BMJ Health &amp; Care Informatics 2026), more than 1,000 GPs were surveyed: around one in seven already used the tools, four in five users spent less time on notes and seven in ten had lower cognitive load, but nearly one-third said errors occurred often or consistently, and responsibility for the final record stayed with the clinician.</td></tr>
+<tr class="tier-3"><td><a href="https://www.beckershospitalreview.com/healthcare-information-technology/ai/ambient-ai-scales-across-health-systems-as-burnout-data-emerges/" target="_blank" rel="noopener">Becker&#x27;s Hospital Review</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>At Mass General Brigham, ambient documentation was linked to a 21.2% absolute reduction in burnout prevalence at 84 days, and Emory Healthcare reported a 30.7% absolute rise in documentation-related well-being at 60 days; nearly two-thirds of US hospitals on Epic had adopted ambient AI documentation tools by June 2025, at about $100 to $600 per provider per month.</td></tr>
+</tbody>
+</table>
+
+<h4>Continuity Ledger</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://www.theglobalfund.org/en/opinion/2026/2026-09-16-progress-deadliest-infectious-diseases-knife-edge" target="_blank" rel="noopener">The Global Fund to Fight AIDS, Tuberculosis and Malaria</a></td><td class="tier-1">Tier 1</td><td>Sep 2026</td><td>The Global Fund&#x27;s executive director says international funding for global health was cut at unprecedented scale and speed in 2025, and that prevention bore the brunt: people receiving HIV PrEP fell from 1.4 million in 2024 to 1.1 million in 2025, and more than 2 million adolescent girls and young women lost access to essential health services.</td></tr>
+<tr class="tier-2"><td><a href="https://www.industrialinfo.com/news/article/eli-lilly-advances-us-manufacturing-buildout--362903" target="_blank" rel="noopener">Industrial Info Resources</a></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>Eli Lilly broke ground on a $6.5 billion manufacturing plant in Houston, Texas, part of a $50 billion plan to reshore production to the U.S. Industrial Info Resources data show $57 billion of active and planned Lilly projects worldwide, about 90% of them in the U.S.</td></tr>
+<tr class="tier-2"><td><a href="https://www.ropesgray.com/en/insights/viewpoints/2026/09/102o09a/buy-european-incentivising-eu-based-pharmaceutical-manufacturing" target="_blank" rel="noopener">Ropes &amp; Gray</a></td><td class="tier-2">Tier 2</td><td>Sep 2026</td><td>As of September 2026 the Critical Medicines Act, first proposed in March 2025 and provisionally agreed in May 2026, still awaits finalisation of the text and formal approval by Parliament and Council; formal adoption is anticipated by the end of 2026 or early 2027. The agreed text obliges contracting authorities to give a procurement preference to EU-manufactured critical medicines with supply-chain vulnerabilities.</td></tr>
+<tr class="tier-2"><td><a href="https://www.businessgrouphealth.org/resources/2027-employer-healthcare-strategy-survey-executive-summary" target="_blank" rel="noopener">Business Group on Health</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>Large US employers report that fewer of them are covering GLP-1s for weight management, and those still covering them are tightening utilization management. 16% will direct employees to direct-to-consumer (cash-pay) channels for GLP-1s and 17% will use direct-to-employer arrangements, as the median employer cost trend rises from 8.5% expected for 2026 to 9.2% the year after.</td></tr>
+<tr class="tier-2"><td><a href="https://www.kff.org/global-health-policy/the-trump-administrations-foreign-aid-review-status-of-u-s-support-for-gavi-the-vaccine-alliance/" target="_blank" rel="noopener">KFF</a></td><td class="tier-2">Tier 2</td><td>Aug 2026</td><td>On July 29, 2026 the US administration announced it would release $600 million in Congressionally-appropriated FY25 and FY26 funding to Gavi, after withholding the $300 million a year Congress had appropriated over vaccine-safety concerns. The FY27 budget request makes any future Gavi funding contingent on reforms and vaccine-safety benchmarks.</td></tr>
+<tr class="tier-3"><td><a href="https://www.pharmexec.com/view/new-us-guidance-lays-out-exemptions-100-tariffs-report" target="_blank" rel="noopener">Pharmaceutical Executive</a></td><td class="tier-3">Tier 3</td><td>Sep 2026</td><td>Drugmakers without a Most Favored Nation pricing deal were expected to begin paying the 100% tariff on patented drug imports on September 29. New Commerce guidance makes eight categories of specialty products (plus animal health) eligible for a zero rate, applied automatically only to imports from 19 named jurisdictions; an onshoring commitment cuts the rate to 20%, and onshoring plus an MFN pricing agreement cuts it to zero through January 20, 2029.</td></tr>
+</tbody>
+</table>
+</div>
+
+<a name="claim-fidelity"></a>
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+
+<p>This appendix records where the evidence is thinner than a source count suggests, and what was done about it.</p>
+
+<p><strong>Plain language, same evidence.</strong> At the analyst's request this edition avoids technical language.
+Terms are explained where they first appear, and no figure was changed by rewording. Sources' own wording is kept in
+the evidence record.</p>
+
+<p><strong>Official claims and independent checks.</strong> The White House figures on pricing deals are the
+administration's own projections (<a href="https://www.whitehouse.gov/releases/2026/09/president-trump-extends-most-favored-nation-pricing-to-every-medicaid-program-in-america/" target="_blank" rel="noopener">The White House</a>, Sep 2026). The US Medicare and Medicaid agency counted 40 states and Puerto Rico signed
+on the same day the White House said all states were in (<a href="https://www.cms.gov/newsroom/press-releases/cms-announces-participants-landmark-medicaid-drug-payment-model-bring-down-drug-costs-most" target="_blank" rel="noopener">Centers for Medicare &amp; Medicaid Services</a>, Sep 2026); this briefing uses the agency's figure. The
+launch decline of about 35% and the Lancet study reach us through Euronews (<a href="https://de.euronews.com/2026/09/14/us-preisdruck-bei-medikamenten-europaische-patienten-warten-wohl-langer" target="_blank" rel="noopener">Euronews, in German</a>, Sep 2026), and the Pfizer revenue-sharing
+clause through Public Citizen's documents as reported by Fierce Pharma (<a href="https://www.fiercepharma.com/pharma/new-mfn-deal-details-reignite-concerns-trumps-pricing-policy-favors-pharma" target="_blank" rel="noopener">Fierce Pharma</a>, Sep 2026).</p>
+
+<p><strong>Different measures.</strong> The US Census counts people uninsured for a whole year (<a href="https://www.census.gov/library/publications/2026/demo/p60-291.html" target="_blank" rel="noopener">US Census Bureau</a>, Sep 2026); the
+Congressional Budget Office counts the average month (<a href="https://www.cbo.gov/publication/62539" target="_blank" rel="noopener">Congressional Budget Office</a>, Jul 2026). The two are not compared. Marketplace enrolment is for
+February 2026 (<a href="https://www.kff.org/affordable-care-act/how-has-aca-marketplace-enrollment-changed-across-states-in-2026/" target="_blank" rel="noopener">KFF</a>, Jul 2026). The 13.1% of US adults using these drugs and the grocery estimates come from a consultancy
+relayed by trade press (<a href="https://www.foodbusinessnews.net/articles/30575-oral-glp-1s-rapidly-expanding-user-base" target="_blank" rel="noopener">Food Business News</a>, Jun 2026). Employer coverage figures differ between surveys: Morgan Stanley reports rising
+coverage in a broader sample (<a href="https://www.morganstanley.com/insights/articles/glp1-weight-loss-market-may-double-190-billion-2035" target="_blank" rel="noopener">Morgan Stanley</a>, Apr 2026), the Business Group on Health a fall among large employers (<a href="https://www.businessgrouphealth.org/newsroom/news-and-press-releases/press-releases/2027-employer-healthcare-strategy-survey" target="_blank" rel="noopener">Business Group on Health</a>, Aug 2026).</p>
+
+<p><strong>Proposals, not law.</strong> Germany's care reform is a cabinet decision awaiting parliament (<a href="https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz" target="_blank" rel="noopener">German Health Ministry, in German</a>, Sep 2026),
+the UK AI commission's work is recommendations (<a href="https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare" target="_blank" rel="noopener">Medicines and Healthcare products Regulatory Agency</a>, Sep 2026), and the EU Critical Medicines Act is not yet adopted
+(<a href="https://www.ropesgray.com/en/insights/viewpoints/2026/09/102o09a/buy-european-incentivising-eu-based-pharmaceutical-manufacturing" target="_blank" rel="noopener">Ropes &amp; Gray</a>, Sep 2026). Australia's home care figures are the government's own account to a Senate inquiry
+(<a href="https://www.theweeklysource.com.au/health-dept-tells-senate-inquiry-support-at-home-is-improving/" target="_blank" rel="noopener">The Weekly SOURCE</a>, Sep 2026).</p>
+
+<p><strong>Non-English sources.</strong> Eleven sources are in German, French, Dutch, Japanese, Chinese and Portuguese,
+read in the original and summarised in English. Several sources give a month without a day, recorded as the first of
+the month or the launch date; the Business Group on Health press release carries its year only on its newsroom
+listing (<a href="https://www.businessgrouphealth.org/newsroom/news-and-press-releases/press-releases/2027-employer-healthcare-strategy-survey" target="_blank" rel="noopener">Business Group on Health</a>, Aug 2026).</p>
+
+<p><strong>Analyst judgements and added sources.</strong> The theme weights, the "who decides" and "room to act"
+lines, the scenario axes, the Options and the reading that medicines are getting cheaper while care gets scarcer are
+the analysis's proposals for discussion, not findings. The Outlook blocks rely on forecasts from the Congressional
+Budget Office, the European Labour Authority, Morgan Stanley, IQVIA and on dated plans from governments; these are
+forecasts, not outcomes.</p>
+</div>
+
+<a name="section-abbreviations"></a>
+<div class="abbrev-section">
+<h2>Abbreviations</h2>
+<p class="small">The abbreviations used in this briefing, in alphabetical order.</p>
+<div class="abbrev-list"><div><strong>ABPI</strong>: Association of the British Pharmaceutical Industry</div><div><strong>ACA</strong>: Affordable Care Act, the US law behind the individual health insurance marketplaces</div><div><strong>AIDS</strong>: acquired immune deficiency syndrome</div><div><strong>AOK</strong>: Germany's largest group of public health insurers</div><div><strong>BMJ</strong>: the British Medical Journal's publishing group</div><div><strong>CBO</strong>: Congressional Budget Office, which scores the cost of US legislation</div><div><strong>CBRN</strong>: chemical, biological, radiological and nuclear</div><div><strong>CDSCO</strong>: India's national medicines regulator</div><div><strong>CHIP</strong>: Children's Health Insurance Program, a US public programme</div><div><strong>CMS</strong>: Centers for Medicare & Medicaid Services, the US agency that runs Medicare and Medicaid; also the name of an international law firm</div><div><strong>DC</strong>: District of Columbia (Washington, DC)</div><div><strong>EFPIA</strong>: European Federation of Pharmaceutical Industries and Associations</div><div><strong>EMS</strong>: a Brazilian drugmaker</div><div><strong>EU-27</strong>: the 27 member states of the European Union</div><div><strong>FOI</strong>: freedom of information</div><div><strong>FY</strong>: financial year</div><div><strong>FY25</strong>: US federal financial year 2025</div><div><strong>FY26</strong>: US federal financial year 2026</div><div><strong>G7</strong>: Group of Seven: Canada, France, Germany, Italy, Japan, the UK and the US</div><div><strong>GENEROUS</strong>: the US Medicaid model that applies most-favoured-nation prices to state programmes</div><div><strong>GLP-1</strong>: the family of medicines, including semaglutide, used for diabetes and weight loss</div><div><strong>GPs</strong>: general practitioners, family doctors</div><div><strong>HHS</strong>: US Department of Health and Human Services</div><div><strong>HIV</strong>: human immunodeficiency virus</div><div><strong>HR</strong>: human resources</div><div><strong>HRA</strong>: health reimbursement arrangement</div><div><strong>ICHRA</strong>: individual coverage health reimbursement arrangement: an employer gives staff a sum to buy their own insurance</div><div><strong>IQVIA</strong>: a health data and research company</div><div><strong>KFF</strong>: a US health policy research organisation</div><div><strong>MACSF</strong>: Mutuelle d'assurances du corps sant&eacute; fran&ccedil;ais, France's largest insurer of doctors</div><div><strong>MFN</strong>: most favoured nation: linking US medicine prices to the lowest paid in comparable countries</div><div><strong>MHRA</strong>: Medicines and Healthcare products Regulatory Agency, the UK medicines regulator</div><div><strong>NHS</strong>: National Health Service</div><div><strong>NICE</strong>: National Institute for Health and Care Excellence, which decides which medicines the NHS in England pays for</div><div><strong>PNOG</strong>: Pflegeneuordnungsgesetz, Germany's 2026 long-term care reform law</div><div><strong>PrEP</strong>: pre-exposure prophylaxis, medicine taken to prevent HIV</div><div><strong>R&amp;D</strong>: research and development</div><div><strong>Rs</strong>: Indian rupees</div><div><strong>TB</strong>: tuberculosis</div><div><strong>USV</strong>: an Indian drugmaker</div><div><strong>WHO</strong>: World Health Organization</div><div><strong>WIdO</strong>: the AOK's research institute in Germany</div></div>
+</div>
+
+<div class="method-card"><div class="method-eyebrow">How this was made</div><p class="method-name"><a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">The Decision-Grade Intelligence Method</a></p><p>Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence.</p><p class="method-stages"><a href="https://www.shapingtomorrow.com/methodology#stage-scan" target="_blank" rel="noopener">Scan</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-filter" target="_blank" rel="noopener">Filter</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-stresstest" target="_blank" rel="noopener">Stress-test</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-judge" target="_blank" rel="noopener">Judge</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-trigger" target="_blank" rel="noopener">Trigger</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-brief" target="_blank" rel="noopener">Actionable Intelligence</a></p><p><a class="method-more" href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">See full methodology &rarr;</a></p></div>
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is the quarterly synthesis of a Shaping Tomorrow intelligence cycle on <strong>Health, Life Sciences &amp; Care Systems</strong>. It sits on top of weekly Signal Scans that identify emerging developments and weak signals, and monthly Change Trackers that assess what is materially shifting in momentum. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across all four formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a>
+</div>
+</div>
+
+<hr>
+
+<p class="small">Prepared by Shaping Tomorrow: 8 October 2026</p>
+
+</div>
+
+</body>
+</html>

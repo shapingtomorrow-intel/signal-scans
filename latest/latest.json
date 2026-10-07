@@ -1,14 +1,14 @@
 {
-  "generated": "2026-10-06T08:40:33Z",
+  "generated": "2026-10-07T08:35:21Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "India Is Planning Its Winter Crop From Water Budgets, Though Fertiliser Stocks Are Ample",
-      "date": "2026-10-06",
-      "topic": "Climate, Nature & Food Systems",
-      "topic_slug": "climate-nature-food-systems",
+      "title": "Europe Counts Shelter Capacity by Designating Basements and Car Parks, Not by Building Shelters",
+      "date": "2026-10-07",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-06-water-budget-crop-plan/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-07-shelter-capacity-by-designation/scan.html"
     },
     "change_tracker": {
       "title": "Coercion hardens into law and import bans while political risk moves to the ballot",
@@ -19,21 +19,21 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-10-02/tracker.html"
     },
     "decision_intelligence": {
-      "title": "Diesel, Allies and the New World Order",
-      "date": "2026-10-01",
-      "topic": "Geopolitics & Economic Fragmentation",
-      "topic_slug": "geopolitics-economic-fragmentation",
+      "title": "Cheaper Pills, Scarcer Care",
+      "date": "2026-10-08",
+      "topic": "Health, Life Sciences & Care Systems",
+      "topic_slug": "health-life-sciences-care-systems",
       "posture": "",
-      "company": "geopolitics-economic-fragmentation-sample",
-      "url": "https://decision-intel.shapingtomorrow.com/si/diesel-allies-and-the-new-world-order/"
+      "company": "Sample: Health, Life Sciences and Care Systems",
+      "url": "https://decision-intel.shapingtomorrow.com/si/cheaper-pills-scarcer-care/"
     },
     "action_triggers": {
-      "title": "Supply Is Now Rationed, Even Between Friends",
-      "date": "2026-10-02",
-      "topic": "Geopolitics & Economic Fragmentation",
-      "topic_slug": "geopolitics-economic-fragmentation",
+      "title": "Treatment Got Cheaper. Care Became the Bottleneck.",
+      "date": "2026-10-09",
+      "topic": "Health, Life Sciences & Care Systems",
+      "topic_slug": "health-life-sciences-care-systems",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/geopolitics-economic-fragmentation-action-triggers-2026-10-02/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/health-life-sciences-care-systems-action-triggers-2026-10-09/"
     }
   }
 }

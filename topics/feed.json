@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T12:42:46Z",
+  "generated": "2026-10-07T13:48:30Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -575,7 +575,7 @@
           "date": "2026-10-07",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "US Drug Tariffs Are Being Paid for in Other Countries&rsquo; Medicine Prices",
+          "title": "US Drug Tariffs Are Being Paid for in Other Countries’ Medicine Prices",
           "summary": "US tariffs on medicines are now settled by contract, not by schedule. Twenty-six manufacturers covering 89% of the branded drug market hold US pricing deals, and the UK's rate fell from 10% to 0%...",
           "posture": "Prepare"
         },

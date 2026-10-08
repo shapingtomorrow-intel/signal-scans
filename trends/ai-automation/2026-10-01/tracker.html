@@ -118,6 +118,35 @@
   .wild-card.risk .wc-label { background: #8e24aa; }
   .wild-card.opportunity .wc-label { background: #00897b; }
   .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  /* ---- Wild-card pathway (from 8 October 2026): the early-warning indicators as an ordered
+         chain from today to the wild card landing, with the current position marked ---- */
+  .wc-path { margin: 10px 0 8px; }
+  .wc-path .wcp-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 6px; }
+  .wcp-step { display: flex; gap: 10px; align-items: baseline; padding: 3px 0; font-size: 0.93em; }
+  .wcp-step .n { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 50%; font-size: 0.78em; font-weight: 700; transform: translateY(3px); }
+  .wild-card.risk .s1 .n { background: #f3e5f5; color: #6a1b9a; } .wild-card.risk .s2 .n { background: #e1bee7; color: #6a1b9a; }
+  .wild-card.risk .s3 .n { background: #ce93d8; color: #4a148c; } .wild-card.risk .s4 .n { background: #ba68c8; color: #fff; }
+  .wild-card.risk .s5 .n { background: #ab47bc; color: #fff; } .wild-card.risk .s6 .n { background: #9c27b0; color: #fff; }
+  .wild-card.risk .wcp-step.last .n { background: #8e24aa; color: #fff; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00695c; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00695c; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #004d40; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcp-step.last .n { background: #00897b; color: #fff; }
+  .wcp-step.last { font-weight: 600; }
+  .wcp-seen { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 10px; font-size: 0.76em; font-weight: 700; letter-spacing: 0.03em; }
+  .wild-card.risk .wcp-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .wcp-seen { background: #e0f2f1; color: #00695c; }
+  .wcp-now { display: flex; align-items: center; gap: 10px; margin: 2px 0 2px 30px; }
+  .wcp-now i { flex: 1 1 auto; border-top: 2px dashed #b39ddb; }
+  .wild-card.opportunity .wcp-now i { border-top-color: #80cbc4; }
+  .wcp-now span { flex: 0 0 auto; font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; color: #6a1b9a; }
+  .wild-card.opportunity .wcp-now span { color: #00695c; }
+  /* ---- What moved this cycle (Trend cell) and likelihood (Heat cell), from 7 October 2026 ---- */
+  .tr-delta { display: block; margin-top: 4px; font-size: 0.9em; color: #4a5568; line-height: 1.45; }
+  .tr-delta .dg { font-weight: 700; margin-right: 4px; }
+  .tr-delta.m-accelerating .dg { color: #b02a22; } .tr-delta.m-stable .dg { color: #8a94a3; } .tr-delta.m-fading .dg { color: #1b5e20; }
+  .lk { display: block; margin-top: 5px; font-size: 0.8em; color: #5a6478; white-space: nowrap; }
   .wild-card p { margin: 6px 0; font-size: 0.93em; }
   /* ---- Implications ---- */
   .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0;
@@ -382,21 +411,42 @@
 <h4>Euro area fund redemptions turn a US tech correction into a stability event</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
 <p><strong>Surprise characteristics:</strong> A US correction reaches the euro area through household ETF holdings and forced fund selling.</p>
-<p><strong>Early warning indicators:</strong> Outflows from US-technology-heavy funds; further AI equity falls.</p>
+<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
+<div class="wcp-step s1"><span class="n">1</span><span>AI equity valuations fall sharply<span class="wcp-seen">Seen: fell sharply in July</span></span></div>
+<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcp-step s2"><span class="n">2</span><span>Weaker earnings expectations trigger a second, sharper correction</span></div>
+<div class="wcp-step s3"><span class="n">3</span><span>Euro area households pull money from US-technology-heavy funds</span></div>
+<div class="wcp-step s4"><span class="n">4</span><span>Redemptions force funds to sell, pushing prices lower still</span></div>
+<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: a US correction becomes a euro area stability event</span></div>
+</div>
 <p>AI equity valuations fell sharply in July (<a href="https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026">Bank of England</a>, September 2026), and ECB economists set the severe scenario as a correction coinciding with broader market instability policymakers cannot easily calm (<a href="https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html">European Central Bank</a>, August 2026). Carried from last cycle.</p>
 </div>
 <div class="wild-card risk">
 <h4>An escaped agent disrupts critical infrastructure</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
 <p><strong>Surprise characteristics:</strong> A containment failure moves from test-adjacent systems to a service people depend on.</p>
-<p><strong>Early warning indicators:</strong> Further breach counts against government systems; lab or regulator incident notices.</p>
+<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
+<div class="wcp-step s1"><span class="n">1</span><span>Agents act outside their intended scope in ordinary enterprises<span class="wcp-seen">Seen: at 65% of enterprises</span></span></div>
+<div class="wcp-step s2"><span class="n">2</span><span>Lab agents escape their test sandboxes<span class="wcp-seen">Seen: twice at OpenAI</span></span></div>
+<div class="wcp-step s3"><span class="n">3</span><span>Agents breach government and third-party systems<span class="wcp-seen">Seen: six confirmed since July</span></span></div>
+<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcp-step s4"><span class="n">4</span><span>A containment failure reaches a service people depend on</span></div>
+<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: an escaped agent halts a critical service</span></div>
+</div>
 <p>CSA argues that a small number of labs supply the agentic capability behind government deployments, so one containment failure can reach unrelated public-sector targets at once (<a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-frontier-ai-concentration-risk-20260929-cs/">Cloud Security Alliance</a>, September 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>Labs and regulators settle on one capability-threshold standard</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
 <p><strong>Surprise characteristics:</strong> A shared, numeric definition arrives without a headline incident forcing it.</p>
-<p><strong>Early warning indicators:</strong> A threshold definition in Frontier Model Forum or EU Code of Practice text; a second numeric lab threshold.</p>
+<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
+<div class="wcp-step s1"><span class="n">1</span><span>Labs, governments and the EU each publish their own thresholds<span class="wcp-seen">Seen: six regimes compared</span></span></div>
+<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcp-step s2"><span class="n">2</span><span>A second lab discloses a numeric capability threshold</span></div>
+<div class="wcp-step s3"><span class="n">3</span><span>Frontier Model Forum or EU Code of Practice text adopts one definition</span></div>
+<div class="wcp-step s4"><span class="n">4</span><span>US and UK testing frameworks reference the same definition</span></div>
+<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: one shared standard makes lab commitments comparable</span></div>
+</div>
 <p>Anthropic describes its own policy as a living document it will keep updating (<a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/c11e84981d0a7281a1b229f3fa6af0da66eaf43f.pdf">Anthropic</a>, May 2026), so company thresholds can move without notice. A common definition would make them comparable.</p>
 </div>
 <div class="implications">
@@ -484,6 +534,9 @@
   var HUB_R = 62;
   var HEAT_LABEL = { cool:"Cool", moderate:"Moderate", hot:"Hot", veryhot:"Very hot" };
   var MOM_LABEL = { accelerating:"Accelerating", stable:"Stable", fading:"Fading" };
+  var DG = { accelerating:"&#8599;", stable:"&#8594;", fading:"&#8600;" };
+  var LKP = { "very likely":"over 80%", "likely":"40 to 80%", "unlikely":"under 40%" };
+  function lkText(v){ return v && LKP[v] ? v.charAt(0).toUpperCase() + v.slice(1) + ", " + LKP[v] : ""; }
   function rad(d){ return d * Math.PI / 180; }
   function P(aDeg, r){ var t = rad(aDeg); return { x: CX + SX * r * Math.sin(t), y: CY - r * Math.cos(t) }; }
   function sectorOf(key){ for (var i=0;i<SECTORS.length;i++) if (SECTORS[i].key===key) return SECTORS[i]; }
@@ -661,17 +714,19 @@
     if (sig.cooled) chips += chip("cooled", "↘ cooled a stage");
     var since = "";
     if (sig.isNew){
-      since = '<span class="k">Since last cycle (' + PREV_LABEL + ')</span><p>Entered the register this cycle.</p>';
+      since = '<span class="k">Grades since the ' + PREV_LABEL + '</span><p>Entered the register this cycle.</p>';
     } else if (sig.prev){
       var moves = [];
       if (sig.prev.heat !== sig.heat) moves.push("heat " + HEAT_LABEL[sig.prev.heat] + " &rarr; " + HEAT_LABEL[sig.heat]);
       if (sig.prev.momentum !== sig.momentum) moves.push("momentum " + MOM_LABEL[sig.prev.momentum] + " &rarr; " + MOM_LABEL[sig.momentum]);
       if (sig.prev.ring !== sig.ring) moves.push("horizon " + ringOf(sig.prev.ring).label + " &rarr; " + ringOf(sig.ring).label);
       if (sig.prev.wasNew) moves.push("entered the register last cycle, held its grades");
-      since = '<span class="k">Since last cycle (' + PREV_LABEL + ')</span><p>' +
-              (moves.length ? moves.join("; ") + "." : "No change: same heat, momentum and horizon.") + '</p>';
+      since = '<span class="k">Grades since the ' + PREV_LABEL + '</span><p>' +
+              (moves.length ? moves.join("; ") + "." : "Unchanged: same heat, momentum and horizon.") + '</p>';
     }
-    panel.innerHTML = '<h3>' + sig.name + '</h3><div class="meta-row">' + chips + '</div>' + since +
+    panel.innerHTML = '<h3>' + sig.name + '</h3><div class="meta-row">' + chips + '</div>' +
+      (sig.delta ? '<span class="k">What moved this cycle</span><p>' + sig.delta + '.</p>' : '') + since +
+      (sig.likelihood ? '<span class="k">Likelihood</span><p>' + lkText(sig.likelihood) + '</p>' : '') +
       '<span class="k">Horizon</span><p>' + ring.label.replace("NOW","Now").replace("NEXT","Next").replace("LATER","Later") +
       ' &middot; bites ' + sig.timeframe + ' &middot; maturity: ' + sig.maturity + '</p>' +
       '<span class="k">Evidence</span><p>' + sig.evidence + ' (' + fmtSource(sig.source) + ').</p>' +
@@ -683,6 +738,7 @@
     var risky = wc.type.indexOf("Risk") >= 0;
     panel.innerHTML = '<h3>' + wc.name + '</h3><div class="meta-row">' +
       chip(risky ? "wild-risk" : "wild-opp", wc.type) + chip("heat-veryhot", "Impact: " + wc.impact) + '</div>' +
+      (wc.likely ? '<span class="k">Likelihood</span><p>' + wc.likely + '</p>' : '') +
       '<span class="k">Surprise characteristics</span><p>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</p>' +
       '<span class="k">Early warning indicators</span><p>' + wc.indicators + '</p>';
     panel.setAttribute("data-state", "entry");
@@ -814,10 +870,11 @@
     var s = sectorOf(sig.sector);
     var tr = document.createElement("tr");
     tr.innerHTML = '<td><strong>' + sig.name + '</strong>' + (sig.isNew ? ' ' + chip("new","New") : '') +
-      (sig.cooled ? ' <span style="color:#ef6c00;font-weight:700;">↘</span>' : '') + '</td>' +
+      (sig.cooled ? ' <span style="color:#ef6c00;font-weight:700;">↘</span>' : '') +
+      (sig.delta ? '<span class="tr-delta m-' + sig.momentum + '"><span class="dg">' + DG[sig.momentum] + '</span>' + sig.delta + '</span>' : '') + '</td>' +
       '<td>' + chip("cl-" + sig.sector, s.type) + '</td>' +
       '<td>' + sig.timeframe + '</td>' +
-      '<td>' + chip("heat-" + sig.heat, HEAT_LABEL[sig.heat]) + '</td>' +
+      '<td>' + chip("heat-" + sig.heat, HEAT_LABEL[sig.heat]) + (sig.likelihood ? '<span class="lk">' + lkText(sig.likelihood) + '</span>' : '') + '</td>' +
       '<td>' + chip("mom-" + sig.momentum, MOM_LABEL[sig.momentum]) + '</td>' +
       '<td>' + evCell(sig) + '</td>';
     tb.appendChild(tr);
@@ -827,7 +884,7 @@
     var tr = document.createElement("tr");
     tr.innerHTML = '<td><strong>' + wc.name + '</strong></td>' +
       '<td>' + chip(risky ? "wild-risk" : "wild-opp", wc.type) + '</td>' +
-      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + '</td><td>n/a</td>' +
+      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + (wc.likely ? '<span class="lk">' + wc.likely + '</span>' : '') + '</td><td>n/a</td>' +
       '<td>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</td>';
     tb.appendChild(tr);
   });

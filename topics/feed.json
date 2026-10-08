@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T13:50:13Z",
+  "generated": "2026-10-08T08:14:44Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -2643,6 +2643,22 @@
           "posture": ""
         }
       ]
+    },
+    {
+      "slug": "transport-logistics-supply-chains",
+      "name": "Transport, Logistics & Supply Chains",
+      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
+      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
+      "latest_read": "",
+      "latest_dates": {
+        "scan": "",
+        "tracker": "",
+        "di": "",
+        "cc": ""
+      },
+      "history": []
     }
   ]
 }

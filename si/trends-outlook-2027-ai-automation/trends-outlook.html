@@ -66,6 +66,19 @@
   .bottom-line h2 { color: #fff; font-size: 1.1em; margin: 0 0 8px; }
   .bottom-line p { color: #DCE3EE; margin: 0; font-size: 1em; line-height: 1.55; }
   .bottom-line a { color: #9fc3ff; }
+  .ro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin: 0 0 8px; }
+  .ro { background: #fff; border: 1px solid #eef0f3; border-radius: 8px; padding: 14px 18px 4px; }
+  .ro.risks { border-top: 4px solid #c62828; }
+  .ro.opps { border-top: 4px solid #2e7d32; }
+  .ro h3 { margin: 0 0 8px; font-size: 1em; text-transform: uppercase; letter-spacing: 0.06em; }
+  .ro.risks h3 { color: #b02a22; }
+  .ro.opps h3 { color: #1b5e20; }
+  .ro ul { margin: 0 0 8px; padding-left: 1.1em; color: #2c3e50; }
+  .ro li { margin: 0 0 8px; }
+  .ro .ro-ref { font-size: 0.9em; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; margin-left: 2px; }
+  .ro.risks .ro-ref { color: #b02a22; }
+  .ro.opps .ro-ref { color: #1b5e20; }
+  .ro .ro-ref:hover { text-decoration-thickness: 2px; }
   .behind { background: #f7f8fa; border: 1px solid #e1e6ee; border-radius: 8px; padding: 14px 18px; margin: 22px 0 0; }
   .behind .sb-title { font-size: 0.76em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5a6478; margin: 0 0 8px; }
   .behind p { margin: 0 0 10px; font-size: 0.9em; color: #2c3e50; }
@@ -76,7 +89,7 @@
   .scorecard { background: #fff; border: 1px solid #e1e6ee; border-radius: 8px; padding: 14px 18px; margin: 22px 0 0; }
   .scorecard .sb-title { font-size: 0.76em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5a6478; margin: 0 0 6px; }
   .scorecard p { margin: 0 0 10px; font-size: 0.9em; color: #2c3e50; }
-  .scorecard .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 0 0 10px; }
+  .scorecard .tiles { display: grid; grid-template-columns: repeat(var(--n, 4), 1fr); gap: 10px; margin: 0 0 10px; }
   .scorecard .tile { border-radius: 8px; padding: 10px 12px; }
   .scorecard .tile .n { display: block; font-size: 1.8em; font-weight: 800; line-height: 1; margin: 0 0 4px; }
   .scorecard .tile .l { display: block; font-size: 0.8em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
@@ -94,6 +107,33 @@
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
   @media (max-width: 700px) { .fig { overflow-x: auto; -webkit-overflow-scrolling: touch; } .fig svg { min-width: 720px; } .fig .cap::before { content: 'Swipe sideways to see the whole diagram. '; font-style: normal; font-weight: 600; } body { padding: 16px; } .items { grid-template-columns: 1fr; } .scorecard .tiles { grid-template-columns: repeat(2, 1fr); } .synth-header { flex-direction: column; } .scan-logo { width: 160px; } }
   @media print { .item, .fig, .bottom-line { break-inside: avoid; } .items { display: block; } .item { margin: 0 0 12px; } }
+
+  /* ---- The chain to watch (standing element, 8 October 2026) ---- */
+  .tochain { background: #fff; border: 1px solid #e1e6ee; border-radius: 8px; padding: 16px 20px 12px; margin: 14px 0 0; }
+  .tc-link { display: flex; gap: 13px; padding: 7px 0; align-items: flex-start; }
+  .tc-link .n { flex: 0 0 23px; height: 23px; border-radius: 50%; text-align: center; line-height: 23px; font-size: 0.78em; font-weight: 700; transform: translateY(2px); }
+  .tc1 .n { background: #e8edf5; color: #26436f; } .tc2 .n { background: #cdd9ea; color: #26436f; }
+  .tc3 .n { background: #a9bedb; color: #122c52; } .tc4 .n { background: #7e9cc5; color: #fff; }
+  .tc5 .n { background: #52779f; color: #fff; } .tc6 .n { background: #2e507e; color: #fff; }
+  .tc-link.tc-last .n { background: #031B41; color: #fff; }
+  .tc-link .body { flex: 1; }
+  .tc-link .ev { font-size: 0.95em; line-height: 1.45; }
+  .tc-link.tc-last .ev { font-weight: 700; }
+  .tc-seen { display: inline-block; background: #e8edf5; color: #26436f; border-radius: 10px; font-size: 0.72em; font-weight: 700; padding: 1px 9px; margin-left: 8px; white-space: nowrap; }
+  .tc-watch { font-size: 0.8em; color: #5a6478; margin-top: 2px; line-height: 1.45; }
+  .tc-watch b { color: #37474f; font-weight: 600; }
+  .tc-band { flex: 0 0 auto; margin-left: 10px; text-align: right; }
+  .tc-band .chip { display: inline-block; border-radius: 4px; font-size: 0.78em; font-weight: 700; padding: 2px 9px; white-space: nowrap; }
+  .tc-band .chip.happened { background: #e8f5e9; color: #1b5e20; border: 1px solid #a5d6a7; }
+  .tc-band .chip.high { background: #ede7f6; color: #4527a0; border: 1px solid #b39ddb; }
+  .tc-band .chip.med { background: #fff8e1; color: #8d6e00; border: 1px solid #ffe082; }
+  .tc-band .chip.low { background: #eceff1; color: #455a64; border: 1px solid #cfd8dc; }
+  .tc-band .win { display: block; font-size: 0.88em; font-weight: 600; color: #4a5568; margin-top: 3px; }
+  .tc-now { display: flex; align-items: center; gap: 10px; margin: 4px 0; }
+  .tc-now i { flex: 1; border-top: 2px dashed #90a4ae; }
+  .tc-now span { font-size: 0.71em; font-weight: 800; letter-spacing: 0.1em; color: #546e7a; white-space: nowrap; }
+  .tc-foot { font-size: 0.79em; color: #5a6478; margin-top: 11px; line-height: 1.5; border-top: 1px solid #eef1f5; padding-top: 8px; }
+  @media (max-width: 560px) { .tc-link { flex-wrap: wrap; } .tc-band { flex-basis: 100%; margin-left: 36px; text-align: left; } }
 </style>
 </head>
 <body>
@@ -162,6 +202,7 @@
 <rect x="100" y="378.5" width="90.3" height="21.5" rx="10.8" fill="#ffe0e0" stroke="#ef9a9a"/><text x="145.2" y="395" font-size="11.5" font-weight="700" fill="#b71c1c" text-anchor="middle" letter-spacing="0.05em">IMMEDIATE</text><rect x="212.31" y="378.5" width="113.1" height="21.5" rx="10.8" fill="#fff2dc" stroke="#f3c37a"/><text x="268.9" y="395" font-size="11.5" font-weight="700" fill="#8a5a00" text-anchor="middle" letter-spacing="0.05em">NEXT QUARTER</text><rect x="347.39" y="378.5" width="166.2" height="21.5" rx="10.8" fill="#e6f0ff" stroke="#9cc2f5"/><text x="430.5" y="395" font-size="11.5" font-weight="700" fill="#0a4ea3" text-anchor="middle" letter-spacing="0.05em">NEXT PLANNING CYCLE</text>
 </svg><p class="cap">Hover over any stop for its detail.</p></div>
 </div>
+<div class="section ro-section" id="risks-opportunities"><h2>Key risks and opportunities</h2><p class="section-lede">What could go wrong, and what could go right, as these land. Each links to the card that holds the evidence.</p><div class="ro-grid"><div class="ro risks"><h3>Key risks</h3><ul><li><strong>Attacks that outrun the fixes.</strong> AI is shrinking the time between a software flaw being found and being exploited, and AI agents with live access have already acted without permission. <a class="ro-ref" href="#signal-3">See signal 3&nbsp;&rarr;</a></li><li><strong>Losses landing far from the AI industry.</strong> If AI computing loses value, the first losses are likely to fall on pension funds and insurers that lent to the building boom. <a class="ro-ref" href="#signal-6">See signal 6&nbsp;&rarr;</a></li><li><strong>AI switched off by a decision you don’t control.</strong> A US government letter took leading AI models offline worldwide this June, so services built on them can stop too. <a class="ro-ref" href="#signal-8">See signal 8&nbsp;&rarr;</a></li></ul></div><div class="ro opps"><h3>Key opportunities</h3><ul><li><strong>Getting paid when AI reads your content.</strong> Publishers and firms with valuable listings, prices or data can now ask AI companies to pay for access instead of giving it away. <a class="ro-ref" href="#signal-1">See signal 1&nbsp;&rarr;</a></li><li><strong>Winning the disputes others lose.</strong> Until card rules settle who pays for an AI purchase gone wrong, sellers who can show exactly what the customer asked for are best placed. <a class="ro-ref" href="#signal-4">See signal 4&nbsp;&rarr;</a></li><li><strong>Keeping cover by showing control.</strong> Firms that can show insurers how they test and watch their AI stand a better chance of keeping cover as exclusions spread. <a class="ro-ref" href="#signal-5">See signal 5&nbsp;&rarr;</a></li></ul></div></div></div>
 <div class="section signals"><h2>What 2027 brings</h2><p class="section-lede">Numbered in the order the decisions fall. Red numbers need a decision now, amber next quarter, blue in the next planning cycle.</p>
 <div class="items">
 <div class="item decide" id="signal-1">
@@ -290,6 +331,9 @@
 <rect x="32" y="511" width="40" height="10" rx="5" fill="#e3e7ee"/><text x="80" y="521" font-size="12.5" fill="#5a6478">time to get ready</text>
 </svg><p class="cap">Timing from the windows set out in the underlying Signal Scans and the dated triggers since. Hover over any decision for its detail.</p></div>
 </div>
+<div class="bottom-line"><h2>The question 2027 will ask: does AI pay?</h2>
+<p>This year the best-known study of AI’s effect on skilled work was withdrawn by its own authors, and their later research finds people overestimate the time AI saves them by about 40 percentage points. 89% of organisations use AI, but only 37% see any positive effect on profit (<a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-top-trends-in-tech" target="_blank" rel="noopener">McKinsey</a>, September 2026). By the end of 2027, expect boards, insurers and regulators to ask for before-and-after evidence on every AI project.</p></div>
+<div class="section chainwatch" id="chain"><h2>The chain to watch: how an AI correction would travel</h2><p class="section-lede">Each link names the indicator that would evidence it and the threshold at which we would call it. Every band below the marker is a dated call in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>, graded by a later edition.</p><div class="tochain"><div class="tc-link tc1"><span class="n">1</span><div class="body"><div class="ev">Compute prices fall as supply catches demand<span class="tc-seen">Seen: down about a third from peak</span></div><div class="tc-watch"><b>Watch:</b> the H100 rental price index. The hyperscaler median fell from about $9.30 to about $6.30 per GPU hour across 2025 (Silicon Data, 2026)</div></div><div class="tc-band"><span class="chip happened">Happened</span></div></div><div class="tc-link tc2"><span class="n">2</span><div class="body"><div class="ev">Vendors finance their own customers to hold demand up<span class="tc-seen">Seen: over $40bn by May 2026</span></div><div class="tc-watch"><b>Watch:</b> Nvidia’s equity stakes in its own buyers, $30bn of it in OpenAI (CNBC, May 2026), and its guarantees of buyers’ obligations; a rising share of AI investment is financed through debt (Bank of England, September 2026)</div></div><div class="tc-band"><span class="chip happened">Happened</span></div></div><div class="tc-now"><i></i><span>WE ARE HERE</span><i></i></div><div class="tc-link tc3"><span class="n">3</span><div class="body"><div class="ev">Weaker earnings expectations trigger a second, sharper AI equity correction</div><div class="tc-watch"><b>Watch:</b> a fall of 20% or more in AI-linked equities inside one quarter. The Bank of England names weaker earnings expectations as the trigger; ECB economists call a correction likely whether or not today’s prices are rational</div></div><div class="tc-band"><span class="chip high">Medium-High: 40 to 60%</span><span class="win">by end 2027</span></div></div><div class="tc-link tc4"><span class="n">4</span><div class="body"><div class="ev">Credit tightens for debt-financed data centres</div><div class="tc-watch"><b>Watch:</b> Oracle credit default swaps sustained above 200 basis points (above 125 in December 2025, about three times Microsoft’s); a pulled or repriced AI data-centre bond or securitisation</div></div><div class="tc-band"><span class="chip med">Medium: 30 to 50%</span><span class="win">by mid 2028</span></div></div><div class="tc-link tc5"><span class="n">5</span><div class="body"><div class="ev">Backlogs stop converting and capital spending guidance is cut</div><div class="tc-watch"><b>Watch:</b> Oracle’s $664bn order book (31 August 2026) still above 80 times quarterly cloud revenue two more quarters running, or falling outright; any of the four hyperscalers cutting 2027 guidance from 2026’s $720bn to $745bn combined</div></div><div class="tc-band"><span class="chip med">Medium: 30 to 50%</span><span class="win">by end 2028</span></div></div><div class="tc-link tc6 tc-last"><span class="n">6</span><div class="body"><div class="ev">The chain lands: the correction becomes a euro area stability event through household funds</div><div class="tc-watch"><b>Watch:</b> two consecutive months of net outflows from US-technology-heavy funds sold in the euro area, against households’ roughly EUR 440bn of exposure (European Central Bank, August 2026)</div></div><div class="tc-band"><span class="chip low">Low-Medium: 20 to 40%</span><span class="win">by end 2028</span></div></div><div class="tc-foot">Steps 1 and 2 are evidenced in this topic’s October Change Tracker register. The next edition must move the marker or say why it stayed.</div></div></div>
 <div class="section exposure"><h2>Who gets caught outside the AI industry</h2><p class="section-lede">Sectors named as exposed in the underlying deliverables.</p>
 <div class="fig"><svg viewBox="0 0 860 412" role="img" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" xmlns="http://www.w3.org/2000/svg" aria-label="Grid with eight rows, one per signal, and 7 columns for sectors outside the AI industry. Pale red cells mark sectors directly affected, pale amber cells mark sectors indirectly affected, and dashed outline cells mean not materially affected. A key of labelled pills sits above the grid.">
 <rect x="32" y="10" width="156.6" height="22" rx="11.0" fill="#f9c9c2" stroke="#e57373"/><text x="110.3" y="27" font-size="12" font-weight="700" fill="#b71c1c" text-anchor="middle" letter-spacing="0.05em">DIRECTLY AFFECTED</text><rect x="210.64000000000001" y="10" width="172.5" height="22" rx="11.0" fill="#fff2dc" stroke="#f3c37a"/><text x="296.9" y="27" font-size="12" font-weight="700" fill="#8a5a00" text-anchor="middle" letter-spacing="0.05em">INDIRECTLY AFFECTED</text><rect x="405.12" y="10" width="204.2" height="22" rx="11.0" fill="#ffffff" stroke="#aab2bd" stroke-dasharray="4 3"/><text x="507.2" y="27" font-size="12" font-weight="700" fill="#4a5568" text-anchor="middle" letter-spacing="0.05em">NOT MATERIALLY AFFECTED</text>
@@ -381,11 +425,9 @@
 <g><title>Top-tier AI needs US approval: Non-US firms directly affected</title><rect x="783.1" y="371.5" width="68.9" height="27" rx="13.5" fill="#f9c9c2" stroke="#e57373" stroke-width="1.4"/></g>
 </svg></div>
 </div>
-<div class="bottom-line"><h2>The question 2027 will ask: does AI pay?</h2>
-<p>This year the best-known study of AI’s effect on skilled work was withdrawn by its own authors, and their later research finds people overestimate the time AI saves them by about 40 percentage points. 89% of organisations use AI, but only 37% see any positive effect on profit (<a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-top-trends-in-tech" target="_blank" rel="noopener">McKinsey</a>, September 2026). By the end of 2027, expect boards, insurers and regulators to ask for before-and-after evidence on every AI project.</p></div>
 <div class="scorecard"><div class="sb-title">Where our 2026 AI signals stand</div>
 <p>Our AI &amp; Automation Change Trackers followed 13 signals between June and September 2026. This is where they stood in September.</p>
-<div class="tiles"><div class="tile accelerating"><span class="n">6</span><span class="l">Gathering pace</span></div><div class="tile stable"><span class="n">3</span><span class="l">Holding steady</span></div><div class="tile settled"><span class="n">1</span><span class="l">Settled in law</span></div><div class="tile fading"><span class="n">3</span><span class="l">Went quiet</span></div></div>
+<div class="tiles" style="--n:4"><div class="tile accelerating"><span class="n">6</span><span class="l">Gathering pace</span></div><div class="tile stable"><span class="n">3</span><span class="l">Holding steady</span></div><div class="tile settled"><span class="n">1</span><span class="l">Settled in law</span></div><div class="tile fading"><span class="n">3</span><span class="l">Went quiet</span></div></div>
 <p class="note">Gathering pace includes AI helping attackers and AI agents slipping their controls. Settled: the EU’s delay to parts of its AI Act, now law. Went quiet: US moves to override state AI laws, AI squeezing entry-level jobs, and the gap between AI use and payback, which stopped producing new evidence rather than closing.</p></div>
 <div class="behind"><div class="sb-title">Behind this Outlook</div>
 <p>All eight were first flagged in our deliverables between May and August 2026 and tracked through the year’s Change Trackers, Decision Intelligence briefings and Action Triggers. Four of the eight need a decision before the end of 2026.</p>

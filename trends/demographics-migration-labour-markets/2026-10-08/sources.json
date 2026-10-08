@@ -1,0 +1,465 @@
+[
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "US Bureau of Labor Statistics",
+    "title": "Employment Situation News Release - 2026 M09 Results",
+    "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+    "publication_date": "2026-10-02",
+    "date_source": "byline",
+    "date_evidence": "Transmission of material in this news release is embargoed until 8:30 a.m. (ET) Friday, October 2, 2026",
+    "verified_at": "2026-10-08T08:39:27Z",
+    "date_age_band": "0-3m",
+    "cluster": "Weak hiring meets a labour supply that has stopped growing",
+    "key_claim": "US nonfarm payrolls rose by 29,000 in September 2026 after an average monthly gain of 45,000 over the prior 12 months; July was revised to a loss of 10,000; health care added 17,000 jobs against a 33,000 monthly average while nursing and residential care facilities lost 9,000; unemployment was 4.2 percent and participation 61.8 percent.",
+    "frame_summary": "A statistical release reporting little net job growth in September, with health care hiring below its twelve-month pace and nursing and residential care shedding jobs, and offering no causal account.",
+    "signals_supported": [
+      "Breakeven hiring falls toward zero",
+      "Care and health workforce shortage",
+      "Enforcement drag on native-born employment",
+      "US net migration turns negative"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Total nonfarm payroll employment changed little in September (+29,000), following an average monthly gain of 45,000 over the prior 12 months",
+    "verbatim_list": [
+      "Health care employment continued its upward trend in September (+17,000)",
+      "the average monthly gain over the prior 12 months (+33,000)",
+      "nursing and residential care facilities lost jobs (-9,000)",
+      "The change in total nonfarm payroll employment for July was revised down by 31,000, from +21,000 to -10,000",
+      "Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, changed little in September.",
+      "Both the labor force participation rate, at 61.8 percent, and the employment-population ratio, at 59.2 percent"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "The White House",
+    "title": "Restriction on Entry of Certain Nonimmigrant Workers",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers/",
+    "publication_date": "2026-09-18",
+    "date_source": "byline",
+    "date_evidence": "September 18, 2026",
+    "verified_at": "2026-10-08T08:41:00Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "A proclamation dated 18 September 2026 extends the 2025 H-1B entry restriction for an additional 12 months, with entry still allowed where petitions are accompanied by a payment of $100,000 or an exception applies.",
+    "frame_summary": "Argues that entry by H-1B workers should stay restricted for another year unless a $100,000 payment is made or the entry is judged to be in the national interest.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "to extend the 2025 Proclamation for an additional 12 months",
+    "verbatim_list": [
+      "accompanied or supplemented by a payment of $100,000"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "Federal Register",
+    "title": "Fee for Certain H-1B Petitions",
+    "url": "https://www.federalregister.gov/documents/2026/08/25/2026-17324/fee-for-certain-h-1b-petitions",
+    "publication_date": "2026-08-25",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta article:published_time: 2026-08-25",
+    "verified_at": "2026-10-08T08:42:59Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "DHS proposes a $103,265 fee, payable at the time of filing, on H-1B cap-subject petitions, with written comments due by 24 September 2026.",
+    "frame_summary": "Frames a $103,265 fee on cap-subject H-1B petitions as a cost-recovery price set by DHS accounting and open to public comment.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "proposes to establish a $103,265 fee, payable at the time of filing",
+    "verbatim_list": [
+      "Written comments must be submitted on or before September 24, 2026."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "GOV.UK",
+    "title": "Immigration system statistics, year ending June 2026 (Home Office): summary of latest statistics",
+    "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/summary-of-latest-statistics",
+    "publication_date": "2026-08-27",
+    "date_source": "byline",
+    "date_evidence": "Published 27 August 2026",
+    "verified_at": "2026-10-08T08:44:45Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "235,000 work visas were granted in the year ending June 2026, with Health and Care Worker visas down 90% and Skilled Worker visas down 48% over the period measured from the December 2023 peak.",
+    "frame_summary": "Presents sharp falls in Health and Care Worker and Skilled Worker visas as the measured result of tighter work-visa rules, without judging the cost.",
+    "signals_supported": [
+      "European migration restriction tightens"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "there were 235,000 work visas granted (including dependants)",
+    "verbatim_list": [
+      "Skilled Worker visas issued, down 90% and 48% respectively over this period"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "Federal Reserve Board",
+    "title": "Labor Force Growth, Breakeven Employment, and Potential GDP Growth (FEDS Notes)",
+    "url": "https://federalreserve.gov/econres/notes/feds-notes/labor-force-growth-breakeven-employment-and-potential-gdp-growth-20260402.html",
+    "publication_date": "2026-04-02",
+    "date_source": "byline",
+    "date_evidence": "April 02, 2026",
+    "verified_at": "2026-10-08T08:46:25Z",
+    "date_age_band": "6-12m",
+    "cluster": "Weak hiring meets a labour supply that has stopped growing",
+    "key_claim": "Fed staff estimate breakeven employment growth fell to 85,000 in 2025 as net immigration slowed and could require less than 10,000 new jobs per month in 2026.",
+    "frame_summary": "Argues that slower net immigration has cut the pace of job growth needed to hold unemployment steady to near zero, so low payroll gains do not on their own signal slack.",
+    "signals_supported": [
+      "Breakeven hiring falls toward zero",
+      "US net migration turns negative"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "requiring less than 10,000 new jobs per month in 2026",
+    "verbatim_list": [
+      "but fell to an estimated 85,000 in 2025 as net immigration slowed significantly"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "European Commission",
+    "title": "Demographic transformation in the EU: understanding change and adapting to its consequences",
+    "url": "https://commission.europa.eu/system/files/2026-07/Demography_Report_2026.pdf",
+    "publication_date": "2026-07-14",
+    "date_source": "byline",
+    "date_evidence": "14 juillet 2026 | Commission Demography Report highlights the challenges and opportunities of Europe's demographic transformation (Commission press page, same date as the report)",
+    "verified_at": "2026-10-08T08:48:13Z",
+    "date_age_band": "0-3m",
+    "cluster": "Weak hiring meets a labour supply that has stopped growing",
+    "key_claim": "The EU is expected to lose on average 1.2 million people of working age each year between 2025 and 2050, and migration can ease the pace of ageing but not alter its trajectory.",
+    "frame_summary": "Argues that the EU's working-age population will keep shrinking and that migration can slow ageing but not change its path, so skills and participation must carry the adjustment.",
+    "signals_supported": [
+      "Working-age contraction and ageing",
+      "Skilled-talent migration competition"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "lose on average 1.2 million people of working age",
+    "verbatim_list": [
+      "Migration can ease the pace of population ageing"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "EUR-Lex",
+    "title": "Regulation (EU) 2026/1047 establishing an EU Talent Pool",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/1047/oj/eng",
+    "publication_date": "2026-04-29",
+    "date_source": "byline",
+    "date_evidence": "Regulation (EU) 2026/1047 of the European Parliament and of the Council of 29 April 2026 establishing an EU Talent Pool",
+    "verified_at": "2026-10-08T08:49:49Z",
+    "date_age_band": "3-6m",
+    "cluster": "Doors open with ceilings attached",
+    "key_claim": "Regulation (EU) 2026/1047, adopted on 29 April 2026, establishes an EU Talent Pool. The date shown is the date of adoption.",
+    "frame_summary": "Establishes in law an EU-wide talent pool through which employers can recruit workers from outside the Union.",
+    "signals_supported": [
+      "Skilled-talent migration competition"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Regulation (EU) 2026/1047 of the European Parliament and of the Council of 29 April 2026 establishing an EU Talent Pool",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 1,
+    "publisher": "European Commission",
+    "title": "Addressing worker shortages: attracting global talent",
+    "url": "https://commission.europa.eu/news-and-media/news/addressing-worker-shortages-attracting-global-talent-2026-06-15_en",
+    "publication_date": "2026-06-15",
+    "date_source": "byline",
+    "date_evidence": "15 June 2026",
+    "verified_at": "2026-10-08T08:52:05Z",
+    "date_age_band": "3-6m",
+    "cluster": "Doors open with ceilings attached",
+    "key_claim": "The EU Talent Pool is expected to be fully operational by the end of 2027.",
+    "frame_summary": "Presents the EU Talent Pool as a way to address worker shortages by attracting global talent, with full operation not expected before the end of 2027.",
+    "signals_supported": [
+      "Skilled-talent migration competition",
+      "Working-age contraction and ageing"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "It is expected to be fully operational by the end of 2027.",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "KFF",
+    "title": "The Trump Administration's Proposed $103,265 Fee for H-1B Visas Could Affect the Health Care Workforce",
+    "url": "https://www.kff.org/quick-insights/the-trump-administrations-proposed-103265-fee-for-h-1b-visas-could-affect-the-health-care-workforce/",
+    "publication_date": "2026-08-26",
+    "date_source": "byline",
+    "date_evidence": "Published: August 26, 2026",
+    "verified_at": "2026-10-08T08:53:49Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "The proposed fee would apply to a significantly larger number of petitions than the 85,000 approved annually under the cap.",
+    "frame_summary": "Argues that the proposed fee would reach far more petitions than the cap and so put pressure on the health care workforce.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry",
+      "Care and health workforce shortage"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "it will apply to a significantly larger number of petitions than the 85,000 approved annually under the cap",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "Center for Immigration Studies",
+    "title": "Census Bureau Survey Shows Total Foreign-Born Down 2.9 Million",
+    "url": "https://cis.org/Report/Census-Bureau-Survey-Shows-Total-ForeignBorn-Down-29-Million",
+    "publication_date": "2026-09-03",
+    "date_source": "byline",
+    "date_evidence": "By Steven A. Camarota and Karen Zeigler on September 3, 2026",
+    "verified_at": "2026-10-08T08:55:39Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "The total foreign-born population declined 2.9 million from January 2025 to July 2026, and only 44 percent of the decline was workers.",
+    "frame_summary": "Argues that the 2.9 million fall in the foreign-born population overstates the labour loss because most of the decline is not workers.",
+    "signals_supported": [
+      "US net migration turns negative"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The total foreign-born population declined 2.9 million from January 2025 to July 2026.",
+    "verbatim_list": [
+      "Only 44 percent of the decline in the foreign-born are workers"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 2,
+    "publisher": "Center for Immigration Studies",
+    "title": "Has Immigration Enforcement Benefitted American Workers?",
+    "url": "https://cis.org/Camarota/Has-Immigration-Enforcement-Benefitted-American-Workers",
+    "publication_date": "2026-07-09",
+    "date_source": "byline",
+    "date_evidence": "By Steven A. Camarota and Karen Zeigler on July 9, 2026",
+    "verified_at": "2026-10-08T08:58:00Z",
+    "date_age_band": "3-6m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "Even with the January adjustment, there were still 1.4 million more natives employed in June 2026 than in January 2025.",
+    "frame_summary": "Argues that enforcement has not cost native-born workers jobs, because more natives were employed in June 2026 than when it began.",
+    "signals_supported": [
+      "Enforcement drag on native-born employment"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Even with the January adjustment, there were still 1.4 million more natives employed in June 2026 than in January 2025",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "Wisconsin Watch",
+    "title": "Federal immigration policy may be worsening Wisconsin's caregiver shortage, leaders say",
+    "url": "https://wisconsinwatch.org/2026/09/wisconsin-caregiver-shortage-federal-immigration-policy-home-health-nursing-workers/",
+    "publication_date": "2026-09-23",
+    "date_source": "byline",
+    "date_evidence": "by Astrid Code / Wisconsin Watch, September 23, 2026",
+    "verified_at": "2026-10-08T09:00:14Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "Nearly 350,000 Haitian immigrants lost TPS on 4 August; an estimated 53,000 TPS holders worked in health care in 2024; 30% of direct care workers nationwide are immigrants; nursing homes have closed beds and wings.",
+    "frame_summary": "Argues that federal immigration decisions are already shrinking caregiver capacity in Wisconsin, with status losses, closed nursing home beds and unmet demand.",
+    "signals_supported": [
+      "Care and health workforce shortage"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "faithful_summary",
+    "verbatim_quote": "Nearly 350,000 Haitian immigrants lost TPS on Aug. 4.",
+    "verbatim_list": [
+      "30% of all direct care workers nationwide are immigrants.",
+      "An estimated 53,000 TPS holders worked in health care in 2024, according to data from KFF.",
+      "We've seen nursing homes that have closed beds and closed wings,"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "Adnkronos English",
+    "title": "Japan 2025 births hit a record low (Jiji Press)",
+    "url": "https://english.adnkronos.com/2026/06/03/japan-2025-births-hit-record-low-of-671000/",
+    "publication_date": "2026-06-03",
+    "date_source": "byline",
+    "date_evidence": "Tokyo, June 3 (Jiji Press); article dated 3 Giugno 2026 at english.adnkronos.com/2026/06/03/",
+    "verified_at": "2026-10-08T09:02:30Z",
+    "date_age_band": "3-6m",
+    "cluster": "Weak hiring meets a labour supply that has stopped growing",
+    "key_claim": "Births to Japanese citizens in Japan fell by 14,937 to 671,236 in 2025, and the total fertility rate fell to a record low of 1.14.",
+    "frame_summary": "Reports that Japanese births and the fertility rate hit record lows again in 2025, without discussing policy.",
+    "signals_supported": [
+      "Below-replacement fertility broadens"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The annual number of babies born to Japanese citizens in Japan fell by 14,937 from the previous year to 671,236 in 2025",
+    "verbatim_list": [
+      "also fell to a record low, at 1.14"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "The Korea Times",
+    "title": "Korea's births rise 6.7% to 254,300 in 2025",
+    "url": "https://koreatimes.co.kr/southkorea/society/20260826/koreas-births-rise-67-to-254300-in-2025",
+    "publication_date": "2026-08-26",
+    "date_source": "byline",
+    "date_evidence": "Published Aug 26, 2026 12:16 pm KST",
+    "verified_at": "2026-10-08T09:04:14Z",
+    "date_age_band": "0-3m",
+    "cluster": "Weak hiring meets a labour supply that has stopped growing",
+    "key_claim": "Korea's births rose 6.7 percent to 254,300 in 2025 and the total fertility rate rose by 0.05 to 0.8.",
+    "frame_summary": "Reports a second-year rise in Korea's births and fertility rate that may mark a turning point in a long decline.",
+    "signals_supported": [
+      "Below-replacement fertility broadens"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The number of babies born in Korea rose 6.7 percent year-on-year to 254,300 in 2025",
+    "verbatim_list": [
+      "rose by 0.05 to 0.8"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "Tokyo Weekender",
+    "title": "Japan Begins Planning New System To Cap Number of Foreign Residents",
+    "url": "https://www.tokyoweekender.com/japan-life/news-and-opinion/japan-foreign-resident-cap-quantitative-management/",
+    "publication_date": "2026-08-12",
+    "date_source": "byline",
+    "date_evidence": "By Matthew Hernon, August 12, 2026",
+    "verified_at": "2026-10-08T09:06:11Z",
+    "date_age_band": "0-3m",
+    "cluster": "Doors open with ceilings attached",
+    "key_claim": "Japan's foreign employees reached a record 2.57 million and the government aims to establish a basic policy, including quantitative management of foreign residents, by the end of fiscal 2026.",
+    "frame_summary": "Reports that Japan is beginning to plan numerical limits on foreign residents even as the number of foreign employees reaches a record.",
+    "signals_supported": [
+      "Asian economies open to foreign labour"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The number of foreign employees has since reached a record 2.57 million.",
+    "verbatim_list": [
+      "the government aiming to establish a basic policy by the end of fiscal 2026."
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 3,
+    "publisher": "The Korea Times",
+    "title": "Number of foreign workers under Employment Permit System hits record high",
+    "url": "https://www.koreatimes.co.kr/southkorea/20260902/number-of-foreign-workers-under-employment-permit-system-hits-record-high",
+    "publication_date": "2026-09-02",
+    "date_source": "byline",
+    "date_evidence": "Published Sep 2, 2026 10:40 am KST",
+    "verified_at": "2026-10-08T09:07:49Z",
+    "date_age_band": "0-3m",
+    "cluster": "Doors open with ceilings attached",
+    "key_claim": "Foreign workers under Korea's Employment Permit System reached a record 287,424, while the annual E-9 quota fell to 130,000 last year and 80,000 this year.",
+    "frame_summary": "Reports a record number of foreign workers in Korea's employment permit system despite a sharply reduced annual entry quota.",
+    "signals_supported": [
+      "Asian economies open to foreign labour"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "reached a record high of 287,424 this year",
+    "verbatim_list": [
+      "before lowering it to 130,000 last year and 80,000 this year"
+    ]
+  },
+  {
+    "topic": "Demographics, Migration and Labour Markets",
+    "tier": 4,
+    "publisher": "DiRaimondo & Schroeder LLP",
+    "title": "Trump Administration Extends $100,000 H-1B Proclamation Through September 2027, but Fee Remains Blocked by Court Order",
+    "url": "https://www.diraimondoschroeder.com/updates/2026/9/21/trump-administration-extends-100000-h-1b-proclamation-through-september-2027-but-fee-remains-blocked-by-court-order",
+    "publication_date": "2026-09-21",
+    "date_source": "byline",
+    "date_evidence": "September 21, 2026, Sarah Schroeder",
+    "verified_at": "2026-10-08T09:09:56Z",
+    "date_age_band": "0-3m",
+    "cluster": "Restriction is renewed and the cost lands on care",
+    "key_claim": "USCIS remains barred from collecting the $100,000 payment while the district court's vacatur remains in effect, and the $103,265 fee is a separate proposed rule.",
+    "frame_summary": "Argues that the proclamation's extension changes little for now because a court order still bars collection of the $100,000 payment while the appeal runs.",
+    "signals_supported": [
+      "Six-figure fee on skilled entry"
+    ],
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": true,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "USCIS remains barred from collecting the $100,000 payment while the district court’s vacatur remains in effect",
+    "verbatim_list": null
+  }
+]

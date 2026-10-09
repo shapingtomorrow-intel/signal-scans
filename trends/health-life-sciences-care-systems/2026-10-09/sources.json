@@ -1,0 +1,546 @@
+[
+  {
+    "tier": 1,
+    "publisher": "UK Health Security Agency",
+    "title": "Outbreaks under monitoring: week 39, week ending 27 September 2026",
+    "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-39-week-ending-27-september-2026",
+    "publication_date": "2026-10-01",
+    "date_source": "meta:pubdate",
+    "date_evidence": "meta-govuk:first-published-at: 2026-10-01T15:30:03+01:00",
+    "date_age_band": "0-3m",
+    "cluster": "Cover thins while outbreaks widen",
+    "key_claim": "As of 27 September 2026 the Democratic Republic of the Congo had 8,116 confirmed Bundibugyo cases and 3,924 deaths across 63 health zones in 7 provinces, 343 more cases and 165 more deaths than the previous weekly report, with Uganda's outbreak declared over and UK risk rated low.",
+    "frame_summary": "UKHSA reports the Bundibugyo epidemic as still expanding in Congo, with weekly cases rising and the outbreak spreading across more provinces, while rating the risk to the UK as low.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "This is an increase of 343 confirmed cases and 165 deaths since the last Outbreaks Under Monitoring report.",
+    "verbatim_list": [
+      "8,116 confirmed cases and 3,924 confirmed deaths have been reported in the DRC",
+      "Cases have been reported in 63 health zones across 7 provinces"
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T11:59:39Z"
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "World Health Organization (Disease Outbreak News)",
+    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+    "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+    "publication_date": "2026-08-28",
+    "date_source": "byline",
+    "date_evidence": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo\n\n28 August 2026\n\nSee all DONs related to this event",
+    "verified_at": "2026-10-09T12:01:47Z",
+    "date_age_band": "0-3m",
+    "key_claim": "As of 26 August 2026 the Democratic Republic of the Congo had reported 5794 confirmed Bundibugyo virus disease cases and 2786 deaths at a crude case fatality ratio of 48.1%, across 60 health zones in six provinces, up from 54 health zones two weeks earlier.",
+    "frame_summary": "WHO argues the epidemic is expanding faster than the response can detect and isolate cases, and that the binding weakness is late case recognition and unsafe care rather than any absence of a response plan.",
+    "signals_supported": [
+      "Bundibugyo Ebola emergency"
+    ],
+    "cluster": "Cover thins while outbreaks widen",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "As of 26 August 2026, a total of 5794 confirmed cases, including 2786 deaths, have been reported, corresponding to a crude case fatality ratio (CFR) of 48.1%.",
+    "verbatim_list": [
+      "Cases have been reported from 60 health zones (HZ) across six provinces.",
+      "Delays in recognizing cases increase the likelihood of onward transmission within households, communities and healthcare facilities.",
+      "On 27 August, vaccination of health care workers using the Ervebo vaccine was initiated in the Democratic Republic of the Congo in some areas, including in Kisangani, Tshopo province.",
+      "Since 14 August 2026 when the last Disease Outbreak News was published, an additional 1129 confirmed cases, including 602 confirmed deaths, have been reported in the Democratic Republic of the Congo.",
+      "Although Ervebo is a safe vaccine, and effective against Ebola virus disease, it is not known whether it provides protection against the Bundibugyo virus in humans.",
+      "Thus, starting a clinical trial of the vaccine, alongside this wider use, is key to provide important new evidence and inform future use of the vaccine."
+    ]
+  },
+  {
+    "tier": 1,
+    "publisher": "US Centers for Disease Control and Prevention (Measles)",
+    "title": "Measles Cases and Outbreaks",
+    "url": "https://www.cdc.gov/measles/data-research/index.html",
+    "publication_date": "2026-10-02",
+    "date_source": "byline",
+    "date_evidence": "Updated on October 2, 2026.",
+    "date_age_band": "0-3m",
+    "cluster": "Cover thins while outbreaks widen",
+    "key_claim": "As of 1 October 2026 the United States had recorded 3,887 confirmed measles cases in 2026, 3,869 of them in 47 jurisdictions, with 42 new outbreaks, against 2,289 cases in all of 2025.",
+    "frame_summary": "CDC reports the running 2026 measles count as already well above the full-year 2025 total, presenting the numbers as surveillance data without attributing cause on this page.",
+    "signals_supported": [
+      "US measles elimination at risk"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "As of October 1, 2026, 3,887 confirmed",
+    "verbatim_list": [
+      "There have been 42 new outbreaks",
+      "For the full year of 2025, a total of 2,289 confirmed",
+      "Among these, 3,869 measles cases were reported by 47 jurisdictions"
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:03:09Z"
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "The White House",
+    "title": "Fact Sheet: President Donald J. Trump Announces Deal with Nine Additional Pharmaceutical Manufacturers to Lower Drug Prices for Americans",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-deal-with-nine-additional-pharmaceutical-manufacturers-to-lower-drug-prices-for-americans/",
+    "publication_date": "2026-08-31",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-08-31T19:14:29+00:00",
+    "verified_at": "2026-10-09T12:05:50Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Nine further manufacturers signed most-favoured-nation pricing agreements on 31 August, taking the total to 26 companies covering 89% of the branded drug market, with at least $19.6 billion of near-term US manufacturing commitments and donations of active ingredients to a strategic reserve.",
+    "frame_summary": "The White House argues that trading tariff exposure for most-favoured-nation prices and onshoring commitments is what rebalances international drug pricing and secures American supply, presenting the negotiated deal rather than the duty as the working instrument.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing",
+      "Medicare GLP-1 access expansion"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The agreements bring the total number of pharmaceutical manufacturers with MFN deals to 26, covering 89% of the branded drug market.",
+    "verbatim_list": [
+      "These nine pharmaceutical manufacturers committed to invest at least $19.6 billion collectively in U.S. manufacturing in the near term.",
+      "In the two months since the launch of this program, over 500,000 seniors have saved a total of $216 million dollars on these life-changing medicines."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Office of the Federal Register",
+    "title": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States",
+    "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06956/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states",
+    "publication_date": "2026-04-09",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-04-09",
+    "verified_at": "2026-10-09T12:07:26Z",
+    "date_age_band": "6-12m",
+    "key_claim": "The proclamation imposes a 100 percent ad valorem duty on imported patented pharmaceuticals and their ingredients, reduced to 20 percent for companies with approved onshoring plans and to zero for companies holding MFN pricing agreements, effective 31 July 2026 for Annex III companies and 29 September 2026 for the rest, with generics excluded.",
+    "frame_summary": "The proclamation asserts that heavy US import reliance on patented pharmaceuticals and ingredients, compounded by foreign government intervention in the market, threatens to impair national security, and that tariffs paired with onshoring and pricing agreements are the remedy.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": true,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "(4) The tariffs and tariff treatment imposed by this proclamation shall be effective with respect to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern daylight time on July 31, 2026, for the companies listed in Annex III to this proclamation and September 29, 2026, for other companies and shall continue in effect, unless such actions are expressly reduced, modified, or terminated.",
+    "verbatim_list": null
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Council of the European Union",
+    "title": "Critical medicines act: Council and Parliament reach provisional deal",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/12/critical-medicines-act-council-and-parliament-reach-provisional-deal/",
+    "publication_date": "2026-05-12",
+    "date_source": "byline",
+    "date_evidence": "Council of the EU - Press release - 12 May 2026 06:02",
+    "verified_at": "2026-10-09T12:09:05Z",
+    "date_age_band": "3-6m",
+    "key_claim": "The Council and Parliament reached a provisional deal on the Critical Medicines Act, adding resilience requirements to public procurement, cutting the joint-procurement threshold from nine member states to five, and extending scope to orphan medicines, with formal adoption still pending.",
+    "frame_summary": "The Council argues that procurement rules and EU-based manufacturing incentives are the practical route to reducing dependency and ending shortages of antibiotics, insulin and painkillers.",
+    "signals_supported": [
+      "EU Critical Medicines Act"
+    ],
+    "cluster": "Access settled by bargain, not by rule",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The provisional agreement will now have to be endorsed by the Council and the Parliament. It will then formally be adopted by both institutions following legal-linguistic revision.",
+    "verbatim_list": [
+      "Orphan medicinal products are used to treat life-threatening or very serious conditions that affect no more than 5 in 10,000 people in the EU."
+    ]
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 1,
+    "publisher": "Department of Health and Social Care (Social care blog)",
+    "title": "Two Big Milestones for Millions of Care Workers in England",
+    "url": "https://socialcare.blog.gov.uk/2026/07/22/two-big-milestones-for-millions-of-care-workers-in-england/",
+    "publication_date": "2026-07-22",
+    "date_source": "byline",
+    "date_evidence": "Posted by: Rose Thomas Willis, Posted on: 22 July 2026 - Categories: Carers, Workforce",
+    "verified_at": "2026-10-09T12:11:18Z",
+    "date_age_band": "0-3m",
+    "key_claim": "DHSC finalised the Fair Pay Agreement process, will stand up an Adult Social Care Negotiating Body by the end of 2026, and added ten role categories to the Care Workforce Pathway, with the first agreement backed by GBP 500 million in 2028-29.",
+    "frame_summary": "DHSC argues these are landmark reforms that will end decades of low pay in adult social care and build the foundations of a National Care Service.",
+    "signals_supported": [
+      "UK social care workforce reform"
+    ],
+    "cluster": "Pledged now, funded and staffed later",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The first Fair Pay Agreement is backed by £500 million in 2028-29.",
+    "verbatim_list": [
+      "a new Adult Social Care Negotiating Body that will be set up by the end of the year"
+    ]
+  },
+  {
+    "tier": 2,
+    "publisher": "Gibson Dunn",
+    "title": "MFN Goes Mid-Market: Nine More Drugmakers Sign Medicaid Pricing Deals as the September 29 Tariff Deadline Approaches",
+    "url": "https://biotechbriefings.gibsondunn.com/?p=7097",
+    "publication_date": "2026-09-01",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-01T12:49:19+00:00",
+    "date_age_band": "0-3m",
+    "cluster": "Access settled by bargain, not by rule",
+    "key_claim": "Nine more manufacturers signed most-favoured-nation pricing deals on 31 August, taking the total to 26, and every other branded manufacturer becomes subject to the Section 232 tariff regime on 29 September, with a signed agreement plus an approved onshoring plan reducing the rate to zero.",
+    "frame_summary": "A law-firm analysis argues that the pricing agreements are being traded for tariff relief on a deadline, and that the terms companies receive in return are not public.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Every other branded manufacturer becomes subject to the same regime on September 29, 2026.",
+    "verbatim_list": [
+      "The nine companies collectively committed $19.6 billion of investment in U.S. manufacturing."
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:13:02Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "KFF (Medicare)",
+    "title": "CMS Extends Medicare's Short-Term Bridge Program for GLP-1 Obesity Drug Coverage",
+    "url": "https://www.kff.org/quick-take/cms-extends-medicares-short-term-bridge-program-for-glp-1-obesity-drug-coverage/",
+    "publication_date": "2026-04-23",
+    "date_source": "byline",
+    "date_evidence": "Published: April 23, 2026",
+    "date_age_band": "3-6m",
+    "cluster": "Pledged now, funded and staffed later",
+    "key_claim": "CMS delayed the BALANCE model and extended the Medicare GLP-1 Bridge, which gives eligible beneficiaries obesity-drug coverage for a $50 copay, through the end of 2027.",
+    "frame_summary": "KFF argues that Medicare GLP-1 obesity coverage now rests on a time-limited bridge, because the longer-term BALANCE model faces an uncertain future.",
+    "signals_supported": [
+      "Medicare GLP-1 access expansion"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Under the Bridge program, eligible beneficiaries can get Medicare coverage of GLP-1s for obesity for a $50 copay.",
+    "verbatim_list": [
+      "Implementation of the BALANCE model in Medicare faces an uncertain future."
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:15:09Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "DAC Beachcroft",
+    "title": "The Casey Commission: progress, recommendations, and what comes next?",
+    "url": "https://www.dacbeachcroft.com/en/What-we-think/The-Casey-Commission-progress-recommendations-and-what-comes-next",
+    "publication_date": "2026-08-25",
+    "date_source": "byline",
+    "date_evidence": "Published 25 August 2026",
+    "date_age_band": "0-3m",
+    "cluster": "Pledged now, funded and staffed later",
+    "key_claim": "The Casey Commission must now report in full by 2027, a year earlier than planned, as part of the Prime Minister's social care plans, and he has indicated that difficult funding decisions may be required.",
+    "frame_summary": "A law-firm briefing argues that the brought-forward Casey review is a welcome recognition for providers but leaves funding allocation, eligibility and market structure unresolved.",
+    "signals_supported": [
+      "UK national care service plan"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "with a revised timetable in place requiring the Commission to report in full by 2027",
+    "verbatim_list": [
+      "Phase Two has now been brought forward as part of Andy Burnham's plans for tackling social care challenges.",
+      "He indicated that difficult funding decisions may be required"
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:17:39Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "London School of Hygiene & Tropical Medicine",
+    "title": "Expert comment: UK tries social care reforms again, but what is needed for lasting positive change?",
+    "url": "https://www.lshtm.ac.uk/newsevents/news/2026/expert-comment-uk-tries-social-care-reforms-again-what-needed-lasting-positive",
+    "publication_date": "2026-09-21",
+    "date_source": "byline",
+    "date_evidence": "21 September 2026",
+    "date_age_band": "0-3m",
+    "cluster": "Pledged now, funded and staffed later",
+    "key_claim": "LSHTM researchers argue that social care's core problems have been recognised for decades without lasting reform, that regional variation makes the system fragmented, and that workforce plans must reckon with the end of international recruitment.",
+    "frame_summary": "LSHTM researchers argue that the reform attempt will fail again unless it starts from the workforce and the fragmented split of responsibility, not from announcements.",
+    "signals_supported": [
+      "UK national care service plan",
+      "UK social care workforce reform"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The sector's core problems have been recognised for decades, yet successive governments have struggled to deliver reform.",
+    "verbatim_list": [
+      "Adult social care is fragmented, as different regions vary considerably in how they provide care."
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:19:38Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "King's College London",
+    "title": "Social care reform must start with the workforce, here's why",
+    "url": "https://www.kcl.ac.uk/news/social-care-reform-must-start-with-the-workforce-heres-why",
+    "publication_date": "2026-07-31",
+    "date_source": "byline",
+    "date_evidence": "31 July 2026",
+    "date_age_band": "0-3m",
+    "cluster": "Pledged now, funded and staffed later",
+    "key_claim": "King's College London and Leeds researchers argue that social care is a workforce challenge as well as a funding one, citing a survey in which a quarter of respondents planned to leave their employer once they found another job.",
+    "frame_summary": "The authors argue that social care reform has focused on funding and will not hold unless pay, training and retention are fixed across departments.",
+    "signals_supported": [
+      "UK social care workforce reform"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "A quarter of respondents planned to leave their employer as soon as they found another job.",
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verbatim_list": null,
+    "verified_at": "2026-10-09T12:21:31Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "Health Policy Watch",
+    "title": "Germany Plans More Cuts to Global Health Funding, But Policymakers Push Back on 2027 Draft Budget",
+    "url": "https://healthpolicy-watch.news/germany-slash-global-health-funding/",
+    "publication_date": "2026-08-26",
+    "date_source": "byline",
+    "date_evidence": "Published 26/08/2026 by Felix Sassmannshausen on Health Policy Watch",
+    "date_age_band": "0-3m",
+    "cluster": "Cover thins while outbreaks widen",
+    "key_claim": "Germany's 2027 draft budget plans to cut flexible pandemic-preparedness funds by 15.3 percent to 47.33 million euros while the overall budget grows 5.9 percent on defence.",
+    "frame_summary": "Health Policy Watch reports that Germany is cutting precisely the flexible funds that finance pandemic preparedness while defence spending rises, over objections from its own rapporteurs.",
+    "signals_supported": [
+      "Global health financing retrenchment"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "which Berlin is planning to slash by 15.3% to €47.33 million.",
+    "verbatim_list": [
+      "flexible budgets for pandemic preparedness are planned to be cut by 15.3%."
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:23:26Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "Health Policy Watch (Pan American Health Organization)",
+    "title": "US Proposal to Eliminate PAHO Funding Raises Alarm Over Health Security in Americas",
+    "url": "https://healthpolicy-watch.news/us-proposal-to-eliminate-paho-funding-raises-alarm-over-hemispheric-health-security/",
+    "publication_date": "2026-09-03",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-03T18:50:01+02:00",
+    "date_age_band": "0-3m",
+    "cluster": "Cover thins while outbreaks widen",
+    "key_claim": "The US FY2027 budget request proposes eliminating PAHO funding; the US owes nearly $135 million in fees since 2024 and PAHO has adopted a 17 percent budget cut in response.",
+    "frame_summary": "Health Policy Watch reports that ending US funding would hollow out the regional body that protects hemispheric health security, drawing bipartisan objection.",
+    "signals_supported": [
+      "Global health financing retrenchment"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The US already owes nearly $135 million in member fees since 2024.",
+    "verbatim_list": [
+      "In response to unpaid US dues, PAHO, the WHO's regional arm with 35 member states across the Americas, has adopted a 17%"
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:25:49Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "Health Policy Watch (HIV)",
+    "title": "US to Phase Out HIV Support for Namibia After Data-Sharing Impasse",
+    "url": "https://healthpolicy-watch.news/us-to-phase-out-hiv-support/",
+    "publication_date": "2026-09-08",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-09-08T15:48:45+02:00",
+    "date_age_band": "0-3m",
+    "cluster": "Access settled by bargain, not by rule",
+    "key_claim": "The US will end HIV funding for Namibia after 2027 after the two sides deadlocked over data and information-sharing terms, with 45 million dollars for fiscal 2027 to fund the transition; Zimbabwe and Ghana have also rejected the US demands and the Kenya and DRC agreements face legal challenge.",
+    "frame_summary": "Health Policy Watch reports that Washington is making health aid conditional on data and pathogen-sharing terms, and that countries refusing them lose funding they have relied on for two decades.",
+    "signals_supported": [
+      "Pathogen access as bilateral leverage",
+      "Global health financing retrenchment"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The US will provide $45 million for the 2027 fiscal year to enable the transition to technical support",
+    "verbatim_list": [
+      "Zimbabwe and Ghana have also rejected the US data- and pathogen-sharing demands"
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:27:52Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "ABC News (Associated Press)",
+    "title": "UN tries to build momentum on pandemic preparedness, but hits a speed bump",
+    "url": "https://abcnews.com/Health/wireStory/build-momentum-pandemic-preparedness-hits-speed-bump-136769702",
+    "publication_date": "2026-09-25",
+    "date_source": "byline",
+    "date_evidence": "September 25, 2026, 6:57 PM",
+    "date_age_band": "0-3m",
+    "cluster": "Access settled by bargain, not by rule",
+    "key_claim": "Countries could not agree a draft declaration meant to close the UN pandemic preparedness meeting; the US objected to references to divisive ideologies and to a proposed separate arrangement for sharing virus samples in exchange for tests, medicines and vaccines, and the EU said it did not do enough on financing accountability.",
+    "frame_summary": "The Associated Press reports that the UN pandemic meeting failed to close on an agreed declaration because the US and EU each objected on different grounds, one of them the sample-sharing arrangement.",
+    "signals_supported": [
+      "Pathogen access as bilateral leverage"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "the document didn't do enough to foster financing accountability and efficiency",
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verbatim_list": null,
+    "verified_at": "2026-10-09T12:29:47Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "Managed Healthcare Executive",
+    "title": "Tariffs on patented drugs now apply to all branded drugmakers",
+    "url": "https://www.managedhealthcareexecutive.com/view/tariffs-on-patented-drugs-now-apply-to-all-branded-drugmakers",
+    "publication_date": "2026-09-29",
+    "date_source": "byline",
+    "date_evidence": "News|Articles|September 29, 2026",
+    "date_age_band": "0-3m",
+    "cluster": "Access settled by bargain, not by rule",
+    "key_claim": "The second and final phase of the Section 232 tariffs on imported patented drugs took effect on 29 September, extending them from the largest drugmakers to all drug companies.",
+    "frame_summary": "The trade-press report presents the second tariff phase as the point at which every branded manufacturer must either hold a pricing agreement or face the duty.",
+    "signals_supported": [
+      "US pharma tariffs and MFN pricing"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The second and final phase took effect today",
+    "verbatim_list": [
+      "Tariffs on imported patented drugs and their ingredients now apply to all drug companies, not just the largest ones."
+    ],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:31:11Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "LocalGov",
+    "title": "Burnham unveils plans to reform social care workforce",
+    "url": "https://www.localgov.co.uk/Burnham-unveils-plans-to-reform-social-care-workforce-/64750",
+    "publication_date": "2026-07-29",
+    "date_source": "byline",
+    "date_evidence": "William Eichler 29 July 2026",
+    "date_age_band": "0-3m",
+    "cluster": "Pledged now, funded and staffed later",
+    "key_claim": "The Prime Minister asked Baroness Casey to bring forward her social care review by a year and confirmed the announcements would be fully funded though further difficult decisions may follow.",
+    "frame_summary": "The trade-press report presents the announcements as fully funded for now while flagging that further difficult funding decisions may follow.",
+    "signals_supported": [
+      "UK national care service plan",
+      "UK social care workforce reform"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Burnham has also asked Baroness Louise Casey to bring forward her review of social care by a year",
+    "verbatim_list": [],
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verified_at": "2026-10-09T12:33:03Z"
+  },
+  {
+    "topic": "Health, Life Sciences and Care Systems",
+    "tier": 3,
+    "publisher": "BioPharma Dive",
+    "title": "How well are AI-discovered drugs faring in the clinic?",
+    "url": "https://www.biopharmadive.com/news/ai-drug-discovery-insilico-recursion-verge/825367/",
+    "publication_date": "2026-07-17",
+    "date_source": "meta:date",
+    "date_evidence": "meta-date: 2026-07-17",
+    "verified_at": "2026-10-09T12:35:26Z",
+    "date_age_band": "0-3m",
+    "key_claim": "Few AI-discovered drugs have reached late-stage trials, with Insilico's rentosertib now in a 52-week phase 3 in China and Recursion posting a polyp-burden reduction, set against failures such as Verge Genomics' ALS candidate.",
+    "frame_summary": "The piece argues that AI's apparent early-phase advantage remains unproven where it matters, and that the technology's real test is whether a small number of closely watched assets survive mid-stage and late-stage efficacy trials.",
+    "signals_supported": [
+      "AI-designed drug discovery"
+    ],
+    "cluster": "Pledged now, funded and staffed later",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Insilico also has its own candidates in the works as part of an expansive pipeline that includes over 40 programs in a wide swath of indications.",
+    "verbatim_list": [
+      "Most patients in the trial continued to show reductions even after they were off the medication for 12 weeks - a promising sign for a condition with no existing treatment options."
+    ]
+  },
+  {
+    "tier": 4,
+    "publisher": "Royal College of Nursing",
+    "title": "National Care Service vision must include nursing investment, says RCN",
+    "url": "https://www.rcn.org.uk/news-and-events/news/uk-national-care-service-vision-must-include-nursing-investment-says-rcn-290926",
+    "publication_date": "2026-09-29",
+    "date_source": "byline",
+    "date_evidence": "Published 29 Sep 2026",
+    "date_age_band": "0-3m",
+    "cluster": "Pledged now, funded and staffed later",
+    "key_claim": "The Prime Minister used his Labour conference speech to pledge a free-at-the-point-of-use National Care Service; the RCN welcomed the focus but said reform needs cross-party consensus and workforce investment.",
+    "frame_summary": "The nursing union argues that a National Care Service pledge will fail without workforce investment and cross-party consensus.",
+    "signals_supported": [
+      "UK national care service plan"
+    ],
+    "claim_strength": "verbatim",
+    "verbatim_quote": "the reality is nurse numbers alone have fallen by a third in the last decade",
+    "topic": "Health, Life Sciences and Care Systems",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "verbatim_list": null,
+    "verified_at": "2026-10-09T12:37:40Z"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T12:59:04Z",
+  "generated": "2026-10-09T13:09:01Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -9,14 +9,22 @@
       "description": "Health-system reform, social care, life-sciences breakthroughs, care at home, AI in clinical workflows. What this changes for providers, payers, people who use care and adjacent industries.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/health-life-sciences-care-systems/history/",
-      "latest_read": "England's nursing supply fell from both overseas and domestic sources in 2025-26. Overseas-educated joiners fell 47% and UK-educated 4.9% as vacancies shrank, while policy needs a bigger domestic...",
+      "latest_read": "Ebola reaches 8,116 cases as the US ties health aid to pathogen data",
       "latest_dates": {
         "scan": "2026-10-04",
-        "tracker": "2026-09-11",
+        "tracker": "2026-10-09",
         "di": "2026-10-08",
         "cc": "2026-10-09"
       },
       "history": [
+        {
+          "date": "2026-10-09",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Ebola reaches 8,116 cases as the US ties health aid to pathogen data",
+          "summary": "Fifth Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 6 Accelerating (Bundibugyo Ebola emergency, US measles elimination at risk, global health financing retrenchment, US...",
+          "posture": ""
+        },
         {
           "date": "2026-10-09",
           "kind": "cross_cutter",

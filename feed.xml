@@ -5,8 +5,16 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Thu, 08 Oct 2026 08:30:02 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 08:30:09 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-09-war-premium-unwind/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-09-war-premium-unwind/scan.html</guid>
+<pubDate>Fri, 09 Oct 2026 08:00:00 +0000</pubDate>
+<category>Transport, Logistics &amp; Supply Chains</category>
+<description>Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for 2027, pointing spot rates below their 28 February 2026 pre-crisis marks during 2027.</description>
+</item>
 <item>
 <title>Europe Counts Shelter Capacity by Designating Basements and Car Parks, Not by Building Shelters</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-07-shelter-capacity-by-designation/scan.html</link>
@@ -398,14 +406,6 @@
 <pubDate>Sat, 05 Sep 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
 <description>Access to full-capability US frontier AI is now allocated by government clearance rather than by price. Three releases since June 2026 (Mythos 5, GPT-5.6, GPT-6 Astra) passed through an unpublished federal review and a government-vetted partner tier, and the export-control letter that switched Anthropic's models off worldwide in June left its reasoning and its amendable partner list in place.</description>
-</item>
-<item>
-<title>Dividing the Dividend: Who Keeps AI's Gains Is Being Settled by Contract, Not by Statute</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-05-dividend-by-contract/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-05-dividend-by-contract/scan.html</guid>
-<pubDate>Sat, 05 Sep 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>Who keeps AI's productivity gains is being settled by contract rather than by statute. With the US labour share at 52.8% in Q2 2026, the lowest since 1947, and real hourly pay falling, notice, human-review and no-replacement clauses in 85-90 NewsGuild contracts and named agreements at McClatchy, Kaiser and Oregon are being enforced by arbitration and copied by non-union HR functions ahead of the 2027 pay rounds.</description>
 </item>
 </channel>
 </rss>

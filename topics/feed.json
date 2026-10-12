@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T08:38:59Z",
+  "generated": "2026-10-12T14:43:37Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -553,6 +553,39 @@
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
           "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "transport-logistics-supply-chains",
+      "name": "Transport, Logistics & Supply Chains",
+      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
+      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
+      "latest_read": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
+      "latest_dates": {
+        "scan": "2026-10-09",
+        "tracker": "",
+        "di": "2026-10-12",
+        "cc": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Cheap Freight Is Back. With a Catch",
+          "summary": "Ocean freight is heading into a buyer's market. Since May, 140 container ships have switched back from the Cape of Good Hope to the Suez Canal (gCaptain, Oct 2026), and BIMCO, the shipowners'...",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027",
+          "summary": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
+          "posture": "Decide"
         }
       ]
     },
@@ -1713,31 +1746,6 @@
       ]
     },
     {
-      "slug": "transport-logistics-supply-chains",
-      "name": "Transport, Logistics & Supply Chains",
-      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
-      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
-      "latest_read": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
-      "latest_dates": {
-        "scan": "2026-10-09",
-        "tracker": "",
-        "di": "",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-10-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027",
-          "summary": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
-          "posture": "Decide"
-        }
-      ]
-    },
-    {
       "slug": "defence-security-resilience",
       "name": "Defence, Security & Resilience",
       "tagline": "Past financing. Into the supplier base.",
@@ -2616,7 +2624,7 @@
       "slug": "climate-nature-food-systems",
       "name": "Climate, Nature & Food Systems",
       "tagline": "Nature moves onto the risk register.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, and the mitigation economics behind it: decarbonisation pace, cost and delivery. Climate disasters and extreme weather, and what they do to assets, supply chains and insurability. Biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
       "latest_read": "India is writing its winter crop plan from reservoir water, not stock positions, as a very strong El Niño tightens irrigation.",

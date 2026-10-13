@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T10:16:26Z",
+  "generated": "2026-10-13T10:37:02Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-10-12",
         "tracker": "2026-09-18",
         "di": "2026-10-15",
-        "cc": "2026-08-14"
+        "cc": "2026-10-16"
       },
       "history": [
+        {
+          "date": "2026-10-16",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "The Rules Got Simpler. Companies Became the Enforcers.",
+          "summary": "Over this cycle, the enforcement load moved from regulators onto companies' own systems. In August the question was whether each jurisdiction had a funded enforcer. That still matters, but the rules that bit this cycle needed little enforcer at all.",
+          "posture": ""
+        },
         {
           "date": "2026-10-15",
           "kind": "brief",

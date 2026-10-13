@@ -303,6 +303,170 @@
   .discussion-points li:nth-child(5n+4) { border-left-color: #ef6c00; } .discussion-points li:nth-child(5n+4)::before { background: #fff3e0; color: #e65100; }
   .discussion-points li:nth-child(5n+5) { border-left-color: #d81b60; } .discussion-points li:nth-child(5n+5)::before { background: #fce4ec; color: #ad1457; }
   @media (max-width: 600px) { .discussion-points { padding: 18px 14px; } }
+  /* Shift from today (from 8 October 2026): one line under the scenario name, in the cell's own accent */
+  .scenario-1 { --scn-acc: #2e7d32; } .scenario-2 { --scn-acc: #e65100; } .scenario-3 { --scn-acc: #1565c0; } .scenario-4 { --scn-acc: #ad1457; }
+  .scenario-cell .scn-delta { font-size: 0.95em; color: #2d3748; border-left: 3px solid var(--scn-acc); padding: 2px 0 2px 12px; margin: 6px 0 12px; }
+  .scenario-cell .scn-delta-k { display: block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--scn-acc); margin-bottom: 2px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px 20px; background: #ffffff; border-radius: 8px; margin: 12px 0; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; }
+  .exclusion-item .excl-eyebrow { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .exclusion-item.excl-1 { border-left-color: #7e57c2; } .exclusion-item.excl-1 .excl-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .exclusion-item.excl-2 { border-left-color: #26a69a; } .exclusion-item.excl-2 .excl-eyebrow { background: #e0f2f1; color: #00796b; }
+  .exclusion-item.excl-3 { border-left-color: #ef6c00; } .exclusion-item.excl-3 .excl-eyebrow { background: #fff3e0; color: #e65100; }
+  .exclusion-item h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.05em; }
+  .reinstatement { font-size: 0.9em; color: #4a5568; margin: 12px 0 0; padding: 8px 12px; border-radius: 6px; background: #f3f5f8; }
+  .reinstatement strong { color: #1a237e; }
+  .discussion-points { background: #f4f6fb; color: #1a1a1a; border: 1px solid #d6dfee; border-left: 5px solid #1a237e;
+      padding: 32px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: #1a237e; margin: 0 0 6px 0; }
+  .discussion-points .dp-standfirst { color: #5a6478; font-size: 0.92em; margin: 0 0 22px 0; max-width: 640px; }
+  .discussion-points ol { list-style: none; padding: 0; margin: 0; counter-reset: dp; }
+  /* The number sits in an absolutely positioned gutter rather than as a flex item.
+     This rule used to be `display: flex`, which turns every inline child of the <li>
+     into its own flex item: a question carrying an inline source citation rendered the
+     anchor as a separate column with the sentence broken around it (Belastingdienst,
+     22 September 2026). Earlier cycles happened to write questions with no links, so
+     the fault stayed hidden. Keep this block-level; do not reintroduce flex here. */
+  .discussion-points li { counter-increment: dp; position: relative; padding: 14px 0 14px 46px; border-top: 1px solid #d6dfee; margin: 0; }
+  .discussion-points li::before { content: counter(dp, decimal-leading-zero); position: absolute; left: 0; top: 15px; width: 30px; font-weight: 800; color: #1a237e; font-size: 0.95em; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 28%; }
+  .source-register col.col-tier { width: 11%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 49%; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; word-wrap: break-word; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .source-register td.tier-1 { color: #2e7d32; font-weight: 700; }
+  .source-register td.tier-2 { color: #1565c0; font-weight: 700; }
+  .source-register td.tier-3 { color: #f57c00; font-weight: 700; }
+  .source-register td.tier-4 { color: #c62828; font-weight: 700; }
+  .source-register tr.tier-1 { background: #e3f2fd; }
+  .source-register tr.tier-2 { background: #e8f5e9; }
+  .source-register tr.tier-3 { background: #fff3e0; }
+  .source-register tr.tier-4 { background: #fce4ec; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  /* Scenario matrix on phones (22 September 2026): the two-column grid and absolutely
+     positioned corner labels overflowed a 390px viewport by about 30px. */
+  @media (max-width: 600px) {
+    .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
+    .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
+    .axis-name-v { font-size: 0.66em; }
+    .matrix-frame { padding: 26px 8px 22px; min-width: 0; }
+    .scenario-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+    .scenario-cell { padding: 10px; font-size: 0.84em; min-width: 0; overflow-wrap: anywhere; }
+    .corner-label { font-size: 0.6em; padding: 2px 5px; max-width: 44%; white-space: normal; line-height: 1.2; }
+    .corner-tl, .corner-bl { left: 8px; }
+    .corner-tr, .corner-br { right: 8px; text-align: right; }
+    .corner-tl, .corner-tr { top: -10px; }
+    .corner-bl, .corner-br { bottom: -10px; }
+  }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+
+  /* Format of 24 September 2026 (tested on the FS, Energy and Thurgau DIs, then adopted).
+     Chip rule: solid chips are reserved for the two action calls (.impact-tier timing and
+     .si-pill Decide/Prepare/Monitor). Every other chip is pastel: tinted fill, dark text. */
+  .fw-note { font-size: 0.82em; color: #5a6478; line-height: 1.45; margin: 8px 4px 0; }
+  .fw-legend { font-size: 12.5px !important; }
+  .snap-purpose { font-size: 0.88em; color: #5a6478; margin-top: 6px; }
+  .weight-table { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 0.92em; }
+  .weight-table th, .weight-table td { border-bottom: 1px solid #dee2e6; padding: 7px 8px; text-align: left; vertical-align: top; }
+  .weight-table th { background: #eef1f6; color: #1a237e; }
+  .wt { display: inline-block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; }
+  .wt.high { background: #fdecea; color: #c62828; }
+  .wt.medium { background: #fff3e0; color: #e65100; }
+  .wt.low { background: #eceff1; color: #546e7a; }
+  .wt.hoch { background: #fdecea; color: #c62828; } .wt.mittel { background: #fff3e0; color: #e65100; } .wt.tief { background: #eceff1; color: #546e7a; }
+  .weight-line { font-size: 0.9em; color: #33414f; background: #f5f7fa; border-radius: 6px; padding: 6px 10px; margin: 4px 0 10px; }
+  .outlook { background: #eef5ff; border-left: 4px solid #1565c0; border-radius: 0 8px 8px 0; padding: 10px 14px; margin: 14px 0; }
+  .outlook h4 { margin: 0 0 6px; color: #1565c0; }
+  .outlook p { margin: 0 0 6px; }
+  /* Potential Surprises to 2040 (7 October 2026): the light-panel family of Options and the exclusions */
+  .surprises-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .surprises-section h2 { color: #1a237e; margin-top: 0; }
+  .sur-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+  .surprise { background: #fff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; }
+  .surprise .sur-eyebrow { align-self: flex-start; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .surprise.s-weak { border-left: 4px dashed #8e24aa; } .surprise.s-weak .sur-eyebrow { background: #f3e5f5; color: #6a1b9a; }
+  .surprise.s-emerging { border-left-color: #1e88e5; } .surprise.s-emerging .sur-eyebrow { background: #e3f2fd; color: #1565c0; }
+  .surprise h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.02em; }
+  .surprise p { margin: 0 0 8px; font-size: 0.93em; }
+  .surprise .sur-meta { font-size: 0.86em; color: #4a5568; }
+  .surprise .sur-why { font-size: 0.9em; color: #2c3e50; padding: 7px 10px; border-radius: 6px; background: #fff8e1; border-left: 3px solid #f9a825; }
+  .surprise strong { color: #1a237e; }
+  .surprise .sur-signposts { margin: 4px 0 2px; font-size: 0.88em; }
+  .surprise .sur-signposts-list { margin: 0 0 8px; padding-left: 1.1em; font-size: 0.88em; color: #2c3e50; }
+  .surprise .sur-today { margin: auto 0 0; font-size: 0.86em; color: #4a5568; padding: 7px 10px; border-radius: 6px; background: #f3f5f8; }
+  @media (max-width: 640px) { .surprises-section { padding: 18px 14px; } }
+  /* How this was made (added 29 September 2026) */
+  .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
+  .method-line a { color: #1a237e; font-weight: 600; text-decoration: none; border-bottom: 1px solid #c5cae9; }
+  .method-line a:hover { border-bottom-color: #1a237e; }
+  .meta .method-line { display: block; margin: 4px 0 0; }
+  .method-card { background: #f8f9fb; border: 1px solid #e3e7ee; border-left: 4px solid #1a237e; border-radius: 8px;
+                 padding: 14px 20px; margin: 28px 0 14px; color: #2c3e50; line-height: 1.5; }
+  .method-card .method-eyebrow { font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+                                 color: #5a6478; margin: 0 0 4px; }
+  .method-card .method-name { font-size: 1.05em; font-weight: 700; margin: 0 0 4px; }
+  .method-card .method-name a { color: #1a237e; text-decoration: none; }
+  .method-card p { margin: 0 0 8px; }
+  .method-card .method-stages { font-size: 0.86em; color: #5a6478; }
+  .method-card .method-stages a { color: #1a237e; text-decoration: underline; text-decoration-color: #c5cae9; text-underline-offset: 2px; }
+  .method-card .method-stages a:hover { text-decoration-color: #1a237e; }
+  .method-card .method-more { font-weight: 600; color: #1a237e; text-decoration: none; font-size: 0.92em; }
+  .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -372,11 +536,12 @@
   <li><a href="#section-strategic-implications">6. Strategic Implications</a></li>
   <li><a href="#section-scenario-matrix">7. Scenario Matrix 2030</a></li>
   <li><a href="#section-options">8. Options</a></li>
-  <li><a href="#section-explicit-exclusions">9. What We Are Not Planning For</a></li>
-  <li><a href="#section-discussion-points">10. Questions For The Next Strategy Meeting</a></li>
-  <li><a href="#section-source-register">11. Source Confidence Register</a></li>
-  <li><a href="#claim-fidelity">12. Claim-Fidelity Appendix</a></li>
-  <li><a href="#section-abbreviations">13. Abbreviations</a></li>
+  <li><a href="#section-surprises">9. Potential Surprises to 2040</a></li>
+  <li><a href="#section-explicit-exclusions">10. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">11. Questions For The Next Strategy Meeting</a></li>
+  <li><a href="#section-source-register">12. Source Confidence Register</a></li>
+  <li><a href="#claim-fidelity">13. Claim-Fidelity Appendix</a></li>
+  <li><a href="#section-abbreviations">14. Abbreviations</a></li>
 </ul>
 </div>
 <div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+5+10+20" data-fw-engine="2">
@@ -610,9 +775,9 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
 <p style="margin:0 0 12px;font-size:0.92em;color:#5a6478;">The five milestones the July edition set for this cycle, each with a verdict and a source from after July. Most were due later; the verdict records where each stands on 24 September.</p>
 <table style="width:100%;border-collapse:collapse;font-size:0.9em;">
 <tr style="text-align:left;color:#1a237e;"><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">Milestone set in July</th><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">Verdict</th><th style="padding:6px 8px;border-bottom:2px solid #c5cae9;">What happened</th></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether the US crypto market law allows stablecoins to pay interest</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#5a6478;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The final Senate text banned interest on stablecoin balances (<a href="https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text/" target="_blank" rel="noopener">Senator Lummis's office</a>, Sep 2026), but a key Senate vote failed on 15 September and the bill is unlikely to pass this Congress (<a href="https://www.americanbanker.com/news/crypto-market-structure-bill-fails-in-senate-vote-49-50" target="_blank" rel="noopener">American Banker</a>, Sep 2026). No law settles the question.</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Interest on stablecoins under the US crypto market law</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#5a6478;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The final Senate text banned interest on stablecoin balances (<a href="https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text/" target="_blank" rel="noopener">Senator Lummis's office</a>, Sep 2026), but a key Senate vote failed on 15 September and the bill is unlikely to pass this Congress (<a href="https://www.americanbanker.com/news/crypto-market-structure-bill-fails-in-senate-vote-49-50" target="_blank" rel="noopener">American Banker</a>, Sep 2026). No law settles the question.</td></tr>
 <tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Launch of the token service run by DTCC, which settles US share and bond trades</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#00796b;">ON TRACK</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">First live trades ran on 15 July with more than 30 firms, and the service is due to launch in October 2026 (<a href="https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality" target="_blank" rel="noopener">DTCC</a>, Jul 2026).</td></tr>
-<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Whether the Financial Stability Board, which coordinates financial regulators across the G20, covers AI agents in its report on responsible AI</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#00796b;">ON TRACK</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The June consultation asks directly whether its practices cover AI agents that act on their own, and the final report is due in October (<a href="https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/" target="_blank" rel="noopener">the Financial Stability Board</a>, Jun 2026).</td></tr>
+<tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">AI agents in the report on responsible AI by the Financial Stability Board, which coordinates financial regulators across the G20</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#00796b;">ON TRACK</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The June consultation asks directly whether its practices cover AI agents that act on their own, and the final report is due in October (<a href="https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/" target="_blank" rel="noopener">the Financial Stability Board</a>, Jun 2026).</td></tr>
 <tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Digital euro negotiations: the holding cap and interest</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#00796b;">ON TRACK</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">Parliament adopted its position on 9 July (<a href="https://www.europarl.europa.eu/news/en/press-room/20260708IPR46377/digital-euro-meps-ready-to-start-negotiations" target="_blank" rel="noopener">the European Parliament</a>, Jul 2026) and negotiations with member states opened on 13 July, with a cap of &euro;3,000 per person on the table and Ireland, which chairs the member states' side until December, aiming for agreement by the end of 2026 (<a href="https://www.omfif.org/2026/09/whose-interest-does-the-digital-euros-holding-limit-really-serve/" target="_blank" rel="noopener">the think tank OMFIF</a>, Sep 2026).</td></tr>
 <tr><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">The US plan to change how much capital banks must hold</td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;white-space:nowrap;"><span style="display:inline-block;padding:2px 10px;border-radius:12px;font-size:0.72em;font-weight:700;letter-spacing:0.04em;color:#fff;background:#5a6478;">UNRESOLVED</span></td><td style="padding:8px;border-bottom:1px solid #d6dbee;vertical-align:top;">US bank regulators' revised proposals of March 2026 would cut the capital that banks of every size must hold as a cushion against losses (<a href="https://www.hklaw.com/en/insights/publications/2026/06/us-banking-agencies-propose-new-rules-to-reduce-regulatory" target="_blank" rel="noopener">Holland &amp; Knight</a>, Jun 2026). The final rule has not been issued, but the direction, lower capital than today, is now clear.</td></tr>
 </table>
@@ -1270,24 +1435,28 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
 
 <div class="scenario-cell scenario-1">
 <h4>The upgraded bank</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>From more than half of the largest US banks building their own tokens (<a href="https://flagshipadvisorypartners.com/insights/tokenized-deposits-everyone-is-building-almost-no-one-is-connecting/" target="_blank" rel="noopener">Flagship Advisory Partners</a>, Aug 2026) to a few shared networks that most banks join.</p>
 <p>Deposits become tokens that move around the clock and pay customers of any bank, through shared networks and central bank bridges (<a href="https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html" target="_blank" rel="noopener">the ECB</a>, Aug 2026). Refund rules are extended to payments started by agents, and funds that promise withdrawals must hold assets that can meet them. The bank account survives, rebuilt.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Cross-bank token payments go live; agent payments are written into refund law; stablecoins grow well below the $2 trillion forecasts.</div>
 </div>
 
 <div class="scenario-cell scenario-2">
 <h4>Regulated new money</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>Stablecoins grow from about $300 billion in 2025 to several times that size (<a href="https://en.sedaily.com/finance/2026/06/18/bcg-sees-stablecoin-market-cap-hitting-2-trillion-by-2030" target="_blank" rel="noopener">BCG, reported by Seoul Economic Daily</a>, Jun 2026), so a large share of everyday money sits outside banks.</p>
 <p>Stablecoins reach the scale forecasters expect (<a href="https://en.sedaily.com/finance/2026/06/18/bcg-sees-stablecoin-market-cap-hitting-2-trillion-by-2030" target="_blank" rel="noopener">BCG, reported by Seoul Economic Daily</a>, Jun 2026) under strict reserve and reward rules, and holders get protections close to those of depositors. Banks lose deposits but not safety: money leaves the bank, and the protection goes with it. Much of the change comes through licences and supervisors rather than new laws.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Stablecoin supply passes $1 trillion; regulators define what counts as a reward; holder protections are written into issuer licences.</div>
 </div>
 
 <div class="scenario-cell scenario-3">
 <h4>Walled gardens</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>Tokenized assets stay far below Citi's $5.5 trillion base case for 2030 (<a href="https://www.coindesk.com/markets/2026/06/01/citi-predicts-the-tokenized-securities-market-will-grow-to-usd5-5-trillion-by-2030" target="_blank" rel="noopener">Citi, reported by CoinDesk</a>, Jun 2026), because bank tokens rarely leave the network that issued them.</p>
 <p>Banks keep most of the money, but each builds its own token and few connect (<a href="https://flagshipadvisorypartners.com/insights/tokenized-deposits-everyone-is-building-almost-no-one-is-connecting/" target="_blank" rel="noopener">Flagship Advisory Partners</a>, Aug 2026). Customers are held inside networks, and what happens when an agent pays wrongly depends on each bank's contract. Money stays safe but moves slowly and expensively between gardens.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Bank token schemes launch without links to each other; no regulator sets liability for agent payments; fees for moving between networks appear.</div>
 </div>
 
 <div class="scenario-cell scenario-4">
 <h4>Buyer beware</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>Agents, trusted for routine purchases by only 24% of US online adults today (<a href="https://www.forrester.com/report/many-us-consumers-believe-in-agentic-commerce-but-few-trust-it-to-make-purchases/RES188737" target="_blank" rel="noopener">Forrester</a>, Nov 2025), handle much everyday spending before any refund right covers them.</p>
 <p>Money moves quickly into stablecoins, agent wallets and funds sold to individuals, while protections lag. Losses fall where contracts put them, and the first large agent fraud or fund freeze writes the rules after the event (<a href="https://consumerbankers.com/research/agentic-ai-payments-navigating-consumer-protection-innovation-and-regulatory-frameworks/" target="_blank" rel="noopener">the Consumer Bankers Association</a>, Jan 2026).</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Reward rates on digital dollars rise; more funds cap withdrawals (<a href="https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm" target="_blank" rel="noopener">the Federal Reserve</a>, May 2026); disputes over agent payments reach the courts before any rule does.</div>
 </div>
@@ -1302,7 +1471,16 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
 <div class="option-area"><h3>Options: Keeping customers' money (banks and payment firms)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Match rewards</h4><p>Offer payment rewards comparable to those of stablecoin issuers, funded from deposit margin.</p><p class="opt-trade"><strong>Trade-off:</strong> Quick to launch. Costs margin on every balance that stays.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Regulated new money; Buyer beware</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Partner with an issuer</h4><p>Distribute or co-issue a regulated stablecoin and keep the customer relationship.</p><p class="opt-trade"><strong>Trade-off:</strong> Keeps the customer but shares the float and the reward economics.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Regulated new money</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Build a shared token</h4><p>Offer a tokenized deposit through a shared network so it can pay customers of other banks.</p><p class="opt-trade"><strong>Trade-off:</strong> Slowest and most expensive. Only works if the network connects.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The upgraded bank</p></div></div></div>
 <div class="option-area"><h3>Options: AI agents that pay (any firm that sells online)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Wait for the rules</h4><p>Keep current terms until regulators say who carries the loss.</p><p class="opt-trade"><strong>Trade-off:</strong> No cost now. The first large dispute decides the answer for you.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Buyer beware</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Write your own terms</h4><p>State what an agent may spend, how a customer withdraws permission and who pays when a payment is disputed (Implication 2).</p><p class="opt-trade"><strong>Trade-off:</strong> Moderate legal work. Terms written early can become the template.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Join an industry standard</h4><p>Adopt the know-your-agent verification being built by card networks and payment firms.</p><p class="opt-trade"><strong>Trade-off:</strong> Shares the cost; ties you to a standard others set.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The upgraded bank; Regulated new money</p></div></div></div>
 <div class="option-area"><h3>Options: Savings in private credit (savers, trustees and product sellers)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Hold and watch</h4><p>Keep current holdings and watch withdrawal queues each quarter.</p><p class="opt-trade"><strong>Trade-off:</strong> No cost now. Exposed if withdrawals are capped for a year.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The upgraded bank</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Match promises to assets</h4><p>Lengthen notice periods or reduce withdrawal promises so they fit loans that cannot be sold quickly.</p><p class="opt-trade"><strong>Trade-off:</strong> Less attractive to buyers. Removes the pressure point.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Move to other structures</h4><p>Shift money towards closed-end funds or assets that can be sold quickly.</p><p class="opt-trade"><strong>Trade-off:</strong> May give up return. Robust if a fund freeze arrives.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Walled gardens; Buyer beware</p></div></div></div>
-<div class="option-area"><h3>Options: Public protections (regulators and policymakers)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Extend after failures</h4><p>Extend protections case by case once a failure shows the gap.</p><p class="opt-trade"><strong>Trade-off:</strong> Least effort before the event, most cost after it.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Buyer beware</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Extend what exists</h4><p>Apply existing protections to new forms: refund rules to agent payments, disclosure and liquidity rules to funds sold to individuals.</p><p class="opt-trade"><strong>Trade-off:</strong> Moderate effort, builds on current law.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The upgraded bank</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Write joined-up rules</h4><p>Agree rules on rewards, agents and fund withdrawals across countries and products.</p><p class="opt-trade"><strong>Trade-off:</strong> Hardest and slowest. The only route to protection that moves with the money.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Regulated new money</p></div></div></div>
+</div>
+
+<a name="section-surprises"></a>
+<div class="surprises-section">
+<h2>Potential Surprises to 2040</h2>
+<div class="sur-grid">
+<div class="surprise s-weak"><span class="sur-eyebrow">Weak signal</span><h4>Governments can legally stop money leaving banks for digital dollars</h4><p class="sur-meta"><strong>Window:</strong> 2030 to 2037 &middot; <strong>Probability band:</strong> Low-Medium (20 to 40%)</p><p class="sur-why"><strong>Why it would surprise:</strong> Most plans assume customers can always move money from a bank deposit into a stablecoin, as freely as they withdraw cash.</p><p>The final Senate text gave the Treasury a new power to prevent deposit flight tied to payment stablecoins (<a href="https://www.lummis.senate.gov/press-releases/lummis-boozman-scott-release-final-clarity-act-text/" target="_blank" rel="noopener">Senator Lummis's office</a>, Sep 2026). The bill stalled, but the clause is ready for the next attempt.</p><p class="sur-signposts"><strong>Signposts to watch:</strong></p><ul class="sur-signposts-list"><li>By December 2027: a US market-structure bill passed by either chamber of Congress keeps the Treasury's power to stop deposit outflows.</li><li>By September 2029: another major economy proposes a similar emergency power over flows from deposits into stablecoins.</li></ul><p class="sur-today"><strong>What it touches today:</strong> Liquidity plans and product designs that assume deposits and stablecoins can always be swapped instantly.</p></div>
+<div class="surprise s-weak"><span class="sur-eyebrow">Weak signal</span><h4>A slowdown in AI spending reaches ordinary savers first</h4><p class="sur-meta"><strong>Window:</strong> 2030 to 2035 &middot; <strong>Probability band:</strong> Low-Medium (20 to 40%)</p><p class="sur-why"><strong>Why it would surprise:</strong> Most plans treat a fall in AI investment as a stock-market risk, not a risk to savers' ability to withdraw their money.</p><p>Private credit's share of AI investment financing rose from 9% in 2024 to 34% in 2025 (<a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026" target="_blank" rel="noopener">the Bank of England</a>, Jul 2026), and when withdrawal requests surged early in 2026 most managers of funds sold to individuals capped them at 5% (<a href="https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm" target="_blank" rel="noopener">the Federal Reserve</a>, May 2026).</p><p class="sur-signposts"><strong>Signposts to watch:</strong></p><ul class="sur-signposts-list"><li>By December 2027: a private credit fund sold to individuals caps withdrawals, citing losses on loans to AI or data-centre borrowers.</li><li>By December 2028: a central bank stress test traces losses from AI financing through private credit to funds sold to individuals.</li></ul><p class="sur-today"><strong>What it touches today:</strong> Pension, insurance and wealth products that hold private credit funds promising regular withdrawals.</p></div>
+<div class="surprise s-emerging"><span class="sur-eyebrow">Emerging</span><h4>AI agents hold money and carry liability in their own right</h4><p class="sur-meta"><strong>Window:</strong> 2031 to 2038 &middot; <strong>Probability band:</strong> Low (under 20%)</p><p class="sur-why"><strong>Why it would surprise:</strong> Every rule today treats an agent as a tool of its owner, so a person or a firm must carry every loss.</p><p>Ant International has begun working with Mastercard and Visa on a framework to verify agents (<a href="https://fortune.com/2026/09/19/know-your-agent-ai-payments-banks/" target="_blank" rel="noopener">Fortune</a>, Sep 2026), and the Bank of England says its rules were not built for agents that act on their own (<a href="https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026" target="_blank" rel="noopener">the Bank of England</a>, Jun 2026).</p><p class="sur-signposts"><strong>Signposts to watch:</strong></p><ul class="sur-signposts-list"><li>By December 2027: a card network issues verified identities to AI agents that merchants can check at the point of payment.</li><li>By June 2029: a financial regulator consults on licences or accounts held by AI agents rather than by their owners.</li></ul><p class="sur-today"><strong>What it touches today:</strong> Customer terms, fraud checks and identity rules that assume a person stands behind every payment.</p></div>
+</div>
 </div>
 
 <a name="section-explicit-exclusions"></a>
@@ -1340,8 +1518,8 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
 <li>If a customer's AI agent makes a payment they did not want, who pays today under our terms, and would we be comfortable defending that answer in public (<a href="https://www.pinsentmasons.com/out-law/analysis/what-new-rules-agentic-ai-payments-look-like" target="_blank" rel="noopener">Pinsent Masons</a>, Jul 2026)?</li>
 <li>How much of our deposits would move for a payments reward, now that most governments ban interest on digital dollars but allow rewards (<a href="https://www.bankofengland.co.uk/paper/2026/ps/sterling-denominated-systemic-stablecoin" target="_blank" rel="noopener">the Bank of England</a>, Jun 2026)?</li>
 <li>Which shared token network will we join, and what would it cost us to be the bank whose tokens cannot pay customers of other banks (<a href="https://flagshipadvisorypartners.com/insights/tokenized-deposits-everyone-is-building-almost-no-one-is-connecting/" target="_blank" rel="noopener">Flagship Advisory Partners</a>, Aug 2026)?</li>
-<li>What does a &euro;3,000 digital euro do to our payments income in the euro area after 2029 (<a href="https://www.omfif.org/2026/09/whose-interest-does-the-digital-euros-holding-limit-really-serve/" target="_blank" rel="noopener">the think tank OMFIF</a>, Sep 2026)?</li>
 <li>Where do we promise customers easy withdrawals from assets that cannot be sold quickly, and what happens if we have to cap them for a year (<a href="https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm" target="_blank" rel="noopener">the Federal Reserve</a>, May 2026)?</li>
+<li>Which of our current activities looks least wise in these futures?</li>
 </ol>
 </div>
 

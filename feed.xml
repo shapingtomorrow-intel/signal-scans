@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 12 Oct 2026 08:30:09 +0000</lastBuildDate>
+<lastBuildDate>Tue, 13 Oct 2026 08:30:10 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>US Grid Equipment Is Being Licensed, Not Banned, and DOE's Vendor List Decides Who Supplies It</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html</guid>
+<pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>US grid equipment is being licensed rather than banned, and the DOE vendor list will decide who supplies it. The order grants licensing, mitigation, prequalification and installed-equipment powers instead of prohibiting anything outright.</description>
+</item>
+<item>
+<title>The Grain Cushion Sits in China While Exporters' Maize Stocks Shrink Into an El Niño Peak</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-13-grain-cushion-sits-in-china/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-13-grain-cushion-sits-in-china/scan.html</guid>
+<pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
+<category>Climate, Nature &amp; Food Systems</category>
+<description>The world grain cushion is mostly China's reserves, while exporters' maize stocks shrink into an El Niño peak. USDA shows China holding 165.13 of 280.44 million tonnes of corn and major exporters 25.11 million, down from 27.14 million.</description>
+</item>
 <item>
 <title>The Digital Euro's Holding Limit Will Be Set After the Law, Not in It</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-10-12-holding-limit-set-after-the-law/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 09 Sep 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>Non-availability stops being a defence for US contractors on 1 January 2027. Executive Order 14415 replaces the waiver with a funded second-source qualification plan and an indentured bill of materials traced to raw-material origin at every tier.</description>
-</item>
-<item>
-<title>The Voluntary Top-Up: Carbon Border Recognition as a Design Brief for Third-Country Carbon Markets</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-09-voluntary-top-up/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-09-voluntary-top-up/scan.html</guid>
-<pubDate>Wed, 09 Sep 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Carbon border recognition has become the design brief for other countries' carbon markets. Britain published a list of 16 qualifying schemes while the EU prices each consignment, and Turkiye's new rules let exporters voluntarily pay extra at home to evidence a higher effective carbon cost.</description>
-</item>
-<item>
-<title>Reserved, Not Ordered: The Turbine Pipeline Carries 89 GW of Options, Not Orders</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-08-reserved-not-ordered/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-08-reserved-not-ordered/scan.html</guid>
-<pubDate>Tue, 08 Sep 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Access to US generating capacity through 2031 is being allocated by cash deposits at the turbine makers. Of the 246.6 GW four manufacturers disclosed in July and August, 89 GW is a slot reservation rather than a firm order, and 18 of the 20 GW GE Vernova signed in the second quarter were reservations.</description>
 </item>
 </channel>
 </rss>

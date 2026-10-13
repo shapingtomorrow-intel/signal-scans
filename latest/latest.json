@@ -1,14 +1,14 @@
 {
-  "generated": "2026-10-12T08:39:11Z",
+  "generated": "2026-10-13T08:34:52Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Regulatory Sandboxes Are Multiplying as Statutory Exemptions Give Way to Regulator Discretion",
-      "date": "2026-10-12",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
+      "title": "US Grid Equipment Is Being Licensed, Not Banned, and DOE's Vendor List Decides Who Supplies It",
+      "date": "2026-10-13",
+      "topic": "Energy, Infrastructure & Climate Resilience",
+      "topic_slug": "energy-infrastructure-climate-resilience",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-10-12-sandbox-exemption-to-discretion/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html"
     },
     "change_tracker": {
       "title": "Ebola reaches 8,116 cases as the US ties health aid to pathogen data",
@@ -19,13 +19,13 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-10-09/tracker.html"
     },
     "decision_intelligence": {
-      "title": "Cheaper Pills, Scarcer Care",
-      "date": "2026-10-08",
-      "topic": "Health, Life Sciences & Care Systems",
-      "topic_slug": "health-life-sciences-care-systems",
+      "title": "Cheap Freight Is Back. With a Catch",
+      "date": "2026-10-12",
+      "topic": "Transport, Logistics & Supply Chains",
+      "topic_slug": "transport-logistics-supply-chains",
       "posture": "",
-      "company": "Sample: Health, Life Sciences and Care Systems",
-      "url": "https://decision-intel.shapingtomorrow.com/si/cheaper-pills-scarcer-care/"
+      "company": "Transport, Logistics & Supply Chains",
+      "url": "https://decision-intel.shapingtomorrow.com/si/cheap-freight-is-back/"
     },
     "action_triggers": {
       "title": "Treatment Got Cheaper. Care Became the Bottleneck.",

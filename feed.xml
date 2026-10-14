@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Tue, 13 Oct 2026 08:30:10 +0000</lastBuildDate>
+<lastBuildDate>Wed, 14 Oct 2026 08:30:09 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>UK Defence Funding Goes Flat at 2.7% of GDP While the Date for 3% Waits on 2027</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-14-uk-defence-line-goes-flat/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-14-uk-defence-line-goes-flat/scan.html</guid>
+<pubDate>Wed, 14 Oct 2026 08:00:00 +0000</pubDate>
+<category>Defence, Security &amp; Resilience</category>
+<description>UK defence funding goes flat at 2.7% of GDP from 2027/28, and the date for 3% waits on a 2027 spending review. The Treasury has still to identify £4.7 billion, and reports of an October 2027 review are disputed.</description>
+</item>
+<item>
+<title>Brazil's Next President Inherits a Budget with Little Room to Deliver the Pivot Markets Priced</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-10-14-brazil-budget-locks-the-pivot/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-10-14-brazil-budget-locks-the-pivot/scan.html</guid>
+<pubDate>Wed, 14 Oct 2026 08:00:00 +0000</pubDate>
+<category>Geopolitics &amp; Economic Fragmentation</category>
+<description>Brazil's first-round vote priced a fiscal pivot, but the 2027 budget leaves the next president little room to deliver one. Mandatory items are 91.7% of primary spending and the IFI says the surplus target needs a R$35.7 billion contingency, so political risk moves from who wins to how the president and Congress split a first-year adjustment.</description>
+</item>
 <item>
 <title>US Grid Equipment Is Being Licensed, Not Banned, and DOE's Vendor List Decides Who Supplies It</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 12 Sep 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
 <description>The firmness of an AI megawatt is becoming a contract term rather than a property of the grid connection. US regulators created curtailable classes of large-load service in mid-2026, and the first production-trace measurement puts dependable relief at about 6% of facility power against the 18% to 55% those rules assume.</description>
-</item>
-<item>
-<title>Certificates Without a Premium: More Than 40% of Certified Training Sits in Low-Return Topics</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-12-certificates-without-premium/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-12-certificates-without-premium/scan.html</guid>
-<pubDate>Sat, 12 Sep 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>Employer training is concentrated in the topics with the weakest measured wage return. New OECD evidence puts more than 40% of certificate-granting training in low-return subjects, while the largest premium, above 8.5%, attaches to teamwork, leadership and project management.</description>
-</item>
-<item>
-<title>The Waiver Becomes a Plan: Defence Sourcing Turns on Funded Qualification from January 2027</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-09-waiver-becomes-a-plan/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-09-waiver-becomes-a-plan/scan.html</guid>
-<pubDate>Wed, 09 Sep 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Non-availability stops being a defence for US contractors on 1 January 2027. Executive Order 14415 replaces the waiver with a funded second-source qualification plan and an indentured bill of materials traced to raw-material origin at every tier.</description>
 </item>
 </channel>
 </rss>

@@ -1,14 +1,14 @@
 {
-  "generated": "2026-10-13T08:34:52Z",
+  "generated": "2026-10-14T08:35:03Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "US Grid Equipment Is Being Licensed, Not Banned, and DOE's Vendor List Decides Who Supplies It",
-      "date": "2026-10-13",
-      "topic": "Energy, Infrastructure & Climate Resilience",
-      "topic_slug": "energy-infrastructure-climate-resilience",
+      "title": "UK Defence Funding Goes Flat at 2.7% of GDP While the Date for 3% Waits on 2027",
+      "date": "2026-10-14",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-14-uk-defence-line-goes-flat/scan.html"
     },
     "change_tracker": {
       "title": "Ebola reaches 8,116 cases as the US ties health aid to pathogen data",
@@ -19,21 +19,21 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-10-09/tracker.html"
     },
     "decision_intelligence": {
-      "title": "Cheap Freight Is Back. With a Catch",
-      "date": "2026-10-12",
-      "topic": "Transport, Logistics & Supply Chains",
-      "topic_slug": "transport-logistics-supply-chains",
+      "title": "Fewer Rules on Paper, More Paperwork in Practice",
+      "date": "2026-10-15",
+      "topic": "Regulation, Standards & Policy Change",
+      "topic_slug": "regulation-standards-policy-change",
       "posture": "",
-      "company": "Transport, Logistics & Supply Chains",
-      "url": "https://decision-intel.shapingtomorrow.com/si/cheap-freight-is-back/"
+      "company": "Sample Showcase: Regulation, Standards and Policy Change",
+      "url": "https://decision-intel.shapingtomorrow.com/si/fewer-rules-on-paper-more-paperwork-in-practice/"
     },
     "action_triggers": {
-      "title": "Treatment Got Cheaper. Care Became the Bottleneck.",
-      "date": "2026-10-09",
-      "topic": "Health, Life Sciences & Care Systems",
-      "topic_slug": "health-life-sciences-care-systems",
+      "title": "The Rules Got Simpler. Companies Became the Enforcers.",
+      "date": "2026-10-16",
+      "topic": "Regulation, Standards & Policy Change",
+      "topic_slug": "regulation-standards-policy-change",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/health-life-sciences-care-systems-action-triggers-2026-10-09/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/sample-regulation-standards-policy-change-cross-cutter-2026-10-16/"
     }
   }
 }

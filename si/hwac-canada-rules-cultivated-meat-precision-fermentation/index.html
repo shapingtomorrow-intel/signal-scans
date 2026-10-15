@@ -1,0 +1,1148 @@
+<!doctype html>
+<html lang="en">
+<!--
+  Strategic Intelligence Report, signal-clusters format (the standard format).
+  Copy this file to <today>/report-clusters.html and fill every {{TOKEN}} and
+  FILL block. Do not improvise classes, omit sections, or reorder the ten
+  anchored sections. The CSS below is validated: do not edit it.
+
+  Ten anchored sections, in order (format of 24 September 2026; Potential Surprises added 7 October 2026):
+    1  #section-executive-synthesis   (about 2 minutes; Continuity ledger follows it)
+    2  #section-snapshots             (Leadership Snapshots OR Audience Snapshots)
+    3  #section-signal-clusters       (weight table, then 5-6 themes, each with an Outlook block)
+    4  #section-strategic-implications  (4 Implications, no framing note)
+    5  #section-scenario-matrix       (2x2 at the horizon year, no framing note)
+    6  #section-options               (3 option areas x 3 options; 4 areas before 8 October 2026)
+    7  #section-surprises             (Potential Surprises to 2040, 2-3 cards with signposts)
+    8  #section-explicit-exclusions   (What We Are Not Planning For, 3 items)
+    9  #section-discussion-points     (reader-visible label: Questions For The Next Strategy Meeting, 5 questions)
+    10 #section-source-register       (per-theme tables)
+  Then two appendices: #claim-fidelity and #section-abbreviations.
+
+  Naming convention (reader-only rename, May 2026):
+    READER-VISIBLE  = "theme"   (Themes section heading, "Draws on Theme N", source register "Theme N: ...")
+    STRUCTURAL      = "cluster" (kept in CSS classes .signal-cluster, HTML ids id="cluster-1", anchor #section-signal-clusters,
+                                 the report filename report-clusters.html, the sources.json field "cluster",
+                                 the template token {{CLUSTER_COUNT_WORD}}, and the SVG aria-label vocabulary)
+    Do not change the structural names; the audit scripts and tooling depend on them.
+
+  Em-dash ban is binding: no em-dash character and no mdash HTML entity
+  anywhere. Use colons, commas, semicolons, or parenthetical phrasing instead.
+-->
+<head>
+<meta charset="utf-8">
+<meta name="st-example-scope" content="single-theme prospect example">
+<title>What Canada Can Learn from Other Countries&rsquo; Rules on Cultivated Meat and Precision Fermentation. Humane World for Animals Canada Decision Intelligence, October 2026</title>
+<!-- The separator here is a full stop, not a colon. audit_ai_tells.py Pattern 16
+     (colon-prefix framing, added 2026-09-14) hard-fails any <title> of the form
+     "Clever Phrase: The Actual Claim", and the old template line produced exactly
+     that shape on every cycle. Do not reintroduce the colon. -->
+<style type="text/css">
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
+  h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
+  .report-title { font-size: 1.55em; color: #1a237e; font-weight: 600; margin: 0.1em 0 0.3em 0; line-height: 1.25; }
+  .masthead { font-size: 0.95em; color: #5a6478; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.1em; }
+  h2 { color: #1a237e; margin-top: 1.4em; }
+  h3 { color: #1a237e; margin-top: 1em; }
+  h4 { color: #4a5568; margin-top: 1em; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 1.6em; }
+  .series-continuity { display: block; font-size: 0.92em; color: #5a6478; margin-bottom: 4px; }
+  .report-container { max-width: 1200px; margin: 0 auto; }
+  .table-of-contents { margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; }
+  .table-of-contents h3 { margin-top: 0; margin-bottom: 15px; color: #333; }
+  .table-of-contents ul { list-style-type: none; padding-left: 0; margin: 0; }
+  .table-of-contents li { margin-bottom: 8px; }
+  .table-of-contents a { color: #1565c0; text-decoration: none; }
+  .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
+  /* Key risks and Key opportunities (16 October 2026): replaced "What you will learn" and "Key takeaways".
+     The DI is the source; the Live Summary and the newsletter take these headlines verbatim. */
+  .risk-opps { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
+  .risk-opps .ro-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 8px; }  /* house curved left edge: full radius, hairline border, 5px left rule */
+  .risk-opps .ro-risks { background: #fdecea; border: 1px solid #f6cfcb; border-left: 5px solid #d9433a; }  /* Futures Wheel risk fill and stroke */
+  .risk-opps .ro-opps { background: #e9f6ee; border: 1px solid #c6e6d1; border-left: 5px solid #2ea44f; }   /* Futures Wheel opportunity fill and stroke */
+  .risk-opps .ro-card h3 { margin: 0 0 10px; font-size: 0.82em; letter-spacing: 0.08em; text-transform: uppercase; }
+  .risk-opps .ro-risks h3 { color: #b02a22; }
+  .risk-opps .ro-opps h3 { color: #1b6e2a; }
+  .risk-opps .ro-card ul { margin: 0; padding-left: 20px; font-size: 0.92em; line-height: 1.55; color: #2a3142; }  /* body text size of the theme bullets */
+  .risk-opps .ro-card li { margin-bottom: 10px; }
+  .risk-opps .ro-card li:last-child { margin-bottom: 0; }
+  .risk-opps .ro-card li strong { color: #031B41; }
+  .risk-opps .ro-theme { font-weight: 700; white-space: nowrap; text-decoration: underline; }
+  .risk-opps .ro-risks .ro-theme { color: #b02a22; }
+  .risk-opps .ro-opps .ro-theme { color: #1b6e2a; }
+  /* Three surprises to 2040 band (16 October 2026): one line per surprise, under the risk and
+     opportunity cards, linking down to the full section */
+  .sur-band { margin: 14px 0 4px; padding: 14px 22px 15px; background: #f3effb; border: 1px solid #ddd3f1; border-left: 5px solid #6a4fb3; border-radius: 8px; }
+  .sur-band-label { display: block; font-size: 0.82em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5b3fa6; margin-bottom: 10px; }  /* same as the Key risks / Key opportunities labels */
+  .sur-band ul { margin: 0; padding-left: 20px; font-size: 0.92em; line-height: 1.55; }
+  .sur-band a { color: #031B41; font-weight: 700; text-decoration: none; border-bottom: 1px solid #c9bde8; }  /* same weight as the risk and opportunity headlines */
+  .sur-band-meta { color: #6b6385; font-size: 0.88em; white-space: nowrap; }
+  .toc-row .table-of-contents { margin: 0; flex: 1 1 240px; box-sizing: border-box; }
+  .toc-figure { flex: 2 1 520px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
+  .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
+  .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
+  .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
+  .report-figure svg { display: block; width: 100%; height: auto; }
+  .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
+  .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
+  .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
+  .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
+  .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
+  .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
+  .at-a-glance { background: #fff8e1; border: 1px solid #f6dfa8; border-left: 5px solid #f57c00; padding: 22px 26px; border-radius: 8px; margin: 24px 0 32px; }
+  .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
+  .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
+  .at-a-glance p:last-child { margin-bottom: 0; }
+  .at-a-glance strong { color: #e65100; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border: 1px solid #dfe3f0; border-left: 5px solid #1a237e; background: #ffffff; border-radius: 8px; }
+  .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
+  .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
+  .snapshots-section { margin: 28px 0 36px; }
+  .snapshots-section h2 { color: #1a237e; margin-bottom: 8px; }
+  .snapshots-intro { font-size: 0.95em; color: #555; margin-bottom: 18px; font-style: italic; }
+  .snapshots { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .snapshot-card { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; box-shadow: 0 1px 4px rgba(0,0,0,0.04); border-top: 4px solid #1a237e; }
+  .snapshot-card.commercial { border-top-color: #1e88e5; }
+  .snapshot-card.marketing { border-top-color: #d81b60; }
+  .snapshot-card.operations { border-top-color: #43a047; }
+  .snapshot-card.finance { border-top-color: #f57c00; }
+  .snapshot-card h4 { margin-top: 0; color: #1a237e; font-size: 1.05em; }
+  .snapshot-card .role { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
+  .snapshot-card.commercial .role { background: #e3f2fd; color: #0d47a1; }
+  .snapshot-card.marketing .role { background: #fce4ec; color: #880e4f; }
+  .snapshot-card.operations .role { background: #e8f5e9; color: #1b5e20; }
+  .snapshot-card.finance .role { background: #fff3e0; color: #e65100; }
+  .snapshot-card p { font-size: 0.93em; margin: 0.4em 0; }
+  .signal-clusters-intro { font-size: 0.95em; color: #555; margin-bottom: 20px; font-style: italic; }
+  .signal-cluster { margin-bottom: 24px; padding: 22px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #1a237e; }
+  .signal-cluster.tier-mandate { border-left-color: #c62828; }
+  .signal-cluster.tier-positioning { border-left-color: #f57c00; }
+  .signal-cluster.tier-horizon { border-left-color: #2e7d32; }
+  .cluster-header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 0 0 10px; }
+  .cluster-header h3 { margin: 0; color: #1a237e; font-size: 1.18em; flex: 1; min-width: 60%; }
+  .impact-tier { display: inline-block; padding: 3px 10px; border-radius: 16px; font-size: 0.72em; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+  .impact-tier.mandate { background: #c62828; color: white; }
+  .impact-tier.positioning { background: #f57c00; color: white; }
+  .impact-tier.horizon { background: #2e7d32; color: white; }
+  .cluster-framing { font-size: 0.96em; color: #2c3e50; margin: 6px 0 12px; }
+  .cluster-signals ul { margin: 8px 0; padding-left: 22px; }
+  .cluster-signals li { margin-bottom: 6px; font-size: 0.92em; line-height: 1.5; }
+  .counter-argument { background: #fce4ec; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px solid #c2185b; }
+  .counter-argument h4 { color: #c2185b; margin: 0 0 6px; font-size: 0.95em; }
+  .counter-argument p { margin: 0; font-size: 0.92em; }
+  .weak-signals { background: #f3e5f5; padding: 14px 16px; border-radius: 6px; margin: 12px 0; border-left: 3px dashed #8e24aa; }
+  .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
+  .weak-signals ul { margin: 4px 0; padding-left: 20px; }
+  .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #7b1fa2; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.72em; font-weight: 700; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
+  .cluster-implication strong { color: #1a237e; }
+  .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
+  .strategic-implications-section h2 { color: #1a237e; margin-top: 0; }
+  .si-item { background: white; padding: 18px 20px; border-radius: 8px; margin: 14px 0; border-left: 4px solid #1a237e; }
+  .si-item h4 { color: #1a237e; margin: 0 0 8px; font-size: 1.02em; }
+  .si-item p { margin: 0 0 8px; font-size: 0.95em; }
+  .si-action { font-weight: 600; color: #1a1a1a; }
+  .si-pill { display: inline-block; padding: 3px 12px; border-radius: 16px; font-size: 0.75em; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; }
+  .si-pill.decide { background: #c62828; color: white; }
+  .si-pill.prepare { background: #f57c00; color: white; }
+  .si-pill.monitor { background: #2e7d32; color: white; }
+  .si-cluster-ref { font-size: 0.78em; color: #5a6478; font-style: italic; display: block; margin-top: 6px; }
+  .scenario-matrix { margin: 32px 0; }
+  /* Bordered matrix with axis labels (Variant C, June 2026):
+     Outer grid wrap places the horizontal axis name on top and the vertical
+     axis name on the left of a bordered .matrix-frame; corner labels at the
+     four corners of the frame name the extremes at each intersection. */
+  .scenario-matrix-axed { display: grid; grid-template-columns: 40px 1fr; grid-template-rows: 36px 1fr; gap: 0; margin-top: 20px; }
+  .axis-name-h { grid-row: 1; grid-column: 2; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; }
+  .axis-name-v { grid-row: 2; grid-column: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.08em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
+  .matrix-frame { grid-row: 2; grid-column: 2; border: 2px solid #1a237e; border-radius: 12px; position: relative; padding: 28px 14px 20px; background: white; }
+  .matrix-frame .scenario-grid { margin-top: 0; }
+  .corner-label { position: absolute; background: white; padding: 3px 10px; font-size: 0.78em; font-weight: 700; color: #1a237e; letter-spacing: 0.06em; text-transform: uppercase; }
+  .corner-tl { top: -11px; left: 22px; }
+  .corner-tr { top: -11px; right: 22px; }
+  .corner-bl { bottom: -11px; left: 22px; }
+  .corner-br { bottom: -11px; right: 22px; }
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+  .scenario-cell { padding: 24px; border-radius: 12px; }
+  .scenario-1 { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
+  .scenario-2 { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); }
+  .scenario-3 { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+  .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+  .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
+  .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  /* Shift from today (from 8 October 2026): one line under the scenario name, in the cell's own accent */
+  .scenario-1 { --scn-acc: #2e7d32; } .scenario-2 { --scn-acc: #e65100; } .scenario-3 { --scn-acc: #1565c0; } .scenario-4 { --scn-acc: #ad1457; }
+  .scenario-cell .scn-delta { font-size: 0.95em; color: #2d3748; border-left: 3px solid var(--scn-acc); padding: 2px 0 2px 12px; margin: 6px 0 12px; }
+  .scenario-cell .scn-delta-k { display: block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--scn-acc); margin-bottom: 2px; }
+  .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
+  .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .exclusions-section h2 { color: #1a237e; margin-top: 0; }
+  .exclusion-item { padding: 16px 20px; background: #ffffff; border-radius: 8px; margin: 12px 0; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; }
+  .exclusion-item .excl-eyebrow { display: inline-block; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .exclusion-item.excl-1 { border-left-color: #7e57c2; } .exclusion-item.excl-1 .excl-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .exclusion-item.excl-2 { border-left-color: #26a69a; } .exclusion-item.excl-2 .excl-eyebrow { background: #e0f2f1; color: #00796b; }
+  .exclusion-item.excl-3 { border-left-color: #ef6c00; } .exclusion-item.excl-3 .excl-eyebrow { background: #fff3e0; color: #e65100; }
+  .exclusion-item h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.05em; }
+  .reinstatement { font-size: 0.9em; color: #4a5568; margin: 12px 0 0; padding: 8px 12px; border-radius: 6px; background: #f3f5f8; }
+  .reinstatement strong { color: #1a237e; }
+  .discussion-points { background: #f4f6fb; color: #1a1a1a; border: 1px solid #d6dfee; border-left: 5px solid #1a237e;
+      padding: 32px; border-radius: 12px; margin: 32px 0; }
+  .discussion-points h2 { color: #1a237e; margin: 0 0 6px 0; }
+  .discussion-points .dp-standfirst { color: #5a6478; font-size: 0.92em; margin: 0 0 22px 0; max-width: 640px; }
+  .discussion-points ol { list-style: none; padding: 0; margin: 0; counter-reset: dp; }
+  /* The number sits in an absolutely positioned gutter rather than as a flex item.
+     This rule used to be `display: flex`, which turns every inline child of the <li>
+     into its own flex item: a question carrying an inline source citation rendered the
+     anchor as a separate column with the sentence broken around it (Belastingdienst,
+     22 September 2026). Earlier cycles happened to write questions with no links, so
+     the fault stayed hidden. Keep this block-level; do not reintroduce flex here. */
+  .discussion-points li { counter-increment: dp; position: relative; padding: 14px 0 14px 46px; border-top: 1px solid #d6dfee; margin: 0; }
+  .discussion-points li::before { content: counter(dp, decimal-leading-zero); position: absolute; left: 0; top: 15px; width: 30px; font-weight: 800; color: #1a237e; font-size: 0.95em; }
+  .source-register { background: #f8f9fa; padding: 24px; border-radius: 12px; margin: 32px 0; font-size: 0.88em; }
+  .source-register h2 { color: #1a237e; margin-top: 0; }
+  .source-register h4 { color: #1a237e; margin-top: 20px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid #c5cae9; }
+  .source-register table { width: 100%; border-collapse: collapse; background: white; table-layout: fixed; }
+  .source-register col.col-source { width: 28%; }
+  .source-register col.col-tier { width: 11%; }
+  .source-register col.col-date { width: 12%; }
+  .source-register col.col-claim { width: 49%; }
+  .source-register th, .source-register td { padding: 10px; text-align: left; border-bottom: 1px solid #dee2e6; vertical-align: top; word-wrap: break-word; }
+  .source-register th { background: #e9ecef; font-weight: 600; }
+  .source-register td.tier-1 { color: #2e7d32; font-weight: 700; }
+  .source-register td.tier-2 { color: #1565c0; font-weight: 700; }
+  .source-register td.tier-3 { color: #f57c00; font-weight: 700; }
+  .source-register td.tier-4 { color: #c62828; font-weight: 700; }
+  .source-register tr.tier-1 { background: #e3f2fd; }
+  .source-register tr.tier-2 { background: #e8f5e9; }
+  .source-register tr.tier-3 { background: #fff3e0; }
+  .source-register tr.tier-4 { background: #fce4ec; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .xref { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .xref:hover { border-bottom-style: solid; }
+  .small { font-size: 0.88em; color: #555; }
+  .claim-fidelity { font-size: 1em; }
+  .claim-fidelity p { font-size: 0.92em; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0; }
+  /* Scenario matrix on phones (22 September 2026): the two-column grid and absolutely
+     positioned corner labels overflowed a 390px viewport by about 30px. */
+  @media (max-width: 600px) {
+    .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
+    .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
+    .axis-name-v { font-size: 0.66em; }
+    .matrix-frame { padding: 26px 8px 22px; min-width: 0; }
+    .scenario-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+    .scenario-cell { padding: 10px; font-size: 0.84em; min-width: 0; overflow-wrap: anywhere; }
+    .corner-label { font-size: 0.6em; padding: 2px 5px; max-width: 44%; white-space: normal; line-height: 1.2; }
+    .corner-tl, .corner-bl { left: 8px; }
+    .corner-tr, .corner-br { right: 8px; text-align: right; }
+    .corner-tl, .corner-tr { top: -10px; }
+    .corner-bl, .corner-br { bottom: -10px; }
+  }
+  @media print {
+    html, body, * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { max-width: none; padding: 0; }
+    .report-container { max-width: none; }
+    .table-of-contents { display: none; }
+    .toc-figure { display: none; }
+
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    .cluster-header { break-after: avoid; page-break-after: avoid; }
+    p, li { orphans: 3; widows: 3; }
+
+    .snapshot-card, .si-item, .cluster-implication, .counter-argument,
+    .weak-signals, .scenario-cell, .exclusion-item,
+    .stress-test-box, .pullquote, .report-figure {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+
+    .executive-synthesis, .signal-cluster, .strategic-implications-section,
+    .source-register, .discussion-points, .exclusions-section, .scenario-matrix {
+      break-inside: auto; page-break-inside: auto;
+    }
+
+    .source-register thead { display: table-header-group; }
+    .source-register tr { break-inside: avoid; page-break-inside: avoid; }
+
+    .snapshots, .scenario-grid { display: block; }
+    .snapshots .snapshot-card,
+    .scenario-grid .scenario-cell {
+      display: inline-block; width: 48%; box-sizing: border-box;
+      vertical-align: top; margin: 0 0.6% 14px;
+    }
+  }
+  .report-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 28px; }
+  .report-header-text { flex: 1 1 auto; min-width: 0; }
+  .report-logo { width: 260px; height: auto; flex: 0 0 auto; margin-top: 2px; }
+  .programme-footer { background: #f0f4fa; border: 1px solid #d6dfee; border-radius: 8px; padding: 18px 22px; margin: 28px 0 18px; font-size: 0.95em; color: #1a1a1a; line-height: 1.55; }
+  .programme-footer p { margin: 0 0 10px; }
+  .programme-footer .programme-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin: 14px 0 0; }
+  .programme-footer .programme-cta { display: inline-block; padding: 8px 18px; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.94em; }
+  .programme-footer .programme-cta.primary { background: #031B41; color: white; }
+  .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
+  .programme-footer .programme-cta:hover { opacity: 0.9; }
+
+  /* Format of 24 September 2026 (tested on the FS, Energy and Thurgau DIs, then adopted).
+     Chip rule: solid chips are reserved for the two action calls (.impact-tier timing and
+     .si-pill Decide/Prepare/Monitor). Every other chip is pastel: tinted fill, dark text. */
+  .fw-note { font-size: 0.82em; color: #5a6478; line-height: 1.45; margin: 8px 4px 0; }
+  .fw-legend { font-size: 12.5px !important; }
+  .snap-purpose { font-size: 0.88em; color: #5a6478; margin-top: 6px; }
+  .weight-table { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 0.92em; }
+  .weight-table th, .weight-table td { border-bottom: 1px solid #dee2e6; padding: 7px 8px; text-align: left; vertical-align: top; }
+  .weight-table th { background: #eef1f6; color: #1a237e; }
+  .wt { display: inline-block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; }
+  .wt.high { background: #fdecea; color: #c62828; }
+  .wt.medium { background: #fff3e0; color: #e65100; }
+  .wt.low { background: #eceff1; color: #546e7a; }
+  .wt.hoch { background: #fdecea; color: #c62828; } .wt.mittel { background: #fff3e0; color: #e65100; } .wt.tief { background: #eceff1; color: #546e7a; }
+  .weight-line { font-size: 0.9em; color: #33414f; background: #f5f7fa; border-radius: 6px; padding: 6px 10px; margin: 4px 0 10px; }
+  .outlook { background: #eef5ff; border: 1px solid #cfe0f6; border-left: 5px solid #1565c0; border-radius: 8px; padding: 10px 14px; margin: 14px 0; }
+  .outlook h4 { margin: 0 0 6px; color: #1565c0; }
+  .outlook p { margin: 0 0 6px; }
+  .outlook .market-baseline { font-size: 0.95em; color: #0d3c78; padding-bottom: 6px; border-bottom: 1px dashed #b6cdf0; margin-bottom: 8px; }
+  .options-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .option-area { margin: 26px 0 6px; }
+  .option-area:first-child { margin-top: 0; }
+  .option-area h3 { margin: 0 0 12px; color: #1a237e; font-size: 1.3em; }
+  .opt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+  .opt { background: #fff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; }
+  .opt .opt-eyebrow { align-self: flex-start; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .opt.o-a { border-left-color: #26a69a; } .opt.o-a .opt-eyebrow { background: #e0f2f1; color: #00796b; }
+  .opt.o-b { border-left-color: #1e88e5; } .opt.o-b .opt-eyebrow { background: #e3f2fd; color: #1565c0; }
+  .opt.o-c { border-left-color: #7e57c2; } .opt.o-c .opt-eyebrow { background: #ede7f6; color: #5e35b1; }
+  .opt h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.02em; }
+  .opt p { margin: 0 0 8px; font-size: 0.93em; }
+  .opt .opt-trade { font-size: 0.88em; color: #4a5568; }
+  .opt .opt-trade strong, .opt .opt-fits strong { color: #1a237e; }
+  .opt .opt-fits { margin: auto 0 0; font-size: 0.86em; color: #4a5568; padding: 7px 10px; border-radius: 6px; background: #f3f5f8; }
+  /* Potential Surprises to 2040 (7 October 2026): the light-panel family of Options and the exclusions */
+  .surprises-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .surprises-section h2 { color: #1a237e; margin-top: 0; }
+  .sur-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+  .surprise { background: #fff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; }
+  .surprise .sur-eyebrow { align-self: flex-start; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .surprise.s-weak { border-left: 4px dashed #8e24aa; } .surprise.s-weak .sur-eyebrow { background: #f3e5f5; color: #6a1b9a; }
+  .surprise.s-emerging { border-left-color: #1e88e5; } .surprise.s-emerging .sur-eyebrow { background: #e3f2fd; color: #1565c0; }
+  .surprise h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.02em; }
+  .surprise p { margin: 0 0 8px; font-size: 0.93em; }
+  .surprise .sur-meta { font-size: 0.86em; color: #4a5568; }
+  .surprise .sur-why { font-size: 0.9em; color: #2c3e50; padding: 7px 10px; border-radius: 6px; background: #fff8e1; border-left: 3px solid #f9a825; }
+  .surprise strong { color: #1a237e; }
+  .surprise .sur-signposts { margin: 4px 0 2px; font-size: 0.88em; }
+  .surprise .sur-signposts-list { margin: 0 0 8px; padding-left: 1.1em; font-size: 0.88em; color: #2c3e50; }
+  .surprise .sur-today { margin: auto 0 0; font-size: 0.86em; color: #4a5568; padding: 7px 10px; border-radius: 6px; background: #f3f5f8; }
+  .abbrev-section { background: #f8f9fa; padding: 20px 24px; border-radius: 12px; margin: 32px 0; font-size: 0.9em; }
+  .abbrev-section h2 { margin-top: 0; }
+  .abbrev-list { columns: 2 320px; column-gap: 28px; margin: 0; }
+  .abbrev-list div { break-inside: avoid; margin: 0 0 6px; }
+  .abbrev-list strong { color: #1a237e; }
+  /* Questions: light panel with coloured-edge cards, matching Options and What We Are Not Planning For */
+  .discussion-points { background: #fafafa; color: inherit; border: 1px solid #e0e0e0; border-radius: 12px; padding: 28px; }
+  .discussion-points ol { list-style: none; padding: 0; margin: 0; counter-reset: dp; }
+  .discussion-points h2 { color: #1a237e; }
+  .discussion-points .dp-standfirst { color: #5a6478; margin: 0 0 14px 0; }
+  .discussion-points li { counter-increment: dp; position: static; display: block; background: #ffffff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 18px; margin: 12px 0; }
+  .discussion-points li::before { content: "Question " counter(dp); position: static; width: auto; display: table; min-width: 0; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 8px; }
+  .discussion-points li:nth-child(5n+1) { border-left-color: #26a69a; } .discussion-points li:nth-child(5n+1)::before { background: #e0f2f1; color: #00796b; }
+  .discussion-points li:nth-child(5n+2) { border-left-color: #1e88e5; } .discussion-points li:nth-child(5n+2)::before { background: #e3f2fd; color: #1565c0; }
+  .discussion-points li:nth-child(5n+3) { border-left-color: #7e57c2; } .discussion-points li:nth-child(5n+3)::before { background: #ede7f6; color: #5e35b1; }
+  .discussion-points li:nth-child(5n+4) { border-left-color: #ef6c00; } .discussion-points li:nth-child(5n+4)::before { background: #fff3e0; color: #e65100; }
+  .discussion-points li:nth-child(5n+5) { border-left-color: #d81b60; } .discussion-points li:nth-child(5n+5)::before { background: #fce4ec; color: #ad1457; }
+  @media (max-width: 640px) {
+    .weight-table thead { display: none; }
+    .weight-table, .weight-table tbody, .weight-table tr, .weight-table td { display: block; width: 100%; box-sizing: border-box; }
+    .weight-table tr { border-bottom: 2px solid #dee2e6; padding: 4px 0; }
+    .weight-table td { border: none; padding: 2px 4px; }
+    .weight-table td::before { content: attr(data-l) ": "; font-weight: 600; color: #1a237e; }
+  }
+  @media (max-width: 600px) {
+    .options-section, .discussion-points, .surprises-section { padding: 18px 14px; }
+    .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
+    .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
+    .axis-name-v { font-size: 0.66em; }
+    .matrix-frame { padding: 26px 8px 22px; min-width: 0; }
+    .scenario-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+    .scenario-cell { padding: 10px; font-size: 0.84em; min-width: 0; overflow-wrap: anywhere; }
+    .corner-label { font-size: 0.6em; padding: 2px 5px; max-width: 44%; white-space: normal; line-height: 1.2; }
+    .corner-tl, .corner-bl { left: 8px; }
+    .corner-tr, .corner-br { right: 8px; text-align: right; }
+    .corner-tl, .corner-tr { top: -10px; }
+    .corner-bl, .corner-br { bottom: -10px; }
+  }
+
+  /* How this was made (added 29 September 2026) */
+  .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
+  .method-line a { color: #1a237e; font-weight: 600; text-decoration: none; border-bottom: 1px solid #c5cae9; }
+  .method-line a:hover { border-bottom-color: #1a237e; }
+  .meta .method-line { display: block; margin: 4px 0 0; }
+  .method-card { background: #f8f9fb; border: 1px solid #e3e7ee; border-left: 4px solid #1a237e; border-radius: 8px;
+                 padding: 14px 20px; margin: 28px 0 14px; color: #2c3e50; line-height: 1.5; }
+  .method-card .method-eyebrow { font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+                                 color: #5a6478; margin: 0 0 4px; }
+  .method-card .method-name { font-size: 1.05em; font-weight: 700; margin: 0 0 4px; }
+  .method-card .method-name a { color: #1a237e; text-decoration: none; }
+  .method-card p { margin: 0 0 8px; }
+  .method-card .method-stages { font-size: 0.86em; color: #5a6478; }
+  .method-card .method-stages a { color: #1a237e; text-decoration: underline; text-decoration-color: #c5cae9; text-underline-offset: 2px; }
+  .method-card .method-stages a:hover { text-decoration-color: #1a237e; }
+  .method-card .method-more { font-weight: 600; color: #1a237e; text-decoration: none; font-size: 0.92em; }
+  .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="report-container">
+
+<div class="report-header">
+<div class="report-header-text">
+<div class="masthead">Decision Intelligence &middot; Humane World for Animals Canada</div>
+<h1 class="report-title">What Canada Can Learn from Other Countries&rsquo; Rules on Cultivated Meat and Precision Fermentation</h1>
+<div class="meta">
+15 October 2026 &middot; Audience: Humane World for Animals Canada leadership team &middot; Horizon: to 2030<br>
+<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 19 min full read</span>
+<!-- method line: _core/scripts/method_link.py (29 September 2026) -->
+<span class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.<br class="method-break"><span class="method-human">Scanned and filtered by AI. <a href="https://decision-intel.shapingtomorrow.com/how-we-verify/">Stress-tested and judged by humans</a>.</span></span>
+</div>
+</div>
+<a href="https://www.shapingtomorrow.com" target="_blank" rel="noopener"><img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow"></a>
+</div>
+
+<div class="risk-opps">
+  <div class="ro-card ro-risks">
+    <h3>Key risks</h3>
+    <ul>
+      <li><strong>Cultivated meat could still be banned by a province after Health Canada approves it.</strong> Hungary banned cultivated meat by 140 votes to 10 (<a href="https://telex.hu/gazdasag/2025/11/18/muhus-betiltas-parlament-orszaggyules-torveny-laboratoriumi-hus" target="_blank" rel="noopener">Telex</a>, November 2025, Hungarian), and a US appeals court has upheld Florida's state ban (<a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">US Court of Appeals for the Eleventh Circuit</a>, March 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+      <li><strong>Without a settled Canadian label, opponents may define cultivated meat for shoppers before the first product arrives.</strong> Groups asking the Health Minister for mandatory labels on genetically engineered food cite 83% public support (<a href="https://cban.ca/wp-content/uploads/Lettre-re-les-OGM-24-fev-2026.pdf" target="_blank" rel="noopener">Canadian Biotechnology Action Network and partners</a>, February 2026, French). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+      <li><strong>Cultivated meat may reach Canada slowly, or not at all, as investors pull back.</strong> Cultivated meat and seafood companies raised $73.9 million in 2025, down from $139 million in 2024 (<a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist, reporting the Good Food Institute</a>, April 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+    </ul>
+  </div>
+  <div class="ro-card ro-opps">
+    <h3>Key opportunities</h3>
+    <ul>
+      <li><strong>Animal-free dairy and egg proteins offer Humane World earlier policy wins than cultivated meat.</strong> Fermentation companies raised $357 million in 2025, nearly five times what cultivated meat and seafood companies raised (<a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist, reporting the Good Food Institute</a>, April 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+      <li><strong>Canada can borrow tested routes from abroad, such as public tastings and published review times.</strong> The UK's funded trial programme has had 14 applications from nine companies and aims for about 2.5 years per routine application (<a href="https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/regulatory-sandbox-report-for-cell-cultivated-products-fsa-business-committee" target="_blank" rel="noopener">UK Food Standards Agency</a>, September 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+      <li><strong>Falling production costs could bring cultivated meat closer to everyday prices by the end of the decade.</strong> One consultancy sees a route to roughly €10/kg for cultivated meat by the end of the decade, from the low €40s/kg today (<a href="https://vegconomist.com/market-trends/new-viewpoint-argues-cultivated-meat-solved-science-now-needs-orders/" target="_blank" rel="noopener">vegconomist, reporting Arthur D. Little</a>, July 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+    </ul>
+  </div>
+</div>
+<div class="sur-band">
+  <span class="sur-band-label">Three surprises to 2040</span>
+  <ul>
+    <li><a href="#section-surprises">A Canadian province bans cultivated meat</a> <span class="sur-band-meta">2029 to 2036 &middot; Low-Medium (20 to 40%)</span></li>
+    <li><a href="#section-surprises">Asian regulators, not American or European ones, set the model for approving cultivated meat</a> <span class="sur-band-meta">2031 to 2038 &middot; Low-Medium (20 to 40%)</span></li>
+    <li><a href="#section-surprises">Chinese firms become a main source of fermentation-made food ingredients sold in Canada</a> <span class="sur-band-meta">2031 to 2038 &middot; Low (under 20%)</span></li>
+  </ul>
+</div>
+
+<div class="toc-row">
+<div class="table-of-contents">
+<h3>Contents</h3>
+<ul>
+  <li><a href="#section-why-now">1. Why This Matters Now</a></li>
+  <li><a href="#section-executive-synthesis">2. Executive Synthesis</a></li>
+  <!-- An edition with a Continuity ledger (every edition after the first) gets "3. Continuity Ledger"
+       here and every later number moves down one. Do not add it by hand: run
+       python3 _core/scripts/fix_toc.py report-clusters.html after the build. -->
+  <li><a href="#section-snapshots">3. Leadership Snapshots</a></li>
+  <li><a href="#section-signal-clusters">4. Themes</a></li>
+  <li><a href="#section-strategic-implications">5. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">6. Scenario Matrix 2030</a></li>
+  <li><a href="#section-surprises">7. Potential Surprises to 2040</a></li>
+  <li><a href="#section-options">8. Options</a></li>
+  <li><a href="#section-explicit-exclusions">9. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">10. Questions For The Next Strategy Meeting</a></li>
+  <li><a href="#section-source-register">11. Source Confidence Register</a></li>
+  <li><a href="#claim-fidelity">12. Claim-Fidelity Appendix</a></li>
+  <li><a href="#section-abbreviations">13. Abbreviations</a></li>
+</ul>
+</div>
+
+<div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+36" data-fw-engine="3">
+<style id="fw-style">
+  .fw-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2530;}
+  .fw-card{box-sizing:border-box!important;width:100%!important;max-width:860px!important;height:540px!important;max-height:100%!important;margin:0 auto!important;border:1px solid #e3e8ee!important;border-radius:12px!important;padding:10px!important;background:#fff!important;cursor:pointer;position:relative;overflow:hidden;display:flex!important;flex-direction:column!important;transition:box-shadow .15s,transform .15s;}
+  .fw-card:hover{box-shadow:0 6px 20px rgba(20,40,70,.12);transform:translateY(-1px);}
+  .fw-card:focus-visible{outline:3px solid #0f2e5c;outline-offset:2px;}
+  .fw-note{font-size:0.82em;color:#5a6478;line-height:1.45;margin:8px 4px 0;}
+  .fw-legend{flex:0 0 auto!important;display:flex!important;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12.5px;color:#5a6478;margin:0 0 6px!important;line-height:1.2;}
+  .fw-legend .sw{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:5px;box-sizing:border-box;}
+  .fw-legend .lw,.fw-modal-legend .lw{display:inline-block;width:18px;height:2px;background:#5a6478;vertical-align:middle;margin-right:5px;border-radius:2px;}
+  .fw-legend .lw.high,.fw-modal-legend .lw.high{height:4px;background:#4a5563;}
+  .fw-legend .lw.med,.fw-modal-legend .lw.med{height:2.5px;background:#6a7480;}
+  .fw-legend .lw.low,.fw-modal-legend .lw.low{height:1.4px;background:#9aa4b0;}
+  .fw-modal-legend .lw{width:24px;margin-right:7px;}
+  .fw-thumbwrap{flex:1 1 auto!important;position:relative!important;width:100%!important;min-height:0!important;}
+  .fw-thumbwrap svg,.fw-card .fw-thumbwrap svg{width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;display:block!important;margin:0!important;}
+  /* Also override any host CSS that would cap the modal SVG (e.g. .toc-figure svg { max-width: 340px }) */
+  .fw-modal svg,.fw-modal #fw-modal-svg{max-width:none!important;max-height:none!important;width:min(94vw,1040px)!important;height:auto!important;display:block!important;margin:0 auto!important;}
+  .fw-expand{position:absolute;right:8px;bottom:8px;background:rgba(15,46,92,.82);color:#fff;font-size:11px;font-weight:600;padding:3px 9px;border-radius:20px;pointer-events:none;}
+  .fw-eyebrow{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#8a94a3;font-weight:700;margin:0 0 2px;}
+  .fw-title{font-size:14px;font-weight:700;margin:0 0 8px;line-height:1.25;}
+  .fw-overlay{position:fixed;inset:0;background:rgba(15,23,35,.62);display:none;align-items:center;justify-content:center;z-index:9999;padding:18px;}
+  .fw-overlay.open{display:flex;}
+  .fw-modal{background:#fff;border-radius:14px;padding:14px 16px 16px;max-width:min(96vw,1100px);max-height:96vh;overflow:auto;box-shadow:0 24px 70px rgba(0,0,0,.35);position:relative;}
+  .fw-close{position:absolute;top:10px;right:12px;border:none;background:#eef1f4;color:#33414f;width:32px;height:32px;border-radius:8px;font-size:17px;cursor:pointer;line-height:1;}
+  .fw-close:hover{background:#e0e5ea;}
+  .fw-modal-legend{display:flex;flex-wrap:wrap;gap:16px;align-items:center;font-size:13px;color:#33414f;margin:6px 2px 12px;}
+  .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
+</style>
+<div class="fw-wrap">
+  <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
+    <div class="fw-legend" aria-hidden="true">
+      <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+      <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+      <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed/neutral</span>
+      <span style="opacity:.85">line weight = impact &times; likelihood (analyst rating):</span>
+      <span><span class="lw high"></span>high</span>
+      <span><span class="lw med"></span>med</span>
+      <span><span class="lw low"></span>low</span>
+    </div>
+    <div class="fw-thumbwrap">
+      <svg id="fw-thumb" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" style="display:block;" role="img"></svg>
+      <span class="fw-expand">&#10530; Expand</span>
+    </div>
+  </div>
+<p class="fw-note"><strong>How to read this figure:</strong> each line runs from a development to its possible consequences. Line weight shows impact multiplied by likelihood, each rated high, medium or low. The ratings are the analysis's judgement from the cited sources, not calculated values. Hover over a circle to see its rating; click to enlarge.</p>
+  <div class="fw-overlay" id="fw-overlay" role="dialog" aria-modal="true" aria-label="Futures Wheel, enlarged">
+    <div class="fw-modal">
+      <button class="fw-close" id="fw-close" aria-label="Close">&times;</button>
+      <p class="fw-eyebrow" style="margin-top:2px;">Futures Wheel</p>
+      <p class="fw-title" id="fw-title-modal" style="font-size:16px;"></p>
+      <div class="fw-modal-legend">
+        <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
+        <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
+        <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed / neutral</span>
+        <span style="opacity:.85">line weight = impact &times; likelihood (analyst rating):</span>
+        <span><span class="lw high" style="background:#4a5563;height:4px;"></span>high</span>
+        <span><span class="lw med" style="background:#6a7480;height:2.5px;"></span>med</span>
+        <span><span class="lw low" style="background:#9aa4b0;height:1.4px;"></span>low</span>
+      </div>
+      <svg id="fw-modal-svg" viewBox="0 0 1200 1200" style="width:min(94vw,1040px);height:auto;display:block;" role="img"></svg>
+    </div>
+  </div>
+</div>
+
+<script id="fw-engine">
+(function(){
+  // === WHEEL_DATA_START (build_futures_wheel.py replaces this object) ===
+  var TITLE = "Approval open, rules around it unsettled";
+  var DATA = {"label": "Approval open, rules\naround it unsettled", "pol": "0", "children": [{"label": "Labels set before\nfirst product", "pol": "0", "im": "vhigh", "lk": "high", "children": [{"label": "Plain federal\nlabel agreed", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Hidden-food\nargument fades", "pol": "+", "im": "med", "lk": "med"}, {"label": "Firms resist a\nmandatory label", "pol": "-", "im": "med", "lk": "high"}, {"label": "Retailers stock\nwith confidence", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Free-from claims\nspread first", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "No-lab-grown\npacks appear", "pol": "-", "im": "high", "lk": "med"}, {"label": "New food read\nas a risk", "pol": "-", "im": "med", "lk": "med"}, {"label": "Calls to limit\nmeat names grow", "pol": "-", "im": "med", "lk": "med"}]}]}, {"label": "Provinces split on\nsales", "pol": "-", "im": "vhigh", "lk": "med", "children": [{"label": "A livestock\nprovince bans", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Court fight on\nfood powers", "pol": "-", "im": "high", "lk": "med"}, {"label": "National chains\nhesitate", "pol": "-", "im": "med", "lk": "high"}, {"label": "Sales in some\nprovinces only", "pol": "0", "im": "med", "lk": "med"}]}, {"label": "Ottawa backs one\nnational market", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Internal trade\nrules cited", "pol": "+", "im": "med", "lk": "med"}, {"label": "Farm groups\nlobby Ottawa", "pol": "-", "im": "med", "lk": "high"}, {"label": "Ban threat\nrecedes", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "Tastings before\napproval", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Dutch-style code\nadopted", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Public tastes\nit early", "pol": "+", "im": "high", "lk": "med"}, {"label": "Chefs and media\nlead trials", "pol": "+", "im": "med", "lk": "med"}, {"label": "Opponents gain\nan early target", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Trial programme\nwith a timetable", "pol": "+", "im": "high", "lk": "med", "children": [{"label": "Review times\npublished", "pol": "+", "im": "med", "lk": "med"}, {"label": "Firms file in\nCanada", "pol": "+", "im": "high", "lk": "low"}, {"label": "Needs federal\nfunding", "pol": "-", "im": "med", "lk": "high"}]}]}, {"label": "Fermentation moves\nfirst", "pol": "+", "im": "high", "lk": "high", "children": [{"label": "Dairy and egg\nproteins\napproved", "pol": "+", "im": "high", "lk": "high", "children": [{"label": "Used in\nprocessed foods", "pol": "+", "im": "med", "lk": "high"}, {"label": "Allergen label,\nlittle debate", "pol": "0", "im": "med", "lk": "high"}, {"label": "Dairy sector\npushes back", "pol": "-", "im": "high", "lk": "med"}]}, {"label": "Provinces fund\nplants for jobs", "pol": "+", "im": "med", "lk": "high", "children": [{"label": "Jobs ministers\nbecome allies", "pol": "+", "im": "med", "lk": "med"}, {"label": "Welfare case\nsidelined", "pol": "-", "im": "med", "lk": "med"}, {"label": "Atlantic hubs\ngrow", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "Investment stays\nscarce", "pol": "-", "im": "vhigh", "lk": "high", "children": [{"label": "No Canadian\napplication\nfiled", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Rules fights\nlose urgency", "pol": "-", "im": "med", "lk": "med"}, {"label": "Advocates shift\nto funding", "pol": "0", "im": "med", "lk": "med"}, {"label": "Approved firms\nstill fail", "pol": "-", "im": "high", "lk": "med"}]}, {"label": "Public\nco-funding\nrequested", "pol": "0", "im": "high", "lk": "low", "children": [{"label": "Budgets say not\nnow", "pol": "-", "im": "med", "lk": "high"}, {"label": "Shared plants\nproposed", "pol": "+", "im": "med", "lk": "low"}, {"label": "Public buyers\npledge to buy", "pol": "+", "im": "high", "lk": "low"}]}]}, {"label": "Foreign precedent\nshapes the debate", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "US bans cited by\nopponents", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Florida ruling\ncited in Canada", "pol": "-", "im": "med", "lk": "med"}, {"label": "Texas expiry\ntested in 2027", "pol": "0", "im": "med", "lk": "high"}, {"label": "Hungary, Italy\nused as models", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Asian routes\ncited by allies", "pol": "+", "im": "med", "lk": "med", "children": [{"label": "Korea pathway\nas a template", "pol": "+", "im": "med", "lk": "med"}, {"label": "Japan consumer\nrules borrowed", "pol": "+", "im": "med", "lk": "med"}, {"label": "Singapore keeps\napproving", "pol": "+", "im": "med", "lk": "high"}]}]}]};
+    // === WHEEL_DATA_END ===
+
+  var NS="http://www.w3.org/2000/svg";
+  var R=[0,260,470,660], RAD=[140,108,66,62], FS=[23,18.5,13,12], CX=600, CY=600;
+  var FW_ENGINE_VERSION=3; // v3 (2026-09-24) = v2 plus larger nodes and labels, hover ratings and a reading note. v2 = elongated layout (SX) + capDepth thumbnail.
+  // Do NOT replace this file with an older copy: build_futures_wheel.py refuses
+  // to run below this version. If you must, pass --allow-legacy-engine.
+  var SX=1.5; // horizontal spread: >1 widens the wheel into a non-circular landscape shape
+  var IM={low:1,med:2,high:3,vhigh:4}, LK={low:1,med:2,high:3};
+  // Line weight encodes impact x likelihood (12 possible; baseline 1.4)
+  function width(n){ var s=(IM[n.im]||2)*(LK[n.lk]||2); return 1.6+s*0.55; }
+  // Polarity palette: risk pink+red / opportunity pale-green+green / mixed grey
+  function col(p){
+    if(p==="+") return {f:"#e9f6ee",s:"#2ea44f",t:"#1a2530"};
+    if(p==="-") return {f:"#fdecea",s:"#d9433a",t:"#1a2530"};
+    return {f:"#eef1f4",s:"#8a94a3",t:"#1a2530"};
+  }
+  var CENTER={f:"#eaf0fb",s:"#2f5fd0",t:"#1a2530"};
+
+  function render(svg, opts){
+    opts = opts || {};
+    while(svg.firstChild) svg.removeChild(svg.firstChild);
+    var data=JSON.parse(JSON.stringify(DATA));
+    var leaves=[]; (function collect(n){ (n.children&&n.children.length)?n.children.forEach(collect):leaves.push(n); })(data);
+    var N=leaves.length, step=2*Math.PI/N;
+    leaves.forEach(function(l,i){ l.t=i*step; });
+    (function setA(n,d){ n.depth=d; if(n.children&&n.children.length){ n.children.forEach(function(c){setA(c,d+1);}); n.t=n.children.reduce(function(a,c){return a+c.t;},0)/n.children.length; } })(data,0);
+    var maxDepth=0; (function md(n){ if(n.depth>maxDepth) maxDepth=n.depth; (n.children||[]).forEach(md); })(data);
+    var rd = (opts.capDepth!=null) ? Math.min(maxDepth, opts.capDepth) : maxDepth; // render-depth cap: thumbnail shows fewer rings, modal shows all
+    var halfW=SX*R[rd]+RAD[rd]+26, halfH=R[rd]+RAD[rd]+26;
+    svg.setAttribute("viewBox",(CX-halfW)+" "+(CY-halfH)+" "+(2*halfW)+" "+(2*halfH));
+    function P(t,r){ return {x:CX+SX*r*Math.sin(t), y:CY-r*Math.cos(t)}; }
+    // Guide arcs: thin concentric quadratic-curve arcs on the ring 1 and the outer ring
+    function arc(t1,t2,r,c,w){
+      var a=P(t1,r),b=P(t2,r),m=(t1+t2)/2,cp=P(m,r*1.06);
+      var p=document.createElementNS(NS,"path");
+      p.setAttribute("d","M"+a.x+","+a.y+" Q"+cp.x+","+cp.y+" "+b.x+","+b.y);
+      p.setAttribute("fill","none");p.setAttribute("stroke",c);p.setAttribute("stroke-width",w);
+      svg.appendChild(p);
+    }
+    var r1n=data.children;
+    for(var i=0;i<r1n.length;i++) arc(r1n[i].t,r1n[(i+1)%r1n.length].t,R[1],"#d6dde4",1.4);
+    if(maxDepth>=2 && opts.capDepth==null){ for(var k=0;k<N;k++) arc(leaves[k].t,leaves[(k+1)%N].t,R[maxDepth],"#dbe6de",1.4); }
+    // Weighted spokes: line thickness encodes impact x likelihood
+    function spoke(a,b,w){
+      var l=document.createElementNS(NS,"line");
+      l.setAttribute("x1",a.x);l.setAttribute("y1",a.y);l.setAttribute("x2",b.x);l.setAttribute("y2",b.y);
+      l.setAttribute("stroke","#9aa7b4");l.setAttribute("stroke-width",w);l.setAttribute("stroke-linecap","round");l.setAttribute("opacity","0.9");
+      svg.appendChild(l);
+    }
+    (function edges(n){
+      var p=P(n.t,R[n.depth]);
+      (n.children||[]).forEach(function(c){ if(c.depth<=rd){ spoke(p,P(c.t,R[c.depth]),width(c)); edges(c); } });
+    })(data);
+    // Nodes (drawn on top)
+    (function node(n){
+      if(n.depth>rd) return;
+      var pt=P(n.t,R[n.depth]),d=n.depth,r=RAD[d],c=d===0?CENTER:col(n.pol);
+      var ci=document.createElementNS(NS,"circle");
+      ci.setAttribute("cx",pt.x);ci.setAttribute("cy",pt.y);ci.setAttribute("r",r);
+      ci.setAttribute("fill",c.f);ci.setAttribute("stroke",c.s);ci.setAttribute("stroke-width",d===0?3:2.6);
+      if(d>0){ var tt=document.createElementNS(NS,"title"); var EN={vhigh:"very high",high:"high",med:"medium",low:"low"}; tt.textContent=String(n.label).replace(/\n/g," ")+": impact "+(EN[n.im]||"medium")+", likelihood "+(EN[n.lk]||"medium")+" (analyst rating)"; ci.appendChild(tt); }
+      svg.appendChild(ci);
+      var showLabel = opts.allLabels || d<=1;
+      if(showLabel){
+        var lines=String(n.label).split("\n"),fs=FS[d],lh=fs*1.15;
+        var t=document.createElementNS(NS,"text");
+        t.setAttribute("x",pt.x);t.setAttribute("y",pt.y-(lines.length-1)*lh/2+fs*0.34);
+        t.setAttribute("text-anchor","middle");t.setAttribute("font-size",fs);t.setAttribute("font-weight",d<=1?"700":"600");t.setAttribute("fill",c.t);
+        lines.forEach(function(ln,idx){var ts=document.createElementNS(NS,"tspan");ts.setAttribute("x",pt.x);ts.setAttribute("dy",idx===0?0:lh);ts.textContent=ln;t.appendChild(ts);});
+        svg.appendChild(t);
+      }
+      (n.children||[]).forEach(node);
+    })(data);
+  }
+
+  var elTitleThumb=document.getElementById("fw-title-thumb"); if(elTitleThumb) elTitleThumb.textContent=TITLE;
+  var elTitleModal=document.getElementById("fw-title-modal"); if(elTitleModal) elTitleModal.textContent=TITLE;
+  var elThumb=document.getElementById("fw-thumb"); if(elThumb) elThumb.setAttribute("aria-label","Futures Wheel thumbnail for "+TITLE);
+  var elModalSvg=document.getElementById("fw-modal-svg"); if(elModalSvg) elModalSvg.setAttribute("aria-label","Enlarged Futures Wheel for "+TITLE);
+  if(elThumb) render(elThumb, {allLabels:false, capDepth:2});
+  var overlay=document.getElementById("fw-overlay"), drawn=false;
+  function open(){ if(!drawn){ render(document.getElementById("fw-modal-svg"), {allLabels:true}); drawn=true; } overlay.classList.add("open"); document.getElementById("fw-close").focus(); }
+  function close(){ overlay.classList.remove("open"); document.getElementById("fw-card").focus(); }
+  var card=document.getElementById("fw-card");
+  card.addEventListener("click",open);
+  card.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); open(); } });
+  document.getElementById("fw-close").addEventListener("click",close);
+  overlay.addEventListener("click",function(e){ if(e.target===overlay) close(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&overlay.classList.contains("open")) close(); });
+})();
+</script>
+</div>
+
+</div>
+
+<a name="section-why-now"></a>
+<div class="at-a-glance">
+<h3>Why This Matters Now</h3>
+<p>Canada already has a way to approve cultivated meat and animal-free dairy and egg proteins, but no company has yet taken a cultivated meat product through it, and the rules that decide whether people will actually buy these foods are still unwritten.</p>
+<p>Other countries are filling that gap in different ways. Some let the public taste products before approval and publish how long reviews take. Some write strict labels or protect meat names for farmers. Some, including several American states, simply ban the product, and the courts have let them. Meanwhile investment has cooled, and animal-free dairy and egg proteins are moving faster than cultivated meat.</p>
+<p><strong>The one thing to take into the next meeting:</strong> Canada&rsquo;s first real fight is likely to be over labels and openness rather than safety, and it may arrive before the first product does. Watch for the first cultivated meat application to Health Canada and for any province talking about a ban.</p>
+</div>
+
+<a name="section-executive-synthesis"></a>
+<div class="executive-synthesis">
+<h2>Executive Synthesis</h2>
+<div class="sit-up-statement">
+<p class="sit-up-question">Which plans on your desk this year assume that winning approval from Health Canada is the hard part?</p>
+<p class="sit-up-warrant">The evidence in this briefing says the harder fights come after approval, and other countries are settling them first.</p>
+</div>
+
+<p>Canada can already approve cultivated meat and precision-fermented ingredients (proteins made by microbes rather than animals) through its ordinary novel food review, which has cleared an animal-free milk protein and lists no cultivated meat product (<a href="https://www.canada.ca/en/health-canada/services/food-nutrition/genetically-modified-foods-other-novel-foods/approved-products/b-lactoglobulin-protein-komagataella-phaffii-yrmk-66/document.html" target="_blank" rel="noopener">Health Canada, Remilk decision</a>, January 2024; <a href="https://www.canada.ca/fr/sante-canada/services/aliments-nutrition/agriculture-cellulaire.html" target="_blank" rel="noopener">Health Canada, cellular agriculture page</a>, December 2023, French). Other countries show that approval is no longer where the outcome is decided. A US federal appeals court has ruled that federal clearance does not stop a state banning the product (<a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">US Court of Appeals for the Eleventh Circuit</a>, March 2026), Believer Meats closed although it held US approval (<a href="https://www.greenqueen.com.hk/upside-foods-believer-meats-wilson-nc-cultivated-meat-facility-bid/" target="_blank" rel="noopener">Green Queen</a>, August 2026), and Canada&rsquo;s own approval of gene-edited pork without a special label has already put &ldquo;no gene editing&rdquo; packs on shop shelves (<a href="https://www.canada.ca/en/health-canada/news/2026/01/canada-approves-pigs-resistant-to-porcine-reproductive-and-respiratory-syndrome-viruses-for-use-in-food-and-feed.html" target="_blank" rel="noopener">Health Canada</a>, January 2026; <a href="https://www.delimarketnews.com/well-paired/dubreton-launches-verified-no-cloning-or-gene-editing-packaging-shelves-now-vincent-breton-comments/deli-staff/fri-06262026-0826/21802" target="_blank" rel="noopener">Deli Market News</a>, June 2026).</p>
+
+<p>What is settled is that Ottawa treats these foods as a safety question, not a political one. What is not settled is what a cultivated product must say on its label; whether the public can taste products before approval, as the Netherlands now allows for fermentation products as well as cultivated meat (<a href="https://zoek.officielebekendmakingen.nl/kst-31532-302.pdf" target="_blank" rel="noopener">Dutch government letter to Parliament</a>, December 2025, Dutch); whether any province will copy the American state bans; and whether public money will follow, as it has for a fermentation plant in Nova Scotia (<a href="https://vegconomist.com/manufacturing-technology/nova-scotia-puts-1-2m-cape-breton-precision-fermentation-plant-add-client-capacity/" target="_blank" rel="noopener">vegconomist</a>, August 2026).</p>
+
+<p>Looking ahead to 2030, the UK&rsquo;s trial programme for cultivated products is due to finish in February 2027 with a target of two completed safety assessments (<a href="https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/regulatory-sandbox-report-for-cell-cultivated-products-fsa-business-committee" target="_blank" rel="noopener">UK Food Standards Agency</a>, September 2026); Texas&rsquo;s ban is set to expire in September 2027 (<a href="https://ij.org/wp-content/uploads/2025/09/2026.06.02-30-Appellants-Opening-Brief-CA5.pdf" target="_blank" rel="noopener">Institute for Justice appeal brief</a>, June 2026); EU limits on meat names for novel foods begin three years after adoption (<a href="https://data.consilium.europa.eu/doc/document/ST-10723-2026-INIT/en/pdf" target="_blank" rel="noopener">Council of the European Union</a>, June 2026); and one consultancy sees a route to roughly &euro;10/kg for cultivated meat by the end of the decade (<a href="https://vegconomist.com/market-trends/new-viewpoint-argues-cultivated-meat-solved-science-now-needs-orders/" target="_blank" rel="noopener">vegconomist, reporting Arthur D. Little</a>, July 2026). None of this is certain, and each is a place where readers can still choose their position: section 8 sets out the options.</p>
+
+<div class="stress-test-box">
+<h4>Where this analysis could be wrong</h4>
+<p>This reading assumes a company will file a cultivated meat application with Health Canada before 2030. If none has been filed by the end of 2028, labels, tastings and bans matter far less than investment, and Humane World&rsquo;s effort should move almost entirely to precision-fermented ingredients, which regulators elsewhere are already clearing through routine processes (<a href="https://consultations.foodstandards.gov.au/fsanz/a1342beta-casein-protein-preparation-from-gm-k-ph/" target="_blank" rel="noopener">Food Standards Australia New Zealand</a>, July 2026).</p>
+</div>
+
+<h4>The decisions that cannot be deferred this cycle</h4>
+<ol>
+<li><strong>Choose whether 2027 campaigning leads with precision-fermented ingredients or with cultivated meat.</strong> Fermentation companies raised $357 million in 2025, nearly five times the $73.9 million raised by cultivated meat and seafood companies (<a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist, reporting the Good Food Institute</a>, April 2026).</li>
+<li><strong>Agree a labelling position before the first cultivated meat application reaches Health Canada.</strong> Gene-edited pork shows that when Ottawa requires no label, producers write their own &ldquo;free-from&rdquo; claims.</li>
+<li><strong>Make the case for a Canadian tasting code and a published review timetable.</strong> The Netherlands and the UK show both can be done without new safety law.</li>
+<li><strong>Put provincial ban risk on the watch list now.</strong> Seven US states had bans in effect by the end of 2025 (<a href="https://www.meatpoultry.com/articles/33489-cultivated-meat-industry-shrinks-as-investment-and-access-tighten" target="_blank" rel="noopener">Meat+Poultry</a>, May 2026), and the courts have so far let them stand (<a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">US Court of Appeals for the Eleventh Circuit</a>, March 2026).</li>
+</ol>
+<p style="margin-top: 12px; font-size: 0.92em; color: #5a6478;">Each is developed below, with a decision posture, in the four Strategic Implications, and with alternatives in the Options.</p>
+</div>
+
+<a name="section-snapshots"></a>
+<div class="snapshots-section">
+<h2>Leadership Snapshots</h2>
+<p class="snapshots-intro">Four cards, one per reader group. Each says what is changing for that group and suggests one question for the next meeting, so a team can take its card as an agenda item without reading the whole report.</p>
+<div class="snapshots">
+<div class="snapshot-card commercial">
+<span class="role">Board and Executive</span>
+<h4>Approval is open in Canada; the choice of where to push first is not</h4>
+<p><strong>What is changing:</strong> Fermented proteins are clearing ordinary reviews abroad while cultivated meat investment has halved and an approved company has closed (<a href="https://consultations.foodstandards.gov.au/fsanz/a1342beta-casein-protein-preparation-from-gm-k-ph/" target="_blank" rel="noopener">Food Standards Australia New Zealand</a>, July 2026; <a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist, reporting the Good Food Institute</a>, April 2026; <a href="https://www.greenqueen.com.hk/upside-foods-believer-meats-wilson-nc-cultivated-meat-facility-bid/" target="_blank" rel="noopener">Green Queen</a>, August 2026).</p>
+<p><strong>Question for your next meeting:</strong> Do we lead our 2027 policy work with animal-free dairy and egg proteins, or with cultivated meat?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Gives the strategy one lead technology, so staff time and partnerships are not split evenly by default.</p>
+</div>
+
+<div class="snapshot-card marketing">
+<span class="role">Policy and Government Relations</span>
+<h4>Canada&rsquo;s labelling fight is being rehearsed on gene-edited pork</h4>
+<p><strong>What is changing:</strong> Ottawa approved gene-edited pigs with no special label, a cloned-animal decision was suspended after objections about process, and campaigners now want mandatory labels (<a href="https://www.canada.ca/en/health-canada/news/2026/01/canada-approves-pigs-resistant-to-porcine-reproductive-and-respiratory-syndrome-viruses-for-use-in-food-and-feed.html" target="_blank" rel="noopener">Health Canada</a>, January 2026; <a href="https://sencanada.ca/en/senators/moreau-pierre/interventions/678550/20" target="_blank" rel="noopener">Senate of Canada</a>, November 2025; <a href="https://cban.ca/wp-content/uploads/Lettre-re-les-OGM-24-fev-2026.pdf" target="_blank" rel="noopener">Canadian Biotechnology Action Network and partners</a>, February 2026, French).</p>
+<p><strong>Question for your next meeting:</strong> What label do we want on the first cultivated meat product sold in Canada, and who do we tell before an application is filed?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Puts Humane World&rsquo;s position on record before opponents define the label for it.</p>
+</div>
+
+<div class="snapshot-card operations">
+<span class="role">Campaigns and Public Engagement</span>
+<h4>Other countries let the public taste first; Canada has no route for that</h4>
+<p><strong>What is changing:</strong> The Netherlands is extending pre-approval tastings to fermentation products, and Japan is building its rules around what consumers must be told (<a href="https://zoek.officielebekendmakingen.nl/kst-31532-302.pdf" target="_blank" rel="noopener">Dutch government letter to Parliament</a>, December 2025, Dutch; <a href="https://www.caa.go.jp/policies/council/fssc/meeting_materials/assets/fscc_cms105_260715_01.pdf" target="_blank" rel="noopener">Japan Consumer Affairs Agency</a>, May 2026, Japanese).</p>
+<p><strong>Question for your next meeting:</strong> Would we back a Canadian tasting code, and which partners could host the first tastings?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Turns public acceptance from a slogan into a concrete ask with named partners.</p>
+</div>
+
+<div class="snapshot-card finance">
+<span class="role">Industry and Coalition Partners</span>
+<h4>Public money is following fermentation plants, not cultivated meat</h4>
+<p><strong>What is changing:</strong> Nova Scotia and a federal agency are expanding a fermentation plant, and a major US agribusiness is hosting fermented egg-protein production (<a href="https://vegconomist.com/manufacturing-technology/nova-scotia-puts-1-2m-cape-breton-precision-fermentation-plant-add-client-capacity/" target="_blank" rel="noopener">vegconomist</a>, August 2026; <a href="https://www.foodnavigator.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/" target="_blank" rel="noopener">FoodNavigator</a>, August 2026).</p>
+<p><strong>Question for your next meeting:</strong> Which companies and provinces could be our first allies for a Canadian fermentation success story?</p>
+<p class="snap-purpose"><strong>What it is for:</strong> Identifies partners whose economic interest lines up with Humane World&rsquo;s goals.</p>
+</div>
+</div>
+</div>
+
+<a name="section-signal-clusters"></a>
+<h2>Themes</h2>
+<p class="signal-clusters-intro">This example carries one theme, Regulation and Public Policy, at the analyst&rsquo;s instruction; a full intelligence cycle would carry five or six. The tier (<strong style="color:#c62828;">Immediate</strong>, <strong style="color:#f57c00;">Near-Term</strong>, <strong style="color:#2e7d32;">Longer-Range</strong>) says <em>when</em> a theme bites. The weight says <em>how much</em> it shapes readers&rsquo; decisions to 2030, and the last two columns say who decides and how much room readers have to act. Weights are the analysis&rsquo;s judgement, stated so they can be challenged.</p>
+<table class="weight-table"><thead><tr><th>Theme</th><th>Weight</th><th>Who decides</th><th>Room to act</th></tr></thead><tbody>
+<tr><td data-l="Theme">1. Canada can approve cultivated meat and fermented proteins but has not settled labels, tastings or bans</td><td data-l="Weight"><span class="wt high">high</span></td><td data-l="Who decides">Health Canada and the Canadian Food Inspection Agency on approval and labels; provinces on sales</td><td data-l="Room to act">Wide: none of the rules around approval is yet fixed in Canada</td></tr>
+</tbody></table>
+
+<div class="signal-cluster tier-mandate" id="cluster-1">
+<div class="cluster-header"><h3>1. Canada can approve cultivated meat and fermented proteins but has not settled labels, tastings or bans</h3><span class="impact-tier mandate">Immediate</span></div>
+<p class="weight-line"><strong>Weight:</strong> <span class="wt high">high</span> &middot; <strong>Who decides:</strong> Health Canada and the Canadian Food Inspection Agency on approval and labels; provinces on sales &middot; <strong>Room to act:</strong> Wide: none of the rules around approval is yet fixed in Canada</p>
+<p class="cluster-framing">For Humane World, the next three years of policy work are less about persuading Health Canada that these foods are safe and more about the rules that surround approval. Canada&rsquo;s novel food review treats cultivated meat as an ordinary safety file, with no special law and no ban, and the regulator says it will list cultivated meat products as applications arrive (<a href="https://www.canada.ca/fr/sante-canada/services/aliments-nutrition/agriculture-cellulaire.html" target="_blank" rel="noopener">Health Canada, cellular agriculture page</a>, December 2023, French). That is an advantage much of Europe lacks. But Canada has no published review timetable, no route for public tastings, no settled label and no answer on provincial bans, and other countries&rsquo; experience shows these are where uptake is won or lost. Precision fermentation is moving through ordinary approvals faster than cultivated meat, which makes it the nearer opportunity.</p>
+
+<div class="report-figure" data-figure-form="comparison">
+<h4>Cultivated meat approvals and the rules around them in thirteen jurisdictions, October 2026</h4>
+<svg viewBox="0 0 720 386" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison of thirteen jurisdictions: whether cultivated meat is approved, what the government has built around approval, and what restrictions apply. Canada has approved none and built nothing beyond its standard review.">
+<text x="10" y="24" font-size="12" font-weight="700" fill="#1a237e">Jurisdiction</text>
+<text x="180" y="24" font-size="12" font-weight="700" fill="#1a237e">Approved?</text>
+<text x="285" y="24" font-size="12" font-weight="700" fill="#1a237e">What has been built</text>
+<text x="520" y="24" font-size="12" font-weight="700" fill="#1a237e">Restriction</text>
+<line x1="6" y1="31" x2="714" y2="31" stroke="#c5cae9" stroke-width="2"/>
+<rect x="6" y="40" width="708" height="26" fill="#e8eaf6"/>
+<text x="10" y="57" font-size="12" fill="#1f2937" font-weight="700">Canada</text>
+<circle cx="186" cy="53" r="5" fill="#c62828"/>
+<text x="194" y="57" font-size="12" fill="#1f2937">No</text>
+<text x="285" y="57" font-size="12" fill="#1f2937">Standard novel food review</text>
+<text x="520" y="57" font-size="12" fill="#1f2937">None so far</text>
+<rect x="6" y="66" width="708" height="26" fill="#f7f8fb"/>
+<text x="10" y="83" font-size="12" fill="#1f2937">United States</text>
+<circle cx="186" cy="79" r="5" fill="#2e7d32"/>
+<text x="194" y="83" font-size="12" fill="#1f2937">Yes</text>
+<text x="285" y="83" font-size="12" fill="#1f2937">Federal reviews; label bill</text>
+<text x="520" y="83" font-size="12" fill="#1f2937">Seven state bans</text>
+<rect x="6" y="92" width="708" height="26" fill="#ffffff"/>
+<text x="10" y="109" font-size="12" fill="#1f2937">Singapore</text>
+<circle cx="186" cy="105" r="5" fill="#2e7d32"/>
+<text x="194" y="109" font-size="12" fill="#1f2937">Yes</text>
+<text x="285" y="109" font-size="12" fill="#1f2937">Approvals continue</text>
+<text x="520" y="109" font-size="12" fill="#1f2937">Cut from food targets</text>
+<rect x="6" y="118" width="708" height="26" fill="#f7f8fb"/>
+<text x="10" y="135" font-size="12" fill="#1f2937">Australia and NZ</text>
+<circle cx="186" cy="131" r="5" fill="#2e7d32"/>
+<text x="194" y="135" font-size="12" fill="#1f2937">Yes</text>
+<text x="285" y="135" font-size="12" fill="#1f2937">Public consultation</text>
+<text x="520" y="135" font-size="12" fill="#1f2937">&#8216;Cell-cultured&#8217; label</text>
+<rect x="6" y="144" width="708" height="26" fill="#ffffff"/>
+<text x="10" y="161" font-size="12" fill="#1f2937">Israel</text>
+<circle cx="186" cy="157" r="5" fill="#2e7d32"/>
+<text x="194" y="161" font-size="12" fill="#1f2937">Yes</text>
+<text x="285" y="161" font-size="12" fill="#1f2937">Health ministry review</text>
+<text x="520" y="161" font-size="12" fill="#1f2937">None</text>
+<rect x="6" y="170" width="708" height="26" fill="#f7f8fb"/>
+<text x="10" y="187" font-size="12" fill="#1f2937">United Kingdom</text>
+<circle cx="186" cy="183" r="5" fill="#ef6c00"/>
+<text x="194" y="187" font-size="12" fill="#1f2937">Not yet</text>
+<text x="285" y="187" font-size="12" fill="#1f2937">Funded trial to 2027</text>
+<text x="520" y="187" font-size="12" fill="#1f2937">None</text>
+<rect x="6" y="196" width="708" height="26" fill="#ffffff"/>
+<text x="10" y="213" font-size="12" fill="#1f2937">Netherlands</text>
+<circle cx="186" cy="209" r="5" fill="#ef6c00"/>
+<text x="194" y="213" font-size="12" fill="#1f2937">Not yet</text>
+<text x="285" y="213" font-size="12" fill="#1f2937">Tastings before approval</text>
+<text x="520" y="213" font-size="12" fill="#1f2937">EU meat-name limits</text>
+<rect x="6" y="222" width="708" height="26" fill="#f7f8fb"/>
+<text x="10" y="239" font-size="12" fill="#1f2937">Switzerland</text>
+<circle cx="186" cy="235" r="5" fill="#ef6c00"/>
+<text x="194" y="239" font-size="12" fill="#1f2937">Not yet</text>
+<text x="285" y="239" font-size="12" fill="#1f2937">Application in review</text>
+<text x="520" y="239" font-size="12" fill="#1f2937">None</text>
+<rect x="6" y="248" width="708" height="26" fill="#ffffff"/>
+<text x="10" y="265" font-size="12" fill="#1f2937">Italy</text>
+<circle cx="186" cy="261" r="5" fill="#c62828"/>
+<text x="194" y="265" font-size="12" fill="#1f2937">No</text>
+<text x="285" y="265" font-size="12" fill="#1f2937">None</text>
+<text x="520" y="265" font-size="12" fill="#1f2937">National ban</text>
+<rect x="6" y="274" width="708" height="26" fill="#f7f8fb"/>
+<text x="10" y="291" font-size="12" fill="#1f2937">Hungary</text>
+<circle cx="186" cy="287" r="5" fill="#c62828"/>
+<text x="194" y="291" font-size="12" fill="#1f2937">No</text>
+<text x="285" y="291" font-size="12" fill="#1f2937">None</text>
+<text x="520" y="291" font-size="12" fill="#1f2937">National ban</text>
+<rect x="6" y="300" width="708" height="26" fill="#ffffff"/>
+<text x="10" y="317" font-size="12" fill="#1f2937">South Korea</text>
+<circle cx="186" cy="313" r="5" fill="#ef6c00"/>
+<text x="194" y="317" font-size="12" fill="#1f2937">Not yet</text>
+<text x="285" y="317" font-size="12" fill="#1f2937">Full route drafted 2026</text>
+<text x="520" y="317" font-size="12" fill="#1f2937">None</text>
+<rect x="6" y="326" width="708" height="26" fill="#f7f8fb"/>
+<text x="10" y="343" font-size="12" fill="#1f2937">Japan</text>
+<circle cx="186" cy="339" r="5" fill="#ef6c00"/>
+<text x="194" y="343" font-size="12" fill="#1f2937">Not yet</text>
+<text x="285" y="343" font-size="12" fill="#1f2937">Guideline in draft</text>
+<text x="520" y="343" font-size="12" fill="#1f2937">None</text>
+<rect x="6" y="352" width="708" height="26" fill="#ffffff"/>
+<text x="10" y="369" font-size="12" fill="#1f2937">China</text>
+<circle cx="186" cy="365" r="5" fill="#ef6c00"/>
+<text x="194" y="369" font-size="12" fill="#1f2937">Not yet</text>
+<text x="285" y="369" font-size="12" fill="#1f2937">Fermented foods cleared</text>
+<text x="520" y="369" font-size="12" fill="#1f2937">None</text>
+</svg>
+<p class="figure-caption">Sources: Health Canada (December 2023, January 2024); US Court of Appeals for the Eleventh Circuit (March 2026); US bill H.R. 8596 (April 2026); Meat+Poultry (May 2026); Singapore Ministry of Sustainability and the Environment (January 2026); vegconomist (August 2026); Food Standards Australia New Zealand (June 2026); UK Food Standards Agency (September 2026); Dutch government (December 2025); Council of the European Union (June 2026); Italian Law 172 of 2023; Telex (November 2025); Korea Ministry of Food and Drug Safety (June 2026); Japan Consumer Affairs Agency (May 2026); China National Development and Reform Commission (September 2026). &ldquo;Approved&rdquo; means at least one cultivated meat product cleared for sale.</p>
+</div>
+
+<div class="cluster-signals">
+<ul>
+<li>A national approval does not protect a product from local bans: the US Court of Appeals for the Eleventh Circuit upheld Florida&rsquo;s ban, finding that banning a category of meat does not intrude on the federally inspected plant itself (<a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">US Court of Appeals for the Eleventh Circuit</a>, March 2026), and seven US states had sales bans in effect by the end of 2025 (<a href="https://www.meatpoultry.com/articles/33489-cultivated-meat-industry-shrinks-as-investment-and-access-tighten" target="_blank" rel="noopener">Meat+Poultry</a>, May 2026).</li>
+<li>Labels and names are being settled faster than safety: the EU has agreed that products without meat, including novel foods, may not use names referring to meat (<a href="https://data.consilium.europa.eu/doc/document/ST-10723-2026-INIT/en/pdf" target="_blank" rel="noopener">Council of the European Union</a>, June 2026), and a US bill would require the words &ldquo;cell-cultivated&rdquo; prominently on packs (<a href="https://www.govinfo.gov/content/pkg/BILLS-119hr8596ih/html/BILLS-119hr8596ih.htm" target="_blank" rel="noopener">US House of Representatives bill H.R. 8596</a>, April 2026). In Canada, gene-edited pork was approved without a special label (<a href="https://www.canada.ca/en/health-canada/news/2026/01/canada-approves-pigs-resistant-to-porcine-reproductive-and-respiratory-syndrome-viruses-for-use-in-food-and-feed.html" target="_blank" rel="noopener">Health Canada</a>, January 2026) and a Quebec processor&rsquo;s &ldquo;Verified No Cloning or Gene Editing&rdquo; packs are now on shelves across the country (<a href="https://www.delimarketnews.com/well-paired/dubreton-launches-verified-no-cloning-or-gene-editing-packaging-shelves-now-vincent-breton-comments/deli-staff/fri-06262026-0826/21802" target="_blank" rel="noopener">Deli Market News</a>, June 2026).</li>
+<li>Governments that want these foods are building routes around approval: the Netherlands is extending pre-approval tastings from cultivated meat to fermentation products (<a href="https://zoek.officielebekendmakingen.nl/kst-31532-302.pdf" target="_blank" rel="noopener">Dutch government letter to Parliament</a>, December 2025, Dutch), the UK&rsquo;s funded trial programme has had 14 applications from nine companies and aims for about 2.5 years per routine application (<a href="https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/regulatory-sandbox-report-for-cell-cultivated-products-fsa-business-committee" target="_blank" rel="noopener">UK Food Standards Agency</a>, September 2026), and South Korea is writing a complete approval route before any product is cleared (<a href="https://eiec.kdi.re.kr/policy/materialView.do?num=283560" target="_blank" rel="noopener">Korea Ministry of Food and Drug Safety, via the Korea Development Institute</a>, June 2026, Korean).</li>
+<li>Precision fermentation is passing through ordinary reviews: Food Standards Australia New Zealand has drafted approval for a fermented milk protein (<a href="https://consultations.foodstandards.gov.au/fsanz/a1342beta-casein-protein-preparation-from-gm-k-ph/" target="_blank" rel="noopener">Food Standards Australia New Zealand</a>, July 2026), China approved four fermentation-made food ingredients in the first half of 2026 (<a href="https://www.ndrc.gov.cn/xwdt/ztzl/jxpl/202609/t20260928_1407848.html" target="_blank" rel="noopener">China National Development and Reform Commission</a>, September 2026, Chinese), and the agribusiness ADM is hosting what the companies call the first site of its kind in the US for fermented egg-white protein (<a href="https://www.foodnavigator.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/" target="_blank" rel="noopener">FoodNavigator</a>, August 2026).</li>
+</ul>
+</div>
+
+<div class="report-figure" data-figure-form="timeline">
+<h4>Dated milestones abroad to 2030, against none yet in Canada</h4>
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline from 2026 to 2030. Abroad: UK labelling guidance November 2026, UK trial ends February 2027, Texas ban due to expire September 2027, EU meat-name limits from 2029, cultivated meat cost route to about 10 euros a kilo by 2030. Canada: no dated milestone.">
+<line x1="70" y1="40" x2="70" y2="196" stroke="#e5e7eb" stroke-width="1"/>
+<text x="70" y="214" font-size="12" text-anchor="middle" fill="#5a6478">2026</text>
+<line x1="225" y1="40" x2="225" y2="196" stroke="#e5e7eb" stroke-width="1"/>
+<text x="225" y="214" font-size="12" text-anchor="middle" fill="#5a6478">2027</text>
+<line x1="380" y1="40" x2="380" y2="196" stroke="#e5e7eb" stroke-width="1"/>
+<text x="380" y="214" font-size="12" text-anchor="middle" fill="#5a6478">2028</text>
+<line x1="535" y1="40" x2="535" y2="196" stroke="#e5e7eb" stroke-width="1"/>
+<text x="535" y="214" font-size="12" text-anchor="middle" fill="#5a6478">2029</text>
+<line x1="690" y1="40" x2="690" y2="196" stroke="#e5e7eb" stroke-width="1"/>
+<text x="690" y="214" font-size="12" text-anchor="middle" fill="#5a6478">2030</text>
+<text x="8" y="84" font-size="12" font-weight="700" fill="#1a237e">Abroad</text>
+<text x="8" y="172" font-size="12" font-weight="700" fill="#c62828">Canada</text>
+<line x1="70" y1="88" x2="690" y2="88" stroke="#1a237e" stroke-width="3"/>
+<line x1="70" y1="176" x2="690" y2="176" stroke="#c62828" stroke-width="3" stroke-dasharray="6 6"/>
+<circle cx="202" cy="88" r="6" fill="#1a237e"/>
+<text x="202" y="54" font-size="12" text-anchor="middle" fill="#1f2937">UK labelling</text>
+<text x="202" y="68" font-size="12" text-anchor="middle" fill="#1f2937">guidance</text>
+<circle cx="244" cy="88" r="6" fill="#1a237e"/>
+<text x="244" y="110" font-size="12" text-anchor="middle" fill="#1f2937">UK trial</text>
+<text x="244" y="124" font-size="12" text-anchor="middle" fill="#1f2937">ends</text>
+<circle cx="334" cy="88" r="6" fill="#1a237e"/>
+<text x="334" y="54" font-size="12" text-anchor="middle" fill="#1f2937">Texas ban</text>
+<text x="334" y="68" font-size="12" text-anchor="middle" fill="#1f2937">due to expire</text>
+<circle cx="628" cy="88" r="6" fill="#1a237e"/>
+<text x="628" y="54" font-size="12" text-anchor="middle" fill="#1f2937">EU meat-name</text>
+<text x="628" y="68" font-size="12" text-anchor="middle" fill="#1f2937">limits apply</text>
+<circle cx="690" cy="88" r="6" fill="#1a237e"/>
+<text x="696" y="110" font-size="12" text-anchor="end" fill="#1f2937">Cost route to</text>
+<text x="696" y="124" font-size="12" text-anchor="end" fill="#1f2937">about &#8364;10/kg</text>
+<text x="380" y="166" font-size="12" text-anchor="middle" fill="#c62828">No dated milestone for approval, labels, tastings or provincial rules</text>
+</svg>
+<p class="figure-caption">Sources: UK Food Standards Agency (September 2026); Institute for Justice appeal brief (June 2026); Council of the European Union (June 2026), which sets a three-year delay after adoption; vegconomist reporting Arthur D. Little (July 2026), a forecast. Positions on the line are approximate.</p>
+</div>
+
+<div class="weak-signals">
+<h4>Weak signals to watch</h4>
+<ul>
+<li><span class="weak-signal-marker">Weak signal</span> The body that ran Canada&rsquo;s voluntary labelling standard for genetically engineered food was due to close on 1 April 2026 under Budget 2025, according to five groups asking the Health Minister for mandatory labels, who cite 83% public support for them (<a href="https://cban.ca/wp-content/uploads/Lettre-re-les-OGM-24-fev-2026.pdf" target="_blank" rel="noopener">Canadian Biotechnology Action Network and partners</a>, February 2026, French). This gains weight if Health Canada names no new home for food labelling standards before the first cultivated meat application.</li>
+<li><span class="weak-signal-marker">Weak signal</span> Japan is drafting its cell-cultured food guideline around what consumers must be told, after hearing four consumer organisations (<a href="https://www.caa.go.jp/policies/council/fssc/meeting_materials/assets/fscc_cms105_260715_01.pdf" target="_blank" rel="noopener">Japan Consumer Affairs Agency</a>, May 2026, Japanese). This gains weight if Japan publishes consumer-information rules before approving any product, which would give Canada a model that starts with public trust rather than safety data alone.</li>
+</ul>
+</div>
+
+<div class="outlook">
+<h4>Outlook to 2030</h4>
+<p>The next dated steps are all abroad. The UK trial programme ends in February 2027 with a target of two completed safety assessments, and its labelling guidance is due in November 2026 (<a href="https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/regulatory-sandbox-report-for-cell-cultivated-products-fsa-business-committee" target="_blank" rel="noopener">UK Food Standards Agency</a>, September 2026); Texas&rsquo;s ban is set to expire in September 2027 (<a href="https://ij.org/wp-content/uploads/2025/09/2026.06.02-30-Appellants-Opening-Brief-CA5.pdf" target="_blank" rel="noopener">Institute for Justice appeal brief</a>, June 2026); and EU meat-name limits apply three years after adoption (<a href="https://data.consilium.europa.eu/doc/document/ST-10723-2026-INIT/en/pdf" target="_blank" rel="noopener">Council of the European Union</a>, June 2026). Arthur D. Little, a consultancy, forecasts a route to roughly &euro;10/kg for cultivated meat by the end of the decade, from the low &euro;40s/kg today (<a href="https://vegconomist.com/market-trends/new-viewpoint-argues-cultivated-meat-solved-science-now-needs-orders/" target="_blank" rel="noopener">vegconomist, reporting Arthur D. Little</a>, July 2026).</p>
+<p><strong>What it means:</strong> Humane World has until about 2028 to help settle Canada&rsquo;s labels, tasting rules and provincial position before these foreign precedents become the default arguments used in Canada.</p>
+</div>
+<div class="counter-argument">
+<h4>Counter-argument</h4>
+<p>The strongest challenge is that rules are not what holds these foods back. Cultivated meat and seafood companies raised $73.9 million in 2025, down from $139 million in 2024 (<a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist, reporting the Good Food Institute</a>, April 2026); the number of cultivated meat companies fell from 155 to 140 (<a href="https://www.meatpoultry.com/articles/33489-cultivated-meat-industry-shrinks-as-investment-and-access-tighten" target="_blank" rel="noopener">Meat+Poultry</a>, May 2026); close to a dozen products are authorised worldwide with none selling at scale (<a href="https://vegconomist.com/approvals/cultivated-meat-2026-close-dozen-approvals-none-yet-selling-at-scale/" target="_blank" rel="noopener">vegconomist</a>, August 2026); and Singapore, an early approver, has left alternative protein out of its revised local production targets (<a href="https://www.mse.gov.sg/latest-news/oral-reply-to-parliamentary-question-on-revised-local-production-targets/" target="_blank" rel="noopener">Singapore Ministry of Sustainability and the Environment</a>, January 2026). On that reading Humane World&rsquo;s leverage lies in investment and buyers, not regulation. This briefing&rsquo;s reading is that both bind: without settled labels and protection from bans, investors have one more reason to stay away. The point stays open until a Canadian application is filed.</p>
+</div>
+<div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a>, <a href="#si-2" class="xref">2</a>, <a href="#si-3" class="xref">3</a> and <a href="#si-4" class="xref">4</a>.</div>
+</div>
+
+<a name="section-strategic-implications"></a>
+<div class="strategic-implications-section">
+<h2>Strategic Implications</h2>
+
+<div class="si-item" id="si-1">
+<h4>Implication 1: Choose whether 2027 policy work leads with fermented proteins or with cultivated meat</h4>
+<p>Humane World&rsquo;s leadership team should decide by the end of March 2027 which technology leads its policy work. Fermented proteins are clearing ordinary reviews abroad, Canada has already cleared one animal-free milk protein, and fermentation drew $357 million of investment in 2025 (<a href="https://consultations.foodstandards.gov.au/fsanz/a1342beta-casein-protein-preparation-from-gm-k-ph/" target="_blank" rel="noopener">Food Standards Australia New Zealand</a>, July 2026; <a href="https://www.canada.ca/en/health-canada/services/food-nutrition/genetically-modified-foods-other-novel-foods/approved-products/b-lactoglobulin-protein-komagataella-phaffii-yrmk-66/document.html" target="_blank" rel="noopener">Health Canada, Remilk decision</a>, January 2024; <a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist, reporting the Good Food Institute</a>, April 2026). Cultivated meat is closer to Humane World&rsquo;s mission on farmed animals but has no Canadian application yet. Leading with fermentation offers earlier wins but draws Humane World into dairy and egg politics; leading with cultivated meat keeps the focus on meat but may mean years without a Canadian product to point to.</p>
+<p class="si-action">Action: The Executive Director brings a one-page choice, with the evidence for each option, to the board meeting nearest 31 March 2027.</p>
+<span class="si-pill decide">Decide</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a></span>
+</div>
+
+<div class="si-item" id="si-2">
+<h4>Implication 2: Agree a labelling position before the first cultivated meat application reaches Health Canada</h4>
+<p>The policy and government relations team should prepare Humane World&rsquo;s position on how cultivated products are labelled and named. Canada approved gene-edited pork with no special label and private &ldquo;free-from&rdquo; claims followed; the EU has restricted meat names for novel foods; and Australia, New Zealand and a US bill point to a plain &ldquo;cell-cultured&rdquo; or &ldquo;cell-cultivated&rdquo; label (<a href="https://www.canada.ca/en/health-canada/news/2026/01/canada-approves-pigs-resistant-to-porcine-reproductive-and-respiratory-syndrome-viruses-for-use-in-food-and-feed.html" target="_blank" rel="noopener">Health Canada</a>, January 2026; <a href="https://www.delimarketnews.com/well-paired/dubreton-launches-verified-no-cloning-or-gene-editing-packaging-shelves-now-vincent-breton-comments/deli-staff/fri-06262026-0826/21802" target="_blank" rel="noopener">Deli Market News</a>, June 2026; <a href="https://data.consilium.europa.eu/doc/document/ST-10723-2026-INIT/en/pdf" target="_blank" rel="noopener">Council of the European Union</a>, June 2026; <a href="https://www.govinfo.gov/content/pkg/BILLS-119hr8596ih/html/BILLS-119hr8596ih.htm" target="_blank" rel="noopener">US House of Representatives bill H.R. 8596</a>, April 2026). A clear, neutral federal label that Humane World helped shape is better than a gap filled by opponents.</p>
+<p class="si-action">Action: The policy team drafts a labelling position, tested with two or three food companies, and has it agreed by the leadership team by 30 June 2027.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a></span>
+</div>
+
+<div class="si-item" id="si-3">
+<h4>Implication 3: Make the case for a Canadian tasting code and a published review timetable</h4>
+<p>The policy team should build a proposal that Health Canada and Agriculture and Agri-Food Canada can adopt without new safety law. The Dutch government is extending its pre-approval tasting code to fermentation products, and the UK publishes how many applications its trial programme has received and how long reviews should take (<a href="https://zoek.officielebekendmakingen.nl/kst-31532-302.pdf" target="_blank" rel="noopener">Dutch government letter to Parliament</a>, December 2025, Dutch; <a href="https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/regulatory-sandbox-report-for-cell-cultivated-products-fsa-business-committee" target="_blank" rel="noopener">UK Food Standards Agency</a>, September 2026). Both make public familiarity part of the process rather than an afterthought, which is the gap opponents exploit.</p>
+<p class="si-action">Action: The policy team sends a short proposal, based on the Dutch code and the UK programme&rsquo;s published measures, to both departments by 31 December 2027.</p>
+<span class="si-pill prepare">Prepare</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a></span>
+</div>
+
+<div class="si-item" id="si-4">
+<h4>Implication 4: Track provincial ban risk and the US court cases</h4>
+<p>The campaigns team should watch for any sign that a Canadian province is considering a ban. A US appeals court has upheld Florida&rsquo;s ban, the challenge to Texas&rsquo;s ban is on appeal with the ban due to expire in September 2027, and Hungary banned cultivated meat by 140 votes to 10 (<a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">US Court of Appeals for the Eleventh Circuit</a>, March 2026; <a href="https://ij.org/wp-content/uploads/2025/09/2026.06.02-30-Appellants-Opening-Brief-CA5.pdf" target="_blank" rel="noopener">Institute for Justice appeal brief</a>, June 2026; <a href="https://telex.hu/gazdasag/2025/11/18/muhus-betiltas-parlament-orszaggyules-torveny-laboratoriumi-hus" target="_blank" rel="noopener">Telex</a>, November 2025, Hungarian). No Canadian province has moved, so this is a watch, not a campaign.</p>
+<p class="si-action">Action: The campaigns team keeps a quarterly watch list of provincial bills, farm-group statements and the Texas appeal, reporting to the leadership team each quarter from January 2027.</p>
+<span class="si-pill monitor">Monitor</span>
+<span class="si-cluster-ref">Draws on Theme <a href="#cluster-1" class="xref">1</a></span>
+</div>
+
+</div>
+
+<a name="section-scenario-matrix"></a>
+<div class="scenario-matrix">
+<h2>Scenario Matrix 2030</h2>
+<div class="scenario-matrix-axed">
+<div class="axis-name-h">Sales rules set by: Ottawa &rarr; provinces</div>
+<div class="axis-name-v">First to market: ingredients &rarr; meat</div>
+<div class="matrix-frame">
+<div class="corner-label corner-tl">Meat first &middot; Ottawa</div>
+<div class="corner-label corner-tr">Meat first &middot; provinces</div>
+<div class="corner-label corner-bl">Ingredients first &middot; Ottawa</div>
+<div class="corner-label corner-br">Ingredients first &middot; provinces</div>
+
+<div class="scenario-grid">
+
+<div class="scenario-cell scenario-1">
+<h4>One National Door</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>Canada moves from no approved cultivated meat today to at least one product sold nationally under a single federal label.</p>
+<p>By 2030 Health Canada has approved cultivated meat and the Canadian Food Inspection Agency has set one plain label for it. Provinces leave sales to Ottawa. Controlled tastings before approval helped the public get used to the idea, and the debate has moved from whether to allow these foods to how fast supply can grow. Conventional producers use voluntary claims about how their animals are raised, much as gene-edited pork prompted &ldquo;no gene editing&rdquo; packs.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> A first cultivated meat application announced to Health Canada; a federal consultation on labels for cell-cultivated products; no provincial bill tabled.</div>
+</div>
+
+<div class="scenario-cell scenario-2">
+<h4>Approved but Fenced In</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>At least one cultivated product is approved federally, but one or more provinces restrict its sale, as several US states did after federal clearance.</p>
+<p>By 2030 Ottawa has said yes but some provinces have said no, usually livestock provinces responding to farm groups. Companies sell only where it is allowed and spend money on court challenges about who controls food sales. National supermarket chains hesitate to stock a product they cannot sell everywhere. Humane World&rsquo;s work shifts to defending market access province by province.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> A provincial member&rsquo;s bill to ban or pause sales; farm groups calling for provincial action; a constitutional challenge over federal and provincial powers.</div>
+</div>
+
+<div class="scenario-cell scenario-3">
+<h4>Quiet Ingredients</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>Fermented milk and egg proteins grow from one Canadian approval today to several used in everyday foods, while cultivated meat waits.</p>
+<p>By 2030 animal-free proteins are inside processed foods, labelled mainly as allergens, with little public debate. Cultivated meat has no Canadian approval because companies could not raise the money to apply. Ottawa sets the rules and provinces compete for fermentation plants as job creators. Humane World measures progress by how much dairy and egg protein these ingredients replace.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> New Health Canada decisions on fermented proteins; a large Canadian food maker using them; more provinces funding fermentation capacity.</div>
+</div>
+
+<div class="scenario-cell scenario-4">
+<h4>Dairy and Egg Pushback</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>Fermented proteins are approved federally, but provinces restrict dairy and egg names or public purchasing, as the EU did for meat names.</p>
+<p>By 2030 animal-free proteins are legal but boxed in. Provincial rules on what may be called milk, cheese or egg, pushed by supply-managed farm sectors, force awkward technical names, and public buyers such as schools and hospitals avoid the products. Uptake is slow and regional. Humane World spends its effort on naming fights rather than on growth.</p>
+<div class="scenario-indicators"><strong>Early indicators:</strong> A province consulting on dairy or egg product names; dairy sector campaigns against animal-free proteins; procurement rules that exclude them.</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<a name="section-surprises"></a>
+<div class="surprises-section">
+<h2>Potential Surprises to 2040</h2>
+<div class="sur-grid">
+<div class="surprise s-weak">
+<span class="sur-eyebrow">Weak signal</span>
+<h4>A Canadian province bans cultivated meat</h4>
+<p class="sur-meta"><strong>Window:</strong> 2029 to 2036 &middot; <strong>Probability band:</strong> Low-Medium (20 to 40%)</p>
+<p class="sur-why"><strong>Why it would surprise:</strong> Canadian plans assume that a federal approval opens the national market, as it does for most foods.</p>
+<p>The US courts have let a state ban stand despite federal clearance (<a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">US Court of Appeals for the Eleventh Circuit</a>, March 2026), and Hungary legislated a ban by 140 votes to 10 (<a href="https://telex.hu/gazdasag/2025/11/18/muhus-betiltas-parlament-orszaggyules-torveny-laboratoriumi-hus" target="_blank" rel="noopener">Telex</a>, November 2025, Hungarian).</p>
+<p class="sur-signposts"><strong>Signposts to watch:</strong></p>
+<ul class="sur-signposts-list"><li>By December 2027: a farm organisation in a livestock province publicly calls for a provincial ban or pause.</li><li>By September 2027: Texas renews its ban rather than letting it expire.</li><li>By June 2028: the US Court of Appeals for the Fifth Circuit rules on the Texas challenge.</li></ul>
+<p class="sur-today"><strong>What it touches today:</strong> Any campaign plan that treats Health Canada approval as the finish line.</p>
+</div>
+<div class="surprise s-emerging">
+<span class="sur-eyebrow">Emerging</span>
+<h4>Asian regulators, not American or European ones, set the model for approving cultivated meat</h4>
+<p class="sur-meta"><strong>Window:</strong> 2031 to 2038 &middot; <strong>Probability band:</strong> Low-Medium (20 to 40%)</p>
+<p class="sur-why"><strong>Why it would surprise:</strong> Canadian debate looks to Washington and Brussels for precedent.</p>
+<p>South Korea is drafting a complete approval route before any product exists (<a href="https://eiec.kdi.re.kr/policy/materialView.do?num=283560" target="_blank" rel="noopener">Korea Ministry of Food and Drug Safety, via the Korea Development Institute</a>, June 2026, Korean), Japan is building its guideline around consumer information (<a href="https://www.caa.go.jp/policies/council/fssc/meeting_materials/assets/fscc_cms105_260715_01.pdf" target="_blank" rel="noopener">Japan Consumer Affairs Agency</a>, May 2026, Japanese), and Singapore approved cultivated beef in August 2026 (<a href="https://vegconomist.com/approvals/singapore-clears-first-cultivated-beef-aleph-farms-approval/" target="_blank" rel="noopener">vegconomist</a>, August 2026).</p>
+<p class="sur-signposts"><strong>Signposts to watch:</strong></p>
+<ul class="sur-signposts-list"><li>By December 2027: South Korea approves its first cell-cultured food ingredient.</li><li>By December 2028: Japan publishes a final guideline with rules on what consumers must be told.</li></ul>
+<p class="sur-today"><strong>What it touches today:</strong> Which foreign examples Humane World cites when it briefs Health Canada.</p>
+</div>
+<div class="surprise s-weak">
+<span class="sur-eyebrow">Weak signal</span>
+<h4>Chinese firms become a main source of fermentation-made food ingredients sold in Canada</h4>
+<p class="sur-meta"><strong>Window:</strong> 2031 to 2038 &middot; <strong>Probability band:</strong> Low (under 20%)</p>
+<p class="sur-why"><strong>Why it would surprise:</strong> Most planning assumes these ingredients will come from Western start-ups and Canadian plants.</p>
+<p>China&rsquo;s planning agency names biomanufacturing a priority industry to 2030 and reports four fermentation-made food ingredients approved in the first half of 2026 (<a href="https://www.ndrc.gov.cn/xwdt/ztzl/jxpl/202609/t20260928_1407848.html" target="_blank" rel="noopener">China National Development and Reform Commission</a>, September 2026, Chinese).</p>
+<p class="sur-signposts"><strong>Signposts to watch:</strong></p>
+<ul class="sur-signposts-list"><li>By December 2027: China approves further fermentation-made proteins for food use.</li><li>By December 2028: a Chinese fermentation-protein company seeks a Health Canada decision.</li></ul>
+<p class="sur-today"><strong>What it touches today:</strong> Whether Humane World argues for Canadian fermentation capacity, such as Nova Scotia&rsquo;s, as a matter of supply security.</p>
+</div>
+</div>
+</div>
+
+<a name="section-options"></a>
+<div class="options-section">
+<div class="option-area"><h3>Options: Shaping Canada&rsquo;s approval process (Humane World&rsquo;s policy team, with Health Canada)</h3><div class="opt-grid">
+<div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Respond case by case</h4><p>Comment on each application as it arrives and rely on Health Canada&rsquo;s existing review.</p><p class="opt-trade"><strong>Trade-off:</strong> Costs little now, but leaves Canada without a timetable or tasting route when the first application lands.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> One National Door; Quiet Ingredients</p></div>
+<div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Ask for a published review timetable</h4><p>Press Health Canada to publish target review times and progress figures, as the UK programme does.</p><p class="opt-trade"><strong>Trade-off:</strong> Modest effort; may be resisted as costly, and does nothing to build public familiarity.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> One National Door; Approved but Fenced In</p></div>
+<div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Campaign for a tasting code and trial programme</h4><p>Seek a code allowing controlled public tastings before approval, modelled on the Dutch one, plus a funded trial programme.</p><p class="opt-trade"><strong>Trade-off:</strong> Needs allies and federal money, and gives opponents an early target.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div>
+</div></div>
+<div class="option-area"><h3>Options: Labels and names (Humane World with food companies and the Canadian Food Inspection Agency)</h3><div class="opt-grid">
+<div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Accept what is proposed</h4><p>Wait for the regulator&rsquo;s proposal and comment on it.</p><p class="opt-trade"><strong>Trade-off:</strong> No cost now; risks &ldquo;free-from&rdquo; claims on conventional meat and restrictive names later.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Quiet Ingredients</p></div>
+<div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Back a plain federal label early</h4><p>Propose a clear &ldquo;cell-cultivated&rdquo; label before the first application, as Australia, New Zealand and a US bill do.</p><p class="opt-trade"><strong>Trade-off:</strong> Concedes a mandatory label some companies dislike, but removes the &ldquo;hidden ingredient&rdquo; argument.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> One National Door; Approved but Fenced In</p></div>
+<div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Build a national labelling coalition</h4><p>Work with retailers, consumer groups and producers on one standard covering new-food labels and &ldquo;free-from&rdquo; claims.</p><p class="opt-trade"><strong>Trade-off:</strong> Slow and needs partners who disagree, but gives the most lasting settlement.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div>
+</div></div>
+<div class="option-area"><h3>Options: Market access and demand (Humane World with provinces, funders and food companies)</h3><div class="opt-grid">
+<div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Rely on federal approval</h4><p>Treat a Health Canada approval as enough to open the national market.</p><p class="opt-trade"><strong>Trade-off:</strong> Cheapest; exposed if a province bans or restricts sales.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> One National Door</p></div>
+<div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Back fermentation wins with provinces</h4><p>Support provincial investment in fermentation plants, as in Nova Scotia, and the companies using them.</p><p class="opt-trade"><strong>Trade-off:</strong> Shifts some focus from meat, but gains allies in economic ministries.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Quiet Ingredients; Dairy and Egg Pushback</p></div>
+<div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Seek public co-funding and purchasing</h4><p>Press governments for co-funding and public-sector purchasing commitments, since private capital alone has not scaled the sector.</p><p class="opt-trade"><strong>Trade-off:</strong> A large ask in tight budgets; tackles investment rather than rules.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> One National Door; Approved but Fenced In</p></div>
+</div></div>
+</div>
+
+<a name="section-explicit-exclusions"></a>
+<div class="exclusions-section">
+<h2>What We Are Not Planning For</h2>
+
+<div class="exclusion-item excl-1">
+<span class="excl-eyebrow">Federal politics</span>
+<h4>A federal ban on cultivated meat in Canada</h4>
+<p>Health Canada treats cultivated meat as an ordinary novel food and says it will list products as applications arrive (<a href="https://www.canada.ca/fr/sante-canada/services/aliments-nutrition/agriculture-cellulaire.html" target="_blank" rel="noopener">Health Canada, cellular agriculture page</a>, December 2023, French). The European bans in Italy and Hungary came from national politics with no Canadian equivalent at federal level, and the American bans are at state level.</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> a federal bill or a minister proposes a ban or moratorium.</p>
+</div>
+
+<div class="exclusion-item excl-2">
+<span class="excl-eyebrow">Safety</span>
+<h4>Health Canada rejecting a cultivated meat application on safety grounds</h4>
+<p>Food Standards Australia New Zealand found no public health or safety concerns with a second cell-cultured product (<a href="https://www.foodstandards.gov.au/media/call-comment-cell-cultured-duck-anas-platyrhynchos-domesticus-biomass" target="_blank" rel="noopener">Food Standards Australia New Zealand</a>, June 2026), and Singapore and Israel have both approved cultivated beef (<a href="https://vegconomist.com/approvals/singapore-clears-first-cultivated-beef-aleph-farms-approval/" target="_blank" rel="noopener">vegconomist</a>, August 2026). A rejection is possible for a specific product, but not the main risk.</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> any regulator withdraws a cultivated meat approval for safety reasons.</p>
+</div>
+
+<div class="exclusion-item excl-3">
+<span class="excl-eyebrow">Capacity</span>
+<h4>A shortage of fermentation plants holding back Canadian supply</h4>
+<p>Capacity is being added in Canada and next door: Nova Scotia is expanding a plant to take roughly 10 more client companies a year (<a href="https://vegconomist.com/manufacturing-technology/nova-scotia-puts-1-2m-cape-breton-precision-fermentation-plant-add-client-capacity/" target="_blank" rel="noopener">vegconomist</a>, August 2026), and a major agribusiness is hosting commercial fermented-protein production in Iowa (<a href="https://www.foodnavigator.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/" target="_blank" rel="noopener">FoodNavigator</a>, August 2026).</p>
+<p class="reinstatement">&#8634; <strong>Reinstated if</strong> Canadian fermentation companies report waiting lists for production space.</p>
+</div>
+
+</div>
+
+<a name="section-discussion-points"></a>
+<div class="discussion-points">
+<h2>Questions For The Next Strategy Meeting</h2>
+<p class="dp-standfirst">Five questions this cycle&rsquo;s evidence should put on the agenda.</p>
+<ol>
+<li>If we can lead on only one technology in 2027, is it animal-free dairy and egg proteins, where wins are nearer, or cultivated meat, which is closer to our mission on farmed animals?</li>
+<li>Would we rather Canada had a clear, mandatory &ldquo;cell-cultivated&rdquo; label now, or no label and the risk of &ldquo;free-from&rdquo; claims on conventional meat?</li>
+<li>The body that ran Canada&rsquo;s voluntary labelling standard for genetically engineered food was due to close in 2026: who do we want to own labelling standards for new proteins, and should we say so before anyone asks?</li>
+<li>Which province is most likely to consider a ban, and who there would we need on side before it does?</li>
+<li>Which of our current activities looks least wise in these futures?</li>
+</ol>
+</div>
+
+<a name="section-source-register"></a>
+<div class="source-register">
+<h2>Source Confidence Register</h2>
+<p>This briefing draws on 28 verified sources, gathered under a soft six-month recency window (publications from April 2026 onward), with six structural anchors in the six-to-twelve-month band and four older legal and regulatory anchors.</p>
+<p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
+<h4>Theme 1: Canada can approve cultivated meat and fermented proteins but has not settled labels, tastings or bans</h4>
+<table>
+<colgroup>
+<col class="col-source"><col class="col-tier"><col class="col-date"><col class="col-claim">
+</colgroup>
+<thead><tr><th>Source</th><th>Tier</th><th>Date</th><th>Key claim used</th></tr></thead>
+<tbody>
+<tr class="tier-1"><td><a href="https://pg-perugia.giustizia.it/cmsresources/cms/documents/L 2023 172 carne coltivata.pdf" target="_blank" rel="noopener">Procura Generale della Repubblica di Perugia (Ministero della Giustizia): LEGGE 1 dicembre 2023, n. 172</a></td><td class="tier-1">Tier 1</td><td>December 2023 (Italian), structural anchor</td><td>Italy&#x27;s Law 172/2023 bans producing, selling or importing food made from vertebrate cell or tissue cultures, with fines of EUR 10,000 to EUR 60,000.</td></tr>
+<tr class="tier-1"><td><a href="https://www.canada.ca/fr/sante-canada/services/aliments-nutrition/agriculture-cellulaire.html" target="_blank" rel="noopener">Santé Canada: Agriculture cellulaire</a></td><td class="tier-1">Tier 1</td><td>December 2023 (French), structural anchor</td><td>Foods made by cellular agriculture are novel foods needing pre-market safety assessment; Health Canada has assessed some cellular-agriculture ingredients and will add cultivated meat products to its list as submissions arrive. None is listed.</td></tr>
+<tr class="tier-1"><td><a href="https://www.canada.ca/en/health-canada/services/food-nutrition/genetically-modified-foods-other-novel-foods/approved-products/b-lactoglobulin-protein-komagataella-phaffii-yrmk-66/document.html" target="_blank" rel="noopener">Health Canada: Novel Food Information: β-Lactoglobulin protein from yeast strain Komagataella phaffii yRMK-66</a></td><td class="tier-1">Tier 1</td><td>January 2024, structural anchor</td><td>Health Canada issued Remilk a letter of no objection for its precision-fermented beta-lactoglobulin milk protein, to be labelled as containing a milk allergen.</td></tr>
+<tr class="tier-1"><td><a href="https://sencanada.ca/en/senators/moreau-pierre/interventions/678550/20" target="_blank" rel="noopener">Senate of Canada: Sale of Food Derived from Cloned Animals in Canada (Question Period)</a></td><td class="tier-1">Tier 1</td><td>November 2025, structural anchor</td><td>A senator said Health Canada had quietly authorised food from cloned animals without notice or labelling, effective January 2026; the Government Representative replied the update was suspended for further discussion with stakeholders.</td></tr>
+<tr class="tier-1"><td><a href="https://zoek.officielebekendmakingen.nl/kst-31532-302.pdf" target="_blank" rel="noopener">Officiële Bekendmakingen (Tweede Kamer der Staten-Generaal): Brief van de staatssecretarissen van Landbouw, Visserij, Voedselzekerheid en Natuur en van Volksgezondheid, Welzijn en Sport (Kamerstuk 31 532, nr. 302)</a></td><td class="tier-1">Tier 1</td><td>December 2025 (Dutch), structural anchor</td><td>The Dutch government is extending its pre-approval tasting Code of Practice from cultivated meat to precision-fermentation products; the code normally runs two years and companies aim for first tastings early in 2026.</td></tr>
+<tr class="tier-1"><td><a href="https://www.mse.gov.sg/latest-news/oral-reply-to-parliamentary-question-on-revised-local-production-targets/" target="_blank" rel="noopener">Ministry of Sustainability and the Environment, Singapore: Oral Reply to Parliamentary Question on Revised Local Production Targets</a></td><td class="tier-1">Tier 1</td><td>January 2026, structural anchor</td><td>Singapore&#x27;s revised local food-production targets exclude meat and alternative protein, the latter because the sector is nascent.</td></tr>
+<tr class="tier-1"><td><a href="https://www.canada.ca/en/health-canada/news/2026/01/canada-approves-pigs-resistant-to-porcine-reproductive-and-respiratory-syndrome-viruses-for-use-in-food-and-feed.html" target="_blank" rel="noopener">Health Canada: Canada approves pigs resistant to porcine reproductive and respiratory syndrome viruses for use in food and feed</a></td><td class="tier-1">Tier 1</td><td>January 2026, structural anchor</td><td>Gene-edited pigs approved for food in January 2026; because Health Canada found no safety concerns no special labelling is required, and labelling transparency is routed to a voluntary National Standard review.</td></tr>
+<tr class="tier-1"><td><a href="https://media.ca11.uscourts.gov/opinions/pub/files/202413640.pdf" target="_blank" rel="noopener">U.S. Court of Appeals for the Eleventh Circuit: Upside Foods Inc. v. Commissioner, Florida Department of Agriculture and Consumer Services, No. 24-13640 (opinion)</a></td><td class="tier-1">Tier 1</td><td>March 2026, structural anchor</td><td>The federal Poultry Products Inspection Act does not pre-empt Florida&#x27;s ban on cultivated meat, because the ban does not reach the company&#x27;s premises, facilities or operations.</td></tr>
+<tr class="tier-1"><td><a href="https://www.govinfo.gov/content/pkg/BILLS-119hr8596ih/html/BILLS-119hr8596ih.htm" target="_blank" rel="noopener">U.S. Government Publishing Office (govinfo): H.R. 8596 (Introduced in House) - FAIR Labels Act of 2026</a></td><td class="tier-1">Tier 1</td><td>April 2026</td><td>A House bill would require cell-cultivated meat and poultry to carry the words &#x27;cell-cultivated&#x27; prominently next to the product name, and would require USDA and HHS to revise their joint agreement within 90 days of enactment.</td></tr>
+<tr class="tier-1"><td><a href="https://www.caa.go.jp/policies/council/fssc/meeting_materials/assets/fscc_cms105_260715_01.pdf" target="_blank" rel="noopener">Consumer Affairs Agency, Japan (消費者庁): 令和８年度第２回食品衛生基準審議会新開発食品調査部会 議事録</a></td><td class="tier-1">Tier 1</td><td>May 2026 (Japanese)</td><td>Japan&#x27;s subcommittee on newly developed foods heard four consumer organisations on cell-cultured food after presenting a draft guideline outline in February; what consumers must be told will be settled from those hearings.</td></tr>
+<tr class="tier-1"><td><a href="https://data.consilium.europa.eu/doc/document/ST-10723-2026-INIT/en/pdf" target="_blank" rel="noopener">Council of the European Union: Regulation amending the CMO Regulation as regards the strengthening of the position of farmers in the food supply chain: state of play (ST 10723/26)</a></td><td class="tier-1">Tier 1</td><td>June 2026</td><td>The agreed EU amendment bars products not containing meat, including plant-based substitutes and novel foods, from using names referring to meat, with a three-year period before the rules apply.</td></tr>
+<tr class="tier-1"><td><a href="https://www.foodstandards.gov.au/media/call-comment-cell-cultured-duck-anas-platyrhynchos-domesticus-biomass" target="_blank" rel="noopener">Food Standards Australia New Zealand: Call for comment on cell-cultured duck (Anas platyrhynchos domesticus) biomass</a></td><td class="tier-1">Tier 1</td><td>June 2026</td><td>FSANZ found no public health or safety concerns with Gourmey&#x27;s cell-cultured duck, the second cell-cultured food it has assessed, and opened public comment.</td></tr>
+<tr class="tier-1"><td><a href="https://eiec.kdi.re.kr/policy/materialView.do?num=283560" target="_blank" rel="noopener">KDI Economic Information and Education Center (KDI 경제정보센터): 식약처, 세포배양가공식품 기준 신설 등 식품 기준·규격 개선 추진</a></td><td class="tier-1">Tier 1</td><td>June 2026 (Korean)</td><td>Korea&#x27;s Ministry of Food and Drug Safety proposed Food Code amendments creating general standards for safety review and temporary approval of cell-cultured food ingredients, and a new cell-cultured processed food category.</td></tr>
+<tr class="tier-1"><td><a href="https://consultations.foodstandards.gov.au/fsanz/a1342beta-casein-protein-preparation-from-gm-k-ph/" target="_blank" rel="noopener">Food Standards Australia New Zealand: A1342 - Beta-casein protein preparation from GM Komagataella phaffii</a></td><td class="tier-1">Tier 1</td><td>July 2026</td><td>FSANZ assessed a precision-fermented beta-casein milk protein and prepared a draft regulatory measure; consultation closed 20 August 2026.</td></tr>
+<tr class="tier-1"><td><a href="https://www.gov.uk/government/publications/food-standards-agency-business-committee-meeting-september-2026/regulatory-sandbox-report-for-cell-cultivated-products-fsa-business-committee" target="_blank" rel="noopener">GOV.UK (Food Standards Agency): Regulatory sandbox report for cell-cultivated products: FSA Business Committee</a></td><td class="tier-1">Tier 1</td><td>September 2026</td><td>The UK sandbox runs February 2025 to February 2027, has had 14 applications from nine companies, still targets two completed risk assessments and aims for about 2.5 years for routine applications; no product has finished assessment.</td></tr>
+<tr class="tier-1"><td><a href="https://www.ndrc.gov.cn/xwdt/ztzl/jxpl/202609/t20260928_1407848.html" target="_blank" rel="noopener">National Development and Reform Commission (国家发展和改革委员会): 金轩 | 生物制造为未来产业发展打造新引擎</a></td><td class="tier-1">Tier 1</td><td>September 2026 (Chinese)</td><td>China&#x27;s planning agency names biomanufacturing a priority future industry for the 15th Five-Year Plan and reports four fermentation-made new food ingredients approved in the first half of 2026.</td></tr>
+<tr class="tier-3"><td><a href="https://telex.hu/gazdasag/2025/11/18/muhus-betiltas-parlament-orszaggyules-torveny-laboratoriumi-hus" target="_blank" rel="noopener">Telex: Megszavazta a parlament a műhús betiltását</a></td><td class="tier-3">Tier 3</td><td>November 2025 (Hungarian), structural anchor</td><td>Hungary&#x27;s parliament voted 140 to 10, with 18 abstentions, to ban production and sale of cultivated meat.</td></tr>
+<tr class="tier-3"><td><a href="https://vegconomist.com/studies-numbers/gfis-2026-state-of-industry-reports-detail-mixed-year-alternative-proteins-across-three-sectors" target="_blank" rel="noopener">vegconomist: GFI’s 2026 State of the Industry Reports Detail Mixed Year for Alternative Proteins Across All Three Sectors</a></td><td class="tier-3">Tier 3</td><td>April 2026</td><td>Cultivated meat and seafood companies raised $73.9 million in 2025, down from $139 million in 2024; fermentation companies raised $357 million, down from $651 million.</td></tr>
+<tr class="tier-3"><td><a href="https://www.meatpoultry.com/articles/33489-cultivated-meat-industry-shrinks-as-investment-and-access-tighten" target="_blank" rel="noopener">Meat+Poultry: Cultivated meat industry shrinks as investment and access tighten</a></td><td class="tier-3">Tier 3</td><td>May 2026</td><td>The number of cultivated meat companies fell from 155 in 2024 to 140 in 2025; seven US states had sales bans in effect by end-2025.</td></tr>
+<tr class="tier-3"><td><a href="https://www.delimarketnews.com/well-paired/dubreton-launches-verified-no-cloning-or-gene-editing-packaging-shelves-now-vincent-breton-comments/deli-staff/fri-06262026-0826/21802" target="_blank" rel="noopener">Deli Market News: duBreton Launches “Verified No Cloning or Gene Editing” Packaging on Shelves Now; Vincent Breton Comments</a></td><td class="tier-3">Tier 3</td><td>June 2026</td><td>Quebec pork processor duBreton&#x27;s voluntary &#x27;Verified No Cloning or Gene Editing&#x27; claim is now on shelves at participating retailers across Canada, responding to gene-edited pork approved without mandatory labels.</td></tr>
+<tr class="tier-3"><td><a href="https://vegconomist.com/market-trends/new-viewpoint-argues-cultivated-meat-solved-science-now-needs-orders/" target="_blank" rel="noopener">vegconomist: New Viewpoint Argues Cultivated Meat Has Solved the Science and Now Needs the Orders</a></td><td class="tier-3">Tier 3</td><td>July 2026</td><td>Arthur D. Little puts cultivated meat finished-product costs in the low EUR 40s per kg with a route to roughly EUR 10 per kg by the end of the decade, and argues the remaining barrier is commercial and needs public money.</td></tr>
+<tr class="tier-3"><td><a href="https://vegconomist.com/approvals/singapore-clears-first-cultivated-beef-aleph-farms-approval/" target="_blank" rel="noopener">vegconomist: Singapore Clears Its First Cultivated Beef With Aleph Farms Approval</a></td><td class="tier-3">Tier 3</td><td>August 2026</td><td>The Singapore Food Agency approved Aleph Farms&#x27; cultivated beef, making Singapore the second market to clear it after Israel.</td></tr>
+<tr class="tier-3"><td><a href="https://www.foodnavigator.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/" target="_blank" rel="noopener">FoodNavigator: A new protein contender emerges as whey prices surge</a></td><td class="tier-3">Tier 3</td><td>August 2026</td><td>ADM and The Every Company will make precision-fermented egg-white protein at commercial scale at ADM&#x27;s Iowa site, the first US site of its kind at this scale.</td></tr>
+<tr class="tier-3"><td><a href="https://vegconomist.com/manufacturing-technology/nova-scotia-puts-1-2m-cape-breton-precision-fermentation-plant-add-client-capacity/" target="_blank" rel="noopener">vegconomist: Nova Scotia Puts $1.2M Into Cape Breton Precision Fermentation Plant to Add Client Capacity</a></td><td class="tier-3">Tier 3</td><td>August 2026</td><td>Nova Scotia and the Atlantic Canada Opportunities Agency put $1.2 million into the Verschuren Centre&#x27;s precision fermentation facility, adding capacity for roughly 10 more client companies a year.</td></tr>
+<tr class="tier-3"><td><a href="https://www.greenqueen.com.hk/upside-foods-believer-meats-wilson-nc-cultivated-meat-facility-bid/" target="_blank" rel="noopener">Green Queen: Upside Foods Withdraws $50M Bid to Buy Believer Meats’s US Facility, But Retains Interest</a></td><td class="tier-3">Tier 3</td><td>August 2026</td><td>Believer Meats had US Food and Drug Administration approval and $387M of funding since 2018 yet ceased operations; its North Carolina plant remains unsold.</td></tr>
+<tr class="tier-3"><td><a href="https://vegconomist.com/approvals/cultivated-meat-2026-close-dozen-approvals-none-yet-selling-at-scale/" target="_blank" rel="noopener">vegconomist: Cultivated Meat in 2026: Close to a Dozen Approvals, None Yet Selling at Scale</a></td><td class="tier-3">Tier 3</td><td>August 2026</td><td>Close to a dozen cultivated-meat products are authorised worldwide but none is selling at scale; the UK, Switzerland and several other markets have applications in review.</td></tr>
+<tr class="tier-4"><td><a href="https://cban.ca/wp-content/uploads/Lettre-re-les-OGM-24-fev-2026.pdf" target="_blank" rel="noopener">Canadian Biotechnology Action Network (CBAN): Lettre re les OGM 24 fév 2026 (lettre à l&#x27;hon. Marjorie Michel, ministre de la Santé)</a></td><td class="tier-4">Tier 4</td><td>February 2026 (French), structural anchor</td><td>Five groups ask the Health Minister for mandatory labelling of genetically engineered foods, noting that the Canadian General Standards Board, home of the voluntary labelling standard, disappears on 1 April 2026 under Budget 2025, and citing 83% public support for mandatory labels.</td></tr>
+<tr class="tier-4"><td><a href="https://ij.org/wp-content/uploads/2025/09/2026.06.02-30-Appellants-Opening-Brief-CA5.pdf" target="_blank" rel="noopener">Institute for Justice: Appellants&#x27; Opening Brief, Wild Type, Inc. and UPSIDE Foods, Inc. v. Shuford et al., No. 26-50181 (5th Cir.)</a></td><td class="tier-4">Tier 4</td><td>June 2026</td><td>Wildtype and UPSIDE are appealing the refusal to block Texas&#x27;s ban; the brief notes the ban is set to expire in September 2027.</td></tr>
+</tbody>
+</table>
+</div>
+
+<a name="claim-fidelity"></a>
+<div class="source-register claim-fidelity">
+<h2>Claim-fidelity self-disclosure</h2>
+<p>This appendix records every claim that goes beyond what a cited source literally states.</p>
+<h4>Cycle-over-cycle continuity claims</h4>
+<p>None. This is the first edition on this topic for Humane World for Animals Canada, so no claim refers to a prior cycle.</p>
+<h4>Superlatives used</h4>
+<ul>
+<li>&ldquo;the first site of its kind in the US&rdquo; (Theme 1, fourth signal) is the companies&rsquo; own description, as reported by FoodNavigator, and is attributed to them in the text.</li>
+<li>&ldquo;the one animal-free milk protein it has cleared&rdquo; (Key takeaways) rests on Health Canada&rsquo;s Remilk decision and on this briefing&rsquo;s search, which found no other precision-fermented dairy approval; it is the analysis&rsquo;s finding, not a statement by Health Canada.</li>
+<li>&ldquo;Singapore, an early approver&rdquo; and &ldquo;much of Europe lacks&rdquo; are analyst characterisations, not in any source.</li>
+</ul>
+<h4>Analytical synthesis claims</h4>
+<ul>
+<li>The central thesis, that the outcome for these foods is now decided by the rules around approval rather than approval itself (Executive Synthesis, paragraph 1; Theme 1 framing), reads across the Eleventh Circuit ruling, the Believer Meats closure, the gene-edited pork decision and duBreton labels, the Dutch letter, the UK programme report and the EU Council note. No single source states it.</li>
+<li>&ldquo;Canada&rsquo;s first real fight is likely to be over labels and openness rather than safety&rdquo; (Why This Matters Now; Key takeaways) is an inference from the gene-edited pork and cloned-animal episodes (Health Canada, January 2026; Senate of Canada, November 2025; Deli Market News, June 2026) applied to cultivated meat.</li>
+<li>&ldquo;Precision fermentation is moving through ordinary approvals faster than cultivated meat&rdquo; reads across Food Standards Australia New Zealand (July 2026), the China National Development and Reform Commission (September 2026), Health Canada (January 2024), FoodNavigator (August 2026) and the investment figures reported by vegconomist (April 2026).</li>
+<li>&ldquo;Nearly five times&rdquo; (Executive Synthesis, decisions list) is the analyst&rsquo;s arithmetic on the two investment totals reported by vegconomist ($357 million against $73.9 million).</li>
+<li>&ldquo;Humane World has until about 2028&rdquo; (Outlook) is the analysis&rsquo;s judgement from the dated milestones abroad, not a forecast in any source.</li>
+<li>The provincial ban risk is the analysis&rsquo;s reading of US and European precedent; no source reports any Canadian provincial proposal.</li>
+</ul>
+<p><strong>Analyst judgements and added sources.</strong> The theme weight, the &ldquo;who decides&rdquo; and &ldquo;room to act&rdquo; lines, the Options, the scenario axes and the Potential Surprises are the analysis&rsquo;s proposals for discussion, not findings. The Outlook uses three dated commitments (the UK Food Standards Agency programme timetable, the Texas ban&rsquo;s expiry date as stated in the Institute for Justice appeal brief, and the EU three-year delay in the Council note) and one forecast, Arthur D. Little&rsquo;s cost route to roughly &euro;10/kg, which reaches us through vegconomist rather than the original viewpoint. The Eleventh Circuit&rsquo;s reasoning and Japan&rsquo;s subcommittee minutes are paraphrased in plain words; their exact wording is kept in the evidence record. Sources in French, Korean, Japanese, Chinese, Dutch, Italian and Hungarian are given in English in the text, with the original wording in the evidence record. Two sources disagree on cultivated meat investment in 2024 ($139 million in vegconomist&rsquo;s report of Good Food Institute data; a different figure in Meat+Poultry); this briefing uses the vegconomist figure. The 83% support for mandatory labels is reported by an advocacy coalition from a Léger poll that this briefing has not seen directly.</p>
+</div>
+
+<a name="section-abbreviations"></a>
+<div class="abbrev-section">
+<h2>Abbreviations</h2>
+<p class="small">The abbreviations used in this briefing, in alphabetical order.</p>
+<div class="abbrev-list">
+<div><strong>ADM</strong>: Archer Daniels Midland, a large US agribusiness and food-ingredient company</div>
+<div><strong>H.R.</strong>: the label for a bill introduced in the US House of Representatives</div>
+<div><strong>kg</strong>: kilogram</div>
+<div><strong>NZ</strong>: New Zealand</div>
+</div>
+</div>
+<!-- How this was made card: _core/scripts/method_link.py (29 September 2026) -->
+<div class="method-card"><div class="method-eyebrow">How this was made</div><p class="method-name"><a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">The Decision-Grade Intelligence Method</a></p><p>Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence.</p><p class="method-stages"><a href="https://www.shapingtomorrow.com/methodology#stage-scan" target="_blank" rel="noopener">Scan</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-filter" target="_blank" rel="noopener">Filter</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-stresstest" target="_blank" rel="noopener">Stress-test</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-judge" target="_blank" rel="noopener">Judge</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-trigger" target="_blank" rel="noopener">Trigger</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-brief" target="_blank" rel="noopener">Actionable Intelligence</a></p><p class="method-more-row"><a class="method-more" href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">See full methodology &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/how-we-verify/">How we verify &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/track-record/">Track record &rarr;</a></p></div>
+<div class="programme-footer">
+<p>This Decision Intelligence briefing is the quarterly synthesis of a Shaping Tomorrow intelligence cycle on <strong>Cellular Agriculture and Precision Fermentation</strong>. It sits on top of weekly Signal Scans that identify emerging developments and weak signals, and monthly Change Trackers that assess what is materially shifting in momentum. Cycles may also close with Action Triggers, an end-of-cycle synthesis that reads across all four formats and surfaces patterns no single deliverable carries on its own. Continuous intelligence on this topic is available as a Single-Topic or Multi-Topic programme.</p>
+<div class="programme-ctas">
+<a class="programme-cta primary" href="https://www.shapingtomorrow.com/contact?subject=Discuss%20a%20Tailored%20Programme">Discuss a Tailored Programme</a>
+</div>
+</div>
+
+<hr>
+<p class="small">Prepared by Shaping Tomorrow: 15 October 2026</p>
+
+</div>
+
+</body>
+</html>

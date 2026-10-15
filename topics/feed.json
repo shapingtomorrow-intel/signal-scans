@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T08:33:39Z",
+  "generated": "2026-10-15T09:32:52Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -280,6 +280,55 @@
           "title": "Nature on the Supervisor's Desk",
           "summary": "Beneath the conservation narrative, financial supervisors and central banks are quietly moving biodiversity loss inside prudential risk frameworks, ahead of the stalled multilateral track and the...",
           "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "transport-logistics-supply-chains",
+      "name": "Transport, Logistics & Supply Chains",
+      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
+      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
+      "latest_read": "Hormuz strikes reprice shipping as the orderbook hits the water",
+      "latest_dates": {
+        "scan": "2026-10-09",
+        "tracker": "2026-10-15",
+        "di": "2026-10-12",
+        "cc": "2026-10-16"
+      },
+      "history": [
+        {
+          "date": "2026-10-16",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Freight Got Cheaper. Insurers Now Decide the Route.",
+          "summary": "Over this cycle, the price of moving goods split by route. A week ago the central question was how fast the war premium would leave container rates.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Hormuz strikes reprice shipping as the orderbook hits the water",
+          "summary": "Inaugural Change Tracker on Transport, Logistics & Supply Chains. Ten signals: 4 Accelerating (Hormuz attacks reprice Gulf shipping, orderbook hits the water, shipping's carbon price December vote...",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Cheap Freight Is Back. With a Catch",
+          "summary": "Ocean freight is heading into a buyer's market. Since May, 140 container ships have switched back from the Cape of Good Hope to the Suez Canal (gCaptain, Oct 2026), and BIMCO, the shipowners'...",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027",
+          "summary": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
+          "posture": "Decide"
         }
       ]
     },
@@ -577,47 +626,6 @@
           "title": "Beyond Stablecoins",
           "summary": "Beneath the stablecoin headlines, the binding institutional adoption of tokenised finance is converging on yield-bearing tokenised money market funds posted as derivatives margin and trading...",
           "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "transport-logistics-supply-chains",
-      "name": "Transport, Logistics & Supply Chains",
-      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
-      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
-      "latest_read": "Hormuz strikes reprice shipping as the orderbook hits the water",
-      "latest_dates": {
-        "scan": "2026-10-09",
-        "tracker": "2026-10-15",
-        "di": "2026-10-12",
-        "cc": ""
-      },
-      "history": [
-        {
-          "date": "2026-10-15",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Hormuz strikes reprice shipping as the orderbook hits the water",
-          "summary": "Inaugural Change Tracker on Transport, Logistics & Supply Chains. Ten signals: 4 Accelerating (Hormuz attacks reprice Gulf shipping, orderbook hits the water, shipping's carbon price December vote...",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-12",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Cheap Freight Is Back. With a Catch",
-          "summary": "Ocean freight is heading into a buyer's market. Since May, 140 container ships have switched back from the Cape of Good Hope to the Suez Canal (gCaptain, Oct 2026), and BIMCO, the shipowners'...",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027",
-          "summary": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
-          "posture": "Decide"
         }
       ]
     },

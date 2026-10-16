@@ -1,0 +1,526 @@
+[
+  {
+    "tier": 1,
+    "publisher": "European Commission (Digital Markets Act)",
+    "title": "Commission fines Google €890 million for breaches of the Digital Markets Act",
+    "bib_title": "Commission fines Google for breaches of the Digital Markets Act",
+    "url": "https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en",
+    "publication_date": "2026-07-23",
+    "date_source": "byline",
+    "date_evidence": "Publication date 23 July 2026",
+    "date_age_band": "0-3m",
+    "key_claim": "On 23 July 2026 the Commission adopted two non-compliance decisions against Google, fining it 460 million euros for self-preferencing in Google Search and 430 million euros for restricting steering on Google Play, and ordered Google to bring the non-compliance to an end.",
+    "frame_summary": "Argues that the DMA's ranking and steering obligations are being applied as written, with the order to end the conduct, not the fine, as the operative instrument.",
+    "signals_supported": [
+      "EU platform enforcement decisions"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "In this regard, the Commission issued Google a fine of €460 million and a fine of €430 million respectively.",
+    "verbatim_list": [
+      "Commission fines Google €890 million for breaches of the Digital Markets Act",
+      "As part of today's two decisions, the Commission has ordered Google to bring the non-compliance to an end."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T22:47:22Z"
+  },
+  {
+    "tier": 1,
+    "publisher": "European Commission (Shaping Europe's Digital Future)",
+    "title": "Commission starts enforcing AI Act rules and new transparency requirements from 2 August",
+    "bib_title": "Commission starts enforcing AI Act rules and new transparency requirements from 2 August",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+    "publication_date": "2026-07-31",
+    "date_source": "byline",
+    "date_evidence": "PRESS RELEASE Publication 31 July 2026",
+    "date_age_band": "0-3m",
+    "key_claim": "From 2 August 2026 the AI Office, together with national authorities, begins enforcing the AI Act, and chatbots and other interactive AI systems have to tell users they are dealing with AI.",
+    "frame_summary": "Argues that the AI Act's enforcement phase has begun in earnest, presenting supervision and transparency duties as practical compliance routes rather than as a burden.",
+    "signals_supported": [
+      "EU AI Act GPAI enforcement powers live"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
+    "verbatim_list": [
+      "chatbots and other interactive AI systems will have to tell users they are dealing with AI, not a human"
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T22:50:59Z"
+  },
+  {
+    "tier": 1,
+    "publisher": "European Commission (Shaping Europe's Digital Future)",
+    "title": "AI Omnibus enters into force",
+    "bib_title": "AI Omnibus enters into force",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+    "publication_date": "2026-07-27",
+    "date_source": "byline",
+    "date_evidence": "NEWS ARTICLE Publication 27 July 2026 (Last update 31 July 2026)",
+    "date_age_band": "0-3m",
+    "key_claim": "The AI Omnibus entered into force on 27 July 2026: high-risk systems listed in Annex III now apply from 2 December 2027, and the AI Office gains extended oversight of certain AI systems built on general-purpose models and embedded in large online platforms and search engines.",
+    "frame_summary": "Presents the AI Omnibus as simplification that keeps the supervisory core, giving high-risk systems more time while widening AI Office oversight of general-purpose and platform-embedded AI.",
+    "signals_supported": [
+      "EU AI Act GPAI enforcement powers live"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "On 27 July 2026, the AI Omnibus enters into force across the EU, bringing extended timelines to administrative simplification",
+    "verbatim_list": [
+      "High-risk AI systems in Annex III: Rules apply starting 2 December 2027",
+      "The AI Office will have extended oversight of certain AI systems, including those built on general-purpose models and"
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T22:55:29Z"
+  },
+  {
+    "tier": 1,
+    "publisher": "Competition and Markets Authority (GOV.UK)",
+    "title": "CMA consults on new requirements for Apple and Google's mobile platforms",
+    "bib_title": "CMA consults on new requirements for Apple and Google's mobile platforms",
+    "url": "https://www.gov.uk/government/news/cma-consults-on-new-requirements-for-apple-and-googles-mobile-platforms",
+    "publication_date": "2026-06-30",
+    "date_source": "byline",
+    "date_evidence": "Published 30 June 2026",
+    "date_age_band": "3-6m",
+    "key_claim": "The CMA is consulting on new conduct requirements for Apple and Google under the UK digital markets competition regime, including a steering requirement that would remove restrictions stopping app developers pointing customers to off-platform payment options.",
+    "frame_summary": "Argues the UK regime is moving from designation to operative rules on the mobile platforms, with steering and device access as the first targets.",
+    "signals_supported": [
+      "Platform conduct rules outside the EU"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The CMA is consulting on new conduct requirements for Apple and Google under the UK digital markets competition regime.",
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T22:59:06Z"
+  },
+  {
+    "tier": 1,
+    "publisher": "European Commission (Shaping Europe's Digital Future)",
+    "title": "Cyber Resilience Act: reporting obligations",
+    "bib_title": "Cyber Resilience Act: reporting obligations",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting",
+    "publication_date": "2026-09-11",
+    "date_source": "byline",
+    "date_evidence": "Last update 11 September 2026",
+    "date_age_band": "0-3m",
+    "date_note": "The page carries a 'Last update' label only; the reporting duty and the Single Reporting Platform both start on 11 September 2026, the same date, so it is used as the effective date.",
+    "key_claim": "From 11 September 2026 manufacturers must report actively exploited vulnerabilities and severe incidents once, through the ENISA-run CRA Single Reporting Platform, with an early warning within 24 hours and a full notification within 72 hours.",
+    "frame_summary": "Presents the reporting duty as a single, standardised channel, framing one platform for 24-hour and 72-hour notifications as simpler for manufacturers than parallel national reporting.",
+    "signals_supported": [
+      "Cyber Resilience Act reporting duties live"
+    ],
+    "cluster": "One channel, one fee, one standard",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "They need to submit an early warning within 24 hours of becoming aware, and a full notification within 72 hours.",
+    "verbatim_list": [
+      "Manufacturers report only once through the CRA Single Reporting Platform (SRP).",
+      "Manufacturers and open-source software stewards are required to submit their notifications through that platform."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:03:36Z"
+  },
+  {
+    "tier": 1,
+    "publisher": "European Commission (Taxation and Customs Union)",
+    "title": "Guidance and legal text on temporary flat fee on low-value imports which will apply until 1 July 2028",
+    "bib_title": "Guidance and legal text on the temporary flat fee on low-value imports, applying until 1 July 2028",
+    "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+    "publication_date": "2026-06-08",
+    "date_source": "byline",
+    "date_evidence": "8 June 2026 (Last updated on: 20 July 2026)",
+    "date_age_band": "3-6m",
+    "key_claim": "From 1 July 2026 the EU applies a temporary 3 euro customs duty per item on low-value consignments up to 150 euros, the same rules for all operators and all countries, until 1 July 2028.",
+    "frame_summary": "Presents the flat fee as a temporary, uniform measure applied to all operators and countries while the permanent customs reform is built.",
+    "signals_supported": [
+      "EU flat duty on low-value parcels"
+    ],
+    "cluster": "One channel, one fee, one standard",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "From 1 July 2026, the EU will apply a temporary €3 customs duty per item on low-value consignments (up to €150) imported from",
+    "verbatim_list": [
+      "The same rules apply to all operators and all countries.",
+      "Guidance and legal text on temporary flat fee on low-value imports which will apply until 1 July 2028"
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:07:13Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "Linklaters (Sustainable Futures)",
+    "title": "EU CSRD: Commission adopts revised ESRS and voluntary reporting standard",
+    "bib_title": "EU CSRD: Commission adopts revised ESRS and voluntary reporting standard",
+    "url": "https://sustainablefutures.linklaters.com/post/102n88h/eu-commission-adopts-revised-esrs-and-voluntary-reporting-standard",
+    "publication_date": "2026-07-06",
+    "date_source": "byline",
+    "date_evidence": "Posted 7/6/2026 2:27:33 PM (US month/day format: 6 July 2026); article text reports the Commission adopting the acts on 3 July 2026",
+    "date_age_band": "3-6m",
+    "key_claim": "The Commission adopted the revised ESRS on 3 July 2026; the scrutiny period ended on 4 September 2026 with no objection from Parliament or Council, the acts await publication in the Official Journal, and in-scope companies apply the revised standards for financial years from 1 January 2027.",
+    "frame_summary": "Argues that the revised ESRS are now settled law awaiting publication, with the scrutiny period closed and the first application date fixed.",
+    "signals_supported": [
+      "EU sustainability reporting rollback (CSRD/CSDDD)"
+    ],
+    "cluster": "One channel, one fee, one standard",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The two Delegated Acts now need to be published in the Official Journal of the EU.",
+    "verbatim_list": [
+      "The scrutiny period on the revised ESRS and voluntary standard ended on 4 September 2026",
+      "Undertakings within the scope of the CSRD must apply the revised ESRS for financial years beginning on or after 1 January 2027"
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:11:43Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "Kluwer Competition Law Blog (Wolters Kluwer)",
+    "title": "Progress at the expense of accountability: why the European Commission's approach to DMA compromise falls short",
+    "bib_title": "Progress at the expense of accountability: why the Commission's approach to DMA compromise falls short",
+    "url": "https://legalblogs.wolterskluwer.com/competition-blog/progress-at-the-expense-of-accountability-why-the-european-commissions-approach-to-dma-compromise-falls-short/",
+    "publication_date": "2026-09-04",
+    "date_source": "byline",
+    "date_evidence": "September 4, 2026",
+    "date_age_band": "0-3m",
+    "key_claim": "The post argues that the Commission's negotiated compromises with gatekeepers, including Meta's pay-or-consent model and Apple's August 2026 app changes, trade accountability for speed and foreclose judicial and social scrutiny.",
+    "frame_summary": "Argues DMA enforcement is falling short because the Commission prefers closed-door agreements with gatekeepers over contestable decisions, which forecloses third-party redress.",
+    "signals_supported": [
+      "EU platform enforcement decisions"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "In sum, the enforcer signals a clear predilection for behind-closed-doors agreements with gatekeepers to steer clear of accountability, both judicially and socially.",
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:15:20Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "Jones Day",
+    "title": "The revised EU Product Liability Directive: state of play across EU member states and evolving risk landscape",
+    "bib_title": "The revised EU Product Liability Directive: state of play across EU member states and the evolving risk landscape",
+    "url": "https://www.jonesday.com/en/insights/2026/06/the-revised-eu-product-liability-directive-state-of-play-across-eu-member-states-and-evolving-risk-landscape",
+    "publication_date": "2026-06-01",
+    "date_source": "byline",
+    "date_evidence": "JUNE 2026 Commentary",
+    "date_age_band": "3-6m",
+    "key_claim": "The revised Product Liability Directive brings software and AI-driven technologies clearly within no-fault liability and must be transposed by 9 December 2026; as of June 2026 Hungary alone had adopted its law and draft bills had been published in ten member states.",
+    "frame_summary": "Argues that a maximum-harmonisation directive is producing divergent national regimes, so the practical exposure for software and AI-enabled products is unpredictable rather than uniform.",
+    "signals_supported": [
+      "Strict product liability for software"
+    ],
+    "cluster": "Deadlines bind before national laws arrive",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The EU PLD represents a fundamental shift in Europe's product liability regime, particularly with regard to perceived gaps in the areas of digital products, software, and AI-driven technologies.",
+    "verbatim_list": [
+      "Hungary is the only Member State that has already adopted the EU PLD transposition legislation.",
+      "In 2024, the European Union published the revised Product Liability Directive (Directive (EU) 2024/2853; \"EU PLD\"), which must be transposed into the national laws of all EU Member States by December 9, 2026."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:18:57Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "Morgan Lewis",
+    "title": "EU Pay Transparency Directive: the deadline for transposition has passed, what now?",
+    "bib_title": "EU Pay Transparency Directive: the deadline for transposition has passed, what now?",
+    "url": "https://www.morganlewis.com/pubs/2026/06/eu-pay-transparency-directive-the-deadline-for-transposition-has-passed-what-now",
+    "publication_date": "2026-06-08",
+    "date_source": "byline",
+    "date_evidence": "June 08, 2026",
+    "date_age_band": "3-6m",
+    "key_claim": "The 7 June 2026 transposition deadline passed with only Italy, Slovakia, Lithuania and Malta having an effective date of 7 June, while the Netherlands, Sweden, the Czech Republic and Denmark confirmed 1 January 2027.",
+    "frame_summary": "Argues that fragmented transposition does not buy employers time, because national courts are increasingly likely to read existing equal-pay law in line with the directive before local implementation arrives.",
+    "signals_supported": [
+      "Pay transparency transposition gap"
+    ],
+    "cluster": "Deadlines bind before national laws arrive",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "On 7 June 2026, the deadline for EU member states to transpose the Pay Transparency Directive (the Directive) passed.",
+    "verbatim_list": [
+      "With only a few member states having transposed the Directive into local law on time."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:23:27Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "L&E Global",
+    "title": "EU Pay Transparency: Member States Near Transposition Finish Line",
+    "bib_title": "EU Pay Transparency: member states near the transposition finish line",
+    "url": "https://leglobal.law/2026/07/28/eu-pay-transparency-member-states-near-transposition-finish-line/",
+    "publication_date": "2026-07-28",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "article:published_time = 2026-07-28T09:09:47+00:00 (visible: Published: © 28-07-2026)",
+    "date_age_band": "0-3m",
+    "key_claim": "Italy, Lithuania, Malta and Slovakia transposed by the 7 June 2026 deadline and Greece has since finalised its law, while most other member states are still drafting, with Denmark anticipating implementation in 2027.",
+    "frame_summary": "Argues that transposition is slipping but not stalling, with governments across Europe still advancing draft laws into 2027.",
+    "signals_supported": [
+      "Pay transparency transposition gap"
+    ],
+    "cluster": "Deadlines bind before national laws arrive",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Importantly, while timelines have slipped, governments across Europe continue to advance draft legislation.",
+    "verbatim_list": [
+      "Greece recently finalised its transposition.",
+      "Denmark: Draft legislation has been published, with an anticipated implementation date in 2027."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:27:04Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "Littler",
+    "title": "EU Platform Work Directive: Uncertainty Ahead of the Implementation Deadline",
+    "bib_title": "EU Platform Work Directive: uncertainty ahead of the implementation deadline",
+    "url": "https://www.littler.com/news-analysis/asap/eu-platform-work-directive-uncertainty-ahead-implementation-deadline",
+    "publication_date": "2026-08-20",
+    "date_source": "byline",
+    "date_evidence": "August 20, 2026",
+    "date_age_band": "0-3m",
+    "key_claim": "Member states have until 2 December 2026 to transpose the Platform Work Directive; several have not yet published a draft, progress is early, and the picture is clearer only where national frameworks already align with the directive.",
+    "frame_summary": "Argues that platform work transposition is early and uneven, clearest only in countries whose existing frameworks already broadly match the directive.",
+    "signals_supported": [
+      "Algorithmic management duties for employers"
+    ],
+    "cluster": "Deadlines bind before national laws arrive",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Member States now have until December 2, 2026, to transpose the Directive into national law.",
+    "verbatim_list": [
+      "The picture is clearer in countries whose legislative frameworks already broadly align with the Directive's provisions."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:31:34Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "Osborne Clarke",
+    "title": "Employment, contingent workforce and immigration | UK Regulatory Outlook July 2026",
+    "bib_title": "Employment, contingent workforce and immigration: UK Regulatory Outlook, July 2026",
+    "url": "https://www.osborneclarke.com/insights/regulatory-outlook-july-2026-employment-contingent-workforce-immigration",
+    "publication_date": "2026-07-29",
+    "date_source": "byline",
+    "date_evidence": "Published on 29 July 2026",
+    "date_age_band": "0-3m",
+    "key_claim": "The next wave of Employment Rights Act 2025 reforms takes effect in October 2026 and January 2027, with trade union and harassment measures due on 30 October 2026 and changes to unfair dismissal and fire-and-rehire on 1 January 2027.",
+    "frame_summary": "Presents the Employment Rights Act as a staged rollout in which each tranche lands on its own date and some measures slip, so employers plan tranche by tranche.",
+    "signals_supported": [
+      "UK Employment Rights Act staged rollout"
+    ],
+    "cluster": "Deadlines bind before national laws arrive",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "The next wave of reforms under the Employment Rights Act 2025 (ERA) comes into force in October 2026 and January 2027.",
+    "verbatim_list": [
+      "The new statutory provisions and code are due to come into force on 30 October 2026.",
+      "changes to unfair dismissal and fire-and-rehire rules, which take effect on 1 January 2027"
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:35:11Z"
+  },
+  {
+    "tier": 2,
+    "publisher": "McCann FitzGerald",
+    "title": "Cyber Resilience Act: Reporting Obligations apply from 11 September 2026",
+    "bib_title": "Cyber Resilience Act: reporting obligations apply from 11 September 2026",
+    "url": "https://www.mccannfitzgerald.com/knowledge/data-privacy-and-cyber-risk/cyber-resilience-act-reporting-obligations-apply-from-11-september-2026",
+    "publication_date": "2026-09-10",
+    "date_source": "byline",
+    "date_evidence": "knowledge 10 September 2026",
+    "date_age_band": "0-3m",
+    "key_claim": "The reporting duty applies to the manufacturer of any product with digital elements, a broad category of software and hardware, and others can also become manufacturers under the Act and so fall under it.",
+    "frame_summary": "Argues that the Cyber Resilience Act's reporting duty reaches a broad category of software and hardware makers, and that other parties can become manufacturers and so fall under it.",
+    "signals_supported": [
+      "Cyber Resilience Act reporting duties live"
+    ],
+    "cluster": "One channel, one fee, one standard",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "It is possible for others to also become a 'manufacturer' under the CRA and subject to the reporting obligations.",
+    "verbatim_list": [
+      "Cyber Resilience Act: Reporting Obligations apply from 11 September 2026",
+      "The reporting obligations apply to the manufacturer of the PDE."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:39:41Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "The Next Web",
+    "title": "EU says it is in talks with Google over changes after €890M DMA fine",
+    "bib_title": "EU says it is in talks with Google over changes after the €890M DMA fine",
+    "url": "https://thenextweb.com/news/eu-google-dma-fine-talks",
+    "publication_date": "2026-10-15",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "meta-article:published_time: 2026-10-15T07:36:40+00:00 (dateline: October 15, 2026 - 7:36 am)",
+    "date_age_band": "0-3m",
+    "key_claim": "The Commission confirmed it is in dialogue with Google about changes after the July fine, said Google has started changing how it displays search results, and will assess the measures and seek views from market participants.",
+    "frame_summary": "Reports that the Commission is negotiating with Google after the fine rather than moving to penalties, treating the compliance window as the start of a dialogue.",
+    "signals_supported": [
+      "EU platform enforcement decisions"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "According to the Commission, Google has since started changing how it displays search results.",
+    "verbatim_list": [
+      "The Commission added that it will carefully assess Google’s measures."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:43:18Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "PPC Land",
+    "title": "EU fines Google 890 million euros and gives it 60 days to fix search",
+    "bib_title": "EU fines Google 890 million euros and gives it 60 days to fix search",
+    "url": "https://ppc.land/eu-fines-google-890-million-euros-and-gives-it-60-days-to-fix-search/",
+    "publication_date": "2026-07-23",
+    "date_source": "meta:article:published_time",
+    "date_evidence": "article:published_time = 2026-07-23T11:30:39.000Z (dateline: July 23, 2026)",
+    "date_age_band": "0-3m",
+    "key_claim": "Google must comply with both decisions within 60 days or face periodic penalty payments of up to 5% of its total worldwide turnover.",
+    "frame_summary": "Argues the decisions matter less for the fine than for the 60-day clock, after which periodic penalties become possible.",
+    "signals_supported": [
+      "EU platform enforcement decisions"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "verbatim_quote": "Google is required to comply with both decisions within 60 days.",
+    "verbatim_list": [
+      "Google has 60 days to comply or faces periodic penalty payments of up to 5% of its total worldwide turnover."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:46:55Z"
+  },
+  {
+    "tier": 3,
+    "publisher": "MLex (Antitrust)",
+    "title": "App group accuses Apple, Google of noncompliance with Japan smartphone law",
+    "bib_title": "App group accuses Apple, Google of noncompliance with Japan smartphone law",
+    "url": "https://www.mlex.com/mlex/antitrust/articles/2516219",
+    "publication_date": "2026-08-21",
+    "date_source": "byline",
+    "date_evidence": "( August 21, 2026, 06:11 GMT | Official Statement)",
+    "date_age_band": "0-3m",
+    "key_claim": "The Coalition for App Fairness told the Japan Fair Trade Commission that Apple's and Google's July compliance reports show unwillingness to comply, and called for formal enforcement.",
+    "frame_summary": "Argues that Japan risks becoming the weak link among the new platform regimes unless its regulator moves from compliance reporting to enforcement.",
+    "signals_supported": [
+      "Platform conduct rules outside the EU"
+    ],
+    "cluster": "Regulators negotiate before they punish",
+    "claim_strength": "verbatim",
+    "paywalled": true,
+    "verbatim_quote": "Pointing to developments in the US, Europe and the UK, the group warned that “the current state of non-compliance could leave Japan as an outlier in permitting these monopolistic platforms to extract unfair and discriminatory rents from developers and consumers,” and called on the Japan Fair Trade Commission to take formal enforcement action.",
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "treat_directionally": false,
+    "original_language": "en",
+    "verified_at": "2026-10-15T23:51:25Z"
+  },
+  {
+    "tier": 4,
+    "publisher": "Bigblue",
+    "title": "End of de minimis in the EU: what the €3 customs duty on small parcels changes, and what the first months show",
+    "bib_title": "End of de minimis in the EU: what the €3 customs duty on small parcels changes, and what the first months show",
+    "url": "https://www.bigblue.co/blog/end-of-de-minimis-eu-3-euro-customs-duty-small-parcels",
+    "publication_date": "2026-10-09",
+    "date_source": "byline",
+    "date_evidence": "October 9, 2026",
+    "date_age_band": "0-3m",
+    "treat_directionally": true,
+    "key_claim": "Logistics-vendor reading of the first months of the flat duty: customs formalities now apply to every parcel and freight is looking for other routes into the single market.",
+    "frame_summary": "Vendor view that the duty has ended duty-free small-parcel e-commerce and that freight will route around the strictest border.",
+    "signals_supported": [
+      "EU flat duty on low-value parcels"
+    ],
+    "cluster": "One channel, one fee, one standard",
+    "verbatim_quote": "5.8 billion small parcels entered the EU without paying customs last year.",
+    "verbatim_list": [
+      "Every parcel entering the bloc faces customs formalities, regardless of its value.",
+      "In a unified market like the European one, when one country tightens its border, freight finds another route."
+    ],
+    "topic": "Regulation, Standards and Policy Change",
+    "is_evergreen": false,
+    "is_structural_anchor": false,
+    "paywalled": false,
+    "original_language": "en",
+    "claim_strength": "faithful_summary",
+    "verified_at": "2026-10-15T23:55:02Z"
+  }
+]

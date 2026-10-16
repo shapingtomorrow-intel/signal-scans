@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T08:30:09Z",
+  "generated": "2026-10-16T08:32:32Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -9,14 +9,22 @@
       "description": "New regulation across AI, data, sustainability, cyber and financial conduct, and how leading firms turn compliance design into competitive advantage. Also competition and platform regulation, product safety and liability, and enforcement and litigation as distinct from rule-making, in whichever jurisdiction is setting the pace.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/regulation-standards-policy-change/history/",
-      "latest_read": "Regulatory sandboxes are multiplying while statutory exemptions give way to advice and regulator discretion. The EU Recommendation is non-binding, the UK lab grants no exemption and Australia is...",
+      "latest_read": "Enforcers bargain with Google as cyber reporting goes live and deadlines close in",
       "latest_dates": {
         "scan": "2026-10-12",
-        "tracker": "2026-09-18",
+        "tracker": "2026-10-16",
         "di": "2026-10-15",
         "cc": "2026-10-16"
       },
       "history": [
+        {
+          "date": "2026-10-16",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Enforcers bargain with Google as cyber reporting goes live and deadlines close in",
+          "summary": "Change Tracker on Regulation, Standards & Policy Change. Ten signals: 3 Accelerating (EU platform enforcement decisions, Cyber Resilience Act reporting duties, EU flat duty on low-value parcels), 6 Stable and 1 Fading (ESRS).",
+          "posture": ""
+        },
         {
           "date": "2026-10-16",
           "kind": "cross_cutter",

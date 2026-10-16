@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T08:35:36Z",
+  "generated": "2026-10-16T08:32:41Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-14-uk-defence-line-goes-flat/scan.html"
     },
     "change_tracker": {
-      "title": "Hormuz strikes reprice shipping as the orderbook hits the water",
-      "date": "2026-10-15",
-      "topic": "Transport, Logistics & Supply Chains",
-      "topic_slug": "transport-logistics-supply-chains",
+      "title": "Enforcers bargain with Google as cyber reporting goes live and deadlines close in",
+      "date": "2026-10-16",
+      "topic": "Regulation, Standards & Policy Change",
+      "topic_slug": "regulation-standards-policy-change",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/transport-logistics-supply-chains/2026-10-15/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/regulation-standards-policy-change/2026-10-16/tracker.html"
     },
     "decision_intelligence": {
       "title": "Fewer Rules on Paper, More Paperwork in Practice",

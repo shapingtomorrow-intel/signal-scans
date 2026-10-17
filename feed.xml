@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 16 Oct 2026 08:30:08 +0000</lastBuildDate>
+<lastBuildDate>Sat, 17 Oct 2026 08:30:25 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>US Curbs on Foreign Robots Turn a Shrinking Europe into the Open Market for Chinese Suppliers</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-10-17-robot-curbs-open-europe/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-10-17-robot-curbs-open-europe/scan.html</guid>
+<pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>US limits on new foreign-produced mobile robots are pushing Chinese suppliers toward a European market that is shrinking and has no matching rule. EU installations fell 11% to 60,500 in 2025, and the IFR already sees Chinese distribution hubs there.</description>
+</item>
+<item>
+<title>Employers Want Bargaining, Not Law, to Govern Workplace AI, but 18 EU States Fall Below 80% Coverage</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-10-17-bargaining-not-law-for-workplace-ai/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-10-17-bargaining-not-law-for-workplace-ai/scan.html</guid>
+<pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>EU rules for AI at work may default to guidance and bargaining that reach few workers in low-coverage states. Employers back bargaining over law, ETUC declines the Article 155 talks, and 18 Member States sit below 80% coverage.</description>
+</item>
 <item>
 <title>UK Defence Funding Goes Flat at 2.7% of GDP While the Date for 3% Waits on 2027</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-14-uk-defence-line-goes-flat/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sun, 13 Sep 2026 08:00:00 +0000</pubDate>
 <category>Demographics, Migration &amp; Labour Markets</category>
 <description>Britain now rations work visas by whether a sector filed an approved training plan, not by whether a shortage exists. The MAC granted 28 of 82 occupations only 18 months of access from January 2027 and none the full three years, against training pipelines of 40 months or more.</description>
-</item>
-<item>
-<title>America's Nuclear Regulator Treats Oncology Capacity as a Licensing Problem and Deregulates the Authorised User</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-13-authorised-user-ceiling/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-13-authorised-user-ceiling/scan.html</guid>
-<pubDate>Sun, 13 Sep 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>The ceiling on radioligand cancer therapy is a nuclear licence, not an isotope shortage. The US Nuclear Regulatory Commission proposed on 27 July 2026 to strip prescriptive training hours and licence amendments from the authorised-user rules, expanding capacity by redefining who may lawfully administer.</description>
-</item>
-<item>
-<title>AI Load Is Sold as Flexible Before the Flexibility Was Measured</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-12-curtailable-by-contract/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-12-curtailable-by-contract/scan.html</guid>
-<pubDate>Sat, 12 Sep 2026 08:00:00 +0000</pubDate>
-<category>Artificial Intelligence &amp; Automation</category>
-<description>The firmness of an AI megawatt is becoming a contract term rather than a property of the grid connection. US regulators created curtailable classes of large-load service in mid-2026, and the first production-trace measurement puts dependable relief at about 6% of facility power against the 18% to 55% those rules assume.</description>
 </item>
 </channel>
 </rss>

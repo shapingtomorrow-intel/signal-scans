@@ -1,10 +1,11 @@
-<div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+24" data-fw-engine="2">
+<div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+24" data-fw-engine="3">
 <style id="fw-style">
   .fw-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a2530;}
   .fw-card{box-sizing:border-box!important;width:100%!important;max-width:860px!important;height:540px!important;max-height:100%!important;margin:0 auto!important;border:1px solid #e3e8ee!important;border-radius:12px!important;padding:10px!important;background:#fff!important;cursor:pointer;position:relative;overflow:hidden;display:flex!important;flex-direction:column!important;transition:box-shadow .15s,transform .15s;}
   .fw-card:hover{box-shadow:0 6px 20px rgba(20,40,70,.12);transform:translateY(-1px);}
   .fw-card:focus-visible{outline:3px solid #0f2e5c;outline-offset:2px;}
-  .fw-legend{flex:0 0 auto!important;display:flex!important;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:11px;color:#5a6478;margin:0 0 6px!important;line-height:1.2;}
+  .fw-note{font-size:0.82em;color:#5a6478;line-height:1.45;margin:8px 4px 0;}
+  .fw-legend{flex:0 0 auto!important;display:flex!important;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12.5px;color:#5a6478;margin:0 0 6px!important;line-height:1.2;}
   .fw-legend .sw{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:5px;box-sizing:border-box;}
   .fw-legend .lw,.fw-modal-legend .lw{display:inline-block;width:18px;height:2px;background:#5a6478;vertical-align:middle;margin-right:5px;border-radius:2px;}
   .fw-legend .lw.high,.fw-modal-legend .lw.high{height:4px;background:#4a5563;}
@@ -32,7 +33,7 @@
       <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
       <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
       <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed/neutral</span>
-      <span style="opacity:.85">impact &times; likelihood:</span>
+      <span style="opacity:.85">line weight = impact &times; likelihood (analyst rating):</span>
       <span><span class="lw high"></span>high</span>
       <span><span class="lw med"></span>med</span>
       <span><span class="lw low"></span>low</span>
@@ -42,6 +43,7 @@
       <span class="fw-expand">&#10530; Expand</span>
     </div>
   </div>
+<p class="fw-note"><strong>How to read this figure:</strong> each line runs from a development to its possible consequences. Line weight shows impact multiplied by likelihood, each rated high, medium or low. The ratings are the analysis's judgement from the cited sources, not calculated values. Hover over a circle to see its rating; click to enlarge.</p>
   <div class="fw-overlay" id="fw-overlay" role="dialog" aria-modal="true" aria-label="Futures Wheel, enlarged">
     <div class="fw-modal">
       <button class="fw-close" id="fw-close" aria-label="Close">&times;</button>
@@ -51,7 +53,7 @@
         <span><span class="sw" style="background:#fdecea;border:2px solid #d9433a;"></span>risk</span>
         <span><span class="sw" style="background:#e9f6ee;border:2px solid #2ea44f;"></span>opportunity</span>
         <span><span class="sw" style="background:#eef1f4;border:2px solid #8a94a3;"></span>mixed / neutral</span>
-        <span style="opacity:.85">impact &times; likelihood:</span>
+        <span style="opacity:.85">line weight = impact &times; likelihood (analyst rating):</span>
         <span><span class="lw high" style="background:#4a5563;height:4px;"></span>high</span>
         <span><span class="lw med" style="background:#6a7480;height:2.5px;"></span>med</span>
         <span><span class="lw low" style="background:#9aa4b0;height:1.4px;"></span>low</span>
@@ -65,12 +67,12 @@
 (function(){
   // === WHEEL_DATA_START (build_futures_wheel.py replaces this object) ===
   var TITLE = "Paying more did not buy more power";
-  var DATA = {"label": "Paying more did not buy\nmore power", "pol": "-", "children": [{"label": "Price signal stops\nworking", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Bilateral deals", "pol": "0", "im": "med", "lk": "high", "children": [{"label": "PPAs crowd out\nauction", "pol": "-", "im": "med", "lk": "med"}, {"label": "Price discovery\nfades", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "Auctions judged\npolitically", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Caps negotiated", "pol": "-", "im": "med", "lk": "high"}, {"label": "Shortfall\nhidden", "pol": "-", "im": "high", "lk": "med"}]}]}, {"label": "Cost lands on bills", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Election politics", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Regulator\npressure", "pol": "-", "im": "med", "lk": "high"}, {"label": "Tariffs in\nmanifestos", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Exit behind the\nmeter", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Shrinking rate\nbase", "pol": "-", "im": "high", "lk": "med"}, {"label": "Standby fees\nrise", "pol": "0", "im": "med", "lk": "med"}]}]}, {"label": "Connection terms are\nthe lever", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "10 to 30 year\nterms", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "Decade-long\nrisk", "pol": "-", "im": "high", "lk": "high"}, {"label": "Exit cost on\ndeveloper", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Access revocable", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Projects\nrelocate", "pol": "-", "im": "med", "lk": "med"}, {"label": "Siting by\nregime", "pol": "0", "im": "med", "lk": "high"}]}]}, {"label": "Delivery slots are\nscarce", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Slots trade as\nassets", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Secondary\nmarket", "pol": "0", "im": "med", "lk": "med"}, {"label": "Incumbents win\nqueue", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "Gas at $2,500 per\nkW", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Plans reopened", "pol": "0", "im": "med", "lk": "high"}, {"label": "Gas slips past\n2030", "pol": "-", "im": "high", "lk": "med"}]}]}, {"label": "Solar and storage\nfill the gap", "pol": "+", "im": "med", "lk": "high", "children": [{"label": "Winter still\nunsolved", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Still winter\nnights", "pol": "-", "im": "high", "lk": "med"}, {"label": "Long duration\nurgent", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Flexibility as\nproduct", "pol": "+", "im": "med", "lk": "high", "children": [{"label": "Curtailment\npriced in", "pol": "0", "im": "med", "lk": "high"}, {"label": "Paid to stand\ndown", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "Water enters dispatch", "pol": "-", "im": "med", "lk": "med", "children": [{"label": "River risk in\nvaluation", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Six week derate", "pol": "0", "im": "med", "lk": "med"}, {"label": "Credit sees it", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Fuel cannot move", "pol": "-", "im": "med", "lk": "med", "children": [{"label": "Low water\nclauses", "pol": "0", "im": "low", "lk": "high"}, {"label": "Coastal stock\nstuck", "pol": "-", "im": "med", "lk": "med"}]}]}]};
+  var DATA = {"label": "Paying more did not\nbuy more power", "pol": "-", "children": [{"label": "Price signal stops\nworking", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Bilateral deals", "pol": "0", "im": "med", "lk": "high", "children": [{"label": "PPAs crowd out\nauction", "pol": "-", "im": "med", "lk": "med"}, {"label": "Price discovery\nfades", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "Auctions judged\npolitically", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Caps negotiated", "pol": "-", "im": "med", "lk": "high"}, {"label": "Shortfall\nhidden", "pol": "-", "im": "high", "lk": "med"}]}]}, {"label": "Cost lands on bills", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Election\npolitics", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Regulator\npressure", "pol": "-", "im": "med", "lk": "high"}, {"label": "Tariffs in\nmanifestos", "pol": "-", "im": "med", "lk": "med"}]}, {"label": "Exit behind the\nmeter", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Shrinking rate\nbase", "pol": "-", "im": "high", "lk": "med"}, {"label": "Standby fees\nrise", "pol": "0", "im": "med", "lk": "med"}]}]}, {"label": "Connection terms\nare the lever", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "10 to 30 year\nterms", "pol": "0", "im": "high", "lk": "high", "children": [{"label": "Decade-long\nrisk", "pol": "-", "im": "high", "lk": "high"}, {"label": "Exit cost on\ndeveloper", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Access revocable", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Projects\nrelocate", "pol": "-", "im": "med", "lk": "med"}, {"label": "Siting by\nregime", "pol": "0", "im": "med", "lk": "high"}]}]}, {"label": "Delivery slots are\nscarce", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Slots trade as\nassets", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Secondary\nmarket", "pol": "0", "im": "med", "lk": "med"}, {"label": "Incumbents win\nqueue", "pol": "-", "im": "med", "lk": "high"}]}, {"label": "Gas at $2,500\nper kW", "pol": "-", "im": "high", "lk": "high", "children": [{"label": "Plans reopened", "pol": "0", "im": "med", "lk": "high"}, {"label": "Gas slips past\n2030", "pol": "-", "im": "high", "lk": "med"}]}]}, {"label": "Solar and storage\nfill the gap", "pol": "+", "im": "med", "lk": "high", "children": [{"label": "Winter still\nunsolved", "pol": "-", "im": "high", "lk": "med", "children": [{"label": "Still winter\nnights", "pol": "-", "im": "high", "lk": "med"}, {"label": "Long duration\nurgent", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Flexibility as\nproduct", "pol": "+", "im": "med", "lk": "high", "children": [{"label": "Curtailment\npriced in", "pol": "0", "im": "med", "lk": "high"}, {"label": "Paid to stand\ndown", "pol": "+", "im": "med", "lk": "med"}]}]}, {"label": "Water enters\ndispatch", "pol": "-", "im": "med", "lk": "med", "children": [{"label": "River risk in\nvaluation", "pol": "0", "im": "med", "lk": "med", "children": [{"label": "Six week derate", "pol": "0", "im": "med", "lk": "med"}, {"label": "Credit sees it", "pol": "+", "im": "med", "lk": "med"}]}, {"label": "Fuel cannot move", "pol": "-", "im": "med", "lk": "med", "children": [{"label": "Low water\nclauses", "pol": "0", "im": "low", "lk": "high"}, {"label": "Coastal stock\nstuck", "pol": "-", "im": "med", "lk": "med"}]}]}]};
     // === WHEEL_DATA_END ===
 
   var NS="http://www.w3.org/2000/svg";
-  var R=[0,260,470,660], RAD=[130,88,60,50], FS=[16,13,11,10], CX=600, CY=600;
-  var FW_ENGINE_VERSION=2; // v2 = elongated layout (SX) + capDepth thumbnail.
+  var R=[0,260,470,660], RAD=[140,108,66,62], FS=[23,18.5,13,12], CX=600, CY=600;
+  var FW_ENGINE_VERSION=3; // v3 (2026-09-24) = v2 plus larger nodes and labels, hover ratings and a reading note. v2 = elongated layout (SX) + capDepth thumbnail.
   // Do NOT replace this file with an older copy: build_futures_wheel.py refuses
   // to run below this version. If you must, pass --allow-legacy-engine.
   var SX=1.5; // horizontal spread: >1 widens the wheel into a non-circular landscape shape
@@ -127,6 +129,7 @@
       var ci=document.createElementNS(NS,"circle");
       ci.setAttribute("cx",pt.x);ci.setAttribute("cy",pt.y);ci.setAttribute("r",r);
       ci.setAttribute("fill",c.f);ci.setAttribute("stroke",c.s);ci.setAttribute("stroke-width",d===0?3:2.6);
+      if(d>0){ var tt=document.createElementNS(NS,"title"); var EN={vhigh:"very high",high:"high",med:"medium",low:"low"}; tt.textContent=String(n.label).replace(/\n/g," ")+": impact "+(EN[n.im]||"medium")+", likelihood "+(EN[n.lk]||"medium")+" (analyst rating)"; ci.appendChild(tt); }
       svg.appendChild(ci);
       var showLabel = opts.allLabels || d<=1;
       if(showLabel){

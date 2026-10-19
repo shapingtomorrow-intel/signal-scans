@@ -24,31 +24,48 @@
   .table-of-contents li { margin-bottom: 8px; }
   .table-of-contents a { color: #1565c0; text-decoration: none; }
   .toc-row { display: flex; gap: 24px; align-items: stretch; margin: 30px 0; flex-wrap: wrap; }
-  .learn-takeaways { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
-  .learn-takeaways .lt-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 0 8px 8px 0; }
-  .learn-takeaways .lt-card h3 { color: #1a237e; margin: 0 0 10px; font-size: 1.05em; }
-  .learn-takeaways .lt-card ol { margin: 0; padding-left: 20px; line-height: 1.5; color: #2a3142; }
-  .learn-takeaways .lt-learn { background: #eef1f9; border-left: 4px solid #1a237e; }
-  .learn-takeaways .lt-keys { background: #fff8e1; border-left: 4px solid #f57c00; }
+  /* Key risks and Key opportunities (16 October 2026): replaced "What you will learn" and "Key takeaways".
+     The DI is the source; the Live Summary and the newsletter take these headlines verbatim. */
+  .risk-opps { display: flex; gap: 24px; flex-wrap: wrap; margin: 26px 0 4px; }
+  .risk-opps .ro-card { flex: 1 1 360px; padding: 18px 22px; box-sizing: border-box; border-radius: 8px; }  /* house curved left edge: full radius, hairline border, 5px left rule */
+  .risk-opps .ro-risks { background: #fdecea; border: 1px solid #f6cfcb; border-left: 5px solid #d9433a; }  /* Futures Wheel risk fill and stroke */
+  .risk-opps .ro-opps { background: #e9f6ee; border: 1px solid #c6e6d1; border-left: 5px solid #2ea44f; }   /* Futures Wheel opportunity fill and stroke */
+  .risk-opps .ro-card h3 { margin: 0 0 10px; font-size: 0.82em; letter-spacing: 0.08em; text-transform: uppercase; }
+  .risk-opps .ro-risks h3 { color: #b02a22; }
+  .risk-opps .ro-opps h3 { color: #1b6e2a; }
+  .risk-opps .ro-card ul { margin: 0; padding-left: 20px; font-size: 0.92em; line-height: 1.55; color: #2a3142; }  /* body text size of the theme bullets */
+  .risk-opps .ro-card li { margin-bottom: 10px; }
+  .risk-opps .ro-card li:last-child { margin-bottom: 0; }
+  .risk-opps .ro-card li strong { color: #031B41; }
+  .risk-opps .ro-theme { font-weight: 700; white-space: nowrap; text-decoration: underline; }
+  .risk-opps .ro-risks .ro-theme { color: #b02a22; }
+  .risk-opps .ro-opps .ro-theme { color: #1b6e2a; }
+  /* Three surprises to 2040 band (16 October 2026): one line per surprise, under the risk and
+     opportunity cards, linking down to the full section */
+  .sur-band { margin: 14px 0 4px; padding: 14px 22px 15px; background: #f3effb; border: 1px solid #ddd3f1; border-left: 5px solid #6a4fb3; border-radius: 8px; }
+  .sur-band-label { display: block; font-size: 0.82em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5b3fa6; margin-bottom: 10px; }  /* same as the Key risks / Key opportunities labels */
+  .sur-band ul { margin: 0; padding-left: 20px; font-size: 0.92em; line-height: 1.55; }
+  .sur-band a { color: #031B41; font-weight: 700; text-decoration: none; border-bottom: 1px solid #c9bde8; }  /* same weight as the risk and opportunity headlines */
+  .sur-band-meta { color: #6b6385; font-size: 0.88em; white-space: nowrap; }
   .toc-row .table-of-contents { margin: 0; flex: 1 1 240px; box-sizing: border-box; }
   .toc-figure { flex: 2 1 520px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
   .toc-figure svg { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; }
   .toc-figure .figure-caption { text-align: center; margin: 12px 0 0; }
   .report-figure { margin: 18px 0; padding: 16px 18px; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; }
   .report-figure h4 { margin: 0 0 10px; color: #1a237e; font-size: 0.95em; }
-  .report-figure svg { display: block; width: 100%; height: auto; }
+  .report-figure svg { display: block; width: 100%; max-width: 720px; height: auto; margin: 0 auto; }
   .figure-caption { font-size: 0.8em; color: #5a6478; font-style: italic; margin: 8px 0 0; }
   .executive-synthesis { background: #f8f9fa; padding: 32px; border-radius: 12px; margin-bottom: 32px; border: 1px solid #e9ecef; }
   .executive-synthesis h2 { color: #1a237e; margin-top: 0; }
   .stress-test-box { background: #e8f4f8; border: 2px solid #17a2b8; padding: 20px; border-radius: 8px; margin-top: 24px; }
   .stress-test-box h4 { color: #17a2b8; margin-top: 0; margin-bottom: 12px; }
   .pullquote { font-size: 1.3em; color: #1a237e; font-weight: 500; text-align: center; margin: 28px auto; max-width: 820px; border-top: 2px solid #c5cae9; border-bottom: 2px solid #c5cae9; padding: 18px 12px; line-height: 1.4; font-style: italic; }
-  .at-a-glance { background: #fff8e1; border-left: 4px solid #f57c00; padding: 22px 26px; border-radius: 0 8px 8px 0; margin: 24px 0 32px; }
+  .at-a-glance { background: #fff8e1; border: 1px solid #f6dfa8; border-left: 5px solid #f57c00; padding: 22px 26px; border-radius: 8px; margin: 24px 0 32px; }
   .at-a-glance h3 { color: #1a237e; margin: 0 0 12px; }
   .at-a-glance p { margin: 0 0 10px; line-height: 1.55; color: #2a3142; font-size: 1.02em; }
   .at-a-glance p:last-child { margin-bottom: 0; }
   .at-a-glance strong { color: #e65100; }
-  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border-left: 4px solid #1a237e; background: #ffffff; border-radius: 0 6px 6px 0; }
+  .sit-up-statement { margin: 4px 0 24px; padding: 18px 22px; border: 1px solid #dfe3f0; border-left: 5px solid #1a237e; background: #ffffff; border-radius: 8px; }
   .sit-up-statement .sit-up-question { font-size: 1.18em; color: #1a237e; font-weight: 600; line-height: 1.35; margin: 0 0 6px; }
   .sit-up-statement .sit-up-warrant { font-size: 1em; color: #2a3142; line-height: 1.4; margin: 0; font-style: italic; }
   .snapshots-section { margin: 28px 0 36px; }
@@ -88,7 +105,7 @@
   .weak-signals h4 { color: #6a1b9a; margin: 0 0 8px; font-size: 0.95em; }
   .weak-signals ul { margin: 4px 0; padding-left: 20px; }
   .weak-signals li { margin-bottom: 4px; font-size: 0.92em; }
-  .weak-signals .weak-signal-marker { display: inline-block; background: #f3e5f5; color: #6a1b9a; padding: 1px 7px; border-radius: 3px; font-size: 0.72em; font-weight: 600; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
+  .weak-signals .weak-signal-marker { display: inline-block; background: #7b1fa2; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 0.72em; font-weight: 700; margin-right: 6px; letter-spacing: 0.02em; text-transform: uppercase; }
   .cluster-implication { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; margin: 14px 0 0; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; }
   .cluster-implication strong { color: #1a237e; }
   .strategic-implications-section { margin: 32px 0; padding: 28px; background: #f8f9fa; border-radius: 12px; border: 1px solid #e9ecef; }
@@ -125,6 +142,10 @@
   .scenario-4 { background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
   .scenario-cell h4 { margin-top: 0; font-size: 1.2em; }
   .scenario-indicators { font-size: 0.93em; margin-top: 12px; }
+  /* Shift from today (from 8 October 2026): one line under the scenario name, in the cell's own accent */
+  .scenario-1 { --scn-acc: #2e7d32; } .scenario-2 { --scn-acc: #e65100; } .scenario-3 { --scn-acc: #1565c0; } .scenario-4 { --scn-acc: #ad1457; }
+  .scenario-cell .scn-delta { font-size: 0.95em; color: #2d3748; border-left: 3px solid var(--scn-acc); padding: 2px 0 2px 12px; margin: 6px 0 12px; }
+  .scenario-cell .scn-delta-k { display: block; font-size: 0.72em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--scn-acc); margin-bottom: 2px; }
   .framing-note { background: #f5f5f5; padding: 16px; border-radius: 8px; font-style: italic; margin-bottom: 20px; }
   .exclusions-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
   .exclusions-section h2 { color: #1a237e; margin-top: 0; }
@@ -248,9 +269,10 @@
   .wt.low { background: #eceff1; color: #546e7a; }
   .wt.hoch { background: #fdecea; color: #c62828; } .wt.mittel { background: #fff3e0; color: #e65100; } .wt.tief { background: #eceff1; color: #546e7a; }
   .weight-line { font-size: 0.9em; color: #33414f; background: #f5f7fa; border-radius: 6px; padding: 6px 10px; margin: 4px 0 10px; }
-  .outlook { background: #eef5ff; border-left: 4px solid #1565c0; border-radius: 0 8px 8px 0; padding: 10px 14px; margin: 14px 0; }
-  .outlook h4 { margin: 0 0 6px; color: #1565c0; }
-  .outlook p { margin: 0 0 6px; }
+  .outlook { background: #eef5ff; border: 1px solid #cfe0f6; border-left: 5px solid #1565c0; border-radius: 8px; padding: 10px 14px; margin: 14px 0; }
+  .outlook h4 { margin: 0 0 6px; color: #1565c0; font-size: 0.95em; }
+  .outlook p { margin: 0 0 6px; font-size: 0.92em; }
+  .outlook .market-baseline { font-size: 1em; color: #0d3c78; padding-bottom: 6px; border-bottom: 1px dashed #b6cdf0; margin-bottom: 8px; }
   .options-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
   .option-area { margin: 26px 0 6px; }
   .option-area:first-child { margin-top: 0; }
@@ -266,6 +288,22 @@
   .opt .opt-trade { font-size: 0.88em; color: #4a5568; }
   .opt .opt-trade strong, .opt .opt-fits strong { color: #1a237e; }
   .opt .opt-fits { margin: auto 0 0; font-size: 0.86em; color: #4a5568; padding: 7px 10px; border-radius: 6px; background: #f3f5f8; }
+  /* Potential Surprises to 2040 (7 October 2026): the light-panel family of Options and the exclusions */
+  .surprises-section { background: #fafafa; padding: 28px; border-radius: 12px; margin: 32px 0; border: 1px solid #e0e0e0; }
+  .surprises-section h2 { color: #1a237e; margin-top: 0; }
+  .sur-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; }
+  .surprise { background: #fff; border: 1px solid #eef0f3; border-left: 4px solid #a0aec0; border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; }
+  .surprise .sur-eyebrow { align-self: flex-start; font-size: 0.66em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px; border-radius: 12px; margin: 0 0 6px; }
+  .surprise.s-weak { border-left: 4px dashed #8e24aa; } .surprise.s-weak .sur-eyebrow { background: #f3e5f5; color: #6a1b9a; }
+  .surprise.s-emerging { border-left-color: #1e88e5; } .surprise.s-emerging .sur-eyebrow { background: #e3f2fd; color: #1565c0; }
+  .surprise h4 { margin: 2px 0 8px; color: #1a237e; font-size: 1.02em; }
+  .surprise p { margin: 0 0 8px; font-size: 0.93em; }
+  .surprise .sur-meta { font-size: 0.86em; color: #4a5568; }
+  .surprise .sur-why { font-size: 0.9em; color: #2c3e50; padding: 7px 10px; border-radius: 6px; background: #fff8e1; border-left: 3px solid #f9a825; }
+  .surprise strong { color: #1a237e; }
+  .surprise .sur-signposts { margin: 4px 0 2px; font-size: 0.88em; }
+  .surprise .sur-signposts-list { margin: 0 0 8px; padding-left: 1.1em; font-size: 0.88em; color: #2c3e50; }
+  .surprise .sur-today { margin: auto 0 0; font-size: 0.86em; color: #4a5568; padding: 7px 10px; border-radius: 6px; background: #f3f5f8; }
   .abbrev-section { background: #f8f9fa; padding: 20px 24px; border-radius: 12px; margin: 32px 0; font-size: 0.9em; }
   .abbrev-section h2 { margin-top: 0; }
   .abbrev-list { columns: 2 320px; column-gap: 28px; margin: 0; }
@@ -291,7 +329,7 @@
     .weight-table td::before { content: attr(data-l) ": "; font-weight: 600; color: #1a237e; }
   }
   @media (max-width: 600px) {
-    .options-section, .discussion-points { padding: 18px 14px; }
+    .options-section, .discussion-points, .surprises-section { padding: 18px 14px; }
     .scenario-matrix-axed { grid-template-columns: 26px minmax(0, 1fr); grid-template-rows: auto 1fr; }
     .axis-name-h { font-size: 0.66em; padding: 0 4px 16px; text-align: center; }
     .axis-name-v { font-size: 0.66em; }
@@ -322,6 +360,49 @@
   .method-card .method-stages a:hover { text-decoration-color: #1a237e; }
   .method-card .method-more { font-weight: 600; color: #1a237e; text-decoration: none; font-size: 0.92em; }
   .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
+
+  /* Causal Loop Diagram (added 19 October 2026): its own Contents row after the Themes; each theme card and Implication points to it */
+  .cld-section { margin: 28px 0 24px; padding: 22px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eef0f3; border-left: 5px solid #031B41; }
+  .cld-section h2 { margin-top: 0; }
+  .cld-section p { font-size: 0.92em; margin: 0 0 10px; }
+  .cld-section .sm-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; background: #fbfbfc; border: 1px solid #eef0f3; border-radius: 8px; padding: 8px; margin: 10px 0; }
+  .cld-section svg { display: block; width: 100%; min-width: 1040px; height: auto; }
+  .cld-section .lk:hover path { stroke-width: 3.2; }
+  .sm-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.8em; color: #4a5563; margin: 4px 2px 12px; align-items: center; }
+  .sm-legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .sm-legend .sw { display: inline-block; width: 14px; height: 11px; border-radius: 3px; border: 1.6px solid; }
+  .sm-legend .pm { display: inline-flex; width: 16px; height: 16px; border-radius: 50%; border: 1.2px solid; align-items: center; justify-content: center; font-weight: 700; font-size: 11px; background: #fff; }
+  .sm-legend .lpn { display: inline-flex; width: 18px; height: 18px; border-radius: 50%; background: #f2b705; border: 1.5px solid #031B41; color: #031B41; font-weight: 800; font-size: 10px; align-items: center; justify-content: center; }
+  .sm-loops { width: 100%; border-collapse: collapse; font-size: 0.88em; margin: 6px 0 12px; }
+  .sm-loops th { background: #1a237e; color: #fff; text-align: left; padding: 7px 10px; font-weight: 600; }
+  .sm-loops td { border-bottom: 1px solid #e9ecef; padding: 7px 10px; vertical-align: top; }
+  .sm-loops .code { font-weight: 800; white-space: nowrap; }
+  .sm-status { display: inline-block; font-size: 0.82em; font-weight: 700; padding: 1px 9px; border-radius: 12px; border: 1px solid; background: #fff; }
+  .sm-status.st-up { color: #1b6e2a; border-color: #a7d8b6; } .sm-status.st-prime { color: #8a4b00; border-color: #f0c48f; }
+  .sm-status.st-dorm { color: #5b3fa6; border-color: #c9bde8; } .sm-status.st-down { color: #5a6478; border-color: #cfd5de; }
+  .sm-means { background: #f7f5fb; padding: 12px 14px; border-radius: 6px; border-left: 3px solid #1a237e; font-size: 0.93em; color: #1a237e; margin: 12px 0 10px; }
+  .cld-section details { margin: 8px 0 4px; font-size: 0.9em; }
+  .cld-section summary { cursor: pointer; font-weight: 700; color: #1a237e; }
+  .sm-ev { width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 8px 0; }
+  .sm-ev th { background: #eef1f8; color: #1a237e; text-align: left; padding: 6px 8px; }
+  .sm-ev td { border-bottom: 1px solid #eef0f3; padding: 6px 8px; vertical-align: top; }
+  .sm-ev .sg { font-weight: 800; text-align: center; } .sm-ev .sg.neg { color: #c62828; } .sm-ev .sg.pos { color: #4a5563; }
+  .cld-section .lp, .cld-section .loop-badge { cursor: help; }
+  .sm-ev .src { color: #5a6478; font-style: italic; }
+  .sm-note { font-size: 0.82em !important; color: #5a6478; font-style: italic; }
+  .sm-onmap { font-size: 0.92em; margin: 12px 0 0; padding: 9px 12px; border-radius: 6px; background: #fbfbfc; border: 1px dashed #c5cae9; color: #2c3e50; }
+  .sm-onmap a { color: #1a237e; font-weight: 700; text-decoration: none; border-bottom: 1px solid #c5cae9; }
+  .si-map-ref { font-size: 0.78em; color: #5a6478; display: block; margin-top: 4px; }
+  .si-map-ref a { color: #1a237e; font-weight: 600; text-decoration: none; }
+  .sm-swipe { display: none; }
+  @media (max-width: 640px) {
+    .sm-swipe { display: block; font-size: 0.82em !important; color: #5a6478; margin: 0 0 4px !important; }
+    .sm-loops thead, .sm-ev thead { display: none; }
+    .sm-loops, .sm-loops tbody, .sm-loops tr, .sm-loops td, .sm-ev, .sm-ev tbody, .sm-ev tr, .sm-ev td { display: block; width: 100%; box-sizing: border-box; }
+    .sm-loops tr, .sm-ev tr { border-bottom: 2px solid #dee2e6; padding: 4px 0; }
+    .sm-loops td, .sm-ev td { border: none; padding: 2px 4px; }
+  }
+  @media print { .cld-section .sm-scroll { overflow: visible; } .cld-section svg { min-width: 0; } }
 </style>
 </head>
 <body>
@@ -333,32 +414,40 @@
 <div class="masthead">Decision Intelligence</div>
 <h1 class="report-title">The Barbell Is the Business Now</h1>
 <div class="meta">
-<span class="series-continuity">Updated to the September 2026 briefing format on 28 September 2026. The evidence and findings are those of the 9 July 2026 edition.</span>
+<span class="series-continuity">Updated to the briefing format of 16 October 2026 on 19 October 2026. The evidence and findings are those of the 9 July 2026 edition.</span>
 9 July 2026 &middot; Audience: FMCG manufacturer leadership teams &middot; Horizon: 5 to 10 years<br>
-<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 21 min full read</span>
+<span style="font-size: 0.92em;">Read estimate: 2 min Executive Synthesis &middot; 25 min full read</span>
 <span class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.<br class="method-break"><span class="method-human">Scanned and filtered by AI. <a href="https://decision-intel.shapingtomorrow.com/how-we-verify/">Stress-tested and judged by humans</a>.</span></span>
 </div>
 </div>
 <a href="https://www.shapingtomorrow.com" target="_blank" rel="noopener"><img class="report-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAACJCAYAAACGl4kFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAImWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDI1LkcuZDIwZTQ2NiwgMjAyNS8xMi8wOC0yMDo1MDoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0wNS0xOFQxNToxMDowMyswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDRlNTQwYmYtODk0Zi1hNjRjLWFhNTctYjVjNjViODkwOWQwIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YzY4YmQ0MDEtZDBhNi0wODRmLWEwNjgtZDNhODU1YjcxODhlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZGYzOWUwMTktZGFlNy05NTQ4LWJjNDgtNTczYWMwZmE0NTI1IiBzdEV2dDp3aGVuPSIyMDIzLTA1LTA1VDE0OjE2OjM0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuMCAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmU5M2RiMDFlLWUzMGUtOTU0Yi1hMzFjLTZmMDUzMTE2YjY2MiIgc3RFdnQ6d2hlbj0iMjAyMy0wNS0wNVQxNDoxNjozNCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NGU1NDBiZi04OTRmLWE2NGMtYWE1Ny1iNWM2NWI4OTA5ZDAiIHN0RXZ0OndoZW49IjIwMjYtMDUtMThUMTU6MTA6MDMrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNy40IChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+OUEzRUU5RjIyNzg4MEI4NUMxRDQ1Q0U5NEQ0Njk2NTY8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpw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" alt="Shaping Tomorrow"></a>
 </div>
 
-<div class="learn-takeaways">
-  <div class="lt-card lt-learn">
-    <h3>What you will learn</h3>
-    <ol>
-      <li>Why the split of FMCG demand into a growing top and a growing bottom is now the settled shape of the market</li>
-      <li>Why the value end has three different causes in the US, Europe and emerging markets, each needing its own answer</li>
-      <li>What range, pricing and pack sizes the winning manufacturers will need in each region over the next decade</li>
-    </ol>
+<div class="risk-opps">
+  <div class="ro-card ro-risks">
+    <h3>Key risks</h3>
+    <ul>
+      <li><strong>Owners of mid-priced mainstream brands are losing shoppers to premium above and own brands below.</strong> The top 20% of US households now account for nearly 60% of consumer spending (<a href="https://www.cpgmatters.com/article/barbell-pricing-heavy-lift-brands-k-shaped-2026" target="_blank" rel="noopener">CPG Matters, on Moody's Analytics</a>, Mar 2026). <a class="ro-theme" href="#cluster-2">See Theme 2 &rarr;</a></li>
+      <li><strong>Branded manufacturers in Europe face a permanently lower ceiling on their share of the basket.</strong> Shops&rsquo; own brands reached a record 50% of grocery units across Europe&rsquo;s six biggest markets (<a href="https://www.circana.com/post/private-label-reaches-record-50-unit-share-across-europe-s-six-biggest-grocery-markets" target="_blank" rel="noopener">Circana</a>, Apr 2026). <a class="ro-theme" href="#cluster-4">See Theme 4 &rarr;</a></li>
+      <li><strong>Premium brands that rely on heritage rather than a provable benefit are the most exposed on the shelf.</strong> In UK skin care, mass grew 21% against 7% for premium as the same active ingredients moved down-market (<a href="https://cosmeticsbusiness.com/cosmetics-business-reveals-the-top-5-skin-care-2" target="_blank" rel="noopener">Cosmetics Business, on Kantar</a>, Mar 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+    </ul>
   </div>
-  <div class="lt-card lt-keys">
-    <h3>Key takeaways</h3>
-    <ol>
-      <li>L'Oréal Luxe grew 5.6% in early 2026 on new products, and 85% of prestige buyers now rank proof of results above heritage</li>
-      <li>Private label reached a record 50% of grocery units across Europe's six biggest markets in April 2026, and 23.8% in the US</li>
-      <li>US food support fell by more than 4 million people (10%) by March 2026, enlarging the value end by policy, not choice</li>
-    </ol>
+  <div class="ro-card ro-opps">
+    <h3>Key opportunities</h3>
+    <ul>
+      <li><strong>Premium brands that can prove their benefit can hold their prices.</strong> In a survey of prestige buyers, 85% ranked quality and efficacy above price, reviews or heritage (<a href="https://www.premiumbeautynews.com/en/u-s-prestige-beauty-consumers,27154" target="_blank" rel="noopener">Kearney, via Premium Beauty News</a>, Feb 2026). <a class="ro-theme" href="#cluster-1">See Theme 1 &rarr;</a></li>
+      <li><strong>Manufacturers that make small packs pay can win first-time buyers in emerging markets.</strong> Rural buyers in India now account for 42% of super-premium volume, entering mostly through small packs (<a href="https://mediabrief.com/worldpanel-india-premium-brands-make-up-15-of-fmcg-volumes/" target="_blank" rel="noopener">Worldpanel by Kantar, via MediaBrief</a>, Sep 2025). <a class="ro-theme" href="#cluster-5">See Theme 5 &rarr;</a></li>
+      <li><strong>Manufacturers that design for the US value shopper as a lasting segment can serve a growing group.</strong> SNAP food support fell by more than 4 million people between the 2025 budget law and March 2026 (<a href="https://www.cbpp.org/blog/families-across-us-feeling-pain-as-anniversary-of-2025-republican-reconciliation-law" target="_blank" rel="noopener">Center on Budget and Policy Priorities</a>, Jun 2026). <a class="ro-theme" href="#cluster-3">See Theme 3 &rarr;</a></li>
+    </ul>
   </div>
+</div>
+<div class="sur-band">
+  <span class="sur-band-label">Three surprises to 2040</span>
+  <ul>
+    <li><a href="#section-surprises">Young shoppers lead a return to brands, and own-label&rsquo;s share peaks</a> <span class="sur-band-meta">2032 to 2038 &middot; Low-Medium (20 to 40%)</span></li>
+    <li><a href="#section-surprises">Retailers&rsquo; own brands become the premium choice, not just the cheap one</a> <span class="sur-band-meta">2031 to 2038 &middot; Low-Medium (20 to 40%)</span></li>
+    <li><a href="#section-surprises">Small packs built for emerging markets become the value answer in the US and Europe</a> <span class="sur-band-meta">2031 to 2037 &middot; Low (under 20%)</span></li>
+  </ul>
 </div>
 
 <div class="toc-row">
@@ -369,14 +458,16 @@
   <li><a href="#section-executive-synthesis">2. Executive Synthesis</a></li>
   <li><a href="#section-snapshots">3. Audience Snapshots</a></li>
   <li><a href="#section-signal-clusters">4. Themes</a></li>
-  <li><a href="#section-strategic-implications">5. Strategic Implications</a></li>
-  <li><a href="#section-scenario-matrix">6. Scenario Matrix</a></li>
-  <li><a href="#section-options">7. Options</a></li>
-  <li><a href="#section-explicit-exclusions">8. What We Are Not Planning For</a></li>
-  <li><a href="#section-discussion-points">9. Questions For The Next Strategy Meeting</a></li>
-  <li><a href="#section-source-register">10. Source Confidence Register</a></li>
-  <li><a href="#claim-fidelity">11. Claim-Fidelity Appendix</a></li>
-  <li><a href="#section-abbreviations">12. Abbreviations</a></li>
+  <li><a href="#section-causal-loop-diagram">5. Causal Loop Diagram</a></li>
+  <li><a href="#section-strategic-implications">6. Strategic Implications</a></li>
+  <li><a href="#section-scenario-matrix">7. Scenario Matrix</a></li>
+  <li><a href="#section-surprises">8. Potential Surprises to 2040</a></li>
+  <li><a href="#section-options">9. Options</a></li>
+  <li><a href="#section-explicit-exclusions">10. What We Are Not Planning For</a></li>
+  <li><a href="#section-discussion-points">11. Questions For The Next Strategy Meeting</a></li>
+  <li><a href="#section-source-register">12. Source Confidence Register</a></li>
+  <li><a href="#claim-fidelity">13. Claim-Fidelity Appendix</a></li>
+  <li><a href="#section-abbreviations">14. Abbreviations</a></li>
 </ul>
 </div>
 <div class="toc-figure" data-fw-mode="authored" data-fw-rings="1+6+12+24" data-fw-engine="3">
@@ -584,7 +675,7 @@ rural buyers are entering branded goods through small packs and now account for 
 forecast to rise 2.8% in 2026 (<a href="https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings" target="_blank" rel="noopener">USDA Economic Research Service</a>, Jun 2026), and the IMF expects the slowdown to fall hardest on emerging economies
 (<a href="https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026" target="_blank" rel="noopener">IMF</a>, Apr 2026). Manufacturers are already reshaping ranges: Procter &amp; Gamble runs brands at distinct price
 tiers (<a href="https://www.fool.com/earnings/call-transcripts/2026/04/24/procter-and-gamble-q3-2026-earnings-call-transcript/" target="_blank" rel="noopener">Procter &amp; Gamble, via The Motley Fool</a>, Apr 2026) and Unilever is cutting weaker brands (<a href="https://www.unilever.com/news/press-and-media/press-releases/2026/strong-volume-growth-full-year-outlook-reconfirmed/" target="_blank" rel="noopener">Unilever</a>, Apr 2026). How far to move, and how differently in each
-region, is the choice in front of leadership teams: section 7 sets out the options.</p>
+region, is the choice in front of leadership teams: section 9 sets out the options.</p>
 
 <div class="stress-test-box">
 <h4>Where this analysis could be wrong</h4>
@@ -672,6 +763,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <h4>Counter-argument</h4>
 <p>The same efficacy logic may erode the price gap premium relies on. Mass and prestige beauty grew at nearly the same rate for the first time in five years (<a href="https://beautymatter.com/articles/us-beauty-market-delivers-steady-first-quarter-growth" target="_blank" rel="noopener">BeautyMatter, on Circana</a>, May 2026). This sharpens the theme rather than overturning it: efficacy that spreads turns yesterday's premium into today's mainstream, which is why heritage without proof is the exposed position.</p>
 </div>
+<p class="sm-onmap"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: B1 Copies erode the premium: a wide price gap invites cheaper copies, so only a benefit that is hard to copy holds the price (leverage point 3).</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-3" class="xref">3</a> and <a href="#si-1" class="xref">1</a>.</div>
 </div>
 
@@ -696,6 +788,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <h4>Counter-argument</h4>
 <p>The middle may be quiet rather than empty. Plenty of mainstream demand persists in habitual categories where shoppers neither trade up nor down, and a manufacturer that abandons the middle too fast could hand a profitable base to a more patient rival. The risk this cycle is over-abandonment. But no major market has shown the mid-tier regaining share, so the safer error is to build both ends first and hold the middle deliberately.</p>
 </div>
+<p class="sm-onmap"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: the middle is squeezed by the premium gap from above and own-label share from below, and R2 Promotion treadmill deepens the squeeze.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a> and <a href="#si-4" class="xref">4</a>.</div>
 </div>
 
@@ -720,6 +813,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <h4>Counter-argument</h4>
 <p>US growth still looks healthy, with the IMF projecting 2.3% for 2026 (<a href="https://www.imf.org/-/media/files/publications/weo/2026/april/english/ch1.pdf" target="_blank" rel="noopener">IMF</a>, Apr 2026), so the value-tier growth is a story about who gets what inside a healthy total, and it could reverse if tariffs were cut or food support restored. That is a test of how long it lasts rather than a rebuttal: the value tier grows for as long as the policies hold.</p>
 </div>
+<p class="sm-onmap"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: food support cuts and tariffs are an outside switch that enlarges the US value tier and feeds own-label share.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-4" class="xref">4</a>.</div>
 </div>
 
@@ -769,6 +863,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <h4>Counter-argument</h4>
 <p>The change may prove generational, softening as shoppers who never lived through the 2021 to 2023 squeeze reach spending age. The early drift among French under-35s is the signal to watch (<a href="https://www.lsa-conso.fr/marques-de-distributeurs-pourquoi-la-france-reste-en-retard-malgre-une-progression-record,464966" target="_blank" rel="noopener">LSA Conso, on NielsenIQ, in French</a>, Mar 2026). Even so, a decade of retailer investment in own-label quality means a partial return would still leave the brand ceiling well below where it was.</p>
 </div>
+<p class="sm-onmap"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: R1 Own-label quality flywheel: own-label wins draw retailer investment, which lifts perceived quality and wins more share.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-3" class="xref">3</a>.</div>
 </div>
 
@@ -793,6 +888,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <h4>Counter-argument</h4>
 <p>First purchases do not always become habits, and a slower economy could strand them. NielsenIQ still reads the rural-urban split partly as affordability stress (<a href="https://nielseniq.com/global/en/insights/report/2026/india-fmcg-quarterly-snapshot-q1-2026/" target="_blank" rel="noopener">NielsenIQ</a>, May 2026), and the IMF expects the slowdown to fall hardest on emerging economies (<a href="https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026" target="_blank" rel="noopener">IMF</a>, Apr 2026). The entry thesis holds only if first purchases turn into repeat purchases before conditions tighten.</p>
 </div>
+<p class="sm-onmap"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: R3 Small-pack ladder: first purchases become repeat buying and wider distribution, exposed to slower growth.</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-2" class="xref">2</a> and <a href="#si-1" class="xref">1</a>.</div>
 </div>
 
@@ -858,7 +954,211 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <h4>Counter-argument</h4>
 <p>One global operating model is cheaper to run than three regional ones, and splitting the range by region could give up the scale that makes large manufacturers competitive. But scale applied to the wrong shape is a cost: a range centred on the vanishing middle spreads investment where demand is thinnest.</p>
 </div>
+<p class="sm-onmap"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: pruning the range frees money for proof and new products, the way out of R2 Promotion treadmill (leverage point 1).</p>
 <div class="cluster-implication"><strong>Decision link:</strong> Strategic Implications <a href="#si-1" class="xref">1</a>, <a href="#si-2" class="xref">2</a> and <a href="#si-3" class="xref">3</a>.</div>
+</div>
+
+
+<a name="section-causal-loop-diagram"></a>
+<div class="cld-section" id="causal-loop-diagram">
+<h2>Causal Loop Diagram</h2>
+<p>Read together, the six themes explain why the middle empties. Premium and own-label squeeze the mid-priced brand from both sides; a reinforcing promotion treadmill makes the squeeze worse; own-label and small packs each grow through a loop of their own; and cheaper copies are the one force that narrows the premium gap. Arrows that cross a colour are connections no single theme carries.</p>
+<p class="sm-swipe">Swipe sideways to see the whole diagram.</p>
+<div class="sm-scroll"><svg viewBox="0 0 1240 780" role="img" aria-label="Causal Loop Diagram of the six themes in this briefing. Spending by top-income households and proven benefits widen the premium price gap, which cheaper copies narrow: a balancing loop. The premium gap and own-label share squeeze mid-priced brands; falling share pushes brands into price cuts and promotions, which take money from proof, a reinforcing promotion treadmill. US food support cuts and tariffs enlarge the US value tier and own-label share; own-label wins draw retailer investment and lift perceived quality, a reinforcing flywheel. In emerging markets, first small-pack purchases become repeat buying and wider distribution, a reinforcing ladder exposed to slower growth. Numbered points mark the four Strategic Implications." font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif"><defs><marker id="fc-pos" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5563"/></marker><marker id="fc-neg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="fc-lp00838f" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00838f"/></marker><marker id="fc-lp1565c0" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker><marker id="fc-lp2e7d32" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="fc-lp6a4fb3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6a4fb3"/></marker></defs>
+<g class="lk"><title>Spending by top- income households → Premium price gap (+): The top 20% of US households account for nearly 60% of consumer spending, and L’Oréal Luxe grew 5.6% on new products.</title>
+<path d="M199.0,161.8 Q355.0,130.0 509.0,98.6" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="459.7" cy="108.6" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="459.7" y="113.2" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Proven benefit in premium lines → Premium price gap (+): 85% of prestige buyers rank quality and efficacy above price, reviews or heritage.</title>
+<path d="M439.0,80.0 Q475.0,80.0 509.0,80.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="498.1" cy="80.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="498.1" y="84.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Premium price gap → Efficacy copied by mass brands (+): A wide price gap invites copies, and the same active ingredients are moving down-market. The link is analysis; the movement is sourced.</title>
+<path d="M675.1,54.0 Q730.0,35.0 779.1,52.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="763.2" cy="47.5" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="763.2" y="52.1" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Efficacy copied by mass brands → Premium price gap (−): In UK skin care mass grew 21% against 7% for premium, and mass and prestige grew at nearly the same rate for the first time in five years.</title>
+<path d="M784.9,106.0 Q730.0,125.0 680.9,108.0" fill="none" stroke="#c62828" stroke-width="1.8" marker-end="url(#fc-neg)"/>
+<circle cx="696.8" cy="112.5" r="8.5" fill="#fff" stroke="#c62828" stroke-width="1.2"/>
+<text x="696.8" y="117.1" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">−</text>
+<line x1="740.0" y1="122.6" x2="739.3" y2="108.7" stroke="#c62828" stroke-width="2"/>
+<line x1="734.0" y1="123.0" x2="733.3" y2="109.0" stroke="#c62828" stroke-width="2"/>
+</g>
+<g class="lk"><title>Premium price gap → Mid-priced brand share (−): Premium spending is pulling away from the mainstream.</title>
+<path d="M600.0,106.0 Q600.0,190.0 600.0,272.0" fill="none" stroke="#c62828" stroke-width="1.8" marker-end="url(#fc-neg)"/>
+<circle cx="600.0" cy="245.7" r="8.5" fill="#fff" stroke="#c62828" stroke-width="1.2"/>
+<text x="600.0" y="250.3" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">−</text>
+</g>
+<g class="lk"><title>Own-label share of grocery units → Mid-priced brand share (−): Shops’ own brands squeeze the middle from below: a record 50% of grocery units in Europe’s six biggest markets.</title>
+<path d="M600.0,464.0 Q600.0,395.0 600.0,328.0" fill="none" stroke="#c62828" stroke-width="1.8" marker-end="url(#fc-neg)"/>
+<circle cx="600.0" cy="349.5" r="8.5" fill="#fff" stroke="#c62828" stroke-width="1.2"/>
+<text x="600.0" y="354.1" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">−</text>
+</g>
+<g class="lk"><title>Mid-priced brand share → Price cuts and promotions (−): As share falls, brands lean on price: US national brands grew sales 2.2% mainly by cutting prices.</title>
+<path d="M689.0,300.0 Q730.0,300.0 769.0,300.0" fill="none" stroke="#c62828" stroke-width="1.8" marker-end="url(#fc-neg)"/>
+<circle cx="756.5" cy="300.0" r="8.5" fill="#fff" stroke="#c62828" stroke-width="1.2"/>
+<text x="756.5" y="304.6" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">−</text>
+</g>
+<g class="lk"><title>Price cuts and promotions → Investment in new products and proof (−): Money spent on promotion is not spent on proof: one in four Western European units sells on promotion, and new-product sales fell 5.8% in units. That one crowds out the other is analysis.</title>
+<path d="M809.0,274.0 Q605.0,170.0 404.9,272.0" fill="none" stroke="#c62828" stroke-width="1.8" marker-end="url(#fc-neg)"/>
+<circle cx="469.0" cy="244.6" r="8.5" fill="#fff" stroke="#c62828" stroke-width="1.2"/>
+<text x="469.0" y="249.2" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">−</text>
+</g>
+<g class="lk"><title>Investment in new products and proof → Mid-priced brand share (+): Brands that invest in a benefit shoppers can see hold share. Analysis, behind Implication 3.</title>
+<path d="M439.0,300.0 Q475.0,300.0 509.0,300.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="498.1" cy="300.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="498.1" y="304.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+<line x1="468.0" y1="293.0" x2="468.0" y2="307.0" stroke="#4a5563" stroke-width="2"/>
+<line x1="474.0" y1="293.0" x2="474.0" y2="307.0" stroke="#4a5563" stroke-width="2"/>
+</g>
+<g class="lk"><title>Range pruned to fewer, stronger brands → Investment in new products and proof (+): Pruning frees money for fewer, stronger products: Unilever is cutting weaker brands, and NielsenIQ prescribes fewer, stronger products.</title>
+<path d="M199.0,300.0 Q230.0,300.0 259.0,300.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="249.7" cy="300.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="249.7" y="304.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Food support cuts and tariffs → US households in the value tier (+): SNAP food support fell by more than 4 million people, and tariffs cost the poorest tenth of households about three times as much of their income as the richest.</title>
+<path d="M199.0,490.0 Q230.0,490.0 259.0,490.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="249.7" cy="490.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="249.7" y="494.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>US households in the value tier → Own-label share of grocery units (+): Own-label reached a record 23.8% of US grocery units in the first half of 2026.</title>
+<path d="M439.0,490.0 Q475.0,490.0 509.0,490.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="498.1" cy="490.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="498.1" y="494.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Own-label share of grocery units → Retailers’ investment in own-label (+): Retailers invest where their own brands win. Analysis.</title>
+<path d="M689.0,490.0 Q730.0,490.0 769.0,490.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="756.5" cy="490.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="756.5" y="494.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Retailers’ investment in own-label → Own-label quality as shoppers see it (+): Own-label quality drove retailers’ market-share gains more than price.</title>
+<path d="M860.0,516.0 Q860.0,565.0 860.0,612.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="860.0" cy="596.9" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="860.0" y="601.5" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Own-label quality as shoppers see it → Own-label share of grocery units (+): Shoppers now treat own-label as a legitimate choice; in Germany it reached a record 47%.</title>
+<path d="M814.9,614.0 Q730.0,565.0 648.5,518.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="674.7" cy="533.1" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="674.7" y="537.7" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+<line x1="738.3" y1="577.9" x2="745.3" y2="565.7" stroke="#4a5563" stroke-width="2"/>
+<line x1="733.1" y1="574.9" x2="740.1" y2="562.7" stroke="#4a5563" stroke-width="2"/>
+</g>
+<g class="lk"><title>First-time small-pack buyers → Repeat purchases (+): First purchases become habits where small packs pay: Hindustan Unilever grew revenue 8% on 6% volume growth.</title>
+<path d="M439.0,730.0 Q475.0,730.0 509.0,730.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="498.1" cy="730.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="498.1" y="734.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Repeat purchases → Small-pack distribution (+): Repeat demand justifies wider reach: Nestlé India expects growth from reaching more households.</title>
+<path d="M545.8,704.0 Q475.0,670.0 408.3,638.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="429.8" cy="648.3" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="429.8" y="652.9" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<g class="lk"><title>Small-pack distribution → First-time small-pack buyers (+): Wider distribution reaches more first-time buyers; rural buyers now account for 42% of super-premium volume in India.</title>
+<path d="M350.0,636.0 Q350.0,670.0 350.0,702.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="350.0" cy="691.7" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="350.0" y="696.3" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+<line x1="357.0" y1="663.2" x2="343.0" y2="663.2" stroke="#4a5563" stroke-width="2"/>
+<line x1="357.0" y1="669.2" x2="343.0" y2="669.2" stroke="#4a5563" stroke-width="2"/>
+</g>
+<g class="lk"><title>Emerging-market growth → Repeat purchases (+): A slower economy could strand first purchases: the IMF expects the slowdown to fall hardest on emerging economies.</title>
+<path d="M1021.0,730.0 Q855.0,730.0 691.0,730.0" fill="none" stroke="#4a5563" stroke-width="1.8" marker-end="url(#fc-pos)"/>
+<circle cx="743.5" cy="730.0" r="8.5" fill="#fff" stroke="#4a5563" stroke-width="1.2"/>
+<text x="743.5" y="734.6" text-anchor="middle" font-size="13" font-weight="700" fill="#4a5563">+</text>
+</g>
+<rect x="24" y="157" width="172" height="46" rx="9" fill="#fff3e0" stroke="#f57c00" stroke-width="1.7"/>
+<text x="110" y="177" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a4b00">Spending by top-</text>
+<text x="110" y="193" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a4b00">income households</text>
+<rect x="264" y="57" width="172" height="46" rx="9" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.7"/>
+<text x="350" y="77" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0d3c7a">Proven benefit</text>
+<text x="350" y="93" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0d3c7a">in premium lines</text>
+<rect x="514" y="57" width="172" height="46" rx="9" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.7"/>
+<text x="600" y="77" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0d3c7a">Premium</text>
+<text x="600" y="93" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0d3c7a">price gap</text>
+<rect x="774" y="57" width="172" height="46" rx="9" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.7"/>
+<text x="860" y="77" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0d3c7a">Efficacy copied</text>
+<text x="860" y="93" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0d3c7a">by mass brands</text>
+<rect x="24" y="277" width="172" height="46" rx="9" fill="#f3effb" stroke="#6a4fb3" stroke-width="1.7"/>
+<text x="110" y="297" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4527a0">Range pruned to</text>
+<text x="110" y="313" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4527a0">fewer, stronger brands</text>
+<rect x="264" y="277" width="172" height="46" rx="9" fill="#f3effb" stroke="#6a4fb3" stroke-width="1.7"/>
+<text x="350" y="297" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4527a0">Investment in new</text>
+<text x="350" y="313" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4527a0">products and proof</text>
+<rect x="514" y="277" width="172" height="46" rx="9" fill="#fff3e0" stroke="#f57c00" stroke-width="1.7"/>
+<text x="600" y="297" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a4b00">Mid-priced</text>
+<text x="600" y="313" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a4b00">brand share</text>
+<rect x="774" y="277" width="172" height="46" rx="9" fill="#f3effb" stroke="#6a4fb3" stroke-width="1.7"/>
+<text x="860" y="297" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4527a0">Price cuts</text>
+<text x="860" y="313" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4527a0">and promotions</text>
+<rect x="24" y="467" width="172" height="46" rx="9" fill="#f4f5f7" stroke="#9aa4b0" stroke-width="1.7" stroke-dasharray="4 3"/>
+<text x="110" y="487" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4a5563">Food support cuts</text>
+<text x="110" y="503" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4a5563">and tariffs</text>
+<rect x="264" y="467" width="172" height="46" rx="9" fill="#fdecea" stroke="#c62828" stroke-width="1.7"/>
+<text x="350" y="487" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8e1b1b">US households in</text>
+<text x="350" y="503" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8e1b1b">the value tier</text>
+<rect x="514" y="467" width="172" height="46" rx="9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.7"/>
+<text x="600" y="487" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b5e20">Own-label share</text>
+<text x="600" y="503" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b5e20">of grocery units</text>
+<rect x="774" y="467" width="172" height="46" rx="9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.7"/>
+<text x="860" y="487" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b5e20">Retailers’ investment</text>
+<text x="860" y="503" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b5e20">in own-label</text>
+<rect x="774" y="617" width="172" height="46" rx="9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.7"/>
+<text x="860" y="637" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b5e20">Own-label quality</text>
+<text x="860" y="653" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1b5e20">as shoppers see it</text>
+<rect x="264" y="707" width="172" height="46" rx="9" fill="#e0f7fa" stroke="#00838f" stroke-width="1.7"/>
+<text x="350" y="727" text-anchor="middle" font-size="12.5" font-weight="700" fill="#005662">First-time</text>
+<text x="350" y="743" text-anchor="middle" font-size="12.5" font-weight="700" fill="#005662">small-pack buyers</text>
+<rect x="514" y="707" width="172" height="46" rx="9" fill="#e0f7fa" stroke="#00838f" stroke-width="1.7"/>
+<text x="600" y="727" text-anchor="middle" font-size="12.5" font-weight="700" fill="#005662">Repeat</text>
+<text x="600" y="743" text-anchor="middle" font-size="12.5" font-weight="700" fill="#005662">purchases</text>
+<rect x="264" y="587" width="172" height="46" rx="9" fill="#e0f7fa" stroke="#00838f" stroke-width="1.7"/>
+<text x="350" y="607" text-anchor="middle" font-size="12.5" font-weight="700" fill="#005662">Small-pack</text>
+<text x="350" y="623" text-anchor="middle" font-size="12.5" font-weight="700" fill="#005662">distribution</text>
+<rect x="1024" y="707" width="172" height="46" rx="9" fill="#f4f5f7" stroke="#9aa4b0" stroke-width="1.7" stroke-dasharray="4 3"/>
+<text x="1110" y="727" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4a5563">Emerging-market</text>
+<text x="1110" y="743" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4a5563">growth</text>
+<g class="loop-badge"><circle cx="730" cy="80" r="16" fill="#fff" stroke="#1565c0" stroke-width="2"/><path d="M741.0,60.9 A22,22 0 1 1 715.9,63.1" fill="none" stroke="#1565c0" stroke-width="1.6" marker-end="url(#fc-lp1565c0)"/><text x="730" y="85" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1565c0">B1</text><text x="730" y="22" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1565c0" stroke="#fff" stroke-width="3" paint-order="stroke">Copies erode the premium</text></g>
+<g class="loop-badge"><circle cx="480" cy="205" r="16" fill="#fff" stroke="#6a4fb3" stroke-width="2"/><path d="M491.0,185.9 A22,22 0 1 1 465.9,188.1" fill="none" stroke="#6a4fb3" stroke-width="1.6" marker-end="url(#fc-lp6a4fb3)"/><text x="480" y="210" text-anchor="middle" font-size="13.5" font-weight="800" fill="#6a4fb3">R2</text><text x="452" y="209" text-anchor="end" font-size="11.5" font-weight="700" fill="#6a4fb3" stroke="#fff" stroke-width="3" paint-order="stroke">Promotion treadmill</text></g>
+<g class="loop-badge"><circle cx="792" cy="552" r="16" fill="#fff" stroke="#2e7d32" stroke-width="2"/><path d="M803.0,532.9 A22,22 0 1 1 777.9,535.1" fill="none" stroke="#2e7d32" stroke-width="1.6" marker-end="url(#fc-lp2e7d32)"/><text x="792" y="557" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2e7d32">R1</text><text x="884" y="556" text-anchor="start" font-size="11.5" font-weight="700" fill="#2e7d32" stroke="#fff" stroke-width="3" paint-order="stroke">Own-label quality flywheel</text></g>
+<g class="loop-badge"><circle cx="440" cy="690" r="16" fill="#fff" stroke="#00838f" stroke-width="2"/><path d="M451.0,670.9 A22,22 0 1 1 425.9,673.1" fill="none" stroke="#00838f" stroke-width="1.6" marker-end="url(#fc-lp00838f)"/><text x="440" y="695" text-anchor="middle" font-size="13.5" font-weight="800" fill="#00838f">R3</text><text x="250" y="664" text-anchor="end" font-size="11.5" font-weight="700" fill="#00838f" stroke="#fff" stroke-width="3" paint-order="stroke">Small-pack ladder</text></g>
+<g class="lp"><title>Implication 1: give every mid-tier brand a verdict and rebuild the ladder, which frees money for proof.</title><circle cx="186" cy="278" r="12" fill="#f2b705" stroke="#031B41" stroke-width="1.6"/><text x="186" y="282.6" text-anchor="middle" font-size="13" font-weight="800" fill="#031B41">1</text></g>
+<g class="lp"><title>Implication 2: a separate value-tier plan for each region decides how to meet the own-label share.</title><circle cx="676" cy="468" r="12" fill="#f2b705" stroke="#031B41" stroke-width="1.6"/><text x="676" y="472.6" text-anchor="middle" font-size="13" font-weight="800" fill="#031B41">2</text></g>
+<g class="lp"><title>Implication 3: base every premium claim on a proven benefit that is hard to copy.</title><circle cx="426" cy="58" r="12" fill="#f2b705" stroke="#031B41" stroke-width="1.6"/><text x="426" y="62.6" text-anchor="middle" font-size="13" font-weight="800" fill="#031B41">3</text></g>
+<g class="lp"><title>Implication 4: watch the policy switch and the other signposts on a regional dashboard.</title><circle cx="186" cy="468" r="12" fill="#f2b705" stroke="#031B41" stroke-width="1.6"/><text x="186" y="472.6" text-anchor="middle" font-size="13" font-weight="800" fill="#031B41">4</text></g></svg></div>
+<div class="sm-legend"><span><i class="sw" style="background:#e3f2fd;border-color:#1565c0"></i>Premium on proof</span><span><i class="sw" style="background:#fff3e0;border-color:#f57c00"></i>The empty middle</span><span><i class="sw" style="background:#fdecea;border-color:#c62828"></i>US value by policy</span><span><i class="sw" style="background:#e8f5e9;border-color:#2e7d32"></i>Europe own-label</span><span><i class="sw" style="background:#e0f7fa;border-color:#00838f"></i>Small-pack entry</span><span><i class="sw" style="background:#f3effb;border-color:#6a4fb3"></i>Regional architecture</span><span><i class="sw" style="background:#f4f5f7;border-color:#9aa4b0;border-style:dashed"></i>Outside switch</span><span><i class="pm" style="color:#4a5563;border-color:#4a5563">+</i>same direction</span><span><i class="pm" style="color:#c62828;border-color:#c62828">&minus;</i>opposite direction</span><span><b style="color:#4a5563">||</b>&nbsp;delay</span><span><i class="lpn">1</i>Strategic Implication acting here</span></div>
+<table class="sm-loops"><thead><tr><th>Loop</th><th>Name</th><th>What it does</th><th>This cycle</th></tr></thead><tbody>
+<tr><td class="code" style="color:#1565c0">B1</td><td><strong>Copies erode the premium</strong><br><span style="color:#5a6478;font-size:0.92em">Theme 1</span></td><td>A wide premium price gap invites cheaper copies, which narrow the gap. Only a benefit that is hard to copy holds the price.</td><td><span class="sm-status st-up">Active: mass grew 21% against 7% in UK skin care</span></td></tr>
+<tr><td class="code" style="color:#6a4fb3">R2</td><td><strong>Promotion treadmill</strong><br><span style="color:#5a6478;font-size:0.92em">Themes 2 and 6</span></td><td>Falling share pushes brands into price cuts and promotions, which take money from proof and new products, so share falls further.</td><td><span class="sm-status st-up">Active: one in four units on promotion</span></td></tr>
+<tr><td class="code" style="color:#2e7d32">R1</td><td><strong>Own-label quality flywheel</strong><br><span style="color:#5a6478;font-size:0.92em">Theme 4</span></td><td>Own-label wins draw retailer investment, which lifts perceived quality and wins more share.</td><td><span class="sm-status st-up">Active: up every year since 2021</span></td></tr>
+<tr><td class="code" style="color:#00838f">R3</td><td><strong>Small-pack ladder</strong><br><span style="color:#5a6478;font-size:0.92em">Theme 5</span></td><td>First small-pack purchases become repeat buying, which justifies wider distribution and reaches more first-time buyers.</td><td><span class="sm-status st-prime">Active, but exposed to a slowdown</span></td></tr>
+</tbody></table>
+<p>The Scenario Matrix's horizontal axis asks who wins the R1 flywheel, retailers or brands; its vertical axis asks whether the squeeze on the middle holds or eases.</p>
+<div class="sm-means"><strong>What it means:</strong> The middle is squeezed from both ends, and the promotion treadmill makes it worse. Breaking that loop, by pruning and putting the money into proof, is the move a manufacturer controls.</div>
+<details><summary>Evidence for every link (19)</summary>
+<table class="sm-ev"><thead><tr><th>#</th><th>Link</th><th>+/&minus;</th><th>Evidence</th></tr></thead><tbody>
+<tr><td>1</td><td><strong>Spending by top- income households &rarr; Premium price gap</strong><br><span class="src">Themes 2 and 1</span></td><td class="sg pos">+</td><td>The top 20% of US households account for nearly 60% of consumer spending, and L’Oréal Luxe grew 5.6% on new products.<br><span class="src">CPG Matters, on Moody’s Analytics, March 2026; L’Oréal, April 2026 &middot; Tier 2</span></td></tr>
+<tr><td>2</td><td><strong>Proven benefit in premium lines &rarr; Premium price gap</strong><br><span class="src">Theme 1</span></td><td class="sg pos">+</td><td>85% of prestige buyers rank quality and efficacy above price, reviews or heritage.<br><span class="src">Kearney, via Premium Beauty News, February 2026 &middot; Tier 2</span></td></tr>
+<tr><td>3</td><td><strong>Premium price gap &rarr; Efficacy copied by mass brands</strong><br><span class="src">B1</span></td><td class="sg pos">+</td><td>A wide price gap invites copies, and the same active ingredients are moving down-market. The link is analysis; the movement is sourced.<br><span class="src">Cosmetics Business, on Kantar, March 2026 &middot; Tier 3</span></td></tr>
+<tr><td>4</td><td><strong>Efficacy copied by mass brands &rarr; Premium price gap</strong><br><span class="src">B1</span></td><td class="sg neg">−</td><td>In UK skin care mass grew 21% against 7% for premium, and mass and prestige grew at nearly the same rate for the first time in five years.<br><span class="src">Cosmetics Business, on Kantar, March 2026; BeautyMatter, on Circana, May 2026 &middot; Tier 3</span></td></tr>
+<tr><td>5</td><td><strong>Premium price gap &rarr; Mid-priced brand share</strong><br><span class="src">Themes 1 and 2</span></td><td class="sg neg">−</td><td>Premium spending is pulling away from the mainstream.<br><span class="src">McKinsey, June 2026 &middot; Tier 2</span></td></tr>
+<tr><td>6</td><td><strong>Own-label share of grocery units &rarr; Mid-priced brand share</strong><br><span class="src">Themes 4 and 2</span></td><td class="sg neg">−</td><td>Shops’ own brands squeeze the middle from below: a record 50% of grocery units in Europe’s six biggest markets.<br><span class="src">Circana, April 2026 &middot; Tier 2</span></td></tr>
+<tr><td>7</td><td><strong>Mid-priced brand share &rarr; Price cuts and promotions</strong><br><span class="src">R2</span></td><td class="sg neg">−</td><td>As share falls, brands lean on price: US national brands grew sales 2.2% mainly by cutting prices.<br><span class="src">BakeryandSnacks, on Circana, July 2026 &middot; Tier 3</span></td></tr>
+<tr><td>8</td><td><strong>Price cuts and promotions &rarr; Investment in new products and proof</strong><br><span class="src">R2</span></td><td class="sg neg">−</td><td>Money spent on promotion is not spent on proof: one in four Western European units sells on promotion, and new-product sales fell 5.8% in units. That one crowds out the other is analysis.<br><span class="src">NielsenIQ, January and February 2026 &middot; Tier 2</span></td></tr>
+<tr><td>9</td><td><strong>Investment in new products and proof &rarr; Mid-priced brand share</strong><br><span class="src">R2</span></td><td class="sg pos">+</td><td>Brands that invest in a benefit shoppers can see hold share. Analysis, behind Implication 3.<br><span class="src">Analysis &middot; Analysis</span></td></tr>
+<tr><td>10</td><td><strong>Range pruned to fewer, stronger brands &rarr; Investment in new products and proof</strong><br><span class="src">Theme 6</span></td><td class="sg pos">+</td><td>Pruning frees money for fewer, stronger products: Unilever is cutting weaker brands, and NielsenIQ prescribes fewer, stronger products.<br><span class="src">Unilever, April 2026; NielsenIQ, January 2026 &middot; Tier 2</span></td></tr>
+<tr><td>11</td><td><strong>Food support cuts and tariffs &rarr; US households in the value tier</strong><br><span class="src">Theme 3</span></td><td class="sg pos">+</td><td>SNAP food support fell by more than 4 million people, and tariffs cost the poorest tenth of households about three times as much of their income as the richest.<br><span class="src">Center on Budget and Policy Priorities, June 2026; The Budget Lab at Yale, April 2026 &middot; Tier 2</span></td></tr>
+<tr><td>12</td><td><strong>US households in the value tier &rarr; Own-label share of grocery units</strong><br><span class="src">Themes 3 and 4</span></td><td class="sg pos">+</td><td>Own-label reached a record 23.8% of US grocery units in the first half of 2026.<br><span class="src">BakeryandSnacks, on Circana, July 2026 &middot; Tier 3</span></td></tr>
+<tr><td>13</td><td><strong>Own-label share of grocery units &rarr; Retailers’ investment in own-label</strong><br><span class="src">R1</span></td><td class="sg pos">+</td><td>Retailers invest where their own brands win. Analysis.<br><span class="src">Analysis &middot; Analysis</span></td></tr>
+<tr><td>14</td><td><strong>Retailers’ investment in own-label &rarr; Own-label quality as shoppers see it</strong><br><span class="src">R1</span></td><td class="sg pos">+</td><td>Own-label quality drove retailers’ market-share gains more than price.<br><span class="src">McKinsey, via ESM, April 2026 &middot; Tier 2</span></td></tr>
+<tr><td>15</td><td><strong>Own-label quality as shoppers see it &rarr; Own-label share of grocery units</strong><br><span class="src">R1</span></td><td class="sg pos">+</td><td>Shoppers now treat own-label as a legitimate choice; in Germany it reached a record 47%.<br><span class="src">DairyReporter, on Circana, June 2026; Lebensmittelpraxis, on YouGov, June 2026 &middot; Tier 3</span></td></tr>
+<tr><td>16</td><td><strong>First-time small-pack buyers &rarr; Repeat purchases</strong><br><span class="src">R3</span></td><td class="sg pos">+</td><td>First purchases become habits where small packs pay: Hindustan Unilever grew revenue 8% on 6% volume growth.<br><span class="src">Hindustan Unilever, via ScanX, May 2026 &middot; Tier 4</span></td></tr>
+<tr><td>17</td><td><strong>Repeat purchases &rarr; Small-pack distribution</strong><br><span class="src">R3</span></td><td class="sg pos">+</td><td>Repeat demand justifies wider reach: Nestlé India expects growth from reaching more households.<br><span class="src">Nestlé India, via Business Standard, July 2026 &middot; Tier 4</span></td></tr>
+<tr><td>18</td><td><strong>Small-pack distribution &rarr; First-time small-pack buyers</strong><br><span class="src">R3</span></td><td class="sg pos">+</td><td>Wider distribution reaches more first-time buyers; rural buyers now account for 42% of super-premium volume in India.<br><span class="src">Worldpanel by Kantar, via MediaBrief, September 2025 &middot; Tier 2</span></td></tr>
+<tr><td>19</td><td><strong>Emerging-market growth &rarr; Repeat purchases</strong><br><span class="src">Theme 5</span></td><td class="sg pos">+</td><td>A slower economy could strand first purchases: the IMF expects the slowdown to fall hardest on emerging economies.<br><span class="src">IMF, April 2026 &middot; Tier 1</span></td></tr>
+</tbody></table></details>
+<p class="sm-note">Drawn only from this briefing's sources. Each sign is a judgement from that evidence, and links resting on analysis alone are marked. Hover over an arrow for its evidence.</p>
 </div>
 
 <a name="section-strategic-implications"></a>
@@ -871,6 +1171,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <p class="si-action">Action: By the next annual planning round, the Chief Growth Officer maps every mainstream brand to move up, move down or retire, with a two-year timetable and reinvestment plan.</p>
 <span class="si-pill decide">Decide</span>
 <span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a>, <a href="#cluster-2" class="xref">2</a> and <a href="#cluster-6" class="xref">6</a></span>
+<span class="si-map-ref"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: leverage point 1, pruning the range to free money for proof, the way out of R2 Promotion treadmill.</span>
 </div>
 
 <div class="si-item" id="si-2">
@@ -879,6 +1180,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <p class="si-action">Action: Within two planning cycles, each region publishes its own value-tier plan, owned by the regional president.</p>
 <span class="si-pill prepare">Prepare</span>
 <span class="si-cluster-ref">Draws on Themes <a href="#cluster-3" class="xref">3</a>, <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a></span>
+<span class="si-map-ref"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: leverage point 2, own-label share, where each region decides whether to compete with own-label or supply it.</span>
 </div>
 
 <div class="si-item" id="si-3">
@@ -887,6 +1189,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <p class="si-action">Action: The Chief Brand and Marketing Officer completes a premium-claim audit within two quarters and reprices or retires the lines that fail it by the next range review.</p>
 <span class="si-pill decide">Decide</span>
 <span class="si-cluster-ref">Draws on Themes <a href="#cluster-1" class="xref">1</a>, <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-6" class="xref">6</a></span>
+<span class="si-map-ref"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: leverage point 3, a proven benefit, the one input that holds the premium gap against B1.</span>
 </div>
 
 <div class="si-item" id="si-4">
@@ -895,6 +1198,7 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <p class="si-action">Action: The strategy team launches the dashboard within one quarter and reports to the leadership team monthly.</p>
 <span class="si-pill monitor">Monitor</span>
 <span class="si-cluster-ref">Draws on Themes <a href="#cluster-2" class="xref">2</a>, <a href="#cluster-3" class="xref">3</a>, <a href="#cluster-4" class="xref">4</a> and <a href="#cluster-5" class="xref">5</a></span>
+<span class="si-map-ref"><a href="#section-causal-loop-diagram">On the Causal Loop Diagram</a>: leverage point 4, the outside switches and loop statuses the dashboard watches.</span>
 </div>
 
 </div>
@@ -915,24 +1219,28 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 
 <div class="scenario-cell scenario-1">
 <h4>Two Brand Worlds</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>From own-label at a record 23.8% of US grocery units (<a href="https://www.bakeryandsnacks.com/Article/2026/07/09/private-label-widens-lead-over-national-brands-in-2026-grocery-unit-sales/" target="_blank" rel="noopener">BakeryandSnacks, on Circana</a>, Jul 2026) to own-label share levelling off as brands hold both ends.</p>
 <p>Five to ten years out, demand has split further, but manufacturers hold both ends with their own brands. Own-label has levelled off because brands invested early in proven premium products and credible low-price brands. The middle has been thinned on purpose, and the prize went to those who moved first on both ends.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Own-label share flattening; branded low-price lines gaining units; premium claims holding their price gaps.</div>
 </div>
 
 <div class="scenario-cell scenario-2">
 <h4>Retailers Own the Floor</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>From own-label at 50% of grocery units in Europe&rsquo;s six biggest markets (<a href="https://www.circana.com/post/private-label-reaches-record-50-unit-share-across-europe-s-six-biggest-grocery-markets" target="_blank" rel="noopener">Circana</a>, Apr 2026) to retailers owning the cheap end outright.</p>
 <p>Five to ten years out, demand has split further and shops' own brands have taken the cheap end outright. Own-label is well past half of units in more markets, and brands that did not secure the value tier early find it closed. Manufacturers live on proven premium products and on supplying own-label on retailers' terms.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Own-label rising well past half of units in more markets; retailers' premium own-label ranges growing; national brands leaving value categories.</div>
 </div>
 
 <div class="scenario-cell scenario-3">
 <h4>The Middle Refills</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>From US national brands growing sales 2.2% mainly by cutting prices (<a href="https://www.bakeryandsnacks.com/Article/2026/07/09/private-label-widens-lead-over-national-brands-in-2026-grocery-unit-sales/" target="_blank" rel="noopener">BakeryandSnacks, on Circana</a>, Jul 2026) to mid-tier brands winning back unit share as incomes recover.</p>
 <p>Five to ten years out, real incomes have recovered, traded-down shoppers have returned and own-label has levelled off, so the market drifts back towards a bell. Manufacturers that abandoned the middle too fast find a patient rival has held it. Promotions regain some power and the premium price gap narrows.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Mid-tier national brands gaining units for two or more quarters; real incomes growing faster; promotions adding volume again.</div>
 </div>
 
 <div class="scenario-cell scenario-4">
 <h4>Quality-Value Convergence</h4>
+<p class="scn-delta"><span class="scn-delta-k">&#8599; Shift from today</span>From 70% of consumers judging own-label as good as brands (<a href="https://www.oliverwyman.com/our-expertise/insights/2026/jun/cpg-companies-manage-premiumization-costs.html" target="_blank" rel="noopener">Oliver Wyman</a>, Jun 2026) to premium own-label and good-value brands refilling the middle.</p>
 <p>Five to ten years out, incomes have recovered but the taste for good-value quality has not faded. The middle refills with premium own-label and good-value brands rather than the old mainstream, and everyone competes on quality for the price. Manufacturers win only where their benefit is clearly better or their costs clearly lower.</p>
 <div class="scenario-indicators"><strong>Early indicators:</strong> Premium own-label growing faster than standard own-label; price gaps between brands and own-label narrowing; efficacy claims becoming the norm.</div>
 </div>
@@ -942,12 +1250,50 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 </div>
 </div>
 
+
+<a name="section-surprises"></a>
+<div class="surprises-section">
+<h2>Potential Surprises to 2040</h2>
+<div class="sur-grid">
+<div class="surprise s-weak">
+<span class="sur-eyebrow">Weak signal</span>
+<h4>Young shoppers lead a return to brands, and own-label&rsquo;s share peaks</h4>
+<p class="sur-meta"><strong>Window:</strong> 2032 to 2038 &middot; <strong>Probability band:</strong> Low-Medium (20 to 40%)</p>
+<p class="sur-why"><strong>Why it would surprise:</strong> Plans treat Europe&rsquo;s own-label reset as permanent across every age group.</p>
+<p>NielsenIQ data show under-35s in France buying less own-label while their branded buying edged up (<a href="https://www.lsa-conso.fr/marques-de-distributeurs-pourquoi-la-france-reste-en-retard-malgre-une-progression-record,464966" target="_blank" rel="noopener">LSA Conso, on NielsenIQ, in French</a>, Mar 2026).</p>
+<p class="sur-signposts"><strong>Signposts to watch:</strong></p>
+<ul class="sur-signposts-list"><li>By March 2027: a second European market reports under-35s buying less own-label for two consecutive quarters.</li><li>By December 2028: own-label&rsquo;s unit share in Europe&rsquo;s six biggest markets falls over a full year.</li></ul>
+<p class="sur-today"><strong>What it touches today:</strong> Whether to cut brand investment in Europe on the assumption that own-label share only rises.</p>
+</div>
+<div class="surprise s-emerging">
+<span class="sur-eyebrow">Emerging</span>
+<h4>Retailers&rsquo; own brands become the premium choice, not just the cheap one</h4>
+<p class="sur-meta"><strong>Window:</strong> 2031 to 2038 &middot; <strong>Probability band:</strong> Low-Medium (20 to 40%)</p>
+<p class="sur-why"><strong>Why it would surprise:</strong> Brand plans assume own-label competes at the bottom of the ladder and leaves the top to brands.</p>
+<p>Own-label&rsquo;s perceived quality drove retailers&rsquo; market-share gains more than price (<a href="https://www.esmmagazine.com/retail/8-trends-driving-european-grocery-retail-in-2026-310353" target="_blank" rel="noopener">McKinsey, via ESM</a>, Apr 2026), and 70% of consumers now think own-label is as good as brands (<a href="https://www.oliverwyman.com/our-expertise/insights/2026/jun/cpg-companies-manage-premiumization-costs.html" target="_blank" rel="noopener">Oliver Wyman</a>, Jun 2026).</p>
+<p class="sur-signposts"><strong>Signposts to watch:</strong></p>
+<ul class="sur-signposts-list"><li>By December 2027: a major European retailer&rsquo;s premium own-label range outsells the leading brand in a prestige category.</li><li>By December 2028: premium own-label grows faster than standard own-label across Europe&rsquo;s six biggest markets.</li></ul>
+<p class="sur-today"><strong>What it touches today:</strong> Which premium lines to keep, and at what price gap to own-label.</p>
+</div>
+<div class="surprise s-weak">
+<span class="sur-eyebrow">Weak signal</span>
+<h4>Small packs built for emerging markets become the value answer in the US and Europe</h4>
+<p class="sur-meta"><strong>Window:</strong> 2031 to 2037 &middot; <strong>Probability band:</strong> Low (under 20%)</p>
+<p class="sur-why"><strong>Why it would surprise:</strong> Western value plans assume the answer is own-label and large discount packs, not small low-price packs.</p>
+<p>Small packs are how first-time buyers enter in India, where rural buyers now account for 42% of super-premium volume (<a href="https://mediabrief.com/worldpanel-india-premium-brands-make-up-15-of-fmcg-volumes/" target="_blank" rel="noopener">Worldpanel by Kantar, via MediaBrief</a>, Sep 2025), while US food support has fallen by more than 4 million people (<a href="https://www.cbpp.org/blog/families-across-us-feeling-pain-as-anniversary-of-2025-republican-reconciliation-law" target="_blank" rel="noopener">Center on Budget and Policy Priorities</a>, Jun 2026).</p>
+<p class="sur-signposts"><strong>Signposts to watch:</strong></p>
+<ul class="sur-signposts-list"><li>By June 2028: a major manufacturer launches small single-use packs for US value shoppers nationally.</li><li>By December 2028: a European discounter lists a small-pack range aimed at households on tight budgets.</li></ul>
+<p class="sur-today"><strong>What it touches today:</strong> The pack-size ladder in US and European value plans.</p>
+</div>
+</div>
+</div>
+
 <a name="section-options"></a>
 <div class="options-section">
 <div class="option-area"><h3>Options: The mid-tier brands (Chief Growth Officer)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Hold the middle, trim the tail</h4><p>Keep mainstream brands at the centre of the range and prune only the weakest lines.</p><p class="opt-trade"><strong>Trade-off:</strong> Least disruption, but investment stays where demand is thinnest.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The Middle Refills</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Give every mid-tier brand a verdict</h4><p>Move each mid-tier brand up, move it down or retire it, over two years.</p><p class="opt-trade"><strong>Trade-off:</strong> Matches the shape of demand, but some brands and teams go.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Two Brand Worlds; Quality-Value Convergence</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Rebuild the range as a two-ended ladder</h4><p>Build around strong premium and value rungs, keeping the middle only in habit categories.</p><p class="opt-trade"><strong>Trade-off:</strong> The biggest payoff if the split holds; the most exposed if the middle refills.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Two Brand Worlds; Retailers Own the Floor</p></div></div></div>
 <div class="option-area"><h3>Options: Premium claims (brand, marketing and innovation)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Keep heritage, add proof points</h4><p>Keep heritage positioning but add evidence of results to packs and product pages.</p><p class="opt-trade"><strong>Trade-off:</strong> Cheap to do, but may not survive a like-for-like cheaper copy.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The Middle Refills</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Audit and re-base every premium line</h4><p>Re-base each line on efficacy or format; reprice or retire those that fail.</p><p class="opt-trade"><strong>Trade-off:</strong> Protects price where the benefit is real, but loses some lines.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Two Brand Worlds; Quality-Value Convergence</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Invest in benefits that are hard to copy</h4><p>Move innovation money to formats and benefits that mass brands and own-label cannot easily match.</p><p class="opt-trade"><strong>Trade-off:</strong> The most durable premium, but slow and costly to build.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Retailers Own the Floor; Quality-Value Convergence</p></div></div></div>
 <div class="option-area"><h3>Options: The value tier by region (regional presidents)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>One global low-price brand</h4><p>Run a single low-price brand across all regions.</p><p class="opt-trade"><strong>Trade-off:</strong> Simple and cheap, but fits none of the three regional causes.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Two Brand Worlds</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Three regional value plans</h4><p>US: a clear own-label position and a low-price brand. Europe: compete on proof. Emerging markets: small packs that pay.</p><p class="opt-trade"><strong>Trade-off:</strong> Fits each cause, at the cost of more complexity.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Make own-label for retailers</h4><p>Become a deliberate own-label supplier where retailers own the cheap end.</p><p class="opt-trade"><strong>Trade-off:</strong> Keeps factories full, but on retailers' terms and thinner margins.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Retailers Own the Floor; Quality-Value Convergence</p></div></div></div>
-<div class="option-area"><h3>Options: Price, promotion and pack costs (finance and supply chain)</h3><div class="opt-grid"><div class="opt o-a"><span class="opt-eyebrow">Option A &middot; Least change</span><h4>Keep price and promotion as the growth levers</h4><p>Continue to fund growth through price rises and promotions.</p><p class="opt-trade"><strong>Trade-off:</strong> Familiar, but both have stopped buying volume in Western Europe.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> The Middle Refills</p></div><div class="opt o-b"><span class="opt-eyebrow">Option B &middot; Middle course</span><h4>Repair base value and check every launch</h4><p>Move money from promotion to everyday value, and check cost to serve and pack economics before each launch.</p><p class="opt-trade"><strong>Trade-off:</strong> Protects margin at both ends, but slows some launches.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> All four</p></div><div class="opt o-c"><span class="opt-eyebrow">Option C &middot; Biggest shift</span><h4>Separate cost bases for each end</h4><p>Build distinct supply set-ups for premium formats and for low-price small packs.</p><p class="opt-trade"><strong>Trade-off:</strong> The best unit costs at each end, but some loss of scale.</p><p class="opt-fits">&#8862; <strong>Fits scenarios:</strong> Two Brand Worlds; Retailers Own the Floor</p></div></div></div>
+</div>
 </div>
 
 <a name="section-explicit-exclusions"></a>
@@ -984,9 +1330,9 @@ prices, without winning back unit share from shops' own brands (<a href="https:/
 <ol>
 <li>If the middle is empty rather than quiet, which of our mid-tier brands do we move up, move down or retire, and what is the two-year sequence and cost?</li>
 <li>In the US, do we make or partner on own-label and keep a credible low-price brand, or leave the cheap end to retailers and put our money into premium?</li>
-<li>In Europe, do we accept a permanently lower ceiling for brands and compete on proof, or spend to win back shoppers we may not recover?</li>
 <li>In emerging markets, do our small packs lead to profitable repeat purchases, or are we paying for trial that will not convert if the economy tightens, and how would we know in time?</li>
 <li>If young French shoppers are the first to drift back to brands (<a href="https://www.lsa-conso.fr/marques-de-distributeurs-pourquoi-la-france-reste-en-retard-malgre-une-progression-record,464966" target="_blank" rel="noopener">LSA Conso, on NielsenIQ, in French</a>, Mar 2026), are we planning for a change that may belong to one generation rather than last?</li>
+<li>Which of our current activities looks least wise in these futures?</li>
 </ol>
 </div>
 
@@ -1123,6 +1469,7 @@ first-quarter 2026 analyses and one September 2025 panel reading are carried as 
 
 <p><strong>Analyst judgements.</strong> The theme weights, the "who decides" and "room to act" lines, the Options and
 the scenario axes are the analysis's proposals for discussion, not findings.</p>
+<p><strong>Format of 16 October 2026.</strong> On 19 October 2026 the briefing gained Key risks and Key opportunities, a Causal Loop Diagram, a Shift from today line in each scenario and Potential Surprises to 2040; the Options were cut to three areas and the fifth question fixed. No source was added: every figure in the new blocks is already in the briefing. The surprises and every link and sign in the diagram are proposals for discussion, not findings.</p>
 </div>
 
 <a name="section-abbreviations"></a>

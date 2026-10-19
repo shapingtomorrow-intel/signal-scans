@@ -404,6 +404,51 @@
   }
   @media print { .cld-section .sm-scroll { overflow: visible; } .cld-section svg { min-width: 0; } }
 </style>
+<!-- access-gate:head:start -->
+<script>
+(function(){try{var k='st-gate-fmcg-k-shape';var q=/[?&]access=granted\b/.test(location.search);
+if(q){try{localStorage.setItem(k,'1')}catch(e){}}
+var ok=q;try{ok=ok||localStorage.getItem(k)==='1'}catch(e){}
+if(ok)document.documentElement.className+=' gate-open';}catch(e){}})();
+</script>
+<style type="text/css">
+  html:not(.gate-open) body { overflow: hidden; }
+  html.gate-open .st-gate { display: none; }
+  .st-gate { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: flex-start; justify-content: center; overflow-y: auto; padding: 32px 16px; box-sizing: border-box; background: rgba(244,246,250,0.94); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .st-gate-card { width: 100%; max-width: 760px; background: #fff; border: 1px solid #e3e7ee; border-radius: 8px; box-shadow: 0 12px 40px rgba(3,27,65,0.12); padding: 32px 44px 32px; box-sizing: border-box; }
+  .st-gate-logo { display: block; width: 200px; height: auto; margin: 0 0 18px; }
+  .st-gate-title { font-size: 1.7em; line-height: 1.2; color: #1a237e; font-weight: 600; margin: 0 0 6px; }
+  .st-gate-sub { color: #5a6478; font-size: 0.95em; margin: 0 0 26px; }
+  .st-gate-intro { color: #2a3142; font-size: 1.08em; margin: 0 0 26px; padding-top: 22px; border-top: 1px solid #e9ecef; }
+  .st-gate-form { margin: 0; }
+  .st-gate-row { display: flex; gap: 28px; }
+  .st-gate-row .st-gate-field { flex: 1 1 0; min-width: 0; }
+  .st-gate-field { margin: 0 0 22px; }
+  .st-gate-field label { display: block; color: #1a237e; font-weight: 700; font-size: 1em; margin: 0 0 8px; }
+  .st-gate-req { color: #d32f2f; margin-left: 2px; }
+  .st-gate-opt { color: #5a6478; font-weight: 400; font-size: 0.9em; }
+  .st-gate-field input, .st-gate-field textarea { display: block; width: 100%; box-sizing: border-box; font: inherit; font-size: 1em; color: #1a1a1a; background: #fdfdfd; border: 1px solid #c9ced6; border-radius: 0; padding: 12px 14px; }
+  .st-gate-field textarea { min-height: 110px; resize: vertical; }
+  .st-gate-field input:focus, .st-gate-field textarea:focus { outline: 2px solid #1565c0; outline-offset: 0; border-color: #1565c0; }
+  .st-gate-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+  .st-gate-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-top: 6px; }
+  .st-gate-submit { font: inherit; font-size: 1.15em; letter-spacing: 0.1em; text-transform: uppercase; color: #fff; background: #e8399a; border: 0; border-radius: 6px; padding: 14px 34px; cursor: pointer; }
+  .st-gate-submit:hover { background: #d22b88; }
+  .st-gate-submit:focus-visible { outline: 3px solid #1a237e; outline-offset: 2px; }
+  .st-gate-submit[disabled] { opacity: 0.6; cursor: progress; }
+  .st-gate-error { color: #b02a22; font-size: 0.92em; margin: 0; }
+  .st-gate-note { color: #5a6478; font-size: 0.85em; margin: 22px 0 0; }
+  @media (max-width: 640px) {
+    .st-gate { padding: 16px; }
+    .st-gate-card { padding: 26px 20px 24px; }
+    .st-gate-row { display: block; }
+    .st-gate-title { font-size: 1.4em; }
+    .st-gate-logo { width: 160px; }
+  }
+  @media print { .st-gate { display: none; } html:not(.gate-open) body { overflow: visible; } }
+</style>
+<noscript><style type="text/css">.st-gate { display: none; } html:not(.gate-open) body { overflow: auto; }</style></noscript>
+<!-- access-gate:head:end -->
 </head>
 <body>
 
@@ -1493,5 +1538,71 @@ the scenario axes are the analysis's proposals for discussion, not findings.</p>
 
 </div>
 
+<!-- access-gate:body:start -->
+<div class="st-gate" id="st-gate" role="dialog" aria-modal="true" aria-labelledby="st-gate-title">
+<div class="st-gate-card">
+<img class="st-gate-logo" id="st-gate-logo" alt="Shaping Tomorrow" hidden>
+<h2 class="st-gate-title" id="st-gate-title">The Barbell Is the Business Now</h2>
+<p class="st-gate-sub">FMCG Manufacturers Decision Intelligence, July 2026</p>
+<p class="st-gate-intro">Please complete the form below to view this decision intelligence briefing.</p>
+<form class="st-gate-form" id="st-gate-form" method="post" action="https://formsubmit.co/matthew.richardson@shapingtomorrow.com">
+<input type="hidden" name="_subject" value="DI access: The Barbell Is the Business Now">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://decision-intel.shapingtomorrow.com/si/fmcg-k-shape/?access=granted">
+<input type="hidden" name="report" value="The Barbell Is the Business Now (https://decision-intel.shapingtomorrow.com/si/fmcg-k-shape/)">
+<div class="st-gate-hp" aria-hidden="true"><label for="st-gate-hp">Leave blank</label><input type="text" id="st-gate-hp" name="_honey" tabindex="-1" autocomplete="off"></div>
+<div class="st-gate-row">
+<div class="st-gate-field"><label for="st-gate-first">First Name<span class="st-gate-req" aria-hidden="true">*</span></label><input type="text" id="st-gate-first" name="first_name" required autocomplete="given-name"></div>
+<div class="st-gate-field"><label for="st-gate-last">Last Name<span class="st-gate-req" aria-hidden="true">*</span></label><input type="text" id="st-gate-last" name="last_name" required autocomplete="family-name"></div>
+</div>
+<div class="st-gate-field"><label for="st-gate-email">Work Email<span class="st-gate-req" aria-hidden="true">*</span></label><input type="email" id="st-gate-email" name="email" required autocomplete="email"></div>
+<div class="st-gate-field"><label for="st-gate-org">Organisation<span class="st-gate-req" aria-hidden="true">*</span></label><input type="text" id="st-gate-org" name="organisation" required autocomplete="organization"></div>
+<div class="st-gate-field"><label for="st-gate-role">Job Role / Title<span class="st-gate-req" aria-hidden="true">*</span></label><input type="text" id="st-gate-role" name="job_title" required autocomplete="organization-title"></div>
+<div class="st-gate-field"><label for="st-gate-q">What strategic question is currently on your desk? <span class="st-gate-opt">(optional)</span></label><textarea id="st-gate-q" name="strategic_question"></textarea></div>
+<div class="st-gate-actions">
+<button type="submit" class="st-gate-submit" id="st-gate-submit">Submit</button>
+<p class="st-gate-error" id="st-gate-error" role="alert" hidden></p>
+</div>
+<p class="st-gate-note">Shaping Tomorrow uses these details to follow up with you about this briefing.</p>
+</form>
+</div>
+</div>
+<script>
+(function(){
+  var KEY='st-gate-fmcg-k-shape', root=document.documentElement;
+  var gate=document.getElementById('st-gate'), form=document.getElementById('st-gate-form');
+  var btn=document.getElementById('st-gate-submit'), err=document.getElementById('st-gate-error');
+  var main=document.querySelector('.report-container');
+  function open(){
+    try{localStorage.setItem(KEY,'1')}catch(e){}
+    if(root.className.indexOf('gate-open')<0) root.className+=' gate-open';
+    if(main) main.removeAttribute('inert');
+    window.scrollTo(0,0);
+  }
+  if(root.className.indexOf('gate-open')>=0) return;
+  if(main) main.setAttribute('inert','');
+  var logo=document.querySelector('.report-logo'), gl=document.getElementById('st-gate-logo');
+  if(logo&&logo.src){gl.src=logo.src;gl.hidden=false;}
+  var first=document.getElementById('st-gate-first'); if(first) setTimeout(function(){try{first.focus({preventScroll:true})}catch(e){first.focus()}},50);
+  var native=false;
+  form.addEventListener('submit',function(ev){
+    if(native) return;
+    ev.preventDefault();
+    if(!form.checkValidity()){form.reportValidity();return;}
+    if(document.getElementById('st-gate-hp').value){open();return;}
+    var data={}; Array.prototype.forEach.call(form.elements,function(el){if(el.name&&el.name!=='_honey'&&el.name!=='_next')data[el.name]=el.value;});
+    btn.disabled=true; btn.textContent='Sending'; err.hidden=true;
+    fetch('https://formsubmit.co/ajax/matthew.richardson@shapingtomorrow.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
+      .then(function(r){return r.json().catch(function(){return {};});})
+      .then(function(j){
+        if(j&&(j.success===true||j.success==='true')){open();}
+        else{native=true;form.submit();}
+      })
+      .catch(function(){native=true;form.submit();});
+  });
+})();
+</script>
+<!-- access-gate:body:end -->
 </body>
 </html>

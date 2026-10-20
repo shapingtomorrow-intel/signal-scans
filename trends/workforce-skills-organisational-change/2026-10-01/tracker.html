@@ -118,6 +118,7 @@
   .wild-card.risk .wc-label { background: #8e24aa; }
   .wild-card.opportunity .wc-label { background: #00897b; }
   .wild-card .wc-impact { color: #5a6478; font-style: italic; }
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
   .wild-card p { margin: 6px 0; font-size: 0.93em; }
   /* ---- Wild-card pathway (from 8 October 2026): the early-warning indicators as an ordered
          chain from today to the wild card landing, with the current position marked ---- */
@@ -402,7 +403,7 @@
 <h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card opportunity">
 <h4>The junior-hiring rebound</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Heavy AI adopters grow junior headcount rather than cut it.</p>
 <div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
 <div class="wcp-step s1"><span class="n">1</span><span>AI shows no clear effect on jobs so far<span class="wcp-seen">Seen: no strong evidence yet</span></span></div>
@@ -416,7 +417,7 @@
 </div>
 <div class="wild-card risk">
 <h4>Layoffs return as the low-hire market tips into firing</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Announced cuts break from the low-fire pattern without an AI label.</p>
 <div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
 <div class="wcp-step s1"><span class="n">1</span><span>Hiring slows to a low rate<span class="wcp-seen">Seen: hires rate 3.3% in August</span></span></div>
@@ -430,7 +431,7 @@
 </div>
 <div class="wild-card risk">
 <h4>A presumption of employment spreads beyond platforms</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> National transpositions extend the presumption of employment to algorithmically managed work outside platforms.</p>
 <div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
 <div class="wcp-step s1"><span class="n">1</span><span>The EU adopts a presumption of employment for platform work<span class="wcp-seen">Seen: adopted 14 October 2024</span></span></div>
@@ -511,9 +512,9 @@
     { name:"Reskilling imperative and skill half-life", short:"Reskilling\nimperative", sector:"opportunity", ring:"next", angle:295, heat:"hot", maturity:"Maturing", timeframe:"2026-2030", momentum:"stable", evidence:"OECD treats displacement as the risk of an unmanaged transition and finds AI-specific policy most developed for skills; two supporting papers, both July", commentary:"Held at Stable: a multi-year policy build with no new paper since July.", source:{ label:"OECD", date:"July 2026", url:"https://www.oecd.org/en/publications/skills-in-the-ai-age_972bd15e-en.html" } }
   ];
   var WILDCARDS = [
-    { name:"The junior-hiring rebound", short:"Junior-hiring\nrebound", sector:"risk", angle:60, type:"Disruptive Opportunity", impact:"High", surprise:"The heaviest AI adopters grow junior headcount rather than cut it, reversing the entry-level narrative", indicators:"The next Stanford vintage narrowing the 19% gap; announced hiring plans; graduate unemployment turning down.", source:{ label:"The Budget Lab at Yale", date:"May 2026", url:"https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening" } },
-    { name:"Layoffs return as the low-hire market tips into firing", short:"Layoffs return\nwithout AI label", sector:"risk", angle:130, type:"Disruptive Risk", impact:"High", surprise:"Announced cuts, up 58% in August, break from the low-fire pattern without an AI label", indicators:"Monthly announced cuts above the 2025 run-rate; JOLTS layoffs rising from 1.6 million.", source:{ label:"Challenger, Gray & Christmas", date:"September 2026", url:"https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/" } },
-    { name:"A presumption of employment spreads beyond platforms", short:"Presumption of\nemployment spreads", sector:"transformation", angle:182, type:"Disruptive Risk", impact:"High", surprise:"National transpositions extend the rebuttable presumption of employment to algorithmically managed work outside platforms", indicators:"Strict transposition drafts in large member states; first tribunal cases after 2 December 2026.", source:{ label:"Ius Laboris", date:"April 2026", url:"https://iuslaboris.com/insights/eu-platform-work-directive-which-countries-have-implemented/" } }
+    { name:"The junior-hiring rebound", short:"Junior-hiring\nrebound", sector:"risk", angle:60, type:"Disruptive Opportunity", impact:"High", likely:"5 to 30% by 2028", surprise:"The heaviest AI adopters grow junior headcount rather than cut it, reversing the entry-level narrative", indicators:"The next Stanford vintage narrowing the 19% gap; announced hiring plans; graduate unemployment turning down.", source:{ label:"The Budget Lab at Yale", date:"May 2026", url:"https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening" } },
+    { name:"Layoffs return as the low-hire market tips into firing", short:"Layoffs return\nwithout AI label", sector:"risk", angle:130, type:"Disruptive Risk", impact:"High", likely:"5 to 30% by 2027", surprise:"Announced cuts, up 58% in August, break from the low-fire pattern without an AI label", indicators:"Monthly announced cuts above the 2025 run-rate; JOLTS layoffs rising from 1.6 million.", source:{ label:"Challenger, Gray & Christmas", date:"September 2026", url:"https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/" } },
+    { name:"A presumption of employment spreads beyond platforms", short:"Presumption of\nemployment spreads", sector:"transformation", angle:182, type:"Disruptive Risk", impact:"High", likely:"5 to 30% by 2029", surprise:"National transpositions extend the rebuttable presumption of employment to algorithmically managed work outside platforms", indicators:"Strict transposition drafts in large member states; first tribunal cases after 2 December 2026.", source:{ label:"Ius Laboris", date:"April 2026", url:"https://iuslaboris.com/insights/eu-platform-work-directive-which-countries-have-implemented/" } }
   ];
   var EXITED = [
     { name:"Skill-scarcity pay signal splits from hiring", short:"Skill-scarcity\npay signal", ring:"now", angle:135, prevHeat:"moderate", note:"No skill-premium source entered this cycle's base; aggregate pay data alone cannot carry it." },
@@ -726,6 +727,7 @@
     var risky = wc.type.indexOf("Risk") >= 0;
     panel.innerHTML = '<h3>' + wc.name + '</h3><div class="meta-row">' +
       chip(risky ? "wild-risk" : "wild-opp", wc.type) + chip("heat-veryhot", "Impact: " + wc.impact) + '</div>' +
+      (wc.likely ? '<span class="k">Likelihood</span><p>' + wc.likely + '</p>' : '') +
       '<span class="k">Surprise characteristics</span><p>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</p>' +
       '<span class="k">Early warning indicators</span><p>' + wc.indicators + '</p>';
     panel.setAttribute("data-state", "entry");

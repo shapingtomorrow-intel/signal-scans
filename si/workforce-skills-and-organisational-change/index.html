@@ -119,6 +119,29 @@
   .wild-card.opportunity .wc-label { background: #00897b; }
   .wild-card .wc-impact { color: #5a6478; font-style: italic; }
   .wild-card p { margin: 6px 0; font-size: 0.93em; }
+  /* ---- Wild-card pathway (from 8 October 2026): the early-warning indicators as an ordered
+         chain from today to the wild card landing, with the current position marked ---- */
+  .wc-path { margin: 10px 0 8px; }
+  .wc-path .wcp-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 6px; }
+  .wcp-step { display: flex; gap: 10px; align-items: baseline; padding: 3px 0; font-size: 0.93em; }
+  .wcp-step .n { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 50%; font-size: 0.78em; font-weight: 700; transform: translateY(3px); }
+  .wild-card.risk .s1 .n { background: #f3e5f5; color: #6a1b9a; } .wild-card.risk .s2 .n { background: #e1bee7; color: #6a1b9a; }
+  .wild-card.risk .s3 .n { background: #ce93d8; color: #4a148c; } .wild-card.risk .s4 .n { background: #ba68c8; color: #fff; }
+  .wild-card.risk .s5 .n { background: #ab47bc; color: #fff; } .wild-card.risk .s6 .n { background: #9c27b0; color: #fff; }
+  .wild-card.risk .wcp-step.last .n { background: #8e24aa; color: #fff; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00695c; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00695c; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #004d40; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcp-step.last .n { background: #00897b; color: #fff; }
+  .wcp-step.last { font-weight: 600; }
+  .wcp-seen { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 10px; font-size: 0.76em; font-weight: 700; letter-spacing: 0.03em; }
+  .wild-card.risk .wcp-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .wcp-seen { background: #e0f2f1; color: #00695c; }
+  .wcp-now { display: flex; align-items: center; gap: 10px; margin: 2px 0 2px 30px; }
+  .wcp-now i { flex: 1 1 auto; border-top: 2px dashed #b39ddb; }
+  .wild-card.opportunity .wcp-now i { border-top-color: #80cbc4; }
+  .wcp-now span { flex: 0 0 auto; font-size: 0.72em; font-weight: 700; letter-spacing: 0.08em; color: #6a1b9a; }
+  .wild-card.opportunity .wcp-now span { color: #00695c; }
   /* ---- Implications ---- */
   .implications { background: #f1f3f5; padding: 14px 18px; border-radius: 8px; margin: 18px 0;
                   border-left: 4px solid #1a237e; max-width: 920px; }
@@ -376,26 +399,47 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card opportunity">
 <h4>The junior-hiring rebound</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
 <p><strong>Surprise characteristics:</strong> Heavy AI adopters grow junior headcount rather than cut it.</p>
-<p><strong>Early warning indicators:</strong> The next Stanford vintage narrowing the 19% gap; graduate unemployment turning down.</p>
+<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
+<div class="wcp-step s1"><span class="n">1</span><span>AI shows no clear effect on jobs so far<span class="wcp-seen">Seen: no strong evidence yet</span></span></div>
+<div class="wcp-step s2"><span class="n">2</span><span>Employers&rsquo; announced hiring plans rise despite AI adoption<span class="wcp-seen">Seen: up 37% year to date</span></span></div>
+<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcp-step s3"><span class="n">3</span><span>The next Stanford data narrows the 19% young-worker gap</span></div>
+<div class="wcp-step s4"><span class="n">4</span><span>Graduate unemployment turns down as entry-level openings return</span></div>
+<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: heavy AI adopters grow junior headcount rather than cut it</span></div>
+</div>
 <p>Yale finds no strong evidence of AI impacts yet (<a href="https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening">The Budget Lab at Yale</a>, May 2026), and announced hiring plans are up 37% year to date (<a href="https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/">Challenger, Gray & Christmas</a>, September 2026). Carried from last cycle.</p>
 </div>
 <div class="wild-card risk">
 <h4>Layoffs return as the low-hire market tips into firing</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
 <p><strong>Surprise characteristics:</strong> Announced cuts break from the low-fire pattern without an AI label.</p>
-<p><strong>Early warning indicators:</strong> Monthly announced cuts above last year&rsquo;s run-rate; JOLTS layoffs rising from 1.6 million.</p>
+<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
+<div class="wcp-step s1"><span class="n">1</span><span>Hiring slows to a low rate<span class="wcp-seen">Seen: hires rate 3.3% in August</span></span></div>
+<div class="wcp-step s2"><span class="n">2</span><span>Layoffs stay low while hiring stalls<span class="wcp-seen">Seen: 1.6 million in August</span></span></div>
+<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcp-step s3"><span class="n">3</span><span>Monthly announced cuts rise above last year&rsquo;s run-rate</span></div>
+<div class="wcp-step s4"><span class="n">4</span><span>Official US layoff figures climb clearly above 1.6 million</span></div>
+<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: the low-hire market tips into firing, without an AI label</span></div>
+</div>
 <p>Layoffs and discharges changed little at 1.6 million in August (<a href="https://www.bls.gov/news.release/archives/jolts_09292026.htm">U.S. Bureau of Labor Statistics</a>, September 2026), and year-to-date announced cuts are down 41% (<a href="https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/">Challenger, Gray & Christmas</a>, September 2026), so the low-fire pattern holds today.</p>
 </div>
 <div class="wild-card risk">
 <h4>A presumption of employment spreads beyond platforms</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
 <p><strong>Surprise characteristics:</strong> National transpositions extend the presumption of employment to algorithmically managed work outside platforms.</p>
-<p><strong>Early warning indicators:</strong> Strict transposition drafts in large member states; first tribunal cases after 2 December 2026.</p>
+<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
+<div class="wcp-step s1"><span class="n">1</span><span>The EU adopts a presumption of employment for platform work<span class="wcp-seen">Seen: adopted 14 October 2024</span></span></div>
+<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcp-step s2"><span class="n">2</span><span>Large member states publish strict transposition drafts</span></div>
+<div class="wcp-step s3"><span class="n">3</span><span>The transposition deadline passes on 2 December 2026</span></div>
+<div class="wcp-step s4"><span class="n">4</span><span>First tribunal cases test the presumption outside platform work</span></div>
+<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: algorithmically managed work beyond platforms is presumed employment</span></div>
+</div>
 <p>Member States have until 2 December 2026 to transpose the directive (<a href="https://iuslaboris.com/insights/eu-platform-work-directive-which-countries-have-implemented/">Ius Laboris</a>, April 2026). Carried from last cycle.</p>
 </div>
 <div class="implications">
@@ -441,7 +485,7 @@
   var TOPIC_SHORT = "Workforce\n& Skills";
   var PREV_LABEL = "3 September 2026 cycle";
   var RINGS = [
-    { key: "now",   label: "NOW (TO 2027)",  r: 128 },
+    { key: "now",   label: "NOW (To 2027)",  r: 128 },
     { key: "next",  label: "NEXT (2027-29)", r: 218 },
     { key: "later", label: "LATER (2029+)",  r: 300 }
   ];

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T12:12:23Z",
+  "generated": "2026-10-20T12:26:30Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-10-17",
         "tracker": "2026-10-01",
         "di": "2026-10-22",
-        "cc": "2026-08-14"
+        "cc": "2026-10-23"
       },
       "history": [
+        {
+          "date": "2026-10-23",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Careers Stayed Inside. The Rules for AI Moved to the Bargaining Table.",
+          "summary": "Over this cycle, the question moved from whether organisations can absorb change to who sets its terms. Ten weeks ago the central question was whether employers could build careers inside once the job market stopped paying people to move.",
+          "posture": ""
+        },
         {
           "date": "2026-10-22",
           "kind": "brief",

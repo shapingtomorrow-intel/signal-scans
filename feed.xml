@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 19 Oct 2026 08:30:17 +0000</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 08:30:07 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>PJM Has Written Data-Centre Backup Generators into Its Emergency Procedures, but Only DOE Orders Free Them to Run</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-20-backup-reserve-runs-on-orders/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-20-backup-reserve-runs-on-orders/scan.html</guid>
+<pubDate>Tue, 20 Oct 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>PJM can call data-centre backup generators only under DOE emergency orders that suspend the permit limits binding them. PJM publishes no megawatt total, and a court has begun to narrow Section 202(c) in another setting.</description>
+</item>
+<item>
+<title>The EU Carbon Reform Writes a Surplus Into the 2030s While Leaders Argue About 2026 Prices</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-20-carbon-reform-writes-in-a-surplus/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-20-carbon-reform-writes-in-a-surplus/scan.html</guid>
+<pubDate>Tue, 20 Oct 2026 08:00:00 +0000</pubDate>
+<category>Climate, Nature &amp; Food Systems</category>
+<description>The EU carbon reform loosens the 2031 to 2040 supply path while leaders argue about 2026 prices. The linear reduction factor, reserve intake and cancellation threshold all move toward a larger surplus, and a 2040 surplus of 4.4 times annual emissions has no precedent.</description>
+</item>
 <item>
 <title>Agent Payments Are Being Built Before Anyone Decides Who Pays When the Agent Exceeds Its Mandate</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-10-19-agent-payment-loss-has-no-owner/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 16 Sep 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>Guarding Europe's new drone and munitions plants has been left to the firms that own them. After the August and September arson cases, Poland promised patrols and recommendations, Denmark's PET told firms to raise security and Bulgaria's minister said the state would step in, while the CER Directive's eleven sectors omit defence manufacturing and EDIP caps site-protection money at €500,000 per project.</description>
-</item>
-<item>
-<title>US Trade Blacklists Now Decide Who a Federally Funded Scientist May Work With</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-16-list-decides-the-coauthor/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-09-16-list-decides-the-coauthor/scan.html</guid>
-<pubDate>Wed, 16 Sep 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>US trade blacklists now decide who a federally funded scientist may work with. From FY2027 the NSF bars its funds from any collaboration with entities on twelve restricted-party lists, the Department of War ordered 30 universities to audit ties to its 130-institution list, and the August 2026 National Security S&amp;T Strategy commits to lead allies toward the same list-based rule.</description>
-</item>
-<item>
-<title>France Kept Its Reactors Running in the Heatwave by Moving the River Limit</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-15-firm-by-waiver/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-15-firm-by-waiver/scan.html</guid>
-<pubDate>Tue, 15 Sep 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>France kept the reactors RTE needed running in the June heatwave by moving the river-discharge limit. The ASNR's 10 July Bugey waiver, pre-cleared by a dossier EDF now files every June, makes the summer firmness of river-cooled nuclear an administrative decision, while on the Danube, where the constraint is flow, no waiver can restore output.</description>
 </item>
 </channel>
 </rss>

@@ -1,14 +1,14 @@
 {
-  "generated": "2026-10-20T08:32:38Z",
+  "generated": "2026-10-21T08:32:28Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "The EU Carbon Reform Writes a Surplus Into the 2030s While Leaders Argue About 2026 Prices",
-      "date": "2026-10-20",
-      "topic": "Climate, Nature & Food Systems",
-      "topic_slug": "climate-nature-food-systems",
+      "title": "The Faster EU Defence Transfer Licence Needs a Certificate, and No Date Is Set to Issue Them",
+      "date": "2026-10-21",
+      "topic": "Defence, Security & Resilience",
+      "topic_slug": "defence-security-resilience",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-20-carbon-reform-writes-in-a-surplus/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-21-transfer-fast-lane-certified-only/scan.html"
     },
     "change_tracker": {
       "title": "Enforcers bargain with Google as cyber reporting goes live and deadlines close in",
@@ -19,21 +19,21 @@
       "url": "https://decision-intel.shapingtomorrow.com/trends/regulation-standards-policy-change/2026-10-16/tracker.html"
     },
     "decision_intelligence": {
-      "title": "Fewer Rules on Paper, More Paperwork in Practice",
-      "date": "2026-10-15",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
+      "title": "Who Gets Hired? Who Sets the Rules? Who Manages the AI?",
+      "date": "2026-10-22",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "",
-      "company": "Sample Showcase: Regulation, Standards and Policy Change",
-      "url": "https://decision-intel.shapingtomorrow.com/si/fewer-rules-on-paper-more-paperwork-in-practice/"
+      "company": "Sample Showcase: Workforce, Skills & Organisational Change",
+      "url": "https://decision-intel.shapingtomorrow.com/si/who-gets-hired-who-sets-the-rules-who-manages-the-ai/"
     },
     "action_triggers": {
-      "title": "The Rules Got Simpler. Companies Became the Enforcers.",
-      "date": "2026-10-16",
-      "topic": "Regulation, Standards & Policy Change",
-      "topic_slug": "regulation-standards-policy-change",
+      "title": "Careers Stayed Inside. The Rules for AI Moved to the Bargaining Table.",
+      "date": "2026-10-23",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/si/sample-regulation-standards-policy-change-cross-cutter-2026-10-16/"
+      "url": "https://decision-intel.shapingtomorrow.com/si/sample-workforce-skills-organisational-change-cross-cutter-2026-10-23/"
     }
   }
 }

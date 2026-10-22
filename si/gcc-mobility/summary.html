@@ -27,7 +27,7 @@
   .topic-logo { width: 220px; height: auto; flex: 0 0 auto; margin-top: 4px; }
   @media (max-width: 600px) { .topic-header { flex-direction: column; align-items: flex-start; } .topic-logo { width: 160px; } }
   h1 { font-size: 2em; margin: 0 0 0.2em; color: #031B41; line-height: 1.15; }
-  .tagline { font-size: 1.15em; color: #0382FC; font-weight: 600; margin: 0 0 0.6em; }
+  .tagline { font-size: 1.15em; color: #031B41; font-weight: 600; margin: 0 0 0.6em; }
   .description { font-size: 1.02em; color: #031B41; margin: 0 0 1.6em; }
   /* Intelligence-cycle explainer figure. Sits between the description and the deliverables timeline
      so a prospect grasps the four-formats/three-clocks rhythm before scanning individual editions.
@@ -62,7 +62,7 @@
      by request (2026-08-06); the others use darker accessible tones. Teaser
      pages render titles as plain h3 with no anchor, so they stay navy/flat. */
   .tl-entry.scan h3 a { color: #0a4ea3; }
-  .tl-entry.tracker h3 a { color: #F59E0B; }
+  .tl-entry.tracker h3 a { color: #D97706; }
   .tl-entry.brief h3 a { color: #1d5d27; }
   .tl-entry.cross_cutter h3 a { color: #4527a0; }
   .tl-entry p { margin: 0 0 6px; font-size: 0.95em; color: #2c3e50; }
@@ -73,8 +73,8 @@
      use darker tones for contrast. Teaser pages emit no readlink. */
   .tl-entry.scan .readlink { color: #0a4ea3; }
   .tl-entry.scan .readlink:hover { background: #0a4ea3; color: #ffffff; }
-  .tl-entry.tracker .readlink { color: #F59E0B; }
-  .tl-entry.tracker .readlink:hover { background: #F59E0B; color: #ffffff; }
+  .tl-entry.tracker .readlink { color: #D97706; }
+  .tl-entry.tracker .readlink:hover { background: #D97706; color: #ffffff; }
   .tl-entry.brief .readlink { color: #1d5d27; }
   .tl-entry.brief .readlink:hover { background: #1d5d27; color: #ffffff; }
   .tl-entry.cross_cutter .readlink { color: #4527a0; }
@@ -171,7 +171,7 @@
   .reads a .rl-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px;
                      vertical-align: 1px; background: currentColor; }
   .reads a.scan { color: #0a4ea3; }          .reads a.scan:hover { background: #0a4ea3; color: #fff; }
-  .reads a.tracker { color: #F59E0B; }       .reads a.tracker:hover { background: #F59E0B; color: #fff; }
+  .reads a.tracker { color: #D97706; }       .reads a.tracker:hover { background: #D97706; color: #fff; }
   .reads a.brief { color: #1d5d27; }         .reads a.brief:hover { background: #1d5d27; color: #fff; }
   .reads a.cross_cutter { color: #4527a0; }  .reads a.cross_cutter:hover { background: #4527a0; color: #fff; }
   table.howto .tl-type { margin-right: 0; }
@@ -193,18 +193,18 @@
 
 /* Key risks and Key opportunities (trial, 29 September 2026) */
 .ro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin: 0 0 8px; }
-.ro { background: #fff; border: 1px solid #eef0f3; border-radius: 8px; padding: 14px 18px 4px; }
-.ro.risks { border-top: 4px solid #c62828; }
-.ro.opps { border-top: 4px solid #2e7d32; }
-.ro h3 { margin: 0 0 8px; font-size: 1em; text-transform: uppercase; letter-spacing: 0.06em; }
+.ro { border-radius: 8px; padding: 16px 20px 6px; }
+.ro.risks { background: #fdecea; border: 1px solid #f6cfcb; border-left: 5px solid #d9433a; }
+.ro.opps { background: #e9f6ee; border: 1px solid #c6e6d1; border-left: 5px solid #2ea44f; }
+.ro h3 { margin: 0 0 10px; font-size: 0.82em; text-transform: uppercase; letter-spacing: 0.08em; }
 .ro.risks h3 { color: #b02a22; }
-.ro.opps h3 { color: #1b5e20; }
-.ro ul { margin: 0 0 8px; padding-left: 1.1em; color: #2c3e50; }
+.ro.opps h3 { color: #1b6e2a; }
+.ro ul { margin: 0 0 8px; padding-left: 1.1em; color: #2a3142; line-height: 1.55; } .ro li strong { color: #031B41; }
 .ro li { margin: 0 0 8px; }
 /* theme links from Key risks (red) and Key opportunities (green); plain underlined links, not chips */
 .ro .ro-ref { font-size: 0.9em; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; margin-left: 2px; }
 .ro.risks .ro-ref { color: #b02a22; }
-.ro.opps .ro-ref { color: #1b5e20; }
+.ro.opps .ro-ref { color: #1b6e2a; }
 .ro .ro-ref:hover { text-decoration-thickness: 2px; }
 /* hover explanations on posture pills and direction chips (29 September 2026) */
 .decision-tag[title], .chip[title] { cursor: help; }

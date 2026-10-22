@@ -27,7 +27,7 @@
   .topic-logo { width: 220px; height: auto; flex: 0 0 auto; margin-top: 4px; }
   @media (max-width: 600px) { .topic-header { flex-direction: column; align-items: flex-start; } .topic-logo { width: 160px; } }
   h1 { font-size: 2em; margin: 0 0 0.2em; color: #031B41; line-height: 1.15; }
-  .tagline { font-size: 1.15em; color: #0382FC; font-weight: 600; margin: 0 0 0.6em; }
+  .tagline { font-size: 1.15em; color: #031B41; font-weight: 600; margin: 0 0 0.6em; }
   .description { font-size: 1.02em; color: #031B41; margin: 0 0 1.6em; }
   /* Intelligence-cycle explainer figure. Sits between the description and the deliverables timeline
      so a prospect grasps the four-formats/three-clocks rhythm before scanning individual editions.
@@ -62,7 +62,7 @@
      by request (2026-08-06); the others use darker accessible tones. Teaser
      pages render titles as plain h3 with no anchor, so they stay navy/flat. */
   .tl-entry.scan h3 a { color: #0a4ea3; }
-  .tl-entry.tracker h3 a { color: #F59E0B; }
+  .tl-entry.tracker h3 a { color: #D97706; }
   .tl-entry.brief h3 a { color: #1d5d27; }
   .tl-entry.cross_cutter h3 a { color: #4527a0; }
   .tl-entry p { margin: 0 0 6px; font-size: 0.95em; color: #2c3e50; }
@@ -73,8 +73,8 @@
      use darker tones for contrast. Teaser pages emit no readlink. */
   .tl-entry.scan .readlink { color: #0a4ea3; }
   .tl-entry.scan .readlink:hover { background: #0a4ea3; color: #ffffff; }
-  .tl-entry.tracker .readlink { color: #F59E0B; }
-  .tl-entry.tracker .readlink:hover { background: #F59E0B; color: #ffffff; }
+  .tl-entry.tracker .readlink { color: #D97706; }
+  .tl-entry.tracker .readlink:hover { background: #D97706; color: #ffffff; }
   .tl-entry.brief .readlink { color: #1d5d27; }
   .tl-entry.brief .readlink:hover { background: #1d5d27; color: #ffffff; }
   .tl-entry.cross_cutter .readlink { color: #4527a0; }
@@ -172,7 +172,7 @@
   <text x="40" y="196" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5a6478" font-style="italic" text-anchor="middle" transform="rotate(90, 40, 196)">depth of synthesis &#8594;</text>
 
   <!-- Row 1 (top): Signal Scan - 12 weekly dots inside this cycle + 4 fading dots showing continuation -->
-  <text x="65" y="81" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0382FC" font-weight="700">Signal Scan</text>
+  <text x="65" y="81" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0a4ea3" font-weight="700">Signal Scan</text>
   <text x="65" y="94" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">every week &#183; continuous</text>
   <line x1="240" y1="78" x2="720" y2="78" stroke="#eaf3ff" stroke-width="2"/>
   <!-- This cycle (weeks 1-12) -->
@@ -196,7 +196,7 @@
   <text x="710" y="82" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0382FC" opacity="0.55">&#8230;</text>
 
   <!-- Row 2: Change Tracker - weeks 4, 8, 12 + week 16 continuation -->
-  <text x="65" y="144" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#F59E0B" font-weight="700">Change Tracker</text>
+  <text x="65" y="144" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#D97706" font-weight="700">Change Tracker</text>
   <text x="65" y="157" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">every 4 weeks &#183; continuous</text>
   <line x1="240" y1="138" x2="720" y2="138" stroke="#fff2dc" stroke-width="2"/>
   <!-- This cycle (weeks 4, 8, 12) -->
@@ -208,7 +208,7 @@
   <text x="710" y="143" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#F59E0B" opacity="0.55">&#8230;</text>
 
   <!-- Row 3: Decision Intelligence - weeks 1 and 13 (week 13 is also next cycle's week 1) -->
-  <text x="65" y="208" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#2e7d32" font-weight="700">Decision Intelligence</text>
+  <text x="65" y="208" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1d5d27" font-weight="700">Decision Intelligence</text>
   <text x="65" y="221" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">quarterly &#183; cycle bookends</text>
   <line x1="240" y1="200" x2="720" y2="200" stroke="#e6f3e8" stroke-width="2"/>
   <circle cx="240" cy="200" r="11" fill="#2e7d32"/>
@@ -217,7 +217,7 @@
   <text x="570" y="182" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#2e7d32" font-style="italic" text-anchor="middle">end / next start</text>
 
   <!-- Row 4 (bottom - highest synthesis): Action Triggers - at the cycle boundary, analyst-triggered -->
-  <text x="65" y="270" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7e57c2" font-weight="700">Action Triggers</text>
+  <text x="65" y="270" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#4527a0" font-weight="700">Action Triggers</text>
   <text x="65" y="283" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">end of cycle &#183; cross-format synthesis</text>
   <text x="65" y="295" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">analyst-triggered</text>
   <line x1="240" y1="262" x2="720" y2="262" stroke="#ede7f6" stroke-width="2"/>
@@ -256,7 +256,7 @@
   <text x="630" y="279" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7e57c2" font-weight="700">across</text>
 
   <!-- Row 5 (bottom): Live Summary - one page, brought up to date on every delivery -->
-  <text x="65" y="324" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#c2185b" font-weight="700">Live Summary</text>
+  <text x="65" y="324" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ad1457" font-weight="700">Live Summary</text>
   <text x="65" y="337" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478">updated on every delivery</text>
   <text x="65" y="349" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-style="italic">always current</text>
   <line x1="240" y1="318" x2="720" y2="318" stroke="#fce4ec" stroke-width="2"/>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Where Your Money Will Live in 2030. Financial Services &amp; Future of Money Decision Intelligence, September 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -786,7 +787,7 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
 <a name="section-snapshots"></a>
 <div class="snapshots-section">
 <h2>Audience Snapshots</h2>
-<p class="snapshots-intro">Four cards, one per reader group. Each says what is changing for that group and suggests one question for the next meeting, so a team can take its card as an agenda item without reading the whole report.</p>
+<p class="snapshots-intro">Four cards, one per reader group. Each says what is changing for that group and suggests one question for the next meeting, so a team can take its card as an agenda item without reading the whole briefing.</p>
 <div class="snapshots">
 
 <div class="snapshot-card operations">
@@ -1032,8 +1033,26 @@ it looks (<a href="https://www.ecb.europa.eu/press/financial-stability-publicati
     .pg-s { font: 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #5a6478; }
   /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
   <text class="pg-t" x="8" y="18">Asked for their money back, early 2026: each dot is 1% of the fund</text>
   <text class="pg-h" x="40" y="48">Blue Owl fund (OTIC)</text>

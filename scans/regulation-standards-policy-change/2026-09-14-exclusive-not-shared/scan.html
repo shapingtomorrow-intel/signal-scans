@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether an AI system built on the provider&#x27;s own general-purpose model, or deployed inside a very large online platform, must now be governed, documented and evaluated for the Commission&#x27;s AI Office directly rather than for a national regulator, and who in the organisation owns that relationship from 2 August 2026.">
 <meta name="st:seats" content="Chief AI Officer / Head of AI Governance | General Counsel / Head of EU Regulatory Affairs | Chief Compliance Officer / Head of Compliance | Head of Trust and Safety / Platform Integrity | Head of Model Evaluation / AI Assurance | Data Protection Officer | Public Affairs / EU Government Relations | Chief Product Officer (AI products)">
 <meta name="st:lands-on" content="frontier model providers | very large online platforms and search engines | enterprise AI deployers | market surveillance and data protection authorities | conformity assessment bodies | legal and compliance functions | AI assurance and evaluation firms | public sector AI buyers">
 <meta name="st:posture" content="Prepare">
 <meta name="st:horizon" content="1-4 years; AI Office powers live from 2 August 2026">
-<title>The AI Act's Simplification Package — Signal Scan</title>
+<title>The AI Act's Simplification Package | Signal Scan</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
 
@@ -141,8 +142,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -222,7 +241,7 @@
 
 <div class="scan-card accent-indigo">
 <h3>Why This Matters Now</h3>
-<p>This lands on model providers, on the platforms that embed them, on enterprise deployers who built compliance around a national regulator, and on those regulators themselves. The decision architecture that needs revising assumes AI Act compliance is a member-state relationship, chosen with the place of establishment. For systems built on general-purpose models by their own provider, and for AI inside very large platforms, that relationship has gone. Firms should map which of their systems fall to the Office and which to a national authority, and should staff the first relationship the way they staff a competition investigation, because the procedure is borrowed from one. This report's reading is that the gap will show first as inconsistency between the two halves of the map rather than as an absence of enforcement.</p>
+<p>This lands on model providers, on the platforms that embed them, on enterprise deployers who built compliance around a national regulator, and on those regulators themselves. The decision architecture that needs revising assumes AI Act compliance is a member-state relationship, chosen with the place of establishment. For systems built on general-purpose models by their own provider, and for AI inside very large platforms, that relationship has gone. Firms should map which of their systems fall to the Office and which to a national authority, and should staff the first relationship the way they staff a competition investigation, because the procedure is borrowed from one. Our reading is that the gap will show first as inconsistency between the two halves of the map rather than as an absence of enforcement.</p>
 <p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag prepare">Prepare</span></strong> &mdash; the powers are in force and the exclusive competences are settled law, but no information request, evaluation or fine has yet tested them, so the systems map and the Brussels-facing function should be built now and resourced against the first enforcement action rather than against the statute alone.</p>
 </div>
 

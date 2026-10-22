@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Shaping Tomorrow Signal Scans</title>
 <style>
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; max-width: 920px; margin: 2em auto; padding: 0 24px; color: #031B41; line-height: 1.55; background: #FFFFFF; }
@@ -15,6 +16,21 @@ a { color: #0382FC; text-decoration: none; }
 a:hover { text-decoration: underline; }
 .date { color: #5a6478; font-size: 0.88em; margin-right: 10px; font-weight: 600; }
 .footer { color: #5a6478; font-size: 0.85em; margin-top: 3em; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -324,6 +340,6 @@ a:hover { text-decoration: underline; }
 <li><span class="date">2026-05-16</span><a href="scans/workforce-skills-organisational-change/2026-05-16-mobility-budget-pivot/scan.html">After Whim</a></li>
 <li><span class="date">2026-05-14</span><a href="scans/workforce-skills-organisational-change/2026-05-14-broken-rung-generational-divide/scan.html">The Broken Rung</a></li>
 </ul>
-<p class="footer">Built 2026-10-22 12:59 local time. Source: <code>~/Documents/Strategic Intelligence Reports/_signal-scans/</code>.</p>
+<p class="footer">Built 2026-10-22 12:59 local time.</p>
 </body>
 </html>

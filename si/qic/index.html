@@ -46,6 +46,21 @@
   .tl-chip { display: inline-block; font-size: 0.78em; font-weight: 600; padding: 2px 9px; border-radius: 12px; margin: 0 5px 5px 0; background: transparent; border: 1px solid #e1e6ee; color: #5a6478; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
   .footer a { color: #0382FC; text-decoration: none; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>

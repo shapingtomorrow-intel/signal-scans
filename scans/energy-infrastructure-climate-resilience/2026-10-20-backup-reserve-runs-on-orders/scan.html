@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether to count data-centre backup generators as firm reserve in capacity and reliability plans, or to carry them at a discount until a standing permit rule and a published megawatt total exist.">
 <meta name="st:seats" content="Director of Resource Adequacy, electric utility | Director of Reliability Planning, transmission owner | Chief Financial Officer, data-centre developer | Head of Power Procurement, hyperscale operator | Head of Environmental Compliance, data-centre operator | Head of Project Finance, digital infrastructure | Air Permitting Policy Lead, state environmental regulator">
 <meta name="st:lands-on" content="electric utilities and transmission owners | data-centre owners and operators | backup-generator makers and servicers | state air-quality regulators | digital-infrastructure lending">
@@ -147,8 +148,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -224,7 +243,7 @@
 
 <div class="scan-card accent-orange">
 <h3>Disruption Pathway</h3>
-<p>This report&rsquo;s reading is that the pathway has three stages. Through winter 2026-27 the reserve stays order-by-order: PJM asks, DOE grants, and the engines run outside permit limits, usually for a week (<a href="https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20261008/20261008-item-13---202c-update-in-preparation-for-winter-season-presentation.pdf" target="_blank" rel="noopener">PJM 202(c) update</a>, 08/10/2026). Through 2027 a fix should form: a standing allowance for grid emergencies within permits, or a decision to carry the reserve at zero in plans. In 2028 the order route meets the courts: an appeals court has called DOE&rsquo;s first Campbell coal-plant order &ldquo;an unlawful use of Section 202(c)&rdquo;, a different use of the same power (<a href="https://www.michigan.gov/ag/news/press-releases/2026/09/11/federal-appeals-court-vacates-first-doe-order-forcing-operation-of-jh-campbell-coal-plant" target="_blank" rel="noopener">Michigan Attorney General</a>, 11/09/2026).</p>
+<p>Our reading is that the pathway has three stages. Through winter 2026-27 the reserve stays order-by-order: PJM asks, DOE grants, and the engines run outside permit limits, usually for a week (<a href="https://www.pjm.com/-/media/DotCom/committees-groups/committees/oc/2026/20261008/20261008-item-13---202c-update-in-preparation-for-winter-season-presentation.pdf" target="_blank" rel="noopener">PJM 202(c) update</a>, 08/10/2026). Through 2027 a fix should form: a standing allowance for grid emergencies within permits, or a decision to carry the reserve at zero in plans. In 2028 the order route meets the courts: an appeals court has called DOE&rsquo;s first Campbell coal-plant order &ldquo;an unlawful use of Section 202(c)&rdquo;, a different use of the same power (<a href="https://www.michigan.gov/ag/news/press-releases/2026/09/11/federal-appeals-court-vacates-first-doe-order-forcing-operation-of-jh-campbell-coal-plant" target="_blank" rel="noopener">Michigan Attorney General</a>, 11/09/2026).</p>
 <p>Stress concentrates at permits, where PJM itself expects exceedances (<a href="https://www.energy.gov/documents/doe-order-no-202-26-41" target="_blank" rel="noopener">DOE Order 202-26-41</a>, 01/09/2026); the unpublished megawatt count (<a href="https://www.datacenterknowledge.com/energy-power-supply/pjm-issued-first-backup-generator-warnings-during-heat-wave" target="_blank" rel="noopener">Data Center Knowledge</a>, 20/07/2026); and run-hour limits (<a href="https://www.oregon.gov/energy/get-involved/Documents/2026-07-31-Oregon-DEQ-Air-Quality-Permitting-Presentation.pdf" target="_blank" rel="noopener">Oregon DEQ</a>, 31/07/2026). Two adaptations are likely: state regulators add a grid-emergency category to generator permits, and PJM publishes a megawatt total by zone.</p>
 </div>
 

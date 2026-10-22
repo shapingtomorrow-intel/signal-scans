@@ -28,6 +28,7 @@
 -->
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Autonomy Anchor Year: UK Maritime Autonomy Decision Intelligence Briefing, June 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -245,8 +246,26 @@
   .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -361,7 +380,7 @@
 
 <div class="sit-up-statement">
 <p class="sit-up-question">Which procurement, investment and partnership decisions on your desk this quarter still assume the UK autonomy pathway is parallel to the international one, rather than racing it?</p>
-<p class="sit-up-warrant">The IMO, the Royal Navy, the Crown Estate, the National Wealth Fund and three allied navies are all moving on the same 2026 to 2028 clock; the evidence in this report says the UK pathway must be visible to class and insurers before any of those clocks chime.</p>
+<p class="sit-up-warrant">The IMO, the Royal Navy, the Crown Estate, the National Wealth Fund and three allied navies are all moving on the same 2026 to 2028 clock; the evidence in this briefing says the UK pathway must be visible to class and insurers before any of those clocks chime.</p>
 </div>
 
 <p>The cycle's central tension is timing. Six weeks after the Stehr / NPL / NSO study (SCL-082-007-R, 11 May 2026) set the baseline at a &pound;625m current footprint and a &pound;3.7bn-by-2040 central trajectory, the evidence accumulating around that baseline says the trajectory is now gated less by demand and more by the speed at which the UK assurance pathway becomes visible to the people who actually buy, insure and certify autonomous vessels. Three things have moved. The IMO has confirmed at MSC 109 that adoption of a non-mandatory MASS Code is on track for 2026 with mandatory entry under SOLAS in 2028 (<a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Autonomous-shipping.aspx" target="_blank" rel="noopener">IMO</a>, May 2026). The Royal Australian Navy has the first Ghost Shark XL-AUV in operational service, setting the production-rate benchmark allied navies are now measured against (<a href="https://www.navy.gov.au/media-room/news/ghost-shark-xl-auv-program" target="_blank" rel="noopener">Royal Australian Navy</a>, February 2026). And the Royal Navy mine-countermeasures transition is now operational rather than experimental, with the Hunt and Sandown classes on a published retirement path against an autonomous MCM portfolio (<a href="https://www.navylookout.com/royal-navy-mine-countermeasures-the-transition-to-autonomy/" target="_blank" rel="noopener">Navy Lookout</a>, April 2026).</p>
@@ -804,7 +823,7 @@
 <p>This appendix records every claim that goes beyond what a cited source literally states, so the reader can see where analyst inference does the work and where the source carries it.</p>
 
 <h4>Cycle-over-cycle continuity claims</h4>
-<p>This is the inaugural cycle for the UK Maritime Autonomy sample. The only cycle-over-cycle anchor is the Stehr / NPL / NSO study (SCL-082-007-R, 11 May 2026), which is treated as the cycle's external baseline rather than a prior in-series memory entry. References to the &pound;625m current footprint, the &pound;3.7bn-by-2040 central trajectory, the &pound;8.3bn-by-2050 high case and the value-chain layer language trace to that single external baseline; subsequent cycles will trace continuity through this report's <code>memory.json</code> entry.</p>
+<p>This is the inaugural cycle for the UK Maritime Autonomy sample. The only cycle-over-cycle anchor is the Stehr / NPL / NSO study (SCL-082-007-R, 11 May 2026), which is treated as the cycle's external baseline rather than a prior in-series memory entry. References to the &pound;625m current footprint, the &pound;3.7bn-by-2040 central trajectory, the &pound;8.3bn-by-2050 high case and the value-chain layer language trace to that single external baseline; subsequent cycles will trace continuity through this briefing's <code>memory.json</code> entry.</p>
 
 <h4>Superlatives used</h4>
 <p><em>"Largest near-term allied AUV procurement"</em> for the Norwegian HUGIN replacement (Theme 5): analyst characterisation supported by the Maritime Executive April 2026 framing, but not a direct verbatim claim from that source. <em>"Leading UK regional anchor"</em> for Plymouth (Theme 6): analyst characterisation against the Connected Places Catapult cluster map. <em>"Load-bearing"</em> applied to the Strategic Defence Review's uncrewed framing in the Executive Synthesis: analyst rendering of the SDR text, which uses "essential" and "central" language but not the literal phrase "load-bearing".</p>

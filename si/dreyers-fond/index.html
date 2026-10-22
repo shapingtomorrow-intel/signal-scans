@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dreyers Fond &middot; Strategic Foresight</title>
 <meta name="description" content="Strategic-foresight archive for Dreyers Fond on the Danish bar in 2026: AI inflection, EU AI Act compliance, and the generational priority shift reshaping junior recruitment. Prepared by MakeMyStrategy.">
 <meta property="og:title" content="Dreyers Fond &middot; Strategic Foresight">
@@ -47,6 +48,21 @@
   .tl-entry.brief .tl-chip { background: #e6f3e8; color: #1d5d27; }
   .footer { color: #5a6478; font-size: 0.86em; margin-top: 36px; padding-top: 16px; border-top: 1px solid #e1e6ee; }
   .footer a { color: #5a6478; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>

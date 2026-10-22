@@ -21,7 +21,8 @@
 -->
 <head>
 <meta charset="utf-8">
-<title>From Pilot to Policy: Transport Canada Decision-Grade Strategic Intelligence Report, May 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From Pilot to Policy: Transport Canada Decision Intelligence briefing, May 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
   h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
@@ -195,8 +196,26 @@
   .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -265,7 +284,7 @@
 
 <p>Transport Canada is being asked to move several emerging transportation technologies from pilot demonstration to standardised federal policy at the same moment its enabling legislative vehicles have either expired, been suspended or are mid-passage. The Artificial Intelligence and Data Act (Bill C-27) died at dissolution in 2025 (<a href="https://www.osler.com/en/insights/reports/autonomous-vehicles-canadas-existing-regulatory-framework/" target="_blank" rel="noopener">Osler</a>, January 2026); the Electric Vehicle Availability Standard's 2026 model-year target was suspended in September 2025 amid an EV sales collapse from 14.5% to 8% year-on-year (<a href="https://electricautonomy.ca/policy-regulations/2025-09-06/canada-ev-sales-mandate-2026-pause/" target="_blank" rel="noopener">Electric Autonomy Canada</a>, September 2025); Bill C-8, the revived cyber-security reform Bill that would extend to federally regulated transport operators, was reintroduced in June 2025 and is still in passage (<a href="https://www.blg.com/en/insights/2025/07/bill-c8-revives-canadian-cyber-security-reform-what-critical-infrastructure-sectors-need-to-know" target="_blank" rel="noopener">BLG</a>, July 2025); and Ontario's Automated Commercial Motor Vehicle Pilot opened commercial driverless trucking testing in 2025 (<a href="https://www.ontario.ca/page/automated-commercial-motor-vehicle-pilot-program" target="_blank" rel="noopener">Government of Ontario</a>, August 2025) without a corresponding federal type-approval framework for L4 commercial deployment.</p>
 
-<p>The cycle's spine is the autonomous-vehicles cluster because that is where the pilot-to-policy gap is most operationally consequential, most visible and most directly addressed by this report's audience. The other four clusters apply the same logic to adjacent domains: the supply-chain cluster against the 1 July 2026 USMCA Joint Review trigger (<a href="https://www.als-int.com/insights/posts/usmca-review-2026-north-american-trade-logistics-implications/" target="_blank" rel="noopener">ALS International</a>, October 2025); smart mobility around the recalibrating ZEV mandate and the standards-versus-pilot pivot; Arctic and Northern infrastructure around the Oceans Protection Plan funding cliff in 2026-27 and the largest-ever Canadian Arctic patrol in February 2026 (<a href="https://www.canada.ca/en/department-national-defence/news/2026/02/enhanced-canadian-armed-forces-arctic-operations-reinforce-sovereignty-throughout-2026.html" target="_blank" rel="noopener">National Defence</a>, February 2026); and the governance-innovation cluster bundling anticipatory regulation, the post-AIDA AI-governance gap and foresight as the policy advisor's own tool kit.</p>
+<p>The cycle's spine is the autonomous-vehicles cluster because that is where the pilot-to-policy gap is most operationally consequential, most visible and most directly addressed by this briefing's audience. The other four clusters apply the same logic to adjacent domains: the supply-chain cluster against the 1 July 2026 USMCA Joint Review trigger (<a href="https://www.als-int.com/insights/posts/usmca-review-2026-north-american-trade-logistics-implications/" target="_blank" rel="noopener">ALS International</a>, October 2025); smart mobility around the recalibrating ZEV mandate and the standards-versus-pilot pivot; Arctic and Northern infrastructure around the Oceans Protection Plan funding cliff in 2026-27 and the largest-ever Canadian Arctic patrol in February 2026 (<a href="https://www.canada.ca/en/department-national-defence/news/2026/02/enhanced-canadian-armed-forces-arctic-operations-reinforce-sovereignty-throughout-2026.html" target="_blank" rel="noopener">National Defence</a>, February 2026); and the governance-innovation cluster bundling anticipatory regulation, the post-AIDA AI-governance gap and foresight as the policy advisor's own tool kit.</p>
 
 <p>Five forces dominate attention: pilot-to-commercial movement in AV and smart mobility; the 1 July 2026 USMCA trigger; the legislative-vehicle gap (AIDA dead, ZEV mandate suspended, Bill C-8 in transit); the Arctic operational pivot; and a renewal cliff across OPP, the Connected and Automated Vehicles initiative funding, and the National Trade Corridors Fund execution rate (Macdonald-Laurier reports only around 20% of the $3.8bn approved 2017-2023 was actually spent (<a href="https://macdonaldlaurier.ca/want-to-boost-the-economy-improve-our-transportation-systems-tim-sargents-letter-to-a-minister-in-the-hub/" target="_blank" rel="noopener">Macdonald-Laurier Institute</a>, November 2025)).</p>
 
@@ -664,7 +683,7 @@
 
 <div class="method-card"><div class="method-eyebrow">How this was made</div><p class="method-name"><a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">The Decision-Grade Intelligence Method</a></p><p>Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence.</p><p class="method-stages"><a href="https://www.shapingtomorrow.com/methodology#stage-scan" target="_blank" rel="noopener">Scan</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-filter" target="_blank" rel="noopener">Filter</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-stresstest" target="_blank" rel="noopener">Stress-test</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-judge" target="_blank" rel="noopener">Judge</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-trigger" target="_blank" rel="noopener">Trigger</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-brief" target="_blank" rel="noopener">Actionable Intelligence</a></p><p class="method-more-row"><a class="method-more" href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">See full methodology &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/how-we-verify/">How we verify &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/track-record/">Track record &rarr;</a></p></div>
 <hr>
-<p class="small">&copy; 2026 Shaping Tomorrow. Decision-Grade Strategic Intelligence Report prepared for Transport Canada.</p>
+<p class="small">&copy; 2026 Shaping Tomorrow. Decision Intelligence briefing prepared for Transport Canada.</p>
 
 </div>
 

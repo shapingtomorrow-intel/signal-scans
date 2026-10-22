@@ -28,6 +28,7 @@
 -->
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Made Power the Scarce Asset, Not Capital: QIC Decision Intelligence Briefing, September 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -332,8 +333,26 @@
   .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 <div class="fw-wrap">
   <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
@@ -481,7 +500,7 @@
 <h2>Executive Synthesis</h2>
 <div class="sit-up-statement">
 <p class="sit-up-question">Which decisions on your desk this week assume capital is the scarce input in AI infrastructure?</p>
-<p class="sit-up-warrant">The evidence in this report says it is delivered power.</p>
+<p class="sit-up-warrant">The evidence in this briefing says it is delivered power.</p>
 </div>
 <p>This cycle sets the baseline for QIC on AI, digital infrastructure and power demand, and its central claim is that capital has stopped being the binding constraint on the AI buildout. At the time of publication of the December 2025 FSR, Bloomberg consensus estimates were for AI hyperscalers' capital expenditure for the year 2028 to be less than $600 billion; the same statistic is now over $1 trillion, and the funding has moved to debt: the five hyperscalers were 3% of outstanding US investment-grade debt at the end of 2025 but over 15% of year-to-date issuance by early May, AI issuers were 41% of non-refinancing US high-yield issuance, and private credit's share of AI investment rose from 9% in 2024 to 34% in 2025 (<a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026" target="_blank" rel="noopener">Bank of England</a>, July 2026). What that capital cannot buy on demand is an energised, approved site. In the United States, electricity demand is projected to grow by nearly 2% annually through 2030 with around half of the increase driven by data centres, while more than 2 500 gigawatts of projects, large loads included, remain stalled in grid connection queues worldwide (<a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank" rel="noopener">IEA</a>, February 2026). PJM's auction for 2028/2029 cleared at the FERC-approved cap of $325/MW-day across its whole footprint, cleared only 525 MW of new generation and uprates, and still came in short of the reliability requirement by 6,831 MW (<a href="https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260714-pjm-capacity-auction-procures-138318-mw-of-generation-resources.pdf" target="_blank" rel="noopener">PJM Interconnection</a>, July 2026).</p>
 <p>Australia has arrived at the same place with its own mechanisms. <strong>Demand:</strong> AEMO forecasts data centre electricity consumption in the NEM rising from approximately 5 TWh in 2025-26 to 34 TWh by 2035-36, inside a system whose consumption rises by more than 40% while around 15 GW of coal and gas retires (<a href="https://www.aemo.com.au/newsroom/media-release/2026-esoo" target="_blank" rel="noopener">AEMO</a>, August 2026). <strong>Pipeline:</strong> 11 large projects representing 5.4 GW of maximum demand were in the NEM connection process at the end of March, around 60% in New South Wales and 40% in Victoria, on two-year connection timelines and 5-10 year ramps (<a href="https://www.aemo.com.au/newsroom/news-updates/digital-demand-surge" target="_blank" rel="noopener">AEMO</a>, June 2026); across all large loads, 225 projects with a combined 67 GW had made connection requests without moving to construction, and 31% of data centre projects awarded connection agreements have not gone ahead (<a href="https://theenergy.co/articles/aemo-unpicks-phantom-demand-with-new-predictive-model" target="_blank" rel="noopener">The Energy</a>, August 2026). <strong>Licence:</strong> National Cabinet agreed that large data centres bring material energy, water and land-use impacts and that the Commonwealth will develop consistent mandatory standards, to be legislated in early 2027 (<a href="https://www.pm.gov.au/media/meeting-national-cabinet-26-august-26" target="_blank" rel="noopener">Prime Minister of Australia</a>, August 2026); the Energy Minister says the standards come with no exceptions and no carve-outs and require new supply, while Queensland claims a win that lets data centres draw on its gas and surplus coal (<a href="https://www.abc.net.au/news/2026-08-28/bowen-says-no-carve-outs-for-states-on-data-centre-power/107089824" target="_blank" rel="noopener">ABC News</a>, August 2026). <strong>Delivery:</strong> the 2026 ISP's optimal path needs $106 billion to 2050 and grid-scale wind and solar rising from 23 GW to 61 GW by 2030, and AEMO's own reading is that the current connections pipeline is encouraging, but on its own would not reach the ODP's projected level of generation capacity for 2030 (<a href="https://www.aemo.com.au/-/media/files/major-publications/isp/2026/2026-integrated-system-plan-isp.pdf" target="_blank" rel="noopener">AEMO</a>, June 2026).</p>

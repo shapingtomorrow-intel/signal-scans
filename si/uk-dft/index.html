@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Decarbonise, Automate, Multiply: Department for Transport Decision-Grade Strategic Intelligence Report, May 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decarbonise, Automate, Multiply: Department for Transport Decision Intelligence briefing, May 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
   .verification-banner { background: #fff8e1; border-left: 4px solid #ffc107; padding: 14px 18px; border-radius: 6px; margin-bottom: 20px; font-size: 0.92em; color: #92400e; }
@@ -150,8 +151,26 @@
   }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -159,7 +178,7 @@
 <div class="report-container">
 
 
-<div class="masthead">Decision-Grade Strategic Intelligence Report &middot; Department for Transport</div>
+<div class="masthead">Decision Intelligence briefing &middot; Department for Transport</div>
 <h1 class="report-title">Decarbonise, Automate, Multiply: UK Transport's 2030-2040 Decade</h1>
 <div class="meta">
 16 May 2026 &middot; Audience: DfT leadership team &middot; Horizon: 2030 to 2040<br>
@@ -549,13 +568,13 @@
 
 <div class="exclusion-item">
 <h4>Full Level 5 private-car autonomy at UK consumer-vehicle scale by 2035</h4>
-<p>While robotaxi fleets reach meaningful share in the early 2030s under this report's central case, mass-market Level 5 private-car autonomy at consumer-vehicle scale (sold to individuals, not operated as fleets) remains a 2040s rather than 2030s technology. Consumer affordability, insurance pricing and infrastructure coverage all need to mature. Planning the 2030s on the assumption of mass private AV ownership is premature.</p>
+<p>While robotaxi fleets reach meaningful share in the early 2030s under this briefing's central case, mass-market Level 5 private-car autonomy at consumer-vehicle scale (sold to individuals, not operated as fleets) remains a 2040s rather than 2030s technology. Consumer affordability, insurance pricing and infrastructure coverage all need to mature. Planning the 2030s on the assumption of mass private AV ownership is premature.</p>
 <p class="reinstatement">Reinstate if: a major OEM announces Level 5 private-car sale at sub-£40k price point with full UK road coverage.</p>
 </div>
 
 <div class="exclusion-item">
 <h4>Carbon-capture-equipped synthetic fuels displacing SAF and hydrogen as the primary aviation pathway by 2040</h4>
-<p>Power-to-liquid synthetic fuels with carbon capture remain the highest-cost pathway in the aviation decarbonisation stack and require renewable-electricity inputs that compete with electrification and hydrogen production. While they will play a niche role in the 2040s long-haul segment, they are unlikely to displace SAF and hydrogen-electric short-haul as the dominant pathways within this report's horizon.</p>
+<p>Power-to-liquid synthetic fuels with carbon capture remain the highest-cost pathway in the aviation decarbonisation stack and require renewable-electricity inputs that compete with electrification and hydrogen production. While they will play a niche role in the 2040s long-haul segment, they are unlikely to displace SAF and hydrogen-electric short-haul as the dominant pathways within this briefing's horizon.</p>
 <p class="reinstatement">Reinstate if: a major UK airline commits to power-to-liquid SAF as its primary 2040 fuel pathway, or if SAF feedstock constraints force the mandate to lean on PtL.</p>
 </div>
 
@@ -661,7 +680,7 @@
 </div>
 
 <hr>
-<p class="small">&copy; 2026 Shaping Tomorrow. Decision-Grade Strategic Intelligence Report prepared for Department for Transport.</p>
+<p class="small">&copy; 2026 Shaping Tomorrow. Decision Intelligence briefing prepared for Department for Transport.</p>
 
 </div>
 

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Powering AI in a Climate-Stressed World: Energy, Infrastructure and Climate Resilience Strategic Intelligence Report, May 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Powering AI in a Climate-Stressed World: Energy, Infrastructure and Climate Resilience Decision Intelligence, May 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
   h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
@@ -179,8 +180,26 @@
   .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -189,7 +208,7 @@
 
 <div class="report-header">
 <div class="report-header-text">
-<div class="masthead">Decision-Grade Strategic Intelligence Report</div>
+<div class="masthead">Decision Intelligence briefing</div>
 <h1 class="report-title">Powering AI in a Climate-Stressed World</h1>
 <div class="meta">
 Energy, Infrastructure and Climate Resilience &middot; 19 May 2026 &middot; Audience: strategic, infrastructure and investment leadership<br>
@@ -279,7 +298,7 @@ Energy, Infrastructure and Climate Resilience &middot; 19 May 2026 &middot; Audi
 
 <p class="pullquote">The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.</p>
 
-<p>For the reader, the consequence is that energy, infrastructure and climate cannot be planned as separate workstreams in the next twelve months. The Talen-AWS Susquehanna deal (1.92 GW, $18 billion, through 2042) and Constellation's Microsoft Three Mile Island restart (835 MW, around $1.6 billion, online by 2028) are not three isolated nuclear stories: they are evidence that hyperscalers are bypassing both the queue and the climate-risk re-pricing by buying behind-the-meter firm clean power outright (<a href="https://www.powermag.com/talen-amazon-launch-18b-nuclear-ppa-a-grid-connected-ipp-model-for-the-data-center-era/" target="_blank">POWER Magazine</a>, Jun 2025; <a href="https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html" target="_blank">Constellation</a>, Sep 2024). This report adopts a posture of <em>integrated capital planning</em>: every capital decision must now be tested against compute demand, grid interconnection timing, climate physical-loss repricing, and firm-clean supply availability in a single matrix, not four. The reader who does this will pay less to connect, less to insure, and less to source clean firm power than the reader who does not.</p>
+<p>For the reader, the consequence is that energy, infrastructure and climate cannot be planned as separate workstreams in the next twelve months. The Talen-AWS Susquehanna deal (1.92 GW, $18 billion, through 2042) and Constellation's Microsoft Three Mile Island restart (835 MW, around $1.6 billion, online by 2028) are not three isolated nuclear stories: they are evidence that hyperscalers are bypassing both the queue and the climate-risk re-pricing by buying behind-the-meter firm clean power outright (<a href="https://www.powermag.com/talen-amazon-launch-18b-nuclear-ppa-a-grid-connected-ipp-model-for-the-data-center-era/" target="_blank">POWER Magazine</a>, Jun 2025; <a href="https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html" target="_blank">Constellation</a>, Sep 2024). This briefing adopts a posture of <em>integrated capital planning</em>: every capital decision must now be tested against compute demand, grid interconnection timing, climate physical-loss repricing, and firm-clean supply availability in a single matrix, not four. The reader who does this will pay less to connect, less to insure, and less to source clean firm power than the reader who does not.</p>
 
 <div class="stress-test-box">
 <h4>Where this analysis could be wrong</h4>
@@ -645,7 +664,7 @@ Energy, Infrastructure and Climate Resilience &middot; 19 May 2026 &middot; Audi
 
 <div class="exclusion-item">
 <h4>EU CBAM as an immediate energy-cost shock for the focal industries</h4>
-<p>EU CBAM entered its compliance phase 1 January 2026; first declarations due 30 September 2027; certificate sales begin 1 February 2027 with prices tied to quarterly EUA averages and an importer requirement to hold 50% of embedded emissions (down from 80%) on the registry. The mechanism applies to cement, iron and steel, aluminium, fertilisers, electricity and hydrogen imports. For most non-EU-importing organisations in scope of this report, CBAM is a Monitor item across the FY27 to FY28 planning window rather than an FY27 capital-shock event. The shock arrives for EU-importing energy-intensive industries.</p>
+<p>EU CBAM entered its compliance phase 1 January 2026; first declarations due 30 September 2027; certificate sales begin 1 February 2027 with prices tied to quarterly EUA averages and an importer requirement to hold 50% of embedded emissions (down from 80%) on the registry. The mechanism applies to cement, iron and steel, aluminium, fertilisers, electricity and hydrogen imports. For most non-EU-importing organisations in scope of this briefing, CBAM is a Monitor item across the FY27 to FY28 planning window rather than an FY27 capital-shock event. The shock arrives for EU-importing energy-intensive industries.</p>
 <p class="reinstatement">Reinstate if: the organisation's CBAM-import exposure exceeds the 50-tonne threshold inside FY27, or if the CBAM certificate price tracks above 80 EUR/tonne.</p>
 </div>
 
@@ -784,7 +803,7 @@ Energy, Infrastructure and Climate Resilience &middot; 19 May 2026 &middot; Audi
 
 <div class="method-card"><div class="method-eyebrow">How this was made</div><p class="method-name"><a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">The Decision-Grade Intelligence Method</a></p><p>Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence.</p><p class="method-stages"><a href="https://www.shapingtomorrow.com/methodology#stage-scan" target="_blank" rel="noopener">Scan</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-filter" target="_blank" rel="noopener">Filter</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-stresstest" target="_blank" rel="noopener">Stress-test</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-judge" target="_blank" rel="noopener">Judge</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-trigger" target="_blank" rel="noopener">Trigger</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-brief" target="_blank" rel="noopener">Actionable Intelligence</a></p><p class="method-more-row"><a class="method-more" href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">See full methodology &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/how-we-verify/">How we verify &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/track-record/">Track record &rarr;</a></p></div>
 <hr>
-<p class="small">&copy; 2026 Shaping Tomorrow. Strategic Intelligence Report prepared for the Energy, Infrastructure and Climate Resilience sample. Inaugural cycle on this topic; the Strategic Intelligence Report format is a Shaping Tomorrow service for senior strategy, foresight and policy leadership. See <a href="https://shapingtomorrow.com" target="_blank">shapingtomorrow.com</a>.</p>
+<p class="small">&copy; 2026 Shaping Tomorrow. Decision Intelligence briefing prepared for the Energy, Infrastructure and Climate Resilience sample. Inaugural cycle on this topic; the Decision Intelligence format is a Shaping Tomorrow service for senior strategy, foresight and policy leadership. See <a href="https://shapingtomorrow.com" target="_blank">shapingtomorrow.com</a>.</p>
 
 </div>
 

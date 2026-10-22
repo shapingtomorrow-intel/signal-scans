@@ -2,6 +2,7 @@
 <html lang="da">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Polar A/S &middot; Strategisk Foresight</title>
 <meta name="description" content="Det strategiske foresight-arkiv for Polar A/S (Skanderborg, Danmark): volumen af bilv&aelig;sker, pres fra distribut&oslash;rer og e-handel, regulering af opl&oslash;sningsmidler og biocider, fastomkostnings&oslash;konomi for tre lokaliteter. Udarbejdet af MakeMyStrategy.">
 <meta property="og:title" content="Polar A/S &middot; Strategisk Foresight">
@@ -79,6 +80,21 @@
   h2 { color: #031B41; font-size: 1.35em; margin: 1.6em 0 0.6em; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
   .footer a { color: #5a6478; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>

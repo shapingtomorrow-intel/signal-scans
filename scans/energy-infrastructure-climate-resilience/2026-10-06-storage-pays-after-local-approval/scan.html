@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether to treat contracted New York battery storage as built capacity at contract signature, or to price, finance and plan it only as each project obtains its local approvals.">
 <meta name="st:seats" content="Chief Financial Officer, energy storage developer | Head of Project Finance, renewables and storage | Head of Origination, utility-scale storage | Director of Resource Planning, electric utility | Head of Regulatory Affairs, electric utility | Director of Grid Reliability Planning | Head of Energy Procurement, state energy agency | Infrastructure Credit Officer, project lender">
 <meta name="st:lands-on" content="utility-scale battery storage development | infrastructure project finance and lending | electric utility resource adequacy planning | state energy procurement | municipal land-use and fire authorities">
 <meta name="st:posture" content="Prepare">
 <meta name="st:horizon" content="1-5 years">
-<title>New York Pays for Batteries Only After Local Approval — Signal Scan</title>
+<title>New York Pays for Batteries Only After Local Approval | Signal Scan</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
 
@@ -147,8 +148,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -216,13 +235,13 @@
 
 <div class="scan-card accent-orange">
 <h3>Disruption Pathway</h3>
-<p>This report&rsquo;s reading is that the pathway runs in three stages. First, to 2028, contracts hold while projects wait on town, county and health-department decisions, and the second solicitation follows by year-end (<a href="https://www.nyserda.ny.gov/About/Newsroom/2026-Announcements/2026-09-23-NYSERDA-Awards-Eight-Bulk-Energy-Storage-Projects-13-LSR-Projects" target="_blank" rel="noopener">NYSERDA</a>, 23/09/2026). Second, to 2030, approvals sort the portfolio: permitted projects proceed and disputed ones slip or exit. Third, from 2030, the in-service deadline tests whether 950 MW arrived, while the deficiencies NYISO finds from 2031 test whether the backfill did.</p>
+<p>Our reading is that the pathway runs in three stages. First, to 2028, contracts hold while projects wait on town, county and health-department decisions, and the second solicitation follows by year-end (<a href="https://www.nyserda.ny.gov/About/Newsroom/2026-Announcements/2026-09-23-NYSERDA-Awards-Eight-Bulk-Energy-Storage-Projects-13-LSR-Projects" target="_blank" rel="noopener">NYSERDA</a>, 23/09/2026). Second, to 2030, approvals sort the portfolio: permitted projects proceed and disputed ones slip or exit. Third, from 2030, the in-service deadline tests whether 950 MW arrived, while the deficiencies NYISO finds from 2031 test whether the backfill did.</p>
 <p>Stress concentrates in three places: sites on public land where one legislature controls the environmental review (KCE NY 5); sites that need a health or fire variance (Holtsville); and towns that pause while they wait for State guidance (Cortlandt) (<a href="https://modoenergy.com/research/nyiso-nyserda-isc-index-storage-credit-winners-bess" target="_blank" rel="noopener">Modo Energy</a>, 24/09/2026). Two adaptations follow. Operationally, developers should secure local consent before interconnection spend and screen sites by moratorium status. In regulation, NYSERDA could add approval milestones or a state siting route to later solicitations; neither appears in the award announcement (<a href="https://www.nyserda.ny.gov/About/Newsroom/2026-Announcements/2026-09-23-NYSERDA-Awards-Eight-Bulk-Energy-Storage-Projects-13-LSR-Projects" target="_blank" rel="noopener">NYSERDA</a>, 23/09/2026).</p>
 </div>
 
 <div class="scan-card accent-indigo">
 <h3>Why This Matters Now</h3>
-<p>Boards and CFOs of storage developers, project lenders, utility planners and the state agencies that own the 2030 target hold this decision. Bids, financing and reliability plans all treat a signed contract as capacity. On this report&rsquo;s reading the contract carries production risk but not consent risk: nothing is paid until local approvals are in hand, so the developer carries the cost of delay and the system carries the reliability gap. Lenders should size debt to approval milestones, planners should weight storage in the base case by approval status, and bidders should rank sites by local consent before price.</p>
+<p>Boards and CFOs of storage developers, project lenders, utility planners and the state agencies that own the 2030 target hold this decision. Bids, financing and reliability plans all treat a signed contract as capacity. On our reading the contract carries production risk but not consent risk: nothing is paid until local approvals are in hand, so the developer carries the cost of delay and the system carries the reliability gap. Lenders should size debt to approval milestones, planners should weight storage in the base case by approval status, and bidders should rank sites by local consent before price.</p>
 <p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag prepare">Prepare</span></strong> &mdash; bids and financing can proceed, while commitments that depend on a delivery date should wait on named local approvals.</p>
 </div>
 

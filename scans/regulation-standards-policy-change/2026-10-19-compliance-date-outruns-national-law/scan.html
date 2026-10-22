@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether multinational compliance programmes should key EU directive readiness to the EU application date or to each Member State&#x27;s adoption of national law.">
 <meta name="st:seats" content="General Counsel | Chief Compliance Officer | Head of Product Compliance | Head of Employment Law | Chief Human Resources Officer | Head of Government Affairs | Head of Regulatory Affairs | Head of Insurance and Risk">
 <meta name="st:lands-on" content="manufacturers placing products on the EU market | multinational employers with EU staff | consumer goods and retail | energy suppliers and hydrogen developers | product liability insurers">
@@ -147,8 +148,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -387,7 +406,7 @@
 <div class="counter-arg-box">
 <h3>Counter-Argument</h3>
 <p>The strongest objection is that late transposition is old news and legally bounded. The green claims rules apply with "no transitional relief" (<a href="https://www.lw.com/en/insights/eu-empowering-consumers-directive-new-rules-on-green-claims-apply-from-27-september-2026" target="_blank" rel="noopener">Latham &amp; Watkins</a>, 09/09/2026); public employers face direct effect from 8 June 2026, and counsel advise that "Employers should not wait for national implementing legislation" (<a href="https://www.mayerbrown.com/ja/insights/publications/2026/07/eu-pay-transparency-directive-practical-briefing-for-international-employers" target="_blank" rel="noopener">Mayer Brown</a>, 30/06/2026). On this reading the patchwork is a short irritation.</p>
-<p>The reply is that direct effect is mostly vertical and interpretation stops at the contra legem limit, so private exposure still depends on national text (<a href="https://www.mayerbrown.com/ja/insights/publications/2026/07/eu-pay-transparency-directive-practical-briefing-for-international-employers" target="_blank" rel="noopener">Mayer Brown</a>, 30/06/2026). The Commission's energy files show gaps lasting years (<a href="https://energy.ec.europa.eu/news/october-infringements-package-key-decisions-energy-2026-10-01_en" target="_blank" rel="noopener">European Commission</a>, 01/10/2026). This report's reading is that the patchwork lasts long enough to shape compliance spend even if every state eventually legislates.</p>
+<p>The reply is that direct effect is mostly vertical and interpretation stops at the contra legem limit, so private exposure still depends on national text (<a href="https://www.mayerbrown.com/ja/insights/publications/2026/07/eu-pay-transparency-directive-practical-briefing-for-international-employers" target="_blank" rel="noopener">Mayer Brown</a>, 30/06/2026). The Commission's energy files show gaps lasting years (<a href="https://energy.ec.europa.eu/news/october-infringements-package-key-decisions-energy-2026-10-01_en" target="_blank" rel="noopener">European Commission</a>, 01/10/2026). Our reading is that the patchwork lasts long enough to shape compliance spend even if every state eventually legislates.</p>
 </div>
 
 <div class="implications-box">

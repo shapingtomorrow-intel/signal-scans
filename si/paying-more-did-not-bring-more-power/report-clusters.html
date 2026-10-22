@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Paying More Did Not Bring More Power. Energy, Infrastructure and Climate Resilience Decision Intelligence, September 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -497,8 +498,26 @@
   .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 <div class="fw-wrap">
   <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
@@ -651,7 +670,7 @@
 
 <div class="sit-up-statement">
 <p class="sit-up-question">Which decisions on your desk this week assume that a high enough price will bring the power?</p>
-<p class="sit-up-warrant">The evidence in this report says the highest price the rules allow bought 317 megawatts.</p>
+<p class="sit-up-warrant">The evidence in this briefing says the highest price the rules allow bought 317 megawatts.</p>
 </div>
 
 <p>This cycle the electricity system reached the top of its price signal and got almost nothing back. PJM, which runs the grid for 13 US states and Washington DC, cleared its 2028/2029 auction at the highest price its rules allow, 6,831.3 MW short of what reliability requires, and brought forward 317.1 MW of new generation (<a href="https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf" target="_blank" rel="noopener">PJM 2028/2029 Base Residual Auction Report</a>, Jul 2026). Money is no longer what is scarce. Equipment, permission to connect and cooling water are.</p>

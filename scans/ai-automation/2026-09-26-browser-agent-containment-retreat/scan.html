@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether to allow AI agents to browse the open web inside an employee&#x27;s own authenticated session, or to require agentic browsing to run through a sandboxed or remote execution layer with brokered credentials before any agentic browsing feature is turned on.">
 <meta name="st:seats" content="Chief Information Security Officer | Head of Security Architecture | VP of IT / Endpoint Security | Chief Information Officer | Head of AI Governance / Responsible AI | Product Lead, AI Agents or Browser (vendor side) | Chief Risk Officer">
 <meta name="st:lands-on" content="enterprise IT and security teams | browser and AI-agent vendors | managed security and browser-isolation vendors | financial services and other regulated enterprise AI adopters | consumer software and browser users">
 <meta name="st:posture" content="Prepare">
 <meta name="st:horizon" content="0.5-2 years">
-<title>Agentic Browsers Retreat From the Open Web Into Sandboxes — Signal Scan</title>
+<title>Agentic Browsers Retreat From the Open Web Into Sandboxes | Signal Scan</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
 
@@ -141,8 +142,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>

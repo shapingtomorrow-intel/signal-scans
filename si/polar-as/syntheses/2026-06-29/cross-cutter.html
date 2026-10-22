@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Money cleared, capacity is the question: Polar A/S Action Triggers, 29 June 2026</title>
 <meta name="description" content="Action Triggers for Polar A/S Cycle 1: early warnings, shifting assumptions and decisions across four topics ,  automotive-fluids volume, distributor and e-commerce pressure, solvent and biocide regulation, three-site fixed-cost economics.">
 <style>
@@ -69,6 +70,21 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
   .small { font-size: 0.88em; color: #555; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>

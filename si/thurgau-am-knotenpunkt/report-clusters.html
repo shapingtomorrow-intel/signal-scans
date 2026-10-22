@@ -28,6 +28,7 @@
 -->
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Thurgau am Knotenpunkt: Kanton Thurgau Decision Intelligence Briefing, June 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -304,8 +305,26 @@
   .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 <div class="fw-wrap">
   <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
@@ -500,7 +519,7 @@
 
 <div class="sit-up-statement">
 <p class="sit-up-question">Which decisions on your desk this Regierungsratssitzung were sized for a Thurgau still defined by inward migration and a settled federal arrangement with Bern and Brussels?</p>
-<p class="sit-up-warrant">The evidence in this report says both of those conditions are already changing, inside the same two budget cycles.</p>
+<p class="sit-up-warrant">The evidence in this briefing says both of those conditions are already changing, inside the same two budget cycles.</p>
 </div>
 
 <p>The defining feature of this cycle is not any single shock. It is that six largely independent pressures, each a serious file in its own right, are landing inside the same Legislaturplanung window. Each one changes the canton's room for manoeuvre on a different file: the Bilaterale III package and the cross-border Bodensee neighbourhood; the climate-and-water stress on Thurgau agriculture; the AI plus Berufsbildung competitiveness question; the Mantelerlass-shaped energy transition; the stacked fiscal pressures from OECD Pillar 2, NFA and EFAS; and a population that has just crossed 300'000 with ageing now outpacing growth. Read in isolation, each is manageable. Read together, they crowd the Regierungsrat agenda and the canton's reserves at the same time.</p>

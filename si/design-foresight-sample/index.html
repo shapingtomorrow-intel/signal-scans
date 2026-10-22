@@ -6,6 +6,7 @@
 -->
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Trained Judgement in the Age of Automated Foresight: Decision Intelligence Report, May 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -188,8 +189,26 @@
   .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -262,11 +281,11 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 
 <p class="pullquote">A field is re-forming, and four forces are pulling at its centre at once.</p>
 
-<p>The spine of this cycle is the design-practice story, not the AI story. Clusters 1 and 2 carry the AI angle and are ranked first because their effects land soonest, but they are best read as instruments inside a larger argument: AI is reshaping how design and foresight produce and value futures, and the field's response to it is what matters. The surprising insight for leadership is that the most credible practitioners are not treating AI's defining flaw, hallucination, as something to suppress. They are treating it as a method. Three of the user-supplied papers in this report's evidence base formalise hallucination as a deliberate creative input, reframed through human Trained Judgement into hypercreative signals (<a href="https://jfsdigital.org/2025-2/vol-29-no-4-june-2025/automating-liminality-in-foresight-practice/" target="_blank">Journal of Futures Studies</a>, June 2025). The phrase the cycle borrows for its title, Trained Judgement, comes originally from architectural criticism (Berkel and Bos, 1999) and is used in foresight to name the abductive accumulated experience that lets a thought leader know what works inside otherwise participatory processes (Bevolo and Draeger, Next Tongue manuscript, May 2026). The same body of evidence sets the binding constraint: large language models average the work of many sources, so used naively they narrow the range of futures a field can imagine. This report's posture is that the design-and-foresight field is being re-formed under contested terms, that trained human judgement is the asset that decides whether the re-formation widens or narrows the futures available, and that leadership should treat the choice of method, talent and curriculum as the live decision, not the choice of tool.</p>
+<p>The spine of this cycle is the design-practice story, not the AI story. Clusters 1 and 2 carry the AI angle and are ranked first because their effects land soonest, but they are best read as instruments inside a larger argument: AI is reshaping how design and foresight produce and value futures, and the field's response to it is what matters. The surprising insight for leadership is that the most credible practitioners are not treating AI's defining flaw, hallucination, as something to suppress. They are treating it as a method. Three of the user-supplied papers in this briefing's evidence base formalise hallucination as a deliberate creative input, reframed through human Trained Judgement into hypercreative signals (<a href="https://jfsdigital.org/2025-2/vol-29-no-4-june-2025/automating-liminality-in-foresight-practice/" target="_blank">Journal of Futures Studies</a>, June 2025). The phrase the cycle borrows for its title, Trained Judgement, comes originally from architectural criticism (Berkel and Bos, 1999) and is used in foresight to name the abductive accumulated experience that lets a thought leader know what works inside otherwise participatory processes (Bevolo and Draeger, Next Tongue manuscript, May 2026). The same body of evidence sets the binding constraint: large language models average the work of many sources, so used naively they narrow the range of futures a field can imagine. This briefing's posture is that the design-and-foresight field is being re-formed under contested terms, that trained human judgement is the asset that decides whether the re-formation widens or narrows the futures available, and that leadership should treat the choice of method, talent and curriculum as the live decision, not the choice of tool.</p>
 
 <div class="stress-test-box">
 <h4>Where this analysis could be wrong</h4>
-<p>The single most consequential assumption in this synthesis is that the design-and-foresight field is genuinely re-forming as one discipline, rather than design and foresight simply borrowing each other's vocabulary while their institutions, buyers and career paths stay separate. The evidence for convergence is still concentrated in academic journals, a handful of consultancies and a small set of speculative-design studios. If, over the next twelve to eighteen months, the major foresight buyers (governments, corporate strategy functions) continue to commission scenario work and design work through separate procurement routes, and if no shared professional body, accreditation or named job title emerges, then this report has over-read a publishing trend as a structural shift. The disconfirming signal to watch is procurement and hiring: convergence is real only if "design foresight" or an equivalent appears as a named role or a named commissioning category, not only as a paper title.</p>
+<p>The single most consequential assumption in this synthesis is that the design-and-foresight field is genuinely re-forming as one discipline, rather than design and foresight simply borrowing each other's vocabulary while their institutions, buyers and career paths stay separate. The evidence for convergence is still concentrated in academic journals, a handful of consultancies and a small set of speculative-design studios. If, over the next twelve to eighteen months, the major foresight buyers (governments, corporate strategy functions) continue to commission scenario work and design work through separate procurement routes, and if no shared professional body, accreditation or named job title emerges, then this briefing has over-read a publishing trend as a structural shift. The disconfirming signal to watch is procurement and hiring: convergence is real only if "design foresight" or an equivalent appears as a named role or a named commissioning category, not only as a paper title.</p>
 </div>
 
 <h4>The decisions that cannot be deferred this cycle</h4>
@@ -362,7 +381,7 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 
 <div class="spotlight">
 <h4>The liminal step is where judgement does its work</h4>
-<p>The hypercreativity process places its decisive move in the third step, liminal thinking, where the practitioner abductively reorganises raw machine output into clusters and trends, deliberately exercising the suspension of disbelief that fiction requires (<a href="https://jfsdigital.org/2025-2/vol-29-no-4-june-2025/automating-liminality-in-foresight-practice/" target="_blank">Journal of Futures Studies</a>, June 2025). This report's reading is that the step is not a technical operation but a design act: it is where a human decides which hallucinations are noise and which are signal. That is why the method is hard to commoditise. The machine can generate the candidate material in seconds; deciding what it means stays human work, and it stays craft.</p>
+<p>The hypercreativity process places its decisive move in the third step, liminal thinking, where the practitioner abductively reorganises raw machine output into clusters and trends, deliberately exercising the suspension of disbelief that fiction requires (<a href="https://jfsdigital.org/2025-2/vol-29-no-4-june-2025/automating-liminality-in-foresight-practice/" target="_blank">Journal of Futures Studies</a>, June 2025). Our reading is that the step is not a technical operation but a design act: it is where a human decides which hallucinations are noise and which are signal. That is why the method is hard to commoditise. The machine can generate the candidate material in seconds; deciding what it means stays human work, and it stays craft.</p>
 </div>
 <div class="counter-argument">
 <h4>Counter-argument</h4>
@@ -430,11 +449,11 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 <li>Parliamentary foresight capability is now embedded in at least fifteen named jurisdictions across four regions: Chile, Brazil, Uruguay and Paraguay in Latin America; Lithuania, Estonia, Finland, Iceland, Austria and Poland in Europe; Canada in North America; and Vietnam, Thailand, South Korea and the Philippines in Asia Pacific, with foresight functions placed inside the legislature itself rather than only in executive agencies (Bezold, Journal of Futures Studies, 2024, cited in Bevolo and Draeger, Next Tongue manuscript, May 2026).</li>
 </ul>
 </div>
-<p>Industrialisation is not only a story about volume; it is a story about where craft survives. As foresight scales, the discipline divides into a layer that can be standardised and a layer that resists it. The standardisable layer is large: horizon scans, trend databases, signal libraries, first-pass scenario drafts, the briefing decks that summarise them. AI and scaled consultancies are both moving into that layer fast, and an organisation that defines its foresight capability as producing those artefacts is defining itself out of a defensible position. The layer that resists standardisation is the one this report's evidence keeps returning to: choosing which signals matter for this organisation and this decision, designing the method and the frame through which raw material becomes a judgement, and facilitating the human conversation that turns a scenario into a commitment. That layer is design work as much as analytical work, and it is where the professionalisation of foresight and the reinvention of design genuinely meet. The strategic reading for leadership is that industrialisation is good news for organisations that have invested in interpretive depth and method design, and a quiet threat to those whose foresight function is, in practice, a scanning service.</p>
+<p>Industrialisation is not only a story about volume; it is a story about where craft survives. As foresight scales, the discipline divides into a layer that can be standardised and a layer that resists it. The standardisable layer is large: horizon scans, trend databases, signal libraries, first-pass scenario drafts, the briefing decks that summarise them. AI and scaled consultancies are both moving into that layer fast, and an organisation that defines its foresight capability as producing those artefacts is defining itself out of a defensible position. The layer that resists standardisation is the one this briefing's evidence keeps returning to: choosing which signals matter for this organisation and this decision, designing the method and the frame through which raw material becomes a judgement, and facilitating the human conversation that turns a scenario into a commitment. That layer is design work as much as analytical work, and it is where the professionalisation of foresight and the reinvention of design genuinely meet. The strategic reading for leadership is that industrialisation is good news for organisations that have invested in interpretive depth and method design, and a quiet threat to those whose foresight function is, in practice, a scanning service.</p>
 
 <div class="spotlight">
 <h4>What a machine cannot build: the tool, not just the output</h4>
-<p>A useful distinction runs through the field's reflexive literature: an LLM can generate the contents of a foresight exercise, the signals and scenarios, but it cannot construct the foresight matrix tool that organises them (<a href="https://www.ijdas.in/index.php/ijdas/article/view/SP0003" target="_blank">IJDAS</a>, June 2025). On the available evidence this report reads the professionalisation of foresight as a shift in where the defensible work sits: away from producing scenario content, which AI and scaled consultancies increasingly supply, and toward designing the methods, frames and tools through which content becomes a decision. That is design work, and it is one of the clearest places the design-and-foresight fields genuinely fuse rather than merely borrow language.</p>
+<p>A useful distinction runs through the field's reflexive literature: an LLM can generate the contents of a foresight exercise, the signals and scenarios, but it cannot construct the foresight matrix tool that organises them (<a href="https://www.ijdas.in/index.php/ijdas/article/view/SP0003" target="_blank">IJDAS</a>, June 2025). On the available evidence we read the professionalisation of foresight as a shift in where the defensible work sits: away from producing scenario content, which AI and scaled consultancies increasingly supply, and toward designing the methods, frames and tools through which content becomes a decision. That is design work, and it is one of the clearest places the design-and-foresight fields genuinely fuse rather than merely borrow language.</p>
 </div>
 <div class="counter-argument">
 <h4>Counter-argument</h4>
@@ -460,7 +479,7 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 
 <div class="spotlight">
 <h4>Experiential futures: design's distinctive contribution to foresight</h4>
-<p>Foresight's traditional output is the written scenario; design's contribution is to make a future perceptible. Experiential futures, developed over nearly two decades, combines professional design craft with foresight methods so that participants experience a future rather than only read about it (<a href="https://www.iftf.org/foresightessentials/for-individuals/experiential-futures/" target="_blank">Institute for the Future</a>, accessed May 2026). This report's reading is that this is the clearest answer to what design brings to the converged field: not faster scenarios, but futures that are felt and therefore acted on. Studios such as Superflux build precisely this, making a possible future real enough that organisations start moving toward it (<a href="https://www.designboom.com/design/critical-futures-how-superflux-draws-upon-speculative-designs-transform-present/" target="_blank">designboom</a>, May 2026).</p>
+<p>Foresight's traditional output is the written scenario; design's contribution is to make a future perceptible. Experiential futures, developed over nearly two decades, combines professional design craft with foresight methods so that participants experience a future rather than only read about it (<a href="https://www.iftf.org/foresightessentials/for-individuals/experiential-futures/" target="_blank">Institute for the Future</a>, accessed May 2026). Our reading is that this is the clearest answer to what design brings to the converged field: not faster scenarios, but futures that are felt and therefore acted on. Studios such as Superflux build precisely this, making a possible future real enough that organisations start moving toward it (<a href="https://www.designboom.com/design/critical-futures-how-superflux-draws-upon-speculative-designs-transform-present/" target="_blank">designboom</a>, May 2026).</p>
 </div>
 <div class="counter-argument">
 <h4>Counter-argument</h4>
@@ -493,7 +512,7 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 </div>
 <div class="spotlight">
 <h4>Teaching the flaw on purpose</h4>
-<p>The sharpest move in the curriculum evidence is pedagogical rather than technical. Rather than banning AI or teaching around its hallucination problem, the scaffolding approach teaches students to engage hallucination deliberately, deconstructing problems and directing the model through a structured five-step sequence (<a href="https://www.ijdas.in/index.php/ijdas/article/view/SP0002" target="_blank">IJDAS</a>, June 2025). This report's reading is that this is what AI-critical foresight means in practice: not suspicion of the tool and not surrender to it, but a taught competency in using a flawed instrument well. It is also the clearest curricular expression of the report's central claim, that trained judgement, not the tool, is the asset worth building.</p>
+<p>The sharpest move in the curriculum evidence is pedagogical rather than technical. Rather than banning AI or teaching around its hallucination problem, the scaffolding approach teaches students to engage hallucination deliberately, deconstructing problems and directing the model through a structured five-step sequence (<a href="https://www.ijdas.in/index.php/ijdas/article/view/SP0002" target="_blank">IJDAS</a>, June 2025). Our reading is that this is what AI-critical foresight means in practice: not suspicion of the tool and not surrender to it, but a taught competency in using a flawed instrument well. It is also the clearest curricular expression of the report's central claim, that trained judgement, not the tool, is the asset worth building.</p>
 </div>
 <div class="counter-argument">
 <h4>Counter-argument</h4>
@@ -582,7 +601,7 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 
 <div class="exclusion-item">
 <h4>The full automation of foresight</h4>
-<p>This report does not plan for a near-term world in which AI replaces the foresight practitioner outright. The evidence base, including the practitioner-authored papers that are most enthusiastic about AI, is consistent that machines generate material but cannot perform the interpretive, liminal and decision-framing work that makes foresight useful. The OECD and World Economic Forum survey records AI as an augmentation, valued for time-saving, not as a substitute for judgement. Treating full automation as a live planning case would misdirect attention away from the real decision, which is method and capability.</p>
+<p>This briefing does not plan for a near-term world in which AI replaces the foresight practitioner outright. The evidence base, including the practitioner-authored papers that are most enthusiastic about AI, is consistent that machines generate material but cannot perform the interpretive, liminal and decision-framing work that makes foresight useful. The OECD and World Economic Forum survey records AI as an augmentation, valued for time-saving, not as a substitute for judgement. Treating full automation as a live planning case would misdirect attention away from the real decision, which is method and capability.</p>
 <p class="reinstatement">Reinstate if: a credible practitioner study demonstrates AI producing decision-grade foresight, including method design and interpretation, without material human input.</p>
 </div>
 
@@ -615,7 +634,7 @@ Design and Foresight &middot; 20 May 2026 &middot; Audience: strategic, foresigh
 <a name="section-source-register"></a>
 <div class="source-register">
 <h2>Source Confidence Register</h2>
-<p>This report draws on 38 verified sources, gathered under a soft six-month recency window (publications from November 2025 onward), with 19 structural anchors carrying older canonical material, including the six user-supplied evidence-spine papers and foundational research on AI-driven homogenisation.</p>
+<p>This briefing draws on 38 verified sources, gathered under a soft six-month recency window (publications from November 2025 onward), with 19 structural anchors carrying older canonical material, including the six user-supplied evidence-spine papers and foundational research on AI-driven homogenisation.</p>
 <p class="small">Source tiers: <strong>Tier 1</strong>, governments, regulators and intergovernmental bodies. <strong>Tier 2</strong>, think-tanks, academic institutes, major consultancies and quality data providers. <strong>Tier 3</strong>, quality journalism and specialist trade press. <strong>Tier 4</strong>, vendor, company and practitioner sources, used only as directional corroboration.</p>
 
 <h4>Cluster 1: Hallucination as Method: AI's Creative Turn in Foresight</h4>

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>The Transition Still Needs Hiring: Brightsmith Strategic Intelligence Report, May 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Transition Still Needs Hiring: Brightsmith Decision Intelligence, May 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
   h1 { font-size: 1.9em; color: #1a237e; margin-bottom: 0.2em; }
@@ -165,15 +166,33 @@
   }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
 
 <div class="report-container">
 
-<div class="masthead">Strategic Intelligence Report &middot; Brightsmith</div>
+<div class="masthead">Decision Intelligence &middot; Brightsmith</div>
 <h1 class="report-title">The Transition Still Needs Hiring</h1>
 <div class="meta">
 14 May 2026 &middot; Audience: Brightsmith leadership team (Jenny Gladman, CEO) &middot; Horizon: 2 to 5 years<br>
@@ -323,7 +342,7 @@
 
 <div class="signal-cluster tier-mandate">
 <div class="cluster-header"><h3>1. The US pipeline cliff and the Austin book</h3><span class="impact-tier mandate">Immediate</span></div>
-<p class="cluster-framing">Brightsmith's Austin book is exposed to a US clean-energy market whose forward pipeline is contracting, even though 2025 revenue from already-committed projects looked healthy. The One Big Beautiful Bill Act has repealed or narrowed clean-energy tax credits and set construction-start deadlines that concentrate a wave of decisions into mid-2026, after which a slower environment is expected. The originating engine of US mandates is weakening on exactly the 2-to-5-year horizon this report covers.</p>
+<p class="cluster-framing">Brightsmith's Austin book is exposed to a US clean-energy market whose forward pipeline is contracting, even though 2025 revenue from already-committed projects looked healthy. The One Big Beautiful Bill Act has repealed or narrowed clean-energy tax credits and set construction-start deadlines that concentrate a wave of decisions into mid-2026, after which a slower environment is expected. The originating engine of US mandates is weakening on exactly the 2-to-5-year horizon this briefing covers.</p>
 <div class="cluster-signals">
 <ul>
 <li>More than $24 billion of announced US clean energy investment and nearly 21,000 jobs were cancelled through September 2025. <a href="https://pv-magazine-usa.com/2025/10/22/over-24-billion-in-u-s-clean-energy-investment-and-21000-jobs-lost-in-2025/">pv magazine USA</a> (October 2025).</li>
@@ -626,7 +645,7 @@
 </div>
 
 <hr>
-<p class="small">&copy; 2026 Shaping Tomorrow. Strategic Intelligence Report prepared for Brightsmith. Signal-cluster structural version. Themes auto-selected from a preliminary horizon scan and confirmed by the client before compilation.</p>
+<p class="small">&copy; 2026 Shaping Tomorrow. Decision Intelligence briefing prepared for Brightsmith. Signal-cluster structural version. Themes auto-selected from a preliminary horizon scan and confirmed by the client before compilation.</p>
 
 </div>
 

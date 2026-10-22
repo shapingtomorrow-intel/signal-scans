@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Out of Order — Signal Scan</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Out of Order | Signal Scan</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
 
@@ -131,8 +132,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -195,7 +214,7 @@
 <div class="scan-card accent-orange">
 <h3>Disruption Pathway</h3>
 <p>Three stages. Through 2026 the disclosures are commercially useful and publicly weak: percentages without denominators, inconsistent formats, no breakdown by service, which is why comparison stays hard (<a href="https://www.healthcaredive.com/news/prior-authorization-denials-vary-widely-among-insurers/827891/" target="_blank">Healthcare Dive</a>, 14/08/2026). From January 2027 the API obligations put the same decisions into machine-readable form (<a href="https://www.forvismazars.us/forsights/2026/08/cms-0057-f-using-public-payor-prior-authorization-data" target="_blank">Forvis Mazars</a>, 18/08/2026), and the questions MACPAC has put to Congress, on who must sign an adverse determination and what plans must disclose about automation, become answerable against real data (<a href="https://www.macpac.gov/publication/automation-in-medicaid-prior-authorization-recommendations/" target="_blank">MACPAC</a>, 07/05/2026). Between 2027 and 2029 the order either corrects or sets: denominators, service-level detail and human-review duties are written in, or the instruments stay in the sequence they landed in.</p>
-<p>Stress lands in three places. On payer medical-loss ratios, where denials that reverse late cost more than approvals granted early. On utilisation-review vendors paid on averted spend, whose revenue is measured before appeals resolve and whose payment incentives KFF flags as the live risk in the design (<a href="https://www.kff.org/medicare/examining-the-potential-impact-of-medicares-new-wiser-model/" target="_blank">KFF</a>, 10/02/2026). And on provider revenue cycle teams, advised to treat the published data as a negotiating input rather than as proof (<a href="https://www.forvismazars.us/forsights/2026/08/cms-0057-f-using-public-payor-prior-authorization-data" target="_blank">Forvis Mazars</a>, 18/08/2026). Two adaptations follow. Payers move spend from denial toward front-end documentation and gold-carding, because an approval that never needed appeal is the cheapest outcome. And review contracts get rewritten to settle on post-appeal outcomes rather than initial determinations, which on this report's reading is the only version that survives once the denominators arrive.</p>
+<p>Stress lands in three places. On payer medical-loss ratios, where denials that reverse late cost more than approvals granted early. On utilisation-review vendors paid on averted spend, whose revenue is measured before appeals resolve and whose payment incentives KFF flags as the live risk in the design (<a href="https://www.kff.org/medicare/examining-the-potential-impact-of-medicares-new-wiser-model/" target="_blank">KFF</a>, 10/02/2026). And on provider revenue cycle teams, advised to treat the published data as a negotiating input rather than as proof (<a href="https://www.forvismazars.us/forsights/2026/08/cms-0057-f-using-public-payor-prior-authorization-data" target="_blank">Forvis Mazars</a>, 18/08/2026). Two adaptations follow. Payers move spend from denial toward front-end documentation and gold-carding, because an approval that never needed appeal is the cheapest outcome. And review contracts get rewritten to settle on post-appeal outcomes rather than initial determinations, which on our reading is the only version that survives once the denominators arrive.</p>
 </div>
 
 <div class="scan-card accent-indigo">

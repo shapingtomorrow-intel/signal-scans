@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sample Topics &middot; Shaping Tomorrow</title>
 <meta name="description" content="The ten sample topics Shaping Tomorrow tracks. Each carries a weekly Signal Scan, a monthly Change Tracker and a Decision Intelligence report every ten weeks.">
 <style>
@@ -33,6 +34,21 @@
   .topic-tagline { color: #0382FC; font-weight: 600; font-size: 0.95em; margin-top: 4px; }
   .topic-meta { color: #5a6478; font-size: 0.85em; margin-top: 4px; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.5em 0 1em; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -54,6 +70,6 @@
 <li><a href="health-life-sciences-care-systems/"><strong>Health, Life Sciences &amp; Care Systems</strong></a><div class="topic-tagline">The reorganisation of how care gets delivered.</div><div class="topic-meta">scan 2026-10-18 &middot; tracker 2026-10-09 &middot; DI report 2026-10-08</div></li>
 <li><a href="transport-logistics-supply-chains/"><strong>Transport, Logistics &amp; Supply Chains</strong></a><div class="topic-tagline">How goods move: freight, fleets, ports and the networks behind every delivery.</div><div class="topic-meta">scan 2026-10-16 &middot; tracker 2026-10-15 &middot; DI report 2026-10-12</div></li>
 </ul>
-<p class="footer">Built 2026-10-22 17:15 local time. <a href="https://decision-intel.shapingtomorrow.com/">decision-intel home</a></p>
+<p class="footer">Built 2026-10-22 18:01 local time. <a href="https://decision-intel.shapingtomorrow.com/">decision-intel home</a></p>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Summer the Careers Ladder Came Apart: Workforce, Skills &amp; Organisational Change Decision Intelligence Briefing, August 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -304,8 +305,26 @@
   .fw-modal-legend .sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;margin-right:6px;border:1.5px solid #0f2e5c;box-sizing:border-box;}
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 <div class="fw-wrap">
   <div class="fw-card" id="fw-card" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Open Futures Wheel">
@@ -452,7 +471,7 @@
 <h2>Executive Synthesis</h2>
 <div class="sit-up-statement">
 <p class="sit-up-question">Which decisions on your desk this week still assume that a good performer can get paid more by leaving?</p>
-<p class="sit-up-warrant">The evidence in this report says the exit has closed and nobody has rebuilt the inside.</p>
+<p class="sit-up-warrant">The evidence in this briefing says the exit has closed and nobody has rebuilt the inside.</p>
 </div>
 <p>Three separate mechanisms that used to make a career legible have stopped working at the same time, and each shows up in a different dataset that was not built to talk to the others. <strong>The bottom rung:</strong> payroll microdata through June 2026 puts employment of young workers aged 22 to 25 in AI-exposed occupations 19% below where it would have been had it kept pace with less-exposed peers (<a href="https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/" target="_blank" rel="noopener">Stanford Digital Economy Lab</a>, August 2026), while the same authors state: "We find no evidence of widespread, economy-wide job displacement.". <strong>The climb:</strong> in June "the number and rate of quits were unchanged at 3.2 million and 2.0 percent, respectively" (<a href="https://www.bls.gov/news.release/jolts.nr0.htm" target="_blank" rel="noopener">US Bureau of Labor Statistics</a>, August 2026), and the Cleveland Fed reads it as follows: "The recent confluence of low hire rates, low quit rates, and low layoff rates is likely a result of a long-term downtrend in labor market fluidity in general" (<a href="https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202617-the-low-hire-low-fire-labor-market" target="_blank" rel="noopener">Federal Reserve Bank of Cleveland</a>, August 2026). <strong>The rung itself:</strong> the premium for working with AI is being paid at the hiring gate and not to the people already there, with 66% of employers offering salary premiums for AI-skilled roles while 54% of employees whose work involves AI report pay flat or falling (<a href="https://www.ciol.com/news/ai-skills-command-higher-salaries-but-most-workers-arent-seeing-the-benefits-indeed-12167799" target="_blank" rel="noopener">the Indeed AI at Work Tracker, reported by CIOL</a>, July 2026).</p>
 

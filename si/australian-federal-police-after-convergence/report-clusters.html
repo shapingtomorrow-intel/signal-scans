@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>After Convergence: Operating Reality: Australian Federal Police Decision Intelligence Briefing, June 2026</title>
 <style type="text/css">
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; background: #ffffff; }
@@ -203,8 +204,26 @@
   .method-card .method-more:hover, .method-card .method-name a:hover { text-decoration: underline; }
 /* family-colours:start */
   h1 { color: #1d5d27 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -297,7 +316,7 @@
 
 <div class="sit-up-statement">
 <p class="sit-up-question">Which decisions on your desk this week assume the operating model will be ready on 1 July?</p>
-<p class="sit-up-warrant">The evidence in this report says the architecture has been chosen, and the workforce, the tooling and the partner reception now have to carry it.</p>
+<p class="sit-up-warrant">The evidence in this briefing says the architecture has been chosen, and the workforce, the tooling and the partner reception now have to carry it.</p>
 </div>
 
 <p>Four weeks after the May cycle, the question for the AFP has moved one rung down the ladder. Cycle 1 asked whether the convergent mandate was real and whether the operating architecture would land in time; the post-election machinery of government decision, the AUSTRAC priorities statement and Commissioner Barrett's National Press Club address had answered the first question and left the second open. Cycle 2 finds the second question now answered in principle and the operational question taking its place. The Tranche 2 commencement on 1 July 2026 is binding (<a href="https://www.austrac.gov.au/amlctf-reform/austrac-regulatory-expectations-and-priorities-2025-26" target="_blank" rel="noopener">AUSTRAC</a>, December 2025) and the AUSTRAC Statement of Expectations is signed (<a href="https://www.austrac.gov.au/sites/default/files/2026-03/AUSTRAC%20Statement%20of%20Expectations%202026.pdf" target="_blank" rel="noopener">AUSTRAC / Minister for Home Affairs</a>, March 2026). At her 28 May Budget Estimates opening statement, Commissioner Barrett declared AFP "ready" for the regime while simultaneously disclosing operational tempo already running at peak: eight discrete JCTT investigations into returnees' families and a 60% rise in cybercrime reports (<a href="https://www.afp.gov.au/news-centre/speech/afp-commissioner-krissy-barrett-budget-estimates-opening-statement" target="_blank" rel="noopener">AFP</a>, May 2026). The Five Eyes Law Enforcement Group communique from London on 16 to 18 June then framed the FY27 lawful access conversation around AI tooling and "digital penicillin" partnerships with industry (<a href="https://www.afp.gov.au/news-centre/media-release/five-eyes-law-enforcement-group-target-serious-online-harms" target="_blank" rel="noopener">AFP</a>, June 2026). The architecture is set. The workforce, the tooling and the partner reception have to carry it.</p>

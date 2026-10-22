@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>The Aggregation Trigger — Signal Scan</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Aggregation Trigger | Signal Scan</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
 
@@ -114,8 +115,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -188,7 +207,7 @@
 <div class="scan-card accent-indigo">
 <h3>Why This Matters Now</h3>
 <!-- FILL: 1 paragraph, target 130-180 words. Translate signal into decision-readiness for named audience. -->
-<p>For boards, chief people officers and general counsel of multi-site employers, this changes the economics of how a reduction is shaped, not whether it happens. Dispersal has been an implicit compliance strategy; from 2027 in the UK it is the thing being counted, and the cost of misjudging it is 180 days' pay per affected employee (<a href="https://www.acas.org.uk/employment-rights-act-2025">Acas</a>, accessed 01/08/2026). On this report's reading, three things need revision this cycle: the workforce plan, modelled at group level against a candidate threshold rather than site by site; the AI investment case, carrying consultation lead time as a schedule constraint; and the operating rhythm between local HR and the centre, since only the centre sees the number that fires the duty.</p>
+<p>For boards, chief people officers and general counsel of multi-site employers, this changes the economics of how a reduction is shaped, not whether it happens. Dispersal has been an implicit compliance strategy; from 2027 in the UK it is the thing being counted, and the cost of misjudging it is 180 days' pay per affected employee (<a href="https://www.acas.org.uk/employment-rights-act-2025">Acas</a>, accessed 01/08/2026). On our reading, three things need revision this cycle: the workforce plan, modelled at group level against a candidate threshold rather than site by site; the AI investment case, carrying consultation lead time as a schedule constraint; and the operating rhythm between local HR and the centre, since only the centre sees the number that fires the duty.</p>
 <!-- Decision-action posture: pick ONE tag (monitor / prepare / decide). -->
 <p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag decide">Decide</span></strong> &mdash; the doubled penalty is already in force and 2027 workforce plans are being written now, so group-level counting has to be commissioned this cycle, not after commencement.</p>
 </div>

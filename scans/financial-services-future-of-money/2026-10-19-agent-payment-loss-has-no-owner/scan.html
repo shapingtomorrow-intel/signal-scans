@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether card issuers, acquirers and merchants should price and contract for disputes over agent-initiated payments now or wait for a regulator or card network to allocate the loss.">
 <meta name="st:seats" content="Head of Payments | Head of Card Products | Head of Fraud and Disputes | Chief Risk Officer | Head of Merchant Acquiring | General Counsel, payments firm | Head of Regulatory Affairs, banking | Chief Financial Officer, retailer">
 <meta name="st:lands-on" content="card issuers and retail banks | acquirers and payment service providers | online merchants and marketplaces | AI agent platform providers">
@@ -147,8 +148,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -228,7 +247,7 @@
 <div class="counter-arg-box">
 <h3>Counter-Argument</h3>
 <p>The strongest objection is that the gap is smaller than it looks. One payments lawyer argues the existing regulations still answer most cases: "Whether the payer consented under regulation 67 determines whether the provider must refund under regulation 76" (<a href="https://bratby.law/agentic-payments-liability-psrs-2017/" target="_blank" rel="noopener">Bratby Law</a>, 22/07/2026), and an acquirer says fraud "liability generally follows existing authenticated tokenized-transaction rules" (<a href="https://worldpay.com/insights/articles/agentic-commerce-liability-is-still-being-written" target="_blank" rel="noopener">Worldpay</a>, 30/07/2026). If agents authenticate through tokens, losses fall where today's rules put them.</p>
-<p>The lawyer concedes that "What the regulations do not settle is the scope of a delegation exercised by software" (<a href="https://bratby.law/agentic-payments-liability-psrs-2017/" target="_blank" rel="noopener">Bratby Law</a>, 22/07/2026), and calls that "an open question rather than a finding that the current rules have ceased to apply" (<a href="https://bratby.law/agentic-payments-liability-psrs-2017/" target="_blank" rel="noopener">Bratby Law</a>, 22/07/2026). This report's reading is that disputes short of fraud are where the volume will sit, so the existing rules answer the easy cases and leave the contested ones.</p>
+<p>The lawyer concedes that "What the regulations do not settle is the scope of a delegation exercised by software" (<a href="https://bratby.law/agentic-payments-liability-psrs-2017/" target="_blank" rel="noopener">Bratby Law</a>, 22/07/2026), and calls that "an open question rather than a finding that the current rules have ceased to apply" (<a href="https://bratby.law/agentic-payments-liability-psrs-2017/" target="_blank" rel="noopener">Bratby Law</a>, 22/07/2026). Our reading is that disputes short of fraud are where the volume will sit, so the existing rules answer the easy cases and leave the contested ones.</p>
 </div>
 
 <div class="implications-box">

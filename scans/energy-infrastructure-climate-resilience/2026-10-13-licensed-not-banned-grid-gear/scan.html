@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether to treat any equipment supplier as eligible for US bulk-power projects until DOE says otherwise, or to qualify suppliers and write contract terms now against DOE&#x27;s coming licence and prequalification rules.">
 <meta name="st:seats" content="Chief Procurement Officer, electric utility | Head of Supply Chain, transmission owner | Director of Capital Projects, transmission and substations | Chief Financial Officer, battery storage developer | Head of Project Finance, renewables and storage | Head of Data Centre Development, hyperscale operator | Chief Risk Officer, infrastructure lender | Head of Regulatory Affairs, grid equipment manufacturer">
 <meta name="st:lands-on" content="electric utilities and transmission owners | grid equipment manufacturers and importers | data-centre development | battery storage and solar development | infrastructure project lending">
 <meta name="st:posture" content="Prepare">
 <meta name="st:horizon" content="1-5 years">
-<title>US Grid Equipment Is Licensed, Not Banned — Signal Scan</title>
+<title>US Grid Equipment Is Licensed, Not Banned | Signal Scan</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 32px; line-height: 1.6; color: #1a1a1a; }
 
@@ -147,8 +148,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -218,13 +237,13 @@
 
 <div class="scan-card accent-orange">
 <h3>Disruption Pathway</h3>
-<p>This report&rsquo;s reading is that the pathway has three stages. To 24 December 2026, buyers hold new Chinese-linked orders while DOE writes rules. Through 2027, definitions, licences and any prequalified list sort suppliers, and orders move toward vendors expected to qualify. In 2028, conditions on installed equipment are tested; DOE&rsquo;s strictness on removal is &ldquo;the real deciding factor&rdquo; (<a href="https://www.latitudemedia.com/news/three-questions-left-open-by-trumps-bulk-power-executive-order/" target="_blank" rel="noopener">Latitude Media</a>, 03/09/2026).</p>
+<p>Our reading is that the pathway has three stages. To 24 December 2026, buyers hold new Chinese-linked orders while DOE writes rules. Through 2027, definitions, licences and any prequalified list sort suppliers, and orders move toward vendors expected to qualify. In 2028, conditions on installed equipment are tested; DOE&rsquo;s strictness on removal is &ldquo;the real deciding factor&rdquo; (<a href="https://www.latitudemedia.com/news/three-questions-left-open-by-trumps-bulk-power-executive-order/" target="_blank" rel="noopener">Latitude Media</a>, 03/09/2026).</p>
 <p>Stress concentrates in transformers, where Chinese supply grew as data centres sought shorter lead times (<a href="https://www.woodmac.com/press-releases/us-executive-order-banning-chinese-bulk-power-equipment-set-to-worsen-critical-transformer-shortage/" target="_blank" rel="noopener">Wood Mackenzie</a>, 31/08/2026); storage, where Chinese cells dominate grid installations (<a href="https://canarymedia.com/articles/batteries/trump-emergency-order-grid-battery-growth" target="_blank" rel="noopener">Canary Media</a>, 10/09/2026); and software and remote-access terms, where industry sees &ldquo;a need for a lot more clarity&rdquo; (<a href="https://utilitydive.com/news/trump-declares-emergency-moves-to-block-some-foreign-made-equipment-from-g/828959" target="_blank" rel="noopener">Utility Dive</a>, 27/08/2026). Two adaptations follow. Owners should build the equipment inventory DOE already asks about, from manufacturer to firmware version (<a href="https://www.federalregister.gov/documents/2026/09/09/2026-18370/securing-the-united-states-bulk-power-system" target="_blank" rel="noopener">Federal Register</a>, 09/09/2026). Lenders should write licence status and removal risk into equipment contracts and draw conditions.</p>
 </div>
 
 <div class="scan-card accent-indigo">
 <h3>Why This Matters Now</h3>
-<p>Boards and CFOs of utilities, data-centre and storage developers, and their lenders hold this decision. Sourcing plans and credit approvals treat a supplier as eligible until price or tariff says otherwise. Under a licence regime eligibility sits with DOE and can change after signature, including for installed equipment. On this report&rsquo;s reading, procurement and credit committees should track supplier eligibility now, write refusal and removal clauses into contracts, and rank suppliers by their chance of qualifying, not by price alone. Even SAFE, which backs the order, asks for a &ldquo;clear, targeted, and risk-based process&rdquo; (<a href="https://secureenergy.org/statement-safe-securing-americas-bulk-power-system/" target="_blank" rel="noopener">SAFE</a>, 28/08/2026).</p>
+<p>Boards and CFOs of utilities, data-centre and storage developers, and their lenders hold this decision. Sourcing plans and credit approvals treat a supplier as eligible until price or tariff says otherwise. Under a licence regime eligibility sits with DOE and can change after signature, including for installed equipment. On our reading, procurement and credit committees should track supplier eligibility now, write refusal and removal clauses into contracts, and rank suppliers by their chance of qualifying, not by price alone. Even SAFE, which backs the order, asks for a &ldquo;clear, targeted, and risk-based process&rdquo; (<a href="https://secureenergy.org/statement-safe-securing-americas-bulk-power-system/" target="_blank" rel="noopener">SAFE</a>, 28/08/2026).</p>
 <p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag prepare">Prepare</span></strong> &mdash; supplier files and contract terms can be set up now, while commitments that depend on one vendor's eligibility should wait for DOE's rules due 24 December 2026.</p>
 </div>
 

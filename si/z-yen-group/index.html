@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Z/Yen Group, Shaping Tomorrow Decision Intelligence Programme</title>
 <meta name="description" content="Public archive of the Shaping Tomorrow foresight work for Z/Yen Group on the future competitiveness of global financial centres, fragmentation of the global financial system, and AI infrastructure as a centre-eligibility axis. Three deliverables: Signal Scans, Change Trackers and Decision Intelligence briefings.">
 <style>
@@ -50,6 +51,21 @@
   .tl-entry.tracker .tl-chip { background: #fff2dc; color: #8a5a00; }
   .tl-entry.brief .tl-chip { background: #e6f3e8; color: #1d5d27; }
   .footer { font-size: 0.86em; color: #5a6478; margin-top: 36px; padding-top: 16px; border-top: 1px solid #e1e6ee; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>

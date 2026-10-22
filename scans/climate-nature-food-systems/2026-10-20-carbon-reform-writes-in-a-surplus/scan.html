@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="st:decision" content="Whether to keep pricing 2030s abatement, hedging and long-term supply contracts off a scarcity-driven EU carbon price curve, or to re-base them on a managed range with a larger surplus.">
 <meta name="st:seats" content="Chief Financial Officer, energy-intensive manufacturer | Head of Energy and Carbon Trading, utility | Group Treasurer, industrial group | Head of Strategy and Sustainability, steel or cement producer | Head of Project Finance, infrastructure lender | Portfolio Manager, carbon and commodities fund | Head of Commodity Risk, chemicals company | Director of Regulatory Affairs, industry association">
 <meta name="st:lands-on" content="power and heat generation | steel, cement and chemicals | aviation and shipping | project and infrastructure finance | carbon trading">
@@ -147,8 +148,26 @@
 /* family-colours:start */
   article > h2 { color: #0a4ea3 !important; }
   article h3, article h4 { color: #0a4ea3 !important; }
-  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
 /* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -164,7 +183,7 @@
 <!-- method line: _core/scripts/method_link.py (29 September 2026) -->
 <p class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.<br class="method-break"><span class="method-human">Scanned and filtered by AI. <a href="https://decision-intel.shapingtomorrow.com/how-we-verify/">Stress-tested and judged by humans</a>.</span></p>
 
-<p>The consensus reading is that Europe&rsquo;s carbon market is under political siege from energy prices. On 16 October leaders kept the system and asked for faster reserve work to limit sharp price swings (<a href="https://www.consilium.europa.eu/media/4tglqede/en-20261016-european-council-conclusions.pdf" target="_blank" rel="noopener">European Council</a>, 16/10/2026). Beneath that, the Commission&rsquo;s 17 July proposal would cut the linear reduction factor from 4.4% to 3.7% for 2031 to 2035 and halve the reserve&rsquo;s intake rate from 24% to 12% (<a href="https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/09/EPRS_BRI(2026)791491.html?locale=EN" target="_blank" rel="noopener">European Parliament Research Service</a>, 16/09/2026). Sandbag calculates a 2040 surplus of 4.4 times annual emissions (<a href="https://sandbag.be/wp-content/uploads/Position-Paper-EU-ETS-Amendments.pdf" target="_blank" rel="noopener">Sandbag</a>, 09/2026). This report reads that supply text, not the 2026 price, as what sets the 2030s carbon price; agreement is targeted for the first quarter of 2027.</p>
+<p>The consensus reading is that Europe&rsquo;s carbon market is under political siege from energy prices. On 16 October leaders kept the system and asked for faster reserve work to limit sharp price swings (<a href="https://www.consilium.europa.eu/media/4tglqede/en-20261016-european-council-conclusions.pdf" target="_blank" rel="noopener">European Council</a>, 16/10/2026). Beneath that, the Commission&rsquo;s 17 July proposal would cut the linear reduction factor from 4.4% to 3.7% for 2031 to 2035 and halve the reserve&rsquo;s intake rate from 24% to 12% (<a href="https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/09/EPRS_BRI(2026)791491.html?locale=EN" target="_blank" rel="noopener">European Parliament Research Service</a>, 16/09/2026). Sandbag calculates a 2040 surplus of 4.4 times annual emissions (<a href="https://sandbag.be/wp-content/uploads/Position-Paper-EU-ETS-Amendments.pdf" target="_blank" rel="noopener">Sandbag</a>, 09/2026). We read that supply text, not the 2026 price, as what sets the 2030s carbon price; agreement is targeted for the first quarter of 2027.</p>
 
 <h3>Signal Identification</h3>
 <p>Regulatory pivot. The EU carbon price is moving from a scarcity signal, set by a steep cap and a reserve that cancels surplus, to a managed range in which surplus is tolerated. The evidence is the supply arithmetic of the legislative text, not today&rsquo;s price.</p>
@@ -213,13 +232,13 @@
 
 <div class="scan-card accent-orange">
 <h3>Disruption Pathway</h3>
-<p>This report&rsquo;s reading is that the pathway has three stages. By the first quarter of 2027 the co-legislators settle the reserve amendment, due by the end of 2026 (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/09/23/market-stability-reserve-council-agrees-targeted-amendment-for-a-resilient-and-predictable-carbon-market/" target="_blank" rel="noopener">Council of the EU</a>, 23/09/2026), with the wider revision targeted for the same quarter. Through 2027 and 2028, forwards and internal carbon prices reset toward forecasts such as 91 EUR/tCO2 for 2030 (<a href="https://www.abnamro.com/research/en/our-research/carbon-market-strategist-eu-ets-review-signals-less-scarcity-and-more-industrial-policy" target="_blank" rel="noopener">ABN AMRO</a>, 24/08/2026). From 2029 the reserve thresholds fall by 4% a year (<a href="https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/09/EPRS_BRI(2026)791491.html?locale=EN" target="_blank" rel="noopener">European Parliament Research Service</a>, 16/09/2026), and the looser cap starts in 2031.</p>
+<p>Our reading is that the pathway has three stages. By the first quarter of 2027 the co-legislators settle the reserve amendment, due by the end of 2026 (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/09/23/market-stability-reserve-council-agrees-targeted-amendment-for-a-resilient-and-predictable-carbon-market/" target="_blank" rel="noopener">Council of the EU</a>, 23/09/2026), with the wider revision targeted for the same quarter. Through 2027 and 2028, forwards and internal carbon prices reset toward forecasts such as 91 EUR/tCO2 for 2030 (<a href="https://www.abnamro.com/research/en/our-research/carbon-market-strategist-eu-ets-review-signals-less-scarcity-and-more-industrial-policy" target="_blank" rel="noopener">ABN AMRO</a>, 24/08/2026). From 2029 the reserve thresholds fall by 4% a year (<a href="https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/09/EPRS_BRI(2026)791491.html?locale=EN" target="_blank" rel="noopener">European Parliament Research Service</a>, 16/09/2026), and the looser cap starts in 2031.</p>
 <p>Stress concentrates in abatement projects financed on a scarcity price, where CLG Europe says early investors &ldquo;should not be disadvantaged by reforms that lower the expected return on those investments&rdquo; (<a href="https://www.cisl.cam.ac.uk/sites/default/files/CLG%20Europe%20Position%20on%20the%20ETS%20review_September%202026.pdf" target="_blank" rel="noopener">CLG Europe</a>, 17/09/2026); in contracts written on the old curve; and in the negotiation gap between 800 million and 650 million (<a href="https://oenergetice.cz/en/co2-emissions/new-eu-compromise-major-change-to-emissions-allowances-market" target="_blank" rel="noopener">oEnergetice</a>, 23/09/2026). Financially, the proposed Industrial Decarbonisation Bank, with a &euro;100 billion envelope (<a href="https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/09/EPRS_BRI(2026)791491.html?locale=EN" target="_blank" rel="noopener">European Parliament Research Service</a>, 16/09/2026), shifts return from the allowance price to public support.</p>
 </div>
 
 <div class="scan-card accent-indigo">
 <h3>Why This Matters Now</h3>
-<p>CFOs, treasurers and strategy heads at utilities and heavy industry, with project financiers and carbon desks, own decisions that depend on a 2030s allowance price: internal carbon prices, hurdle rates, hedge tenor and offtake terms. Most use a scarcity curve. On this report&rsquo;s reading, those inputs should be re-run now against a range that includes the review scenario, before the text is final and the 2027 and 2028 budgets lock them in.</p>
+<p>CFOs, treasurers and strategy heads at utilities and heavy industry, with project financiers and carbon desks, own decisions that depend on a 2030s allowance price: internal carbon prices, hurdle rates, hedge tenor and offtake terms. Most use a scarcity curve. On our reading, those inputs should be re-run now against a range that includes the review scenario, before the text is final and the 2027 and 2028 budgets lock them in.</p>
 <p class="action-line"><strong>Decision-action posture for this signal: <span class="decision-tag prepare">Prepare</span></strong>: carbon price ranges and contract terms can be reset now, with larger commitments tied to the adopted cap path and reserve threshold.</p>
 </div>
 

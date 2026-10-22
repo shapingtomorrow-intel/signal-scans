@@ -153,6 +153,7 @@
     "treat_directionally": false,
     "claim_strength": "verbatim",
     "verbatim_list": [
+      "restera en deçà du pic de consommation de 60 GW atteint le 1er juillet 2025",
       "Notre plan d’investissement (SDDR) intègre un volet renouvellement et adaptation du réseau électrique au changement climatique (24 milliards d’euros d’ici à 2040) pour maintenir un haut niveau de qualité de service tout en anticipant les impacts du changement climatique (+4°C en 2100)."
     ],
     "tier": 1,
@@ -171,7 +172,7 @@
       "Heat as an operating constraint"
     ],
     "cluster": "Heat stops being a loss statistic",
-    "verbatim_quote": "La consommation d’électricité atteindra 58 GW en moyenne cette semaine, et restera en deçà du pic de consommation de 60 GW atteint le 1er juillet 2025."
+    "verbatim_quote": "La consommation d’électricité atteindra 58 GW en moyenne cette semaine"
   },
   {
     "topic": "Energy, Infrastructure and Climate Resilience",

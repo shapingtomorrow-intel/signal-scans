@@ -12,7 +12,11 @@
     "date_age_band": "0-3m",
     "key_claim": "The 2028/2029 Base Residual Auction cleared at the FERC-approved cap of $325/MW-day and left committed supply 6,831 MW short of the reliability requirement, the second consecutive RTO-wide shortfall; PJM plans a September Backstop Procurement.",
     "frame_summary": "PJM argues that demand keeps growing faster than supply and presents the capped price and reliability shortfall as manageable through a portfolio of interconnection, backstop-procurement and flexible-load measures rather than as market failure.",
-    "signals_supported": ["Capacity-market scarcity pricing", "Gas turbine supply bottleneck", "AI data-centre electricity demand"],
+    "signals_supported": [
+      "Capacity-market scarcity pricing",
+      "Gas turbine supply bottleneck",
+      "AI data-centre electricity demand"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -42,7 +46,10 @@
     "date_age_band": "3-6m",
     "key_claim": "DOE's 2026 Section 202(c) log now runs to Order No. 202-26-36, with heat-driven emergency orders to PJM (14 July) and SPP (20 July) and seasonal orders keeping coal and oil units at Campbell, Eddystone, Wagner, Culley, Schahfer, Centralia, Craig and Stanton available into August and September 2026.",
     "frame_summary": "The DOE log presents Section 202(c) emergency authority as a standing reliability instrument, framing each order as a response to anticipated supply shortfalls rather than as intervention in state resource planning.",
-    "signals_supported": ["Emergency-order reliability governance", "Heat as an operating constraint"],
+    "signals_supported": [
+      "Emergency-order reliability governance",
+      "Heat as an operating constraint"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -67,7 +74,9 @@
     "date_age_band": "0-3m",
     "key_claim": "NOAA's outlook predicts a 55% chance of a below-normal 2026 Atlantic season with 8-14 named storms, 3-6 hurricanes and 1-3 major hurricanes, as El Nino is expected to develop and intensify.",
     "frame_summary": "NOAA argues the season will most likely be below normal because of a developing El Nino, while insisting that preparedness matters regardless because it only takes one landfalling storm to make a bad season.",
-    "signals_supported": ["Catastrophe-loss repricing cools"],
+    "signals_supported": [
+      "Catastrophe-loss repricing cools"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -94,14 +103,17 @@
     "original_language": "fr",
     "key_claim": "During the June 2026 heatwave RTE expected average weekly consumption of 58 GW, with air conditioning adding 10 to 14 GW at peaks versus seasonal norms, and pointed to a EUR 24 billion network climate-adaptation investment line to 2040.",
     "frame_summary": "RTE argues that despite record heat and temporary plant unavailability the French system is dimensioned to cope, and frames climate adaptation as a long-term network-investment programme rather than an acute security-of-supply crisis.",
-    "signals_supported": ["Heat as an operating constraint"],
+    "signals_supported": [
+      "Heat as an operating constraint"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "La consommation d’électricité atteindra 58 GW en moyenne cette semaine, et restera en deçà du pic de consommation de 60 GW atteint le 1er juillet 2025.",
+    "verbatim_quote": "La consommation d’électricité atteindra 58 GW en moyenne cette semaine",
     "verbatim_list": [
+      "restera en deçà du pic de consommation de 60 GW atteint le 1er juillet 2025",
       "l’effet de la climatisation se traduit par une augmentation de 10 à 14 GW de consommation en moyenne suivant les pointes cette semaine par rapport à une période équivalente avec des températures de saison",
       "Notre plan d’investissement (SDDR) intègre un volet renouvellement et adaptation du réseau électrique au changement climatique (24 milliards d’euros d’ici à 2040)"
     ]
@@ -119,7 +131,11 @@
     "date_age_band": "3-6m",
     "key_claim": "Global electricity demand is forecast to grow 3.6% a year over 2026-2030 while more than 2,500 GW of projects sit stalled in grid connection queues; grid investment needs to rise roughly 50% from today's USD 400 billion, and flexible connections plus grid-enhancing technologies could unlock 1,200-1,600 GW.",
     "frame_summary": "The IEA argues the binding problem of the Age of Electricity is no longer generation but grids and flexibility, and that regulatory reform and non-firm connections can unlock large stranded queue capacity faster than physical build-out alone.",
-    "signals_supported": ["AI data-centre electricity demand", "Grid build-out and interconnection lag", "Battery storage scaling"],
+    "signals_supported": [
+      "AI data-centre electricity demand",
+      "Grid build-out and interconnection lag",
+      "Battery storage scaling"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -145,18 +161,20 @@
     "date_evidence": "As of 22/05/2026. (document version list headed 22/05/2026)",
     "verified_at": "2026-07-23T00:07:29Z",
     "date_age_band": "0-3m",
-    "key_claim": "The Commission's integrated framework for climate resilience is planned for adoption in Q4 2026, built around a common 3°C reference scenario, risk ownership and resilience-by-design, with only 25% of climate-related losses in Europe currently insured.",
+    "key_claim": "The Commission's integrated framework for climate resilience is due in Q4 2026 (the package is now scheduled for 28 October 2026), built around a common 3°C reference scenario, risk ownership and resilience-by-design, with measures to address the insurance protection gap.",
     "frame_summary": "The Parliament's tracker argues the EU is moving climate resilience from voluntary adaptation planning to a binding, harmonised risk-management regime with clearly assigned responsibilities and attention to the insurance protection gap.",
-    "signals_supported": ["EU resilience and adaptation deadlines"],
+    "signals_supported": [
+      "EU resilience and adaptation deadlines"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "verbatim",
-    "verbatim_quote": "The Commission adoption is planned for the fourth quarter of 2026.",
+    "verbatim_quote": "The first European climate risk assessment identifies 36 climate risks that threaten Europe’s ecosystems, populations, and the economy.",
     "verbatim_list": [
-      "Particular attention would be given to addressing the finance and insurance protection gaps, noting that only 25 % of climate-related losses in Europe are currently insured.",
-      "The first European climate risk assessment identifies 36 climate risks that threaten Europe’s ecosystems, populations, and the economy."
+      "On 28 October 2026, the Commission will present the package",
+      "measures to increase resilience finance, mobilise private investments, and address insurance protection gap"
     ]
   },
   {
@@ -173,7 +191,10 @@
     "notes": "Company earnings release; classified Tier 1 as a primary disclosure document per _core/references/tier-rubric.md (same treatment as the Q1 2026 8-K in the prior cycle). Used for the company's own backlog and output figures.",
     "key_claim": "Gas Power equipment backlog and slot reservation agreements grew from 100 to 116 GW in Q2 2026, with at least 125 GW under contract expected by year-end; turbine output ramps from 20 GW annualised in Q3 2026 to a planned 30 GW in 2030, and data-centre orders passed $5 billion year-to-date.",
     "frame_summary": "GE Vernova argues the gas-equipment scarcity is a durable multi-year demand wave it is monetising through slot reservations and staged capacity expansion, not a bubble it needs to hedge against.",
-    "signals_supported": ["Gas turbine supply bottleneck", "AI data-centre electricity demand"],
+    "signals_supported": [
+      "Gas turbine supply bottleneck",
+      "AI data-centre electricity demand"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -200,7 +221,10 @@
     "date_age_band": "0-3m",
     "key_claim": "H1 2026 natural catastrophes caused USD 142 billion in economic and USD 46 billion in insured losses, both below long-term averages, the lowest first-half insured total since 2019, extending a five-quarter streak without a USD 10 billion-plus insured event as El Nino arrives.",
     "frame_summary": "Gallagher Re argues that a benign loss half-year reflects the absence of outsized single events rather than reduced societal risk, and flags El Nino and record European heat as the considerations that should discipline second-half complacency.",
-    "signals_supported": ["Catastrophe-loss repricing cools", "Heat as an operating constraint"],
+    "signals_supported": [
+      "Catastrophe-loss repricing cools",
+      "Heat as an operating constraint"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -228,13 +252,15 @@
     "notes": "publication_date set to access date; page is an undated evergreen perspective. Bibliography renders as accessed date.",
     "key_claim": "Under the CER Directive, Member States had to identify and designate critical entities across 11 sectors by 17 July 2026, after which designated entities face binding resilience obligations.",
     "frame_summary": "Deloitte argues that recent shocks exposed resilience planning gaps and that the CER Directive converts resilience from a leadership aspiration into a compliance obligation organisations must operationalise now.",
-    "signals_supported": ["EU resilience and adaptation deadlines"],
+    "signals_supported": [
+      "EU resilience and adaptation deadlines"
+    ],
     "is_evergreen": true,
     "is_structural_anchor": false,
     "paywalled": false,
     "treat_directionally": false,
     "claim_strength": "faithful_summary",
-    "verbatim_quote": "This has resulted in an urgent imperative to bolster resilience capabilities and the launch of the European Commission’s EU Critical Entities Resilience (CER) Directive which Member States will have to adhere to by 17th July 2026.",
+    "verbatim_quote": "This has resulted in an urgent imperative to bolster resilience capabilities and the launch of the European Commission’s",
     "verbatim_list": null
   },
   {
@@ -251,7 +277,10 @@
     "notes": "Structural anchor: canonical explainer of why US data-centre demand forecasts diverge and how phantom load distorts planning; anchors the demand-forecast-scrutiny thread.",
     "key_claim": "Modelled US data-centre energy-use projections through 2030 range from 200 TWh/year to over 1,050 TWh/year, and speculative interconnection requests are producing double counting and phantom load that distort utility planning.",
     "frame_summary": "WRI argues the real risk is not demand growth itself but planning against wildly uncertain forecasts, so policymakers should demand transparency, uncertainty-aware forecasting and tariffs that stop phantom load costs landing on ordinary ratepayers.",
-    "signals_supported": ["AI data-centre electricity demand", "Capacity-market scarcity pricing"],
+    "signals_supported": [
+      "AI data-centre electricity demand",
+      "Capacity-market scarcity pricing"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": true,
     "paywalled": false,
@@ -276,7 +305,9 @@
     "date_age_band": "0-3m",
     "key_claim": "CSU's 8 July update cut the 2026 Atlantic forecast to nine named storms, four hurricanes and one major hurricane, its third reduction this year, with a 17% chance of a major US landfall versus a 43% historical average.",
     "frame_summary": "The report argues a strengthening El Nino will dominate the peak season and make 2026 potentially the quietest hurricane year since 2015, materially lowering but not eliminating US landfall risk.",
-    "signals_supported": ["Catastrophe-loss repricing cools"],
+    "signals_supported": [
+      "Catastrophe-loss repricing cools"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -303,7 +334,10 @@
     "notes": "Republished from The Conversation; author Theodore J. Kury, University of Florida.",
     "key_claim": "PJM's independent market monitor concluded that expected data-centre demand was a primary reason for $23 billion in customer price increases lasting until at least end-2028, and cost-allocation rules give data centres routes to avoid peak-based charges.",
     "frame_summary": "The piece argues that ratepayers are structurally under-represented in cost-allocation proceedings, so data-centre-driven infrastructure costs are already shifting onto households and will be hard to claw back if forecast load never materialises.",
-    "signals_supported": ["Capacity-market scarcity pricing", "AI data-centre electricity demand"],
+    "signals_supported": [
+      "Capacity-market scarcity pricing",
+      "AI data-centre electricity demand"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -325,7 +359,9 @@
     "date_age_band": "0-3m",
     "key_claim": "France's hottest day on record since 1947 forced reactor shutdowns and ramp-downs as rivers ran too hot for cooling, five UK gas plants cut about 2.5 GW, and EDF's climate-proofing is costed at about EUR 600 million a year over 15 years.",
     "frame_summary": "The article argues extreme heat is now a systemic constraint on thermal generation of every kind, arriving exactly when cooling demand peaks, and that climate-proofing power systems will be expensive and continuous.",
-    "signals_supported": ["Heat as an operating constraint"],
+    "signals_supported": [
+      "Heat as an operating constraint"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -351,7 +387,9 @@
     "date_age_band": "3-6m",
     "key_claim": "Since May 2025 DOE has issued more than 40 Section 202(c) emergency orders and extensions, more than in any comparable period in the past two decades.",
     "frame_summary": "POWER argues the volume of 202(c) orders marks a qualitative shift: an authority historically reserved for rare grid emergencies has become a routine federal instrument for keeping fossil units online.",
-    "signals_supported": ["Emergency-order reliability governance"],
+    "signals_supported": [
+      "Emergency-order reliability governance"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -375,7 +413,9 @@
     "date_age_band": "0-3m",
     "key_claim": "BNEF's Energy Storage Outlook H1 2026 counts a record 112 GW / 307 GWh added in 2025 and forecasts 158 GW / 459 GWh in 2026, a 41% increase, with annual additions almost doubling to 308 GW by 2036; the US and China took about 70% of 2025 deployments.",
     "frame_summary": "The report argues storage has crossed into industrial maturity, scaling faster than solar or wind did at the same stage and becoming the flexibility backbone of high-renewables systems despite policy churn in its two biggest markets.",
-    "signals_supported": ["Battery storage scaling"],
+    "signals_supported": [
+      "Battery storage scaling"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -401,7 +441,10 @@
     "date_age_band": "3-6m",
     "key_claim": "Grid Strategies' March 2026 report argues NERC's long-term reliability assessment is too pessimistic, including that its assumption of 160 GW of demand growth by 2030, 90 GW of it from data centres, may be overstated.",
     "frame_summary": "The piece argues the institutional reliability consensus rests on conservative assumptions, and that correcting for likely-to-connect queue resources and realistic data-centre load resolves most projected shortfalls.",
-    "signals_supported": ["AI data-centre electricity demand", "Capacity-market scarcity pricing"],
+    "signals_supported": [
+      "AI data-centre electricity demand",
+      "Capacity-market scarcity pricing"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,
@@ -426,7 +469,9 @@
     "date_age_band": "3-6m",
     "key_claim": "Wind and solar facilities beginning construction after 4 July 2026 must be placed in service by 31 December 2027 to claim the Sec. 48E credit, and Notice 2025-42 restricts most projects to the physical-work test for proving construction start.",
     "frame_summary": "The article argues OBBBA and Notice 2025-42 have turned tax-credit eligibility into a construction-timeline and documentation race, layering foreign-entity sourcing tests on top of an accelerated placed-in-service cliff.",
-    "signals_supported": ["US clean-energy tax-credit cliff"],
+    "signals_supported": [
+      "US clean-energy tax-credit cliff"
+    ],
     "is_evergreen": false,
     "is_structural_anchor": false,
     "paywalled": false,

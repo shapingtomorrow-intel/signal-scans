@@ -5,7 +5,7 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Wed, 21 Oct 2026 08:30:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 08:54:27 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>The Faster EU Defence Transfer Licence Needs a Certificate, and No Date Is Set to Issue Them</title>
@@ -86,6 +86,14 @@
 <pubDate>Sat, 17 Oct 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
 <description>EU rules for AI at work may default to guidance and bargaining that reach few workers in low-coverage states. Employers back bargaining over law, ETUC declines the Article 155 talks, and 18 Member States sit below 80% coverage.</description>
+</item>
+<item>
+<title>IKEA Buys a Driverless Lane While the Federal Rulebook Arrives by Exemption</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-16-driverless-freight-by-exemption/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-16-driverless-freight-by-exemption/scan.html</guid>
+<pubDate>Fri, 16 Oct 2026 08:00:00 +0000</pubDate>
+<category>Transport, Logistics &amp; Supply Chains</category>
+<description>Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on written notice, IKEA and Charger contracted named lanes for driverless service by end-2026, and Einride began daily cab-less operations in Ohio.</description>
 </item>
 <item>
 <title>UK Defence Funding Goes Flat at 2.7% of GDP While the Date for 3% Waits on 2027</title>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 20 Sep 2026 08:00:00 +0000</pubDate>
 <category>Health, Life Sciences &amp; Care Systems</category>
 <description>Medicare is withdrawing the hospital outpatient payment premium one service family at a time rather than in a single cut. From January 2028 every off-campus department bills under its own identifier behind a provider-based attestation, turning a blanket entitlement into a per-site, per-code permission.</description>
-</item>
-<item>
-<title>SEC Staff Put AI Data-Centre Bonds Outside the Asset-Backed Securities Regime</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-19-outside-the-abs-regime/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-19-outside-the-abs-regime/scan.html</guid>
-<pubDate>Sat, 19 Sep 2026 08:00:00 +0000</pubDate>
-<category>AI &amp; Automation</category>
-<description>US regulators have placed data-centre securitisations outside the asset-backed securities regime. The SEC staff letter of 29 July 2026 lifts Regulation AB disclosure and the 5% retention rule off a market that grew from $4 billion outstanding in 2020 to $61 billion in 2026, and whose paper carries a five-year repayment expectation against a 25-30 year final maturity.</description>
 </item>
 </channel>
 </rss>

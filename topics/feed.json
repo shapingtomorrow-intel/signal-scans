@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T08:32:20Z",
+  "generated": "2026-10-22T08:54:29Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -2875,14 +2875,22 @@
       "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
-      "latest_read": "Hormuz strikes reprice shipping as the orderbook hits the water",
+      "latest_read": "Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on...",
       "latest_dates": {
-        "scan": "2026-10-09",
+        "scan": "2026-10-16",
         "tracker": "2026-10-15",
         "di": "2026-10-12",
         "cc": "2026-10-16"
       },
       "history": [
+        {
+          "date": "2026-10-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "IKEA Buys a Driverless Lane While the Federal Rulebook Arrives by Exemption",
+          "summary": "Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on...",
+          "posture": "Prepare"
+        },
         {
           "date": "2026-10-16",
           "kind": "cross_cutter",

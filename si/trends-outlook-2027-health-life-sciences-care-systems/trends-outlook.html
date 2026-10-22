@@ -107,6 +107,10 @@
   hr { border: none; border-top: 1px solid #e0e0e0; margin: 2em 0 1em; }
   @media (max-width: 700px) { .fig { overflow-x: auto; -webkit-overflow-scrolling: touch; } .fig svg { min-width: 720px; } .fig .cap::before { content: 'Swipe sideways to see the whole diagram. '; font-style: normal; font-weight: 600; } body { padding: 16px; } .items { grid-template-columns: 1fr; } .scorecard .tiles { grid-template-columns: repeat(2, 1fr); } .synth-header { flex-direction: column; } .scan-logo { width: 160px; } }
   @media print { .item, .fig, .bottom-line { break-inside: avoid; } .items { display: block; } .item { margin: 0 0 12px; } }
+/* family-colours:start */
+  h1 { color: #4527a0 !important; }
+  :is(p, li, td, dd, figcaption, blockquote) a:not([class]), a.xref, a.lk { color: #026AD4 !important; }
+/* family-colours:end */
 </style>
 </head>
 <body>

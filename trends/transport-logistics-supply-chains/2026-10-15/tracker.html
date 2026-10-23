@@ -915,7 +915,7 @@ has little slack, so weekly Suez transit counts (<a href="https://www.thedcn.com
     var tr = document.createElement("tr");
     tr.innerHTML = '<td><strong>' + wc.name + '</strong></td>' +
       '<td>' + chip(risky ? "wild-risk" : "wild-opp", wc.type) + '</td>' +
-      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + (wc.likely ? '<span class="lk">' + wc.likely + '</span>' : '') + '</td><td>n/a</td>' +
+      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + (wc.likely ? '<span class="lk">' + wc.likely + '</span>' : '') + '</td><td>' + chip(risky ? "wild-risk" : "wild-opp", "WILD CARD") + '</td>' +
       '<td>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</td>';
     tb.appendChild(tr);
   });

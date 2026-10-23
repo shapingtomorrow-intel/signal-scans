@@ -765,7 +765,7 @@
     var tr = document.createElement("tr");
     tr.innerHTML = '<td><strong>' + wc.name + '</strong></td>' +
       '<td>' + chip(risky ? "wild-risk" : "wild-opp", wc.type) + '</td>' +
-      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + '</td><td>n/a</td>' +
+      '<td>Wild-card rim</td><td>' + chip("heat-veryhot", wc.impact) + '</td><td>' + chip(risky ? "wild-risk" : "wild-opp", "WILD CARD") + '</td>' +
       '<td>' + wc.surprise + ' (' + fmtSource(wc.source) + ').</td>';
     tb.appendChild(tr);
   });

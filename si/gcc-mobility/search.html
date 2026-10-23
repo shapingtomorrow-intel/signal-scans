@@ -494,7 +494,9 @@
 
   function card(r, terms) {
     var doc = DOCS[r.i];
-    var meta = '<span class="type">' + TNAME[r.y] + "</span>";
+    // a plain passage of text needs no type chip (23 October 2026); signals, calls, promises, actions,
+    // assumptions and sources keep theirs
+    var meta = r.y === "p" ? "" : '<span class="type">' + TNAME[r.y] + "</span>";
     var pill = "";
     if (r.y === "g") pill = r.wc ? '<span class="pill wild">Wild card</span>' : '<span class="pill ' + (r.s || "").slice(0, 3).toLowerCase() + '">' + esc(r.s) + "</span>";
     if (r.y === "c") pill = '<span class="pill ' + esc(r.sk) + '">' + esc(r.s) + "</span>";

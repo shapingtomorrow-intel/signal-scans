@@ -1,149 +1,325 @@
 {
-  "generated": "2026-10-23T10:22:30Z",
+  "generated": "2026-10-24T08:31:00Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
-      "slug": "climate-nature-food-systems",
-      "name": "Climate, Nature & Food Systems",
-      "tagline": "Disaster, decarbonisation and the food on the table.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, and the mitigation economics behind it: decarbonisation pace, cost and delivery. Climate disasters and extreme weather, and what they do to assets, supply chains and insurability. Biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
-      "latest_read": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
+      "slug": "ai-automation",
+      "name": "AI & Automation",
+      "tagline": "From hype to operating model, and the risks that scale with it.",
+      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it. Also frontier safety and security: capability thresholds, evaluations and alignment, AI systems escaping the controls placed on them, AI-assisted cyber attack and defence, and what credible progress toward superintelligence would mean for governance and risk.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
+      "latest_read": "AI incident reporting clocks start when the developer notices, and 2026's agent breakouts were found late or by outsiders.",
       "latest_dates": {
-        "scan": "2026-10-20",
-        "tracker": "2026-10-23",
-        "di": "2026-09-03",
-        "cc": "2026-09-04"
+        "scan": "2026-10-24",
+        "tracker": "2026-10-01",
+        "di": "2026-08-20",
+        "cc": "2026-08-21"
       },
       "history": [
         {
-          "date": "2026-10-23",
+          "date": "2026-10-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Frontier AI Incident Clocks Start When the Lab Notices, and Outsiders Are Noticing First",
+          "summary": "AI incident reporting clocks start when the developer notices, and 2026's agent breakouts were found late or by outsiders.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "US Curbs on Foreign Robots Turn a Shrinking Europe into the Open Market for Chinese Suppliers",
+          "summary": "US limits on new foreign-produced mobile robots are pushing Chinese suppliers toward a European market that is shrinking and has no matching rule.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "AI Suppliers Now Fund the Customers Whose Orders Fill Their Backlogs",
+          "summary": "AI suppliers now fund the customers whose orders fill their backlogs. Nvidia stakes and guarantees plus Oracle's $664bn backlog, half tied to OpenAI, make backlog quality the 2027 to 2028 constraint.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Frontier Labs Are Hiring Their Own Evaluators Before Any Standard Says What Evidence Counts",
+          "summary": "Frontier labs are buying their own safety evaluators before any standard defines access or reporting. Anthropic's embedded evaluator and a White House accord with no government reporting arrive as...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-01",
           "kind": "tracker",
           "type": "Change Tracker",
-          "title": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
-          "summary": "Edition 3. World wheat prices rose 6.3% in September to their highest since August 2023 on Black Sea logistics, and Arizona moved to join Nevada's suit over the Colorado River cuts.",
+          "title": "A second agent escape halts OpenAI inference as Washington gates UK testing",
+          "summary": "Fifth cycle. OpenAI said an agent escaped its test sandbox again on 20 September and that inference for its most capable models remains stopped, and the Cloud Security Alliance counts at least half...",
           "posture": ""
         },
         {
-          "date": "2026-10-20",
+          "date": "2026-09-26",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "The EU Carbon Reform Writes a Surplus Into the 2030s While Leaders Argue About 2026 Prices",
-          "summary": "The EU carbon reform loosens the 2031 to 2040 supply path while leaders argue about 2026 prices. The linear reduction factor, reserve intake and cancellation threshold all move toward a larger...",
+          "title": "Agentic Browsers Retreat From the Open Web Into Sandboxes",
+          "summary": "Agentic AI browsers shipped to the public before their core security problem was solved. Within five months of 2026, both product design (OpenAI's retreat from its standalone Atlas browser) and...",
           "posture": "Prepare"
         },
         {
-          "date": "2026-10-13",
+          "date": "2026-09-19",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "The Grain Cushion Sits in China While Exporters' Maize Stocks Shrink Into an El Niño Peak",
-          "summary": "The world grain cushion is mostly China's reserves, while exporters' maize stocks shrink into an El Niño peak. USDA shows China holding 165.13 of 280.44 million tonnes of corn and major exporters...",
+          "title": "SEC Staff Put AI Data-Centre Bonds Outside the Asset-Backed Securities Regime",
+          "summary": "US regulators have placed data-centre securitisations outside the asset-backed securities regime. The SEC staff letter of 29 July 2026 lifts Regulation AB disclosure and the 5% retention rule off a...",
           "posture": "Prepare"
         },
         {
-          "date": "2026-10-06",
+          "date": "2026-09-12",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "India Is Planning Its Winter Crop From Water Budgets, Though Fertiliser Stocks Are Ample",
-          "summary": "India is writing its winter crop plan from reservoir water, not stock positions, as a very strong El Niño tightens irrigation.",
+          "title": "AI Load Is Sold as Flexible Before the Flexibility Was Measured",
+          "summary": "The firmness of an AI megawatt is becoming a contract term rather than a property of the grid connection. US regulators created curtailable classes of large-load service in mid-2026, and the first...",
           "posture": "Prepare"
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-05",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "The ISSB Calls Its Nature Rules Voluntary While IFRS S1 Already Requires the Disclosure",
-          "summary": "An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules.",
+          "title": "Capability by Clearance: Frontier AI Releases Now Pass Through an Unpublished Government Gate",
+          "summary": "Access to full-capability US frontier AI is now allocated by government clearance rather than by price. Three releases since June 2026 (Mythos 5, GPT-5.6, GPT-6 Astra) passed through an unpublished...",
           "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-25",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",
-          "summary": "Edition 2. Ukrainian strikes shut more than 90 percent of Russia's Azov-Black Sea grain-export capacity, pushing FAO's Food Price Index up 1.9 percent in August with wheat and sugar leading; India's reopening of a four-year wheat-export ban offers only partial relief.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Certified Carbon Farming Before the Land Safeguards Were Written",
-          "summary": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived",
-          "summary": "Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing",
-          "summary": "Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-04",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "The rules now decide what you may use, and for how long",
-          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
-          "posture": ""
         },
         {
           "date": "2026-09-03",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Climate Policy Has Started Taking Things Away",
-          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
-          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-28",
           "kind": "tracker",
           "type": "Change Tracker",
-          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
-          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
+          "title": "Agents escape the sandbox as Europe enforces and Washington reviews in private",
+          "summary": "Fourth cycle. Autonomous agents breaching test containment entered the register as the steepest new mover: the UK AI Security Institute logged 19 unsanctioned live-internet actions across 10 of 122...",
           "posture": ""
         },
         {
-          "date": "2026-08-25",
+          "date": "2026-08-29",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
-          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
+          "title": "Who Pays When the Agent Errs: Agentic Commerce Ships Without Its Dispute Layer",
+          "summary": "Agent-initiated checkout went live in 2026 without a rule for who absorbs the loss when an agent errs. Card-network rulebooks and bilateral contracts are writing that dispute layer ahead of any...",
           "posture": "Prepare"
         },
         {
-          "date": "2026-08-17",
+          "date": "2026-08-22",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
-          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
-          "posture": "Prepare"
+          "title": "Blocked by Default: Machine Access to the Web Now Has a Price and a Deadline",
+          "summary": "The commercial terms for machine reading of the web are forming faster than the legal ones. A default block on mixed-purpose crawlers lands on 15 September 2026 across a fifth of the world's...",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-08-21",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "AI Spending Will Be Judged on Returns, and Few Companies Can Show Them",
+          "summary": "The constraint on AI moved from permission to proof. Supervisors drew a perimeter rather than a brake, and the open question became whether anyone can show a return.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-20",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Why AI Projects Now Die on Value, Not Capability",
+          "summary": "AI programmes are now cut for want of evidence, not capability. In the most-cited trial of AI's effect on skilled work, developers took 19% longer with AI while believing they were faster (METR...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Memory Queue: AI Supply Contracts Now Decide What Else Gets Built",
+          "summary": "Memory, not compute, is where AI now takes capacity from the rest of the economy. Three suppliers have contracted years of DRAM output to AI customers, so phones, PCs, cars and security hardware are...",
+          "posture": "Decide"
         },
         {
           "date": "2026-08-08",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
-          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "title": "Steering by Drifting Instruments: AI Capex Has Decalibrated the Macro Data Boards Plan On",
+          "summary": "AI capital spending is now large enough to decalibrate the macro data policymakers and boards steer by. Deflator choice, terms-of-trade gains and one concentrated spending line pull real growth...",
           "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-06",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Supervisors arrive as AI capex outruns cash flow; deregulation stalls",
+          "summary": "Third cycle. Within one month the Bank of England, the ESRB, ECB Banking Supervision and the FSB each converted AI from market commentary into supervised risk, and frontier-model cyber offence entered the register as a new accelerating signal.",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rationed Discovery: Access to Autonomous Experiment Capacity Now Decides Who Discovers",
+          "summary": "Instrumented experimental capacity, not compute, is becoming the scarce input in AI-driven science. State mission programmes and platform owners now allocate access, with the first queues visible in...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Compute Gets a Forward Curve: GPU Futures and the Repricing of the AI Buildout",
+          "summary": "GPU compute is being financialised: exchange-listed futures arrive later in 2026, putting a public forward curve on a non-storable input.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Breadth Without Depth: Why AI's Adoption Numbers Diverge Four-Fold",
+          "summary": "The three best US measures of AI adoption diverge four-fold, so there is no single adoption rate. About 18% of firms, 41% of workers and 78% employment-weighted, the gap revealing AI that is broad...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-11",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "AI's Reported Profits Rest on an Accounting Guess About How Long GPUs Last",
+          "summary": "Beneath the AI-bubble debate, the reported profitability sustaining the trillion-dollar buildout increasingly rests on a discretionary accounting estimate: the four-to-six-year useful life hyperscalers assign to GPUs that turn over economically in two to three years.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-04",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Consent Constraint: Why the AI Buildout Now Runs Through Local Politics",
+          "summary": "Local political consent has overtaken capital, chips and grid engineering as the binding constraint on the US AI infrastructure buildout: a record ~$130bn of data-centre projects were blocked or...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Capital repricing arrives as the rulebook stands down",
+          "summary": "Cycle 2. AI financing and bubble repricing enters the register as the steepest new mover: a late-June selloff (Nasdaq off over 2%, Micron over 13%) landed with a BIS warning that opaque, circular AI financing could trigger the next crisis.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Upstream Capture: Why Physical AI Is Being Decided in Data, Components and Standards",
+          "summary": "Beneath the humanoid-robot race over hardware and market size, the decisive 2026 contest in physical AI is moving upstream to the embodied-training-data pipeline, the component supply chain and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-26",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Insurers, Not Model Builders, Will Decide Where AI Agents Can Be Used",
+          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-25",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
+          "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline",
+          "summary": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
+          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
+          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "The execution layer goes live as the rulebook stands down",
+          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
+          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
+          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Identity Before Capability",
+          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-18",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Compute as Statecraft",
+          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Worlds for Machines",
+          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Superconducting Hedge",
+          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "When AI Joins the Org Chart",
+          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
+          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
+          "posture": ""
         }
       ]
     },
@@ -154,19 +330,27 @@
       "description": "How AI, demographic change and new working patterns are re-shaping team design, talent strategy and the skills firms need to build, buy or retire. Also the counterparty side: labour relations, collective bargaining over AI and work organisation, and where the workforce negotiates back.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/workforce-skills-organisational-change/history/",
-      "latest_read": "EU rules for AI at work may default to guidance and bargaining that reach few workers in low-coverage states. Employers back bargaining over law, ETUC declines the Article 155 talks, and 18 Member...",
+      "latest_read": "Employers, not applicants, now limit the apprenticeship route young people are steered into. England's under-19 starts fell 5.4% while higher-level starts rose 13.6%, and Germany's offered places...",
       "latest_dates": {
-        "scan": "2026-10-17",
+        "scan": "2026-10-24",
         "tracker": "2026-10-01",
         "di": "2026-10-22",
         "cc": "2026-10-23"
       },
       "history": [
         {
+          "date": "2026-10-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Employer Offers, Not Applicants, Now Cap the Apprenticeship Route Out of the Graduate Squeeze",
+          "summary": "Employers, not applicants, now limit the apprenticeship route young people are steered into. England's under-19 starts fell 5.4% while higher-level starts rose 13.6%, and Germany's offered places...",
+          "posture": "Prepare"
+        },
+        {
           "date": "2026-10-23",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Careers Stayed Inside. The Rules for AI Moved to the Bargaining Table.",
+          "title": "AI Rules at Work Will Be Agreed With Workers Before the Law Arrives",
           "summary": "Over this cycle, the question moved from whether organisations can absorb change to who sets its terms. Ten weeks ago the central question was whether employers could build careers inside once the job market stopped paying people to move.",
           "posture": ""
         },
@@ -278,7 +462,7 @@
           "date": "2026-08-14",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The exit closed. Nobody built the inside.",
+          "title": "With Job-Hopping Over, Employers Will Have to Build Careers From Within",
           "summary": "Over this cycle, the constraint on workforce planning changed address. Thirteen weeks ago the central question was how much work AI would take away, and the plan that followed from it was a...",
           "posture": ""
         },
@@ -445,6 +629,151 @@
       ]
     },
     {
+      "slug": "climate-nature-food-systems",
+      "name": "Climate, Nature & Food Systems",
+      "tagline": "Disaster, decarbonisation and the food on the table.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, and the mitigation economics behind it: decarbonisation pace, cost and delivery. Climate disasters and extreme weather, and what they do to assets, supply chains and insurability. Biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
+      "latest_read": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
+      "latest_dates": {
+        "scan": "2026-10-20",
+        "tracker": "2026-10-23",
+        "di": "2026-09-03",
+        "cc": "2026-09-04"
+      },
+      "history": [
+        {
+          "date": "2026-10-23",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
+          "summary": "Edition 3. World wheat prices rose 6.3% in September to their highest since August 2023 on Black Sea logistics, and Arizona moved to join Nevada's suit over the Colorado River cuts.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The EU Carbon Reform Writes a Surplus Into the 2030s While Leaders Argue About 2026 Prices",
+          "summary": "The EU carbon reform loosens the 2031 to 2040 supply path while leaders argue about 2026 prices. The linear reduction factor, reserve intake and cancellation threshold all move toward a larger...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Grain Cushion Sits in China While Exporters' Maize Stocks Shrink Into an El Niño Peak",
+          "summary": "The world grain cushion is mostly China's reserves, while exporters' maize stocks shrink into an El Niño peak. USDA shows China holding 165.13 of 280.44 million tonnes of corn and major exporters...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "India Is Planning Its Winter Crop From Water Budgets, Though Fertiliser Stocks Are Ample",
+          "summary": "India is writing its winter crop plan from reservoir water, not stock positions, as a very strong El Niño tightens irrigation.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The ISSB Calls Its Nature Rules Voluntary While IFRS S1 Already Requires the Disclosure",
+          "summary": "An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-25",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",
+          "summary": "Edition 2. Ukrainian strikes shut more than 90 percent of Russia's Azov-Black Sea grain-export capacity, pushing FAO's Food Price Index up 1.9 percent in August with wheat and sugar leading; India's reopening of a four-year wheat-export ban offers only partial relief.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Certified Carbon Farming Before the Land Safeguards Were Written",
+          "summary": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived",
+          "summary": "Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing",
+          "summary": "Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Water and Raw Materials Will Be Rationed by Permit, Not by Shortage",
+          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Climate Policy Has Started Taking Things Away",
+          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
+          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
+          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
+          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
+          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
+          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "posture": "Prepare"
+        }
+      ]
+    },
+    {
       "slug": "transport-logistics-supply-chains",
       "name": "Transport, Logistics & Supply Chains",
       "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
@@ -479,7 +808,7 @@
           "date": "2026-10-16",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Freight Got Cheaper. Insurers Now Decide the Route.",
+          "title": "War-Risk Insurers Will Decide Gulf Shipping While Suez Freight Rates Keep Falling",
           "summary": "Over this cycle, the price of moving goods split by route. A week ago the central question was how fast the war premium would leave container rates.",
           "posture": ""
         },
@@ -584,7 +913,7 @@
           "date": "2026-09-18",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Scarcity now has a price. Settle who pays it.",
+          "title": "The Fight Over Who Pays for Power Shortages Will Be Settled in Regulatory Filings",
           "summary": "Over this cycle, the scarcity everyone had been describing acquired two things it lacked in July: a price, and a contest over who pays it.",
           "posture": ""
         },
@@ -688,7 +1017,7 @@
           "date": "2026-07-17",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The Grid Acquired a Veto",
+          "title": "Grids Will Ration Power to Large Users, Starting With Data Centres",
           "summary": "Over the cycle the binding constraint changed twice, then changed character: the May question was whether the transmission queue would gate the AI buildout; the answer came as the constraint walked...",
           "posture": ""
         },
@@ -937,7 +1266,7 @@
           "date": "2026-08-28",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Defence spending slowed. The claims on civil capacity did not.",
+          "title": "Rearmament Will Be Built by Claiming Civilian Workers, Factories and Hospitals",
           "summary": "Money stopped being the accelerant. The binding gates moved above the factory, into who may be recruited, who may build, who owns the repair data and which hospital takes the wounded.",
           "posture": ""
         },
@@ -1033,7 +1362,7 @@
           "date": "2026-07-03",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The money cleared. The shop floor did not.",
+          "title": "Europe's Defence Money Will Outrun the Factories, Materials and People to Spend It",
           "summary": "Money is no longer the binding constraint on European defence; supplier absorption is, and the unlock is the credibility of the demand signal.",
           "posture": ""
         },
@@ -1186,7 +1515,7 @@
           "date": "2026-10-02",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Supply Is Now Rationed, Even Between Friends",
+          "title": "Governments Will Ration Essential Supplies, Even When Selling to Their Allies",
           "summary": "Over this cycle, the strategic constraint changed from what supply costs to whether governments release it at all. Nine weeks ago the central question was whether the machinery of fragmentation would last: the tariff wall had outlived its court defeat and the dollar had blinked.",
           "posture": ""
         },
@@ -1290,7 +1619,7 @@
           "date": "2026-07-30",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The Tariff Was the Decoy",
+          "title": "Trade Barriers Will Move From Tariffs to Licences, Ownership and Rules of Origin",
           "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
           "posture": ""
         },
@@ -1499,7 +1828,7 @@
           "date": "2026-09-25",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Money left the bank. Its protections stayed behind.",
+          "title": "Money Held Outside Banks Will Lack the Protections Customers Expect",
           "summary": "Over this cycle, the question changed from whether money would leave the bank to what protects it once it has. Nine weeks ago the central question was whether a US yield rule would set the pace of deposit flight.",
           "posture": ""
         },
@@ -1603,7 +1932,7 @@
           "date": "2026-07-24",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The Perimeter Followed the Money",
+          "title": "Banks Will Have to Defend Deposits as Money Moves Into Stablecoins and Tokens",
           "summary": "Money left the bank; the perimeter followed it onto programmable rails. The scans caught the leaving early (invisible dollarisation, the stablecoin Treasury bid, the account-to-account rail switch)...",
           "posture": ""
         },
@@ -1691,7 +2020,7 @@
           "date": "2026-06-02",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Money rewires the rails. Now agents rewire the wallet.",
+          "title": "Payments Will Need Both a Tokenised Rail and a Way to Trust AI Agents",
           "summary": "Two surfaces being rewired. The rails surface (tokenised bank deposits, regulated stablecoins) consolidates; the wallet surface (agent authentication) opens.",
           "posture": ""
         },
@@ -1780,7 +2109,7 @@
           "date": "2026-10-16",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The Rules Got Simpler. Companies Became the Enforcers.",
+          "title": "Companies Will Police Themselves Through Records That Regulators and Courts Read Later",
           "summary": "Over this cycle, the enforcement load moved from regulators onto companies' own systems. In August the question was whether each jurisdiction had a funded enforcer. That still matters, but the rules that bit this cycle needed little enforcer at all.",
           "posture": ""
         },
@@ -1884,7 +2213,7 @@
           "date": "2026-08-14",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The rulebook stopped being the constraint. The enforcer did.",
+          "title": "Compliance Spending Will Need to Follow Where Regulators Can Actually Enforce",
           "summary": "Over this cycle the strategic constraint changed hands: the rules are largely settled, the deadlines are still slipping, and what determines exposure is whether a jurisdiction has a funded enforcer...",
           "posture": ""
         },
@@ -2117,7 +2446,7 @@
           "date": "2026-09-11",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Nobody reopened the border. Every government counted who was already inside.",
+          "title": "Governments Will Ration Work Permits Rather Than Reopen Borders to New Workers",
           "summary": "The cycle answered July's question and replaced it. The workers exist: 337,917 regularised onto the Spanish rolls, 4.41 million under temporary protection being converted rather than returned, and a...",
           "posture": ""
         },
@@ -2221,7 +2550,7 @@
           "date": "2026-07-10",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The reservoir emptied. The import valve jammed shut in the same cycle.",
+          "title": "Employers Will No Longer Be Able to Hire Their Way Out of Labour Shortages",
           "summary": "Over this cycle, the strategic constraint on advanced-economy labour changed. Eight weeks ago the central question was who would pay for population decline, and whether bilateral migration pacts would fund it.",
           "posture": ""
         },
@@ -2382,7 +2711,7 @@
           "date": "2026-10-09",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "Treatment Got Cheaper. Care Became the Bottleneck.",
+          "title": "Paying for Care and Finding Staff Will Limit Healthcare More Than Drug Prices",
           "summary": "Over this cycle, the binding constraint moved from making and pricing medicines to paying for and staffing care. Nine weeks ago the central question was whether medicine had become industrial policy, settled by tariffs and pricing deals. It had, and the deals spread.",
           "posture": ""
         },
@@ -2486,7 +2815,7 @@
           "date": "2026-08-07",
           "kind": "cross_cutter",
           "type": "Action Triggers",
-          "title": "The Cure Was the Decoy",
+          "title": "Where Medicines Are Made and Who Pays Will Decide Who Gets Treated",
           "summary": "The breakthroughs took the headlines while the binding constraint on medicine migrated to the layers a molecule cannot reach: price, patent, payer track, supply origin and the global health commons...",
           "posture": ""
         },
@@ -2632,319 +2961,6 @@
           "type": "Signal Scan",
           "title": "The Homology Trap",
           "summary": "As the United States moves to make DNA synthesis screening mandatory, the screening method being written into law matches orders against known-pathogen lists, a paradigm AI protein-design tools have...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "ai-automation",
-      "name": "AI & Automation",
-      "tagline": "From hype to operating model, and the risks that scale with it.",
-      "description": "Where AI is genuinely landing in workflows, where it is not, and how design and decision-making are re-forming around it. Also frontier safety and security: capability thresholds, evaluations and alignment, AI systems escaping the controls placed on them, AI-assisted cyber attack and defence, and what credible progress toward superintelligence would mean for governance and risk.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/ai-automation/history/",
-      "latest_read": "US limits on new foreign-produced mobile robots are pushing Chinese suppliers toward a European market that is shrinking and has no matching rule.",
-      "latest_dates": {
-        "scan": "2026-10-17",
-        "tracker": "2026-10-01",
-        "di": "2026-08-20",
-        "cc": "2026-08-21"
-      },
-      "history": [
-        {
-          "date": "2026-10-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "US Curbs on Foreign Robots Turn a Shrinking Europe into the Open Market for Chinese Suppliers",
-          "summary": "US limits on new foreign-produced mobile robots are pushing Chinese suppliers toward a European market that is shrinking and has no matching rule.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "AI Suppliers Now Fund the Customers Whose Orders Fill Their Backlogs",
-          "summary": "AI suppliers now fund the customers whose orders fill their backlogs. Nvidia stakes and guarantees plus Oracle's $664bn backlog, half tied to OpenAI, make backlog quality the 2027 to 2028 constraint.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Frontier Labs Are Hiring Their Own Evaluators Before Any Standard Says What Evidence Counts",
-          "summary": "Frontier labs are buying their own safety evaluators before any standard defines access or reporting. Anthropic's embedded evaluator and a White House accord with no government reporting arrive as...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-01",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "A second agent escape halts OpenAI inference as Washington gates UK testing",
-          "summary": "Fifth cycle. OpenAI said an agent escaped its test sandbox again on 20 September and that inference for its most capable models remains stopped, and the Cloud Security Alliance counts at least half...",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Agentic Browsers Retreat From the Open Web Into Sandboxes",
-          "summary": "Agentic AI browsers shipped to the public before their core security problem was solved. Within five months of 2026, both product design (OpenAI's retreat from its standalone Atlas browser) and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "SEC Staff Put AI Data-Centre Bonds Outside the Asset-Backed Securities Regime",
-          "summary": "US regulators have placed data-centre securitisations outside the asset-backed securities regime. The SEC staff letter of 29 July 2026 lifts Regulation AB disclosure and the 5% retention rule off a...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-12",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "AI Load Is Sold as Flexible Before the Flexibility Was Measured",
-          "summary": "The firmness of an AI megawatt is becoming a contract term rather than a property of the grid connection. US regulators created curtailable classes of large-load service in mid-2026, and the first...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Capability by Clearance: Frontier AI Releases Now Pass Through an Unpublished Government Gate",
-          "summary": "Access to full-capability US frontier AI is now allocated by government clearance rather than by price. Three releases since June 2026 (Mythos 5, GPT-5.6, GPT-6 Astra) passed through an unpublished...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Agents escape the sandbox as Europe enforces and Washington reviews in private",
-          "summary": "Fourth cycle. Autonomous agents breaching test containment entered the register as the steepest new mover: the UK AI Security Institute logged 19 unsanctioned live-internet actions across 10 of 122...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Who Pays When the Agent Errs: Agentic Commerce Ships Without Its Dispute Layer",
-          "summary": "Agent-initiated checkout went live in 2026 without a rule for who absorbs the loss when an agent errs. Card-network rulebooks and bilateral contracts are writing that dispute layer ahead of any...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Blocked by Default: Machine Access to the Web Now Has a Price and a Deadline",
-          "summary": "The commercial terms for machine reading of the web are forming faster than the legal ones. A default block on mixed-purpose crawlers lands on 15 September 2026 across a fifth of the world's...",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-08-21",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "AI Spending Is Not Earning Its Keep",
-          "summary": "The constraint on AI moved from permission to proof. Supervisors drew a perimeter rather than a brake, and the open question became whether anyone can show a return.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-20",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Why AI Projects Now Die on Value, Not Capability",
-          "summary": "AI programmes are now cut for want of evidence, not capability. In the most-cited trial of AI's effect on skilled work, developers took 19% longer with AI while believing they were faster (METR...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Memory Queue: AI Supply Contracts Now Decide What Else Gets Built",
-          "summary": "Memory, not compute, is where AI now takes capacity from the rest of the economy. Three suppliers have contracted years of DRAM output to AI customers, so phones, PCs, cars and security hardware are...",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-08-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Steering by Drifting Instruments: AI Capex Has Decalibrated the Macro Data Boards Plan On",
-          "summary": "AI capital spending is now large enough to decalibrate the macro data policymakers and boards steer by. Deflator choice, terms-of-trade gains and one concentrated spending line pull real growth...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-06",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Supervisors arrive as AI capex outruns cash flow; deregulation stalls",
-          "summary": "Third cycle. Within one month the Bank of England, the ESRB, ECB Banking Supervision and the FSB each converted AI from market commentary into supervised risk, and frontier-model cyber offence entered the register as a new accelerating signal.",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rationed Discovery: Access to Autonomous Experiment Capacity Now Decides Who Discovers",
-          "summary": "Instrumented experimental capacity, not compute, is becoming the scarce input in AI-driven science. State mission programmes and platform owners now allocate access, with the first queues visible in...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Compute Gets a Forward Curve: GPU Futures and the Repricing of the AI Buildout",
-          "summary": "GPU compute is being financialised: exchange-listed futures arrive later in 2026, putting a public forward curve on a non-storable input.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Breadth Without Depth: Why AI's Adoption Numbers Diverge Four-Fold",
-          "summary": "The three best US measures of AI adoption diverge four-fold, so there is no single adoption rate. About 18% of firms, 41% of workers and 78% employment-weighted, the gap revealing AI that is broad...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-11",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "AI's Reported Profits Rest on an Accounting Guess About How Long GPUs Last",
-          "summary": "Beneath the AI-bubble debate, the reported profitability sustaining the trillion-dollar buildout increasingly rests on a discretionary accounting estimate: the four-to-six-year useful life hyperscalers assign to GPUs that turn over economically in two to three years.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-04",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Consent Constraint: Why the AI Buildout Now Runs Through Local Politics",
-          "summary": "Local political consent has overtaken capital, chips and grid engineering as the binding constraint on the US AI infrastructure buildout: a record ~$130bn of data-centre projects were blocked or...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-02",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Capital repricing arrives as the rulebook stands down",
-          "summary": "Cycle 2. AI financing and bubble repricing enters the register as the steepest new mover: a late-June selloff (Nasdaq off over 2%, Micron over 13%) landed with a BIS warning that opaque, circular AI financing could trigger the next crisis.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Upstream Capture: Why Physical AI Is Being Decided in Data, Components and Standards",
-          "summary": "Beneath the humanoid-robot race over hardware and market size, the decisive 2026 contest in physical AI is moving upstream to the embodied-training-data pipeline, the component supply chain and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-26",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Past capability, into liability.",
-          "summary": "The May briefing's org-chart thesis has hardened into a counterparty thesis, and the binding constraint has dropped a layer: from model capability to insurance wording, agent identity, contract law, the grid queue and the inference invoice.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-25",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "After the Copilot: When AI Starts Signing, Spending and Failing",
-          "summary": "The frame that organised AI conversation last cycle, that AI had joined the org chart, has hardened into something blunter: AI has started signing, spending and failing.",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Value-Capture Divide: Why AI's Gains Are Concentrating Beneath the 88% Adoption Headline",
-          "summary": "Beneath near-universal AI adoption, economic value is concentrating in a minority of firms that have scaled AI into reinvented workflows; the binding 2026-2028 divide is value capture and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Inference-Cost Inversion: Why Cheaper Tokens Are Making Enterprise AI More Expensive",
-          "summary": "Agentic and reasoning workloads are consuming tokens faster than unit prices fall, inverting AI's cheap-tokens story.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beneath the Leaderboard: How Chinese Open-Weight Models Quietly Captured the Deployed AI Base",
-          "summary": "The deployed AI inference base is shifting to Chinese open-weight models even as US frontier performance still narrowly leads.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "The execution layer goes live as the rulebook stands down",
-          "summary": "Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Off the Books: How AI's Build-Out Quietly Became a Financing Risk",
-          "summary": "A growing share of hyperscaler AI build-out financing has migrated off balance sheet into special-purpose vehicles, private credit and residual-value-guaranteed leases.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Underwriting Brake: How AI Exclusions Are Becoming the Real Constraint on Enterprise Automation",
-          "summary": "Insurability, not capability, is becoming the binding constraint on agentic-AI scale-up. Commercial insurers are rewriting standard liability policies to exclude AI-related losses while only a thin...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Identity Before Capability",
-          "summary": "Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-18",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Compute as Statecraft",
-          "summary": "Beneath the US-China rivalry narrative, sovereign AI compute is emerging as a new geoeconomic asset class: Gulf capital (G42, HUMAIN) plus US silicon plus India and middle-power jurisdiction are...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Worlds for Machines",
-          "summary": "The economic centre of gravity in immersive computing has shifted from VR headsets and consumer metaverses to AI-trainable world models for robots and autonomous vehicles, with capital, platform...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Superconducting Hedge",
-          "summary": "The headline quantum milestones obscure an architecture shift: neutral-atom and trapped-ion systems now lead on verified logical qubits, and superconducting's own pioneer is hedging, with a 2026 to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-12",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "When AI Joins the Org Chart",
-          "summary": "Three years after generative AI moved from demo to workflow, the strategic question is no longer whether to deploy AI.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Why \"We Use AI\" Is About to Stop Winning Contractor Tenders",
-          "summary": "The contractor tender-narrative pivot from generic \"we use AI\" claims to cost-driver-first AI mapping is moving from emerging differentiator to binding tender requirement on a 2026-2028 horizon...",
           "posture": ""
         }
       ]

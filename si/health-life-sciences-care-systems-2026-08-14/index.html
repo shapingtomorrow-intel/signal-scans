@@ -150,6 +150,56 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -303,19 +353,39 @@ moving first, would fix a two-tier immunisation map that insurers have to price.
 stops being a modelling exercise for companies outside Annex III.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
-<div class="wild-card risk">
+<h3>The Wild Card Chains to Watch</h3>
+<div class="wild-card risk" id="wc-a-second-zoonotic-emergency-lands-on-a-committed-response">
 <h4>A second zoonotic emergency lands on a committed response</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Surge staff are already committed to Bundibugyo, so a second emergency competes for the same people rather than drawing on reserve.</p>
-<p><strong>Early warning indicators:</strong> Human cases with no animal exposure; clusters among household contacts; deployment rosters extended past standard rotations.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how two emergencies would collide</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Bundibugyo ties up surge staff in the largest DRC Ebola outbreak<span class="wcc-seen">Seen: 3605 confirmed cases and 1587 deaths by 30 July</span></div><div class="wcc-w"><b>Watch:</b> confirmed Bundibugyo cases still rising past 3605, or health zones affected beyond 49 (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Sporadic H5N1 cases continue outside the United States<span class="wcc-seen">Seen: 12 human H5N1 infections outside the US to June</span></div><div class="wcc-w"><b>Watch:</b> human H5N1 infections outside the US running above the 12 reported from August 2025 to June 2026 (US Centers for Disease Control and Prevention, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">An H5N1 case appears with no animal exposure</div><div class="wcc-w"><b>Watch:</b> any confirmed human H5N1 case with no poultry or other animal contact (US Centers for Disease Control and Prevention, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A cluster of cases forms among household contacts</div><div class="wcc-w"><b>Watch:</b> linked human H5N1 cases in one household with no shared animal source (US Centers for Disease Control and Prevention, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a second zoonotic emergency competes for committed responders</div><div class="wcc-w"><b>Watch:</b> deployment rosters for Bundibugyo extended past standard rotations as a second emergency is declared, with health-worker infections already at 119 (World Health Organization, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Twelve human H5N1 infections were reported outside the United States between August 2025 and June 2026 (<a href="https://www.cdc.gov/bird-flu/spotlights/global-summary-06262026.html" target="_blank">CDC</a>, June 2026), all sporadic and poultry-linked. The coincidence matters more than the count: response capacity is not additive.</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-an-ai-derived-drug-clears-a-mid-stage-efficacy-bar">
 <h4>An AI-derived drug clears a mid-stage efficacy bar</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A clean randomised readout arrives from a computationally designed molecule before the sceptical case has been retired.</p>
-<p><strong>Early warning indicators:</strong> Phase 2 readouts from AI-derived assets; regulatory interactions on trial design; partnering terms on preclinical programmes.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how one readout would move capital</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">A few AI-discovered drugs reach mid and late-stage trials<span class="wcc-seen">Seen: Insilico's rentosertib in a 52-week phase 3 in China</span></div><div class="wcc-w"><b>Watch:</b> any AI-discovered asset entering phase 2 or later, beyond rentosertib's 52-week phase 3 (BioPharma Dive, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Mixed early efficacy signals sit alongside clinical failures<span class="wcc-seen">Seen: Recursion's polyp-burden reduction against Verge's ALS failure</span></div><div class="wcc-w"><b>Watch:</b> the balance of positive and failed readouts from AI-derived assets, after Recursion's polyp-burden result and Verge Genomics' ALS candidate (BioPharma Dive, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Regulators engage on randomised trial designs for AI-derived assets</div><div class="wcc-w"><b>Watch:</b> a disclosed regulatory meeting agreeing a randomised phase 2 design for an AI-derived molecule (BioPharma Dive, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A randomised phase 2 readout meets its primary endpoint</div><div class="wcc-w"><b>Watch:</b> a phase 2 readout from an AI-derived asset meeting its primary efficacy endpoint (BioPharma Dive, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: an AI-derived drug clears a mid-stage efficacy bar</div><div class="wcc-w"><b>Watch:</b> a clean randomised mid-stage result for a computationally designed molecule, reflected in better partnering terms on preclinical programmes (BioPharma Dive, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Our reading is that one credible phase 2 result matters more to capital allocation than any further rise in candidate count (<a href="https://www.biopharmadive.com/news/ai-drug-discovery-insilico-recursion-verge/825367/" target="_blank">BioPharma Dive</a>, July 2026).</p>
 </div>
 <div class="implications">
@@ -367,7 +437,7 @@ plan and a pricing agreement now carries a date.</p>
   var TOPIC_SHORT = "Health &\nCare Systems";
   var PREV_LABEL = "10 July 2026 cycle";
   var RINGS = [
-    { key: "now",   label: "NOW (TO 2028)",   r: 128 },
+    { key: "now",   label: "NOW (To 2028)",   r: 128 },
     { key: "next",  label: "NEXT (2028-30)",  r: 218 },
     { key: "later", label: "LATER (2030+)",   r: 300 }
   ];

@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -277,20 +320,41 @@
 <li><strong>Stablecoin deposit disintermediation.</strong> Confirmed outflow evidence in one banking system moves this from debate to balance-sheet planning.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>A systemic stablecoin run before the rulebooks bind</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A large issuer depegs while the final GENIUS and UK rules are still in the comment phase.</p>
-<p><strong>Early warning indicators:</strong> Redemption spikes; thinner reserve disclosure; widening secondary-market discounts.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a depeg would beat the rulebooks</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Stablecoin market value sets records under interim rules<span class="wcc-seen">Seen: total stablecoin market capitalisation exceeded $315 billion</span></div><div class="wcc-w"><b>Watch:</b> total stablecoin market capitalisation, called while it holds above $315 billion (Crypto Briefing, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">US and UK rules remain at proposal or draft stage<span class="wcc-seen">Seen: UK draft Code of Practice, final version due by end-2026</span></div><div class="wcc-w"><b>Watch:</b> the final Bank of England Code of Practice, called if it is not finalised by the end of 2026 (Bank of England, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Reserve disclosure thins at a large issuer</div><div class="wcc-w"><b>Watch:</b> reserve disclosures at a large issuer, called when attestations come less often or cover fewer assets (International Monetary Fund, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Redemption spikes hit a large issuer before rules bind</div><div class="wcc-w"><b>Watch:</b> daily redemptions at a large issuer, called on a spike that outruns its safe asset backing (International Monetary Fund, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Secondary market discounts widen as the issuer struggles to pay out</div><div class="wcc-w"><b>Watch:</b> the secondary market price of the issuer's coin, called on a discount to par lasting more than a day (Crypto Briefing, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: a large issuer depegs before final rules bind</div><div class="wcc-w"><b>Watch:</b> the US GENIUS rulebook, called if a large issuer depegs while the OCC rule is still at proposal (Office of the Comptroller of the Currency, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The IMF restated that unregulated stablecoins are run-prone (<a href="https://www.imf.org/en/publications/wp/issues/2026/04/10/making-stablecoins-stable-575348">IMF</a>, April 2026) even as the market cap set records (<a href="https://cryptobriefing.com/usdc-record-stablecoin-volume-june-2026/">Crypto Briefing</a>, July 2026). A depeg in the gap before final rules bind would be the pattern's stress test.</p>
 </div>
 
 <div class="wild-card opportunity">
 <h4>A bank-run tokenised-deposit network strands non-bank stablecoins</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> The Clearing House network scales fast enough to make bank tokens the default settlement asset.</p>
-<p><strong>Early warning indicators:</strong> A named launch date; RTP and CHIPS throughput; early corporate-treasury adoption.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how bank tokens would take settlement</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The largest US banks announce on-chain clearing of tokenised deposits<span class="wcc-seen">Seen: The Clearing House launching on-chain tokenised deposit settlement</span></div><div class="wcc-w"><b>Watch:</b> the launch date for The Clearing House network, called when a firm date is named (ABA Banking Journal, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The network goes live on RTP and CHIPS ahead of schedule</div><div class="wcc-w"><b>Watch:</b> network go-live, called if tokenised deposit settlement runs live before the end of the first half of 2027 (ABA Banking Journal, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">RTP and CHIPS throughput shifts toward tokenised settlement</div><div class="wcc-w"><b>Watch:</b> tokenised deposit throughput on RTP and CHIPS, called when it is reported as a rising share of daily settlement (ABA Banking Journal, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Corporate treasuries adopt bank tokens for settlement</div><div class="wcc-w"><b>Watch:</b> corporate treasury adoption, called when large corporates settle through bank tokens rather than stablecoins (ABA Banking Journal, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: bank tokens become the default settlement asset</div><div class="wcc-w"><b>Watch:</b> stablecoin market capitalisation, called if it stalls below $315 billion as bank tokens grow (Crypto Briefing, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The Clearing House will settle tokenised deposits on-chain across the largest US banks, targeting H1 2027 (<a href="https://bankingjournal.aba.com/2026/06/the-clearing-house-to-launch-tokenized-deposits-system-for-banks/">ABA Banking Journal</a>, June 2026). If it scales ahead of schedule, the settlement default flips to bank money.</p>
 </div>
 

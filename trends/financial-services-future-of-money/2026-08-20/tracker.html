@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -273,19 +316,41 @@
 <li><strong>Retail digital euro.</strong> A trilogue deal on holding limits before year-end fixes the parameter European bank treasuries cannot yet plan around.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>A systemic stablecoin run before the rulebooks bind</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A large issuer breaks its peg while the US and UK rulebooks are still in comment.</p>
-<p><strong>Early warning indicators:</strong> Redemption spikes; thinner reserve attestations; widening secondary-market discounts.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a peg would break in the gap</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The GENIUS Act's year for final rules passes without them<span class="wcc-seen">Seen: joint identity rule comments only due by 21 August 2026</span></div><div class="wcc-w"><b>Watch:</b> the final joint customer identification rule, called if it is not issued within weeks of the 21 August comment deadline (Federal Register, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Stablecoin market value contracts for the first time in four years<span class="wcc-seen">Seen: market cap fell to a six-month low from May peak</span></div><div class="wcc-w"><b>Watch:</b> stablecoin market capitalisation, called if it falls further below the May 2026 peak of $300 billion to $316 billion (Crypto Briefing, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Redemption spikes hit a large issuer before the rules bind</div><div class="wcc-w"><b>Watch:</b> weekly issuer reports to the OCC, called once they show a redemption spike at a large issuer (Office of the Comptroller of the Currency, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Reserve attestations thin out at the issuer</div><div class="wcc-w"><b>Watch:</b> reserve attestations, called when a large issuer publishes them later or with less detail (Office of the Comptroller of the Currency, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Secondary market discounts widen on the issuer's coin</div><div class="wcc-w"><b>Watch:</b> the secondary market price of the issuer's coin, called on a discount to par lasting more than a day (Crypto Briefing, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: a large issuer breaks its peg before rules bind</div><div class="wcc-w"><b>Watch:</b> the UK rulebook, called if a peg breaks while the Code awaits finalisation after feedback closes on 22 September 2026 (Bank of England, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The GENIUS Act's statutory year for final rules passed with the joint identity rule only reaching its comment deadline on 21 August (<a href="https://www.federalregister.gov/documents/2026/06/22/2026-12460/permitted-payment-stablecoin-issuer-customer-identification-program" target="_blank">Federal Register</a>, June 2026), and the Bank of England will not finalise its Code until the end of 2026 (<a href="https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins" target="_blank">Bank of England</a>, June 2026). The reporting that would give supervisors early sight of a run is itself still a proposal (<a href="https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24.html" target="_blank">OCC</a>, June 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>A non-bank consortium owns the shared dollar rail before the banks</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> The layer banks are building for 2027 arrives first from outside banking.</p>
-<p><strong>Early warning indicators:</strong> Consortium go-live dates; corporate treasury pilots; merchant acceptance.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how outsiders would set the dollar rail</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">A stablecoin consortium announces a shared dollar rail<span class="wcc-seen">Seen: consortium announced on 30 June 2026, expected live in 2026</span></div><div class="wcc-w"><b>Watch:</b> the consortium's go-live date, called if it launches in 2026 as expected (Tech Times, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The banks' own shared network stays targeted for 2027<span class="wcc-seen">Seen: Clearing House network targeted for first half of 2027</span></div><div class="wcc-w"><b>Watch:</b> the Clearing House launch date, called if it slips beyond the first half of 2027 (PYMNTS, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The consortium goes live before the bank network</div><div class="wcc-w"><b>Watch:</b> consortium go-live, called when live dollar payments run on the shared rail in 2026 (Tech Times, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Corporate treasuries pilot settlement on the consortium rail</div><div class="wcc-w"><b>Watch:</b> corporate treasury pilots, called when named corporates settle on the rail while banks have only four live tokenised deposit products (Tech Times, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Merchants accept payments on the consortium rail at scale</div><div class="wcc-w"><b>Watch:</b> merchant acceptance, called when major acquirers route stablecoin payments over the consortium rail (Tech Times, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: the shared dollar rail arrives from outside banking</div><div class="wcc-w"><b>Watch:</b> the settlement anchor for on-chain dollars, called when the consortium rail carries more than bank tokens settled in central bank money (Bank for International Settlements, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The bank-led Clearing House network targets the first half of 2027 (<a href="https://www.pymnts.com/news/banking/2026/tokenized-deposits-set-up-banking-next-network-race/" target="_blank">PYMNTS</a>, June 2026), while a stablecoin consortium announced in June is expected live this year (<a href="https://www.techtimes.com/articles/324351/20260813/banks-rush-tokenize-deposits-stablecoin-networks-beat-them-shared-payment-rails.htm" target="_blank">Tech Times</a>, August 2026). That would set the shared rail for on-chain dollars outside bank balance sheets, which the BIS reads as the wrong settlement anchor (<a href="https://www.bis.org/publ/arpdf/ar2026e3.htm" target="_blank">BIS</a>, June 2026).</p>
 </div>
 <div class="implications">

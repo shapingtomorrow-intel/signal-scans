@@ -86,6 +86,49 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
   .programme-footer .programme-cta:hover { opacity: 0.9; }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -283,16 +326,27 @@
 </ol>
 </div>
 
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 
 <div class="wild-card risk">
 <h4>A systemic stablecoin run</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A large dollar stablecoin breaks par and redemptions become self-reinforcing.</p>
-<p><strong>Early warning indicators:</strong> Widening secondary-market discounts; issuer reserves concentrated at a few banks.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a stablecoin run would reach banks</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Stablecoins grow large enough to matter for bank funding<span class="wcc-seen">Seen: market cap around USD 315 billion in early April 2026</span></div><div class="wcc-w"><b>Watch:</b> global stablecoin market capitalisation, called while it holds above USD 300 billion (European Central Bank, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Stablecoins transmit liquidity stress to their partner banks<span class="wcc-seen">Seen: first evidence of liquidity-driven bank disintermediation</span></div><div class="wcc-w"><b>Watch:</b> the loan share of assets at stablecoin partner banks, called if it keeps contracting relative to peers (Federal Reserve Bank of New York, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Issuer reserves concentrate in deposits at a few banks</div><div class="wcc-w"><b>Watch:</b> the share of issuer reserves held at the largest custodian banks, called when disclosures show most reserves at a handful of banks (Federal Reserve Board, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Secondary market discounts widen on a large dollar stablecoin</div><div class="wcc-w"><b>Watch:</b> the secondary market price of a large dollar stablecoin, called on a discount to par lasting more than a day (Bank for International Settlements, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Mass redemptions force fire sales of Treasury bills</div><div class="wcc-w"><b>Watch:</b> issuer sales of Treasury bills, called when redemptions force sales into a stressed market within days (Bank for International Settlements, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: a large dollar stablecoin breaks par and redemptions spiral</div><div class="wcc-w"><b>Watch:</b> redemptions at a major issuer, called when outflows feed further outflows and drain the bank deposits backing reserves (Federal Reserve Bank of New York, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The BIS, ECB and New York Fed describe one channel: a mass redemption forces fire sales of Treasury bills and drains the bank deposits backing issuer reserves, so stress transmits to banks within days (<a href="https://www.bis.org/speeches/sp260420.pdf">Bank for International Settlements</a>, April 2026).</p>
 </div>
 
@@ -300,10 +354,20 @@
 <h4>An interoperable tokenised-deposit clearing layer</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> Banks agree a clearing standard making one bank's deposit token fungible with another's.</p>
-<p><strong>Early warning indicators:</strong> A live multi-bank clearer; a central bank endorsing deposit-token interoperability.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how bank tokens would become interchangeable</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Banks pilot tokenised deposits, mostly within a single bank<span class="wcc-seen">Seen: UK Finance live pilot of tokenised sterling deposits until mid-2026</span></div><div class="wcc-w"><b>Watch:</b> the UK tokenised sterling deposit pilot, called if it moves to live payments between banks after mid-2026 (UK Finance, September 2025).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The Eurosystem opens wholesale settlement for tokenised transactions</div><div class="wcc-w"><b>Watch:</b> the Pontes wholesale settlement service, called if it opens to participants from September as planned (European Central Bank, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A central bank endorses interoperability between deposit tokens</div><div class="wcc-w"><b>Watch:</b> central bank statements on deposit tokens, called when one commits to settling tokens from different banks in its own money (European Central Bank, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Major banks agree a common clearing standard for deposit tokens</div><div class="wcc-w"><b>Watch:</b> bank announcements on a shared clearing standard, called when several large banks sign up to one (OMFIF, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: an interoperable clearing layer makes deposit tokens fungible</div><div class="wcc-w"><b>Watch:</b> a live multi-bank clearer, called when deposit tokens from two or more banks settle at par in live payments (OMFIF, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Tokenised deposits today are mostly single-bank and aimed at large corporates. A neutral clearing layer would let interest-bearing, insured bank money outpace stablecoins as the default on-chain currency (<a href="https://www.omfif.org/2026/01/outlook-2026-stablecoin-fretting-will-calm-down/">OMFIF</a>, January 2026).</p>
 </div>
 
@@ -311,10 +375,20 @@
 <h4>Quantum harvest-now-decrypt-later</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2031</span>
 </p>
 <p><strong>Surprise characteristics:</strong> Encrypted payment data captured today is decrypted once quantum computers mature.</p>
-<p><strong>Early warning indicators:</strong> Accelerated quantum hardware milestones; migration deadlines pulled forward.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how stored data would be unlocked</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Post-quantum cryptography lags in live payment systems<span class="wcc-seen">Seen: Project Leap found significant performance differences in post-quantum algorithms</span></div><div class="wcc-w"><b>Watch:</b> post-quantum signature performance in live payment tests, called while it stays well short of traditional algorithms (Bank for International Settlements, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Quantum hardware milestones arrive faster than expected</div><div class="wcc-w"><b>Watch:</b> announced quantum hardware milestones, called when one is reached ahead of the timeline payment migration plans assume (Bank for International Settlements, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Regulators pull post-quantum migration deadlines forward</div><div class="wcc-w"><b>Watch:</b> supervisory deadlines for post-quantum migration in payments, called when one is brought forward (Bank for International Settlements, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Payment systems miss the compressed migration timeline</div><div class="wcc-w"><b>Watch:</b> migration of live payment systems to post-quantum signatures, called if most remain unmigrated at the new deadline (Bank for International Settlements, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: payment data captured today is decrypted by quantum machines</div><div class="wcc-w"><b>Watch:</b> a public demonstration of quantum decryption, called when it breaks the signatures still used in payment systems (Bank for International Settlements, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2031</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>BIS Project Leap tested post-quantum cryptography inside a live payment system and found significant performance gaps still to close (<a href="https://www.bis.org/publ/othp107.htm">Bank for International Settlements</a>, December 2025). A faster-than-expected milestone would compress an already tight migration timeline.</p>
 </div>
 

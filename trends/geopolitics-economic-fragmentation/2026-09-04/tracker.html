@@ -224,6 +224,49 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -450,26 +493,58 @@ designations across allied jurisdictions would move enforcement from lists to su
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Section 338 becomes the everyday tariff tool</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A 1930 authority with no cap on scope and no investigation clock replaces Section 301 as the default instrument.</p>
-<p><strong>Early warning indicators:</strong> Court challenges to the Canada proclamations; a second Section 338 finding against another partner; USTR dropping pending 301 cases.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a 1930 law would become routine</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Section 338 is used for the first time, against Canada<span class="wcc-seen">Seen: 50% Section 338 tariffs on about US$20 billion of Canadian goods</span></div><div class="wcc-w"><b>Watch:</b> the value of imports under Section 338 proclamations against approximately US$20 billion from Canada (White &amp; Case, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Canada retaliates and trade talks with Washington break down<span class="wcc-seen">Seen: Canada suspended trade negotiations with the US on 21 August</span></div><div class="wcc-w"><b>Watch:</b> counter-tariffs from Canada matched dollar for dollar to the 50% US rate (Prime Minister of Canada, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Courts let the Canada proclamations stand against challenge</div><div class="wcc-w"><b>Watch:</b> a court ruling upholding the Canada proclamations under the untested 1930 law (White &amp; Case, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A second Section 338 finding targets another trading partner</div><div class="wcc-w"><b>Watch:</b> a Section 338 proclamation against any partner other than Canada (The White House, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">USTR drops pending Section 301 cases in favour of Section 338</div><div class="wcc-w"><b>Watch:</b> a USTR withdrawal of the pending 16 economy excess-capacity case or another open Section 301 proceeding (Covington &amp; Burling, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: Section 338 replaces Section 301 as the default tool</div><div class="wcc-w"><b>Watch:</b> more new tariff actions under Section 338 than under Section 301, against six Section 301 proceedings opened since July 2025 (Covington &amp; Burling, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>White &amp; Case asks whether the Canada action is a trial for the untested law, a faster route to reciprocal tariffs than Section 301 (<a href="https://www.whitecase.com/insight-alert/trump-administration-imposes-50-tariffs-certain-canadian-products-first-use-section" target="_blank">White & Case</a>, July 2026). Section 122 was capped at 15% and 150 days; Section 338 carries neither limit (<a href="https://www.whitecase.com/insight-alert/ustr-initiates-section-301-investigations-16-us-trade-partners-targeting-industrial" target="_blank">White & Case</a>, March 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>A 100% secondary tariff lands on India or China</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> The President uses the new authority against a major buyer of Russian energy weeks before a summit with its leader.</p>
-<p><strong>Early warning indicators:</strong> House scheduling of the Senate bill in September; the Xi visit agenda; Indian refinery purchase data.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the new authority would be used</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Senate passes a bill allowing 100% tariffs on Russian energy buyers<span class="wcc-seen">Seen: Senate passed the bill 86 to 11 on 7 August</span></div><div class="wcc-w"><b>Watch:</b> the Senate vote on the Russia sanctions bill, passed 86 to 11 (NPR, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The House schedules and passes the Senate bill</div><div class="wcc-w"><b>Watch:</b> a House vote passing the bill authorising tariffs of up to 100% on major buyers of Russian energy (NPR, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The President signs the new tariff authority into law</div><div class="wcc-w"><b>Watch:</b> a presidential signature on the Senate-passed bill (NPR, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Indian or Chinese refiners keep buying Russian crude at volume</div><div class="wcc-w"><b>Watch:</b> refinery purchase data from India showing Russian crude buying unchanged after the law takes effect (NPR, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a 100% secondary tariff hits India or China</div><div class="wcc-w"><b>Watch:</b> a proclamation applying a tariff of up to 100% to Indian or Chinese goods under the new authority (NPR, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The bill lets the President issue tariffs of up to 100% on major buyers of Russian energy such as China and India, and still needs the House (<a href="https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham" target="_blank">NPR</a>, August 2026). Kyiv's request for controls on roughly 110 materials shows where enforcement would bite (<a href="https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/" target="_blank">Defense News</a>, September 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>BRICS links fast-payment systems at New Delhi</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> The summit produces a working corridor between national instant-payment systems rather than a communique.</p>
-<p><strong>Early warning indicators:</strong> A summit annex naming systems and dates; central-bank pilots announced after the meeting; corridor volumes reported by year-end.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a summit line would become a corridor</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The RBI says BRICS is discussing linked fast-payment systems<span class="wcc-seen">Seen: RBI governor confirmed BRICS fast payment link talks, 11 August</span></div><div class="wcc-w"><b>Watch:</b> statements by the RBI on fast payment and CBDC linkages moving beyond the discussion stage (Yahoo Finance, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">A CBDC connection proposal goes forward for the summit agenda<span class="wcc-seen">Seen: CBDC connection proposal recommended for the summit agenda</span></div><div class="wcc-w"><b>Watch:</b> the CBDC connection proposal appearing on the final New Delhi summit agenda (Yahoo Finance, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The summit annex names the linked systems and dates</div><div class="wcc-w"><b>Watch:</b> a summit annex naming the instant-payment systems to be linked and a start date (Yahoo Finance, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Member central banks announce corridor pilots after the summit</div><div class="wcc-w"><b>Watch:</b> pilot announcements by BRICS central banks that name a live corridor (Yahoo Finance, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Corridor volumes are published by the central banks</div><div class="wcc-w"><b>Watch:</b> published corridor volumes set against Hong Kong's 75.90% share of offshore renminbi transactions (Trade Treasury Payments, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: BRICS fast-payment systems link in a working corridor</div><div class="wcc-w"><b>Watch:</b> payments clearing between BRICS instant-payment systems without a dollar or euro leg (Trade Treasury Payments, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The RBI says fast-payment and CBDC linkages are under discussion and a CBDC connection proposal was recommended for the summit agenda (<a href="https://finance.yahoo.com/markets/currencies/articles/brics-nations-discuss-linking-payment-071524620.html" target="_blank">Yahoo Finance</a>, August 2026). Hong Kong's 75.90% share of offshore renminbi shows how concentrated the existing alternative is (<a href="https://tradetreasurypayments.com/articles/usd-leads-global-payments-swifts-global-currency-tracker-july-2026" target="_blank">Trade Treasury Payments</a>, July 2026).</p>
 </div>
 <div class="implications">

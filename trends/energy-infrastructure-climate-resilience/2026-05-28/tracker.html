@@ -79,6 +79,49 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
   .programme-footer .programme-cta:hover { opacity: 0.9; }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -241,16 +284,26 @@
 </ol>
 </div>
 
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 
 <div class="wild-card risk">
 <h4>Compound peak-loss year materialises</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A 2026 secondary-peril cluster pushing insured losses toward the modelled peak.</p>
-<p><strong>Early warning indicators:</strong> Above-normal Atlantic SSTs by July; multi-state convective storms in May-June; Pacific wildfire above 2025 baseline.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the losses would pile up</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Secondary perils drive a record share of insured losses<span class="wcc-seen">Seen: a record 92% of 2025 insured losses from secondary perils</span></div><div class="wcc-w"><b>Watch:</b> the secondary-peril share of insured catastrophe losses, called at or above the record 92% of 2025 (Swiss Re Institute, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Convective storms strike several states in May and June</div><div class="wcc-w"><b>Watch:</b> first-half insured catastrophe losses running ahead of 2025, when the full year reached USD 108 bn (Munich Re, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Atlantic sea temperatures run above normal by July</div><div class="wcc-w"><b>Watch:</b> monthly Atlantic sea surface temperatures for July above the 1991-2020 average (Copernicus Climate Change Service, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Pacific wildfires burn beyond the 2025 baseline</div><div class="wcc-w"><b>Watch:</b> year-end Pacific wildfire insured losses above the 2025 baseline set by the Los Angeles fires (Munich Re, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: insured losses reach the modelled peak-loss year</div><div class="wcc-w"><b>Watch:</b> full-year 2026 insured catastrophe losses well above the USD 148 bn base case and nearing the USD 320 bn peak scenario (Swiss Re Institute, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Swiss Re's peak-year scenario points to about USD 320 bn in insured losses in 2026 against a base-case USD 148 bn (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-2026-01-natcat-2025-wildfire-storm-risk.html" target="_blank">Swiss Re sigma</a>, March 2026). That would crystallise the property-insurance retreat now visible in California into a broader sun-belt mortgage event.</p>
 </div>
 
@@ -258,10 +311,20 @@
 <h4>Hyperscaler-backed firm clean capacity goes commercial</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A multi-gigawatt hyperscaler offtake pulling SMRs, geothermal or long-duration storage past first-of-a-kind cost.</p>
-<p><strong>Early warning indicators:</strong> Second NRC construction permit; long-dated PPAs sub-USD 100/MWh; corporate balance-sheet financing.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how firm clean power would become bookable</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The NRC approves a first advanced reactor for construction<span class="wcc-seen">Seen: Natrium approved in March after under 18 months' review</span></div><div class="wcc-w"><b>Watch:</b> technical review times for NRC advanced reactor permits, against under 18 months for Natrium (U.S. Nuclear Regulatory Commission, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The NRC issues a second construction permit at similar pace</div><div class="wcc-w"><b>Watch:</b> a second commercial reactor construction permit issued after a technical review of 18 months or less (U.S. Nuclear Regulatory Commission, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Hyperscalers sign long-dated firm clean PPAs below USD 100/MWh</div><div class="wcc-w"><b>Watch:</b> a disclosed long-dated firm clean power purchase agreement priced below USD 100/MWh (BloombergNEF, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Tech majors finance first plants from their own balance sheets</div><div class="wcc-w"><b>Watch:</b> a tech major funding a named firm clean plant on balance sheet, out of capex that reached USD 400 bn in 2025 (International Energy Agency, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2029</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: hyperscaler-backed firm clean capacity goes commercial</div><div class="wcc-w"><b>Watch:</b> a multi-gigawatt hyperscaler offtake for SMRs, geothermal or long-duration storage reaching financial close (BloombergNEF, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The Natrium permit (<a href="https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf" target="_blank">NRC</a>, March 2026) shows the regulatory machine can move when an application is well prepared. A second and third permit at similar cadence would shift firm clean capacity from speculative to bookable.</p>
 </div>
 
@@ -269,10 +332,20 @@
 <h4>EU resilience deadline reveals a sector-wide gap</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A Member-State audit shows critical-entity coverage below 50% by Q4 2026 in energy or digital infrastructure.</p>
-<p><strong>Early warning indicators:</strong> Late July designations; Commission infringement letters; sector push-back on cross-border resilience requirements.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the coverage gap would surface</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The January deadline for national resilience strategies passes<span class="wcc-seen">Seen: strategy deadline of 17 January 2026 already passed</span></div><div class="wcc-w"><b>Watch:</b> the number of Member States still without a published strategy after the 17 January 2026 deadline (Deloitte, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Member States miss or rush the July designations</div><div class="wcc-w"><b>Watch:</b> critical-entity designations missed by Member States at the 17 July 2026 deadline (Deloitte, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The Commission sends infringement letters to late Member States</div><div class="wcc-w"><b>Watch:</b> letters of formal notice from the Commission to Member States that miss the July designation deadline (Deloitte, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Energy and digital operators push back on cross-border rules</div><div class="wcc-w"><b>Watch:</b> energy or digital infrastructure bodies formally opposing cross-border resilience requirements before the May 2027 compliance date (Deloitte, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: an audit finds critical-entity coverage below 50%</div><div class="wcc-w"><b>Watch:</b> a Member-State audit reporting critical-entity coverage below 50% in energy or digital infrastructure (Deloitte, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Strategies were due 17 January 2026 and designation lands in July (<a href="https://www.internationalsos.com/insights/critical-entities-resilience-directive-compliance" target="_blank">CER commentary</a>, February 2026). A patchy roll-out would re-open the H2 2026 climate-resilience framework consultation just as it is meant to land.</p>
 </div>
 

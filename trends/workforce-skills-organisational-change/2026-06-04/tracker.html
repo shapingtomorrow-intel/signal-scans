@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -276,15 +319,26 @@
 <li><strong>AI agents enter the org as coworkers.</strong> The first agent given defined roles and performance reviews will demand an HR and accountability framework that does not yet exist.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Coordination vacuum from over-flattening</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> Organisations cut managers faster than they install replacement scaffolding, and the coordination function simply fails.</p>
-<p><strong>Early warning indicators:</strong> Rising "directionless" survey signals, spans of control past thirty, quality and error incidents, regretted attrition.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how thin management would stop coordinating</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Firms strip out management layers and widen spans of control<span class="wcc-seen">Seen: Bayer spans average 14, with some managers carrying 90 reports</span></div><div class="wcc-w"><b>Watch:</b> average spans of control against Bayer's 14 and Meta's reported 50 to 1 (Pinnacle, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Employees who lose a manager report feeling directionless<span class="wcc-seen">Seen: 37% who lost a manager felt directionless</span></div><div class="wcc-w"><b>Watch:</b> the share of employees who lost a manager and feel directionless against 37% (Pinnacle, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Spans of control pass thirty at more large employers</div><div class="wcc-w"><b>Watch:</b> spans past thirty reported at large employers beyond Bayer and Meta (Pinnacle, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Quality and error incidents rise at flattened organisations</div><div class="wcc-w"><b>Watch:</b> named quality or error incidents traced to missing coordination at a flattened firm (Fortune, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Regretted attrition climbs among staff left without close managers</div><div class="wcc-w"><b>Watch:</b> manager engagement falling below the 22% of 2025 as regretted exits rise (Gallup, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: coordination fails where managers were cut too fast</div><div class="wcc-w"><b>Watch:</b> a marquee flattened organisation publicly reinstating management layers after a visible failure (Fortune, September 2025).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Spans of fourteen, fifty and ninety break the old limit of what one manager can hold in their head, and Korn Ferry already finds 37% of employees who lost a manager feeling directionless (<a href="https://www.heypinnacle.com/blog/end-of-middle-managers-2026">Pinnacle</a>, May 2026). A visible failure in a marquee flattened organisation could reverse the trend as fast as it arrived.</p>
 </div>
 
@@ -292,10 +346,20 @@
 <h4>Disengagement-driven productivity recession</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> The engagement floor converts into a measurable productivity and quality decline plus a high-performer exodus.</p>
-<p><strong>Early warning indicators:</strong> Falling output per worker, rising voluntary attrition among top performers, mandate-driven resignations.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how disengagement would show up in output</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Global engagement falls to its lowest level since 2020<span class="wcc-seen">Seen: global engagement fell to 20% in 2025</span></div><div class="wcc-w"><b>Watch:</b> global employee engagement against 20% in 2025 (Gallup, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Office mandates harden at the largest employers<span class="wcc-seen">Seen: more than half of Fortune 100 firms moved to fully in-office</span></div><div class="wcc-w"><b>Watch:</b> the share of Fortune 100 firms requiring five office days against more than half (CNBC, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Mandate-driven resignations rise among top performers</div><div class="wcc-w"><b>Watch:</b> named employers reporting top-performer resignations tied to five-day office mandates (CNBC, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Output per worker falls while employment holds steady</div><div class="wcc-w"><b>Watch:</b> the estimated cost of lost productivity rising above $10 trillion (Gallup, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: disengagement turns into a measurable productivity decline</div><div class="wcc-w"><b>Watch:</b> a third consecutive annual fall in engagement, taking it below 20% (Gallup, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Gallup already puts the cost of low engagement at an estimated $10 trillion, and hardening office mandates add friction precisely where goodwill is thinnest (<a href="https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx">Gallup</a>, April 2026). If disengagement and mandate fatigue compound, the productivity gains employers expect from tighter control could invert.</p>
 </div>
 
@@ -303,10 +367,20 @@
 <h4>Verifiable-credential tipping point</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> Skills-based hiring infrastructure matures fast enough to close the talk-walk gap in a single cycle.</p>
-<p><strong>Early warning indicators:</strong> Applicant systems surfacing verifiable credentials, AI screeners weighting them, the non-degree hire share rising.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how credentials would reach the shortlist</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Employers publicly remove degree requirements from job adverts<span class="wcc-seen">Seen: 53% removed degree requirements, up from 30%</span></div><div class="wcc-w"><b>Watch:</b> the share of employers publicly removing degree requirements against 53% (Sertifier, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Applicant systems surface verifiable credentials alongside degrees</div><div class="wcc-w"><b>Watch:</b> a major applicant tracking system displaying verified credentials by default (Sertifier, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">AI screeners weight verified credentials when shortlisting candidates</div><div class="wcc-w"><b>Watch:</b> an AI screening vendor publishing weighting rules that score verified credentials (Sertifier, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Non-degree hires rise well above 1 in 700</div><div class="wcc-w"><b>Watch:</b> the share of new hires without a bachelor's degree rising above 0.14% (Sertifier, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: skills-based hiring practice catches up with the claims</div><div class="wcc-w"><b>Watch:</b> the gap between 85% of employers claiming skills-based hiring and 0.14% of hires reflecting it closing (Sertifier, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The gap between 85% of employers claiming skills-based hiring and under 1 in 700 hires reflecting it has been an infrastructure problem (<a href="https://sertifier.com/blog/skill-based-hiring-2026/">Sertifier</a>, May 2026). If verifiable credentials and AI screening close it, organisations that move first gain access to talent pools their competitors still screen out.</p>
 </div>
 <div class="implications">

@@ -256,6 +256,48 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -446,47 +488,56 @@ on 4 September (<a href="https://sustainablefutures.linklaters.com/post/102n88h/
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>First GPAI enforcement action against a frontier provider</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A regime live since August opens a first case against a named provider.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>AI Office and national authorities begin enforcing<span class="wcp-seen">Seen: from 2 August</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>The Omnibus widens AI Office oversight<span class="wcp-seen">Seen: in force 27 July</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>A formal information request to a named provider becomes public</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Preliminary findings of non-compliance are notified</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: a fine or binding order hits a frontier model provider</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the first fine would arrive</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">AI Office and national authorities begin enforcing<span class="wcc-seen">Seen: from 2 August</span></div><div class="wcc-w"><b>Watch:</b> the date AI Office and national authority enforcement of the AI Act begins (European Commission, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The Omnibus widens AI Office oversight<span class="wcc-seen">Seen: in force 27 July</span></div><div class="wcc-w"><b>Watch:</b> entry into force of the AI Omnibus extending AI Office oversight of systems built on general-purpose models (European Commission, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A formal information request to a named provider becomes public</div><div class="wcc-w"><b>Watch:</b> a published formal request for information naming a general-purpose model provider (European Commission, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Preliminary findings of non-compliance are notified</div><div class="wcc-w"><b>Watch:</b> preliminary findings notified to a named model provider and confirmed by the provider or the Commission (European Commission, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a fine or binding order hits a frontier model provider</div><div class="wcc-w"><b>Watch:</b> a Commission fine or binding order against a frontier model provider, as it fined Google under the DMA (European Commission, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The AI Office can already enforce (<a href="https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august" target="_blank">European Commission</a>, July 2026) over systems built on general-purpose models (<a href="https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force" target="_blank">European Commission</a>, July 2026). A first case would price an untested regime.</p>
 </div>
 <div class="wild-card risk">
 <h4>A court applies pay transparency before national law arrives</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> An equal-pay judgment applies the directive where it is not yet national law.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>The transposition deadline passes with most states unready<span class="wcp-seen">Seen: few states in force on 7 June</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Advisers tell employers the delay buys no time<span class="wcp-seen">Seen: Morgan Lewis guidance</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>A claimant cites the directive in an untransposed state</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>A national court accepts a directive-consistent reading</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: a judgment awards equal-pay remedies before national law exists</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a judgment would outrun statute</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The transposition deadline passes with most states unready<span class="wcc-seen">Seen: few states in force on 7 June</span></div><div class="wcc-w"><b>Watch:</b> the count of member states with an effective date of 7 June 2026 (Morgan Lewis, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Advisers tell employers the delay buys no time<span class="wcc-seen">Seen: Morgan Lewis guidance</span></div><div class="wcc-w"><b>Watch:</b> adviser guidance that fragmented transposition does not buy employers time (Morgan Lewis, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A claimant cites the directive in an untransposed state</div><div class="wcc-w"><b>Watch:</b> an equal-pay claim pleading the directive in a member state still drafting its law (L&amp;E Global, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A national court accepts a directive-consistent reading</div><div class="wcc-w"><b>Watch:</b> a national court ruling that reads equal-pay law consistently with the directive before transposition (L&amp;E Global, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a judgment awards equal-pay remedies before national law exists</div><div class="wcc-w"><b>Watch:</b> a judgment awarding equal-pay remedies in a state, such as Denmark, still anticipating implementation in 2027 (L&amp;E Global, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Morgan Lewis argues fragmented transposition does not buy employers time (<a href="https://www.morganlewis.com/pubs/2026/06/eu-pay-transparency-directive-the-deadline-for-transposition-has-passed-what-now" target="_blank">Morgan Lewis</a>, June 2026), and most states are still drafting (<a href="https://leglobal.law/2026/07/28/eu-pay-transparency-member-states-near-transposition-finish-line/" target="_blank">L&E Global</a>, July 2026). One judgment would make national timetables beside the point.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>The Google search remedy ships worldwide</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A remedy ordered for one bloc becomes the global default.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>The Commission orders Google to end self-preferencing<span class="wcp-seen">Seen: ordered with a 60-day clock</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Google starts changing search results in Europe<span class="wcp-seen">Seen: Commission confirms changes</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>The Commission assesses the changes and consults third parties</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Google applies the same layout outside Europe</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: referral traffic reprices worldwide for comparison sites</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the remedy would go global</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Commission orders Google to end self-preferencing<span class="wcc-seen">Seen: ordered with a 60-day clock</span></div><div class="wcc-w"><b>Watch:</b> a DMA decision requiring Google to comply within 60 days or face periodic penalty payments (PPC Land, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Google starts changing search results in Europe<span class="wcc-seen">Seen: Commission confirms changes</span></div><div class="wcc-w"><b>Watch:</b> Commission confirmation that Google has started changing how it displays search results (The Next Web, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The Commission assesses the changes and consults third parties</div><div class="wcc-w"><b>Watch:</b> a Commission request for views from market participants on Google's search changes (The Next Web, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Google applies the same layout outside Europe</div><div class="wcc-w"><b>Watch:</b> the redesigned layout visible in UK search, where the CMA already sets conduct requirements for Google (Competition and Markets Authority, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: referral traffic reprices worldwide for comparison sites</div><div class="wcc-w"><b>Watch:</b> comparison sites outside Europe reporting referral traffic shifts after the redesign (The Next Web, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The order targets self-preferencing in Search (<a href="https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en" target="_blank">European Commission</a>, July 2026) and changes are under way (<a href="https://thenextweb.com/news/eu-google-dma-fine-talks" target="_blank">The Next Web</a>, October 2026). If the redesign ships beyond Europe, referral traffic reprices where nobody legislated.</p>
 </div>
 <div class="implications">

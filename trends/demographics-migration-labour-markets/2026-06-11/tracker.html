@@ -90,6 +90,49 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
   .programme-footer .programme-cta:hover { opacity: 0.9; }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -282,16 +325,26 @@
 </ol>
 </div>
 
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 
 <div class="wild-card risk">
 <h4>Ultra-low fertility tips into self-reinforcing decline</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span>
 </p>
 <p><strong>Surprise characteristics:</strong> fertility falls below 1.0 in a widening set of economies faster than projections assume, with deferred births becoming foregone rather than delayed.</p>
-<p><strong>Early warning indicators:</strong> sub-0.8 fertility spreading beyond East Asia; cohort data confirming permanent rather than tempo effects.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how low fertility would feed on itself</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Fertility falls in rich and poor countries for six decades<span class="wcc-seen">Seen: rich to poor gap narrowed from three children to under one</span></div><div class="wcc-w"><b>Watch:</b> the fertility gap between the poorest and richest countries, called while it stays below one child per woman (Federal Reserve Bank of St. Louis, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Fertility below 0.8 spreads to economies beyond East Asia</div><div class="wcc-w"><b>Watch:</b> national total fertility rates, called when a country outside East Asia reports a rate below 0.8 (Federal Reserve Bank of St. Louis, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Cohort data show deferred births are foregone, not delayed</div><div class="wcc-w"><b>Watch:</b> completed fertility for women reaching their forties, called when cohorts show no catch-up on births deferred in their twenties (Federal Reserve Bank of St. Louis, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Workforce projections are cut faster than migration can offset</div><div class="wcc-w"><b>Watch:</b> projected native-born workforce, called when a new projection deepens the shrinking path that AI and migration cannot fill (Indeed Hiring Lab, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: fertility falls below 1.0 widely and keeps falling</div><div class="wcc-w"><b>Watch:</b> the number of economies with total fertility below 1.0, called when it rises faster than official projections assumed (Federal Reserve Bank of St. Louis, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The global decline has run for six decades and the gap between rich and poor countries has narrowed to under one child per woman (<a href="https://www.stlouisfed.org/on-the-economy/2026/jun/declining-fertility-rates-across-world">St. Louis Fed</a>, June 2026). A faster-than-modelled drop would compress the future labour force and tax base beyond what any migration or retirement-age response could offset.</p>
 </div>
 
@@ -299,10 +352,20 @@
 <h4>Embodied AI and robotics close part of the care gap</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span>
 </p>
 <p><strong>Surprise characteristics:</strong> assistive and care robotics reach production-grade deployment in hospitals and aged care sooner than expected, easing the sector least amenable to automation.</p>
-<p><strong>Early warning indicators:</strong> scaled procurement of care and logistics robots by health systems; measurable output-per-worker gains in elder care rather than pilots.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how robots would reach the care floor</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">AI reshapes work but cannot fill the demographic gap<span class="wcc-seen">Seen: AI shifts work but cannot fully offset the demographic gap</span></div><div class="wcc-w"><b>Watch:</b> employer evidence on AI and headcount, called while AI adds new roles alongside the tasks it automates (International Monetary Fund, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Health systems buy care and logistics robots at scale</div><div class="wcc-w"><b>Watch:</b> health system orders for care and logistics robots, called when one national system buys beyond pilot volumes (International Labour Organization, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Elder care shows measured output per worker gains, not pilots</div><div class="wcc-w"><b>Watch:</b> output per worker in elder care, called on a sustained rise in a national care workforce series (International Labour Organization, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Ageing societies scale back plans to recruit care staff abroad</div><div class="wcc-w"><b>Watch:</b> shortage occupation listings, called when healthcare is dropped from a talent matching scheme such as the EU Talent Pool (European Parliament, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: robotics close part of the care gap early</div><div class="wcc-w"><b>Watch:</b> care demand met against care workers available, called when the gap narrows in an ageing economy without more hiring (International Labour Organization, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>AI is so far framed as a partial offset that reshapes rather than replaces work (<a href="https://www.hiringlab.org/2026/05/14/how-a-shrinking-workforce-ai-and-labor-reallocation-will-define-the-next-15-years/">Indeed Hiring Lab</a>, May 2026), with new roles expected to emerge alongside automation (<a href="https://www.imf.org/-/media/files/publications/sdn/2026/english/sdnea2026001.pdf">IMF</a>, January 2026). A genuine productivity breakthrough in care would change the build-versus-import calculus for ageing societies.</p>
 </div>
 
@@ -310,10 +373,20 @@
 <h4>Deportation and remittance shock destabilises origin economies</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> a US enforcement-driven outflow combines with the new remittance tax to cut transfers to Central American and Caribbean economies sharply and at once.</p>
-<p><strong>Early warning indicators:</strong> falling remittance-to-GDP ratios in El Salvador, Guatemala and Honduras; reverse-migration pressure in high-dependence states.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a remittance squeeze would spread</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">US enforcement shrinks employment of unauthorised immigrants<span class="wcc-seen">Seen: employment contracting by an annual equivalent 310,000 workers</span></div><div class="wcc-w"><b>Watch:</b> monthly employment of unauthorised immigrants, called while the fall averages 26,000 a month or more (Federal Reserve Bank of Dallas, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">A 1% US tax on cash remittances takes effect<span class="wcc-seen">Seen: 1% excise tax on cash remittances in force from January 2026</span></div><div class="wcc-w"><b>Watch:</b> formal remittance flows from the US, called if they fall by the projected 1.6% or more (Tax Notes, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Remittance shares of GDP fall in El Salvador, Guatemala and Honduras</div><div class="wcc-w"><b>Watch:</b> remittances as a share of national income in El Salvador, Guatemala and Honduras, called on falls in two successive quarters (Tax Notes, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Returning migrants add pressure in high dependence states</div><div class="wcc-w"><b>Watch:</b> net international migration to the US, called if it stays negative through 2026 as projected (Brookings Institution, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: transfers fall sharply and destabilise origin economies</div><div class="wcc-w"><b>Watch:</b> remittance flows to Central American and Caribbean economies, called on a fall far beyond the 1.6% the tax alone implies (Tax Notes, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Employment of unauthorized immigrants is already contracting by an annual-equivalent 310,000 (<a href="https://www.dallasfed.org/research/economics/2026/0113">Dallas Fed</a>, January 2026), and a 1% US excise tax on cash remittances took effect on 1 January 2026 (<a href="https://www.taxnotes.com/featured-analysis/remittance-tax-arrival-raises-questions-and-action-plans/2026/01/15/7tw2k">Tax Notes</a>, January 2026). Acting together, the two could destabilise economies where remittances are a major share of national income.</p>
 </div>
 

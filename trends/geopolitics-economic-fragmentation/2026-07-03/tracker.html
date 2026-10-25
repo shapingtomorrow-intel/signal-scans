@@ -153,6 +153,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -277,26 +320,57 @@
 <li><strong>Connector economies and friend-shoring.</strong> A US tariff action against a surplus connector like Vietnam would show the limits of rerouting.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>The Section 122 surcharge lapses into an uncapped tariff war</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> The 24 July expiry passes without extension and Section 301 escalates country-by-country, uncapped and without a clock.</p>
-<p><strong>Early warning indicators:</strong> No congressional extension; fresh Section 301 determinations; retaliation.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the lapse would become a war</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Section 301 investigations line up to replace the IEEPA tariffs<span class="wcc-seen">Seen: USTR made affirmative findings in all 60 forced-labour cases</span></div><div class="wcc-w"><b>Watch:</b> affirmative Section 301 determinations and the 10 to 12.5% duties proposed with them (Sheppard Mullin, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The Section 122 surcharge expires on 24 July without extension</div><div class="wcc-w"><b>Watch:</b> no act of Congress extending the surcharge before 24 July 2026 (Baker Donelson, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">USTR imposes Section 301 duties above the proposed rates</div><div class="wcc-w"><b>Watch:</b> final Section 301 duties above the proposed 10 to 12.5% on any of the 60 economies (Sheppard Mullin, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Major partners announce retaliation against the new duties</div><div class="wcc-w"><b>Watch:</b> a major partner publishing a counter-tariff list in response to Section 301 duties (Holland &amp; Knight, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: uncapped Section 301 duties escalate country by country</div><div class="wcc-w"><b>Watch:</b> successive Section 301 rounds raising rates on the same economies with no cap and no end date (Baker Donelson, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The Section 122 cap and clock expire on 24 July, while Section 301 duties are neither capped nor time-bound (<a href="https://www.bakerdonelson.com/trade-policy-shifts-ieepa-tariffs-end-section-122-begins-and-sections-301-and-232-activity-grows" target="_blank">Baker Donelson</a>, February 2026). Our reading is that the lapse, not any single tariff, is the hazard.</p>
 </div>
 <div class="wild-card risk">
 <h4>A secondary-sanctions hit on a large third-country bank triggers contagion</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Enforcement against a systemically important non-Russian bank cascades into funding stress.</p>
-<p><strong>Early warning indicators:</strong> New third-country bank designations; correspondent withdrawals; dollar-funding strain.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how one designation would spread</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The EU sanctions third-country banks under anti-circumvention powers<span class="wcc-seen">Seen: 20th package used the anti-circumvention tool for the first time</span></div><div class="wcc-w"><b>Watch:</b> new EU listings naming banks outside Russia for circumvention (Council of the European Union, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Designations reach a systemically important non-Russian bank</div><div class="wcc-w"><b>Watch:</b> a sanctions listing naming a large deposit-taking bank in a third country rather than a small intermediary (Council of the European Union, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Correspondent banks withdraw from the designated bank's counterparties</div><div class="wcc-w"><b>Watch:</b> correspondent banks publicly exiting relationships with counterparties in the designated bank's home market (Council of the European Union, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Dollar funding strain spreads through the bank's home market</div><div class="wcc-w"><b>Watch:</b> dollar funding stress in that market named as a financial stability risk (International Monetary Fund, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a sanctioned third-country bank triggers funding contagion</div><div class="wcc-w"><b>Watch:</b> funding stress spreading to banks not named in any sanctions listing (International Monetary Fund, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The EU's 20th package already sanctioned third-country banks and used anti-circumvention powers for the first time (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/04/23/russia-s-war-of-aggression-against-ukraine-20th-round-of-stern-eu-sanctions-hits-energy-military-industrial-complex-trade-and-financial-services-including-crypto/" target="_blank">Council of the EU</a>, April 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>A non-dollar oil-settlement layer reaches usable scale</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Petroyuan invoicing via CIPS becomes routine for a bloc of oil trades, not just sanctions workarounds.</p>
-<p><strong>Early warning indicators:</strong> Rising CIPS oil-linked volumes; yuan tolls at Hormuz; new multi-currency corridors.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how petroyuan trades would become routine</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">CIPS moves to multi-currency settlement<span class="wcc-seen">Seen: CIPS rules updated in February 2026 for multi-currency settlement</span></div><div class="wcc-w"><b>Watch:</b> a CIPS rule change allowing settlement in currencies beyond the yuan (Disruption Banking, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Iran-driven yuan oil demand pushes CIPS to record volumes<span class="wcc-seen">Seen: a record RMB 1.22tn ($178.5bn) cleared in a single day</span></div><div class="wcc-w"><b>Watch:</b> the CIPS average daily volume against the RMB 920.5bn March record (FXC Intelligence, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Oil-linked CIPS volumes keep growing beyond sanctions workarounds</div><div class="wcc-w"><b>Watch:</b> the CIPS average daily volume holding above RMB 920.5bn with oil trades outside sanctioned flows (FXC Intelligence, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Yuan tolls or yuan invoicing appear for Hormuz cargoes</div><div class="wcc-w"><b>Watch:</b> a Gulf cargo invoiced or tolled in yuan and cleared through CIPS (Disruption Banking, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">New multi-currency oil corridors open beyond Iran and Russia</div><div class="wcc-w"><b>Watch:</b> the yuan share of SWIFT payments rising above 3% against 51% for the dollar (FXC Intelligence, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: petroyuan invoicing via CIPS becomes routine for a bloc</div><div class="wcc-w"><b>Watch:</b> a bloc of oil buyers and sellers invoicing crude in yuan through CIPS as a matter of course (Disruption Banking, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>CIPS already set records amid Iran-driven yuan oil demand and moved to multi-currency settlement (<a href="https://www.disruptionbanking.com/2026/04/14/chinas-swift-challenger-breaks-records-as-petrodollar-looms/" target="_blank">Disruption Banking</a>, April 2026).</p>
 </div>
 <div class="implications">

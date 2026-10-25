@@ -154,6 +154,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -325,26 +368,56 @@ closes without contractual text, bilateral terms become the working standard by 
 losing status makes outbreak response a recurring state budget line.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Bundibugyo transmission establishes in Kinshasa</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Sustained transmission reaches a major urban centre on the river network, in an epidemic caused by a species with no licensed vaccine or approved treatment.</p>
-<p><strong>Early warning indicators:</strong> Confirmed cases in Tshopo spreading downstream; contact follow-up falling below current levels; new health zones along waterway corridors.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the river would carry the virus</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The outbreak spreads to new health zones and provinces<span class="wcc-seen">Seen: 60 health zones in six provinces, up from 54</span></div><div class="wcc-w"><b>Watch:</b> health zones affected rising past 60, or provinces past six, in the next situation report (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">WHO treats the river route to Kinshasa as live<span class="wcc-seen">Seen: surveillance ordered on vessels running to Kinshasa</span></div><div class="wcc-w"><b>Watch:</b> vessel surveillance on inland waterways to Kinshasa in place and reporting screened passengers (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Confirmed cases in Tshopo spread downstream along the river</div><div class="wcc-w"><b>Watch:</b> confirmed cases in health zones downstream of Tshopo on the waterway corridor to Kinshasa (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Contact follow-up falls below current levels</div><div class="wcc-w"><b>Watch:</b> the share of contacts followed up falling below the level in the 28 August situation report (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: sustained Bundibugyo transmission establishes in Kinshasa</div><div class="wcc-w"><b>Watch:</b> confirmed cases in Kinshasa with no travel link to the east, across successive situation reports (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>WHO's 24 August recommendations already ask the Democratic Republic of the Congo to put surveillance on vessels running to Kinshasa (<a href="https://www.who.int/news/item/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations" target="_blank">World Health Organization</a>, August 2026). That instruction is the tell: the route is being treated as live.</p>
 </div>
 <div class="wild-card risk">
 <h4>Bilateral pathogen deals become the working standard</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> The multilateral annex stalls, and pathogen-access terms are set instead by bilateral agreements attached to bilateral funding.</p>
-<p><strong>Early warning indicators:</strong> The September round closing without contractual text; further states signing or refusing US terms; rulings in the Kenya and DRC challenges.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how bilateral terms would become the norm</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">African states refuse US data and pathogen-sharing terms<span class="wcc-seen">Seen: Namibia joins Zimbabwe and Ghana in rejecting US demands</span></div><div class="wcc-w"><b>Watch:</b> a further state refusing or signing US bilateral health terms tied to pathogen sharing (Health Policy Watch, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The multilateral annex leaves contractual arrangements open<span class="wcc-seen">Seen: July round closed without a finalised annex</span></div><div class="wcc-w"><b>Watch:</b> contractual arrangements and the definition of benefits still unresolved as annex talks continue (World Health Organization, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The September annex round closes without contractual text</div><div class="wcc-w"><b>Watch:</b> the eighth meeting, 14 to 18 September 2026, ending without agreed contractual text (World Health Organization, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Courts let the Kenya and DRC bilateral agreements stand</div><div class="wcc-w"><b>Watch:</b> rulings in the Kenya or DRC challenges that leave the bilateral agreements in force (Health Policy Watch, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: bilateral agreements set the terms of pathogen access</div><div class="wcc-w"><b>Watch:</b> pathogen samples shared mainly under bilateral funding agreements while the WHO annex remains unfinished (Health Policy Watch, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Three African states have already refused the terms and two signed agreements are in court (<a href="https://healthpolicy-watch.news/namibia-rejects-us-demands-for-data-and-pathogen-sharing/" target="_blank">Health Policy Watch</a>, September 2026), while the multilateral text still has its contractual arrangements open (<a href="https://www.who.int/news/item/20-07-2026-who-member-states-continue-negotiations-on-the-pathogen-access-and-benefit-sharing-annex" target="_blank">World Health Organization</a>, July 2026). Taken together, the sources suggest the default is drifting toward whoever pays.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>Ervebo shows cross-protection against Bundibugyo</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A vaccine licensed against a different Ebola species turns out to protect in the middle of an epidemic it was never designed for.</p>
-<p><strong>Early warning indicators:</strong> Early signals from the clinical trial running alongside health-worker vaccination; updated WHO vaccine prioritisation advice.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a borrowed vaccine would prove itself</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Health workers in Kisangani receive Ervebo alongside a trial<span class="wcc-seen">Seen: vaccination began in Kisangani on 27 August</span></div><div class="wcc-w"><b>Watch:</b> health-worker doses given and trial enrolment reported in each situation report after 27 August (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Vaccination widens to more health zones as the trial enrols</div><div class="wcc-w"><b>Watch:</b> reported Ervebo vaccination in health zones beyond Kisangani, across the 60 now affected (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Early trial signals show fewer infections among vaccinated workers</div><div class="wcc-w"><b>Watch:</b> trial data showing fewer Bundibugyo infections among vaccinated health workers than among unvaccinated peers (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">WHO updates its vaccine prioritisation advice for Bundibugyo</div><div class="wcc-w"><b>Watch:</b> revised temporary recommendations from the IHR Emergency Committee naming Ervebo for wider use (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: Ervebo proves protective against Bundibugyo</div><div class="wcc-w"><b>Watch:</b> a trial result showing protection against Bundibugyo in humans, which WHO says is not yet known (World Health Organization, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Health-worker vaccination with Ervebo began in Kisangani on 27 August alongside a trial, and WHO is explicit that protection against Bundibugyo in humans is not known (<a href="https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616" target="_blank">World Health Organization</a>, August 2026). A clean result would move the response from containment toward interruption.</p>
 </div>
 <div class="implications">

@@ -206,6 +206,49 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -397,19 +440,41 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>A gated private credit fund is forced to remark its book</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Redemption queues expose valuations that the gates have kept from the market.</p>
-<p><strong>Early warning indicators:</strong> Fulfilment ratios falling below the 5% cap; secondary trades at discounts to NAV; a sponsor suspending repurchases outright.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the gates would give way</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Repurchase requests run far above quarterly caps<span class="wcc-seen">Seen: requests hit 12.4% of NAV, highest Stanger has recorded</span></div><div class="wcc-w"><b>Watch:</b> non-traded BDC repurchase requests, called if they stay above the 12.4% of NAV recorded in the second quarter (AltsWire, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Sponsors fulfil only part of requests and slow outflows<span class="wcc-seen">Seen: sponsors fulfilled 38% of requests, returning $5.9 billion</span></div><div class="wcc-w"><b>Watch:</b> fulfilment ratios, called if sponsors meet less than the 38% of requests fulfilled in the second quarter (AltsWire, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Fulfilment falls well below the 5% cap at a large fund</div><div class="wcc-w"><b>Watch:</b> quarterly repurchases at large non-traded funds, called when one pays out well under the usual 5% of NAV cap (EveryCRSReport, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A sponsor suspends repurchases outright</div><div class="wcc-w"><b>Watch:</b> fund repurchase programmes, called when a sponsor suspends one rather than prorating (Bank of England, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Secondary trades price fund shares at discounts to NAV</div><div class="wcc-w"><b>Watch:</b> secondary trades in gated fund shares, called on a discount to reported net asset value (EveryCRSReport, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: a gated fund is forced to remark its book</div><div class="wcc-w"><b>Watch:</b> reported net asset value at a gated fund, called on a markdown after redemption queues expose stale marks (Financial Stability Board, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>CRS describes the incentive: earlier redeeming investors get cashed out at net asset value, which rewards leaving before a stale mark is corrected (<a href="https://www.everycrsreport.com/reports/IN12674.html" target="_blank">EveryCRSReport</a>, April 2026). The FSB's point that the market is untested at its current size (<a href="https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/" target="_blank">Financial Stability Board</a>, May 2026) is what would make a remark a sector event.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>The digital euro holding limit lands well above the bank-margin case</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Trilogues settle on a limit that follows the ECB's run modelling rather than bank net interest income.</p>
-<p><strong>Early warning indicators:</strong> A presidency compromise near the ECB's 5,000 euro threshold; a non-zero business limit; bank lobbying shifting to compensation.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the limit would be set high</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Digital euro trilogues open with holding limits unresolved<span class="wcc-seen">Seen: trilogues under way since 13 July</span></div><div class="wcc-w"><b>Watch:</b> the holding limit file in trilogues, called when it moves from opening positions to compromise text (OMFIF, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">ECB modelling finds bank liquidity concerns only above 5,000 euros<span class="wcc-seen">Seen: real concerns only above a limit of 5,000 euros</span></div><div class="wcc-w"><b>Watch:</b> the ECB's modelled threshold, called while it stays at 5,000 euros in updated studies (OMFIF, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A presidency compromise lands near the 5,000 euro threshold</div><div class="wcc-w"><b>Watch:</b> the Irish presidency compromise text, called when it sets an individual limit at or near 5,000 euros (OMFIF, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Businesses are granted a holding limit above zero</div><div class="wcc-w"><b>Watch:</b> the business holding limit, called when a compromise lifts it above zero (OMFIF, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Bank lobbying shifts from the limit to compensation</div><div class="wcc-w"><b>Watch:</b> bank association positions, called when they press on the compensation model rather than the limit (OMFIF, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: the agreed limit lands well above the bank-margin case</div><div class="wcc-w"><b>Watch:</b> the agreed individual holding limit, called if it sits at or above the 5,000 euros the ECB's modelling allows (OMFIF, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>OMFIF argues the limit chiefly protects a bank margin: even in an extreme run scenario only nine of roughly 2,000 banks assessed would risk breaching their liquidity buffers (<a href="https://www.omfif.org/2026/09/whose-interest-does-the-digital-euros-holding-limit-really-serve/" target="_blank">OMFIF</a>, September 2026). A higher limit resets the outflow parameter bank treasuries plan against.</p>
 </div>
 <div class="implications">

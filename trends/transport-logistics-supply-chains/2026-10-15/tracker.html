@@ -256,6 +256,48 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -450,19 +492,22 @@ in January 2027 against about 32 million tonnes of eligible credits, a fraction 
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Gulf loadings stop as insurers withdraw cover</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A shuttle system moving near pre-war volumes stops the day cover is withdrawn.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>War closes the strait to routine transits<span class="wcp-seen">Seen: from over 130 daily transits to 10 in July</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Attacks reach a wartime high while shuttles rebuild volumes<span class="wcp-seen">Seen: 12 attacks in the week to 7 October</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>Underwriters refuse spot cover for Gulf calls</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Shuttle transfers halt and loadings back up at terminals</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: Gulf loadings stop for weeks and distance is repriced worldwide</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how war cover would run out</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">War closes the strait to routine transits<span class="wcc-seen">Seen: from over 130 daily transits to 10 in July</span></div><div class="wcc-w"><b>Watch:</b> daily Hormuz transits against over 130 a day before the war began on 28 February (S&amp;P Global Commodity Insights, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Attacks reach a wartime high while shuttles rebuild volumes<span class="wcc-seen">Seen: 12 attacks in the week to 7 October</span></div><div class="wcc-w"><b>Watch:</b> weekly attacks on ships in the strait against 12 in the week to 7 October, the highest of the war (USNI News, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Underwriters refuse spot cover for Gulf calls</div><div class="wcc-w"><b>Watch:</b> war-risk quotes above 10% of hull value, or a named broker reporting Gulf cover unavailable (S&amp;P Global Commodity Insights, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Shuttle transfers halt and loadings back up at terminals</div><div class="wcc-w"><b>Watch:</b> weekly strait transits counted by Lloyd's List Intelligence falling well below the 143 of early October (USNI News, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: Gulf loadings stop for weeks and distance is repriced worldwide</div><div class="wcc-w"><b>Watch:</b> daily Hormuz transits back at or below the 10 seen on 21 July, with shuttle tankers idle (S&amp;P Global Commodity Insights, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Marsh warned the market could pull in its horns on Gulf cover (<a href="https://www.spglobal.com/energy/en/news-research/latest-news/shipping/072226-middle-east-shipping-insurance-costs-rise-on-hormuz-risks-marsh" target="_blank">S&P Global Commodity Insights</a>, July 2026), and strikes came near daily in early October (<a href="https://news.usni.org/2026/10/09/october-sees-near-daily-strikes-on-ships-in-hormuz" target="_blank">USNI News</a>, October 2026). Cover,
 not the channel itself, is the single point of failure.</p>
 </div>
@@ -470,14 +515,17 @@ not the channel itself, is the single point of failure.</p>
 <h4>Driverless corridors set the marginal cost of US truckload</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2030</span></p>
 <p><strong>Surprise characteristics:</strong> A 10-route network jumps to fleet scale faster than truck replacement cycles allow.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>Driverless trucks run paid freight on Sun Belt corridors<span class="wcp-seen">Seen: 10 routes in commercial service</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Second-generation hardware enters service at production cost<span class="wcp-seen">Seen: in service since July, nearly 440,000 miles logged</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>Roush reaches its 1,000-truck annual run-rate</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>A major carrier converts a full lane to driverless</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: driverless sets the marginal rate on a big US lane</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how driverless freight would reach scale</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Driverless trucks run paid freight on Sun Belt corridors<span class="wcc-seen">Seen: 10 routes in commercial service</span></div><div class="wcc-w"><b>Watch:</b> driverless routes in paid commercial service against the 10 in Aurora's Sun Belt network (ACT News, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Second-generation hardware enters service at production cost<span class="wcc-seen">Seen: in service since July, nearly 440,000 miles logged</span></div><div class="wcc-w"><b>Watch:</b> cumulative driverless miles against nearly 440,000 logged by the end of June (ACT News, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Roush reaches its 1,000-truck annual run-rate</div><div class="wcc-w"><b>Watch:</b> annual production at Roush reaching a run-rate of 1,000 Aurora trucks, its target for the end of the year (ACT News, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A major carrier converts a full lane to driverless</div><div class="wcc-w"><b>Watch:</b> a carrier's planned 500-truck purchase delivered and running one full lane without drivers (ACT News, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: driverless sets the marginal rate on a big US lane</div><div class="wcc-w"><b>Watch:</b> driverless capacity quoted below human-driven truckload rates on a Sun Belt lane and setting the price there (ACT News, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2030</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Roush is targeting an annual production run-rate of 1,000 Aurora trucks by the end of the year, and one carrier already plans a 500-truck purchase
 (<a href="https://www.act-news.com/news/auroras-second-generation-driverless-trucks-enter-commercial-service-on-10-u-s-routes/" target="_blank">ACT News</a>, July 2026). Manufacturing, not permits, now sets the ceiling.</p>
 </div>

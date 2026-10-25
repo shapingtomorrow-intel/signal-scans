@@ -248,6 +248,48 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -427,42 +469,51 @@
 <h4>The junior-hiring rebound</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Heavy AI adopters grow junior headcount rather than cut it.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>AI shows no clear effect on jobs so far<span class="wcp-seen">Seen: no strong evidence yet</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Employers&rsquo; announced hiring plans rise despite AI adoption<span class="wcp-seen">Seen: up 37% year to date</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>The next Stanford data narrows the 19% young-worker gap</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Graduate unemployment turns down as entry-level openings return</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: heavy AI adopters grow junior headcount rather than cut it</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how AI adopters would hire juniors again</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">AI shows no clear effect on jobs so far<span class="wcc-seen">Seen: no strong evidence yet</span></div><div class="wcc-w"><b>Watch:</b> any statistically distinguishable effect of AI on employment shares in exposed occupations (The Budget Lab at Yale, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Employers’ announced hiring plans rise despite AI adoption<span class="wcc-seen">Seen: up 37% year to date</span></div><div class="wcc-w"><b>Watch:</b> year-to-date announced hiring plans against a 37% rise (Challenger, Gray &amp; Christmas, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The next Stanford data narrows the 19% young-worker gap</div><div class="wcc-w"><b>Watch:</b> the gap for 22 to 25 year olds in highly AI-exposed jobs falling below about 19% (Stanford Digital Economy Lab, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Graduate unemployment turns down as entry-level openings return</div><div class="wcc-w"><b>Watch:</b> the hires rate rising above the 3.3% of August as job openings hold near 7.1 million (U.S. Bureau of Labor Statistics, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: heavy AI adopters grow junior headcount rather than cut it</div><div class="wcc-w"><b>Watch:</b> junior hiring growing where AI complements work, reversing the fall in junior hiring Harker describes (Fortune, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Yale finds no strong evidence of AI impacts yet (<a href="https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening">The Budget Lab at Yale</a>, May 2026), and announced hiring plans are up 37% year to date (<a href="https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/">Challenger, Gray & Christmas</a>, September 2026). Carried from last cycle.</p>
 </div>
 <div class="wild-card risk">
 <h4>Layoffs return as the low-hire market tips into firing</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Announced cuts break from the low-fire pattern without an AI label.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>Hiring slows to a low rate<span class="wcp-seen">Seen: hires rate 3.3% in August</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Layoffs stay low while hiring stalls<span class="wcp-seen">Seen: 1.6 million in August</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>Monthly announced cuts rise above last year&rsquo;s run-rate</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Official US layoff figures climb clearly above 1.6 million</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: the low-hire market tips into firing, without an AI label</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a low-hire market would turn to firing</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Hiring slows to a low rate<span class="wcc-seen">Seen: hires rate 3.3% in August</span></div><div class="wcc-w"><b>Watch:</b> the hires rate against 3.3% in August (U.S. Bureau of Labor Statistics, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Layoffs stay low while hiring stalls<span class="wcc-seen">Seen: 1.6 million in August</span></div><div class="wcc-w"><b>Watch:</b> layoffs and discharges against 1.6 million, or 1.0%, in August (U.S. Bureau of Labor Statistics, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Monthly announced cuts rise above last year’s run-rate</div><div class="wcc-w"><b>Watch:</b> monthly announced job cuts above the same month of 2025, against 52,881 in August (Challenger, Gray &amp; Christmas, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Official US layoff figures climb clearly above 1.6 million</div><div class="wcc-w"><b>Watch:</b> monthly layoffs and discharges above 1.6 million for consecutive months (U.S. Bureau of Labor Statistics, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: the low-hire market tips into firing, without an AI label</div><div class="wcc-w"><b>Watch:</b> rising announced cuts with few blamed on AI, as with the 3,462 AI cuts in August (Challenger, Gray &amp; Christmas, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Layoffs and discharges changed little at 1.6 million in August (<a href="https://www.bls.gov/news.release/archives/jolts_09292026.htm">U.S. Bureau of Labor Statistics</a>, September 2026), and year-to-date announced cuts are down 41% (<a href="https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/">Challenger, Gray & Christmas</a>, September 2026), so the low-fire pattern holds today.</p>
 </div>
 <div class="wild-card risk">
 <h4>A presumption of employment spreads beyond platforms</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> National transpositions extend the presumption of employment to algorithmically managed work outside platforms.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>The EU adopts a presumption of employment for platform work<span class="wcp-seen">Seen: adopted 14 October 2024</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Large member states publish strict transposition drafts</span></div>
-<div class="wcp-step s3"><span class="n">3</span><span>The transposition deadline passes on 2 December 2026</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>First tribunal cases test the presumption outside platform work</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: algorithmically managed work beyond platforms is presumed employment</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a platform rule would widen</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The EU adopts a presumption of employment for platform work<span class="wcc-seen">Seen: adopted 14 October 2024</span></div><div class="wcc-w"><b>Watch:</b> the rebuttable presumption in the Directive adopted on 14 October 2024 (Ius Laboris, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Large member states publish strict transposition drafts</div><div class="wcc-w"><b>Watch:</b> a transposition draft in a large member state reaching algorithmic management outside platforms (Ius Laboris, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The transposition deadline passes on 2 December 2026</div><div class="wcc-w"><b>Watch:</b> national transposition laws in force by the 2 December 2026 deadline (Ius Laboris, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">First tribunal cases test the presumption outside platform work</div><div class="wcc-w"><b>Watch:</b> a tribunal case applying the presumption to an employer that is not a platform (Ius Laboris, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: algorithmically managed work beyond platforms is presumed employment</div><div class="wcc-w"><b>Watch:</b> a law or ruling applying the presumption beyond platforms while explicit AI accountability rules are still emerging (OECD, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Member States have until 2 December 2026 to transpose the directive (<a href="https://iuslaboris.com/insights/eu-platform-work-directive-which-countries-have-implemented/">Ius Laboris</a>, April 2026). Carried from last cycle.</p>
 </div>
 <div class="implications">

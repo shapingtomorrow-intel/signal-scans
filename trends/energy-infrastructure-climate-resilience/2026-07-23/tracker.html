@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -274,26 +317,56 @@
 <li><strong>Emergency-order reliability governance.</strong> A challenge to a 202(c) order tests whether emergency authority can keep substituting for market design.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Phantom load leaves ratepayers holding the cap</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> Capacity bought at the cap against demand that never fully arrives.</p>
-<p><strong>Early warning indicators:</strong> Interconnection-request withdrawals; transformer, chip and turbine lead times; NERC and market-monitor forecast revisions.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how phantom load would reach bills</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">PJM's capacity auction clears at the cap again<span class="wcc-seen">Seen: 2028/2029 auction cleared at the $325/MW-day cap</span></div><div class="wcc-w"><b>Watch:</b> the base auction clearing price against the FERC-approved cap of $325/MW-day (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Forecasts behind the purchase are challenged as overstated<span class="wcc-seen">Seen: Grid Strategies says NERC's 90 GW data-centre growth may be overstated</span></div><div class="wcc-w"><b>Watch:</b> independent critiques of NERC's assumption of 160 GW of demand growth by 2030 (Utility Dive, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Data-centre interconnection requests are withdrawn in large numbers</div><div class="wcc-w"><b>Watch:</b> withdrawals of speculative data-centre requests pulling modelled 2030 use towards the 200 TWh a year low case (World Resources Institute, September 2025).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">NERC and market monitors cut their load forecasts</div><div class="wcc-w"><b>Watch:</b> a NERC or market-monitor forecast revised below 160 GW of demand growth by 2030 (Utility Dive, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: households pay at the cap for load that never arrives</div><div class="wcc-w"><b>Watch:</b> customer price increases traced to data-centre demand rising above the $23 billion already found by the market monitor (Fortune, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The 2028/29 auction’s cleared supply times price totals $16.4 billion (<a href="https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260714-pjm-capacity-auction-procures-138318-mw-of-generation-resources.pdf" target="_blank">PJM Interconnection</a>, July 2026), procured against forecasts Grid Strategies argues may overstate data-centre load (<a href="https://www.utilitydive.com/news/nerc-overstates-reliability-risks-ltra-grid-strategies/814292/" target="_blank">Utility Dive</a>, March 2026). If that load evaporates after the spend commits, the cost lands on households.</p>
 </div>
 <div class="wild-card risk">
 <h4>The quiet season breaks late</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2026</span></p>
 <p><strong>Surprise characteristics:</strong> A single major landfall against a 17% seasonal probability, into a market priced for calm.</p>
-<p><strong>Early warning indicators:</strong> Late-season Gulf formations; slackening El Nino wind shear; January renewal pricing.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a quiet season would break</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Forecasters cut the season to well below normal<span class="wcc-seen">Seen: CSU cut to nine named storms, its third reduction</span></div><div class="wcc-w"><b>Watch:</b> the CSU chance of a major US landfall against 17% this year and a 43% historical average (Insurance Journal, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">El Nino wind shear slackens late in the season</div><div class="wcc-w"><b>Watch:</b> an El Nino that fails to intensify as NOAA expected, leaving weaker shear over the Gulf (NOAA, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Late-season storms form in the Gulf</div><div class="wcc-w"><b>Watch:</b> named storms forming in the Gulf in September or October, against NOAA's 8 to 14 for the season (NOAA, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A Gulf storm reaches major hurricane strength</div><div class="wcc-w"><b>Watch:</b> a Gulf storm reaching major hurricane strength, against CSU's forecast of one major hurricane all season (Insurance Journal, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a major landfall hits a market priced for calm</div><div class="wcc-w"><b>Watch:</b> a single US landfall producing a USD 10 billion-plus insured event, ending a five-quarter streak without one (Gallagher Re, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>CSU’s nine-storm forecast would make 2026 the quietest season since 2015 (<a href="https://www.insurancejournal.com/news/national/2026/07/09/876739.htm" target="_blank">Insurance Journal</a>, July 2026), but it only takes one storm to make for a very bad season (<a href="https://www.noaa.gov/news-release/noaa-predicts-below-normal-2026-atlantic-hurricane-season" target="_blank">NOAA</a>, May 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>Flexible connections jump the queue</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Non-firm connection agreements release stranded queue capacity faster than any physical build.</p>
-<p><strong>Early warning indicators:</strong> PJM’s Connect and Manage filing at FERC; flexible-connection rules spreading to other markets.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the queue would open up</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The IEA sizes what non-firm connections could release<span class="wcc-seen">Seen: 750 GW to 900 GW could be enabled by non-firm connections</span></div><div class="wcc-w"><b>Watch:</b> the IEA's estimate of queued capacity non-firm agreements could enable, against 750 GW to 900 GW (International Energy Agency, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">PJM files Connect and Manage at FERC</div><div class="wcc-w"><b>Watch:</b> a PJM Connect and Manage tariff filing docketed at FERC in the weeks after the July auction (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">FERC approves non-firm connections in PJM</div><div class="wcc-w"><b>Watch:</b> a FERC order accepting PJM's non-firm connection rules (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Flexible-connection rules spread to other markets</div><div class="wcc-w"><b>Watch:</b> a second US market or a European operator adopting non-firm connection agreements (International Energy Agency, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: flexible connections release queued capacity faster than any build</div><div class="wcc-w"><b>Watch:</b> projects connecting on non-firm terms faster than physical build, cutting the over 2,500 GW stalled in queues (International Energy Agency, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The IEA estimates 750 GW to 900 GW of queued projects could be enabled through non-firm connection agreements (<a href="https://www.iea.org/reports/electricity-2026/executive-summary" target="_blank">IEA</a>, February 2026); PJM plans a Connect and Manage filing at FERC within weeks.</p>
 </div>
 <div class="implications">

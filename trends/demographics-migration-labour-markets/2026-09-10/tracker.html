@@ -206,6 +206,49 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -436,26 +479,58 @@ fall was working.</li>
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Care capacity is rationed rather than repriced</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Providers cap admissions and close units instead of raising wages, so the shortage appears as unavailable care rather than as cost inflation.</p>
-<p><strong>Early warning indicators:</strong> Nursing-home admission freezes; state Medicaid rate decisions; home health payroll prints below trend.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a care shortage would become rationing</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Status losses reach immigrant workers in health and elder care<span class="wcc-seen">Seen: about 53,000 likely status holders worked in health care</span></div><div class="wcc-w"><b>Watch:</b> the timing of Venezuelan status terminations, called if protection ends in October 2026 for the over 350,000 affected (KFF, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Health care payroll gains print below trend<span class="wcc-seen">Seen: health care added 13,000 jobs against a 32,000 average</span></div><div class="wcc-w"><b>Watch:</b> monthly health care job gains, called while they stay below the 32,000 monthly average (US Bureau of Labor Statistics, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Hospitals pause overseas recruitment under a new H-1B fee</div><div class="wcc-w"><b>Watch:</b> the H-1B fee rule, called if the $103,265 fee is finalised after comments close on 24 September 2026 (Federal Register, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Nursing homes and home health agencies cap admissions</div><div class="wcc-w"><b>Watch:</b> elder care admission caps, called when providers in more than one state report capping admissions as status holders leave (WABE, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">State Medicaid rate decisions hold payments flat</div><div class="wcc-w"><b>Watch:</b> state Medicaid rate decisions for nursing and home care, called when most states hold rates flat into the next budget year (KFF, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: the shortage appears as unavailable care, not cost inflation</div><div class="wcc-w"><b>Watch:</b> health care job gains, called if they stay below the 32,000 monthly average for a year with no wage rise (US Bureau of Labor Statistics, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Likely status holders numbered about 740,000 workers in 2024, roughly 53,000 in health care (<a href="https://www.kff.org/immigrant-health/recent-changes-to-temporary-protected-status-designations-potential-impacts-on-health-and-health-care/" target="_blank">KFF</a>, May 2026). That is a withdrawal a payment system cannot answer quickly (<a href="https://www.wabe.org/georgias-elder-care-workforce-faces-impact-as-haitians-lose-protected-immigration-status/" target="_blank">WABE</a>, September 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>Fertility keeps falling whatever the policy setting</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> Births keep sliding across countries running very different tax, childcare and transfer settings, so pro-natal budgets buy no demography.</p>
-<p><strong>Early warning indicators:</strong> Quarterly birth registrations; revisions to national population projections; the birth response in countries running large transfers.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how births would ignore the budgets</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">US births fall again in 2025<span class="wcc-seen">Seen: US births fell 1% to 3,606,400 in 2025</span></div><div class="wcc-w"><b>Watch:</b> annual US births, called if the 2026 count falls below 3,606,400 (Centers for Disease Control and Prevention, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">EU fertility keeps sliding across very different policy settings<span class="wcc-seen">Seen: EU fertility rate 1.34 live births per woman in 2024</span></div><div class="wcc-w"><b>Watch:</b> the EU total fertility rate, called if the next figure falls below 1.34 (Eurostat, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Countries running large transfers see no birth response</div><div class="wcc-w"><b>Watch:</b> births in countries with large pro-natal transfers, called if they fall in line with neighbours that spend far less (Eurostat, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">National population projections are revised down again</div><div class="wcc-w"><b>Watch:</b> national population projections, called when a statistics office cuts its births assumption for a second round (Eurostat, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: births keep falling whatever the policy setting</div><div class="wcc-w"><b>Watch:</b> the general fertility rate, called if it keeps falling below 53.1 births per 1,000 females despite new transfers (Centers for Disease Control and Prevention, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>US births fell 1% in 2025 to 3,606,400 (<a href="https://www.cdc.gov/nchs/pressroom/releases/20260409.html" target="_blank">Centers for Disease Control and Prevention</a>, April 2026), while EU fertility fell from 1.46 in 2004 to 1.34 in 2024 (<a href="https://ec.europa.eu/eurostat/web/interactive-publications/demography-2026" target="_blank">Eurostat</a>, May 2026). Two decades of decline across very different policy settings should give pro-natal budgets pause.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>Asia becomes the default destination as Anglosphere doors close</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> Mid-skill migration reroutes toward Japan and its neighbours faster than those systems can absorb it, making them the price-setters for care labour.</p>
-<p><strong>Early warning indicators:</strong> Specified-skilled-worker approval volumes; settlement-tier conversion; recruitment-fee reform in sending countries.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how migrants would reroute to Asia</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Japan employs a record number of foreign workers<span class="wcc-seen">Seen: record 2.57 million foreign workers, up 11.7% on the year</span></div><div class="wcc-w"><b>Watch:</b> foreign workers in Japan, called if the next count rises again from 2.57 million (The Japan Times, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The US proposes a six-figure H-1B filing fee<span class="wcc-seen">Seen: DHS proposes a $103,265 fee on each cap-subject petition</span></div><div class="wcc-w"><b>Watch:</b> the H-1B fee rule, called if the $103,265 fee is adopted after comments close on 24 September 2026 (Federal Register, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Overseas jobseekers turn away from US job postings</div><div class="wcc-w"><b>Watch:</b> the share of clicks on US job postings from abroad, called if it falls below 1.4% (Indeed Hiring Lab, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Specified skilled worker approval volumes in Japan climb sharply</div><div class="wcc-w"><b>Watch:</b> annual growth in foreign workers in Japan, called if it runs above the 11.7% recorded for 2025 (The Japan Times, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Settlement tier conversion rises despite tighter naturalisation scrutiny</div><div class="wcc-w"><b>Watch:</b> naturalisation scrutiny, called if expected residence eases back from close to a decade toward the five-year statutory minimum (East Asia Forum, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: Asia becomes the default destination for mid-skill migrants</div><div class="wcc-w"><b>Watch:</b> foreign workers in Japan against US sponsored hiring, called when Japan's count keeps rising while clicks from abroad on US postings fall (Indeed Hiring Lab, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Japan already employs a record 2.57 million foreign workers (<a href="https://www.japantimes.co.jp/news/2026/01/30/japan/foreign-workers-record-high/" target="_blank">The Japan Times</a>, January 2026), and a six-figure US filing fee widens the relative gap without Japan changing anything. The limit is that naturalisation scrutiny is tightening at the same time (<a href="https://eastasiaforum.org/2026/05/15/japan-narrows-path-to-citizenship-amid-labour-shortages/" target="_blank">East Asia Forum</a>, May 2026).</p>
 </div>
 <div class="implications">

@@ -90,6 +90,49 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
   .programme-footer .programme-cta:hover { opacity: 0.9; }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -273,16 +316,26 @@
 </ol>
 </div>
 
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 
 <div class="wild-card risk">
 <h4>AI infrastructure repricing</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A sharp markdown of AI infrastructure value even as headline spending hits records.</p>
-<p><strong>Early warning indicators:</strong> Hyperscaler capex guidance cuts, free cash flow turning negative, widening debt spreads on data-centre financing.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the build would be repriced</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Hyperscalers commit record capex ahead of proven AI revenue<span class="wcc-seen">Seen: hyperscalers budgeting nearly $700 billion in capex for 2026</span></div><div class="wcc-w"><b>Watch:</b> combined hyperscaler capex guidance against the nearly $700 billion budgeted for 2026, called when guidance rises again without matching revenue growth (Fortune, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The largest spenders lean on debt as free cash flow turns negative</div><div class="wcc-w"><b>Watch:</b> free cash flow at any of the largest AI spenders turning negative for a full quarter while it raises new debt (Fortune, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Hyperscalers cut capex guidance after a demand wobble</div><div class="wcc-w"><b>Watch:</b> a capex guidance cut by Meta, Google or another large hyperscaler, set against Google's plan for up to $185 billion in 2026 (Fortune, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Debt spreads on data-centre financing widen sharply</div><div class="wcc-w"><b>Watch:</b> spreads on data-centre project debt widening until a lender pulls or reprices a named financing deal (Fortune, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: AI infrastructure value is marked down sharply</div><div class="wcc-w"><b>Watch:</b> a sharp markdown of AI infrastructure assets in the same year corporate AI investment sets a new record above $581.7 billion (Stanford HAI, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Capital is being committed faster than revenue can validate it, with the largest spenders already raising debt to fund the build (<a href="https://fortune.com/2026/02/25/nvidia-jensen-huang-big-tech-ai-infrastructure-700-billion-just-the-start/">Fortune</a>, February 2026). A demand wobble or a financing-cost shock could trigger an abrupt repricing that ripples through equities, power markets and supplier order books well beyond the AI sector itself.</p>
 </div>
 
@@ -290,10 +343,20 @@
 <h4>Autonomous agent cascade failure</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A single compromised or misaligned agent propagating errors across a multi-agent production workflow.</p>
-<p><strong>Early warning indicators:</strong> Rising agent-incident reports, a marquee enterprise breach, courts assigning accountability to the deploying firm.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how one agent failure would spread</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Enterprises put agents into live workflows alongside human staff<span class="wcc-seen">Seen: Sysco added seven AI agents as direct reports</span></div><div class="wcc-w"><b>Watch:</b> named enterprises running agents in live operations or customer workflows, called when agents are reviewed alongside human staff at a major firm (Fortune, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Agent incident reports rise as response confidence falls</div><div class="wcc-w"><b>Watch:</b> reported AI agent incidents in the annual AI Index count, called when the count rises year on year (Stanford HAI, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A marquee enterprise breach is traced to a compromised agent</div><div class="wcc-w"><b>Watch:</b> a major firm disclosing a breach that began with a compromised or misaligned agent in production (SiliconANGLE, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Errors from one agent pass through others into live systems</div><div class="wcc-w"><b>Watch:</b> a disclosed case of one agent passing faulty output through other agents into production, as pilots move to production (SiliconANGLE, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: one bad agent cascades errors across a production workflow</div><div class="wcc-w"><b>Watch:</b> a firm pulling agents out of a multi-agent production workflow after a cascade, and peers following (Fortune, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Security and risk now rank as the top barrier to scaling agentic AI, and confidence in incident response is declining even as adoption climbs (<a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/state-of-ai-trust-in-2026-shifting-to-the-agentic-era">McKinsey</a>, 2026). With agents already reviewed alongside human staff, a cascade event would force a rapid retreat from autonomy precisely as deployment accelerates.</p>
 </div>
 
@@ -301,10 +364,20 @@
 <h4>Open-weight cost collapse resets the stack</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A sovereign open-weight model reaching full frontier parity erases the premium for closed models.</p>
-<p><strong>Early warning indicators:</strong> Enterprises defaulting to open weights, inference prices halving again, sovereign-AI funding scaling on domestic chips.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the closed-model premium would vanish</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Open-weight models close most of the gap with frontier models<span class="wcc-seen">Seen: DeepSeek V4 trails frontier models by 3 to 6 months</span></div><div class="wcc-w"><b>Watch:</b> the lag between the best open-weight model and frontier models on knowledge tests, against roughly 3 to 6 months for DeepSeek V4 (TechCrunch, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Inference prices for open-weight models halve again</div><div class="wcc-w"><b>Watch:</b> open-weight input prices falling below half of V4 Flash's $0.14 per million input tokens (TechCrunch, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Enterprises default to open weights for new deployments</div><div class="wcc-w"><b>Watch:</b> enterprise surveys showing open weights ahead of closed models as the default for new AI deployments (Stanford HAI, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Sovereign AI funding scales on domestic chips</div><div class="wcc-w"><b>Watch:</b> a national sovereign AI programme funding a frontier open-weight model trained on domestic chips (TechCrunch, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a sovereign open-weight model reaches full frontier parity</div><div class="wcc-w"><b>Watch:</b> an open-weight model matching the leading closed model on the hardest knowledge tests, closing the 3 to 6 month lag (TechCrunch, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>DeepSeek V4 already approaches frontier reasoning at a fraction of the cost and trails only on the hardest knowledge tasks (<a href="https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/">TechCrunch</a>, April 2026). If that last gap closes, the automation cost curve drops sharply, favouring fast adopters and undercutting business models built on proprietary-model scarcity.</p>
 </div>
 

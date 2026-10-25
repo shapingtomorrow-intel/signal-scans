@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -313,26 +356,59 @@ sits (<a href="https://www.tradelawcounsel.com/insights-news/2026/7/4/section-12
 transhipment would test whether connector status survives contact with enforcement.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>A large third-country bank is cut off and contagion follows</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A systemically important bank outside Russia loses correspondent access, and counterparties withdraw from a whole jurisdiction rather than a single name.</p>
-<p><strong>Early warning indicators:</strong> Designations moving from trading intermediaries to deposit-taking institutions; correspondent-banking withdrawals; local-currency funding stress in a connector economy.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how one bank would close a jurisdiction</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The EU adds its first third-country ban tool to sanctions<span class="wcc-seen">Seen: first third-country ban tool for crypto-asset services</span></div><div class="wcc-w"><b>Watch:</b> use of the third-country ban tool against any jurisdiction hosting evasion platforms (Baker McKenzie, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Sanctions asset freezes extend to 94 banks and financial institutions<span class="wcc-seen">Seen: asset freezes on 94 banks and major financial institutions</span></div><div class="wcc-w"><b>Watch:</b> the count of banks under asset freeze against 94 in the 21st package (Council of the European Union, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Designations move from trading intermediaries to deposit-taking banks abroad</div><div class="wcc-w"><b>Watch:</b> a deposit-taking bank outside Russia added to the transaction ban, beyond the one bank in Kyrgyzstan (White &amp; Case, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Correspondent banks withdraw from a whole connector jurisdiction</div><div class="wcc-w"><b>Watch:</b> correspondent banks exiting every bank in a jurisdiction rather than a single listed name (Sullivan &amp; Cromwell, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Local-currency funding stress hits a connector economy</div><div class="wcc-w"><b>Watch:</b> funding stress in Vietnam, Poland, Morocco, Mexico or Indonesia, the connectors drawing US$550 billion of greenfield investment since 2017 (International Banker, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: a big third-country bank loses access and contagion follows</div><div class="wcc-w"><b>Watch:</b> counterparties withdrawing from a whole jurisdiction after one bank loses correspondent access (Sullivan &amp; Cromwell, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The new tool makes jurisdiction-level prohibition available for the first time (<a href="https://sanctionsnews.bakermckenzie.com/eu-adopts-21st-russia-sanctions-package/" target="_blank">Baker McKenzie</a>, July 2026), and the package already reaches 94 banks and major financial institutions (<a href="https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/" target="_blank">Council of the European Union</a>, July 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>A non-dollar oil-settlement layer reaches usable scale</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Enough physical crude clears outside dollar invoicing that pricing, not just settlement, starts to move.</p>
-<p><strong>Early warning indicators:</strong> CIPS daily volumes holding above their March peak; a Gulf producer invoicing a benchmark grade in renminbi; swap lines extended to oil importers.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how settlement would start to move prices</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">China and Russia settle bilateral trade in national currencies<span class="wcc-seen">Seen: over 90% of $245 billion bilateral trade in national currencies</span></div><div class="wcc-w"><b>Watch:</b> the share of China and Russia trade settled outside the dollar against over 90% (Forbes, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">CIPS volumes hit a record in March, then ease<span class="wcc-seen">Seen: March daily average RMB 920.5bn, up 20% year on year</span></div><div class="wcc-w"><b>Watch:</b> the CIPS average daily volume against the RMB 920.5bn March peak (FXC Intelligence, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">CIPS daily volumes hold above their March peak</div><div class="wcc-w"><b>Watch:</b> the CIPS average daily volume above RMB 920.5bn for consecutive months (FXC Intelligence, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A Gulf producer invoices a benchmark crude grade in renminbi</div><div class="wcc-w"><b>Watch:</b> a Gulf producer's official selling price for a benchmark grade quoted in renminbi (Forbes, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Swap lines extend to oil importers to fund renminbi purchases</div><div class="wcc-w"><b>Watch:</b> new renminbi swap lines signed with oil-importing central banks (Forbes, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: enough crude clears outside the dollar to move pricing</div><div class="wcc-w"><b>Watch:</b> the renminbi share of Swift global payments rising above 3% (FXC Intelligence, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>China and Russia already settle over 90 percent of their $245 billion bilateral trade in national currencies (<a href="https://www.forbes.com/sites/zennonkapron/2026/02/22/how-renminbi-internationalization-is-changing/" target="_blank">Forbes</a>, February 2026), but CIPS participation of 1,791 institutions sits against Swift's far larger network (<a href="https://www.fxcintel.com/research/analysis/cips-volumes-may-2026" target="_blank">FXC Intelligence</a>, June 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>The USMCA review strips Mexico of connector status</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Rules of origin are tightened enough that importing Chinese components and exporting finished goods to the US stops working.</p>
-<p><strong>Early warning indicators:</strong> Review scope covering content thresholds; Section 301 transhipment findings; Mexican greenfield announcements pausing.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the review would close the route</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Connector economies draw outsized greenfield investment, Mexico among them<span class="wcc-seen">Seen: Mexico's inbound FDI reached a record above $41 billion</span></div><div class="wcc-w"><b>Watch:</b> inbound FDI to Mexico against the record above $41 billion (International Banker, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The forced-labour Section 301 action names Mexico for new duties<span class="wcc-seen">Seen: forced-labour action names Mexico among 60 economies facing duties</span></div><div class="wcc-w"><b>Watch:</b> the Section 301 rate applied to Mexican goods under the 60 economy action (Office of the United States Trade Representative, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The USMCA review scope covers regional content thresholds</div><div class="wcc-w"><b>Watch:</b> the review agenda listing rules of origin or regional content thresholds (Office of the United States Trade Representative, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Section 301 findings target transhipment of Chinese components via Mexico</div><div class="wcc-w"><b>Watch:</b> a USTR finding naming transhipment of Chinese content through Mexico (Office of the United States Trade Representative, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">Mexican greenfield announcements pause while investors wait on the rules</div><div class="wcc-w"><b>Watch:</b> inbound FDI to Mexico falling back from the record above $41 billion (International Banker, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: tighter rules of origin strip Mexico of connector status</div><div class="wcc-w"><b>Watch:</b> rules of origin set so that Chinese components no longer qualify finished Mexican goods for US access (Office of the United States Trade Representative, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Mexico's position rests on exactly that arrangement (<a href="https://internationalbanker.com/finance/connector-economies-are-straddling-the-global-geopolitical-divide-for-potentially-sizeable-gains-in-trade/" target="_blank">International Banker</a>, May 2026), and the forced-labour action already names Mexico among the economies facing new duties (<a href="https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations" target="_blank">Office of the United States Trade Representative</a>, July 2026).</p>
 </div>
 <div class="implications">

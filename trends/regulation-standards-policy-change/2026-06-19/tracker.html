@@ -169,6 +169,49 @@
   .prose { max-width: 920px; }
   article > p, article > ul, article > ol, .seo-line, .series-continuity,
   .cluster, .gaining-momentum, .wild-card, .implications { max-width: 920px; }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -300,26 +343,54 @@
 </ol>
 </div>
 
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>GDPR personal-data redefinition adopted over regulator objection</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A narrowed definition of personal data adopted over both EU data regulators' objection.</p>
-<p><strong>Early warning indicators:</strong> Trilogue text keeps Commission power to decide by implementing act what is no longer personal data.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the definition would be narrowed</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">EU data regulators object to the proposed personal-data redefinition<span class="wcc-seen">Seen: EDPB and EDPS joint opinion urges co-legislators not to adopt</span></div><div class="wcc-w"><b>Watch:</b> a joint EDPB and EDPS opinion urging co-legislators not to adopt the narrowed definition of personal data (European Data Protection Board, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Trilogue text keeps the Commission power over what counts as personal data</div><div class="wcc-w"><b>Watch:</b> a trilogue text that keeps the implementing-act power to decide what is no longer personal data (Council of the European Union, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Parliament and Council agree the GDPR changes in the Digital Omnibus</div><div class="wcc-w"><b>Watch:</b> a provisional agreement on the GDPR half of the Digital Omnibus announced with the narrowed definition intact, as the AI deal was on 7 May 2026 (Council of the European Union, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: the narrowed definition is adopted over regulator objection</div><div class="wcc-w"><b>Watch:</b> final adoption of the GDPR amendments with the narrowed definition, while national regulators still relay the EDPB and EDPS objection (CNIL, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The EDPB and EDPS warned the change exceeds the GDPR and the Court's case law (<a href="https://www.edpb.europa.eu/news/news/2026/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while_en">EDPB</a>, February 2026). If it survives, the reach of EU data law resets and adequacy reopens.</p>
 </div>
 <div class="wild-card risk">
 <h4>Pillar Two fragments after the US carve-out</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A multilateral tax deal partly reversed within eighteen months of taking force.</p>
-<p><strong>Early warning indicators:</strong> A second jurisdiction seeks side-by-side recognition or reopens tax competition.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the minimum tax would hollow out</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The OECD carves US-parented groups out of the minimum tax<span class="wcc-seen">Seen: side-by-side package published on 5 January 2026</span></div><div class="wcc-w"><b>Watch:</b> publication of a side-by-side package excluding US-parented groups from the income inclusion and undertaxed profits rules (OECD, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">A second jurisdiction seeks side-by-side recognition from the OECD</div><div class="wcc-w"><b>Watch:</b> any jurisdiction beyond the US named by the OECD as qualifying under the side-by-side package (OECD, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">More OECD members win the carve-out for their own groups</div><div class="wcc-w"><b>Watch:</b> an agreed extension of the side-by-side arrangement to groups parented outside the US (Bipartisan Policy Center, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: Pillar Two fragments and the minimum tax is hollowed out</div><div class="wcc-w"><b>Watch:</b> two or more major economies suspending their income inclusion rule after a wider carve-out (OECD, January 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>With the US the only jurisdiction the OECD so far recognises under the carve-out (<a href="https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-minimum-tax/side-by-side-package.pdf">OECD</a>, January 2026), others may ask for the same, and a wider carve-out would hollow out the minimum tax.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>ISO/IEC 42001 hardens into a market-access passport</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A voluntary standard outruns statute as the practical test of AI trustworthiness.</p>
-<p><strong>Early warning indicators:</strong> Procurement mandates or AI Act harmonised standards begin to reference 42001.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a standard would become a passport</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The AI Act's high-risk duties are deferred to December 2027<span class="wcc-seen">Seen: Annex III duties deferred to 2 December 2027</span></div><div class="wcc-w"><b>Watch:</b> a Council and Parliament deal moving high-risk obligations to 2 December 2027 for Annex III systems (Council of the European Union, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">National AI rules diverge as Washington moves against state laws<span class="wcc-seen">Seen: December 2025 executive order seeks to override state AI laws</span></div><div class="wcc-w"><b>Watch:</b> a federal move to override state AI laws through the Litigation Task Force while state laws stay in effect (Ropes &amp; Gray, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">AI Act harmonised standards begin to reference ISO/IEC 42001</div><div class="wcc-w"><b>Watch:</b> a harmonised standard under the AI Act citing 42001 as a route to presumed conformity (Council of the European Union, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Regulators and public buyers name 42001 certification as expected evidence</div><div class="wcc-w"><b>Watch:</b> a regulator or public buyer naming 42001 certification as evidence of AI governance under existing regimes (Financial Conduct Authority, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: ISO/IEC 42001 hardens into a market-access passport</div><div class="wcc-w"><b>Watch:</b> 42001 certification written into procurement rules across several jurisdictions, tracked the way ISSB adoption reached 28 jurisdictions (S&amp;P Global Sustainable1, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>With the AI Act's duties deferred and national rules diverging, buyers may demand ISO/IEC 42001 certification as portable proof of governance (<a href="https://www.iso.org/standard/42001">ISO</a>), the currency of market access before statute applies.</p>
 </div>
 

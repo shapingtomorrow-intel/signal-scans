@@ -90,6 +90,49 @@
   .programme-footer .programme-cta.primary { background: #031B41; color: white; }
   .programme-footer .programme-cta.secondary { background: white; color: #031B41; border: 1px solid #031B41; }
   .programme-footer .programme-cta:hover { opacity: 0.9; }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -303,16 +346,26 @@
 </ol>
 </div>
 
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 
 <div class="wild-card risk">
 <h4>An airspace incursion crosses the casualty threshold</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> A Russian-origin drone kills civilians or troops on NATO soil, collapsing the ambiguity below the threshold of war.</p>
-<p><strong>Early warning indicators:</strong> Deeper penetrations, drones striking inhabited buildings, repeated Article 4 consultations.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a stray drone would turn lethal</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Russian drones stray into NATO airspace and strike inhabited buildings<span class="wcc-seen">Seen: a drone hit a Romanian apartment building in late May</span></div><div class="wcc-w"><b>Watch:</b> any further drone strike on an inhabited building inside a NATO or EU state, as incursions multiply (Euronews, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Incursions reach deeper into NATO territory, beyond border districts</div><div class="wcc-w"><b>Watch:</b> drones or debris recovered well inside a NATO state rather than near its border with Russia, Belarus or Ukraine (Euronews, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Allies call repeated Article 4 consultations over the incursions</div><div class="wcc-w"><b>Watch:</b> any frontline ally requesting Article 4 consultations over a drone incursion, then a repeat request from the same flank (Defense News, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Eastern Sentry defences miss a drone over a populated area</div><div class="wcc-w"><b>Watch:</b> a drone passing through the layered counter-drone cover over the Baltics or Romania and reaching a town (NATO Allied Air Command, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a Russian-origin drone kills people on NATO soil</div><div class="wcc-w"><b>Watch:</b> any confirmed civilian or military death on NATO territory caused by a Russian-origin drone or its debris (Euronews, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Incursions have moved from rarity to routine, and a drone hit a Romanian apartment building in late May 2026 (<a href="https://www.euronews.com/my-europe/2026/06/02/explained-how-drone-incursions-in-europe-went-from-rarity-to-reality" target="_blank" rel="noopener">Euronews</a>, June 2026). A lethal incident would force a choice between an Article 5 response and conceding the threshold can be probed with impunity.</p>
 </div>
 
@@ -320,10 +373,20 @@
 <h4>Coordinated multi-cable severance</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
-<span class="wc-impact">Potential impact: Very High</span>
+<span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> Several undersea cables and a pipeline are severed in one window, causing regional connectivity and payments disruption, not a single reroutable outage.</p>
-<p><strong>Early warning indicators:</strong> Clustering of position-dark shadow-fleet vessels over cable corridors; saturation of the limited cable-repair fleet.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how single cuts would become many</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Baltic cable incidents recur and foreign-flagged suspects escape prosecution<span class="wcc-seen">Seen: legal gaps under UNCLOS frustrate prosecution of foreign-flagged vessels</span></div><div class="wcc-w"><b>Watch:</b> any boarding of a suspect vessel over a Baltic cable corridor that ends without prosecution (Bulletin of the Atomic Scientists, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Position-dark shadow-fleet vessels cluster over several cable corridors at once</div><div class="wcc-w"><b>Watch:</b> position-dark shadow-fleet vessels loitering over more than one cable corridor in the same week (Bulletin of the Atomic Scientists, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A cut cable waits because the repair fleet is fully committed</div><div class="wcc-w"><b>Watch:</b> every available cable-repair vessel in the region committed at once, leaving a damaged cable unrepaired while the toolbox projects are still being built (European Commission, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A pipeline and further cables are severed while attribution stalls</div><div class="wcc-w"><b>Watch:</b> a pipeline and a data cable severed within days of each other with no state attribution announced (Bulletin of the Atomic Scientists, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: several cables and a pipeline are severed together</div><div class="wcc-w"><b>Watch:</b> regional connectivity or payments disruption lasting beyond what a single reroutable outage causes (European Commission, February 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Western economies depend on data and energy flowing along the seafloor, and that dependency is being mapped and weaponised (<a href="https://thebulletin.org/2026/02/seabed-zero-baltic-sabotage-and-the-global-risks-to-undersea-infrastructure/" target="_blank" rel="noopener">Bulletin of the Atomic Scientists</a>, February 2026). The new EU toolbox hardens single-cable resilience, but simultaneous cuts could outpace repair capacity, and attribution gaps would slow any response.</p>
 </div>
 
@@ -331,10 +394,20 @@
 <h4>Ukrainian battlefield innovation scales into European production</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
-<span class="wc-impact">Potential impact: High</span>
+<span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span>
 </p>
 <p><strong>Surprise characteristics:</strong> The EDIP and Ukrainian innovation pairing yields a cheap, scalable drone and counter-drone arsenal faster than the 2028 delivery expectations imply.</p>
-<p><strong>Early warning indicators:</strong> Ukraine Support Instrument joint filling plants going live; direct awards to Ukraine's Brave1 fund; rising innovation-fund throughput.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how combat designs would reach European lines</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Investors pour record sums into European defence start-ups<span class="wcc-seen">Seen: a record EUR 8bn raised in 2025, up 55%</span></div><div class="wcc-w"><b>Watch:</b> start-up funding for European defence, security and resilience running above the 2025 record of EUR 8bn (EU Perspectives, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">EDIP earmarks money for Ukrainian drone production in Europe<span class="wcc-seen">Seen: EUR 296m earmarked for a Ukraine Support Instrument</span></div><div class="wcc-w"><b>Watch:</b> the EUR 260m Ukraine line in the EDIP work programme committed to named drone and filling projects (Breaking Defense, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Brave1 receives direct awards to scale combat-tested designs</div><div class="wcc-w"><b>Watch:</b> a direct EU or member-state award to Ukraine's Brave1 fund, alongside the EUR 100m defence start-up equity facility (Breaking Defense, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Joint filling plants and drone lines open under the Ukraine Support Instrument</div><div class="wcc-w"><b>Watch:</b> the first joint filling plant or Ukrainian-designed drone line in production, ahead of the EDIP deliveries expected from 2028 (CEPA, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a cheap drone and counter-drone arsenal scales fast</div><div class="wcc-w"><b>Watch:</b> drone and counter-drone output from European lines delivered at volume before the 2028 start expected for EDIP deliveries (CEPA, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>EDIP earmarks EUR 296m for a Ukraine Support Instrument including joint filling plants and drone production (<a href="https://cepa.org/article/europes-defense-factories-more-urgency-please/" target="_blank" rel="noopener">CEPA</a>, April 2026). Pairing combat-tested Ukrainian designs with European manufacturing depth could compress the prototype-to-deployment gap.</p>
 </div>
 

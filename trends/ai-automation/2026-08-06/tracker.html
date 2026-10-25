@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -274,26 +317,56 @@
 <li><strong>Data-centre siting politics turns restrictive.</strong> A state moratorium signed into law turns siting from a planning risk into a location decision.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Circular-financing contagion</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> equity stakes and compute commitments between chipmakers, hyperscalers and AI labs unwind together.</p>
-<p><strong>Early warning indicators:</strong> hyperscaler bond coverage ratios; private-credit marks on data-centre assets.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the cross-holdings would unwind</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Chipmakers and hyperscalers take equity in labs that buy their compute<span class="wcc-seen">Seen: BIS names circular financing between chipmakers, hyperscalers and labs</span></div><div class="wcc-w"><b>Watch:</b> hyperscaler AI capex against earnings and free cash flow, called while the five largest spend over $1 trillion across 2025 and 2026 (Bank for International Settlements, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">AI debt issuance shifts toward private credit<span class="wcc-seen">Seen: AI-related debt issuance projected at $570 billion in 2026</span></div><div class="wcc-w"><b>Watch:</b> the share of AI debt placed through private credit and off-balance-sheet vehicles, against $570 billion of AI-related issuance projected for 2026 (Forbes, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Hyperscaler bond coverage ratios fall and yields rise</div><div class="wcc-w"><b>Watch:</b> coverage ratios on new hyperscaler bonds, called when a deal is undersubscribed or priced at a clearly higher yield (Forbes, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Private credit marks down data-centre assets</div><div class="wcc-w"><b>Watch:</b> private-credit lenders marking down data-centre loans or assets in their quarterly valuations (Bank of England, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: equity stakes and compute commitments unwind together</div><div class="wcc-w"><b>Watch:</b> a lab cancelling a multi-year compute purchase while its chipmaker or hyperscaler investor writes down the stake (Bank for International Settlements, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The mechanism has been named directly (<a href="https://www.bis.org/publ/arpdf/ar2026e1.htm" target="_blank">Bank for International Settlements</a>, June 2026): chip makers and hyperscalers take equity stakes in AI labs or neocloud providers, who then commit to multi-year purchases of chips or computing power. Global AI-related debt issuance is projected at $570 billion in 2026, shifting toward private credit (<a href="https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/" target="_blank">Forbes</a>, July 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>Open weights become an export-controlled good</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> model weights rather than chips become the controlled item, and the first control lands on a US lab.</p>
-<p><strong>Early warning indicators:</strong> further Commerce orders; an allied jurisdiction copying the approach.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how weights would become controlled goods</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Commerce forces a US lab to take frontier models offline<span class="wcc-seen">Seen: Anthropic took Mythos 5 and Fable 5 offline</span></div><div class="wcc-w"><b>Watch:</b> export-control orders from Commerce against US frontier models, called on any order beyond the one covering Mythos 5 and Fable 5 (Stanford HAI, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Chinese open-weight releases close the gap with US models<span class="wcc-seen">Seen: Kimi K3 and Qwen3.8-Max closing the gap at lower cost</span></div><div class="wcc-w"><b>Watch:</b> the US and China performance gap on the AI Index, called if it narrows below a few percentage points (Stanford HAI, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Commerce issues further orders covering model weights</div><div class="wcc-w"><b>Watch:</b> a Commerce order that names model weights, rather than chips or access, as the controlled item (Stanford HAI, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">An allied jurisdiction copies the US approach</div><div class="wcc-w"><b>Watch:</b> an allied government imposing its own licence requirement on access to or release of frontier model weights (Stanford HAI, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: model weights become an export-controlled good</div><div class="wcc-w"><b>Watch:</b> an open-weight release needing an export licence, which would hit self-hosted sovereign stacks such as Palantir and Nvidia's (24/7 Wall St., July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Commerce has forced Anthropic to take Mythos 5 and Fable 5 fully offline under an export-control order while Chinese open-weight releases close the gap (<a href="https://hai.stanford.edu/news/open-weight-models-arent-enough-we-need-truly-open-source-ai-models-for-science-and-society" target="_blank">Stanford HAI</a>, August 2026). Buyers are hedging: Palantir and Nvidia have packaged open-weight models into a sovereign stack customers host themselves (<a href="https://247wallst.com/investing/2026/07/02/the-palantir-nvidia-sovereign-ai-deal-will-reshape-who-wins-the-ai-infrastructure-race/" target="_blank">24/7 Wall St.</a>, July 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>Data centres become a grid asset</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> the load legislators are treating as a threat starts selling flexibility back.</p>
-<p><strong>Early warning indicators:</strong> flexible-connection tariffs; conditional reactor offtakes turning firm.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a threat would become an asset</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">States pass data-centre laws that treat new load as a threat<span class="wcc-seen">Seen: states enacted 28 data centre laws by 1 July</span></div><div class="wcc-w"><b>Watch:</b> state data-centre laws, against 28 enacted by 1 July 2026, called when new laws tie grid connection to flexibility (Tech Policy Press, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Operators sign conditional offtakes with small modular reactors<span class="wcc-seen">Seen: reactor offtake pipeline grew from 25 to 45 gigawatts</span></div><div class="wcc-w"><b>Watch:</b> the conditional offtake pipeline between data centres and small modular reactors, called while it keeps growing beyond 45 gigawatts (International Energy Agency, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Grid operators offer flexible-connection tariffs to data centres</div><div class="wcc-w"><b>Watch:</b> a utility or grid operator tariff that connects a data centre faster in return for curtailment on demand (International Energy Agency, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Conditional reactor offtakes turn into firm contracts</div><div class="wcc-w"><b>Watch:</b> a data-centre operator converting a conditional small modular reactor offtake into a firm, priced contract (International Energy Agency, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: data centres sell flexibility back to the grid</div><div class="wcc-w"><b>Watch:</b> onsite batteries at AI data centres bidding flexibility into a capacity or balancing market (International Energy Agency, April 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The conditional offtake pipeline between data-centre operators and small modular reactor projects grew from 25 gigawatts at the end of 2024 to 45 gigawatts, and onsite battery storage could make the next generation of AI data centres an asset to grids rather than a burden (<a href="https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions" target="_blank">International Energy Agency</a>, April 2026).</p>
 </div>
 <div class="implications">

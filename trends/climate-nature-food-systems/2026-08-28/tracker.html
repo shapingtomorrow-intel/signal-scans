@@ -202,6 +202,49 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -393,26 +436,57 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>AMOC early-warning crossing declared</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> A formal determination that the Atlantic overturning circulation is on a tipping course, years before physical change.</p>
-<p><strong>Early warning indicators:</strong> An operational AMOC early-warning system under EU programmes; abrupt Gulf Stream path shifts in reanalysis products.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a warning would be declared</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Researchers call for an operational AMOC early-warning system<span class="wcc-seen">Seen: PLOS Climate paper names 2026 as the key window</span></div><div class="wcc-w"><b>Watch:</b> published calls for an operational AMOC warning system tied to predefined policy triggers, called once one names a funding body (PLOS Climate, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">An EU programme funds an operational AMOC warning system</div><div class="wcc-w"><b>Watch:</b> sustained funding for an operational AMOC early-warning system, committed in EU Ocean Act text or an EU programme (PLOS Climate, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Reanalysis products show abrupt Gulf Stream path shifts</div><div class="wcc-w"><b>Watch:</b> an abrupt shift in the Gulf Stream path reported in reanalysis data and confirmed by a second research group (PLOS Climate, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Supervisors add AMOC collapse to bank stress scenarios</div><div class="wcc-w"><b>Watch:</b> an AMOC collapse scenario added to supervisory climate stress tests, where physical risks are very likely being underestimated (European Central Bank, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a formal finding declares the AMOC on a tipping course</div><div class="wcc-w"><b>Watch:</b> a determination by an operational warning system that its predefined tipping trigger has been reached (PLOS Climate, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Researchers argue societies prepare for gradual warming but not for tipping discontinuities (<a href="https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000881">PLOS Climate</a>, March 2026). A credible warning signal would reprice adaptation, insurance and food-system assumptions across northern Europe long before the ocean itself changes.</p>
 </div>
 <div class="wild-card risk">
 <h4>Multi-breadbasket failure meets export restriction</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Simultaneous harvest failure across major exporters colliding with export bans.</p>
-<p><strong>Early warning indicators:</strong> Southern-hemisphere drought signals; new cereal export restrictions; further European yield downgrades.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a price story would become a shortage</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">European drought causes historic crop losses<span class="wcc-seen">Seen: France's lowest maize harvest in 50 years</span></div><div class="wcc-w"><b>Watch:</b> crop losses in attribution and harvest data, called while maize losses in Romania exceed one million hectares (World Weather Attribution, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Cereal prices rise on heat and Black Sea disruption<span class="wcc-seen">Seen: wheat prices up 5.8% in July</span></div><div class="wcc-w"><b>Watch:</b> the FAO Cereal Price Index, called on a second monthly rise after July's 3.4% increase (FAO, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">European yield forecasts are cut again</div><div class="wcc-w"><b>Watch:</b> cereal yield forecasts in the EU MARS bulletin, called on a further cut below the current 1% under the five-year average (Joint Research Centre, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Southern-hemisphere exporters show drought signals before their harvests</div><div class="wcc-w"><b>Watch:</b> drought damage to crops in southern-hemisphere wheat and maize exporters, called when it lifts the FAO wheat price for a second month (FAO, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5"><span class="n">5</span><div><div class="wcc-t">A major exporter imposes a defensive cereal export ban</div><div class="wcc-w"><b>Watch:</b> a new outright cereal export ban, not a tax or quota, by a major exporter (FAO, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s6 last"><span class="n">6</span><div><div class="wcc-t">The wild card lands: harvests fail across exporters as export bans hit</div><div class="wcc-w"><b>Watch:</b> simultaneous harvest shortfalls in several major exporters while at least one bans cereal exports (FAO, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Attribution work links the 2026 drought to historic crop losses and warns of price transmission to low-income households (<a href="https://www.worldweatherattribution.org/increasingly-hot-europe-faces-more-severe-droughts-and-growing-challenges-for-water-and-land-management/">World Weather Attribution</a>, July 2026). One defensive export ban could tip a price story into an availability story.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>COP17 makes digital-sequence payments compulsory</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Parties drop the voluntary model and adopt a levy-like obligation on digital-sequence users at the October biodiversity COP.</p>
-<p><strong>Early warning indicators:</strong> Draft COP17 text on mandatory contributions; a first large pharma or agribusiness payment.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a pledge would become a price</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Cali Fund relies on voluntary company payments<span class="wcc-seen">Seen: first and only contribution was $1,000</span></div><div class="wcc-w"><b>Watch:</b> corporate contributions to the Cali Fund, called if pharma, biotech and agribusiness payers stay away beyond the $1,000 received (Carbon Brief, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Governments and biotech firms meet to mobilise contributions<span class="wcc-seen">Seen: around 40 participants met in Leuven</span></div><div class="wcc-w"><b>Watch:</b> pre-COP17 dialogues on mobilising contributions, called when one ends with governments backing mandatory payments (European Commission, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Draft COP17 text proposes mandatory contributions</div><div class="wcc-w"><b>Watch:</b> draft COP17 decision text that replaces voluntary language on contributions with an obligation on digital-sequence users (European Commission, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A large pharma or agribusiness firm makes a first payment</div><div class="wcc-w"><b>Watch:</b> a first Cali Fund payment from a large pharma or agribusiness company, set against the $1,000 total so far (Carbon Brief, December 2025).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: COP17 makes digital-sequence payments compulsory</div><div class="wcc-w"><b>Watch:</b> an adopted COP17 decision requiring large users of digital sequence information to pay into the Cali Fund (European Commission, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>With one $1,000 contribution on the books (<a href="https://www.carbonbrief.org/cali-fund-aiming-to-raise-billions-for-nature-receives-first-donation-of-just-1000/">Carbon Brief</a>, December 2025), a mandatory turn would move nature finance from pledge to price.</p>
 </div>
 <div class="implications">

@@ -154,6 +154,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -330,26 +373,56 @@ inside an EU member would move Article 42(7) from treaty text to a live vote.</l
 establishment of the five projects converts a &euro;190 billion ambition into contracts.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>An Iranian strike lands on EU territory</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A drone or missile reaches a base inside an EU member state rather than Cyprus or Turkey.</p>
-<p><strong>Early warning indicators:</strong> New US tanker rotations to Bezmer; Iranian statements naming hosts; NATO air-defence deployments to Bulgaria.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the threat would reach EU soil</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">An Iranian-made drone strikes a European base on the EU's edge<span class="wcc-seen">Seen: RAF Akrotiri, Cyprus, struck in March</span></div><div class="wcc-w"><b>Watch:</b> any further Iranian-made drone or missile reaching a European base, as at RAF Akrotiri in March (EU Perspectives, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Tehran names Bulgaria as a target for hosting US tankers<span class="wcc-seen">Seen: Iran named Bulgaria over tankers at Bezmer</span></div><div class="wcc-w"><b>Watch:</b> an Iranian foreign ministry statement naming a further EU state that hosts US aircraft (EU Perspectives, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">US tankers rotate back through Bezmer for new operations</div><div class="wcc-w"><b>Watch:</b> the return of KC-135s to Bezmer under the approval for up to eight aircraft and 250 personnel (EU Perspectives, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Iran launches at a US-hosting base in an EU state</div><div class="wcc-w"><b>Watch:</b> any Iranian launch toward a base in Bulgaria or another EU host, intercepted or not (Stars and Stripes, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: an Iranian strike hits a base inside the EU</div><div class="wcc-w"><b>Watch:</b> a confirmed Iranian drone or missile impact at a base on EU territory, beyond the UK base at Akrotiri and beyond Turkey (Stars and Stripes, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Two US tankers left Bezmer on 21 August after Tehran named Bulgaria, moving attacks on European facilities beyond contingency planning (<a href="https://euperspectives.eu/2026/08/iran-threat-bulgaria-european-military-bases/" target="_blank">EU Perspectives</a>, August 2026). Turkey, hosting about 1,700 US personnel, has already been under Iranian fire (<a href="https://www.stripes.com/theaters/europe/2026-08-19/iran-europe-attacks-22598834.html" target="_blank">Stars and Stripes</a>, August 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>The posture review sorts allies by loyalty</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A published option re-bases US forces away from allies that restricted access during the Iran war.</p>
-<p><strong>Early warning indicators:</strong> SACEUR's September recommendations; the 6 November options; leaked country scores.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a questionnaire would become a ranking</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Pentagon asks allies whether they restricted access during the Iran war<span class="wcc-seen">Seen: questionnaire responses were due 28 August</span></div><div class="wcc-w"><b>Watch:</b> the questionnaire's item on base or airspace restrictions during the Iran war carried into the military recommendations (Stars and Stripes, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">US troop cuts land country by country<span class="wcc-seen">Seen: 5,000 troops from Germany and 700 from Romania</span></div><div class="wcc-w"><b>Watch:</b> a further named-country reduction announced before the review closes, beyond Germany, Romania and Estonia (Center for Strategic and International Studies, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">SACEUR presents military recommendations in September</div><div class="wcc-w"><b>Watch:</b> the SACEUR recommendations due in September referring to allies' access decisions during the Iran war (Stars and Stripes, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Options reach Hegseth by 6 November with country scores attached</div><div class="wcc-w"><b>Watch:</b> at least four courses of action reaching Hegseth by 6 November, with any leaked country scores (Stars and Stripes, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: US forces re-base away from allies that restricted access</div><div class="wcc-w"><b>Watch:</b> a published course of action moving US forces away from an ally that limited base or airspace use, against the roughly 80,000-troop presence (Stars and Stripes, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Diplomats described the questionnaire round as a beauty contest (<a href="https://www.stripes.com/theaters/europe/2026-08-28/colby-nato-defense-questionnaire-22683850.html" target="_blank">Stars and Stripes</a>, August 2026), and CSIS warns that scoring allies on national performance invites competition when the transition needs integration (<a href="https://www.csis.org/analysis/europe-force-posture-review-and-transition-nato-30" target="_blank">Center for Strategic and International Studies</a>, August 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>ITAR-free becomes a hard procurement criterion</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> SAFE and EDIP tenders exclude US-controlled components outright.</p>
-<p><strong>Early warning indicators:</strong> Tenders written around ITAR exclusion; US export-reform bills; US primes opening European lines.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a selling point would become a rule</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">European firms market ITAR-free status as a selling point<span class="wcc-seen">Seen: ITAR-free status now marketed as a selling point</span></div><div class="wcc-w"><b>Watch:</b> new European weapons launched with ITAR-free status as a headline feature (Breaking Defense, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">SAFE loans pay for weapons produced within the EU<span class="wcc-seen">Seen: Estonia received the first SAFE payment of €351.6 million</span></div><div class="wcc-w"><b>Watch:</b> further SAFE pre-financing payments for systems produced within the EU, after Estonia's €351.6 million (European Commission, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">US primes open European lines to keep their market share</div><div class="wcc-w"><b>Watch:</b> a US prime announcing new European manufacturing beyond the five countries where Honeywell has plants (Breaking Defense, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A SAFE or EDIP tender excludes US-controlled components by name</div><div class="wcc-w"><b>Watch:</b> tender documents under SAFE or the five joint defence projects excluding ITAR-controlled parts outright (European Commission, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: SAFE and EDIP tenders exclude US-controlled components outright</div><div class="wcc-w"><b>Watch:</b> an ITAR exclusion written as a standard clause across SAFE and EDIP tenders rather than a one-off (European Commission, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>US firms are adjusting: Honeywell now markets the 13 European countries it operates in and the five with manufacturing plants (<a href="https://breakingdefense.com/2026/08/europe-wants-itar-free-weapons-us-firms-are-trying-to-adjust/" target="_blank">Breaking Defense</a>, August 2026). The driver is trust rather than price, which makes the criterion hard to reverse.</p>
 </div>
 <div class="implications">

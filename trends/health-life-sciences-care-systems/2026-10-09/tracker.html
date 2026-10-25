@@ -256,6 +256,48 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -450,45 +492,54 @@ employer (<a href="https://www.kcl.ac.uk/news/social-care-reform-must-start-with
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 
 <div class="wild-card risk">
 <h4>Bundibugyo transmission establishes in Kinshasa</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Sustained transmission reaches a city of millions far from the east.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>The outbreak spreads to new provinces<span class="wcp-seen">Seen: six provinces in August, 7 by 27 September</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Weekly confirmed cases keep rising<span class="wcp-seen">Seen: 343 more cases since the previous report</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>A confirmed case appears in a province bordering Kinshasa</span></div>
-<div class="wcp-step s4 last"><span class="n">4</span><span>The wild card lands: sustained local transmission in Kinshasa</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the virus would reach the capital</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The outbreak spreads to new provinces<span class="wcc-seen">Seen: six provinces in August, 7 by 27 September</span></div><div class="wcc-w"><b>Watch:</b> affected provinces rising past 7, or health zones past 63, in the weekly count (UK Health Security Agency, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Weekly confirmed cases keep rising<span class="wcc-seen">Seen: 343 more cases since the previous report</span></div><div class="wcc-w"><b>Watch:</b> weekly confirmed cases staying above the 343 added in the report to 27 September (UK Health Security Agency, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A confirmed case appears in a province bordering Kinshasa</div><div class="wcc-w"><b>Watch:</b> any confirmed Bundibugyo case in a province that borders Kinshasa (UK Health Security Agency, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: sustained local transmission in Kinshasa</div><div class="wcc-w"><b>Watch:</b> confirmed cases in Kinshasa with no travel link to the east, across successive weekly reports (UK Health Security Agency, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>UKHSA still places the heaviest counts in the east (<a href="https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-39-week-ending-27-september-2026" target="_blank">UKHSA</a>, October 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>Bilateral pathogen deals become the working standard</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> The multilateral annex stalls and bilateral agreements set the terms of pathogen access.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>Countries refuse US data terms and lose funding<span class="wcp-seen">Seen: Namibia&rsquo;s HIV funding ends after 2027</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>The UN meeting fails to close on a declaration<span class="wcp-seen">Seen: no agreed draft on 25 September</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>The next annex round ends without contractual text</span></div>
-<div class="wcp-step s4 last"><span class="n">4</span><span>The wild card lands: bilateral terms become the default</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how bilateral terms would become the norm</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Countries refuse US data terms and lose funding<span class="wcc-seen">Seen: Namibia’s HIV funding ends after 2027</span></div><div class="wcc-w"><b>Watch:</b> another country losing US funding after refusing data terms, as Namibia's HIV support ends after 2027 (Health Policy Watch, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The UN meeting fails to close on a declaration<span class="wcc-seen">Seen: no agreed draft on 25 September</span></div><div class="wcc-w"><b>Watch:</b> the UN pandemic declaration still without agreed text, with the US objecting to a separate sample-sharing arrangement (Associated Press, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The next annex round ends without contractual text</div><div class="wcc-w"><b>Watch:</b> the next pathogen access annex round closing with its contractual arrangements still unagreed (Health Policy Watch, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: bilateral terms become the default</div><div class="wcc-w"><b>Watch:</b> pathogen access set mainly through US bilateral agreements, with the Kenya and DRC deals surviving legal challenge (Health Policy Watch, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The Kenya and DRC agreements face legal challenge (<a href="https://healthpolicy-watch.news/us-to-phase-out-hiv-support/" target="_blank">Health Policy Watch</a>, September 2026), and the US objected to a separate sample-sharing arrangement in the UN draft (<a href="https://abcnews.com/Health/wireStory/build-momentum-pandemic-preparedness-hits-speed-bump-136769702" target="_blank">Associated Press</a>, September 2026).</p>
 </div>
 <div class="wild-card opportunity">
 <h4>A funded National Care Service wins cross-party backing</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> A reform that has failed across governments gains funding and opposition support.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>The Prime Minister pledges a free-at-the-point-of-use service<span class="wcp-seen">Seen: pledged in a conference speech</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>The Casey review is brought forward<span class="wcp-seen">Seen: full report now due by 2027</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>The Casey report sets out a costed funding model</span></div>
-<div class="wcp-step s4 last"><span class="n">4</span><span>The wild card lands: a funded service gains cross-party backing</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a pledge would win both sides</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Prime Minister pledges a free-at-the-point-of-use service<span class="wcc-seen">Seen: pledged in a conference speech</span></div><div class="wcc-w"><b>Watch:</b> the pledge carried into a government plan or spending commitment for a free-at-the-point-of-use National Care Service (Royal College of Nursing, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The Casey review is brought forward<span class="wcc-seen">Seen: full report now due by 2027</span></div><div class="wcc-w"><b>Watch:</b> the Casey Commission holding to its revised timetable to report in full by 2027 (DAC Beachcroft, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The Casey report sets out a costed funding model</div><div class="wcc-w"><b>Watch:</b> a Casey report that states how the service would be paid for, with the costs set out (DAC Beachcroft, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: a funded service gains cross-party backing</div><div class="wcc-w"><b>Watch:</b> the main opposition parties publicly backing the funded service, the cross-party consensus the nursing union says reform needs (Royal College of Nursing, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The nursing union says reform needs cross-party consensus (<a href="https://www.rcn.org.uk/news-and-events/news/uk-national-care-service-vision-must-include-nursing-investment-says-rcn-290926" target="_blank">Royal College of Nursing</a>, September 2026), and funding decisions may be difficult (<a href="https://www.dacbeachcroft.com/en/What-we-think/The-Casey-Commission-progress-recommendations-and-what-comes-next" target="_blank">DAC Beachcroft</a>, August 2026).</p>
 </div>
 <div class="implications">

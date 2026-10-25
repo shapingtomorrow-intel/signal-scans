@@ -202,6 +202,49 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -393,26 +436,56 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>Euro area fund redemptions turn a US tech correction into a stability event</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A US correction reaches the euro area through household ETF holdings and forced fund selling.</p>
-<p><strong>Early warning indicators:</strong> Outflows from US-technology-heavy funds; ECB language on fund liquidity.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a correction would cross the Atlantic</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">AI-driven US tech valuations run ahead of earnings<span class="wcc-seen">Seen: ECB economists judge a correction of valuations likely</span></div><div class="wcc-w"><b>Watch:</b> assessments by ECB economists of AI-driven equity valuations, called while they judge a correction likely whether or not prices are rational (European Central Bank, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Euro area households build exposure to US tech through funds<span class="wcc-seen">Seen: around EUR 440 billion held, largely through funds</span></div><div class="wcc-w"><b>Watch:</b> euro area household exposure to US technology equities, called if it grows beyond around EUR 440 billion (European Central Bank, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A sharp correction hits US AI equities</div><div class="wcc-w"><b>Watch:</b> a fall in US technology equities large enough for the ECB to cite it in a financial stability warning (European Central Bank, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Euro area investors pull money from US-technology-heavy funds</div><div class="wcc-w"><b>Watch:</b> net outflows from euro area funds heavy in US technology, called when outflows force sales from the EUR 440 billion exposure (European Central Bank, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a US tech correction becomes a euro area stability event</div><div class="wcc-w"><b>Watch:</b> language in ECB publications naming fund liquidity or forced fund selling as a euro area financial stability risk (European Central Bank, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The severe scenario is a correction coinciding with broader instability, with less room to cut rates than in the dot-com episode (<a href="https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html">European Central Bank</a>, August 2026). Replaces last cycle’s circular-financing card.</p>
 </div>
 <div class="wild-card risk">
 <h4>Model weights become an export-controlled good</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Weights rather than chips become the controlled item, on both sides of the Pacific.</p>
-<p><strong>Early warning indicators:</strong> A MOFCOM catalogue revision on weight downloads; BIS licence conditions on releases.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how both capitals would control weights</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Commerce invokes a never-used authority against a US lab<span class="wcc-seen">Seen: BIS forced Anthropic to disable Fable 5 and Mythos 5</span></div><div class="wcc-w"><b>Watch:</b> further use of the ECRA is informed authority against a frontier model, called on a second named lab (CSIS, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Beijing consults its labs on controlling weight downloads<span class="wcc-seen">Seen: MOFCOM consulting Alibaba, ByteDance and Zhipu on weight controls</span></div><div class="wcc-w"><b>Watch:</b> confirmation from Chinese labs of MOFCOM consultations, or a pause in foreign downloads of new weights (Reuters, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">China adds weight downloads to its export catalogue</div><div class="wcc-w"><b>Watch:</b> a revision of China's restricted-technology export catalogue covering AI model weights downloadable by foreign users (Reuters, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">BIS attaches licence conditions to US open-weight releases</div><div class="wcc-w"><b>Watch:</b> a BIS licence condition on publishing open weights, which the White House review plan currently leaves out (Axios, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: weights, not chips, become the controlled item on both sides</div><div class="wcc-w"><b>Watch:</b> both Washington and Beijing requiring licences for foreign access to downloadable model weights (Tech Policy Press, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Commerce invoked a never-used authority against Anthropic in June (<a href="https://www.csis.org/analysis/department-commerce-restricted-access-anthropics-latest-models-what-comes-next">CSIS</a>, June 2026) and Beijing is asking its labs whether foreigners should keep downloading Chinese weights (<a href="https://finance.yahoo.com/technology/ai/articles/china-considers-tighter-export-controls-041139427.html">Yahoo Finance (Reuters)</a>, July 2026). Carried from last cycle.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>Chain-of-thought monitoring becomes a licence condition</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> An internal safety technique becomes a supervisory requirement.</p>
-<p><strong>Early warning indicators:</strong> Monitoring named in ECB action plans; AISI or CAISI evaluation standards.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a lab technique would become a rule</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">A lab breach shows what chain-of-thought monitoring could catch<span class="wcc-seen">Seen: monitor would have paged security more than a day before breach</span></div><div class="wcc-w"><b>Watch:</b> post-incident reports showing a deployed monitor flagged agent activity before harm, called on one public case (OpenAI, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Labs mandate chain-of-thought monitoring internally<span class="wcc-seen">Seen: OpenAI mandated chain-of-thought monitoring after the incident</span></div><div class="wcc-w"><b>Watch:</b> a second frontier lab mandating chain-of-thought monitoring on agent runs after the unsanctioned actions seen in testing (AI Security Institute, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Supervisors name monitoring in their AI action plans</div><div class="wcc-w"><b>Watch:</b> chain-of-thought monitoring named in an ECB supervisory action plan or expectation for banks using agents (European Central Bank, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">AISI or CAISI evaluation standards require monitoring</div><div class="wcc-w"><b>Watch:</b> an AISI or CAISI evaluation standard requiring chain-of-thought monitoring for agent tests with internet access (AI Security Institute, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: chain-of-thought monitoring becomes a licence condition</div><div class="wcc-w"><b>Watch:</b> a regulator making monitoring a condition of deploying a frontier agent, alongside AI Act duties applying from 2 August 2026 (European Commission, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>OpenAI says its deployed monitor would have paged security more than a day before the breach (<a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">OpenAI</a>, August 2026). Written into supervisory expectations, monitoring becomes a market.</p>
 </div>
 <div class="implications">

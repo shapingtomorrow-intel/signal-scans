@@ -256,6 +256,48 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -438,42 +480,51 @@
 <h4>Emergency orders lapse into the winter peak</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Courts strip the authority holding retiring plants online just as winter demand builds.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>A federal court rules a DOE emergency order unlawful<span class="wcp-seen">Seen: the Campbell order vacated, in September</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>DOE keeps issuing orders to hold retiring plants open<span class="wcp-seen">Seen: Craig order from 27 September to 25 December</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>DOE's appeal fails or later orders are struck down</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Renewals due before the December peak are blocked</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: retiring plants leave the grid as winter demand peaks</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the emergency orders would lapse</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">A federal court rules a DOE emergency order unlawful<span class="wcc-seen">Seen: the Campbell order vacated, in September</span></div><div class="wcc-w"><b>Watch:</b> court rulings on DOE Section 202(c) orders, called when one is vacated, as Campbell's was on 11 September (Utility Dive, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">DOE keeps issuing orders to hold retiring plants open<span class="wcc-seen">Seen: Craig order from 27 September to 25 December</span></div><div class="wcc-w"><b>Watch:</b> new 202(c) orders for retiring plants, such as Craig Unit 1's from 27 September to 25 December (US Department of Energy, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">DOE's appeal fails or later orders are struck down</div><div class="wcc-w"><b>Watch:</b> a court vacating a second 202(c) order or rejecting DOE's appeal on Campbell (Utility Dive, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Renewals due before the December peak are blocked</div><div class="wcc-w"><b>Watch:</b> a court order stopping renewal of the Craig order past 25 December (US Department of Energy, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: retiring plants leave the grid as winter demand peaks</div><div class="wcc-w"><b>Watch:</b> any retiring unit held by a 202(c) order going offline at the winter peak once its order lapses (US Department of Energy, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The D.C. Circuit has already found one order unlawful (<a href="https://utilitydive.com/news/appeals-court-vacates-doe-emergency-order-michigan-power-plant/830189" target="_blank" rel="noopener">Utility Dive</a>, September 2026), yet DOE issued a further Craig order days later (<a href="https://www.energy.gov/articles/trump-administration-mitigates-blackout-risks-keeping-colorado-coal-plant-online" target="_blank" rel="noopener">US Department of Energy</a>, September 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>The quiet season breaks late</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2026</span></p>
 <p><strong>Surprise characteristics:</strong> One major landfall into a market priced for a record-quiet season.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>No Atlantic hurricane forms before October<span class="wcp-seen">Seen: only three seasons since 1851 had none by 7 October</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>A storm forms in the Gulf and becomes a hurricane<span class="wcp-seen">Seen: Isaias became the first hurricane on 7 October</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>It strengthens rapidly before reaching the US coast</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>A major hurricane crosses a coast dense with energy assets</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: a major hurricane makes landfall after a record-quiet season</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a late storm would land</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">No Atlantic hurricane forms before October<span class="wcc-seen">Seen: only three seasons since 1851 had none by 7 October</span></div><div class="wcc-w"><b>Watch:</b> hurricanes formed in the season, against only three seasons since 1851 with none through 7 October (KUOW, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">A storm forms in the Gulf and becomes a hurricane<span class="wcc-seen">Seen: Isaias became the first hurricane on 7 October</span></div><div class="wcc-w"><b>Watch:</b> the season's first hurricane, called when Isaias strengthened into one on 7 October (KUOW, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">It strengthens rapidly before reaching the US coast</div><div class="wcc-w"><b>Watch:</b> a storm such as Isaias reaching major hurricane strength before US landfall (KUOW, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">A major hurricane crosses a coast dense with energy assets</div><div class="wcc-w"><b>Watch:</b> a major hurricane track crossing the northern Gulf Coast, where forecasters expected Isaias (KUOW, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a major hurricane makes landfall after a record-quiet season</div><div class="wcc-w"><b>Watch:</b> a US landfall at major strength in a season with no hurricane until 7 October (KUOW, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The first hurricane of the season arrived on 7 October, and forecasters expected it near the northern Gulf Coast (<a href="https://www.kuow.org/npr-news/2026-10-07/isaias-strengthens-into-the-first-hurricane-of-the-atlantic-season" target="_blank" rel="noopener">KUOW</a>, October 2026). The wild card needs a storm that arrives at major strength.</p>
 </div>
 <div class="wild-card opportunity">
 <h4>PJM refiles its backstop before the hearing ends</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A state-backed settlement of who pays arrives faster than the paper hearing requires.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>FERC finds the backstop unfinished on who pays<span class="wcp-seen">Seen: accepted and suspended on 29 September</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s2"><span class="n">2</span><span>PJM files a new proposal instead of waiting for the hearing</span></div>
-<div class="wcp-step s3"><span class="n">3</span><span>States agree how backstop costs reach customers</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Transmission owners and load-serving entities accept the revised terms</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: a refiled backstop clears FERC before February 2027</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the backstop would be refiled</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">FERC finds the backstop unfinished on who pays<span class="wcc-seen">Seen: accepted and suspended on 29 September</span></div><div class="wcc-w"><b>Watch:</b> the FERC order suspending the backstop to 28 February 2027 for a paper hearing on cost allocation (Federal Energy Regulatory Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">PJM files a new proposal instead of waiting for the hearing</div><div class="wcc-w"><b>Watch:</b> a revised PJM backstop filing docketed at FERC before the paper hearing concludes (Federal Energy Regulatory Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">States agree how backstop costs reach customers</div><div class="wcc-w"><b>Watch:</b> a state settlement on backstop cost allocation filed alongside the revised proposal (Federal Energy Regulatory Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Transmission owners and load-serving entities accept the revised terms</div><div class="wcc-w"><b>Watch:</b> transmission-owner exit and load-serving-entity collateral terms settled without protest (Federal Energy Regulatory Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a refiled backstop clears FERC before February 2027</div><div class="wcc-w"><b>Watch:</b> a FERC order accepting a refiled backstop before February 2027, ahead of the 28 February effective date (Federal Energy Regulatory Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>FERC urged PJM to file again promptly, which could make the hearing unnecessary (<a href="https://www.pjm.com/pjmfiles/directory/etariff/FercOrders/9154/20260929-er26-3380-000.pdf" target="_blank" rel="noopener">FERC</a>, September 2026). It replaces the bilateral-contracts card: the question is now whether the mechanism runs at all.</p>
 </div>
 <div class="implications">

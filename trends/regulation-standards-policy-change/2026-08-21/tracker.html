@@ -150,6 +150,49 @@
     .tr-panel { margin-top: 14px; max-width: none; }
     .reg-table thead { display: table-header-group; }
   }
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -272,26 +315,54 @@
 <li><strong>ISSB global sustainability-disclosure baseline.</strong> If jurisdictions convert the October exposure draft into mandatory nature reporting, the baseline moves ahead of national rulebooks.</li>
 </ol>
 </div>
-<h3>Wild Cards to Watch</h3>
+<h3>The Wild Card Chains to Watch</h3>
 <div class="wild-card risk">
 <h4>GDPR personal-data redefinition adopted over regulator objection</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Co-legislators override the EDPB, the Cnil and the French Senate to narrow the definition of personal data.</p>
-<p><strong>Early warning indicators:</strong> A trilogue text keeping the pseudonymisation carve-out to personal data.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a stalled text would revive</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">National regulators and the French Senate join the EDPB objection<span class="wcc-seen">Seen: Cnil shares the EDPB's firm objections, heard 28 April</span></div><div class="wcc-w"><b>Watch:</b> a national parliament or regulator report opposing the personal-data redefinition (Sénat, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">A late-2026 push restores the GDPR provisions to the Council text</div><div class="wcc-w"><b>Watch:</b> a Council working text restoring the core GDPR provisions dropped from the stalled draft (Council of the European Union, June 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by early 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A trilogue text keeps the pseudonymisation carve-out to personal data</div><div class="wcc-w"><b>Watch:</b> a trilogue text keeping pseudonymised data outside personal data, the change the Senate rapporteurs call dangerous for sensitive data (Sénat, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: co-legislators narrow personal data over EDPB, Cnil and Senate objection</div><div class="wcc-w"><b>Watch:</b> final adoption of the narrowed definition while the Cnil and the Senate rapporteurs still oppose it (Sénat, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The GDPR half of the omnibus is stalled, its core provisions dropped from the Council’s working text, yet a late-2026 push remains live; the Senate’s rapporteurs call the amendments dangerous for sensitive data (<a href="https://www.senat.fr/rap/r25-626/r25-6265.html">Sénat (France)</a>, May 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>US crypto market-structure push collapses for 2026</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2026</span></p>
 <p><strong>Surprise characteristics:</strong> After the GENIUS win, CLARITY fails cloture in September and slips past the midterms.</p>
-<p><strong>Early warning indicators:</strong> No cloture filing by mid-September; the ethics counter-proposal unanswered.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how one failed vote would close 2026</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Senate leaves for recess without voting on CLARITY<span class="wcc-seen">Seen: no vote before the August recess</span></div><div class="wcc-w"><b>Watch:</b> the Senate leaving for its August recess with no vote on the CLARITY Act (CoinDesk, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">No cloture is filed and the ethics counter-proposal goes unanswered</div><div class="wcc-w"><b>Watch:</b> no cloture filing in time for a first procedural vote on 15 September 2026, the earliest possible date (CoinDesk, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A cloture vote on CLARITY falls short of 60 votes</div><div class="wcc-w"><b>Watch:</b> a first procedural vote on the CLARITY Act falling short of the 60 votes needed (CoinDesk, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4 last"><span class="n">4</span><div><div class="wcc-t">The wild card lands: CLARITY fails cloture and slips past the midterms</div><div class="wcc-w"><b>Watch:</b> the Senate breaking for the midterms with no second cloture vote scheduled on the CLARITY Act (CoinDesk, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>With the first procedural vote possible on 15 September and no assured supermajority, one failed cloture vote would likely close the 2026 window (<a href="https://www.coindesk.com/policy/2026/08/06/senate-won-t-vote-on-crypto-clarity-act-before-its-summer-break">CoinDesk</a>, August 2026).</p>
 </div>
 <div class="wild-card risk">
 <h4>First GPAI enforcement action against a frontier provider</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> The AI Office skips its preferred dialogues and opens a formal proceeding against a major provider.</p>
-<p><strong>Early warning indicators:</strong> Formal information requests or model-access demands; a systemic-risk incident report.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a first case would open</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The AI Office gains powers to enforce GPAI obligations<span class="wcc-seen">Seen: enforcement powers live from 2 August 2026</span></div><div class="wcc-w"><b>Watch:</b> the date the AI Office becomes formally entitled to investigate and enforce GPAI provider obligations (Wilson Sonsini, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">A provider reports a serious incident with a systemic-risk model</div><div class="wcc-w"><b>Watch:</b> a systemic-risk incident report from a GPAI provider disclosed or confirmed by the AI Office (Wilson Sonsini, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The AI Office sends formal information or model-access demands</div><div class="wcc-w"><b>Watch:</b> a formal information request or model-access demand to a named GPAI provider made public (Wilson Sonsini, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">The AI Office opens a formal proceeding against a major provider</div><div class="wcc-w"><b>Watch:</b> a Commission notice opening proceedings against a named GPAI provider instead of a dialogue (Wilson Sonsini, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a first GPAI enforcement action hits a frontier provider</div><div class="wcc-w"><b>Watch:</b> a fine against a GPAI provider, up to the higher of EUR 15 million or 3% of worldwide turnover (Wilson Sonsini, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The AI Office calls dialogues its preferred tool, but powers to compel model access and fine up to 3 percent of turnover now exist, with rights bodies urging strong enforcement (<a href="https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html">Wilson Sonsini</a>, August 2026).</p>
 </div>
 <div class="implications">

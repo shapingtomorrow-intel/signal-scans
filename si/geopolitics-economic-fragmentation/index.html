@@ -224,6 +224,56 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -423,26 +473,56 @@ royalties and export levies (<a href="https://en.antaranews.com/news/415656/indo
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
-<div class="wild-card risk">
+<h3>The Wild Card Chains to Watch</h3>
+<div class="wild-card risk" id="wc-brazil-s-vote-becomes-a-market-shock">
 <h4>Brazil's vote becomes a market shock</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A contested first round.</p>
-<p><strong>Early warning indicators:</strong> The first-round result; poll shifts; currency moves.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a contested count would move markets</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Markets move on shifts in the presidential polls<span class="wcc-seen">Seen: markets have moved on poll shifts before the 4 October vote</span></div><div class="wcc-w"><b>Watch:</b> currency moves on poll releases ahead of the 4 October first round (The Rio Times, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">No candidate wins more than half in the first round</div><div class="wcc-w"><b>Watch:</b> the first-round result against the more than half of valid votes needed to avoid a runoff (The Rio Times, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill high">High: 50 to 80%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The first-round result is contested before the 25 October runoff</div><div class="wcc-w"><b>Watch:</b> a campaign formally challenging the first-round count (The Rio Times, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">The real falls sharply as uncertainty runs past the runoff</div><div class="wcc-w"><b>Watch:</b> a sharp fall in the real as the runoff extends electoral uncertainty (The Rio Times, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: Brazil's contested vote becomes a market shock</div><div class="wcc-w"><b>Watch:</b> asset prices in Brazil moving on the disputed result rather than on poll shifts alone (The Rio Times, October 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Markets have already moved on poll shifts (<a href="https://www.riotimesonline.com/brazil-election-2026-runoff-25-october-explainer/" target="_blank">The Rio Times</a>, October 2026).</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-a-counterspace-attack-disrupts-a-commercial-constellation">
 <h4>A counterspace attack disrupts a commercial constellation</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> Services fail during a dispute.</p>
-<p><strong>Early warning indicators:</strong> Jamming reports; new counterspace tests.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a dispute would reach orbit</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Space becomes a centrepiece of how nations compete and fight<span class="wcc-seen">Seen: space moved from a supporting role to a centrepiece</span></div><div class="wcc-w"><b>Watch:</b> government statements treating adversary satellites as targets in a dispute (Center for Strategic and International Studies, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Jamming reports against commercial satellites rise during disputes</div><div class="wcc-w"><b>Watch:</b> jamming of commercial satellite services reported during a live dispute (Center for Strategic and International Studies, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A state carries out a new counterspace weapons test</div><div class="wcc-w"><b>Watch:</b> a declared or detected counterspace test by any state (Center for Strategic and International Studies, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Commercial operators report degraded service tied to state action</div><div class="wcc-w"><b>Watch:</b> a constellation operator attributing an outage to hostile interference (Center for Strategic and International Studies, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a counterspace attack disrupts a commercial constellation</div><div class="wcc-w"><b>Watch:</b> services failing across a commercial constellation during a dispute, attributed to a state (Center for Strategic and International Studies, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Governments rely on satellites while working to disrupt adversaries (<a href="https://www.csis.org/analysis/what-are-biggest-space-threats-2026" target="_blank">Center for Strategic and International Studies</a>, May 2026).</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-the-truce-rollover-becomes-a-standing-minerals-arrangement">
 <h4>The truce rollover becomes a standing minerals arrangement</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> A durable licensing regime.</p>
-<p><strong>Early warning indicators:</strong> A longer term at the next rollover; new allied processing capacity.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a rollover would become a regime</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">China extends the suspension of its rare earth controls<span class="wcc-seen">Seen: the rollover extended the suspension of rare earth controls</span></div><div class="wcc-w"><b>Watch:</b> the length of each suspension of China's rare earth controls at rollover (Bloomsbury Intelligence and Security Institute, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The truce holds on mutual chokepoint dependence<span class="wcc-seen">Seen: Brookings judges the truce likely to hold on mutual chokepoints</span></div><div class="wcc-w"><b>Watch:</b> mutual reliance, the US on Chinese rare earths and China on foreign semiconductors, keeping both sides in the truce (Brookings Institution, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The next rollover sets a longer term</div><div class="wcc-w"><b>Watch:</b> a suspension term longer than the current rollover (Bloomsbury Intelligence and Security Institute, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Allied processing capacity comes online outside China</div><div class="wcc-w"><b>Watch:</b> new allied rare earth processing capacity commissioned (Bloomsbury Intelligence and Security Institute, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: the truce rollover becomes a durable licensing regime</div><div class="wcc-w"><b>Watch:</b> a licensing arrangement with no fixed expiry replacing time-limited suspensions (Brookings Institution, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>New capacity is unlikely to remove Chinese leverage near term (<a href="https://bisi.org.uk/reports/chinas-rare-earth-processing-dominance-and-what-the-trump-xi-summit-didnt-change" target="_blank">Bloomsbury Intelligence and Security Institute</a>, September 2026).</p>
 </div>
 <div class="implications">

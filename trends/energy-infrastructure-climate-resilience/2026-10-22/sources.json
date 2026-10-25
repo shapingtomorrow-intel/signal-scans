@@ -92,7 +92,7 @@
   "claim_strength": "verbatim",
   "verbatim_quote": "ERCOT expects to complete its audit in December 2026.",
   "verbatim_list": [
-   "On September 21, 2026, Governor Abbott directed the Texas Commission on Environmental Quality"
+   "On September 21, 2026, Governor Greg Abbott directed the Texas Commission on Environmental Quality"
   ],
   "verified_at": "2026-10-22T06:53:02Z",
   "tier": 2,
@@ -108,7 +108,8 @@
   "signals_supported": [
    "Data-centre load verification"
   ],
-  "cluster": "Load has to prove itself before anyone pays"
+  "cluster": "Load has to prove itself before anyone pays",
+  "notes": "25 Oct 2026: list item corrected to the page's wording ('Governor Greg Abbott'); found by Matthew Richardson on manual check, confirmed by Claude on the live page."
  },
  {
   "topic": "Energy, Infrastructure and Climate Resilience",

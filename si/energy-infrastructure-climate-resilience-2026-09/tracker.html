@@ -231,6 +231,55 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -422,47 +471,56 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
-<div class="wild-card risk">
+<h3>The Wild Card Chains to Watch</h3>
+<div class="wild-card risk" id="wc-emergency-orders-lapse-into-the-winter-peak">
 <h4>Emergency orders lapse into the winter peak</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Courts strip the authority holding retiring plants online as winter demand builds.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>A federal court rules a DOE emergency order unlawful<span class="wcp-seen">Seen: first Campbell order, in September</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>DOE keeps issuing orders to hold retiring plants open<span class="wcp-seen">Seen: Campbell to 14 November, Stanton to 30 November</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>DOE's appeal fails or later Campbell orders are struck down</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Renewals due on 14 and 30 November are blocked</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: retiring plants leave the grid as winter demand peaks</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the emergency orders would lapse</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">A federal court rules a DOE emergency order unlawful<span class="wcc-seen">Seen: first Campbell order, in September</span></div><div class="wcc-w"><b>Watch:</b> court rulings on DOE Section 202(c) orders, called when one is vacated as unlawful (Michigan Department of Attorney General, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">DOE keeps issuing orders to hold retiring plants open<span class="wcc-seen">Seen: Campbell to 14 November, Stanton to 30 November</span></div><div class="wcc-w"><b>Watch:</b> new or renewed 202(c) orders for retiring plants, such as Stanton Unit 1's to 30 November (US Department of Energy, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">DOE's appeal fails or later Campbell orders are struck down</div><div class="wcc-w"><b>Watch:</b> a court ruling against DOE on appeal or on a later Campbell order, after the sixth order running to 14 November (Michigan Department of Attorney General, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Renewals due on 14 and 30 November are blocked</div><div class="wcc-w"><b>Watch:</b> a court order stopping renewal of the Stanton order beyond 30 November (US Department of Energy, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: retiring plants leave the grid as winter demand peaks</div><div class="wcc-w"><b>Watch:</b> generation outages in PJM at the winter peak above the 36,000 MW still out in September, as retiring units leave (PJM Interconnection, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>The D.C. Circuit found the first Campbell order unlawful, yet a sixth runs to 14 November (<a href="https://www.michigan.gov/ag/news/press-releases/2026/09/11/federal-appeals-court-vacates-first-doe-order-forcing-operation-of-jh-campbell-coal-plant" target="_blank" rel="noopener">Michigan Attorney General</a>, September 2026) and the Stanton order to 30 November (<a href="https://www.energy.gov/articles/energy-secretary-saves-coal-fired-generation-going-offline-florida" target="_blank" rel="noopener">US Department of Energy</a>, September 2026). Blocked renewals would leave grid operators weeks to plan.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-the-quiet-season-breaks-late">
 <h4>The quiet season breaks late</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2026</span></p>
 <p><strong>Surprise characteristics:</strong> One major landfall into a market priced for a record-quiet season.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>No Atlantic hurricane forms by late September<span class="wcp-seen">Seen: a first in 112 years</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s2"><span class="n">2</span><span>El Niño weakens heading into October</span></div>
-<div class="wcp-step s3"><span class="n">3</span><span>A storm forms in the Gulf or Caribbean in October</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>It strengthens quickly before reaching the US coast</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: a major hurricane makes landfall after a record-quiet season</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a record-quiet season would break</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">No Atlantic hurricane forms by late September<span class="wcc-seen">Seen: a first in 112 years</span></div><div class="wcc-w"><b>Watch:</b> the count of Atlantic hurricanes so far, against none by 21 September for the first time in 112 years (Fox Weather, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">El Niño weakens heading into October</div><div class="wcc-w"><b>Watch:</b> forecasters stepping back from the Super El Niño call heading into October (Fox Weather, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A storm forms in the Gulf or Caribbean in October</div><div class="wcc-w"><b>Watch:</b> a named storm forming in the Gulf or Caribbean in October, with about 40% of season activity still to come (Fox Weather, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">It strengthens quickly before reaching the US coast</div><div class="wcc-w"><b>Watch:</b> an October storm reaching major hurricane strength within days of forming, before US landfall (Fox Weather, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a major hurricane makes landfall after a record-quiet season</div><div class="wcc-w"><b>Watch:</b> a major hurricane making US landfall in a season that had five named storms and no hurricanes to late September (Fox Weather, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>No Atlantic hurricane had formed by 21 September, a first in 112 years, yet about 40% of the season's hurricane activity still remains (<a href="https://www.foxweather.com/weather-news/historically-quiet-atlantic-hurricane-season-super-el-nino" target="_blank" rel="noopener">Fox Weather</a>, September 2026).</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-flexibility-clears-the-backstop-before-it-bids">
 <h4>Flexibility clears the backstop before it bids</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Bilateral contracts and storage shrink the target before the auction runs.</p>
-<div class="wc-path"><span class="wcp-k">The pathway, and where we are</span>
-<div class="wcp-step s1"><span class="n">1</span><span>PJM lets bilateral contracts reduce its backstop procurement target<span class="wcp-seen">Seen: proposal filed in July</span></span></div>
-<div class="wcp-step s2"><span class="n">2</span><span>Grid-scale storage grows fast enough to matter<span class="wcp-seen">Seen: 88 GWh to 165 GWh in 18 months</span></span></div>
-<div class="wcp-now"><i></i><span>WE ARE HERE</span><i></i></div>
-<div class="wcp-step s3"><span class="n">3</span><span>States agree how the procurement's costs reach customers</span></div>
-<div class="wcp-step s4"><span class="n">4</span><span>Utilities and data centres sign bilateral contracts for new supply</span></div>
-<div class="wcp-step s5 last"><span class="n">5</span><span>The wild card lands: PJM's published target falls well below 6,831 MW</span></div>
-</div>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the target would shrink</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">PJM lets bilateral contracts reduce its backstop procurement target<span class="wcc-seen">Seen: proposal filed in July</span></div><div class="wcc-w"><b>Watch:</b> the PJM backstop target net of bilateral contracts against the 6,831 MW shortfall (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Grid-scale storage grows fast enough to matter<span class="wcc-seen">Seen: 88 GWh to 165 GWh in 18 months</span></div><div class="wcc-w"><b>Watch:</b> quarterly US storage installations against the record 20.2 GWh of the second quarter (Solar Energy Industries Association, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">States agree how the procurement's costs reach customers</div><div class="wcc-w"><b>Watch:</b> state agreement on backstop cost allocation, the condition for the procurement to open on 30 September (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Utilities and data centres sign bilateral contracts for new supply</div><div class="wcc-w"><b>Watch:</b> bilateral supply contracts signed for announced large loads, which now total more than 71 GW (Edison Electric Institute, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: PJM's published target falls well below 6,831 MW</div><div class="wcc-w"><b>Watch:</b> the published PJM backstop target, called when it falls well below the 6,831 MW shortfall (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>PJM cuts the target by resources under bilateral contracts (<a href="https://insidelines.pjm.com/pjm-reliability-backstop-proposal-outlines-steps-to-secure-new-supply-and-maintain-reliability/" target="_blank" rel="noopener">PJM</a>, July 2026); with utility-scale storage up from 88 GWh to 165 GWh in 18 months (<a href="https://seia.org/news/largest-quarter-on-record-for-energy-storage/" target="_blank" rel="noopener">SEIA</a>, September 2026), the residual could sit well below 6,831 MW.</p>
 </div>
 <div class="implications">

@@ -206,6 +206,56 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -379,26 +429,56 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
-<div class="wild-card risk">
+<h3>The Wild Card Chains to Watch</h3>
+<div class="wild-card risk" id="wc-amoc-early-warning-crossing-declared">
 <h4>AMOC early-warning crossing declared</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> A formal finding that the Atlantic overturning circulation is tipping, years ahead of visible change.</p>
-<p><strong>Early warning indicators:</strong> An EU-funded AMOC early-warning system; abrupt Gulf Stream shifts in reanalysis data.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a warning would be declared</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Researchers call for an operational AMOC early-warning system<span class="wcc-seen">Seen: PLOS Climate call, carried from the August edition</span></div><div class="wcc-w"><b>Watch:</b> adaptation or ocean policy text from the EU that names AMOC collapse as a planning scenario (European Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">The EU funds an operational AMOC early-warning system</div><div class="wcc-w"><b>Watch:</b> an EU programme award for an operational AMOC early-warning system with sustained funding (European Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Reanalysis data show abrupt Gulf Stream shifts</div><div class="wcc-w"><b>Watch:</b> an abrupt Gulf Stream path shift in reanalysis data, reported by the EU's science service (Joint Research Centre, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Warning indicators approach a predefined policy trigger</div><div class="wcc-w"><b>Watch:</b> an operational system reporting its AMOC indicators near a predefined policy trigger (European Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a formal finding says the AMOC is tipping</div><div class="wcc-w"><b>Watch:</b> a formal EU or national determination that the Atlantic overturning circulation is on a tipping course (European Commission, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2029</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>No fresh evidence this cycle, but the case is unchanged: a credible warning would reprice adaptation and food assumptions across northern Europe.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-colorado-river-compact-dispute-reaches-the-supreme-court">
 <h4>Colorado River compact dispute reaches the Supreme Court</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Nevada’s suit, or a parallel Arizona or California filing, escalates into a compact clash the Supreme Court must referee.</p>
-<p><strong>Early warning indicators:</strong> Other states filing suit; an adverse district-court ruling; basin states abandoning settlement talks.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the suits would reach the Court</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">Nevada sues Interior over its Colorado River cuts<span class="wcc-seen">Seen: Nevada could lose up to 213,000 acre-feet, about 71%</span></div><div class="wcc-w"><b>Watch:</b> progress in Nevada's APA and NEPA suit against Interior, called on a first substantive ruling or court schedule (Nevada Current, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Arizona or California files a parallel suit</div><div class="wcc-w"><b>Watch:</b> a second Lower Basin state filing or joining suit against the federal plan (Nevada Current, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A district court rules against a basin state</div><div class="wcc-w"><b>Watch:</b> a district court ruling that leaves a state facing cuts of more than 70% of its allocation (Nevada Current, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Basin states abandon settlement talks</div><div class="wcc-w"><b>Watch:</b> a basin state publicly walking away from settlement talks while Upper Basin states face no mandatory cuts (Nevada Current, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2028</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a compact clash goes to the Supreme Court</div><div class="wcc-w"><b>Watch:</b> the Supreme Court accepting an original jurisdiction compact case between Colorado River basin states (Nevada Current, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2028</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Nevada’s suit already cites a US$180 billion regional economy at stake (<a href="https://nevadacurrent.com/2026/08/24/nevada-sues-feds-over-colorado-river-cuts/">Nevada Current</a>, August 2026); a Supreme Court case would freeze planning certainty for years regardless of outcome.</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-cop17-makes-digital-sequence-payments-compulsory">
 <h4>COP17 makes digital-sequence payments compulsory</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Parties abandon the voluntary Cali Fund model for a levy on digital-sequence-information users at COP17.</p>
-<p><strong>Early warning indicators:</strong> Draft COP17 text on mandatory contributions; a first large agribusiness or pharmaceutical payment.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how goodwill would become obligation</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">The Cali Fund raises almost nothing on voluntary terms<span class="wcc-seen">Seen: just US$6,000 raised against a US$1 billion target</span></div><div class="wcc-w"><b>Watch:</b> corporate contributions to the Cali Fund, called if the total stays near US$6,000 when COP17 opens (Nature Needs More, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">COP17 puts the Cali Fund on its agenda in Yerevan<span class="wcc-seen">Seen: Cali Fund operationalisation on the agenda for 19 to 30 October</span></div><div class="wcc-w"><b>Watch:</b> the COP17 item on operationalising the Cali Fund, called when it opens for negotiation by Finance Day on 26 October (Finance for Biodiversity Foundation, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Draft COP17 text proposes mandatory contributions</div><div class="wcc-w"><b>Watch:</b> draft COP17 decision text replacing voluntary contributions with a payment rule for digital-sequence users (Convention on Biological Diversity, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Parties agree which companies pay and how much</div><div class="wcc-w"><b>Watch:</b> an agreed rate or turnover threshold for payers written into the COP17 decision (Convention on Biological Diversity, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: parties replace the voluntary Cali Fund with a levy</div><div class="wcc-w"><b>Watch:</b> a first large agribusiness or pharmaceutical payment made under a binding COP17 rule rather than goodwill (Nature Needs More, September 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>With just US$6,000 raised against a US$1 billion target (<a href="https://natureneedsmore.org/the-billion-dollar-promise-that-raised-6000/">Nature Needs More</a>, September 2026), a mandatory turn would be nature finance’s first move on obligation, not goodwill.</p>
 </div>
 <div class="implications">
@@ -444,7 +524,7 @@
   var TOPIC_SHORT = "Climate\n& Nature";
   var PREV_LABEL = "28 Aug 2026";
   var RINGS = [
-    { key: "now",   label: "NOW (TO 2027)",  r: 128 },
+    { key: "now",   label: "NOW (To 2027)",  r: 128 },
     { key: "next",  label: "NEXT (2028-29)", r: 218 },
     { key: "later", label: "LATER (2030+)",  r: 300 }
   ];

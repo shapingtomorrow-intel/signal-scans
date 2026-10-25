@@ -202,6 +202,56 @@
   @media print { .xi-card, .xi-panel, .xi-collision { break-inside: avoid; page-break-inside: avoid; }
                  .xi-layout { display: block; } .xi-panel { display: none; } }
   /* cross-impact-css:end */
+  /* wild card chain to watch, retrofitted 24 October 2026 */
+  .wild-card .wc-like { color: #5a6478; font-style: italic; margin-left: 10px; padding-left: 10px; border-left: 1px solid #cfd5de; }
+  .wc-chain { margin: 14px 0 10px; }
+  .wc-chain .wcc-k { display: block; font-size: 0.74em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6478; margin: 0 0 4px; }
+  .wc-chain .wcc-lead { font-style: italic; color: #5a6478; font-size: 0.9em; margin: 0 0 10px; }
+  .wcc-box { border: 1px solid #e3dfe9; border-radius: 10px; padding: 4px 16px; background: #fff; }
+  .wcc-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 12px; padding: 13px 0; }
+  .wcc-row .n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 0.8em; }
+  .wcc-t { font-size: 1em; line-height: 1.35; }
+  .wcc-row.last .wcc-t { font-weight: 700; }
+  .wcc-seen { display: inline-block; margin-left: 8px; font-size: 0.76em; font-weight: 700; padding: 1px 9px; border-radius: 10px; }
+  .wcc-w { font-size: 0.86em; color: #5a6478; margin-top: 3px; line-height: 1.5; }
+  .wcc-w b { color: #3b4357; }
+  .wcc-r { text-align: right; min-width: 140px; }
+  .wcc-pill { display: inline-block; font-weight: 800; font-size: 0.82em; padding: 4px 10px; border-radius: 6px; border: 1px solid; white-space: nowrap; }
+  .wcc-pill.happened { background: #e8f5e9; color: #2a5a2e; border-color: #a9d5ae; }
+  .wcc-pill.high { background: #ede7f6; color: #4527a0; border-color: #b39ddb; }
+  .wcc-pill.med { background: #fff8e1; color: #8d6e00; border-color: #ffe082; }
+  .wcc-pill.low { background: #eceff1; color: #455a64; border-color: #cfd8dc; }
+  .wcc-by { display: block; margin-top: 6px; font-weight: 700; color: #475467; font-size: 0.88em; }
+  .wcc-mark { display: flex; align-items: center; gap: 12px; margin: 0; }
+  .wcc-mark i { flex: 1; border-top: 2px dashed #b39ddb; }
+  .wcc-mark span { font-size: 0.72em; font-weight: 700; letter-spacing: 0.1em; color: #6a1b9a; white-space: nowrap; }
+  .wcc-foot { border-top: 1px solid #e3dfe9; padding: 10px 0 6px; font-size: 0.84em; color: #5a6478; }
+  .wild-card.risk .s1 .n { background: #f1e6f8; color: #4a1a78; } .wild-card.risk .s2 .n { background: #e0c9ef; color: #4a1a78; }
+  .wild-card.risk .s3 .n { background: #c9a3e6; color: #4a1a78; } .wild-card.risk .s4 .n { background: #a56ad0; color: #fff; }
+  .wild-card.risk .s5 .n { background: #8e3fc4; color: #fff; } .wild-card.risk .s6 .n { background: #7b2cbf; color: #fff; }
+  .wild-card.risk .wcc-row.last .n { background: #6a1b9a; color: #fff; }
+  .wild-card.risk .wcc-seen { background: #f3e5f5; color: #6a1b9a; }
+  .wild-card.opportunity .s1 .n { background: #e0f2f1; color: #00574d; } .wild-card.opportunity .s2 .n { background: #b2dfdb; color: #00574d; }
+  .wild-card.opportunity .s3 .n { background: #80cbc4; color: #00403a; } .wild-card.opportunity .s4 .n { background: #4db6ac; color: #fff; }
+  .wild-card.opportunity .s5 .n { background: #26a69a; color: #fff; } .wild-card.opportunity .s6 .n { background: #009688; color: #fff; }
+  .wild-card.opportunity .wcc-row.last .n { background: #00897b; color: #fff; }
+  .wild-card.opportunity .wcc-seen { background: #e0f2f1; color: #00695c; }
+  .wild-card.opportunity .wcc-mark i { border-top-color: #80cbc4; } .wild-card.opportunity .wcc-mark span { color: #00695c; }
+  @media (max-width: 640px) { .wcc-row { grid-template-columns: 30px 1fr; } .wcc-r { grid-column: 2; text-align: left; margin-top: 6px; } .wcc-box { padding: 2px 12px; } }
+  /* print: keep each wild card on one page (24 October 2026) */
+  @media print { .wild-card, .wc-chain { break-inside: avoid; page-break-inside: avoid; }
+    .wild-card { padding: 10px 14px; } .wild-card p { margin: 4px 0; } .wild-card .wc-meta { margin: 2px 0 6px; }
+    .wc-chain { margin: 8px 0 6px; } .wc-chain .wcc-lead { font-size: 0.8em; line-height: 1.35; margin: 0 0 6px; }
+    .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
+    .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
+    .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -393,26 +443,56 @@
 })();
 </script>
 <!-- cross-impact:end -->
-<h3>Wild Cards to Watch</h3>
-<div class="wild-card risk">
+<h3>The Wild Card Chains to Watch</h3>
+<div class="wild-card risk" id="wc-phantom-load-leaves-the-cap-unpaid">
 <h4>Phantom load leaves the cap unpaid</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> Capacity contracted for up to 15 years against demand that only partly arrives.</p>
-<p><strong>Early warning indicators:</strong> Interconnection withdrawal rates; state cost-allocation dockets.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how the backstop would outrun the load</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">PJM files a backstop buying capacity for up to 15 years<span class="wcc-seen">Seen: filed at FERC on 31 July, capped at $555/MW-day</span></div><div class="wcc-w"><b>Watch:</b> the backstop's maximum willingness to pay against a MW-weighted average of $555/MW-day (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">Few proposed data centres hold full permits<span class="wcc-seen">Seen: five of over 100 Pennsylvania projects fully permitted</span></div><div class="wcc-w"><b>Watch:</b> fully permitted Pennsylvania data-centre projects against five of more than 100 proposed (Commonwealth of Pennsylvania, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">The backstop clears long contracts near the price cap</div><div class="wcc-w"><b>Watch:</b> backstop results, due by 2 December, clearing near the $555/MW-day cap against the 6.8 GW shortfall (Utility Dive, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">Interconnection withdrawals show data-centre load falling short</div><div class="wcc-w"><b>Watch:</b> data-centre interconnection withdrawals rising while the fully permitted share stays near five in 100 (Commonwealth of Pennsylvania, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: ratepayers pay for firm capacity that load never uses</div><div class="wcc-w"><b>Watch:</b> state cost-allocation dockets passing backstop costs into rates already up 7.1% in 2025 (Brookings, March 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2029</span></div></div>
+<div class="wcc-foot">Steps 1 and 2 are evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>Pennsylvania counted more than 100 proposed projects, only five fully permitted (<a href="https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen" target="_blank">Commonwealth of Pennsylvania</a>, August 2026). If the built share tracks the permitted share, the backstop buys firm capacity for load that never arrives, into rates up 7.1% in 2025 (<a href="https://www.brookings.edu/articles/how-rising-electric-rates-could-affect-the-2026-midterms" target="_blank">Brookings</a>, March 2026).</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-the-quiet-season-breaks-late">
 <h4>The quiet season breaks late</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2026</span></p>
 <p><strong>Surprise characteristics:</strong> One major landfall into a market priced for a below-normal season.</p>
-<p><strong>Early warning indicators:</strong> September and October Gulf formation; El Nino shear; January renewal pricing.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how a quiet season would break</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">NOAA raises the odds of a below-average season<span class="wcc-seen">Seen: below-average odds raised from 55% to 75%</span></div><div class="wcc-w"><b>Watch:</b> the NOAA probability of a below-average Atlantic season against 75% in its August update (Fox Weather, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">El Nino shear eases over the Gulf late in the season</div><div class="wcc-w"><b>Watch:</b> a hurricane forming through El Nino shear, as did 22% of US landfalling hurricanes since 1950 (Swiss Re Institute, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">A storm forms in the Gulf in September or October</div><div class="wcc-w"><b>Watch:</b> a named storm forming in the Gulf in September or October, against NOAA's 7 to 13 for the season (Fox Weather, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">The storm reaches major strength before landfall</div><div class="wcc-w"><b>Watch:</b> a Gulf storm reaching major hurricane strength, against NOAA's 0 to 2 major hurricanes for the season (Fox Weather, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: a major landfall hits a market priced for calm</div><div class="wcc-w"><b>Watch:</b> second-half insured losses from one landfall far above the USD 42 billion of the first half (Swiss Re Institute, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>NOAA raised the odds of a below-average season from 55% to 75% (<a href="https://www.foxweather.com/weather-news/noaa-2026-hurricane-season-forecast-august-super-el-nino" target="_blank">Fox Weather</a>, August 2026). The counterpoint is that 22% of US landfalling hurricanes since 1950 came under El Nino, and first-half insured losses of USD 42 billion say little about the second half (<a href="https://www.swissre.com/institute/research/topics-and-risk-dialogues/climate-and-natural-catastrophe-risk/first-half-2026-insured-catastrophe-losses.html" target="_blank">Swiss Re Institute</a>, August 2026).</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-flexibility-clears-the-backstop-before-it-bids">
 <h4>Flexibility clears the backstop before it bids</h4>
-<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span></p>
+<p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Bilateral contracts and storage shrink the target before the auction runs.</p>
-<p><strong>Early warning indicators:</strong> PJM bilateral match announcements; third-quarter storage installations.</p>
+<div class="wc-chain"><span class="wcc-k">The chain to watch: how flexibility would shrink the target</span>
+<p class="wcc-lead">Each step names the indicator that would evidence it and the threshold at which we would call it. This chain was added on 24 October 2026 from this edition&rsquo;s own sources, so its bands are not logged as calls in our public <a href="https://decision-intel.shapingtomorrow.com/track-record/" target="_blank" rel="noopener">Track record</a>.</p>
+<div class="wcc-box">
+<div class="wcc-row s1"><span class="n">1</span><div><div class="wcc-t">PJM lets bilateral contracts reduce the backstop target<span class="wcc-seen">Seen: bilateral contracts cut the target in PJM's July filing</span></div><div class="wcc-w"><b>Watch:</b> the share of the 6,831 MW shortfall covered by resources under bilateral contracts (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill happened">Happened</span></div></div>
+<div class="wcc-mark"><i></i><span>WE ARE HERE</span><i></i></div>
+<div class="wcc-row s2"><span class="n">2</span><div><div class="wcc-t">US storage installations keep breaking quarterly records</div><div class="wcc-w"><b>Watch:</b> quarterly US storage installations above the record 9.7 GWh of the first quarter (Solar Energy Industries Association, May 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s3"><span class="n">3</span><div><div class="wcc-t">Utilities and data centres sign bilateral deals for new supply</div><div class="wcc-w"><b>Watch:</b> bilateral supply contracts signed in PJM before the backstop opens on 30 September (Utility Dive, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill med">Medium: 30 to 50%</span><span class="wcc-by">by end 2026</span></div></div>
+<div class="wcc-row s4"><span class="n">4</span><div><div class="wcc-t">PJM announces bilateral matches that cut the residual</div><div class="wcc-w"><b>Watch:</b> bilateral match announcements from PJM covering a large part of the 6.8 GW shortfall (Utility Dive, August 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by mid 2027</span></div></div>
+<div class="wcc-row s5 last"><span class="n">5</span><div><div class="wcc-t">The wild card lands: flexibility clears the backstop before it bids</div><div class="wcc-w"><b>Watch:</b> the published PJM backstop target falling well below the 6,831 MW shortfall before bidding starts (PJM Interconnection, July 2026).</div></div><div class="wcc-r"><span class="wcc-pill low">Low: 5 to 30%</span><span class="wcc-by">by 2027</span></div></div>
+<div class="wcc-foot">Step 1 is evidenced in this edition&rsquo;s sources, as it stood when it was published.</div>
+</div></div>
 <p>PJM reduces the target by qualifying resources under bilateral contracts, so the auction is a residual, not a floor (<a href="https://insidelines.pjm.com/pjm-reliability-backstop-proposal-outlines-steps-to-secure-new-supply-and-maintain-reliability/" target="_blank">PJM Interconnection</a>, July 2026). With more than 610 GWh of US storage expected by 2030 (<a href="https://seia.org/news/largest-q1-on-record-for-energy-storage/" target="_blank">SEIA</a>, May 2026), that residual could be smaller than the filing assumes.</p>
 </div>
 <div class="implications">
@@ -457,7 +537,7 @@
   var TOPIC_SHORT = "Energy &\nResilience";
   var PREV_LABEL = "23 July 2026 cycle";
   var RINGS = [
-    { key: "now",   label: "NOW (TO 2027)",  r: 128 },
+    { key: "now",   label: "NOW (To 2027)",  r: 128 },
     { key: "next",  label: "NEXT (2027-29)", r: 218 },
     { key: "later", label: "LATER (2029+)",  r: 300 }
   ];

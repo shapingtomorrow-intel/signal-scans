@@ -132,6 +132,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -346,7 +353,7 @@
 
 <h3>The Wild Card Chains to Watch</h3>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-the-november-2026-control-cliff">
 <h4>The November 2026 control cliff</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -367,7 +374,7 @@
 <p>The mutual suspension of rare earth and minor-metals controls expires in November 2026 (<a href="https://www.fastmarkets.com/insights/antimony-2026-ample-supply-strategic-demand-to-guide-geopolitical-oversight/">Fastmarkets</a>, January 2026). Non-renewal would snap restrictions back at once, with the foreign direct product rule still on the books (<a href="https://www.csis.org/analysis/chinas-new-rare-earth-and-magnet-restrictions-threaten-us-defense-supply-chains">CSIS</a>, October 2025).</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-commercial-deep-sea-mining-goes-live">
 <h4>Commercial deep-sea mining goes live</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
@@ -388,7 +395,7 @@
 <p>A NOAA full-compliance determination in May 2026 puts a commercial seabed-mining permit within reach before Q1 2027, with at least nine companies in talks (<a href="https://alaskapublic.org/news/environment/2026-05-21/companies-join-a-deep-sea-mining-rush-after-trump-executive-order-as-regulators-fast-track-permits">the Associated Press</a>, May 2026). A permit would reset the polymetallic-nodule supply outlook.</p>
 </div>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-first-extraterritorial-enforcement-under-order-834">
 <h4>First extraterritorial enforcement under Order 834</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>

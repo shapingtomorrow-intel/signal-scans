@@ -133,6 +133,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -333,7 +340,7 @@
 
 <h3>The Wild Card Chains to Watch</h3>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-turbine-and-queue-lock-out-strands-committed-load">
 <h4>Turbine-and-queue lock-out strands committed load</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -354,7 +361,7 @@
 <p>GE Vernova's backlog reached 100 GW with slots toward 2030 (<a href="https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000063/gevpressrelease1q26.htm">GE Vernova, April 2026</a>), and over 2,500 GW sit in grid queues (<a href="https://www.iea.org/reports/world-energy-investment-2026/executive-summary">IEA, May 2026</a>). If both bind at once, committed load is stranded whatever new generation costs.</p>
 </div>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-below-normal-forecast-busts-with-a-major-us-landfall">
 <h4>Below-normal forecast busts with a major US landfall</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -375,7 +382,7 @@
 <p>Forecasters expect a quieter season as El Nino builds (<a href="https://tropical.colostate.edu/Forecast/2026-04.pdf">Colorado State University, April 2026</a>), but Swiss Re models a peak-loss 2026 reaching USD 320 billion (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-2026-01-natcat-2025-wildfire-storm-risk.html">Swiss Re, March 2026</a>). One landfall in the wrong place would reverse this cycle's cooling read.</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-a-hyperscaler-reactor-or-restart-reaches-commercial-operatio">
 <h4>A hyperscaler reactor or restart reaches commercial operation early</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>

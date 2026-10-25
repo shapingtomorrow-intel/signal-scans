@@ -245,6 +245,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -437,7 +444,7 @@
 </script>
 <!-- cross-impact:end -->
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-amoc-early-warning-crossing-declared">
 <h4>AMOC early-warning crossing declared</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> A formal determination that the Atlantic overturning circulation is on a tipping course, years before physical change.</p>
@@ -454,7 +461,7 @@
 </div></div>
 <p>Researchers argue societies prepare for gradual warming but not for tipping discontinuities (<a href="https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000881">PLOS Climate</a>, March 2026). A credible warning signal would reprice adaptation, insurance and food-system assumptions across northern Europe long before the ocean itself changes.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-multi-breadbasket-failure-meets-export-restriction">
 <h4>Multi-breadbasket failure meets export restriction</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Simultaneous harvest failure across major exporters colliding with export bans.</p>
@@ -472,7 +479,7 @@
 </div></div>
 <p>Attribution work links the 2026 drought to historic crop losses and warns of price transmission to low-income households (<a href="https://www.worldweatherattribution.org/increasingly-hot-europe-faces-more-severe-droughts-and-growing-challenges-for-water-and-land-management/">World Weather Attribution</a>, July 2026). One defensive export ban could tip a price story into an availability story.</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-cop17-makes-digital-sequence-payments-compulsory">
 <h4>COP17 makes digital-sequence payments compulsory</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Parties drop the voluntary model and adopt a levy-like obligation on digital-sequence users at the October biodiversity COP.</p>

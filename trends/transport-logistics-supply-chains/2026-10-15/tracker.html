@@ -298,6 +298,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -493,7 +500,7 @@ in January 2027 against about 32 million tonnes of eligible credits, a fraction 
 </script>
 <!-- cross-impact:end -->
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-gulf-loadings-stop-as-insurers-withdraw-cover">
 <h4>Gulf loadings stop as insurers withdraw cover</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A shuttle system moving near pre-war volumes stops the day cover is withdrawn.</p>
@@ -511,7 +518,7 @@ in January 2027 against about 32 million tonnes of eligible credits, a fraction 
 <p>Marsh warned the market could pull in its horns on Gulf cover (<a href="https://www.spglobal.com/energy/en/news-research/latest-news/shipping/072226-middle-east-shipping-insurance-costs-rise-on-hormuz-risks-marsh" target="_blank">S&P Global Commodity Insights</a>, July 2026), and strikes came near daily in early October (<a href="https://news.usni.org/2026/10/09/october-sees-near-daily-strikes-on-ships-in-hormuz" target="_blank">USNI News</a>, October 2026). Cover,
 not the channel itself, is the single point of failure.</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-driverless-corridors-set-the-marginal-cost-of-us-truckload">
 <h4>Driverless corridors set the marginal cost of US truckload</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2030</span></p>
 <p><strong>Surprise characteristics:</strong> A 10-route network jumps to fleet scale faster than truck replacement cycles allow.</p>

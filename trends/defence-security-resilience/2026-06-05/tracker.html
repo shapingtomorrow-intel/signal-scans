@@ -133,6 +133,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -348,7 +355,7 @@
 
 <h3>The Wild Card Chains to Watch</h3>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-an-airspace-incursion-crosses-the-casualty-threshold">
 <h4>An airspace incursion crosses the casualty threshold</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -369,7 +376,7 @@
 <p>Incursions have moved from rarity to routine, and a drone hit a Romanian apartment building in late May 2026 (<a href="https://www.euronews.com/my-europe/2026/06/02/explained-how-drone-incursions-in-europe-went-from-rarity-to-reality" target="_blank" rel="noopener">Euronews</a>, June 2026). A lethal incident would force a choice between an Article 5 response and conceding the threshold can be probed with impunity.</p>
 </div>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-coordinated-multi-cable-severance">
 <h4>Coordinated multi-cable severance</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -390,7 +397,7 @@
 <p>Western economies depend on data and energy flowing along the seafloor, and that dependency is being mapped and weaponised (<a href="https://thebulletin.org/2026/02/seabed-zero-baltic-sabotage-and-the-global-risks-to-undersea-infrastructure/" target="_blank" rel="noopener">Bulletin of the Atomic Scientists</a>, February 2026). The new EU toolbox hardens single-cable resilience, but simultaneous cuts could outpace repair capacity, and attribution gaps would slow any response.</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-ukrainian-battlefield-innovation-scales-into-european-produc">
 <h4>Ukrainian battlefield innovation scales into European production</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>

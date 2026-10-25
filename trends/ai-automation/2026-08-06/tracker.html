@@ -193,6 +193,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -318,7 +325,7 @@
 </ol>
 </div>
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-circular-financing-contagion">
 <h4>Circular-financing contagion</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> equity stakes and compute commitments between chipmakers, hyperscalers and AI labs unwind together.</p>
@@ -335,7 +342,7 @@
 </div></div>
 <p>The mechanism has been named directly (<a href="https://www.bis.org/publ/arpdf/ar2026e1.htm" target="_blank">Bank for International Settlements</a>, June 2026): chip makers and hyperscalers take equity stakes in AI labs or neocloud providers, who then commit to multi-year purchases of chips or computing power. Global AI-related debt issuance is projected at $570 billion in 2026, shifting toward private credit (<a href="https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/" target="_blank">Forbes</a>, July 2026).</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-open-weights-become-an-export-controlled-good">
 <h4>Open weights become an export-controlled good</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> model weights rather than chips become the controlled item, and the first control lands on a US lab.</p>
@@ -352,7 +359,7 @@
 </div></div>
 <p>Commerce has forced Anthropic to take Mythos 5 and Fable 5 fully offline under an export-control order while Chinese open-weight releases close the gap (<a href="https://hai.stanford.edu/news/open-weight-models-arent-enough-we-need-truly-open-source-ai-models-for-science-and-society" target="_blank">Stanford HAI</a>, August 2026). Buyers are hedging: Palantir and Nvidia have packaged open-weight models into a sovereign stack customers host themselves (<a href="https://247wallst.com/investing/2026/07/02/the-palantir-nvidia-sovereign-ai-deal-will-reshape-who-wins-the-ai-infrastructure-race/" target="_blank">24/7 Wall St.</a>, July 2026).</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-data-centres-become-a-grid-asset">
 <h4>Data centres become a grid asset</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> the load legislators are treating as a threat starts selling flexibility back.</p>

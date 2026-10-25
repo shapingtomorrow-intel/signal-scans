@@ -193,6 +193,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -321,7 +328,7 @@
 </ol>
 </div>
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-a-systemic-stablecoin-run-before-the-rulebooks-bind">
 <h4>A systemic stablecoin run before the rulebooks bind</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: Very High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> A large issuer depegs while the final GENIUS and UK rules are still in the comment phase.</p>
@@ -340,7 +347,7 @@
 <p>The IMF restated that unregulated stablecoins are run-prone (<a href="https://www.imf.org/en/publications/wp/issues/2026/04/10/making-stablecoins-stable-575348">IMF</a>, April 2026) even as the market cap set records (<a href="https://cryptobriefing.com/usdc-record-stablecoin-volume-june-2026/">Crypto Briefing</a>, July 2026). A depeg in the gap before final rules bind would be the pattern's stress test.</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-a-bank-run-tokenised-deposit-network-strands-non-bank-stable">
 <h4>A bank-run tokenised-deposit network strands non-bank stablecoins</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> The Clearing House network scales fast enough to make bank tokens the default settlement asset.</p>

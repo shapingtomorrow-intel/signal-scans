@@ -122,6 +122,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -286,7 +293,7 @@
 
 <h3>The Wild Card Chains to Watch</h3>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-compound-peak-loss-year-materialises">
 <h4>Compound peak-loss year materialises</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -307,7 +314,7 @@
 <p>Swiss Re's peak-year scenario points to about USD 320 bn in insured losses in 2026 against a base-case USD 148 bn (<a href="https://www.swissre.com/institute/research/sigma-research/sigma-2026-01-natcat-2025-wildfire-storm-risk.html" target="_blank">Swiss Re sigma</a>, March 2026). That would crystallise the property-insurance retreat now visible in California into a broader sun-belt mortgage event.</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-hyperscaler-backed-firm-clean-capacity-goes-commercial">
 <h4>Hyperscaler-backed firm clean capacity goes commercial</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
@@ -328,7 +335,7 @@
 <p>The Natrium permit (<a href="https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf" target="_blank">NRC</a>, March 2026) shows the regulatory machine can move when an application is well prepared. A second and third permit at similar cadence would shift firm clean capacity from speculative to bookable.</p>
 </div>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-eu-resilience-deadline-reveals-a-sector-wide-gap">
 <h4>EU resilience deadline reveals a sector-wide gap</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>

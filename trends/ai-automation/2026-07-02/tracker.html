@@ -134,6 +134,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -254,7 +261,7 @@
 </div>
 
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-circular-financing-contagion">
 <h4>Circular-financing contagion</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -274,7 +281,7 @@
 </div></div>
 <p>The BIS flags circular financing, hyperscalers taking equity in labs that then buy their compute, as a specific fragility (<a href="https://www.bis.org/publ/arpdf/ar2026e1.htm">BIS</a>, June 2026); June showed how fast sentiment turns (<a href="https://www.npr.org/2026/06/23/nx-s1-5867633/ai-selloff-tech-stocks-bubble-nasdaq">NPR</a>).</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-autonomous-agent-cascade-failure">
 <h4>Autonomous agent cascade failure</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -294,7 +301,7 @@
 </div></div>
 <p>McKinsey finds incident-response confidence falling as adoption rises (<a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/state-of-ai-trust-in-2026-shifting-to-the-agentic-era">McKinsey</a>, March 2026); concentration turns a local failure systemic.</p>
 </div>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-open-weight-commoditisation-shock">
 <h4>Open-weight commoditisation shock</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>

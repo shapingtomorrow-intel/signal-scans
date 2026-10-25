@@ -134,6 +134,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -264,7 +271,7 @@
 </div>
 
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-a-systemic-stablecoin-run">
 <h4>A systemic stablecoin run</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -286,7 +293,7 @@
 <p>The run channel is real enough to drive the rulemaking: the <a href="https://www.federalregister.gov/documents/2026/04/10/2026-06974/genius-act-requirements-and-standards-for-fdic-supervised-permitted-payment-stablecoin-issuers-and">FDIC</a> defines a significant redemption request as more than 10 percent of issuance in a single 24-hour period, and the <a href="https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html">Federal Reserve</a> flags how stablecoins now transmit liquidity shocks into banking.</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-banks-capture-the-tokenised-money-stack-stranding-non-bank-s">
 <h4>Banks capture the tokenised-money stack, stranding non-bank stablecoins</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
@@ -308,7 +315,7 @@
 <p><a href="https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html">The Federal Reserve</a> reads history as banks recapturing share lost to innovations, and <a href="https://www.oliverwyman.com/our-expertise/insights/2026/jan/navigate-stablecoin-impact-future-of-banks.html">Oliver Wyman</a> notes interest-paying, insured tokenised deposits could outcompete stablecoins. If the shared layer scales fast, the deposit franchise is defended on the incumbents' own rails.</p>
 </div>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-dollar-stablecoins-entrench-in-cross-border-use-before-the-d">
 <h4>Dollar stablecoins entrench in cross-border use before the digital euro arrives</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>

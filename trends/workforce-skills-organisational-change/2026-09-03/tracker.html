@@ -245,6 +245,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -436,7 +443,7 @@
 </script>
 <!-- cross-impact:end -->
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-the-junior-hiring-rebound">
 <h4>The junior-hiring rebound</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> The heaviest AI adopters grow junior headcount rather than cut it.</p>
@@ -454,7 +461,7 @@
 </div></div>
 <p>At companies making the largest AI investments, entry-level head count grew by 12% over the two years after adoption (<a href="https://www.npr.org/2026/08/18/nx-s1-5910677/recent-college-graduates-employment-job-artificial-intelligence">NPR</a>, August 2026), and announced hiring plans are up 25% on last year (<a href="https://www.challengergray.com/blog/challenger-report-layoffs-fall-hiring-picks-up-ai-leads-for-fifth-straight-month/">Challenger, Gray & Christmas</a>, August 2026). Carried from last cycle.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-a-presumption-of-employment-spreads-beyond-platforms">
 <h4>A presumption of employment spreads beyond platforms</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> National transpositions extend the rebuttable presumption of employment to algorithmically managed work outside platforms.</p>
@@ -471,7 +478,7 @@
 </div></div>
 <p>The presumption applies where facts indicate control and direction, and the burden of rebuttal sits with the platform (<a href="https://iuslaboris.com/insights/eu-platform-work-directive-which-countries-have-implemented/">Ius Laboris</a>, April 2026). Carried from last cycle.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-ai-bargaining-reaches-non-union-finance-and-tech">
 <h4>AI bargaining reaches non-union finance and tech</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> AI deployment becomes an organising cause in sectors with near-zero union coverage.</p>

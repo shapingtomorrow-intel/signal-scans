@@ -133,6 +133,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 
   /* How this was made (added 29 September 2026) */
   .method-line { font-size: 0.86em; color: #5a6478; margin: 4px 0 14px; }
@@ -327,7 +334,7 @@
 
 <h3>The Wild Card Chains to Watch</h3>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-ultra-low-fertility-tips-into-self-reinforcing-decline">
 <h4>Ultra-low fertility tips into self-reinforcing decline</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>
@@ -348,7 +355,7 @@
 <p>The global decline has run for six decades and the gap between rich and poor countries has narrowed to under one child per woman (<a href="https://www.stlouisfed.org/on-the-economy/2026/jun/declining-fertility-rates-across-world">St. Louis Fed</a>, June 2026). A faster-than-modelled drop would compress the future labour force and tax base beyond what any migration or retirement-age response could offset.</p>
 </div>
 
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-embodied-ai-and-robotics-close-part-of-the-care-gap">
 <h4>Embodied AI and robotics close part of the care gap</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Opportunity</span>
@@ -369,7 +376,7 @@
 <p>AI is so far framed as a partial offset that reshapes rather than replaces work (<a href="https://www.hiringlab.org/2026/05/14/how-a-shrinking-workforce-ai-and-labor-reallocation-will-define-the-next-15-years/">Indeed Hiring Lab</a>, May 2026), with new roles expected to emerge alongside automation (<a href="https://www.imf.org/-/media/files/publications/sdn/2026/english/sdnea2026001.pdf">IMF</a>, January 2026). A genuine productivity breakthrough in care would change the build-versus-import calculus for ageing societies.</p>
 </div>
 
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-deportation-and-remittance-shock-destabilises-origin-economi">
 <h4>Deportation and remittance shock destabilises origin economies</h4>
 <p class="wc-meta">
 <span class="wc-label">Disruptive Risk</span>

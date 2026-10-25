@@ -290,6 +290,13 @@
     .wcc-box { padding: 2px 14px; } .wcc-row { padding: 5px 0; } .wcc-r { min-width: 118px; }
     .wcc-t { font-size: 0.9em; } .wcc-w { font-size: 0.8em; margin-top: 1px; line-height: 1.35; }
     .wcc-pill { font-size: 0.76em; padding: 2px 8px; } .wcc-by { margin-top: 3px; font-size: 0.82em; } .wcc-foot { padding: 6px 0 4px; font-size: 0.78em; } }
+  /* wild card anchors (25 October 2026) */
+  .wild-card { scroll-margin-top: 18px; }
+  .wild-card.risk:target { box-shadow: 0 0 0 3px #ce93d8, 0 6px 18px rgba(106,27,154,0.14); animation: wc-flash-r 2.4s ease-out 1; }
+  .wild-card.opportunity:target { box-shadow: 0 0 0 3px #80cbc4, 0 6px 18px rgba(0,105,92,0.14); animation: wc-flash-o 2.4s ease-out 1; }
+  @keyframes wc-flash-r { from { background: #f6eefa; } to { background: #fff; } }
+  @keyframes wc-flash-o { from { background: #e6f4f2; } to { background: #fff; } }
+  @media print { .wild-card:target { box-shadow: none; animation: none; } }
 /* family-colours:start */
   article > h2 { color: #D97706 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
   body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
@@ -465,7 +472,7 @@
 </script>
 <!-- cross-impact:end -->
 <h3>The Wild Card Chains to Watch</h3>
-<div class="wild-card opportunity">
+<div class="wild-card opportunity" id="wc-the-junior-hiring-rebound">
 <h4>The junior-hiring rebound</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Opportunity</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2028</span></p>
 <p><strong>Surprise characteristics:</strong> Heavy AI adopters grow junior headcount rather than cut it.</p>
@@ -482,7 +489,7 @@
 </div></div>
 <p>Yale finds no strong evidence of AI impacts yet (<a href="https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening">The Budget Lab at Yale</a>, May 2026), and announced hiring plans are up 37% year to date (<a href="https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/">Challenger, Gray & Christmas</a>, September 2026). Carried from last cycle.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-layoffs-return-as-the-low-hire-market-tips-into-firing">
 <h4>Layoffs return as the low-hire market tips into firing</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2027</span></p>
 <p><strong>Surprise characteristics:</strong> Announced cuts break from the low-fire pattern without an AI label.</p>
@@ -499,7 +506,7 @@
 </div></div>
 <p>Layoffs and discharges changed little at 1.6 million in August (<a href="https://www.bls.gov/news.release/archives/jolts_09292026.htm">U.S. Bureau of Labor Statistics</a>, September 2026), and year-to-date announced cuts are down 41% (<a href="https://www.challengergray.com/blog/challenger-report-august-job-cuts-up-58-consumer-products-food-lead/">Challenger, Gray & Christmas</a>, September 2026), so the low-fire pattern holds today.</p>
 </div>
-<div class="wild-card risk">
+<div class="wild-card risk" id="wc-a-presumption-of-employment-spreads-beyond-platforms">
 <h4>A presumption of employment spreads beyond platforms</h4>
 <p class="wc-meta"><span class="wc-label">Disruptive Risk</span><span class="wc-impact">Potential impact: High</span><span class="wc-like">Likelihood: 5 to 30% by 2029</span></p>
 <p><strong>Surprise characteristics:</strong> National transpositions extend the presumption of employment to algorithmically managed work outside platforms.</p>

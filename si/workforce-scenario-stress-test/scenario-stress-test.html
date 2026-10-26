@@ -129,6 +129,28 @@ details.how summary{cursor:pointer;color:#1a237e;font-weight:700}
 details.how ol{margin:8px 0 2px;padding-left:20px}details.how li{margin-bottom:6px}
 
 .f-sp{border-left-color:#6a4fb3}.f-fa{border-left-color:#1565c0}.f-bc{border-left-color:#2e7d32}.f-cl{border-left-color:#f57c00}
+/* family-colours:start */
+  h1 { color: #1d5d27 !important; font-size: 1.55rem !important; font-weight: 600 !important; line-height: 1.25 !important; }
+  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
+  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
+  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
+  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
+/* family-colours:end */
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 </style></head><body>
 
 <div class="report-header">

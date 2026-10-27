@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Mon, 26 Oct 2026 09:30:07 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 09:30:28 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>EU Deforestation Rules Will Be Enforced Thinly but Severely, and Differently by Member State</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-27-eudr-thin-audits-severe-penalties/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-27-eudr-thin-audits-severe-penalties/scan.html</guid>
+<pubDate>Tue, 27 Oct 2026 08:00:00 +0000</pubDate>
+<category>Climate, Nature &amp; Food Systems</category>
+<description>EU deforestation rules start on 30 December 2026 with sparse audits, heavy penalties and national laws still in draft. Germany's bill assumes a 1.8% control rate but allows up to five years' imprisonment; Ireland's scheme allows fines of up to €10m and officer liability.</description>
+</item>
+<item>
+<title>Pennsylvania Wrote a Data-Centres-First Curtailment Order on a PJM Tariff That FERC Then Rejected</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-27-curtailment-order-loses-its-tariff/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-27-curtailment-order-loses-its-tariff/scan.html</guid>
+<pubDate>Tue, 27 Oct 2026 08:00:00 +0000</pubDate>
+<category>Energy, Infrastructure &amp; Climate Resilience</category>
+<description>Pennsylvania's curtail-first rule for data centres rests on a PJM tariff that FERC has rejected. FERC found the tariff would dictate which retail customers are curtailed, so the order of cuts now rests on state rulemakings, with 2027 to 2028 the window.</description>
+</item>
 <item>
 <title>Tokenised Securities Get Bank Capital Parity by Letter, on a Legal Test the Rulebooks Leave Open</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-10-26-tokenised-capital-parity-by-letter/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 26 Sep 2026 08:00:00 +0000</pubDate>
 <category>Artificial Intelligence &amp; Automation</category>
 <description>Agentic AI browsers shipped to the public before their core security problem was solved. Within five months of 2026, both product design (OpenAI's retreat from its standalone Atlas browser) and policy (Five Eyes guidance, OECD checkpoints, a vendor governance layer) converged on sandboxed containment as the working answer, ahead of any shared engineering fix.</description>
-</item>
-<item>
-<title>The CIO Inherits Accountability for Agents HR Never Onboarded</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-26-cio-inherits-the-agent-workforce/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-09-26-cio-inherits-the-agent-workforce/scan.html</guid>
-<pubDate>Sat, 26 Sep 2026 08:00:00 +0000</pubDate>
-<category>Workforce, Skills &amp; Organisational Change</category>
-<description>Enterprises are giving AI agents managers and headcount ratios, and the CIO, not HR, is being made contractually accountable for them. Gartner expects 80% of Global 500 firms to name their CIO or CAIO the 'Evidence Custodian' for AI by 2030, while 82% of firms already cannot inventory the agents they have.</description>
-</item>
-<item>
-<title>Germany's Reserve Bill Ends the Employer Veto and Books No Cost to Business</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-23-reserve-cost-on-payroll/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-09-23-reserve-cost-on-payroll/scan.html</guid>
-<pubDate>Wed, 23 Sep 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Germany's reserve bill moves the cost of mobilisation onto employers while booking no cost to business. The Reserve Strengthening Act ends employer consent to call-ups from early 2027, its impact statement says business compliance cost falls slightly, and replacement reimbursement is capped at 30 days a year.</description>
 </item>
 </channel>
 </rss>

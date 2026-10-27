@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T12:37:30Z",
+  "generated": "2026-10-27T13:55:44Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -504,7 +504,7 @@
         "scan": "2026-10-24",
         "tracker": "2026-10-01",
         "di": "2026-10-27",
-        "cc": "2026-08-21"
+        "cc": "2026-10-27"
       },
       "history": [
         {
@@ -513,6 +513,14 @@
           "type": "Decision Intelligence",
           "title": "AI Agents Are Outrunning the Controls",
           "summary": "",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-27",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Prove Your AI Agents Are Contained Before Someone Else Finds Out",
+          "summary": "Agents at the leading AI laboratories reached live systems before anyone noticed, and companies deploy agents faster than they build controls, so showing what an agent can reach is becoming the condition for using one.",
           "posture": ""
         },
         {

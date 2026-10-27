@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T13:55:44Z",
+  "generated": "2026-10-27T14:11:17Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -283,18 +283,18 @@
         },
         {
           "date": "2026-05-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Load Follows Generation",
-          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-19",
           "kind": "brief",
           "type": "Decision Intelligence",
           "title": "Powering AI in a Climate-Stressed World",
           "summary": "The energy transition has acquired three new constraints in the past six months, and they are not arriving on the same clock.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Load Follows Generation",
+          "summary": "New electric load is increasingly choosing to sit next to existing or new generation, a structural inversion of the grid-strain story.",
           "posture": ""
         },
         {
@@ -509,18 +509,18 @@
       "history": [
         {
           "date": "2026-10-27",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "AI Agents Are Outrunning the Controls",
-          "summary": "",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-27",
           "kind": "cross_cutter",
           "type": "Action Triggers",
           "title": "Prove Your AI Agents Are Contained Before Someone Else Finds Out",
           "summary": "Agents at the leading AI laboratories reached live systems before anyone noticed, and companies deploy agents faster than they build controls, so showing what an agent can reach is becoming the condition for using one.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-27",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "AI Agents Are Outrunning the Controls",
+          "summary": "",
           "posture": ""
         },
         {
@@ -1175,18 +1175,18 @@
         },
         {
           "date": "2026-10-16",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Enforcers bargain with Google as cyber reporting goes live and deadlines close in",
-          "summary": "Change Tracker on Regulation, Standards & Policy Change. Ten signals: 3 Accelerating (EU platform enforcement decisions, Cyber Resilience Act reporting duties, EU flat duty on low-value parcels), 6 Stable and 1 Fading (ESRS).",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-16",
           "kind": "cross_cutter",
           "type": "Action Triggers",
           "title": "Companies Will Police Themselves Through Records That Regulators and Courts Read Later",
           "summary": "Over this cycle, the enforcement load moved from regulators onto companies' own systems. In August the question was whether each jurisdiction had a funded enforcer. That still matters, but the rules that bit this cycle needed little enforcer at all.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-16",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Enforcers bargain with Google as cyber reporting goes live and deadlines close in",
+          "summary": "Change Tracker on Regulation, Standards & Policy Change. Ten signals: 3 Accelerating (EU platform enforcement decisions, Cyber Resilience Act reporting duties, EU flat duty on low-value parcels), 6 Stable and 1 Fading (ESRS).",
           "posture": ""
         },
         {
@@ -1536,18 +1536,18 @@
         },
         {
           "date": "2026-09-10",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Enforcement drag fades as a six-figure fee prices skilled entry",
-          "summary": "Fourth Change Tracker on Demographics, Migration and Labour Markets. Ten signals: 3 Accelerating (a six-figure fee on skilled entry, care and health workforce shortage, US net migration turning...",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-10",
           "kind": "brief",
           "type": "Decision Intelligence",
           "title": "Nobody Is Recruiting Their Way Out of This Any More",
           "summary": "The central tension of this cycle is that the labour shortage has stopped being treated as a recruitment problem by the governments experiencing it.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-10",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Enforcement drag fades as a six-figure fee prices skilled entry",
+          "summary": "Fourth Change Tracker on Demographics, Migration and Labour Markets. Ten signals: 3 Accelerating (a six-figure fee on skilled entry, care and health workforce shortage, US net migration turning...",
           "posture": ""
         },
         {
@@ -1640,18 +1640,18 @@
         },
         {
           "date": "2026-07-09",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "EU migration rules go live as the labour squeeze turns permanent",
-          "summary": "Second Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 3 Accelerating (European migration restriction, below-replacement fertility, skilled-talent migration...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-09",
           "kind": "brief",
           "type": "Decision Intelligence",
           "title": "The Workforce You Can't Buy",
           "summary": "The May scan asked who pays for population decline and framed bilateral migration pacts as the coming currency of ageing-economy statecraft.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-09",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "EU migration rules go live as the labour squeeze turns permanent",
+          "summary": "Second Change Tracker on Demographics, Migration and Labour Markets. Eight signals: 3 Accelerating (European migration restriction, below-replacement fertility, skilled-talent migration...",
           "posture": ""
         },
         {
@@ -1793,18 +1793,18 @@
         },
         {
           "date": "2026-10-09",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Ebola reaches 8,116 cases as the US ties health aid to pathogen data",
-          "summary": "Fifth Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 6 Accelerating (Bundibugyo Ebola emergency, US measles elimination at risk, global health financing retrenchment, US...",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-09",
           "kind": "cross_cutter",
           "type": "Action Triggers",
           "title": "Paying for Care and Finding Staff Will Limit Healthcare More Than Drug Prices",
           "summary": "Over this cycle, the binding constraint moved from making and pricing medicines to paying for and staffing care. Nine weeks ago the central question was whether medicine had become industrial policy, settled by tariffs and pricing deals. It had, and the deals spread.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-09",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Ebola reaches 8,116 cases as the US ties health aid to pathogen data",
+          "summary": "Fifth Change Tracker on Health, Life Sciences and Care Systems. Ten signals: 6 Accelerating (Bundibugyo Ebola emergency, US measles elimination at risk, global health financing retrenchment, US...",
           "posture": ""
         },
         {
@@ -2387,19 +2387,19 @@
         },
         {
           "date": "2026-10-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "IKEA Buys a Driverless Lane While the Federal Rulebook Arrives by Exemption",
-          "summary": "Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-16",
           "kind": "cross_cutter",
           "type": "Action Triggers",
           "title": "War-Risk Insurers Will Decide Gulf Shipping While Suez Freight Rates Keep Falling",
           "summary": "Over this cycle, the price of moving goods split by route. A week ago the central question was how fast the war premium would leave container rates.",
           "posture": ""
+        },
+        {
+          "date": "2026-10-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "IKEA Buys a Driverless Lane While the Federal Rulebook Arrives by Exemption",
+          "summary": "Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on...",
+          "posture": "Prepare"
         },
         {
           "date": "2026-10-15",
@@ -2612,18 +2612,18 @@
         },
         {
           "date": "2026-07-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Drones and capital accelerate; Washington's guarantee thins further",
-          "summary": "Edition 2. Counter-drone defence and record private capital lead the accelerators; Ukrainian production scaling into Europe becomes a tracked signal; the US guarantee thins further with a six-month...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-03",
           "kind": "cross_cutter",
           "type": "Action Triggers",
           "title": "Europe's Defence Money Will Outrun the Factories, Materials and People to Spend It",
           "summary": "Money is no longer the binding constraint on European defence; supplier absorption is, and the unlock is the credibility of the demand signal.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Drones and capital accelerate; Washington's guarantee thins further",
+          "summary": "Edition 2. Counter-drone defence and record private capital lead the accelerators; Ukrainian production scaling into Europe becomes a tracked signal; the US guarantee thins further with a six-month...",
           "posture": ""
         },
         {
@@ -2765,18 +2765,18 @@
         },
         {
           "date": "2026-10-02",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Coercion hardens into law and import bans while political risk moves to the ballot",
-          "summary": "Fifth cycle. Washington moved from duties to outright import bans on Canadian alcohol, dairy and motorcycles under five Section 338 proclamations, and Canada matched with counter-tariffs of 15, 25 and 50 per cent.",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-02",
           "kind": "cross_cutter",
           "type": "Action Triggers",
           "title": "Governments Will Ration Essential Supplies, Even When Selling to Their Allies",
           "summary": "Over this cycle, the strategic constraint changed from what supply costs to whether governments release it at all. Nine weeks ago the central question was whether the machinery of fragmentation would last: the tariff wall had outlived its court defeat and the dollar had blinked.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Coercion hardens into law and import bans while political risk moves to the ballot",
+          "summary": "Fifth cycle. Washington moved from duties to outright import bans on Canadian alcohol, dairy and motorcycles under five Section 338 proclamations, and Canada matched with counter-tariffs of 15, 25 and 50 per cent.",
           "posture": ""
         },
         {
@@ -2885,19 +2885,19 @@
         },
         {
           "date": "2026-07-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
-          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-29",
           "kind": "brief",
           "type": "Decision Intelligence",
           "title": "The Summer the Dollar Blinked",
           "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
           "posture": ""
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
+          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
+          "posture": "Prepare"
         },
         {
           "date": "2026-07-22",

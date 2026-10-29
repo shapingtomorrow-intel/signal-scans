@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T09:35:55Z",
+  "generated": "2026-10-29T09:33:01Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T09:34:53Z",
+  "generated": "2026-10-30T09:54:13Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -9,7 +9,7 @@
       "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
-      "latest_read": "US truckload rates net of fuel are repricing on driver enforcement, not freight demand. Licensing enforcement has shrunk the driver pool while rates excluding fuel rose 10.1% to 33% year over year...",
+      "latest_read": "US truckload pricing has turned supply-led: rates net of fuel are repricing while freight barely grows. The capacity response is limited and licensing enforcement is shrinking the driver pool, with...",
       "latest_dates": {
         "scan": "2026-10-30",
         "tracker": "2026-10-15",
@@ -21,8 +21,8 @@
           "date": "2026-10-30",
           "kind": "scan",
           "type": "Signal Scan",
-          "title": "Driver Enforcement Is Repricing US Trucking While Freight Barely Grows",
-          "summary": "US truckload rates net of fuel are repricing on driver enforcement, not freight demand. Licensing enforcement has shrunk the driver pool while rates excluding fuel rose 10.1% to 33% year over year...",
+          "title": "US Truckload Pricing Turns Supply-Led Before the 2027 Bid Season",
+          "summary": "US truckload pricing has turned supply-led: rates net of fuel are repricing while freight barely grows. The capacity response is limited and licensing enforcement is shrinking the driver pool, with...",
           "posture": "Decide"
         },
         {

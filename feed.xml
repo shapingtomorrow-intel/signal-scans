@@ -5,8 +5,16 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 30 Oct 2026 09:30:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 09:54:12 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>US Truckload Pricing Turns Supply-Led Before the 2027 Bid Season</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-30-trucking-reprices-on-supply/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-30-trucking-reprices-on-supply/scan.html</guid>
+<pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+<category>Transport, Logistics &amp; Supply Chains</category>
+<description>US truckload pricing has turned supply-led: rates net of fuel are repricing while freight barely grows. The capacity response is limited and licensing enforcement is shrinking the driver pool, with rates excluding fuel up 10.1% to 33% year over year against 1.9% shipment growth into the 2027 contract season.</description>
+</item>
 <item>
 <title>EU Defence Fiscal Cover Follows the Contract Date, So Orders May Bunch Before End-2028</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-28-fiscal-cover-follows-contract-date/scan.html</link>
@@ -398,14 +406,6 @@
 <pubDate>Mon, 28 Sep 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards &amp; Policy Change</category>
 <description>The EU's AI Act delay is a standards failure, not a relief measure. Brussels moved the high-risk deadline to 2 December 2027 because its own harmonised standards and conformity-assessment bodies were not ready, per the regulation's own recitals and the Commission's tracker, not primarily to ease pressure on industry.</description>
-</item>
-<item>
-<title>State Verification Choices, Not Work Status, Will Decide Medicaid Losses</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-27-chosen-not-required/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-09-27-chosen-not-required/scan.html</guid>
-<pubDate>Sun, 27 Sep 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences &amp; Care Systems</category>
-<description>State administrative design, not work status, is what determines who loses Medicaid coverage under the new work requirement. Nebraska's early rollout shows disenrollment already running on paperwork failure rather than non-work, months before 44 states enforce the rule in January 2027 under their own, widely divergent verification designs.</description>
 </item>
 </channel>
 </rss>

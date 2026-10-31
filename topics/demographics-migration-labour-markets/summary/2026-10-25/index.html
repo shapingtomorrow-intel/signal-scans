@@ -123,6 +123,21 @@
   .signup-cta .signup-button:hover { background: #FCE4EC; }
   .footer { color: #5a6478; font-size: 0.82em; margin: 2.6em 0 1em; border-top: 1px solid #e5e8ed; padding-top: 16px; }
   .footer a { color: #5a6478; }
+/* mobile-fit:start */
+@media (max-width: 640px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { overflow-wrap: break-word; }
+  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
+  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre, code { white-space: pre-wrap; word-break: break-word; }
+  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
+  /* logo first, then the label line and title, as on the search page */
+  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
+    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
+  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
+  
+}
+/* mobile-fit:end */
 .sum-meta { font-size: 0.85em; color: #5a6478; margin: 0 0 1.2em; }
   .sum-intro { font-size: 1.02em; margin: 0 0 1.4em; }
   /* the summary's own colour is raspberry (#ad1457 text, #c2185b dot, #fce4ec tint): it is not one
@@ -403,27 +418,6 @@ button.at-pill[aria-expanded="true"] { box-shadow: 0 0 0 3px rgba(69,39,160,.22)
   .track-tally .tt-pend { margin-top: 9px; padding-top: 8px; border-top: 1px solid #e3e7ee; font-size: 0.92em; color: #2c3e50; }
   .track-tally .tt-pend.only { margin-top: 8px; padding-top: 0; border-top: 0; }
   .track-tally .tt-pend span { white-space: nowrap; margin-left: 10px; }
-/* family-colours:start */
-  body a:not([class]), a.xref, a.lk, a.method-more { color: #026AD4 !important; }
-  .method-line a, .method-stages a, .method-name a { color: #026AD4 !important; }
-  .method-line a { border-bottom-color: #b3d1f3 !important; } .method-line a:hover { border-bottom-color: #026AD4 !important; }
-  .method-stages a { text-decoration-color: #b3d1f3 !important; } .method-stages a:hover { text-decoration-color: #026AD4 !important; }
-/* family-colours:end */
-/* mobile-fit:start */
-@media (max-width: 640px) {
-  html, body { max-width: 100%; overflow-x: hidden; }
-  body { overflow-wrap: break-word; }
-  img, video, canvas, svg[viewBox] { max-width: 100% !important; height: auto !important; }
-  table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  pre, code { white-space: pre-wrap; word-break: break-word; }
-  [style*="width:"], [style*="min-width"] { max-width: 100% !important; }
-  /* logo first, then the label line and title, as on the search page */
-  .scan-header, .report-header, .synth-header, .tracker-header, .topic-header {
-    flex-direction: column-reverse !important; align-items: flex-start !important; gap: 10px !important; }
-  .scan-logo, .report-logo, .synth-logo, .tracker-logo, .topic-logo { max-width: 40vw !important; height: auto !important; margin: 0 !important; }
-  
-}
-/* mobile-fit:end */
 </style>
 </head>
 <body>
@@ -439,7 +433,7 @@ button.at-pill[aria-expanded="true"] { box-shadow: 0 0 0 3px rgba(69,39,160,.22)
 <span id="how-to-read-end"></span>
 <div class="method-card"><div class="method-eyebrow">How this was made</div><p class="method-name"><a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">The Decision-Grade Intelligence Method</a></p><p>Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence.</p><p class="method-stages"><a href="https://www.shapingtomorrow.com/methodology#stage-scan" target="_blank" rel="noopener">Scan</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-filter" target="_blank" rel="noopener">Filter</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-stresstest" target="_blank" rel="noopener">Stress-test</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-judge" target="_blank" rel="noopener">Judge</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-trigger" target="_blank" rel="noopener">Trigger</a> &middot; <a href="https://www.shapingtomorrow.com/methodology#stage-brief" target="_blank" rel="noopener">Actionable Intelligence</a></p><p class="method-more-row"><a class="method-more" href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">See full methodology &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/how-we-verify/">How we verify &rarr;</a> &middot; <a class="method-more" href="https://decision-intel.shapingtomorrow.com/track-record/">Track record &rarr;</a></p></div>
 <p class="backlink"><a href="https://decision-intel.shapingtomorrow.com/topics/demographics-migration-labour-markets/">&larr; Back to all deliverables on this topic</a></p>
-<p class="footer">Every figure on this page comes from a source register published with one of the deliverables behind it. Updated each time a new deliverable is published. Built 2026-10-30.</p>
+<p class="footer">Every figure on this page comes from a source register published with one of the deliverables behind it. Updated each time a new deliverable is published. Built 2026-10-31.</p>
 <script>
 (function () {
   var pills = document.querySelectorAll('.at-pill[aria-controls]');

@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sat, 31 Oct 2026 09:30:09 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Nov 2026 09:30:34 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Gulf Remittances Are Still Rising After Hiring of New Foreign Workers Has Stalled</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-11-01-remittance-headline-lags-gulf-hiring/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-11-01-remittance-headline-lags-gulf-hiring/scan.html</guid>
+<pubDate>Sun, 01 Nov 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration &amp; Labour Markets</category>
+<description>Gulf remittances still rise although Saudi hiring of new foreign workers has stalled. The headline lags deployments by about a year, so a step-down is likely in 2027 and 2028.</description>
+</item>
+<item>
+<title>Australia Measures Its Home Care Queue to the Funding Offer, Not the First Service</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-11-01-home-care-clock-stops-at-offer/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-11-01-home-care-clock-stops-at-offer/scan.html</guid>
+<pubDate>Sun, 01 Nov 2026 08:00:00 +0000</pubDate>
+<category>Health, Life Sciences &amp; Care Systems</category>
+<description>Australia's published home care wait stops at the funding offer, so a falling wait and falling care starts can coexist. The statutory report counts only people who have started, and the three-month ambition for mid-2027 can be met on the offer clock.</description>
+</item>
 <item>
 <title>Supervisors Accept Human-on-the-Loop Agents as Buyers Retreat From Unreviewed Authority</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-10-31-agent-oversight-splits-supervisors-buyers/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 30 Sep 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>NATO's reinforcement plan assumes commercial ships and crews will be available, while the US pays retainers on 60 ships. The Council on Geostrategy calls the assumption obsolete; NATO's pooled contract covered up to 15 Ro/Ro ships, and the US House has voted a trust fund capped at US$20 billion.</description>
-</item>
-<item>
-<title>Europe's 2028 Switchgear Gas Ban Would Leave Grid Operators One EU-Based Supplier</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-29-switchgear-gas-ban-one-supplier/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-09-29-switchgear-gas-ban-one-supplier/scan.html</guid>
-<pubDate>Tue, 29 Sep 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>Three EU states have asked to pause a 2028 F-gas ban that, on the Council's own account, would bar a fluoronitrile switchgear route. It would leave one EU-based dry-air supplier with capacity below European demand, so grid operators ordering high-voltage bays now are buying against a rule that may change.</description>
-</item>
-<item>
-<title>The ISSB Calls Its Nature Rules Voluntary While IFRS S1 Already Requires the Disclosure</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-09-29-issb-nature-voluntary-label/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-09-29-issb-nature-voluntary-label/scan.html</guid>
-<pubDate>Tue, 29 Sep 2026 08:00:00 +0000</pubDate>
-<category>Climate, Nature &amp; Food Systems</category>
-<description>An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules. The Practice Statement is labelled voluntary, but IFRS S1 already requires material nature disclosure, so a silent company becomes harder to defend.</description>
 </item>
 </channel>
 </rss>

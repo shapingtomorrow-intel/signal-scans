@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T09:30:22Z",
+  "generated": "2026-11-03T09:35:53Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -358,10 +358,18 @@
       "latest_dates": {
         "scan": "2026-11-03",
         "tracker": "2026-10-23",
-        "di": "2026-09-03",
+        "di": "2026-11-03",
         "cc": "2026-09-04"
       },
       "history": [
+        {
+          "date": "2026-11-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "2026 Was a Lucky Year. 2027 May Not Be",
+          "summary": "",
+          "posture": ""
+        },
         {
           "date": "2026-11-03",
           "kind": "scan",

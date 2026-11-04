@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T11:57:54Z",
+  "generated": "2026-11-04T12:20:04Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -191,9 +191,17 @@
         "scan": "2026-11-04",
         "tracker": "2026-10-02",
         "di": "2026-11-04",
-        "cc": "2026-08-28"
+        "cc": "2026-11-05"
       },
       "history": [
+        {
+          "date": "2026-11-05",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Rearmament Will Leave Companies Paying for Sabotage, Call-Ups and Shelters in 2027",
+          "summary": "Governments are claiming workers, plants, ships and basements for defence while leaving the cost with their owners, and a court has let insurers treat unattributed sabotage as war.",
+          "posture": ""
+        },
         {
           "date": "2026-11-04",
           "kind": "brief",

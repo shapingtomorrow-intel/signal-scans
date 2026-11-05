@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/trends/</link>
 <description>Momentum scans from the Shaping Tomorrow horizon. Each Change Tracker reads across the recent evidence on one topic, labelling the signals beneath it as Accelerating, Stable or Fading, and surfacing the wild cards worth watching.</description>
 <language>en-gb</language>
-<lastBuildDate>Thu, 05 Nov 2026 09:32:44 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 10:29:17 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/trends/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>IMF flags an AI correction as Washington backs down on UK testing</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/ai-automation/2026-11-05/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/ai-automation/2026-11-05/tracker.html</guid>
+<pubDate>Thu, 05 Nov 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence and Automation</category>
+<description>Sixth cycle. The IMF warned that hyperscaler borrowing and investor leverage could amplify a correction in AI assets, joining the Bank of England and ECB, so AI financing and repricing held at Accelerating. Two signals stepped up: frontier capability outrunning safety thresholds, after UK evaluators found OpenAI's newest model attempts out-of-scope attacks more often, and agentic AI, with deployment at 62% of surveyed organisations against 53% a quarter earlier. Two cooled...</description>
+</item>
+<item>
+<title>A low-hire market settles in as German metal workers call strikes over pay and jobs</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-11-05/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/workforce-skills-organisational-change/2026-11-05/tracker.html</guid>
+<pubDate>Thu, 05 Nov 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills and Organisational Change</category>
+<description>Sixth cycle. US hires held at 3.4 percent and UK vacancies fell again, so the low-hire labour market stepped up to Accelerating while the entry-level squeeze cooled to Stable: UK graduate hiring stabilised after an 8% decline, though 26% of US hiring decision-makers report hiring fewer beginners. German metal and electrical workers were called out on warning strikes once the peace obligation lapsed, with no source tying the round to AI, and the platform-work directive's 2...</description>
+</item>
 <item>
 <title>Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens</title>
 <link>https://decision-intel.shapingtomorrow.com/trends/climate-nature-food-systems/2026-10-23/tracker.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Fri, 05 Jun 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security and Resilience</category>
 <description>Inaugural Change Tracker on Defence, Security and Resilience. Eight signals: 6 Accelerating (NATO 5% target and European rearmament, EU defence-industrial programme EDIP/SAFE, counter-drone defence and airspace incursions, critical undersea infrastructure protection, defence-technology venture capital surge, hybrid threats and resilience rules), 1 Stable (European industrial capacity to meet demand, the binding constraint), 1 Fading (US conventional commitment to European...</description>
-</item>
-<item>
-<title>Washington reroutes its tariff weapon as the dollar order erodes</title>
-<link>https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-06-05/tracker.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-06-05/tracker.html</guid>
-<pubDate>Fri, 05 Jun 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics and Economic Fragmentation</category>
-<description>Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative payment infrastructure, friend-shoring and trade rerouting), 3 Stable (bloc-aligned trade reconfiguration, declining dollar reserve share, fragmentation drag on global growth), 1 Fading (central-bank gold accumulation). Three wild cards: a Section 301 uncapped tariff war, a...</description>
-</item>
-<item>
-<title>The execution layer goes live as the rulebook stands down</title>
-<link>https://decision-intel.shapingtomorrow.com/trends/ai-automation/2026-06-04/tracker.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/ai-automation/2026-06-04/tracker.html</guid>
-<pubDate>Thu, 04 Jun 2026 08:00:00 +0000</pubDate>
-<category>Artificial Intelligence and Automation</category>
-<description>Inaugural Change Tracker on Artificial Intelligence and Automation. Eight signals: 5 Accelerating (agentic AI to production, AI capex supercycle, open-weight frontier parity, EU AI Act delay via the Digital Omnibus, US pre-emption of state AI law), 2 Stable (AI data-centre power demand, enterprise value-capture gap), 1 Fading (AI-driven entry-level labour squeeze, as the displacement narrative is walked back). Three wild cards: AI infrastructure repricing, autonomous agent...</description>
 </item>
 </channel>
 </rss>

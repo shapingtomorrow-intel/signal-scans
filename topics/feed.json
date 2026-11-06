@@ -1,265 +1,7 @@
 {
-  "generated": "2026-11-06T09:30:44Z",
+  "generated": "2026-11-06T09:34:36Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
-    {
-      "slug": "transport-logistics-supply-chains",
-      "name": "Transport, Logistics & Supply Chains",
-      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
-      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
-      "latest_read": "Europe is raising the price of rail freight in the middle of a four-year decline. German track access charges rise around 12% for freight in 2027 with steeper 2028 steps while the EU remedies apply...",
-      "latest_dates": {
-        "scan": "2026-11-06",
-        "tracker": "2026-10-15",
-        "di": "2026-10-12",
-        "cc": "2026-10-16"
-      },
-      "history": [
-        {
-          "date": "2026-11-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Germany Raises Track Prices in the Middle of Europe's Rail Freight Decline",
-          "summary": "Europe is raising the price of rail freight in the middle of a four-year decline. German track access charges rise around 12% for freight in 2027 with steeper 2028 steps while the EU remedies apply...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "US Truckload Pricing Turns Supply-Led Before the 2027 Bid Season",
-          "summary": "US truckload pricing has turned supply-led: rates net of fuel are repricing while freight barely grows. The capacity response is limited and licensing enforcement is shrinking the driver pool, with...",
-          "posture": "Decide"
-        },
-        {
-          "date": "2026-10-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Shipowners Lock the 2030s Fleet Into LNG Before the IMO Prices Carbon",
-          "summary": "Shipowners are locking the 2030s fleet into LNG before the IMO’s December carbon vote. September’s alternative-fuel orders hit a two-year high with 48 of 69 ships LNG-capable, zero-emission-capable...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-16",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "War-Risk Insurers Will Decide Gulf Shipping While Suez Freight Rates Keep Falling",
-          "summary": "Over this cycle, the price of moving goods split by route. A week ago the central question was how fast the war premium would leave container rates.",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "IKEA Buys a Driverless Lane While the Federal Rulebook Arrives by Exemption",
-          "summary": "Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-15",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Hormuz strikes reprice shipping as the orderbook hits the water",
-          "summary": "Inaugural Change Tracker on Transport, Logistics & Supply Chains. Ten signals: 4 Accelerating (Hormuz attacks reprice Gulf shipping, orderbook hits the water, shipping's carbon price December vote...",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-12",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Cheap Freight Is Back. With a Catch",
-          "summary": "Ocean freight is heading into a buyer's market. Since May, 140 container ships have switched back from the Cape of Good Hope to the Suez Canal (gCaptain, Oct 2026), and BIMCO, the shipowners'...",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027",
-          "summary": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
-          "posture": "Decide"
-        }
-      ]
-    },
-    {
-      "slug": "climate-nature-food-systems",
-      "name": "Climate, Nature & Food Systems",
-      "tagline": "Disaster, decarbonisation and the food on the table.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, and the mitigation economics behind it: decarbonisation pace, cost and delivery. Climate disasters and extreme weather, and what they do to assets, supply chains and insurability. Biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
-      "latest_read": "EU national restoration plans become final before the Commission publishes its funding-needs analysis, leaving the cost-bearer open. The analysis waits on the 2028-2034 budget talks.",
-      "latest_dates": {
-        "scan": "2026-11-03",
-        "tracker": "2026-10-23",
-        "di": "2026-11-03",
-        "cc": "2026-11-05"
-      },
-      "history": [
-        {
-          "date": "2026-11-05",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "2027 Will Test Food and Water Buffers That Are Thinner Than They Look",
-          "summary": "The cushions for a bad year, from world grain stocks to Europe's farm reserve and stored water, are thinner or harder to reach than the totals suggest, and a very strong El Ni&ntilde;o lands on them in 2027.",
-          "posture": ""
-        },
-        {
-          "date": "2026-11-03",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "2026 Was a Lucky Year. 2027 May Not Be",
-          "summary": "2026 has been a lucky year. Insured catastrophe losses of $92 billion in the first nine months were the lowest since 2019 (Gallagher Re, Oct 2026), and world cereal stocks are forecast at 950.0 million tonnes (FAO, Oct 2026).",
-          "posture": ""
-        },
-        {
-          "date": "2026-11-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "EU Nature Restoration Plans Are Due Before the Commission Says What They Will Cost",
-          "summary": "EU national restoration plans become final before the Commission publishes its funding-needs analysis, leaving the cost-bearer open. The analysis waits on the 2028-2034 budget talks.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "EU Deforestation Rules Will Be Enforced Thinly but Severely, and Differently by Member State",
-          "summary": "EU deforestation rules start on 30 December 2026 with sparse audits, heavy penalties and national laws still in draft.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-23",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
-          "summary": "Edition 3. World wheat prices rose 6.3% in September to their highest since August 2023 on Black Sea logistics, and Arizona moved to join Nevada's suit over the Colorado River cuts.",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The EU Carbon Reform Writes a Surplus Into the 2030s While Leaders Argue About 2026 Prices",
-          "summary": "The EU carbon reform loosens the 2031 to 2040 supply path while leaders argue about 2026 prices. The linear reduction factor, reserve intake and cancellation threshold all move toward a larger...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-13",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Grain Cushion Sits in China While Exporters' Maize Stocks Shrink Into an El Niño Peak",
-          "summary": "The world grain cushion is mostly China's reserves, while exporters' maize stocks shrink into an El Niño peak. USDA shows China holding 165.13 of 280.44 million tonnes of corn and major exporters...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-06",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "India Is Planning Its Winter Crop From Water Budgets, Though Fertiliser Stocks Are Ample",
-          "summary": "India is writing its winter crop plan from reservoir water, not stock positions, as a very strong El Niño tightens irrigation.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The ISSB Calls Its Nature Rules Voluntary While IFRS S1 Already Requires the Disclosure",
-          "summary": "An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-25",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",
-          "summary": "Edition 2. Ukrainian strikes shut more than 90 percent of Russia's Azov-Black Sea grain-export capacity, pushing FAO's Food Price Index up 1.9 percent in August with wheat and sugar leading; India's reopening of a four-year wheat-export ban offers only partial relief.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Certified Carbon Farming Before the Land Safeguards Were Written",
-          "summary": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived",
-          "summary": "Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing",
-          "summary": "Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-04",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Water and Raw Materials Will Be Rationed by Permit, Not by Shortage",
-          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-03",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Climate Policy Has Started Taking Things Away",
-          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
-          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-28",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
-          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-25",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
-          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
-          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
-          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
-          "posture": "Prepare"
-        }
-      ]
-    },
     {
       "slug": "defence-security-resilience",
       "name": "Defence, Security & Resilience",
@@ -267,14 +9,22 @@
       "description": "Rearmament has cleared the budget line; industrial absorption and critical-material dependencies in the supplier base are the live constraint. Grey-zone attack is now a daily operating condition, AI is on classified networks ahead of doctrine, and information operations have crossed into the corporate boundary. Where the binding question actually sits, for boards and operators of critical infrastructure.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/defence-security-resilience/history/",
-      "latest_read": "A court applied a war exclusion to unattributed sabotage, so state-linked attack losses on infrastructure may stay with operators.",
+      "latest_read": "Eastern flank attacks reach 17 in a month as the US posture options fall due",
       "latest_dates": {
         "scan": "2026-11-04",
-        "tracker": "2026-10-02",
+        "tracker": "2026-11-06",
         "di": "2026-11-04",
         "cc": "2026-11-05"
       },
       "history": [
+        {
+          "date": "2026-11-06",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Eastern flank attacks reach 17 in a month as the US posture options fall due",
+          "summary": "Sixth cycle. CEPA counts at least 17 attacks on NATO frontline states and Moldova in a month, and NATO jets were scrambled over northern Lithuania on 18 October.",
+          "posture": ""
+        },
         {
           "date": "2026-11-05",
           "kind": "cross_cutter",
@@ -586,6 +336,593 @@
           "title": "Hard Power, Soft Frontiers",
           "summary": "Defence has stopped being a sector. The boundary between hard military capability, civil resilience, critical-infrastructure protection, supply-chain security and information integrity has dissolved...",
           "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "geopolitics-economic-fragmentation",
+      "name": "Geopolitics & Economic Fragmentation",
+      "tagline": "Operating where consensus is gone.",
+      "description": "Political risk and the fracturing of the world economy. Elections and policy reversals, unstable governments, coups and civil unrest, sanctions, expropriation and resource nationalism, and the erosion of the rule of law that contracts depend on. Alongside it, decoupling, industrial-policy capital, middle-power hedging and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
+      "latest_read": "Hormuz attacks hit a wartime high as Democrats take Congress and Lula wins",
+      "latest_dates": {
+        "scan": "2026-11-04",
+        "tracker": "2026-11-06",
+        "di": "2026-10-01",
+        "cc": "2026-10-02"
+      },
+      "history": [
+        {
+          "date": "2026-11-06",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Hormuz attacks hit a wartime high as Democrats take Congress and Lula wins",
+          "summary": "Sixth cycle. Attacks on ships near Hormuz in October reached the highest monthly level of the war, Democrats won control of Congress on 3 November and Lula won Brazil's runoff, so Gulf shipping risk and election-driven reversal warm to Accelerating.",
+          "posture": ""
+        },
+        {
+          "date": "2026-11-04",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "China’s Rare Earth Pause Still Ends on 10 November in Law, Whatever the Truce Says",
+          "summary": "China's rare earth pause still ends on 10 November in law, though the truce runs to 10 January 2027. Named-customer licences and published instruments, not the calendar, decide magnet and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-28",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "France’s 2027 Budget Now Runs on a Constitutional Deadline, Not a Parliamentary Majority",
+          "summary": "France's 2027 budget now runs on constitutional dates, not a majority, so the fall-back route decides who is paid.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-21",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The US Keeps Black Mass at Home and the EU Drafts a Metal Scrap Export Ban",
+          "summary": "Washington and Brussels are controlling recycled metal feedstock, with a US black mass order and a draft EU scrap ban.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-14",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Brazil's Next President Inherits a Budget with Little Room to Deliver the Pivot Markets Priced",
+          "summary": "Brazil's first-round vote priced a fiscal pivot, but the 2027 budget leaves the next president little room to deliver one.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-07",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "US Drug Tariffs Are Being Paid for in Other Countries’ Medicine Prices",
+          "summary": "US tariffs on medicines are now settled by contract, not by schedule. Twenty-six manufacturers covering 89% of the branded drug market hold US pricing deals, and the UK's rate fell from 10% to 0%...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-02",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Governments Will Ration Essential Supplies, Even When Selling to Their Allies",
+          "summary": "Over this cycle, the strategic constraint changed from what supply costs to whether governments release it at all. Nine weeks ago the central question was whether the machinery of fragmentation would last: the tariff wall had outlived its court defeat and the dollar had blinked.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-02",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Coercion hardens into law and import bans while political risk moves to the ballot",
+          "summary": "Fifth cycle. Washington moved from duties to outright import bans on Canadian alcohol, dairy and motorcycles under five Section 338 proclamations, and Canada matched with counter-tariffs of 15, 25 and 50 per cent.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-01",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Diesel, Allies and the New World Order",
+          "summary": "The war with Iran has cut the fuel coming out of the Middle East, and diesel is where the shortage bites hardest. Global stocks fell by 507 million barrels between February and August (IEA, Sep 2026).",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Niger's US Uranium Loan Turns Political Risk into a Queue of Sovereign Consents",
+          "summary": "Niger's US-backed uranium loan turns Sahel political risk into a queue of sovereign consents. The DFC approved up to $414.2 million for Dasa on 16 September, but three of four named conditions are...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Refining States Are Metering Diesel Exports, Leaving Importers to Bid for the Remainder",
+          "summary": "Refining states are metering diesel exports, leaving importers to bid for what is left. Russia's rolling bans, China's inventory-conditional permissions, India's fortnightly export levy and a US ban...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "US Trade Blacklists Now Decide Who a Federally Funded Scientist May Work With",
+          "summary": "US trade blacklists now decide who a federally funded scientist may work with. From FY2027 the NSF bars its funds from any collaboration with entities on twelve restricted-party lists, the...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Voluntary Top-Up: Carbon Border Recognition as a Design Brief for Third-Country Carbon Markets",
+          "summary": "Carbon border recognition has become the design brief for other countries' carbon markets. Britain published a list of 16 qualifying schemes while the EU prices each consignment, and Turkiye's new...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
+          "summary": "Fourth cycle. Coercion fell inside the bloc: the first use of Section 338 put 50% duties on about $20 billion of Canadian goods from 22 August, talks collapsed and Canada set 8 September for dollar-for-dollar retaliation, so a new signal enters the register.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-02",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "China Has Turned Its Export Control List Into a Standing Reciprocity Machine",
+          "summary": "China now answers each Western entity listing with a matched list of its own, within days and in the same numbers.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-26",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "One Metal, Two Prices: The Western Rare Earth Premium Is Being Written into 15-Year Contracts",
+          "summary": "The same kilogram of rare earth now has two prices depending on the buyer's bloc. Government floor-price offtakes and G7 mechanisms are contracting the ex-China premium, around five times Chinese...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-19",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Rationed, Not Taxed: The Volume Cap Returns as Europe's Trade Instrument",
+          "summary": "Trade protection is being rationed by volume rather than priced by tariff. The EU's steel regime from 1 July 2026 caps duty-free imports at 18.3 million tonnes with a 50 percent out-of-quota duty...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-12",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Capital Without Concrete: Why the Investment Rebound Has Not Reached the Ground",
+          "summary": "The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-07",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
+          "summary": "Third cycle. The EU's 21st Russia package, adopted 23 July 2026, carried 218 designations, the largest round in four years, froze the oil price cap at USD 44.10 and created the first third-country...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-05",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
+          "summary": "US tariffs are being re-founded as an earn-down lattice: statutory, sector-by-sector rates that partners lower by copying American rules.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-30",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Trade Barriers Will Move From Tariffs to Licences, Ownership and Rules of Origin",
+          "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "The Summer the Dollar Blinked",
+          "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
+          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet",
+          "summary": "Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers",
+          "summary": "Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Managed Trade Returns: How Market Access Became a Negotiated, Conditional Privilege",
+          "summary": "Beneath the tariff-war headlines, the US-led trade order is being rebuilt as 'managed trade': market access is bought with quantitative purchase and investment pledges (more than $5 trillion) and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-07-03",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Tariff coercion broadens and central-bank gold turns; the dollar erodes only at the edges",
+          "summary": "Edition 2. Economic coercion broadens as USTR Section 301 tariffs reach 99.4 percent of US imports and the EU activates its anti-circumvention tool; central-bank gold buying reverses from fading to...",
+          "posture": ""
+        },
+        {
+          "date": "2026-07-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Made Where, Exactly: How Rules of Origin Became the New Front in US-China Decoupling",
+          "summary": "Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-24",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort",
+          "summary": "The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
+          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-10",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
+          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-06-05",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
+          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
+          "posture": ""
+        },
+        {
+          "date": "2026-06-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
+          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
+          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-26",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Operating Where Consensus Is Gone",
+          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
+          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Two Stacks, Two Markets",
+          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Beyond the G20 Fracture",
+          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
+          "posture": ""
+        },
+        {
+          "date": "2026-05-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Institutional Ratchet",
+          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
+          "posture": ""
+        }
+      ]
+    },
+    {
+      "slug": "transport-logistics-supply-chains",
+      "name": "Transport, Logistics & Supply Chains",
+      "tagline": "How goods move: freight, fleets, ports and the networks behind every delivery.",
+      "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
+      "latest_read": "Europe is raising the price of rail freight in the middle of a four-year decline. German track access charges rise around 12% for freight in 2027 with steeper 2028 steps while the EU remedies apply...",
+      "latest_dates": {
+        "scan": "2026-11-06",
+        "tracker": "2026-10-15",
+        "di": "2026-10-12",
+        "cc": "2026-10-16"
+      },
+      "history": [
+        {
+          "date": "2026-11-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Germany Raises Track Prices in the Middle of Europe's Rail Freight Decline",
+          "summary": "Europe is raising the price of rail freight in the middle of a four-year decline. German track access charges rise around 12% for freight in 2027 with steeper 2028 steps while the EU remedies apply...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-30",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "US Truckload Pricing Turns Supply-Led Before the 2027 Bid Season",
+          "summary": "US truckload pricing has turned supply-led: rates net of fuel are repricing while freight barely grows. The capacity response is limited and licensing enforcement is shrinking the driver pool, with...",
+          "posture": "Decide"
+        },
+        {
+          "date": "2026-10-23",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Shipowners Lock the 2030s Fleet Into LNG Before the IMO Prices Carbon",
+          "summary": "Shipowners are locking the 2030s fleet into LNG before the IMO’s December carbon vote. September’s alternative-fuel orders hit a two-year high with 48 of 69 ships LNG-capable, zero-emission-capable...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-16",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "War-Risk Insurers Will Decide Gulf Shipping While Suez Freight Rates Keep Falling",
+          "summary": "Over this cycle, the price of moving goods split by route. A week ago the central question was how fast the war premium would leave container rates.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-16",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "IKEA Buys a Driverless Lane While the Federal Rulebook Arrives by Exemption",
+          "summary": "Driverless freight crossed from pilots to sold, scheduled service in the ten weeks to mid-October 2026. FMCSA's five-year beacon exemption opened driverless operation to any Level 4 carrier on...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-15",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Hormuz strikes reprice shipping as the orderbook hits the water",
+          "summary": "Inaugural Change Tracker on Transport, Logistics & Supply Chains. Ten signals: 4 Accelerating (Hormuz attacks reprice Gulf shipping, orderbook hits the water, shipping's carbon price December vote...",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-12",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Cheap Freight Is Back. With a Catch",
+          "summary": "Ocean freight is heading into a buyer's market. Since May, 140 container ships have switched back from the Cape of Good Hope to the Suez Canal (gCaptain, Oct 2026), and BIMCO, the shipowners'...",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-09",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027",
+          "summary": "Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for...",
+          "posture": "Decide"
+        }
+      ]
+    },
+    {
+      "slug": "climate-nature-food-systems",
+      "name": "Climate, Nature & Food Systems",
+      "tagline": "Disaster, decarbonisation and the food on the table.",
+      "description": "Climate policy and carbon pricing after the retreat from consensus, and the mitigation economics behind it: decarbonisation pace, cost and delivery. Climate disasters and extreme weather, and what they do to assets, supply chains and insurability. Biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
+      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
+      "latest_read": "EU national restoration plans become final before the Commission publishes its funding-needs analysis, leaving the cost-bearer open. The analysis waits on the 2028-2034 budget talks.",
+      "latest_dates": {
+        "scan": "2026-11-03",
+        "tracker": "2026-10-23",
+        "di": "2026-11-03",
+        "cc": "2026-11-05"
+      },
+      "history": [
+        {
+          "date": "2026-11-05",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "2027 Will Test Food and Water Buffers That Are Thinner Than They Look",
+          "summary": "The cushions for a bad year, from world grain stocks to Europe's farm reserve and stored water, are thinner or harder to reach than the totals suggest, and a very strong El Ni&ntilde;o lands on them in 2027.",
+          "posture": ""
+        },
+        {
+          "date": "2026-11-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "2026 Was a Lucky Year. 2027 May Not Be",
+          "summary": "2026 has been a lucky year. Insured catastrophe losses of $92 billion in the first nine months were the lowest since 2019 (Gallagher Re, Oct 2026), and world cereal stocks are forecast at 950.0 million tonnes (FAO, Oct 2026).",
+          "posture": ""
+        },
+        {
+          "date": "2026-11-03",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "EU Nature Restoration Plans Are Due Before the Commission Says What They Will Cost",
+          "summary": "EU national restoration plans become final before the Commission publishes its funding-needs analysis, leaving the cost-bearer open. The analysis waits on the 2028-2034 budget talks.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-27",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "EU Deforestation Rules Will Be Enforced Thinly but Severely, and Differently by Member State",
+          "summary": "EU deforestation rules start on 30 December 2026 with sparse audits, heavy penalties and national laws still in draft.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-23",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
+          "summary": "Edition 3. World wheat prices rose 6.3% in September to their highest since August 2023 on Black Sea logistics, and Arizona moved to join Nevada's suit over the Colorado River cuts.",
+          "posture": ""
+        },
+        {
+          "date": "2026-10-20",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The EU Carbon Reform Writes a Surplus Into the 2030s While Leaders Argue About 2026 Prices",
+          "summary": "The EU carbon reform loosens the 2031 to 2040 supply path while leaders argue about 2026 prices. The linear reduction factor, reserve intake and cancellation threshold all move toward a larger...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-13",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Grain Cushion Sits in China While Exporters' Maize Stocks Shrink Into an El Niño Peak",
+          "summary": "The world grain cushion is mostly China's reserves, while exporters' maize stocks shrink into an El Niño peak. USDA shows China holding 165.13 of 280.44 million tonnes of corn and major exporters...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-10-06",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "India Is Planning Its Winter Crop From Water Budgets, Though Fertiliser Stocks Are Ample",
+          "summary": "India is writing its winter crop plan from reservoir water, not stock positions, as a very strong El Niño tightens irrigation.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-29",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The ISSB Calls Its Nature Rules Voluntary While IFRS S1 Already Requires the Disclosure",
+          "summary": "An ISSB exposure draft due in October 2026 will give auditors and lenders a yardstick for nature disclosure, just as the EU cuts its own rules.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-25",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Black Sea grain corridor breaks; carbon and water disputes go legal",
+          "summary": "Edition 2. Ukrainian strikes shut more than 90 percent of Russia's Azov-Black Sea grain-export capacity, pushing FAO's Food Price Index up 1.9 percent in August with wheat and sugar leading; India's reopening of a four-year wheat-export ban offers only partial relief.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-22",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Certified Carbon Farming Before the Land Safeguards Were Written",
+          "summary": "Europe's new carbon farming rulebook defers the land-price safeguards it says are needed. The delegated regulation adopted on 9 July 2026 records that certification revenues might drive up land...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-15",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe's Farm Crisis Reserve Was Spent on Fertiliser Before the Drought Arrived",
+          "summary": "Europe's farm crisis reserve was spent on fertiliser before the 2026 drought arrived. With €540 million committed on 17 July to Middle East input costs, relief came as fallow and...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Europe Deregulated Gene-Edited Crops and Left the Patent Gate Standing",
+          "summary": "Europe removed the biosafety gate on gene-edited crops and left the patent gate standing. Regulation (EU) 2026/1388 applies from 17 July 2028, Parliament rejected the seed-patent amendments by 431...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Water and Raw Materials Will Be Rationed by Permit, Not by Shortage",
+          "summary": "Everything that hardened this cycle changed how long a permission runs and who decides it, not how much of a resource exists: water allocated two years at a time, plot-level origin proof from 30 December, carbon charged rather than reported.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-03",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Climate Policy Has Started Taking Things Away",
+          "summary": "The central tension of this cycle is a swap. In the same twelve months that Europe cut the population of companies obliged to report on sustainability, it widened and hardened the instruments that decide what those companies may use, buy and sell.",
+          "posture": ""
+        },
+        {
+          "date": "2026-09-01",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Billions of Seeds, No Standard: The Uncertified Supply Chain Beneath Europe's Restoration Targets",
+          "summary": "Europe has legislated restoration demand its seed and nursery supply chain cannot meet to any certified standard.",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-28",
+          "kind": "tracker",
+          "type": "Change Tracker",
+          "title": "Water goes to two-year tenor; nature finance stalls at $1,000",
+          "summary": "Inaugural edition. The Colorado River Record of Decision shortens water entitlements to two-year periods against record-low reservoirs, the cycle's steepest accelerator, while Europe's drought...",
+          "posture": ""
+        },
+        {
+          "date": "2026-08-25",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "Water on a Two-Year Horizon: The Colorado River Decision Prices Out Long-Lived Assets",
+          "summary": "The Colorado River is now allocated two years at a time. The 21 August Record of Decision adopted a ten-year process for issuing rules in two-year intervals rather than a long-term allocation, so...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-17",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "The Acid Auction: Why Battery Metals Now Outbid Fertiliser for Sulphur",
+          "summary": "Sulphuric acid, not nitrogen, has become the binding input beneath the food system. Sulphur is a refining by-product with no supply response to price, and battery-metals processors with thinner acid...",
+          "posture": "Prepare"
+        },
+        {
+          "date": "2026-08-08",
+          "kind": "scan",
+          "type": "Signal Scan",
+          "title": "After the Retreat: Nature Risk Moves from the Sustainability Report to the Risk Register",
+          "summary": "Nature risk is consolidating into supervision and border compliance while EU disclosure law retreats. The ECB's May 2026 good practices and the intact EUDR architecture applying from 30 December...",
+          "posture": "Prepare"
         }
       ]
     },
@@ -1259,327 +1596,6 @@
           "type": "Signal Scan",
           "title": "The Broken Rung",
           "summary": "The disruption to white-collar work is landing first on graduate and junior roles, compressing the apprenticeship ladder that built mobility and converting inequality into a locked-in cohort effect...",
-          "posture": ""
-        }
-      ]
-    },
-    {
-      "slug": "geopolitics-economic-fragmentation",
-      "name": "Geopolitics & Economic Fragmentation",
-      "tagline": "Operating where consensus is gone.",
-      "description": "Political risk and the fracturing of the world economy. Elections and policy reversals, unstable governments, coups and civil unrest, sanctions, expropriation and resource nationalism, and the erosion of the rule of law that contracts depend on. Alongside it, decoupling, industrial-policy capital, middle-power hedging and supply chains as statecraft: critical minerals, export controls, chokepoints and friendshoring. Strategy across more than one operating environment, simultaneously.",
-      "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/",
-      "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/geopolitics-economic-fragmentation/history/",
-      "latest_read": "China's rare earth pause still ends on 10 November in law, though the truce runs to 10 January 2027. Named-customer licences and published instruments, not the calendar, decide magnet and...",
-      "latest_dates": {
-        "scan": "2026-11-04",
-        "tracker": "2026-10-02",
-        "di": "2026-10-01",
-        "cc": "2026-10-02"
-      },
-      "history": [
-        {
-          "date": "2026-11-04",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "China’s Rare Earth Pause Still Ends on 10 November in Law, Whatever the Truce Says",
-          "summary": "China's rare earth pause still ends on 10 November in law, though the truce runs to 10 January 2027. Named-customer licences and published instruments, not the calendar, decide magnet and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-28",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "France’s 2027 Budget Now Runs on a Constitutional Deadline, Not a Parliamentary Majority",
-          "summary": "France's 2027 budget now runs on constitutional dates, not a majority, so the fall-back route decides who is paid.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-21",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The US Keeps Black Mass at Home and the EU Drafts a Metal Scrap Export Ban",
-          "summary": "Washington and Brussels are controlling recycled metal feedstock, with a US black mass order and a draft EU scrap ban.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-14",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Brazil's Next President Inherits a Budget with Little Room to Deliver the Pivot Markets Priced",
-          "summary": "Brazil's first-round vote priced a fiscal pivot, but the 2027 budget leaves the next president little room to deliver one.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-07",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "US Drug Tariffs Are Being Paid for in Other Countries’ Medicine Prices",
-          "summary": "US tariffs on medicines are now settled by contract, not by schedule. Twenty-six manufacturers covering 89% of the branded drug market hold US pricing deals, and the UK's rate fell from 10% to 0%...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-10-02",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Governments Will Ration Essential Supplies, Even When Selling to Their Allies",
-          "summary": "Over this cycle, the strategic constraint changed from what supply costs to whether governments release it at all. Nine weeks ago the central question was whether the machinery of fragmentation would last: the tariff wall had outlived its court defeat and the dollar had blinked.",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-02",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Coercion hardens into law and import bans while political risk moves to the ballot",
-          "summary": "Fifth cycle. Washington moved from duties to outright import bans on Canadian alcohol, dairy and motorcycles under five Section 338 proclamations, and Canada matched with counter-tariffs of 15, 25 and 50 per cent.",
-          "posture": ""
-        },
-        {
-          "date": "2026-10-01",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Diesel, Allies and the New World Order",
-          "summary": "The war with Iran has cut the fuel coming out of the Middle East, and diesel is where the shortage bites hardest. Global stocks fell by 507 million barrels between February and August (IEA, Sep 2026).",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-30",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Niger's US Uranium Loan Turns Political Risk into a Queue of Sovereign Consents",
-          "summary": "Niger's US-backed uranium loan turns Sahel political risk into a queue of sovereign consents. The DFC approved up to $414.2 million for Dasa on 16 September, but three of four named conditions are...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-23",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Refining States Are Metering Diesel Exports, Leaving Importers to Bid for the Remainder",
-          "summary": "Refining states are metering diesel exports, leaving importers to bid for what is left. Russia's rolling bans, China's inventory-conditional permissions, India's fortnightly export levy and a US ban...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "US Trade Blacklists Now Decide Who a Federally Funded Scientist May Work With",
-          "summary": "US trade blacklists now decide who a federally funded scientist may work with. From FY2027 the NSF bars its funds from any collaboration with entities on twelve restricted-party lists, the...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-09",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Voluntary Top-Up: Carbon Border Recognition as a Design Brief for Third-Country Carbon Markets",
-          "summary": "Carbon border recognition has become the design brief for other countries' carbon markets. Britain published a list of 16 qualifying schemes while the EU prices each consignment, and Turkiye's new...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-09-04",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Washington turns its tariffs on Canada; the dollar's rivals stay at the discussion stage",
-          "summary": "Fourth cycle. Coercion fell inside the bloc: the first use of Section 338 put 50% duties on about $20 billion of Canadian goods from 22 August, talks collapsed and Canada set 8 September for dollar-for-dollar retaliation, so a new signal enters the register.",
-          "posture": ""
-        },
-        {
-          "date": "2026-09-02",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "China Has Turned Its Export Control List Into a Standing Reciprocity Machine",
-          "summary": "China now answers each Western entity listing with a matched list of its own, within days and in the same numbers.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-26",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "One Metal, Two Prices: The Western Rare Earth Premium Is Being Written into 15-Year Contracts",
-          "summary": "The same kilogram of rare earth now has two prices depending on the buyer's bloc. Government floor-price offtakes and G7 mechanisms are contracting the ex-China premium, around five times Chinese...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-19",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Rationed, Not Taxed: The Volume Cap Returns as Europe's Trade Instrument",
-          "summary": "Trade protection is being rationed by volume rather than priced by tariff. The EU's steel regime from 1 July 2026 caps duty-free imports at 18.3 million tonnes with a 50 percent out-of-quota duty...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-12",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Capital Without Concrete: Why the Investment Rebound Has Not Reached the Ground",
-          "summary": "The recovery in foreign investment is buying assets, not building them. New inward investment in the United States went almost entirely on acquiring existing businesses, and greenfield announcements...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-08-07",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Sanctions reach into third countries while the dollar's reserve share climbs",
-          "summary": "Third cycle. The EU's 21st Russia package, adopted 23 July 2026, carried 218 designations, the largest round in four years, froze the oil price cap at USD 44.10 and created the first third-country...",
-          "posture": ""
-        },
-        {
-          "date": "2026-08-05",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Earn-Down Tariff: America’s Rebuilt Trade Wall Prices Regulatory Alignment",
-          "summary": "US tariffs are being re-founded as an earn-down lattice: statutory, sector-by-sector rates that partners lower by copying American rules.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-30",
-          "kind": "cross_cutter",
-          "type": "Action Triggers",
-          "title": "Trade Barriers Will Move From Tariffs to Licences, Ownership and Rules of Origin",
-          "summary": "The tariff took the headlines and the court fight while the instrument of economic statecraft migrated to export licensing, reserve custody, outbound screening, ownership, rules of origin and the...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "The Summer the Dollar Blinked",
-          "summary": "This summer, fragmentation stopped being the risk to plan around and became the operating system itself, and even the dollar blinked.",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-29",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Taxed by Passport: What the Two-Track Minimum Tax Does to Non-US Groups",
-          "summary": "Corporate tax rates are starting to depend on where a group is headquartered, not where it operates. The OECD side-by-side system lets US-parented groups switch off Pillar Two top-up taxes their...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-22",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Flag Comes Home: Russia Turns Its Shadow Fleet into a State Fleet",
-          "summary": "Russia is bringing the shadow fleet onshore: reflagging it, insuring it and escorting it as an openly state-run parallel shipping system.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Past the Chip War: Economic Security's Compliance Net Now Reaches Services, Hospitals and Sub-Suppliers",
-          "summary": "Beneath the consensus that economic fragmentation is a cyclical US-China tariff-and-tech fight a trade truce could ease, economic security is being hard-wired into permanent, widening state...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-08",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Managed Trade Returns: How Market Access Became a Negotiated, Conditional Privilege",
-          "summary": "Beneath the tariff-war headlines, the US-led trade order is being rebuilt as 'managed trade': market access is bought with quantitative purchase and investment pledges (more than $5 trillion) and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-07-03",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Tariff coercion broadens and central-bank gold turns; the dollar erodes only at the edges",
-          "summary": "Edition 2. Economic coercion broadens as USTR Section 301 tariffs reach 99.4 percent of US imports and the EU activates its anti-circumvention tool; central-bank gold buying reverses from fading to...",
-          "posture": ""
-        },
-        {
-          "date": "2026-07-01",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Made Where, Exactly: How Rules of Origin Became the New Front in US-China Decoupling",
-          "summary": "Economic fragmentation's binding control point is migrating from tariff rates to the rules-of-origin and content-provenance layer, as US reciprocal-trade agreements and the June 2026 Executive Order...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-24",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two Backstops, Not One: The Quiet Bifurcation of the Global Lender of Last Resort",
-          "summary": "The crisis lender-of-last-resort function is bifurcating into a geopolitically-sorted two-track system, conditionality-light China swaps and Gulf deposits versus a tightening, shrinking IMF and...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-17",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The State as Shareholder: How Ownership Became a Lever of Economic Statecraft",
-          "summary": "Beneath the tariff-and-sanctions story of fragmentation, ownership itself has become an instrument of economic statecraft: the US has joined the Gulf, China and others in taking equity stakes...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-10",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Screening the Outflows: How Outbound Investment Controls Became Fragmentation's Self-Propagating Instrument",
-          "summary": "Beneath the tariff-and-export-control narrative, the newest and most durable frontier of economic fragmentation is the screening of capital that leaves for strategic rivals; in 2026 outbound...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-06-05",
-          "kind": "tracker",
-          "type": "Change Tracker",
-          "title": "Washington reroutes its tariff weapon as the dollar order erodes",
-          "summary": "Inaugural Change Tracker on Geopolitics and Economic Fragmentation. Eight signals: 4 Accelerating (US tariff regime after the IEEPA ruling, sanctions and economic statecraft escalation, alternative...",
-          "posture": ""
-        },
-        {
-          "date": "2026-06-03",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Custody, Not Just Composition: How Gold Repatriation Is Fragmenting the Reserve System",
-          "summary": "Official reserves are migrating out of the dollar-centric vault-and-clearing network, fragmenting the plumbing of the reserve system.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-27",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Third Front: How Global-South Tariffs on China Are Becoming the Durable Layer of Trade Fragmentation",
-          "summary": "A third front in trade fragmentation is opening as Global-South economies impose large tariffs and antidumping duties on Chinese imports.",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-26",
-          "kind": "brief",
-          "type": "Decision Intelligence",
-          "title": "Operating Where Consensus Is Gone",
-          "summary": "The operating environment is one where multi-jurisdictional consensus has broken into co-existing regimes: the same shipment, customer or counterparty now sits inside several rule-making systems at...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-20",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Suspended, Not Repealed: How Mirror Export-Licensing Regimes Became the Durable Instrument of Economic Fragmentation",
-          "summary": "Beneath the US-China tariff truce, economic statecraft has shifted from negotiable tariffs to extraterritorial export licensing; the US and China now run mirror-image control regimes, the late-2025...",
-          "posture": "Prepare"
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Two Stacks, Two Markets",
-          "summary": "The connected-vehicle software stack is being structurally split along bloc lines, separate from the EV, autonomy and MaaS storylines.",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-16",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "Beyond the G20 Fracture",
-          "summary": "Beneath the headline weakening of the UN, G20 and WTO, issue-specific mini-lateral coalitions are quietly becoming the default venue for setting global rules on AI, critical minerals, climate and...",
-          "posture": ""
-        },
-        {
-          "date": "2026-05-15",
-          "kind": "scan",
-          "type": "Signal Scan",
-          "title": "The Institutional Ratchet",
-          "summary": "Across Europe the consensus tracks the far right through elections: including Hungary's April 2026 reversal: but its materially decisive effect is shifting into the institutional layer, where...",
           "posture": ""
         }
       ]

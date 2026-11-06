@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T09:33:04Z",
+  "generated": "2026-11-06T09:37:45Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-11-04-war-exclusion-unattributed-sabotage/scan.html"
     },
     "change_tracker": {
-      "title": "Food prices climb, Arizona joins the water suit, and the EU carbon rulebook reopens",
-      "date": "2026-10-23",
-      "topic": "Climate, Nature & Food Systems",
-      "topic_slug": "climate-nature-food-systems",
+      "title": "Hormuz attacks hit a wartime high as Democrats take Congress and Lula wins",
+      "date": "2026-11-06",
+      "topic": "Geopolitics and Economic Fragmentation",
+      "topic_slug": "geopolitics-economic-fragmentation",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/climate-nature-food-systems/2026-10-23/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-11-06/tracker.html"
     },
     "decision_intelligence": {
       "title": "Europe Will Have to Defend Itself With Tools It Doesn't Control",

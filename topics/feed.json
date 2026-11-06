@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T09:39:43Z",
+  "generated": "2026-11-06T11:09:40Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -752,8 +752,8 @@
     {
       "slug": "climate-nature-food-systems",
       "name": "Climate, Nature & Food Systems",
-      "tagline": "Disaster, decarbonisation and the food on the table.",
-      "description": "Climate policy and carbon pricing after the retreat from consensus, and the mitigation economics behind it: decarbonisation pace, cost and delivery. Climate disasters and extreme weather, and what they do to assets, supply chains and insurability. Biodiversity loss becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing and licence to operate.",
+      "tagline": "Carbon, catastrophe and the food on the table, priced.",
+      "description": "Climate as a line on the balance sheet. Decarbonisation moving from compliance cost to margin: carbon pricing and the policies that reach the value chain, the cost and maturity of the technologies, and the energy-cost gap between regions that now sets industrial competitiveness. Adaptation as a market: what resilience earns, what insurers will still cover, and where new demand forms. Biodiversity becoming a disclosure and finance question, food and agricultural systems under simultaneous climate and trade stress, water as a binding constraint. What it means for strategy, sourcing, cost and licence to operate.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/climate-nature-food-systems/history/",
       "latest_read": "EU national restoration plans become final before the Commission publishes its funding-needs analysis, leaving the cost-bearer open. The analysis waits on the 2028-2034 budget talks.",
@@ -1602,9 +1602,9 @@
     },
     {
       "slug": "energy-infrastructure-climate-resilience",
-      "name": "Energy, Infrastructure & Climate Resilience",
-      "tagline": "The grid, the build-out, and the climate-resilient firm.",
-      "description": "Energy transition under stress, AI's load on the grid, grid-hardware supply chains, hardening critical infrastructure, resilience standards becoming binding. What it means for asset planning, capex and operational risk.",
+      "name": "Energy & Infrastructure",
+      "tagline": "The grid, the build-out, and keeping the lights on.",
+      "description": "Energy transition under stress, AI's load on the grid, grid-hardware supply chains, and the hardening of critical infrastructure as an obligation on the operators who run it, under resilience standards that are becoming binding. What it means for asset planning, capex and operational risk.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/energy-infrastructure-climate-resilience/history/",
       "latest_read": "Both texts delaying the EU methane rule for importers keep the 4 August 2024 contract cut-off, so only the proof date moves. Contracts signed now carry proof duties due in 2029 to 2031.",

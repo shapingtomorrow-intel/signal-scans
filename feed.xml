@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sun, 08 Nov 2026 09:30:28 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 09:30:05 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>FDIC Would End In-House Deposit Insurance Calculation at 31 Banks, Five Holding About $6.8 Trillion</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-11-09-payout-build-moves-to-fdic/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-11-09-payout-build-moves-to-fdic/scan.html</guid>
+<pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+<category>Financial Services &amp; Future of Money</category>
+<description>The FDIC proposes to rescind part 370, moving deposit-insurance payout readiness from 31 banks' own systems to its own. Public evidence that its systems can pay at scale is still missing.</description>
+</item>
+<item>
+<title>Free EU Standards Cost National Bodies Up to EUR 30 Million a Year and Support Is Optional</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-11-09-free-standards-optional-offset/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-11-09-free-standards-optional-offset/scan.html</guid>
+<pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+<category>Regulation, Standards &amp; Policy Change</category>
+<description>Free access to EU harmonised standards could cost national standards bodies up to EUR 30 million a year, while support to offset it is optional. Common specifications give the Commission a fallback if standards run late.</description>
+</item>
 <item>
 <title>Italy Programmes 165,850 Work Places for 2027, but 2025 Work Permits Reached About a Third of the Quota</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-11-08-quota-ceiling-not-flow/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Sat, 10 Oct 2026 08:00:00 +0000</pubDate>
 <category>Workforce, Skills &amp; Organisational Change</category>
 <description>Near-zero US payroll growth now fits a balanced labour market, because the hiring needed to hold unemployment steady is falling toward zero. Immigration and ageing have stopped the labour force growing; Oxford Economics puts the breakeven at zero in 2027.</description>
-</item>
-<item>
-<title>Carriers Dismantle the War Premium They Ask Shippers to Lock In for 2027</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-09-war-premium-unwind/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-10-09-war-premium-unwind/scan.html</guid>
-<pubDate>Fri, 09 Oct 2026 08:00:00 +0000</pubDate>
-<category>Transport, Logistics &amp; Supply Chains</category>
-<description>Container lines are unwinding the war premium while asking shippers to lock it into 2027 contracts. Since May 2026 over 2m TEU has switched back to Suez, and BIMCO forecasts 9% fleet growth for 2027, pointing spot rates below their 28 February 2026 pre-crisis marks during 2027.</description>
-</item>
-<item>
-<title>Europe Counts Shelter Capacity by Designating Basements and Car Parks, Not by Building Shelters</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-07-shelter-capacity-by-designation/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-10-07-shelter-capacity-by-designation/scan.html</guid>
-<pubDate>Wed, 07 Oct 2026 08:00:00 +0000</pubDate>
-<category>Defence, Security &amp; Resilience</category>
-<description>Europe is counting shelter capacity by designating existing basements and car parks, not by building shelters. Poland's 64% coverage and Germany's mapping plan leave upkeep costs and owner duties unsettled.</description>
 </item>
 </channel>
 </rss>

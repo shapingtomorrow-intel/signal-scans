@@ -1,0 +1,497 @@
+[
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Health care added 42,000 jobs in October, higher than the average monthly gain of 31,000 over the prior 12 months.",
+  "verbatim_list": [
+   "Total nonfarm payroll employment rose by 165,000 in October, higher than the average monthly gain of 48,000 over the prior 12 months.",
+   "Total nonfarm payroll employment rose by 165,000 in October, and the unemployment rate changed",
+   "Both the unemployment rate, at 4.1 percent, and the number of unemployed people, at 7.1 million, changed little in October."
+  ],
+  "tier": 1,
+  "publisher": "US Bureau of Labor Statistics",
+  "title": "Employment Situation News Release - 2026 M10 Results",
+  "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+  "publication_date": "2026-11-06",
+  "date_source": "byline",
+  "date_evidence": "8:30 a.m. (ET) Friday, November 6, 2026",
+  "verified_at": "2026-11-12T08:31:17Z",
+  "date_age_band": "0-3m",
+  "cluster": "Births, deaths and a quieter jobs market",
+  "key_claim": "US nonfarm payrolls rose by 165,000 in October 2026; unemployment was 4.1 percent with 7.1 million unemployed; health care added 42,000 jobs against an average monthly gain of 31,000 over the prior 12 months; part-time for economic reasons rose by 339,000 to 4.8 million.",
+  "frame_summary": "A statistical release reporting a strong October payroll gain with health care hiring above its twelve-month pace, offering no causal account of labour supply.",
+  "signals_supported": [
+   "Breakeven hiring falls toward zero",
+   "Care and health workforce shortage",
+   "US net migration turns negative"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "To look through the volatility, the 6-month and 12-month average payroll gains have been closer to 80,000 jobs a month.",
+  "verbatim_list": [
+   "This level is a bit above most estimates of the breakeven level needed to keep the unemployment rate steady",
+   "The unemployment rate ticked down to 4.1 percent in October, the same rate it was over the summer."
+  ],
+  "tier": 1,
+  "publisher": "Federal Reserve Board",
+  "title": "Speech by Governor Waller on the economic outlook: The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+  "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+  "publication_date": "2026-11-10",
+  "date_source": "byline",
+  "date_evidence": "November 10, 2026 The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+  "verified_at": "2026-11-12T01:19:53Z",
+  "date_age_band": "0-3m",
+  "cluster": "Births, deaths and a quieter jobs market",
+  "key_claim": "Governor Waller says six-month and twelve-month average payroll gains are closer to 80,000 a month, a bit above most estimates of the breakeven level needed to keep unemployment steady, with unemployment at 4.1 percent in October.",
+  "frame_summary": "Argues that a labour market that looks stable on the headline numbers is less dynamic than it appears, with low hiring and low firing, and that average job gains only modestly exceed a low breakeven.",
+  "signals_supported": [
+   "Breakeven hiring falls toward zero"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "we expect net migration to be 70,000 lower on average per year",
+  "verbatim_list": null,
+  "tier": 1,
+  "publisher": "Office for Budget Responsibility",
+  "title": "Economic and fiscal outlook, October 2026",
+  "url": "https://assets.publishing.service.gov.uk/media/6ae4a7a9ec36e258a1998484/economic-and-fiscal-outlook-october-2026-web-accessible.pdf",
+  "publication_date": "2026-10-28",
+  "date_source": "pdf:titlepage",
+  "date_evidence": "Presented to Parliament on 28 October 2026",
+  "verified_at": "2026-11-12T01:31:07Z",
+  "date_age_band": "0-3m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "The OBR expects net migration to be 70,000 lower on average per year than in its previous forecast, and judges these migrants would have had broadly the same labour market characteristics as the domestic population.",
+  "frame_summary": "An independent fiscal forecast in which lower UK net migration trims potential output only slightly, because the migrants lost would have resembled the domestic workforce.",
+  "signals_supported": [
+   "European migration restriction tightens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": true,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "For 2026, we project that net immigration will likely range between –925,000 and +185,000.",
+  "verbatim_list": [
+   "Our results suggest that net immigration likely ranged between –295,000 and –10,000 for 2025.",
+   "For 2026, we project net migration is likely to remain in negative territory."
+  ],
+  "tier": 2,
+  "publisher": "Brookings",
+  "title": "Macroeconomic implications of immigration flows in 2025 and 2026: January 2026 update",
+  "url": "https://www.brookings.edu/articles/macroeconomic-implications-of-immigration-flows-in-2025-and-2026-january-2026-update/",
+  "publication_date": "2026-01-13",
+  "date_source": "byline",
+  "date_evidence": "January 13, 2026 (dateline under the author list); meta-article:modified_time: 2026-01-13T16:56:24+00:00",
+  "verified_at": "2026-11-12T01:28:12Z",
+  "date_age_band": "6-12m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "The authors estimate US net migration between minus 295,000 and minus 10,000 in 2025 and project a 2026 range of minus 925,000 to plus 185,000, likely negative.",
+  "frame_summary": "Argues that restrictive policy and enforcement pushed US net migration to near zero or negative in 2025 and will keep it there in 2026, slowing labour force growth, job growth and consumer spending.",
+  "signals_supported": [
+   "US net migration turns negative"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "On July 24, the U.S. Court of Appeals for the First Circuit denied",
+  "verbatim_list": [
+   "The court held that the payment requirement is an unconstitutional tax"
+  ],
+  "tier": 3,
+  "publisher": "Legal 500",
+  "title": "First Circuit Denies Government's Request To Stay Decision Striking Down $100,000 H-1B Fee",
+  "url": "https://www.legal500.com/intelligence/united-states/immigration/first-circuit-denies-governments-request-to-stay-decision-striking-down-100000-h-1b-fee",
+  "publication_date": "2026-07-31",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "ARTICLE · 31 JULY 2026; article:published_time 2026-07-31T01:10:11.000Z",
+  "verified_at": "2026-11-12T01:20:38Z",
+  "date_age_band": "3-6m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "On 24 July the First Circuit denied the government a stay of the district court ruling, which held the $100,000 payment requirement an unconstitutional tax.",
+  "frame_summary": "A law-firm advisory telling employers the $100,000 fee is currently unenforceable but not finally decided.",
+  "signals_supported": [
+   "Six-figure fee on skilled entry"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "faithful_summary",
+  "verbatim_quote": "extending the $100,000 fee payment requirement through September 21, 2027.",
+  "verbatim_list": [
+   "However, the court order blocking collection of the $100,000 fee remains in effect",
+   "As well, on September 30, 2026, another federal court in California also found the rule to be unlawful",
+   "The fee is currently not required."
+  ],
+  "tier": 4,
+  "publisher": "University of Colorado Boulder",
+  "title": "$100,000 H-1B fee: Current status",
+  "url": "https://www.colorado.edu/isss/2026/10/07/100000-h-1b-fee-current-status",
+  "publication_date": "2026-10-07",
+  "date_source": "byline",
+  "date_evidence": "Published:10/7/2026 10/7/2026",
+  "verified_at": "2026-11-12T01:20:44Z",
+  "date_age_band": "0-3m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "The proclamation extends the $100,000 payment requirement through 21 September 2027, but the court order blocking collection remains in effect, and on 30 September 2026 a California federal court also found the rule unlawful; the fee is currently not required.",
+  "frame_summary": "A university advisory office's status note saying the fee is not currently required but could be reinstated.",
+  "signals_supported": [
+   "Six-figure fee on skilled entry"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Miami Jewish Health, meanwhile, cut 120 nursing home beds months ago due to staffing issues",
+  "verbatim_list": [
+   "immigrants making up 21% of workers in nursing facilities and 24% of workers in residential care settings"
+  ],
+  "tier": 3,
+  "publisher": "Skilled Nursing News",
+  "title": "Hobbled: End of Temporary Protected Status for Potentially 1.3M Workers Will Exacerbate Nursing Home Access",
+  "url": "https://skillednursingnews.com/2026/06/hobbled-end-of-temporary-protected-status-for-1-3m-workers-will-exacerbate-nursing-home-access/",
+  "publication_date": "2026-06-26",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "article:published_time 2026-06-26T22:00:00+00:00; By Amy Stulick | June 26, 2026",
+  "verified_at": "2026-11-12T01:20:51Z",
+  "date_age_band": "3-6m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "Immigrants make up 21% of workers in nursing facilities and 24% in residential care settings, per KFF; Miami Jewish Health cut 120 nursing home beds over staffing.",
+  "frame_summary": "Argues that the Supreme Court's TPS ruling will strip nursing homes of experienced immigrant staff and worsen access to care.",
+  "signals_supported": [
+   "Care and health workforce shortage"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "30% of all direct care workers nationwide are immigrants.",
+  "verbatim_list": [
+   "Nearly 350,000 Haitian immigrants lost TPS on Aug. 4."
+  ],
+  "tier": 3,
+  "publisher": "Milwaukee Neighborhood News Service",
+  "title": "Federal immigration policy may be worsening Wisconsin's caregiver shortage, leaders say",
+  "url": "https://milwaukeenns.org/2026/09/29/wisconsin-caregiver-shortage-federal-immigration-policy-home-health-nursing-workers/",
+  "publication_date": "2026-09-29",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "article:published_time 2026-09-29T21:00:00+00:00; September 29, 2026",
+  "verified_at": "2026-11-12T01:20:57Z",
+  "date_age_band": "0-3m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "30% of direct care workers nationwide are immigrants; nearly 350,000 Haitian immigrants lost TPS on 4 August; an estimated 53,000 TPS holders worked in health care in 2024.",
+  "frame_summary": "Local reporting arguing that refugee suspensions and TPS terminations are worsening a caregiver shortage that employers already could not fill.",
+  "signals_supported": [
+   "Care and health workforce shortage"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Over the January-August period, 193,783 babies were born, up 14.5 percent from a year earlier.",
+  "verbatim_list": [
+   "Births up 13% in August to highest in 7 years",
+   "The number of marriages in August fell 1.2 percent from a year earlier to 19,218.",
+   "The rate remains well below the 2.1 births per woman needed to maintain a stable population without immigration."
+  ],
+  "tier": 3,
+  "publisher": "The Korea Times",
+  "title": "Births up 13% in August to highest in 7 years",
+  "url": "https://www.koreatimes.co.kr/southkorea/20261028/births-up-13-in-august-to-highest-in-7-years",
+  "publication_date": "2026-10-28",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "Published Oct 28, 2026 12:33 pm KST; article:published_time 2026-10-28T03:33:02.000Z",
+  "verified_at": "2026-11-12T01:26:33Z",
+  "date_age_band": "0-3m",
+  "cluster": "Births, deaths and a quieter jobs market",
+  "key_claim": "193,783 babies were born in January to August 2026, up 14.5 percent; marriages fell 1.2 percent in August to 19,218; fertility remains well below the 2.1 replacement rate.",
+  "frame_summary": "Presents the birth rebound as driven by more marriages, a larger cohort in their 30s and warmer attitudes to children, while stressing fertility remains far below replacement.",
+  "signals_supported": [
+   "Below-replacement fertility broadens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Monthly births continued an upward trend for 26 consecutive months starting from July 2024.",
+  "verbatim_list": [
+   "August Births Hit 24,000, Highest in 7 Years"
+  ],
+  "tier": 3,
+  "publisher": "SBS News",
+  "title": "August Births Hit 24,000, Highest in 7 Years... Longest Streak of Increases Ever",
+  "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008819186",
+  "publication_date": "2026-10-28",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "Published 2026.10.28 14:52; article:published_time 2026-10-28T14:52:19+09:00",
+  "verified_at": "2026-11-12T01:26:39Z",
+  "date_age_band": "0-3m",
+  "cluster": "Births, deaths and a quieter jobs market",
+  "key_claim": "Monthly births in Korea have risen for 26 consecutive months since July 2024; January to August births grew at the highest rate on record; deaths exceeded births by 6,605 in August.",
+  "frame_summary": "Frames August's births as a record-length streak of increases driven by shifting views of childbirth and a larger cohort in their 30s.",
+  "signals_supported": [
+   "Below-replacement fertility broadens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "added 0.09 over the year to 0.87 in August.",
+  "verbatim_list": null,
+  "tier": 3,
+  "publisher": "China Daily Hong Kong",
+  "title": "S. Korea's August births hit 7-year high amid shifting mindset toward childbirth",
+  "url": "https://www.chinadailyhk.com/article/641865",
+  "publication_date": "2026-10-28",
+  "date_source": "byline",
+  "date_evidence": "Published: 14:34, October 28, 2026",
+  "verified_at": "2026-11-12T01:26:44Z",
+  "date_age_band": "0-3m",
+  "cluster": "Births, deaths and a quieter jobs market",
+  "key_claim": "Korea's monthly total fertility rate rose by 0.09 over the year to 0.87 in August 2026.",
+  "frame_summary": "A Xinhua wire report attributing Korea's rising births to a changing social mindset toward childbirth and more marriages.",
+  "signals_supported": [
+   "Below-replacement fertility broadens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "They may also detain such individuals for longer than 24 months under the conditions established by the regulation.",
+  "verbatim_list": [
+   "Unaccompanied minors are excluded from such return hub arrangements."
+  ],
+  "tier": 3,
+  "publisher": "Anadolu Agency",
+  "title": "EU gives final green light to stricter rules for migrants, return hubs",
+  "url": "https://www.aa.com.tr/en/europe/eu-gives-final-green-light-to-stricter-rules-for-migrants-return-hubs/4075204",
+  "publication_date": "2026-10-01",
+  "date_source": "byline",
+  "date_evidence": "01 October 2026•Update: 01 October 2026",
+  "verified_at": "2026-11-12T01:23:02Z",
+  "date_age_band": "0-3m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "EU member states gave final approval to the Return Regulation, allowing return hubs in third countries by agreement, indefinite entry bans and detention beyond 24 months for security cases; unaccompanied minors are excluded from hubs.",
+  "frame_summary": "A wire report presenting the Council's final approval as a tightening of returns through hubs and security measures, with safeguards attached.",
+  "signals_supported": [
+   "European migration restriction tightens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "According to the EU figure, around two in three people ordered to leave the bloc currently do not actually depart.",
+  "verbatim_list": [
+   "The regulation complements the EU Pact on Migration and Asylum, which took effect on June 12.",
+   "Yet passing a common return law does not guarantee a sharp rise in actual returns."
+  ],
+  "tier": 3,
+  "publisher": "The Star",
+  "title": "News Analysis: EU tightens migration chain as return rules approved",
+  "url": "https://www.thestar.com.my/news/world/2026/10/02/news-analysis-eu-tightens-migration-chain-as-return-rules-approved",
+  "publication_date": "2026-10-02",
+  "date_source": "meta:date",
+  "date_evidence": "Friday, 02 Oct 2026 | 6:28 AM MYT; datePublished 2026-10-02 06:28:00",
+  "verified_at": "2026-11-12T01:31:15Z",
+  "date_age_band": "0-3m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "Around two in three people ordered to leave the EU do not depart; the Return Regulation complements the Pact on Migration and Asylum, in effect since 12 June; a common return law does not guarantee more returns.",
+  "frame_summary": "A Xinhua analysis arguing the Return Regulation tightens enforcement on paper while its effect on actual departures is doubtful and Europe's ageing economies still need migrant workers.",
+  "signals_supported": [
+   "European migration restriction tightens",
+   "Working-age contraction and ageing"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "In 2025, 4.81 million people died in the EU and 3.46 million were born, the 14th consecutive year of natural decline.",
+  "verbatim_list": [
+   "The population rose all the same, to 452 million, carried by net migration of 2.05 million.",
+   "Fertility in the EU fell in 2024 to 1.34 children per woman, the lowest of the series,"
+  ],
+  "tier": 3,
+  "publisher": "Brussels Signal",
+  "title": "Europe is not reproducing, it is being repopulated",
+  "url": "https://brusselssignal.eu/2026/10/europe-is-not-reproducing-it-is-being-repopulated/",
+  "publication_date": "2026-10-13",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-10-13T00:30:49+00:00; 13 October 2026",
+  "verified_at": "2026-11-12T01:28:20Z",
+  "date_age_band": "0-3m",
+  "cluster": "Births, deaths and a quieter jobs market",
+  "key_claim": "In 2025, 4.81 million people died in the EU and 3.46 million were born, the 14th consecutive year of natural decline; the population still rose to 452 million on net migration of 2.05 million; EU fertility fell to 1.34 in 2024, the lowest of the series.",
+  "frame_summary": "An opinion piece arguing that EU population growth now depends entirely on immigration and that migration is substituting for family formation rather than solving low fertility.",
+  "signals_supported": [
+   "Working-age contraction and ageing",
+   "Below-replacement fertility broadens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The OBR expects net migration to fall to 120,000 this year, down from 171,000 in 2025 and 331,000 the year before.",
+  "verbatim_list": null,
+  "tier": 3,
+  "publisher": "UnHerd",
+  "title": "UK net migration set to fall to lowest level since 1997",
+  "url": "https://unherd.com/newsroom/uk-net-migration-set-to-fall-to-lowest-level-since/?edition=us",
+  "publication_date": "2026-10-29",
+  "date_source": "meta:pubdate",
+  "date_evidence": "Oct 29 2026 - 1:30pm; cXenseParse:publishtime 2026-10-29T13:30:40Z",
+  "verified_at": "2026-11-12T01:23:10Z",
+  "date_age_band": "0-3m",
+  "cluster": "Restriction tightens on paper faster than in practice",
+  "key_claim": "The OBR expects UK net migration to fall to 120,000 in 2026, down from 171,000 in 2025 and 331,000 the year before; it peaked at 924,000 in 2023.",
+  "frame_summary": "A news piece presenting the OBR forecast as the lowest UK net migration since 1997, set against tighter visa and settlement rules, with a rise forecast later.",
+  "signals_supported": [
+   "European migration restriction tightens"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Those targets for 2027 and 2028 are the same as they were in the plan released last year.",
+  "verbatim_list": [
+   "will admit 380,000 permanent residents and 370,000 temporary residents each year",
+   "Canada could add more than 600,000 new permanent residents next year"
+  ],
+  "tier": 3,
+  "publisher": "BNN Bloomberg",
+  "title": "Ottawa to shift more temporary residents to permanent status as broad levels flatten",
+  "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/05/ottawa-to-shift-more-temporary-residents-to-permanent-status-as-broad-levels-flatten/",
+  "publication_date": "2026-11-05",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "Published: November 05, 2026 at 4:15p.m. EST; article:published_time 2026-11-05T21:15:44.341Z",
+  "verified_at": "2026-11-12T01:31:22Z",
+  "date_age_band": "0-3m",
+  "cluster": "Intake is held flat and reshuffled inside",
+  "key_claim": "Canada will admit 380,000 permanent and 370,000 temporary residents a year, the same 2027 and 2028 targets as last year's plan, while more than 600,000 new permanent residents could be added next year by converting temporary residents.",
+  "frame_summary": "Reports that Canada keeps its headline admission targets while moving temporary residents to permanent status, noting critics who say the target is being gamed.",
+  "signals_supported": [
+   "Temporary residents moved to permanent status"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The Plan maintains overall permanent resident admissions at 380,000 per year, within a range of 352,500 to 422,000.",
+  "verbatim_list": null,
+  "tier": 4,
+  "publisher": "MLT Aikins",
+  "title": "Federal Government announces its 2027-2029 Immigration Levels Plan",
+  "url": "https://www.mltaikins.com/insights/federal-government-announces-its-immigration-levels-plan/",
+  "publication_date": "2026-11-10",
+  "date_source": "byline",
+  "date_evidence": "November 10, 2026 (dateline under the headline); meta-article:modified_time 2026-11-10T21:23:15+00:00",
+  "verified_at": "2026-11-12T01:23:17Z",
+  "date_age_band": "0-3m",
+  "cluster": "Intake is held flat and reshuffled inside",
+  "key_claim": "The 2027-2029 plan keeps permanent resident admissions at 380,000 a year within a range of 352,500 to 422,000; the 2028 and 2029 targets are notional until 1 November 2027.",
+  "frame_summary": "A law-firm client alert summarising the plan neutrally for employers, stressing steady temporary limits and new in-Canada routes to permanent residence.",
+  "signals_supported": [
+   "Temporary residents moved to permanent status"
+  ]
+ },
+ {
+  "topic": "Demographics, Migration and Labour Markets",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The reallocation would raise the Type 1 cap for nursing care, but would not increase the overall care-worker ceiling.",
+  "verbatim_list": [
+   "Japan to Shift 20,000 Care-Worker Slots From Training Program to Specified Skilled Worker (i) Cap",
+   "About 80,000 people held the care-sector status at the end of July 2026, preliminary figures showed.",
+   "The change would take effect in April 2027, alongside the launch of the new status, if the Cabinet approves it in December."
+  ],
+  "tier": 3,
+  "publisher": "VisaVerge",
+  "title": "Japan to Shift 20,000 Care-Worker Slots From Training Program to Specified Skilled Worker (i) Cap",
+  "url": "https://www.visaverge.com/transfer/japan-to-shift-20000-care-worker-slots-from-training-program-to-specified-skilled-worker-i-cap/",
+  "publication_date": "2026-10-20",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "Oct 20, 2026 · 4 min read; article:published_time 2026-10-20T14:05:01-04:00",
+  "verified_at": "2026-11-12T01:31:29Z",
+  "date_age_band": "0-3m",
+  "cluster": "Intake is held flat and reshuffled inside",
+  "key_claim": "Japan proposed moving 20,000 care-worker slots into the Specified Skilled Worker (i) cap, raising the nursing-care cap without increasing the overall care-worker ceiling, effective April 2027 if the Cabinet approves in December; about 80,000 people held the care status at end July 2026.",
+  "frame_summary": "Argues that the care-slot reallocation is a stopgap that lifts one cap inside an unchanged ceiling, which critics read as a planning error rather than a wider opening.",
+  "signals_supported": [
+   "Asian economies open to foreign labour"
+  ]
+ }
+]

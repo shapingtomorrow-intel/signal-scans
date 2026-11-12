@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/trends/</link>
 <description>Momentum scans from the Shaping Tomorrow horizon. Each Change Tracker reads across the recent evidence on one topic, labelling the signals beneath it as Accelerating, Stable or Fading, and surfacing the wild cards worth watching.</description>
 <language>en-gb</language>
-<lastBuildDate>Wed, 11 Nov 2026 09:34:38 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 09:34:32 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/trends/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>The distance premium unwinds; new cost floors form on land</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/transport-logistics-supply-chains/2026-11-12/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/transport-logistics-supply-chains/2026-11-12/tracker.html</guid>
+<pubDate>Thu, 12 Nov 2026 08:00:00 +0000</pubDate>
+<category>Transport, Logistics &amp; Supply Chains</category>
+<description>Second Change Tracker on Transport, Logistics &amp; Supply Chains. Ten signals: 4 Accelerating (Suez rebuild releases capacity, orderbook hits the water, US truckload repricing on supply, CORSIA's credit squeeze), 6 Stable and none Fading. One new signal (US truckload repricing on supply), one exit (nearshoring's greenfield wave recedes), three cooled a stage. Three wild cards, including a new one on the Port of Santos cyberattack. Sources in four languages: English, Dutch (Port...</description>
+</item>
+<item>
+<title>EU return law lands while US courts keep the six-figure skilled-entry fee blocked</title>
+<link>https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-11-12/tracker.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/demographics-migration-labour-markets/2026-11-12/tracker.html</guid>
+<pubDate>Thu, 12 Nov 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration and Labour Markets</category>
+<description>Sixth Change Tracker on Demographics, Migration and Labour Markets. Nine signals: 2 Accelerating (European migration restriction, temporary residents moved to permanent status), 5 Stable (US net migration, care and health workforce shortage, below-replacement fertility, working-age contraction and ageing, breakeven hiring), 2 Fading (six-figure fee on skilled entry, Asian economies opening to foreign labour). One signal is new (temporary residents moved to permanent status)...</description>
+</item>
 <item>
 <title>Eastern flank attacks reach 17 in a month as the US posture options fall due</title>
 <link>https://decision-intel.shapingtomorrow.com/trends/defence-security-resilience/2026-11-06/tracker.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Fri, 19 Jun 2026 08:00:00 +0000</pubDate>
 <category>Regulation, Standards and Policy Change</category>
 <description>Inaugural cycle. The dominant movement is a simplification turn in Europe: the AI Act's high-risk duties are deferred to 2027-2028, the Omnibus I sustainability rollback is in force, and a Digital Omnibus would lighten GDPR. Underneath, multilateral rulebooks splinter into national tracks as the US builds its own stablecoin (GENIUS), tax (Pillar Two carve-out) and AI-preemption rules. Voluntary standards (ISO/IEC 42001, the ISSB disclosures) hold steady as the working...</description>
-</item>
-<item>
-<title>Bank clearing layer for tokenised deposits arrives as the digital euro nears a vote</title>
-<link>https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-06-18/tracker.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-06-18/tracker.html</guid>
-<pubDate>Thu, 18 Jun 2026 08:00:00 +0000</pubDate>
-<category>Financial Services and the Future of Money</category>
-<description>Cycle 2. A shared interbank clearing layer for tokenised deposits, a cycle-one wild card, becomes a live programme via The Clearing House; cross-border tokenised settlement and tokenised funds keep advancing; the retail digital euro moves from Stable to Accelerating ahead of a committee vote; the stablecoin deposit-flight evidence stays contested.</description>
-</item>
-<item>
-<title>Tariff and pricing shocks accelerate; pandemic governance stalls</title>
-<link>https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-06-12/tracker.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/trends/health-life-sciences-care-systems/2026-06-12/tracker.html</guid>
-<pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
-<category>Health, Life Sciences and Care Systems</category>
-<description>Inaugural cycle. The momentum sits in policy and trade: a US Section 232 pharmaceutical tariff and most-favored-nation pricing regime, the EU Critical Medicines Act and a Medicare GLP-1 access push lead the accelerators, while multilateral pandemic-preparedness governance fades as the WHO pathogen-sharing annex slips to 2027 and the antibiotic pipeline keeps thinning.</description>
 </item>
 </channel>
 </rss>

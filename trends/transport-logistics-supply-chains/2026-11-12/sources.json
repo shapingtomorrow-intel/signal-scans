@@ -1,0 +1,603 @@
+[
+ {
+  "tier": 1,
+  "publisher": "Office of the United States Trade Representative",
+  "title": "Request for Comments on Further Suspension of Section 301 Action: China's Targeting of the Maritime, Logistics, and Shipbuilding Sectors for Dominance",
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/html/2026-21755.htm",
+  "publication_date": "2026-10-26",
+  "date_source": "byline",
+  "date_evidence": "Federal Register Volume 91, Number 205 (Monday, October 26, 2026)",
+  "date_age_band": "0-3m",
+  "key_claim": "USTR proposed suspending the Section 301 maritime fees from 12:00 a.m. ET on 10 November 2026 through 11:59 p.m. ET on 9 January 2027.",
+  "frame_summary": "Presents the further suspension as space for continued negotiation with China rather than a retreat from the Section 301 action.",
+  "signals_supported": [
+   "US-China port-fee truce expiry"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T00:58:41Z",
+  "verbatim_quote": "suspend the responsive actions from 12:00 a.m. Eastern Time on November 10, 2026",
+  "verbatim_list": [
+   "through 11:59 p.m. Eastern Time on January 9, 2027"
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "gCaptain",
+  "title": "U.S. Formalizes Two-Month Extension of China Ship Port Fee Suspension",
+  "url": "https://gcaptain.com/u-s-formalizes-two-month-extension-of-china-ship-port-fee-suspension/",
+  "publication_date": "2026-11-10",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-11-10T12:47:24-08:00",
+  "date_age_band": "0-3m",
+  "key_claim": "USTR formalised the two-month extension of the port-fee suspension, so the fees could return on 10 January 2027.",
+  "frame_summary": "Frames the extension as a temporary pause tied to ongoing US-China talks, with the fees primed to return in January.",
+  "signals_supported": [
+   "US-China port-fee truce expiry"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T00:58:52Z",
+  "verbatim_quote": "extends the suspension through 11:59 p.m. Eastern Time on January 9, 2027",
+  "verbatim_list": [
+   "shipping companies will not accrue liability for or be required to pay the maritime transport fees"
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "Cyprus Mail",
+  "title": "Gulf oil faces costly new reality as Iran war drags on",
+  "url": "https://cyprus-mail.com/2026/11/11/gulf-oil-faces-costly-new-reality-as-iran-war-drags-on",
+  "publication_date": "2026-11-11",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-11-11T09:00:00.000Z",
+  "date_age_band": "0-3m",
+  "key_claim": "IMO tracking shows 131 confirmed incidents near Hormuz since the war began, 35 of them in October, the highest monthly total, while freight and insurance costs stay about 10 times pre-war and investors discount another major escalation.",
+  "frame_summary": "Argues Gulf producers have adapted to a costly no-war, no-peace reality in which exports flow but shipping and insurance costs stay elevated.",
+  "signals_supported": [
+   "Hormuz attacks reprice Gulf shipping"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T00:59:05Z",
+  "verbatim_quote": "The number rose sharply to 35 in October, the highest monthly total during the conflict.",
+  "verbatim_list": [
+   "The International Maritime Organization tracked 131 confirmed incidents near the narrow waterway",
+   "Freight and insurance costs remain about 10 times pre-war levels.",
+   "Traffic through the Strait of Hormuz has averaged 10.5 million barrels per day (bpd) since the start of October",
+   "as investors increasingly discount another major escalation in the US-Iran conflict",
+   "fell below $90 a barrel on Tuesday for the first time since late August"
+  ],
+  "bib_title": "Gulf oil faces costly new reality as Iran war drags on (Reuters wire)"
+ },
+ {
+  "tier": 3,
+  "publisher": "Al Jazeera",
+  "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+  "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack",
+  "publication_date": "2026-11-05",
+  "date_source": "meta:pubdate",
+  "date_evidence": "meta-publishedDate: 2026-11-05T18:47:10",
+  "date_age_band": "0-3m",
+  "key_claim": "Iranian forces said at least five tankers were damaged in the strait in early November, with attacks still running close to a record pace.",
+  "frame_summary": "Reports Iranian claims of fresh tanker strikes as a warning that shipping stays in peril while the war is unresolved.",
+  "signals_supported": [
+   "Hormuz attacks reprice Gulf shipping"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T00:59:18Z",
+  "verbatim_quote": "Attacks on tankers in the Gulf are still running close to a record pace.",
+  "verbatim_list": [
+   "At least five tankers have been damaged in the Strait of Hormuz, Iranian forces said",
+   "which normally carries about one-fifth of global oil consumption"
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "WorldCargo News",
+  "title": "BIMCO: Faster fleet growth could weaken container shipping market in 2027",
+  "url": "https://www.worldcargonews.com/news/2026/09/bimco-faster-fleet-growth-could-weaken-container-shipping-market-in-2027/",
+  "publication_date": "2026-09-24",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-09-24T06:30:31+00:00",
+  "date_age_band": "0-3m",
+  "key_claim": "BIMCO expects fleet capacity, already 34m TEU, to grow 4.6% in 2026 and 9% in 2027 against an orderbook above 14m TEU, 42% of the fleet, with full Suez normalisation cutting ship demand growth by about five percentage points.",
+  "frame_summary": "Argues the market stays strong in 2026 but accelerating fleet growth and a Suez return could weaken the supply-demand balance in 2027.",
+  "signals_supported": [
+   "Orderbook hits the water",
+   "Suez rebuild releases capacity"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T00:59:31Z",
+  "verbatim_quote": "the container ship order book now exceeds 14m TEU, equivalent to 42% of the existing fleet",
+  "verbatim_list": [
+   "Fleet capacity has already reached 34m TEU and is forecast to grow by 4.6% in 2026 and 9% in 2027",
+   "ship demand growth could end five percentage points lower than forecast",
+   "Global container volumes grew 5.1% year-on-year in the first seven months of 2026."
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "Daily Cargo News",
+  "title": "World Container Index - 5 November 2026",
+  "url": "https://www.thedcn.com.au/news/world-container-index-5-november-2026",
+  "publication_date": "2026-11-06",
+  "date_source": "byline",
+  "date_evidence": "06 Nov, 2026",
+  "date_age_band": "0-3m",
+  "key_claim": "The Drewry WCI fell 1% to $4,389 per 40ft, with Shanghai-Rotterdam down 2% to $3,615, 60% of Asia-Europe capacity now routing via Suez and blank sailings easing from five to three.",
+  "frame_summary": "Frames the East-West spot market as under pressure from returning Suez capacity and weak demand, with Hormuz and a possible US West Coast strike the live upside risks.",
+  "signals_supported": [
+   "Orderbook hits the water",
+   "Suez rebuild releases capacity"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:11:22Z",
+  "verbatim_quote": "THE DREWRY World Container Index (WCI), decreased 1% to $4,389 per 40ft container this week.",
+  "verbatim_list": [
+   "rates from Shanghai to Rotterdam decreased 2% to $3,615 per 40ft container",
+   "60% of Asia-Europe capacity now using the Suez Canal route",
+   "three blank sailings have been announced for next week, down from five this week"
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "EnterpriseAM Egypt",
+  "title": "Evergreen sends its first ship through Suez Canal in nearly three years as canal receipts pick up steam",
+  "url": "https://enterpriseam.com/egypt/2026/11/10/evergreen-sends-its-first-ship-through-suez-canal-in-nearly-three-years-as-canal-receipts-pick-up-steam/",
+  "publication_date": "2026-11-10",
+  "date_source": "byline",
+  "date_evidence": "10 November 2026",
+  "date_age_band": "0-3m",
+  "key_claim": "Evergreen returned to the canal on 8 November with the 16.6k TEU Ever Eon per an SCA statement, as October receipts rose 94% year on year to USD 724 mn, the highest monthly level since the Red Sea crisis began.",
+  "frame_summary": "Argues Evergreen's return and accelerating toll receipts are repairing the Suez Canal Authority's multi-year revenue loss.",
+  "signals_supported": [
+   "Suez rebuild releases capacity"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:02:44Z",
+  "verbatim_quote": "October receipts rose 94% y-o-y to USD 724 mn, the highest monthly level since the Red Sea crisis began.",
+  "verbatim_list": [
+   "The line marked its return on Sunday, 8 November with the transit of the 16.6k TEU mega container vessel Ever Eon",
+   "While toll receipts bounced back 18.5% to USD 2 bn in 1H FY 2025/26",
+   "as well as selective service resumptions by CMA CGM, MSC, and COSCO."
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "SupplyChainBrain",
+  "title": "Ocean Traffic Returns to Near-Normal through Red Sea",
+  "url": "https://www.supplychainbrain.com/logistics/ocean-transportation/article/16425057/ocean-traffic-returns-to-nearnormal-through-red-sea",
+  "publication_date": "2026-11-10",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-11-10T15:50:47.000Z",
+  "date_age_band": "0-3m",
+  "key_claim": "Almost all major carriers have resumed Asia-Europe routes through the Red Sea, with Suez traffic back to around two-thirds of pre-crisis volume and only Zim still avoiding the route.",
+  "frame_summary": "Argues the Red Sea return is effectively complete and has been gradual enough not to congest ports, though Houthi risk remains.",
+  "signals_supported": [
+   "Suez rebuild releases capacity"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:02:58Z",
+  "verbatim_quote": "traffic via the Suez Canal is back to around two-thirds of its volume",
+  "verbatim_list": [
+   "Almost all major carriers have resumed Asia-Europe routes through the Red Sea",
+   "The only remaining container carrier avoiding the Red Sea route is Israel-owned Zim"
+  ]
+ },
+ {
+  "tier": 1,
+  "publisher": "Port of Rotterdam Authority",
+  "title": "Overslag haven Rotterdam stijgt met 0,9% in eerste negen maanden",
+  "url": "https://www.portofrotterdam.com/nl/nieuws-en-persberichten/overslag-haven-rotterdam-stijgt-met-09-eerste-negen-maanden",
+  "publication_date": "2026-10-16",
+  "date_source": "byline",
+  "date_evidence": "16 oktober 2026",
+  "date_age_band": "0-3m",
+  "key_claim": "Nine-month throughput rose 0.9% to 323.2 million tonnes while transhipment fell 20% on persistently constrained deep-sea terminal capacity, pushing cargo to other ports.",
+  "frame_summary": "The port authority presents a resilient nine months while arguing that terminal capacity constraints are moving cargo to other ports and that road, water and rail investment must continue.",
+  "signals_supported": [
+   "Rotterdam's container capacity ceiling"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "nl",
+  "verified_at": "2026-11-12T01:04:02Z",
+  "verbatim_quote": "De transhipment-overslag daalde daarentegen met 20%.",
+  "verbatim_list": [
+   "De overslag in de haven van Rotterdam is in de eerste negen maanden van 2026 gestegen met 0,9%",
+   "De totale overslag kwam daarmee uit op 323,2 miljoen ton.",
+   "Door de aanhoudend beperkte capaciteit bij deepsea-terminals in Rotterdam"
+  ],
+  "bib_title": "Rotterdam port throughput up 0.9% in the first nine months"
+ },
+ {
+  "tier": 1,
+  "publisher": "National Development and Reform Commission",
+  "title": "中欧班列开行突破14万列累计发送货值超5600亿美元",
+  "url": "https://www.ndrc.gov.cn/fggz/202610/t20261022_1408304.html",
+  "publication_date": "2026-10-22",
+  "date_source": "meta:date",
+  "date_evidence": "meta PubDate: 2026-10-22 13:03:44",
+  "date_age_band": "0-3m",
+  "key_claim": "Cumulative China-Europe Railway Express trips passed 140,000 on 22 October, with the six border ports handing over an average 51.2 trains a day this year, up 12.8% year on year, on 96 scheduled 120 km/h routes.",
+  "frame_summary": "A ministry item presenting the milestone as proof of the corridor's quality, efficiency and near-complete European coverage under the Belt and Road.",
+  "signals_supported": [
+   "China-Europe rail as priced hedge"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "zh",
+  "verified_at": "2026-11-12T01:04:15Z",
+  "verbatim_quote": "今年以来六大口岸日均交出51.2列，同比增长12.8%",
+  "verbatim_list": [
+   "累计开行突破14万列、发送货值超5600亿美元",
+   "时速120公里中欧班列图定线路已达96条，联通132个国内城市"
+  ],
+  "bib_title": "China-Europe Railway Express passes 140,000 cumulative trips with over USD 560 billion of goods carried"
+ },
+ {
+  "tier": 3,
+  "publisher": "People's Daily Online",
+  "title": "China-Europe freight train service tops 140,000 trips",
+  "url": "https://en.people.cn/n3/2026/1022/c90000-20511368.html",
+  "publication_date": "2026-10-22",
+  "date_source": "meta:date",
+  "date_evidence": "meta-publishdate: 2026-10-22",
+  "date_age_band": "0-3m",
+  "key_claim": "The service's cumulative trips topped 140,000 on 22 October, carrying goods worth over 560 billion US dollars since 2011, with annual trips up from 1,702 in 2016 to 20,022 in 2025.",
+  "frame_summary": "A Xinhua wire story marking the 140,000-trip milestone as a flagship Belt and Road achievement.",
+  "signals_supported": [
+   "China-Europe rail as priced hedge"
+  ],
+  "cluster": "The capacity cycle turns",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:04:27Z",
+  "verbatim_quote": "bringing the service's cumulative trips to top 140,000",
+  "verbatim_list": [
+   "transporting goods worth over 560 billion U.S. dollars since 2011",
+   "Annual trips rose from 1,702 in 2016 to 20,022 in 2025"
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "The Maritime Executive",
+  "title": "IMO Concludes Next Round of Net-Zero Discussions Still Divided",
+  "url": "https://maritime-executive.com/article/imo-concludes-next-round-of-net-zero-discussions-still-divided",
+  "publication_date": "2026-09-04",
+  "date_source": "byline",
+  "date_evidence": "By The Maritime Executive 2026-09-04 16:02:49",
+  "date_age_band": "0-3m",
+  "key_claim": "The September working group ended still divided, with the intersessional group reconvening 23 November, MEPC 85 running 30 November to 4 December and the extraordinary adoption session resuming 4 December, while observers count at least two-thirds of states supporting central pricing.",
+  "frame_summary": "Argues the net-zero talks remain deadlocked despite a more constructive tone, with the key design questions deferred to the November and December sessions.",
+  "signals_supported": [
+   "Shipping's carbon price December vote"
+  ],
+  "cluster": "Rulebooks and robots reset costs",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:08:11Z",
+  "verbatim_quote": "the intersessional working group to reconvene November 23 for a week of discussions",
+  "verbatim_list": [
+   "MEPC 85 runs from November 30 to December 4",
+   "the United States and others continued their opposition to the Net Zero Framework",
+   "at least two-thirds of the states are supporting"
+  ]
+ },
+ {
+  "tier": 2,
+  "publisher": "Carbon Brief",
+  "title": "Q&A: How countries got the global 'net-zero' shipping deal 'back on track'",
+  "url": "https://www.carbonbrief.org/qa-how-countries-got-the-global-net-zero-shipping-deal-back-on-track",
+  "publication_date": "2026-05-05",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-05-05T07:55:20+00:00",
+  "date_age_band": "6-12m",
+  "key_claim": "The framework survived MEPC 84 and adoption moves to the December 2026 meeting; the agreed text prices compliance deficits at $380 per tier-two and $100 per tier-one remedial unit, after 80% of eligible voters backed it in April 2025.",
+  "frame_summary": "Argues the net-zero framework was back on track after MEPC 84 despite US and petrostate opposition, with adoption deferred to December.",
+  "signals_supported": [
+   "Shipping's carbon price December vote"
+  ],
+  "cluster": "Rulebooks and robots reset costs",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": true,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:08:24Z",
+  "verbatim_quote": "The framework survived the negotiations and the committee will now try to adopt it at its December 2026 meeting.",
+  "verbatim_list": [
+   "purchase “remedial units” for $380 per “tier two” unit",
+   "at the lower rate of $100 per “tier one” unit",
+   "A clear majority of 80% of the eligible voters"
+  ],
+  "bib_title": "Q&A: how countries got the global net-zero shipping deal back on track"
+ },
+ {
+  "tier": 3,
+  "publisher": "Global Banking & Finance Review",
+  "title": "First global airline emissions scheme faces 'a litmus test' as credits run short",
+  "url": "https://www.globalbankingandfinance.com/first-global-airline-emissions-scheme-faces-litmus-test/",
+  "publication_date": "2026-11-10",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-11-10T13:10:49.000Z",
+  "date_age_band": "0-3m",
+  "key_claim": "CORSIA's first phase is expected to create demand for credits covering up to 200 million tonnes, but currently authorised supply would cover a quarter of demand at most, with only 11 countries positioned to supply and compliance purchases due by the end of January 2028.",
+  "frame_summary": "A Reuters report arguing CORSIA's first mandatory phase may fail to settle because too few eligible credits exist, making next year a litmus test for the scheme.",
+  "signals_supported": [
+   "CORSIA's credit squeeze"
+  ],
+  "cluster": "Rulebooks and robots reset costs",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:08:37Z",
+  "verbatim_quote": "The first phase is expected to create demand for credits to cover up to 200 million metric tons of carbon",
+  "verbatim_list": [
+   "would supply a quarter of demand at the most",
+   "only 11 countries were in a position to supply credits to CORSIA.",
+   "Airlines under the jurisdiction of the signatory countries will have to buy credits by the end of January 2028",
+   "Around 130 countries have signed up to a broad mandatory phase 1 of CORSIA from January 2024",
+   "compliance could cost airlines $3.6 to $9 billion"
+  ],
+  "bib_title": "First global airline emissions scheme faces a litmus test as credits run short (Reuters wire)"
+ },
+ {
+  "tier": 3,
+  "publisher": "DC Velocity",
+  "title": "Aurora says its technology will guide 200 driverless trucks by end of 2026",
+  "url": "https://www.dcvelocity.com/transportation/trucking/autonomous-trucks/aurora-says-its-technology-will-guide-200-driverless-trucks-by-end-of-2026",
+  "publication_date": "2026-09-23",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-09-23T17:48:54+00:00",
+  "date_age_band": "0-3m",
+  "key_claim": "Aurora has completed over 500,000 driverless miles since commercial launch, plans to finish 2026 with 200 driverless trucks in operation, and Hirschbach Motor Lines intends to own and operate 500 trucks.",
+  "frame_summary": "A trade-press item reporting Aurora's own scale targets and customer growth as company claims.",
+  "signals_supported": [
+   "Driverless trucks run commercial networks"
+  ],
+  "cluster": "Rulebooks and robots reset costs",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:14:40Z",
+  "verbatim_quote": "has safely completed over 500,000 driverless miles since commercial launch",
+  "verbatim_list": [
+   "says it plans to finish 2026 with 200 driverless trucks in operation",
+   "plans to scale up their autonomous fleet with the intent to own and operate 500 trucks"
+  ]
+ },
+ {
+  "tier": 4,
+  "publisher": "Aurora Innovation",
+  "title": "Aurora Announces Third Quarter 2026 Results",
+  "url": "https://ir.aurora.tech/news-events/press-releases/detail/155/aurora-announces-third-quarter-2026-results",
+  "publication_date": "2026-10-28",
+  "date_source": "meta:pubdate",
+  "date_evidence": "meta-published_time: 2026-10-28 (visible: October 28, 2026 4:15pm EDT)",
+  "date_age_band": "0-3m",
+  "key_claim": "Aurora expects to reach a production rate of 20 trucks per week in early December, building toward annualized capacity of more than 1,000 trucks, with Charger Logistics signing a non-binding MOU to own and operate 500 Aurora Driver-powered trucks.",
+  "frame_summary": "Presents the third quarter as a commercial inflection point, emphasising the production ramp and customer commitments.",
+  "signals_supported": [
+   "Driverless trucks run commercial networks"
+  ],
+  "cluster": "Rulebooks and robots reset costs",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": true,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:14:52Z",
+  "verbatim_quote": "expects to reach 20 trucks per week in early December, with room to scale further.",
+  "verbatim_list": [
+   "to own and operate 500 Aurora Driver-powered trucks",
+   "building toward an annualized capacity of more than 1,000 trucks"
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "FreightWaves",
+  "title": "TL linehaul rates up 10% in September, shipment counts remain positive",
+  "url": "https://www.freightwaves.com/news/cass-tl-linehaul-rates-up-10-in-september-shipment-counts-remain-positive",
+  "publication_date": "2026-10-13",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-10-13T15:03:35+00:00",
+  "date_age_band": "0-3m",
+  "key_claim": "The Cass truckload linehaul index rose 10.1% year over year in September, the 21st straight month of growth and the highest absolute reading in four years, while Cass shipments rose 1.9% year over year.",
+  "frame_summary": "Presents a continued surge in truckload contract rates against only modestly improving demand, attributing the tightness to capacity leaving the market.",
+  "signals_supported": [
+   "US truckload repricing on supply"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-11-12T01:15:03Z",
+  "verbatim_quote": "increased 10.1% year over year",
+  "verbatim_list": [
+   "September marked the 21st straight month of y/y growth",
+   "Freight shipments recorded by Cass increased 1.9% y/y in September.",
+   "The dataset was up 0.6% from August to the highest absolute reading in four years.",
+   "September data from Cass highlights a continued surge in TL contract rates, with only modestly improving demand."
+  ]
+ },
+ {
+  "tier": 3,
+  "publisher": "Poder Naval",
+  "title": "Porto de Santos cria gabinete de crise após ataque hacker e busca recuperar sistemas até sexta-feira",
+  "url": "https://www.naval.com.br/blog/2026/11/11/porto-de-santos-cria-gabinete-de-crise-apos-ataque-hacker-e-busca-recuperar-sistemas-ate-sexta-feira/",
+  "publication_date": "2026-11-11",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-11-11T19:00:56+00:00",
+  "date_age_band": "0-3m",
+  "key_claim": "A cyberattack has kept Port of Santos administrative systems down since 6 November; a crisis office was formalised on 10 November, the Federal Police opened an inquiry, restoration is targeted for 13 November, and ship operations continue normally.",
+  "frame_summary": "Reports the port authority's crisis response, stressing that operations continue while the attack's scope and any data impact remain unknown.",
+  "signals_supported": [
+   "Wild card: a port cyberattack stops a gateway"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "pt",
+  "verified_at": "2026-11-12T01:15:16Z",
+  "verbatim_quote": "a expectativa é restabelecer as plataformas até sexta-feira, 13 de novembro",
+  "verbatim_list": [
+   "As falhas começaram na sexta-feira (6), após uma interrupção no fornecimento de energia.",
+   "O gabinete de crise foi formalizado por portaria assinada em 10 de novembro, com efeitos desde o dia 7.",
+   "A Polícia Federal abriu inquérito na terça-feira (10) para investigar o caso.",
+   "as operações seguem normalmente e que não há risco de paralisação."
+  ],
+  "bib_title": "Port of Santos sets up crisis office after hacker attack, aims to restore systems by Friday"
+ },
+ {
+  "tier": 2,
+  "publisher": "USNI News",
+  "title": "October Sees Near Daily Strikes on Ships in Hormuz",
+  "bib_title": "October sees near daily strikes on ships in Hormuz",
+  "url": "https://news.usni.org/2026/10/09/october-sees-near-daily-strikes-on-ships-in-hormuz",
+  "publication_date": "2026-10-09",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta-article:published_time: 2026-10-09T20:09:18+00:00",
+  "date_age_band": "0-3m",
+  "key_claim": "A ship has been struck in the Strait of Hormuz nearly every day in October; nine ships, mostly crude tankers, were hit between 1 and 6 October, the week to 7 October saw 12 attacks, the highest weekly total of the war, while Lloyd's List Intelligence counted 143 transits in the same week and September's 477 non-Iranian transits were the highest since the conflict began.",
+  "frame_summary": "Argues that the strike-and-shuttle pattern now moving near pre-war oil volumes through a contested strait is not a sustainable new normal, against official claims that the strait is effectively open.",
+  "signals_supported": [
+   "Hormuz attacks reprice Gulf shipping"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "verbatim_quote": "A ship has been struck in the Strait of Hormuz nearly every day this month",
+  "verbatim_list": [
+   "A ship has been struck in the Strait of Hormuz nearly every day this month",
+   "there were 12 attacks, the highest weekly total since the war",
+   "143 total transits between Sept. 28 and Wednesday, up three over the previous week"
+  ],
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-10-15T06:24:58Z"
+ },
+ {
+  "tier": 2,
+  "publisher": "S&P Global Commodity Insights",
+  "title": "Middle East shipping insurance costs rise on Hormuz risks: Marsh",
+  "bib_title": "Middle East shipping insurance costs rise on Hormuz risks, Marsh says",
+  "url": "https://www.spglobal.com/energy/en/news-research/latest-news/shipping/072226-middle-east-shipping-insurance-costs-rise-on-hormuz-risks-marsh",
+  "publication_date": "2026-07-22",
+  "date_source": "byline",
+  "date_evidence": "Page dateline 22/07/2026-16:22:49",
+  "date_age_band": "3-6m",
+  "key_claim": "Marsh reported Hormuz war-risk premiums jumping from 1%-3% of hull value to 7.5%-10% in weeks; the IMO recorded eight ships hit between 13 and 20 July; Hormuz handled over 130 daily transits before the war began on 28 February and saw 10 on 21 July.",
+  "frame_summary": "Argues that insurance capacity, not physical blockage, is becoming the binding constraint on Gulf shipping, with underwriters pulling in their horns faster than transits fall.",
+  "signals_supported": [
+   "Hormuz attacks reprice Gulf shipping"
+  ],
+  "cluster": "War and fees keep the cost floor",
+  "claim_strength": "verbatim",
+  "verbatim_quote": "jumped from 1%-3% of hull value weeks ago to 7.5%-10% currently",
+  "topic": "Transport, Logistics & Supply Chains",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "original_language": "en",
+  "verified_at": "2026-10-15T06:28:30Z"
+ }
+]

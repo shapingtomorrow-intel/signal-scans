@@ -21,7 +21,7 @@
   "date_evidence": "8:30 a.m. (ET) Friday, November 6, 2026",
   "verified_at": "2026-11-12T08:31:17Z",
   "date_age_band": "0-3m",
-  "cluster": "Births, deaths and a quieter jobs market",
+  "cluster": "Births, deaths and the US jobs market",
   "key_claim": "US nonfarm payrolls rose by 165,000 in October 2026; unemployment was 4.1 percent with 7.1 million unemployed; health care added 42,000 jobs against an average monthly gain of 31,000 over the prior 12 months; part-time for economic reasons rose by 339,000 to 4.8 million.",
   "frame_summary": "A statistical release reporting a strong October payroll gain with health care hiring above its twelve-month pace, offering no causal account of labour supply.",
   "signals_supported": [
@@ -51,7 +51,7 @@
   "date_evidence": "November 10, 2026 The Economic Outlook and Some Thoughts on Labor Market Dynamism",
   "verified_at": "2026-11-12T01:19:53Z",
   "date_age_band": "0-3m",
-  "cluster": "Births, deaths and a quieter jobs market",
+  "cluster": "Births, deaths and the US jobs market",
   "key_claim": "Governor Waller says six-month and twelve-month average payroll gains are closer to 80,000 a month, a bit above most estimates of the breakeven level needed to keep unemployment steady, with unemployment at 4.1 percent in October.",
   "frame_summary": "Argues that a labour market that looks stable on the headline numbers is less dynamic than it appears, with low hiring and low firing, and that average job gains only modestly exceed a low breakeven.",
   "signals_supported": [
@@ -76,7 +76,7 @@
   "date_evidence": "Presented to Parliament on 28 October 2026",
   "verified_at": "2026-11-12T01:31:07Z",
   "date_age_band": "0-3m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "The OBR expects net migration to be 70,000 lower on average per year than in its previous forecast, and judges these migrants would have had broadly the same labour market characteristics as the domestic population.",
   "frame_summary": "An independent fiscal forecast in which lower UK net migration trims potential output only slightly, because the migrants lost would have resembled the domestic workforce.",
   "signals_supported": [
@@ -104,7 +104,7 @@
   "date_evidence": "January 13, 2026 (dateline under the author list); meta-article:modified_time: 2026-01-13T16:56:24+00:00",
   "verified_at": "2026-11-12T01:28:12Z",
   "date_age_band": "6-12m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "The authors estimate US net migration between minus 295,000 and minus 10,000 in 2025 and project a 2026 range of minus 925,000 to plus 185,000, likely negative.",
   "frame_summary": "Argues that restrictive policy and enforcement pushed US net migration to near zero or negative in 2025 and will keep it there in 2026, slowing labour force growth, job growth and consumer spending.",
   "signals_supported": [
@@ -131,7 +131,7 @@
   "date_evidence": "ARTICLE · 31 JULY 2026; article:published_time 2026-07-31T01:10:11.000Z",
   "verified_at": "2026-11-12T01:20:38Z",
   "date_age_band": "3-6m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "On 24 July the First Circuit denied the government a stay of the district court ruling, which held the $100,000 payment requirement an unconstitutional tax.",
   "frame_summary": "A law-firm advisory telling employers the $100,000 fee is currently unenforceable but not finally decided.",
   "signals_supported": [
@@ -160,7 +160,7 @@
   "date_evidence": "Published:10/7/2026 10/7/2026",
   "verified_at": "2026-11-12T01:20:44Z",
   "date_age_band": "0-3m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "The proclamation extends the $100,000 payment requirement through 21 September 2027, but the court order blocking collection remains in effect, and on 30 September 2026 a California federal court also found the rule unlawful; the fee is currently not required.",
   "frame_summary": "A university advisory office's status note saying the fee is not currently required but could be reinstated.",
   "signals_supported": [
@@ -187,7 +187,7 @@
   "date_evidence": "article:published_time 2026-06-26T22:00:00+00:00; By Amy Stulick | June 26, 2026",
   "verified_at": "2026-11-12T01:20:51Z",
   "date_age_band": "3-6m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "Immigrants make up 21% of workers in nursing facilities and 24% in residential care settings, per KFF; Miami Jewish Health cut 120 nursing home beds over staffing.",
   "frame_summary": "Argues that the Supreme Court's TPS ruling will strip nursing homes of experienced immigrant staff and worsen access to care.",
   "signals_supported": [
@@ -214,7 +214,7 @@
   "date_evidence": "article:published_time 2026-09-29T21:00:00+00:00; September 29, 2026",
   "verified_at": "2026-11-12T01:20:57Z",
   "date_age_band": "0-3m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "30% of direct care workers nationwide are immigrants; nearly 350,000 Haitian immigrants lost TPS on 4 August; an estimated 53,000 TPS holders worked in health care in 2024.",
   "frame_summary": "Local reporting arguing that refugee suspensions and TPS terminations are worsening a caregiver shortage that employers already could not fill.",
   "signals_supported": [
@@ -243,7 +243,7 @@
   "date_evidence": "Published Oct 28, 2026 12:33 pm KST; article:published_time 2026-10-28T03:33:02.000Z",
   "verified_at": "2026-11-12T01:26:33Z",
   "date_age_band": "0-3m",
-  "cluster": "Births, deaths and a quieter jobs market",
+  "cluster": "Births, deaths and the US jobs market",
   "key_claim": "193,783 babies were born in January to August 2026, up 14.5 percent; marriages fell 1.2 percent in August to 19,218; fertility remains well below the 2.1 replacement rate.",
   "frame_summary": "Presents the birth rebound as driven by more marriages, a larger cohort in their 30s and warmer attitudes to children, while stressing fertility remains far below replacement.",
   "signals_supported": [
@@ -270,7 +270,7 @@
   "date_evidence": "Published 2026.10.28 14:52; article:published_time 2026-10-28T14:52:19+09:00",
   "verified_at": "2026-11-12T01:26:39Z",
   "date_age_band": "0-3m",
-  "cluster": "Births, deaths and a quieter jobs market",
+  "cluster": "Births, deaths and the US jobs market",
   "key_claim": "Monthly births in Korea have risen for 26 consecutive months since July 2024; January to August births grew at the highest rate on record; deaths exceeded births by 6,605 in August.",
   "frame_summary": "Frames August's births as a record-length streak of increases driven by shifting views of childbirth and a larger cohort in their 30s.",
   "signals_supported": [
@@ -295,7 +295,7 @@
   "date_evidence": "Published: 14:34, October 28, 2026",
   "verified_at": "2026-11-12T01:26:44Z",
   "date_age_band": "0-3m",
-  "cluster": "Births, deaths and a quieter jobs market",
+  "cluster": "Births, deaths and the US jobs market",
   "key_claim": "Korea's monthly total fertility rate rose by 0.09 over the year to 0.87 in August 2026.",
   "frame_summary": "A Xinhua wire report attributing Korea's rising births to a changing social mindset toward childbirth and more marriages.",
   "signals_supported": [
@@ -322,7 +322,7 @@
   "date_evidence": "01 October 2026•Update: 01 October 2026",
   "verified_at": "2026-11-12T01:23:02Z",
   "date_age_band": "0-3m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "EU member states gave final approval to the Return Regulation, allowing return hubs in third countries by agreement, indefinite entry bans and detention beyond 24 months for security cases; unaccompanied minors are excluded from hubs.",
   "frame_summary": "A wire report presenting the Council's final approval as a tightening of returns through hubs and security measures, with safeguards attached.",
   "signals_supported": [
@@ -350,7 +350,7 @@
   "date_evidence": "Friday, 02 Oct 2026 | 6:28 AM MYT; datePublished 2026-10-02 06:28:00",
   "verified_at": "2026-11-12T01:31:15Z",
   "date_age_band": "0-3m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "Around two in three people ordered to leave the EU do not depart; the Return Regulation complements the Pact on Migration and Asylum, in effect since 12 June; a common return law does not guarantee more returns.",
   "frame_summary": "A Xinhua analysis arguing the Return Regulation tightens enforcement on paper while its effect on actual departures is doubtful and Europe's ageing economies still need migrant workers.",
   "signals_supported": [
@@ -379,7 +379,7 @@
   "date_evidence": "meta-article:published_time: 2026-10-13T00:30:49+00:00; 13 October 2026",
   "verified_at": "2026-11-12T01:28:20Z",
   "date_age_band": "0-3m",
-  "cluster": "Births, deaths and a quieter jobs market",
+  "cluster": "Births, deaths and the US jobs market",
   "key_claim": "In 2025, 4.81 million people died in the EU and 3.46 million were born, the 14th consecutive year of natural decline; the population still rose to 452 million on net migration of 2.05 million; EU fertility fell to 1.34 in 2024, the lowest of the series.",
   "frame_summary": "An opinion piece arguing that EU population growth now depends entirely on immigration and that migration is substituting for family formation rather than solving low fertility.",
   "signals_supported": [
@@ -405,7 +405,7 @@
   "date_evidence": "Oct 29 2026 - 1:30pm; cXenseParse:publishtime 2026-10-29T13:30:40Z",
   "verified_at": "2026-11-12T01:23:10Z",
   "date_age_band": "0-3m",
-  "cluster": "Restriction tightens on paper faster than in practice",
+  "cluster": "Migration rules tighten, but enforcement lags",
   "key_claim": "The OBR expects UK net migration to fall to 120,000 in 2026, down from 171,000 in 2025 and 331,000 the year before; it peaked at 924,000 in 2023.",
   "frame_summary": "A news piece presenting the OBR forecast as the lowest UK net migration since 1997, set against tighter visa and settlement rules, with a rise forecast later.",
   "signals_supported": [
@@ -433,7 +433,7 @@
   "date_evidence": "Published: November 05, 2026 at 4:15p.m. EST; article:published_time 2026-11-05T21:15:44.341Z",
   "verified_at": "2026-11-12T01:31:22Z",
   "date_age_band": "0-3m",
-  "cluster": "Intake is held flat and reshuffled inside",
+  "cluster": "Migrant numbers held flat, places shifted within them",
   "key_claim": "Canada will admit 380,000 permanent and 370,000 temporary residents a year, the same 2027 and 2028 targets as last year's plan, while more than 600,000 new permanent residents could be added next year by converting temporary residents.",
   "frame_summary": "Reports that Canada keeps its headline admission targets while moving temporary residents to permanent status, noting critics who say the target is being gamed.",
   "signals_supported": [
@@ -458,7 +458,7 @@
   "date_evidence": "November 10, 2026 (dateline under the headline); meta-article:modified_time 2026-11-10T21:23:15+00:00",
   "verified_at": "2026-11-12T01:23:17Z",
   "date_age_band": "0-3m",
-  "cluster": "Intake is held flat and reshuffled inside",
+  "cluster": "Migrant numbers held flat, places shifted within them",
   "key_claim": "The 2027-2029 plan keeps permanent resident admissions at 380,000 a year within a range of 352,500 to 422,000; the 2028 and 2029 targets are notional until 1 November 2027.",
   "frame_summary": "A law-firm client alert summarising the plan neutrally for employers, stressing steady temporary limits and new in-Canada routes to permanent residence.",
   "signals_supported": [
@@ -487,7 +487,7 @@
   "date_evidence": "Oct 20, 2026 · 4 min read; article:published_time 2026-10-20T14:05:01-04:00",
   "verified_at": "2026-11-12T01:31:29Z",
   "date_age_band": "0-3m",
-  "cluster": "Intake is held flat and reshuffled inside",
+  "cluster": "Migrant numbers held flat, places shifted within them",
   "key_claim": "Japan proposed moving 20,000 care-worker slots into the Specified Skilled Worker (i) cap, raising the nursing-care cap without increasing the overall care-worker ceiling, effective April 2027 if the Cabinet approves in December; about 80,000 people held the care status at end July 2026.",
   "frame_summary": "Argues that the care-slot reallocation is a stopgap that lifts one cap inside an unchanged ceiling, which critics read as a planning error rather than a wider opening.",
   "signals_supported": [

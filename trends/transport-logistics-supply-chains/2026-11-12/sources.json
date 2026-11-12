@@ -13,7 +13,7 @@
   "signals_supported": [
    "US-China port-fee truce expiry"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -41,7 +41,7 @@
   "signals_supported": [
    "US-China port-fee truce expiry"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -69,7 +69,7 @@
   "signals_supported": [
    "Hormuz attacks reprice Gulf shipping"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -102,7 +102,7 @@
   "signals_supported": [
    "Hormuz attacks reprice Gulf shipping"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -132,7 +132,7 @@
    "Orderbook hits the water",
    "Suez rebuild releases capacity"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -163,7 +163,7 @@
    "Orderbook hits the water",
    "Suez rebuild releases capacity"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -193,7 +193,7 @@
   "signals_supported": [
    "Suez rebuild releases capacity"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -223,7 +223,7 @@
   "signals_supported": [
    "Suez rebuild releases capacity"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -252,7 +252,7 @@
   "signals_supported": [
    "Rotterdam's container capacity ceiling"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -283,7 +283,7 @@
   "signals_supported": [
    "China-Europe rail as priced hedge"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -313,7 +313,7 @@
   "signals_supported": [
    "China-Europe rail as priced hedge"
   ],
-  "cluster": "The capacity cycle turns",
+  "cluster": "More ships and the Suez return push rates down",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -342,7 +342,7 @@
   "signals_supported": [
    "Shipping's carbon price December vote"
   ],
-  "cluster": "Rulebooks and robots reset costs",
+  "cluster": "Carbon rules and driverless trucks could change costs",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -372,7 +372,7 @@
   "signals_supported": [
    "Shipping's carbon price December vote"
   ],
-  "cluster": "Rulebooks and robots reset costs",
+  "cluster": "Carbon rules and driverless trucks could change costs",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -403,7 +403,7 @@
   "signals_supported": [
    "CORSIA's credit squeeze"
   ],
-  "cluster": "Rulebooks and robots reset costs",
+  "cluster": "Carbon rules and driverless trucks could change costs",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -436,7 +436,7 @@
   "signals_supported": [
    "Driverless trucks run commercial networks"
   ],
-  "cluster": "Rulebooks and robots reset costs",
+  "cluster": "Carbon rules and driverless trucks could change costs",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -465,7 +465,7 @@
   "signals_supported": [
    "Driverless trucks run commercial networks"
   ],
-  "cluster": "Rulebooks and robots reset costs",
+  "cluster": "Carbon rules and driverless trucks could change costs",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -494,7 +494,7 @@
   "signals_supported": [
    "US truckload repricing on supply"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -525,7 +525,7 @@
   "signals_supported": [
    "Wild card: a port cyberattack stops a gateway"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "topic": "Transport, Logistics & Supply Chains",
   "is_evergreen": false,
@@ -558,7 +558,7 @@
   "signals_supported": [
    "Hormuz attacks reprice Gulf shipping"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "verbatim_quote": "A ship has been struck in the Strait of Hormuz nearly every day this month",
   "verbatim_list": [
@@ -589,7 +589,7 @@
   "signals_supported": [
    "Hormuz attacks reprice Gulf shipping"
   ],
-  "cluster": "War and fees keep the cost floor",
+  "cluster": "War, port fees and fewer trucks keep costs high",
   "claim_strength": "verbatim",
   "verbatim_quote": "jumped from 1%-3% of hull value weeks ago to 7.5%-10% currently",
   "topic": "Transport, Logistics & Supply Chains",

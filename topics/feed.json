@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T09:38:47Z",
+  "generated": "2026-11-12T09:57:37Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -354,7 +354,7 @@
       "description": "Freight and shipping markets, ports and their automation, aviation, rail, road haulage, warehousing and the last mile. The decarbonisation of movement: shipping's carbon price, sustainable aviation fuel mandates, electric and hydrogen fleets, autonomous trucks and delivery drones. And the design of the chains themselves: inventory models, nearshoring in practice, supplier networks, and the workforces that keep goods moving.",
       "topic_landing_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/",
       "topic_history_url": "https://decision-intel.shapingtomorrow.com/topics/transport-logistics-supply-chains/history/",
-      "latest_read": "The distance premium unwinds; new cost floors form on land",
+      "latest_read": "Shipping rates fall as the Suez route reopens, while land costs stay high",
       "latest_dates": {
         "scan": "2026-11-06",
         "tracker": "2026-11-12",
@@ -366,7 +366,7 @@
           "date": "2026-11-12",
           "kind": "tracker",
           "type": "Change Tracker",
-          "title": "The distance premium unwinds; new cost floors form on land",
+          "title": "Shipping rates fall as the Suez route reopens, while land costs stay high",
           "summary": "Second Change Tracker on Transport, Logistics & Supply Chains. Ten signals: 4 Accelerating (Suez rebuild releases capacity, orderbook hits the water, US truckload repricing on supply, CORSIA's credit squeeze), 6 Stable and none Fading.",
           "posture": ""
         },

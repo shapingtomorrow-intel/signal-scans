@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T09:35:02Z",
+  "generated": "2026-11-12T09:38:11Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
@@ -11,12 +11,12 @@
       "url": "https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-11-11-safe-partner-share-unset/scan.html"
     },
     "change_tracker": {
-      "title": "Hormuz attacks hit a wartime high as Democrats take Congress and Lula wins",
-      "date": "2026-11-06",
-      "topic": "Geopolitics and Economic Fragmentation",
-      "topic_slug": "geopolitics-economic-fragmentation",
+      "title": "The distance premium unwinds; new cost floors form on land",
+      "date": "2026-11-12",
+      "topic": "Transport, Logistics & Supply Chains",
+      "topic_slug": "transport-logistics-supply-chains",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/geopolitics-economic-fragmentation/2026-11-06/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/transport-logistics-supply-chains/2026-11-12/tracker.html"
     },
     "decision_intelligence": {
       "title": "Who Will Do the Work When Fewer People Arrive and Fewer Are Born",

@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Fri, 13 Nov 2026 09:30:06 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 09:30:17 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>UK Financial Firms Lean Harder on Three AI Model Providers That Sit Outside Critical-Supplier Oversight</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-11-14-ai-models-outside-ctp-perimeter/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-11-14-ai-models-outside-ctp-perimeter/scan.html</guid>
+<pubDate>Sat, 14 Nov 2026 08:00:00 +0000</pubDate>
+<category>Artificial Intelligence &amp; Automation</category>
+<description>UK financial firms lean ever harder on three AI model providers that sit outside critical-supplier oversight. The top three hold 54% of reported model relationships while all four designated Critical Third Parties are cloud firms, so firms' own registers and contracts carry the risk through 2027-2028.</description>
+</item>
+<item>
+<title>Youth Hiring Is Falling Most in the Jobs AI Barely Touches</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-11-14-youth-hiring-slump-outside-ai-jobs/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-11-14-youth-hiring-slump-outside-ai-jobs/scan.html</guid>
+<pubDate>Sat, 14 Nov 2026 08:00:00 +0000</pubDate>
+<category>Workforce, Skills &amp; Organisational Change</category>
+<description>Youth hiring is falling most in the jobs AI barely touches, pointing to a hiring slump rather than AI substitution. Statistics Canada's flow data show the less-exposed youth hiring rate down from 4.0% to 3.3%, so AI-justified graduate intake cuts risk a missing cohort.</description>
+</item>
 <item>
 <title>AI Hardware Becomes the Marginal Buyer of Transpacific Air Freight</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-11-13-ai-sets-airfreight-price/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
 <category>Energy, Infrastructure &amp; Climate Resilience</category>
 <description>US grid equipment is being licensed rather than banned, and the DOE vendor list will decide who supplies it. The order grants licensing, mitigation, prequalification and installed-equipment powers instead of prohibiting anything outright.</description>
-</item>
-<item>
-<title>The Grain Cushion Sits in China While Exporters' Maize Stocks Shrink Into an El Niño Peak</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-13-grain-cushion-sits-in-china/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/climate-nature-food-systems/2026-10-13-grain-cushion-sits-in-china/scan.html</guid>
-<pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
-<category>Climate, Nature &amp; Food Systems</category>
-<description>The world grain cushion is mostly China's reserves, while exporters' maize stocks shrink into an El Niño peak. USDA shows China holding 165.13 of 280.44 million tonnes of corn and major exporters 25.11 million, down from 27.14 million.</description>
-</item>
-<item>
-<title>The Digital Euro's Holding Limit Will Be Set After the Law, Not in It</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-10-12-holding-limit-set-after-the-law/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-10-12-holding-limit-set-after-the-law/scan.html</guid>
-<pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
-<category>Financial Services &amp; Future of Money</category>
-<description>The digital euro's holding limit will be set after the law, so the number that drives bank deposit outflows is still open. Parliament and Council disagree on who adopts it, and the ECB recommends a figure afterwards.</description>
 </item>
 </channel>
 </rss>

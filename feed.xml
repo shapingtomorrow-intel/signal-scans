@@ -5,8 +5,24 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Sat, 14 Nov 2026 09:30:17 +0000</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 09:30:08 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Canada Will Shrink Its Temporary-Resident Share by Converting People, Not by Departures</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-11-15-npr-share-cut-by-conversion/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/demographics-migration-labour-markets/2026-11-15-npr-share-cut-by-conversion/scan.html</guid>
+<pubDate>Sun, 15 Nov 2026 08:00:00 +0000</pubDate>
+<category>Demographics, Migration &amp; Labour Markets</category>
+<description>Canada will cut its temporary-resident share mainly by converting people already in the country, not by departures. The 2027-2029 plan keeps a flat 380,000 headline but adds up to 200,000 in-Canada transitions, lifting the 2027 ceiling to about 662,000 while net outflows stay small.</description>
+</item>
+<item>
+<title>Japan’s Care Co-Payment Rise Will Rest on a Savings Check It Cannot Verify</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-11-15-care-copay-savings-check-unverifiable/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/health-life-sciences-care-systems/2026-11-15-care-copay-savings-check-unverifiable/scan.html</guid>
+<pubDate>Sun, 15 Nov 2026 08:00:00 +0000</pubDate>
+<category>Health, Life Sciences &amp; Care Systems</category>
+<description>Japan's planned rise in the 20% care co-payment will rest on a savings check that municipalities say they cannot verify. The options let users with savings below ¥7 million, ¥5 million or ¥3 million opt back to 10%, but checks miss online banks and cash at home and the My Number asset link has no date.</description>
+</item>
 <item>
 <title>UK Financial Firms Lean Harder on Three AI Model Providers That Sit Outside Critical-Supplier Oversight</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-11-14-ai-models-outside-ctp-perimeter/scan.html</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 14 Oct 2026 08:00:00 +0000</pubDate>
 <category>Defence, Security &amp; Resilience</category>
 <description>UK defence funding goes flat at 2.7% of GDP from 2027/28, and the date for 3% waits on a 2027 spending review. The Treasury has still to identify £4.7 billion, and reports of an October 2027 review are disputed.</description>
-</item>
-<item>
-<title>Brazil's Next President Inherits a Budget with Little Room to Deliver the Pivot Markets Priced</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-10-14-brazil-budget-locks-the-pivot/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-10-14-brazil-budget-locks-the-pivot/scan.html</guid>
-<pubDate>Wed, 14 Oct 2026 08:00:00 +0000</pubDate>
-<category>Geopolitics &amp; Economic Fragmentation</category>
-<description>Brazil's first-round vote priced a fiscal pivot, but the 2027 budget leaves the next president little room to deliver one. Mandatory items are 91.7% of primary spending and the IFI says the surplus target needs a R$35.7 billion contingency, so political risk moves from who wins to how the president and Congress split a first-year adjustment.</description>
-</item>
-<item>
-<title>US Grid Equipment Is Being Licensed, Not Banned, and DOE's Vendor List Decides Who Supplies It</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-10-13-licensed-not-banned-grid-gear/scan.html</guid>
-<pubDate>Tue, 13 Oct 2026 08:00:00 +0000</pubDate>
-<category>Energy, Infrastructure &amp; Climate Resilience</category>
-<description>US grid equipment is being licensed rather than banned, and the DOE vendor list will decide who supplies it. The order grants licensing, mitigation, prequalification and installed-equipment powers instead of prohibiting anything outright.</description>
 </item>
 </channel>
 </rss>

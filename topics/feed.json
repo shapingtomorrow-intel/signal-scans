@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T09:35:49Z",
+  "generated": "2026-11-17T10:54:48Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -13,10 +13,18 @@
       "latest_dates": {
         "scan": "2026-11-17",
         "tracker": "2026-10-22",
-        "di": "2026-09-17",
+        "di": "2026-11-18",
         "cc": "2026-09-18"
       },
       "history": [
+        {
+          "date": "2026-11-18",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "This Winter Will Show Whether Grids Can Serve Both Homes and Data Centres",
+          "summary": "This winter, homes and data centres are competing for the same scarce energy, and governments are starting to decide who wins.",
+          "posture": ""
+        },
         {
           "date": "2026-11-17",
           "kind": "scan",

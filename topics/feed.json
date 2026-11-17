@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T10:57:34Z",
+  "generated": "2026-11-17T11:58:53Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-11-17",
         "tracker": "2026-10-22",
         "di": "2026-11-18",
-        "cc": "2026-09-18"
+        "cc": "2026-11-19"
       },
       "history": [
+        {
+          "date": "2026-11-19",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Governments Will Decide Who Gets Power First, Before Agreeing Who Pays for It",
+          "summary": "With more requests for power than grids can serve, governments are deciding who connects and who is cut off first, while the bill for new supply waits.",
+          "posture": ""
+        },
         {
           "date": "2026-11-18",
           "kind": "brief",

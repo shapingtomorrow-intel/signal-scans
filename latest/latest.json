@@ -1,22 +1,22 @@
 {
-  "generated": "2026-11-19T10:21:38Z",
+  "generated": "2026-11-20T09:35:43Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Europe's Planned Trade Tool Would Cut Market Access Unless a Qualified Majority Objects",
-      "date": "2026-11-18",
-      "topic": "Geopolitics & Economic Fragmentation",
-      "topic_slug": "geopolitics-economic-fragmentation",
+      "title": "Europe's Diesel Carbon Price Starts Trading a Year Before Anyone Owes It",
+      "date": "2026-11-20",
+      "topic": "Transport, Logistics & Supply Chains",
+      "topic_slug": "transport-logistics-supply-chains",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/geopolitics-economic-fragmentation/2026-11-18-market-access-cut-unless-majority-objects/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-11-20-ets2-trades-before-it-binds/scan.html"
     },
     "change_tracker": {
-      "title": "US stablecoin rules are final as stablecoin supply shrinks fastest since 2022",
-      "date": "2026-11-19",
-      "topic": "Financial Services and the Future of Money",
-      "topic_slug": "financial-services-future-of-money",
+      "title": "Brussels sends its first AI Act information requests as December deadlines arrive",
+      "date": "2026-11-20",
+      "topic": "Regulation, Standards and Policy Change",
+      "topic_slug": "regulation-standards-policy-change",
       "posture": "",
-      "url": "https://decision-intel.shapingtomorrow.com/trends/financial-services-future-of-money/2026-11-19/tracker.html"
+      "url": "https://decision-intel.shapingtomorrow.com/trends/regulation-standards-policy-change/2026-11-20/tracker.html"
     },
     "decision_intelligence": {
       "title": "This Winter Will Show Whether Grids Can Serve Both Homes and Data Centres",

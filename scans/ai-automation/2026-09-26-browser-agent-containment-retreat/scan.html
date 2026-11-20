@@ -162,6 +162,16 @@
   
 }
 /* mobile-fit:end */
+  .seo-for { display: flex; gap: 0.35em; color: inherit; font-size: 0.96em; margin: -8px 0 16px; line-height: 1.5; }
+  .seo-for .seo-k { flex: none; font-weight: 700; }
+  .gl { display: flex; gap: 0.4em; }
+  .gl > strong { flex: none; color: #1a237e; }
+  .gl .gl-rows { display: flex; flex-direction: column; gap: 4px; }
+  .gl .gl-row { display: flex; gap: 0.45em; align-items: baseline; }
+  .gl .gl-tag { flex: none; width: 3.1em; text-align: center; font-size: 0.8em; font-weight: 700; border-radius: 10px; padding: 1px 0; }
+  .gl .gl-gain { background: #e3f1e5; color: #1e6b2c; }
+  .gl .gl-lose { background: #fbe4e4; color: #a12323; }
+  @media (max-width: 640px) { .gl { display: block; } .gl .gl-rows { margin-top: 4px; } }
 </style>
 <!-- discovery-meta:start -->
 <link rel="canonical" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-09-26-browser-agent-containment-retreat/scan.html">
@@ -187,6 +197,7 @@
 <article>
 <h2>Agentic Browsers Retreat From the Open Web Into Sandboxes</h2>
 <p class="seo-line">Four vendors shipped AI agents that browse the web inside a user's own login before the security model was solved, and by July 2026 the first of them had already retreated to a sandboxed, remote-controlled browser instead.</p>
+<p class="seo-for"><span class="seo-k">Who is this for:</span> <span class="seo-v">CISOs, AI product and enterprise security leads through to 2027</span></p>
 <p class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.<br class="method-break"><span class="method-human">Scanned and filtered by AI. <a href="https://decision-intel.shapingtomorrow.com/how-we-verify/">Stress-tested and judged by humans</a>.</span></p>
 
 <p>The public debate about AI agents is about speed: how fast they can book a flight, fill a form or clear an inbox. In 2026, OpenAI, Google, Anthropic and Perplexity each shipped a browser agent that reads and clicks through pages inside the user's own logged-in session, carrying the same cookies and saved passwords a person would. Beneath that rollout sits a narrower fact: University of Washington researchers ran a working attack on one of these browsers and found the conditions for the same attack in three more, out of seven tested (<a href="https://www.washington.edu/news/2026/06/30/some-agentic-ai-browsers-come-with-major-cybersecurity-risks-uw-study-finds/" target="_blank" rel="noopener">University of Washington</a>, 30/06/2026). Nine days later OpenAI folded its standalone browser into a sandboxed remote alternative, citing commercial rather than defensive reasons (<a href="https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/" target="_blank" rel="noopener">TechCrunch</a>, 09/07/2026). Product strategy and unsolved security arrived at the same architecture.</p>
@@ -258,7 +269,8 @@
 
 <div class="implications-box">
 <h3>Implications</h3>
-<p>This is a durable architecture shift, not a passing patch cycle, because it relocates where an agent runs rather than patching what it does there. The inflection window is short: the retreat and the governance response both landed inside five months of 2026, and the OECD's framing of agent hijacking as a standing attack surface suggests containment-first is becoming the baseline (<a href="https://oecd.ai/en/wonk/putting-agentic-ai-systems-to-work-what-practitioners-reveal-about-deployment-and-governance" target="_blank" rel="noopener">OECD</a>, 24/09/2026). Vendors and enterprises moving early to sandboxed execution, and the security vendors building the governance layer between agents and credentials, gain a procurement advantage; vendors still shipping local, full-session browsing without containment carry the exposure Mandiant is now cataloguing.</p>
+<p>This is a durable architecture shift, not a passing patch cycle, because it relocates where an agent runs rather than patching what it does there. The inflection window is short: the retreat and the governance response both landed inside five months of 2026, and the OECD's framing of agent hijacking as a standing attack surface suggests containment-first is becoming the baseline (<a href="https://oecd.ai/en/wonk/putting-agentic-ai-systems-to-work-what-practitioners-reveal-about-deployment-and-governance" target="_blank" rel="noopener">OECD</a>, 24/09/2026).</p>
+<p class="kv gl"><strong>Who gains, who loses:</strong><span class="gl-rows"><span class="gl-row"><span class="gl-tag gl-gain">Gain</span><span>Vendors and enterprises moving to sandboxed agents, and agent-security vendors</span></span><span class="gl-row"><span class="gl-tag gl-lose">Lose</span><span>Vendors shipping full-session browsing agents without containment</span></span></span></p><!--/gl-->
 </div>
 
 <div class="early-box">

@@ -76,6 +76,16 @@
   
 }
 /* mobile-fit:end */
+  .seo-for { display: flex; gap: 0.35em; color: inherit; font-size: 0.96em; margin: -8px 0 16px; line-height: 1.5; }
+  .seo-for .seo-k { flex: none; font-weight: 700; }
+  .gl { display: flex; gap: 0.4em; }
+  .gl > strong { flex: none; color: #1a237e; }
+  .gl .gl-rows { display: flex; flex-direction: column; gap: 4px; }
+  .gl .gl-row { display: flex; gap: 0.45em; align-items: baseline; }
+  .gl .gl-tag { flex: none; width: 3.1em; text-align: center; font-size: 0.8em; font-weight: 700; border-radius: 10px; padding: 1px 0; }
+  .gl .gl-gain { background: #e3f1e5; color: #1e6b2c; }
+  .gl .gl-lose { background: #fbe4e4; color: #a12323; }
+  @media (max-width: 640px) { .gl { display: block; } .gl .gl-rows { margin-top: 4px; } }
 </style>
 <!-- discovery-meta:start -->
 <link rel="canonical" href="https://decision-intel.shapingtomorrow.com/scans/ai-automation/2026-05-18-agent-identity-rails/scan.html">
@@ -96,6 +106,7 @@
 <article>
 <h2>Identity Before Capability: The Agent-Authorization Stack Quietly Restructuring Agentic AI by 2028</h2>
 <p class="seo-line">Beneath the agentic-AI capability narrative, NIST's February 2026 AI Agent Standards Initiative, the NCCoE identity-and-authorization concept paper, OpenID Foundation's NIST response, and Okta and Microsoft Entra agent-ID releases are converging into the rails that decide which agents act on whose behalf — a 2026-2028 inflection for IAM, vendor selection and liability.</p>
+<p class="seo-for"><span class="seo-k">Who is this for:</span> <span class="seo-v">Identity and access leads, AI vendors and risk officers through to 2028</span></p>
 <p class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.<br class="method-break"><span class="method-human">Scanned and filtered by AI. <a href="https://decision-intel.shapingtomorrow.com/how-we-verify/">Stress-tested and judged by humans</a>.</span></p>
 
 <p>The consensus on AI and automation is that 2026 is the year agentic AI moves from demo to deployment, with frontier capability, longer context windows and tool integrations the things that matter. Beneath this sits a less obvious shift: the rapid formation of an "agent identity and authorization" stack &mdash; NIST's Center for AI Standards and Innovation, an NCCoE concept paper, OpenID Foundation submissions to federal RFIs, IETF OAuth drafts, and the pivot of dominant IAM vendors to treat agents as first-class non-human identities. These rails will determine which agents are permitted to act on whose behalf, with what audit trail. The board question is no longer "can our agents do X?" but "will our agents be allowed to do X?"</p>
@@ -135,6 +146,7 @@
 
 <h3>Implications</h3>
 <p>The signal catalyses durable change in the enterprise AI stack. The (<a href="https://csrc.nist.gov/pubs/other/2026/02/05/accelerating-the-adoption-of-software-and-ai-agent/ipd" target="_blank">NCCoE concept paper</a>, 05/02/2026) reframes agent governance from a model-quality problem into an identity-and-authorization problem &mdash; a reframing that carries across regulators, IAM vendors and procurement and does not reverse on a slowdown in model capability. The agent-identity layer becomes the addressable market for IAM incumbents (Okta, Microsoft Entra, CyberArk, Ping) and a disqualifying constraint for agent-platform vendors that resist it. The competitive geography of agentic AI is being set not by who has the best model, but by who controls the rails that decide whose model is allowed to act.</p>
+<p class="kv gl"><strong>Who gains, who loses:</strong><span class="gl-rows"><span class="gl-row"><span class="gl-tag gl-gain">Gain</span><span>Identity providers whose agent-ID releases become the default rails</span></span><span class="gl-row"><span class="gl-tag gl-lose">Lose</span><span>Firms deploying agents before identity, authorisation and liability are settled</span></span></span></p><!--/gl-->
 
 <h3>Early Indicators to Monitor</h3>
 <ul>

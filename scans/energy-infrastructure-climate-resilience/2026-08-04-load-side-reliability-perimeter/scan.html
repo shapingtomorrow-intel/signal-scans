@@ -135,6 +135,16 @@
   
 }
 /* mobile-fit:end */
+  .seo-for { display: flex; gap: 0.35em; color: inherit; font-size: 0.96em; margin: -8px 0 16px; line-height: 1.5; }
+  .seo-for .seo-k { flex: none; font-weight: 700; }
+  .gl { display: flex; gap: 0.4em; }
+  .gl > strong { flex: none; color: #1a237e; }
+  .gl .gl-rows { display: flex; flex-direction: column; gap: 4px; }
+  .gl .gl-row { display: flex; gap: 0.45em; align-items: baseline; }
+  .gl .gl-tag { flex: none; width: 3.1em; text-align: center; font-size: 0.8em; font-weight: 700; border-radius: 10px; padding: 1px 0; }
+  .gl .gl-gain { background: #e3f1e5; color: #1e6b2c; }
+  .gl .gl-lose { background: #fbe4e4; color: #a12323; }
+  @media (max-width: 640px) { .gl { display: block; } .gl .gl-rows { margin-top: 4px; } }
 </style>
 <!-- discovery-meta:start -->
 <link rel="canonical" href="https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-08-04-load-side-reliability-perimeter/scan.html">
@@ -160,6 +170,7 @@
 <article>
 <h2>The Regulated Load: Data Centres Are About to Be Treated Like Power Plants</h2>
 <p class="seo-line">FERC has ordered NERC to file mandatory reliability standards and registration criteria for data centres and other computational loads by 31 December 2026, making grid compliance a design, siting and contract variable for operators, utilities and digital-infrastructure investors from 2027.</p>
+<p class="seo-for"><span class="seo-k">Who is this for:</span> <span class="seo-v">Data-centre operators, utilities and digital-infrastructure investors through to 2027</span></p>
 <p class="method-line">Produced using <a href="https://www.shapingtomorrow.com/methodology" target="_blank" rel="noopener">Shaping Tomorrow&rsquo;s six-stage process for converting external change into decision-ready intelligence</a>.<br class="method-break"><span class="method-human">Scanned and filtered by AI. <a href="https://decision-intel.shapingtomorrow.com/how-we-verify/">Stress-tested and judged by humans</a>.</span></p>
 
 <p>The consensus story about data centres and the grid runs one way: demand is outpacing supply, so the task is building generation and wires. In 2026 the regulators reversed the lens.  After events in which a single transmission fault removed roughly 1,500 MW of data-centre load in seconds (<a href="https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/" target="_blank">POWER Magazine</a>, 16/07/2026), NERC escalated to its highest alert level, and on 16 July FERC ordered mandatory reliability standards and registration criteria for computational loads by 31 December 2026 (<a href="https://www.ferc.gov/news-events/news/summaries-july-2026-commission-meeting" target="_blank">FERC</a>, 16/07/2026): the first extension of the mandatory regime beyond generators and wires since NERC’s standards became enforceable in 2005 (<a href="https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/" target="_blank">POWER Magazine</a>, 16/07/2026). Compliance is about to join power procurement on the buildout’s critical path.</p>
@@ -246,7 +257,8 @@
 <div class="implications-box">
 <h3>Implications</h3>
 
-<p>This is durable change because it alters who sits inside the reliability perimeter, and perimeters outlast the conditions that create them. NERC’s standards-authorisation request is explicit that alerts and white papers “are insufficient to fully address the risks” (<a href="https://www.nerc.com/globalassets/standards/projects/2026-02/sar-comment-period/2026-02-computational-load-alignment-phase-1-sar_sc-approved.pdf" target="_blank">NERC</a>, 20/02/2026). The window is narrow: content set between August and December 2026, obligations from 2027. Operators who designed for grid interaction, and vendors of ride-through-capable power trains, gain a compliance moat. Crypto miners whose economics depend on fast voltage-sensitive curtailment, and older fleets with undocumented protection settings, carry the cost.</p>
+<p>This is durable change because it alters who sits inside the reliability perimeter, and perimeters outlast the conditions that create them. NERC’s standards-authorisation request is explicit that alerts and white papers “are insufficient to fully address the risks” (<a href="https://www.nerc.com/globalassets/standards/projects/2026-02/sar-comment-period/2026-02-computational-load-alignment-phase-1-sar_sc-approved.pdf" target="_blank">NERC</a>, 20/02/2026). The window is narrow: content set between August and December 2026, obligations from 2027. Crypto miners whose economics depend on fast voltage-sensitive curtailment, and older fleets with undocumented protection settings, carry the cost.</p>
+<p class="kv gl"><strong>Who gains, who loses:</strong><span class="gl-rows"><span class="gl-row"><span class="gl-tag gl-gain">Gain</span><span>Operators designed for grid interaction, and vendors of ride-through power trains</span></span><span class="gl-row"><span class="gl-tag gl-lose">Lose</span><span>Large loads not designed to ride through grid disturbances</span></span></span></p><!--/gl-->
 </div>
 
 <div class="early-box">

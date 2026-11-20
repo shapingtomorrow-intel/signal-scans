@@ -185,6 +185,14 @@
 /* mobile-fit:end */
   .seo-for { display: flex; gap: 0.35em; color: inherit; font-size: 0.96em; margin: -8px 0 16px; line-height: 1.5; }
   .seo-for .seo-k { flex: none; font-weight: 700; }
+  .gl { display: flex; gap: 0.4em; }
+  .gl > strong { flex: none; color: #1a237e; }
+  .gl .gl-rows { display: flex; flex-direction: column; gap: 4px; }
+  .gl .gl-row { display: flex; gap: 0.45em; align-items: baseline; }
+  .gl .gl-tag { flex: none; width: 3.1em; text-align: center; font-size: 0.8em; font-weight: 700; border-radius: 10px; padding: 1px 0; }
+  .gl .gl-gain { background: #e3f1e5; color: #1e6b2c; }
+  .gl .gl-lose { background: #fbe4e4; color: #a12323; }
+  @media (max-width: 640px) { .gl { display: block; } .gl .gl-rows { margin-top: 4px; } }
 </style>
 <!-- discovery-meta:start -->
 <link rel="canonical" href="https://decision-intel.shapingtomorrow.com/scans/energy-infrastructure-climate-resilience/2026-11-17-ministers-pick-data-centre-connections/scan.html">
@@ -294,7 +302,7 @@
 <!-- FILL (format of 9 November 2026): labelled lines, 90-130 words in all, fixed order. Omit the Precedent line when no cross-domain precedent exists; omit Key source when no structural anchor is in use. -->
 <p class="kv"><strong>Durable or transient:</strong> Durable: regional caps after 2030 keep allocation in government hands beyond the first window (<a href="https://www.gov.uk/government/consultations/accelerating-electricity-network-connections-for-strategic-demand/outcome/accelerating-electricity-network-connections-for-strategic-demand-government-response-accessible-webpage" target="_blank" rel="noopener">DESNZ</a>, 28/10/2026).</p>
 <p class="kv"><strong>Window:</strong> 2027 to 2028, from Ofgem&rsquo;s fee decision to the first window that applies prioritisation.</p>
-<p class="kv"><strong>Who gains, who loses:</strong> Sponsored projects and AI Growth Zone sites gain. Unsponsored developers, smaller independents and sites in capped regions lose released capacity.</p>
+<p class="kv gl"><strong>Who gains, who loses:</strong><span class="gl-rows"><span class="gl-row"><span class="gl-tag gl-gain">Gain</span><span>Sponsored projects and AI Growth Zone sites</span></span><span class="gl-row"><span class="gl-tag gl-lose">Lose</span><span>Unsponsored developers, smaller independents and sites in capped regions</span></span></span></p><!--/gl-->
 <p class="kv"><strong>Key source:</strong> The DESNZ government response of 28 October 2026 is the canonical statement of both measures (<a href="https://www.gov.uk/government/consultations/accelerating-electricity-network-connections-for-strategic-demand/outcome/accelerating-electricity-network-connections-for-strategic-demand-government-response-accessible-webpage" target="_blank" rel="noopener">DESNZ</a>, 28/10/2026).</p>
 </div>
 

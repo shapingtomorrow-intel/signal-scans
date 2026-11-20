@@ -185,6 +185,14 @@
 /* mobile-fit:end */
   .seo-for { display: flex; gap: 0.35em; color: inherit; font-size: 0.96em; margin: -8px 0 16px; line-height: 1.5; }
   .seo-for .seo-k { flex: none; font-weight: 700; }
+  .gl { display: flex; gap: 0.4em; }
+  .gl > strong { flex: none; color: #1a237e; }
+  .gl .gl-rows { display: flex; flex-direction: column; gap: 4px; }
+  .gl .gl-row { display: flex; gap: 0.45em; align-items: baseline; }
+  .gl .gl-tag { flex: none; width: 3.1em; text-align: center; font-size: 0.8em; font-weight: 700; border-radius: 10px; padding: 1px 0; }
+  .gl .gl-gain { background: #e3f1e5; color: #1e6b2c; }
+  .gl .gl-lose { background: #fbe4e4; color: #a12323; }
+  @media (max-width: 640px) { .gl { display: block; } .gl .gl-rows { margin-top: 4px; } }
 </style>
 </head>
 <body>
@@ -305,7 +313,7 @@
 <!-- FILL (format of 9 November 2026): labelled lines, 90-130 words in all, fixed order. Omit the Precedent line when no cross-domain precedent exists; omit Key source when no structural anchor is in use. -->
 <p class="kv"><strong>Durable or transient:</strong> Durable change in how New Zealand insures against dry years: from 2028 its cover rests on imported gas bought on terms that Australian law partly sets.</p>
 <p class="kv"><strong>Window:</strong> November 2026 to end-2029: decisions on the terminal and the bill now, licences and contract claims through 2027, first licensed year from 2028.</p>
-<p class="kv"><strong>Who gains, who loses:</strong> Exporters with uncontracted volumes and buyers who lock in standing options early gain; New Zealand generators buying spot in a dry year lose, as do Australian exporters forced to choose between the home duty and a neighbour.</p>
+<p class="kv gl"><strong>Who gains, who loses:</strong><span class="gl-rows"><span class="gl-row"><span class="gl-tag gl-gain">Gain</span><span>Exporters with uncontracted volumes, and buyers locking in standing options early</span></span><span class="gl-row"><span class="gl-tag gl-lose">Lose</span><span>New Zealand generators buying spot in a dry year, and Australian exporters caught between duties</span></span></span></p><!--/gl-->
 <p class="kv"><strong>Key source:</strong> MBIE&rsquo;s LNG page (<a href="https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-generation-and-markets/gas-market/lng-in-new-zealand" target="_blank" rel="noopener">MBIE</a>, 03/11/2026), which sets the terminal-only design and the post-election decision.</p>
 </div>
 

@@ -1,14 +1,14 @@
 {
-  "generated": "2026-11-20T09:35:43Z",
+  "generated": "2026-11-21T14:03:08Z",
   "note": "Stable redirect URLs live at /latest/<type>/. This manifest mirrors their current targets.",
   "latest": {
     "signal_scan": {
-      "title": "Europe's Diesel Carbon Price Starts Trading a Year Before Anyone Owes It",
-      "date": "2026-11-20",
-      "topic": "Transport, Logistics & Supply Chains",
-      "topic_slug": "transport-logistics-supply-chains",
+      "title": "The Quality Jobs Act Will Lean on GDPR Rights Still Open in the Digital Omnibus",
+      "date": "2026-11-21",
+      "topic": "Workforce, Skills & Organisational Change",
+      "topic_slug": "workforce-skills-organisational-change",
       "posture": "Prepare",
-      "url": "https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-11-20-ets2-trades-before-it-binds/scan.html"
+      "url": "https://decision-intel.shapingtomorrow.com/scans/workforce-skills-organisational-change/2026-11-21-worker-ai-redress-floor-moves/scan.html"
     },
     "change_tracker": {
       "title": "Brussels sends its first AI Act information requests as December deadlines arrive",

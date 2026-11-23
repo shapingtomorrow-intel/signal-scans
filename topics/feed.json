@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T16:20:01Z",
+  "generated": "2026-11-23T17:16:24Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -14,9 +14,17 @@
         "scan": "2026-11-23",
         "tracker": "2026-11-19",
         "di": "2026-11-25",
-        "cc": "2026-09-25"
+        "cc": "2026-11-26"
       },
       "history": [
+        {
+          "date": "2026-11-26",
+          "kind": "cross_cutter",
+          "type": "Action Triggers",
+          "title": "Savers and Platforms Will Pay More When Finance Goes Wrong",
+          "summary": "Losses that banks used to absorb are moving to savers in funds that can cap withdrawals, to the platforms where scams begin and to governments paying more for long-term money.",
+          "posture": ""
+        },
         {
           "date": "2026-11-25",
           "kind": "brief",

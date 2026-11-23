@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T14:37:05Z",
+  "generated": "2026-11-23T16:20:01Z",
   "source": "https://decision-intel.shapingtomorrow.com/topics/feed.json",
   "topics": [
     {
@@ -13,10 +13,18 @@
       "latest_dates": {
         "scan": "2026-11-23",
         "tracker": "2026-11-19",
-        "di": "2026-09-24",
+        "di": "2026-11-25",
         "cc": "2026-09-25"
       },
       "history": [
+        {
+          "date": "2026-11-25",
+          "kind": "brief",
+          "type": "Decision Intelligence",
+          "title": "Who Carries the Loss When Finance Goes Wrong?",
+          "summary": "The authorities that watch the financial system agree on one point this autumn: banks are well placed to absorb a shock, and the risk now sits with the funds, insurers, pension schemes and savers...",
+          "posture": ""
+        },
         {
           "date": "2026-11-23",
           "kind": "scan",

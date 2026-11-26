@@ -1,0 +1,525 @@
+[
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "the regional grid fails to meet PJM's reliability planning standard from 2027 through 2030",
+  "verbatim_list": [
+   "the Commission is moving forward with specific proposals to strengthen Pennsylvania's consumer protections"
+  ],
+  "original_language": "en",
+  "id": "pa_puc",
+  "tier": 1,
+  "publisher": "Pennsylvania Public Utility Commission",
+  "title": "PUC Advances Consumer Safeguards as Data Center Growth Adds New Demands to Electric Grid",
+  "url": "https://www.puc.pa.gov/press-release/2026/puc-advances-consumer-safeguards-as-data-center-growth-adds-new-demands-to-electric-grid-10-1-26",
+  "publication_date": "2026-10-01",
+  "date_source": "byline",
+  "date_evidence": "Visible: Published on 10/1/2026",
+  "verified_at": "2026-11-26T01:11:47Z",
+  "date_age_band": "0-3m",
+  "cluster": "Data centres are told to pay up front and be cut off first",
+  "key_claim": "The Commission voted 4-0 for a Tentative Order proposing that new large loads such as data centres that have not secured sufficient new capacity be curtailed before other customers in tight supply periods; a Final Order is anticipated at the 28 January 2027 public meeting. A PUC-commissioned analysis finds the regional grid fails PJM's reliability planning standard from 2027 through 2030.",
+  "frame_summary": "A regulator's release arguing that new large loads should bear curtailment risk ahead of existing customers to protect ratepayers and reliability.",
+  "signals_supported": [
+   "Curtail-first rules for large loads"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The updated PJM proposal sets the timeline for the RBP procurement to launch March 1.",
+  "verbatim_list": [
+   "PJM Files Amended Reliability Backstop Proposal"
+  ],
+  "original_language": "en",
+  "id": "pjm",
+  "tier": 1,
+  "publisher": "PJM Interconnection (Inside Lines)",
+  "title": "PJM Files Amended Reliability Backstop Proposal",
+  "url": "https://insidelines.pjm.com/pjm-files-amended-reliability-backstop-proposal/",
+  "publication_date": "2026-10-29",
+  "date_source": "byline",
+  "date_evidence": "Visible dateline: October 29, 2026",
+  "verified_at": "2026-11-26T01:13:22Z",
+  "date_age_band": "0-3m",
+  "cluster": "Batteries leave grids better placed for winter as PJM refiles its plan",
+  "key_claim": "PJM filed an amended Reliability Backstop Procurement at FERC changing cost allocation, LSE credit requirements and LSE exit responsibilities, aiming to launch on 1 March 2027 to fill an approximately 6,800 MW shortfall from the 2028/2029 Base Residual Auction.",
+  "frame_summary": "The grid operator's own account, presenting the amended filing as a measured, consensus-consistent fix to a capacity shortfall caused by large-load growth.",
+  "signals_supported": [
+   "Capacity-market scarcity pricing"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Battery storage capacity has more than doubled to 38 GW, while hard coal and lignite capacity has decreased by nearly 6 GW.",
+  "verbatim_list": [
+   "Traces of adequacy risk are also visible in the East of Denmark (bidding zone DK2), Finland, and Northern Ireland."
+  ],
+  "original_language": "en",
+  "id": "entsoe",
+  "tier": 1,
+  "publisher": "ENTSO-E",
+  "title": "ENTSO-E Winter Outlook 2026-2027: Europe is prepared. Some risks remain in specific areas.",
+  "url": "https://www.entsoe.eu/news/2026/11/13/entso-e-winter-outlook-2026-2027-europe-is-prepared-some-risks-remain-in-specific-areas/",
+  "publication_date": "2026-11-13",
+  "date_source": "byline",
+  "date_evidence": "Visible: Brussels, 13 November 2026",
+  "verified_at": "2026-11-26T01:16:05Z",
+  "date_age_band": "0-3m",
+  "cluster": "Batteries leave grids better placed for winter as PJM refiles its plan",
+  "key_claim": "Adequacy across Europe is favourable this winter, with risks in poorly interconnected systems; battery storage more than doubled to 38 GW and hard coal and lignite fell by nearly 6 GW.",
+  "frame_summary": "The transmission operators' body arguing the winter is adequately covered overall, with localised risks kept in balance by cross-border coordination and national risk plans.",
+  "signals_supported": [
+   "Battery storage scaling"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The four-year average global temperature for 2023–2026 is also expected to exceed 1.5°C above pre-industrial levels.",
+  "verbatim_list": [
+   "Meanwhile, Europe experienced its second warmest October on record."
+  ],
+  "original_language": "en",
+  "id": "copernicus",
+  "tier": 1,
+  "publisher": "Copernicus Climate Change Service",
+  "title": "Copernicus: Warmest October on record with 2026 virtually certain to exceed 1.5°C",
+  "url": "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+  "publication_date": "2026-11-05",
+  "date_source": "byline",
+  "date_evidence": "Visible: Date: 5th November 2026 (newsflash dateline Bonn, 06/11/2026)",
+  "verified_at": "2026-11-26T01:15:39Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "October 2026 was the warmest October on record globally, 1.75°C above pre-industrial; 2026 is virtually certain to exceed 1.5°C; Europe had its second-warmest October.",
+  "frame_summary": "A scientific-agency bulletin framing record 2026 warmth and a very strong El Niño as part of a continuing human-driven warming trend.",
+  "signals_supported": [
+   "Heat as an operating constraint"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "ERCOT has said that it is still working to complete its audit and plans to report its full findings on December 10.",
+  "verbatim_list": [
+   "The pause is a gubernatorial directive, not a rule or a statute, and it binds only the current administration."
+  ],
+  "original_language": "en",
+  "id": "gibson",
+  "tier": 2,
+  "publisher": "Gibson Dunn",
+  "title": "Updated: Texas Data Center Critical Dates and Procedures Following the 2026 Elections",
+  "url": "https://www.gibsondunn.com/texas-data-center-critical-dates-and-procedures-following-the-2026-elections/",
+  "publication_date": "2026-11-18",
+  "date_source": "byline",
+  "date_evidence": "Visible: Client Alert | November 18, 2026; UPDATE (NOVEMBER 18, 2026). meta article:published_time 2026-11-16T19:57:13+00:00 is the first version",
+  "verified_at": "2026-11-26T01:12:08Z",
+  "date_age_band": "0-3m",
+  "cluster": "Data centres are told to pay up front and be cut off first",
+  "key_claim": "ERCOT plans to report full audit findings on 10 December; the PUCT open meeting is expected on 17 December; TCEQ resumed data-centre permit processing; the governor-elect, who takes office on 19 January 2027, has pledged a moratorium.",
+  "frame_summary": "A law-firm alert framing the Texas data-centre rules as a calendar-driven transition risk, with the audit, Batch Zero and political turnover all liable to change before the 2027 session ends.",
+  "signals_supported": [
+   "Data-centre load verification"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "ERCOT now expects to conclude this audit and verification on or around December 10, 2026.",
+  "verbatim_list": [
+   "requiring developers to post $50,000 per MW of requested capacity prior to interconnection studies"
+  ],
+  "original_language": "en",
+  "id": "whitecase",
+  "tier": 2,
+  "publisher": "White & Case",
+  "title": "PUCT sets financial commitments for data center interconnection as governor pauses permit approvals",
+  "url": "https://www.whitecase.com/insight-alert/puct-sets-financial-commitments-data-center-interconnection-governor-pauses-permit",
+  "publication_date": "2026-09-25",
+  "date_source": "byline",
+  "date_evidence": "Visible dateline: 25 September 2026",
+  "verified_at": "2026-11-26T01:12:51Z",
+  "date_age_band": "0-3m",
+  "cluster": "Data centres are told to pay up front and be cut off first",
+  "key_claim": "The PUCT final rule of 18 September 2026 covers large loads of 75 MW or more in ERCOT and requires developers to post $50,000 per MW of requested capacity before interconnection studies; ERCOT expects to conclude its audit on or around 10 December 2026.",
+  "frame_summary": "A law-firm alert arguing the PUCT rule and the permit freeze raise upfront collateral and cost barriers for large loads and close off-grid workarounds.",
+  "signals_supported": [
+   "Data-centre load verification"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Five of the six ISOs met FERC's November 16 show cause deadline for final responses.",
+  "verbatim_list": [
+   "FERC has accepted none of the filings yet.",
+   "Since July 2023, two thirds of the average MISO hub's hours above $100/MWh have come in stretches of four hours or less."
+  ],
+  "original_language": "en",
+  "id": "modo",
+  "tier": 2,
+  "publisher": "Modo Energy",
+  "title": "How five grid operators answered FERC's large load show cause orders",
+  "url": "https://modoenergy.com/research/en/ferc-large-load-show-cause-orders-grid-operator-responses",
+  "publication_date": "2026-11-19",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta article:published_time 2026-11-19T18:39:34+0000",
+  "verified_at": "2026-11-26T01:14:27Z",
+  "date_age_band": "0-3m",
+  "cluster": "Data centres are told to pay up front and be cut off first",
+  "key_claim": "Five of the six ISOs met FERC's 16 November show-cause deadline; four propose a new study process, a curtailable class of service and rules keeping upgrade costs off existing customers; FERC has accepted none of the filings yet.",
+  "frame_summary": "A market-analytics piece arguing that data-centre growth has outrun interconnection rules and that price-based curtailment could bite harder than the filings suggest, with on-site storage the likely way through.",
+  "signals_supported": [
+   "Large-load interconnection rules"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Dem steht nur eine begrenzte Zahl verfügbarer Netzanschlusspunkte gegenüber, die überwiegend erst ab 2029 nutzbar sind.",
+  "verbatim_list": [
+   "Wer ein Angebot erhält, muss es bis zum 31. Dezember 2026 durch Zahlung einer Realisierungskaution von 1.500 EUR/MW annehmen."
+  ],
+  "original_language": "de",
+  "id": "gleiss",
+  "tier": 2,
+  "publisher": "Gleiss Lutz",
+  "title": "Update Netzanschluss: Abschluss des Reifegradverfahrens – wie geht es weiter und was ist zu beachten?",
+  "url": "https://www.gleisslutz.com/de/know-how/update-netzanschluss-abschluss-des-reifegradverfahrens-wie-geht-es-weiter-und-was-ist-zu-beachten",
+  "publication_date": "2026-11-04",
+  "date_source": "byline",
+  "date_evidence": "Visible date at foot of article: 04.11.2026",
+  "verified_at": "2026-11-26T01:18:44Z",
+  "date_age_band": "0-3m",
+  "cluster": "Data centres are told to pay up front and be cut off first",
+  "key_claim": "Germany's four TSOs notify results of the first maturity-based connection cycle by 30 November 2026 after 347 applications totalling about 156 GW; offers must be accepted by 31 December 2026 with a EUR 1,500/MW deposit; connection points are mostly usable only from 2029.",
+  "frame_summary": "A law-firm advisory arguing that the new maturity-based allocation replaces first-come-first-served but is more open to legal challenge, so applicants should act early on rejections.",
+  "signals_supported": [
+   "Large-load interconnection rules"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The Commission is right to shift from responding to disasters to reducing risk before they strike.",
+  "verbatim_list": [
+   "The real test now is whether Member States take ownership and turn this framework into action."
+  ],
+  "original_language": "en",
+  "id": "wri",
+  "tier": 2,
+  "publisher": "World Resources Institute",
+  "title": "STATEMENT: EU Climate Resilience Framework Sets the Right Direction, but Finance and Accountability Will Determine Its Impact",
+  "url": "https://www.wri.org/news/statement-eu-climate-resilience-framework-sets-right-direction-finance-and-accountability-will",
+  "publication_date": "2026-10-29",
+  "date_source": "byline",
+  "date_evidence": "Visible dateline: BRUSSELS (October 29, 2026); meta wri_published October 29 2026",
+  "verified_at": "2026-11-26T01:17:12Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "The Commission presented its Framework for Climate Resilience with a proposed European Climate Resilience Law, a common reference scenario up to 3°C, national resilience plans and outcome-based indicators rather than binding targets.",
+  "frame_summary": "A supportive statement welcoming the shift from disaster response to risk reduction but arguing that funding and binding accountability will decide whether it works.",
+  "signals_supported": [
+   "EU climate resilience plan"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The J.H. Campbell power plant had been set to retire in May 2025.",
+  "verbatim_list": [
+   "Over court objections, DOE issues 7th order to keep Michigan coal plant online"
+  ],
+  "original_language": "en",
+  "id": "ud_campbell",
+  "tier": 3,
+  "publisher": "Utility Dive",
+  "title": "Over court objections, DOE issues 7th order to keep Michigan coal plant online",
+  "url": "https://www.utilitydive.com/news/over-court-objections-doe-issues-order-campbell-coal-plant/874733/",
+  "publication_date": "2026-11-16",
+  "date_source": "meta:date",
+  "date_evidence": "meta article_date_original: Monday, November 16, 2026, 08:56 AM; visible: Published Nov. 16, 2026",
+  "verified_at": "2026-11-26T01:14:58Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "DOE's seventh emergency order keeps the 1,420 MW Campbell plant running for 90 days after a September appeals court decision vacated the prior order; a rehearing request is pending; Consumers reported $303 million in costs through September.",
+  "frame_summary": "A news brief treating the order as legally contested and costly, giving critics the prominent voice while DOE's rationale goes unanswered.",
+  "signals_supported": [
+   "Emergency-order reliability governance"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Ensuring coal plants such as the Campbell Plant are available to operate has prevented blackouts and likely saved lives.",
+  "verbatim_list": [
+   "Federal energy officials order Campbell coal plant to keep running through February despite court ruling"
+  ],
+  "original_language": "en",
+  "id": "pdet",
+  "tier": 3,
+  "publisher": "Planet Detroit",
+  "title": "Federal energy officials order Campbell coal plant to keep running through February despite court ruling",
+  "url": "https://planetdetroit.org/2026/11/campbell-coal-plant-federal-order-costs/",
+  "publication_date": "2026-11-17",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta article:published_time 2026-11-17T17:57:26+00:00; visible November 17, 2026",
+  "verified_at": "2026-11-26T01:15:11Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "The seventh consecutive 90-day order, issued 13 November, runs through 12 February 2027; DOE has sought full-court rehearing of the D.C. Circuit's 11 September ruling; extra costs are passed to MISO ratepayers.",
+  "frame_summary": "Local reporting framing the order as legal overreach that is costing ratepayers, giving local and environmental critics the closing voice.",
+  "signals_supported": [
+   "Emergency-order reliability governance"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "A slowdown in generator retirements is also contributing to the improved resource outlook, NERC said.",
+  "verbatim_list": [
+   "Batteries, gas helped add 26.2 GW to peak resources since last winter: NERC"
+  ],
+  "original_language": "en",
+  "id": "ud_nerc",
+  "tier": 3,
+  "publisher": "Utility Dive",
+  "title": "Batteries, gas helped add 26.2 GW to peak resources since last winter: NERC",
+  "url": "https://www.utilitydive.com/news/el-nino-challenge-grid-operators-winter-nerc/875156/",
+  "publication_date": "2026-11-19",
+  "date_source": "meta:date",
+  "date_evidence": "meta article_date_original: Thursday, November 19, 2026, 06:38 AM; visible: Published Nov. 19, 2026",
+  "verified_at": "2026-11-26T01:15:02Z",
+  "date_age_band": "0-3m",
+  "cluster": "Batteries leave grids better placed for winter as PJM refiles its plan",
+  "key_claim": "NERC's 2026-2027 Winter Reliability Assessment finds on-peak capacity grew 26.2 GW, led by batteries and gas, with no area at high risk of shortfall but gas pipeline and fuel risks in extreme cold.",
+  "frame_summary": "Reports the assessment as good news on resources that still warrants caution about El Niño and fuel and transmission weak spots.",
+  "signals_supported": [
+   "Battery storage scaling"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Slot reservations are not firm orders, and 58 GW of the 122 GW total still sits in that category.",
+  "verbatim_list": [
+   "GE Vernova's Gas Power Backlog and Reservations Reach 122 GW as Power Orders Jump 178%"
+  ],
+  "original_language": "en",
+  "id": "turbo",
+  "tier": 3,
+  "publisher": "Turbomachinery Magazine",
+  "title": "GE Vernova's Gas Power Backlog and Reservations Reach 122 GW as Power Orders Jump 178%",
+  "url": "https://www.turbomachinerymag.com/view/ge-vernova-q3-2026-gas-power-backlog-122-gw-trench-acquisition",
+  "publication_date": "2026-10-29",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta article:published_time 2026-10-29T17:49:45.134Z; visible October 29, 2026",
+  "verified_at": "2026-11-26T01:13:36Z",
+  "date_age_band": "0-3m",
+  "cluster": "Batteries leave grids better placed for winter as PJM refiles its plan",
+  "key_claim": "GE Vernova's gas backlog plus slot reservations rose from 116 GW to 122 GW in the third quarter, with at least 130 GW expected by end-2026; 58 GW of the total is reservations rather than firm orders.",
+  "frame_summary": "Trade press reading the results as strong evidence of accelerating gas-turbine demand while flagging that slot reservations are not firm orders and conversion is the real test.",
+  "signals_supported": [
+   "AI data-centre electricity demand"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "It will require a 2/3 vote from both the State Senate and Assembly.",
+  "verbatim_list": [
+   "The legislation does not limit subrogation."
+  ],
+  "original_language": "en",
+  "id": "kcra",
+  "tier": 3,
+  "publisher": "KCRA",
+  "title": "Gov. Newsom considers special legislative session on wildfire liability",
+  "url": "https://www.kcra.com/article/newsom-special-session-wildfire-liability/73574923",
+  "publication_date": "2026-09-01",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta article:published_time 2026-09-01T03:42:00Z; visible Updated: 8:42 PM PDT Aug 31, 2026",
+  "verified_at": "2026-11-26T01:16:48Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "Newsom did not rule out a special session on utility wildfire liability after lawmakers blocked his push on subrogation; the end-of-session bill limits some attorney fees and CEO bonuses but does not limit subrogation.",
+  "frame_summary": "Straight news framing the story as market and utility pressure on the governor in a standoff with Democrats over insurers' right to recover losses.",
+  "signals_supported": [
+   "Utility wildfire-liability exposure"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "Isaias, a category 3 storm, did not form until Oct. 6, making it the latest first hurricane in 121 years.",
+  "verbatim_list": [
+   "The 2026 Atlantic hurricane season sputtered to a close with only one hurricane under its belt: Isaias."
+  ],
+  "original_language": "en",
+  "id": "wbur",
+  "tier": 3,
+  "publisher": "WBUR",
+  "title": "There was just one Atlantic hurricane this year. A repeat next year is unlikely",
+  "url": "https://www.wbur.org/news/2026/11/24/there-was-just-one-atlantic-hurricane-this-year-a-repeat-next-year-is-unlikely",
+  "publication_date": "2026-11-24",
+  "date_source": "byline",
+  "date_evidence": "Visible: November 24, 2026",
+  "verified_at": "2026-11-26T01:15:47Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "The 2026 Atlantic season had 10 named storms and one hurricane, Isaias, which formed on 6 October and made landfall in Florida; El Niño is projected to peak by January.",
+  "frame_summary": "Reporting that frames the quiet season as a temporary effect of a record El Niño and argues a repeat next year is unlikely.",
+  "signals_supported": [
+   "Heat as an operating constraint"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "At first glance, 2026 appears to have been a relatively favorable year for the insurance industry.",
+  "verbatim_list": [
+   "Global Insured Catastrophe Losses Fall to Lowest 9-Month Level Since 2019: Report"
+  ],
+  "original_language": "en",
+  "id": "carrier",
+  "tier": 3,
+  "publisher": "Carrier Management",
+  "title": "Global Insured Catastrophe Losses Fall to Lowest 9-Month Level Since 2019: Report",
+  "url": "https://www.carriermanagement.com/news/2026/10/22/292862.htm",
+  "publication_date": "2026-10-22",
+  "date_source": "byline",
+  "date_evidence": "Visible: October 22, 2026 (syndicated from Insurance Journal, 2026/10/21)",
+  "verified_at": "2026-11-26T01:15:56Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "Gallagher Re puts global insured natural catastrophe losses at $92 billion in the first nine months of 2026, the lowest since 2019; Isaias is expected to produce a low- to mid-single-digit billion insured loss.",
+  "frame_summary": "Reports a benign loss year but argues the quiet period is not evidence of lower underlying catastrophe risk and should be used to reassess exposures.",
+  "signals_supported": [
+   "Heat as an operating constraint"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": false,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "A partir del 1 de enero de 2029, el porcentaje exigido en esas mismas horas subirá al 70%.",
+  "verbatim_list": [
+   "El nuevo texto duplica ese margen hasta los 36 meses, lo que permite recurrir a instalaciones con más antigüedad."
+  ],
+  "original_language": "es",
+  "id": "roams",
+  "tier": 3,
+  "publisher": "Roams",
+  "title": "El Gobierno suaviza el decreto de centros de datos: más plazo, pero desconexiones sin compensación",
+  "url": "https://roams.es/actualidad/energia/gobierno-suaviza-decreto-centros-datos-mas-plazo-desconexiones-sin-compensacion/",
+  "publication_date": "2026-10-27",
+  "date_source": "byline",
+  "date_evidence": "Visible byline: Sergio Soto 27 de octubre de 2026 - 17:30",
+  "verified_at": "2026-11-26T01:18:19Z",
+  "date_age_band": "0-3m",
+  "cluster": "Data centres are told to pay up front and be cut off first",
+  "key_claim": "Spain's revised data-centre decree, sent to the Consejo de Estado on 26 October, raises the threshold to 10 MW, requires renewable matching rising to 70% in peak hours from 2029, doubles the plant-age margin to 36 months, and requires centres joining Red Eléctrica's SRAP to accept disconnection without compensation.",
+  "frame_summary": "Trade reporting framing the revision as a government concession, more time and softer terms, bought at the price of uncompensated grid disconnections, against continued sector opposition.",
+  "signals_supported": [
+   "Curtail-first rules for large loads"
+  ]
+ },
+ {
+  "topic": "Energy, Infrastructure and Climate Resilience",
+  "is_evergreen": false,
+  "is_structural_anchor": false,
+  "paywalled": false,
+  "treat_directionally": true,
+  "claim_strength": "verbatim",
+  "verbatim_quote": "The Eaton fire, reportedly started by Edison’s negligence, could cost between $14 billion and $18 billion.",
+  "verbatim_list": [
+   "Now just before Thanksgiving suddenly a shareholder liability cap is on the table."
+  ],
+  "original_language": "en",
+  "id": "cw",
+  "tier": 4,
+  "publisher": "Consumer Watchdog",
+  "title": "LA Times Reports PG&E and Edison Have Secret Thanksgiving Surprise To Limit Shareholders' Liability For Utility-Caused Fires In Special Session",
+  "url": "https://consumerwatchdog.org/energy/la-times-reports-pge-and-edison-have-secret-thanksgiving-surprise-to-limit-shareholders-liability-for-utility-caused-fires-in-special-session/",
+  "publication_date": "2026-11-03",
+  "date_source": "meta:article:published_time",
+  "date_evidence": "meta article:published_time 2026-11-03T10:46:21-08:00; visible PUBLISHED ON November 3, 2026",
+  "verified_at": "2026-11-26T01:16:31Z",
+  "date_age_band": "0-3m",
+  "cluster": "Customers pay for emergency orders and fires as the heat keeps rising",
+  "key_claim": "Citing the LA Times, PG&E proposes limiting shareholder liability for negligent fires in a special session before Thanksgiving; the Eaton fire could cost $14 billion to $18 billion.",
+  "frame_summary": "An advocacy statement arguing a shareholder liability cap would be a bailout that creates moral hazard and shifts fire costs to ratepayers.",
+  "signals_supported": [
+   "Utility wildfire-liability exposure"
+  ]
+ }
+]

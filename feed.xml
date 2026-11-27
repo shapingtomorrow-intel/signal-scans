@@ -5,8 +5,16 @@
 <link>https://decision-intel.shapingtomorrow.com/</link>
 <description>Daily weak-signal scans from the Shaping Tomorrow horizon. Each scan surfaces one structural development beneath the consensus narrative, with a tier-classified evidence base and a decision posture (Monitor, Prepare, or Decide).</description>
 <language>en-gb</language>
-<lastBuildDate>Thu, 26 Nov 2026 09:30:11 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 09:36:25 +0000</lastBuildDate>
 <atom:link href="https://decision-intel.shapingtomorrow.com/feed.xml" rel="self" type="application/rss+xml" />
+<item>
+<title>Rotterdam Sheds a Fifth of Its Transshipment as North Europe's Quays Run Full</title>
+<link>https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-11-27-quay-capacity-rations-cargo/scan.html</link>
+<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/transport-logistics-supply-chains/2026-11-27-quay-capacity-rations-cargo/scan.html</guid>
+<pubDate>Fri, 27 Nov 2026 08:00:00 +0000</pubDate>
+<category>Transport, Logistics &amp; Supply Chains</category>
+<description>Quay space, not ship space, is now the binding constraint at North Europe's container gateways. Rotterdam shed 20% of its transshipment in nine months to protect hinterland cargo, yards at the main hubs run above 90% utilisation, and 2027's capacity surplus adds ships but no berths, so 2027-2028 contracts should price port risk even as rates fall.</description>
+</item>
 <item>
 <title>Canada's Defence Bank Signs With a Fifth of Its Capital and No Other G7 Shareholder</title>
 <link>https://decision-intel.shapingtomorrow.com/scans/defence-security-resilience/2026-11-25-defence-bank-short-of-capital/scan.html</link>
@@ -398,14 +406,6 @@
 <pubDate>Mon, 26 Oct 2026 08:00:00 +0000</pubDate>
 <category>Financial Services &amp; Future of Money</category>
 <description>Banks are getting capital parity for tokenised securities by supervisory letter, on a legal test no rulebook defines. The PRA treats it as interim until a 2028 consultation, the Basel update is due by end-2026, and the EBA says the EU definition of a financial instrument needs legislation.</description>
-</item>
-<item>
-<title>A €825 Million Fine Puts a Price on Automated Decisions While Brussels Simplifies the GDPR</title>
-<link>https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-10-26-automated-decisions-priced-by-fine/scan.html</link>
-<guid isPermaLink="true">https://decision-intel.shapingtomorrow.com/scans/regulation-standards-policy-change/2026-10-26-automated-decisions-priced-by-fine/scan.html</guid>
-<pubDate>Mon, 26 Oct 2026 08:00:00 +0000</pubDate>
-<category>Regulation, Standards &amp; Policy Change</category>
-<description>Enforcement of the GDPR ban on fully automated decisions has turned expensive, even as the Digital Omnibus loosens other GDPR rules. A nearly EUR 825 million fine on Uber puts a priced exposure on automated suspensions and declines.</description>
 </item>
 </channel>
 </rss>
